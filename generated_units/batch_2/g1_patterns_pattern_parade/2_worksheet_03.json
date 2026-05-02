@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_patterns_pattern_parade",
+  "lesson_number": 3,
+  "worksheet_title": "Same Rule, Three Ways",
+  "purpose": "Independent practice of C1.2 — translating one given pattern rule into two additional representations (sound, body) while preserving the rule.",
+  "student_learning_goal": "I can take one rule and show it as a parade of animals, sounds, and movements.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can take one rule and show it as a parade of animals, sounds, and movements.",
+    "character_watermark": "Coco the Conductor in the top-right corner with his baton raised mid-conduct, signalling 'translate the rule'. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Translate the rule into sound and body",
+          "student_instructions": "The animal parade at the top has the rule ABB. Use the SAME rule to fill the sound parade and the body parade below.",
+          "visual_layout": "Top: a 6-cell horizontal parade strip pre-filled with animals: Bea-Finn-Finn-Bea-Finn-Finn. To the right of this strip, a small label reading 'Rule: ABB'. Middle: an empty 6-cell parade strip with dashed cell outlines, labelled 'Sound parade'. To the right, a small key showing two sound icons (clap, stomp). Bottom: an empty 6-cell parade strip with dashed cell outlines, labelled 'Body parade'. To the right, a small key showing two body icons (tall figure, small figure crouching).",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_TOP",
+              "description": "A 6-cell horizontal parade strip pre-filled in order: Bea, Finn, Finn, Bea, Finn, Finn (animal ABB). Footprints beneath. Label 'Rule: ABB' shown to the right.",
+              "placement": "Top of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "animal",
+                "parade",
+                "rule"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_TOP at Top of Part 1.: the student-facing words (animal, parade, rule) name what the image shows. Image content: A 6-cell horizontal parade strip pre-filled in order: Bea, Finn, Finn, Bea, Finn, Finn (animal ABB). Footprints beneath. Label 'Rule: ABB' s… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P1_SOUND",
+              "description": "An empty 6-cell horizontal parade strip with dashed cell outlines, labelled 'Sound parade' to the left. Footprints beneath. To the right, a small reference key showing two icons: clap (open hand) and stomp (footprint), each ~0.6in tall, named beneath.",
+              "placement": "Middle of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "sound"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_SOUND at Middle of Part 1.: the student-facing words (parade, sound) name what the image shows. Image content: An empty 6-cell horizontal parade strip with dashed cell outlines, labelled 'Sound parade' to the left. Footprints beneath. To the right, a… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P1_BODY",
+              "description": "An empty 6-cell horizontal parade strip with dashed cell outlines, labelled 'Body parade' to the left. Footprints beneath. To the right, a small reference key showing two body icons: a tall stick figure standing, and a small stick figure crouching, each ~0.7in tall, named beneath.",
+              "placement": "Bottom of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "body"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_BODY at Bottom of Part 1.: the student-facing words (parade, body) name what the image shows. Image content: An empty 6-cell horizontal parade strip with dashed cell outlines, labelled 'Body parade' to the left. Footprints beneath. To the right, a s… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "draw_or_sticker",
+          "answer_key": "Sound parade: clap-stomp-stomp-clap-stomp-stomp (or any valid AB choice from the key, applied as ABB). Body parade: tall-small-small-tall-small-small. Both must follow the ABB rule consistently. Accept any reasonable representation that preserves the structural ABB rule using the icons in the key."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Which two have the SAME rule?",
+          "student_instructions": "Look at all three parades. Two of them follow the same rule. Circle the two that match. Write the rule on the line.",
+          "visual_layout": "Three short horizontal parade strips stacked vertically: (1) animal AAB (Bea-Bea-Finn-Bea-Bea-Finn), (2) sound AAB (clap-clap-stomp-clap-clap-stomp), (3) body ABB (tall-small-small-tall-small-small). Each strip is ~5in wide with a thin black border surrounding it (so the student can circle the entire strip with one circle). To the right of each strip, a label: 'Animal parade', 'Sound parade', 'Body parade'. Below all three: 'The matching rule is: ____' with a writing line.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_ANIMAL",
+              "description": "A 6-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Bea, Finn, Bea, Bea, Finn (animal AAB pattern). Thin black box surrounding the entire strip so it can be circled. Label 'Animal parade' to the right. Approximately 5in wide.",
+              "placement": "Top row of Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "pattern",
+                "parade",
+                "animals"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_ANIMAL at Top row of Part 2.: the student-facing words (pattern, parade, animals) name what the image shows. Image content: A 6-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Bea, Finn, Bea, Bea, Finn (animal AAB pattern). Thin black box… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P2_SOUND",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells filled in order: clap, clap, stomp, clap, clap, stomp (sound AAB pattern using clap and stomp icons). Thin black box around the strip. Label 'Sound parade' to the right. Approximately 5in wide.",
+              "placement": "Middle row of Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "match",
+                "pattern",
+                "sound",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_SOUND at Middle row of Part 2.: the student-facing words (match, pattern, sound, parade) name what the image shows. Image content: A 6-cell horizontal parade strip in matching style. Cells filled in order: clap, clap, stomp, clap, clap, stomp (sound AAB pattern using cla… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P2_BODY",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells filled in order: tall figure, small figure crouching, small figure crouching, tall figure, small figure crouching, small figure crouching (body ABB pattern). Thin black box around the strip. Label 'Body parade' to the right. Approximately 5in wide.",
+              "placement": "Bottom row of Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "match",
+                "pattern",
+                "body",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_BODY at Bottom row of Part 2.: the student-facing words (match, pattern, body, parade) name what the image shows. Image content: A 6-cell horizontal parade strip in matching style. Cells filled in order: tall figure, small figure crouching, small figure crouching, tall… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "The student should circle the Animal parade AND the Sound parade. Both follow the AAB rule. The Body parade is ABB and does not match. The student should write 'AAB' on the line. A child who circles the matching pair AND writes the correct label has demonstrated abstraction past surface features — Level 3 on C1.2."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: You pick the rule",
+          "student_instructions": "Pick a rule from the box. Write it on the line. Build all three parades — animal, sound, body — using the SAME rule.",
+          "visual_layout": "Top: a small rule-bank box (AB / ABB / AAB / ABC) and a writing line: 'My rule: ____'. Below: three empty parade strips stacked vertically labelled 'Animal parade', 'Sound parade', 'Body parade'. Each strip has 6 cells with light-grey solid outlines. Beside each strip, a small reference key (animals on top, sound icons on middle, body icons on bottom).",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_RULES",
+              "description": "A horizontal rule-bank box ~5in wide × 0.8in tall containing AB, ABB, AAB, ABC, separated by thin vertical lines. Bold uppercase text. B&W line art.",
+              "placement": "Top of Part 3.",
+              "approximate_size": "small",
+              "keywords": [
+                "rule"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_RULES at Top of Part 3.: the student-facing words (rule) name what the image shows. Image content: A horizontal rule-bank box ~5in wide × 0.8in tall containing AB, ABB, AAB, ABC, separated by thin vertical lines. Bold uppercase text. B&W l… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P3_ANIMAL",
+              "description": "An empty 6-cell horizontal parade strip in B&W line-art. All 6 cells blank with solid light-grey outlines. Label 'Animal parade' to the left. To the right, a small four-animal key (Bea, Finn, Bibi, Moss).",
+              "placement": "Top strip of Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "animal",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_ANIMAL at Top strip of Part 3.: the student-facing words (animal, parade) name what the image shows. Image content: An empty 6-cell horizontal parade strip in B&W line-art. All 6 cells blank with solid light-grey outlines. Label 'Animal parade' to the left… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P3_SOUND",
+              "description": "An empty 6-cell horizontal parade strip in matching style. Label 'Sound parade' to the left. To the right, a small reference key with four sound icons: clap, stomp, hum (musical note + lips), tap (finger on surface), each ~0.6in tall, named beneath.",
+              "placement": "Middle strip of Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "sound",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_SOUND at Middle strip of Part 3.: the student-facing words (sound, parade) name what the image shows. Image content: An empty 6-cell horizontal parade strip in matching style. Label 'Sound parade' to the left. To the right, a small reference key with four s… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P3_BODY",
+              "description": "An empty 6-cell horizontal parade strip in matching style. Label 'Body parade' to the left. To the right, a small reference key with four body icons: tall (standing), small (crouching), jump (leaping), freeze (still with palm up), each ~0.7in tall, named beneath.",
+              "placement": "Bottom strip of Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "body",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_BODY at Bottom strip of Part 3.: the student-facing words (body, parade) name what the image shows. Image content: An empty 6-cell horizontal parade strip in matching style. Label 'Body parade' to the left. To the right, a small reference key with four bo… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "All three parades must follow the same rule the student wrote. Examples: Rule AB → animal Bea-Finn-Bea-Finn-Bea-Finn, sound clap-stomp-clap-stomp-clap-stomp, body tall-small-tall-small-tall-small. Rule ABB → animal Bea-Finn-Finn-Bea-Finn-Finn, sound clap-stomp-stomp-clap-stomp-stomp, body tall-small-small-tall-small-small. Correct if structural rule is preserved across all three rows."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and try to make a FOURTH version of your rule using SHAPES — circle and square. Could you also try numbers?",
+  "teacher_notes": "Lesson 3 consolidation. This worksheet is the gate that confirms abstraction has landed (or not). Watch Part 2 carefully: a child who circles the wrong pair (e.g., circles all three) likely missed the AAB vs ABB distinction — flag for the standalone formative the next day. On Part 3, the third strip (body) is hardest because the body icons are less familiar than the animals. Accept stick-figure approximations. Use Part 2's circle and rule label as the most diagnostic data point — if it's wrong, the child needs the formative bridge before Lesson 4."
+}

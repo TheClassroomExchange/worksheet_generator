@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": []
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met. (a) Multi-step planning in writing BEFORE building: L5 Phase 1 has child draw and loop their core on the worksheet before building. (b) Student self-checking by the student themselves: L5 Phase 1 'loop your core to show you can spot it' is the self-check; Phase 5 'find ONE thing on your worksheet to fix' is explicit self-revision. (c) Justification step: L5 Phase 4 child reads parade aloud, explains the core, walks partner through, asks them to find missing — explanation in spoken form. (d) Explicit revision opportunity: L5 Phase 5 'find ONE thing to revise' as a separately-numbered action step. 5 distinct worksheet response types (≥4 required). Both mid-unit gate (formative_worksheets has 1) AND unit-level reflection sheet (5 prompts) present.",
+      "evidence_refs": [
+        "1_lesson_05.json::action.steps[0] (Phase 1 PLAN with loop-the-core)",
+        "1_lesson_05.json::action.steps[4] (Phase 5 REVISE)",
+        "1_lesson_05.json::action.steps[3] (Phase 4 LEAD justification)",
+        "4_formative_reflection.json::formative_worksheets + reflection_sheet.prompts"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Strict L4 met. CRA progression visible: concrete (clap/stomp bodies, animal cards) → representational (parade strips, loop) → abstract (partner explanation, written extension to cell 20). L5 now contains the explicit 4-stage cycle as separately-numbered action steps: Phase 1 PLAN on paper → Phases 2-3 TEST on paper (build, translate) → Phase 4 TEST WITH MOVEMENT (lead with partner) → Phase 5 REFINE on paper + REFLECT. Each named explicitly in the step's instruction.",
+      "evidence_refs": [
+        "1_lesson_05.json::action.steps (5 steps named PLAN/BUILD/TRANSLATE/LEAD/REVISE&REFLECT)"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Strict L4 met. Five lessons each have an expanded_walkthrough block: L1 'Building Their Own Parade' (~360w + 3 misconceptions); L2 'Lasso the Core' (~395w + 3); L3 'The Three Parades Reveal' (269w + 3 — original); L4 'Extending Backward' (~395w + 3); L5 'Phase 5 Self-Revision' (~410w + 3). Every lesson has ≥2 misconceptions with paired recovery_moves. Every lesson has ≥3 Action steps with substantial teacher prompts (most >150 chars) and expected_student_responses captured in the walkthrough. Every lesson has 'I can…' student_learning_goal.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.common_misconceptions (≥3 each)",
+        "1_lesson_01..05.json::expanded_walkthrough.recovery_moves (paired)"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "Perfect: every cited code (A7.1-A7.4) exists in the local Ontario K 2026 reference; expectation_text in 0_blueprint.json matches official verbatim; 5_assessment_suite rubric covers all 4 codes with grade-appropriate descriptors; every code primary in ≥1 lesson; every lesson cites a primary expectation. consistency_check returns 0 issues; verify_curriculum_text returns 0 issues.",
+      "evidence_refs": [
+        "0_blueprint.json::curriculum_codes + curriculum_expectations",
+        "1_lesson_*.json::primary_expectations",
+        "5_assessment_suite.json::summative_rubric.rows"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "validate_unit_for_slides returns 0 layout warnings (post-fix); 0 density warnings on all 5 lessons (Phase 5 + 6 collapsed into single REVISE & REFLECT step to fit K's 5-step ceiling); marketplace.long_description is 1951 chars with bulleted differentiator section; recurring characters (Coco + Parade Animals) consistent; 3 Canadian context notes; certificate present. K is the first in the Pattern Parade series so 'reuses sibling-grade chars' is vacuously satisfied. All L4 items met.",
+      "evidence_refs": [
+        "validate_unit_for_slides (0 warnings)",
+        "validate_lesson_density (0 warnings on all 5)",
+        "6_marketplace.json::long_description"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-session-2026-05-01-imgalign-pass3",
+  "graded_at": "2026-05-02T01:50:05Z"
+}

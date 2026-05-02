@@ -1,0 +1,117 @@
+{"ts": "2026-04-28T22:27:24+00:00", "stage": "blueprint", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-28T22:29:09+00:00", "stage": "blueprint", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-28T22:29:09+00:00", "stage": "lesson_01", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-28T22:32:53+00:00", "stage": "lesson_01", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-28T22:32:53+00:00", "stage": "lesson_02", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-28T22:34:10+00:00", "stage": "lesson_02", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-28T22:34:10+00:00", "stage": "lesson_03", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-28T22:36:12+00:00", "stage": "lesson_03", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-28T22:36:12+00:00", "stage": "lesson_04", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-28T23:56:32+00:00", "stage": "lesson_04", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-28T23:56:32+00:00", "stage": "lesson_05", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-28T23:58:39+00:00", "stage": "lesson_05", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-28T23:58:39+00:00", "stage": "worksheet_01", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-28T23:59:39+00:00", "stage": "worksheet_01", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-28T23:59:39+00:00", "stage": "worksheet_02", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:00:42+00:00", "stage": "worksheet_02", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:00:42+00:00", "stage": "worksheet_03", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:01:37+00:00", "stage": "worksheet_03", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:01:37+00:00", "stage": "worksheet_04", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:02:27+00:00", "stage": "worksheet_04", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:02:27+00:00", "stage": "worksheet_05", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:03:26+00:00", "stage": "worksheet_05", "transition": "in_progress→failed", "attempt": 1, "error": "schema validation failed: 1 validation error for Worksheet\nheader.student_name_field_hidden\n  Extra inputs are not permitted [type=extra_forbidden, input_value=True, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"}
+{"ts": "2026-04-29T00:03:26+00:00", "stage": "manipulatives", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:03:42+00:00", "stage": "worksheet_05", "transition": "failed→pending", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:03:42+00:00", "stage": "worksheet_05", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-04-29T00:03:42+00:00", "stage": "worksheet_05", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-04-29T00:03:42+00:00", "stage": "manipulatives", "transition": "in_progress→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-04-29T00:05:58+00:00", "stage": "manipulatives", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-04-29T00:05:58+00:00", "stage": "formative_reflection", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:07:12+00:00", "stage": "formative_reflection", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:07:12+00:00", "stage": "assessment_suite", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:09:23+00:00", "stage": "assessment_suite", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:09:23+00:00", "stage": "marketplace", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T00:10:23+00:00", "stage": "marketplace", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:34:13+00:00", "stage": "blueprint", "transition": "done→pending", "attempt": 1, "error": "corrected curriculum text drift vs Ontario reference: ['C1.1', 'C1.2', 'C1.3']"}
+{"ts": "2026-04-29T13:34:13+00:00", "stage": "blueprint", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-04-29T13:34:13+00:00", "stage": "blueprint", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-04-29T13:34:13+00:00", "stage": "assessment_suite", "transition": "done→pending", "attempt": 1, "error": "corrected rubric expectation_text to match Ontario reference: ['C1.1', 'C1.2', 'C1.3']"}
+{"ts": "2026-04-29T13:34:13+00:00", "stage": "assessment_suite", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-04-29T13:34:13+00:00", "stage": "assessment_suite", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-01T16:44:45+00:00", "stage": "rubric_grade", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-01T16:44:45+00:00", "stage": "rubric_grade", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_01", "transition": "done→pending", "attempt": 1, "error": "rubric strict: walkthrough +misconceptions"}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_01", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_01", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_02", "transition": "done→pending", "attempt": 1, "error": "rubric strict: walkthrough +misconceptions"}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_02", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_02", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_04", "transition": "done→pending", "attempt": 1, "error": "rubric strict: walkthrough +misconceptions"}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_04", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_04", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_05", "transition": "done→pending", "attempt": 1, "error": "rubric strict: add Phase 6 REVISE & REFLECT"}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_05", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "lesson_05", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "blueprint", "transition": "done→pending", "attempt": 2, "error": "rubric strict: shorten unit_learning_goal to fit overview slide layout"}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "blueprint", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-01T21:17:51+00:00", "stage": "blueprint", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-01T21:18:25+00:00", "stage": "rubric_grade", "transition": "done→pending", "attempt": 1, "error": "re-grade strict after regen"}
+{"ts": "2026-05-01T21:18:25+00:00", "stage": "rubric_grade", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-01T21:18:25+00:00", "stage": "rubric_grade", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_01", "transition": "done→pending", "attempt": 1, "error": "image-text alignment backfill: keywords + alignment_check"}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_01", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_01", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_02", "transition": "done→pending", "attempt": 1, "error": "image-text alignment backfill: keywords + alignment_check"}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_02", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_02", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_03", "transition": "done→pending", "attempt": 1, "error": "image-text alignment backfill: keywords + alignment_check"}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_03", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_03", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_04", "transition": "done→pending", "attempt": 1, "error": "image-text alignment backfill: keywords + alignment_check"}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_04", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_04", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_05", "transition": "done→pending", "attempt": 2, "error": "image-text alignment backfill: keywords + alignment_check"}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_05", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "worksheet_05", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "assessment_suite", "transition": "done→pending", "attempt": 2, "error": "image-text alignment backfill: keywords + alignment_check"}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "assessment_suite", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:45:03+00:00", "stage": "assessment_suite", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_01", "transition": "done→pending", "attempt": 2, "error": "image-text alignment refined-backfill"}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_01", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_01", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_02", "transition": "done→pending", "attempt": 2, "error": "image-text alignment refined-backfill"}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_02", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_02", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_03", "transition": "done→pending", "attempt": 2, "error": "image-text alignment refined-backfill"}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_03", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_03", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_04", "transition": "done→pending", "attempt": 2, "error": "image-text alignment refined-backfill"}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_04", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_04", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_05", "transition": "done→pending", "attempt": 3, "error": "image-text alignment refined-backfill"}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_05", "transition": "pending→in_progress", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "worksheet_05", "transition": "in_progress→done", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "assessment_suite", "transition": "done→pending", "attempt": 3, "error": "image-text alignment refined-backfill"}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "assessment_suite", "transition": "pending→in_progress", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:46:41+00:00", "stage": "assessment_suite", "transition": "in_progress→failed", "attempt": 4, "error": "schema validation failed: 1 validation error for AssessmentSuite\ncertificate.body_text\n  Extra inputs are not permitted [type=extra_forbidden, input_value=' This certificate is pre...onductor proudly signs.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_01", "transition": "done→pending", "attempt": 3, "error": "img-text backfill v3"}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_01", "transition": "pending→in_progress", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_01", "transition": "in_progress→done", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_02", "transition": "done→pending", "attempt": 3, "error": "img-text backfill v3"}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_02", "transition": "pending→in_progress", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_02", "transition": "in_progress→done", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_03", "transition": "done→pending", "attempt": 3, "error": "img-text backfill v3"}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_03", "transition": "pending→in_progress", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_03", "transition": "in_progress→done", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_04", "transition": "done→pending", "attempt": 3, "error": "img-text backfill v3"}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_04", "transition": "pending→in_progress", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_04", "transition": "in_progress→done", "attempt": 4, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_05", "transition": "done→pending", "attempt": 4, "error": "img-text backfill v3"}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_05", "transition": "pending→in_progress", "attempt": 5, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "worksheet_05", "transition": "in_progress→done", "attempt": 5, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "assessment_suite", "transition": "failed→pending", "attempt": 4, "error": "img-text backfill v3"}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "assessment_suite", "transition": "pending→in_progress", "attempt": 5, "error": null}
+{"ts": "2026-05-02T01:49:11+00:00", "stage": "assessment_suite", "transition": "in_progress→done", "attempt": 5, "error": null}
+{"ts": "2026-05-02T01:50:05+00:00", "stage": "rubric_grade", "transition": "done→pending", "attempt": 2, "error": "re-grade under strict_imgalign rubric (image-text drift gate added)"}
+{"ts": "2026-05-02T01:50:05+00:00", "stage": "rubric_grade", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T01:50:05+00:00", "stage": "rubric_grade", "transition": "in_progress→done", "attempt": 3, "error": null}

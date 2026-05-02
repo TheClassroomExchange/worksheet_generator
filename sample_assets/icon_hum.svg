@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect x="3" y="3" width="234" height="234" fill="white" stroke="black" stroke-width="2"/>
+  <g fill="white" stroke="black" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 65 130 Q 90 115 120 115 Q 150 115 175 130" fill="none"/>
+    <path d="M 65 130 Q 90 145 120 145 Q 150 145 175 130" fill="none"/>
+    <line x1="120" y1="115" x2="120" y2="145" stroke-width="2"/>
+    <path d="M 155 75 L 155 50 L 195 45 L 195 70" fill="none" stroke-width="3.5"/>
+    <ellipse cx="148" cy="78" rx="9" ry="6" fill="black" stroke="black"/>
+    <ellipse cx="188" cy="73" rx="9" ry="6" fill="black" stroke="black"/>
+  </g>
+  <text x="120" y="220" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="22" font-weight="900">HUM</text>
+</svg>

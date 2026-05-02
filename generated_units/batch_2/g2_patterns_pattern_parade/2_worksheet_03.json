@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "lesson_number": 3,
+  "worksheet_title": "Three Faces of a Rule",
+  "purpose": "Independent practice of C1.2 — translating a single growing pattern across three representations (animal parade, number sequence, table of values).",
+  "student_learning_goal": "I can take one pattern and show it as a parade, as numbers, AND as a table of values.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can take one pattern and show it as a parade, as numbers, AND as a table of values.",
+    "character_watermark": "Coco the Conductor in the top-right corner with a small chart-paper table beside him — the 'translator' Coco. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Translate the parade to numbers and table",
+          "student_instructions": "Look at the growing parade at the top. Fill in the number sequence below it. Then fill in the Value column of the table.",
+          "visual_layout": "Top: a 4-cell parade strip pre-filled with 2, 4, 6, 8 stacked Beas (rule +2). Below: a row of 4 empty boxes for the number sequence (with a label 'Number sequence:'). Below that: a 2-column table with headers TERM and VALUE. The TERM column has 1, 2, 3, 4 pre-filled. The VALUE column is empty.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_PARADE",
+              "description": "A 4-cell horizontal parade strip in B&W line-art with stacked Beas: 2, 4, 6, 8 — a growing +2 pattern. Footprints beneath. Full width.",
+              "placement": "Top of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "growing",
+                "parade",
+                "pattern"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_PARADE at Top of Part 1.: the student-facing words (growing, parade, pattern) name what the image shows. Image content: A 4-cell horizontal parade strip in B&W line-art with stacked Beas: 2, 4, 6, 8 — a growing +2 pattern. Footprints beneath. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P1_NUMBERS",
+              "description": "A row of 4 empty boxes (each ~0.9in × 0.9in) with thin black borders, sized to hold a 1-2 digit number. Above the row, the label 'Number sequence:'. Full width.",
+              "placement": "Below the parade in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "number",
+                "sequence"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_NUMBERS at Below the parade in Part 1.: the student-facing words (number, sequence) name what the image shows. Image content: A row of 4 empty boxes (each ~0.9in × 0.9in) with thin black borders, sized to hold a 1-2 digit number. Above the row, the label 'Number seq… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P1_TABLE",
+              "description": "A 2-column table of values. 5 rows (1 header + 4 data). Column 1 header: TERM. Column 2 header: VALUE. Term column pre-filled: 1, 2, 3, 4. Value column empty. Approximately 4in wide × 2.5in tall. Bold uppercase headers, K/G2-readable type. Thin black borders.",
+              "placement": "Below the number sequence in Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "value",
+                "column",
+                "table",
+                "values"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_TABLE at Below the number sequence in Part 1.: the student-facing words (value, column, table, values) name what the image shows. Image content: A 2-column table of values. 5 rows (1 header + 4 data). Column 1 header: TERM. Column 2 header: VALUE. Term column pre-filled: 1, 2, 3, 4. V… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Number sequence: 2, 4, 6, 8. Table values: term 1 = 2, term 2 = 4, term 3 = 6, term 4 = 8. (All three reps must show the same +2 rule.)"
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Find the missing value AND the rule",
+          "student_instructions": "This table is missing one value. Use the rule to fill it in. Then write the rule on the line.",
+          "visual_layout": "A 2-column table of values. Headers TERM and VALUE. 4 data rows. Term column: 1, 2, 3, 4. Value column: 5, 8, 11, ___. Below the table: 'Rule: +____'.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_TABLE",
+              "description": "A 2-column table of values, ~3in wide × 2.5in tall. 5 rows (1 header + 4 data). Column 1 header: TERM. Column 2 header: VALUE. Term column: 1, 2, 3, 4. Value column: 5, 8, 11, [empty cell with dashed outline]. Bold uppercase headers. Thin black borders.",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "table",
+                "value",
+                "values"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_TABLE at Centred horizontally in Part 2.: the student-facing words (table, value, values) name what the image shows. Image content: A 2-column table of values, ~3in wide × 2.5in tall. 5 rows (1 header + 4 data). Column 1 header: TERM. Column 2 header: VALUE. Term column:… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Missing value (term 4) = 14. Rule = +3."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Build all three reps from your own rule",
+          "student_instructions": "Pick your own +N rule (or -N for shrinking). Build all three: an animal parade, a number sequence, and a table of values.",
+          "visual_layout": "Top: 'My rule: ____'. Three workspaces stacked: (1) An empty 4-cell parade strip labelled 'My animal parade'. (2) A row of 4 empty boxes labelled 'My number sequence'. (3) An empty 2-column table with TERM (1, 2, 3, 4 pre-filled) and VALUE (blank) labelled 'My table of values'. Bottom: 'Term 8 of my parade would be ____'.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_PARADE",
+              "description": "An empty 4-cell horizontal parade strip in B&W line-art labelled 'My animal parade' above. All 4 cells blank with light-grey solid outlines, sized to hold stacked animals. Footprints beneath. Full width.",
+              "placement": "Top workspace of Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "animal",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_PARADE at Top workspace of Part 3.: the student-facing words (animal, parade) name what the image shows. Image content: An empty 4-cell horizontal parade strip in B&W line-art labelled 'My animal parade' above. All 4 cells blank with light-grey solid outlines,… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P3_NUMBERS",
+              "description": "A row of 4 empty boxes (~0.9in × 0.9in) labelled 'My number sequence' above. Full width.",
+              "placement": "Middle workspace of Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "number",
+                "sequence"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_NUMBERS at Middle workspace of Part 3.: the student-facing words (number, sequence) name what the image shows. Image content: A row of 4 empty boxes (~0.9in × 0.9in) labelled 'My number sequence' above. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P3_TABLE",
+              "description": "A 2-column table of values labelled 'My table of values' above. 5 rows (1 header + 4 data). Headers TERM and VALUE. Term column pre-filled 1-4. Value column empty. ~4in wide.",
+              "placement": "Bottom workspace of Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "table",
+                "values"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_TABLE at Bottom workspace of Part 3.: the student-facing words (table, values) name what the image shows. Image content: A 2-column table of values labelled 'My table of values' above. 5 rows (1 header + 4 data). Headers TERM and VALUE. Term column pre-filled 1… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "All three reps must follow the same rule the student wrote. Examples: Rule +2 starting at 1 → parade 1,2,3,4 → numbers 1,3,5,7 (wait, +2 starting at 1 would be 1, 3, 5, 7) → table values 1, 3, 5, 7 → term 8 = 1 + 7×2 = 15. Rule +5 starting at 5 → 5, 10, 15, 20 → term 8 = 5 + 7×5 = 40. Correct if the rule is preserved across all three reps AND the term-8 prediction is consistent with the rule."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and try Part 3 again with a different rule type — if you did growing, try shrinking now (or vice versa).",
+  "teacher_notes": "Lesson 3 consolidation. This worksheet is the gate that confirms the table-of-values representation has landed. Watch for: (a) Part 1 students who get the number sequence correct but mis-label the table column headers (or skip them) — flag for the formative bridge. (b) Part 2 students who guess the missing value without identifying the +3 rule first — encourage them to find the rule first. (c) Part 3 students who get the parade right but fail to fill the table — the table is the new G2 representation and is the most diagnostic. Use Part 1's table column AND Part 3's table fill as primary evidence."
+}

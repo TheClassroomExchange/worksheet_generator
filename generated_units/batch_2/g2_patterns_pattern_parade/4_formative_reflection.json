@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "formative_worksheets": [
+    {
+      "title": "The Three Pattern Types Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (12 minutes) to confirm C1.1 (three pattern types), C1.2 (table of values translation), and rule notation have landed before adding far prediction in Lesson 4.",
+      "purpose": "Standalone formative assessment distinct from lesson worksheets. Lets the teacher quickly see which children can identify all three pattern types AND build a table of values, and which need a bridging conversation before Lesson 4's detective + prediction work.",
+      "expectations_assessed": ["C1.1", "C1.2", "C1.3"],
+      "student_learning_goal": "I can identify the three pattern types AND build a table of values.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can identify the three pattern types AND build a table of values.",
+        "character_watermark": "Coco the Conductor in the top-right corner with a small magnifying glass — the 'check-in' Coco. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Look at each parade. Write the type and the rule on the lines.",
+          "visual_layout": "Three short parade strips stacked vertically. Strip A: 4-cell repeating Bea-Finn-Bea-Finn (rule AB). Strip B: 4-cell growing 1, 4, 7, 10 stacked Beas (rule +3). Strip C: 4-cell shrinking 12, 9, 6, 3 stacked Beas (rule -3). Beside each strip, two writing lines: 'Type: ___. Rule: ___.'",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_STRIP_A",
+              "description": "A 4-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Bea, Finn (animal AB repeating). Footprints beneath. Labelled 'A' to the left.",
+              "placement": "Top row of Prompt 1.",
+              "approximate_size": "medium"
+            },
+            {
+              "id": "FORM_Q1_STRIP_B",
+              "description": "A 4-cell horizontal parade strip in matching style with stacked Beas: 1, 4, 7, 10 — visibly growing by 3 per cell. Footprints beneath. Labelled 'B' to the left.",
+              "placement": "Middle row of Prompt 1.",
+              "approximate_size": "medium"
+            },
+            {
+              "id": "FORM_Q1_STRIP_C",
+              "description": "A 4-cell horizontal parade strip in matching style with stacked Beas: 12, 9, 6, 3 — visibly shrinking by 3 per cell. Footprints beneath. Labelled 'C' to the left.",
+              "placement": "Bottom row of Prompt 1.",
+              "approximate_size": "medium"
+            }
+          ],
+          "response_type": "create",
+          "answer_key": "A: Type = REPEATING. Rule = AB. B: Type = GROWING. Rule = +3. C: Type = SHRINKING. Rule = -3. A child who gets all 6 lines correct has Level 3 evidence on C1.1 + C1.3."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Build a table of values for this growing pattern. Then write the rule.",
+          "visual_layout": "Top: a pre-built 4-cell growing parade (3, 6, 9, 12 stacked Beas — rule +3). Below: an empty 2-column table with TERM and VALUE headers, 4 data rows. Term column pre-filled 1-4. Value column blank. Below the table: 'Rule: +____'.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_PARADE",
+              "description": "A 4-cell horizontal parade strip pre-filled with stacked Beas: 3, 6, 9, 12 — a +3 growing pattern. Footprints beneath. Full width.",
+              "placement": "Top of Prompt 2.",
+              "approximate_size": "full_width"
+            },
+            {
+              "id": "FORM_Q2_TABLE",
+              "description": "A 2-column table of values, ~3in wide × 2.5in tall. 5 rows (1 header + 4 data). Headers TERM and VALUE in bold uppercase. Term column pre-filled 1, 2, 3, 4. Value column empty. Thin black borders.",
+              "placement": "Below the parade in Prompt 2.",
+              "approximate_size": "medium"
+            }
+          ],
+          "response_type": "create",
+          "answer_key": "Value column: 3, 6, 9, 12. Rule = +3. Correct if both the table is filled accurately AND the rule label is +3 (or 'three' or 'add 3')."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling about pattern types and tables of values? Circle the face that fits.",
+          "visual_layout": "Three faces in a horizontal row: a big smile, a neutral mouth, and a worried frown. Below each face, a label: 'I got it!', 'Almost!', 'Need help!'.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons in a horizontal row, each ~1.5in across. Left face: smiling. Middle: neutral. Right: downturned. Labels beneath: 'I got it!', 'Almost!', 'Need help!'. Total row width ~6in. B&W line art.",
+              "placement": "Centred horizontally in Prompt 3.",
+              "approximate_size": "full_width"
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open. Use alongside Prompts 1 and 2 to identify mismatches: a child who got Prompt 1 wrong but circled 'I got it!' may need more discussion; a child who got Prompts 1 and 2 right but circled 'Need help!' may just need confidence-building."
+        }
+      ],
+      "teacher_notes": "Administer this between Lesson 3 and Lesson 4 — it is the 12-minute mid-unit gate. Score guide: 2/2 + correct rule labels + table headers + confident self-rating = ready for Lesson 4. 1/2 + correct table = brief 1:1 conference reviewing the type/rule distinction. Children who left the table value column blank or wrote the term number in the value column need a re-loop on the table-of-values structure before continuing."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Pattern Parade Reflection",
+    "purpose": "End-of-unit metacognition. Children look back at their week of pattern work — including the new Grade 2 expectations of growing/shrinking patterns, tables of values, and number patterns to 100 — and rate themselves, name a favourite, name a struggle, and set a forward goal. Companion to the Lesson 5 summative.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Coco the Conductor in the top-right corner, holding a Junior Pattern Conductor certificate. Small (~1.5in tall). References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Pattern Conductor? Circle one.",
+        "visual_layout": "Three star-rating options shown horizontally, each in its own oval: 1 star, 2 stars, 3 stars. Beneath each oval, a label: 'Just starting', 'Mostly got it', 'I am a Conductor!'.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three options shown horizontally in ovals: left option = 1 large star (~1in), middle = 2 stars side by side, right = 3 stars side by side. Each option enclosed in a thin oval ~2in wide × 1.5in tall. Beneath each oval, printed label: 'Just starting', 'Mostly got it', 'I am a Conductor!'. Total row ~6.5in wide. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 1.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am a Conductor!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things this week? Circle YES or NO.",
+        "visual_layout": "A five-row table. Each row contains a question label on the left and YES / NO bubbles on the right. Questions: 'I identified a repeating, growing, and shrinking pattern.', 'I named a rule using +N or -N notation.', 'I built a table of values with TERM and VALUE columns.', 'I predicted term 10 without drawing it.', 'I built a number parade up to 100.'.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A bordered five-row table. Each row ~1in tall. Left column ~4.5in wide with question text in K/G2-readable type. Right column ~1.8in wide containing two bubbles labelled 'YES' and 'NO' side by side. Total table ~6.3in wide. Thin grey row dividers. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 2.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I identified a repeating, growing, and shrinking pattern.", "I named a rule using +N or -N notation.", "I built a table of values with TERM and VALUE columns.", "I predicted term 10 without drawing it.", "I built a number parade up to 100."]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite part of the Pattern Parade was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The box is empty workspace.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Thin solid black border. Empty inside. Above the box, the printed prompt 'My favourite part of the Pattern Parade was...'. Below the bottom-right corner, faint guide-lines for writing.",
+            "placement": "Centred horizontally in Prompt 3.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Identical layout to REF_FAV_BOX. Above the box, the printed prompt 'The trickiest part for me was...'.",
+            "placement": "Centred horizontally in Prompt 4.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Identical layout to the other boxes. Above the box, the printed prompt 'Next time, I want to try...'.",
+            "placement": "Centred horizontally in Prompt 5.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the very end of Lesson 5, alongside the Junior Pattern Conductor certificate ceremony. Grade 2 children can write short responses to prompts 3-5 — accept invented spelling. A child who writes only a drawing has a complete answer. Prompt 2 explicitly maps to the new Grade 2 expectations (table of values, far prediction, numbers to 100) so a NO on any of those lines tells you what to revisit before the next pattern unit. The yes/no audit on Prompt 2 is also a quick teacher check: a 'NO' on any item signals the child either missed a key activity or doesn't recognize that they did it."
+  }
+}

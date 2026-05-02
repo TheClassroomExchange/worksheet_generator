@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "lesson_number": 1,
+  "lesson_title": "Welcome to the Parade!",
+  "duration_minutes": 40,
+  "primary_expectations": [
+    "A7.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "A pattern is something that repeats in a special order.",
+  "learning_intention": "We are learning to spot a repeating pattern and predict what comes next.",
+  "student_learning_goal": "I can spot a pattern and say what comes next.",
+  "success_criteria": [
+    "I can show or say what part of a pattern repeats.",
+    "I can predict what comes next in a parade.",
+    "I can build my own AB pattern with my partner."
+  ],
+  "vocabulary_introduced": [
+    "pattern"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip"
+  ],
+  "lesson_specific_materials": [
+    "Printable Coco the Conductor puppet on a popsicle stick (1 for teacher; template included with manipulatives stage)",
+    "Class anchor chart paper labelled 'What is a pattern?'",
+    "Class diagnostic checklist (provided in assessment_suite stage)",
+    "Optional: small drum or shaker for clap-stomp warm-up"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Coco's Clap-Stomp Surprise",
+    "hook": "Today our classroom is hosting a parade — and we are the only ones who can help Coco the Conductor keep his animals in order!",
+    "teacher_script": "Bring children to the carpet in a circle. Hold up the Coco puppet.\n\nSay to students: 'Friends, this is Coco the Conductor. Coco leads parades. A parade is a line of animals or people moving together to a beat. Coco has a problem today — his animals keep getting mixed up. We are going to help him put them in the right order. But first, let's warm up our parade ears.'\n\nClap-stomp warm-up: 'Watch and listen.' Clap-stomp, clap-stomp, clap-stomp. Pause. 'What do you think comes next?' Take 2–3 predictions. Repeat 'clap-stomp' once more, then say: 'Yes! When something keeps coming back the same way, again and again, we call that a PATTERN. Say it with me — pattern.' (Class repeats.)\n\nWrite the word PATTERN at the top of the anchor chart with a simple drawing of a clap-and-stomp icon. 'A pattern is something that repeats in a special order. Let's go meet Coco's parade!'",
+    "student_actions": [
+      "Sit in a circle on the carpet.",
+      "Watch the teacher and predict what comes next in the clap-stomp sequence.",
+      "Repeat the word 'pattern' aloud as a class."
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Build the Parade",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: lay one Parade Strip (M2) flat in front of the carpet. Place Bea, Finn, Bea, Finn on the first four cells. Leave the fifth cell empty.",
+        "teacher_prompt": "Say to students: 'Coco's parade today goes Bea, Finn, Bea, Finn… who do you think is next?' Take predictions, then place Bea on cell five. 'Yes! That's our pattern: Bea, Finn, Bea, Finn, Bea. Bea and Finn keep coming back, in the same order. That is the part that repeats.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Show a second example with three animals: Bea, Finn, Bibi, Bea, Finn, Bibi, ?. Invite a child up to place the next card.",
+        "teacher_prompt": "Say to students: 'Now Coco's parade is bigger. Bea, Finn, Bibi, Bea, Finn, Bibi… can someone come up and show us who is next?' (After the placement.) 'How did you know? What part keeps repeating?'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Send children to partner spots. Each pair gets one set of Animal Cards (M1) and one Parade Strip (M2). Their job: build a parade pattern using two animals, repeat it across the strip, and leave one cell empty for their partner to predict.",
+        "teacher_prompt": "Say to students: 'You and your partner are going to be parade builders. Pick two animals, build a pattern with them on your strip — but leave one space empty at the end. When you are ready, tap your partner on the shoulder and say: \"What comes next?\" Your partner has to be a parade detective and figure it out.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate. Use the diagnostic checklist to observe which children can extend a pattern, which can describe what repeats, and which can create their own.",
+        "teacher_prompt": "Stop at each pair. Ask: 'Can you read your parade to me?' Then: 'What part keeps repeating?' Note responses on the checklist."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Pre-fill the first three cells of the parade strip and ask the child only to predict the fourth and fifth. Use only Bea and Finn (high-contrast colours: red and blue vests). Pair with a confident partner.",
+      "for_extending": "Challenge the pair to build a three-animal core (e.g., Bea-Finn-Bibi-Bea-Finn-Bibi). Then ask them to swap one animal and predict how the parade changes.",
+      "for_ell_or_iep": "Use the animal name + colour together when speaking ('Bea, the red-vest bear'). Allow the child to point or place a card instead of speaking. Accept gestures or sounds as valid responses.",
+      "for_movement_learners": "After building on the strip, the pair stands up and walks the parade — one child calls out animals, the other steps in time."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child predict the next element? Can they describe what is repeating, even informally ('the bear comes back')? Can they build their own pattern with prompting? Without prompting?",
+      "how_to_record": "Tick the appropriate column on the diagnostic checklist for each child as you circulate.",
+      "tracker_columns": [
+        "Student name",
+        "Predicts next element",
+        "Describes what repeats",
+        "Creates AB pattern (with prompt)",
+        "Creates pattern (independent)",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Parade Share Circle",
+    "discussion_prompts": [
+      "Who would like to share a parade you and your partner built?",
+      "What part of your parade keeps coming back?",
+      "Does anyone see a pattern somewhere else in our classroom right now? (e.g. floor tiles, clothing stripes, calendar numbers)"
+    ],
+    "exit_routine": "As children leave the carpet, each child names one place they will look for a pattern at home tonight."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Class checklist completed during the partner-build phase. Captures baseline understanding of A7.1 before Lesson 2 introduces the 'core' concept.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "This is the unit's diagnostic moment. The data tells the teacher who already extends a 2-element repeating pattern unprompted, so they can group flexibly for Lesson 2 onward."
+  },
+  "expanded_walkthrough": {
+    "title": "Building Their Own Parade — when the choice becomes real",
+    "rationale": "Step 3 is the cognitive leap of the lesson. Up to here, children have watched the teacher lay down patterns. Now they choose for themselves which animals will repeat and where. This is where Kindergarteners reveal whether they understand 'pattern' as 'something that repeats' or 'a line of animals.' The script below covers what to do when you walk to a pair and find the most common confusions.",
+    "setup": "Each pair has a Parade Strip (M2) and a full set of Animal Cards (M1). Teacher carries the diagnostic clipboard and a single Core Loop (M5) for use as a redirect tool. Floor carpet has the teacher-built Bea-Finn-Bea-Finn-Bea-Finn example still visible from Step 1.",
+    "teacher_script": "Walk to the first pair you observed during Step 2. Crouch to their level. 'Show me your parade. Tell me — who is in the part that keeps coming back?' Pause for the response. If they point at four or five different animals in a row, gently say: 'I see four friends here, all different. For a parade pattern, two of them need to come BACK around. Pick just TWO of your favourites. Tell me which two.' When they pick, sweep the extra cards off the strip. 'Good. Now lay them down — Bea, Finn, Bea, Finn. What goes in the next cell?' If they freeze, look back at the carpet. 'Look at our big parade. Who came after Finn last time?' Walk them back to the model. \n\nMove to a pair that has built Bea-Finn-Bea-Finn but is stuck on cell five. Point to the empty cell. 'Predict — who is next?' Wait six full seconds. If silence, ask the smaller question: 'What was right before this empty spot?' Child: 'Finn.' 'And before that Finn?' Child: 'Bea.' 'So if it's Bea then Finn then Bea then Finn — which one comes back?' Some children will laugh in recognition. Others will need you to physically slide the loop (M5) around the first Bea-Finn so they can see what 'comes back' means.\n\nNow find a pair that has finished and looks confident. Stretch them: 'Imagine your parade marched all the way to the door. The tenth animal in line — who would it be?' Watch the predict-by-counting strategies emerge. Record on the clipboard: who can extend with no support, who can extend with the loop visible, who can only extend by one cell.",
+    "expected_student_responses": [
+      "(Confused student) Points at random animals: 'Look! It's a parade.' Hasn't grasped that pattern needs repetition.",
+      "(Mid student) 'Bea, Finn, Bea, Finn… um…' — gets stuck right at the prediction.",
+      "(Strong student) 'Bea! Because Finn was just there, so now it's Bea's turn again.' Articulates the alternation.",
+      "(Stretched student) Counts on fingers to predict cell 10, lands correctly with help."
+    ],
+    "common_misconceptions": [
+      "A pattern is just a line of animals — variety equals pattern. (Child equates 'lots of different animals' with 'good pattern.')",
+      "Cell five is whatever animal I want next. (Child has not yet seen that the cell is determined by the repeating rule.)",
+      "If two animals are next to each other, they are the core. (Child has heard 'core' but applies it to any pair of adjacent cards, not the unit that repeats.)"
+    ],
+    "recovery_moves": [
+      "Reduce the choice space. 'Pick just TWO of your favourites.' Sweep extras off the strip so the child can see the AB more cleanly.",
+      "Anchor to the carpet model. Walk the child back to the teacher-built Bea-Finn-Bea-Finn-Bea-Finn and physically loop the first Bea-Finn with M5. 'What's INSIDE the loop comes BACK.'",
+      "Ask the smaller question. Instead of 'predict cell 5,' ask 'who was right before the empty spot? And before that?' Build the rhythm verbally before they place the card."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coco's First Parade",
+    "purpose": "Independent practice of A7.1 — predicting the next element and creating an AB pattern.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show a parade strip with Bea, Finn, Bea, Finn, ?. Student colours or stickers in the next animal.",
+        "response_type": "draw_or_sticker"
+      },
+      {
+        "part_number": 2,
+        "task": "Show a longer parade strip with two missing cells in the middle and end. Student fills in both based on the AB pattern shown.",
+        "response_type": "draw_or_sticker"
+      },
+      {
+        "part_number": 3,
+        "task": "Empty parade strip. Student creates their own AB pattern using two of the four parade animals (drawing or stickers).",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "Bea, Finn, Bibi, Moss thumbnail icons (for student to glue or for printed stickers)",
+      "Parade strip layout matching the M2 manipulative",
+      "Coco the Conductor in the worksheet header"
+    ]
+  }
+}

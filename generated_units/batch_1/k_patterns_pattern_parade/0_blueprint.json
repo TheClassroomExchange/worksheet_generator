@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "thematic_title": "The Pattern Parade",
+  "descriptive_title": "Kindergarten Mathematics: Patterns and Relationships — Identify, Describe, Extend, and Create Repeating Patterns (A7.1–A7.4)",
+  "grade": "Kindergarten",
+  "subject": "Mathematics",
+  "strand": "A. Patterns and Relationships",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/kindergarten/grades/jk-sk/a/a7",
+  "curriculum_codes": [
+    "A7.1",
+    "A7.2",
+    "A7.3",
+    "A7.4"
+  ],
+  "curriculum_expectations": {
+    "A7.1": "identify, describe, and create patterns",
+    "A7.2": "identify the core of a repeating pattern and describe why it is important",
+    "A7.3": "show that patterns can be represented in different ways because the core remains the same",
+    "A7.4": "extend patterns in both directions and identify any missing elements"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day pattern unit framed as a Kindergarten parade. Children join Coco the Conductor and the Parade Animals to spot patterns, find the beat of the parade (the core), translate that beat into different forms, fix broken parade lines, and finally plan and lead their own pattern parade. Designed for play-based, oral, and movement-rich Kindergarten classrooms.",
+  "unit_learning_goal": "Children will identify, describe, extend, and create repeating patterns, recognize the core of a pattern, and represent the same core in different ways.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Welcome to the Parade!",
+      "primary_expectations": [
+        "A7.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "A pattern is something that repeats in a special order.",
+      "student_learning_goal": "I can spot a pattern and say what comes next.",
+      "one_line_summary": "Children meet Coco and the parade animals; they describe colour and animal patterns and predict the next animal in line."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "The Beat of the Parade",
+      "primary_expectations": [
+        "A7.2"
+      ],
+      "secondary_expectations": [
+        "A7.1"
+      ],
+      "big_idea": "Every pattern has a core — the part that repeats.",
+      "student_learning_goal": "I can find the part of the pattern that repeats. We call it the core.",
+      "one_line_summary": "Children listen to drum beats and watch parade lines to discover that every pattern has a 'beat' (core) you can clap or circle."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Same Beat, Different Parade",
+      "primary_expectations": [
+        "A7.3"
+      ],
+      "secondary_expectations": [
+        "A7.2"
+      ],
+      "big_idea": "The same core can show up in many ways: colours, sounds, animals, movements.",
+      "student_learning_goal": "I can show one pattern in three different ways.",
+      "one_line_summary": "Children translate one AB or ABB core into colour, sound, and movement versions and prove the core is the same."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Fix the Broken Parade",
+      "primary_expectations": [
+        "A7.4"
+      ],
+      "secondary_expectations": [
+        "A7.1",
+        "A7.2"
+      ],
+      "big_idea": "We can extend a pattern forward and backward, and we can fill in missing pieces.",
+      "student_learning_goal": "I can find what is missing in a pattern and add what comes next.",
+      "one_line_summary": "Children find missing animals in broken parade lines and extend a parade in both directions."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Lead Your Own Parade",
+      "primary_expectations": [
+        "A7.1",
+        "A7.2",
+        "A7.3",
+        "A7.4"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Pattern-makers plan a core, repeat it, extend it, and explain it.",
+      "student_learning_goal": "I can plan a parade pattern, lead it, and explain the core to a friend.",
+      "one_line_summary": "Summative: each child designs a parade core, builds it with manipulatives, leads classmates through it, and explains why it is a pattern."
+    }
+  ],
+  "expectation_lesson_map": {
+    "A7.1": [
+      1,
+      5
+    ],
+    "A7.2": [
+      2,
+      5
+    ],
+    "A7.3": [
+      3,
+      5
+    ],
+    "A7.4": [
+      4,
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Coco the Conductor",
+      "role": "The parrot leader who keeps the parade in time. Appears on every lesson cover and every worksheet header.",
+      "visual_description": "Friendly cartoon parrot, red and yellow feathers, holding a small wooden conductor's baton. Big eyes, warm smile. Kindergarten-appropriate, soft outlines, no scary features."
+    },
+    {
+      "name": "The Parade Animals",
+      "role": "A small Canadian-animal cast that forms the parade. Used to build, fix, and extend pattern lines across all 5 lessons.",
+      "visual_description": "Four characters drawn in matching cartoon style: Bea the Bear (brown), Finn the Fox (orange), Bibi the Beaver (dark brown), and Moss the Moose (tan). Same outline weight, same eye style, same friendly expression. Each animal always wears a small coloured vest (Bea = red, Finn = blue, Bibi = green, Moss = yellow) so colour and animal attributes can be used together or apart."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "pattern",
+      "child_friendly_definition": "Something that repeats in the same order."
+    },
+    {
+      "term": "core",
+      "child_friendly_definition": "The little part of the pattern that keeps repeating."
+    },
+    {
+      "term": "repeat",
+      "child_friendly_definition": "To do or show something again, the same way."
+    },
+    {
+      "term": "extend",
+      "child_friendly_definition": "To keep the pattern going."
+    },
+    {
+      "term": "missing",
+      "child_friendly_definition": "A part of the pattern that is not there yet."
+    },
+    {
+      "term": "attribute",
+      "child_friendly_definition": "Something we can notice about an item, like its colour, size, or shape."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_animal_cards",
+      "name": "Parade Animal Cards",
+      "description": "A set of 16 cards: 4 each of Bea, Finn, Bibi, and Moss, drawn at identical size with their coloured vests visible. Cards are 3in x 3in, square, child-handleable.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M2_parade_strip",
+      "name": "Blank Parade Strip",
+      "description": "A printable 5-cell strip (each cell sized to hold one animal card or sticker) with footprints drawn underneath suggesting a parade route. Used for laying out cores and extending patterns.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M3_sound_movement_cards",
+      "name": "Sound and Movement Cards",
+      "description": "A set of 8 cards: clap, stomp, jump, freeze, hum, tap, wave, spin — each with a simple icon. Used to translate visual cores into auditory and kinesthetic cores.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "M4_missing_card",
+      "name": "Missing Mystery Card",
+      "description": "A card showing a large question mark surrounded by a dotted outline. Placed in a parade strip to show where an animal is missing.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M5_core_loop",
+      "name": "Core Loop Frame",
+      "description": "A printable oval/loop frame (about 4in wide) that students place over the repeating part of a pattern strip to circle the core.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M6_anchor_chart_words",
+      "name": "Anchor Chart Word Cards",
+      "description": "A printable set of 4 word cards (PATTERN, CORE, MISSING, EXTEND) with child-voice definitions that the teacher tapes to chart paper as each new term is introduced across the unit. Replaces hand-printing words on the chart and creates a reusable artifact for next year's class.",
+      "used_in_lessons": [
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "materials_overview": [
+    "Printed Parade Animal Cards (M1) — 1 set per pair",
+    "Parade Strips (M2) — class set, laminated if possible",
+    "Sound and Movement Cards (M3) — 1 set for class circle",
+    "Missing Mystery Cards (M4) — 5 per pair",
+    "Core Loop Frames (M5) — 1 per pair",
+    "Anchor Chart Word Cards (M6) — 1 set for the class chart",
+    "Drum or shaker for circle time (Lesson 2)",
+    "Coloured stickers or bingo daubers (red, blue, green, yellow) for student worksheets",
+    "Chart paper for class anchor charts"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 circle-time observation: which children can already say what comes next in a 2-element repeating pattern. Recorded on a class checklist.",
+    "formative": "Lesson 2 (core identification) and Lesson 4 (find the missing element) each have a short student worksheet plus a teacher anecdotal tracker.",
+    "summative": "Lesson 5 'Lead Your Own Parade' performance task with a 4-level rubric across A7.1–A7.4, plus a Junior Pattern Conductor certificate."
+  },
+  "pedagogical_notes": [
+    "Kindergarten is play-based and oral. Every lesson opens with a circle-time movement game, not a worksheet.",
+    "Worksheets are end-of-lesson consolidation, never the main activity.",
+    "Always introduce a new term orally (e.g. 'core') before showing the printed word.",
+    "Honour student-generated patterns — if a child makes a different valid core, treat it as success.",
+    "Use observational notes in Ontario K Communication-of-Learning style: strengths and growth, not numeric scores.",
+    "Build in opportunities for students to make patterns with their bodies (movement) and voices (sound), not only with paper."
+  ],
+  "canadian_context_notes": [
+    "All recurring characters are Canadian animals (bear, beaver, fox, moose).",
+    "Parade can reference familiar Canadian community parades (Santa Claus parade, Caribbean Carnival, local Canada Day parade) in oral examples without prescribing one.",
+    "Avoid US-only references. Use 'colour' not 'color' in printed materials."
+  ]
+}

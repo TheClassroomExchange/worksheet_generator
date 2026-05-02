@@ -1,0 +1,309 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "assets": [
+    {
+      "asset_id": "M1_animal_cards",
+      "name": "Parade Animal Cards",
+      "category": "manipulative",
+      "purpose": "Reusable physical cards used by pairs to build, manipulate, read, and translate parade patterns. The core manipulative of the entire unit — used in every lesson by every pair.",
+      "page_layout": "Two letter pages, portrait orientation, each holding 8 cards in a 2x4 grid. Each card is approximately 3in × 3in with thin solid cut-lines between cards. The 16-card set contains 4 of each animal: Bea (red vest), Finn (blue vest), Bibi (green vest), Moss (yellow vest). Page 1 holds 4 Bea + 4 Finn cards; page 2 holds 4 Bibi + 4 Moss cards (so a teacher only printing AB-pattern lessons can print page 1 only).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_BEA_CARD",
+          "description": "A 3in × 3in square B&W line-art card showing Bea the Bear in cartoon style: simple bold outlines, brown fur indicated by short hatching, friendly smile, wearing a small vest filled with a SOLID dark pattern (so Bea is visually distinct from the other animals' vests in B&W). Centred on the card with a thin black border. The animal fills about 80% of the card. Same stroke weight and proportions as Finn, Bibi, and Moss.",
+          "placement": "Repeated 4 times in a 2x2 portion of page 1.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M1_FINN_CARD",
+          "description": "A 3in × 3in square B&W line-art card showing Finn the Fox in matching style: simple bold outlines, friendly smile, wearing a small vest filled with HORIZONTAL STRIPES (so Finn's vest is visually distinct from the other animals in B&W). Centred, thin black border. Identical stroke weight to Bea, Bibi, Moss.",
+          "placement": "Repeated 4 times in a 2x2 portion of page 1.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M1_BIBI_CARD",
+          "description": "A 3in × 3in square B&W line-art card showing Bibi the Beaver in matching style: simple bold outlines, paddle tail visible, friendly smile, wearing a small vest filled with DOTS / POLKA-DOT pattern (so Bibi's vest is visually distinct from the other animals in B&W). Centred, thin black border. Same stroke weight.",
+          "placement": "Repeated 4 times in a 2x2 portion of page 2.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M1_MOSS_CARD",
+          "description": "A 3in × 3in square B&W line-art card showing Moss the Moose in matching style: simple bold outlines, small antlers, friendly smile, wearing a small vest filled with a CHECKERED / GRID pattern (so Moss's vest is visually distinct from the other animals in B&W). Centred, thin black border. Same stroke weight.",
+          "placement": "Repeated 4 times in a 2x2 portion of page 2.",
+          "approximate_size": "small"
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print both pages (one set per pair — for a class of 20 print 10 sets = 20 pages).",
+        "Optional but strongly recommended: laminate before cutting, so the cards survive K hands across multiple lessons.",
+        "Cut along the thin solid lines into 16 individual 3in × 3in cards per set.",
+        "Store each set in a labelled zip-top bag or envelope ('Parade Animal Cards — Pair 1', etc.).",
+        "Optional colour suggestion: if you have a colour printer and the budget for it, you may colour-print so each animal's vest is its named colour (Bea = red, Finn = blue, Bibi = green, Moss = yellow). The unit works equally well in B&W because each vest also has a unique pattern fill (solid, stripes, dots, checkered) that distinguishes the four animals visually."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "1 set (16 cards) per pair = 10 sets for a class of 20 students.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "M2_parade_strip",
+      "name": "Blank Parade Strip",
+      "category": "manipulative",
+      "purpose": "A printable strip with 5 cells that pairs use to lay out animal cards, build patterns, and visualize the parade route. The teacher also uses larger versions of the same strip during whole-group circle time for whole-class demonstrations.",
+      "page_layout": "Letter page, landscape orientation, with 2 horizontal parade strips stacked (one above, one below). Each strip is 5 cells wide, each cell ~1.5in square, with footprint icons drawn faintly beneath. A thin solid cut-line separates the two strips.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_PARADE_STRIP",
+          "description": "A horizontal 5-cell parade strip in B&W line-art style. Each cell is approximately 1.5in × 1.5in with a solid light-grey border, sized to hold a 1.4in animal card or sticker comfortably. Below the cells, faintly drawn footprints suggest a parade route from left to right. The whole strip is approximately 8in wide × 2in tall. Identical to the strip layout used in the worksheets so children recognize it immediately.",
+          "placement": "Printed twice per page (top half and bottom half), separated by a thin solid cut line.",
+          "approximate_size": "full_width"
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print enough pages to yield ~12 strips (one per pair plus 2 spare = 6 pages, since each page produces 2 strips).",
+        "Laminate the pages — this lets pairs use dry-erase markers if they want to draw on the strips later, and protects against snack crumbs.",
+        "Cut along the horizontal cut line between the two strips on each page.",
+        "Distribute one strip per pair; keep 2 extras at the teacher table for whole-group demonstrations."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 strip per pair plus 2 spare for the teacher's whole-group demos = 12 strips total for a class of 20.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "M3_sound_movement_cards",
+      "name": "Sound and Movement Cards",
+      "category": "manipulative",
+      "purpose": "An 8-card set used by the class and by pairs to translate visual patterns into auditory and kinesthetic patterns. Used in Lesson 3 (Same Beat, Different Parade) and Lesson 5 (summative, optional).",
+      "page_layout": "One letter page, portrait orientation, with 8 cards in a 2x4 grid. Each card is approximately 3in × 3in. Cards depict: clap (open hand), stomp (footprint), jump (jumping figure), freeze (hand up, palm out), hum (musical note + lips), tap (finger on surface), wave (waving hand), spin (circular arrow). Thin solid cut-lines between cards.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_CLAP",
+          "description": "A 3in × 3in card showing two open hands meeting — the universal clap icon. Simple, bold B&W line art, child-friendly. Word 'CLAP' printed beneath the icon in clear K-readable type.",
+          "placement": "Top-left of the 2x4 card grid.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M3_STOMP",
+          "description": "A 3in × 3in card showing a single footprint pressed firmly into the ground — the stomp icon. Simple bold line art. Word 'STOMP' printed beneath.",
+          "placement": "Top-second of the 2x4 grid.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M3_JUMP",
+          "description": "A 3in × 3in card showing a stick figure with arms up and feet off the ground — the jump icon. Simple bold line art. Word 'JUMP' printed beneath.",
+          "placement": "Top-third of the 2x4 grid.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M3_FREEZE",
+          "description": "A 3in × 3in card showing a stick figure standing perfectly still with one hand up, palm facing out — the freeze icon. Simple bold line art. Word 'FREEZE' printed beneath.",
+          "placement": "Top-right of the 2x4 grid.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M3_HUM",
+          "description": "A 3in × 3in card showing closed lips with a small musical note hovering above — the hum icon. Simple bold line art. Word 'HUM' printed beneath.",
+          "placement": "Bottom-left of the 2x4 grid.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M3_TAP",
+          "description": "A 3in × 3in card showing a single finger lightly tapping a surface, with two small motion lines — the tap icon. Simple bold line art. Word 'TAP' printed beneath.",
+          "placement": "Bottom-second of the 2x4 grid.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M3_WAVE",
+          "description": "A 3in × 3in card showing an open hand mid-wave with two small motion lines — the wave icon. Simple bold line art. Word 'WAVE' printed beneath.",
+          "placement": "Bottom-third of the 2x4 grid.",
+          "approximate_size": "small"
+        },
+        {
+          "id": "M3_SPIN",
+          "description": "A 3in × 3in card showing a circular arrow indicating rotation — the spin icon. Simple bold line art. Word 'SPIN' printed beneath.",
+          "placement": "Bottom-right of the 2x4 grid.",
+          "approximate_size": "small"
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page (the teacher only needs one class set; not one per pair).",
+        "Laminate the page for durability.",
+        "Cut along the cut-lines into 8 individual cards.",
+        "Store the set in a labelled envelope. Bring to circle time for Lesson 3 and Lesson 5.",
+        "Optional colour suggestion: B&W works well; print in colour only if you specifically want extra visual variety for whole-group circle time."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 class set (8 cards) — used by the teacher in circle time, not distributed to pairs.",
+      "used_in_lessons": [3, 5]
+    },
+    {
+      "asset_id": "M4_missing_card",
+      "name": "Missing Mystery Card",
+      "category": "manipulative",
+      "purpose": "A small card showing a question mark inside a dotted outline. Placed in a parade strip to indicate that an animal is missing from that position. Used heavily in Lesson 4 (Fix the Broken Parade) and available in Lesson 5 for challenge mode.",
+      "page_layout": "One letter page, portrait orientation, with 12 cards in a 3x4 grid. Each card is approximately 2in × 2in (smaller than the animal cards so it visually 'belongs' inside an empty cell). Identical design on every card.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_MISSING_CARD",
+          "description": "A 2in × 2in square card with a thin solid border. Inside, a dashed-outline rectangle filling about 80% of the card. Inside that dashed rectangle, a large bold question mark (~1in tall) drawn in dark grey or black. Simple, instantly recognizable to a Kindergartener as 'something is missing here'. Identical on every card on the page.",
+          "placement": "Repeated 12 times in a 3x4 grid.",
+          "approximate_size": "thumbnail"
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page (12 cards is enough for a class of 20 — 5 cards per pair × 10 pairs = 50, so print 4–5 pages).",
+        "Laminate before cutting.",
+        "Cut along the cut-lines into individual 2in × 2in cards.",
+        "Distribute 5 cards per pair before Lesson 4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "5 cards per pair = 50 cards = 4–5 printed pages for a class of 20.",
+      "used_in_lessons": [4, 5]
+    },
+    {
+      "asset_id": "M5_core_loop",
+      "name": "Core Loop Frame",
+      "category": "manipulative",
+      "purpose": "A reusable physical frame that students place over the repeating part of a parade strip to mark and isolate the core. Used in Lesson 2 (introduction of 'core'), Lesson 3 (verifying same-core-different-rep), Lesson 4 (using the core to fix gaps), and Lesson 5 (summative).",
+      "page_layout": "One letter page, portrait orientation, with 4 oval/lasso frames in a 2x2 grid. Each oval is approximately 4in wide × 1.7in tall, designed to frame a 2-, 3-, or sometimes 4-cell core comfortably. Each oval has a thin solid outer line and a thicker inner-edge line for visual emphasis. Cut-lines around each oval.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_CORE_LOOP",
+          "description": "A horizontal oval frame approximately 4in wide × 1.7in tall, drawn as a thick black outline (about 4pt) on a white interior. The shape is a clean ellipse — wide and short, so it can be placed over 2 or 3 cells of a parade strip without occluding the animal icons inside. No fill, no shadow, no decoration — just the frame outline. The same shape is sometimes called a 'lasso' in the teacher script.",
+          "placement": "Repeated 4 times in a 2x2 grid on the page.",
+          "approximate_size": "medium"
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock if available — durability matters because pairs handle these repeatedly.",
+        "Alternative: print on regular paper and laminate.",
+        "Cut around the outside of each oval to produce 4 frames per page (3 pages = 12 frames for a class of 20 = ~1 per pair plus spares).",
+        "Distribute one frame per pair before Lesson 2."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 frame per pair plus 2 spares = 12 frames = 3 pages for a class of 20.",
+      "used_in_lessons": [2, 3, 4, 5]
+    },
+    {
+      "asset_id": "char_coco_puppet",
+      "name": "Coco the Conductor Puppet",
+      "category": "character_puppet",
+      "purpose": "A printable Coco illustration that the teacher mounts on a popsicle stick to use as a recurring class character throughout all 5 lessons. Coco hosts each circle time, holds up the parade strips, and is the friendly face of the unit.",
+      "page_layout": "One letter page, portrait orientation, with a single large Coco illustration (~7in tall) and a small rectangular tab (~1in × 3in) at the bottom for the popsicle stick to be glued or taped behind. A thin cut-line traces the outside of Coco's silhouette including the tab.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_COCO_FRONT",
+          "description": "A full-body B&W line-art cartoon illustration of Coco the Conductor, approximately 7in tall: a friendly parrot with bold simple outlines, feather details indicated with line-art hatching (no fill), big round eyes, a warm smile, holding a small wooden conductor's baton in one wing. Slightly stylized, Kindergarten-appropriate, no scary or sharp features. At the bottom of the illustration, a small rectangular tab (~1in × 3in) extends below Coco's feet — this is for gluing the popsicle stick behind. A thin cut-line traces the outside of Coco's body including the tab. References blueprint.recurring_characters['Coco the Conductor'].visual_description; the colour version (red and yellow feathers) is achievable by colouring in the B&W line art.",
+          "placement": "Centred on the page.",
+          "approximate_size": "full_width"
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible (or regular paper + laminate for durability).",
+        "Cut around the outside of Coco's silhouette including the bottom tab.",
+        "Glue or tape a popsicle stick or tongue depressor behind the bottom tab so Coco can be held up like a puppet.",
+        "Optional: laminate before cutting for years of reuse.",
+        "Store flat in a folder so the puppet doesn't crease.",
+        "Optional colour suggestion: the design is intentionally B&W line art so any printer can produce it. If you have a colour printer, print in colour. Alternatively — and this is a lovely Day-0 activity — give children the B&W Coco and have them colour it together as a class before Lesson 1, with red and yellow feathers as the canonical palette."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "M6_anchor_chart_words",
+      "name": "Anchor Chart Word Cards",
+      "category": "manipulative",
+      "purpose": "A printable set of four word cards (PATTERN, CORE, MISSING, EXTEND) with child-voice definitions and small visual cues. The teacher tapes each card to the class anchor chart as the corresponding word is introduced across the unit, replacing hand-printed words with a reusable, legible artifact.",
+      "page_layout": "One letter page, portrait orientation, with 4 word cards in a 2x2 grid. Each card is approximately 3.5in × 4.5in. Each card has the WORD in large bold uppercase at the top, the child-voice definition underneath in smaller K-readable type, and a small visual cue icon (a clap-stomp pair, a core loop, a question mark, or an arrow) in the corner. Thin solid cut-lines between cards.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_WORD_PATTERN",
+          "description": "A 3.5in × 4.5in word card. Large bold uppercase 'PATTERN' centred at the top (~1.2in tall lettering). Below the word, in clear K-readable type (~0.4in tall): 'Something that repeats in the same order.' In the lower-right corner, a small clap-stomp icon pair (~0.8in tall) — open hand next to a footprint — to visually anchor the term. Thin black border around the card. B&W line art only.",
+          "placement": "Top-left of the 2x2 card grid.",
+          "approximate_size": "medium"
+        },
+        {
+          "id": "M6_WORD_CORE",
+          "description": "A 3.5in × 4.5in word card. Large bold uppercase 'CORE' centred at the top. Below: 'The little part of the pattern that keeps repeating.' Lower-right corner: a small Core Loop Frame icon (~0.8in tall) — the lasso/oval shape — matching the M5 manipulative. Thin black border. B&W line art only.",
+          "placement": "Top-right of the 2x2 grid.",
+          "approximate_size": "medium"
+        },
+        {
+          "id": "M6_WORD_MISSING",
+          "description": "A 3.5in × 4.5in word card. Large bold uppercase 'MISSING' centred at the top. Below: 'A part of the pattern that is not there yet.' Lower-right corner: a small question-mark-in-dashed-box icon (~0.8in tall) matching the M4 Missing Mystery Card design. Thin black border. B&W line art only.",
+          "placement": "Bottom-left of the 2x2 grid.",
+          "approximate_size": "medium"
+        },
+        {
+          "id": "M6_WORD_EXTEND",
+          "description": "A 3.5in × 4.5in word card. Large bold uppercase 'EXTEND' centred at the top. Below: 'To keep the pattern going.' Lower-right corner: a small bidirectional arrow icon (~0.8in tall) — a left arrow and a right arrow joined, representing extension in both directions. Thin black border. B&W line art only.",
+          "placement": "Bottom-right of the 2x2 grid.",
+          "approximate_size": "medium"
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page (1 set per class is enough — these go on the wall, not in pair bags).",
+        "Laminate the page for durability before cutting; this set will last for next year's class too.",
+        "Cut along the cut-lines into 4 individual word cards.",
+        "On Day 1, after introducing 'pattern', tape the PATTERN card to your anchor chart paper.",
+        "On Day 2, after introducing 'core', tape the CORE card below PATTERN.",
+        "On Day 4, after introducing 'missing' and 'extend', tape both MISSING and EXTEND cards.",
+        "Save the laminated set in a folder labelled 'Pattern Parade — Anchor Words' for re-use next year."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 set per class.",
+      "used_in_lessons": [1, 2, 4]
+    }
+  ],
+  "overall_prep_notes": "Total prep time across all 7 assets: approximately 90 minutes for a class of 20. Default print spec is BLACK AND WHITE for every asset — this ensures any printer in any classroom can produce the unit. Colour printing is suggested in several assets (M1, M3, Coco) for visual richness only; the unit works equally well in B&W because animal vests use distinct pattern fills (solid / stripes / dots / checkered) and Coco is line art that children can colour as a Day-0 activity. Recommended prep approach: prep the entire unit's manipulatives in one sitting before Lesson 1 — front-loads the work but means the unit runs smoothly day-to-day. Alternative: prep M1 + M2 + M6 + Coco before Lesson 1 (~55 min), then prep M5 the night before Lesson 2, M3 before Lesson 3, and M4 before Lesson 4. Storage: keep all sets in a labelled bin or shelf, with each pair's set in its own bag. The animal cards (M1) are by far the most-used asset — laminate these even if you skip lamination on others."
+}

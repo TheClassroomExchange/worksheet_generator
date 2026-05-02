@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "thematic_title": "The Pattern Parade — Operations, Big Numbers, and Justifying the Rule",
+  "descriptive_title": "Grade 3 Mathematics: Algebra (Patterns and Relationships) — Operations in Patterns, Tables of Values to 1000, and Justifying Predictions (C1.1–C1.4)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "C. Algebra (Patterns and Relationships)",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math/strands/c/c1",
+  "curriculum_codes": [
+    "C1.1",
+    "C1.2",
+    "C1.3",
+    "C1.4"
+  ],
+  "curriculum_expectations": {
+    "C1.1": "identify and describe repeating elements and operations in a variety of patterns, including patterns found in real-life contexts",
+    "C1.2": "create and translate patterns that have repeating elements, movements, or operations using various representations, including shapes, numbers, and tables of values",
+    "C1.3": "determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in patterns that have repeating elements, movements, or operations",
+    "C1.4": "create and describe patterns to illustrate relationships among whole numbers up to 1000"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 Algebra unit framed as a parade led by Coco the Conductor and four Canadian animals. Children move beyond Grade 2's three-type sorting into the Grade 3 work of identifying OPERATIONS in patterns (not just additive — also multiplicative and compound), translating across shapes and numbers, justifying predictions for terms far beyond what is shown using the rule, and applying pattern thinking to whole numbers up to 1000. The unit threads a single narrative across all five days, builds a class anchor chart day by day, and culminates in a summative 'Lead the Number Parade to 1000' performance task in which each child invents a rule (potentially compound), builds a number parade up to 1000, organizes it as a table of values, predicts a far term, and justifies the rule formally to a partner.",
+  "unit_learning_goal": "Children will identify the operation in repeating, growing, and shrinking patterns; translate patterns across shapes, numbers, and tables of values; determine compound and multiplicative rules; and justify predictions for far terms using whole numbers up to 1000.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Welcome Back, Pattern Conductors",
+      "primary_expectations": [
+        "C1.1"
+      ],
+      "secondary_expectations": [
+        "C1.3"
+      ],
+      "big_idea": "Patterns can repeat, grow, or shrink — and the rule that drives them can use addition, subtraction, multiplication, or even a combination.",
+      "student_learning_goal": "I can identify the operation in a pattern and describe whether it is repeating, growing, or shrinking.",
+      "one_line_summary": "Children review the three pattern types from Grade 2 and discover that growing/shrinking patterns can use multiplication or compound operations, not just addition or subtraction."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Multi-Step Pattern Rules",
+      "primary_expectations": [
+        "C1.3"
+      ],
+      "secondary_expectations": [
+        "C1.1"
+      ],
+      "big_idea": "A pattern rule can be a single step (+5) or a multi-step recipe (+3 then -1, or ×2 +1) — but as long as it is the SAME recipe each time, the rule still works.",
+      "student_learning_goal": "I can name a multi-step pattern rule and use it to build the next term.",
+      "one_line_summary": "Children meet patterns whose rule is a recipe of two operations, learn the formal notation (+N, -N, ×N, then-N), and use the rule to extend parades several terms ahead."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Tables of Values for Big Numbers",
+      "primary_expectations": [
+        "C1.2"
+      ],
+      "secondary_expectations": [
+        "C1.4",
+        "C1.3"
+      ],
+      "big_idea": "We can use a table of values to organize ANY pattern — and the bigger the numbers get, the more we need the table because we cannot draw every term.",
+      "student_learning_goal": "I can build a table of values for a number pattern up to 1000 and use it to predict a faraway term.",
+      "one_line_summary": "Children translate a pattern across shapes, numbers, and a table of values, then use the table to organize numbers up to 1000 and predict term 20 or term 30 without drawing every step."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Justify and Generalize",
+      "primary_expectations": [
+        "C1.3"
+      ],
+      "secondary_expectations": [
+        "C1.1"
+      ],
+      "big_idea": "A real Pattern Conductor doesn't just predict — they JUSTIFY. They explain WHY the rule works using the operation and how many times the rule has been applied.",
+      "student_learning_goal": "I can predict term 50 of a pattern and justify my prediction using the rule and the term number.",
+      "one_line_summary": "Children predict terms far beyond what is shown (term 30, term 50, term 100) using the rule, then write or speak a formal justification connecting the rule, the starting term, and the number of jumps."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Lead the Number Parade to 1000",
+      "primary_expectations": [
+        "C1.4"
+      ],
+      "secondary_expectations": [
+        "C1.1",
+        "C1.2",
+        "C1.3"
+      ],
+      "big_idea": "Pattern rules also work with numbers up to 1000 — and the same five-phase performance (plan, build, translate, table, lead) we have practiced all week now produces parades for the whole school to read.",
+      "student_learning_goal": "I can build a number parade up to 1000, organize it as a table of values, predict term 50, and justify my rule.",
+      "one_line_summary": "Summative: each child invents a rule (single-step or multi-step), builds an animal parade, translates to a number parade up to 1000, organizes it as a table of values, predicts a faraway term, and leads classmates through it while justifying the rule formally."
+    }
+  ],
+  "expectation_lesson_map": {
+    "C1.1": [
+      1,
+      2,
+      5
+    ],
+    "C1.2": [
+      3,
+      5
+    ],
+    "C1.3": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "C1.4": [
+      3,
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Coco the Conductor",
+      "role": "The parrot leader who keeps the parade in time. In Grade 3, Coco asks the deepest question yet — 'How do you JUSTIFY?' — and pushes children to explain their thinking using the rule, the starting value, and the number of jumps. Appears on every lesson cover and every worksheet header.",
+      "visual_description": "Friendly cartoon parrot, red and yellow feathers, holding a small wooden conductor's baton. Big eyes, warm smile. Grade 3-appropriate — slightly more confident posture (baton raised) compared to the K Coco. Visually consistent with the K, G1, and G2 Pattern Parade Coco so a child returning from earlier grades recognizes him."
+    },
+    {
+      "name": "The Parade Animals",
+      "role": "The same cast that built parades in K through G2. In Grade 3 the animals work as TERMS in patterns whose rules are operations: a cell might hold 2 Beas in term 1 and 4 Beas in term 2 (a ×2 rule), or 3 Beas in term 1 and 5 Beas in term 2 (a +2 rule). Used to anchor abstract operations to concrete countable objects.",
+      "visual_description": "Four characters drawn in matching cartoon style: Bea the Bear (brown, solid vest), Finn the Fox (orange, striped vest), Bibi the Beaver (dark brown, dotted vest), and Moss the Moose (tan, checkered vest). Same outline weight, same eye style, same friendly expression. Each animal's vest pattern fill is permanent (so they are distinguishable in B&W)."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "pattern",
+      "child_friendly_definition": "Something that repeats, grows, or shrinks following a rule we can name."
+    },
+    {
+      "term": "term",
+      "child_friendly_definition": "One step or one cell of the pattern. Term 1 is the first one, term 2 is the next, and so on."
+    },
+    {
+      "term": "pattern rule",
+      "child_friendly_definition": "The recipe that tells us how to get from one term to the next. It can be a single operation like +5 or a compound recipe like +3 then -1."
+    },
+    {
+      "term": "operation",
+      "child_friendly_definition": "A math move — adding, subtracting, multiplying, or dividing — that changes one term into the next."
+    },
+    {
+      "term": "growing pattern",
+      "child_friendly_definition": "A pattern where each term gets bigger by following the rule."
+    },
+    {
+      "term": "shrinking pattern",
+      "child_friendly_definition": "A pattern where each term gets smaller by following the rule."
+    },
+    {
+      "term": "table of values",
+      "child_friendly_definition": "A two-column chart with TERM and VALUE columns that organizes a pattern so we can find any term quickly."
+    },
+    {
+      "term": "predict",
+      "child_friendly_definition": "To use the rule to figure out a term we have not yet drawn or built — even one that is very far away."
+    },
+    {
+      "term": "justify",
+      "child_friendly_definition": "To explain WHY our prediction is right — using the rule, the starting value, and the number of jumps. A real Pattern Conductor always justifies."
+    },
+    {
+      "term": "generalize",
+      "child_friendly_definition": "To describe how a pattern works no matter which term we pick. Generalizing is what mathematicians do."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_animal_cards",
+      "name": "Parade Animal Cards",
+      "description": "A set of 16 cards: 4 each of Bea, Finn, Bibi, and Moss. In Grade 3 each cell of a parade strip can hold many animals stacked to represent a numeric value, and pairs use multiple sets to build patterns whose terms reach into the dozens or higher. Used in every lesson by every pair.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M2_parade_strip",
+      "name": "Blank Parade Strip",
+      "description": "A printable 5-cell strip with footprints drawn underneath. In Grade 3 the strip is used for animal parades AND for number parades — children write whole numbers up to 1000 into the cells with dry-erase markers (Lessons 3, 4, and 5). Laminated so markers wipe off.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M3_sound_movement_cards",
+      "name": "Sound and Movement Cards",
+      "description": "An 8-card set used by the class and by pairs to translate visual patterns into auditory and kinesthetic patterns. In Grade 3 used during Lesson 1 review and during Lesson 5 summative for the optional body-translation phase.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "M4_missing_card",
+      "name": "Missing Mystery Card",
+      "description": "A small card showing a question mark inside a dotted outline. Placed in a parade strip to indicate a missing term. Used heavily in Lesson 4 (Justify and Generalize) when children justify predictions for both visible-but-missing terms AND for terms far beyond what the strip shows.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M5_core_loop",
+      "name": "Core Loop Frame",
+      "description": "A reusable physical frame. In Grade 3 it marks the JUMP between two terms (showing the operation that defines the rule), or it isolates a repeating CORE in a Grade-3 repeating pattern with longer cores like ABCD or ABCDE. Used in Lessons 2, 3, 4, and 5.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M6_anchor_chart_words",
+      "name": "Anchor Chart Word Cards",
+      "description": "A printable set of four word cards (PATTERN, CORE, MISSING, EXTEND). The teacher tapes each card to the class anchor chart as the corresponding word is reviewed. In Grade 3 the teacher hand-prints SEVEN additional words on chart paper alongside the printed set: TERM, OPERATION, +N RULE, ×N RULE, COMPOUND RULE, TABLE OF VALUES, JUSTIFY, GENERALIZE — capturing the new Grade 3 vocabulary.",
+      "used_in_lessons": [
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "materials_overview": [
+    "Printed Parade Animal Cards (M1) — 2 sets per pair (Grade 3 patterns can need many animals per cell)",
+    "Parade Strips (M2) — class set, laminated (essential for dry-erase number parades up to 1000)",
+    "Sound and Movement Cards (M3) — 1 set for class circle (Lesson 1 review and Lesson 5 summative)",
+    "Missing Mystery Cards (M4) — 5 per pair",
+    "Core Loop Frames (M5) — 1 per pair plus 2 spare",
+    "Anchor Chart Word Cards (M6) — 1 set for the class chart",
+    "Coco the Conductor puppet (printed and mounted on a popsicle stick)",
+    "Sticky notes (small) for writing rule labels, including compound rules like '+3 then -1'",
+    "Dry-erase markers and small cloths (one per pair) for writing numbers in laminated parade strips",
+    "Hundred chart 0-100 AND a thousand chart 0-1000 (or a labelled number line 0-1000) posted on the math wall — every child can see both",
+    "Chart paper for class anchor charts (existing K/G1/G2 chart can be reused if available)",
+    "Calculators (one per pair) — Grade 3 children may use calculators in Lesson 4 for far-prediction arithmetic when the rule involves multiplication"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 circle-time observation plus a worksheet check: which children can already identify the operation in a pattern (not just the type) AND distinguish additive from multiplicative growth. Recorded on a class diagnostic checklist.",
+    "formative": "Lessons 2, 3, and 4 each have a class formative tracker. A standalone mid-unit formative ('Tables and Operations Check') is administered between Lesson 3 and Lesson 4 as a 12-minute gate before the unit's hardest content (formal justification and far prediction).",
+    "summative": "Lesson 5 'Lead the Number Parade to 1000' performance task with a 4-level rubric across C1.1-C1.4. Evidence comes from the worksheet (rule, animal parade, number parade, table of values, far prediction, justification sentence) and the partner-lead conversation. Junior Pattern Conductor certificate awarded at the closing ceremony — Grade 3 version explicitly mentions justification and generalization."
+  },
+  "pedagogical_notes": [
+    "Grade 3 children can hold the formal rule notation (+N, -N, ×N, compound) in their heads but most still benefit from oral and movement entry points before written work. Always introduce a new operation orally and with bodies before showing the printed notation.",
+    "Justifying predictions formally is the Grade 3 leap. The justification sentence is: 'I started at ___, the rule is ___, I jumped ___ times, so term ___ is ___.' Build this frame into every lesson, every conference, every share circle. By Lesson 4 children should be able to produce it without prompting.",
+    "When children invent compound rules, validate and document — these often signal Level 4 thinking. Examples: '×2 then +1' produces 1, 3, 7, 15... (doubles plus one) which is a real Grade 4-5 sequence; '+1, +2, +3, +4' (increasing differences) is technically not a Grade 3 expectation but is a beautiful side-quest.",
+    "Worksheets are end-of-lesson consolidation, not the main activity. Centre activities, partner work, and whole-class share circles are the spine.",
+    "In Lesson 5, do NOT require children to write large numbers from memory — provide a thousand chart or labelled 0-1000 number line so children can copy. The cognitive work is the rule and the justification, not the handwriting.",
+    "Children may use calculators in Lesson 4 for multi-step arithmetic when predicting term 50 with a multiplicative rule (e.g., starting at 2, ×2 each term: term 10 = 1024, far above the children's mental math). The calculator is a tool, not a crutch — they still must explain WHY the rule produces that value.",
+    "Build in opportunities for students to make patterns with their bodies, voices, numbers, AND with shapes (geometric: square, triangle, circle, hexagon as the four 'animals' for an alternative parade) — Grade 3 explicitly extends to shapes.",
+    "Use anecdotal observation notes alongside the rubric. The rubric scores skill; the notes capture how a child justified a prediction or invented a clever compound rule."
+  ],
+  "canadian_context_notes": [
+    "All recurring characters are Canadian animals (bear, beaver, fox, moose).",
+    "Parade can reference familiar Canadian community parades (Santa Claus parade, Caribbean Carnival, local Canada Day parade, Pride parade) in oral examples.",
+    "Avoid US-only references. Use 'colour' not 'color' in printed materials. Use metric units in any number context.",
+    "Number patterns in Lesson 5 use Ontario hundred-chart and thousand-chart conventions; align with what is on the classroom math wall.",
+    "Real-life pattern hunt examples (carried over from G2) can include uniquely Canadian contexts: hockey-game scores by period, Tim Hortons cup-collection sequences, transit map line patterns.",
+    "Rule labels (+N / -N / ×N / compound) are the Ontario curriculum's chosen notation for Grade 3 — kept consistent here to match the teacher's other resources."
+  ]
+}

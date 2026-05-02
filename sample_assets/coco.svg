@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 280" width="220" height="280">
+  <!-- Tail feathers (drawn first, behind body) -->
+  <path d="M 75 175 Q 50 210 38 255 Q 55 248 72 230" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 88 180 Q 70 220 60 265 Q 80 255 95 235" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 105 183 Q 95 225 88 268 Q 110 258 115 235" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Body -->
+  <ellipse cx="115" cy="180" rx="42" ry="55" fill="white" stroke="black" stroke-width="2.5"/>
+
+  <!-- Bow tie at neck -->
+  <path d="M 95 124 L 110 134 L 95 144 Z" fill="white" stroke="black" stroke-width="1.8"/>
+  <path d="M 135 124 L 120 134 L 135 144 Z" fill="white" stroke="black" stroke-width="1.8"/>
+  <rect x="110" y="130" width="10" height="8" fill="white" stroke="black" stroke-width="1.5"/>
+
+  <!-- Head -->
+  <circle cx="115" cy="92" r="42" fill="white" stroke="black" stroke-width="2.5"/>
+
+  <!-- Crest feathers on top of head -->
+  <path d="M 100 55 Q 95 38 105 32 Q 110 45 108 56" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 113 53 Q 115 32 122 30 Q 125 42 120 55" fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 125 56 Q 130 38 138 38 Q 138 50 132 58" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Beak (curved, right side) -->
+  <path d="M 152 85 Q 175 92 178 105 Q 170 118 152 112 Q 148 100 152 88 Z"
+        fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 152 102 Q 162 105 173 105" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- Eye -->
+  <circle cx="130" cy="80" r="9" fill="white" stroke="black" stroke-width="2.2"/>
+  <circle cx="132" cy="81" r="4.5" fill="black"/>
+  <circle cx="130" cy="78" r="1.5" fill="white"/>
+
+  <!-- Wing -->
+  <path d="M 95 150 Q 75 180 82 215 Q 100 225 115 210 Q 110 180 105 158 Z"
+        fill="white" stroke="black" stroke-width="2.2"/>
+  <path d="M 88 180 Q 92 200 102 210" fill="none" stroke="black" stroke-width="1.5"/>
+  <path d="M 95 170 Q 100 192 110 205" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- Conductor's baton -->
+  <line x1="98" y1="210" x2="148" y2="240" stroke="black" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="151" cy="242" r="5" fill="black"/>
+
+  <!-- Feet -->
+  <line x1="103" y1="232" x2="98" y2="262" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="127" y1="232" x2="132" y2="262" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Toes -->
+  <line x1="98" y1="262" x2="90" y2="268" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="98" y1="262" x2="98" y2="270" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="98" y1="262" x2="106" y2="268" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="132" y1="262" x2="124" y2="268" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="132" y1="262" x2="132" y2="270" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="132" y1="262" x2="140" y2="268" stroke="black" stroke-width="2" stroke-linecap="round"/>
+</svg>

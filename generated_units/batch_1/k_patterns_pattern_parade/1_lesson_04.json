@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "lesson_number": 4,
+  "lesson_title": "Fix the Broken Parade",
+  "duration_minutes": 40,
+  "primary_expectations": [
+    "A7.4"
+  ],
+  "secondary_expectations": [
+    "A7.1",
+    "A7.2"
+  ],
+  "big_idea": "We can extend a pattern forward and backward, and we can fill in missing pieces.",
+  "learning_intention": "We are learning to find what is missing in a pattern and to extend a pattern in both directions.",
+  "student_learning_goal": "I can find what is missing in a pattern and add what comes next.",
+  "success_criteria": [
+    "I can find a missing animal in the middle of a parade.",
+    "I can extend a parade to make it longer at the end.",
+    "I can extend a parade backward to show what came before the start."
+  ],
+  "vocabulary_introduced": [
+    "missing",
+    "extend"
+  ],
+  "vocabulary_reinforced": [
+    "pattern",
+    "core"
+  ],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip",
+    "M4_missing_card",
+    "M5_core_loop"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart from previous lessons — add MISSING and EXTEND today",
+    "Missing Mystery Cards (M4) — 5 per pair",
+    "Pre-built parade strips for the Fix-It and Stretch-It stations (teacher prep, ~10 min)",
+    "Class formative tracker (provided in assessment_suite stage)"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Coco's Big Trouble",
+    "hook": "There was a windstorm last night, and now Coco's parade has GAPS! We need to figure out who's missing.",
+    "teacher_script": "Bring children to the carpet. Hold up Coco. Have a parade strip pre-laid with a Missing Mystery Card in the middle: Bea — Finn — [M4 card] — Finn — Bea — Finn.\n\nSay to students: 'Friends, Coco needs our help. There was a windstorm last night, and look what happened to Coco's parade.' Point to the M4 card. 'See this question-mark card? It means an animal is MISSING. We don't know who used to be there. Can we figure it out?'\n\nLet children study it. Take 2–3 predictions. Lead them to the answer (Bea). 'How did you know? What part of the pattern told you?' (The core — Bea-Finn keeps coming back.) Add MISSING to the anchor chart with a small picture of a question mark.\n\n'And there is one more new word for today.' Hold up two cards: Bea, Finn. 'If I want this parade to keep going, I have to EXTEND it. EXTEND means to make the parade longer.' Add EXTEND to the anchor chart. 'Today we have two jobs: FIX missing animals, and EXTEND parades to make them longer — at the end AND at the start.'",
+    "student_actions": [
+      "Sit on the carpet and study the parade with the missing card.",
+      "Predict who the missing animal is.",
+      "Repeat the words 'missing' and 'extend' as a class."
+    ]
+  },
+  "action": {
+    "duration_minutes": 22,
+    "activity_name": "Fix-It and Stretch-It",
+    "structure": "small_group",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Phase 1 — Fix-It (10 min). Each pair gets 3 pre-built parade strips, each with one Missing Mystery Card placed somewhere (middle, start, or end). Pair must remove the M4 card and replace it with the correct animal card.",
+        "teacher_prompt": "Say to students: 'Phase one is FIX-IT. You have three broken parades. Find the missing animal in each one and fix it. Whisper your answer to your partner before you swap the card. When all three are fixed, raise your hand.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Phase 2 — Stretch-It (10 min). Each pair receives a parade strip with 4 cells already filled in the MIDDLE of the strip, leaving 2 empty cells at the END and 2 empty cells at the START. They must extend the parade in both directions.",
+        "teacher_prompt": "Say to students: 'Phase two is STRETCH-IT. Look at the four animals in the middle. Now we have to make this parade longer. Two animals come AFTER the end. And — this is the tricky part — two animals come BEFORE the start. What animal would be standing at the very front of the line, before the parade you can see?'\n\nIf needed, model with a child: 'If the parade goes Bea-Finn-Bea-Finn, what would have come before the first Bea? It would have to be Finn — because the pattern goes back the same way it goes forward.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Circulate between phases. Use the formative tracker to record which children can fill missing in the middle, missing at the end (easier), missing at the start (harder), extend forward, and extend backward (hardest).",
+        "teacher_prompt": "Stop at each pair. Ask: 'How did you know that animal was missing?' (Phase 1.) 'How did you know what came BEFORE the start?' (Phase 2.) Record on the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Phase 1 only. Use AB patterns and place the M4 card always at the end (predicting next, like Lesson 1). Skip backward-extension; if time, do forward-extension only.",
+      "for_extending": "Use ABC or ABBA cores. In Phase 1, give two M4 cards in the same strip. In Phase 2, ask the pair to extend three cells in each direction and explain how they decided.",
+      "for_ell_or_iep": "Walk the parade physically. Place the strip on the floor and have the child step on each cell while saying the animal aloud. When you reach an M4 card, the child stops and the partner names what should be there. For backward extension, walk the parade in reverse.",
+      "for_movement_learners": "Replace cards with floor spots. Walk the parade forward to predict the end; walk it backward to predict the start. Body memory helps the abstraction land."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child identify a missing element in the middle? At the end? At the start (harder — many K children find this hard)? Can they extend the parade forward? Backward? Do they reference the core when explaining their answer?",
+      "how_to_record": "Tick the appropriate column on the formative tracker.",
+      "tracker_columns": [
+        "Student name",
+        "Finds missing in middle",
+        "Finds missing at end",
+        "Finds missing at start",
+        "Extends forward",
+        "Extends backward",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Two-Direction Parade Share",
+    "discussion_prompts": [
+      "Who fixed a tricky missing animal? Show us where it was.",
+      "Who extended their parade BACKWARD? How did you figure out what came before the start?",
+      "Why is finding the core important when something is missing?"
+    ],
+    "exit_routine": "Each child whispers to a partner: 'I fixed a parade where ___ was missing.' OR 'I extended my parade by adding ___ at the start.' Then tidy."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for A7.4, plus completed student worksheet 'Help Coco Fix It!'.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "A7.4 has two parts (extend in both directions; identify missing). Backward extension is the hardest concept for K children because they typically read patterns left-to-right. The tracker separates these so the teacher can see which children are ready for the summative and which need more bridging."
+  },
+  "expanded_walkthrough": {
+    "title": "Extending Backward — the hardest move in K patterning",
+    "rationale": "Phase 2 Stretch-It is the single hardest task in the K unit. Children comfortably extend patterns forward (cells march in the direction of reading). Going backward — figuring out what came BEFORE the visible start — requires the child to mentally invert the rule. Many K children find this counter-intuitive even when they confidently extend forward. This walkthrough scripts the redirect that gets them through it.",
+    "setup": "Each pair receives a strip with cells 3-6 filled (e.g., Bea-Finn-Bea-Finn) and cells 1-2 empty at the START, cells 7-8 empty at the END. Animal cards M1 are nearby in piles. Teacher carries the diagnostic clipboard. A reference Core Loop (M5) is placed visibly on each pair's table. The hook ('Coco's Big Trouble — the windstorm') is still alive in the room.",
+    "teacher_script": "Walk to a pair attempting the Stretch-It strip. They will almost always extend the END first (cells 7, 8). That's the easy direction. Praise it briefly. Now point to cells 1 and 2 — the start. 'What comes BEFORE this Bea?' Watch the freeze. Many children will shrug. Some will guess randomly.\n\nHere's the redirect. Pick up the Core Loop and lasso the first repeating unit on the filled cells (Bea-Finn). 'Look. Inside the loop is Bea, then Finn. The whole pattern is Bea-Finn-Bea-Finn-Bea-Finn over and over. So if I imagine the parade going backwards in time, what would have come before Bea?' Pause. Some children will say 'Finn!' They've got it. Confirm: 'Yes — because the core is Bea-Finn, going backwards we'd see Finn-Bea-Finn-Bea. So cell 2 is Finn, and cell 1 is Bea.'\n\nIf the child stays confused, switch tools. Take a long strip of paper and write the core (Bea-Finn) on a sticky note. Slap it down repeatedly to the LEFT of cells 1-2: 'Bea-Finn, Bea-Finn, Bea-Finn… (slap slap slap) …Bea-Finn-Bea-Finn (the strip).' The visual chaining of cores backwards in time is what unlocks the move.\n\nWatch for the child who fills cells 1-2 with Finn-Bea (correct) versus Bea-Finn (wrong — they've imagined the rule reversing). Use the diagnostic clipboard to record this — it's your formative gate for whether the child genuinely owns the core or is pattern-matching.",
+    "expected_student_responses": [
+      "(Easy direction first) Extends cells 7-8 confidently with Bea-Finn. Hesitates on cells 1-2.",
+      "(Confused) Fills cells 1-2 with Bea-Finn (forward direction repeated). Hasn't inverted.",
+      "(Mid) After the loop redirect, says 'Finn' for cell 2 but second-guesses cell 1.",
+      "(Strong) Articulates: 'Going backwards, the parade would just keep being Bea-Finn over and over too. So Finn, then Bea.'"
+    ],
+    "common_misconceptions": [
+      "Extending backward means reversing the rule. (Child fills 1-2 with Bea-Finn instead of Finn-Bea, treating 'backward' as a different pattern.)",
+      "Missing-at-start is impossible. (Child gives up — believes you can only extend forward.)",
+      "Random fill is acceptable when stuck. (Child puts any animal in cells 1-2 to 'finish the work,' showing pattern is being bypassed.)"
+    ],
+    "recovery_moves": [
+      "Use the loop as a mental tool. Place M5 on the first Bea-Finn pair, then drag it leftward across an imaginary extension. 'The same Bea-Finn loop, just earlier in time.'",
+      "Sticky-note the core to the LEFT of the strip. Make the chaining-backwards visible — Bea-Finn, Bea-Finn, Bea-Finn before the actual strip starts. Hands-on inversion.",
+      "Ask the smaller question. Don't ask 'what comes before Bea?' — ask 'what's the rule, and does the rule change going backward?' Most children, once nudged, can answer the second question even when stuck on the first."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Help Coco Fix It!",
+    "purpose": "Independent practice of A7.4 — finding missing elements in different positions and extending patterns in both directions.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Three short parade strips. Each has ONE missing cell shown as a question-mark box: one missing in the middle, one missing at the end, one missing at the start. Student draws or stickers the correct animal in each box.",
+        "response_type": "draw_or_sticker"
+      },
+      {
+        "part_number": 2,
+        "task": "A parade strip with four animals in the middle and two empty cells extending past each end. Student fills all four empty cells, extending the parade forward AND backward.",
+        "response_type": "draw_or_sticker"
+      },
+      {
+        "part_number": 3,
+        "task": "Empty parade strip. Student creates their own parade with two animals deliberately missing (drawn as question-mark boxes), then writes or draws the correct answer in a small 'My Answer' box at the bottom for a partner or teacher to check.",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "Bea, Finn, Bibi, Moss thumbnail icons",
+      "Missing Mystery Card icon (large question mark in dotted box, matching M4 manipulative)",
+      "Parade strip layout with cells extending past both ends for Part 2",
+      "Coco the Conductor in the worksheet header"
+    ]
+  }
+}

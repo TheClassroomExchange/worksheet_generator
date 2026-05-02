@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_patterns_pattern_parade",
+  "lesson_number": 1,
+  "worksheet_title": "Coco's First Grade 1 Parade",
+  "purpose": "Independent practice of C1.1 — describing a repeating pattern, predicting the next element, and creating an original repeating pattern. Used as Lesson 1 consolidation and as evidence for the diagnostic checklist.",
+  "student_learning_goal": "I can describe a repeating pattern and predict what comes next.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe a repeating pattern and predict what comes next.",
+    "character_watermark": "Coco the Conductor in the top-right corner of the header, smiling and holding the conductor's baton. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Predict and explain",
+          "student_instructions": "Bea and Finn are leading the parade. Look at the pattern. Draw or sticker the animal that comes next. Then circle the word that finishes the sentence below.",
+          "visual_layout": "Horizontal parade strip centred at the top, 5 cells wide, each cell ~1.2in square. Cells 1–4 are filled with the animal icons in the order Bea, Finn, Bea, Finn. Cell 5 has a dashed outline (no fill) to signal the empty space the student fills in. Footprints decorate the strip beneath the cells. To the left of the strip, a small reference key shows just the Bea and Finn icons with their names underneath. Below the strip, a Grade 1 sentence frame: 'I predict ____ comes next because the pattern repeats.' with the word options 'Bea / Finn / Bibi / Moss' shown beneath as bubbles to circle.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_PARADE",
+              "description": "A 5-cell horizontal parade strip in B&W line-art style suitable for a Grade 1 worksheet. Cells 1–4 filled in order: Bea the Bear (solid vest), Finn the Fox (striped vest), Bea, Finn. Cell 5 has a dashed outline only — empty, ready for the student to fill. Footprints drawn faintly beneath the strip suggest movement to the right. Each cell is approximately 1.2in × 1.2in. Full width of the printable page (~7in).",
+              "placement": "Centred horizontally; top of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "finn",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_PARADE at Centred horizontally; top of Part 1.: the student-facing words (finn, parade) name what the image shows. Image content: A 5-cell horizontal parade strip in B&W line-art style suitable for a Grade 1 worksheet. Cells 1–4 filled in order: Bea the Bear (solid vest… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P1_KEY",
+              "description": "A small two-icon reference key. Two thumbnails side by side: Bea the Bear (solid vest) labelled 'Bea' beneath, and Finn the Fox (striped vest) labelled 'Finn' beneath. Each thumbnail ~0.8in tall.",
+              "placement": "To the left of the parade strip, vertically centred.",
+              "approximate_size": "thumbnail",
+              "keywords": [
+                "finn"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_KEY at To the left of the parade strip, vertically centred.: the student-facing words (finn) name what the image shows. Image content: A small two-icon reference key. Two thumbnails side by side: Bea the Bear (solid vest) labelled 'Bea' beneath, and Finn the Fox (striped ves… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "draw_or_sticker",
+          "answer_key": "Cell 5 = Bea. The pattern is AB (Bea-Finn). The student should circle 'Bea' in the sentence frame."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Two animals missing",
+          "student_instructions": "Look at this longer parade. Two animals are missing — the last two. Use the pattern rule to fill them in.",
+          "visual_layout": "Horizontal parade strip centred on the page, 8 cells wide, each cell ~1in square. Cells 1–6 are filled with the pattern Bea, Finn, Bibi, Bea, Finn, Bibi. Cell 7 (Bea) is dashed outline. Cell 8 (Finn) is dashed outline. Footprints beneath. To the left, a thin reference key showing Bea, Finn, and Bibi.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_PARADE",
+              "description": "An 8-cell horizontal parade strip in B&W line-art style. Cells 1-6 filled with: Bea, Finn, Bibi, Bea, Finn, Bibi (ABC repeating pattern). Cells 7 and 8 are empty with dashed outlines. Footprints decorate the strip. Full width.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "pattern",
+                "repeating"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_PARADE at Centred horizontally; spans Part 2.: the student-facing words (parade, pattern, repeating) name what the image shows. Image content: An 8-cell horizontal parade strip in B&W line-art style. Cells 1-6 filled with: Bea, Finn, Bibi, Bea, Finn, Bibi (ABC repeating pattern). Ce… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P2_KEY",
+              "description": "A small reference key showing Bea (solid vest), Finn (striped vest), and Bibi (dotted vest), each ~0.8in tall, names beneath.",
+              "placement": "To the left of the parade strip in Part 2.",
+              "approximate_size": "thumbnail",
+              "keywords": [
+                "strip",
+                "finn",
+                "bibi"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_KEY at To the left of the parade strip in Part 2.: the student-facing words (strip, finn, bibi) name what the image shows. Image content: A small reference key showing Bea (solid vest), Finn (striped vest), and Bibi (dotted vest), each ~0.8in tall, names beneath.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "draw_or_sticker",
+          "answer_key": "Cell 7 = Bea. Cell 8 = Finn. Wait — re-check: the rule is ABC (Bea-Finn-Bibi). After Bibi, the rule restarts with Bea. So cell 7 = Bea, cell 8 = Finn. Full sequence: Bea-Finn-Bibi-Bea-Finn-Bibi-Bea-Finn."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Build your own parade",
+          "student_instructions": "Now you are the parade builder! Pick two OR three animals. Build your own repeating pattern in the strip. Draw or sticker each cell.",
+          "visual_layout": "Empty 6-cell horizontal parade strip centred on the page. All 6 cells are blank with light-grey solid outlines (workspace cells). Below the strip, a horizontal animal-key legend showing all four animals (Bea, Finn, Bibi, Moss) with names beneath, so the student can pick any two or three. Footprints beneath the strip.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_PARADE",
+              "description": "An empty 6-cell horizontal parade strip in B&W line-art style. All 6 cells blank with solid light-grey outlines. Footprints beneath the strip. Full width.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "strip"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_PARADE at Centred horizontally in Part 3.: the student-facing words (parade, strip) name what the image shows. Image content: An empty 6-cell horizontal parade strip in B&W line-art style. All 6 cells blank with solid light-grey outlines. Footprints beneath the stri… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P3_KEY",
+              "description": "A horizontal legend showing all four parade animals: Bea the Bear (solid vest), Finn the Fox (striped vest), Bibi the Beaver (dotted vest), Moss the Moose (checkered vest). Each is ~1in tall, names printed underneath.",
+              "placement": "Below the parade strip in Part 3, horizontally centred.",
+              "approximate_size": "small",
+              "keywords": [
+                "parade",
+                "animals",
+                "strip"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_KEY at Below the parade strip in Part 3, horizontally centred.: the student-facing words (parade, animals, strip) name what the image shows. Image content: A horizontal legend showing all four parade animals: Bea the Bear (solid vest), Finn the Fox (striped vest), Bibi the Beaver (dotted vest),… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Any valid repeating pattern using two OR three of the four animals across 6 cells. Examples of valid responses: AB rule (Bea-Finn-Bea-Finn-Bea-Finn), ABC rule (Bea-Finn-Bibi-Bea-Finn-Bibi), ABB rule (Bea-Finn-Finn-Bea-Finn-Finn), AAB rule (Bea-Bea-Finn-Bea-Bea-Finn). A response is correct if the pattern repeats consistently across all 6 cells."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and build another parade with three different animals! Can you make an ABC pattern that uses Bea, Bibi, and Moss?",
+  "teacher_notes": "Lesson 1 consolidation artifact. Hand it out at the end of the Action phase. Most children should complete Parts 1 and 2 with minimal support. For Part 3, look for: (a) the child uses 2 or 3 different animals, (b) the pattern repeats consistently. Use Part 3 as evidence for the diagnostic checklist columns 'Creates 2-element pattern (independent)' and 'Creates 3-element pattern (independent)'. Children who struggle with Part 3 likely need a small-group re-loop on Lesson 1's predicting work before Lesson 2 (rule-naming) requires more abstraction."
+}

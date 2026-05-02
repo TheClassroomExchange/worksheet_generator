@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_patterns_pattern_parade",
+  "formative_worksheets": [
+    {
+      "title": "The Same Rule Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10–12 minutes) to confirm C1.3 (rule identification) and C1.2 (multi-representation) have landed before adding C1.3's deeper work — justifying predictions and finding missing — in Lesson 4.",
+      "purpose": "Standalone formative assessment distinct from lesson worksheets. Lets the teacher quickly see which children can identify rules and translate them across representations, and which need a bridging conversation before Lesson 4's detective work.",
+      "expectations_assessed": ["C1.3", "C1.2"],
+      "student_learning_goal": "I can find the rule and show it in different ways.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can find the rule and show it in different ways.",
+        "character_watermark": "Coco the Conductor in the top-right corner with a small magnifying glass — the 'check-in' Coco. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Two of these parades follow the SAME rule. Circle the two that match. Then write the rule on the line.",
+          "visual_layout": "Three small horizontal parade strips stacked vertically, each labelled 'Parade A', 'Parade B', 'Parade C' to the left. Each strip is 6 cells wide. Below all three, a writing line: 'The matching rule is: ____'. The student draws a circle around two of the three full strips and writes the rule label on the line.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_PARADE_A",
+              "description": "A 6-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Finn, Bea, Finn, Finn (animal ABB pattern). Footprints beneath. Label 'Parade A' to the left. Approximately 5in wide.",
+              "placement": "Top row of Prompt 1.",
+              "approximate_size": "medium"
+            },
+            {
+              "id": "FORM_Q1_PARADE_B",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells filled in order: clap, stomp, stomp, clap, stomp, stomp (sound ABB pattern using clap and stomp icons). Label 'Parade B' to the left. Approximately 5in wide.",
+              "placement": "Middle row of Prompt 1.",
+              "approximate_size": "medium"
+            },
+            {
+              "id": "FORM_Q1_PARADE_C",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells filled in order: Bea, Bea, Finn, Bea, Bea, Finn (animal AAB pattern). Label 'Parade C' to the left. Approximately 5in wide.",
+              "placement": "Bottom row of Prompt 1.",
+              "approximate_size": "medium"
+            }
+          ],
+          "response_type": "circle_or_loop",
+          "answer_key": "Parades A and B (both ABB rules: Bea-Finn-Finn structurally equals clap-stomp-stomp). Parade C is AAB and does not match. Rule on line = ABB. A child who circles A+B AND writes ABB has crossed the abstraction threshold of C1.2 with rule-naming added (C1.3) — Level 3 evidence."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Look at the parade at the top. Now show the SAME rule a different way. Pick sounds OR bodies. Write the rule on the line at the bottom.",
+          "visual_layout": "At the top, a pre-filled animal AAB parade (6 cells). Below it, an empty 6-cell parade strip with dashed cell outlines for the student to fill. To the right of the empty strip, a small reference key showing clap, stomp, tall, and small icons. At the bottom of the prompt, a writing line: 'My rule is ____'.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_TOP",
+              "description": "A 6-cell horizontal parade strip pre-filled in order: Bea, Bea, Finn, Bea, Bea, Finn (animal AAB). Footprints beneath. Label 'Look at this parade:' above the strip. Full width.",
+              "placement": "Top of Prompt 2.",
+              "approximate_size": "full_width"
+            },
+            {
+              "id": "FORM_Q2_BLANK",
+              "description": "An empty 6-cell horizontal parade strip with dashed cell outlines. Footprints beneath. Label 'Now show the same rule another way:' above. Full width.",
+              "placement": "Below FORM_Q2_TOP.",
+              "approximate_size": "full_width"
+            },
+            {
+              "id": "FORM_Q2_KEY",
+              "description": "A small horizontal reference key with four icons: clap (open hand), stomp (footprint), tall (stick figure standing), small (stick figure crouching). Names beneath each. Each ~0.8in tall. B&W line art.",
+              "placement": "Below FORM_Q2_BLANK, horizontally centred.",
+              "approximate_size": "small"
+            }
+          ],
+          "response_type": "draw_or_sticker",
+          "answer_key": "Any valid AAB pattern using non-animal pairs: clap-clap-stomp-clap-clap-stomp; tall-tall-small-tall-tall-small; clap-clap-tall-clap-clap-tall. Rule label on the line = AAB. Correct if the structural AAB rule is preserved AND the surface elements differ from animals AND the rule label is correctly written."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling about pattern rules and showing the same rule in different ways? Circle the face that fits.",
+          "visual_layout": "Three faces in a horizontal row: a big smile, a neutral mouth, and a worried frown. Below each face, a label: 'I got it!', 'Almost!', 'Need help!'. The student circles one face.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons in a horizontal row, each ~1.5in across. Left face: B&W line-art smiling face with curved upturned mouth. Middle face: neutral straight-line mouth. Right face: line-art with downturned mouth. Below each face, printed label: 'I got it!', 'Almost!', 'Need help!'. Total row width ~6in.",
+              "placement": "Centred horizontally in Prompt 3.",
+              "approximate_size": "full_width"
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open. The teacher uses this self-rating alongside the work on Prompts 1 and 2 to identify mismatches: a child who got Prompt 1 wrong but circled 'I got it!' may need more discussion; a child who got Prompts 1 and 2 right but circled 'Need help!' may just need confidence-building."
+        }
+      ],
+      "teacher_notes": "Administer this between Lesson 3 and Lesson 4 — it is the 10-minute mid-unit gate. Print one per child; circulate while children work and note who finishes confidently versus who hesitates. Score guide: 2/2 + correct rule labels + confident self-rating = ready for Lesson 4. 2/2 + low self-rating = nudge confidence. 1/2 = brief 1:1 conference before Lesson 4 reviewing the AAB vs ABB difference and how to label a rule. 0/2 = small-group re-loop on Lesson 3's translation routine before continuing. The rule-label requirement on the line is the new Grade 1 expectation — children who circle correctly but cannot write the label still need rule-naming practice."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Pattern Parade Reflection",
+    "purpose": "End-of-unit metacognition. Children look back at their week of pattern work — including the new Grade 1 expectations of naming rules, justifying predictions, and using numbers to 50 — and rate themselves, name a favourite, name a struggle, and set a forward goal. Companion to the Lesson 5 summative.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Coco the Conductor in the top-right corner, holding a Junior Pattern Conductor certificate. Small (~1.5in tall). References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Pattern Conductor? Circle one.",
+        "visual_layout": "Three star-rating options shown horizontally, each in its own oval: 1 star, 2 stars, 3 stars. Beneath each oval, a label: 'Just starting', 'Mostly got it', 'I am a Conductor!'. Child circles one oval.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three options shown horizontally in ovals: left option = 1 large star (~1in), middle = 2 stars side by side, right = 3 stars side by side. Each option enclosed in a thin oval ~2in wide × 1.5in tall. Beneath each oval, printed label: 'Just starting', 'Mostly got it', 'I am a Conductor!'. Total row ~6.5in wide. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 1.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am a Conductor!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things this week? Circle YES or NO.",
+        "visual_layout": "A five-row table. Each row contains a question label on the left and YES / NO bubbles on the right. Questions: 'I described a repeating pattern.', 'I named a rule using letters (AB, ABB, AAB, ABC).', 'I showed the same rule a different way.', 'I found a missing animal AND said why.', 'I built a number parade up to 50.'.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A bordered five-row table. Each row ~1in tall. Left column ~4.5in wide with question text in K/G1-readable type. Right column ~1.8in wide containing two bubbles labelled 'YES' and 'NO' side by side. Total table ~6.3in wide. Thin grey row dividers. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 2.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I described a repeating pattern.", "I named a rule using letters.", "I showed the same rule a different way.", "I found a missing animal AND said why.", "I built a number parade up to 50."]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite part of the Pattern Parade was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The box is empty workspace; the child draws or writes inside it. Below the bottom-right corner, faint guide-lines for writing if the child prefers words to a drawing.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Thin solid black border. Empty inside. Above the box, the printed prompt 'My favourite part of the Pattern Parade was...'. Below the bottom-right corner, faint guide-lines for writing.",
+            "placement": "Centred horizontally in Prompt 3.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The child draws or writes inside.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Identical layout to REF_FAV_BOX. Above the box, the printed prompt 'The trickiest part for me was...'.",
+            "placement": "Centred horizontally in Prompt 4.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The child draws or writes inside.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Identical layout to the other boxes. Above the box, the printed prompt 'Next time, I want to try...'.",
+            "placement": "Centred horizontally in Prompt 5.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the very end of Lesson 5, alongside the Junior Pattern Conductor certificate ceremony. Grade 1 children are usually able to write short responses to prompts 3–5 — accept invented spelling. A child who writes only a drawing has a complete answer. Prompt 2 includes the new Grade 1 expectations explicitly (number parade up to 50, justify with 'why') so a NO on either of those lines tells you what to revisit before the next pattern unit. Read responses to inform your unit notes for next year (which prompts kept emerging as 'trickiest', which moments children loved). The yes/no audit on Prompt 2 is also a quick teacher check: a 'NO' on any item signals the child either missed a key activity or doesn't recognize that they did it — worth a 30-second conference."
+  }
+}

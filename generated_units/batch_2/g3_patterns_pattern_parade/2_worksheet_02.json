@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "lesson_number": 2,
+  "worksheet_title": "Two-Step Recipes",
+  "purpose": "Independent practice of C1.3 — naming multi-step pattern rules and using them to extend patterns several terms ahead.",
+  "student_learning_goal": "I can name a multi-step pattern rule and use it to build the next term.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can name a multi-step pattern rule and use it to build the next term.",
+    "character_watermark": "Coco the Conductor in the top-right corner with a chef's hat — recipe Coco. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Single-step or multi-step?",
+          "student_instructions": "Look at each pattern. Decide whether the rule is SINGLE-STEP or MULTI-STEP. Then write the rule on the line.",
+          "visual_layout": "Three pattern strips stacked vertically. Strip A: 4-cell number row 4, 7, 10, 13 (rule +3, single-step). Strip B: 5-cell number row 4, 7, 6, 9, 8 (rule +3 then -1, compound). Strip C: 6-cell number row 2, 6, 4, 12, 10, 30 (rule ×3 then -2, compound). Beside each, two writing lines: 'Single-step or multi-step? ___. Rule: ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_STRIP_A",
+              "description": "A 4-cell horizontal number-row strip in B&W line-art with the digits 4, 7, 10, 13 printed in each cell. Footprints beneath. Labelled 'A' to the left.",
+              "placement": "Top row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "strips",
+                "number",
+                "lines"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_STRIP_A at Top row of Part 1.: the student-facing words (strips, number, lines) name what the image shows. Image content: A 4-cell horizontal number-row strip in B&W line-art with the digits 4, 7, 10, 13 printed in each cell. Footprints beneath. Labelled 'A' to… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P1_STRIP_B",
+              "description": "A 5-cell horizontal number-row strip with digits 4, 7, 6, 9, 8 — clearly alternating up and down. Footprints beneath. Labelled 'B' to the left.",
+              "placement": "Middle row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "strips",
+                "number"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_STRIP_B at Middle row of Part 1.: the student-facing words (strips, number) name what the image shows. Image content: A 5-cell horizontal number-row strip with digits 4, 7, 6, 9, 8 — clearly alternating up and down. Footprints beneath. Labelled 'B' to the le… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P1_STRIP_C",
+              "description": "A 6-cell horizontal number-row strip with digits 2, 6, 4, 12, 10, 30 — visibly oscillating with growing magnitude (×3 then -2 alternating). Footprints beneath. Labelled 'C' to the left.",
+              "placement": "Bottom row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "strips",
+                "number"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_STRIP_C at Bottom row of Part 1.: the student-facing words (strips, number) name what the image shows. Image content: A 6-cell horizontal number-row strip with digits 2, 6, 4, 12, 10, 30 — visibly oscillating with growing magnitude (×3 then -2 alternating).… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "A: SINGLE-STEP. Rule: +3. B: MULTI-STEP. Rule: +3 then -1. C: MULTI-STEP. Rule: ×3 then -2."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Apply a multi-step rule",
+          "student_instructions": "The rule is +4 then -1. Start at 5. Fill in the next 3 terms. Then predict term 10.",
+          "visual_layout": "Above the strip: 'Rule: +4 then -1. Start: 5.' Below: a 6-cell parade strip with cells 1-3 pre-filled (5, 9, 8) and cells 4-6 empty (dashed outline). Below the strip: 'Term 10 = ____' on a writing line.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_PARADE",
+              "description": "A 6-cell horizontal number-row strip in B&W line-art. Cells 1-3 filled with 5, 9, 8. Cells 4-6 empty with dashed outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "strip",
+                "filled",
+                "dashed"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_PARADE at Centred horizontally; spans Part 2.: the student-facing words (strip, filled, dashed) name what the image shows. Image content: A 6-cell horizontal number-row strip in B&W line-art. Cells 1-3 filled with 5, 9, 8. Cells 4-6 empty with dashed outlines. Footprints beneat… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create_and_loop",
+          "answer_key": "Cells 4-6: 12, 11, 15. (Pattern: 5, 9, 8, 12, 11, 15. Each cycle of 2 has net effect +3.) Term 10: pattern continues 14, 18, 17, 21. So term 10 = 21. (Computation: term 1 = 5; +3 net effect per 2-term cycle; from term 1 to term 10 is 9 jumps which is 4 full cycles plus one extra +4 — start + 4×3 + 4 = 5 + 12 + 4 = 21. Accept variations.)"
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Invent your own multi-step rule",
+          "student_instructions": "Pick your own starting number AND a 2-step compound rule. Write both on the lines, then fill in 6 terms. Then predict term 8.",
+          "visual_layout": "Above the strip: 'Starting number: ____. My multi-step rule: ___ then ___.' Below: an empty 6-cell parade strip with light-grey outlines. Footprints beneath. Below the strip: 'Term 8 = ____' on a writing line.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_PARADE",
+              "description": "An empty 6-cell horizontal parade strip in B&W line-art. All 6 cells blank with solid light-grey outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "lines"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_PARADE at Centred horizontally in Part 3.: the student-facing words (lines) name what the image shows. Image content: An empty 6-cell horizontal parade strip in B&W line-art. All 6 cells blank with solid light-grey outlines. Footprints beneath. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Any valid 2-step compound rule with a starting number. Examples: Start 1, rule +5 then -2 → 1, 6, 4, 9, 7, 12, term 8 = 17. Start 10, rule ×2 then +1 → 10, 21, 43, 87, 175, 351 (gets large fast), term 8 = ... use calculator. Correct if the rule is applied consistently across all 6 visible terms AND the term 8 prediction follows the rule."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, try a 3-STEP compound rule (e.g., +5, then +3, then -2). Build at least 6 terms and predict term 9.",
+  "teacher_notes": "Lesson 2 consolidation. The most diagnostic part is Part 2 — children who fill cells 4-6 correctly AND predict term 10 by reasoning about the cycle (rather than computing every term) are at L3+ on C1.3. Children who get cells 4-6 right but skip term 10 may need the cycle-net-effect scaffold. Part 3 is open-ended — accept any valid compound rule applied consistently. Children who invent multi-step rules with multiplication (e.g., ×2 then +1) are showing L4 thinking and should be flagged for Grade 4 enrichment."
+}

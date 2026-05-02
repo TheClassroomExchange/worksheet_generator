@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <rect x="2" y="2" width="196" height="216" fill="white" stroke="black" stroke-width="1.5"/>
+
+  <!-- Pointy ears -->
+  <path d="M 60 25 L 78 55 L 60 65 Z" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 140 25 L 122 55 L 140 65 Z" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M 64 35 L 73 53 L 67 60 Z" fill="black" opacity="0.2"/>
+  <path d="M 136 35 L 127 53 L 133 60 Z" fill="black" opacity="0.2"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="78" r="40" fill="white" stroke="black" stroke-width="2.5"/>
+
+  <!-- Pointy snout -->
+  <path d="M 80 92 Q 84 112 100 114 Q 116 112 120 92 Z" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="84" cy="72" r="3.8" fill="black"/>
+  <circle cx="116" cy="72" r="3.8" fill="black"/>
+
+  <!-- Nose -->
+  <ellipse cx="100" cy="95" rx="5.5" ry="4" fill="black"/>
+
+  <!-- Mouth -->
+  <path d="M 100 102 L 100 109" fill="none" stroke="black" stroke-width="1.8"/>
+  <path d="M 100 109 Q 92 112 88 108" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M 100 109 Q 108 112 112 108" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Body -->
+  <path d="M 60 124 L 60 184 Q 60 198 76 198 L 124 198 Q 140 198 140 184 L 140 124 Z"
+        fill="white" stroke="black" stroke-width="2.5"/>
+
+  <!-- Vest base -->
+  <path d="M 70 130 L 65 142 L 65 184 Q 65 192 76 192 L 124 192 Q 135 192 135 184 L 135 142 L 130 130 L 116 134 L 100 137 L 84 134 Z"
+        fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Vest stripes (horizontal — Finn's distinguishing fill) -->
+  <path d="M 67 150 L 133 150 M 67 162 L 133 162 M 67 174 L 133 174 M 67 186 L 133 186"
+        stroke="black" stroke-width="3.5"/>
+
+  <!-- Tail -->
+  <path d="M 138 175 Q 168 165 178 198 Q 162 202 144 198 Q 140 188 138 180 Z"
+        fill="white" stroke="black" stroke-width="2.5"/>
+  <path d="M 152 178 L 172 195" stroke="black" stroke-width="1.5"/>
+  <path d="M 158 175 L 175 188" stroke="black" stroke-width="1.5"/>
+
+  <!-- Name -->
+  <text x="100" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Finn</text>
+</svg>

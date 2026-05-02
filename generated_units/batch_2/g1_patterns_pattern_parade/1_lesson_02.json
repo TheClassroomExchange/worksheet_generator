@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_patterns_pattern_parade",
+  "lesson_number": 2,
+  "lesson_title": "What's the Rule?",
+  "duration_minutes": 45,
+  "primary_expectations": [
+    "C1.3"
+  ],
+  "secondary_expectations": [
+    "C1.1"
+  ],
+  "big_idea": "Every repeating pattern has a rule — once you know the rule (AB, ABB, AAB, ABC), you can keep the parade going forever.",
+  "learning_intention": "We are learning to find the rule of a repeating pattern and use it to extend the parade.",
+  "student_learning_goal": "I can find the pattern rule and use it to keep the parade going.",
+  "success_criteria": [
+    "I can name a pattern rule using letters (like AB, ABB, AAB, or ABC).",
+    "I can match a parade to its rule.",
+    "I can use the rule to extend a parade many cells further."
+  ],
+  "vocabulary_introduced": [
+    "pattern rule",
+    "core"
+  ],
+  "vocabulary_reinforced": [
+    "pattern",
+    "predict"
+  ],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip",
+    "M5_core_loop",
+    "M6_anchor_chart_words"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart from Lesson 1 — add a hand-printed RULE card to the chart today (CORE word card from M6 also taped on)",
+    "Pre-built parade strips for the opening reveal: one AB (Bea-Finn-Bea-Finn), one ABB (Bea-Finn-Finn repeated), one AAB (Bea-Bea-Finn repeated), one ABC (Bea-Finn-Bibi repeated)",
+    "Sticky notes (small) for writing rule labels next to each loop",
+    "Class formative tracker for Lesson 2 (provided in assessment_suite stage)",
+    "CORE word card (M6) ready to tape onto the anchor chart at the moment of introduction"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Coco's Mystery Rules",
+    "hook": "Coco brought four parades today, and each one has a SECRET RULE. Our job is to crack the code.",
+    "teacher_script": "Bring children to the carpet. Lay the four pre-built strips in a row on the floor — AB, ABB, AAB, ABC. Hold up the Coco puppet.\n\nSay to students: 'Yesterday we predicted what came next. Today Coco says every parade has a RULE that tells us how it goes. Mathematicians use letters to name rules. Watch.' Point to Strip 1 (AB). 'Read with me — Bea, Finn, Bea, Finn. Watch — I am going to label this with letters. Bea is A. Finn is B. So this rule is A-B-A-B. We call it the AB rule.' Write 'AB' on a sticky note and place it next to the strip.\n\nPoint to Strip 2 (ABB). 'Now this one — Bea, Finn, Finn, Bea, Finn, Finn. Bea is A again. Finn is B. So…' Wait. Let a child say A-B-B. 'Yes! This is the ABB rule. The B happens TWO times before A comes back.' Place an 'ABB' sticky.\n\nQuickly do AAB (Bea-Bea-Finn) and ABC (Bea-Finn-Bibi). Tape the CORE word card onto the anchor chart. Hand-print 'RULE' beside it. 'When we LOOP the part that repeats, that is the CORE. The letters we put on the core — like AB, ABB — that is the RULE.'",
+    "student_actions": [
+      "Sit in a circle on the carpet.",
+      "Read each pre-built parade aloud with the teacher.",
+      "Help label each parade with its letter rule (AB, ABB, AAB, ABC).",
+      "Repeat the words 'core' and 'rule' aloud as a class."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Lasso the Core, Name the Rule",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group demo: lay a fresh strip with Bea-Finn-Finn-Bea-Finn-Finn-Bea. Place a Core Loop Frame (M5) around cells 1–3. Ask the class: 'What is the rule?' Confirm ABB. Slide the loop along the parade to show the rule repeats — same loop fits cells 4–6. Then ask: 'If I added cell 8, who would be there? Cell 9? Cell 10?' Push the predictions out 3–5 cells beyond the strip. This is the new Grade 1 move: using the rule to extend further than what is shown.",
+        "teacher_prompt": "Say to students: 'Watch this loop. It goes around three cells — Bea, Finn, Finn. That is the CORE. The RULE is ABB. If I slide the loop forward, does it still fit? Yes! Same rule. So if Coco's parade kept going to cell 8, who would be there?' Take predictions, write them on the anchor chart. 'And HOW do we know? Because of the rule.' Underline RULE on the chart."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send children to partner spots. Each pair gets Animal Cards (M1), one Parade Strip (M2), one Core Loop Frame (M5), and a small stack of sticky notes. Their job: build a parade using one of the four rules (AB, ABB, AAB, or ABC), loop the core, and write the rule on a sticky note.",
+        "teacher_prompt": "Say to students: 'You and your partner pick a rule from the chart — AB, ABB, AAB, or ABC. Build a parade with that rule. Loop the core with your frame. Then write the rule on a sticky and put it next to your loop. When you are done, find ONE other pair and try to read THEIR rule before they tell you.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "After the first build, swap pairs. Each pair now reads another pair's parade and writes the rule they think it is on a fresh sticky. Then the original pair confirms or coaches.",
+        "teacher_prompt": "Say to students: 'Time for parade detectives. Walk to a different pair. Read their parade, find the core, write the rule on a sticky. Show your sticky to the other pair. If you are right — high five. If you are not — they have to coach you. Tell each other HOW you knew.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Whole-class extension: bring children back to the carpet. Hold up one of the four rules on a sticky note (e.g., ABB). Without showing animals, ask: 'If I built an ABB parade with Bibi and Moss instead of Bea and Finn, what would it look like?' Build it as the class calls it out. Then: 'And what would cell 9 be?' This previews tomorrow's translation work.",
+        "teacher_prompt": "Say to students: 'Stop and come back to the carpet. Eyes on me. The rule is ABB. But now A is BIBI and B is MOSS. Talk to your partner — what does cell 1 look like? Cell 2? Cell 3?' Build it together. 'And cell 9? Tell me how you know.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with the AB rule only. Pre-loop the first core for them. Give them the AB sticky pre-written. Their job is just to build a longer AB parade and show that the loop slides.",
+      "for_extending": "Challenge to invent a NEW rule the teacher has not shown — for example, ABCB or AABB. Then teach it to another pair. Ask: 'Could we have a rule that uses all four animals?' (Yes — ABCD.)",
+      "for_ell_or_iep": "Use letters AND animal names together every time ('A is Bea, B is Finn — so the rule AB means Bea, Finn, Bea, Finn'). Allow the child to point to the rule on the chart instead of writing it. Provide pre-printed rule stickies (AB / ABB / AAB / ABC) so writing is not the barrier.",
+      "for_movement_learners": "Have these children CALL OUT the rule rhythmically as they parade-walk: 'A-B-A-B' or 'A-B-B, A-B-B'. The chant helps them feel the rule as a beat."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child identify the core in their own and others' parades? Can they name the correct rule label? Can they use the rule to extend the parade beyond what is shown? Do they justify with rule language ('because the rule is ABB')?",
+      "how_to_record": "Tick the appropriate column on the Lesson 2 formative tracker.",
+      "tracker_columns": [
+        "Student name",
+        "Identifies core (loops correctly)",
+        "Names rule (AB/ABB/AAB/ABC)",
+        "Extends parade using rule",
+        "Justifies prediction with rule language",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Rule Showcase",
+    "discussion_prompts": [
+      "Who would like to share the parade you built and the rule you used?",
+      "Did anyone build a parade with a NEW rule we did not name on the chart? What letters would you give it?",
+      "When you read another pair's parade, how did you figure out the rule? What did you look for first?"
+    ],
+    "exit_routine": "On the way out the door, each child tells the teacher one rule they built today AND uses a letter chant to say it ('My rule was A-B-B, A-B-B'). Teacher records who can chant rules confidently."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for C1.3 (rule identification and use), plus completed student worksheet 'Crack Coco's Code'.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Pattern rules are the Grade 1 leap from K. The teacher needs evidence of who has crossed from spotting repetition to NAMING the structure (AB vs ABB vs AAB) before Lesson 3 (translating rules across representations) requires it implicitly."
+  },
+  "expanded_walkthrough": {
+    "title": "Cracking the Mystery Rule — naming what was implicit",
+    "rationale": "L2 elevates the K skill of finding the core to the G1 skill of NAMING the rule with letter labels (AB, ABB, AAB, ABC). The cognitive lift is symbolic — children who can describe a pattern verbally must now translate that description into a labelled rule their classmates will recognize. Step 3 (sticky-note rule guessing) is the keystone.",
+    "setup": "Carpet has four pre-built parades, one for each rule. Each has a Core Loop Frame (M5) ready. Sticky notes labelled 'AB' 'ABB' 'AAB' 'ABC' are visible on the chart. Pairs have Animal Cards, Parade Strip, Core Loop, sticky notes, and a pencil.",
+    "teacher_script": "Walk to a pair that has finished their build and is waiting for swap. Ask: 'Read me your rule out loud, and show me the core inside the loop.' If the rule on the sticky doesn't match the loop placement, you've found the misconception — they've labelled the rule as AB but looped four cells, or labelled ABB but the strip actually has AAB.\n\nNow do the swap. Take Pair-A's parade to Pair-B and say: 'Pair-B, what's Pair-A's rule?' Wait for them to deliberate. Listen for the diagnostic moves: do they place the loop first then read the letters, or do they guess from the surface? Strong children loop, label, then SAY the parade aloud as a check. Weaker children guess by counting animals.\n\nBring the strongest example back to the whole carpet. Hold up one rule sticky (say 'ABB'). Cover the parade. Ask: 'If I told you it was ABB but I haven't shown you the animals — what could the parade be?' Take three different student answers. Each should be valid (Bea-Finn-Finn-Bea-Finn-Finn; Moss-Bibi-Bibi-Moss-Bibi-Bibi; etc.). This is the conceptual breakthrough — the rule is ABSTRACT, the animals are just examples.\n\nRecord on the formative tracker: child can label rule from a built parade; child can build a parade given just the rule label; child explains the rule is independent of which animals it uses.",
+    "expected_student_responses": [
+      "(Strong) 'It's ABB because I see Bea, then two Finns, then Bea, then two Finns, and the loop covers Bea-Finn-Finn.'",
+      "(Mid) Labels correctly but can't explain why the loop is on those three cells.",
+      "(Confused) Labels by counting total animals: 'It's three because there are three different friends.' Conflates count with rule.",
+      "(Stretched) Voluntarily rebuilds the rule with new animals to prove the rule is independent of animals."
+    ],
+    "common_misconceptions": [
+      "The rule is determined by the count of animals (e.g., 'three friends = rule is 3').",
+      "Each rule has only one possible animal arrangement. (Child thinks 'ABB' means specifically Bea-Finn-Finn, not 'any A then two Bs.')",
+      "The loop placement is decorative. (Child labels the rule correctly but loops random cells, missing that the loop IS the rule made physical.)"
+    ],
+    "recovery_moves": [
+      "Anchor 'rule = letters, animals = examples.' Rebuild the same rule with three different animal sets, side by side. The rule label stays; the animals change. Make the abstraction visible.",
+      "Insist the loop comes BEFORE the label. 'First, where's the loop? Now, what letters are inside the loop?' This forces the rule to be derived from observation, not guessed.",
+      "Use the cover-and-reveal move. Hide the parade, show only the rule sticky. Ask the child to PREDICT what the parade might look like before revealing. Builds rule-first thinking."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Crack Coco's Code",
+    "purpose": "Independent practice of C1.3 — identifying the core of a repeating pattern, naming its rule using letters (AB/ABB/AAB/ABC), and extending the parade using the rule.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show three pre-built parades (one AB, one ABB, one ABC). Beside each, four rule labels (AB, ABB, AAB, ABC). Student draws a line matching each parade to its rule.",
+        "response_type": "match"
+      },
+      {
+        "part_number": 2,
+        "task": "Show a 6-cell parade with cells 1–4 filled (Bea-Finn-Finn-Bea) and cells 5–6 empty. Student loops the core, writes the rule (ABB) on a line, and fills cells 5 and 6.",
+        "response_type": "create_and_loop"
+      },
+      {
+        "part_number": 3,
+        "task": "Empty 6-cell parade strip. Student picks a rule from a small bank (AB, ABB, AAB, ABC), writes it on the line, then builds a parade following that rule using two or three animals.",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "Three small horizontal parade strips for Part 1 (each ~4-5 cells)",
+      "A 6-cell parade strip for Part 2 with a fillable section",
+      "An empty 6-cell parade strip for Part 3 with a small animal-key legend",
+      "Coco the Conductor (with a magnifying glass) in the worksheet header to signal the 'crack the code' theme"
+    ]
+  }
+}

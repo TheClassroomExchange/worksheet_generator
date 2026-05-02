@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": []
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met. (a) Plan in writing before building: L5 Phase 1 'pick a rule and write it' before construction. (b) Self-checking by student: L5 Phase 6 'find ONE thing on your worksheet to fix.' (c) Justification step: L5 Phase 5 partner reads rules and checks each other's animal-vs-number consistency, justifying the rule label. (d) Explicit revision opportunity: L5 Phase 6 separately-numbered. 4 distinct response types (≥4 required); both mid-unit formative + reflection sheet.",
+      "evidence_refs": [
+        "1_lesson_05.json::action.steps (Phase 1 PLAN, Phase 6 REVISE & REFLECT)",
+        "4_formative_reflection.json"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Strict L4 met. CRA: concrete (clap-stomp warmups, animal cards, real-life hunt) → representational (parade strips, sticky-rule labels, Core Loops) → abstract (numbers up to 100, table of values, +N/-N notation, far-term prediction without drawing). L5 explicit 4-stage cycle as separately-numbered action steps: PLAN (Phase 1) → TEST on paper (Phases 2-3 build + translate) → TABLE OF VALUES test (Phase 4) → TEST WITH MOVEMENT (Phase 5 lead) → REFINE on paper + REFLECT (Phase 6).",
+      "evidence_refs": [
+        "1_lesson_05.json::action.steps"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Strict L4 met. Five lessons each have an expanded_walkthrough block: L1 'The Three-Type Sort' (~470w + 3 misconceptions); L2 'Naming the Rule — from informal language to +N/-N notation' (~470w + 3); L3 (297w + 5 — original); L4 'Far-Term Prediction' (~470w + 3); L5 (241w + 4 — original). Every lesson has ≥3 misconceptions paired with recovery_moves. Every lesson has 'I can…' goal, ≥3 Action steps with substantive teacher_prompts.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.common_misconceptions"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "Perfect: every cited code (C1.1-C1.4) exists in local Ontario G2 reference; expectation_text matches official verbatim; rubric covers all 4 codes; every code primary in ≥1 lesson; every lesson cites a primary expectation. consistency_check and verify_curriculum_text both 0.",
+      "evidence_refs": [
+        "0_blueprint.json",
+        "1_lesson_*.json",
+        "5_assessment_suite.json"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "validate_unit_for_slides 0 warnings (post unit_learning_goal trim from 348→245 chars); 0 density warnings on all 5 lessons; long_description 2991 chars with bulleted differentiator section; recurring_characters Coco + Parade Animals (matches K + G1 — sibling-grade reuse satisfied); 5 Canadian context notes; certificate present. All L4 items met.",
+      "evidence_refs": [
+        "0_blueprint.json::unit_learning_goal (now 245 chars)",
+        "0_blueprint.json::recurring_characters (matches K+G1)"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-session-2026-05-01-imgalign-pass3",
+  "graded_at": "2026-05-02T01:50:05Z"
+}

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "lesson_number": 1,
+  "worksheet_title": "Spot the Operation",
+  "purpose": "Independent practice of C1.1 — identifying the operation that drives a pattern AND distinguishing additive from multiplicative growth, with a real-life context check.",
+  "student_learning_goal": "I can identify the operation in a pattern and describe whether it is repeating, growing, or shrinking.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can identify the operation in a pattern and describe whether it is repeating, growing, or shrinking.",
+    "character_watermark": "Coco the Conductor in the top-right corner with a small clipboard and calculator — the Grade 3 'investigator' Coco. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Type, operation, rule",
+          "student_instructions": "Look at each pattern. Write the type, the operation, and the rule on the lines.",
+          "visual_layout": "Four short pattern strips stacked vertically (each ~5in wide). Strip A: 4-cell repeating Bea-Finn-Bea-Finn (rule AB). Strip B: 4-cell growing 2, 5, 8, 11 stacked Beas (rule +3, additive). Strip C: 4-cell growing 2, 4, 8, 16 stacked Beas (rule ×2, multiplicative). Strip D: 4-cell shrinking 30, 25, 20, 15 stacked Beas (rule -5). Beside each strip, three writing lines: 'Type: ___. Operation: ___. Rule: ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_STRIP_A",
+              "description": "A 4-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Bea, Finn (animal AB repeating). Footprints beneath. Labelled 'A' to the left.",
+              "placement": "Top row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "lines",
+                "repeating"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_STRIP_A at Top row of Part 1.: the student-facing words (lines, repeating) name what the image shows. Image content: A 4-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Bea, Finn (animal AB repeating). Footprints beneath. Lab… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P1_STRIP_B",
+              "description": "A 4-cell horizontal parade strip in matching style with stacked Beas: 2, 5, 8, 11 — visibly growing additively by 3 per cell. Footprints beneath. Labelled 'B' to the left.",
+              "placement": "Second row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "growing"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_STRIP_B at Second row of Part 1.: the student-facing words (growing) name what the image shows. Image content: A 4-cell horizontal parade strip in matching style with stacked Beas: 2, 5, 8, 11 — visibly growing additively by 3 per cell. Footprints ben… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P1_STRIP_C",
+              "description": "A 4-cell horizontal parade strip in matching style with stacked Beas: 2, 4, 8, 16 — visibly DOUBLING (multiplicative growth). Footprints beneath. Labelled 'C' to the left.",
+              "placement": "Third row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "multiplicative",
+                "growth"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_STRIP_C at Third row of Part 1.: the student-facing words (multiplicative, growth) name what the image shows. Image content: A 4-cell horizontal parade strip in matching style with stacked Beas: 2, 4, 8, 16 — visibly DOUBLING (multiplicative growth). Footprints ben… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P1_STRIP_D",
+              "description": "A 4-cell horizontal parade strip in matching style with stacked Beas: 30, 25, 20, 15 — visibly shrinking by 5 per cell. Footprints beneath. Labelled 'D' to the left.",
+              "placement": "Bottom row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "shrinking"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_STRIP_D at Bottom row of Part 1.: the student-facing words (shrinking) name what the image shows. Image content: A 4-cell horizontal parade strip in matching style with stacked Beas: 30, 25, 20, 15 — visibly shrinking by 5 per cell. Footprints beneath.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "A: Type=REPEATING, Operation=alternation, Rule=AB. B: Type=GROWING, Operation=ADDITION, Rule=+3. C: Type=GROWING, Operation=MULTIPLICATION, Rule=×2. D: Type=SHRINKING, Operation=SUBTRACTION, Rule=-5."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Multiplicative or additive?",
+          "student_instructions": "Look at this growing parade. Decide whether the rule is MULTIPLICATIVE or ADDITIVE. Then explain HOW you can tell, and predict term 5.",
+          "visual_layout": "A 4-cell horizontal parade strip with stacked Beas: 3, 6, 9, 12 (rule +3, additive). Below the strip, two checkbox options: '☐ MULTIPLICATIVE  ☐ ADDITIVE'. Below that: 'How can you tell?' followed by three writing lines. At the bottom: 'What would term 5 be? ____'",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_PARADE",
+              "description": "A 4-cell horizontal parade strip in B&W line-art with stacked Beas in each cell: 3, 6, 9, 12 — growing additively by 3. Footprints beneath. Full width.",
+              "placement": "Top of Part 2, full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "growing",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_PARADE at Top of Part 2, full width.: the student-facing words (growing, parade) name what the image shows. Image content: A 4-cell horizontal parade strip in B&W line-art with stacked Beas in each cell: 3, 6, 9, 12 — growing additively by 3. Footprints beneath.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "circle_yes_no",
+          "answer_key": "ADDITIVE checked. Explanation: 'Each term goes up by 3. If it were multiplicative I would see ×N — for example, 3, 6, 12, 24 would be ×2.' Term 5 = 15."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Real-life patterns and operations",
+          "student_instructions": "Look at each real-life thumbnail. Write the type AND the operation below each.",
+          "visual_layout": "Four small thumbnail boxes in a 2x2 grid in the centre of the page. Top-left: a calendar week (1, 2, 3, 4...). Top-right: a hockey scoreboard with goals 1, 3, 5, 7 by period (additive +2). Bottom-left: a paper-fold doubling diagram (1, 2, 4, 8 layers — multiplicative ×2). Bottom-right: a melting ice cube sequence (whole, half, quarter, eighth — multiplicative ×½ or ÷2). Below each thumbnail, two writing lines: 'Type: ___. Operation: ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_CALENDAR",
+              "description": "A small calendar-week thumbnail (~1.8in × 1.5in). Shows a single row of seven cells numbered 1, 2, 3, 4, 5, 6, 7 with day labels above. Thin black borders. B&W line art.",
+              "placement": "Top-left of Part 3 grid.",
+              "approximate_size": "small",
+              "keywords": [
+                "thumbnail"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_CALENDAR at Top-left of Part 3 grid.: the student-facing words (thumbnail) name what the image shows. Image content: A small calendar-week thumbnail (~1.8in × 1.5in). Shows a single row of seven cells numbered 1, 2, 3, 4, 5, 6, 7 with day labels above. Thin… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P3_HOCKEY",
+              "description": "A small hockey-scoreboard thumbnail (~1.8in × 1.5in). Shows three periods labelled P1, P2, P3 with goal counts 1, 3, 5, 7 (cumulative or per-period — accept either reading). Thin borders. B&W line art with simple goal-count digits.",
+              "placement": "Top-right of Part 3 grid.",
+              "approximate_size": "small",
+              "keywords": [
+                "thumbnail"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_HOCKEY at Top-right of Part 3 grid.: the student-facing words (thumbnail) name what the image shows. Image content: A small hockey-scoreboard thumbnail (~1.8in × 1.5in). Shows three periods labelled P1, P2, P3 with goal counts 1, 3, 5, 7 (cumulative or per… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P3_PAPERFOLD",
+              "description": "A small paper-fold doubling thumbnail (~1.8in × 1.5in). Shows a horizontal sequence of four paper rectangles: 1 layer, 2 layers, 4 layers, 8 layers (drawn as stacked rectangles getting visibly thicker). Below each, the layer count. B&W line art.",
+              "placement": "Bottom-left of Part 3 grid.",
+              "approximate_size": "small",
+              "keywords": [
+                "thumbnail"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_PAPERFOLD at Bottom-left of Part 3 grid.: the student-facing words (thumbnail) name what the image shows. Image content: A small paper-fold doubling thumbnail (~1.8in × 1.5in). Shows a horizontal sequence of four paper rectangles: 1 layer, 2 layers, 4 layers, 8… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P3_MELT",
+              "description": "A small ice-cube melting thumbnail (~1.8in × 1.5in). Four frames showing an ice cube melting: whole, half, quarter, eighth. Each frame has a clearly smaller cube than the previous. B&W line art with thin borders around each frame.",
+              "placement": "Bottom-right of Part 3 grid.",
+              "approximate_size": "small",
+              "keywords": [
+                "thumbnail"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_MELT at Bottom-right of Part 3 grid.: the student-facing words (thumbnail) name what the image shows. Image content: A small ice-cube melting thumbnail (~1.8in × 1.5in). Four frames showing an ice cube melting: whole, half, quarter, eighth. Each frame has a… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Calendar: Type=GROWING, Operation=ADDITION (+1). Hockey: Type=GROWING, Operation=ADDITION (+2 — accept variations). Paper-fold: Type=GROWING, Operation=MULTIPLICATION (×2). Melt: Type=SHRINKING, Operation=DIVISION or MULTIPLICATION (×½)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw THREE more real-life patterns you can think of — one with each operation (addition, subtraction, multiplication). Label each with type AND operation AND a guess at the rule.",
+  "teacher_notes": "Lesson 1 consolidation. Distribute at the end of the Action phase. Watch for: (a) Part 1 children who write 'GROWING' but skip the operation column — they are at L2 on the operation distinction. (b) Part 2 children who check MULTIPLICATIVE for a +3 rule because the values are getting bigger fast — common confusion; redirect to the term-by-term increment. (c) Part 3 children who recognize the paper-fold as multiplicative (or the ice-cube as division) without prompting are at L3+ on C1.1. Use Part 1 + Part 3 as primary diagnostic-tracker evidence."
+}

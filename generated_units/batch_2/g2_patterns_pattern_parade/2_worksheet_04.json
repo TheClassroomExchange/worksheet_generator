@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "lesson_number": 4,
+  "worksheet_title": "Detective Pro Cases",
+  "purpose": "Independent practice of C1.3 — finding missing terms across all three pattern types AND predicting faraway terms using the rule (without drawing every step).",
+  "student_learning_goal": "I can find a missing term in a growing or shrinking pattern and use the rule to predict a faraway term.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find a missing term in a growing or shrinking pattern and use the rule to predict a faraway term.",
+    "character_watermark": "Coco the Conductor in the top-right corner with a small magnifying glass — Detective Pro Coco. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Three broken patterns",
+          "student_instructions": "Each pattern is missing one term. Find the type, the rule, and the missing term. Write all three on the lines.",
+          "visual_layout": "Three short broken patterns stacked vertically. Pattern A (repeating): a 6-cell parade strip Bea-Finn-Finn-?-Finn-Finn (gap at term 4, dashed cell). Pattern B (growing): a 4-cell parade strip with 4, 8, ?, 16 stacked Beas (gap at term 3). Pattern C (shrinking): a 4-cell parade strip with ?, 9, 6, 3 stacked Beas (gap at term 1). Beside each, three writing lines: 'Type: ___. Rule: ___. Missing term: ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_STRIP_A",
+              "description": "A 6-cell horizontal parade strip in B&W line-art. Cells 1, 2, 3, 5, 6 filled with: Bea, Finn, Finn, Finn, Finn. Cell 4 is empty with dashed outline. Footprints beneath. Approximately 5in wide.",
+              "placement": "Top row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "lines"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_A at Top row of Part 1.: the student-facing words (lines) name what the image shows. Image content: A 6-cell horizontal parade strip in B&W line-art. Cells 1, 2, 3, 5, 6 filled with: Bea, Finn, Finn, Finn, Finn. Cell 4 is empty with dashed… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P1_STRIP_B",
+              "description": "A 4-cell horizontal parade strip in matching style with stacked Beas: 4, 8, [empty dashed], 16 — visibly growing. Footprints beneath. Approximately 5in wide.",
+              "placement": "Middle row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "growing"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_B at Middle row of Part 1.: the student-facing words (growing) name what the image shows. Image content: A 4-cell horizontal parade strip in matching style with stacked Beas: 4, 8, [empty dashed], 16 — visibly growing. Footprints beneath. Approx… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P1_STRIP_C",
+              "description": "A 4-cell horizontal parade strip in matching style with stacked Beas: [empty dashed], 9, 6, 3 — visibly shrinking. Footprints beneath. Approximately 5in wide.",
+              "placement": "Bottom row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "shrinking"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_C at Bottom row of Part 1.: the student-facing words (shrinking) name what the image shows. Image content: A 4-cell horizontal parade strip in matching style with stacked Beas: [empty dashed], 9, 6, 3 — visibly shrinking. Footprints beneath. Appro… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Pattern A: Type = REPEATING. Rule = ABB (Bea-Finn-Finn). Missing term 4 = Bea. Pattern B: Type = GROWING. Rule = +4. Missing term 3 = 12. Pattern C: Type = SHRINKING. Rule = -3. Missing term 1 = 12 (working backwards from term 2 = 9: 9 + 3 = 12)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Far prediction with the table",
+          "student_instructions": "Use the table to find the missing values AND predict term 10 using the rule. Write a sentence to justify your term-10 answer.",
+          "visual_layout": "A 2-column table: Term 1 = 5, Term 2 = 8, Term 3 = 11, Term 4 = ___, Term 5 = ___. Below: 'Rule: +____.' Below that: 'Term 10 would be: ____.' Bottom: 'I am sure because ____.'",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_TABLE",
+              "description": "A 2-column table of values, ~3in wide × 3in tall. 6 rows (1 header + 5 data). Headers TERM and VALUE. Term column: 1, 2, 3, 4, 5. Value column: 5, 8, 11, [empty], [empty]. Bold uppercase headers. Thin black borders.",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "table",
+                "values",
+                "term"
+              ],
+              "text_image_alignment_check": "Image WS04_P2_TABLE at Centred horizontally in Part 2.: the student-facing words (table, values, term) name what the image shows. Image content: A 2-column table of values, ~3in wide × 3in tall. 6 rows (1 header + 5 data). Headers TERM and VALUE. Term column: 1, 2, 3, 4, 5. Value colu… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Term 4 = 14. Term 5 = 17. Rule = +3. Term 10 = 5 + 9×3 = 32 (or by skip-counting: 5, 8, 11, 14, 17, 20, 23, 26, 29, 32). Justification: 'Because the rule is +3 and I added 3 nine times to get from term 1 to term 10.' (Accept any valid rule-based justification.)"
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Detective Pro scenario",
+          "student_instructions": "Coco's parade has rule +6 starting at 6. He says term 5 is 30. Use the rule to fill in term 1, 2, 3, 4, 6, 7, 8, AND term 10 in the table. Then justify.",
+          "visual_layout": "A 2-column table: Term 1 to Term 8 (8 rows of data plus header row). Term column pre-filled 1-8. Value column: term 5 = 30 pre-filled, all others blank. Below the table: 'Term 10 = ____.' Bottom: 'I am sure because ____.'",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_TABLE",
+              "description": "A 2-column table of values, ~3.5in wide × 4in tall. 9 rows (1 header + 8 data). Headers TERM and VALUE. Term column: 1, 2, 3, 4, 5, 6, 7, 8. Value column: blank, blank, blank, blank, 30 (pre-filled in cell for term 5), blank, blank, blank. Bold uppercase headers. The 30 cell is highlighted with a thin grey background to indicate the given anchor. Thin black borders.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "term",
+                "table"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_TABLE at Centred horizontally in Part 3.: the student-facing words (term, table) name what the image shows. Image content: A 2-column table of values, ~3.5in wide × 4in tall. 9 rows (1 header + 8 data). Headers TERM and VALUE. Term column: 1, 2, 3, 4, 5, 6, 7, 8.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Term 1 = 6. Term 2 = 12. Term 3 = 18. Term 4 = 24. Term 5 = 30 (given). Term 6 = 36. Term 7 = 42. Term 8 = 48. Term 10 = 60. Justification: 'Because the rule is +6 and term 5 is 30, I added 6 five more times to get to term 10 (30 + 30 = 60).' (Accept any valid rule-based reasoning.)"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw a 12-row table for the same rule (+6 starting at 6). What's the LAST term that stays under 100? (Hint: term 16 = 96, term 17 = 102 — too big.)",
+  "teacher_notes": "Lesson 4 consolidation. The most diagnostic part is Part 2's term-10 prediction AND Part 3's term-10 prediction — these are the Grade 2 capstone moves. A child who reaches term 10 by drawing every cell needs a skip-counting nudge. A child who uses the rule to skip-count is at L3 minimum. A child who can articulate 'I added 6 five more times' has L4 reasoning. Use the justify sentences as oral-justification proxies. Children who write only the rule label need a follow-up conference."
+}

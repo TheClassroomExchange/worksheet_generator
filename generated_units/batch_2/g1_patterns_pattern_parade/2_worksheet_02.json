@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_patterns_pattern_parade",
+  "lesson_number": 2,
+  "worksheet_title": "Crack Coco's Code",
+  "purpose": "Independent practice of C1.3 — identifying the core of a repeating pattern, naming its rule using letters (AB/ABB/AAB/ABC), and extending the parade using the rule.",
+  "student_learning_goal": "I can find the pattern rule and use it to keep the parade going.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find the pattern rule and use it to keep the parade going.",
+    "character_watermark": "Coco the Conductor in the top-right corner with a small magnifying glass — the 'crack the code' Coco. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Match each parade to its rule",
+          "student_instructions": "Look at each parade. Draw a line from the parade to its rule on the right.",
+          "visual_layout": "Three short horizontal parade strips stacked vertically on the LEFT side of the page (each ~3.5in wide, 5–6 cells). Strip A: Bea-Finn-Bea-Finn-Bea-Finn (AB). Strip B: Bea-Finn-Finn-Bea-Finn-Finn (ABB). Strip C: Bea-Finn-Bibi-Bea-Finn (ABC). On the RIGHT side, four rule labels stacked vertically in boxes (~1in tall each): AB, ABB, AAB, ABC. Student draws lines connecting each strip to the correct rule (one rule will go unused — AAB).",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_STRIP_A",
+              "description": "A 6-cell horizontal parade strip, B&W line-art, filled in order: Bea, Finn, Bea, Finn, Bea, Finn. Footprints beneath. Labelled 'A' to the left.",
+              "placement": "Top-left of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_STRIP_A at Top-left of Part 1.: the student-facing words (parade) name what the image shows. Image content: A 6-cell horizontal parade strip, B&W line-art, filled in order: Bea, Finn, Bea, Finn, Bea, Finn. Footprints beneath. Labelled 'A' to the le… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P1_STRIP_B",
+              "description": "A 6-cell horizontal parade strip, B&W line-art, filled in order: Bea, Finn, Finn, Bea, Finn, Finn. Footprints beneath. Labelled 'B' to the left.",
+              "placement": "Middle-left of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_STRIP_B at Middle-left of Part 1.: the student-facing words (parade) name what the image shows. Image content: A 6-cell horizontal parade strip, B&W line-art, filled in order: Bea, Finn, Finn, Bea, Finn, Finn. Footprints beneath. Labelled 'B' to the l… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P1_STRIP_C",
+              "description": "A 5-cell horizontal parade strip, B&W line-art, filled in order: Bea, Finn, Bibi, Bea, Finn. Footprints beneath. Labelled 'C' to the left.",
+              "placement": "Bottom-left of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_STRIP_C at Bottom-left of Part 1.: the student-facing words (parade) name what the image shows. Image content: A 5-cell horizontal parade strip, B&W line-art, filled in order: Bea, Finn, Bibi, Bea, Finn. Footprints beneath. Labelled 'C' to the left.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P1_RULES",
+              "description": "Four rule-label boxes stacked vertically: AB, ABB, AAB, ABC. Each box ~1.2in wide × 0.8in tall with thin black border, large bold uppercase text inside. Used as match targets for the three parades on the left.",
+              "placement": "Right side of Part 1, vertically aligned with the strips.",
+              "approximate_size": "small",
+              "keywords": [
+                "rule",
+                "match"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_RULES at Right side of Part 1, vertically aligned with the strips.: the student-facing words (rule, match) name what the image shows. Image content: Four rule-label boxes stacked vertically: AB, ABB, AAB, ABC. Each box ~1.2in wide × 0.8in tall with thin black border, large bold uppercase… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "match",
+          "answer_key": "A → AB. B → ABB. C → ABC. The AAB rule is unused (distractor)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Loop the core, name the rule, finish the parade",
+          "student_instructions": "Look at this parade. Draw a loop around the part that repeats. Write the rule on the line. Then fill the last two cells.",
+          "visual_layout": "A 6-cell horizontal parade strip centred on the page. Cells 1–4 filled: Bea-Finn-Finn-Bea. Cells 5 and 6 are empty with dashed outlines. Footprints beneath. Below the strip, a short writing line preceded by 'The rule is ____'.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_PARADE",
+              "description": "A 6-cell horizontal parade strip, B&W line-art. Cells 1–4 filled: Bea, Finn, Finn, Bea. Cells 5 and 6 are empty with dashed outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_PARADE at Centred horizontally; spans Part 2.: the student-facing words (parade) name what the image shows. Image content: A 6-cell horizontal parade strip, B&W line-art. Cells 1–4 filled: Bea, Finn, Finn, Bea. Cells 5 and 6 are empty with dashed outlines. Footpr… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create_and_loop",
+          "answer_key": "Loop drawn around cells 1–3 (Bea-Finn-Finn = the core). Rule written on the line: ABB. Cell 5 = Finn. Cell 6 = Bea. Full sequence: Bea-Finn-Finn-Bea-Finn-Finn (the next core repetition starts at cell 4)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Build your own coded parade",
+          "student_instructions": "Pick a rule from the box. Write it on the line. Build a parade that follows your rule.",
+          "visual_layout": "A small rule-bank box at the top showing the four rules: AB, ABB, AAB, ABC. Below the box, a writing line: 'My rule: ____'. Below the line, an empty 6-cell horizontal parade strip with light-grey solid outlines. Footprints beneath. To the side, the four-animal legend (Bea, Finn, Bibi, Moss).",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_RULES",
+              "description": "A horizontal rule-bank box ~5in wide × 0.8in tall with the four rules AB, ABB, AAB, ABC printed inside, separated by thin vertical lines. Bold uppercase text. B&W line art.",
+              "placement": "Top of Part 3, centred.",
+              "approximate_size": "small",
+              "keywords": [
+                "rule"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_RULES at Top of Part 3, centred.: the student-facing words (rule) name what the image shows. Image content: A horizontal rule-bank box ~5in wide × 0.8in tall with the four rules AB, ABB, AAB, ABC printed inside, separated by thin vertical lines. Bo… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P3_PARADE",
+              "description": "An empty 6-cell horizontal parade strip in B&W line-art. All 6 cells blank with solid light-grey outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally below the rule bank.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_PARADE at Centred horizontally below the rule bank.: the student-facing words (parade) name what the image shows. Image content: An empty 6-cell horizontal parade strip in B&W line-art. All 6 cells blank with solid light-grey outlines. Footprints beneath. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P3_KEY",
+              "description": "A horizontal four-animal legend showing Bea, Finn, Bibi, Moss. Each ~1in tall, names beneath.",
+              "placement": "Below the parade strip in Part 3, horizontally centred.",
+              "approximate_size": "small",
+              "keywords": [
+                "showing",
+                "four",
+                "beneath"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_KEY at Below the parade strip in Part 3, horizontally centred.: the student-facing words (showing, four, beneath) name what the image shows. Image content: A horizontal four-animal legend showing Bea, Finn, Bibi, Moss. Each ~1in tall, names beneath.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Any valid 6-cell parade matching the rule the child wrote. Examples: Rule AB → Bea-Finn-Bea-Finn-Bea-Finn. Rule ABB → Bea-Finn-Finn-Bea-Finn-Finn. Rule AAB → Bea-Bea-Finn-Bea-Bea-Finn. Rule ABC → Bea-Finn-Bibi-Bea-Finn-Bibi. Correct if the parade follows the chosen rule consistently."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw an arrow on Part 3 pointing past the strip and write the next 4 cells your rule would create. Where would cell 10 be?",
+  "teacher_notes": "Lesson 2 consolidation. Distribute at the end of the Action phase. Watch for: (a) on Part 1, children who confuse ABB with AAB — this is a common slip; encourage them to count the As and Bs in order. (b) On Part 2, children who write the rule but cannot loop the core — the loop is the visual scaffold; redirect them to draw it first. (c) On Part 3, the rule-bank prevents inventing impossible labels but does not prevent using a rule incorrectly — check that the parade actually follows the chosen rule. Use Part 2's loop and rule label as primary evidence for the Lesson 2 formative tracker columns."
+}

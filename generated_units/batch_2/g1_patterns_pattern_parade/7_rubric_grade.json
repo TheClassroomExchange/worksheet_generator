@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_patterns_pattern_parade",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": []
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met. (a) Multi-step planning in writing BEFORE building: L5 Phase 1 has child write the rule (AB/ABB/AAB/ABC) on the worksheet before building. (b) Student self-checking by themselves: L5 Phase 5 'find ONE thing on your worksheet to fix' is explicit self-revision. (c) Justification step: L5 Phase 4 child reads parade aloud (animal then number), partner names rule and finds errors — spoken justification + cross-check. (d) Explicit revision opportunity: L5 Phase 5 as separately-numbered action step. 5 distinct response types. Both mid-unit formative + reflection sheet.",
+      "evidence_refs": [
+        "1_lesson_05.json::action.steps (Phase 1 PLAN, Phase 5 REVISE & REFLECT)",
+        "4_formative_reflection.json::formative_worksheets + reflection_sheet"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Strict L4 met. CRA: concrete (clap-stomp-jump bodies, animal cards) → representational (parade strips, sticky-rule labels, Core Loops) → abstract (rule labels detached from animals; numbers up to 50). L5 contains explicit 4-stage cycle as separately-numbered action steps: PLAN (Phase 1), TEST on paper (Phases 2-3 build + translate to numbers), TEST WITH MOVEMENT (Phase 4 lead with partner), REFINE on paper + REFLECT (Phase 5).",
+      "evidence_refs": [
+        "1_lesson_05.json::action.steps (PLAN/BUILD/TRANSLATE/LEAD/REVISE&REFLECT)"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Strict L4 met. Five lessons each have an expanded_walkthrough: L1 'Building Their Own Pattern — and justifying the prediction' (~410w + 3 misconceptions); L2 'Cracking the Mystery Rule' (~390w + 3); L3 (350w + 4 — original); L4 'Detective Justification' (~410w + 3); L5 (271w + 4 — original). Every lesson has ≥3 misconceptions with paired recovery_moves. Every lesson has 'I can…' goal, ≥3 Action steps with substantive teacher_prompts, ≥3 consolidation prompts.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.common_misconceptions"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "Perfect: every cited code (C1.1-C1.4) exists in local Ontario G1 reference; expectation_text matches official verbatim; rubric covers all 4 codes; every code primary in ≥1 lesson; every lesson cites a primary expectation. consistency_check and verify_curriculum_text both 0.",
+      "evidence_refs": [
+        "0_blueprint.json",
+        "1_lesson_*.json",
+        "5_assessment_suite.json"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "validate_unit_for_slides 0 warnings; validate_lesson_density 0 warnings on all 5; long_description 2713 chars with bulleted differentiator section; recurring_characters Coco + Parade Animals (same cast as K — sibling-grade reuse satisfied); 5 Canadian context notes; certificate present. All L4 items met.",
+      "evidence_refs": [
+        "0_blueprint.json::recurring_characters (matches K)",
+        "0_blueprint.json::canadian_context_notes"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-session-2026-05-01-imgalign-pass3",
+  "graded_at": "2026-05-02T01:50:05Z"
+}

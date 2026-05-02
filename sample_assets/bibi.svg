@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220">
+  <rect x="2" y="2" width="196" height="216" fill="white" stroke="black" stroke-width="1.5"/>
+
+  <!-- Small round ears (beavers have small ears) -->
+  <circle cx="78" cy="42" r="9" fill="white" stroke="black" stroke-width="2.5"/>
+  <circle cx="122" cy="42" r="9" fill="white" stroke="black" stroke-width="2.5"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="72" r="38" fill="white" stroke="black" stroke-width="2.5"/>
+
+  <!-- Snout -->
+  <ellipse cx="100" cy="92" rx="20" ry="13" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="86" cy="68" r="3.5" fill="black"/>
+  <circle cx="114" cy="68" r="3.5" fill="black"/>
+
+  <!-- Nose -->
+  <ellipse cx="100" cy="86" rx="4.5" ry="3.5" fill="black"/>
+
+  <!-- Front teeth (signature beaver feature) -->
+  <rect x="96" y="96" width="3.5" height="9" fill="white" stroke="black" stroke-width="1.5"/>
+  <rect x="100.5" y="96" width="3.5" height="9" fill="white" stroke="black" stroke-width="1.5"/>
+
+  <!-- Body -->
+  <path d="M 60 118 L 60 180 Q 60 195 76 195 L 124 195 Q 140 195 140 180 L 140 118 Z"
+        fill="white" stroke="black" stroke-width="2.5"/>
+
+  <!-- Vest base -->
+  <path d="M 70 124 L 65 138 L 65 180 Q 65 190 76 190 L 124 190 Q 135 190 135 180 L 135 138 L 130 124 L 116 130 L 100 133 L 84 130 Z"
+        fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Vest dots (Bibi's distinguishing pattern: polka dots) -->
+  <g fill="black">
+    <circle cx="78" cy="148" r="3.2"/>
+    <circle cx="100" cy="148" r="3.2"/>
+    <circle cx="122" cy="148" r="3.2"/>
+    <circle cx="89" cy="162" r="3.2"/>
+    <circle cx="111" cy="162" r="3.2"/>
+    <circle cx="78" cy="176" r="3.2"/>
+    <circle cx="100" cy="176" r="3.2"/>
+    <circle cx="122" cy="176" r="3.2"/>
+    <circle cx="89" cy="186" r="3"/>
+    <circle cx="111" cy="186" r="3"/>
+  </g>
+
+  <!-- Paddle tail -->
+  <ellipse cx="160" cy="180" rx="20" ry="11" fill="white" stroke="black" stroke-width="2.5" transform="rotate(20 160 180)"/>
+  <line x1="148" y1="173" x2="172" y2="190" stroke="black" stroke-width="1.5" transform="rotate(20 160 180)"/>
+  <line x1="152" y1="183" x2="170" y2="180" stroke="black" stroke-width="1.5" transform="rotate(20 160 180)"/>
+
+  <!-- Name -->
+  <text x="100" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Bibi</text>
+</svg>

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "lesson_number": 1,
+  "lesson_title": "Welcome Back, Pattern Conductors",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C1.1"
+  ],
+  "secondary_expectations": [
+    "C1.3"
+  ],
+  "big_idea": "Patterns can repeat, grow, or shrink — and the rule can use addition, subtraction, multiplication, or a combination.",
+  "learning_intention": "We are learning to identify the operation that drives a pattern and to describe the pattern as repeating, growing, or shrinking.",
+  "student_learning_goal": "I can identify the operation in a pattern and describe whether it is repeating, growing, or shrinking.",
+  "success_criteria": [
+    "I can sort five example parades into the right pattern type and the right operation.",
+    "I can describe the operation between term 1 and term 2 of a growing or shrinking pattern in formal notation (+N, -N, or ×N).",
+    "I can find one real-life pattern in our school and tell my partner the operation that drives it."
+  ],
+  "vocabulary_introduced": [
+    "operation",
+    "generalize"
+  ],
+  "vocabulary_reinforced": [
+    "pattern",
+    "term",
+    "pattern rule",
+    "growing pattern",
+    "shrinking pattern"
+  ],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip",
+    "M3_sound_movement_cards",
+    "M6_anchor_chart_words"
+  ],
+  "lesson_specific_materials": [
+    "Coco the Conductor puppet (already prepped from earlier units, or freshly printed for Grade 3)",
+    "Class anchor chart paper labelled 'Pattern Parade — Grade 3: Operations Drive the Rule'",
+    "Five pre-built example parades for the opening reveal: (1) repeating Bea-Finn-Bea-Finn (rule AB), (2) growing additive 1, 3, 5, 7 (rule +2), (3) growing multiplicative 2, 4, 8, 16 (rule ×2), (4) shrinking 20, 17, 14, 11 (rule -3), (5) compound 1, 3, 7, 15 (rule ×2 then +1 — Level 4 stretch)",
+    "Class diagnostic checklist (provided in assessment_suite stage)",
+    "PATTERN word card from M6 ready to tape on the chart; teacher hand-prints OPERATION, +N RULE, ×N RULE on the chart today",
+    "Real-life pattern photos / examples for the hunt: classroom calendar, hopscotch grid, a hockey scoreboard image, an arithmetic sequence written on the board, a doubling sequence (1, 2, 4, 8, 16, 32...) like a paper-fold experiment"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coco's Five Mystery Parades",
+    "hook": "Coco is back, parade-leaders. This year he brought FIVE different parades — and one of them is a brand-new kind we have never seen before. Can we name the operation that drives each one?",
+    "teacher_script": "Bring children to the carpet. Hold up Coco. Say to students: 'Welcome back, parade-leaders. In Grade 2 you sorted patterns into three types — repeating, growing, shrinking — and named rules with +N or -N notation. This year, Coco brings something new: the OPERATION that drives the rule. Watch carefully.'\n\nLay parade 1 (repeating Bea-Finn-Bea-Finn). Read with the class. 'Type?' (repeating). Tape the PATTERN word card.\n\nLay parade 2 (growing additive 1, 3, 5, 7). 'Type?' (growing). 'Operation?' (+2 — addition). Hand-print OPERATION and ADDITION on the chart.\n\nLay parade 3 (growing multiplicative 2, 4, 8, 16). Children will say 'growing' but pause on the operation. Some will guess +2, +4, +8 — the INCREMENTS are growing. A child will spot it: the term DOUBLES. 'Yes — MULTIPLICATION. The rule is ×2.' Hand-print MULTIPLICATION.\n\nLay parade 4 (shrinking 20, 17, 14, 11). 'Type? Operation?' (shrinking, -3). Confirm.\n\nLay parade 5 (compound 1, 3, 7, 15). 'From 1 to 3, we added 2. From 3 to 7, we added 4. The increments GROW. What is happening?' Pause. 'Coco's secret: the rule has TWO STEPS. Multiply by 2, then add 1. We call this a COMPOUND RULE. Today we just notice it — we will not master it yet.' Hand-print COMPOUND RULE.",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the five example parades laid in a line.",
+      "Read each parade aloud with the teacher and count or compute the change between terms.",
+      "Predict the type and operation for each parade before the teacher names it.",
+      "Repeat the new words 'operation' and 'compound rule' aloud as a class.",
+      "Volunteer at least one example of where they have seen multiplication used outside of math class (skip-counting at recess, doubling money in a piggy bank, etc.)."
+    ]
+  },
+  "action": {
+    "duration_minutes": 28,
+    "activity_name": "The Operation Hunt",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole-group sort and label: lay out four MORE pre-built parades and four label cards (REPEATING, GROWING +N, GROWING ×N, SHRINKING -N). Invite four children up; each picks a parade and places it under the right label, explaining the operation. The class decides whether to upgrade or correct each placement.",
+        "teacher_prompt": "Say to students: 'Coco needs four parade-sorters. Four parades, four labels. Whoever sorts has to tell us: TYPE and OPERATION. Read the parade out loud first, then point to your label and tell us why.' After each placement, ask: 'Anyone agree? Anyone want to add why?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Partner build round 1: each pair gets two sets of Animal Cards (M1) and one Parade Strip (M2). Their job: build ONE growing parade with an additive rule (+2, +3, or +5) AND ONE growing parade with a multiplicative rule (×2 or ×3). They write the rule on a sticky next to each.",
+        "teacher_prompt": "Say to students: 'You and your partner build two growing parades. The first uses ADDITION — pick a +N rule. The second uses MULTIPLICATION — pick a ×N rule, but keep your starting number small or you will run out of animals fast. Write the rule on a sticky. When you are done, find another pair and try to read THEIR rules before they tell you.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Partner build round 2: switch to a SHRINKING parade. Pairs build one with a -N additive rule. Then the stretch challenge: try a shrinking pattern that DIVIDES (e.g., 32, 16, 8, 4 — rule ÷2). Most pairs will need scaffolding. Validate the attempt; we will not formalize ÷N until later.",
+        "teacher_prompt": "Say to students: 'Now switch to shrinking. First make a -N parade — pick the rule, pick the starting number. Then if you have time, try a parade that gets smaller by HALVING. 32, 16, 8, 4. Each term is half the one before. We do not have a sticky for that yet — Coco is still inventing the notation.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Real-life operation hunt (8 min): pairs walk the classroom (and hallway if safe) with a clipboard. Their job: find at least TWO real-life patterns and label each with the OPERATION (not just the type). Examples on the board: calendar dates (rule +1), hockey period scores (could be repeating or growing depending on the game), staircase numbers (rule +1), doubling sequence in a paper-folding demo if available.",
+        "teacher_prompt": "Say to students: 'Now we leave the carpet for 8 minutes. You and your partner find two real-life patterns. Sketch each. Label each with TYPE and OPERATION — not just \"growing\" but also \"+1\" or \"+2\" or whatever the operation is.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Whole-class share and chart-build: pairs return; each shares one find. Teacher records each finding on the anchor chart under the correct operation column (ADDITION, SUBTRACTION, MULTIPLICATION). This is the unit's running artifact.",
+        "teacher_prompt": "Say to students: 'Bring your clipboards back to the carpet. Each pair, share ONE find. I will write it on the chart in the right column. By the end of the unit, this chart will be full.'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Circulate during partner builds and the hunt. Use the diagnostic checklist to record which children: (a) distinguish operation from type, (b) recognize multiplication as an operation in growing patterns, (c) attempt a multiplicative or compound rule unprompted, (d) justify their finding aloud.",
+        "teacher_prompt": "Stop at each pair during the build phase. Ask one child: 'What is the operation here?' Then: 'How is that different from JUST saying it is a growing pattern?' Note responses on the diagnostic checklist."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with the additive growing rule (+1 or +2) and the additive shrinking rule (-1 or -2). Provide pre-built example parades on the desk for the child to label before building. Provide pre-printed sticky notes (+1, +2, -1, -2) so writing is not the barrier. Pair with a confident peer for the hunt.",
+      "for_extending": "After the additive parades, build a multiplicative parade with rule ×3 or ×5. On the hunt, look for a real-life pattern with a multiplicative rule (e.g., a tournament bracket where teams halve each round, or money doubling in a savings example). For the deepest stretch: try the compound rule from the carpet reveal (×2 then +1 — sequence 1, 3, 7, 15, 31...).",
+      "for_ell_or_iep": "Provide a small reference card with three sketches (additive growing 1-2-3-4, multiplicative growing 1-2-4-8, shrinking 4-3-2-1) labelled with the operation in the home language if known. Allow pointing and gestures as valid responses. Provide a sentence frame: 'Type: ____. Operation: ____.' On the hunt, pair with a partner who can scribe.",
+      "for_movement_learners": "After each parade, the pair stands and ACTS OUT the operation. Additive: each term, take 2 more steps. Multiplicative: each term, double the number of claps. Shrinking: each term, take a step back. The body action makes the abstract operation feel mechanical."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child distinguish OPERATION from TYPE (e.g., '×2 growing' is more specific than just 'growing')? Can they recognize multiplication as a valid pattern operation? Do they attempt a compound or multiplicative rule on their own? Do they name an operation when describing a real-life pattern, not just a type?",
+      "how_to_record": "Tick the appropriate column on the diagnostic checklist for each child as you circulate.",
+      "tracker_columns": [
+        "Student name",
+        "Distinguishes operation from type",
+        "Names additive operation (+N / -N)",
+        "Names multiplicative operation (×N)",
+        "Attempts compound rule unprompted",
+        "Spots real-life pattern with operation labeled",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Operation Showcase",
+    "discussion_prompts": [
+      "What was the most surprising operation you saw or built today? Why was it surprising?",
+      "Did anyone find a real-life pattern that uses MULTIPLICATION or DIVISION as the operation? Tell us where.",
+      "If a parade keeps doubling (×2 each term), how big does it get after 10 terms? After 20? Could it ever fit in our classroom?",
+      "Coco is asking — are operations the same thing as rules? When are they the same, and when are they different?"
+    ],
+    "exit_routine": "On the way out the door, each child gives the teacher one example using the sentence frame: 'A ___ pattern uses the operation ___.' (e.g., 'A growing pattern can use the operation +5.') Teacher records who can produce the frame confidently versus who needs more practice."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Class diagnostic checklist completed during the partner-build phase and the real-life pattern hunt. Captures baseline understanding of C1.1 — including the new Grade 3 marker of distinguishing OPERATION from TYPE — before Lesson 2 introduces compound rules formally.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "This is the unit's diagnostic moment. The data tells the teacher who already distinguishes operation from type, who recognizes multiplicative growth, and who is ready for compound rules. Children fluent in additive rules but blank on multiplicative may need a small-group re-loop on multiplication-as-repeated-addition before Lesson 2."
+  },
+  "expanded_walkthrough": {
+    "title": "Operation vs. Type — the new G3 conceptual move",
+    "rationale": "The G3 lift over G2 is the OPERATION layer: every rule now has an operation (addition, subtraction, multiplication) AND a type (repeating, growing, shrinking). Step 1 (whole-group sort with four labels) and Step 3 (multiplicative shrinking) are where children either separate operation from type or conflate them. The script below covers the most common confusions during these two steps.",
+    "setup": "Carpet has eight pre-built parades arranged in a U: the four sorting examples (REPEATING, GROWING +N, GROWING ×N, SHRINKING -N) plus four extras for partner work. Anchor chart on the wall has four labelled columns. Each pair receives Animal Cards (M1) and a Parade Strip (M2). Teacher carries the diagnostic clipboard with the new G3 columns: 'distinguishes operation from type', 'recognizes ×N growth', 'transfers rule to new representation'.",
+    "teacher_script": "During the whole-group sort, hand a child the GROWING ×2 strip (1 Bea, 2 Beas, 4 Beas, 8 Beas). Say: 'Sort this one. Where does it go?' Most G3 children will say GROWING +N because they see the count getting bigger. Pause: 'Yes, it's growing. But by HOW MUCH each step? 1 to 2 is plus 1. 2 to 4 is plus 2. 4 to 8 is plus 4. The amount is changing — that's NOT a +N rule.' Wait. Some children will see it. Lead them: 'What if we DOUBLE each time? 1 doubled is 2. 2 doubled is 4. 4 doubled is 8. Doubling is multiplication — times two.' Place the strip under GROWING ×N. This is the conceptual breakthrough — multiplicative growth looks like additive growth at first glance, and only checking the rule against multiple terms reveals the truth.\n\nMove to a pair attempting Step 3's multiplicative SHRINKING (÷2 starting at 16). They'll often produce 16, 14, 12, 10 — defaulting to subtraction. Stop them. 'Read your rule out loud.' If they say 'shrinking', press: 'Shrinking how — minus what, or divided by what?' Let them choose. If they pick ÷2, walk it: '16 divided by 2 is 8. 8 divided by 2 is 4. 4 divided by 2 is 2.' Their parade should be 16, 8, 4, 2 — only four terms before hitting 1 (or below). The brevity is itself a lesson: multiplicative shrinking races to the floor much faster than additive shrinking. Note this on the anchor chart as a discovery.\n\nDuring the real-life hunt: when a pair points at calendar dates and labels them GROWING +1, accept it but probe: 'What if I asked you to label this as a TYPE AND an OPERATION?' Force them to say both: 'GROWING with addition'. Drilling the two-axis vocabulary now pays off in L2 when compound rules arrive.",
+    "expected_student_responses": [
+      "(Confused) Calls a ×N pattern 'growing' and stops there — hasn't separated operation from type.",
+      "(Mid) Names operation correctly for +N and -N but defaults to subtraction for any 'shrinking'.",
+      "(Strong) Articulates that multiplicative shrinking ends faster than additive shrinking — generalizes from a single example.",
+      "(Stretched) Voluntarily tries a ÷N rule on a fresh starting number and predicts where it will hit 1."
+    ],
+    "common_misconceptions": [
+      "Operation and type are the same axis. (Child treats GROWING and +N as synonyms; can't see that × can also grow.)",
+      "Shrinking always means subtraction. (Child cannot conceive of shrinking via division until shown.)",
+      "Bigger differences between consecutive terms means the rule is bigger. (Child reads ×2 as +1, +2, +4 — sees the differences and concludes the rule is changing.)",
+      "Multiplicative growth looks like additive growth in the first 2 terms. (Child confirms +1 from 1 to 2 and stops checking, missing the doubling.)"
+    ],
+    "recovery_moves": [
+      "Force the child to test the rule against THREE term-pairs, not just one. Multiplicative rules become obvious by term 3.",
+      "Use the divide-by-2 pattern as the diagnostic. Most G3 children can divide 16 → 8 → 4 → 2; this makes ÷N feel concrete.",
+      "Two-axis labelling: every rule must be named with TYPE AND OPERATION. 'Growing with multiplication' rather than 'growing'."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Spot the Operation",
+    "purpose": "Independent practice of C1.1 — identifying the operation that drives a pattern AND distinguishing additive from multiplicative growth.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show four pattern strips at the top: A repeating Bea-Finn-Bea-Finn (rule AB), B growing additive 2, 5, 8, 11 (rule +3), C growing multiplicative 2, 4, 8, 16 (rule ×2), D shrinking 30, 25, 20, 15 (rule -5). Below each, three writing lines: 'Type: ___. Operation: ___. Rule: ___.'",
+        "response_type": "create"
+      },
+      {
+        "part_number": 2,
+        "task": "Show a growing parade (3, 6, 9, 12 stacked Beas — rule +3). Below it, the question 'Is this rule MULTIPLICATIVE or ADDITIVE?' with two checkbox options. Below that: 'How can you tell?' on a writing line, plus 'What would term 5 be?' on another line.",
+        "response_type": "circle_yes_no"
+      },
+      {
+        "part_number": 3,
+        "task": "Real-life observation. Show 4 small thumbnail photos: a calendar week (1, 2, 3, 4...), a hockey scoreboard with goal counts by period (1, 3, 5, 7), a paper-fold doubling sequence (1, 2, 4, 8 layers), and a shrinking ice-cube melt sequence (whole, half, quarter, eighth). Student writes the type AND the operation below each photo.",
+        "response_type": "write"
+      }
+    ],
+    "expected_image_assets": [
+      "Four small parade strips for Part 1 (one per pattern type)",
+      "A growing 4-cell parade strip (with 3, 6, 9, 12 stacked Beas) for Part 2",
+      "A 'multiplicative or additive?' checkbox with two writing lines for Part 2",
+      "Four small real-life context thumbnails for Part 3",
+      "Coco the Conductor in the worksheet header (with a chart and a calculator — the Grade 3 'investigator' Coco)"
+    ]
+  }
+}

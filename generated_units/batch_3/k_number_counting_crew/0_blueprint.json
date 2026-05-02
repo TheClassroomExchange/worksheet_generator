@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "thematic_title": "The Counting Crew",
+  "descriptive_title": "Kindergarten Mathematics: Number Sense and Operations — Numbers to 20, Subitizing to 5, Composing/Decomposing to 10 (A6.1–A6.6)",
+  "grade": "Kindergarten",
+  "subject": "Mathematics",
+  "strand": "A. Foundations of Language and Mathematics — Number Sense and Operations",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/kindergarten",
+  "curriculum_codes": [
+    "A6.1",
+    "A6.2",
+    "A6.3",
+    "A6.4",
+    "A6.5",
+    "A6.6"
+  ],
+  "curriculum_expectations": {
+    "A6.1": "explore what numbers are used for",
+    "A6.2": "understand when counting forward, the quantity gets bigger and when counting backward, the quantity gets smaller",
+    "A6.3": "identify and write numbers to 20",
+    "A6.4": "subitize quantities to 5",
+    "A6.5": "compose and decompose quantities to 10",
+    "A6.6": "understand the concept of more than, the same (equal), or less than"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Kindergarten unit on Number Sense and Operations, framed around 'The Counting Crew' — Mae and Theo, two child chefs working in the classroom kitchen with their counting companion Buddy the puppy. Children explore why numbers exist (Day 1), discover that counting forward grows quantity and counting backward shrinks it (Day 2), recognise and write 0–20 (Day 3), subitize small groups instantly without counting (Day 4), and finally compose/decompose numbers and compare groups using MORE / LESS / EQUAL (Day 5). The unit progresses from concrete (linking cubes) to representational (dot cards, number cards) to abstract (written numerals + comparison language). Classroom-Canadian context throughout.",
+  "unit_learning_goal": "Children will explore why numbers are used, count forward and backward, recognise and write numbers to 20, subitize quantities to 5, compose and decompose numbers to 10, and compare quantities as more, less, or equal.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "What Are Numbers For?",
+      "primary_expectations": [
+        "A6.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Numbers help us answer 'how many', label things, measure stuff, and tell the time — they're everywhere.",
+      "student_learning_goal": "I can find places where numbers are used in our classroom and tell why they matter.",
+      "one_line_summary": "Number-hunt around the classroom; sort findings by purpose (count, label, measure, time)."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Forward and Backward",
+      "primary_expectations": [
+        "A6.2"
+      ],
+      "secondary_expectations": [
+        "A6.1"
+      ],
+      "big_idea": "When we count forward, the number gets bigger. When we count backward, the number gets smaller.",
+      "student_learning_goal": "I can count forward and backward and tell what happens to the amount.",
+      "one_line_summary": "Counting Path floor game — physically step up to count forward and back to count down."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Number Letters",
+      "primary_expectations": [
+        "A6.3"
+      ],
+      "secondary_expectations": [
+        "A6.1"
+      ],
+      "big_idea": "Each number has its own way of being written. We recognise and write the numbers from 0 to 20.",
+      "student_learning_goal": "I can read and write the numbers from 0 to 20.",
+      "one_line_summary": "Number-card sorting + tracing station; pay extra attention to the tricky teen numbers."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "How Many Without Counting",
+      "primary_expectations": [
+        "A6.4"
+      ],
+      "secondary_expectations": [
+        "A6.2"
+      ],
+      "big_idea": "We can sometimes know HOW MANY just by looking — we call this subitizing. It works for 1, 2, 3, 4, and 5.",
+      "student_learning_goal": "I can look at a small group and say how many without counting.",
+      "one_line_summary": "Dot-card flash + subitize-and-tell partner game with Buddy's paw prints."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Building Numbers",
+      "primary_expectations": [
+        "A6.5",
+        "A6.6"
+      ],
+      "secondary_expectations": [
+        "A6.1",
+        "A6.2",
+        "A6.3",
+        "A6.4"
+      ],
+      "big_idea": "We can put smaller groups together to make a bigger group, or break a big group into smaller ones. We can also tell when one group has MORE, LESS, or the SAME.",
+      "student_learning_goal": "I can build a number lots of different ways and compare two groups using more, less, or equal.",
+      "one_line_summary": "Compose 7 different ways with cubes, then compare two plates and circle MORE / LESS / EQUAL."
+    }
+  ],
+  "expectation_lesson_map": {
+    "A6.1": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "A6.2": [
+      2,
+      4,
+      5
+    ],
+    "A6.3": [
+      3,
+      5
+    ],
+    "A6.4": [
+      4,
+      5
+    ],
+    "A6.5": [
+      5
+    ],
+    "A6.6": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Mae",
+      "role": "Lead Counter — counts forward and backward, models writing numbers 0-20",
+      "visual_description": "A young child chef in a white apron and chef hat, holding a small loaf of bread. Friendly, expressive face. Chosen to centre the unit on real-world counting in a classroom 'kitchen' context."
+    },
+    {
+      "name": "Theo",
+      "role": "Mae's Cooking Partner — models composing/decomposing groups of ingredients",
+      "visual_description": "A young child chef in a white apron and chef hat, holding a wooden spoon and a small mixing bowl. Friendly, expressive face. Pairs with Mae for partner-counting moments."
+    },
+    {
+      "name": "Buddy",
+      "role": "Counting Companion — appears alongside the kids; subitizing examples often use Buddy's bones, paw prints, etc.",
+      "visual_description": "A friendly golden-retriever puppy sitting alertly with a dog bone beside it. Used in subitizing dot cards (1-5 paw prints, 1-5 bones)."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "count",
+      "child_friendly_definition": "saying numbers in order to find out 'how many'."
+    },
+    {
+      "term": "more",
+      "child_friendly_definition": "a bigger amount."
+    },
+    {
+      "term": "less",
+      "child_friendly_definition": "a smaller amount."
+    },
+    {
+      "term": "equal",
+      "child_friendly_definition": "the same amount, no more and no less."
+    },
+    {
+      "term": "subitize",
+      "child_friendly_definition": "knowing how many WITHOUT counting one by one — like seeing 3 dots and just knowing it's three."
+    },
+    {
+      "term": "compose",
+      "child_friendly_definition": "putting two smaller groups together to make a bigger group (4 and 3 makes 7)."
+    },
+    {
+      "term": "decompose",
+      "child_friendly_definition": "breaking a group into two smaller groups (7 can be 4 and 3, or 5 and 2)."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_counting_cubes",
+      "name": "Counting Cubes (linking)",
+      "description": "10-coloured snap-together cubes per child set. Used for composing/decomposing, comparing groups, and counting real quantities up to 20.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_ten_frames",
+      "name": "Ten-Frame Mats",
+      "description": "Laminated 2×5 grids printed at letter size. Children fill cells with cubes or stickers to model quantities to 10.",
+      "used_in_lessons": [
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_dot_cards",
+      "name": "Subitizing Dot Cards",
+      "description": "Set of dot-pattern cards with 1–5 dots in standard (dice) and random arrangements. Used for flash-and-shout subitizing.",
+      "used_in_lessons": [
+        4
+      ],
+      "clipart_files": [
+        "slide02_random_04.png"
+      ]
+    },
+    {
+      "id": "M4_number_cards",
+      "name": "Number Cards 0-20",
+      "description": "Letter-sized number cards 0 through 20. Used for sequencing, identification, and matching quantity-to-numeral.",
+      "used_in_lessons": [
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_counting_objects_set",
+      "name": "Real-World Counting Objects",
+      "description": "Apples, water bottles, books, blocks, paper bears — everyday classroom objects in groups of up to 20.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "clipart_files": [
+        "slide02_random_07.png"
+      ]
+    },
+    {
+      "id": "M6_compare_strip",
+      "name": "Comparison Strip",
+      "description": "Two parallel sentence-strip rows where children align objects to visually compare 'more', 'less', 'equal'.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_counting_path",
+      "name": "Counting Path Floor Mat",
+      "description": "Numbered floor strip 0-20 with footprints. Children physically step forward (count up) or backward (count down) one number at a time.",
+      "used_in_lessons": [
+        2
+      ],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Linking counting cubes (~30 per child)",
+    "Laminated ten-frame mats",
+    "Subitizing dot-card set (1–5 dots, 10 cards)",
+    "Number cards 0–20 (set per child)",
+    "Comparison strip (per pair)",
+    "Counting Path floor mat (1 per class)",
+    "Real-world counting objects: apples, water bottles, books, blocks, paper bears (10–20 each)",
+    "Anchor chart: 'Numbers Are For…' with columns COUNTING / LABELS / MEASURE / TIME"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 number-hunt observation: which children identify ≥3 number-uses around the room? Which connect 'how many'?",
+    "formative": "Lesson 4 subitize-and-tell: tally per child how many of 5 dot-cards they identify without counting. Mid-unit formative worksheet between L3 and L4 captures number-recognition fluency 0-20.",
+    "summative": "Lesson 5 worksheet — compose 7 in three different ways, then judge two plates of cookies as MORE / LESS / EQUAL with a justification picture/word. Captures A6.5 + A6.6 mastery."
+  },
+  "pedagogical_notes": [
+    "SEL/A1 woven throughout: every lesson has a partner-share moment so children practise listening + waiting their turn while counting aloud.",
+    "Concrete-Representational-Abstract progression: cubes (concrete) → dot cards / number cards (representational) → written numerals + comparison symbols (abstract).",
+    "Teen numbers (11–19) are a known stumbling block at K. Lesson 3 dedicates explicit teacher prompts to 'thirteen vs thirty' style confusions.",
+    "Subitizing capped at 5 — the Ontario K expectation. Children who instantly recognise 6+ are noted for the Grade-1 stretch.",
+    "Counting backward (Lesson 2) often surfaces the misconception that 'counting' only means going up. The Counting Path floor mat makes the bidirectional move physical and embodied."
+  ],
+  "canadian_context_notes": [
+    "Counting objects in Lesson 1 include classroom maple-leaf cards, wooden puzzle pieces, and toonies/loonies — everyday Canadian classroom artefacts.",
+    "Lesson 2 'countdown to recess' uses the school day's actual snack/recess timer.",
+    "Lesson 5 cookie-plate comparison uses Tim Hortons-style timbits as the visual reference — a recognisable Canadian everyday food."
+  ]
+}

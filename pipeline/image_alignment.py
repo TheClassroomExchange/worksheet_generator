@@ -1,0 +1,269 @@
+"""Image-text alignment validation.
+
+Every ``ImagePlaceholder`` in a worksheet (or any other stage) must be:
+
+1. Wired to a real asset (clipart from INDEX.json, hand-authored SVG in
+   sample_assets/, or a composed image whose recipe lives in compose.py).
+2. Captioned with ``keywords`` — the entities/objects that must be visible.
+3. Justified with ``text_image_alignment_check`` — Claude's reasoning for
+   why this image matches the surrounding text.
+4. Coherent with the surrounding student_instructions: every keyword must
+   appear (case-insensitive, stem-tolerant) in the part's instructions
+   AND in the chosen clipart's caption+tags (if a clipart was chosen).
+
+This validator is wired into ``pipeline.rubric.pre_grade_drift_check`` as a
+hard gate — a unit cannot record ``status="pass"`` if any ImagePlaceholder
+is mis-aligned.
+
+Runs against:
+- Every Worksheet's pages[*].parts[*].image_placeholders[*]
+- Every Worksheet's pages[*].image_placeholders[*]   (page-level images)
+- Every Manipulative's image_placeholders (in 3_manipulatives.json)
+- Every Reflection/Formative sheet's image_placeholders
+- Every AssessmentSuite Certificate/SummativeTask image_placeholders
+"""
+from __future__ import annotations
+
+import json
+import re
+from pathlib import Path
+
+from pipeline import clipart as _clipart
+
+
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+_SAMPLE_ASSETS = _PROJECT_ROOT / "sample_assets"
+
+
+# Tiny stemmer: keep words alphanumeric, lowercased, and trim common
+# plural/possessive/-ing endings. Good enough for keyword overlap without
+# pulling in NLTK. Order matters: longest matching suffix wins, and the
+# resulting stem must remain ≥ 4 characters (avoids "miss"→"mis").
+_TRIM_SUFFIXES = ("ies", "ing", "ed", "es", "'s", "s")
+
+
+def _stem(word: str) -> str:
+    w = re.sub(r"[^a-z0-9]+", "", word.lower())
+    for suf in _TRIM_SUFFIXES:
+        if w.endswith(suf) and len(w) - len(suf) >= 4:
+            return w[: -len(suf)]
+    return w
+
+
+def _tokens(text: str) -> set[str]:
+    """Bag of stemmed tokens from arbitrary prose. Splits on hyphens and
+    apostrophes so 'multi-step' becomes {'multi', 'step'}; 'don't' → {'dont'}."""
+    return {_stem(t) for t in re.findall(r"[A-Za-z]+", text or "")}
+
+
+def _keyword_in_text(keyword: str, text: str) -> bool:
+    """Tolerant containment check: stemmed keyword appears in stemmed tokens.
+    Multi-word keywords ('soccer ball') match if every word matches."""
+    parts = re.findall(r"[A-Za-z]+", keyword.lower())
+    if not parts:
+        return True  # vacuous
+    text_tokens = _tokens(text)
+    return all(_stem(p) in text_tokens for p in parts)
+
+
+def _validate_placeholder(
+    label: str,                # human-readable location, e.g. "WS3.page1.part2.WS03_P2_PARADE"
+    ph: dict,                  # the ImagePlaceholder dict
+    surrounding_texts: list[str],   # all text around this image (instructions, layout, etc.)
+) -> list[str]:
+    issues: list[str] = []
+
+    keywords = ph.get("keywords") or []
+    align_check = (ph.get("text_image_alignment_check") or "").strip()
+    clipart_fname = ph.get("clipart_filename")
+    img_id = ph.get("id", "<no-id>")
+
+    # 1. keywords required
+    if not keywords:
+        issues.append(
+            f"{label}: image {img_id} has empty `keywords` (drift gate requires "
+            f"≥1 entity/object that must be visible AND named in surrounding text)."
+        )
+        return issues  # without keywords nothing else can be checked
+
+    # 2. alignment_check required
+    if len(align_check) < 40:
+        issues.append(
+            f"{label}: image {img_id} has missing or too-short "
+            f"`text_image_alignment_check` (got {len(align_check)} chars; "
+            f"need ≥40 explaining which words map to which visual elements)."
+        )
+
+    # 3. keywords must appear in surrounding text (text→image direction)
+    surrounding = " ".join(t for t in surrounding_texts if t)
+    missing_in_text = [k for k in keywords if not _keyword_in_text(k, surrounding)]
+    if missing_in_text:
+        issues.append(
+            f"{label}: image {img_id} keywords {missing_in_text!r} are NOT mentioned "
+            f"in the surrounding student_instructions / visual_layout / description. "
+            f"Either (a) the image promises something the text doesn't say, or "
+            f"(b) the keyword list is wrong — fix one or the other."
+        )
+
+    # 4. asset existence + image→text direction (keywords match clipart caption/tags)
+    if clipart_fname:
+        row = _clipart.get(clipart_fname)
+        if row is None:
+            issues.append(
+                f"{label}: image {img_id} references clipart_filename "
+                f"{clipart_fname!r} which is NOT in sample_assets/clipart/INDEX.json."
+            )
+        else:
+            haystack = " ".join(filter(None, [
+                row.get("caption", ""),
+                " ".join(row.get("tags", [])),
+            ]))
+            missing_in_clipart = [
+                k for k in keywords if not _keyword_in_text(k, haystack)
+            ]
+            if missing_in_clipart:
+                issues.append(
+                    f"{label}: image {img_id} keywords {missing_in_clipart!r} are NOT "
+                    f"in the chosen clipart's caption+tags ({clipart_fname!r}: "
+                    f"{row.get('caption','')!r}). The image likely doesn't show what "
+                    f"the worksheet text says."
+                )
+
+    return issues
+
+
+def _walk_worksheet(ws_path: Path) -> list[str]:
+    """Validate every ImagePlaceholder in a worksheet JSON."""
+    issues: list[str] = []
+    try:
+        ws = json.loads(ws_path.read_text(encoding="utf-8"))
+    except Exception as e:
+        return [f"{ws_path.name}: cannot parse JSON ({e})"]
+
+    ws_label = ws_path.stem  # e.g. "2_worksheet_03"
+    instructions_pool = [ws.get("purpose", ""), ws.get("student_learning_goal", "")]
+
+    for page in ws.get("pages", []) or []:
+        page_n = page.get("page_number", "?")
+        # page-level images
+        for ph in page.get("image_placeholders", []) or []:
+            label = f"{ws_label}.page{page_n}.{ph.get('id','?')}"
+            issues += _validate_placeholder(label, ph, instructions_pool)
+        for part in page.get("parts", []) or []:
+            part_n = part.get("part_number", "?")
+            part_texts = [
+                part.get("student_instructions", ""),
+                part.get("visual_layout", ""),
+                part.get("part_title", ""),
+            ] + instructions_pool
+            for ph in part.get("image_placeholders", []) or []:
+                label = f"{ws_label}.page{page_n}.part{part_n}.{ph.get('id','?')}"
+                issues += _validate_placeholder(label, ph, part_texts)
+    return issues
+
+
+def _walk_manipulatives(unit_dir: Path) -> list[str]:
+    issues: list[str] = []
+    p = unit_dir / "3_manipulatives.json"
+    if not p.exists():
+        return issues
+    try:
+        m = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as e:
+        return [f"3_manipulatives.json: cannot parse JSON ({e})"]
+    for asset in m.get("manipulatives", []) or []:
+        a_id = asset.get("manipulative_id", "?")
+        surrounding = [
+            asset.get("name", ""),
+            asset.get("description", ""),
+            asset.get("how_to_use", ""),
+        ]
+        for ph in asset.get("image_placeholders", []) or []:
+            label = f"manipulatives.{a_id}.{ph.get('id','?')}"
+            issues += _validate_placeholder(label, ph, surrounding)
+    return issues
+
+
+def _walk_other_sheets(unit_dir: Path) -> list[str]:
+    """Reflection/formative + assessment_suite + marketplace certificate art."""
+    issues: list[str] = []
+    fr_path = unit_dir / "4_formative_reflection.json"
+    if fr_path.exists():
+        try:
+            fr = json.loads(fr_path.read_text(encoding="utf-8"))
+            for sheet_name in ("formative_worksheets", "reflection_sheet"):
+                blocks = fr.get(sheet_name, [])
+                if isinstance(blocks, dict):
+                    blocks = [blocks]
+                for sheet in blocks or []:
+                    surrounding = [
+                        sheet.get("purpose", ""),
+                        sheet.get("student_learning_goal", ""),
+                        sheet.get("title", ""),
+                    ]
+                    for page in sheet.get("pages", []) or []:
+                        for ph in page.get("image_placeholders", []) or []:
+                            label = f"4_formative_reflection.{sheet_name}.{ph.get('id','?')}"
+                            issues += _validate_placeholder(label, ph, surrounding)
+                        for part in page.get("parts", []) or []:
+                            part_texts = surrounding + [
+                                part.get("student_instructions", ""),
+                                part.get("visual_layout", ""),
+                            ]
+                            for ph in part.get("image_placeholders", []) or []:
+                                label = f"4_formative_reflection.{sheet_name}.part.{ph.get('id','?')}"
+                                issues += _validate_placeholder(label, ph, part_texts)
+        except Exception as e:
+            issues.append(f"4_formative_reflection.json: cannot parse ({e})")
+
+    asu_path = unit_dir / "5_assessment_suite.json"
+    if asu_path.exists():
+        try:
+            asu = json.loads(asu_path.read_text(encoding="utf-8"))
+            cert = asu.get("certificate", {})
+            if cert:
+                surrounding = [
+                    cert.get("title", ""),
+                    cert.get("recipient_field_label", ""),
+                    cert.get("achievement_text", ""),
+                    " ".join(cert.get("skills_demonstrated", []) or []),
+                    cert.get("layout_description", ""),
+                ]
+                for ph in cert.get("image_placeholders", []) or []:
+                    label = f"5_assessment_suite.certificate.{ph.get('id','?')}"
+                    issues += _validate_placeholder(label, ph, surrounding)
+            stask = asu.get("summative_task_script", {})
+            if stask:
+                # SummativeTaskScript field names vary; pull every str field
+                surrounding = [v for v in stask.values() if isinstance(v, str)]
+                for ph in stask.get("image_placeholders", []) or []:
+                    label = f"5_assessment_suite.summative_task.{ph.get('id','?')}"
+                    issues += _validate_placeholder(label, ph, surrounding)
+        except Exception as e:
+            issues.append(f"5_assessment_suite.json: cannot parse ({e})")
+
+    return issues
+
+
+def validate_unit_alignment(unit_dir: Path) -> list[str]:
+    """The drift-gate entry point. Returns [] if every ImagePlaceholder has
+    keywords + alignment_check populated AND every keyword has both
+    text-side and (when relevant) clipart-side coverage.
+    """
+    issues: list[str] = []
+    for ws_path in sorted(unit_dir.glob("2_worksheet_*.json")):
+        issues += _walk_worksheet(ws_path)
+    issues += _walk_manipulatives(unit_dir)
+    issues += _walk_other_sheets(unit_dir)
+    return issues
+
+
+def report_for(unit_dir: Path) -> str:
+    """Pretty-printed summary suitable for stdout / status checks."""
+    issues = validate_unit_alignment(unit_dir)
+    if not issues:
+        return f"image-text alignment ({unit_dir.name}): ✓ clean"
+    out = [f"image-text alignment ({unit_dir.name}): {len(issues)} issue(s)"]
+    for i in issues:
+        out.append(f"  - {i}")
+    return "\n".join(out)

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 450" width="350" height="450">
+  <rect x="3" y="3" width="344" height="444" fill="white" stroke="black" stroke-width="3"/>
+  <text x="175" y="120" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="64" font-weight="900">MISSING</text>
+  <line x1="40" y1="155" x2="310" y2="155" stroke="black" stroke-width="2"/>
+  <text x="175" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="400"><tspan x="175" dy="0">A part of the pattern</tspan><tspan x="175" dy="36">that is not there yet.</tspan></text>
+  <g transform="translate(265, 360) scale(0.9)">
+    <g>
+       <rect x="0" y="10" width="65" height="65" fill="white" stroke="black" stroke-width="2"/>
+       <rect x="8" y="18" width="49" height="49" fill="white" stroke="black" stroke-width="2" stroke-dasharray="4,3"/>
+       <text x="32.5" y="58" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="36" font-weight="900">?</text>
+     </g>
+  </g>
+</svg>

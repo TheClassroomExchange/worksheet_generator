@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "lesson_number": 3,
+  "lesson_title": "The Parade Table of Values",
+  "duration_minutes": 50,
+  "primary_expectations": ["C1.2"],
+  "secondary_expectations": ["C1.1", "C1.3"],
+  "big_idea": "We can show the same pattern as a parade, as a sequence of numbers, or as a table of values — and the rule is the same in all three.",
+  "learning_intention": "We are learning to translate one growing or shrinking pattern across three representations — animal parade, number sequence, and table of values — and to prove the rule stays the same.",
+  "student_learning_goal": "I can take one pattern and show it as a parade, as numbers, AND as a table of values.",
+  "success_criteria": [
+    "I can take an animal parade and write a number sequence showing the value of each term.",
+    "I can build a table of values with Term and Value columns.",
+    "I can tell my partner what stayed the same (the rule) and what changed (the way I showed it)."
+  ],
+  "vocabulary_introduced": ["table of values", "translate"],
+  "vocabulary_reinforced": ["term", "growing pattern", "shrinking pattern", "pattern rule"],
+  "manipulatives_used": ["M1_animal_cards", "M2_parade_strip", "M5_core_loop"],
+  "lesson_specific_materials": [
+    "Anchor chart from previous lessons (REPEATING / GROWING / SHRINKING / +N rule notation already up — add TABLE OF VALUES today)",
+    "Pre-built example: a growing +3 animal parade (3 Beas, 6 Beas, 9 Beas, 12 Beas across 4 cells)",
+    "Matching number sequence written large on a sentence strip: 3, 6, 9, 12",
+    "Matching pre-drawn table of values on chart paper with Term column (1, 2, 3, 4) and Value column (3, 6, 9, 12)",
+    "Sticky notes for writing rule labels (+3)",
+    "Class formative tracker for Lesson 3 (provided in assessment_suite stage)",
+    "One sheet of pencil-and-paper grid OR small whiteboard per pair for drawing tables of values"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coco's Three Faces of One Pattern",
+    "hook": "Coco built ONE pattern today and put on THREE different costumes. We have to find out: are these really the same pattern?",
+    "teacher_script": "Bring children to the carpet. Lay all three representations in a horizontal line on the floor: the animal parade (3, 6, 9, 12 Beas), the number sequence sentence strip (3, 6, 9, 12), and the chart-paper table of values.\n\nSay to students: 'Friends, Coco has a puzzle. He showed me three things — a parade, a number row, and a TABLE. He says they are all the SAME pattern. Look at them. Do you believe Coco?' Take responses. Some will see it; many will not yet.\n\nPoint to the parade. 'Read it.' (3 Beas, 6 Beas, 9 Beas, 12 Beas.) 'Rule?' (+3.) Point to the number row. 'Read it.' (3, 6, 9, 12.) 'Rule?' (+3.) Point to the table. 'New thing! This is called a TABLE OF VALUES. Two columns: TERM and VALUE. Read with me.' Read each row: 'Term 1 has value 3. Term 2 has value 6...' 'Rule?' (+3.) Hand-print TABLE OF VALUES on the chart.\n\n'All three are SAME RULE. The parade is animals. The number row is digits. The table is rows. Same rule, different ways. We call this TRANSLATING. Today YOU translate.'",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the three parallel representations.",
+      "Read each representation aloud and identify the +3 rule in each.",
+      "Watch the teacher read the table of values with the Term and Value columns.",
+      "Repeat the new word 'table of values' aloud as a class."
+    ]
+  },
+  "action": {
+    "duration_minutes": 28,
+    "activity_name": "Translate Across Three",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole-class table-building demo: take a fresh growing pattern (the class chooses the rule, e.g., +5) and build it together. First an animal parade across 4 cells. Second the number sequence below. Third the teacher draws a blank 2-column table and the class fills in Term (1, 2, 3, 4) and Value (5, 10, 15, 20) together, row by row.",
+        "teacher_prompt": "Say to students: 'Pick a +N rule for our class table. Someone shout one!' Take +5 (or whatever). 'OK. Term 1 is 5 Beas. Term 2 is 10 Beas. Term 3 is 15 Beas. Term 4 is 20 Beas. Now numbers: 5, 10, 15, 20. Now the table: I draw two columns. Headers: TERM and VALUE. Row 1: term 1, value 5. Row 2: term 2, value 10. Row 3...?' Have the class call out each row."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Partner translation round 1: each pair gets Animal Cards (M1), one Parade Strip (M2), one Core Loop Frame (M5), and a piece of paper or small whiteboard. The teacher assigns each pair a starting growing rule (+1, +2, +3, +4, or +5). Their job: build the parade across 4 cells, write the number sequence below the strip, AND draw a 2-column table of values. The +N rule sticky goes beside all three.",
+        "teacher_prompt": "Say to students: 'You and your partner just got a +N rule. Build the animal parade — 4 terms. Write the number sequence under the strip on your whiteboard. Then draw a TABLE OF VALUES with TERM and VALUE columns. All three must show the same rule. Tap your partner and say: \"Same rule?\"'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Partner translation round 2: now a SHRINKING rule (-1, -2, -3). Same three representations. The challenge: in a shrinking pattern, the table of values reads top-to-bottom in DECREASING values (term 1 = 12, term 2 = 9, term 3 = 6, term 4 = 3 for a -3 rule starting at 12).",
+        "teacher_prompt": "Say to students: 'Now switch — shrinking. Build the parade, write the numbers, draw the table. The table will look funny because values get smaller as terms go up — but the rule (-N) is still constant. Make sure your table shows term 1, 2, 3, 4 and the matching values.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "See the expanded walkthrough below for the keystone reveal moment when pairs realize the table of values reveals the rule even when the parade and number sequence get long. Use the walkthrough script for the whole-class debrief at the end of partner work.",
+        "teacher_prompt": "Follow the expanded_walkthrough section verbatim during the last 6 minutes of Action time. The reveal moment is: 'Look at the VALUE column. Term 1 to term 2 — what's the jump? Term 2 to term 3 — same jump? The table SHOWS the rule in the gaps between values.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate. Use the Lesson 3 formative tracker. Look for: did the table of values have correct headers (Term, Value)? Did the values match the parade? Could the child read across the three reps and say 'same rule'? Did they self-correct when their table values drifted off the rule?",
+        "teacher_prompt": "Stop at each pair. Pick one child. Ask: 'Read me term 3 from the parade, then from the numbers, then from the table.' Then: 'How do you know all three are the same rule?' Record on the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with +1 and +2 rules only. Provide a pre-drawn table of values template (with Term and Value columns and 4 blank rows) so the child only fills the values. Pair with a confident peer who can draw the table.",
+      "for_extending": "Use +5 or larger rules and start with non-1 starting values (e.g., start at 7 with +3 → 7, 10, 13, 16). Stretch question: 'Look at your table. Can you predict what term 10 would be? How would you figure it out without drawing every row?'",
+      "for_ell_or_iep": "Provide a sentence frame for reading the table: 'Term ___ has value ___.' Pre-print column headers TERM and VALUE on the partner's table template. Allow the child to copy the parade values into the table without inventing.",
+      "for_movement_learners": "After translating, the pair stands up and SKIP-COUNTS the number sequence aloud while taking a step on each value (3, 6, 9, 12 — three steps each time). Walking the rule helps the rule feel rhythmic."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child build a correct table of values with TERM and VALUE column headers? Do the values in the table match the parade? Can the child articulate that the rule is the same across all three representations? Do they handle shrinking patterns in the table (values going down as terms go up)?",
+      "how_to_record": "Tick the appropriate column on the Lesson 3 formative tracker.",
+      "tracker_columns": ["Student name", "Translates parade to number sequence", "Builds correct table of values with headers", "Values in table match the parade", "Names same rule across all 3 reps", "Notes"]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Three-Rep Showcase",
+    "discussion_prompts": [
+      "Who would like to show their THREE representations to the class? Read them aloud — parade, then numbers, then table.",
+      "Which representation was EASIEST to build? Which was HARDEST? Why do you think?",
+      "Look at the table of values. Could you use the table to figure out term 8 even though we only built 4 terms? How?"
+    ],
+    "exit_routine": "Each child whispers to a partner: 'My rule was ___, and I showed it three ways: as a parade, as numbers, and as a table.' Then tidy. Teacher listens for children who can name all three reps confidently versus those who only describe one or two."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for C1.2 (translation across three representations), plus completed student worksheet 'Three Faces of a Rule'. The standalone 'Three Pattern Types Check' formative is administered AFTER this lesson and BEFORE Lesson 4.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Tables of values are the new Grade 2 representation. The teacher needs evidence of who can read and build the Term/Value structure before Lesson 4 (far prediction with a rule) leans heavily on table-based reasoning. This lesson is the unit's keystone because it requires children to abstract past surface (parade vs numbers vs table) to the underlying rule — and to use a new structural object (the table) for the first time."
+  },
+  "expanded_walkthrough": {
+    "title": "The Table-of-Values Reveal",
+    "rationale": "Grade 2 children naturally read patterns by surface features (the animals in the parade, the digits in the number sequence). C1.2 requires them to abstract past the surface to the underlying RULE — and to recognize that a table of values is a third representation that makes the rule especially visible because the gaps between values literally SHOW the +N or -N. This is the unit's conceptual hinge. The reveal moment often does not land the first time; many children will look at the table and see only digits, not relationships. This script walks the teacher through the reveal step by step, including how to recover when the abstraction does not stick.",
+    "setup": "On the floor or whiteboard, three parallel representations of the same +3 pattern: (1) animal parade across 4 cells with 3, 6, 9, 12 Beas; (2) number sequence sentence strip 3, 6, 9, 12; (3) two-column table of values with headers TERM and VALUE, rows (1,3), (2,6), (3,9), (4,12). Beside the three, a +3 sticky note. Coco visible. Anchor chart with TABLE OF VALUES freshly hand-printed.",
+    "teacher_script": "Hold up Coco. 'Friends, we built three versions of the same pattern. Now here is the magic. Watch.'\n\nPoint to the number sequence. 'Look at the gaps between numbers. From 3 to 6 — how much did we add?' (3.) 'From 6 to 9?' (3.) 'From 9 to 12?' (3.) 'Same gap every time. The gap IS the rule.'\n\nPoint to the table. 'Now look at the VALUE column. Read down: 3, 6, 9, 12. What are the gaps?' (3, 3, 3.) 'Same! The TABLE shows the rule even better — because in a table, you can see the gap RIGHT THERE between two rows. You can put your finger between row 1 and row 2 and say: that gap is +3.'\n\nPause. 'Here is the BIG question. If I added a row 5 to my table, what would the value be?' Take responses. (15.) 'Why?' (Because we add 3 each time. 12 + 3 = 15.) 'YES. The table lets us PREDICT the next value WITHOUT drawing more animals. We just add 3.'\n\nNow the deeper move. 'What about row 10? What's the value at term 10?' This is where children will pause. Take wild guesses, then walk through: '15, 18, 21, 24, 27, 30 — term 10 has value 30.' 'Whoa. We just predicted a parade we never built. The table gave us a shortcut. THAT is why mathematicians love tables.'\n\nFinal stretch. 'Quick — partner talk. If our rule was +5 instead of +3, what would term 10 be? Use the SAME shortcut.' Let pairs work it out. Take one answer. 'Yes — 50.' (Or whatever the class gets. The shortcut: term 10 of a +N rule starting at N is term × N. But don't formalize this in G2; just let children notice.)",
+    "expected_student_responses": [
+      "Several children will read the table mechanically without seeing the rule in the gaps — this is normal first-exposure behaviour.",
+      "Some children will count up by ones in their head when asked about term 5, even though the rule is +3; nudge them to ADD 3 instead.",
+      "A child may notice that 'the value column is the 3 times table' for a +3 rule starting at 3 — celebrate this; it is the foundation of generalization.",
+      "A child may try to predict term 10 by drawing every step and run out of room; redirect to the table shortcut.",
+      "A child may correctly say 'term 10 is 30' instantly without explanation. Push for the why: 'How did you know?' The reason matters more than the answer."
+    ],
+    "common_misconceptions": [
+      "Confusing the term number with the value (e.g., writing the term in the value column).",
+      "Reading the table top-to-bottom but missing that values can DECREASE in a shrinking pattern.",
+      "Thinking the rule is 'add 3' but applying 'multiply by 3' (e.g., predicting term 4 as 9 instead of 12 for a +3 rule starting at 3).",
+      "Listing the values without ever computing the gaps — missing the rule entirely.",
+      "Believing they must draw every term to find a faraway term (the whole point of the table is to skip drawing)."
+    ],
+    "recovery_moves": [
+      "If a child confuses term and value: cover the table with a sticky note covering only one column. Read aloud row by row, pointing to the visible column and asking 'is this the term or the value?'",
+      "If a child can't see the gap as the rule: hand them a highlighter and ask them to draw arrows in the gaps between rows of the value column with '+3' written above each arrow.",
+      "If a child applies multiplication instead of addition: build a +3 parade physically with cards, cell by cell. Count the cards each cell. 'Term 1 has 3 cards. Term 2 has...' (count) 'six. Did we add or multiply?' (added 3 to 3.)",
+      "If a child wants to draw every cell to predict term 10: gently take the pencil. 'You don't need to draw it. The table lets us SKIP. Let's count by 3 from term 4 to term 10 — 12, 15, 18, 21, 24, 27, 30. Term 10 is 30.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Three Faces of a Rule",
+    "purpose": "Independent practice of C1.2 — translating a single pattern across three representations (parade, number sequence, table of values).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show a pre-built growing animal parade (4 cells: 2, 4, 6, 8 Beas — rule +2). Below, a row of 4 empty boxes for the number sequence. Below that, a 2-column table of values with headers TERM and VALUE pre-printed and rows 1, 2, 3, 4 in the Term column — the Value column is empty. Student fills in the number sequence AND the value column.",
+        "response_type": "create"
+      },
+      {
+        "part_number": 2,
+        "task": "Show a partial table of values (Term: 1, 2, 3, 4 / Value: 5, 8, 11, ___). Student fills in the missing value AND writes the rule on a line below: 'Rule: +____'.",
+        "response_type": "create"
+      },
+      {
+        "part_number": 3,
+        "task": "Empty all three reps. Student picks any +N rule (or -N) and builds: an animal parade (4 cells), a number sequence (4 numbers), and a table of values (4 rows). At the bottom: 'My rule: ____'. Bonus line: 'Term 8 would be: ____ (use the table to figure it out without drawing)'.",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "A 4-cell parade strip with 2, 4, 6, 8 Beas pre-built for Part 1",
+      "An empty 4-box number sequence row for Part 1",
+      "A pre-printed 2-column table of values (Term/Value) with empty Value column for Part 1",
+      "A partially-filled table of values with one missing value for Part 2",
+      "Three empty workspaces (parade strip, number row, table) for Part 3 with the four-animal legend",
+      "Coco the Conductor in the worksheet header (with chart paper showing a tiny table)"
+    ]
+  }
+}

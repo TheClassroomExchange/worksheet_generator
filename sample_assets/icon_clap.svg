@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect x="3" y="3" width="234" height="234" fill="white" stroke="black" stroke-width="2"/>
+  <g fill="white" stroke="black" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M 60 100 Q 50 90 55 75 Q 60 70 70 75 L 75 100 Q 80 95 90 100 L 95 130 Q 95 145 80 150 Q 65 150 55 140 Z"/>
+    <path d="M 180 100 Q 190 90 185 75 Q 180 70 170 75 L 165 100 Q 160 95 150 100 L 145 130 Q 145 145 160 150 Q 175 150 185 140 Z"/>
+    <line x1="100" y1="115" x2="115" y2="115"/>
+    <line x1="125" y1="115" x2="140" y2="115"/>
+    <line x1="105" y1="100" x2="118" y2="105"/>
+    <line x1="135" y1="100" x2="122" y2="105"/>
+  </g>
+  <text x="120" y="220" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="22" font-weight="900">CLAP</text>
+</svg>

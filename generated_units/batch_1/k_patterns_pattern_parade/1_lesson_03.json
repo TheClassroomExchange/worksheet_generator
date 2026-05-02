@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "lesson_number": 3,
+  "lesson_title": "Same Beat, Different Parade",
+  "duration_minutes": 40,
+  "primary_expectations": ["A7.3"],
+  "secondary_expectations": ["A7.2"],
+  "big_idea": "The same core can show up in many ways: colours, sounds, animals, movements.",
+  "learning_intention": "We are learning that the same core can be shown in many different ways and still be the same pattern.",
+  "student_learning_goal": "I can show one pattern in three different ways.",
+  "success_criteria": [
+    "I can take an animal pattern and turn it into a sound pattern.",
+    "I can take a sound pattern and turn it into a body-movement pattern.",
+    "I can tell my partner what stayed the same and what changed."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": ["pattern", "core"],
+  "manipulatives_used": ["M1_animal_cards", "M2_parade_strip", "M3_sound_movement_cards", "M5_core_loop"],
+  "lesson_specific_materials": [
+    "Anchor chart from previous lessons (no new word needed today; reinforce CORE)",
+    "Three pre-built parade strips for the opening reveal: one animal AB, one sound AB (clap/stomp), one body AB (tall/small)",
+    "Sound and Movement Cards (M3) — full set on the carpet",
+    "Class formative tracker (provided in assessment_suite stage)"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Coco's Three Parade Surprise",
+    "hook": "Coco has shown me three different parades today, and I think they are secretly the same parade.",
+    "teacher_script": "Bring children to the carpet. Lay all three pre-built strips in a line on the floor: animals, clap/stomp, tall/small.\n\nSay to students: 'Friends, Coco has a puzzle for us. Coco showed me three parades today. They look very different — one is animals, one is sounds, and one is our bodies. But Coco told me a secret: the THREE parades are really the SAME parade.' Pause. 'Do you believe that?' Take responses. (Most will say no.)\n\n'Today we are going to find out how three parades can be the same. We have to listen for the beat — the part that repeats. The CORE.' Touch the anchor chart at the word CORE. 'If the core is the same, the pattern is the same — even if the things look or sound different.'",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the three parade strips.",
+      "Predict whether the three parades are the same or different.",
+      "Listen and watch as the teacher leads the reveal."
+    ]
+  },
+  "action": {
+    "duration_minutes": 22,
+    "activity_name": "Translate the Parade",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: see the expanded walkthrough below. The opening reveal of the three same-core parades is fully scripted there.",
+        "teacher_prompt": "Follow the expanded_walkthrough section verbatim. After the reveal moment, leave all three strips and their loops in view as a reference for partner work."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Hand each pair a pre-built animal strip showing one core (assign by readiness — AB, ABB, or ABC). Their job is to translate that same core into a sound version using Sound and Movement Cards (M3), and into a body-movement version (no cards — they invent it).",
+        "teacher_prompt": "Say to students: 'You and your partner just got an animal parade. Your job is to make TWO more parades with the same core. One with sound cards. One with your bodies. The core has to stay the same — only the way you show it changes. When you are ready, tap your partner and parade together.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Circulate. Each pair must show all three versions before they finish. Ask: 'What stayed the same in all three?' and 'What changed?'",
+        "teacher_prompt": "Stop at each pair. Ask a child to read all three versions: animal, sound, body. Then: 'What stayed the same?' (the core / the beat) 'What changed?' (the animals / sounds / bodies). Record on the formative tracker."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Optional extension: pairs swap the core they were given for a different one and translate it into all three forms.",
+        "teacher_prompt": "Say to extending pairs: 'You finished — now Coco wants to test you. Here is a NEW core. Same job. Three parades.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with AB cores only. Pre-place the first cell of the sound version and the first body position to give a launchpad. Pair with a confident peer who can model the body version first.",
+      "for_extending": "Use ABB or ABC cores. After the three translations, ask: 'Can you show the SAME core a fourth way? Could it be a colour pattern? A high/low voice pattern?'",
+      "for_ell_or_iep": "Lean on the body-movement translation as the entry point — it requires no language. Once the child can do tall-small or jump-freeze, scaffold backward to the cards. Accept gestures as proof of understanding.",
+      "for_movement_learners": "These children often grasp this lesson fastest. Invite them to lead the class through their body version during consolidation."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child build a second and third version of the same core? Can they articulate, in any words, that the core stayed the same and only the surface changed? Do they self-correct when their second version drifts off the core?",
+      "how_to_record": "Tick the appropriate column on the formative tracker.",
+      "tracker_columns": ["Student name", "Translates to sound version", "Translates to body version", "Names what stayed the same", "Names what changed", "Notes"]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Three-Parade Showcase",
+    "discussion_prompts": [
+      "Who would like to show their three parades to the class? (Take 2–3 pairs.)",
+      "When you watched [pair name]'s three parades, what stayed the same?",
+      "Could we make this same core a FOURTH way? What else could we use?"
+    ],
+    "exit_routine": "Each child whispers to a partner: 'My core was ___, and I showed it three ways: with ___, ___, and ___.' Then tidy."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for A7.3, plus completed student worksheet 'Same Beat, Three Ways'.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "A7.3 is the most abstract of the four expectations because it requires children to look past surface features to the underlying core. The teacher needs evidence of who has crossed that abstraction line before Lesson 4 (extending and missing elements) requires it implicitly."
+  },
+  "expanded_walkthrough": {
+    "title": "The Three Parades Reveal",
+    "rationale": "Children at K naturally read patterns by surface features (the animals, the colours). A7.3 requires them to abstract past the surface to the underlying core. This is the unit's conceptual hinge, and the moment is fragile — many children will say 'no, they are different' the first time. This script walks the teacher through the reveal step by step, including how to recover when the abstraction does not land.",
+    "setup": "Three short parade strips, all sharing the SAME AB core, laid side by side on the carpet: (1) Bea-Finn-Bea-Finn animal version, (2) clap-stomp-clap-stomp version using Sound and Movement Cards, (3) tall-small-tall-small using body-position cards or photos. A Core Loop Frame ready in the teacher's hand. Coco the puppet visible. Anchor chart with the word CORE in view.",
+    "teacher_script": "Hold up Coco. Say to students: 'Coco has shown me three different parades today, and Coco says they are secretly the SAME parade. Let's see if you can figure out why.'\n\nPoint to Strip 1 (animals). 'Read this parade with me.' Lead the class: 'Bea, Finn, Bea, Finn.' Place the loop around the first Bea-Finn pair. 'And what is the core here?' (Bea-Finn.)\n\nPoint to Strip 2 (clap-stomp). 'Now this parade — read it with your hands and feet.' Lead the class: clap, stomp, clap, stomp. Pick up the loop and place it around the first clap-stomp pair. 'What is the core of this one?' (clap-stomp.)\n\nPoint to Strip 3 (tall-small). 'And this one — let's do it with our bodies. Stand TALL when I point here, crouch SMALL when I point there.' Lead the class through: tall, small, tall, small. Loop the first tall-small pair. 'What is the core?' (tall-small.)\n\nPause. Step back. 'I told you Coco said these three parades were secretly the same. Are they?' (Most children will still say no.)\n\n'Hmm — let me put the loops next to each other.' Slide the three strips so the loops align in a column. 'Look at every loop. In every loop, there is a FIRST thing and a SECOND thing. Then those two things come back. Bea-Finn, Bea-Finn. Clap-stomp, clap-stomp. Tall-small, tall-small. The CORE is the same. Only the way we are showing it is different.'\n\nPause and let it land. 'When the core is the same, the pattern is the SAME pattern. Coco doesn't care if it's bears, claps, or bodies. Coco cares about the BEAT.'",
+    "expected_student_responses": [
+      "Several children will insist the parades are different because the things in them are different — this is normal and expected.",
+      "Some children will count cells ('they all have four') without seeing AB structure.",
+      "A child may say 'they all go 1-2, 1-2' before the teacher names it — validate this.",
+      "A child may name the AB structure in their own words ('one of these, one of those, again')."
+    ],
+    "common_misconceptions": [
+      "'They are different patterns because one has bears and the other has claps.' — surface-feature thinking, the most common K response.",
+      "'It's the same because they have the same number of things.' — confusion between length and core.",
+      "'It's the same because they all have two animals.' — partial insight; the child sees structure but lacks vocabulary."
+    ],
+    "recovery_moves": [
+      "If a child is stuck on surface features: physically slide all three loops on top of each other and ask 'do the loops have two things in each? Do the two things come back in the same order?'",
+      "If a child confuses length and core: lay out an 8-cell animal parade and a 4-cell clap-stomp parade with the same AB core. Ask 'is the core the same?' Lead them to see length is independent of core.",
+      "If a child names the structure in their own words: validate first, then supply the formal language. 'Yes — you said one of these, one of those, again. Mathematicians call that an AB core.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Same Beat, Three Ways",
+    "purpose": "Independent practice of A7.3 — translating one given core into two additional representations.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show an animal AB pattern (Bea-Finn-Bea-Finn) at the top of the page. Below it, two empty parade strips. Student fills the first with sound icons (clap/stomp) and the second with body icons (tall/small).",
+        "response_type": "draw_or_sticker"
+      },
+      {
+        "part_number": 2,
+        "task": "Show three small parade rows side by side: one animal, one sound, one body — all the same ABB core. Student circles whether each row has the SAME core (yes/no) and writes or marks the core under each.",
+        "response_type": "circle_yes_no"
+      },
+      {
+        "part_number": 3,
+        "task": "Empty three-row template. Student picks any core and fills all three rows: animal, sound, body. Bottom of page: 'My core was ___' with space to draw or write the core.",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "Bea, Finn, Bibi, Moss thumbnail icons",
+      "Clap, stomp, hum, tap icons matching M3 manipulative",
+      "Tall and small body-pose icons (simple silhouettes)",
+      "Three-row parade strip layout",
+      "Coco the Conductor in the worksheet header"
+    ]
+  }
+}

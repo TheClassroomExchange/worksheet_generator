@@ -1,0 +1,72 @@
+{"ts": "2026-04-29T13:25:09+00:00", "stage": "blueprint", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:27:33+00:00", "stage": "blueprint", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:27:33+00:00", "stage": "lesson_01", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:29:23+00:00", "stage": "lesson_01", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:29:23+00:00", "stage": "lesson_02", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:30:09+00:00", "stage": "lesson_01", "transition": "done→pending", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:30:09+00:00", "stage": "lesson_01", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-04-29T13:30:09+00:00", "stage": "lesson_01", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-04-29T13:30:09+00:00", "stage": "lesson_02", "transition": "in_progress→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-04-29T13:31:47+00:00", "stage": "lesson_02", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-04-29T13:31:47+00:00", "stage": "lesson_03", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:34:19+00:00", "stage": "lesson_03", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T13:34:19+00:00", "stage": "lesson_04", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T16:59:19+00:00", "stage": "lesson_04", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T16:59:19+00:00", "stage": "lesson_05", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:01:00+00:00", "stage": "lesson_05", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:01:00+00:00", "stage": "worksheet_01", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:02:02+00:00", "stage": "worksheet_01", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:02:02+00:00", "stage": "worksheet_02", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:02:44+00:00", "stage": "worksheet_02", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:02:44+00:00", "stage": "worksheet_03", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:03:32+00:00", "stage": "worksheet_03", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:03:32+00:00", "stage": "worksheet_04", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:04:48+00:00", "stage": "worksheet_04", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:04:48+00:00", "stage": "worksheet_05", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:05:52+00:00", "stage": "worksheet_05", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:05:52+00:00", "stage": "manipulatives", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:07:39+00:00", "stage": "manipulatives", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:07:39+00:00", "stage": "formative_reflection", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:08:53+00:00", "stage": "formative_reflection", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:08:53+00:00", "stage": "assessment_suite", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:11:05+00:00", "stage": "assessment_suite", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:11:05+00:00", "stage": "marketplace", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-04-29T17:12:14+00:00", "stage": "marketplace", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_01", "transition": "done→pending", "attempt": 1, "error": "img-text backfill"}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_01", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_01", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_02", "transition": "done→pending", "attempt": 1, "error": "img-text backfill"}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_02", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_02", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_03", "transition": "done→pending", "attempt": 1, "error": "img-text backfill"}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_03", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_03", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_04", "transition": "done→pending", "attempt": 1, "error": "img-text backfill"}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_04", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_04", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_05", "transition": "done→pending", "attempt": 1, "error": "img-text backfill"}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_05", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "worksheet_05", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "assessment_suite", "transition": "done→pending", "attempt": 1, "error": "img-text backfill"}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "assessment_suite", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T02:19:57+00:00", "stage": "assessment_suite", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_01", "transition": "done→pending", "attempt": 2, "error": "rubric strict-imgalign: add expanded_walkthrough"}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_01", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_01", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_02", "transition": "done→pending", "attempt": 2, "error": "rubric strict-imgalign: add expanded_walkthrough"}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_02", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_02", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_04", "transition": "done→pending", "attempt": 1, "error": "rubric strict-imgalign: add expanded_walkthrough"}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_04", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_04", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_05", "transition": "done→pending", "attempt": 1, "error": "rubric strict-imgalign: add expanded_walkthrough"}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_05", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "lesson_05", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "blueprint", "transition": "done→pending", "attempt": 1, "error": "rubric strict-imgalign: shorten unit_learning_goal"}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "blueprint", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-02T11:15:41+00:00", "stage": "blueprint", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-02T11:16:29+00:00", "stage": "lesson_05", "transition": "done→pending", "attempt": 2, "error": "rubric strict-imgalign 2nd pass: collapse Phase 6 + 7"}
+{"ts": "2026-05-02T11:16:29+00:00", "stage": "lesson_05", "transition": "pending→in_progress", "attempt": 3, "error": null}
+{"ts": "2026-05-02T11:16:29+00:00", "stage": "lesson_05", "transition": "in_progress→done", "attempt": 3, "error": null}
+{"ts": "2026-05-02T11:17:18+00:00", "stage": "rubric_grade", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-02T11:17:18+00:00", "stage": "rubric_grade", "transition": "in_progress→done", "attempt": 1, "error": null}

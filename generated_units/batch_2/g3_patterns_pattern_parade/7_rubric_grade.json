@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": []
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met. (a) Plan in writing before building: L5 Phase 1 picks rule, circles type, writes core/first-2-terms. (b) Student self-checking on own work: L5 Phase 6 REVISE step — child finds one thing to fix and writes a sentence explaining what and why; the explanation sentence IS the assessment evidence. (c) Justification step: L5 Phase 5 PREDICT-AND-JUSTIFY term 50 with a structured sentence frame; EQAO-style demand. (d) Explicit revision opportunity: L5 Phase 6 PART B REVISE & REFLECT, separately-numbered. 4 distinct worksheet response types (create, create_and_loop, write, circle_yes_no). Mid-unit formative_worksheets present; reflection_sheet has 5 prompts.",
+      "evidence_refs": [
+        "1_lesson_05.json::action.steps (Phase 1 PLAN, Phase 5 PREDICT-AND-JUSTIFY, Phase 6 LEAD/REVISE/REFLECT)",
+        "2_worksheet_*.json::pages.parts.student_response_type",
+        "4_formative_reflection.json"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Strict L4 met. CRA progression: concrete (Coco's mystery parades, real-life operation hunt with manipulatives) → representational (animal parade strips, sticky-rule labels, recipe cards, Core Loops) → abstract (compound rules, multiplicative rules, far-term prediction with K×N shortcut, table of values, numbers up to 1000). L5 contains explicit 4-stage cycle as separately-numbered action steps: PLAN (Phase 1) → TEST on paper (Phases 2-5: build/translate/table/predict-justify) → TEST WITH MOVEMENT (Phase 6 PART A LEAD with partner) → REFINE on paper + REFLECT (Phase 6 PART B). Every Minds On is 12-min movement-based and previews the Action.",
+      "evidence_refs": [
+        "1_lesson_*.json::minds_on (12 min each, thematic)",
+        "1_lesson_05.json::action.steps (PLAN/BUILD/TRANSLATE/TABLE/PREDICT-JUSTIFY/LEAD-REVISE-REFLECT)"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Strict L4 met. Five lessons each have a substantive expanded_walkthrough block: L1 'Operation vs. Type — the new G3 conceptual move' (~470w + 4 misconceptions); L2 'Compound Rules — the recipe model' (~470w + 4); L3 (existing 295w + 4); L4 'Far-Term Prediction with Justification' (~480w + 4); L5 'Phase 5+7 — Predict-Justify and self-revision audit' (~430w + 4). Every lesson has ≥4 anticipated misconceptions paired with recovery_moves. Every lesson has 'I can…' goal, ≥6 Action steps with substantive teacher_prompts, ≥3 consolidation prompts.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.common_misconceptions (≥4 each)",
+        "1_lesson_01..05.json::expanded_walkthrough.recovery_moves (paired)"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "Perfect: every cited code (C1.1-C1.4) exists in the local Ontario G3 reference; expectation_text in 0_blueprint.json matches official verbatim; 5_assessment_suite rubric covers all 4 codes with G3-specific descriptors (compound and multiplicative rules, far-term prediction, justification, numbers up to 1000); every code is primary in ≥1 lesson (L1→C1.1, L2→C1.3, L3→C1.2, L4→C1.3, L5→C1.4); every lesson cites a primary expectation. consistency_check returns 0 issues; verify_curriculum_text returns 0 issues.",
+      "evidence_refs": [
+        "0_blueprint.json::curriculum_codes + curriculum_expectations",
+        "1_lesson_*.json::primary_expectations",
+        "5_assessment_suite.json::summative_rubric.rows"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "validate_unit_for_slides returns 0 layout warnings (post unit_learning_goal trim 368→263 chars and L5 phase 6+7 collapse); 0 density warnings on all 5 lessons; marketplace.long_description is 3381 chars with bulleted differentiator section; recurring_characters Coco + Parade Animals — same cast as K + G1 + G2, satisfying the L4 sibling-grade reuse rule; 6 Canadian context notes; certificate present. validate_unit_alignment returns 0 issues (every ImagePlaceholder has populated keywords + text_image_alignment_check).",
+      "evidence_refs": [
+        "0_blueprint.json::unit_learning_goal (now 263 chars)",
+        "0_blueprint.json::recurring_characters (matches K+G1+G2)",
+        "validate_unit_for_slides + validate_lesson_density + validate_unit_alignment all 0"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-session-2026-05-02-strict-imgalign",
+  "graded_at": "2026-05-02T11:17:18Z"
+}

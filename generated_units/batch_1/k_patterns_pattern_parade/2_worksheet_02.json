@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "lesson_number": 2,
+  "worksheet_title": "Find the Beat",
+  "purpose": "Independent practice of A7.2 — identifying and marking the core, and recognizing when a sequence is or is not a pattern. Used as Lesson 2 consolidation and as evidence for the formative tracker.",
+  "student_learning_goal": "I can find the part of the pattern that repeats. We call it the core.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find the part of the pattern that repeats. We call it the core.",
+    "character_watermark": "Coco the Conductor in the top-right corner of the header, smiling, with a small Core Loop Frame held up in one wing. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Lasso the core!",
+          "student_instructions": "Each parade has a core that repeats. Use your pencil to draw a loop around the CORE of each parade.",
+          "visual_layout": "Three horizontal parade strips stacked vertically, each labelled 'Parade A', 'Parade B', 'Parade C' to the left. Each strip is 6 cells wide, each cell ~1in square. Footprints beneath each strip. Children draw a closed pencil loop around the cells they identify as the core.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_PARADE_A",
+              "description": "A 6-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Bea, Finn, Bea, Finn. AB pattern. Footprints beneath. Approximately 6in wide. Label 'Parade A' to the left.",
+              "placement": "Top of Part 1, full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "pattern"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_PARADE_A at Top of Part 1, full width.: the student-facing words (parade, pattern) name what the image shows. Image content: A 6-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Bea, Finn, Bea, Finn. AB pattern. Footprints beneath. Ap… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P1_PARADE_B",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells filled in order: Bea, Finn, Bibi, Bea, Finn, Bibi. ABC pattern. Footprints beneath. Approximately 6in wide. Label 'Parade B' to the left.",
+              "placement": "Middle of Part 1, full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "pattern"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_PARADE_B at Middle of Part 1, full width.: the student-facing words (parade, pattern) name what the image shows. Image content: A 6-cell horizontal parade strip in matching style. Cells filled in order: Bea, Finn, Bibi, Bea, Finn, Bibi. ABC pattern. Footprints beneath… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P1_PARADE_C",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells filled in order: Bea, Finn, Finn, Bea, Finn, Finn. ABB pattern. Footprints beneath. Approximately 6in wide. Label 'Parade C' to the left.",
+              "placement": "Bottom of Part 1, full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "pattern"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_PARADE_C at Bottom of Part 1, full width.: the student-facing words (parade, pattern) name what the image shows. Image content: A 6-cell horizontal parade strip in matching style. Cells filled in order: Bea, Finn, Finn, Bea, Finn, Finn. ABB pattern. Footprints beneath… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "Parade A: loop around cells 1–2 (Bea-Finn) — AB core. Parade B: loop around cells 1–3 (Bea-Finn-Bibi) — ABC core. Parade C: loop around cells 1–3 (Bea-Finn-Finn) — ABB core. Accept loops around any one full instance of the core (cells 1–2, 3–4 for AB; 1–3 or 4–6 for ABC/ABB)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Extend the parade!",
+          "student_instructions": "The core is already shown for you in the box. Keep the parade going! Draw or sticker the next animals.",
+          "visual_layout": "One horizontal parade strip with 7 cells. Cells 1 and 2 have a thin solid box drawn around them (showing this is the core), filled with Bea and Finn. Cells 3–7 are empty with dashed outlines for student fills.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_PARADE",
+              "description": "A 7-cell horizontal parade strip. Cells 1 and 2 enclosed in a thin solid rectangle (the core box) and filled with Bea (red vest), Finn (blue vest). Cells 3–7 are empty with dashed outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally, spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "core",
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_PARADE at Centred horizontally, spans Part 2.: the student-facing words (core, parade) name what the image shows. Image content: A 7-cell horizontal parade strip. Cells 1 and 2 enclosed in a thin solid rectangle (the core box) and filled with Bea (red vest), Finn (blue… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "draw_or_sticker",
+          "answer_key": "Cells 3–7 = Bea, Finn, Bea, Finn, Bea. The core (Bea-Finn) repeats: Bea-Finn-Bea-Finn-Bea-Finn-Bea."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make your own core!",
+          "student_instructions": "Build your own parade. Use 2, 3, or 4 animals to make a core that repeats. Then draw a loop around your core!",
+          "visual_layout": "An empty 6-cell parade strip centred on the page. To the right, a small Loop Frame icon with the caption 'Don't forget the loop!'. Below the strip, a four-animal reference key.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_PARADE",
+              "description": "An empty 6-cell horizontal parade strip in matching style. All cells blank with solid light-grey outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_PARADE at Centred horizontally in Part 3.: the student-facing words (parade) name what the image shows. Image content: An empty 6-cell horizontal parade strip in matching style. All cells blank with solid light-grey outlines. Footprints beneath. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P3_LOOP_REMINDER",
+              "description": "A small Core Loop Frame icon — an oval/lasso shape — with the caption 'Don't forget the loop!' underneath. Approximately 0.8in tall.",
+              "placement": "To the right of the parade strip, vertically centred.",
+              "approximate_size": "thumbnail",
+              "keywords": [
+                "core",
+                "loop"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_LOOP_REMINDER at To the right of the parade strip, vertically centred.: the student-facing words (core, loop) name what the image shows. Image content: A small Core Loop Frame icon — an oval/lasso shape — with the caption 'Don't forget the loop!' underneath. Approximately 0.8in tall.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS02_P3_KEY",
+              "description": "A horizontal four-animal legend: Bea (red vest), Finn (blue vest), Bibi (green vest), Moss (yellow vest). Names beneath each. Same illustration style. Each ~1in tall.",
+              "placement": "Below the parade strip, horizontally centred.",
+              "approximate_size": "small",
+              "keywords": [
+                "animals"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_KEY at Below the parade strip, horizontally centred.: the student-facing words (animals) name what the image shows. Image content: A horizontal four-animal legend: Bea (red vest), Finn (blue vest), Bibi (green vest), Moss (yellow vest). Names beneath each. Same illustrat… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create_and_loop",
+          "answer_key": "Any valid repeating pattern (AB, ABC, ABB, AABB, etc.) using 2–4 animals, with a loop drawn around exactly one full instance of the core. A response is correct if (a) the core is identifiable, (b) it repeats at least once after the looped instance, and (c) the loop encloses the right number of cells (2 for AB, 3 for ABC/ABB)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Can you build a 4-animal core like Bea-Finn-Bibi-Moss? Where would the loop go?",
+  "teacher_notes": "Lesson 2 consolidation artifact. The most common error is looping too few or too many cells (e.g., looping just one cell, or looping the entire strip). Watch for whether the loop boundary lands on a true repetition point. Part 3 is the strongest evidence for the formative tracker column 'Loops correct number of cells.' Children who consistently mis-size the loop on Part 1 likely need a re-loop on Lesson 2 before Lesson 3."
+}

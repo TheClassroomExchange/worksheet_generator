@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "lesson_number": 3,
+  "worksheet_title": "Same Beat, Three Ways",
+  "purpose": "Independent practice of A7.3 — translating one given core into two additional representations and recognizing the same core across different surfaces. Used as Lesson 3 consolidation and as evidence for the formative tracker.",
+  "student_learning_goal": "I can show one pattern in three different ways.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can show one pattern in three different ways.",
+    "character_watermark": "Coco the Conductor in the top-right corner of the header, holding the conductor's baton with three small parade strips fanning out from it (animal, sound, body). Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Translate the parade!",
+          "student_instructions": "Look at the Animal Parade. Make the same pattern with sounds, then with bodies. The CORE has to stay the same!",
+          "visual_layout": "Three horizontal parade strips stacked vertically, each labelled to the left ('Animal Parade', 'Sound Parade', 'Body Parade'). Each strip is 6 cells wide. The Animal Parade is pre-filled with Bea, Finn, Bea, Finn, Bea, Finn. The Sound and Body strips are empty with dashed outlines. Below the three strips, a horizontal reference key showing clap, stomp, tall, and small icons with names underneath.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_ANIMAL",
+              "description": "A 6-cell horizontal parade strip pre-filled in order: Bea (red vest), Finn (blue vest), Bea, Finn, Bea, Finn. AB pattern. Footprints beneath. Label 'Animal Parade' to the left. Full width.",
+              "placement": "Top of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "animal",
+                "parade",
+                "pattern"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_ANIMAL at Top of Part 1.: the student-facing words (animal, parade, pattern) name what the image shows. Image content: A 6-cell horizontal parade strip pre-filled in order: Bea (red vest), Finn (blue vest), Bea, Finn, Bea, Finn. AB pattern. Footprints beneath… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P1_SOUND",
+              "description": "An empty 6-cell horizontal parade strip with dashed cell outlines. Label 'Sound Parade' to the left. Full width.",
+              "placement": "Middle of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "sounds"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_SOUND at Middle of Part 1.: the student-facing words (parade, sounds) name what the image shows. Image content: An empty 6-cell horizontal parade strip with dashed cell outlines. Label 'Sound Parade' to the left. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P1_BODY",
+              "description": "An empty 6-cell horizontal parade strip with dashed cell outlines. Label 'Body Parade' to the left. Full width.",
+              "placement": "Bottom of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_BODY at Bottom of Part 1.: the student-facing words (parade) name what the image shows. Image content: An empty 6-cell horizontal parade strip with dashed cell outlines. Label 'Body Parade' to the left. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P1_REF",
+              "description": "A horizontal reference key with four icons: clap (open hand), stomp (foot print), tall (stick figure standing up), small (stick figure crouched). Names underneath ('clap', 'stomp', 'tall', 'small'). Each ~1in tall. Same B&W line-art style.",
+              "placement": "Below the three strips, horizontally centred.",
+              "approximate_size": "small",
+              "keywords": [
+                "same"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_REF at Below the three strips, horizontally centred.: the student-facing words (same) name what the image shows. Image content: A horizontal reference key with four icons: clap (open hand), stomp (foot print), tall (stick figure standing up), small (stick figure crouc… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "draw_or_sticker",
+          "answer_key": "Sound Parade: clap-stomp-clap-stomp-clap-stomp (or any valid AB sound pair, e.g., hum-tap-hum-tap-hum-tap). Body Parade: tall-small-tall-small-tall-small (or any valid AB body pair). Correct if (a) the same AB structure repeats, (b) the two surface elements differ. Accept any sound/body pair that holds the AB structure."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Same core, or not?",
+          "student_instructions": "Are these three parades the same pattern? Circle YES or NO for each. Then draw the core in the box.",
+          "visual_layout": "Three rows stacked vertically. Each row contains a small parade strip (6 cells, pre-filled), a YES/NO bubble pair to its right, and a small empty box labelled 'Core' for the student to draw what the core is.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_ANIMAL",
+              "description": "A small 6-cell parade strip pre-filled: Bea, Finn, Finn, Bea, Finn, Finn. ABB pattern. ~4in wide. Label 'Animal' to the left.",
+              "placement": "Top row of Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "pattern"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_ANIMAL at Top row of Part 2.: the student-facing words (pattern) name what the image shows. Image content: A small 6-cell parade strip pre-filled: Bea, Finn, Finn, Bea, Finn, Finn. ABB pattern. ~4in wide. Label 'Animal' to the left.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P2_SOUND",
+              "description": "A small 6-cell parade strip pre-filled: clap, stomp, stomp, clap, stomp, stomp. ABB pattern using sound icons. ~4in wide. Label 'Sound' to the left.",
+              "placement": "Middle row of Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "pattern"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_SOUND at Middle row of Part 2.: the student-facing words (pattern) name what the image shows. Image content: A small 6-cell parade strip pre-filled: clap, stomp, stomp, clap, stomp, stomp. ABB pattern using sound icons. ~4in wide. Label 'Sound' to t… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P2_BODY",
+              "description": "A small 6-cell parade strip pre-filled: tall, small, small, tall, small, small. ABB pattern using body-pose icons. ~4in wide. Label 'Body' to the left.",
+              "placement": "Bottom row of Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "pattern"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_BODY at Bottom row of Part 2.: the student-facing words (pattern) name what the image shows. Image content: A small 6-cell parade strip pre-filled: tall, small, small, tall, small, small. ABB pattern using body-pose icons. ~4in wide. Label 'Body' t… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "circle_yes_no",
+          "answer_key": "All three rows: YES (same core — all three are ABB). Core for animal row = Bea-Finn-Finn. Core for sound row = clap-stomp-stomp. Core for body row = tall-small-small. The structural core (ABB) is identical across all three; the surface elements change."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Show your own core three ways!",
+          "student_instructions": "Pick a core. Build the SAME core three ways — animals, sounds, bodies. At the bottom, finish the sentence about your core.",
+          "visual_layout": "Three empty parade strips stacked vertically, each labelled 'Animal', 'Sound', 'Body'. Below them, a caption box that reads 'My core was: ___' with a wide line for the child to write or draw. A combined reference key at the bottom showing animals, sound icons, and body icons.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_ANIMAL",
+              "description": "An empty 6-cell parade strip with light-grey solid cell outlines. Label 'Animal' to the left. Full width.",
+              "placement": "Top row of Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "animals"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_ANIMAL at Top row of Part 3.: the student-facing words (animals) name what the image shows. Image content: An empty 6-cell parade strip with light-grey solid cell outlines. Label 'Animal' to the left. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P3_SOUND",
+              "description": "An empty 6-cell parade strip with light-grey solid cell outlines. Label 'Sound' to the left. Full width.",
+              "placement": "Middle row of Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "sounds"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_SOUND at Middle row of Part 3.: the student-facing words (sounds) name what the image shows. Image content: An empty 6-cell parade strip with light-grey solid cell outlines. Label 'Sound' to the left. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P3_BODY",
+              "description": "An empty 6-cell parade strip with light-grey solid cell outlines. Label 'Body' to the left. Full width.",
+              "placement": "Bottom row of Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "strips",
+                "body"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_BODY at Bottom row of Part 3.: the student-facing words (parade, strips, body) name what the image shows. Image content: An empty 6-cell parade strip with light-grey solid cell outlines. Label 'Body' to the left. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS03_P3_REF",
+              "description": "A combined horizontal reference key showing all four animals (Bea, Finn, Bibi, Moss), four sound icons (clap, stomp, hum, tap), and four body icons (tall, small, jump, freeze). Names beneath each. Grouped by category. Same illustration style.",
+              "placement": "Below all three strips, horizontally centred.",
+              "approximate_size": "small",
+              "keywords": [
+                "same",
+                "animals",
+                "sounds"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_REF at Below all three strips, horizontally centred.: the student-facing words (same, animals, sounds) name what the image shows. Image content: A combined horizontal reference key showing all four animals (Bea, Finn, Bibi, Moss), four sound icons (clap, stomp, hum, tap), and four bod… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Any valid pattern where all three rows share the same structural core. A response is correct if (a) each row is a valid repeating pattern, (b) all three rows have the same core structure (e.g., all AB, or all ABB, or all ABC), and (c) the caption sentence is filled with a description of their core. Accept any core structure the child chooses."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Could you show your same core a fourth way? Try a colour pattern or a high-voice / low-voice pattern!",
+  "teacher_notes": "Lesson 3 consolidation. Watch for the most common error: students changing the core when translating (e.g., AB animal → ABB sound). Part 1 is the most diagnostic: if a child fills the Sound row with claps and stomps but the count or order doesn't match the AB structure, the abstraction hasn't landed. Use Part 3 as evidence for the formative tracker columns 'Translates to sound version' and 'Translates to body version.' Children who succeed on Part 1 but fail Part 3 likely need more practice in concrete-to-abstract translation."
+}

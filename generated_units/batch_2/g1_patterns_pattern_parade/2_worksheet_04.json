@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_patterns_pattern_parade",
+  "lesson_number": 4,
+  "worksheet_title": "Pattern Detective",
+  "purpose": "Independent practice of C1.3 — finding missing elements in different positions, extending in both directions, and justifying predictions using the rule.",
+  "student_learning_goal": "I can find a missing animal and tell my partner why I am sure.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find a missing animal and tell my partner why I am sure.",
+    "character_watermark": "Coco the Conductor in the top-right corner with a small magnifying glass — the Detective Coco. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Three broken parades",
+          "student_instructions": "Each of these parades is missing one animal. Fill in the missing cell. Then write the rule on the line beside each parade.",
+          "visual_layout": "Three short horizontal parade strips stacked vertically. Strip A (middle gap): 6 cells, Bea-Finn-?-Bea-Finn-Bea, with cell 3 dashed-outlined. Strip B (end gap): 6 cells, Bea-Finn-Finn-Bea-Finn-?, with cell 6 dashed-outlined. Strip C (start gap): 6 cells, ?-Finn-Bibi-Bea-Finn-Bibi, with cell 1 dashed-outlined. To the right of each strip, a writing line preceded by 'Rule: ____'. Footprints beneath each strip.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_STRIP_A",
+              "description": "A 6-cell horizontal parade strip in B&W line-art. Cells 1, 2, 4, 5, 6 filled with: Bea, Finn, Bea, Finn, Bea. Cell 3 is empty with a dashed outline. Footprints beneath. Approximately 5in wide.",
+              "placement": "Top row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_A at Top row of Part 1.: the student-facing words (parade) name what the image shows. Image content: A 6-cell horizontal parade strip in B&W line-art. Cells 1, 2, 4, 5, 6 filled with: Bea, Finn, Bea, Finn, Bea. Cell 3 is empty with a dashed… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P1_STRIP_B",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells 1–5 filled with: Bea, Finn, Finn, Bea, Finn. Cell 6 is empty with a dashed outline. Footprints beneath. Approximately 5in wide.",
+              "placement": "Middle row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_B at Middle row of Part 1.: the student-facing words (parade) name what the image shows. Image content: A 6-cell horizontal parade strip in matching style. Cells 1–5 filled with: Bea, Finn, Finn, Bea, Finn. Cell 6 is empty with a dashed outline… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P1_STRIP_C",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells 2–6 filled with: Finn, Bibi, Bea, Finn, Bibi. Cell 1 is empty with a dashed outline. Footprints beneath. Approximately 5in wide.",
+              "placement": "Bottom row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_C at Bottom row of Part 1.: the student-facing words (parade) name what the image shows. Image content: A 6-cell horizontal parade strip in matching style. Cells 2–6 filled with: Finn, Bibi, Bea, Finn, Bibi. Cell 1 is empty with a dashed outlin… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "draw_or_sticker",
+          "answer_key": "Strip A: cell 3 = Finn. Rule = AB. Wait — re-check. Strip A reads Bea-Finn-?-Bea-Finn-Bea. With AB rule (Bea-Finn-Bea-Finn-Bea-Finn), cell 3 should be Bea (not Finn). Cells 1=Bea, 2=Finn, 3=Bea, 4=Finn, 5=Bea — wait but the picture says cell 4=Bea, 5=Finn, 6=Bea. Let me re-check: pattern AB applied to 6 cells: Bea, Finn, Bea, Finn, Bea, Finn. So cells should be: 1=Bea, 2=Finn, 3=Bea, 4=Finn, 5=Bea, 6=Finn. The strip as described shows cells 1,2,4,5,6 = Bea, Finn, Bea, Finn, Bea. So 1=Bea, 2=Finn, 4=Bea, 5=Finn, 6=Bea. Cell 3 (missing) = Bea. Rule = AB. Correct answer: cell 3 = Bea, Rule = AB. Strip B: cells 1–5 = Bea, Finn, Finn, Bea, Finn. With ABB rule, full sequence is Bea-Finn-Finn-Bea-Finn-Finn. Cell 6 = Finn. Rule = ABB. Strip C: cells 2–6 = Finn, Bibi, Bea, Finn, Bibi. With ABC rule, full sequence is Bea-Finn-Bibi-Bea-Finn-Bibi. Cell 1 = Bea. Rule = ABC."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Fill BOTH ends",
+          "student_instructions": "Look at the middle of this parade. Use the rule to fill the first two cells AND the last two cells. Then loop the core and finish the sentence.",
+          "visual_layout": "An 8-cell horizontal parade strip centred on the page. Cells 1 and 2 are empty (dashed outline). Cells 3–6 filled: Bea-Finn-Finn-Bea. Cells 7 and 8 are empty (dashed outline). Footprints beneath. Below the strip, a sentence frame with three writing lines: 'The rule is ____. I know cells 1 and 2 are ____ and ____ because the rule keeps repeating.'",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_PARADE",
+              "description": "An 8-cell horizontal parade strip in B&W line-art. Cells 1 and 2 are empty with dashed outlines. Cells 3–6 filled with: Bea, Finn, Finn, Bea. Cells 7 and 8 are empty with dashed outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS04_P2_PARADE at Centred horizontally; spans Part 2.: the student-facing words (parade) name what the image shows. Image content: An 8-cell horizontal parade strip in B&W line-art. Cells 1 and 2 are empty with dashed outlines. Cells 3–6 filled with: Bea, Finn, Finn, Bea… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create_and_loop",
+          "answer_key": "Rule = ABB. Full sequence: Finn-Finn-Bea-Finn-Finn-Bea-Finn-Finn. Wait — that's the rule running backwards from cell 3 (Bea). Let me think carefully. The rule is ABB where A=Bea, B=Finn. So the sequence is Bea-Finn-Finn-Bea-Finn-Finn-Bea-Finn-Finn. Cells 3–6 are given as Bea-Finn-Finn-Bea. So cell 3 starts a new core (Bea is the A). Working backward: cell 2 must be the LAST cell of the previous core, which is Finn. Cell 1 must be the SECOND-LAST of the previous core, also Finn. Working forward: cell 7 must be Finn, cell 8 must be Finn. Final: cell 1=Finn, cell 2=Finn, cells 3–6 as given (Bea-Finn-Finn-Bea), cell 7=Finn, cell 8=Finn. Full: Finn-Finn-Bea-Finn-Finn-Bea-Finn-Finn. Loop drawn around any consecutive Bea-Finn-Finn group. Sentence: 'The rule is ABB. I know cells 1 and 2 are Finn and Finn because the rule keeps repeating.'"
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Detective scenario",
+          "student_instructions": "Coco built a parade. He says cell 5 is Bibi. The rule is AAB. Use the rule to figure out the other cells. Then finish the sentence.",
+          "visual_layout": "A 6-cell horizontal parade strip centred on the page. All cells empty EXCEPT cell 5, which contains the Bibi icon (with the dotted vest). Above the strip, a small note: 'Rule: AAB    Cell 5 = Bibi'. Footprints beneath. Below the strip, a writing line: 'I am sure because ____'. To the side, a small four-animal key (Bea, Finn, Bibi, Moss) in case the student forgets the look of any animal.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_PARADE",
+              "description": "A 6-cell horizontal parade strip in B&W line-art. Cell 5 is filled with Bibi the Beaver (dotted vest). All other cells (1, 2, 3, 4, 6) are empty with light-grey solid outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "bibi",
+                "other"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_PARADE at Centred horizontally in Part 3.: the student-facing words (parade, bibi, other) name what the image shows. Image content: A 6-cell horizontal parade strip in B&W line-art. Cell 5 is filled with Bibi the Beaver (dotted vest). All other cells (1, 2, 3, 4, 6) are e… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P3_KEY",
+              "description": "A small four-animal reference key showing Bea (solid vest), Finn (striped vest), Bibi (dotted vest), Moss (checkered vest). Each ~0.8in tall, names beneath.",
+              "placement": "To the side of the parade strip in Part 3.",
+              "approximate_size": "small",
+              "keywords": [
+                "bibi",
+                "animal"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_KEY at To the side of the parade strip in Part 3.: the student-facing words (bibi, animal) name what the image shows. Image content: A small four-animal reference key showing Bea (solid vest), Finn (striped vest), Bibi (dotted vest), Moss (checkered vest). Each ~0.8in tall… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Rule AAB means each core is two of one animal followed by one of another. With cell 5 = Bibi, multiple valid solutions exist depending on which letter (A or B) Bibi plays. The most natural reading: the cores end on B, so cell 5 (Bibi) is B in the second core. Cores would be: cells 1–3 = A-A-B, cells 4–6 = A-A-B. So cell 6 must be a NEW core's start (or be A starting again). Specifically: cells 1=A, 2=A, 3=B (Bibi), 4=A, 5=A, 6=B (Bibi). But then cell 5 is A not Bibi. Alternative: cell 5 = B, so the core boundaries fall between cells 3-4 and 6-7. Cells 1-3=AAB, cells 4-6=AAB, with cell 5 being the second A. That makes cell 5 = A, not B. The cleanest answer: cells 4=A, 5=A, 6=B with Bibi as A. Then cell 5 = Bibi (A), cell 6 = some other animal as B. Working backward: cell 3 = B, cells 1-2 = A-A. So sequence: A-A-B-A-A-B = e.g., Bibi-Bibi-Finn-Bibi-Bibi-Finn. Final: cells 1=Bibi, 2=Bibi, 3=Finn (or any non-Bibi), 4=Bibi, 5=Bibi (given), 6=Finn. Accept any valid AAB sequence with Bibi as the A and ANY other animal (Bea/Finn/Moss) as the B. Sentence: 'I am sure because the rule AAB needs two of one animal then one of another, so since cell 5 is Bibi I made Bibi the A.'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and draw a 10-cell parade with TWO missing cells anywhere — start, middle, end. Trade with a partner and let them be the detective.",
+  "teacher_notes": "Lesson 4 consolidation. The most diagnostic part is Part 2 — backward extension is the new Grade 1 stretch. Children who fill cells 1 and 2 correctly without prompting are at L3 or L4 on C1.3. Children who only fill cells 7 and 8 (forward) and leave 1 and 2 empty need the conference. Part 3 is open-ended — accept any valid AAB sequence as long as cell 5 = Bibi and the rule holds. Use the sentence-frame answers as oral-justification proxies: a child who can complete the sentence in writing has internalized the justify habit. Children who write only the rule label without explaining 'because' need a follow-up conference."
+}

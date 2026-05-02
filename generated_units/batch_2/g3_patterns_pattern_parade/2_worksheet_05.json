@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "lesson_number": 5,
+  "worksheet_title": "Lead the Number Parade to 1000",
+  "purpose": "Summative performance task for the full unit. Each child picks a rule (single-step or multi-step), builds an animal parade, translates to a number parade with whole numbers up to 1000, organizes as a table of values, predicts term 50, justifies formally, and states a generalization. Used as primary summative evidence for C1.1, C1.2, C1.3, and C1.4.",
+  "student_learning_goal": "I can build a number parade up to 1000, organize it as a table of values, predict term 50, and justify my rule.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can build a number parade up to 1000, organize it as a table of values, predict term 50, and justify my rule.",
+    "character_watermark": "Coco the Conductor in the top-right corner with his baton raised AND a tiny chalkboard showing a generalization formula. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Plan your parade",
+          "student_instructions": "You are the Conductor today. Pick your rule (single-step or multi-step) and write it. Circle the type. Then draw your core (for repeating) or first 2 terms (for growing/shrinking).",
+          "visual_layout": "Top-of-page header with three boxes side by side. LEFT: 'My Rule:' box (~3in × 1in, blank). MIDDLE: 'Pattern Type:' box (~2.5in × 1in, three circle options labelled REPEATING / GROWING / SHRINKING). RIGHT: 'My Core or First 2 Terms:' workspace box (~3in × 1.5in, blank). Below: a horizontal four-animal reference legend AND a small thousand-chart thumbnail in the corner.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_HEADER",
+              "description": "A header layout with three empty bordered workspace boxes side by side: left box ~3in wide × 1in tall labelled 'My Rule:' above (sized to hold a multi-step rule like '+5 then -2'); middle box ~2.5in wide × 1in tall labelled 'Pattern Type:' above with three circle bubbles labelled REPEATING, GROWING, SHRINKING; right box ~3in wide × 1.5in tall labelled 'My Core or First 2 Terms:' above. All boxes are blank workspace with thin black borders. Below the boxes, a small four-animal legend showing Bea, Finn, Bibi, Moss, each ~0.8in tall, names beneath. To the side, a small thousand-chart thumbnail (~1.5in × 3in) showing 0-1000 as a 10x10 grid of 100s. B&W line art.",
+              "placement": "Top of Part 1, full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "rule",
+                "step",
+                "multi",
+                "type"
+              ],
+              "text_image_alignment_check": "Image WS05_P1_HEADER at Top of Part 1, full width.: the student-facing words (rule, step, multi, type) name what the image shows. Image content: A header layout with three empty bordered workspace boxes side by side: left box ~3in wide × 1in tall labelled 'My Rule:' above (sized to ho… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create_and_loop",
+          "answer_key": "My Rule: any valid rule (single-step like +75, ×3, -8; or multi-step like +50 then -10). Type circle: matches the rule. Core/first 2 terms: shows the repeating core or the first 2 terms of the growing/shrinking pattern. The rule and core/terms must be consistent."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Build animal parade and number parade",
+          "student_instructions": "Use your rule to fill all 8 cells of the animal parade. Then write the matching number for each term in the number parade strip below. Make sure your numbers stay between 0 and 1000!",
+          "visual_layout": "An 8-cell horizontal parade strip labelled 'My Animal Parade' above. Each cell ~0.85in × 0.85in. Below it, a row of 8 boxes labelled 'My Number Parade' for the matching number values. Each cell numbered 1-8 below. Below: 'My starting number: ____'.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_PARADE",
+              "description": "An empty 8-cell horizontal parade strip in B&W line-art labelled 'My Animal Parade' above. All 8 cells blank with solid light-grey outlines. Below each cell, the number 1-8 printed in tiny grey text. Footprints beneath the strip. Full width.",
+              "placement": "Top of Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "animal",
+                "parade",
+                "number",
+                "strip"
+              ],
+              "text_image_alignment_check": "Image WS05_P2_PARADE at Top of Part 2.: the student-facing words (animal, parade, number, strip) name what the image shows. Image content: An empty 8-cell horizontal parade strip in B&W line-art labelled 'My Animal Parade' above. All 8 cells blank with solid light-grey outlines.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS05_P2_NUMBERS",
+              "description": "A row of 8 empty boxes (~0.85in × 0.85in) labelled 'My Number Parade' above. Each box sized to hold a 1-4 digit number (up to 1000). Below each box, the cell number 1-8 printed in tiny grey text. Full width.",
+              "placement": "Below the parade in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "number",
+                "full"
+              ],
+              "text_image_alignment_check": "Image WS05_P2_NUMBERS at Below the parade in Part 2.: the student-facing words (parade, number, full) name what the image shows. Image content: A row of 8 empty boxes (~0.85in × 0.85in) labelled 'My Number Parade' above. Each box sized to hold a 1-4 digit number (up to 1000). Below e… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "An 8-cell parade following the rule the child wrote, with a matching 8-term number sequence where all values are between 0 and 1000. Examples: Rule +75 starting at 75 → 75, 150, 225, 300, 375, 450, 525, 600. Rule ×2 starting at 5 → 5, 10, 20, 40, 80, 160, 320, 640. Rule -50 starting at 800 → 800, 750, 700, 650, 600, 550, 500, 450. Multi-step rule '+30 then -10' starting at 100 → 100, 130, 120, 150, 140, 170, 160, 190. Correct if the rule is preserved AND all values 0-1000 inclusive."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Table of values + far prediction + justification + generalization",
+          "student_instructions": "Fill in the Value column with your 8 number-parade values. Predict term 50 using the rule (not drawing!). Write a full justification. Then state a generalization.",
+          "visual_layout": "A 2-column table of values (8 rows + header), TERM 1-8 pre-filled, VALUE blank. Below the table: 'Term 50 = ____. JUSTIFY: I started at ___, the rule is ___, I jumped 49 times to reach term 50, so term 50 = ___.' Below: 'My GENERALIZATION: For any term K, the value is ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_TABLE",
+              "description": "A 2-column table of values, ~3.5in wide × 4in tall. 9 rows (1 header + 8 data). Headers TERM and VALUE in bold uppercase. Term column pre-filled 1-8. Value column empty. Thin black borders. K/G3-readable type.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "value",
+                "column",
+                "values",
+                "term"
+              ],
+              "text_image_alignment_check": "Image WS05_P3_TABLE at Centred horizontally in Part 3.: the student-facing words (value, column, values, term) name what the image shows. Image content: A 2-column table of values, ~3.5in wide × 4in tall. 9 rows (1 header + 8 data). Headers TERM and VALUE in bold uppercase. Term column pre-fi… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS05_P3_HUNDRED",
+              "description": "A small thousand-chart thumbnail showing 0-1000 in a 10x10 grid of 100s (each cell labelled with its starting hundred — 0, 100, 200, ..., 900). Approximately 2in × 2in total. Provided as a reference for predicting term 50.",
+              "placement": "To the side of the table in Part 3.",
+              "approximate_size": "small",
+              "keywords": [
+                "predict",
+                "term"
+              ],
+              "text_image_alignment_check": "Image WS05_P3_HUNDRED at To the side of the table in Part 3.: the student-facing words (predict, term) name what the image shows. Image content: A small thousand-chart thumbnail showing 0-1000 in a 10x10 grid of 100s (each cell labelled with its starting hundred — 0, 100, 200, ..., 90… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Value column: copies the 8 numbers from Part 2 in matching term order. Term 50 prediction: depends on the rule. For +75 starting at 75, term 50 = 50 × 75 = 3750 — over 1000, so the answer is 'OFF THE CHART; my parade reaches 1000 at term 13 (since 13 × 75 = 975 and 14 × 75 = 1050).' For ×2 starting at 5, term 50 = 5 × 2^49 (astronomically large) — 'OFF THE CHART; values exceed 1000 at term 8 since 5 × 2^7 = 640 and 5 × 2^8 = 1280.' For -50 starting at 800, term 50 doesn't make sense because the parade ends at term 17 (negative thereafter). For multi-step, more complex reasoning. JUSTIFY sentence must include start, rule, jumps, and result. GENERALIZATION: any reasonable formula or description connecting term K to value (e.g., 'value = K × 75' for +N rules starting at N)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, try the same exercise with a DIFFERENT rule type. If you did growing, try shrinking. If you did single-step, try multi-step. Build the new parade, table, and term-50 prediction.",
+  "teacher_notes": "SUMMATIVE worksheet — the most important artifact in the unit. Score each completed worksheet against the 4-level rubric (see assessment_suite). Look for: (1) Did rule, type, and core/terms align in Part 1? — C1.3 evidence. (2) Did the 8 animal cells follow the rule AND did number cells stay 0-1000? — C1.1 + C1.4 evidence. (3) Did the table use correct headers AND match Part 2? — C1.2 evidence. (4) Did term-50 prediction use multiplication shortcut (not drawing)? — C1.3 + C1.4 capstone. (5) Did justification sentence reference rule AND number of jumps? — C1.3 deepest evidence. (6) Did generalization express a relationship (e.g., 'value = K × N')? — L4 evidence. Children at L4 on every dimension are ready for Grade 4."
+}

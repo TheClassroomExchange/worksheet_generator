@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <rect x="3" y="3" width="234" height="234" fill="white" stroke="black" stroke-width="2"/>
+  <g fill="none" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="115" r="14" fill="white"/>
+    <line x1="120" y1="129" x2="120" y2="150"/>
+    <line x1="120" y1="135" x2="95" y2="145"/>
+    <line x1="120" y1="135" x2="145" y2="145"/>
+    <path d="M 120 150 L 100 165 L 100 178" fill="none"/>
+    <path d="M 120 150 L 140 165 L 140 178" fill="none"/>
+    <line x1="55" y1="180" x2="185" y2="180" stroke-dasharray="3,4" stroke-width="2"/>
+  </g>
+  <text x="120" y="220" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="22" font-weight="900">SMALL</text>
+</svg>

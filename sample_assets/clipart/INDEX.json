@@ -1,0 +1,1070 @@
+{
+  "meta": {
+    "source_deck": "Clipart ",
+    "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+    "fetched_at": "2026-05-01T23:32:14Z",
+    "total_images": 44,
+    "note": "Add captions/tags here. The pipeline reads this index when picking clipart for new units' manipulatives. Filename + path are stable; caption/tags are user-editable.",
+    "duplicates": {
+      "icon_montage_5_duplicates": [
+        "slide02_random_07.png",
+        "slide02_random_08.png",
+        "slide03_sports_01.png",
+        "slide06_animals_05.png",
+        "slide09_food_03.png"
+      ],
+      "dog_cat_duplicate": [
+        "slide06_animals_01.png",
+        "slide06_animals_02.png"
+      ],
+      "note": "These rows have tag 'duplicate_set'; pipeline.clipart.suggest_for_unit can be told to exclude them or treat them as one."
+    },
+    "captions_filled_at": "2026-05-01",
+    "captions_filled_by": "claude-vision (direct image inspection)"
+  },
+  "images": [
+    {
+      "filename": "slide01_people_01.png",
+      "path": "sample_assets/clipart/slide01_people_01.png",
+      "source_deck_slide": 1,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 175907,
+      "context_hints": [
+        "People"
+      ],
+      "caption": "Two child chefs side-by-side: a girl holding bread and a boy holding a whisk and bowl, both wearing chef hats",
+      "tags": [
+        "people",
+        "chef",
+        "kids",
+        "cooking",
+        "characters"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_01.png",
+      "path": "sample_assets/clipart/slide02_random_01.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 96816,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Cute kawaii robot head with two antennae, glowing screen face with a smile, and circuit-board details",
+      "tags": [
+        "random",
+        "robot",
+        "tech",
+        "character",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_02.png",
+      "path": "sample_assets/clipart/slide02_random_02.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 2,
+      "size_bytes": 143155,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Theatre or festival proscenium stage with columns, draped banner, and floating music notes",
+      "tags": [
+        "random",
+        "stage",
+        "theatre",
+        "performance",
+        "music",
+        "festival"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_03.png",
+      "path": "sample_assets/clipart/slide02_random_03.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 3,
+      "size_bytes": 129344,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Closed thick storybook with 'STORIES' written on the cover",
+      "tags": [
+        "random",
+        "book",
+        "stories",
+        "literacy",
+        "reading"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_04.png",
+      "path": "sample_assets/clipart/slide02_random_04.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 4,
+      "size_bytes": 97528,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Sitting golden retriever puppy with a dog bone next to it",
+      "tags": [
+        "random",
+        "dog",
+        "puppy",
+        "bone",
+        "pet",
+        "animal"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_05.png",
+      "path": "sample_assets/clipart/slide02_random_05.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 5,
+      "size_bytes": 153548,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Wooden toy chest labelled 'TOYS' with a teddy bear peeking out the lid",
+      "tags": [
+        "random",
+        "toys",
+        "teddy_bear",
+        "chest",
+        "play"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_06.png",
+      "path": "sample_assets/clipart/slide02_random_06.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 6,
+      "size_bytes": 78389,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "A simple puddle of water with concentric ripples",
+      "tags": [
+        "random",
+        "water",
+        "puddle",
+        "ripples"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_07.png",
+      "path": "sample_assets/clipart/slide02_random_07.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 7,
+      "size_bytes": 851021,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Icon set: apple, water bottle, dinosaur, bed, and pair of socks (everyday-objects sampler)",
+      "tags": [
+        "random",
+        "icons",
+        "everyday_objects",
+        "sampler",
+        "duplicate_set"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 1024
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_08.png",
+      "path": "sample_assets/clipart/slide02_random_08.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 8,
+      "size_bytes": 851021,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Icon set: apple, water bottle, dinosaur, bed, and pair of socks (duplicate of 07)",
+      "tags": [
+        "random",
+        "icons",
+        "everyday_objects",
+        "sampler",
+        "duplicate_set"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 1024
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_09.png",
+      "path": "sample_assets/clipart/slide02_random_09.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 9,
+      "size_bytes": 202171,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Kawaii backpack with a smiling winking face on the front pocket",
+      "tags": [
+        "random",
+        "backpack",
+        "school",
+        "kawaii",
+        "character"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_10.png",
+      "path": "sample_assets/clipart/slide02_random_10.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 10,
+      "size_bytes": 397207,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Handheld retro video game console showing a Mario-like character on screen with 'LIFE x3' and '1000 pts'",
+      "tags": [
+        "random",
+        "video_game",
+        "console",
+        "retro",
+        "tech"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide02_random_11.png",
+      "path": "sample_assets/clipart/slide02_random_11.png",
+      "source_deck_slide": 2,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 11,
+      "size_bytes": 119438,
+      "context_hints": [
+        "Random"
+      ],
+      "caption": "Kawaii instant Polaroid camera with a photo print emerging, two smiling faces on top",
+      "tags": [
+        "random",
+        "camera",
+        "polaroid",
+        "photography",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide03_sports_01.png",
+      "path": "sample_assets/clipart/slide03_sports_01.png",
+      "source_deck_slide": 3,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 851021,
+      "context_hints": [
+        "Sports"
+      ],
+      "caption": "Icon set: apple, water bottle, dinosaur, bed, and pair of socks (duplicate of slide02_random_07)",
+      "tags": [
+        "sports",
+        "icons",
+        "everyday_objects",
+        "sampler",
+        "duplicate_set"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 1024
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide03_sports_02.png",
+      "path": "sample_assets/clipart/slide03_sports_02.png",
+      "source_deck_slide": 3,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 2,
+      "size_bytes": 98746,
+      "context_hints": [
+        "Sports"
+      ],
+      "caption": "Soccer ball surrounded by paw prints, stars, dots, and small cat/bear silhouettes",
+      "tags": [
+        "sports",
+        "soccer",
+        "ball"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide03_sports_03.png",
+      "path": "sample_assets/clipart/slide03_sports_03.png",
+      "source_deck_slide": 3,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 3,
+      "size_bytes": 249860,
+      "context_hints": [
+        "Sports"
+      ],
+      "caption": "Black baseball cap with a white baseball and crossed bats logo",
+      "tags": [
+        "sports",
+        "baseball",
+        "cap",
+        "hat"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide03_sports_04.png",
+      "path": "sample_assets/clipart/slide03_sports_04.png",
+      "source_deck_slide": 3,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 4,
+      "size_bytes": 533963,
+      "context_hints": [
+        "Sports"
+      ],
+      "caption": "Coiled steel jump rope with black handles",
+      "tags": [
+        "sports",
+        "jump_rope",
+        "exercise",
+        "fitness"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide04_planets_01.png",
+      "path": "sample_assets/clipart/slide04_planets_01.png",
+      "source_deck_slide": 4,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 74186,
+      "context_hints": [
+        "Planets"
+      ],
+      "caption": "Cute crescent moon with a kawaii smiling face",
+      "tags": [
+        "planets",
+        "moon",
+        "crescent",
+        "space",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide04_planets_02.png",
+      "path": "sample_assets/clipart/slide04_planets_02.png",
+      "source_deck_slide": 4,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 2,
+      "size_bytes": 114583,
+      "context_hints": [
+        "Planets"
+      ],
+      "caption": "Cute round asteroid or moon with multiple craters and a kawaii smiling face",
+      "tags": [
+        "planets",
+        "moon",
+        "asteroid",
+        "space",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide05_plants_01.png",
+      "path": "sample_assets/clipart/slide05_plants_01.png",
+      "source_deck_slide": 5,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 99687,
+      "context_hints": [
+        "Plants"
+      ],
+      "caption": "Big tree with a leafy round canopy, sturdy trunk, and visible roots in grass",
+      "tags": [
+        "plants",
+        "tree",
+        "nature",
+        "plant"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide05_plants_02.png",
+      "path": "sample_assets/clipart/slide05_plants_02.png",
+      "source_deck_slide": 5,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 2,
+      "size_bytes": 86399,
+      "context_hints": [
+        "Plants"
+      ],
+      "caption": "Smiling daisy flower with petals, a leafy stem, and visible roots",
+      "tags": [
+        "plants",
+        "flower",
+        "daisy",
+        "plant",
+        "nature",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide06_animals_01.png",
+      "path": "sample_assets/clipart/slide06_animals_01.png",
+      "source_deck_slide": 6,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 133178,
+      "context_hints": [
+        "Animals"
+      ],
+      "caption": "Smiling golden retriever dog with bandana sitting next to a winking tabby cat",
+      "tags": [
+        "animals",
+        "dog",
+        "cat",
+        "pets"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide06_animals_02.png",
+      "path": "sample_assets/clipart/slide06_animals_02.png",
+      "source_deck_slide": 6,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 2,
+      "size_bytes": 133178,
+      "context_hints": [
+        "Animals"
+      ],
+      "caption": "Smiling dog with bandana next to a winking tabby cat (duplicate of slide06_animals_01)",
+      "tags": [
+        "animals",
+        "dog",
+        "cat",
+        "pets",
+        "duplicate_set"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide06_animals_03.png",
+      "path": "sample_assets/clipart/slide06_animals_03.png",
+      "source_deck_slide": 6,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 3,
+      "size_bytes": 131196,
+      "context_hints": [
+        "Animals"
+      ],
+      "caption": "Cute bumblebee in flight with curly antennae and a smiling face",
+      "tags": [
+        "animals",
+        "bee",
+        "bug",
+        "insect",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide06_animals_04.png",
+      "path": "sample_assets/clipart/slide06_animals_04.png",
+      "source_deck_slide": 6,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 4,
+      "size_bytes": 145741,
+      "context_hints": [
+        "Animals"
+      ],
+      "caption": "Symmetrical empty spider web with concentric rings and radial threads",
+      "tags": [
+        "animals",
+        "spider_web",
+        "halloween",
+        "web"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide06_animals_05.png",
+      "path": "sample_assets/clipart/slide06_animals_05.png",
+      "source_deck_slide": 6,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 5,
+      "size_bytes": 851021,
+      "context_hints": [
+        "Animals"
+      ],
+      "caption": "Icon set: apple, water bottle, dinosaur, bed, and pair of socks (duplicate of slide02_random_07; miscategorized)",
+      "tags": [
+        "animals",
+        "icons",
+        "everyday_objects",
+        "sampler",
+        "duplicate_set"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 1024
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_01.png",
+      "path": "sample_assets/clipart/slide07_vehicles_01.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 130954,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Cute fire truck labeled 'FIRETRUCK' with a smiling face, ladder, hose, and toolbox",
+      "tags": [
+        "vehicles",
+        "fire_truck",
+        "vehicle",
+        "emergency",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_02.png",
+      "path": "sample_assets/clipart/slide07_vehicles_02.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 2,
+      "size_bytes": 136857,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Cute white ambulance with smiling face and red cross, labeled 'AMBULANCE'",
+      "tags": [
+        "vehicles",
+        "ambulance",
+        "vehicle",
+        "emergency",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_03.png",
+      "path": "sample_assets/clipart/slide07_vehicles_03.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 3,
+      "size_bytes": 198710,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Food truck named 'THE SNACK SHACK' with chef hat on top, decorated with tacos, hot dogs, and pizza icons",
+      "tags": [
+        "vehicles",
+        "food_truck",
+        "vehicle",
+        "snacks",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_04.png",
+      "path": "sample_assets/clipart/slide07_vehicles_04.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 4,
+      "size_bytes": 118978,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Kawaii rescue helicopter labeled 'RESCUE' with red cross, smiling face, rotor blades, and tail rotor",
+      "tags": [
+        "vehicles",
+        "helicopter",
+        "vehicle",
+        "emergency",
+        "rescue",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_05.png",
+      "path": "sample_assets/clipart/slide07_vehicles_05.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 5,
+      "size_bytes": 129729,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Police car and police boat side by side, both with smiling faces and 'POLICE' lettering",
+      "tags": [
+        "vehicles",
+        "police",
+        "car",
+        "boat",
+        "vehicle",
+        "emergency"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_06.png",
+      "path": "sample_assets/clipart/slide07_vehicles_06.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 6,
+      "size_bytes": 29034,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Small canoe with paddle floating on a pond surrounded by fish and lily pads, kawaii face on the bow",
+      "tags": [
+        "vehicles",
+        "canoe",
+        "boat",
+        "water",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 182,
+        "h": 164
+      },
+      "mode": "RGBA"
+    },
+    {
+      "filename": "slide07_vehicles_07.png",
+      "path": "sample_assets/clipart/slide07_vehicles_07.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 7,
+      "size_bytes": 103261,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Classic toy pickup truck with a wooden cargo box in the bed (no face)",
+      "tags": [
+        "vehicles",
+        "pickup_truck",
+        "vehicle",
+        "toy"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_08.png",
+      "path": "sample_assets/clipart/slide07_vehicles_08.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 8,
+      "size_bytes": 121730,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Rocket ship labeled 'SPACE' launching with flames, with a smiling alien at the cockpit window and planet decals",
+      "tags": [
+        "vehicles",
+        "rocket",
+        "spaceship",
+        "space",
+        "alien",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_09.png",
+      "path": "sample_assets/clipart/slide07_vehicles_09.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 9,
+      "size_bytes": 153735,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Delivery van with door open showing a packing-tape cardboard box inside",
+      "tags": [
+        "vehicles",
+        "delivery_van",
+        "truck",
+        "vehicle",
+        "package"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide07_vehicles_10.png",
+      "path": "sample_assets/clipart/slide07_vehicles_10.png",
+      "source_deck_slide": 7,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 10,
+      "size_bytes": 79743,
+      "context_hints": [
+        "Vehicles"
+      ],
+      "caption": "Kawaii quadcopter drone with four rotors, a smiling winking face, and a small camera mounted underneath",
+      "tags": [
+        "vehicles",
+        "drone",
+        "vehicle",
+        "tech",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide08_places_01.png",
+      "path": "sample_assets/clipart/slide08_places_01.png",
+      "source_deck_slide": 8,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 74541,
+      "context_hints": [
+        "Places"
+      ],
+      "caption": "Small cottage-style house with a window and door on a grassy hill",
+      "tags": [
+        "places",
+        "house",
+        "home",
+        "building"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide08_places_02.png",
+      "path": "sample_assets/clipart/slide08_places_02.png",
+      "source_deck_slide": 8,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 2,
+      "size_bytes": 130465,
+      "context_hints": [
+        "Places"
+      ],
+      "caption": "Playground with a rubber-duck spring rocker and a kid's slide labelled 'PLAY'",
+      "tags": [
+        "places",
+        "playground",
+        "slide",
+        "play",
+        "park"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide08_places_03.png",
+      "path": "sample_assets/clipart/slide08_places_03.png",
+      "source_deck_slide": 8,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 3,
+      "size_bytes": 171006,
+      "context_hints": [
+        "Places"
+      ],
+      "caption": "Theatre stage with curtains, columns, microphone, and a smiling face on the front",
+      "tags": [
+        "places",
+        "stage",
+        "theatre",
+        "performance"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide08_places_04.png",
+      "path": "sample_assets/clipart/slide08_places_04.png",
+      "source_deck_slide": 8,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 4,
+      "size_bytes": 101485,
+      "context_hints": [
+        "Places"
+      ],
+      "caption": "Kawaii hospital building with a smiling-face window, red-cross sign, an ambulance, and a rescue helicopter on the roof",
+      "tags": [
+        "places",
+        "hospital",
+        "building",
+        "medical"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide08_places_05.png",
+      "path": "sample_assets/clipart/slide08_places_05.png",
+      "source_deck_slide": 8,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 5,
+      "size_bytes": 116357,
+      "context_hints": [
+        "Places"
+      ],
+      "caption": "Two-story school building with a bell tower, clock, flag, front entry, and trees on either side",
+      "tags": [
+        "places",
+        "school",
+        "building",
+        "education"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide09_food_01.png",
+      "path": "sample_assets/clipart/slide09_food_01.png",
+      "source_deck_slide": 9,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 1,
+      "size_bytes": 192244,
+      "context_hints": [
+        "Food"
+      ],
+      "caption": "Whole pepperoni pizza with one slice cut and pulled out",
+      "tags": [
+        "food",
+        "pizza"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide09_food_02.png",
+      "path": "sample_assets/clipart/slide09_food_02.png",
+      "source_deck_slide": 9,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 2,
+      "size_bytes": 162015,
+      "context_hints": [
+        "Food"
+      ],
+      "caption": "Toppled striped popcorn bucket with kawaii-faced popcorn pieces spilling out",
+      "tags": [
+        "food",
+        "popcorn",
+        "snack",
+        "kawaii"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 559
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide09_food_03.png",
+      "path": "sample_assets/clipart/slide09_food_03.png",
+      "source_deck_slide": 9,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 3,
+      "size_bytes": 851021,
+      "context_hints": [
+        "Food"
+      ],
+      "caption": "Icon set: apple, water bottle, dinosaur, bed, and pair of socks (duplicate of slide02_random_07; miscategorized)",
+      "tags": [
+        "food",
+        "icons",
+        "everyday_objects",
+        "sampler",
+        "duplicate_set"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 1024
+      },
+      "mode": "RGB"
+    },
+    {
+      "filename": "slide09_food_04.png",
+      "path": "sample_assets/clipart/slide09_food_04.png",
+      "source_deck_slide": 9,
+      "source_deck_id": "1e8KFPgSwTYfQFbLo-RO5hx5x0t2EV1-e1B7wW90LcyQ",
+      "position_in_slide": 4,
+      "size_bytes": 130974,
+      "context_hints": [
+        "Food"
+      ],
+      "caption": "Round swirl-pattern lollipop on a stick",
+      "tags": [
+        "food",
+        "lollipop",
+        "candy"
+      ],
+      "pixels": {
+        "w": 1024,
+        "h": 1024
+      },
+      "mode": "RGB"
+    }
+  ]
+}

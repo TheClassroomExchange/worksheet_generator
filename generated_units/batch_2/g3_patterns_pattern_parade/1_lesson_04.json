@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "lesson_number": 4,
+  "lesson_title": "Justify and Generalize",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C1.3"
+  ],
+  "secondary_expectations": [
+    "C1.1"
+  ],
+  "big_idea": "A Pattern Conductor doesn't just predict — they JUSTIFY using the rule, the start, and the number of jumps.",
+  "learning_intention": "We are learning to predict terms far beyond what is shown in a pattern and to justify our predictions formally using the rule, the starting value, and the number of jumps.",
+  "student_learning_goal": "I can predict term 50 of a pattern and justify my prediction using the rule and the term number.",
+  "success_criteria": [
+    "I can predict term 30, term 50, or term 100 of a growing pattern using the rule rather than drawing every term.",
+    "I can produce a full justification sentence: 'I started at ___, the rule is ___, I jumped ___ times, so term ___ is ___.'",
+    "I can spot when my partner's prediction is wrong and explain WHY using the rule."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "term",
+    "pattern rule",
+    "operation",
+    "table of values",
+    "predict",
+    "justify",
+    "generalize"
+  ],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip",
+    "M4_missing_card",
+    "M5_core_loop",
+    "M6_anchor_chart_words"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart from previous lessons (PATTERN, OPERATION, +N RULE, ×N RULE, COMPOUND RULE, TABLE OF VALUES up — add JUSTIFY and GENERALIZE today)",
+    "Three pre-built broken patterns / far-prediction setups: (1) growing +7 starting at 7 with terms 1-3 visible (7, 14, 21) and gap at term 5, (2) shrinking -8 starting at 80 with terms 1-3 visible (80, 72, 64) and gap at term 7, (3) compound +5 then -1 starting at 10 with terms 1-4 visible (10, 15, 14, 19) and far-prediction prompt for term 20",
+    "Missing Mystery Cards (M4) — 5 per pair",
+    "Core Loop Frames (M5) — 1 per pair",
+    "Number line 0-1000 visible on the math wall, plus thousand chart for reference",
+    "JUSTIFY and GENERALIZE hand-printed on chart paper",
+    "Justification sentence frame card (one large class version, smaller versions for each pair): 'I started at ___, the rule is ___, I jumped ___ times, so term ___ is ___.'",
+    "Class formative tracker for Lesson 4 (provided in assessment_suite stage)",
+    "Calculators (one per pair) — Grade 3 children may use calculators for the multiplicative arithmetic in this lesson"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coco's Far-Term Mystery",
+    "hook": "Coco wrote three patterns on the board with HUGE gaps — term 5, term 7, term 20. We don't have time to draw every cell. Today we use the rule to JUMP.",
+    "teacher_script": "Bring children to the carpet. Lay the three setup patterns in a line. Hold up Coco.\n\nSay to students: 'Pattern Conductors, Coco needs help. Three patterns. Each one needs us to find a faraway term — but we cannot draw every cell. We have to JUMP using the rule. Then we have to JUSTIFY — explain WHY our answer is right. That's the Grade 3 move.'\n\nPoint to setup 1 (7, 14, 21, ?, term 5). 'Read the visible terms.' (7, 14, 21.) 'Rule?' (+7, or term × 7.) 'Term 4?' (28.) 'Term 5?' Take responses. (35.) 'How did you know? JUSTIFY.' Listen for: 'Term 5 = 5 × 7 = 35' OR 'I added 7 to term 4 (28).' Validate both. Tape JUSTIFY to the chart.\n\nPoint to setup 2 (80, 72, 64, ?, term 7). 'Read.' (80, 72, 64.) 'Rule?' (-8.) 'Term 7?' Take a moment. 'I started at 80, the rule is -8, I jumped 6 times, so term 7 is 80 - (6 × 8) = 80 - 48 = 32.' Have the class chant the sentence frame. 'I started at ___, the rule is ___, I jumped ___ times, so term ___ is ___.' Tape GENERALIZE to the chart.\n\nPoint to setup 3 (10, 15, 14, 19, term 20). 'This one is COMPOUND. Rule: +5 then -1. Net effect of one cycle (+5 -1) = +4 every 2 terms. From term 1 to term 20 is 19 jumps, which is 9 full cycles of 2 (18 jumps, ending at term 19, value 10 + 9 × 4 = 46) plus one more jump (+5 because odd-position jumps are +5) → term 20 = 51.' This is hard. We will work through it together in partners.",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the three pre-built setups.",
+      "Read the visible terms of each pattern aloud and identify the rule.",
+      "Predict the requested far term and try to justify aloud using the sentence frame.",
+      "Repeat the words 'justify' and 'generalize' aloud as a class.",
+      "Watch the teacher chant the justification frame: 'I started at ___, the rule is ___, I jumped ___ times, so term ___ is ___.'"
+    ]
+  },
+  "action": {
+    "duration_minutes": 28,
+    "activity_name": "Detectives at Work — Predict Far, Justify Always",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole-class far-prediction model: take a fresh growing pattern (rule +6 starting at 6). Compute term 10 together via the multiplication shortcut: 10 × 6 = 60. Then chant the justification: 'I started at 6, the rule is +6, I jumped 9 times to reach term 10, so term 10 = 6 + 9 × 6 = 6 + 54 = 60.' Also accept: 'Term 10 = 10 × 6 = 60.' Write both versions on the board.",
+        "teacher_prompt": "Say to students: 'Two ways to justify the same answer. The first uses the starting value plus jumps. The second uses term × rule. Both are correct. The deeper move is — your justification has to mention the RULE, not just the answer.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Partner round 1 — single-step far prediction. Pairs predict term 30 of an assigned +N or -N rule and justify using the sentence frame. Calculators allowed. Each pair gets Animal Cards (M1), Parade Strip (M2), Core Loop Frame (M5), and a justification frame card. Both partners must say the sentence aloud at least once.",
+        "teacher_prompt": "Say to students: 'You and your partner just got a +N or -N rule. Compute term 30. Use the sentence frame to justify. Both partners must say the sentence aloud at least once. Then switch.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Partner round 2 — multiplicative far prediction. Pairs swap and now work on a ×2 or ×3 rule with a small starting value. Predict term 5, term 7, term 10. By term 10 some values will exceed 1000 — pairs should notice the ceiling and discuss when their pattern crosses it.",
+        "teacher_prompt": "Say to students: 'Multiplicative rule. Smaller starting number this time. Predict terms 5, 7, AND 10. Use a calculator. When a value exceeds 1000, write OFF THE CHART and tell me about it during share circle.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Partner round 3 — backward justification: pairs build a pattern with one VISIBLE term in the middle (e.g., term 5 = 32) and a known rule (×2). They reason BACKWARD to find term 1. Justify using the sentence frame: 'Term 5 = 32, the rule is ×2, I jumped backward 4 times by dividing by 2 four times, so term 1 = 32 ÷ 16 = 2.'",
+        "teacher_prompt": "Say to students: 'Backward justification. Given term 5 and the rule, find term 1. The justification frame is the same — but you say \"jumped BACKWARD\" instead of forward. Try it.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Stretch challenge — compound rule far prediction. Pairs build a multi-step compound rule (e.g., +5 then -2 starting at 10) and predict term 30 by reasoning about the cycle net-effect. Use the full sentence frame and include the words 'per cycle of 2' in the justification.",
+        "teacher_prompt": "Say to extending pairs: 'Compound rule, term 30. Use the cycle net-effect reasoning we discussed in Lesson 2. Justify using the full frame, including the words \"per cycle\".'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Whole-class debrief AND circulate-track: bring 2-3 pairs back to share justifications aloud. Add new GENERALIZATIONS to the anchor chart (e.g., 'For a +N rule starting at N, term K = K × N'). While pairs continue working, use the Lesson 4 formative tracker — look for: multiplication shortcut versus drawing, full justification sentence with rule language, backward reasoning, 1000 ceiling awareness for multiplicative rules.",
+        "teacher_prompt": "Say to students: 'Two pairs share a justification — we will write the GENERAL RULE you discovered on the chart.' Then walk between remaining pairs. Pick one child per pair. Ask: 'What is term 30?' Then: 'JUSTIFY using the sentence frame.' Then: 'How did you know it was multiplication, not addition?' Record on the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with single-step +N rules and small N (+2, +3, +5) starting at small numbers. Predict only term 10 (not term 30). Provide the sentence frame pre-printed and encourage the child to fill the blanks orally before writing. Pair with a confident peer. Use a calculator for any multiplication.",
+      "for_extending": "Use multiplicative rules (×2, ×3, ×5) and multi-step compound rules. Predict term 50 AND term 100. Stretch question: 'For your rule, what is the LATEST term that stays under 1000?' (Requires solving an inequality — let them estimate by trial-and-error multiplication.)",
+      "for_ell_or_iep": "Use a sentence frame: 'Start = ___. Rule = ___. Jumps = ___. Term ___ = ___.' Pre-fill the start and rule for the child. Allow gestures and pointing as part of the justification. Provide a calculator from the start. Use a partner who can scribe.",
+      "for_movement_learners": "After predicting, the pair PHYSICALIZES the jumps. Each step forward is one jump. They walk from term 1 to term 30 (30 small steps), counting aloud. Then for the multiplicative rule, they DOUBLE their step size each jump (1 step, then 2 steps, then 4 steps...) until they can't take any more steps in the room — which physically demonstrates the 1000 ceiling."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child predict term 30, 50, or 100 using the rule rather than drawing? Do they use the multiplication shortcut for additive rules (term × N for +N starting at N)? Do they produce the full justification sentence with rule language? Can they reason backward to find an earlier term given a later one? Do they articulate the 1000 ceiling for fast-growing multiplicative rules?",
+      "how_to_record": "Tick the appropriate column on the Lesson 4 formative tracker.",
+      "tracker_columns": [
+        "Student name",
+        "Predicts term 30 using rule (not drawing)",
+        "Predicts term 50 using rule",
+        "Uses justification sentence frame independently",
+        "Reasons backward to find earlier term",
+        "Recognizes 1000 ceiling for multiplicative rules",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Justify and Generalize Showcase",
+    "discussion_prompts": [
+      "Who computed the BIGGEST term value today? What was the rule, the term, and the value?",
+      "When did you use multiplication as a SHORTCUT instead of skip-counting? Why was multiplication faster?",
+      "If your rule is ×3 starting at 3, at what term does the value cross 1000?",
+      "Coco wants to know — what is the difference between PREDICTING and JUSTIFYING? Can you predict without justifying? Can you justify without predicting?",
+      "What is one GENERALIZATION you discovered today that we can write on the class chart?"
+    ],
+    "exit_routine": "On the way out the door, each child says one full justification sentence using the frame: 'I started at ___, the rule is ___, I jumped ___ times, so term ___ is ___.' Teacher records who can produce the frame fluently versus who needs more practice."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for C1.3 (justification + far prediction) plus completed student worksheet 'Justify the Faraway Term'.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Far prediction with formal justification is the deepest C1.3 marker for Grade 3 — it separates children who pattern-match from children who reason about the rule as a generalizable shortcut and ARTICULATE that reasoning. The teacher needs evidence of who can do this independently before the Lesson 5 summative requires it. Children who predict correctly but cannot justify are often almost-there — they need the sentence-frame scaffold for one more session before the summative."
+  },
+  "expanded_walkthrough": {
+    "title": "Far-Term Prediction with Justification — the G3 marker",
+    "rationale": "L4 introduces the G3 capstone reasoning: predicting term 30, 50, even 100 using only the rule, AND writing a JUSTIFICATION sentence using a structured frame. The double demand (compute + justify) is what the EQAO Algebra block tests. Step 2 (single-step far prediction with sentence frame) and Step 3 (multiplicative far prediction) are the keystones. Step 4 (backward justification) is the stretch — most G3 children can predict forward but struggle to reason backward from a known term.",
+    "setup": "Carpet has the +6 demo with the multiplication shortcut written out (term 10 = 10 × 6 = 60). Anchor chart has the JUSTIFICATION SENTENCE FRAME visible: 'Term ___ is ___ because the rule is ___ and we did ___ jumps from term 1.' Each pair has white-boards, Animal Cards, Parade Strip, calculators, and a copy of the sentence frame card. Teacher's clipboard has the new G3 columns: 'predicts without drawing', 'justifies with the frame', 'reasons backward'.",
+    "teacher_script": "Whole-class demo: lay out a +6 rule starting at 6. Term 1 = 6, term 2 = 12, term 3 = 18. 'Term 10?' Children may start drawing — STOP them. 'Use the rule. Term 10 is term 1 plus NINE jumps of +6. That's 6 plus 9 times 6. Or, 10 times 6 is 60.' Walk through the multiplication: 'For a +N rule starting at N, term K is K times N.' Mark this on the anchor chart as a GENERALIZATION. Now: 'Term 30?' Same shortcut: 30 × 6 = 180. 'Term 100?' 100 × 6 = 600. The shortcut scales.\n\nWalk to a pair predicting term 30 of their assigned +N rule. They'll often skip-count by hand all 30 terms. Stop them. 'Don't draw. Use the rule. Term 30 is term 1 plus 29 jumps of +N.' Now make them write the justification sentence using the frame: 'Term 30 is ___ because the rule is +N and we did 29 jumps from term 1.' Listen for the '29 jumps' specifically — most children write '30 jumps' first time because they miscount the gap from term 1 to term 30. The off-by-one is the diagnostic.\n\nFor the multiplicative round: a pair has ×2 starting at 1. Term 5? 1, 2, 4, 8, 16 — they can compute. Term 7? 1, 2, 4, 8, 16, 32, 64. Term 10? They'll try to compute 1024 by hand and get lost. 'Calculator allowed. Use the rule.' For ×2 starting at 1, term K is 2 to the (K-1). Most G3 children won't have exponent notation yet — that's OK, they should still be able to chain it on the calculator.\n\nFor backward justification (Step 4): pair has term 5 = 32 with a ×2 rule. They must find term 1. Walk: 'If we DOUBLE going forward, what do we do going BACKWARD?' Some will say 'halve'. 'Yes. Term 5 is 32. Term 4 is 32 ÷ 2 = 16. Term 3 = 8. Term 2 = 4. Term 1 = 2.' Many children stall here. The two-axis thinking — operation has an INVERSE — is genuinely new for G3.",
+    "expected_student_responses": [
+      "(Confused) Draws every intermediate term; cannot use the rule as a shortcut.",
+      "(Mid) Predicts term 10 using skip-counting on fingers but stalls at term 30+. Justification sentence has off-by-one error.",
+      "(Strong) Uses K × N shortcut for +N rules. Writes a complete justification with correct jump count.",
+      "(Stretched) Articulates the general formula (term K is start plus (K-1) × N) AND can reason backward via the inverse operation."
+    ],
+    "common_misconceptions": [
+      "Term K means K jumps from term 1. (Off-by-one — it's K-1 jumps.)",
+      "Far prediction means draw faster. (Child still draws every term, just abbreviates.)",
+      "Multiplicative rules don't have shortcuts. (Child thinks only +N has the K × N pattern.)",
+      "Backward inference is a different skill from forward inference. (Child can predict term 30 forward but cannot find term 1 from term 5.)"
+    ],
+    "recovery_moves": [
+      "Pencil-down audit. After every prediction, ask: 'Did you USE the rule, or DRAW the parade?' The verbal commitment to the shortcut reinforces it.",
+      "Sentence frame discipline. Don't accept a number; require the full sentence. The 'jumps from term 1' phrasing self-corrects the off-by-one.",
+      "Inverse-operation chant: 'plus and minus are inverses; times and divide are inverses'. Make the pairing explicit at the chart level.",
+      "Backward worked-example. Solve term 5 → term 1 together. Make the inversion physically visible by sliding cards leftward."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Justify the Faraway Term",
+    "purpose": "Independent practice of C1.3 — predicting terms far beyond what is shown using the rule, AND producing formal justifications using the sentence frame.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show three patterns with the first 4 terms visible. Pattern A: 9, 18, 27, 36 (rule +9). Pattern B: 100, 92, 84, 76 (rule -8). Pattern C: 2, 6, 18, 54 (rule ×3). For each: 'Rule: ____. Term 10: ____. Justify: I started at ___, the rule is ___, I jumped ___ times, so term 10 is ___.'",
+        "response_type": "create"
+      },
+      {
+        "part_number": 2,
+        "task": "Show a partial table of values with TERM 1, 2, 3, 4, 30 and VALUE 25, 50, 75, 100, ___. Student fills in term 30 AND writes a full justification sentence below the table using the frame.",
+        "response_type": "create_and_loop"
+      },
+      {
+        "part_number": 3,
+        "task": "Detective scenario with backward reasoning: 'Coco's pattern has rule ×2. Term 7 = 64. Find term 1 AND term 10.' Student fills both, then writes a full justification for each.",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "Three pattern strips for Part 1 (one additive, one subtractive, one multiplicative)",
+      "A partial table of values with one missing far value for Part 2",
+      "A scenario panel with rule and one anchor term for Part 3 (backward reasoning)",
+      "The justification sentence frame printed beside each prompt",
+      "A small thousand-chart thumbnail in a corner",
+      "Coco the Conductor in the worksheet header (with a clipboard and a calculator)"
+    ]
+  }
+}

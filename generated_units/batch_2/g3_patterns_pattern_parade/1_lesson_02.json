@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "lesson_number": 2,
+  "lesson_title": "Multi-Step Pattern Rules",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C1.3"
+  ],
+  "secondary_expectations": [
+    "C1.1"
+  ],
+  "big_idea": "A pattern rule can be one step (+5) or a multi-step recipe (+3 then -1) — as long as the recipe stays the same.",
+  "learning_intention": "We are learning to name multi-step pattern rules and to use them to extend patterns several terms ahead.",
+  "student_learning_goal": "I can name a multi-step pattern rule and use it to build the next term.",
+  "success_criteria": [
+    "I can read a pattern and decide whether the rule is a single operation or a multi-step recipe.",
+    "I can name a multi-step rule using formal notation (e.g., +3 then -1, or ×2 +1).",
+    "I can use a multi-step rule to extend a pattern at least three terms beyond what is shown."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "operation",
+    "pattern rule",
+    "term",
+    "growing pattern",
+    "shrinking pattern",
+    "generalize"
+  ],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip",
+    "M5_core_loop"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart from Lesson 1 (PATTERN, OPERATION, ADDITION, MULTIPLICATION, COMPOUND RULE up)",
+    "Pre-built example parades for the opening reveal: (1) single-step +5: 5, 10, 15, 20, 25; (2) compound +3 then -1: 4, 7, 6, 9, 8, 11, 10 (alternating up-down); (3) compound ×2 +1: 1, 3, 7, 15, 31; (4) compound -2 then -3 alternating: 30, 28, 25, 23, 20, 18, 15 — for the stretch group",
+    "Sticky notes pre-prepared with rule labels (+5, +3, -1, ×2, '+3 then -1', '×2 +1') and blanks for invented rules",
+    "Class formative tracker for Lesson 2 (provided in assessment_suite stage)",
+    "Small whiteboards or scrap paper, one per pair, for working out next-term arithmetic",
+    "Calculators (one per pair, optional) — Grade 3 children may use calculators when the rule involves multiplication and the values get large"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coco's Recipe Reveal",
+    "hook": "Yesterday Coco showed us five parades, and one had a SECRET COMPOUND RULE we did not crack. Today we crack it open — and we discover that the rule of a pattern can be a TWO-STEP RECIPE.",
+    "teacher_script": "Bring children to the carpet. Lay parade 1 (single-step: 5, 10, 15, 20, 25) on the floor. Hold up Coco.\n\nSay to students: 'Read this with me.' (5, 10, 15, 20, 25.) 'Type?' (growing.) 'Operation?' (+5.) 'How many STEPS does the rule have?' (One — just add 5.) 'Right. Single-step. Most patterns we have built use a single-step rule.'\n\nNow lay parade 2 (compound +3 then -1: 4, 7, 6, 9, 8, 11, 10). 'Read with me.' Read. 'Type? Operation?' Children will be confused. Some will say it goes up, then down, then up. 'Yes! From 4 to 7 we added 3. From 7 to 6 we subtracted 1. From 6 to 9 we added 3 again. The rule is ALTERNATING: +3, then -1, then +3, then -1. This is a COMPOUND RULE. Two steps that REPEAT. Watch how I write it.' Place the +3 then -1 sticky.\n\nLay parade 3 (×2 +1: 1, 3, 7, 15, 31). 'Read.' (1, 3, 7, 15, 31.) 'From 1 to 3 we added 2. From 3 to 7 we added 4. The increments grow — that means MULTIPLICATION. The rule is ×2, then +1. 1 × 2 = 2, +1 is 3. 3 × 2 = 6, +1 is 7. Try term 6.' Class works it out: 31 × 2 = 62, +1 = 63. 'Multi-step rules let us build any kind of pattern.'",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the example parades.",
+      "Read each parade aloud and try to identify the operation between each pair of terms.",
+      "Help name each rule using single-step or multi-step notation.",
+      "Compute the next term for one of the multi-step parades using mental math or paper.",
+      "Repeat the multi-step rule format aloud as a class ('plus three, then minus one' or 'times two, plus one')."
+    ]
+  },
+  "action": {
+    "duration_minutes": 28,
+    "activity_name": "Build the Recipe, Test the Rule",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole-group demo of a multi-step build: take a fresh number parade, start at 2, apply the rule '+3 then -1' for 6 terms. Walk through each term aloud: 2 → 5 → 4 → 7 → 6 → 9 → 8. Place a Core Loop Frame (M5) over each PAIR of terms (term 1+2, term 3+4, etc.) to show the rule cycle. Children should see that the loop fits each pair.",
+        "teacher_prompt": "Say to students: 'Watch this loop. Two-step rules need TWO terms to show the full cycle. From term 1 to term 2, the rule does +3 (the first step). From term 2 to term 3, the rule does -1 (the second step). Then it starts over. The loop frames the cycle.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Partner build round 1 — single-step parades: each pair gets Animal Cards (M1), one Parade Strip (M2), and a stack of sticky notes. Their job: build TWO single-step number parades with rules of their choice (one additive, one subtractive). Write the rule on a sticky. Use the parade strip with dry-erase markers to record the numbers.",
+        "teacher_prompt": "Say to students: 'Quick warm-up. Two single-step parades — one with a +N rule, one with a -N rule. Pick your numbers. Write the rule on a sticky. 4 minutes.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Partner build round 2 — multi-step parades: now each pair builds ONE compound number parade. They pick TWO operations to combine (e.g., +5 then -2, or ×2 then +3). They build at least 6 terms applying the rule alternately. They check: does each cycle of two terms apply the recipe correctly?",
+        "teacher_prompt": "Say to students: 'Now the harder one. Pick TWO operations. Pick a starting number. Build at least 6 terms by alternating the operations. Write the compound rule on a sticky. When you finish, check term by term that you applied the recipe right. Trade your strip with another pair when you are done.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch challenge for fast pairs: invent a 3-step compound rule (e.g., +5, then +3, then -2 — cycle of 3) and build at least 9 terms. Trade with another fast pair and have them name the rule from just the numbers.",
+        "teacher_prompt": "Say to extending pairs: 'Three-step compound rule. Three operations, repeating. Build 9 terms — that's 3 full cycles. Then trade with another fast pair. They have to figure out your rule from just the numbers.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Whole-class extend-the-rule check: bring children back to the carpet. Show one compound rule on a sticky (e.g., +4 then -2). Without showing terms, ask: 'If the parade STARTS at 10, what are the first 6 terms?' Have the class call out term by term. Then: 'What is term 10? Term 12? Use the rule, not drawing every cell.'",
+        "teacher_prompt": "Say to students: 'Stop and come back. Eyes on me. Rule: +4 then -2. Start at 10. Call out the first 6 terms.' Build it together: 10, 14, 12, 16, 14, 18. 'Term 10? Talk to your partner.' (After +4 -2 +4 -2 +4 -2 +4 -2 +4: that's 9 jumps from term 1, so term 10. Net effect of one cycle (+4 -2) = +2. After 4 full cycles (term 9 = 18), one more +4 to term 10 = 22.) 'How did you reason about that?'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Circulate during partner builds. Use the Lesson 2 formative tracker. Look for: did the child apply the multi-step rule consistently across all terms? Did they self-correct when they accidentally swapped the operation order? Could they extend the parade beyond 6 terms using the rule?",
+        "teacher_prompt": "Stop at each pair. Pick one child. Ask: 'What is your rule?' Then: 'Apply it to term 7 — what is it?' Listen for whether the child SAYS the operation order ('first I do +5, then I do -2'). Record on the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with single-step rules (+N or -N). Provide a sentence frame card: 'My rule is ___. Term 1 is ___. Term 2 is ___.' Pair with a confident peer who can model multi-step builds verbally.",
+      "for_extending": "Use compound rules with multiplication: ×2 then +1, ×3 then -2, ×2 then -3. Stretch: invent a 3-step compound rule. Stretch question during conferences: 'If the rule is ×2 +1 starting at 1, what is term 8? Could you predict term 12 without computing every step?' (Answer: each term = 2 × previous + 1, so the formula 2^n - 1 emerges — celebrate but do not require this.)",
+      "for_ell_or_iep": "Use a sentence frame: 'My rule is ___ then ___.' Allow the child to point to operation symbols (+ - × stickers) instead of writing. Provide a partner-build template with the operations pre-printed and the child only fills the numbers. Use a calculator from the start to remove arithmetic load.",
+      "for_movement_learners": "After building, the pair stands and physicalizes the multi-step rule. Step forward 4 steps (the +4), then backward 2 steps (the -2). Each cycle is forward-then-back. Walking the rule helps the alternation feel rhythmic and mechanical."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child distinguish single-step from multi-step rules? Do they apply the multi-step rule correctly across all terms (no operation swaps)? Can they extend a multi-step parade 3 or more terms beyond what is shown? Do they reason about how a cycle of operations changes the value (e.g., +4 -2 = +2 net)?",
+      "how_to_record": "Tick the appropriate column on the Lesson 2 formative tracker.",
+      "tracker_columns": [
+        "Student name",
+        "Builds single-step parade with constant rule",
+        "Builds compound (2-step) parade applying recipe",
+        "Names rule using multi-step notation",
+        "Extends parade 3+ terms using rule",
+        "Reasons about cycle net-effect",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Recipe Showcase",
+    "discussion_prompts": [
+      "Who built the most surprising multi-step rule today? Tell us the recipe and one term.",
+      "When you used a +N then -M rule, what was the NET effect after one full cycle? How did you figure it out?",
+      "Can a compound rule make a parade SHRINK overall, even though one of its operations is +N? Show an example.",
+      "Coco wants to know — what is the difference between a compound rule like '+3 then -1' and just describing the pattern term by term ('it goes up, then down, then up')?"
+    ],
+    "exit_routine": "On the way out the door, each child names one multi-step rule using formal notation ('My multi-step rule is ___ then ___') AND gives the first three terms produced by it. Teacher records who can produce both confidently."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for C1.3 (multi-step rule naming and application), plus completed student worksheet 'Two-Step Recipes'.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Multi-step pattern rules are the deepest C1.3 marker for Grade 3 — they require children to hold two operations in working memory and apply them in order. The teacher needs evidence of who can do this consistently before Lesson 3 (tables of values) leans on multi-step rules to populate term-value pairs. Children fluent with single-step rules but blank on multi-step likely need the body-physicalization scaffold from differentiation."
+  },
+  "expanded_walkthrough": {
+    "title": "Compound Rules — the recipe model",
+    "rationale": "L2 introduces compound (multi-step) rules: '+3 then -1', '×2 then +1', etc. The cognitive demand is sequencing — children must apply two operations in a fixed order, every term, without skipping the order. Step 3 (partner build of compound rules) is where children either lock in the recipe model or lose track of which operation comes first. Step 5 (extend-the-rule check) tests whether they can predict using only the rule, not by replaying the build.",
+    "setup": "Whole-group demo strip starts at 2. Sticky-note rule '+3 then -1' visible on the chart. Each pair has Animal Cards, Parade Strip, sticky notes, calculator (allowed for G3 compound work), and a 'recipe card' template — a small horizontal template with two labeled boxes: 'Step 1' and 'Step 2'. The recipe card is the manipulative that makes the compound rule physically present.",
+    "teacher_script": "Whole-group: walk through the +3 then -1 build slowly. 2 plus 3 is 5. 5 minus 1 is 4. 4 plus 3 is 7. 7 minus 1 is 6. 6 plus 3 is 9. 9 minus 1 is 8. Write each on the chart: 2, 4, 6, 8. Pause: 'What do you notice about the OUTPUTS — 2, 4, 6, 8?' G3 children should see +2 each time. 'So a compound rule of +3 then -1 ACTUALLY produces a growing-by-2 pattern. Compound rules can hide simpler rules inside.' This is a major conceptual move — compound rules can be REWRITTEN as single-step rules sometimes. Mark this on the anchor chart as a discovery for the week.\n\nWalk to a pair building '+5 then -2'. They start at 4. They produce 4, 9, 7, 12, 10, 15, 13. Stop them. 'Read me your build.' If they say '4 plus 5 is 9, 9 minus 2 is 7, 7 plus 5 is 12, 12 minus 2 is 10' — that's correct. Now: 'Look only at every OTHER term — 4, 7, 10, 13. What's the pattern?' They should see +3 each time. 'So +5 then -2 is hidden +3.' If a pair built it incorrectly (e.g., switched the order), now is the moment to debug WITHOUT giving the answer. 'Read me YOUR rule on the sticky.' They read '+5 then -2'. 'Now read me your build.' They read out loud. The mismatch almost always shows up — they applied -2 first, or they applied +5 twice.\n\nFor the stretch challenge (3-step rule like +5, +3, -2 cycling): walk to a pair attempting it. The hardest move is REMEMBERING which step they're on. Suggest: 'Use your fingers — pinky for step 1, ring for step 2, middle for step 3 — and tap the next finger after each operation.' Embodying the cycle helps tremendously.\n\nTrack on the formative clipboard: did the child apply the rule consistently? Did they self-correct without being told the answer? Did they discover a hidden simpler rule on their own?",
+    "expected_student_responses": [
+      "(Confused) Applies the operations in the wrong order, or skips steps. Can't articulate the recipe.",
+      "(Mid) Applies the recipe correctly but cannot extend beyond what they built — needs to redo the calculation each term.",
+      "(Strong) Discovers that +5 then -2 is hidden +3 and uses the simpler rule to extend.",
+      "(Stretched) Voluntarily tries a 3-step compound rule and applies it consistently across 9+ terms."
+    ],
+    "common_misconceptions": [
+      "Compound rules can be applied in any order. (Child swaps +5 then -2 for -2 then +5; doesn't see that order matters when start values matter.)",
+      "Each compound step starts fresh from the original starting value. (Child applies +3 then -1 by always returning to the START — gets 2,5,1,5,1 instead of 2,5,4,7,6.)",
+      "Compound and simple rules are categorically different. (Child cannot see that +3 then -1 collapses to +2 between every-other-term.)",
+      "The 3-step compound is just a 2-step compound with one extra. (Child loses track of the cycle position by term 3 or 4.)"
+    ],
+    "recovery_moves": [
+      "Force the read-aloud audit. Have the child read their rule THEN read their build. The mismatch surfaces in the read-back.",
+      "Use the recipe card with two labeled boxes. Physical sequencing of operations stops order-swapping mistakes.",
+      "Discover-the-hidden-simple-rule move. Look at every-other-term. If those grow by a constant, that's the hidden rule. Major conceptual unlock.",
+      "Finger-tap embodiment for 3-step cycles. The hands keep track of the cycle position when working memory can't."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Two-Step Recipes",
+    "purpose": "Independent practice of C1.3 — naming multi-step pattern rules and using them to extend patterns.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show three pattern strips: A 4, 7, 10, 13 (rule +3, single-step), B 4, 7, 6, 9, 8 (rule +3 then -1, compound), C 2, 6, 4, 12, 10, 30 (rule ×3 then -2, compound). Below each, two writing lines: 'Single-step or multi-step? ___. Rule: ___.'",
+        "response_type": "create"
+      },
+      {
+        "part_number": 2,
+        "task": "Show a partial parade with the first 3 terms filled (start = 5, rule +4 then -1): 5, 9, 8, ___, ___, ___. Student fills the next 3 terms following the rule. Below: 'What is term 10?' on a writing line.",
+        "response_type": "create_and_loop"
+      },
+      {
+        "part_number": 3,
+        "task": "Empty 6-cell parade strip. Student picks a starting number AND a 2-step compound rule, writes both on lines, then fills the parade. At the bottom: 'What is term 8?' on a writing line.",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "Three small pattern strips for Part 1 (one single-step, two compound)",
+      "A partially-filled parade strip with the rule pre-stated for Part 2",
+      "An empty 6-cell parade strip with rule and starting-number prompts for Part 3",
+      "Coco the Conductor in the worksheet header (with chef's hat — recipe Coco)"
+    ]
+  }
+}

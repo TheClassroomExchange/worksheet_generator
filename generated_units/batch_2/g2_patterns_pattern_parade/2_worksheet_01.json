@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "lesson_number": 1,
+  "worksheet_title": "Coco's Three-Type Sorter",
+  "purpose": "Independent practice of C1.1 — identifying patterns as repeating, growing, or shrinking AND describing the change from one term to the next, with a real-life context check.",
+  "student_learning_goal": "I can identify a pattern as repeating, growing, or shrinking and describe what changes from one term to the next.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can identify a pattern as repeating, growing, or shrinking and describe what changes from one term to the next.",
+    "character_watermark": "Coco the Conductor in the top-right corner, smiling and holding a small clipboard — the 'sorter' Coco. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Sort the parades",
+          "student_instructions": "Look at each parade strip. Draw a line from each strip to the matching label on the right.",
+          "visual_layout": "Three short horizontal parade strips stacked vertically on the LEFT (each ~3.5in wide). Strip A: 5-cell repeating Bea-Finn-Bea-Finn-Bea. Strip B: 4-cell growing 1-Bea, 2-Beas, 3-Beas, 4-Beas (stacked Beas in each cell). Strip C: 4-cell shrinking 4-Finns, 3-Finns, 2-Finns, 1-Finn. On the RIGHT, three label boxes stacked vertically (~1.2in tall each): REPEATING, GROWING, SHRINKING. Student draws lines connecting each strip to the correct label.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_STRIP_A",
+              "description": "A 5-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Bea, Finn, Bea (animal AB repeating pattern). Footprints beneath. Labelled 'A' to the left.",
+              "placement": "Top-left of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade",
+                "strip",
+                "patterns",
+                "repeating"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_STRIP_A at Top-left of Part 1.: the student-facing words (parade, strip, patterns, repeating) name what the image shows. Image content: A 5-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Bea, Finn, Bea (animal AB repeating pattern). Footprints… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P1_STRIP_B",
+              "description": "A 4-cell horizontal parade strip in matching style. Cells filled with stacked Beas: cell 1 = 1 Bea, cell 2 = 2 Beas, cell 3 = 3 Beas, cell 4 = 4 Beas. Each Bea is small enough to stack in one cell. Footprints beneath. Labelled 'B' to the left.",
+              "placement": "Middle-left of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade",
+                "strip"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_STRIP_B at Middle-left of Part 1.: the student-facing words (parade, strip) name what the image shows. Image content: A 4-cell horizontal parade strip in matching style. Cells filled with stacked Beas: cell 1 = 1 Bea, cell 2 = 2 Beas, cell 3 = 3 Beas, cell 4… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P1_STRIP_C",
+              "description": "A 4-cell horizontal parade strip in matching style. Cells filled with stacked Finns: cell 1 = 4 Finns, cell 2 = 3 Finns, cell 3 = 2 Finns, cell 4 = 1 Finn. Footprints beneath. Labelled 'C' to the left.",
+              "placement": "Bottom-left of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "parade",
+                "strip"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_STRIP_C at Bottom-left of Part 1.: the student-facing words (parade, strip) name what the image shows. Image content: A 4-cell horizontal parade strip in matching style. Cells filled with stacked Finns: cell 1 = 4 Finns, cell 2 = 3 Finns, cell 3 = 2 Finns, c… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P1_LABELS",
+              "description": "Three label boxes stacked vertically on the right: REPEATING, GROWING, SHRINKING. Each box ~1.2in wide × 0.8in tall with thin black border, large bold uppercase text inside. Used as match targets for the three parades on the left.",
+              "placement": "Right side of Part 1, vertically aligned with the strips.",
+              "approximate_size": "small",
+              "keywords": [
+                "parades",
+                "repeating",
+                "growing",
+                "shrinking"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_LABELS at Right side of Part 1, vertically aligned with the strips.: the student-facing words (parades, repeating, growing, shrinking) name what the image shows. Image content: Three label boxes stacked vertically on the right: REPEATING, GROWING, SHRINKING. Each box ~1.2in wide × 0.8in tall with thin black border,… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "match",
+          "answer_key": "A → REPEATING (AB rule). B → GROWING (+1 each term). C → SHRINKING (-1 each term)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Name the rule",
+          "student_instructions": "Look at this growing parade. Write the type of pattern AND the rule on the lines below.",
+          "visual_layout": "A 4-cell horizontal parade strip centred on the page with stacked Beas: cell 1 = 2 Beas, cell 2 = 4 Beas, cell 3 = 6 Beas, cell 4 = 8 Beas. Footprints beneath. Below the strip, two writing lines: 'This is a ____ pattern.' and 'The rule is: add ____ each term.'",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_PARADE",
+              "description": "A 4-cell horizontal parade strip in B&W line-art with stacked Beas in each cell: 2, 4, 6, 8 — visibly growing by 2 per cell. Footprints beneath. Full width.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "growing",
+                "parade",
+                "lines"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_PARADE at Centred horizontally; spans Part 2.: the student-facing words (growing, parade, lines) name what the image shows. Image content: A 4-cell horizontal parade strip in B&W line-art with stacked Beas in each cell: 2, 4, 6, 8 — visibly growing by 2 per cell. Footprints bene… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "This is a GROWING pattern. The rule is: add 2 each term. (Acceptable variants: 'two', '+2'.)"
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Real-life patterns",
+          "student_instructions": "Look at each real-life thumbnail. Write what type of pattern it is on the line below.",
+          "visual_layout": "Four small thumbnail boxes in a 2x2 grid in the centre of the page. Top-left: a calendar week showing 1, 2, 3, 4, 5, 6, 7. Top-right: a brick wall with offset rows. Bottom-left: a hopscotch grid numbered 1, 2, 3, 4, 5, 6. Bottom-right: a half-eaten cookie sequence (whole cookie, 3/4, 1/2, 1/4 left). Below each thumbnail, a writing line.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_CALENDAR",
+              "description": "A small calendar-week thumbnail (~1.8in × 1.5in). Shows a single row of seven cells numbered 1, 2, 3, 4, 5, 6, 7 with day labels (Mon-Sun) above. Thin black borders. B&W line art.",
+              "placement": "Top-left of Part 3 grid.",
+              "approximate_size": "small",
+              "keywords": [
+                "thumbnail"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_CALENDAR at Top-left of Part 3 grid.: the student-facing words (thumbnail) name what the image shows. Image content: A small calendar-week thumbnail (~1.8in × 1.5in). Shows a single row of seven cells numbered 1, 2, 3, 4, 5, 6, 7 with day labels (Mon-Sun) a… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P3_BRICKS",
+              "description": "A small brick-wall thumbnail (~1.8in × 1.5in). Shows three rows of bricks with offset (alternating) layout — clearly a repeating pattern. B&W line art with thin brick outlines.",
+              "placement": "Top-right of Part 3 grid.",
+              "approximate_size": "small",
+              "keywords": [
+                "thumbnail",
+                "pattern",
+                "repeating"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_BRICKS at Top-right of Part 3 grid.: the student-facing words (thumbnail, pattern, repeating) name what the image shows. Image content: A small brick-wall thumbnail (~1.8in × 1.5in). Shows three rows of bricks with offset (alternating) layout — clearly a repeating pattern. B&… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P3_HOPSCOTCH",
+              "description": "A small hopscotch-grid thumbnail (~1.8in × 1.5in). Shows a vertical hopscotch layout with single squares numbered 1, 2, then a double, then 3, 4, then 5, 6 — Canadian schoolyard style. Numbers visible inside each square. B&W line art.",
+              "placement": "Bottom-left of Part 3 grid.",
+              "approximate_size": "small",
+              "keywords": [
+                "thumbnail"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_HOPSCOTCH at Bottom-left of Part 3 grid.: the student-facing words (thumbnail) name what the image shows. Image content: A small hopscotch-grid thumbnail (~1.8in × 1.5in). Shows a vertical hopscotch layout with single squares numbered 1, 2, then a double, then… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS01_P3_COOKIE",
+              "description": "A small four-frame cookie-eating sequence (~1.8in × 1.5in). Frame 1: whole round cookie. Frame 2: 3/4 cookie (one bite taken). Frame 3: 1/2 cookie (more bites). Frame 4: 1/4 cookie (almost gone). Clearly shrinking. B&W line art.",
+              "placement": "Bottom-right of Part 3 grid.",
+              "approximate_size": "small",
+              "keywords": [
+                "shrinking"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_COOKIE at Bottom-right of Part 3 grid.: the student-facing words (shrinking) name what the image shows. Image content: A small four-frame cookie-eating sequence (~1.8in × 1.5in). Frame 1: whole round cookie. Frame 2: 3/4 cookie (one bite taken). Frame 3: 1/2… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Calendar = GROWING (+1 each day). Bricks = REPEATING (the offset pattern repeats row by row). Hopscotch = GROWING (+1 each square). Cookie = SHRINKING (the cookie gets smaller each frame). Accept synonyms (e.g., 'getting bigger' = growing)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and draw THREE more real-life patterns you can think of — one of each type. Label each.",
+  "teacher_notes": "Lesson 1 consolidation. Distribute at the end of the Action phase. Watch for: (a) on Part 1, children who match all to one type — they may need a re-loop on the three-type distinction. (b) On Part 2, accept '+2', 'two', or 'two more' as the rule. (c) On Part 3, the brick wall is the only repeating example — children who write 'growing' for it likely missed the alternating offset. Use Part 1 + Part 3 as primary diagnostic-tracker evidence."
+}

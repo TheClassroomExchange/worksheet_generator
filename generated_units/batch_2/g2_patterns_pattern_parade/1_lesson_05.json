@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "lesson_number": 5,
+  "lesson_title": "Lead the Number Parade to 100",
+  "duration_minutes": 55,
+  "primary_expectations": [
+    "C1.4"
+  ],
+  "secondary_expectations": [
+    "C1.1",
+    "C1.2",
+    "C1.3"
+  ],
+  "big_idea": "Pattern rules also work with bigger numbers — we can build repeating, growing, and shrinking number parades up to 100.",
+  "learning_intention": "We are learning to use pattern rules with whole numbers up to 100, build a number parade, organize it as a table of values, and explain the rule.",
+  "student_learning_goal": "I can build a number parade up to 100, name its rule, organize it as a table of values, and lead it.",
+  "success_criteria": [
+    "I can build a repeating, growing, OR shrinking number parade with whole numbers up to 100.",
+    "I can write the rule using the right notation (AB / +N / -N).",
+    "I can organize my number parade as a table of values AND lead my partner through it explaining the rule."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "term",
+    "growing pattern",
+    "shrinking pattern",
+    "pattern rule",
+    "table of values",
+    "predict",
+    "translate",
+    "justify"
+  ],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip",
+    "M3_sound_movement_cards",
+    "M4_missing_card",
+    "M5_core_loop"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart from previous lessons (PATTERN, GROWING, SHRINKING, +N rule notation, TABLE OF VALUES, JUSTIFY all up)",
+    "One pre-built example for the opening reveal: animal growing pattern (3 Beas, 6 Beas, 9 Beas, 12 Beas) plus matching number parade (3, 6, 9, 12) plus matching table of values",
+    "One additional pre-built example with bigger numbers up to 100: animal growing pattern (Bea + Finn pair = 1 term unit, with 10, 20, 30, 40 pairs) — or simpler, a number parade 10, 20, 30, 40 with rule +10 to show the up-to-100 range",
+    "Hundred chart 0-100 visible on the math wall",
+    "Dry-erase markers (one per pair) for writing numbers in laminated parade strips",
+    "Summative worksheet 'Lead the Number Parade to 100' (one per child)",
+    "Summative rubric (one per child OR one class clipboard with student-name rows pre-filled)",
+    "Junior Pattern Conductor certificates printed and ready for the closing ceremony — keep hidden until the ceremony",
+    "Optional: small paper crowns or 'Conductor' name tags for the leading phase"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "From Animals to Numbers up to 100",
+    "hook": "All week we've built parades. Today Coco asks the BIG question: can the rule work with numbers all the way up to 100? And can YOU lead a parade?",
+    "teacher_script": "Bring children to the carpet. Hold up Coco. Beside him, lay the small +3 example (3, 6, 9, 12) AND the bigger +10 example (10, 20, 30, 40) parallel.\n\nSay to students: 'All week — repeating, growing, shrinking. We named rules. We translated to tables. We predicted faraway terms. Today the LAST piece: bigger numbers. Up to 100.'\n\nPoint to the +3 parade. 'Read it.' (3, 6, 9, 12.) 'Rule?' (+3.) 'Term 10?' (30.) Show the matching table.\n\nNow point to the +10 parade. 'Read it.' (10, 20, 30, 40.) 'Rule?' (+10.) 'Term 5?' (50.) 'Term 8?' (80.) 'Term 10?' (100.) 'STOPS at 100 — because we are GRADE 2 and our number world goes up to 100.'\n\n'Today YOU are the Conductor. Pick a rule — repeating, growing, OR shrinking. Build the animal parade. Translate to a number parade with numbers up to 100. Organize it as a table of values. Then LEAD a partner through it. By end of class, every one of you is a Junior Pattern Conductor. Show me Coco a hidden corner of one certificate.' Tease one certificate.",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the two example parades.",
+      "Read both number parades and predict terms 5, 8, 10 in each.",
+      "Confirm that the +10 rule reaches 100 at term 10.",
+      "Watch the teacher tease the Junior Pattern Conductor certificate."
+    ]
+  },
+  "action": {
+    "duration_minutes": 40,
+    "activity_name": "Plan, Build, Translate, Table, Lead",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Phase 1 — PLAN (5 min). Hand out the summative worksheet. Each child works independently. They pick a rule (repeating: AB/ABB; growing: +1 to +10; shrinking: -1 to -10) and write it in My Rule. They draw the CORE (for repeating) or the FIRST 2 TERMS (for growing/shrinking) in My Core box.",
+        "teacher_prompt": "Say to students: 'Conductors — first you PLAN. Pick a rule. Write it in My Rule. Draw your core (for repeating) or your first 2 terms (for growing or shrinking) in My Core box. Take 5 minutes.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Phase 2 — BUILD an animal parade (8 min). Children draw or sticker their animal parade across an 8-cell strip. For repeating: extend the core. For growing/shrinking: stack more or fewer animals per cell. Loop the FIRST core (repeating) or the JUMP between term 1 and term 2 (growing/shrinking).",
+        "teacher_prompt": "Say to students: 'Now BUILD. Use your rule to fill all 8 cells. Loop the core OR loop the first jump. Read your parade quietly to check.' Begin one-on-one rubric conferences during this phase — ask each child to read their parade aloud and ask 'what would term 9 be?'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Phase 3 — TRANSLATE to numbers up to 100 (8 min). Below the animal parade, an empty 8-cell number strip. Children pick numbers based on their rule type. For repeating: pick 2-3 numbers between 1-100. For growing: pick a starting number and apply the +N rule for 8 terms (must stay ≤ 100). For shrinking: pick a starting number and apply -N for 8 terms (must stay ≥ 0). Use the hundred chart for reference.",
+        "teacher_prompt": "Say to students: 'Now TRANSLATE. Pick numbers between 1 and 100. For growing, your starting number plus 7 jumps must be 100 or less. For shrinking, your starting number minus 7 jumps must be 0 or more. Use the hundred chart if you need help. Write all 8 number terms.' Continue rubric conferences."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Phase 4 — TABLE (7 min). Children draw a 2-column table of values with TERM (1-8) and VALUE columns and fill in their 8 number-parade values. This is the new Grade 2 representation. The table must be neat with column headers.",
+        "teacher_prompt": "Say to students: 'Now the TABLE. Two columns. Headers TERM and VALUE. Eight rows. Copy your number parade into the value column, with the term number in the term column. The table is the PROOF that you understand the rule.' Quick-check each table for correct headers."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Phase 5 — LEAD (5 min). Children pair up on the carpet. Partner A reads their parade aloud (animal first, then numbers, then table). Partner B has to: (1) name the rule, (2) predict term 9 of both parades, and (3) say one thing they noticed. Then swap.",
+        "teacher_prompt": "Say to students: 'Now LEAD. Find a partner. Conductor A — read animal, numbers, table. Conductor B — name the rule, predict term 9, say one thing you notice. Swap. Both lead.'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Phase 6 — REVISE & REFLECT (8 min). Children return to their desk with their summative worksheet. Teacher prompts: 'You just heard your animal parade and number parade out loud, you filled in your table of values, and you led a partner through it all. Look at your worksheet now. Did your partner stop you anywhere? Did your number parade rule actually match your animal parade rule? Did your table of values actually fit the rule? Find ONE thing on your worksheet to fix — pencil it in.' Each child must REVISE at least one element. Then they draw a small star next to the strongest part and a question mark next to the trickiest part. The teacher walks the room with the summative rubric clipboard, watching for whether children can self-identify a rule/table mismatch (the most common G2 error) without prompting.",
+        "teacher_prompt": "Say to students: 'Two final jobs, Pattern Conductors. First — be your own teacher. Find ONE thing on your worksheet that needs revising. Maybe your number parade lost the rule somewhere. Maybe your table of values has a slip. Pick up your pencil and fix it. Pattern Conductors always check their own work, especially across animals, numbers, and tables. Then — draw a star next to the part you're PROUDEST of and a question mark next to the part that was HARDEST. We share these in our circle.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a worksheet with the rule type pre-selected (just repeating, e.g., AB) so the child only chooses elements. Provide a number bank of small numbers (1, 2, 5, 10, 20). Pre-print the table headers (TERM / VALUE) on the table grid so the child only fills numbers.",
+      "for_extending": "Challenge the child to use a +N rule with N ≥ 5, starting at a non-1 number (e.g., +7 starting at 7 → 7, 14, 21, 28, 35, 42, 49, 56). Stretch question during conferences: 'If your parade had 50 terms, would the value go past 100? At what term would it cross 100?'",
+      "for_ell_or_iep": "Provide a worksheet with the table pre-drawn and 8 rows pre-numbered (1-8) in the term column. Provide a sentence frame for the lead phase: 'My rule is ___. My first term is ___. My table shows ___.' Accept gestures and pointing as part of the lead.",
+      "for_movement_learners": "After completing the worksheet, the pair stands and SKIP-COUNTS the number parade aloud, taking a step on each value. Walking the rule ties the abstract numbers to physical rhythm and seals retention."
+    },
+    "formative_check": {
+      "what_to_look_for": "SUMMATIVE evidence. Look at the worksheet artifact and the partner-lead conversation. For each child: did they pick a valid rule, build it correctly, translate to numbers preserving the rule and staying within 0-100, organize a correct table of values with headers, and explain the rule aloud during the lead? Score against the 4-level rubric.",
+      "how_to_record": "Score each child on the summative rubric (4 levels x 4 expectations) using the worksheet as primary evidence and the partner-lead conversation as confirming evidence.",
+      "tracker_columns": [
+        "Student name",
+        "Rule chosen",
+        "Animal parade correct (C1.1)",
+        "Number parade correct & within 0-100 (C1.4)",
+        "Translation preserves rule (C1.2)",
+        "Table of values correct with headers (C1.2)",
+        "Justifies prediction (C1.3)",
+        "Notes for narrative"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Junior Pattern Conductor Ceremony",
+    "discussion_prompts": [
+      "Who would like to LEAD the WHOLE class through their parade? (Take 2-3 children. They read their animal parade, then their number parade, then walk through their table while the class chants the rule.)",
+      "What was the trickiest part of making a NUMBER parade up to 100 compared to the smaller parades earlier in the unit? Why?",
+      "What was your favourite parade you built this WEEK — across all 5 days — and what was its rule and type?"
+    ],
+    "exit_routine": "Each child receives a Junior Pattern Conductor certificate (the teacher reads it briefly at the front and hands it over with a high five). Each child then leaves the carpet calling out their rule one last time as their parade name ('I am Conductor ___, and my rule is ___')."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Completed 'Lead the Number Parade to 100' summative worksheet plus partner-lead conversation observations. Scored against the 4-level rubric covering all four expectations (C1.1, C1.2, C1.3, C1.4). Plus end-of-unit reflection sheet completed alongside the certificate ceremony.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "This is the unit's summative moment. The five-phase task (Plan-Build-Translate-Table-Lead) is designed so the worksheet artifact gives evidence on C1.1 (pattern type), C1.2 (translation across reps including table), C1.3 (rule + justification), and C1.4 (numbers up to 100). The partner-lead conversation upgrades children to Level 4 when they can independently explain the rule's relationship between term and value — including the new C1.4 layer of larger numbers."
+  },
+  "expanded_walkthrough": {
+    "title": "The Number Parade to 100 Reveal",
+    "rationale": "C1.4 is the unique Grade 2 number expectation: using repeating, growing, and shrinking patterns to describe relationships among whole numbers up to 100. Children have practiced animal, sound, and table translations all week. Numbers up to 100 are the abstract leap. The reveal needs to make explicit that the rule does not change when the numbers get big, AND that growing patterns have a 'ceiling' in Grade 2 (100) which means students must plan their starting number to stay within range. Without this anchoring, children will pick a +20 rule starting at 20 and shoot past 100 at term 5 — frustrating themselves.",
+    "setup": "Two parallel parade displays on the carpet. Display 1: a +3 growing pattern with 4 terms (3, 6, 9, 12 — small numbers, easy). Display 2: a +10 growing pattern with 10 terms (10, 20, 30, 40, 50, 60, 70, 80, 90, 100 — written on a long sentence strip). A hundred chart visible on the math wall. Coco visible. Anchor chart with all unit vocab up.",
+    "teacher_script": "Hold up Coco. 'Friends, all week we built parades with small numbers. Today Coco shows us how the SAME rules work with BIG numbers.'\n\nPoint to Display 1 (+3 small). 'Read it.' (3, 6, 9, 12.) 'Rule?' (+3.) 'Term 10?' (30.) 'Could we keep going to term 30?' (Yes — 90.) 'Term 33?' (99 — under 100, OK.) 'Term 34?' (102 — past 100, in Grade 2 we stop here.)\n\nNow point to Display 2 (+10 ten terms). 'Read this all the way to the end.' Class chants 10 to 100. 'Rule?' (+10.) 'Term 10?' (100.) 'Term 11 would be 110 — too big for Grade 2. So this parade ENDS at term 10.'\n\nPause. 'Here is the BIG strategy. When you build YOUR number parade today, you have to PLAN. If your rule is +5, how big can your starting number be so that term 8 is still under 100? Quick — partner talk.' (Term 8 = start + 7×5 = start + 35. So start can be up to 100 - 35 = 65. Most kids land on something smaller, which is fine.)\n\n'For shrinking, the same problem on the bottom — you can't go below 0. If your rule is -3 with 8 terms, your starting number must be at least 7×3 = 21.'\n\n'Today is YOUR parade. YOUR rule. YOUR numbers. The hundred chart is there to help you. Build it, translate it, table it, lead it.'",
+    "expected_student_responses": [
+      "Many children will recognize the rule pattern instantly after a week of practice.",
+      "Some children will pick a starting number too high and overshoot 100 around term 5 or 6 — let them notice and adjust.",
+      "A child may pick a +1 rule and want to start at 50 → 50, 51, 52, ... 57 — fine but boring; nudge them to use a more interesting jump.",
+      "A child may build a SHRINKING pattern and accidentally go below 0 — point to the hundred chart's 0-line and explain we stop.",
+      "A child may discover that their +N rule with N as a factor of 100 (e.g., +5, +10, +20, +25, +50) lands EXACTLY on 100 at some term — celebrate this connection between patterns and division."
+    ],
+    "common_misconceptions": [
+      "Confusing repeating patterns with growing patterns — a child writes 5, 5, 5, 5, 5, 5, 5, 5 and calls it 'a +0 growing pattern'. Technically yes but boring; nudge to a real growing rule.",
+      "Treating the hundred chart as a constraint on the RULE rather than on the VALUES — i.e., thinking +100 is illegal, when really it's the values that must be ≤ 100.",
+      "Picking a starting number for shrinking that goes below 0 by term 8.",
+      "Drawing every animal in a high-count cell (e.g., 90 Beas in cell 9 of a +10 parade) — this is a sign the child has not internalized that the table summary is the goal, not a literal animal count."
+    ],
+    "recovery_moves": [
+      "If a child overshoots 100: pull out a fresh worksheet and ask 'pick a smaller starting number OR a smaller +N rule. Term 8 has to be ≤ 100. Plan first.'",
+      "If a child writes a constant repeating pattern with the same number every term: 'That's a +0 rule. Your number parade looks the same forever. Try a +N where N is at least 1 — the rule should make the parade GROW or SHRINK or REPEAT a CYCLE, not stay still.'",
+      "If a child is paralyzed by the 100 ceiling: hand them the hundred chart and a finger. 'Start at term 1. Where will your finger be at term 8? Will it still be on the chart? If yes, your rule works. If no, pick a smaller rule.'",
+      "If a child draws 90 animals in one cell: 'Numbers don't need to be drawn animal-by-animal. Just write the number. The cell can hold a number bigger than the cell would hold animals. The number IS the term value.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lead the Number Parade to 100",
+    "purpose": "Summative performance task for the full unit (C1.1, C1.2, C1.3, C1.4). Each child picks a rule, builds an animal parade, translates it to a number parade with whole numbers up to 100, organizes it as a table of values, and leads a partner through it.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Top-of-page header: a 'My Rule' box (2in × 1in, child writes rule label such as AB, +3, -5), a 'Pattern Type' box (3in × 0.5in, child circles REPEATING / GROWING / SHRINKING), and a 'My Core or First 2 Terms' workspace (3in × 1.5in). Reference legend: four animals + a small hundred chart in the corner.",
+        "response_type": "create_and_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "An 8-cell parade strip labelled 'My Animal Parade'. Student fills all 8 cells using their rule. Below the strip, a row of 8 boxes labelled 'My Number Parade' for the matching number values (must be ≤ 100). Below that, a writing line: 'My starting number: ____'.",
+        "response_type": "create"
+      },
+      {
+        "part_number": 3,
+        "task": "An empty 8-row table of values with column headers TERM (1-8 pre-filled) and VALUE (blank). Student fills the value column with their 8 number-parade values. Bottom of page: 'My rule works because ____' (writing line) AND 'Term 10 of my parade would be ____ (use the rule, not drawing!)'.",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "A header layout with My Rule, Pattern Type circles, My Core/First 2 Terms boxes, animal-key, hundred-chart thumbnail",
+      "An 8-cell parade strip for the animal parade plus an 8-box row for the number parade (Part 2)",
+      "An 8-row 2-column table of values with TERM column pre-numbered 1-8 (Part 3)",
+      "A small hundred-chart thumbnail (0-100) printed in a corner as a number reference",
+      "Coco the Conductor in the worksheet header (with the conductor's baton raised in a celebratory pose)"
+    ]
+  }
+}

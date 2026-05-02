@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "formative_worksheets": [
+    {
+      "title": "The Same Core Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 minutes) to confirm A7.2 (core identification) and A7.3 (multi-representation) have landed before extending into A7.4 territory.",
+      "purpose": "Standalone formative assessment distinct from lesson worksheets. Lets the teacher quickly see which children are confident with the abstract core / multi-rep concept and which need a bridging conversation before Lesson 4.",
+      "expectations_assessed": ["A7.2", "A7.3"],
+      "student_learning_goal": "I can find the core and show it in different ways.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can find the core and show it in different ways.",
+        "character_watermark": "Coco the Conductor in the top-right corner with a small magnifying glass — the 'check-in' Coco. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Two of these parades have the SAME core. Circle the two parades that match.",
+          "visual_layout": "Three small horizontal parade strips stacked vertically, each labelled 'Parade A', 'Parade B', 'Parade C' to the left. Each strip is 4–6 cells wide. The student draws a circle around two of the three labels (or around two of the three full strips).",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_PARADE_A",
+              "description": "A 6-cell horizontal parade strip in B&W line-art. Cells filled in order: Bea, Finn, Bea, Finn, Bea, Finn (animal AB pattern). Footprints beneath. Label 'Parade A' to the left. Approximately 5in wide.",
+              "placement": "Top row of Prompt 1.",
+              "approximate_size": "medium"
+            },
+            {
+              "id": "FORM_Q1_PARADE_B",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells filled in order: clap, stomp, clap, stomp, clap, stomp (sound AB pattern using clap and stomp icons). Label 'Parade B' to the left. Approximately 5in wide.",
+              "placement": "Middle row of Prompt 1.",
+              "approximate_size": "medium"
+            },
+            {
+              "id": "FORM_Q1_PARADE_C",
+              "description": "A 6-cell horizontal parade strip in matching style. Cells filled in order: Bea, Finn, Finn, Bea, Finn, Finn (animal ABB pattern). Label 'Parade C' to the left. Approximately 5in wide.",
+              "placement": "Bottom row of Prompt 1.",
+              "approximate_size": "medium"
+            }
+          ],
+          "response_type": "circle_or_loop",
+          "answer_key": "Parades A and B (both AB cores: Bea-Finn structurally equals clap-stomp). Parade C is ABB and does not match. A child who circles A+B has crossed the abstraction threshold of A7.3 — they see structure past surface."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Look at the parade at the top. Now show the SAME core a different way. Pick sounds OR bodies.",
+          "visual_layout": "At the top, a pre-filled animal AB parade (6 cells). Below it, an empty 6-cell parade strip with dashed cell outlines for the student to fill. To the right of the empty strip, a small reference key showing clap, stomp, tall, and small icons.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_TOP",
+              "description": "A 6-cell horizontal parade strip pre-filled in order: Bea, Finn, Bea, Finn, Bea, Finn (animal AB). Footprints beneath. Label 'Look at this parade:' above the strip. Full width.",
+              "placement": "Top of Prompt 2.",
+              "approximate_size": "full_width"
+            },
+            {
+              "id": "FORM_Q2_BLANK",
+              "description": "An empty 6-cell horizontal parade strip with dashed cell outlines. Footprints beneath. Label 'Now show the same core another way:' above. Full width.",
+              "placement": "Below FORM_Q2_TOP.",
+              "approximate_size": "full_width"
+            },
+            {
+              "id": "FORM_Q2_KEY",
+              "description": "A small horizontal reference key with four icons: clap (open hand), stomp (footprint), tall (stick figure standing), small (stick figure crouching). Names beneath each. Each ~0.8in tall. B&W line art.",
+              "placement": "Below FORM_Q2_BLANK, horizontally centred.",
+              "approximate_size": "small"
+            }
+          ],
+          "response_type": "draw_or_sticker",
+          "answer_key": "Any valid AB pattern using a non-animal pair: clap-stomp-clap-stomp-clap-stomp; tall-small-tall-small-tall-small; hum-tap-hum-tap-hum-tap; jump-freeze-jump-freeze-jump-freeze; etc. Correct if the structural AB core is preserved AND the surface elements differ from animals."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling about cores and same-cores-different-ways? Circle the face that fits.",
+          "visual_layout": "Three faces in a horizontal row: a big smile, a neutral mouth, and a worried frown. Below each face, a label: 'I got it!', 'Almost!', 'Need help!'. The student circles one face.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons in a horizontal row, each ~1.5in across. Left face: B&W line-art smiling face with curved upturned mouth. Middle face: neutral straight-line mouth. Right face: line-art with downturned mouth. Below each face, printed label: 'I got it!', 'Almost!', 'Need help!'. Total row width ~6in.",
+              "placement": "Centred horizontally in Prompt 3.",
+              "approximate_size": "full_width"
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open. The teacher uses this self-rating alongside the work on Prompts 1 and 2 to identify mismatches: a child who got Prompt 1 wrong but circled 'I got it!' may need more discussion; a child who got Prompts 1 and 2 right but circled 'Need help!' may just need confidence-building."
+        }
+      ],
+      "teacher_notes": "Administer this between Lesson 3 and Lesson 4. Print one per child; circulate while children work and note who finishes confidently versus who hesitates. Score guide: 2/2 + confident self-rating = ready for Lesson 4. 2/2 + low self-rating = nudge confidence. 1/2 = brief 1:1 conference before Lesson 4 reviewing the ABB vs AB difference. 0/2 = small-group re-loop on Lesson 3's core-identification routine before continuing."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Pattern Parade Reflection",
+    "purpose": "End-of-unit metacognition. Children look back at their week of pattern work and rate themselves, name a favourite, name a struggle, and set a forward goal. Companion to the Lesson 5 summative — captures voice, not skill.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Coco the Conductor in the top-right corner, holding a Junior Pattern Conductor certificate. Small (~1.5in tall). References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Pattern Conductor? Circle one.",
+        "visual_layout": "Three star-rating options shown horizontally, each in its own oval: 1 star, 2 stars, 3 stars. Beneath each oval, a label: 'Just starting', 'Mostly got it', 'I am a Conductor!'. Child circles one oval.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three options shown horizontally in ovals: left option = 1 large star (~1in), middle = 2 stars side by side, right = 3 stars side by side. Each option enclosed in a thin oval ~2in wide × 1.5in tall. Beneath each oval, printed label: 'Just starting', 'Mostly got it', 'I am a Conductor!'. Total row ~6.5in wide. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 1.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am a Conductor!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things? Circle YES or NO.",
+        "visual_layout": "A four-row table. Each row contains a question label on the left and YES / NO bubbles on the right. Questions: 'I made my own parade.', 'I found the core.', 'I showed my core another way.', 'I fixed a missing animal.'.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A bordered four-row table. Each row ~1in tall. Left column ~4in wide with question text in K-readable type. Right column ~2in wide containing two bubbles labelled 'YES' and 'NO' side by side. Total table ~6in wide. Thin grey row dividers. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 2.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I made my own parade.", "I found the core.", "I showed my core another way.", "I fixed a missing animal."]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite part of the Pattern Parade was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The box is empty workspace; the child draws or writes inside it.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Thin solid black border. Empty inside. Above the box, the printed prompt 'My favourite part of the Pattern Parade was...'. Below the bottom-right corner, faint guide-lines for writing if the child prefers words to a drawing.",
+            "placement": "Centred horizontally in Prompt 3.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The child draws or writes inside.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Identical layout to REF_FAV_BOX. Above the box, the printed prompt 'The trickiest part for me was...'.",
+            "placement": "Centred horizontally in Prompt 4.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The child draws or writes inside.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall. Identical layout to the other boxes. Above the box, the printed prompt 'Next time, I want to try...'.",
+            "placement": "Centred horizontally in Prompt 5.",
+            "approximate_size": "full_width"
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the very end of Lesson 5, alongside the Junior Pattern Conductor certificate ceremony. Children may need scribe support for prompts 3–5 — accept a drawing as a complete answer. Read responses to inform your unit notes for next year (which prompts kept emerging as 'trickiest', which moments children loved). The yes/no audit on Prompt 2 is also a quick teacher check: a 'NO' on any item signals the child either missed a key activity or doesn't recognize that they did it — worth a 30-second conference."
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Pattern Parade — Day 1 Diagnostic Checklist (Grade 2)",
+    "when_used": "During Lesson 1, while children are in the partner-build phase and the real-life pattern hunt of the Action segment.",
+    "expectation_focus": [
+      "C1.1"
+    ],
+    "columns": [
+      "Student name",
+      "Identifies repeating pattern",
+      "Identifies growing pattern",
+      "Identifies shrinking pattern",
+      "Describes change from term to term",
+      "Spots real-life pattern unprompted",
+      "Notes"
+    ],
+    "usage_notes": "Walk between pairs during the partner-build activity AND the real-life pattern hunt. For each child, tick the columns where you see clear evidence; leave blank if not yet observed (rather than marking 'no'). The 'Spots real-life pattern unprompted' column is the deepest signal — children who notice the calendar growing or the brick wall repeating without being told are at L3 or L4 already on C1.1. Children with blanks across the first three columns may need a small-group re-loop on the three-type distinction before Lesson 2's formal rule notation.",
+    "layout_description": "One letter page, portrait orientation. Title at the top, expectation focus (C1.1) in a small box below. Date and class header. The body is a table with one column for student names (left, ~1.4in wide), five narrow tick columns (~0.85in each) labelled with the column names, and a Notes column on the right (~1.5in wide). Approximately 24 blank student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page. Title at top: 'Pattern Parade — Day 1 Diagnostic Checklist (Grade 2)'. A small box below the title with text 'Expectation: C1.1 — identify and describe repeating, growing, and shrinking patterns'. Two header fields: 'Date: ____' and 'Class: ____'. A grid table with 7 columns (matching the columns list) and 24 blank student rows. The first column is 'Student name' (~1.4in wide); columns 2-6 are tick boxes (~0.85in each); the last column is 'Notes' (~1.5in wide). Thin grey row dividers. B&W line art only, full page.",
+        "placement": "Full page — the tracker IS the page.",
+        "approximate_size": "full_width"
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Pattern Parade — Lesson 2 Formative Tracker (Naming the Jump)",
+      "when_used": "During Lesson 2, while children are in the partner phase of Build the Rule, Loop the Step.",
+      "expectation_focus": [
+        "C1.1",
+        "C1.3"
+      ],
+      "columns": [
+        "Student name",
+        "Builds growing pattern (constant +N)",
+        "Builds shrinking pattern (constant -N)",
+        "Writes rule in +N or -N notation",
+        "Distinguishes adding from multiplying",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair. Ask 'What is your rule?' and 'How do you know it is +2 and not ×2?' to elicit columns 3 and 4. The 'Distinguishes adding from multiplying' column is the new Grade 2 conceptual threshold — children who confuse +2 with doubling need a quick conference. Children solid on +N rules but blank on -N may simply not have built the shrinking parade yet; circle back later in the period.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 2 column names. Title and expectation box updated to reflect C1.1 + C1.3 focus.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Pattern Parade — Lesson 2 Formative Tracker (Naming the Jump)' and 6 columns matching the Lesson 2 tracker_columns. Expectation box reads 'Expectations: C1.1 (growing/shrinking patterns) + C1.3 (rule notation)'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width"
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Pattern Parade — Lesson 3 Formative Tracker (Translating Across Three)",
+      "when_used": "During Lesson 3, while pairs are translating their assigned rule into number sequences and tables of values in the Action phase.",
+      "expectation_focus": [
+        "C1.2"
+      ],
+      "columns": [
+        "Student name",
+        "Translates parade to number sequence",
+        "Builds correct table of values with headers",
+        "Values in table match the parade",
+        "Names same rule across all 3 reps",
+        "Notes"
+      ],
+      "usage_notes": "The 'Builds correct table of values with headers' column is the new Grade 2 representation — children who skip the headers (TERM / VALUE) or write them inconsistently need a quick reminder. The 'Values in table match the parade' column catches arithmetic slips. The 'Names same rule across all 3 reps' column is the abstraction marker — a child who can articulate that the rule is the same regardless of representation is at L3 on C1.2.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 3 column names. Title and expectation box updated to reflect C1.2 focus.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Pattern Parade — Lesson 3 Formative Tracker (Translating Across Three)' and 6 columns matching the Lesson 3 tracker_columns. Expectation box reads 'Expectation: C1.2 — create and translate patterns using objects, sounds, movements, pictures, and tables of values'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width"
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Pattern Parade — Lesson 4 Formative Tracker (Detective Pro)",
+      "when_used": "During Lesson 4, while pairs are working through Detectives at Work — Find and Predict.",
+      "expectation_focus": [
+        "C1.3"
+      ],
+      "columns": [
+        "Student name",
+        "Finds missing in repeating pattern",
+        "Finds missing in growing pattern",
+        "Finds missing in shrinking pattern",
+        "Predicts term 10 using rule (not drawing)",
+        "Reasons backward to find missing start",
+        "Justifies with rule language",
+        "Notes"
+      ],
+      "usage_notes": "The 'Predicts term 10 using rule (not drawing)' column is the Grade 2 capstone — children who SKIP-COUNT using the rule are at L3 minimum; children who DRAW each cell to reach term 10 need the rule-as-shortcut nudge. The 'Reasons backward' column captures the hardest move (finding a missing START via backward subtraction or addition). The 'Justifies with rule language' column captures whether the child can articulate WHY using rule vocabulary.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 4 column names (one extra column compared to L2/L3). Title and expectation box updated.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Pattern Parade — Lesson 4 Formative Tracker (Detective Pro)' and 8 columns matching the Lesson 4 tracker_columns. Expectation box reads 'Expectation: C1.3 — determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width"
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Pattern Parade — Grade 2 Summative Rubric",
+    "purpose": "Used during and after Lesson 5 (Lead the Number Parade to 100) to score each child against all four Grade 2 expectations on a 4-level scale. Aligned with Ontario Grade 2 conventions: descriptive, observational, growth-oriented. Level 3 is the grade-level expectation.",
+    "rows": [
+      {
+        "expectation_code": "C1.1",
+        "expectation_text": "identify and describe a variety of patterns involving geometric designs, including patterns found in real-life contexts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "With significant adult prompting, identifies whether a pattern is repeating, growing, or shrinking only some of the time. Does not yet describe the change from term to term."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Identifies the three pattern types most of the time. Describes the change from term to term in informal language ('one more', 'getting smaller'). Notices real-life patterns when prompted."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Confidently identifies all three pattern types. Describes the change from term to term using rule language. Independently spots real-life patterns in the classroom and the world."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Identifies pattern types in unfamiliar contexts (e.g., music, weather, growth charts). Recognizes when a pattern combines two types or when a real-life sequence is approximately patterned. Articulates relationships between pattern types."
+          }
+        ]
+      },
+      {
+        "expectation_code": "C1.2",
+        "expectation_text": "create and translate patterns using various representations, including shapes and numbers",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Treats different representations of the same pattern as different patterns. Does not yet build a table of values with correct headers."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "With teacher modelling, translates a pattern into one second representation. Builds a table of values with prompts but may forget headers or mismatch term/value."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently translates a pattern across animal parade, number sequence, AND table of values. Uses correct TERM and VALUE headers. Articulates that the rule is the same in all representations."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Translates patterns into invented representations (e.g., shapes, motion, music) AND multiple tables of values. Uses the table to predict relationships between term and value spontaneously."
+          }
+        ]
+      },
+      {
+        "expectation_code": "C1.3",
+        "expectation_text": "determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in patterns represented with shapes and numbers",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot consistently name a rule using +N / -N notation. Fills missing terms with random values. Cannot justify a prediction beyond a guess."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Names rules using +N / -N notation with prompting. Fills missing terms at the end of a pattern. Justifies with surface description rather than full rule reasoning."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently names rules in +N / -N notation. Fills missing terms anywhere (start, middle, end) including reasoning backward. Predicts term 10 using the rule (skip-counting, not drawing). Justifies using rule language ('because the rule is +N')."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Predicts term 20, term 50 using the rule efficiently. Recognizes when a faraway prediction would exceed the constraint (e.g., > 100). Articulates the relationship between term number and value as a generalization."
+          }
+        ]
+      },
+      {
+        "expectation_code": "C1.4",
+        "expectation_text": "create and describe patterns to illustrate relationships among whole numbers up to 100",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Does not yet build a number parade with whole numbers up to 100. May write numbers randomly or count up by 1s without applying a rule."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "With teacher prompting, builds a number parade using small numbers (1-20) and a +N or -N rule. Numbers stay within range but the relationship to the term is unclear to the student."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently builds a number parade up to 100 using a chosen rule. Plans the starting number so all 8 terms stay within 0-100. Explains the relationship between term and value (e.g., 'each term goes up by 5 starting at 5')."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Uses larger rules (+10, +25) and extends number parades efficiently with mental math. Recognizes which rules land EXACTLY on 100 (factors of 100). Generalizes the relationship between term and value as a formula in own words."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Score during the Lesson 5 Plan-Build-Translate-Table-Lead phases (most evidence is visible from the worksheet) and confirm during the Lead phase (partner observation). Level 3 is the grade-level expectation; aim for most children to land at L2 or L3. L1 is a signal for additional support; L4 is a signal for enrichment in Grade 3. Communicate scores to families using descriptive language alongside the level (e.g., 'Achieving Level 3 — independently builds and explains repeating, growing, and shrinking patterns including using whole numbers up to 100') rather than letter grades.",
+    "layout_description": "One letter page, landscape orientation, with a 4×4 grid table (4 expectation rows × 4 level columns) plus a left-most column for the expectation code and text. Light-grey shading on the Level 3 column to highlight that it is the goal level. Total table approximately 10in wide × 6.5in tall.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable rubric table page. Title at top: 'Pattern Parade — Grade 2 Summative Rubric'. Below the title, a 5-column table: leftmost column 'Expectation' (~2.5in wide), and four level columns (~2in each) labelled 'Level 1 (Beginning)', 'Level 2 (Developing)', 'Level 3 (Achieving — the goal)', 'Level 4 (Exceeding)'. Four rows of expectations (C1.1, C1.2, C1.3, C1.4), each cell containing the descriptor. Light-grey shading on the Level 3 column. Below the table, the usage notes printed in smaller type. Landscape orientation. B&W line art only.",
+        "placement": "Full page.",
+        "approximate_size": "full_width"
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Lead the Number Parade to 100 — Summative Administration Guide (Grade 2)",
+    "purpose": "Ties the Lesson 5 worksheet, the lesson plan's five phases (Plan-Build-Translate-Table-Lead), and the rubric together. Tells the teacher exactly what evidence to look for during each phase and which expectation each phase's evidence maps to.",
+    "administration_steps": [
+      "Before the lesson: photocopy one summative worksheet ('Lead the Number Parade to 100') per child. Print one rubric per child or maintain a single class rubric on a clipboard with student-name rows pre-filled. Have the Junior Pattern Conductor certificates printed and ready for the closing ceremony (do not show them to children before they have earned them). Confirm the hundred chart 0-100 is visible on the math wall.",
+      "Phase 1 (Plan, 5 min): Children write their rule (AB / +N / -N) in My Rule, circle the type (REPEATING / GROWING / SHRINKING), and draw their core or first 2 terms. This produces visible evidence for C1.3 (rule choice). Walk the room and check that each child's rule and type are consistent.",
+      "Phase 2 (Build animal parade, 8 min): Children fill the 8-cell animal parade. This produces visible evidence for C1.1 (pattern type). Begin one-on-one rubric conferences during this phase — ask each child to read their parade aloud.",
+      "Phase 3 (Translate to numbers, 8 min): Children fill the 8-cell number parade with values 0-100, applying their rule. This produces evidence for C1.4 (number parade up to 100) AND C1.2 (translation). Continue rubric conferences. Watch for over/undershoot of the 0-100 range.",
+      "Phase 4 (Table, 7 min): Children copy their 8 number values into the table of values with TERM (1-8 pre-filled) and VALUE columns. This produces evidence for C1.2 (table representation). Quick-check each table for correct headers AND correct values matching the number parade.",
+      "Phase 5 (Lead, 5 min): Children pair up and lead each other through their parade — animal, then numbers, then table. Listen for partners articulating the rule, predicting term 9 of both parades, and explaining the relationship between term and value. Use this phase to confirm uncertain rubric scores and upgrade where Level 4 thinking shows up.",
+      "After the lesson: review the rubric with the worksheet artifact in front of you. For any child below Level 3 on any expectation, note what evidence (or absence) drove that decision. Use this for the Communication of Learning narrative. Also review the bottom-of-worksheet justify sentence AND term-10 prediction — children who used the rule (not drawing) to predict term 10 have C1.3 + C1.4 capstone evidence."
+    ],
+    "scoring_guidance": "Use the worksheet as primary evidence and the partner-lead conversation as confirming evidence. For each expectation, ask: 'What level of independence and confidence did this child show?' Level 3 is the grade-level goal — aim for most children to land at L2 or L3 by end-of-unit. Children who are L4 on every expectation are ready for Grade 3 pattern work (operations in patterns, justification with formal reasoning); document this for the receiving teacher. Children who are L1 on multiple expectations need targeted small-group work in the next math block, especially around the new Grade 2 vocabulary (table of values, far prediction) and the number-parade-to-100 translation.",
+    "evidence_per_expectation": {
+      "C1.1": "Look at Part 1 (type circled) AND Part 2 (animal parade). Did the child circle the right type AND build a parade matching that type? A child who circles GROWING and builds a +3 parade with 8 correct terms is at Level 3 on C1.1. A child who builds a parade with three different pattern types in different cells is at Level 1.",
+      "C1.2": "Look at Part 3 (table of values). Does the table have TERM and VALUE headers? Do the values in the table match the values in the number parade in Part 2? A child who fills the table correctly with headers is at Level 3 on C1.2. A child who skips the headers or mis-aligns terms and values is at Level 2.",
+      "C1.3": "Look at Part 1 (My Rule), the bottom-of-page justify sentence, AND the term-10 prediction. Did the child write a valid rule? Did they justify with rule language ('because the rule is ___')? Did they predict term 10 by SKIP-COUNTING (using the rule) rather than drawing? Combined with the partner-lead conversation. A child who does all three is at Level 3.",
+      "C1.4": "Look at Part 2 (number parade). Did the child pick numbers between 0-100? Did all 8 terms stay in range? Did the rule work for the chosen starting number? A child who picks a rule and starting number that produce 8 valid terms within 0-100 AND can explain the relationship between term and value is at Level 3. A child who uses larger rules (+10, +25) and lands EXACTLY on 100 at some term is at Level 4."
+    }
+  },
+  "certificate": {
+    "title": "Junior Pattern Conductor Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Pattern Parade unit, identifying repeating, growing, and shrinking patterns, building tables of values, and leading a number parade up to 100. A pattern parade certificate. Coco the Conductor congratulates the student.",
+    "skills_demonstrated": [
+      "Identifying patterns as repeating, growing, or shrinking — including in real-life contexts",
+      "Naming pattern rules using +N or -N notation",
+      "Translating one pattern across animal parade, number sequence, AND table of values",
+      "Finding missing terms anywhere AND predicting faraway terms (term 10, term 20) using the rule",
+      "Building a number parade with whole numbers up to 100 and explaining the relationship between term and value"
+    ],
+    "layout_description": "One letter page, portrait orientation. Decorative ornamental border around the entire page (~0.5in margin). Title 'Junior Pattern Conductor Certificate' at the top in large ornate font (~1in tall). Below: the recipient label and a wide blank line for the child's name. Below: the achievement text. Below: a bullet list of the five skills demonstrated. Toward the bottom: two side-by-side signature lines labelled 'Teacher Signature' and 'Date'. At the bottom-centre, a small Coco the Conductor illustration holding his baton in a celebratory pose.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative ornamental border framing the certificate page, approximately 0.5in inset from each edge. Style: gentle scrollwork suitable for a child's certificate — repeating curls, small star motifs at the corners. B&W line art with thin elegant strokes. Suitable for a Grade 2 celebration.",
+        "placement": "Frames the entire page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_BORDER at Frames the entire page.: the student-facing words (certificate) name what the image shows. Image content: A decorative ornamental border framing the certificate page, approximately 0.5in inset from each edge. Style: gentle scrollwork suitable for… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+      },
+      {
+        "id": "AS_CERT_COCO",
+        "description": "A small Coco the Conductor illustration at the bottom-centre of the certificate, approximately 1.5in tall. Coco is smiling broadly and holding the conductor's baton up in a celebratory pose. B&W line art consistent with the CHAR_COCO_FRONT puppet illustration. References blueprint.recurring_characters.",
+        "placement": "Bottom-centre of the page, below the signature lines.",
+        "approximate_size": "small",
+        "keywords": [
+          "coco",
+          "certificate"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_COCO at Bottom-centre of the page, below the signature lines.: the student-facing words (coco, certificate) name what the image shows. Image content: A small Coco the Conductor illustration at the bottom-centre of the certificate, approximately 1.5in tall. Coco is smiling broadly and holdi… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "lesson_number": 4,
+  "lesson_title": "Pattern Detective Pro",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C1.3"
+  ],
+  "secondary_expectations": [
+    "C1.1",
+    "C1.2"
+  ],
+  "big_idea": "Once we know the rule, we can find missing terms anywhere AND predict terms far ahead — even term 20 — without drawing every step.",
+  "learning_intention": "We are learning to use the rule of a repeating, growing, or shrinking pattern to find missing terms anywhere and to predict faraway terms without drawing every step.",
+  "student_learning_goal": "I can find a missing term in a growing or shrinking pattern and use the rule to predict a faraway term.",
+  "success_criteria": [
+    "I can find a missing term at the start, middle, OR end of a pattern.",
+    "I can use the rule to predict term 10 (and term 20) without building every step.",
+    "I can justify my prediction by saying 'the rule is +N and I added it ___ times'."
+  ],
+  "vocabulary_introduced": [
+    "justify"
+  ],
+  "vocabulary_reinforced": [
+    "term",
+    "growing pattern",
+    "shrinking pattern",
+    "pattern rule",
+    "table of values",
+    "predict"
+  ],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip",
+    "M4_missing_card",
+    "M5_core_loop",
+    "M6_anchor_chart_words"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart from previous lessons (PATTERN, GROWING, SHRINKING, TABLE OF VALUES, +N rule notation already up — add JUSTIFY today)",
+    "Three pre-built broken patterns for the opening reveal: (1) repeating with missing middle (Bea-Finn-?-Bea-Finn-Bea), (2) growing with missing middle (3 Beas, 6 Beas, ?, 12 Beas — gap at term 3), (3) shrinking with missing start (?, 8 Beas, 6 Beas, 4 Beas)",
+    "Missing Mystery Cards (M4) — 5 per pair",
+    "Core Loop Frames (M5) — 1 per pair",
+    "Hundred chart 0-100 visible on the math wall — used for the far-prediction exercise",
+    "JUSTIFY hand-printed on chart paper (not in the M6 set)",
+    "Class formative tracker for Lesson 4 (provided in assessment_suite stage)"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coco's Mystery Cases",
+    "hook": "Coco is a detective today, and he has THREE cases to crack. One repeating, one growing, one shrinking — and each one is missing a term. Can we use the rule to find the missing piece AND predict what comes way ahead?",
+    "teacher_script": "Bring children to the carpet. Lay the three broken patterns in a line. Hold up Coco.\n\nSay to students: 'Detectives, big problem. Coco has three patterns and each one has a GAP. We know the three rules — repeating, growing, shrinking. We know +N notation. Today we put it all together AND we add a new move: predict TERM 10 without drawing every step. The rule is our shortcut.'\n\nPoint to broken pattern 1 (repeating): Bea-Finn-?-Bea-Finn-Bea. 'Rule?' (AB.) 'Gap at term 3 — who is missing?' (Bea.) 'Justify — give a reason.' (Because the rule is AB and after Finn comes Bea.)\n\nPoint to broken growing pattern: 3, 6, ?, 12. 'What kind?' (growing.) 'Rule?' (+3.) 'Term 3 has gap. What is the value?' (9.) 'Justify.' (Because the rule is +3 and 6+3=9.) Tape JUSTIFY on the chart.\n\nPoint to shrinking with missing START: ?, 8, 6, 4. 'Rule?' (-2.) 'Term 1?' (10.) 'How did you know?' (Because the rule is -2 and 8 is term 2 and term 2 minus 2 equals term 1, so term 1 must be 8 plus 2 = 10. Backwards reasoning!)",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the three broken patterns.",
+      "Predict the missing term in each pattern.",
+      "Practice the sentence frame: 'I think it is ___ because the rule is ___ and ___.'",
+      "Repeat the new word 'justify' aloud as a class."
+    ]
+  },
+  "action": {
+    "duration_minutes": 28,
+    "activity_name": "Detectives at Work — Find and Predict",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole-group far-prediction demo: take a fresh growing +4 pattern (4 Beas, 8 Beas, 12 Beas across 3 cells). Ask: 'What is term 4?' (16.) 'Term 5?' (20.) 'Now the BIG one: what is term 10?' Walk through together: term 4 = 16, term 5 = 20, term 6 = 24, term 7 = 28, term 8 = 32, term 9 = 36, term 10 = 40. Write each step on the board so the skip-counting is visible. Show the table-of-values shortcut from Lesson 3.",
+        "teacher_prompt": "Say to students: 'We can SKIP forward using the rule. We don't have to draw every cell. Term 3 is 12. Term 4 is...?' (16.) 'Term 5...?' (20.) 'Just keep adding 4. Now together — call out terms 6 to 10.' Build the table on the board as a visible aid."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Partner round 1 — find missing across types: each pair gets Animal Cards (M1), one Parade Strip (M2), 5 Missing Mystery Cards (M4), and one Core Loop Frame (M5). Partner A builds a broken pattern (must include at least one missing term, can be any type — repeating, growing, or shrinking). Partner B identifies the type, names the rule, fills the gap, and JUSTIFIES aloud. Then swap.",
+        "teacher_prompt": "Say to students: 'Partner A: build a broken pattern — any type. Partner B: be the detective. Identify the type, name the rule, fill the gap, JUSTIFY using a full sentence with the word \"because\". Swap.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Partner round 2 — far prediction: each pair builds a fresh growing or shrinking pattern across 4 terms. Then they write out terms 5, 6, 7, 8, 9, 10 on a whiteboard or paper using the rule — without drawing any more animals. The challenge: predict term 20 using the rule. Use the hundred chart on the wall to confirm the answer is reasonable (must be ≤ 100).",
+        "teacher_prompt": "Say to students: 'Now the Detective Pro move. Build a 4-term growing pattern. Then predict terms 5, 6, 7, 8, 9, 10 just by adding the rule each time. Write them on your whiteboard. Then — the BIG one — what is term 20? Look at the hundred chart to check your answer is sensible.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch challenge for fast pairs: trade pattern starts with another pair. The other pair only sees the first 2 terms and must predict terms 3 through 10 using the rule. Then check by building term 3 and term 4 with cards.",
+        "teacher_prompt": "Say to extending pairs: 'Trade your first 2 terms with another pair. They have to GUESS the rule from just two terms — ambiguous! Maybe right, maybe wrong — write the rule, predict term 10, then build term 3 to check. If they were wrong about the rule, they correct themselves and re-predict.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate. Use the Lesson 4 formative tracker. Look especially for: did the child use the rule to predict, not draw? Could they handle a missing term at the START (backward reasoning)? Did they JUSTIFY using full sentences with rule language?",
+        "teacher_prompt": "Stop at each pair. Pick one child. Ask: 'How did you know the missing term was ___?' Then: 'And what would term 20 be? Tell me without drawing.' Listen for rule-based reasoning. Record on the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with growing patterns only and small +N rules (+1 or +2). Provide a sentence frame card: 'I think it is ___ because the rule is +___ and ___.' Pair with a confident peer who can model far prediction.",
+      "for_extending": "Use larger rules (+5, +10) and ask for term 25 or term 30 (within 100 ceiling). Stretch question: 'Without drawing or counting, what would term 100 be? Use the rule.' (For +1 starting at 1, term 100 = 100; for +2 starting at 2, term 100 = 200 — too big! Discuss.)",
+      "for_ell_or_iep": "Use a sentence frame: 'It is ___. Rule is +___.' Allow the child to point to the rule sticker while saying the term number. Provide a partial table with most rows filled in so the child only fills 1 or 2 missing values. Use the hundred chart as a tactile counting aid.",
+      "for_movement_learners": "After predicting, the pair walks the parade out term by term, calling each term aloud. For far prediction, they SKIP forward, taking 2 steps for +2, 3 steps for +3, etc. Walking the rule helps the skip-counting become rhythmic."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child find a missing term in different positions and across all three pattern types? Can they predict a faraway term (term 10 or beyond) using the rule, NOT by drawing? Can they justify with rule language and full sentences? Can they reason backward to find a missing start?",
+      "how_to_record": "Tick the appropriate column on the Lesson 4 formative tracker.",
+      "tracker_columns": [
+        "Student name",
+        "Finds missing in repeating pattern",
+        "Finds missing in growing pattern",
+        "Finds missing in shrinking pattern",
+        "Predicts term 10 using rule (not drawing)",
+        "Reasons backward to find missing start",
+        "Justifies with rule language",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Detective Pro Share Circle",
+    "discussion_prompts": [
+      "Who solved a tricky pattern today? Tell us the type, the rule, and how you knew the missing term.",
+      "Was it harder to find the missing term in a REPEATING pattern, a GROWING pattern, or a SHRINKING pattern? Why?",
+      "If your growing pattern had a +5 rule starting at 5, what would term 100 be? How could you figure it out without drawing 100 cells?"
+    ],
+    "exit_routine": "On the way out, each child says one full justify sentence using rule language: 'I am a Pattern Detective Pro because I can use the +___ or -___ rule to predict term ___ without drawing it.' Teacher records who can complete the sentence confidently versus who needs more practice."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for C1.3 (find missing + justify across all three pattern types) plus completed student worksheet 'Detective Pro Cases'.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Far prediction (term 10, term 20 from a rule) is the deepest Grade 2 marker — it separates children who pattern-match from children who reason with the rule as a generalizable shortcut. The teacher needs evidence of who can use the rule as a tool (not just describe it) before Lesson 5 (the summative) requires it formally. Children at Level 4 here are ready for Grade 3 generalization."
+  },
+  "expanded_walkthrough": {
+    "title": "Far-Term Prediction — using the rule instead of drawing",
+    "rationale": "L4's signature G2 demand is FAR-TERM PREDICTION: predicting term 10 of a +3 pattern without drawing terms 5-9. This requires children to use the rule as a tool, not as a label. Step 1 (whole-group term-10 demo) and Step 3 (partner round 2 — write terms 5-10 without drawing) are the keystones. Most children will default to drawing every intermediate term — that's the conceptual move you're trying to short-circuit.",
+    "setup": "Carpet has the +4 demo strip ready (4 Beas, 8 Beas, 12 Beas). Each pair has whiteboards, Animal Cards, Parade Strip, and the M5 Loop Frame. Tracker columns include 'predicts without drawing,' 'handles missing-at-start,' and 'justifies prediction with rule language.'",
+    "teacher_script": "Whole-group demo: lay the +4 strip with 4, 8, 12. Ask 'term 4?' Class shouts 16. 'Term 5?' 20. 'Now — term 10. WITHOUT drawing it. Use the rule.' Watch the freeze. Many children will instinctively start drawing. Stop them. 'Use your fingers and the rule. Term 1 is 4. Term 2 is 4 plus 4 — that's 8. Term 3 is 8 plus 4 — that's 12. Each step we add 4. So term 10 is term 9 plus 4. And term 9 is term 8 plus 4. Can we count it out without drawing?' Walk through: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40. 'Term 10 is 40. We didn't draw a single new picture — we just used the rule.'\n\nNow the harder move. 'What about term 20?' Don't let them count by 4s for two minutes. Stretch: 'If term 1 is 4 and we add 4 nineteen more times, can we shortcut?' Some children will see 4 × 20 = 80. Most G2 children won't have the multiplication facts yet, but you've planted the seed. Even noticing that '20 fours added is the same as 20 × 4' is L4 evidence.\n\nPartner work: walk to a pair predicting term 7 of their +3 parade by drawing every term. Stop them. 'Put your pencil down. Use the rule. Term 1 to term 7 is six steps of +3. Six threes is what?' Force the count without drawing. The drawing instinct is the conceptual inertia you're working against.\n\nStretch challenge — fast pairs: 'Build a -2 pattern starting at 18. What's term 1? (18.) Term 2? (16.) Term 5? (10.) Term 8? (4.) Term 9? (2.) Term 10?' (0.) 'Term 11?' Pause. Some will say '-2.' Others will say 'the parade ends — you can't have negative animals.' Both answers reveal something. Children who confidently say '-2' and write negative numbers have moved into integer territory — outside G2 expectations but exciting evidence.",
+    "expected_student_responses": [
+      "(Confused) Draws every intermediate term. Has the rule named but won't use it as a shortcut.",
+      "(Mid) Predicts term 5 or 6 by counting by 3s, but term 10 forces them to slow down and possibly draw.",
+      "(Strong) Predicts term 10 by skip-counting confidently. Justifies with rule language: 'because each step adds 3.'",
+      "(Stretched) Predicts term 20+ using a multiplicative shortcut OR articulates that the pattern hits zero/negatives."
+    ],
+    "common_misconceptions": [
+      "The rule is a label, not a tool. (Child names +3 correctly but thinks the only way to find term 10 is to draw all 10.)",
+      "Far-term prediction means drawing faster. (Child still draws every term, just abbreviates them as numerals.)",
+      "Backward reasoning is impossible. (Child can find term 10 from term 1, but cannot find term 1 from term 5 without drawing the whole parade.)"
+    ],
+    "recovery_moves": [
+      "Force the pencil down. 'Without drawing — use only the rule.' Verbal-only prediction is the discipline that builds rule-as-tool thinking.",
+      "Skip-count chant. Lead the class in chanting '+3, +3, +3, +3' on fingers from the starting term. Make the rule physically embodied as a chant rather than a written label.",
+      "Backward worked-example. Solve term 5 → term 1 together: 'term 5 is 15, so term 4 is 15 minus 3 = 12, term 3 = 9, term 2 = 6, term 1 = 3.' Make backward inference visible."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Pro Cases",
+    "purpose": "Independent practice of C1.3 — finding missing terms across all three pattern types AND predicting faraway terms using the rule.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show three short broken patterns: (A) repeating Bea-Finn-Finn-?-Finn-Finn (gap term 4), (B) growing 4, 8, ?, 16 (gap term 3), (C) shrinking ?, 9, 6, 3 (gap term 1). Beside each, three writing lines: 'Type: ___. Rule: ___. Missing term: ___.'",
+        "response_type": "create"
+      },
+      {
+        "part_number": 2,
+        "task": "Show a partial table of values: Term 1 = 5, Term 2 = 8, Term 3 = 11, Term 4 = ___, Term 5 = ___. Below the table: 'Rule: +____'. Below that: 'Term 10 would be: ____'. Bottom: 'I am sure because ____.'",
+        "response_type": "create"
+      },
+      {
+        "part_number": 3,
+        "task": "Detective Pro scenario: 'Coco's parade has rule +6, starting at 6. He says term 5 is 30. Use the rule to figure out term 1, term 3, term 7, AND term 10 — fill the table.' A 5-row table with columns Term and Value, term 5 = 30 pre-filled, all others blank. Bottom: 'Term 10 = ____. I am sure because ____.'",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "Three small broken pattern strips (one of each type) for Part 1",
+      "A partially-filled table of values for Part 2 with two missing values and a far-prediction prompt",
+      "A blank 5-row table of values for Part 3 with one cell pre-filled and a justify-sentence frame",
+      "A small hundred-chart thumbnail (0-100) printed in a corner as a number reference",
+      "Coco the Conductor in the worksheet header (with a magnifying glass — Detective Pro Coco)"
+    ]
+  }
+}

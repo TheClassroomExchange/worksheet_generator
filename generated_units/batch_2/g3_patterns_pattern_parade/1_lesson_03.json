@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "lesson_number": 3,
+  "lesson_title": "Tables of Values for Big Numbers",
+  "duration_minutes": 50,
+  "primary_expectations": ["C1.2"],
+  "secondary_expectations": ["C1.4", "C1.3"],
+  "big_idea": "A table of values organizes any pattern, and we need it most when numbers get big enough that we cannot draw every term.",
+  "learning_intention": "We are learning to translate a pattern across shapes, numbers, and a table of values, and to use the table to predict faraway terms in a pattern that reaches into the hundreds and thousands.",
+  "student_learning_goal": "I can build a table of values for a number pattern up to 1000 and use it to predict a faraway term.",
+  "success_criteria": [
+    "I can take a pattern shown as shapes and translate it into a number sequence and a table of values.",
+    "I can extend a table of values up to term 10 with whole numbers up to 1000.",
+    "I can use the table to predict term 20 (or term 30) without drawing every term."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": ["term", "table of values", "pattern rule", "operation", "growing pattern", "predict"],
+  "manipulatives_used": ["M1_animal_cards", "M2_parade_strip", "M5_core_loop"],
+  "lesson_specific_materials": [
+    "Anchor chart from previous lessons (PATTERN, OPERATION, ADDITION, MULTIPLICATION, COMPOUND RULE up — add TABLE OF VALUES today)",
+    "Pre-built example: a +25 growing pattern in three reps — (1) shape parade with 1, 2, 3, 4 hexagons stacked in cells (using simple drawn hexagons), (2) number sequence on a sentence strip 25, 50, 75, 100, (3) chart-paper table of values with TERM column 1-4 and VALUE column 25, 50, 75, 100",
+    "A second pre-built example with bigger numbers: ×10 multiplicative growing — (1) shape pattern with 1, 10, 100, 1000 dots representing each term, (2) number sequence 1, 10, 100, 1000, (3) chart-paper table with TERM 1-4 and VALUE 1, 10, 100, 1000",
+    "Sticky notes for writing rule labels (+25, ×10, multi-step rules)",
+    "Class formative tracker for Lesson 3 (provided in assessment_suite stage)",
+    "Pencil-and-grid paper or small whiteboards (one per pair) for drawing tables of values",
+    "Calculators (one per pair, optional) — used in the partner phase when rules involve multiplication and values exceed 100",
+    "Number line 0-1000 (or thousand chart) visible on the math wall"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coco's Three Faces, Big Numbers Edition",
+    "hook": "Coco brought ONE pattern today and put on THREE costumes — shapes, numbers, and a TABLE. Today the numbers go big. By the end of class, we will predict term 20 of a pattern without drawing 20 cells.",
+    "teacher_script": "Bring children to the carpet. Lay all three representations of the +25 pattern in a horizontal line: shape parade (1, 2, 3, 4 hexagons stacked), number sequence (25, 50, 75, 100), table of values (TERM 1-4, VALUE 25-100).\n\nSay to students: 'Read the shape parade.' (1, 2, 3, 4 hexagons.) 'And the number sequence.' (25, 50, 75, 100.) 'And the table.' (Term 1 = 25, Term 2 = 50, Term 3 = 75, Term 4 = 100.) 'Are these the SAME pattern?' Children debate. 'Look at the rule. Each term ADDS 25. The shape parade just counts hexagons; the value of each term is hexagons × 25. The table shows it cleanest. Same rule. Different costumes.'\n\nNow point to the table. 'BIG question. Term 20 — what is the value? Without drawing 20 cells.' Pause. Take guesses. 'Term 1 = 25 = 1 × 25. Term 2 = 50 = 2 × 25. Term 3 = 75 = 3 × 25. So Term 20 = 20 × 25 = 500. We just predicted a parade we never built.'\n\nLay the second example (×10: 1, 10, 100, 1000). 'Same trick. Term 4 is 1000. The rule is ×10. We are GENERALIZING — describing how the pattern works no matter which term we pick. Today YOU translate AND predict.'",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the three parallel representations of the +25 pattern.",
+      "Read each representation aloud and identify the +25 rule in each.",
+      "Watch the teacher walk through the table-of-values shortcut to predict term 20.",
+      "Compute term 20 of the +25 pattern in their head or with a partner before the teacher reveals.",
+      "Repeat the new word 'generalize' aloud as a class and define it together."
+    ]
+  },
+  "action": {
+    "duration_minutes": 28,
+    "activity_name": "Translate Across Three, Predict the Faraway Term",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole-class table-building demo: choose a fresh growing rule WITH the class (e.g., +50 starting at 50). Build the shape representation (50 stacked Beas in cells 1-4, but use TALLY MARKS to keep it manageable), write the number sequence below, then build a table of values together. Headers TERM and VALUE, rows 1-4. Predict term 10 together. Predict term 20 together. The class should see that the table supports prediction without drawing every term.",
+        "teacher_prompt": "Say to students: 'Pick a starting number — someone shout one!' (Take 50.) 'Pick a +N rule.' (Take +50.) 'Term 1 = 50. Term 2 = 100. Term 3 = 150. Term 4 = 200. Build the table. Now predict term 10.' Class works through 10 × 50 = 500. 'Term 20?' Class: 20 × 50 = 1000. 'Whoa — we hit 1000 at term 20. Coco's Grade 3 number parade can reach our class number-line maximum.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Partner translation round 1: each pair gets Animal Cards (M1), one Parade Strip (M2), one Core Loop Frame (M5), and a piece of paper for the table. The teacher assigns each pair a starting growing rule: a +N rule with N between 10 and 100 OR a ×N rule with N = 2 or 3. Their job: translate to all three reps — shape strip, number sequence, table of values — then predict term 10 using the table.",
+        "teacher_prompt": "Say to students: 'You and your partner just got a rule. Build all three: shape strip, number sequence, table of values. Then USE the table to predict term 10. Write the prediction at the bottom. When you finish, find another pair and try to read THEIR table.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Partner translation round 2: pairs swap rules with another pair. Now they only see a sticky note with the rule and the starting term — NO parade. They must build the table from scratch using only the rule. Predict term 10 AND term 20.",
+        "teacher_prompt": "Say to students: 'Trade rules with another pair. You only get a sticky now — no parade. Build the table from scratch. Use the rule to fill in TERM and VALUE for terms 1 through 10. Then predict term 20. The other pair will check your work.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "See the expanded walkthrough below for the keystone reveal moment when pairs realize the table not only ORGANIZES the pattern but also REVEALS the relationship between term number and value. Use the walkthrough script for the whole-class debrief in the last 6 minutes of Action time.",
+        "teacher_prompt": "Follow the expanded_walkthrough section verbatim. The reveal moment is: 'Look at any +N rule starting at N. Term 1 = N, term 2 = 2N, term 3 = 3N. Term K = K × N. The table is showing us the multiplication table for N.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Stretch challenge: pairs build a table of values for a multi-step rule from Lesson 2 (e.g., +5 then -2 starting at 10). Note that the TERM column still increments by 1, but the VALUE column changes by alternating amounts. Predict term 10 by using the cycle net effect (+5 -2 = +3 per cycle of 2 terms).",
+        "teacher_prompt": "Say to extending pairs: 'Multi-step table challenge. Rule: +5 then -2. Start at 10. Build the table for 10 terms. Notice how VALUE changes — it does NOT go up by the same amount each term. Find term 10 by reasoning about the cycle. Then PREDICT term 20.'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Circulate. Use the Lesson 3 formative tracker. Look especially for: did the table have correct headers (TERM, VALUE)? Did the values match the rule? Could the child predict term 10 using the table SHORTCUT (multiplication or skip-counting) versus drawing? Did they recognize the term × N pattern in additive growing rules?",
+        "teacher_prompt": "Stop at each pair. Pick one child. Ask: 'Read me term 5 from your table.' Then: 'Term 10?' Then: 'How did you compute term 10? Did you draw every term, or did you use the table?' Record on the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with simple +N rules (+5 or +10) starting at the same N. Provide a pre-drawn table-of-values template with TERM column pre-filled 1-10 and the VALUE column blank. Children only fill the values. Pair with a confident peer.",
+      "for_extending": "Use larger +N rules (+50, +100), multiplicative rules (×3, ×5), or compound rules from Lesson 2. Stretch question: 'Look at the relationship between TERM and VALUE in your table. Can you write a one-sentence rule using BOTH the term number and the value?' (For +25: VALUE = TERM × 25. For +50 starting at 50: VALUE = TERM × 50. Celebrate the formula but do not require it.)",
+      "for_ell_or_iep": "Provide a sentence frame for reading the table: 'Term ___ has value ___.' Provide the table with TERM column pre-numbered AND the first three values filled. Allow calculators from the start so arithmetic is not the barrier. Use a partner who can scribe the partner's prediction.",
+      "for_movement_learners": "After translating, the pair stands up and SKIP-COUNTS the number sequence aloud while taking a step on each value. For ×N rules, they CLAP the number of terms (1 clap, 2 claps, 4 claps for ×2) so the doubling feels mechanical. For predicting term 10, they call out 'term 10!' on the 10th step."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child build a correct table of values with TERM and VALUE column headers? Do the values match the rule? Can the child predict term 10 using a shortcut (multiplication, skip-counting) rather than drawing every term? Do they recognize that an additive rule starting at N produces the multiplication table for N? Can they handle multi-step rules in the table?",
+      "how_to_record": "Tick the appropriate column on the Lesson 3 formative tracker.",
+      "tracker_columns": ["Student name", "Translates pattern across all 3 reps", "Builds table with correct TERM/VALUE headers", "Values in table match the rule", "Predicts term 10 using shortcut (not drawing)", "Recognizes term×N relationship", "Notes"]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Far-Term Showcase",
+    "discussion_prompts": [
+      "Who predicted the BIGGEST term value today? What was the rule and what was the term you predicted?",
+      "Look at a +N rule starting at N. What is the relationship between TERM number and VALUE? Can you write it as a one-sentence rule?",
+      "When IS a table of values most useful — small numbers or big numbers? Why?",
+      "Coco wants to know — can we predict term 100 of a +5 rule starting at 5? What is the value? How did you figure it out?"
+    ],
+    "exit_routine": "Each child whispers to a partner: 'My rule was ___, and using my table I predicted that term ___ has value ___.' Then tidy. Teacher listens for children who use multiplication or skip-counting to predict (Level 3+) versus drawing every cell (Level 2)."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for C1.2 and C1.4 (table-of-values translation + numbers up to 1000), plus completed student worksheet 'Tables Tell the Future'. The standalone 'Tables and Operations Check' formative is administered AFTER this lesson and BEFORE Lesson 4.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Tables of values are the new Grade 3 representation that connects pattern thinking to algebraic reasoning. The teacher needs evidence of who can read and BUILD the table AND use it as a prediction shortcut before Lesson 4 (formal justification of far-term predictions) requires the table as a workspace. This is the unit's keystone because it is the bridge between Grade 2's three-rep model (parade, numbers, table) and Grade 3's far prediction (term 50 by formula)."
+  },
+  "expanded_walkthrough": {
+    "title": "The Table Reveals the Multiplication",
+    "rationale": "Grade 3 children can read a table of values mechanically (looking up values for given terms) but the deeper insight is that the table REVEALS the relationship between term number and value. For an additive rule starting at N (i.e., +N from 0, or starting at N with rule +N), the value at term K equals K × N. This is the foundation of generalization in Grade 3 and the seed of variable thinking in Grade 4-5. The reveal often does not land unless the teacher walks children through it explicitly. This script captures the moment.",
+    "setup": "On the floor or whiteboard: a +25 pattern shown in three parallel representations — (1) shape parade with 1, 2, 3, 4 hexagons stacked in cells, (2) number sequence sentence strip 25, 50, 75, 100, (3) table of values with headers TERM and VALUE, rows (1, 25), (2, 50), (3, 75), (4, 100). Beside the three, the +25 sticky. The thousand chart visible on the wall. Coco visible. Anchor chart with TABLE OF VALUES freshly hand-printed.",
+    "teacher_script": "Hold up Coco. 'Pattern Conductors, here is the magic of the table. Watch carefully.'\n\nPoint to the value column: 25, 50, 75, 100. 'These look like skip-counting by 25. They are. But look at the relationship between term number and value.' Point to row 1: 'Term 1 has value 25. So value = 1 times 25.' Point to row 2: 'Term 2 has value 50. Value = 2 times 25.' Point to row 3: 'Term 3 has value 75 = 3 times 25.' Point to row 4: 'Term 4 has value 100 = 4 times 25.'\n\nPause. 'What is the pattern?' Some children will say '+25.' Others will say 'each value is term times 25.' Validate the second answer. 'YES. The VALUE is the TERM number times 25. The table is showing us the 25-times table.'\n\n'Now the BIG question. What is term 20?' Take responses. Some kids will skip-count by 25 twenty times — let them try. Others will say 20 × 25. 'Yes. 20 × 25 = 500. Term 20 = 500. We did not draw 20 cells. We did one multiplication.'\n\n'Try this: term 100.' (100 × 25 = 2500.) 'But our number line only goes to 1000. So in this parade, term 40 is the LAST one inside our number line, because 40 × 25 = 1000. After term 40, the values exceed 1000.'\n\n'Final stretch. Different rule: +50 starting at 50. What is term 10? Term 20?' (Term 10 = 500, term 20 = 1000.) 'Same trick — value = term times 50.'\n\n'This is GENERALIZING. We are describing how the pattern works no matter which term we pick. Real mathematicians do this. So do you, now. Today on your worksheet, EVERY rule will produce a multiplication relationship like this.'",
+    "expected_student_responses": [
+      "Many children will see '+25' first — the additive rule between consecutive terms.",
+      "Some children will skip-count by 25 to find term 20 rather than multiplying. Validate the strategy, then nudge them toward the multiplication shortcut.",
+      "A child may articulate the formula 'value = term × 25' before the teacher names it. Celebrate as Level 4 thinking.",
+      "A child may try to apply the term×N shortcut to a multiplicative rule (e.g., ×2 starting at 1) and get confused — the formula there is value = 2^(term-1), which is a Grade 6+ idea. Redirect by skip-multiplying.",
+      "A child may notice the pattern in the value column 25, 50, 75, 100 IS the multiplication table for 25 — celebrate this connection."
+    ],
+    "common_misconceptions": [
+      "Thinking the +25 rule and the ×25 relationship are the same thing — they describe the same pattern but from different angles (term-to-term vs. term-to-value).",
+      "Applying the term × N shortcut to a multiplicative rule (×N) — gives wrong answers because the value grows exponentially.",
+      "Believing the table only works for small term numbers and 'breaks' at term 20 or 50 — the table extends infinitely; only the values exceed our number line.",
+      "Confusing the term number with the value when reading rows quickly."
+    ],
+    "recovery_moves": [
+      "If a child can't see the term × N relationship: cover the value column. Ask 'what is term 1 times 25?' (25.) 'Term 2 times 25?' (50.) 'Now look at the value column.' (25, 50.) The match is visible.",
+      "If a child applies term × N to a multiplicative rule: build a small ×2 table (1, 2, 4, 8, 16). Ask 'is term 5 = 5 × 2 = 10?' (No, it's 16.) 'Why?' Lead them to see that ×N rules don't follow the term × N formula.",
+      "If a child resists multiplication: have them skip-count by 25 to find term 20 (slow). Then have them compute 20 × 25 (fast). The speed difference sells the multiplication.",
+      "If a child gets stuck on far prediction (term 100 = 2500): point to the thousand chart. 'Where is 2500?' (Off the chart.) 'So term 100 of this rule is OFF our class number line. The pattern keeps going forever, but our display has a ceiling.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tables Tell the Future",
+    "purpose": "Independent practice of C1.2 and C1.4 — translating a pattern across three representations (shapes, numbers, table of values) AND using the table to predict a faraway term with whole numbers up to 1000.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show a pre-built shape pattern (hexagons growing 1, 2, 3, 4 stacked in cells — represents a +N rule). Below, an empty 4-row number sequence and an empty 5-row 2-column table with TERM 1-5 pre-filled. Above the workspace: 'Rule: +30. Start: 30.' Student fills the number sequence AND the value column of the table.",
+        "response_type": "create"
+      },
+      {
+        "part_number": 2,
+        "task": "Show a partial table of values (TERM 1, 2, 3, 4, 10. VALUE 50, 100, 150, 200, ___). Student fills in term 10 AND writes the rule on a line. Below: 'What is term 20?' on a writing line. Below: 'How did you figure out term 20?' on three writing lines.",
+        "response_type": "create"
+      },
+      {
+        "part_number": 3,
+        "task": "Empty all three reps. Student picks any growing rule with N between 25 and 100, writes the starting number and rule, then builds: a shape parade (5 cells), a number sequence (5 numbers), and a table of values (TERM 1-5). At the bottom: 'My rule: ____. Term 10 = ____. Term 20 = ____. Could term ____ ever be more than 1000? At what term?'",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "A 4-cell hexagon-shape parade (1, 2, 3, 4 stacked hexagons) for Part 1",
+      "An empty 4-box number sequence row for Part 1",
+      "A pre-printed 2-column table (TERM/VALUE) with 5 rows for Part 1",
+      "A partially-filled table of values with one missing value for Part 2",
+      "Three empty workspaces for Part 3 (shape parade strip, number row, table)",
+      "A small thousand-chart or 0-1000 number-line thumbnail in a corner",
+      "Coco the Conductor in the worksheet header (with a tiny chalkboard showing a small table)"
+    ]
+  }
+}

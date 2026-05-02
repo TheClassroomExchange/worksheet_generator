@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pattern Parade — SVG sample assets</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; padding: 30px; max-width: 980px; margin: 0 auto; color: #222; line-height: 1.5; }
+  h1 { font-size: 26px; margin-bottom: 6px; }
+  .lede { color: #555; font-size: 15px; margin-bottom: 24px; }
+  h2 { font-size: 18px; margin-top: 36px; border-bottom: 1px solid #ddd; padding-bottom: 6px; }
+  .sample { display: flex; gap: 20px; align-items: center; padding: 18px; background: #fafafa; border: 1px solid #eee; margin-bottom: 12px; border-radius: 6px; }
+  .sample img, .sample object { background: white; }
+  .caption { flex: 1; font-size: 14px; color: #333; }
+  .caption strong { color: #000; }
+  .note { background: #fffbe6; padding: 14px 18px; border-left: 4px solid #ffc107; margin: 24px 0; font-size: 14px; }
+  .verdict { background: #e6f4ea; padding: 14px 18px; border-left: 4px solid #34a853; margin: 24px 0; font-size: 14px; }
+  .composition { background: white; padding: 24px; border: 1px solid #ddd; }
+  .strip-stage { position: relative; width: 500px; height: 130px; }
+  .strip-stage img.bg { position: absolute; top: 0; left: 0; width: 500px; height: 130px; }
+  .strip-stage img.cell { position: absolute; top: 14px; height: 82px; width: 82px; object-fit: contain; }
+</style>
+</head>
+<body>
+
+<h1>Pattern Parade — pure-SVG sample assets</h1>
+<p class="lede">Hand-coded SVG, no image API. Use this to judge whether SVG-only is good enough or whether we need Gemini Imagen for the characters.</p>
+
+<div class="note">
+<strong>The trade-off:</strong> SVG is free, deterministic, prints perfectly at any size, and gives us identical output every run. Image-gen API gives more polished character illustration but costs ~$5 per character family and risks style drift between shots.
+</div>
+
+<h2>Structural elements (SVG ceiling — these will look identical in production)</h2>
+
+<div class="sample">
+<img src="parade_strip.svg" alt="Parade strip" width="500"/>
+<div class="caption"><strong>Parade strip (M2)</strong> — 5 cells with parade-route footprints below. Used in every lesson and every worksheet. Scales from worksheet thumbnail to wall poster without losing fidelity.</div>
+</div>
+
+<div class="sample">
+<img src="core_loop.svg" alt="Core loop" width="220"/>
+<div class="caption"><strong>Core loop frame (M5)</strong> — placed over the repeating part of a parade strip to mark the core. Pure ellipse outline.</div>
+</div>
+
+<div class="sample">
+<img src="missing_card.svg" alt="Missing card" width="100"/>
+<div class="caption"><strong>Missing mystery card (M4)</strong> — square card with dashed inner outline and a bold question mark. Indicates where an animal is missing.</div>
+</div>
+
+<h2>Character elements (SVG floor — judge if good enough)</h2>
+
+<p style="font-size:14px; color:#555;">These are my best hand-coded SVG attempts. They're recognizable but unmistakably geometric — Sesame-Street simple, not Pixar polished. If the Little Programmers PDF aesthetic is your bar, this might land below it. The honest comparison is: <em>this is what SVG-only gets you</em>; image gen would produce richer, more illustrative characters.</p>
+
+<div class="sample">
+<img src="bea.svg" alt="Bea the Bear" width="200"/>
+<div class="caption"><strong>Bea the Bear</strong> — solid-vest pattern (one of the four B&amp;W vest fills used to distinguish the four animals). Round body, round ears, simple face.</div>
+</div>
+
+<div class="sample">
+<img src="finn.svg" alt="Finn the Fox" width="200"/>
+<div class="caption"><strong>Finn the Fox</strong> — striped-vest pattern. Pointed ears + bushy tail are the fox-vs-bear differentiator.</div>
+</div>
+
+<div class="sample">
+<img src="coco.svg" alt="Coco the Conductor" width="220"/>
+<div class="caption"><strong>Coco the Conductor</strong> — the unit's mascot parrot. Standing pose, baton in wing, bow tie at neck, crest feathers on head. Hardest one to get charming in pure SVG.</div>
+</div>
+
+<h2>Composition example — what an actual worksheet image looks like</h2>
+
+<p style="font-size:14px; color:#555;">This is what the build pipeline produces by overlaying the character SVGs into the parade-strip cells. The pattern shown is Bea-Finn-Bea-Finn-? — exactly Worksheet 1, Part 1.</p>
+
+<div class="composition">
+  <div class="strip-stage">
+    <img class="bg" src="parade_strip.svg" alt=""/>
+    <img class="cell" src="bea.svg" style="left: 14px;" alt="Bea"/>
+    <img class="cell" src="finn.svg" style="left: 109px;" alt="Finn"/>
+    <img class="cell" src="bea.svg" style="left: 204px;" alt="Bea"/>
+    <img class="cell" src="finn.svg" style="left: 299px;" alt="Finn"/>
+    <img class="cell" src="missing_card.svg" style="left: 399px; width:74px; height:74px; top:18px;" alt="?"/>
+  </div>
+</div>
+
+<div class="verdict">
+<strong>What to do with this:</strong>
+<ul style="margin: 8px 0 0 20px;">
+<li>If the structural elements (parade strip, loop, missing card) look right and the characters are <em>good enough</em> for K worksheets — we use SVG-only and skip Gemini entirely. ~$0 image cost across all 50 units.</li>
+<li>If structural is fine but characters need to be richer — we keep SVG for structural and use Gemini Imagen just for Coco + the four animals. ~$5 per unit family.</li>
+<li>If you want a totally different aesthetic — sketch direction and I'll iterate.</li>
+</ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_patterns_pattern_parade",
+  "thematic_title": "The Pattern Parade — Pattern Rules and Number Patterns to 50",
+  "descriptive_title": "Grade 1 Mathematics: Algebra (Patterns and Relationships) — Identify, Describe, Translate, and Apply Pattern Rules with Numbers up to 50 (C1.1–C1.4)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "C. Algebra (Patterns and Relationships)",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g1-math/strands/c/c1",
+  "curriculum_codes": [
+    "C1.1",
+    "C1.2",
+    "C1.3",
+    "C1.4"
+  ],
+  "curriculum_expectations": {
+    "C1.1": "identify and describe the regularities in a variety of patterns, including patterns found in real-life contexts",
+    "C1.2": "create and translate patterns using movements, sounds, objects, shapes, letters, and numbers",
+    "C1.3": "determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in patterns",
+    "C1.4": "create and describe patterns to illustrate relationships among whole numbers up to 50"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 Algebra unit framed as a parade led by Coco the Conductor and four Canadian animals. Children move beyond simple noticing of repetition (Kindergarten) into naming pattern rules, translating one rule into multiple representations, justifying predictions about what comes next or what is missing, and finally applying pattern thinking to whole numbers up to 50. The unit threads a single narrative across all five days, builds a class anchor chart day by day, and culminates in a summative 'Lead the Number Parade' performance task in which each child invents a rule, builds a parade, translates it, and shows the same rule with numbers.",
+  "unit_learning_goal": "Children will identify, describe, and create repeating patterns; name the rule of a pattern; translate one pattern across objects, sounds, movements, and pictures; justify predictions and find missing elements; and use repeating patterns to describe relationships among whole numbers up to 50.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Welcome to the Parade!",
+      "primary_expectations": [
+        "C1.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "A repeating pattern is something that repeats in the same order — and we can use it to predict what comes next.",
+      "student_learning_goal": "I can describe a repeating pattern and predict what comes next.",
+      "one_line_summary": "Children meet Coco and the parade animals, describe colour, animal, shape, and letter patterns, and predict the next element in the parade."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "What's the Rule?",
+      "primary_expectations": [
+        "C1.3"
+      ],
+      "secondary_expectations": [
+        "C1.1"
+      ],
+      "big_idea": "Every repeating pattern has a rule — once you know the rule (AB, ABB, AAB, ABC), you can keep the parade going forever.",
+      "student_learning_goal": "I can find the pattern rule and use it to keep the parade going.",
+      "one_line_summary": "Children learn to name pattern rules using letter labels (AB, ABB, AAB, ABC), match parades to rules, and use the rule to extend a parade many cells forward."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Same Rule, Different Parade",
+      "primary_expectations": [
+        "C1.2"
+      ],
+      "secondary_expectations": [
+        "C1.3"
+      ],
+      "big_idea": "The same pattern rule can be shown with different things — animals, sounds, movements, shapes, or letters — and it is still the same rule.",
+      "student_learning_goal": "I can take one rule and show it as a parade of animals, sounds, and movements.",
+      "one_line_summary": "Children translate a single pattern rule (e.g., ABB) into animal, sound, movement, and shape versions and prove the rule is the same in all four."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Detective Parade",
+      "primary_expectations": [
+        "C1.3"
+      ],
+      "secondary_expectations": [
+        "C1.1"
+      ],
+      "big_idea": "We can use the rule to find missing animals anywhere in the parade and to explain — out loud — why our prediction is right.",
+      "student_learning_goal": "I can find a missing animal and tell my partner why I am sure.",
+      "one_line_summary": "Children act as parade detectives: identify the rule, fill missing elements at the start, middle, and end of broken parades, and justify each prediction in words."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Lead the Number Parade",
+      "primary_expectations": [
+        "C1.4"
+      ],
+      "secondary_expectations": [
+        "C1.1",
+        "C1.2",
+        "C1.3"
+      ],
+      "big_idea": "Pattern rules also work with numbers — we can build repeating number parades up to 50 and explain the rule.",
+      "student_learning_goal": "I can build a repeating number parade up to 50, name its rule, and lead it.",
+      "one_line_summary": "Summative: each child invents a rule, builds it as an animal parade, translates it into a number parade using whole numbers up to 50, and leads classmates through it while explaining the rule."
+    }
+  ],
+  "expectation_lesson_map": {
+    "C1.1": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "C1.2": [
+      3,
+      5
+    ],
+    "C1.3": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "C1.4": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Coco the Conductor",
+      "role": "The parrot leader who keeps the parade in time and asks the rule question. Appears on every lesson cover and every worksheet header. In Grade 1, Coco starts asking children to JUSTIFY their thinking aloud (e.g., 'How do you know? Tell me the rule.').",
+      "visual_description": "Friendly cartoon parrot, red and yellow feathers, holding a small wooden conductor's baton. Big eyes, warm smile. Grade 1-appropriate, soft outlines, no scary features. Visually identical to the Kindergarten Pattern Parade Coco so a child returning from K recognizes him."
+    },
+    {
+      "name": "The Parade Animals",
+      "role": "The same cast that built parades in Kindergarten now wears letter labels (A, B, C) on their vests so children can connect each animal to a rule label. Used to build, fix, translate, and lead pattern parades across all 5 lessons.",
+      "visual_description": "Four characters drawn in matching cartoon style: Bea the Bear (brown, solid vest), Finn the Fox (orange, striped vest), Bibi the Beaver (dark brown, dotted vest), and Moss the Moose (tan, checkered vest). Same outline weight, same eye style, same friendly expression. Each animal's vest pattern fill is permanent (so they are distinguishable in B&W). In Grade 1 introductory examples, the teacher may add a small letter label (A, B, C) on each vest using a sticker to bridge animals to rule labels — this is a temporary scaffold, not a permanent change to the artwork."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "pattern",
+      "child_friendly_definition": "Something that repeats in the same order."
+    },
+    {
+      "term": "core",
+      "child_friendly_definition": "The little part of the pattern that keeps repeating."
+    },
+    {
+      "term": "pattern rule",
+      "child_friendly_definition": "The name we give a pattern using letters, like AB, ABB, or ABC. The rule tells us how the parade goes."
+    },
+    {
+      "term": "predict",
+      "child_friendly_definition": "To say what we think will come next, using the rule."
+    },
+    {
+      "term": "justify",
+      "child_friendly_definition": "To tell someone why we are sure — to give a reason."
+    },
+    {
+      "term": "extend",
+      "child_friendly_definition": "To keep the pattern going forwards or backwards using the rule."
+    },
+    {
+      "term": "missing",
+      "child_friendly_definition": "A part of the parade that is not there yet — we use the rule to figure it out."
+    },
+    {
+      "term": "translate",
+      "child_friendly_definition": "To show the same pattern rule in a different way — with sounds, movements, or shapes instead of animals."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_animal_cards",
+      "name": "Parade Animal Cards",
+      "description": "A set of 16 cards: 4 each of Bea, Finn, Bibi, and Moss, drawn at identical size with their patterned vests visible. Cards are 3in x 3in. In Grade 1, the teacher may temporarily attach small letter stickers (A, B, C) to a few cards to bridge animals to rule labels. Used in every lesson by every pair.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M2_parade_strip",
+      "name": "Blank Parade Strip",
+      "description": "A printable 5-cell strip (each cell sized to hold one animal card or sticker) with footprints drawn underneath suggesting a parade route. In Grade 1 used for animal parades AND for number parades — children write whole numbers (up to 50) into the cells in Lesson 5.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M3_sound_movement_cards",
+      "name": "Sound and Movement Cards",
+      "description": "A set of 8 cards: clap, stomp, jump, freeze, hum, tap, wave, spin — each with a simple icon. Used to translate visual rules into auditory and kinesthetic versions in Grade 1's translation lesson and summative.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "M4_missing_card",
+      "name": "Missing Mystery Card",
+      "description": "A card showing a large question mark surrounded by a dotted outline. Placed in a parade strip to show where an animal (or number) is missing. Heavily used in the Detective Parade lesson.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M5_core_loop",
+      "name": "Core Loop Frame",
+      "description": "A printable oval/loop frame (about 4in wide) that students place over the repeating part of a parade strip to circle the core and identify the rule. In Grade 1, after circling the core, the child writes the rule label (AB, ABB, etc.) on a sticky note next to the loop.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M6_anchor_chart_words",
+      "name": "Anchor Chart Word Cards",
+      "description": "A printable set of 4 word cards (PATTERN, CORE, MISSING, EXTEND) with child-voice definitions that the teacher tapes to chart paper as each new term is introduced. In Grade 1, the teacher hand-prints two additional cards on chart paper alongside the printed set: RULE (during Lesson 2) and JUSTIFY (during Lesson 4) — the printed set covers the cross-grade vocabulary.",
+      "used_in_lessons": [
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "materials_overview": [
+    "Printed Parade Animal Cards (M1) — 1 set per pair",
+    "Parade Strips (M2) — class set, laminated if possible (used for both animal and number parades)",
+    "Sound and Movement Cards (M3) — 1 set for class circle + 5 sets for partner translation in Lesson 3",
+    "Missing Mystery Cards (M4) — 5 per pair",
+    "Core Loop Frames (M5) — 1 per pair plus 2 spare",
+    "Anchor Chart Word Cards (M6) — 1 set for the class chart",
+    "Coco the Conductor puppet (printed and mounted on a popsicle stick)",
+    "Sticky notes (small) for writing rule labels (AB, ABB, AAB, ABC) next to looped cores",
+    "Dry-erase markers (one per pair) for writing numbers in laminated parade strips during Lesson 5",
+    "Hundred chart or number line (0–50) posted on the math wall for reference in Lesson 5",
+    "Chart paper for class anchor charts (existing K chart can be reused if available)",
+    "Drum or shaker for circle time (Lesson 1 warm-up and Lesson 3 sound translations)"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 circle-time observation plus a worksheet check: which children can already extend a 2- or 3-element repeating pattern AND describe what is repeating in their own words. Recorded on a class diagnostic checklist.",
+    "formative": "Lesson 2 (rule naming), Lesson 3 (translation), and Lesson 4 (justify and find missing) each have a class formative tracker. A standalone mid-unit formative ('The Same Rule Check') is administered between Lesson 3 and Lesson 4 to confirm rule identification and translation have landed before adding justification.",
+    "summative": "Lesson 5 'Lead the Number Parade' performance task with a 4-level rubric across C1.1–C1.4. Evidence comes from the worksheet (rule, animal parade, translation, number parade) and the partner-lead conversation. Junior Pattern Conductor certificate awarded at the closing ceremony."
+  },
+  "pedagogical_notes": [
+    "Grade 1 children can name and use letter rule labels (AB, ABB, AAB, ABC) but most still benefit from oral and movement entry points before written work. Always introduce a new rule orally and with bodies before showing the printed letter label.",
+    "Justifying predictions ('How do you know?') is the Grade 1 leap from K. Build it into every lesson, every conference, every share circle. Accept partial justifications and feed them back ('You said \"because Bea always comes after Finn\" — that is the rule. Say it again.').",
+    "Worksheets are end-of-lesson consolidation, not the main activity. Centre activities and partner work are the spine.",
+    "When children name a different valid rule for the same parade (e.g., reading ABBA as 'Bea-Finn-Finn-Bea' versus 'A-B-B-A'), validate both — multiple correct descriptions are a strength, not an error.",
+    "In Lesson 5, do NOT require children to write large numbers — provide a number reference (hundred chart 0–50) so children can copy. The cognitive work is the rule, not the handwriting.",
+    "Build in opportunities for students to make patterns with their bodies, voices, and numbers — not only with paper.",
+    "Use observational anecdotal notes alongside the rubric. The rubric scores skill; the notes capture how a child justified a prediction or invented a clever rule."
+  ],
+  "canadian_context_notes": [
+    "All recurring characters are Canadian animals (bear, beaver, fox, moose).",
+    "Parade can reference familiar Canadian community parades (Santa Claus parade, Caribbean Carnival, local Canada Day parade) in oral examples without prescribing one.",
+    "Avoid US-only references. Use 'colour' not 'color' in printed materials.",
+    "Number patterns in Lesson 5 use the metric / Ontario hundred chart conventions (0-based or 1-based grid acceptable; align with what is on the classroom math wall).",
+    "Rule labels (AB, ABB, AAB, ABC) are the Ontario curriculum's chosen notation for Grade 1 — kept consistent here to match the teacher's other resources."
+  ]
+}

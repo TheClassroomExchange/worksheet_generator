@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_patterns_pattern_parade",
+  "lesson_number": 4,
+  "worksheet_title": "Help Coco Fix It!",
+  "purpose": "Independent practice of A7.4 — finding missing elements in different positions and extending patterns in both directions. Used as Lesson 4 consolidation and as evidence for the formative tracker.",
+  "student_learning_goal": "I can find what is missing in a pattern and add what comes next.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find what is missing in a pattern and add what comes next.",
+    "character_watermark": "Coco the Conductor in the top-right corner of the header, looking puzzled while pointing at a parade strip with a question-mark card in it. Small (~1.5in tall). References the shared 'Coco the Conductor' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Find the missing animals!",
+          "student_instructions": "There are gaps in Coco's parades! Look at the pattern and draw or sticker the missing animal in each empty box.",
+          "visual_layout": "Three short horizontal parade strips stacked vertically, each labelled 'Parade 1', 'Parade 2', 'Parade 3' to the left. Each strip is 6 cells wide. Each has exactly one cell shown as a question-mark box (Missing Mystery Card style — dotted outline with a large '?' inside). The position of the '?' differs across rows: middle, end, start.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_ROW_A",
+              "description": "A 6-cell horizontal parade strip. Cells in order: Bea, Finn, [question-mark box with dotted outline], Finn, Bea, Finn. Missing cell is in the MIDDLE (position 3). Footprints beneath. Label 'Parade 1' to the left. Full width.",
+              "placement": "Top row of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "missing",
+                "positions"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_ROW_A at Top row of Part 1.: the student-facing words (missing, positions) name what the image shows. Image content: A 6-cell horizontal parade strip. Cells in order: Bea, Finn, [question-mark box with dotted outline], Finn, Bea, Finn. Missing cell is in th… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P1_ROW_B",
+              "description": "A 6-cell horizontal parade strip. Cells in order: Bea, Finn, Bea, Finn, Bea, [question-mark box]. Missing cell is at the END (position 6). Footprints beneath. Label 'Parade 2' to the left. Full width.",
+              "placement": "Middle row of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "missing",
+                "positions"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_ROW_B at Middle row of Part 1.: the student-facing words (missing, positions) name what the image shows. Image content: A 6-cell horizontal parade strip. Cells in order: Bea, Finn, Bea, Finn, Bea, [question-mark box]. Missing cell is at the END (position 6). F… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P1_ROW_C",
+              "description": "A 6-cell horizontal parade strip. Cells in order: [question-mark box], Finn, Bea, Finn, Bea, Finn. Missing cell is at the START (position 1). Footprints beneath. Label 'Parade 3' to the left. Full width.",
+              "placement": "Bottom row of Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "missing",
+                "positions"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_ROW_C at Bottom row of Part 1.: the student-facing words (missing, positions) name what the image shows. Image content: A 6-cell horizontal parade strip. Cells in order: [question-mark box], Finn, Bea, Finn, Bea, Finn. Missing cell is at the START (position 1)… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "draw_or_sticker",
+          "answer_key": "Parade 1 (middle missing): Bea. Parade 2 (end missing): Finn. Parade 3 (start missing): Bea. All three are AB patterns; the missing animal is determined by the surrounding context. Parade 3 is the hardest for K children because it requires reasoning backward from the visible elements."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Stretch the parade in BOTH directions!",
+          "student_instructions": "This parade has four animals in the middle. Make it longer! Fill in the two empty cells at the start AND the two empty cells at the end.",
+          "visual_layout": "One horizontal parade strip with 8 cells. Cells 1, 2 (start) and cells 7, 8 (end) are empty with dashed outlines. Cells 3–6 (middle) are pre-filled in order: Bea, Finn, Bea, Finn. An arrow on the left points outward (←) labelled 'before the start' and an arrow on the right points outward (→) labelled 'after the end' to remind students of both directions.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_PARADE",
+              "description": "An 8-cell horizontal parade strip. Cells 1 and 2 empty with dashed outlines. Cells 3, 4, 5, 6 pre-filled in order: Bea (red vest), Finn (blue vest), Bea, Finn. Cells 7 and 8 empty with dashed outlines. Footprints beneath. A small left-arrow icon outside cell 1 with caption 'before the start'; a small right-arrow icon outside cell 8 with caption 'after the end'. Full width.",
+              "placement": "Centred horizontally, spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade",
+                "start"
+              ],
+              "text_image_alignment_check": "Image WS04_P2_PARADE at Centred horizontally, spans Part 2.: the student-facing words (parade, start) name what the image shows. Image content: An 8-cell horizontal parade strip. Cells 1 and 2 empty with dashed outlines. Cells 3, 4, 5, 6 pre-filled in order: Bea (red vest), Finn (blu… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "draw_or_sticker",
+          "answer_key": "Cell 1 = Bea, Cell 2 = Finn, Cell 7 = Bea, Cell 8 = Finn. Full sequence: Bea-Finn-Bea-Finn-Bea-Finn-Bea-Finn. The AB pattern continues both forward and backward; the answer at position 2 (immediately before the visible start) is the harder reasoning step."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make a tricky parade!",
+          "student_instructions": "Build your own parade with TWO missing animals. Pick where the gaps go! Then write or draw the answers in the My Answer box at the bottom.",
+          "visual_layout": "An empty 6-cell parade strip centred on the page where the student designs their parade with two deliberate gaps. Below the strip, a 'My Answer' box (~3in wide × 1.5in tall) with two small numbered slots labelled '1.' and '2.' for the student to record what should be in each gap. A four-animal reference key at the bottom.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_PARADE",
+              "description": "An empty 6-cell horizontal parade strip with light-grey solid cell outlines. Footprints beneath. Full width.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "parade"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_PARADE at Centred horizontally in Part 3.: the student-facing words (parade) name what the image shows. Image content: An empty 6-cell horizontal parade strip with light-grey solid cell outlines. Footprints beneath. Full width.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P3_ANSWER_BOX",
+              "description": "A bordered rectangle labelled 'My Answer' at the top. Inside the rectangle, two horizontal lines numbered '1.' and '2.' for the student to write or draw their answers. Approximately 3in wide × 1.5in tall.",
+              "placement": "Below the parade strip, centred horizontally.",
+              "approximate_size": "medium",
+              "keywords": [
+                "answers"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_ANSWER_BOX at Below the parade strip, centred horizontally.: the student-facing words (answers) name what the image shows. Image content: A bordered rectangle labelled 'My Answer' at the top. Inside the rectangle, two horizontal lines numbered '1.' and '2.' for the student to w… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P3_KEY",
+              "description": "A horizontal four-animal legend: Bea (red vest), Finn (blue vest), Bibi (green vest), Moss (yellow vest). Names beneath each. Same illustration style. Each ~1in tall.",
+              "placement": "Below the My Answer box, horizontally centred.",
+              "approximate_size": "small",
+              "keywords": [
+                "animals"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_KEY at Below the My Answer box, horizontally centred.: the student-facing words (animals) name what the image shows. Image content: A horizontal four-animal legend: Bea (red vest), Finn (blue vest), Bibi (green vest), Moss (yellow vest). Names beneath each. Same illustrat… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Open-ended. A response is correct if (a) the parade follows a valid repeating pattern, (b) exactly two cells are shown as empty / question-mark, and (c) the My Answer box correctly identifies what each missing animal should be based on the surrounding pattern."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Try the same activity but with a three-animal core (ABC). It is much trickier!",
+  "teacher_notes": "Lesson 4 consolidation. The hardest items are Part 1 Row 3 (missing at start) and the backward-extension cells in Part 2 (positions 1, 2). Use Part 2 as evidence for the formative tracker columns 'Extends backward' and 'Extends forward.' If a child gets Part 1 Row 3 wrong but Rows 1 and 2 right, that is a known K stumbling point — re-teach with physical walking-the-parade-backwards before the summative. Part 3 is harder to score; focus on whether the child's parade is internally consistent, not on aesthetic complexity."
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_patterns_pattern_parade",
+  "lesson_number": 4,
+  "worksheet_title": "Justify the Faraway Term",
+  "purpose": "Independent practice of C1.3 — predicting terms far beyond what is shown using the rule, AND producing formal justifications using the sentence frame.",
+  "student_learning_goal": "I can predict term 50 of a pattern and justify my prediction using the rule and the term number.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can predict term 50 of a pattern and justify my prediction using the rule and the term number.",
+    "character_watermark": "Coco the Conductor in the top-right corner with a clipboard and calculator — Detective Coco Pro. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Three patterns, three justifications",
+          "student_instructions": "For each pattern, write the rule, predict term 10, and justify using the sentence frame.",
+          "visual_layout": "Three pattern strips stacked vertically. Pattern A: 9, 18, 27, 36 (rule +9, additive). Pattern B: 100, 92, 84, 76 (rule -8, shrinking). Pattern C: 2, 6, 18, 54 (rule ×3, multiplicative). For each: 'Rule: ____. Term 10: ____. JUSTIFY: I started at ___, the rule is ___, I jumped ___ times, so term 10 is ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_STRIP_A",
+              "description": "A 4-cell horizontal number-row strip in B&W line-art with the digits 9, 18, 27, 36 — a +9 additive growing pattern. Footprints beneath. Labelled 'A' to the left.",
+              "placement": "Top row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "pattern",
+                "number"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_A at Top row of Part 1.: the student-facing words (pattern, number) name what the image shows. Image content: A 4-cell horizontal number-row strip in B&W line-art with the digits 9, 18, 27, 36 — a +9 additive growing pattern. Footprints beneath. Labe… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P1_STRIP_B",
+              "description": "A 4-cell horizontal number-row strip with the digits 100, 92, 84, 76 — a -8 shrinking pattern. Footprints beneath. Labelled 'B' to the left.",
+              "placement": "Middle row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "pattern",
+                "number"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_B at Middle row of Part 1.: the student-facing words (pattern, number) name what the image shows. Image content: A 4-cell horizontal number-row strip with the digits 100, 92, 84, 76 — a -8 shrinking pattern. Footprints beneath. Labelled 'B' to the left.… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            },
+            {
+              "id": "WS04_P1_STRIP_C",
+              "description": "A 4-cell horizontal number-row strip with the digits 2, 6, 18, 54 — a ×3 multiplicative growing pattern. Footprints beneath. Labelled 'C' to the left.",
+              "placement": "Bottom row of Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "pattern",
+                "number"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_STRIP_C at Bottom row of Part 1.: the student-facing words (pattern, number) name what the image shows. Image content: A 4-cell horizontal number-row strip with the digits 2, 6, 18, 54 — a ×3 multiplicative growing pattern. Footprints beneath. Labelled 'C' to… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Pattern A: Rule=+9. Term 10 = 90 (10 × 9 = 90, since values are 9 × term). Justification: 'I started at 9, the rule is +9, I jumped 9 times, so term 10 is 9 + 9×9 = 90.' Pattern B: Rule=-8. Term 10 = 100 - 9×8 = 100 - 72 = 28. Justification: 'I started at 100, the rule is -8, I jumped 9 times, so term 10 is 100 - 72 = 28.' Pattern C: Rule=×3. Term 10 = 2 × 3^9 = 39366 (off the chart!). Justification: 'I started at 2, the rule is ×3, I multiplied by 3 nine times, so term 10 = 2 × 19683 = 39366 — way over 1000.' Accept variations."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Find term 30",
+          "student_instructions": "Look at the table. Fill in term 30 AND write a full justification.",
+          "visual_layout": "A 2-column table with TERM 1, 2, 3, 4, 30 and VALUE 25, 50, 75, 100, ___. Below the table: 'Rule: ____.' Below: 'Term 30 = ____' Below: 'JUSTIFY: I started at ___, the rule is ___, I jumped ___ times, so term 30 is ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_TABLE",
+              "description": "A 2-column table of values, ~3.5in wide × 3in tall. 6 rows (1 header + 5 data). Headers TERM and VALUE in bold uppercase. Term column: 1, 2, 3, 4, 30. Value column: 25, 50, 75, 100, [empty cell with dashed outline]. Bold uppercase headers. Thin black borders.",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "table",
+                "term"
+              ],
+              "text_image_alignment_check": "Image WS04_P2_TABLE at Centred horizontally in Part 2.: the student-facing words (table, term) name what the image shows. Image content: A 2-column table of values, ~3.5in wide × 3in tall. 6 rows (1 header + 5 data). Headers TERM and VALUE in bold uppercase. Term column: 1, 2,… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create_and_loop",
+          "answer_key": "Term 30 = 750 (30 × 25). Rule = +25. Justification: 'I started at 25, the rule is +25, I jumped 29 times, so term 30 is 25 + 29×25 = 750. Or: term 30 = 30 × 25 = 750.'"
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Backward reasoning",
+          "student_instructions": "Coco's pattern has rule ×2. Term 7 = 64. Find term 1 AND term 10. Justify both.",
+          "visual_layout": "Above the workspace: 'Rule: ×2. Term 7 = 64.' Below: a 10-row table with TERM column 1-10 and VALUE column with only term 7 = 64 pre-filled (highlighted with a thin grey background). Below the table: two writing lines: 'Term 1 = ____. JUSTIFY: ___' and 'Term 10 = ____. JUSTIFY: ___'.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_TABLE",
+              "description": "A 2-column table of values, ~3.5in wide × 5in tall. 11 rows (1 header + 10 data). Headers TERM and VALUE in bold uppercase. Term column: 1-10. Value column: blank EXCEPT term 7 = 64 (with a light-grey background to mark it as the anchor). Thin black borders.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "term"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_TABLE at Centred horizontally in Part 3.: the student-facing words (term) name what the image shows. Image content: A 2-column table of values, ~3.5in wide × 5in tall. 11 rows (1 header + 10 data). Headers TERM and VALUE in bold uppercase. Term column: 1-1… The drift gate verifies each keyword stem appears in surrounding student_instructions / visual_layout AND in the image description / chosen-clipart caption."
+            }
+          ],
+          "student_response_type": "create",
+          "answer_key": "Working backward from term 7 = 64 with rule ×2: term 6 = 32, term 5 = 16, term 4 = 8, term 3 = 4, term 2 = 2, term 1 = 1. Term 10 = 64 × 2^3 = 64 × 8 = 512. Justifications: 'Term 1: I started at term 7 = 64, the rule is ×2, I jumped backward 6 times by dividing by 2, so term 1 = 64 ÷ 64 = 1.' 'Term 10: I started at term 7 = 64, the rule is ×2, I multiplied by 2 three more times, so term 10 = 64 × 8 = 512.'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, predict term 20 of Pattern A from Part 1. Does it stay under 1000? At what term does it cross 1000?",
+  "teacher_notes": "Lesson 4 consolidation. The deepest evidence is in Part 1 — children who produce the FULL justification sentence (with all four blanks filled) are at L3+ on C1.3. Children who fill the rule but skip the justification need the sentence-frame scaffold for one more session before the summative. Part 3 (backward reasoning) is the L4 marker — children who divide by 2 to find term 1 are showing flexible operation reasoning. Children who get the multiplicative pattern in Part 1.C and notice 'over 1000' are showing strong ceiling awareness."
+}

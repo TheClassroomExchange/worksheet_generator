@@ -12,14 +12,14 @@ Usage:
 
 import anthropic
 import argparse
+from pathlib import Path
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(Path(__file__).parent.parent / ".env", override=True)
 import json
 import os
 import re
 import time
 from datetime import datetime
-from pathlib import Path
 
 import openpyxl
 from openpyxl.styles import PatternFill, Font
@@ -27,7 +27,7 @@ from openpyxl.styles import PatternFill, Font
 # ── Config ──────────────────────────────────────────────────────────────────
 EXCEL_PATH   = "canadian_classroom_content_batches.xlsx"
 OUTPUT_DIR   = Path("generated_units")
-MODEL        = "claude-opus-4-5"
+MODEL        = "claude-sonnet-4-6"
 MAX_TOKENS   = 8000
 
 SHEET_MAP = {
@@ -476,28 +476,36 @@ def generate_unit(client: anthropic.Anthropic, row: dict,
 
     print(f"  Generating: {row['unit_theme']} ({row['grade']} · {row['strand']})...")
 
-    try:
-        response = client.messages.create(
-            model=MODEL,
-            max_tokens=MAX_TOKENS,
-            system=SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": build_prompt(row)}],
-        )
-        raw = response.content[0].text.strip()
+    MAX_RETRIES = 3
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            response = client.messages.create(
+                model=MODEL,
+                max_tokens=MAX_TOKENS,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": build_prompt(row)}],
+            )
+            raw = response.content[0].text.strip()
 
-        # Strip accidental markdown fences
-        raw = re.sub(r"^```(?:json)?\s*", "", raw)
-        raw = re.sub(r"\s*```$", "", raw)
+            # Strip accidental markdown fences
+            raw = re.sub(r"^```(?:json)?\s*", "", raw)
+            raw = re.sub(r"\s*```$", "", raw)
 
-        unit = json.loads(raw)
-        return unit, ""
+            unit = json.loads(raw)
+            return unit, ""
 
-    except json.JSONDecodeError as e:
-        return None, f"JSON parse error: {e}"
-    except anthropic.APIError as e:
-        return None, f"API error: {e}"
-    except Exception as e:
-        return None, f"Unexpected error: {e}"
+        except (anthropic.APIConnectionError, anthropic.APITimeoutError) as e:
+            if attempt < MAX_RETRIES:
+                print(f"  Attempt {attempt} failed ({e}), retrying in 5s...")
+                time.sleep(5)
+                continue
+            return None, f"API error after {MAX_RETRIES} attempts: {e}"
+        except json.JSONDecodeError as e:
+            return None, f"JSON parse error: {e}"
+        except anthropic.APIError as e:
+            return None, f"API error: {e}"
+        except Exception as e:
+            return None, f"Unexpected error: {e}"
 
 
 def slug(text: str) -> str:
@@ -521,7 +529,10 @@ def main():
     batch_dir = OUTPUT_DIR / f"batch_{args.batch}"
     batch_dir.mkdir(exist_ok=True)
 
-    client   = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    client   = anthropic.Anthropic(
+        api_key=os.environ["ANTHROPIC_API_KEY"],
+        timeout=180.0,
+    )
     rows     = load_pending_rows(EXCEL_PATH, sheet_name)
 
     if not rows:

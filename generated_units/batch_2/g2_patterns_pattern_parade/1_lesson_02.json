@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "lesson_number": 2,
+  "lesson_title": "Growing and Shrinking Parades",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C1.1"
+  ],
+  "secondary_expectations": [
+    "C1.3"
+  ],
+  "big_idea": "In a growing pattern, each term gets bigger by the same amount; in a shrinking pattern, each term gets smaller by the same amount.",
+  "learning_intention": "We are learning to build growing and shrinking patterns and to write the rule using +N or -N notation.",
+  "student_learning_goal": "I can build a growing parade and a shrinking parade and tell my partner the rule for each.",
+  "success_criteria": [
+    "I can build a growing parade where each term gets bigger by the same amount.",
+    "I can build a shrinking parade where each term gets smaller by the same amount.",
+    "I can write the rule using +N (for growing) or -N (for shrinking) notation."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "term",
+    "growing pattern",
+    "shrinking pattern",
+    "pattern rule"
+  ],
+  "manipulatives_used": [
+    "M1_animal_cards",
+    "M2_parade_strip",
+    "M5_core_loop",
+    "M6_anchor_chart_words"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart from Lesson 1 (REPEATING, GROWING, SHRINKING already on)",
+    "Pre-built example parades for the +N / -N reveal: (1) growing +2 (2 Beas, 4 Beas, 6 Beas, 8 Beas), (2) growing +1 (1 Finn, 2 Finns, 3 Finns, 4 Finns), (3) shrinking -3 (10 Beas, 7 Beas, 4 Beas, 1 Bea — for advanced groups)",
+    "Sticky notes pre-prepared with rule labels (+1, +2, +3, +5, -1, -2, -3) and blanks for invented rules",
+    "Class formative tracker for Lesson 2 (provided in assessment_suite stage)",
+    "Optional: small whiteboards or scrap paper for pairs to write +N rules"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coco's Rule-Naming Game",
+    "hook": "Yesterday we said 'getting bigger' and 'one more.' Today we give the rule a NAME using a + or a - and a number.",
+    "teacher_script": "Bring children to the carpet. Lay parade 1 (growing +2: 2 Beas, 4 Beas, 6 Beas, 8 Beas across 4 cells). Hold up Coco.\n\nSay to students: 'Friends, look at this growing parade. Read it with me: 2 Beas, 4 Beas, 6 Beas, 8 Beas. From term 1 to term 2, how many MORE Beas do we add?' (2 more.) 'From term 2 to term 3?' (2 more.) 'From term 3 to term 4?' (2 more.) 'Same amount every time! Mathematicians call this a +2 rule. We write it like this.' Write +2 on a sticky and place it next to the parade. 'Plus two means: each term is the term before, plus two more.'\n\nLay parade 2 (growing +1: 1 Finn, 2 Finns, 3 Finns, 4 Finns). Read together. Ask: 'What is the rule? +____?' (+1.) Place a +1 sticky.\n\nNow lay a shrinking parade (5 Beas, 4 Beas, 3 Beas, 2 Beas). Read. Ask: 'What is happening?' (subtract one each time.) 'So the rule is MINUS one. We write -1.' Place a -1 sticky. 'Today YOU build growing and shrinking parades AND name the rule.'",
+    "student_actions": [
+      "Sit in a circle on the carpet, facing the example parades.",
+      "Read each parade aloud and count the change between terms.",
+      "Help name each rule using +N or -N notation.",
+      "Repeat the rule notations aloud as a class ('+2 means add two each time')."
+    ]
+  },
+  "action": {
+    "duration_minutes": 28,
+    "activity_name": "Build the Rule, Loop the Step",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group demo: build a growing +3 parade slowly with the class (3 Beas, 6 Beas, 9 Beas, 12 Beas). After each term, take a Core Loop Frame (M5) and place it across the GAP between two terms — explain that the loop now marks the JUMP, not the core. The loop highlights the constant change of +3 between each pair of terms.",
+        "teacher_prompt": "Say to students: 'Watch this loop. It's not circling the core today — there is no core in a growing pattern. The loop is showing the JUMP between terms. From 3 Beas to 6 Beas, the jump is +3. From 6 to 9, the jump is +3. Same jump every time. THAT is the rule.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Partner build round 1: each pair gets Animal Cards (M1), one Parade Strip (M2), one Core Loop Frame (M5), and a stack of sticky notes. Their job: build TWO growing parades — one with a +1 rule, one with a +2 rule. Loop one jump in each. Write the rule on a sticky.",
+        "teacher_prompt": "Say to students: 'Two growing parades. First a +1, then a +2. Loop the jump on each. Write the rule on a sticky beside it. When you are done, find another pair and try to read THEIR rule before they tell you.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Partner build round 2: now build TWO shrinking parades — one with a -1 rule, one with a -2 rule. Same loop-and-sticky routine. The challenge: a shrinking parade ends when there are zero animals — pairs must decide where to start so their parade has at least 4 terms.",
+        "teacher_prompt": "Say to students: 'Now switch — shrinking. -1 first, then -2. Plan ahead: for -2 to make 4 terms, you have to start with at least 8 animals. Math pre-planning! Loop the jump, write the rule, swap parades with a different pair.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch challenge for fast pairs: invent a rule the teacher has not shown yet (e.g., +5, -3, +10, +0 special case). Build it. Trade with another pair and have them name it.",
+        "teacher_prompt": "Say to extending pairs: 'Trade your rule sticky with another pair. Now you have a NEW rule. Build the parade — but only the FIRST 3 terms. Then ask the other pair to predict TERM 4 without showing them.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate. Use the Lesson 2 formative tracker. Look especially for: did the child use the +N / -N notation in writing AND speech? Could they invent a rule and apply it consistently? Did they self-correct when their growing pattern accidentally doubled (×2 instead of +2)?",
+        "teacher_prompt": "Stop at each pair. Ask one child: 'What is the rule of your parade?' Then: 'How do you KNOW it is +2 and not ×2?' (The child should say: 'because we add 2 each time, not double.') Record on the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay with +1 and -1 rules using small numbers (1–5 Beas per term). Provide pre-written sticky notes (+1 and -1) so writing is not a barrier. Pair with a confident peer.",
+      "for_extending": "Use +3, +5, -2, -3 rules with larger numbers per term (up to 12 animals per cell — pairs may need 2 sets of M1). Stretch question: 'If your +3 parade kept going, what would term 10 be? Tell me without building it.'",
+      "for_ell_or_iep": "Use a sentence frame: 'My rule is +___. From term 1 to term 2 I added ___.' Allow the child to point to the rule sticky while saying the number. Provide pre-printed +N stickies (+1 to +5) so writing is not the barrier.",
+      "for_movement_learners": "After building, the pair stands up and acts out the growing pattern by adding one more body movement at each step (e.g., term 1 = 1 clap, term 2 = 2 claps, term 3 = 3 claps). For shrinking, start big and remove one each time."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child build a growing pattern with a constant +N change? Can they build a shrinking pattern with a constant -N change? Do they write the rule in +N / -N notation? Can they recognize when a 'growing' pattern is actually multiplying (×2) versus adding (+2)?",
+      "how_to_record": "Tick the appropriate column on the Lesson 2 formative tracker.",
+      "tracker_columns": [
+        "Student name",
+        "Builds growing pattern (constant +N)",
+        "Builds shrinking pattern (constant -N)",
+        "Writes rule in +N or -N notation",
+        "Distinguishes adding from multiplying",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Rule Showcase Round",
+    "discussion_prompts": [
+      "Who built a growing parade with the BIGGEST jump? What was the rule?",
+      "Did anyone build a shrinking parade where the rule made the parade end exactly at zero? How did you plan for that?",
+      "Yesterday we sorted patterns into three types. Today we named the rule with +N or -N. Could the SAME parade have two different rules? Why or why not?"
+    ],
+    "exit_routine": "On the way out the door, each child names one growing rule and one shrinking rule using +N or -N notation ('My growing rule is +___. My shrinking rule is -___'). Teacher records who can chant rules confidently."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Class formative tracker for C1.1 (growing/shrinking identification) and C1.3 (rule naming with +N/-N notation), plus completed student worksheet 'Name the Jump'.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Naming the rule using +N / -N notation is a Grade 2 leap from Grade 1's letter-rule labels. The teacher needs evidence of who can write and apply the notation before Lesson 3 (table of values) requires reading Term/Value pairs and matching them to a +N rule."
+  },
+  "expanded_walkthrough": {
+    "title": "Naming the Rule — from informal language to +N/-N notation",
+    "rationale": "L2 elevates yesterday's 'getting bigger' to today's '+N' notation. The cognitive demand is symbolic — children must translate 'each parade has two more animals than the one before' into '+2.' Step 1 (whole-group +3 demo) and Step 4 (invented rule challenge) are the keystones. The walkthrough below covers the move from verbal description to written notation.",
+    "setup": "Carpet has the +3 demo strip cleared and ready. Each pair has Animal Cards, Parade Strip, Core Loop Frame, and sticky notes. Anchor chart has columns labelled +1, +2, +3, +4, +5, -1, -2, -3, -4 ready to capture invented rules.",
+    "teacher_script": "During the whole-group demo: place 3 Beas in cell 1, 6 Beas in cell 2, 9 Beas in cell 3, 12 Beas in cell 4. Now ask: 'How many more Beas does each new term have?' Listen for informal answers ('three more,' 'three each time'). Confirm and translate: 'Yes — each term has three MORE than the one before. We write that as PLUS THREE, with a + sign and the number 3.' Write '+3' on the chart. 'This is the rule.'\n\nNow ask: 'If I show you JUST the +3 rule and nothing else, can someone build a NEW +3 parade with different animals?' Take a volunteer. They build, say, 1 Finn, 4 Finns, 7 Finns, 10 Finns. Pause: that's a +3 rule, but starting from 1 instead of 3. 'Is this still a +3 rule?' YES. The rule says how MUCH each term grows by, not where it starts. Write the second example next to the first on the chart: '+3 starting at 1: 1, 4, 7, 10. +3 starting at 3: 3, 6, 9, 12. Same rule, different start.' This is a major G2 conceptual move.\n\nSend children to partner work. Walk to a pair attempting their first +1 build. They build 1 Bea, 2 Beas, 3 Beas, 4 Beas — easy. Now ask: 'Same +1 rule, but start at 5 instead. Build it.' If they build 5, 6, 7, 8 confidently, they own the rule. If they default back to 1, 2, 3, 4 because that's what they just did, they've memorized the build, not the rule.\n\nFor Step 4 (shrinking): walk to a pair with a -2 strip that has 6, 4, 2, 0 (correctly ending at zero). Praise it. Now ask: 'What if I gave you a -3 rule starting at 12? Build it.' They should produce 12, 9, 6, 3. If they do, they've fully owned the +N/-N notation. Record on the tracker.",
+    "expected_student_responses": [
+      "(Confused) Says 'getting bigger by some' or 'growing by lots' — hasn't translated to +N notation.",
+      "(Mid) Names +1 / +2 / -1 / -2 confidently but stalls on +3 or larger. Comfortable with unit-and-binary rules only.",
+      "(Strong) Names rule, transfers to new starting term, transfers to different animals.",
+      "(Stretched) Invents a rule (e.g., +5 or -3) and applies it consistently across 5+ terms with no help."
+    ],
+    "common_misconceptions": [
+      "The rule is tied to the starting number. (Child thinks +3 specifically means 3, 6, 9, 12 and not 1, 4, 7, 10.)",
+      "The +N notation is decorative. (Child writes +2 on a sticky but builds an irregular pattern, not connecting the symbol to the build behaviour.)",
+      "Shrinking patterns end at the last cell drawn. (Child doesn't see that -2 starting at 6 ends at 0 and can't go below — misses the natural floor.)"
+    ],
+    "recovery_moves": [
+      "Insist on translating 'how many more' to '+N' explicitly. Don't accept 'three more' — say 'so we write that as PLUS THREE — show me the + sign.' Force the symbol.",
+      "Use the same-rule-different-start move. Two strips, both +3, different starting numbers. Make the rule independence visible.",
+      "For shrinking: ask 'how far can your -2 rule go before there's nothing left?' Make the floor explicit. This deepens the rule into a real-world constraint."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Name the Jump",
+    "purpose": "Independent practice of C1.1 + C1.3 — building growing and shrinking patterns and naming the rule using +N / -N notation.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show four pre-built parade strips (4 cells each): A (1, 3, 5, 7 Beas — +2), B (10, 8, 6, 4 Beas — -2), C (1, 2, 3, 4 Beas — +1), D (8, 5, 2 — but only 3 cells filled, -3). Beside each, a writing line: 'Rule: ____'. Student writes the rule using +N or -N notation.",
+        "response_type": "create_and_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Show an empty 4-cell parade strip. Above it: 'Build a growing parade with the rule +3. Start with ___ Beas.' Student picks a starting number and fills all 4 cells with the right number of Beas (or numbers).",
+        "response_type": "create"
+      },
+      {
+        "part_number": 3,
+        "task": "Show an empty 4-cell parade strip. Above it: 'Build a shrinking parade. Pick your own rule. Make sure it has at least 4 terms.' Below: 'My rule: -____.' Student picks a rule and a starting number, then fills 4 cells.",
+        "response_type": "create"
+      }
+    ],
+    "expected_image_assets": [
+      "Four small 4-cell parade strips for Part 1 (with stacked Beas in each cell)",
+      "An empty 4-cell parade strip with a starting-number prompt for Part 2",
+      "An empty 4-cell parade strip with a free-rule prompt for Part 3",
+      "Coco the Conductor in the worksheet header (with the conductor's baton — naming the rule)"
+    ]
+  }
+}

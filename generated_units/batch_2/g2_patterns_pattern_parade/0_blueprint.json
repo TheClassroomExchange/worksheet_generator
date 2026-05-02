@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_patterns_pattern_parade",
+  "thematic_title": "The Pattern Parade — Growing, Shrinking, and Numbers to 100",
+  "descriptive_title": "Grade 2 Mathematics: Algebra (Patterns and Relationships) — Repeating, Growing, and Shrinking Patterns with Tables of Values and Whole Numbers up to 100 (C1.1–C1.4)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "C. Algebra (Patterns and Relationships)",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math/strands/c/c1",
+  "curriculum_codes": [
+    "C1.1",
+    "C1.2",
+    "C1.3",
+    "C1.4"
+  ],
+  "curriculum_expectations": {
+    "C1.1": "identify and describe a variety of patterns involving geometric designs, including patterns found in real-life contexts",
+    "C1.2": "create and translate patterns using various representations, including shapes and numbers",
+    "C1.3": "determine pattern rules and use them to extend patterns, make and justify predictions, and identify missing elements in patterns represented with shapes and numbers",
+    "C1.4": "create and describe patterns to illustrate relationships among whole numbers up to 100"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 Algebra unit that scales the Pattern Parade up to growing and shrinking patterns, tables of values, and number patterns to 100. Children move from naming repeating-pattern rules (Grade 1 review) into recognizing growing patterns (where each term gets larger by a constant amount) and shrinking patterns (where each term gets smaller). They learn to organize patterns into tables of values, translate one pattern across shapes, numbers, and tables, justify predictions about distant terms (e.g., 'what is term 20?'), and finally lead a Number Parade up to 100 as a summative performance task. The unit also threads real-life pattern contexts (calendar dates, hopscotch squares, stairs, snowflakes) through every lesson.",
+  "unit_learning_goal": "Children will identify, describe, and create repeating, growing, and shrinking patterns; translate them across shapes, numbers, and tables of values; and use pattern rules to predict, justify, and find missing terms with whole numbers up to 100.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Welcome Back to the Parade!",
+      "primary_expectations": [
+        "C1.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Patterns can repeat, grow, or shrink — we can spot all three kinds in our classroom and our world.",
+      "student_learning_goal": "I can identify a pattern as repeating, growing, or shrinking and describe what changes from one term to the next.",
+      "one_line_summary": "Children review repeating patterns from Grade 1, meet growing and shrinking patterns through Coco's parade, and hunt for real-life examples of each type."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Growing and Shrinking Parades",
+      "primary_expectations": [
+        "C1.1"
+      ],
+      "secondary_expectations": [
+        "C1.3"
+      ],
+      "big_idea": "In a growing pattern, each term gets bigger by the same amount; in a shrinking pattern, each term gets smaller by the same amount.",
+      "student_learning_goal": "I can build a growing parade and a shrinking parade and tell my partner the rule for each.",
+      "one_line_summary": "Children build growing and shrinking parades using animal cards arranged in increasing/decreasing groups, name the rule (+1, +2, -3, etc.), and compare the two pattern types."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "The Parade Table of Values",
+      "primary_expectations": [
+        "C1.2"
+      ],
+      "secondary_expectations": [
+        "C1.1",
+        "C1.3"
+      ],
+      "big_idea": "We can show the same pattern as a parade, as a sequence of numbers, or as a table of values — and the rule is the same in all three.",
+      "student_learning_goal": "I can take one pattern and show it as a parade, as numbers, AND as a table of values.",
+      "one_line_summary": "Children translate a single growing pattern across three representations — animal parade, number sequence, and a two-column table of values (Term, Value) — and prove the rule is the same in all three."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Pattern Detective Pro",
+      "primary_expectations": [
+        "C1.3"
+      ],
+      "secondary_expectations": [
+        "C1.1",
+        "C1.2"
+      ],
+      "big_idea": "Once we know the rule, we can find missing terms anywhere AND predict terms far ahead — even term 20 — without drawing every step.",
+      "student_learning_goal": "I can find a missing term in a growing or shrinking pattern and use the rule to predict a faraway term.",
+      "one_line_summary": "Children act as pattern detectives across all three pattern types: identify the rule, fill missing terms at the start/middle/end, and use the rule to predict term 10, 15, and 20 without drawing every cell — justifying every prediction aloud."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Lead the Number Parade to 100",
+      "primary_expectations": [
+        "C1.4"
+      ],
+      "secondary_expectations": [
+        "C1.1",
+        "C1.2",
+        "C1.3"
+      ],
+      "big_idea": "Pattern rules also work with bigger numbers — we can build repeating, growing, and shrinking number parades up to 100.",
+      "student_learning_goal": "I can build a number parade up to 100, name its rule, organize it as a table of values, and lead it.",
+      "one_line_summary": "Summative: each child invents a rule (repeating OR growing OR shrinking), builds it as an animal parade, translates it into a number parade reaching up to 100, organizes it as a table of values, and leads classmates through it."
+    }
+  ],
+  "expectation_lesson_map": {
+    "C1.1": [
+      1,
+      2,
+      4,
+      5
+    ],
+    "C1.2": [
+      3,
+      5
+    ],
+    "C1.3": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "C1.4": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Coco the Conductor",
+      "role": "The parrot leader who keeps the parade in time and asks the rule question. In Grade 2, Coco starts asking 'How many would be in term 20? Tell me without drawing it.' to push children toward generalizing rules. Appears on every lesson cover and every worksheet header.",
+      "visual_description": "Friendly cartoon parrot, red and yellow feathers, holding a small wooden conductor's baton. Big eyes, warm smile. Visually identical to the Kindergarten and Grade 1 Pattern Parade Coco so a child returning from earlier grades recognizes him. Slightly more formal posture in Grade 2 worksheet headers — Coco is now leading older children."
+    },
+    {
+      "name": "The Parade Animals",
+      "role": "The same cast that built parades in earlier grades. In Grade 2, the animals appear in GROUPS of varying size to build growing/shrinking patterns: term 1 might be 1 Bea, term 2 might be 2 Beas, term 3 might be 3 Beas, etc. Used to build, fix, translate, and lead all three pattern types across all 5 lessons.",
+      "visual_description": "Four characters drawn in matching cartoon style: Bea the Bear (brown, solid vest), Finn the Fox (orange, striped vest), Bibi the Beaver (dark brown, dotted vest), and Moss the Moose (tan, checkered vest). Same outline weight, same eye style, same friendly expression. Each animal's vest pattern fill is permanent (so they are distinguishable in B&W). In Grade 2, multiple animals may be drawn within a single parade-strip cell to represent a 'term' of a growing pattern."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "pattern",
+      "child_friendly_definition": "Something that repeats, grows, or shrinks in a special way."
+    },
+    {
+      "term": "core",
+      "child_friendly_definition": "The little part of a repeating pattern that keeps repeating."
+    },
+    {
+      "term": "pattern rule",
+      "child_friendly_definition": "What we do from one term to the next — repeat the core, add the same number, or subtract the same number."
+    },
+    {
+      "term": "term",
+      "child_friendly_definition": "Each part of a pattern. Term 1 is the first, term 2 is the second, and so on."
+    },
+    {
+      "term": "growing pattern",
+      "child_friendly_definition": "A pattern where each term gets BIGGER by the same amount."
+    },
+    {
+      "term": "shrinking pattern",
+      "child_friendly_definition": "A pattern where each term gets SMALLER by the same amount."
+    },
+    {
+      "term": "table of values",
+      "child_friendly_definition": "A two-column table that shows the term number on the left and the value on the right."
+    },
+    {
+      "term": "predict",
+      "child_friendly_definition": "To use the rule to say what a future term will be — even one we have not drawn."
+    },
+    {
+      "term": "justify",
+      "child_friendly_definition": "To tell someone WHY we are sure — to give a reason using the rule."
+    },
+    {
+      "term": "translate",
+      "child_friendly_definition": "To show the same pattern in a different way — as shapes, numbers, or a table."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_animal_cards",
+      "name": "Parade Animal Cards",
+      "description": "A set of 16 cards: 4 each of Bea, Finn, Bibi, and Moss, drawn at identical size with patterned vests. Cards are 3in x 3in. In Grade 2, pairs combine multiple animal cards within a single parade-strip cell to build growing/shrinking 'terms' (term 1 = 1 card, term 2 = 2 cards, etc.).",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M2_parade_strip",
+      "name": "Blank Parade Strip",
+      "description": "A printable 5-cell strip with footprints. In Grade 2, each cell represents a TERM of the pattern (not a single element). Pairs use the strip for animal parades and number parades — children write whole numbers up to 100 with dry-erase markers in Lesson 5.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M3_sound_movement_cards",
+      "name": "Sound and Movement Cards",
+      "description": "An 8-card set (clap, stomp, jump, freeze, hum, tap, wave, spin). In Grade 2, used during Lesson 1 review of repeating patterns and during Lesson 5 summative for an optional body-translation of the chosen rule.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "M4_missing_card",
+      "name": "Missing Mystery Card",
+      "description": "A card with a question mark in a dotted outline. Placed in a parade strip to indicate a missing term. Heavily used in Lesson 4 (Detective Pro) for finding missing terms in all three pattern types.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M5_core_loop",
+      "name": "Core Loop Frame",
+      "description": "A printable oval frame. In Grade 2, used to circle the repeating CORE in repeating patterns (Lessons 1, 5) and to mark the GROWTH STEP in growing/shrinking patterns (Lessons 2, 4) — children loop a single 'jump' from one term to the next to highlight the constant change.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "M6_anchor_chart_words",
+      "name": "Anchor Chart Word Cards",
+      "description": "A printable set of 4 word cards (PATTERN, CORE, MISSING, EXTEND). In Grade 2 the teacher hand-prints additional cards on chart paper alongside the printed set: GROWING, SHRINKING, TABLE OF VALUES, TERM, JUSTIFY — capturing the new Grade 2 vocabulary.",
+      "used_in_lessons": [
+        1,
+        2,
+        4
+      ]
+    }
+  ],
+  "materials_overview": [
+    "Printed Parade Animal Cards (M1) — 1 set per pair; pairs may need multiple sets in Lesson 2 to build 4-term growing patterns",
+    "Parade Strips (M2) — class set, laminated for dry-erase number writing",
+    "Sound and Movement Cards (M3) — 1 teacher set + 1 set per Lesson 5 pair",
+    "Missing Mystery Cards (M4) — 5 per pair",
+    "Core Loop Frames (M5) — 1 per pair plus 2 spare",
+    "Anchor Chart Word Cards (M6) — 1 set for the class chart",
+    "Coco the Conductor puppet (printed and mounted on a popsicle stick)",
+    "Sticky notes for writing rule labels (e.g., 'AB repeats', '+2', '-5')",
+    "Dry-erase markers (one per pair) for writing numbers and tables of values on laminated strips and chart paper",
+    "Hundred chart (0–100) posted on the math wall — used in Lessons 4 and 5 for predictions and number parades",
+    "Chart paper for class anchor charts AND for hand-drawn tables of values (one large reusable chart per pair)",
+    "Real-life pattern photos / clippings for the Lesson 1 hunt: calendar, hopscotch, stairs, snowflakes, brick walls, planted rows",
+    "Pencil and unlined paper for student tables of values (one sheet per child for Lessons 3 and 5)"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 circle-time observation plus a worksheet check: which children can already identify a pattern as repeating, growing, or shrinking AND describe the change from one term to the next. Recorded on a class diagnostic checklist.",
+    "formative": "Lesson 2 (growing/shrinking identification and rule-naming), Lesson 3 (table of values translation), and Lesson 4 (find missing + justify across all three pattern types) each have a class formative tracker. A standalone mid-unit formative ('The Three Pattern Types Check') is administered between Lesson 3 and Lesson 4 to confirm growing/shrinking and table-of-values fluency before adding far-prediction in Lesson 4.",
+    "summative": "Lesson 5 'Lead the Number Parade to 100' performance task with a 4-level rubric across C1.1–C1.4. Evidence comes from the worksheet (rule, animal parade, number parade up to 100, table of values) and the partner-lead conversation. Junior Pattern Conductor certificate awarded at the closing ceremony."
+  },
+  "pedagogical_notes": [
+    "Grade 2 introduces growing and shrinking patterns. Children sometimes confuse a growing pattern with a counting sequence — emphasize that the RULE is constant (e.g., +2 every time) and the values can be any starting number.",
+    "Tables of values are a new representation. Always model the table by writing 'Term' and 'Value' as column headers, and reading aloud in pairs ('Term 1 has value 3, term 2 has value 5...') so children hear the structure.",
+    "Far prediction ('what is term 20?') is the Grade 2 deepest skill. Many children will want to draw every step. Encourage skip-counting using the rule instead — this is the foundational move toward Grade 3 generalization.",
+    "Justification continues to matter. Build into every lesson, every conference, every share circle. Push from 'because the rule is +2' to 'because the rule is +2 and we add 2 nineteen times to get from term 1 to term 20'.",
+    "Worksheets are end-of-lesson consolidation. Centre activities, partner work, and chart-paper builds are the spine.",
+    "Honour student-generated patterns and rules. A child who invents a +3, -1 alternating rule has discovered something more sophisticated than the curriculum requires; celebrate it and document for the receiving Grade 3 teacher.",
+    "In Lesson 5, do NOT require children to write large numbers entirely from memory — provide the hundred chart 0–100 as a reference. The cognitive work is the rule, not the handwriting.",
+    "Use observational anecdotal notes alongside the rubric. The rubric scores skill; the notes capture how a child justified a far prediction or invented a clever rule."
+  ],
+  "canadian_context_notes": [
+    "All recurring characters are Canadian animals (bear, beaver, fox, moose).",
+    "Real-life pattern contexts in Lesson 1 reference Canadian classrooms and outdoors: hopscotch squares on the playground, brick walls, calendar dates from the current month, stairs at the school entrance, snowflake symmetry.",
+    "Use 'colour' not 'color' in printed materials.",
+    "Number patterns in Lessons 4 and 5 use the Ontario hundred chart conventions (1–100 grid, often shown with the math wall).",
+    "Rule notation uses '+N' and '-N' for growing/shrinking patterns, matching the Ontario Grade 2 curriculum's chosen convention."
+  ]
+}
