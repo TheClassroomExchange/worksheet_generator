@@ -129,7 +129,7 @@ PLAN: list[UnitPlanEntry] = [
 
     # ── WAVE 2 — Algebra non-patterns (K, G1-G3) ───────────────────────
     UnitPlanEntry(
-        unit_id="k_algebra_pattern_parade",
+        unit_id="k_patterns_pattern_parade",
         batch="batch_1", wave=2, grade="Kindergarten", strand="A",
         anchor_code="A7", codes=["A7.1", "A7.2", "A7.3", "A7.4"],
         title="The Pattern Parade",
@@ -138,7 +138,7 @@ PLAN: list[UnitPlanEntry] = [
         notes="Already shipped — Pattern Parade K, 20/20 strict_imgalign.",
     ),
     UnitPlanEntry(
-        unit_id="g1_algebra_pattern_parade",
+        unit_id="g1_patterns_pattern_parade",
         batch="batch_2", wave=2, grade="Grade 1", strand="C",
         anchor_code="C1", codes=["C1.1", "C1.2", "C1.3", "C1.4"],
         title="The Pattern Parade — Pattern Rules and Number Patterns to 50",
@@ -168,7 +168,7 @@ PLAN: list[UnitPlanEntry] = [
         descriptive_title="Grade 1 — Mathematical Modelling at the Sugar Bush",
     ),
     UnitPlanEntry(
-        unit_id="g2_algebra_pattern_parade",
+        unit_id="g2_patterns_pattern_parade",
         batch="batch_2", wave=2, grade="Grade 2", strand="C",
         anchor_code="C1", codes=["C1.1", "C1.2", "C1.3", "C1.4"],
         title="The Pattern Parade — Growing, Shrinking, and Numbers to 100",
@@ -198,7 +198,7 @@ PLAN: list[UnitPlanEntry] = [
         descriptive_title="Grade 2 — Planning the Grade 2 Picnic",
     ),
     UnitPlanEntry(
-        unit_id="g3_algebra_pattern_parade",
+        unit_id="g3_patterns_pattern_parade",
         batch="batch_2", wave=2, grade="Grade 3", strand="C",
         anchor_code="C1", codes=["C1.1", "C1.2", "C1.3", "C1.4"],
         title="The Pattern Parade — Operations, Big Numbers, and Justifying the Rule",
@@ -574,92 +574,86 @@ def audit_summary() -> str:
     return "\n".join(lines)
 
 
-# ── Live-session detection ───────────────────────────────────────────────
+# ── Stage-generation in-flight detection ────────────────────────────────
 #
-# Scheduled tasks must not trample over a live interactive Claude Code
-# session on this project. Each cron task calls `is_user_session_active()`
-# at the very top of its prompt and exits cleanly if it returns True.
-# The next scheduled fire tries again.
+# Scheduled tasks must not trample over each other or over an interactive
+# session that is mid-stage. The detector below answers ONE narrow
+# question: is there a stage currently being generated right now (by any
+# session) that I would race on if I picked the next pending stage?
 #
-# Detection combines two signals:
-#   1. Per-session JSONL file activity in
-#      ~/.claude/projects/<project-slug>/<session-uuid>.jsonl. Each
-#      session writes events to its own file; modification within the
-#      threshold window means an interactive session is currently active.
-#   2. Manifest `in_progress` + recent `started_at`. Catches stage-level
-#      work in flight even when the JSONL signal misses.
+# It does NOT defer just because Claude Code is open. The user wants the
+# programme to drain 24/7 regardless of whether they're using the app —
+# only an actual content-generation collision should pause a fire.
 #
-# Threshold default: 10 minutes. Long enough to span a normal pause
-# inside a session; short enough that an abandoned session ages out.
+# Detection signal: any manifest stage with status `in_progress` AND a
+# `started_at` timestamp within the last `threshold_minutes` minutes.
+# This is the precise signal of "stage generation in flight":
+#   - in_progress is set when mark(stage, "in_progress") fires inside
+#     complete_stage's lifecycle
+#   - it gets cleared when the stage completes (status -> done) or fails
+#     (status -> failed) or is reverted (status -> pending)
+#   - a stale `in_progress` (started_at very old) is a crashed session,
+#     not a live race — the cron should NOT defer for that
+#
+# Threshold default: 10 minutes. A real stage takes 5-15 min of session
+# time to generate, so this catches in-flight work without being so long
+# that a crashed session blocks future fires forever.
+#
+# Renamed 2026-05-02: was `is_user_session_active`, but the JSONL signal
+# was too aggressive — having Claude Code open for any reason blocked the
+# programme. The user explicitly does NOT want that. The new name reflects
+# the actual question being answered.
 
-# Project slug under ~/.claude/projects/. Hard-coded because deriving it
-# from PROJECT_ROOT requires duplicating Claude Code's slugification rule
-# (replaces '/' with '-' and strips leading '-'). If you ever move the
-# project tree, update this constant.
-_CLAUDE_PROJECT_SLUG = (
-    "-Users-anthonnymonterroso-Documents-TheClassroomExchange-"
-    "claude-code-handoff-worksheet-generator"
-)
 
+def is_stage_generation_in_flight(threshold_minutes: int = 10) -> tuple[bool, str]:
+    """Return (is_active, reason). True if any unit's manifest shows a
+    stage in_progress with started_at less than ``threshold_minutes``
+    minutes ago. Used by cron tasks to defer when a real content-
+    generation race is in progress.
 
-def is_user_session_active(threshold_minutes: int = 10) -> tuple[bool, str]:
-    """Detect whether a Claude Code session is currently working on this
-    project. Returns ``(is_active, reason)`` — reason is a human-readable
-    string suitable for logging in a cron task's stdout.
-
-    Used by the cron tasks to defer when an interactive session is live,
-    avoiding manifest write races and content-overlap with the user."""
-    import os as _os, time as _time, json as _json
+    Has nothing to do with whether the user has Claude Code open. The
+    programme is meant to drain 24/7 regardless."""
+    import json as _json
     from datetime import datetime as _dt, timezone as _tz
 
     threshold_s = threshold_minutes * 60
-    now_unix = _time.time()
     now_utc = _dt.now(_tz.utc)
 
-    # Signal 1: session JSONL files modified recently
-    sessions_dir = _Path.home() / ".claude" / "projects" / _CLAUDE_PROJECT_SLUG
-    if sessions_dir.exists():
-        for f in sessions_dir.glob("*.jsonl"):
-            try:
-                age_s = now_unix - f.stat().st_mtime
-                if age_s < threshold_s:
-                    return True, (
-                        f"interactive session live: {f.name} modified "
-                        f"{int(age_s)}s ago (<{threshold_minutes}m threshold)"
-                    )
-            except OSError:
-                continue
-
-    # Signal 2: any manifest stage in_progress with recent started_at
     units_root = PROJECT_ROOT / "generated_units"
-    if units_root.exists():
-        for m_path in units_root.glob("batch_*/*/manifest.json"):
-            try:
-                m = _json.loads(m_path.read_text(encoding="utf-8"))
-            except Exception:
+    if not units_root.exists():
+        return False, "no generated_units yet"
+
+    for m_path in units_root.glob("batch_*/*/manifest.json"):
+        try:
+            m = _json.loads(m_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for stage_key, st in (m.get("stages") or {}).items():
+            if st.get("status") != "in_progress":
                 continue
-            for stage_key, st in (m.get("stages") or {}).items():
-                if st.get("status") != "in_progress":
-                    continue
-                started = st.get("started_at")
-                if not started:
-                    continue
-                try:
-                    dt = _dt.strptime(started, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=_tz.utc)
-                except ValueError:
-                    continue
-                age_s = (now_utc - dt).total_seconds()
-                if age_s < threshold_s:
-                    return True, (
-                        f"stage in flight: {m_path.parent.name}/{stage_key} "
-                        f"in_progress for {int(age_s)}s (<{threshold_minutes}m threshold)"
-                    )
+            started = st.get("started_at")
+            if not started:
+                continue
+            try:
+                dt = _dt.strptime(started, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=_tz.utc)
+            except ValueError:
+                continue
+            age_s = (now_utc - dt).total_seconds()
+            if age_s < threshold_s:
+                return True, (
+                    f"stage in flight: {m_path.parent.name}/{stage_key} "
+                    f"in_progress for {int(age_s)}s (<{threshold_minutes}m threshold)"
+                )
 
-    return False, "no recent session activity"
+    return False, "no in-flight stage generation"
 
 
-# Internal alias so the module can refer to Path without re-importing.
-from pathlib import Path as _Path  # noqa: E402  (placed here for the helper above)
+# Backwards-compat alias. The cron prompts call the old name; keep it as
+# a thin wrapper so nothing breaks if a fire from before the rename hits.
+def is_user_session_active(threshold_minutes: int = 10) -> tuple[bool, str]:
+    """Deprecated alias for is_stage_generation_in_flight. Same semantics
+    as the new function — JSONL signal removed 2026-05-02."""
+    return is_stage_generation_in_flight(threshold_minutes=threshold_minutes)
 
 
 def init_unit_from_plan(entry: UnitPlanEntry) -> Path:
