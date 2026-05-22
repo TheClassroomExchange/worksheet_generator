@@ -1,0 +1,59 @@
+{
+  "schema_version": 1, "unit_id": "g1_language_cvc_decoders",
+  "formative_worksheets": [{
+    "title": "The Sound and Letter Check", "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (8 minutes).",
+    "purpose": "Standalone formative check confirming phoneme awareness and letter-sound mapping before connected text reading.",
+    "expectations_assessed": ["B2.1", "B2.2"],
+    "student_learning_goal": "I can hear sounds and match them to letters.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can hear sounds and match them to letters.",
+      "character_watermark": "Sounder Sam with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "Segment the picture into 3 sounds.",
+       "visual_layout": "One picture above a 3-cell sound box for the child to write a sound mark in each cell.",
+       "image_placeholders": [{"id": "FORM_Q1_SEGMENT", "description": "A segment-the-picture layout for Grade 1 formative check, B&W line art. Picture of CAT above a 3-cell sound box. Cells are large enough for letters or marks.",
+         "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["picture", "sounds"], "text_image_alignment_check": "FORM_Q1_SEGMENT at Prompt 1: keywords name the picture and sound segment task."}],
+       "response_type": "draw_or_write", "answer_key": "c-a-t (or 3 marks if not yet writing)."},
+      {"prompt_number": 2, "prompt": "Match each letter to its sound.",
+       "visual_layout": "Three letters on the left and three phoneme bubbles on the right with space for match lines.",
+       "image_placeholders": [{"id": "FORM_Q2_LETTER", "description": "A letter-to-sound match layout for Grade 1 formative check, B&W line art. Left: letters c, m, s. Right: phoneme bubbles /c/, /m/, /s/. Connecting space for match lines.",
+         "placement": "Centred in Prompt 2.", "approximate_size": "medium", "keywords": ["letter", "sound"], "text_image_alignment_check": "FORM_Q2_LETTER at Prompt 2: keywords name the letter-to-sound match task."}],
+       "response_type": "draw_or_write", "answer_key": "c→/c/, m→/m/, s→/s/."},
+      {"prompt_number": 3, "prompt": "How are you feeling? Circle one.",
+       "visual_layout": "Three faces in a row.",
+       "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for Grade 1 formative check, B&W line art. Smile, neutral, thinking.",
+         "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"], "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the feeling-faces self-rating visual."}],
+       "response_type": "self_rate", "answer_key": "Open."}
+    ],
+    "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child. Quick — should take 8 minutes."
+  }],
+  "reflection_sheet": {
+    "title": "My CVC Decoder Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Sounder Sam and Blendy in the top-right with a Junior Decoder certificate. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel? Circle one.",
+       "visual_layout": "Three star-rating ovals labelled with effort levels.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for Grade 1 reflection, B&W line art. Stars from 1 to 3.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "rating"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the star rating visual."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Decoder!"]},
+      {"prompt_number": 2, "prompt": "Did you do these? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO checkbox table for Grade 1 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name the yes-or-no response options."}],
+       "response_type": "circle_yes_no", "options": ["I segmented sounds.", "I matched letters to sounds.", "I blended a CVC word.", "I read a sentence."]},
+      {"prompt_number": 3, "prompt": "My favourite phonics activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle for Grade 1 reflection writing.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the favourite activity reflection space."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for Grade 1 reflection writing.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest", "part"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keywords name the trickiest-part reflection space."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for Grade 1 reflection writing.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the next-time reflection space."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Decoder certificate."
+  }
+}

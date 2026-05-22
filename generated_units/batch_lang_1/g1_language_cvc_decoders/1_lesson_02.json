@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_language_cvc_decoders",
+  "lesson_number": 2,
+  "lesson_title": "Map Letter to Sound",
+  "duration_minutes": 45,
+  "primary_expectations": [
+    "B2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Each LETTER stands for a SOUND. CVC = consonant + vowel + consonant.",
+  "learning_intention": "We are learning to map letters to sounds in CVC words.",
+  "student_learning_goal": "I can map letters to sounds in CVC words.",
+  "success_criteria": [
+    "I can SAY the sound a letter makes.",
+    "I can SHOW the difference between a letter NAME and its SOUND.",
+    "I can BUILD a CVC word using letter cards.",
+    "I can READ the word I built."
+  ],
+  "vocabulary_introduced": [
+    "letter-sound"
+  ],
+  "vocabulary_reinforced": [
+    "phoneme",
+    "segment"
+  ],
+  "manipulatives_used": [
+    "M1_sound_box_card",
+    "M3_letter_cards",
+    "M6_vocab_chart",
+    "M7_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "3-Box Sound Box Cards (drawn with marker on index cards)",
+    "Letter index cards (lowercase a-z, written in marker; 1 set per pair)",
+    "6 picture cards per pair: cat, dog, sun, mat, pin, bag"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Blendy's Letter Show",
+    "hook": "Blendy the Bear: Every letter has a NAME and a SOUND. The name is cee. The SOUND is /c/. Today we map letters to sounds!",
+    "teacher_script": "Blendy the Bear joins Sounder Sam at the carpet (point to a second stuffed animal, sock, or gesture). 'Reader friends — yesterday Sounder taught us words are made of SOUNDS. Today Blendy adds LETTERS. Each LETTER stands for a SOUND.'\n\nDefine. 'A LETTER-SOUND is the SOUND a letter makes — not its name.'\n\nShow name-vs-sound contrast directly. Hold up letter card C. 'NAME is cee. SOUND is /c/. Different!'\n\nRepeat with three letters.\nA: name ay, sound /a/. T: name tee, sound /t/. M: name em, sound /m/.\n\n'Blendy says — when we READ, we use the SOUND, not the name.'\n\nMap letters to sound boxes. Place C, A, T cards. 'Sounds: /c/-/a/-/t/. Read: CAT!'\n\nMap a second word. Replace with D, O, G. 'Sounds: /d/-/o/-/g/. Read: DOG!'\n\n'Blendy says — letters in boxes show a CVC word. Read the SOUNDS, then BLEND.'\n\nClass practice. Build SUN and MAT letter-by-letter on a master sound box. Class says each sound, then reads.\n\nClose. 'Sounder + Blendy say — letter NAME and letter SOUND are different. Use the SOUND to read.'",
+    "student_actions": [
+      "Watch Blendy demo letter-name vs sound for C, A, T, M",
+      "Echo /c/, /a/, /t/, /m/",
+      "Read CAT and DOG built in front sound boxes",
+      "Read SUN and MAT built letter-by-letter"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Build 6 CVC Words",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand each pair a Sound Box Card, a Letter Card set, and 6 picture cards.",
+        "teacher_prompt": "Say: 'Letters and pictures ready.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "For each picture, pairs build the word by placing the matching letter cards in the sound boxes. Then they say the SOUND of each letter and read the whole word.",
+        "teacher_prompt": "Say: 'Build, sound, read.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Pairs trade roles every two pictures.",
+        "teacher_prompt": "Say: 'Trade roles.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch: cover one letter and ask the partner to say only the SOUND of that letter (no name).",
+        "teacher_prompt": "Say: 'Stretch: sound only.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Listen for sounds, not names."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Use 3 pictures only. Teacher places the first letter as a model.",
+      "for_extending": "Pairs swap one letter to make a new word (CAT → MAT → MAP).",
+      "for_ell_or_iep": "Picture cards with familiar items only; pre-sort the letter set into the 9 letters needed.",
+      "for_movement_learners": "Partners stand and act out each sound — touch head for first, belly for middle, toes for last."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: matches letter to sound; says SOUND not name; builds word in sound boxes; reads the whole word; uses slash-notation language when prompted.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Letter→sound",
+        "Builds word",
+        "Reads word",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Sound vs Name Brag",
+    "discussion_prompts": [
+      "What is a LETTER-SOUND?",
+      "Show the SOUND of /c/. Now show the NAME of C.",
+      "Are they the same? (No.)",
+      "What word did you build today?"
+    ],
+    "exit_routine": "Each child shares ONE built word: 'I built /__/-/__/-/__/, that's ___.' Class chants 'HOO knows the sounds? YOU do!'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Letter-sound mapping tracker.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures B2.2 letter-sound mapping."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says the letter NAME inside a word — repairing the name-leakage trap at Grade 1",
+    "rationale": "Common Grade-1 trap on B2.2: child reads C-A-T by saying 'cee, ay, tee' aloud, then can't blend because the names don't blend into the word. The names actively interfere with the sounds. This builds on the Lesson 1 letter-name trap but is harder because letters are now visible.",
+    "setup": "Build activity. Child has placed C, A, T in sound boxes. Reads aloud: 'cee, ay, tee.' Tries to blend: nothing makes sense.",
+    "teacher_script": "Crouch. 'Blendy asks — try the SOUNDS. Each letter has a SOUND. /c/ ... /a/ ... /t/. Now blend: CAT.'\n\nProbe. 'When we read, we say the SOUND. Names are only when we spell out loud or sing the alphabet.'\n\nGeneralise. 'Blendy says — to READ, use the SOUND. To NAME the letter, use the name. Different jobs!'\n\nIf the child still uses names: cover the picture, point to one letter at a time, ask only for the sound. Then uncover and re-attempt the blend.",
+    "expected_student_responses": [
+      "(Confused) 'cee-ay-tee' (no blend)",
+      "(Mid) Sounds with prompts, blends with help",
+      "(Strong) /c/-/a/-/t/ → CAT independently",
+      "(Stretched) 'The name is cee. The sound is /c/. We need the sound.'"
+    ],
+    "common_misconceptions": [
+      "Letter names blend into words. (Repair: only sounds blend.)",
+      "Use whichever — name or sound. (Repair: SOUND for reading.)"
+    ],
+    "recovery_moves": [
+      "Cover picture, point to one letter, ask 'sound?'.",
+      "Tap each letter: 'sound, sound, sound'.",
+      "Demo blending sounds vs names side-by-side: '/c/-/a/-/t/ → CAT. cee-ay-tee → ???'.",
+      "If still stuck, return to auditory-only phoneme work for one minute before re-attempting print."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Blendy's Letter Build",
+    "purpose": "Independent practice of letter-sound mapping in CVC words.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Letter-to-sound match: 4 letter cards with 4 phoneme bubbles. Draw a line from each letter to its SOUND.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Build the word: 4 pictures with empty 3-cell sound boxes. Write the letter for each sound.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Read and circle: 3 sound-box words; circle the picture that matches.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Sounder Sam and Blendy in worksheet header",
+      "4 letter icons + 4 phoneme bubbles for Part 1",
+      "Sound boxes for Part 2",
+      "3 word-and-picture rows for Part 3"
+    ]
+  }
+}

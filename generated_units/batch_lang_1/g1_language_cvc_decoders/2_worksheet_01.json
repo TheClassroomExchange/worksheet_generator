@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g1_language_cvc_decoders", "lesson_number": 1,
+  "worksheet_title": "Sounder's Sound Hunt", "purpose": "Independent practice of phoneme isolation and segmentation.",
+  "student_learning_goal": "I can isolate and segment sounds in CVC words.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can isolate and segment sounds in CVC words.",
+    "character_watermark": "Sounder Sam the Owl in the top-right with a sound-wave necklace. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: First-sound match.", "student_instructions": "Draw a line from each picture to its FIRST sound.",
+     "visual_layout": "Four picture icons on the left and four phoneme bubbles on the right with a connecting space between for drawing match lines.",
+     "image_placeholders": [{"id": "WS01_P1_MATCH", "description": "A Grade 1 first-sound match layout for phonics worksheet, B&W line art. Left column: 4 picture icons (cat, dog, sun, mat). Right column: 4 phoneme bubbles labelled /c/, /d/, /s/, /m/. Space between for student to draw match lines.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["picture", "match"], "text_image_alignment_check": "WS01_P1_MATCH at Part 1: keywords name the picture-to-sound match task and bubble layout."}],
+     "student_response_type": "draw_or_write", "answer_key": "cat→/c/, dog→/d/, sun→/s/, mat→/m/."},
+    {"part_number": 2, "part_title": "Part 2: Sound boxes.", "student_instructions": "For 4 pictures, write ONE sound in each box. If you can't write the letter yet, draw a small mark and say the sound aloud.",
+     "visual_layout": "Four picture icons each above a row of three blank sound boxes for segmenting into phonemes.",
+     "image_placeholders": [{"id": "WS01_P2_BOXES", "description": "A Grade 1 sound box layout for phonics worksheet, B&W line art. 4 pictures (pin, cup, run, lid) each above a 3-cell sound box. Each cell is large enough for a letter or mark. Pictures and boxes share a baseline.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["pictures", "boxes"], "text_image_alignment_check": "WS01_P2_BOXES at Part 2: keywords name the pictures with sound boxes for segmenting."}],
+     "student_response_type": "draw_or_write", "answer_key": "pin: p-i-n; cup: c-u-p; run: r-u-n; lid: l-i-d."},
+    {"part_number": 3, "part_title": "Part 3: Last-sound circle.", "student_instructions": "For 3 pictures, circle the LAST sound you hear.",
+     "visual_layout": "Three picture rows, each with three phoneme choices to circle on the right side.",
+     "image_placeholders": [{"id": "WS01_P3_LAST", "description": "A Grade 1 last-sound circle layout for phonics worksheet, B&W line art. 3 rows, each with: 1 picture on the left (BAG, FOX, JET) and 3 phoneme choices on the right (e.g., row 1: /b/, /a/, /g/). Children circle the LAST sound.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["picture", "circle"], "text_image_alignment_check": "WS01_P3_LAST at Part 3: keywords name the picture-and-circle task for last sound identification."}],
+     "student_response_type": "draw_or_write", "answer_key": "bag→/g/, fox→/x/ (or /s/-pronounced ks), jet→/t/."}
+  ]}],
+  "early_finisher_prompt": "If you finish, draw your own picture and segment it into 3 sound boxes.",
+  "teacher_notes": "Lesson 1 consolidation. Diagnostic — confirm child can segment a CVC word into 3 phonemes with sounds (not letter names)."
+}

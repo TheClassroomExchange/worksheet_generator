@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_language_cvc_decoders",
+  "thematic_title": "CVC Decoders — Grade 1 Phonics",
+  "descriptive_title": "Grade 1 Language: Demonstrations — Decoding CVC Words (B2.1-B2.3)",
+  "grade": "Grade 1",
+  "subject": "Language",
+  "strand": "B. Foundations of Language",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-language/grades/grade-1",
+  "curriculum_codes": ["B2.1", "B2.2", "B2.3"],
+  "curriculum_expectations": {
+    "B2.1": "demonstrate phonemic awareness by manipulating individual phonemes in spoken words, including isolating, blending, segmenting, adding, deleting, and substituting phonemes",
+    "B2.2": "apply foundational knowledge of letter-sound correspondences, including consonant blends and digraphs, to read and spell unfamiliar words containing common spelling patterns",
+    "B2.3": "decode unfamiliar words containing one syllable, including words with consonant blends, digraphs, and common vowel spelling patterns"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 phonics unit on decoding CVC words (B2.1-B2.3) framed around 'CVC Decoders' — Sounder Sam the Owl and Blendy the Bear. Day 1 isolates and segments phonemes (auditory only, no print). Day 2 maps letters to short-vowel sounds. Day 3 blends three sounds into CVC words. Day 4 reads CVC words in connected sentences. Day 5 closes with a Big Decoder Capstone integrating all four skills.",
+  "unit_learning_goal": "Children will isolate, blend, and segment phonemes in CVC words and decode them in connected text.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Hear the Sounds", "primary_expectations": ["B2.1"], "secondary_expectations": [], "big_idea": "Spoken words are made of separate sounds. We can ISOLATE and SEGMENT them.", "student_learning_goal": "I can isolate and segment sounds in CVC words.", "one_line_summary": "Sounder Sam claps phonemes; children segment 8 CVC words on sound boxes."},
+    {"lesson_number": 2, "lesson_title": "Map Letter to Sound", "primary_expectations": ["B2.2"], "secondary_expectations": [], "big_idea": "Each LETTER stands for a SOUND. CVC = consonant + vowel + consonant.", "student_learning_goal": "I can map letters to sounds in CVC words.", "one_line_summary": "Blendy maps c-a-t; children build 6 CVC words with letter cards."},
+    {"lesson_number": 3, "lesson_title": "Blend the Sounds", "primary_expectations": ["B2.2", "B2.3"], "secondary_expectations": [], "big_idea": "BLEND sounds smoothly to read a word: /c/-/a/-/t/ slides into CAT.", "student_learning_goal": "I can blend sounds to decode CVC words.", "one_line_summary": "Sounder and Blendy blend together; children blend 10 CVC words."},
+    {"lesson_number": 4, "lesson_title": "Read Decodable Text", "primary_expectations": ["B2.3"], "secondary_expectations": [], "big_idea": "Apply DECODING to read short sentences with CVC words.", "student_learning_goal": "I can decode CVC words in a sentence.", "one_line_summary": "Children read 6 decodable sentences with mostly-CVC words."},
+    {"lesson_number": 5, "lesson_title": "Big Decoder Capstone", "primary_expectations": ["B2.1", "B2.2", "B2.3"], "secondary_expectations": [], "big_idea": "Decoders HEAR sounds, MAP letters, BLEND, and READ.", "student_learning_goal": "I can decode CVC words and read decodable text.", "one_line_summary": "Children rotate 4 stations: hear, map, blend, read."}
+  ],
+  "expectation_lesson_map": {"B2.1": [1, 5], "B2.2": [2, 3, 5], "B2.3": [3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Sounder Sam the Owl", "role": "Lead character. Phoneme guide. Anchors all 5 lessons.", "visual_description": "A wise young owl with a sound-wave necklace and a mouth shaped like an /o/, holding a 3-cell sound box card."},
+    {"name": "Blendy the Bear", "role": "Decoding partner. Letter-sound and blending coach. Joins from Lesson 2.", "visual_description": "A friendly bear holding a sound-blending strip with letter cards that slide together."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "phoneme", "child_friendly_definition": "A sound in a spoken word."},
+    {"term": "segment", "child_friendly_definition": "Break a word into separate sounds."},
+    {"term": "letter-sound", "child_friendly_definition": "The sound a letter makes (not its name)."},
+    {"term": "blend", "child_friendly_definition": "Slide sounds together: /c/-/a/-/t/ slides into 'cat'."},
+    {"term": "decode", "child_friendly_definition": "Use letter-sounds to read a word."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_sound_box_card", "name": "3-Box Sound Box Card", "description": "Index card with 3 boxes drawn in marker. One per pair.", "used_in_lessons": [1, 2, 3, 5], "clipart_files": []},
+    {"id": "M2_picture_cards", "name": "CVC Picture Cards", "description": "20 picture cards: cat, dog, sun, mat, pin, cup, run, lid, bag, fox, jet, hat, top, web, pig, mop, bed, bus, sit, pen.", "used_in_lessons": [1, 4, 5], "clipart_files": []},
+    {"id": "M3_letter_cards", "name": "Letter Index Cards", "description": "26 index cards, one lowercase letter per card written in marker. One set per pair.", "used_in_lessons": [2, 3, 5], "clipart_files": []},
+    {"id": "M4_decodable_strips", "name": "Decodable Sentence Strips", "description": "6 card-stock strips, each with one short decodable CVC sentence written in marker.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M5_capstone_template", "name": "Big Decoder Capstone Template", "description": "Letter-size template with 4 station response areas.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M6_vocab_chart", "name": "G1 Phonics Vocabulary Chart", "description": "Anchor chart with 5 unit terms and child-friendly definitions.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M7_unit_poster", "name": "CVC Decoders Poster", "description": "Anchor poster of Sounder Sam and Blendy with the 4-step decoder process.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "3-Box Sound Box Cards (drawn on index cards with marker; 1 per pair)",
+    "Picture cards (cut from any source — magazines, prior worksheets, or printed; 20 per set)",
+    "Letter index cards (lowercase a-z, written in marker; 1 set per pair)",
+    "Decodable sentence strips (written in marker on card stock)",
+    "Counters (bottle caps, paper clips, dried beans — any small classroom item; 3 per pair)",
+    "OPTIONAL: a stuffed animal or sock as Sounder Sam (gestures or voice work fine)"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 phoneme-segmentation snapshot.",
+    "formative": "Lesson 2 letter-sound tracker; Lesson 3 blending tracker; Lesson 4 decoding tracker.",
+    "summative": "Lesson 5 capstone."
+  },
+  "pedagogical_notes": [
+    "Grade 1 SoR sequence: phonological awareness → letter-sound → blending → connected text. Maintain this order.",
+    "Day 1 stays purely AUDITORY — no print yet. Children separate sound-work from letter-work.",
+    "Use slash notation /c/-/a/-/t/ throughout teacher_script. Letter NAMES (cee, ay, tee) only when explicitly contrasting.",
+    "Picture cards must use words with predictable short-vowel CVC patterns; avoid digraphs and blends in this unit.",
+    "All required materials are everyday classroom items. Puppet is OPTIONAL — gesture and voice work fine."
+  ],
+  "canadian_context_notes": [
+    "Picture set includes Canadian-friendly items (dog, sun, fox, bus, pen) — no province/region specificity needed for K-G1 phonics.",
+    "Lesson references stay neutral so teachers in any Canadian classroom can use the materials."
+  ]
+}

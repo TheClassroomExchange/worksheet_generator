@@ -1,0 +1,95 @@
+{
+  "schema_version": 1, "unit_id": "g1_language_cvc_decoders",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker", "title": "G1 CVC Decoders — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1.", "expectation_focus": ["B2.1"],
+    "columns": ["Student name", "Names picture", "Segments 3 sounds", "Isolates first/last", "Notes"],
+    "usage_notes": "Walk between pairs to observe phoneme segmentation. Tick where evidence is clear.",
+    "layout_description": "One letter page, portrait, 5-column tick table with 24 rows.",
+    "image_placeholders": [{"id": "AS_DIAG_TRACKER", "description": "Diagnostic tracker for Grade 1 teacher. Title: 'G1 CVC Decoders — Day 1'. B2.1 focus.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "phonemes"], "text_image_alignment_check": "AS_DIAG_TRACKER: keywords name the tracker for tracking phonemes diagnostic."}]
+  },
+  "formative_trackers": [
+    {"tracker_id": "formative_tracker_lesson_02", "title": "G1 CVC Decoders — Lesson 2 Formative (Letter-Sound)",
+     "when_used": "During Lesson 2.", "expectation_focus": ["B2.2"],
+     "columns": ["Student name", "Letter→sound", "Builds word", "Reads word", "Notes"],
+     "usage_notes": "Stop at each pair to observe letter-sound mapping.",
+     "layout_description": "Identical layout to diagnostic.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L2", "description": "Lesson 2 formative tracker for Grade 1 phonics unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "letter"], "text_image_alignment_check": "AS_FORM_TRACKER_L2: keywords name the tracker for letter-sound formative."}]},
+    {"tracker_id": "formative_tracker_lesson_03", "title": "G1 CVC Decoders — Lesson 3 Formative (Blending)",
+     "when_used": "During Lesson 3.", "expectation_focus": ["B2.2", "B2.3"],
+     "columns": ["Student name", "Sounds each letter", "Slides smoothly", "Reads new words", "Notes"],
+     "usage_notes": "Stop at each pair to observe smooth blending.",
+     "layout_description": "Identical layout, Lesson 3 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L3", "description": "Lesson 3 formative tracker for Grade 1 phonics unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "blending"], "text_image_alignment_check": "AS_FORM_TRACKER_L3: keywords name the tracker for blending formative."}]},
+    {"tracker_id": "formative_tracker_lesson_04", "title": "G1 CVC Decoders — Lesson 4 Formative (Decoding)",
+     "when_used": "During Lesson 4.", "expectation_focus": ["B2.3"],
+     "columns": ["Student name", "Tracks word by word", "Decodes CVC words", "Keeps going", "Notes"],
+     "usage_notes": "Stop at each pair to observe sentence reading.",
+     "layout_description": "Identical layout, Lesson 4 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L4", "description": "Lesson 4 formative tracker for Grade 1 phonics unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "decoding"], "text_image_alignment_check": "AS_FORM_TRACKER_L4: keywords name the tracker for decoding formative."}]}
+  ],
+  "summative_rubric": {
+    "title": "G1 CVC Decoders — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 to score against all 3 expectations.",
+    "rows": [
+      {"expectation_code": "B2.1", "expectation_text": "demonstrate phonemic awareness by manipulating individual phonemes in spoken words, including isolating, blending, segmenting, adding, deleting, and substituting phonemes",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot isolate or segment phonemes. Confuses letter names and sounds."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Isolates first sound with prompts. Segments 2 of 3 phonemes."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently isolates first and last sounds and segments CVC words into 3 phonemes."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Manipulates phonemes (substitutes, deletes) and explains the difference between letter name and sound."}]},
+      {"expectation_code": "B2.2", "expectation_text": "apply foundational knowledge of letter-sound correspondences, including consonant blends and digraphs, to read and spell unfamiliar words containing common spelling patterns",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Says letter names instead of sounds. Cannot map letter to phoneme."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Maps some letters to sounds with prompts. Mixes name and sound."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently maps all single letters in a CVC word to their sounds. Builds CVC words."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Articulates name-vs-sound distinction and applies letter-sound knowledge to a new CVC pattern."}]},
+      {"expectation_code": "B2.3", "expectation_text": "decode unfamiliar words containing one syllable, including words with consonant blends, digraphs, and common vowel spelling patterns",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot decode CVC words. Stops at unknowns."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Decodes known CVC words with prompts. Choppy blending."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently decodes new CVC words by blending phonemes smoothly. Reads CVC words in connected sentences."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Re-reads for sense and self-corrects. Decodes a new sentence with at least one previously unseen CVC word."}]}
+    ],
+    "usage_notes": "Score during Lesson 5 capstone. Level 3 is the Grade 1 expectation.",
+    "layout_description": "One letter page, landscape, 3-row × 4-level grid.",
+    "image_placeholders": [{"id": "AS_RUBRIC", "description": "Summative rubric for Grade 1 G1 CVC Decoders unit. 3-row × 4-level table with descriptors.",
+      "placement": "Full page.", "approximate_size": "full_width", "keywords": ["rubric", "phonics"], "text_image_alignment_check": "AS_RUBRIC: keywords name the rubric and phonics focus."}]
+  },
+  "summative_task_script": {
+    "title": "Big Decoder Capstone — Summative Administration Guide",
+    "purpose": "Ties Lesson 5 capstone, the 4 stations, and the rubric together.",
+    "administration_steps": [
+      "Before: photocopy templates, print rubric, ready Junior Decoder certificates.",
+      "Stations 1-4 (~6-7 minutes each): HEAR, MAP, BLEND, READ.",
+      "Station 1 HEAR: segment 2 picture words. Evidence B2.1.",
+      "Station 2 MAP: 4 letter-to-sound matches. Evidence B2.2.",
+      "Station 3 BLEND: build and read 2 CVC words. Evidence B2.2 + B2.3.",
+      "Station 4 READ: decode 2 sentence strips, circle CVC words. Evidence B2.3.",
+      "After: review with each child briefly."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence. Level 3 is grade-level. Score within 24 hours of administration.",
+    "evidence_per_expectation": {
+      "B2.1": "Stations 1 — segmentation evidence.",
+      "B2.2": "Stations 2-3 — letter-sound match and word building.",
+      "B2.3": "Stations 3-4 — blending and connected text reading."
+    }
+  },
+  "certificate": {
+    "title": "Junior Decoder Certificate (G1)",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day G1 CVC Decoders unit and demonstrating the skills of a Junior Decoder. Sounder Sam the Owl and Blendy the Bear congratulate the student.",
+    "skills_demonstrated": [
+      "Hearing and segmenting phonemes",
+      "Mapping letters to sounds",
+      "Blending sounds to read CVC words",
+      "Decoding CVC words in connected text"
+    ],
+    "layout_description": "One letter page, portrait, decorative border, title, recipient line, achievement text, skill bullets, signature lines, small Sounder Sam illustration.",
+    "image_placeholders": [
+      {"id": "AS_CERT_BORDER", "description": "Decorative border for Grade 1 certificate, ~0.5in inset. Scrollwork with sound-wave + letter motifs at corners. B&W line art.", "placement": "Frames the entire page.", "approximate_size": "full_width", "keywords": ["certificate", "border"], "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keywords name the certificate decorative border."},
+      {"id": "AS_CERT_SOUNDER", "description": "Small Sounder Sam the Owl at bottom-centre, ~1.5in tall, holding a sound box card.", "placement": "Bottom-centre.", "approximate_size": "small", "keywords": ["sounder"], "text_image_alignment_check": "AS_CERT_SOUNDER at Bottom-centre: keyword names the Sounder Sam character on certificate."}
+    ],
+    "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false}
+  }
+}

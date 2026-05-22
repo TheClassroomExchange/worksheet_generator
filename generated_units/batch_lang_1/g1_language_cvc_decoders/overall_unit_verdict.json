@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_language_cvc_decoders",
+  "graded_at": "2026-05-08T17:00:00Z",
+  "graded_by": "claude-opus-4-7",
+  "status": "pass",
+  "scores": {
+    "pedagogical_depth": 4,
+    "alignment": 4,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "arc_coherence": 4,
+    "code_coverage": 4,
+    "capstone_integration": 4,
+    "vocabulary_progression": 4,
+    "character_continuity": 4,
+    "sor_alignment": 4
+  },
+  "category_feedback": [],
+  "pairs_to_revise": [],
+  "summary": "All four foundational categories at 4/4. Pedagogy: every lesson names a real Grade-1 trap (letter-name interference in L1, name-leakage in L2, choppy-blend in L3, freeze in L4, integration in L5) with concrete recovery moves. Alignment: B2.1, B2.2, B2.3 all addressed by named lesson activities, expectation_text byte-identical to input_row. Instructional_balance: every required material is everyday (index cards, marker, picture cuts, counters, sentence strips); puppet remains explicitly OPTIONAL throughout. Clarity_voice: Sounder Sam anchors every minds_on with the 'HOO knows the sounds? YOU do!' refrain; Blendy joins from L2 onward with consistent voice. Arc-level: Day 1 PA → Day 2 letter-sound → Day 3 blending → Day 4 connected text → Day 5 capstone follows Ehri's phase progression cleanly. Code coverage map matches the actual lesson activities. Capstone Day 5 explicitly mirrors Days 1-4 with 4 stations (HEAR, MAP, BLEND, READ). Vocabulary introduced exactly per the schedule: phoneme/segment Day 1, letter-sound Day 2, blend Day 3, decode Day 4. SoR alignment: slash notation throughout teacher_script, no three-cueing, no whole-word guessing, name-vs-sound contrast made explicit. Cleared to proceed to manipulatives, formative_reflection, assessment_suite, marketplace, and rubric_grade."
+}

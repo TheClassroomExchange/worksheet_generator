@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_language_cvc_decoders",
+  "deck_url": "https://docs.google.com/presentation/d/1g7D4MG2NcxnS46QJ3IoLdC0W7IjZFONjZWNsRYJcMc0/edit",
+  "pdf_path": "generated_units/batch_lang_1/g1_language_cvc_decoders/validation_export.pdf",
+  "pdf_size_kb": 519,
+  "slide_count": 24,
+  "inspected_at": "2026-05-08T17:30:00Z",
+  "inspected_by": "claude-opus-4-7",
+  "status": "revise_assets",
+  "issues": [
+    {
+      "slide_number": 20,
+      "category": "character_unrecognizable",
+      "description": "Sounder Sam Puppet slide shows a collage of unrelated stock clipart icons (apple, water bottle, T-rex, bed, sock) instead of an owl character. The system has no Sounder Sam SVG; smart_fallback selected slide06_animals_05.png which is not an owl image.",
+      "suggested_fix": "Phase B SVG generation: produce sample_assets/characters/SOUNDER.svg as a B&W line-art owl with sound-wave necklace and sound-box card. Update _smart_fallback to prefer SVG over stock clipart for character keys.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 21,
+      "category": "character_unrecognizable",
+      "description": "Blendy Puppet slide shows a spider web instead of a bear character. The fallback resolved slide06_animals_04.png to a spider web rather than a bear.",
+      "suggested_fix": "Phase B SVG generation: produce sample_assets/characters/BLENDY.svg as a B&W line-art bear with sound-blending strip. Same composer change as SOUNDER.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 8,
+      "category": "image_misplacement",
+      "description": "Worksheet 1 (Sounder's Sound Hunt) preview shows a 'Sort by SHAPE / SQUARES / CIRCLES' diagram — a math template — instead of the phonics first-sound match diagram described in the worksheet JSON.",
+      "suggested_fix": "Add a phonics-specific worksheet composer to pipeline/template_composers.py that renders: first-sound match (4 pictures + 4 phoneme bubbles), sound-box rows (3-cell boxes under pictures), and last-sound circle (picture + 3 phoneme choices).",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 9,
+      "category": "missing_asset",
+      "description": "Worksheet 2 preview shows an empty 'Worksheet area' rectangle labeled 'WS02 P3 READ'. No phonics letter-build visual rendered.",
+      "suggested_fix": "Same as slide 8 — add phonics worksheet composer that renders letter-card-to-phoneme-bubble match diagrams.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 10,
+      "category": "missing_asset",
+      "description": "Worksheet 3 preview shows an empty 'Worksheet area' rectangle labeled 'WS03 P2 MATCH'. No blending diagram rendered.",
+      "suggested_fix": "Add sound-box-with-letters renderer to phonics worksheet composer.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 11,
+      "category": "image_misplacement",
+      "description": "Worksheet 4 preview shows a 'Match Units / Match unit to object' template — a measurement template — instead of the decodable sentence diagram. Also: the instructions displayed duplicate 'Read each sentence' twice (taken from first lines of Part 1 and Part 2 student_instructions).",
+      "suggested_fix": "(1) Add decodable-sentence composer that renders sentences in large clear font with circle space around CVC words. (2) Improve the instruction extraction logic to use distinct text per part, or to use the part_title rather than the first sentence of student_instructions.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 12,
+      "category": "missing_asset",
+      "description": "Worksheet 5 (capstone) preview shows an empty 'Worksheet area' rectangle labeled 'WS05 P3 READ'. No capstone task visual rendered.",
+      "suggested_fix": "Add capstone composite renderer that combines hear+map+blend+read areas.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 13,
+      "category": "missing_asset",
+      "description": "M1 Sound Box Card manipulative preview shows an empty bordered area labeled 'M1 BOXES'. No 6-card layout rendered.",
+      "suggested_fix": "Add manipulative composer that renders 6 sound-box cards in a 2x3 grid, each with 3 cells drawn in marker style.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 14,
+      "category": "missing_asset",
+      "description": "M2 CVC Picture Cards preview shows an empty area labeled 'M2 PICTURES'. No 20-picture-card layout rendered.",
+      "suggested_fix": "Phase B should also generate or compose phonics-specific manipulatives. Picture cards can use existing clipart but in a 4x5 grid layout.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 15,
+      "category": "missing_asset",
+      "description": "M3 Letter Index Cards preview shows an empty area labeled 'M3 LETTERS'. No 26-letter card layout rendered.",
+      "suggested_fix": "Add a renderer that draws 26 letter cards (lowercase a-z) in a 2x13 grid using a clear sans-serif font.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 16,
+      "category": "missing_asset",
+      "description": "M4 Decodable Sentence Strips preview shows an empty area labeled 'M4 STRIPS'. No sentence strips rendered.",
+      "suggested_fix": "Add a renderer that draws 6 horizontal sentence strips with the actual sentence text.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 17,
+      "category": "missing_asset",
+      "description": "M5 Capstone Template preview shows an empty area. No 4-station template rendered.",
+      "suggested_fix": "Capstone template composer needed — same scope as worksheet capstone fix.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 18,
+      "category": "missing_asset",
+      "description": "M6 Phonics Vocabulary Chart preview shows an empty area. No 5-row vocab chart rendered.",
+      "suggested_fix": "Add a chart renderer that draws 5 rows with term + child-friendly definition + small icon.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 19,
+      "category": "missing_asset",
+      "description": "M7 CVC Decoders Poster preview shows an empty area labeled 'Anchor chart'. No poster artwork rendered.",
+      "suggested_fix": "Phase B SVG generation should also produce a unit poster combining Sounder + Blendy + 4-step process icons.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 3,
+      "category": "text_overflow",
+      "description": "Lesson 1 minds_on text cuts off mid-sentence: 'Class chants HOO knows the sounds?' — the closing quote and 'YOU do!' are missing from the slide rendering.",
+      "suggested_fix": "Investigate slide content truncation. Either tighten lesson 1 minds_on script (it was 1319 chars, above the 1300 ceiling that emitted a density warning earlier), or expand the slide layout's content area to fit Grade 1 scripts.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 7,
+  "summary": "Deck published successfully (519 KB PDF, 24 slides) but visual rendering reveals critical gaps for the Language programme. The CONTENT is high quality — title slides, unit overview, lesson plan slides (3-7), summative rubric (22), certificate (23), and marketplace listing (24) all render cleanly with correct text and structure. The CRITICAL ISSUES are: (1) Both character puppet slides (20, 21) show wrong fallback artwork — Sounder Sam appears as random clipart icons (apple, water bottle, T-rex), Blendy appears as a spider web. The stock-clipart fallback that worked acceptably for Math characters fails entirely for owl + bear character types not represented in sample_assets/. (2) All 5 worksheet preview slides (8-12) show generic math/spatial templates ('Sort by Shape', 'Match Units', or empty 'Worksheet area' rectangles) instead of phonics-specific layouts (sound boxes, letter-to-sound match, sentence strips). The existing template_composers were built for math; phonics needs new composers. (3) All 7 manipulative slides (13-19) show empty bordered placeholder areas instead of the actual cards/charts/posters. STATUS: revise_assets. Phase B (SVG character creation) addresses issues 1-2 directly. A new pipeline/template_composers/phonics.py addresses issues 3-15. The 5-day pedagogical content is sound and ready; the visual asset pipeline needs phonics-specific work before scaling to 28 units."
+}

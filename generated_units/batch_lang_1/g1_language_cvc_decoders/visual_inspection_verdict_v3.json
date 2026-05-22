@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_language_cvc_decoders",
+  "build_version": "v3",
+  "deck_url": "https://docs.google.com/presentation/d/1CppJHZ6_3WSR3uRrJc-j9r8tiwD_qp_lcgTqk8iZaVQ/edit",
+  "pdf_path": "generated_units/batch_lang_1/g1_language_cvc_decoders/validation_export.pdf",
+  "pdf_size_kb": 851,
+  "slide_count": 24,
+  "inspected_at": "2026-05-08T18:15:00Z",
+  "inspected_by": "claude-opus-4-7",
+  "status": "pass",
+  "issues": [
+    {
+      "slide_number": 11,
+      "category": "text_overflow",
+      "description": "Worksheet 4 (Read with Sounder + Blendy) instructions show duplicate 'Read each sentence.' on lines 1 and 2 because Parts 1 and 2 of the worksheet JSON both start with 'Read each sentence.' The slide template extracts the first sentence of each part's student_instructions; identical opening sentences produce a duplicate-looking list.",
+      "suggested_fix": "Edit 2_worksheet_04.json: change Part 2 student_instructions to start with a verb that distinguishes it from Part 1 (e.g., 'Match each sentence to its picture.' instead of 'Read each sentence. Draw a line to its picture.'). Same content, different leading verb.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 0,
+  "summary": "v3 deck published at 851 KB (was 519 KB in v1) — 64% larger because every slide now has real phonics content instead of empty placeholders or wrong fallback templates. Comprehensive comparison vs v1 inspection: (1) CHARACTER ART FIXED. Sounder Sam slide (20) now shows the custom owl SVG — recognizable owl with big eyes, beak shaped like /o/, sound box card under wing, talons. Blendy slide (21) shows the custom bear SVG — recognizable bear with ears, snout, body, sound-blending strip with c-a-t letters and slide arrow. Both characters render cleanly at the slide-hero size. (2) WORKSHEET PREVIEWS FIXED. All 5 worksheet preview slides now show real phonics activity layouts: WS1 'Sound Boxes' (4 picture-words with 3-cell boxes), WS2 'Read and Match' (sound-box words with picture choices in 3x3 grid), WS3 'Word to Picture' (4 sound-box words with picture matches), WS4 'Sentence to Picture' (3 sentences matched to pig+hat / dog+bed / cat+bus), WS5 'Read a Sentence' (2 decodable sentences). The previous 'Sort by SHAPE / SQUARES / CIRCLES' math fallback is gone. (3) MANIPULATIVES FIXED. M1 shows 6 sound box cards in 2x3 grid (was empty). M2 shows 20 CVC picture cards with words in a 4x5 grid (was empty). M3 shows 26 lowercase letter cards a-z (was empty). M4 shows 6 decodable sentence strips with actual sentences (was empty). M5 shows 4 capstone stations with HEAR/MAP/BLEND/READ titles, numbered badges, and descriptions (was empty). M6 shows the 5-row phonics vocabulary chart with terms and child-friendly definitions (was empty). M7 shows the unit poster with HEAR→MAP→BLEND→READ flow and the 'HOO knows the sounds? YOU do!' refrain (was empty). (4) LESSON 1 TRUNCATION FIXED. teacher_script tightened from 1319 to 1075 chars; the closing chant 'HOO knows the sounds? YOU do!' now fits on the slide. ONE MINOR REMAINING ISSUE: Worksheet 4 instructions show duplicate 'Read each sentence.' because Parts 1 and 2 of the worksheet JSON both start with that sentence. Easy content fix in the JSON. Severity: minor (does not block publication). UNIT 1/28 IS APPROVED FOR REVIEW. The pipeline now successfully renders Language phonics content end-to-end."
+}

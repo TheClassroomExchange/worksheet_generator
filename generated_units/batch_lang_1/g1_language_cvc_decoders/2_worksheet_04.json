@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g1_language_cvc_decoders", "lesson_number": 4,
+  "worksheet_title": "Read with Sounder + Blendy", "purpose": "Independent practice of decoding CVC words in short sentences.",
+  "student_learning_goal": "I can decode CVC words in a sentence.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can decode CVC words in a sentence.",
+    "character_watermark": "Sounder Sam and Blendy in the top-right pointing at a sentence strip with a finger pointer. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Read and circle.", "student_instructions": "Read each sentence. Circle the CVC words you decoded.",
+     "visual_layout": "Three sentence rows printed in large clear font with circle space around each CVC word for marking.",
+     "image_placeholders": [{"id": "WS04_P1_SENTENCE", "description": "A Grade 1 sentence-read layout for phonics worksheet, B&W line art. 3 sentences in large font: 'The cat sat on a mat.', 'Pat the dog.', 'A pig in a hat.' Each CVC word has space around it for the child to circle.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["sentence", "circle"], "text_image_alignment_check": "WS04_P1_SENTENCE at Part 1: keywords name the sentence rows and circle-the-CVC-word task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Circled: cat, sat, mat, Pat, dog, pig, hat."},
+    {"part_number": 2, "part_title": "Part 2: Match sentence to picture.", "student_instructions": "Read each sentence. Draw a line to its picture.",
+     "visual_layout": "Three sentences on the left and three picture choices on the right with connecting space for match lines.",
+     "image_placeholders": [{"id": "WS04_P2_MATCH", "description": "A Grade 1 sentence-to-picture match layout for phonics worksheet, B&W line art. Left column: 3 sentences ('A pig in a hat.', 'The dog sat on a bed.', 'A cat on a bus.'). Right column: 3 picture scenes matching each. Connecting space between for match lines.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["sentence", "picture"], "text_image_alignment_check": "WS04_P2_MATCH at Part 2: keywords name the sentence and picture match task across two columns."}],
+     "student_response_type": "draw_or_write", "answer_key": "Each sentence to its matching picture."},
+    {"part_number": 3, "part_title": "Part 3: Fill in the word.", "student_instructions": "Pick a CVC word from the box. Write it in the blank.",
+     "visual_layout": "Two sentences with a blank where one CVC word is missing and a word bank box at the top with five word choices.",
+     "image_placeholders": [{"id": "WS04_P3_FILL", "description": "A Grade 1 fill-in-the-blank layout for phonics worksheet, B&W line art. Word bank box at top: cat, dog, sun, mat, pin. Two sentences below with a blank: 'The ___ sat in a hat.' and 'A pig on the ___.'",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["sentence", "blank"], "text_image_alignment_check": "WS04_P3_FILL at Part 3: keywords name the sentence and blank fill-in task with word bank."}],
+     "student_response_type": "draw_or_write", "answer_key": "Sample: 'cat' for first blank, 'mat' for second."}
+  ]}],
+  "early_finisher_prompt": "If you finish, write your own short sentence using a CVC word.",
+  "teacher_notes": "Lesson 4 consolidation. Formative — confirm child reads through sentences without freezing at unknowns and re-reads for sense."
+}

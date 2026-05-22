@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g1_language_cvc_decoders", "lesson_number": 3,
+  "worksheet_title": "Sounder + Blendy Slide", "purpose": "Independent practice of blending CVC words.",
+  "student_learning_goal": "I can blend sounds to decode CVC words.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can blend sounds to decode CVC words.",
+    "character_watermark": "Sounder Sam and Blendy together in the top-right with a sound-blending strip showing letters sliding together. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Sound and slide.", "student_instructions": "For 4 words, sound each letter and SLIDE the sounds together. Read the word.",
+     "visual_layout": "Four sound-box rows, each with three letters already placed and a slide arrow underneath pointing left to right.",
+     "image_placeholders": [{"id": "WS03_P1_SLIDE", "description": "A Grade 1 sound-and-slide layout for phonics worksheet, B&W line art. 4 sound-box rows with letters already filled: c-a-t, m-a-p, s-u-n, l-i-d. Each row has a slide arrow underneath pointing left to right with dots showing the slide motion.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["letters", "slide"], "text_image_alignment_check": "WS03_P1_SLIDE at Part 1: keywords name the letters in sound boxes and the slide arrow gesture."}],
+     "student_response_type": "draw_or_write", "answer_key": "CAT, MAP, SUN, LID."},
+    {"part_number": 2, "part_title": "Part 2: Word to picture.", "student_instructions": "Read each word. Draw a line to its picture.",
+     "visual_layout": "Four sound-box words on the left and four picture choices on the right with connecting space for match lines.",
+     "image_placeholders": [{"id": "WS03_P2_MATCH", "description": "A Grade 1 word-to-picture match layout for phonics worksheet, B&W line art. Left column: 4 sound-box words (DOG, PIN, CUP, BAG). Right column: 4 picture icons. Space between for student to draw match lines.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["word", "picture"], "text_image_alignment_check": "WS02_P2_MATCH at Part 2: keywords name the word and picture match task across two columns."}],
+     "student_response_type": "draw_or_write", "answer_key": "DOG→dog, PIN→pin, CUP→cup, BAG→bag."},
+    {"part_number": 3, "part_title": "Part 3: Read a new word.", "student_instructions": "Read 2 NEW words and write each one on the line.",
+     "visual_layout": "Two sound-box words with empty writing lines below for the child to write the word they read.",
+     "image_placeholders": [{"id": "WS03_P3_NEW", "description": "A Grade 1 new-word read layout for phonics worksheet, B&W line art. 2 sound-box words (FOX, JET) with letters filled. Below each: an empty handwriting line ~3in long for the child to write the word.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["new", "write"], "text_image_alignment_check": "WS03_P3_NEW at Part 3: keywords name the new-word read and write task with handwriting lines."}],
+     "student_response_type": "draw_or_write", "answer_key": "FOX, JET."}
+  ]}],
+  "early_finisher_prompt": "If you finish, build and read one MORE new CVC word in your sound box.",
+  "teacher_notes": "Lesson 3 consolidation. Formative — confirm child blends smoothly and can transfer to a new (Part 3) word."
+}

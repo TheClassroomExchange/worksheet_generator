@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g1_language_cvc_decoders", "lesson_number": 5,
+  "worksheet_title": "Big Decoder Capstone", "purpose": "Summative artifact applying B2.1-B2.3.",
+  "student_learning_goal": "I can decode CVC words and read decodable text.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can decode CVC words and read decodable text.",
+    "character_watermark": "Sounder Sam and Blendy together in the top-right with the 4-step decoder process icons. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Hear + Map.", "student_instructions": "For 2 pictures, segment the word into 3 sounds and write a letter for each sound.",
+     "visual_layout": "Two picture icons each above a 3-cell sound box for writing letters.",
+     "image_placeholders": [{"id": "WS05_P1_HEAR", "description": "A Grade 1 capstone hear-and-map layout for phonics worksheet, B&W line art. 2 pictures (cat, dog) each above a 3-cell sound box. Boxes are large enough for letters.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["picture", "boxes"], "text_image_alignment_check": "WS05_P1_HEAR at Part 1: keywords name the picture and sound box hear-and-map task."}],
+     "student_response_type": "draw_or_write", "answer_key": "cat: c-a-t; dog: d-o-g."},
+    {"part_number": 2, "part_title": "Part 2: Blend.", "student_instructions": "Read each sound-box word. Write the word on the line.",
+     "visual_layout": "Two sound-box words with letters in cells and handwriting lines below for the child to write the blended word.",
+     "image_placeholders": [{"id": "WS05_P2_BLEND", "description": "A Grade 1 capstone blend layout for phonics worksheet, B&W line art. 2 sound-box words (PIN, MAP) with letters filled. Below each: a handwriting line ~3in for the child to write the word.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["letters", "write"], "text_image_alignment_check": "WS05_P2_BLEND at Part 2: keywords name the letters in boxes and write-the-word task."}],
+     "student_response_type": "draw_or_write", "answer_key": "PIN, MAP."},
+    {"part_number": 3, "part_title": "Part 3: Read.", "student_instructions": "Read each sentence. Circle the CVC words you decoded.",
+     "visual_layout": "Two sentence rows printed in large font with circle space around each CVC word.",
+     "image_placeholders": [{"id": "WS05_P3_READ", "description": "A Grade 1 capstone read layout for phonics worksheet, B&W line art. 2 sentences in large font: 'The pig sat in a hat.', 'A bus on the mat.' Each CVC word has space around it for the child to circle.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["sentence", "circle"], "text_image_alignment_check": "WS05_P3_READ at Part 3: keywords name the sentence rows and circle-the-CVC-word reading task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Circled: pig, sat, hat; bus, mat."}
+  ]}],
+  "early_finisher_prompt": "If you finish, write your own decodable sentence using one CVC word.",
+  "teacher_notes": "Lesson 5 capstone. Summative artifact — score on the 5-row rubric in the assessment_suite."
+}

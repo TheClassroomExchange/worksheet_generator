@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_language_cvc_decoders",
+  "narrative": "Five-day phonics arc moving from phonemic awareness on Day 1, to letter-sound mapping on Day 2, to blending on Day 3, to decoding in connected text on Day 4, to a capstone integration on Day 5. Sequence aligns with the Science of Reading consensus path: phonological awareness precedes alphabetic principle precedes blending precedes connected reading. Each day's activities are designed to be reusable in Day 5's stations.",
+  "key_skill_per_day": {
+    "1": "Phoneme isolation and segmentation (auditory only, no print)",
+    "2": "Letter-to-sound mapping for short-vowel CVC patterns",
+    "3": "Blending three sounds into a CVC word",
+    "4": "Decoding CVC words within short connected sentences",
+    "5": "Capstone integration via 4 station rotation"
+  },
+  "scaffolding_strategy": "PA-first per Ehri's phases. Day 1 stays purely auditory so children separate sound-work from letter-work. Day 2 introduces print only after phonological awareness is stable. Day 3 reverses Day 1's operation (segment becomes blend) using the Day 2 letter-sound knowledge. Day 4 transfers blending to connected text. Day 5 rotates back through every prior skill at independent practice level.",
+  "capstone_integration_plan": "Day 5 has 4 stations of approximately 5 minutes each: (1) PA segmenting using picture cards revisits Day 1 (auditory only). (2) Letter-sound match using letter index cards revisits Day 2 (print at letter level). (3) Word building using sound boxes and letter cards revisits Day 3 (blending). (4) Sentence reading using a decodable strip revisits Day 4 (connected text). Each child rotates through all 4 stations. The capstone template records evidence per station for the summative rubric.",
+  "code_coverage_map": {
+    "B2.1": ["Day 1 (primary)", "Day 5 station 1"],
+    "B2.2": ["Day 2 (primary)", "Day 5 station 2"],
+    "B2.3": ["Day 3 (primary)", "Day 4 (primary)", "Day 5 stations 3-4"]
+  },
+  "vocabulary_introduction_schedule": {
+    "Day 1": ["phoneme", "segment"],
+    "Day 2": ["letter-sound"],
+    "Day 3": ["blend"],
+    "Day 4": ["decode"],
+    "Day 5": []
+  }
+}

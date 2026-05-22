@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_language_cvc_decoders",
+  "lesson_number": 1,
+  "lesson_title": "Hear the Sounds",
+  "duration_minutes": 45,
+  "primary_expectations": [
+    "B2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Spoken words are made of separate sounds. We can ISOLATE and SEGMENT them.",
+  "learning_intention": "We are learning to isolate and segment sounds in CVC words.",
+  "student_learning_goal": "I can isolate and segment sounds in CVC words.",
+  "success_criteria": [
+    "I can SAY the first sound of a word.",
+    "I can SAY the last sound of a word.",
+    "I can SEGMENT a CVC word into 3 sounds.",
+    "I can BLEND 3 sounds back into a word."
+  ],
+  "vocabulary_introduced": [
+    "phoneme",
+    "segment"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_sound_box_card",
+    "M2_picture_cards",
+    "M6_vocab_chart",
+    "M7_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "3-Box Sound Box Cards (drawn with marker on index cards)",
+    "8 picture cards per pair (cut from any source)",
+    "3 counters per pair (bottle caps, paper clips, or any small classroom items)",
+    "OPTIONAL: a stuffed animal or sock as Sounder Sam"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Sounder Sam's Sound Hunt",
+    "hook": "Sounder Sam: HOO HOO! Friends — every word is made of SOUNDS. Listen: /s/-/u/-/n/. SUN!",
+    "teacher_script": "Bring children to the carpet. Hold up Sounder Sam (a stuffed animal, sock, or just gesture if no puppet). 'Reader friends — meet Sounder Sam! Sounder hears every SOUND in a word. Today we learn words are made of SOUNDS called PHONEMES.'\n\nDefine. 'A PHONEME is a SOUND in a spoken word. SUN has THREE sounds: /s/-/u/-/n/.'\n\nDemo. Say SUN slowly, one finger per sound: '/s/ first, /u/ middle, /n/ last. Three phonemes, three fingers!'\n\nClass echoes by clapping: /s/ clap, /u/ clap, /n/ clap. Together: '/s/-/u/-/n/. SUN!'\n\nRepeat with MAT and CAT, three claps each.\n\n'Sounder says — every CVC word has THREE sounds!'\n\nFIRST-sound drill. Class shouts only the first sound.\nBAG → '/b/!' PIN → '/p/!' RUG → '/r/!' TOP → '/t/!'\n\nLAST-sound drill. Class shouts only the last sound.\nBAG → /g/. PIN → /n/. RUG → /g/. TOP → /p/.\n\nSegment drill. Class breaks a word into 3 sounds.\nDOG → '/d/-/o/-/g/!' HAT → '/h/-/a/-/t/!'\n\n'Sounder says — when you BREAK a word into sounds, you SEGMENT! New word: SEGMENT.'\n\nClose with the refrain. 'HOO knows the sounds? YOU do!' Class chants it back.",
+    "student_actions": [
+      "Watch Sounder demo",
+      "Echo /s/-/u/-/n/, /m/-/a/-/t/, /c/-/a/-/t/",
+      "Clap each phoneme",
+      "Shout first sound for 4 words",
+      "Shout last sound for 4 words",
+      "Segment DOG and HAT"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Segment 8 CVC Words",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand each pair a Sound Box Card, 3 counters, and 8 picture cards.",
+        "teacher_prompt": "Say: 'Sound boxes ready.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Pairs take turns: name the picture, clap the sounds, push one counter into each box as they say each sound.",
+        "teacher_prompt": "Say: 'Push a counter for each sound.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "After all 3 counters are placed, partner says the whole word back.",
+        "teacher_prompt": "Say: 'Now blend back.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch: pairs identify ONLY the first sound of 4 more pictures.",
+        "teacher_prompt": "Say: 'Stretch: first sound only.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic.",
+        "teacher_prompt": "Stop at each pair. Listen for accurate phonemes."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Use 4 pictures only; teacher segments first as a model.",
+      "for_extending": "Ask the child to substitute the first sound (CAT → MAT).",
+      "for_ell_or_iep": "Picture cards with familiar items only; gesture each sound.",
+      "for_movement_learners": "Use whole-body sound: jump for first, hop for middle, stomp for last."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: names picture; isolates first sound; isolates last sound; segments into three; blends back.",
+      "how_to_record": "Diagnostic checklist — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names picture",
+        "Segments 3 sounds",
+        "Isolates first/last",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Sounder's Sound Brag",
+    "discussion_prompts": [
+      "What is a PHONEME?",
+      "How many phonemes in CAT?",
+      "What does SEGMENT mean?",
+      "Show me /s/. Show me /m/."
+    ],
+    "exit_routine": "Each child segments ONE word: 'I heard /__/-/__/-/__/, that's ___.' Class chants 'HOO knows the sounds? YOU do!'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Tracker of phoneme isolation and segmentation.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 sets the baseline for phonemic awareness."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says LETTER NAMES instead of SOUNDS — repairing the letter-name interference trap at Grade 1",
+    "rationale": "The most common Grade-1 trap on B2.1: child segments CAT as 'cee-ay-tee' (letter NAMES) instead of '/c/-/a/-/t/' (sounds). This is canonical letter-name interference, Ehri's Phase 2 (2005). It signals the child has letter knowledge but hasn't linked names to phonological output yet.",
+    "setup": "Segment activity. Child names CAT picture and says 'cee-ay-tee' instead of '/c/-/a/-/t/'.",
+    "teacher_script": "Crouch beside the child. 'Sounder asks — those are LETTER NAMES. We need SOUNDS.'\n\nProbe. 'Listen carefully to me. /c/ (short cuh sound, no -ee). /a/ (short ah). /t/ (tuh, no -ee). Try with me: /c/-/a/-/t/.'\n\nGeneralise. 'Sounder says — letters have NAMES (cee, ay, tee) and SOUNDS (/c/, /a/, /t/). When we segment, we listen for the SOUNDS.'\n\nIf the child still uses names: contrast directly. 'The NAME is cee. The SOUND is /c/. The NAME is tee. The SOUND is /t/. Different!'\n\nIf still confused: use a known mismatch. 'The letter W — its NAME is doubleyou. But its SOUND is /w/. The name is not the sound!'",
+    "expected_student_responses": [
+      "(Confused) 'cee-ay-tee'",
+      "(Mid) Says sounds with prompts",
+      "(Strong) Segments /c/-/a/-/t/ independently",
+      "(Stretched) Says 'name is cee, sound is /c/' on their own"
+    ],
+    "common_misconceptions": [
+      "Letter names = sounds. (Repair: contrast each one.)",
+      "Long letter names like 'ay' have an extra sound. (Repair: short, clean phoneme.)"
+    ],
+    "recovery_moves": [
+      "Cover the picture and ask only for sounds (no name cue).",
+      "Contrast the name and sound side by side: 'cee... /c/'.",
+      "Use the doubleyou/W demonstration to show name and sound differ.",
+      "Practice with 3 known-easy CVC words before re-attempting."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Sounder's Sound Hunt",
+    "purpose": "Independent practice of phoneme isolation and segmentation.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "First-sound match: 4 picture cards with 4 phoneme bubbles. Draw a line from each picture to its starting sound.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Sound boxes: 4 pictures with a 3-cell sound box below each. Write or mark one phoneme per box.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Last-sound circle: 3 pictures with 3 phoneme choices each. Circle the LAST sound. Two pictures are NEW words to check transfer.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Sounder Sam in worksheet header",
+      "12 picture icons across 3 parts",
+      "Sound boxes for Part 2"
+    ]
+  }
+}

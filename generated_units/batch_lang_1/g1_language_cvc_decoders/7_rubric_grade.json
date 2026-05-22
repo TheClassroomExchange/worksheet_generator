@@ -1,0 +1,14 @@
+{
+  "schema_version": 1, "unit_id": "g1_language_cvc_decoders",
+  "rubric_version": "g1_language_cvc_decoders_v1_2026_05_08",
+  "pre_grade_drift_check": {"consistency_check_issues": 0, "curriculum_text_issues": 0, "image_text_alignment_issues": 0, "placeholder_artwork_count": 0, "passed": true},
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "Every lesson includes expanded_walkthrough naming a real Grade-1 SoR trap (letter-name interference, name-leakage, choppy-blend, freeze-at-unknown, integration) with concrete recovery moves. Pair gates and overall unit gate all passed at Level 4.", "evidence_refs": ["1_lesson_01.json::expanded_walkthrough", "1_lesson_05.json::expanded_walkthrough"]},
+    "instructional_balance": {"score": 4, "justification": "Each lesson follows minds_on / action / consolidation arc. Materials are entirely everyday classroom items (index cards, markers, picture cuts, counters); puppets remain explicitly OPTIONAL throughout. Capstone has 4-station rotation.", "evidence_refs": ["0_blueprint.json::materials_overview", "1_lesson_05.json::action.structure"]},
+    "clarity_communication": {"score": 4, "justification": "Voice consistent: Sounder Sam anchors every minds_on with the 'HOO knows the sounds? YOU do!' refrain; Blendy joins from L2. Vocabulary defined child-friendly. Success criteria all 'I can' phrased.", "evidence_refs": ["1_lesson_01.json::success_criteria"]},
+    "alignment": {"score": 4, "justification": "Curriculum codes B2.1-B2.3 mapped lesson-by-lesson. Summative rubric covers all 3 with descriptors matching blueprint text byte-for-byte.", "evidence_refs": ["0_blueprint.json::expectation_lesson_map", "5_assessment_suite.json::summative_rubric"]},
+    "appearance": {"score": 4, "justification": "Composite generation passes 0 placeholders thanks to smart_fallback + SOUNDER and BLENDY clipart entries.", "evidence_refs": ["composed/.composed_manifest.json"]}
+  },
+  "overall_score": 20, "threshold": 17, "status": "pass", "remediation": [],
+  "graded_by": "claude-opus-4-7", "graded_at": "2026-05-08T17:15:00Z"
+}
