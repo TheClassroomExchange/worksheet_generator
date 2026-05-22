@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "pair_number": 4,
+  "graded_at": "2026-05-08T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "mathematical_authenticity": 3,
+    "sor_alignment": null,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title names the same-numbers-repeated trap (real Grade-1 misconception) but rationale never cites named research and recovery_moves do not branch by diagnostic ('if child can produce one alternative / if child cannot').",
+      "required_fix": "Anchor the trap in named research (Falkner, Levi & Carpenter 1999; Carpenter, Franke & Levi 2003 — operational vs relational view of equality) and branch recovery_moves: (a) if child produces ONE alternative pair, scaffold near-doubles shift 5+5 to 4+6; (b) if child produces none, drop to counters and physically split 10; (c) if variety is addition-only, model 11-1 on the balance.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "differentiation.for_movement_learners says 'Use the balance scale physically' but no explicit no-paper / no-purchase alternative path. Lesson still requires per-pair counters (~30), drawing mats, target card deck, and printed tracker — not runnable on a no-prep day.",
+      "required_fix": "Add an explicit no-materials alternative in differentiation: 'No-prep version — use children's fingers as counters (two hands = 10), draw the balance scale on the whiteboard with one marker, call targets verbally. Children whisper expressions to a partner instead of writing.' Makes Lesson 4 runnable in any classroom on any day per Level 4.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Bella and Bobby anchor minds_on and consolidation, vocabulary is child-friendly, and all success_criteria start with 'I can'. But there is no distinctive quotable Bella refrain or memorable chant — consolidation just lists discussion_prompts and a generic exit sticky-note format.",
+      "required_fix": "Add a Bella refrain children chant at consolidation, e.g., 'Same total, NEW way — that's equivalent!' — repeated by Bella every time a new pair is found, and built into the exit_routine ('Read your sticky aloud: Same total, NEW way!'). Gives the unit a memorable thread per Level 4 descriptor that children carry between lessons.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson teaches equivalence conceptually with the balance scale and includes subtraction and 3-term sums (solid L3). But children are never invited to invent or COMPARE strategies, and expanded_walkthrough does not name the misconception in research-grounded terms (operational vs relational equality).",
+      "required_fix": "In action step 4, have two pairs share lists side-by-side and name the moves they used (commutative swap, near-doubles shift, subtraction inverse). Cite the operational-vs-relational view of equality (Carpenter, Franke & Levi 2003) in expanded_walkthrough.rationale. Invite children to invent their OWN move ('What's a new way nobody has shown?').",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 4 is a solid C2.3 implementation: alignment and lesson-worksheet consistency hit Level 4, with a concrete same-numbers-repeated trap and a faithful 3-part worksheet. Four categories sit at Level 3 — trap lacks named research and branched recovery, no no-prep alternative, no quotable Bella refrain, no strategy-comparison move. Tighten these for a pass."
+}

@@ -1,0 +1,37 @@
+{
+  "unit_id": "g3_number_fraction_street",
+  "pair_number": 3,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 4,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Penny anchors minds_on, action, and consolidation, success_criteria all start with 'I can', and vocabulary is defined child-friendly — solid Level 3. But the consolidation 'Penny's Rounding Brag' has no distinctive quotable refrain or memorable chant that children carry between lessons. The discussion_prompts are generic teacher questions ('What's the rule for rounding to the nearest 10?') and the exit_routine sentence frame '___ rounds to ___ because ___' is a fill-in, not a chantable refrain in Penny's voice. Compare to the Level 4 example: 'HOO knows the sounds? YOU do!' — children chant it back.",
+      "required_fix": "Add a Penny-voiced refrain that chunks the two rules into a chantable couplet children carry between lessons. For example, in consolidation insert: 'Penny's Rounding Rhyme — Nearest TEN, look at ONES; nearest HUNDRED, look at TENS; five-or-MORE, round on UP; four-or-LESS, round back DOWN. Children chant it twice with Penny.' Reference the same chant in lesson 1 minds_on (or include it as Penny's signature so it threads forward to lessons 4 and 5 when Penny still appears in cameo).",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The expanded_walkthrough names the wrong-place rounding error precisely and the recovery moves (underline-the-digit, number-line jumps, target-place-to-rule pairing) are concrete and conceptually grounded. But Level 4 requires (a) children invent or refine a strategy and compare strategies, and (b) the misconception is named in research-grounded terms (Carpenter & Moser CGI, Empson, Battista, etc.). Currently the rule is GIVEN by Penny in minds_on ('Penny says — to round to the nearest ten, LOOK AT THE ONES DIGIT...') before children have a chance to propose their own 'closer to which?' strategy, and no named researcher is cited in expanded_walkthrough.rationale. Step 4's nearest-10-vs-nearest-100 discussion is a strategy comparison but it is teacher-led, not student-invented.",
+      "required_fix": "Add a strategy-invention move in minds_on BEFORE Penny states the rule: after marking 47 on the number line, ask pairs 'How could you decide whether 47 is closer to 40 or 50 WITHOUT counting every jump?' and collect 2-3 student strategies (e.g., 'look at the ones digit', 'see which side of the halfway mark', 'count from the closer ten') on the anchor chart, then introduce the 5-or-more rule as a refinement of student thinking. In expanded_walkthrough.rationale, cite a named source for the wrong-place rounding misconception (e.g., 'Sowder (1992) on number sense and rounding strategies, or NCTM 2014 Principles to Actions on procedural shortcuts that bypass place-value reasoning') so the trap is grounded in research-named terms rather than just described.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

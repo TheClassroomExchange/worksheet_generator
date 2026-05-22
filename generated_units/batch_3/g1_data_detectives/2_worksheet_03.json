@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "lesson_number": 3,
+  "worksheet_title": "Detective Dot's Pictograph",
+  "purpose": "Independent practice of D1.3 — pictograph construction with title, labels, and one-to-one correspondence.",
+  "student_learning_goal": "I can make a pictograph with pictures, a title, and labels.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can make a pictograph with pictures, a title, and labels.",
+    "character_watermark": "Detective Dot in the top-right corner with a pictograph. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Read the pictograph.",
+          "student_instructions": "Look at the pictograph. Write the title and the labels.",
+          "visual_layout": "A pictograph showing 3 rows of fruit pictures (3 apples, 5 bananas, 2 grapes) with row labels missing. Above the pictograph, a blank line for the title. Beside each row, a blank line for the label.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_PICTOGRAPH",
+              "description": "A 3-row pictograph for a Grade 1 worksheet, B&W line art. Row 1: 3 apples drawn in a horizontal line. Row 2: 5 bananas. Row 3: 2 grapes. Each picture ~0.6in across, evenly spaced. Above the pictograph, an empty line ~5in long (no title yet). Beside each row, an empty line ~1.5in long (no labels yet). Designed for the child to fill in title and labels.",
+              "placement": "Centred horizontally in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["pictograph", "fruits"],
+              "text_image_alignment_check": "Image WS03_P1_PICTOGRAPH at Part 1: instructions ask the child to write title and labels. Keywords name the visual elements (pictograph, fruits)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Title: 'Favourite Fruit' (or any sensible title). Labels: Row 1 = Apples, Row 2 = Bananas, Row 3 = Grapes."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Build a pictograph from a tally chart.",
+          "student_instructions": "The tally chart shows 4 categories. Build the pictograph with one picture per tally.",
+          "visual_layout": "Top: a tally chart with 4 rows: Pets — Dogs ||||CROSS (5), Cats |||| (4), Fish ||| (3), Birds || (2). Below: a blank pictograph grid with 4 pre-labelled rows but no pictures.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_TALLY_AND_GRID",
+              "description": "A two-section worksheet area for a Grade 1 worksheet, B&W line art. Top section: a tally chart with 4 rows showing Pets data. Each row has a label (Dogs, Cats, Fish, Birds), a tally area showing the marks (5, 4, 3, 2), and a total box. Bottom section: a blank pictograph grid with 4 pre-labelled rows (Dogs, Cats, Fish, Birds) but no pictures yet — empty cells for the child to draw pictures one-to-one. Each pictograph row has ~7 grid cells.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["tally", "pictograph", "pets"],
+              "text_image_alignment_check": "Image WS03_P2_TALLY_AND_GRID at Part 2: instructions ask the child to build a pictograph from tally data. Keywords name the source format (tally), target format (pictograph), and topic (pets)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Dogs row: 5 dog pictures. Cats row: 4 cat pictures. Fish row: 3 fish pictures. Birds row: 2 bird pictures. All pictures should be similar size, one per cell."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make a pictograph from a family survey.",
+          "student_instructions": "Survey your family at home. Pick a question. Make a pictograph with title and labels.",
+          "visual_layout": "A blank pictograph grid (~5in × 4in) with 3 empty rows. Above the grid, a blank title line. Beside each row, a blank label line.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_BLANK_GRID",
+              "description": "A blank pictograph grid for a Grade 1 worksheet, B&W line art. Grid is ~5in × 4in with 3 empty rows. Each row has ~6 cells with light dotted outlines (so the child knows where to place pictures). Above the grid, a thin blank line for the title. Beside each row, a blank line for the label. Designed for a home family survey.",
+              "placement": "Centred horizontally; spans Part 3.",
+              "approximate_size": "full_width",
+              "keywords": ["pictograph", "family"],
+              "text_image_alignment_check": "Image WS03_P3_BLANK_GRID at Part 3: instructions ask the child to make a family survey pictograph. Keywords name the format (pictograph) and source (family)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid pictograph with: a title, 3 labels, and one-to-one pictures matching the family survey data. Common: 'Favourite Season' with rows for Summer/Winter/Spring."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, add a 4th row to your family pictograph.",
+  "teacher_notes": "Lesson 3 consolidation artifact. Use Part 2 as the formative signal for one-to-one — children who place exactly one picture per tally have grasped the rule."
+}

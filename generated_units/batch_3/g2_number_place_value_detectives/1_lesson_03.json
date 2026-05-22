@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "lesson_number": 3,
+  "lesson_title": "The Even/Odd Investigation",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B1.5"
+  ],
+  "secondary_expectations": [
+    "B1.4"
+  ],
+  "big_idea": "Even numbers can pair up with no leftover. Odd numbers always have one left over.",
+  "learning_intention": "We are learning to describe what makes a number even or odd by using the pair-up test, and to connect skip-counting by 2s to the even numbers.",
+  "student_learning_goal": "I can describe what makes a number even or odd, and use the pair-up test to check.",
+  "success_criteria": [
+    "I can pair up the items in a small collection and tell whether it is even or odd.",
+    "I can describe an even number as one that pairs up with no leftover.",
+    "I can skip-count by 2s and notice that I land only on even numbers."
+  ],
+  "vocabulary_introduced": [
+    "even",
+    "odd",
+    "pair-up test"
+  ],
+  "vocabulary_reinforced": [
+    "skip-count"
+  ],
+  "manipulatives_used": [
+    "M6_pair_up_cubes",
+    "M7_hundreds_chart",
+    "M3_number_line_200"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart 'Even or Odd?' with two columns and a Pair-Up Test rule",
+    "OPTIONAL: Detective Ona Ones (single '1' badge, paper-clip evidence bag) — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Per-pair set of 30 snap cubes (pair-up cubes)",
+    "Hundreds Chart 1-100 (one per pair)",
+    "Sticky notes 1-100 (for the whole-class even/odd sort)",
+    "Lesson 3 even/odd tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Ona's Pair-Up Test",
+    "hook": "Detective Ona has 7 paper clips. She wants to PAIR them up. Can she? Ona opens: 'Pair them UP — leftover DOWN! Even, even, ODD!'",
+    "teacher_script": "Bring children to the carpet. Reveal Detective Ona Ones the puppet. 'Friends — meet Detective Ona. She's small but mighty. Ona handles the ONES place — she checks which numbers can PAIR UP and which always have one left over.' Wiggle Ona excitedly with her paper-clip evidence bag.\n\n'Watch Ona's investigation.' Pour out 7 paper clips from Ona's bag. 'Ona has SEVEN paper clips. Can she pair them up?' Pair them: 1 pair, 2 pairs, 3 pairs — one left over. 'Three pairs and ONE LEFT OVER. Ona says — 7 is ODD. There's always one paper clip without a partner.'\n\nWrite on the chart in the ODD column: 7.\n\n'Now let's try 8.' Pour 8 paper clips. Pair them: 1, 2, 3, 4 pairs. 'Four pairs and NONE left over. Ona says — 8 is EVEN. Every paper clip has a partner.' Write 8 in the EVEN column.\n\n'Try 12.' Pair them: 6 pairs, none left over. EVEN. Write 12.\n\n'Try 13.' Pair them: 6 pairs, 1 leftover. ODD. Write 13.\n\nNow the connection move. 'Ona wonders — is there a PATTERN? Look at the even numbers we found: 8, 12. And we know 4, 6, 10 are even from before. Look at the odd numbers: 7, 13. And we know 3, 5, 9, 11 are odd.' Skip-count by 2s aloud: 2, 4, 6, 8, 10, 12, 14, 16, 18, 20. 'These are ALL even! When we skip-count by 2s, we land ONLY on even numbers. That's the connection.'\n\nWrite the rule: EVEN = pairs up with no leftover = skip-count-by-2s landing.\n\n'Today we'll investigate every number from 1 to 100. We'll figure out which are even and which are odd.'",
+    "student_actions": [
+      "Watch Ona pair up 7 paper clips and discover the leftover.",
+      "Help pair up 8 and 12 (even) and 13 (odd).",
+      "Skip-count by 2s as a class.",
+      "Echo the new vocabulary: 'even', 'odd', 'pair-up test'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Pair-Up Stations and the Hundreds Chart Sort",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: do 4 more pair-up tests on the carpet. Numbers: 9 (odd), 14 (even), 17 (odd), 20 (even). For each, lay out the cubes and physically pair them; leftover means odd. After all 4, ask 'is there a faster way to check?' Lead children to notice that the LAST DIGIT tells you: 0, 2, 4, 6, 8 = even; 1, 3, 5, 7, 9 = odd.",
+        "teacher_prompt": "Say to students: 'Four more pair-up tests. Tell me even or odd as I pair them.' For each, pair physically and ask. After 17, pause: 'Is there a FASTER way?' Lead them to the last-digit rule. 'If the last digit is 0, 2, 4, 6, or 8 — EVEN. If 1, 3, 5, 7, or 9 — ODD.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Introduce the hundreds chart sort. Hand each pair a 1-100 hundreds chart. 'Highlight every EVEN number with one colour. Every ODD number with a different colour.' Children work for 5-7 minutes. Then look at the pattern as a whole class: even numbers form columns 2, 4, 6, 8, 0; odd numbers form columns 1, 3, 5, 7, 9.",
+        "teacher_prompt": "Say to students: 'On your hundreds chart, highlight even numbers green and odd numbers orange. Use the last-digit rule. Work fast — you have about 6 minutes.' Circulate. After 6 min, gather everyone: 'What do you see?' Children notice the alternating column pattern."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Pair-Up Investigation — pair has 30 snap cubes; teacher partner sets out a target collection of 12-25 items; the other partner pairs them and writes EVEN or ODD. Station B: Skip-Count by 2s on the Number Line — pair walks 0-200 number line by 2s; partner records the landing numbers. Station C: Last-Digit Sort — pair has 20 number cards (e.g., 47, 132, 89, 156, 174); they sort into EVEN and ODD piles using the last-digit rule.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Listen for the chime to switch.' Set the rotation."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record formative evidence on the even/odd tracker. Watch for: (a) does the child use the pair-up test correctly with concrete cubes? (b) does the child apply the last-digit rule for larger numbers (where pairing-up isn't practical)? (c) can the child connect skip-counting by 2s to the even number set?",
+        "teacher_prompt": "Stop at each pair. Ask 'Is 87 even or odd? How do you know?' Mark the tracker for pair-up vs. last-digit reasoning. Children who say 'odd because 7 is odd' are using the last-digit rule (good); children who try to physically pair 87 cubes are still anchored on concrete (also good but slower)."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose Lesson 1-2 work was emerging stay at Station A (Pair-Up Investigation) for both rotations. Use only collections of 12 or fewer cubes to anchor the pair-up concept before extending to larger numbers.",
+      "for_extending": "Stretch sort cards: 3-digit numbers including 200, 187, 100, 99. Stretch question: 'Is there a number that's BOTH even and odd?' Lead to the answer: NO — they're mutually exclusive.",
+      "for_ell_or_iep": "Provide a sentence frame: '___ is ___ because ___.' Example: '8 is even because it pairs up with no leftover.' Provide picture-supported pair-up cards. Pair with a strong-counter peer for Station C (the last-digit sort).",
+      "for_movement_learners": "Skip-Count by 2s on the Number Line at Station B is naturally kinesthetic. Allow movement learners extra rotations. The body-on-floor walk reinforces the skip-2 → even-number connection."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: (1) does the child use the pair-up test correctly with cubes? (2) does the child apply the last-digit rule for larger numbers? (3) can the child verbalise the connection between skip-counting by 2s and the even numbers?",
+      "how_to_record": "Tick the even/odd tracker per child as you observe.",
+      "tracker_columns": [
+        "Student name",
+        "Uses pair-up test with cubes",
+        "Applies last-digit rule",
+        "Connects skip-2 to even numbers",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Ona's Pair-Up Brag",
+    "discussion_prompts": [
+      "What does it mean for a number to be EVEN?",
+      "Why does the last-digit rule work?",
+      "Is 137 even or odd? How do you know without pairing up 137 things?",
+      "What numbers do we land on when we skip-count by 2s? What about by 5s?"
+    ],
+    "exit_routine": "Ona's even/odd refrain — class chants: 'Pair them UP — leftover DOWN! Even, even, ODD!' Repeat 3x. Each child tests one number by pairing."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Pair-up test execution, last-digit rule application, and skip-count-2-to-even connection across 3-5 problems per child observed during station rotations.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 is the B1.5 (even/odd) gateway. Children who can apply the last-digit rule to any number to 200 are at L4; children who still need cubes for larger numbers are at L3 or L2. The skip-count connection is the bridge to multiplicative thinking later in Grade 2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says 27 is even because 'most of the digits are even' — repairing the digit-counting fallacy for even/odd",
+    "rationale": "On even/odd, the Grade-2 trap is rote-pattern recognition without structural understanding (Ross 1989 place-value 'digit-by-digit'; NCTM number trajectories): child memorises 'ends in 0/2/4/6/8 = even' but cannot pair-and-test. Without pair-test reasoning, Lesson 4 estimation work cannot ground.\n\nYesterday compose/decompose/compare; today even/odd by pairing. Lesson 4 estimation; Lesson 5 fair shares.",
+    "setup": "Pair is at Station C (Last-Digit Sort). The child has drawn the card 27. They say '27 is half-and-half because 2 is even and 7 is odd.' They place the card in a 'maybe' pile they invented. The teacher steps in.",
+    "teacher_script": "Crouch beside the child. 'Tell me about the 27 card.' The child says 'It's half-and-half. The 2 is even. The 7 is odd.' Pause. 'OK — let's check that with cubes. Can we pair 27 cubes into pairs of 2?' Reach for the snap cubes. 'I'll start. Take 27.' Hand them 27 cubes. 'Pair them.'\n\nThe child starts pairing: 1, 2, 3… 13 pairs and 1 left over. 'How many pairs and how many leftover?' '13 pairs and 1 left over.' 'So is 27 EVEN or ODD?' 'ODD.' 'Right. Just ONE odd — there's a leftover. Even though the FIRST digit was even (2), the WHOLE number is odd because there's a leftover when we pair up.'\n\nNow the rule. 'Ona says — only the LAST digit matters for even/odd. Why?' Pause. 'Because the last digit is the ONES. And ONES are what you pair up. The 2 in 27 isn't really 2 — it's 20. And 20 pairs up perfectly (10 pairs). It's just the 7 ones that DON'T pair up perfectly. 7 has one leftover. So 27 has one leftover too.'\n\nHave the child redo the sort. 'Try the next card.' Hand them 134. The child looks at the last digit: 4. 'Even.' 'Right. 134 has 13 tens (130 — pairs perfectly) and 4 ones (pairs perfectly). EVEN.' Tick 'applies last-digit rule' on the tracker.\n\nIf the child STILL applies the digit-counting fallacy: the rule hasn't connected to the WHY. Repair by going back to two-digit numbers and showing that the tens always pair up perfectly (every 10 = 5 pairs). 'No matter what the tens digit is, the tens always pair up. Only the ones can have a leftover.' This grounding rule unlocks the last-digit shortcut.\n\nLong-term recovery: have a daily warm-up for the next week: 'Even or odd?' for three different numbers. Over 5 days the child sees 15 examples and the last-digit rule becomes automatic.",
+    "expected_student_responses": [
+      "(Confused) Applies digit-counting or majority rule (e.g., '27 is even because most of the digits are even, sort of'). Most common at the start of Lesson 3 for transition learners.",
+      "(Mid) Uses pair-up test correctly with cubes for small numbers; tries digit-counting for large numbers. Has the concrete strategy but not the abstract rule yet.",
+      "(Strong) Applies the last-digit rule. Says '27 is odd because the last digit is 7'. Doesn't need to pair up cubes for any number to 200.",
+      "(Stretched) Volunteers the WHY: 'The tens always pair up perfectly, so only the ones can have a leftover, so only the last digit matters.' Has internalised the rule's logic, not just the rule."
+    ],
+    "common_misconceptions": [
+      "Even and odd are about the digit values, not the position. (Children look at all the digits and try to compute an even/odd from them. Repair: only the last digit matters because it's the ones.)",
+      "If a number has any even digit, the whole number is even. (Mostly-even fallacy. Repair: 27 has a 2 but is odd — the LAST digit decides.)",
+      "Numbers with more digits are always even. (Children associate big numbers with even because Grade 1 'count by 2s' covers 2-100. Repair: 137 is bigger than 56 but 137 is odd while 56 is even — it's the last digit, not the size.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child uses last-digit rule but can't justify: physical pair-test — child pairs counters; if all pair = EVEN, one left over = ODD.",
+      "DIAGNOSTIC B — child can pair small numbers but stalls on 3-digit: explicit rule 'only the ONES place determines even/odd' with place-value chart highlighted on the ones column.",
+      "DIAGNOSTIC C — child confuses 0 as even/odd: drill '0 pairs with 0 — even by convention'; physical demo with empty pile."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Ona's Even/Odd Probe",
+    "purpose": "Independent practice of B1.5 (even/odd) with reinforcement of B1.4 (skip-counting by 2s). Captures formative evidence on pair-up test, last-digit rule, and the skip-count connection.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Six pair-up scenes. Each scene shows a small collection (e.g., 9 cubes, 12 cubes, 15 cubes). The child draws the pairing and writes EVEN or ODD.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Twelve numbers in a 4x3 grid. The child circles the EVEN numbers and underlines the ODD numbers using the last-digit rule. Numbers include 27, 134, 156, 89, 200, 137, 78, 99, 145, 60, 31, 174.",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 3,
+        "task": "Skip-Count by 2s on a Number Line strip. The child fills in the missing numbers in three skip-count tasks: by 2s starting at 4 (to 30); by 2s starting at 17 — TRICKY, this lands on odd numbers (17, 19, 21, ...); by 2s starting at 100 (to 130). Discuss why starting at an odd number gives all odd results.",
+        "response_type": "write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Ona Ones in the worksheet header",
+      "Six pair-up scene illustrations for Part 1",
+      "A 4x3 grid of 12 numbers for Part 2",
+      "Three Number Line strips for Part 3"
+    ]
+  }
+}

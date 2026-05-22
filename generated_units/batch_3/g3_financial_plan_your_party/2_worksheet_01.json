@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_financial_plan_your_party",
+  "lesson_number": 1,
+  "worksheet_title": "Pat's Quick Change",
+  "purpose": "Independent practice of F1.1 estimation.",
+  "student_learning_goal": "I can estimate change for whole-dollar transactions.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can estimate change for whole-dollar transactions.",
+    "character_watermark": "Pat the Party Planner Pup in the top-right with a clipboard and party hat. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Round prices.",
+          "student_instructions": "Round 4 prices to the nearest dollar.",
+          "visual_layout": "Four price lines with rounding answer slots beside each.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_ROUND",
+              "description": "A Grade 3 round-prices layout for money worksheet, B&W line art. 4 prices with rounding lines: $2.95, $4.20, $7.80, $13.10. Each with answer slot.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "prices",
+                "round"
+              ],
+              "text_image_alignment_check": "WS01_P1_ROUND at Part 1: keywords name the prices and round task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "$3, $4, $8, $13."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Estimate change.",
+          "student_instructions": "For 4 transactions, estimate the change.",
+          "visual_layout": "Four transaction boxes with price, paid amount, and estimated change line.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_EST",
+              "description": "A Grade 3 estimate-change layout for money worksheet, B&W line art. 4 transactions: 1) $4 paid $5, 2) $7 paid $10, 3) $13 paid $20, 4) $9 paid $10. Each with estimated change line.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "transactions",
+                "estimate"
+              ],
+              "text_image_alignment_check": "WS01_P2_EST at Part 2: keywords name the transactions estimate task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "$1, $3, $7, $1."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Round and estimate.",
+          "student_instructions": "Item $4.50, pay $5. Round and estimate change.",
+          "visual_layout": "Single transaction with rounding and estimating space.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_BOTH",
+              "description": "A Grade 3 round-and-estimate layout for money worksheet, B&W line art. Transaction: 'Item $4.50, pay $5.' Below: 'Rounded price ___', 'Estimated change ___'.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "round",
+                "estimate"
+              ],
+              "text_image_alignment_check": "WS01_P3_BOTH at Part 3: keywords name the round and estimate combined task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Sample: Item priced $4.50, paid $5. Round to $5 and $5. Estimated change: $0. Exact change (preview): $0.50. Accept any answer that rounds correctly."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, estimate change for $25 paid $30.",
+  "teacher_notes": "Lesson 1 consolidation. Diagnostic — check rounding and estimating."
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 5,
+  "worksheet_title": "Max's Carnival Capstone",
+  "purpose": "Summative artifact applying A10.1 and A10.2 across length, mass, and capacity. Used as Lesson 5 capstone evidence.",
+  "student_learning_goal": "I can compare and measure things in different ways.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compare and measure things in different ways.",
+    "character_watermark": "Max and Tess together in the top-right corner with carnival hats. Small (~1.5in tall combined). References both characters from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: LENGTH carnival!",
+          "student_instructions": "Number the strips 1 (shortest) to 4 (longest). Then measure your favourite with cubes — write how many cubes long.",
+          "visual_layout": "Four horizontal strips of varied lengths stacked vertically, all aligned at the left edge. Lengths: 1in, 4in, 2in, 3in (mixed). Beside each strip, a number box. Below the strips, a single response line: 'My favourite is ___ cubes long.'",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_STRIPS",
+              "description": "Four horizontal strips for a Kindergarten capstone worksheet, B&W line art. Lengths in mixed order from top to bottom: 2in, 4in, 1in, 3in. Each strip ~0.4in tall, thin solid border, aligned at the left edge. Beside each strip, an empty number box (~0.5in × 0.5in) for ordering 1-4. Below the strips, a single sentence-frame line for recording cube measurement.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "medium",
+              "keywords": ["strips", "cubes", "longest"],
+              "text_image_alignment_check": "Image WS05_P1_STRIPS at Part 1: instructions ask the child to order strips and measure with cubes. Keywords name the visual elements (strips), the unit (cubes), and the comparison endpoint (longest)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Top to bottom: 2in→2, 4in→4, 1in→1, 3in→3. Cube count varies based on which strip the child picks (1in≈3 cubes, 2in≈6 cubes, 3in≈9 cubes, 4in≈12 cubes if cubes are 1cm)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: MASS carnival!",
+          "student_instructions": "Look at each balance. Write H by the heavier side and L by the lighter side. If the balance is level, write S (same).",
+          "visual_layout": "Three balance pictures stacked vertically. Each balance has two pans with a different object pair: (1) brick + feather (brick lower), (2) book + pencil (book lower), (3) two same blocks (level). Each balance ~3in × 2in. Beside each pan, a label box.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_BALANCES",
+              "description": "Three balance pictures in B&W line art for a Kindergarten capstone worksheet. Each balance has a triangular fulcrum and two horizontal pans. Balance 1: brick on left (lower) + feather on right (higher). Balance 2: book on left (lower) + pencil on right (higher). Balance 3: two same blocks on each side, balance level (both pans equal height). Each ~3in × 2in. Beside each pan, a small empty box for writing H, L, or S.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["balance", "heavier", "lighter"],
+              "text_image_alignment_check": "Image WS05_P2_BALANCES at Part 2: instructions ask the child to label balances with H/L/S. Keywords name the visual artifact (balance) and the response options (heavier, lighter)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Balance 1: brick=H, feather=L. Balance 2: book=H, pencil=L. Balance 3: both blocks=S (same)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: CAPACITY carnival!",
+          "student_instructions": "Circle the cup that holds MORE in each pair. Then find a SAME-capacity pair and circle BOTH cups.",
+          "visual_layout": "Three cup pairs stacked vertically. Pair 1: large mug + small espresso cup. Pair 2: bowl + glass. Pair 3: two identical cups. Each pair ~3in × 1.5in. Below the pairs, a small label: 'Pair 3 = SAME capacity'.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_CUPS",
+              "description": "Three cup pairs in B&W line art for a Kindergarten capstone worksheet. Pair 1: large coffee mug + tiny espresso cup. Pair 2: cereal bowl + small drinking glass. Pair 3: two identical drinking cups. Each pair ~3in × 1.5in. Below the pairs, a small label box noting pair 3 is SAME capacity.",
+              "placement": "Centred horizontally; spans Part 3.",
+              "approximate_size": "full_width",
+              "keywords": ["cups", "more", "same"],
+              "text_image_alignment_check": "Image WS05_P3_CUPS at Part 3: instructions ask the child to circle holds-more cups and identify a same-capacity pair. Keywords name the visual elements (cups) and comparison criteria (more, same)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pair 1: large mug. Pair 2: bowl. Pair 3: BOTH cups circled (same capacity)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw your favourite carnival station. Tell your partner why.",
+  "teacher_notes": "Lesson 5 capstone — summative evidence for the unit. Score against the capstone rubric. Part 1 captures A10.1 (cubes) + A10.2 (length comparison). Part 2 captures A10.2 (mass). Part 3 captures A10.2 (capacity, including 'same' recognition). Children who score full marks across all 3 parts demonstrate full unit mastery."
+}

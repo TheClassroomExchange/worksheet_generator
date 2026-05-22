@@ -1,0 +1,54 @@
+{
+  "unit_id": "g2_spatial_mirror_mirror",
+  "pair_number": 4,
+  "status": "revise_both",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use top-down photos.', 'Drill bird\\'s eye.', 'Compare side vs top views.'] — concrete but does not branch by diagnostic, and the trap is not anchored to named research on spatial reasoning development.",
+      "required_fix": "Cite Battista (spatial reasoning) or Liben & Downs (children's mapping/perspective-taking research) by name in the rationale, and branch recovery_moves: if child can articulate 'above' but draws side view, do the drone-photo overlay; if child cannot conceive of bird's-eye view at all, drop back to physically standing on a chair to look down at a desk, then trace the footprint onto paper before re-attempting the map.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "differentiation block lists for_emerging/for_extending/for_ell_or_iep/for_movement_learners but provides NO no-paper, no-purchase alternative path. lesson_specific_materials still requires 'Map Template (1 per pair)' and 'Map Symbol Cards (12)' for the action stations.",
+      "required_fix": "Add an explicit no-materials version to differentiation: e.g., 'No-paper version — children walk a small zone of the classroom and SAY their map aloud (\"From the door, I see a square desk on my left, then a circle carpet, then a long rectangle bookshelf\"). Use chalk on the floor or fingers traced on a partner's back as the bird's-eye sketch.' This makes Lesson 4 runnable on a day when no template was photocopied.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the side-view-vs-top-down trap but does not invite children to invent or compare mapping strategies, and does not cite the spatial-reasoning research base (Battista, Liben & Downs, NRC 'Learning to Think Spatially').",
+      "required_fix": "Add a strategy-comparison move in the action: have two pairs share their bedroom maps and compare how they chose symbols — 'Sam drew the bed as a rectangle; Priya drew it as a rectangle with a pillow circle. Which symbol is easier for a reader? Why?' Then in expanded_walkthrough.rationale, name the misconception in research terms (Liben & Downs: children's developing understanding of representational correspondence on maps; or Battista on the projective-to-orthographic shift).",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Parts 2 and 3 (map bedroom; map a place at home) are near-rote repeats of lesson Action Stations B and C. The worksheet does not deliberately VARY format with a transfer task or include 2 unfamiliar items to verify generalization. Part 1's pre-built map (bed, desk, door, window) duplicates the bedroom items children just mapped in the lesson rather than introducing novel objects.",
+      "required_fix": "Vary Part 1: replace the bedroom pre-built map with a NEW context (e.g., a kitchen or library top-down) so children must transfer the read-symbols skill to unfamiliar items. Add a deliberate stretch in Part 3: 'Include at least 2 objects you did NOT map in class (e.g., a pet bed, a bookshelf, a rug)' and note the transfer rationale in worksheet teacher_notes. Justify the variation explicitly.",
+      "affected_stages": ["lesson_04", "worksheet_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ]
+}

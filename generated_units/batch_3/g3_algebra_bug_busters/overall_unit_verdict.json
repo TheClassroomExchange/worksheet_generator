@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "overall_unit_grader",
+  "status": "pass",
+  "scores": {
+    "pedagogical_depth": 4,
+    "alignment": 4,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "arc_coherence": 4,
+    "code_coverage": 4,
+    "capstone_integration": 4,
+    "vocabulary_progression": 4,
+    "character_continuity": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 4
+  },
+  "category_feedback": [],
+  "pairs_to_revise": [],
+  "summary": "Arc reads cleanly: D1 read concurrent, D2 write, D3 find bugs, D4 fix, D5 capstone bug-swap. Each expanded_walkthrough cites research (Bers 2019, Grover & Pea 2013, Pea 1986, Brennan & Resnick 2012) with A/B/C recovery moves. Buzz anchors L1-5; Patch cameos L2-5 per blueprint. Refrains chant 3x. Vocab lock-steps with skills (concurrent L1, repeating L2, bug/outcome L3, alter L4, reinforced L5). C3.1 and C3.2 map to named action activities. L5 integrates L1-L4. All ten scores 4. Clears strict bar."
+}

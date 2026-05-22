@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "lesson_number": 3,
+  "worksheet_title": "Bella's Mystery Numbers",
+  "purpose": "Independent practice of C2.2 (missing-number equations).",
+  "student_learning_goal": "I can find the missing number that makes two expressions equal.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can find the missing number that makes two expressions equal.", "character_watermark": "Bella in the top-right corner with a question mark. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Missing Addition Numbers", "student_instructions": "Find the missing number in each addition equation.", "visual_layout": "Top of the page. Eight rows in a 4x2 grid.",
+      "image_placeholders": [{"id": "WS03_P1_EIGHT_ADDS", "description": "Eight missing-addition equations in B&W line-art, 4-row × 2-column grid. Each ~3.5in × 0.7in. Equations: 4+?=7, ?+5=9, 6+?=10, ?+3=8, 5+?=12, ?+4=11, 8+?=15, ?+7=15.", "placement": "Top of the page; 4x2 grid.", "approximate_size": "full_width", "keywords": ["missing", "addition"], "text_image_alignment_check": "Image WS03_P1_EIGHT_ADDS: keywords (missing, addition) name what the equations ask for."}],
+      "student_response_type": "write", "answer_key": "4+3=7. 4+5=9. 6+4=10. 5+3=8. 5+7=12. 7+4=11. 8+7=15. 8+7=15."},
+    {"part_number": 2, "part_title": "Part 2: Missing Subtraction Numbers", "student_instructions": "Find the missing number in each subtraction equation.", "visual_layout": "Middle. Six rows in a 3x2 grid.",
+      "image_placeholders": [{"id": "WS03_P2_SIX_SUBS", "description": "Six missing-subtraction equations in B&W line-art, 3-row × 2-column grid. Each ~3.5in × 0.7in. Equations: 8-?=5, ?-2=4, 10-?=3, ?-3=2, 9-?=4, ?-4=6.", "placement": "Middle; 3x2 grid.", "approximate_size": "full_width", "keywords": ["missing", "subtraction"], "text_image_alignment_check": "Image WS03_P2_SIX_SUBS: keywords (missing, subtraction) name what the equations ask for."}],
+      "student_response_type": "write", "answer_key": "8-3=5. 6-2=4. 10-7=3. 5-3=2. 9-5=4. 10-4=6."},
+    {"part_number": 3, "part_title": "Part 3: Balance Mysteries", "student_instructions": "Each balance shows one side counted. Write the equation and find the missing number.", "visual_layout": "Bottom of the page. Three balance drawings stacked.",
+      "image_placeholders": [{"id": "WS03_P3_THREE_BALANCES", "description": "Three balance scale drawings in B&W line-art, stacked vertically. Each ~7in × 1.5in. Pre-fills: B1 left=4 counters, right=7 counters (mystery: how many to add to left?). B2 left=? counters, right=8 counters (mystery: how many on left?). B3 left=10 counters, right=? counters with subtract-3 label (mystery: 10-?=3).", "placement": "Bottom of the page; three drawings stacked.", "approximate_size": "full_width", "keywords": ["balance"], "text_image_alignment_check": "Image WS03_P3_THREE_BALANCES: keywords (balance) name what the drawings ask for."}],
+      "student_response_type": "draw_or_write", "answer_key": "B1: 4+?=7, mystery 3. B2: ?=8, mystery 8. B3: 10-?=3, mystery 7."}
+  ]}],
+  "early_finisher_prompt": "If you finish, write 3 missing-number puzzles of your own. Solve them.",
+  "teacher_notes": "Lesson 3 consolidation. Watch Part 1 children who add 4+7=11 instead of finding 3 — flag for operator-as-instruction reteach."
+}

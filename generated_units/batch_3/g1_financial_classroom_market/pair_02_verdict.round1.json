@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "pair_number": 2,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough trap relies on colour cues ('gold vs silver') and recovery_moves are ['Compare colours.', 'Stack quarters to loonie.', 'Drill gold = dollar'] — concrete but no research citation and no diagnostic-driven branching.",
+      "required_fix": "Cite a named research grounding (e.g., Mix/Levine on coin-value learning or Carpenter & Moser CGI unit composition) and branch recovery_moves: if child names loonie but not value, drill 100¢=$1 with quarter-stack; if child cannot name coin, return to colour/animal naming first.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson teaches loonie/toonie equivalence directly via teacher demo ('1 loonie + 1 loonie = 2 loonies = $2 = 1 TOONIE') with no chance for children to invent or compare strategies; expanded_walkthrough names trap only as 'value-jump trap' without research-grounded language.",
+      "required_fix": "Add a step where children invent and compare ways to prove 1 toonie = 2 loonies (stack, line up, count) and rename the misconception in research terms (Mix/Sarama on monetary unit equivalence or unit-composition) inside expanded_walkthrough.rationale.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong on alignment, balance, voice, and lesson/worksheet consistency — loonie/toonie identification and equivalence practiced cleanly. Two categories sit at 3: pedagogical_depth needs research-grounded trap with branching recovery, and mathematical_authenticity needs strategy invention plus precise misconception naming. Bar requires at most one score=3, so revise lesson only."
+}

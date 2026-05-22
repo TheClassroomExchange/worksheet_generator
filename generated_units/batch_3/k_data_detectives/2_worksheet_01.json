@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 1,
+  "worksheet_title": "Detective Dot's Sort",
+  "purpose": "Independent practice of A8.1 (sorting).",
+  "student_learning_goal": "I can sort objects into groups.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can sort objects into groups.", "character_watermark": "Detective Dot in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Sort by Colour", "student_instructions": "Sort 12 picture-stickers into 3 colour groups.", "visual_layout": "Top of page. Three sort circles.",
+      "image_placeholders": [{"id": "WS01_P1_COLOUR", "description": "Three sort circles in B&W, ~7in x 3in. Labels RED, BLUE, YELLOW. 12 sticker positions to place. Header 'Sort by Colour:'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["sort", "colour"], "text_image_alignment_check": "Image WS01_P1_COLOUR: keywords (sort, colour) name the activity."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 2, "part_title": "Part 2: Sort by Size", "student_instructions": "Sort 8 shapes into BIG and SMALL.", "visual_layout": "Middle of page. Two sort circles.",
+      "image_placeholders": [{"id": "WS01_P2_SIZE", "description": "Two sort circles in B&W, ~7in x 2.5in. Labels BIG and SMALL. 8 shape positions to place. Header 'Sort by Size:'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["sort", "size"], "text_image_alignment_check": "Image WS01_P2_SIZE: keywords (sort, size) name the activity."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 3, "part_title": "Part 3: My Sort", "student_instructions": "Pick your own attribute. Sort 6 personal things.", "visual_layout": "Bottom of page. Blank attribute pick area.",
+      "image_placeholders": [{"id": "WS01_P3_MY", "description": "A blank attribute area in B&W, ~7in x 2.5in. 'My attribute: ___'. 6 sort spots. Header 'My Sort:'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["my", "sort"], "text_image_alignment_check": "Image WS01_P3_MY: keywords (my, sort) name the activity."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, sort the same things by a DIFFERENT attribute.",
+  "teacher_notes": "Lesson 1 worksheet. Watch for multi-attribute confusion."
+}

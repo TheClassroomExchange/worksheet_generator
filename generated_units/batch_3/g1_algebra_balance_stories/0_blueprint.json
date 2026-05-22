@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "thematic_title": "Balance Scale Stories",
+  "descriptive_title": "Grade 1 Mathematics: Algebra — Identifying Change vs Constant Quantities, Testing Equivalence, and Using Equivalent Relationships for Numbers to 50 (C2.1–C2.3)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g1-math",
+  "curriculum_codes": [
+    "C2.1",
+    "C2.2",
+    "C2.3"
+  ],
+  "curriculum_expectations": {
+    "C2.1": "identify quantities that can change and quantities that always remain the same in real-life contexts",
+    "C2.2": "determine whether given pairs of addition and subtraction expressions are equivalent or not",
+    "C2.3": "identify and use equivalent relationships for whole numbers up to 50, in various contexts"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on Algebra framed around 'Balance Scale Stories' — Bella the Balance Beam Scientist and Bobby her Balance Beam Buddy. Day 1 introduces the IDEA of change vs constant in real-life: classroom population changes daily, the number of legs on a chair stays at 4 (C2.1). Day 2 introduces the balance scale as a physical model: equal expressions balance, unequal ones tip (C2.2). Day 3 extends to including unknown values: 4 + ? = 7 means we need 3 to balance. Day 4 hunts for equivalent expressions to numbers up to 50 (10 = 5+5, 4+6, 8+2, 0+10) (C2.3). Day 5 closes with child-created balance stories linking algebra to real life. The unit progresses concrete (real or pretend balance scale) → representational (drawn balance scales with quantities on each side) → abstract (equivalence equations).",
+  "unit_learning_goal": "Children will identify quantities that change and quantities that stay the same; determine whether addition and subtraction expressions are equivalent; and find equivalent relationships for whole numbers up to 50.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Change vs Stay the Same",
+      "primary_expectations": [
+        "C2.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Some quantities CHANGE (people in class, weather); others STAY THE SAME (10 fingers, 4 corners).",
+      "student_learning_goal": "I can name things that change and things that stay the same in my life.",
+      "one_line_summary": "Bella sorts photo cards into 'CHANGE' and 'STAY THE SAME' columns; partner discussion of classroom examples."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Are They Equal?",
+      "primary_expectations": [
+        "C2.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Two expressions can be equal (the SAME amount) or not equal. A balance scale shows it: equal = level; not equal = tipped.",
+      "student_learning_goal": "I can decide if two addition or subtraction expressions are equal.",
+      "one_line_summary": "Balance scale demos: 5+3 vs 4+4 (equal), 5+3 vs 9 (equal), 5+3 vs 6+3 (not equal); equality vs inequality vocabulary."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Find the Missing Number",
+      "primary_expectations": [
+        "C2.2"
+      ],
+      "secondary_expectations": [
+        "C2.3"
+      ],
+      "big_idea": "Knowing one side of the balance lets me find the missing number. 4 + ? = 7 means 3.",
+      "student_learning_goal": "I can find the missing number that makes two expressions equal.",
+      "one_line_summary": "Missing-addend puzzles on the balance: 4 + ? = 7; ? + 5 = 9; ? - 2 = 4; whole-class balance balancing."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Many Ways to Make 10 (and More)",
+      "primary_expectations": [
+        "C2.3"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "There are many ways to make the same amount. 10 = 5+5 = 4+6 = 8+2 = 0+10 = 11-1. Equivalent expressions name the same number.",
+      "student_learning_goal": "I can find many equivalent expressions for the same whole number up to 50.",
+      "one_line_summary": "Equivalent-expression hunt for target numbers (10, 25, 50); record on a chart; partner-share results."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Balance Story Capstone",
+      "primary_expectations": [
+        "C2.3",
+        "C2.1",
+        "C2.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "We can use balance ideas to tell stories about real life. Bella and Bobby balance jars of buttons, kids on a teeter-totter, and recipe ingredients.",
+      "student_learning_goal": "I can tell a balance story about something in real life and write the equation.",
+      "one_line_summary": "Children invent a balance story (e.g., '4 friends on the seesaw, 4 friends on the other side — balanced!') and draw + write the equation."
+    }
+  ],
+  "expectation_lesson_map": {
+    "C2.1": [
+      1,
+      5
+    ],
+    "C2.2": [
+      2,
+      3,
+      5
+    ],
+    "C2.3": [
+      3,
+      4,
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Bella the Balance Beam Scientist",
+      "role": "Lead character. A young scientist in a lab coat with a beaker patch. Anchors all 5 lessons. Loves balance scales and 'is it equal?' questions.",
+      "visual_description": "A young Grade-1er in a small lab coat with a balance-scale patch on the chest, eyeglasses, neat bobbed hair, eager smile, holding a small paper balance scale."
+    },
+    {
+      "name": "Bobby the Balance Beam Buddy",
+      "role": "Bella's partner. The 'check-it' character — when Bella claims something is equal, Bobby checks with the scale. Cameo Lessons 2-5.",
+      "visual_description": "A young Grade-1er with a striped shirt and a tool-belt holding a small toy balance scale. Curious expression, slight grin, hair tousled."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "change",
+      "child_friendly_definition": "Something that can be different. The number of students in class can change every day."
+    },
+    {
+      "term": "stay the same",
+      "child_friendly_definition": "Something that does not change. A square has 4 sides — that always stays the same."
+    },
+    {
+      "term": "equal",
+      "child_friendly_definition": "The same amount. 5 + 3 is equal to 8."
+    },
+    {
+      "term": "balance",
+      "child_friendly_definition": "When two amounts are the same, the balance scale stays level. When they're different, it tips."
+    },
+    {
+      "term": "expression",
+      "child_friendly_definition": "A math sentence with numbers and operations. 5 + 3 is an expression. 8 is also an expression."
+    },
+    {
+      "term": "missing number",
+      "child_friendly_definition": "The number we don't know yet. In 4 + ? = 7, the missing number is 3."
+    },
+    {
+      "term": "equivalent",
+      "child_friendly_definition": "Equal in value. 5 + 3 and 4 + 4 are equivalent because they both equal 8."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_balance_scale",
+      "name": "Classroom Balance Scale",
+      "description": "A real two-pan balance scale (or cardboard prop) for whole-class demonstration.",
+      "used_in_lessons": [
+        2,
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_balance_drawings",
+      "name": "Balance Scale Drawing Mat",
+      "description": "Letter-size mat with a drawn balance scale (two pans, central pivot). Children put numbers or counters on each pan.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_change_constant_cards",
+      "name": "Change vs Stay-the-Same Cards",
+      "description": "Set of 24 photo/picture cards: 12 'changes' (number of children on a bus, leaves on a tree, weather) and 12 'stays the same' (legs of a chair, sides of a square, days in a week).",
+      "used_in_lessons": [
+        1
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_equivalence_cards",
+      "name": "Equivalence Cards",
+      "description": "Set of 30 cards: pairs of addition and subtraction expressions for sorting equal vs not equal.",
+      "used_in_lessons": [
+        2,
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "description": "20 per pair for balance modelling.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_missing_number_cards",
+      "name": "Missing-Number Puzzle Cards",
+      "description": "Set of 24 cards: addition or subtraction equations with one number missing.",
+      "used_in_lessons": [
+        3
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_equivalent_target_cards",
+      "name": "Equivalent-Target Cards",
+      "description": "Set of 12 'target number' cards (10, 15, 20, 25, 30, 40, 50, etc.) for the equivalent-expression hunt.",
+      "used_in_lessons": [
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_story_template",
+      "name": "Balance Story Template",
+      "description": "Letter-size template with space for a story drawing AND a balance-scale equation.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_equality_chart",
+      "name": "Equal Sign Anchor Chart",
+      "description": "Large classroom anchor chart showing the equal sign and inequality symbols ≠.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_balance_poster",
+      "name": "Balance Stories Poster",
+      "description": "Large classroom anchor showing Bella and Bobby with a balance scale. Posted Lesson 1.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Classroom balance scale (real or cardboard)",
+    "Balance scale drawing mats (one per child)",
+    "Change vs Stay-the-Same Cards (24)",
+    "Equivalence Cards (30)",
+    "Two-colour counters",
+    "Missing-Number Puzzle Cards (24)",
+    "Equivalent-Target Cards (12)",
+    "Balance Story Templates (one per child)",
+    "Equal Sign Anchor Chart",
+    "Balance Stories Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 change-or-stay snapshot: each child sorts 6 photo cards into 'change' and 'stay the same'. Tally accuracy.",
+    "formative": "Lesson 2 equivalence tracker; Lesson 3 missing-number tracker; Lesson 4 equivalent-expressions tracker.",
+    "summative": "Lesson 5 Balance Story worksheet — children invent a story and write 2 equivalent expressions. Captures C2.1, C2.2, C2.3 in one creative artifact."
+  },
+  "pedagogical_notes": [
+    "C2.1 is conceptual — distinguishing change from stay-the-same is foundational for the variable concept later.",
+    "C2.2 builds on Grade 1's addition/subtraction work. The balance scale is the embodied form of the equal sign.",
+    "C2.3 ties algebra to fluency with numbers — for any target up to 50, children should generate multiple equivalent expressions.",
+    "The equal sign (=) means SAME AMOUNT — not 'gives you the answer'. This is the critical Grade-1 insight. 5 + 3 = 8 doesn't mean '5 and 3 give you 8'; it means '5 + 3 is the SAME AS 8'.",
+    "Balance scales make the equal sign physical. Use them as much as possible."
+  ],
+  "canadian_context_notes": [
+    "Real-life examples: number of NHL teams (changes — Vegas added in 2017), number of provinces (stays at 10), number of seasons in a year (stays at 4), number of toonies in your pocket (changes).",
+    "Recipes can be balance metaphors: 1 cup flour = 1 cup flour (regardless of how many times you make pancakes).",
+    "Classroom routine examples: number of helpers today (changes), number of days in October (stays — 31)."
+  ]
+}

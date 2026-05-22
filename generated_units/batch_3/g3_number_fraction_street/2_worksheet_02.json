@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "lesson_number": 2,
+  "worksheet_title": "Compare and Order to 1000",
+  "purpose": "Independent practice of B1.2 (compare to 1000) and B1.4 (skip-count to 1000).",
+  "student_learning_goal": "I can compare and order numbers to 1000 using place-value reasoning and count to 1000 by 50s, 100s, and 200s.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compare and order numbers to 1000 using place-value reasoning and count to 1000 by 50s, 100s, and 200s.",
+    "character_watermark": "Penny the Place Value Pal in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Compare Two Numbers",
+          "student_instructions": "Compare each pair. Write > for greater than, < for less than. Then write WHY using the place-value rule.",
+          "visual_layout": "Top of the page. Six comparison rows.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_SIX_COMPARES",
+              "description": "Six comparison rows in B&W line-art, stacked vertically. Each row ~7in × 0.7in. Format: number boxes on each side, > / < bubbles in the middle, 'Why?' line below. Pairs: 347 vs 374, 562 vs 526, 999 vs 1000, 234 vs 432, 700 vs 70, 178 vs 187.",
+              "placement": "Top of the page; six rows.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "compare",
+                "place-value"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_SIX_COMPARES: keywords (compare, place-value) name what the rows show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "347 < 374 (same hundreds, 4 vs 7 tens). 562 > 526 (same hundreds, 6 vs 2 tens). 999 < 1000 (0 thousand vs 1 thousand). 234 < 432 (2 vs 4 hundreds). 700 > 70 (7 hundreds vs 0 hundreds). 178 < 187 (same hundreds, 7 vs 8 tens)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Skip-Count to 1000",
+          "student_instructions": "Three Number Lines. Fill in the missing numbers.",
+          "visual_layout": "Middle. Three Number Line strips stacked.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_THREE_LINES",
+              "description": "Three horizontal Number Line strips in B&W line-art, stacked vertically. Each ~7in × 0.8in. Strip 1: cell 1 shows '0', label 'by 50s, end at 500'. Strip 2: cell 1 shows '0', label 'by 100s, end at 1000'. Strip 3: cell 1 shows '0', label 'by 200s, end at 1000'. End cells pre-filled.",
+              "placement": "Middle of the page; three strips.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "number-line",
+                "skip-count"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_THREE_LINES: keywords (number-line, skip-count) name what the lines show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Strip 1 (0 by 50s): 0, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500. Strip 2 (0 by 100s): 0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000. Strip 3 (0 by 200s): 0, 200, 400, 600, 800, 1000."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Order Five Numbers",
+          "student_instructions": "Order these FRESH numbers from smallest to largest: 405, 67, 999, 250, 712.",
+          "visual_layout": "Bottom. Five number cards plus five empty ordering boxes with arrows.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_ORDER",
+              "description": "An ordering layout in B&W line-art, ~7in × 2.5in. Five number cards on the left in random order: 234, 567, 89, 800, 142. Five empty boxes in a row on the right with right-arrows between them, labeled 'smallest to biggest'.",
+              "placement": "Bottom of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "order",
+                "smallest"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_ORDER: keywords (order, smallest) name what the layout asks for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "67, 250, 405, 712, 999"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write THREE comparisons of your own using numbers between 100 and 1000.",
+  "teacher_notes": "Lesson 2 consolidation. Use Part 1's 999-vs-1000 row as the strongest test of cross-thousand comparison reasoning. Watch for Part 2 Strip 3 (count by 200s) — children who default to 100s lose track at step 3. Part 3 swapped to 5 unfamiliar numbers (405, 67, 999, 250, 712) — verifies place-value comparison transfers."
+}

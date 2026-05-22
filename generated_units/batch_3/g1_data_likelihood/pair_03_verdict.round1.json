@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "pair_number": 3,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a 'perfectionist trap' (child predicts heads, gets tails, says 'I'm bad at predicting'). recovery_moves are flat ('Show cumulative tally', 'Drill predictions can be wrong', 'Celebrate good thinking aloud') and do not branch by what the diagnostic told you about the child.",
+      "required_fix": "Anchor the trap in research-grounded G1 probability literature (Konold 1989 outcome-orientation; Fischbein equiprobability bias). Branch recovery_moves: (a) one wrong flip = failure -> cumulative tally over 20 trials; (b) predicts same outcome regardless of bag composition -> contrast 4R+1B vs 1R+4B; (c) freezes on outcome mismatch -> reframe success as 'I used a likelihood reason'.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lucky and Mae anchor the minds_on but Mae is absent from the consolidation ('Lucky's Predict Brag') and there is no recurring quotable refrain or memorable chant. discussion_prompts are generic ('What does PREDICT mean?') and exit_routine is bare ('I predict that ___') with no character voice.",
+      "required_fix": "Add a distinctive Lucky/Mae chant children echo at every consolidation (e.g. Lucky: 'I predict and I PROVE!' or Mae: 'Maybe yes, maybe no -- let's TEST and we'll know!'). Bring Mae explicitly into a discussion_prompt and put the chant into the exit_routine sentence frame so the recurring character anchors both ends of the lesson, not only the hook.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is sound (likelihood -> prediction -> compare to outcome) and the 4R+1B biased bag is correctly used. But children never invent or compare strategies, and the misconception is named colloquially ('perfectionist trap') rather than in research-grounded terms (outcome-orientation, equiprobability bias, representativeness).",
+      "required_fix": "Add a strategy-compare move: after Station B (4R+1B), bring two children's strategies to the carpet -- one who predicted RED every pull, one who alternated -- and ask which is the BEST PREDICTION and why. Tag the underlying misconception in expanded_walkthrough by its research name (Konold outcome-orientation or Fischbein equiprobability bias).",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Worksheet is tight and the prediction stations are well designed, but the lesson's expanded_walkthrough misses the documented G1 probability misconception (outcome-orientation), recurring characters lack a quotable refrain, and there is no strategy-compare move. Three categories at 3 trips the at-most-one-3 bar; revise_lesson."
+}

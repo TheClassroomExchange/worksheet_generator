@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 4,
+  "worksheet_title": "Buzz's Fix It",
+  "purpose": "Independent practice of C3.2 (fix bugs).",
+  "student_learning_goal": "I can fix a bug by altering the code.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can fix a bug by altering the code.", "character_watermark": "Buzz in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Fix Six Codes", "student_instructions": "Fix 6 buggy codes. Show your alteration. Verify by re-tracing.", "visual_layout": "Top of page. Six fix-it rows.",
+      "image_placeholders": [{"id": "WS04_P1_FIX", "description": "Six fix-it rows in B&W line-art, ~7in x 4in. Each: original buggy code + 'My fix: ___' + 'Verified: yes/no'. Header 'Fix the Bug:'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["fix"], "text_image_alignment_check": "Image WS04_P1_FIX: keywords (fix) name the rows."}],
+      "student_response_type": "write", "answer_key": "Open."},
+    {"part_number": 2, "part_title": "Part 2: Mixed Bugs", "student_instructions": "Identify and fix bugs in 4 short codes (mixed types).", "visual_layout": "Middle of page. Four mixed-bug rows.",
+      "image_placeholders": [{"id": "WS04_P2_MIXED", "description": "Four mixed-bug rows in B&W line-art, ~7in x 2.5in. Each: code, type (number/step/order), fix. Header 'Mixed Bugs:'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["mixed"], "text_image_alignment_check": "Image WS04_P2_MIXED: keywords (mixed) name the rows."}],
+      "student_response_type": "write", "answer_key": "Open."},
+    {"part_number": 3, "part_title": "Part 3: Partner Bug", "student_instructions": "Take a partner's bug. Find. Fix. Verify.", "visual_layout": "Bottom of page. Blank fix area.",
+      "image_placeholders": [{"id": "WS04_P3_PARTNER", "description": "A blank fix area in B&W line-art, ~7in x 2in. 'Partner's bug: ___'. 'My fix: ___'. 'Verified: ___'. Header 'Partner Bug:'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["partner"], "text_image_alignment_check": "Image WS04_P3_PARTNER: keywords (partner) name the area."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, plant a NEW bug in a fixed code.",
+  "teacher_notes": "Lesson 4 worksheet. Watch for wrong-fix trap."
+}

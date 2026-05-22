@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 4,
+  "lesson_title": "Community Reflections",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We check predictions against reality. Sometimes the model needs refining.",
+  "learning_intention": "We are learning to compare a prediction to actual data and refine our model.",
+  "student_learning_goal": "I can compare a prediction to actual data and refine my model.",
+  "success_criteria": [
+    "I can compare predicted and actual values.",
+    "I can describe the gap between them.",
+    "I can suggest a refinement to make the model better."
+  ],
+  "vocabulary_introduced": [
+    "reflect",
+    "refine"
+  ],
+  "vocabulary_reinforced": [
+    "model",
+    "data",
+    "predict"
+  ],
+  "manipulatives_used": [
+    "M2_data_charts",
+    "M3_modelling_chart",
+    "M5_prediction_chart",
+    "M7_two_colour_counters",
+    "M8_number_line",
+    "M9_coach_chart",
+    "M10_community_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coach Cara and Sport Sam — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Reflect and Refine'",
+    "Prediction Charts with PREDICT/ACTUAL/GAP columns",
+    "Per-pair counters and number line",
+    "Lesson 4 reflection tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coach Cara's Reflection",
+    "hook": "Coach Cara predicted 200 visitors. We counted 185. What does that mean?",
+    "teacher_script": "Bring children to the carpet. Coach Cara + Sport Sam puppets. 'Yesterday we PREDICTED. Today we REFLECT and REFINE.'\n\nIntroduce vocabulary. Write REFLECT and REFINE on chart. 'Reflect = look back and check. Refine = improve the model.'\n\nDemonstrate. 'Coach Cara predicted 200 rink visitors over 4 Saturdays at 50 each. Actual count: 185. Gap: 15 less.\n\nWrite on chart:\nPredict: 200\nActual: 185\nGap: 15 less\nRefine: Maybe 46 per Saturday on average, not exactly 50. Or one Saturday had a snow day.\n\nDiscuss. 'Reality varies. We REFINE the model with the new data.'\n\nMore community examples:\n- Library predicted 1250, actual 1180. Gap 70 less. Refine: lower daily rule.\n- Pizza predicted 320, actual 350. Gap 30 more. Refine: higher rule.\n- TTC predicted 2800, actual 2800. Gap 0. Model worked.\n\n'Coach Cara always reflects after predicting. Refine makes the model BETTER.'\n\nCommunity-scale refinements often involve small changes. 'Daily rule from 50 to 46. Weekly rule from 250 to 236. Iterative improvement.'\n\n'Today we compare predictions to actuals and suggest refinements at community scale.'",
+    "student_actions": [
+      "Listen to the reflection.",
+      "Echo new vocabulary.",
+      "Suggest refinements for sample gaps.",
+      "Compare predictions and actuals."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Community Reflection Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: compare 4 predict-actual pairs. (a) 200 vs 185. (b) 1250 vs 1180. (c) 320 vs 350. (d) 2800 vs 2800.",
+        "teacher_prompt": "Say: 'Compare. Find the gap. Suggest a refinement.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Predict-Actual — pair fills in 6 pairs. Station B: Refine the Rule — pair gets a rule and 3 actuals; refines. Station C: Real-Life Refinement — pair refines a community prediction.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: refine TWO different rules in the same situation.",
+        "teacher_prompt": "Say: 'Stretch: 2-rule refinement.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the cycle. 'Modelling is a CYCLE. We predict, check, refine, predict again. Each round improves.'",
+        "teacher_prompt": "Show modelling chart with looping arrows."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the reflection tracker.",
+        "teacher_prompt": "Stop at each pair. Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Single-day gaps.",
+      "for_extending": "Stretch at Station C: 2-rule refinement.",
+      "for_ell_or_iep": "Provide a structured frame: 'I predicted ___. Actual was ___. I refine to ___.'",
+      "for_movement_learners": "Walk through a physical predict-act-check loop."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: compares predicted to actual; describes the gap; suggests a refinement.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Compares predict to actual",
+        "Describes the gap",
+        "Suggests refinement",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coach Cara's Reflection Brag",
+    "discussion_prompts": [
+      "What does REFINE mean?",
+      "Why don't predictions always match?",
+      "How does refining make the model better?",
+      "What real-life rule would you refine?"
+    ],
+    "exit_routine": "Each child writes ONE refinement on a sticky note: 'I'd refine my rule to ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Reflection accuracy and refinement suggestions.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures C4 step 4 at community scale."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child overcorrects from a small gap — repairing the over-refinement trap at Grade 3",
+    "rationale": "The most common Grade-3 trap on C4 step 4 at community scale is over-refinement: child sees a small gap (15 less than predicted) and refines the rule by 50 (overcorrecting). They miss that small gaps need small refinements.\n\nThis matters because over-refinement makes the model swing wildly.\n\nThe walkthrough covers when child overcorrects.",
+    "setup": "Pair is at Station A. Predict 200, actual 185, gap 15. Child refines from 50 per Saturday to 30.",
+    "teacher_script": "Crouch. 'Gap is 15 less over 4 Saturdays. That's about 4 less per Saturday. So refine from 50 to about 46, not 30.'\n\nWalk through. 'Compute: gap 15 / 4 Saturdays = ~4 per Saturday. New rule: 50 - 4 = 46. Predict next 4 Saturdays: 46 x 4 = 184. Closer to actual 185.'\n\nGeneralise. 'Coach Cara says — small gap means small refinement. Compute the per-unit gap before refining.'\n\nIf still overcorrecting: provide a per-unit gap formula. 'Gap / span = per-unit gap. Subtract from old rule.' Force the proportional refinement.\n\nLong-term recovery: every refinement uses per-unit gap.",
+    "expected_student_responses": [
+      "(Confused) Overcorrects with a big change.",
+      "(Mid) Refines with prompts; computes per-unit gap.",
+      "(Strong) Computes per-unit gap; refines proportionally.",
+      "(Stretched) Iterates: refines, predicts, checks, refines again."
+    ],
+    "common_misconceptions": [
+      "Big gap means big refinement. (Repair: gap divided by span = per-unit refinement.)",
+      "I can overcorrect to be safe. (Repair: proportional refinement is closer to truth.)",
+      "Refinement is final. (Repair: refinement is iterative.)"
+    ],
+    "recovery_moves": [
+      "Use per-unit gap formula.",
+      "Drill 'gap / span'.",
+      "Iterate refinements."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coach Cara's Reflections",
+    "purpose": "Independent practice of C4 step 4.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Compare 5 predict-vs-actual scenarios. Find each gap.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Refine 3 rules based on actual data.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Reflect on a real community prediction. Refine.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coach Cara in worksheet header",
+      "5 predict-actual rows for Part 1",
+      "3 refining boxes for Part 2",
+      "A blank reflection box for Part 3"
+    ]
+  }
+}

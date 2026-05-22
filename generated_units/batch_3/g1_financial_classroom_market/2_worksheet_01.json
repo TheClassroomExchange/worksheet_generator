@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g1_financial_classroom_market", "lesson_number": 1,
+  "worksheet_title": "Penny's Coin Match", "purpose": "Independent practice of F1.1 coins.",
+  "student_learning_goal": "I can name coins up to 50¢ and their values.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can name coins up to 50¢ and their values.",
+    "character_watermark": "Penny the Penguin Shopkeeper in the top-right with apron and coin pouch. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Name the coins.", "student_instructions": "Look at 4 coins. Write the name under each.",
+     "visual_layout": "Four coin icons in a row with name lines under each.",
+     "image_placeholders": [{"id": "WS01_P1_NAMES", "description": "A Grade 1 coin identification row for money worksheet, B&W line art. 4 coin icons: nickel, dime, quarter, 50¢. Each with a name line below.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["coin", "icons"], "text_image_alignment_check": "WS01_P1_NAMES at Part 1: keywords name the coin icons identification task."}],
+     "student_response_type": "draw_or_write", "answer_key": "nickel, dime, quarter, 50¢."},
+    {"part_number": 2, "part_title": "Part 2: Match values.", "student_instructions": "Draw a line from each coin to its value.",
+     "visual_layout": "Four coins on the left and four values (5¢, 10¢, 25¢, 50¢) on the right.",
+     "image_placeholders": [{"id": "WS01_P2_MATCH", "description": "A Grade 1 coin-value match for money worksheet, B&W line art. Left column: 4 coins. Right column: 4 values (5¢, 10¢, 25¢, 50¢).",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["coins", "values"], "text_image_alignment_check": "WS01_P2_MATCH at Part 2: keywords name the coins values match task."}],
+     "student_response_type": "draw_or_write", "answer_key": "nickel-5¢, dime-10¢, quarter-25¢, 50¢-50¢."},
+    {"part_number": 3, "part_title": "Part 3: Circle MORE.", "student_instructions": "For 3 pairs, circle the coin worth MORE.",
+     "visual_layout": "Three pair boxes each with two coins side by side.",
+     "image_placeholders": [{"id": "WS01_P3_MORE", "description": "A Grade 1 coin-comparison layout for money worksheet, B&W line art. 3 pairs: nickel vs dime, dime vs quarter, quarter vs 50¢. Each in a pair box.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["pair", "circle"], "text_image_alignment_check": "WS01_P3_MORE at Part 3: keywords name the pair circle more task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Dime, quarter, 50¢."}
+  ]}],
+  "early_finisher_prompt": "If you finish, draw the coin you'd pick to buy a 25¢ apple.",
+  "teacher_notes": "Lesson 1 consolidation. Diagnostic — check coin naming and matching."
+}

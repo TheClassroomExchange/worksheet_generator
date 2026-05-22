@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 5,
+  "lesson_title": "My Code Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.1",
+    "C3.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can write our own code to do a task — drawing a shape, walking a path, telling a story.",
+  "learning_intention": "We are learning to write our own code with sequence and loop.",
+  "student_learning_goal": "I can write my own code to do a task with sequence and loop.",
+  "success_criteria": [
+    "I can invent a task and write code for it.",
+    "I can use sequence and loop in my code.",
+    "I can predict what my code will do AND run it to check."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "code",
+    "sequence",
+    "loop",
+    "predict",
+    "alter",
+    "execute"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M2_code_cards",
+    "M5_loop_card",
+    "M9_capstone_template",
+    "M4_robot_marker",
+    "M10_loop_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coda the Coding Robot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "OPTIONAL: Looper the Loop Helper — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'My Code Project'",
+    "Per-child capstone code template",
+    "Per-pair grid mat",
+    "Per-pair code step cards plus loop cards",
+    "Per-pair robot marker",
+    "Lesson 5 capstone tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coda's Project Showcase",
+    "hook": "Today YOU write code. Pick a project: draw a shape, walk a path, tell a tiny code story. Then we share!",
+    "teacher_script": "Bring children to the carpet. Coda + Looper. 'Friends — today is YOUR day. We've learned sequence (Lesson 1), loops (Lesson 2), reading code (Lesson 3), altering code (Lesson 4). Now you put it ALL together.'\n\nShow examples of capstone projects:\n\nProject 1: Draw a triangle. Code: Repeat 3: forward, turn right.\nProject 2: Walk a square. Code: Repeat 4: forward, turn right.\nProject 3: 'Hello' code. Code: smile, wave, smile, wave (no loop). OR: Repeat 2: smile, wave.\nProject 4: Walk to the school flag. Code: forward, forward, turn right, forward, forward.\n\n'Pick a project from this list OR invent your own. Use SEQUENCE for the steps. Use a LOOP if you repeat the same step.'\n\nShow the template structure: (a) Project name, (b) Code (steps + loops), (c) Drawing of the result, (d) Prediction.\n\n'Today is YOUR project.'",
+    "student_actions": [
+      "Watch project examples.",
+      "Brainstorm own project ideas.",
+      "Pick a project to work on.",
+      "Plan the code mentally."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Capstone Code Stations",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out capstone templates. Children pick a project (from list or invent own) and write the code: 4-8 steps minimum, including at least 1 loop.",
+        "teacher_prompt": "Say to students: 'Use the template. Pick a project. Write the code. Use AT LEAST one loop.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Children work for 10-12 minutes. Teacher circulates and prompts: 'What's your project? What's the first step? Where's your loop?'",
+        "teacher_prompt": "Stop at each child. Check completeness — sequence, loop, prediction."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge: include 2 loops in the code. Or alter someone else's code to do something new.",
+        "teacher_prompt": "Say to extending children: 'Add a SECOND loop. Or take a partner's code and ALTER it.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Gallery walk: pairs swap templates and execute each other's code on the grid. Verify the prediction.",
+        "teacher_prompt": "Say to students: 'Swap with your partner. Execute their code on the grid. Did it match the prediction?'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Whole-class share: 5-6 children share their project aloud. Discuss the variety of projects and the common code patterns.",
+        "teacher_prompt": "Pick a variety: shapes, paths, stories. Highlight that DIFFERENT projects use the SAME code building blocks (sequence, loop)."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a starter project: 'Draw a square'. Child writes the code.",
+      "for_extending": "Stretch: invent a project with 8+ steps and 2+ loops.",
+      "for_ell_or_iep": "Provide picture-supported project ideas. Sentence frame: 'My project is ___. My code is ___.'",
+      "for_movement_learners": "Allow them to ACT OUT their code with classmates."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: invents a coherent project; writes code with sequence + loop; predicts and verifies the outcome.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Coherent project",
+        "Code uses sequence + loop",
+        "Predicts and verifies",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Closing Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most creative project you saw today?",
+      "How did your loop make your code shorter?",
+      "What's something about coding you'll remember?",
+      "Where might you use coding in real life?"
+    ],
+    "exit_routine": "Each child receives a Junior Coder certificate. Quick whisper: 'My favourite code project was ___'. Coda and Looper say goodbye with a final code execution celebrating the class."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Project coherence, sequence + loop usage, prediction accuracy.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 capstone integrates C3.1 + C3.2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes code that's all sequence (no loop) — repairing the loop-omission in capstone projects",
+    "rationale": "The most common Grade-1 trap on the capstone is loop omission: the child writes 5+ sequential steps without using a loop, even when steps repeat. They forget about loops in the heat of project invention.\n\nThe walkthrough covers the precise moment when a child has 'right, right, right, right, right' written without a loop.",
+    "setup": "Child is working on a capstone. They've written 5 'right' steps in a row. No loop.",
+    "teacher_script": "Crouch beside the child. 'I see 5 'right' steps. Looper would simplify that. How?' Wait. The child remembers Lesson 2: 'Repeat 5: right.' 'YES! Use a LOOP. Same outcome, shorter code.'\n\nHave the child rewrite. Loop replaces the 5 lines.\n\nNow add: 'Always look at your code — do you have repetition? If yes, use a loop. That's Looper's rule.'\n\nLong-term recovery: include a loop check on every code review.",
+    "expected_student_responses": [
+      "(Confused) Writes all sequence, no loops.",
+      "(Mid) Adds loops with prompts.",
+      "(Strong) Auto-uses loops for any repetition.",
+      "(Stretched) Uses 2+ loops in their project."
+    ],
+    "common_misconceptions": [
+      "Sequence is enough. (Repair: loops save space.)",
+      "Loops are for advanced coders. (Repair: loops are for ANY code with repetition.)",
+      "Each step needs to be visible. (Repair: a loop body IS the step — just compressed.)"
+    ],
+    "recovery_moves": [
+      "Always check code for repetition. Spot the pattern.",
+      "Use Looper as the 'compress' character. He makes code shorter.",
+      "Compare two versions: long sequence vs loop. Visual brevity wins."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My Code Project",
+    "purpose": "Summative evidence integrating C3.1 + C3.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Project name and 1-sentence description.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Code: write 4-8 steps. Use at least 1 loop.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Prediction: draw or describe what the code will do.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 4,
+        "task": "Run-and-check: did it match? Why or why not?",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coda and Looper together in the worksheet header (final unit appearance)",
+      "Project name and lined description for Part 1",
+      "Code-writing area with numbered steps for Part 2",
+      "Drawing area for Part 3",
+      "Yes/No bubble plus reasoning lines for Part 4"
+    ]
+  }
+}

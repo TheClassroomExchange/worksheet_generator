@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "lesson_number": 2,
+  "worksheet_title": "Tally's Tally Time",
+  "purpose": "Independent practice of D1.2 — collecting data with tally marks. Used as Lesson 2 consolidation artifact.",
+  "student_learning_goal": "I can collect data and record it with tally marks.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can collect data and record it with tally marks.",
+    "character_watermark": "Tally the Tally Cat in the top-right corner of the header, holding a clipboard with tally marks. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Read the tallies.",
+          "student_instructions": "Look at each tally. Write the number it shows.",
+          "visual_layout": "Five tally diagrams stacked vertically, each ~3in × 0.8in. Tallies shown: (1) ||| = 3, (2) ||||CROSS = 5, (3) ||||CROSS || = 7, (4) ||||CROSS ||||CROSS = 10, (5) ||||CROSS ||||CROSS ||| = 13. Beside each tally, an equals sign and an empty number box.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_TALLIES",
+              "description": "Five tally diagrams stacked vertically for a Grade 1 worksheet, B&W line art. Diagram 1: three vertical lines (|||). Diagram 2: four vertical lines with a fifth line crossing them all (||||CROSS). Diagram 3: ||||CROSS plus 2 more lines. Diagram 4: two ||||CROSS groups (10). Diagram 5: two ||||CROSS plus 3 more (13). Each ~3in wide × 0.8in tall. Beside each, a label '= ___' with an empty number box.",
+              "placement": "Centred vertically in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["tally", "marks"],
+              "text_image_alignment_check": "Image WS02_P1_TALLIES at Part 1: instructions ask the child to read each tally and write the number. Keywords name the visual elements (tally, marks)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "(1) 3. (2) 5. (3) 7. (4) 10. (5) 13."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Survey 5 classmates.",
+          "student_instructions": "Pick a question. Survey 5 classmates. Draw a tally mark for each answer.",
+          "visual_layout": "A small chart with a question line at the top ('My question: ___') and 3 category rows below, each with: a label slot, a tally area (~3in wide), and a total box.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_CHART",
+              "description": "A simple tally chart for a Grade 1 worksheet. At the top, a labelled line 'My question: ___'. Below, 3 category rows. Each row has: a label box on the left (~1.5in wide), a wide tally area in the middle (~3in × 0.8in for drawing tally marks), and a total box on the right (~0.8in square).",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["tally", "survey"],
+              "text_image_alignment_check": "Image WS02_P2_CHART at Part 2: instructions ask the child to survey classmates and tally. Keywords name the recording method (tally) and activity (survey)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid tally where total tallies = 5 (matching the 5 classmates surveyed). Common: 'Favourite fruit?' Apple || (2), Banana | (1), Grape || (2). Total = 5."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Total the tallies!",
+          "student_instructions": "Add up these tallies. Write the total. Then draw your own tally for the number 12.",
+          "visual_layout": "Top half: 3 tally totaling problems. Bottom half: a blank tally area labelled 'My tally for 12'.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_TOTALS",
+              "description": "Three tally-addition problems stacked vertically for a Grade 1 worksheet. Problem 1: ||||CROSS + |||| = ___ (Answer: 9). Problem 2: ||||CROSS ||||CROSS + ||| = ___ (Answer: 13). Problem 3: ||||CROSS ||||CROSS ||||CROSS = ___ (Answer: 15). Below the problems, a blank tally area ~3in × 1in labelled 'My tally for 12'.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": ["total", "tally"],
+              "text_image_alignment_check": "Image WS02_P3_TOTALS at Part 3: instructions ask the child to total tallies and draw a new one. Keywords name the activity (total, tally)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Problem 1: 9. Problem 2: 13. Problem 3: 15. Tally for 12: ||||CROSS ||||CROSS || (two 5-groups + 2)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw the tally for 20.",
+  "teacher_notes": "Lesson 2 consolidation artifact. Use Part 3 as the formative signal for the no-cross trap — children who can total mixed tallies and draw 12 correctly with the 4+1 cross convention have mastered the rule."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 2,
+  "worksheet_title": "Coach Cara's Community Data",
+  "purpose": "Independent practice of C4 step 2.",
+  "student_learning_goal": "I can collect data to answer a math question about my community.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can collect data to answer a math question about my community.", "character_watermark": "Coach Cara in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Community Tally", "student_instructions": "Tally and record data for 4 community situations.", "visual_layout": "Top of page. Four tally rows with community-scale data.",
+      "image_placeholders": [{"id": "WS02_P1_TALLY", "description": "Four tally rows in B&W, ~7in x 3in. Pre-filled situations: 'Rink visitors: 50', 'Library books: 250', 'Pizzas sold: 80', 'TTC riders: 350'. Header 'Community Tally:'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["community", "tally"], "text_image_alignment_check": "Image WS02_P1_TALLY: keywords (community, tally) name the rows."}],
+      "student_response_type": "write", "answer_key": "50, 250, 80, 350."},
+    {"part_number": 2, "part_title": "Part 2: Use the Data", "student_instructions": "Use your data to answer 3 questions.", "visual_layout": "Middle of page. Three numbered slots.",
+      "image_placeholders": [{"id": "WS02_P2_USE", "description": "Three slots in B&W, ~7in x 2.5in. Q1 'TOTAL?'. Q2 'BIGGEST?'. Q3 'SMALLEST?'. Header 'Use Your Data:'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["data"], "text_image_alignment_check": "Image WS02_P2_USE: keywords (data) name the slots."}],
+      "student_response_type": "write", "answer_key": "Total 730. Biggest 350 TTC. Smallest 50 rink."},
+    {"part_number": 3, "part_title": "Part 3: My Real Community", "student_instructions": "Pick something to count in your community. Tally. Write 1 question.", "visual_layout": "Bottom of page. Blank box.",
+      "image_placeholders": [{"id": "WS02_P3_REAL", "description": "A blank box in B&W, ~7in x 2.5in. Tally area + question line. Header 'My Real Community Data:'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["real", "community"], "text_image_alignment_check": "Image WS02_P3_REAL: keywords (real, community) name the box."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, count something else and add a tally row.",
+  "teacher_notes": "Lesson 2 worksheet. Watch for estimate-instead-of-count at scale."
+}

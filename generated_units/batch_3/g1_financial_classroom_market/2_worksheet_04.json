@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "lesson_number": 4,
+  "worksheet_title": "More, Less, or Equal",
+  "purpose": "Independent practice of F1.1 comparing.",
+  "student_learning_goal": "I can compare money values.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compare money values.",
+    "character_watermark": "Penny and Cassie in the top-right with a comparison scale. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: More, Less, or Equal.",
+          "student_instructions": "For 4 pairs, write MORE, LESS, or EQUAL.",
+          "visual_layout": "Four pair boxes each with two amount pictures and an answer line.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_COMP",
+              "description": "A Grade 1 money compare layout for money worksheet, B&W line art. 4 pairs: nickel vs dime, quarter vs loonie, $5 vs $10, 5 nickels vs 1 quarter. Each with answer line.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "pairs",
+                "compare"
+              ],
+              "text_image_alignment_check": "WS04_P1_COMP at Part 1: keywords name the pairs compare task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "1=less, 2=less, 3=less, 4=equal."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Circle MORE.",
+          "student_instructions": "For 4 amount pairs, circle the one worth MORE.",
+          "visual_layout": "Four pair boxes with circles for each side.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_MORE",
+              "description": "A Grade 1 circle-more layout for money worksheet, B&W line art. 4 pairs: $5 vs $20, dime vs nickel, $50 vs $20, toonie vs loonie. Each with circles.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "pairs",
+                "circle"
+              ],
+              "text_image_alignment_check": "WS04_P2_MORE at Part 2: keywords name the pairs circle task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "$20, dime, $50, toonie."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Rank 3.",
+          "student_instructions": "Rank 3 amounts from SMALLEST to BIGGEST.",
+          "visual_layout": "Three amount pictures with three ordered slots.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_RANK",
+              "description": "A Grade 1 rank-three layout for money worksheet, B&W line art. 3 amounts: 1 quarter, 1 fiver, 1 toonie. 3 ordered slots labelled smallest, middle, biggest.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "rank",
+                "smallest"
+              ],
+              "text_image_alignment_check": "WS04_P3_RANK at Part 3: keywords name the rank smallest task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "smallest=quarter (25¢), middle=toonie ($2), biggest=$5."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, find 2 amounts that EQUAL each other.",
+  "teacher_notes": "Lesson 4 consolidation. Formative — check compare reasoning. Part 1's '5 nickels vs 1 quarter' is an explicit count-vs-value TRANSFER PROBE — watch for children who circle the SIDE WITH MORE OBJECTS rather than equal value. If misconception observed, pair with diagnostic-branched recovery from expanded_walkthrough."
+}

@@ -1,0 +1,66 @@
+{
+  "pair_number": 5,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "expanded_walkthrough.title is 'When the child rushes a station and skips counting/checking — repairing the no-check trap at Grade 3' and recovery_moves = ['Pencil-touch each.', 'Drill count out loud.', 'Compare guess vs count.'] — the 'no-check trap' is generic procedural advice, not a research-grounded G3 spatial-reasoning misconception, and recovery moves are terse with no diagnostic branching.",
+      "required_fix": "Replace the no-check trap with a real G3 spatial-reasoning misconception cited to research (e.g., Battista's levels of geometric thinking — child names solids by holistic appearance rather than by counting faces/edges/vertices, treating a square pyramid and a triangular prism as 'the same' because both 'have triangles'). Provide branching recovery: if child can name attributes verbally but miscounts, scaffold pencil-touch counting; if child names by silhouette only, drop back to face-by-face tracing on a paper net before recounting on the solid.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Big Map Templates (1 per child)' and 'All previous manipulatives at 4 stations' as required, and differentiation.for_movement_learners = 'Walk between 4 stations physically.' — there is no explicit NO-PAPER, NO-PURCHASE alternative path for a day when prep wasn't possible.",
+      "required_fix": "Add a no-materials capstone alternative to differentiation, e.g., 'No-prep version — children rotate to 4 corners of the carpet. Corner 1: hold up fingers for faces of teacher-named solid. Corner 2: body-build a 3-part structure with partner (one squats=cube, one stands=prism, one points up=pyramid). Corner 3: clap-match congruent shapes teacher draws in the air. Corner 4: walk a 4-step route teacher calls aloud with quarter/half body turns. No paper required.'",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = 'Each child shares ONE: Today I learned ___.' and discussion_prompts are plain Q&A — there is no distinctive Tig-and-Coco quotable refrain or memorable chant carried across the unit's capstone.",
+      "required_fix": "Add a recurring refrain children chant back at consolidation, e.g., 'Trekker Tig and Compass Coco close every case: SORT, BUILD, MATCH, MOVE — that's how geometers GROOVE!' with a 4-beat hand-tap pattern (one tap per word: sort/build/match/move). Embed the same refrain in the minds_on hook so it bookends the lesson.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "action.steps and expanded_walkthrough have children execute the 4 station tasks and check by counting, but no step invites children to INVENT or COMPARE strategies, and the misconception is named only as 'no-check' — not in research-grounded terms (e.g., Battista's van Hiele Level 1 visual-holistic reasoning, or Clements & Sarama on G3 mental rotation).",
+      "required_fix": "At Station 2 (BUILD) or Station 3 (MATCH), add a strategy-comparison move: 'Two geometers used different ways to check congruence — Tig overlapped the faces, Coco counted edge lengths. Which way works for YOUR pair? Try both and tell your partner which is faster and which is surer.' In expanded_walkthrough.rationale, name the misconception as Battista/van Hiele Level 1 (visual-holistic): G3 children often judge solids by overall silhouette rather than by analyzing faces/edges/vertices.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson has 4 success_criteria mapped to 4 stations (SORT, COMPOSE, MATCH, FOLLOW), but worksheet has only 3 parts: Part 2 collapses COMPOSE and MATCH into a single decompose-and-match task. The worksheet does not deliberately VARY the practice format from the lesson nor justify the collapse as a transfer/generalization task.",
+      "required_fix": "Either (a) split worksheet Part 2 into Part 2 (decompose 1 structure into 3 parts) and Part 3 (find 1 congruent face pair from a NEW set of 2 unfamiliar solids the lesson didn't drill, making the worksheet a transfer task), renumbering the map task to Part 4 — and add a teacher_notes line justifying the new pair as a generalization check; or (b) keep 3 parts but add 1 transfer item per part using solids/structures NOT seen at the matching station, and document the transfer rationale in worksheet teacher_notes.",
+      "affected_stages": ["lesson_05", "worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Strong capstone scaffolding overall, but the 'no-check' trap reads as procedural rather than a real G3 spatial-reasoning misconception, the lesson lacks an explicit no-prep path, the consolidation has no quotable Tig/Coco refrain to anchor the unit's close, no strategy-comparison move appears, and the worksheet collapses 4 lesson stations into 3 parts without justifying it as transfer. Five 3s against the strict bar (≤1 score=3) — needs revision across both lesson and worksheet."
+}

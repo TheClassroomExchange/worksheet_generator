@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 2,
+  "lesson_title": "Writing IF-THEN Code",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can write IF-THEN code for math: IF the number is even, THEN clap.",
+  "learning_intention": "We are learning to write IF-THEN code for a math situation.",
+  "student_learning_goal": "I can write IF-THEN code for a math situation.",
+  "success_criteria": [
+    "I can pick a math condition (even/odd, big/small).",
+    "I can write a matching action.",
+    "I can write IF-THEN code with two branches (one for TRUE, one for FALSE)."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "condition",
+    "action",
+    "IF-THEN",
+    "true",
+    "false"
+  ],
+  "manipulatives_used": [
+    "M1_if_then_cards",
+    "M2_condition_cards",
+    "M3_action_cards",
+    "M7_sorting_mat",
+    "M8_two_colour_counters",
+    "M9_truth_chart",
+    "M10_if_then_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Inspector If and Then the Action Dog — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Writing IF-THEN Code'",
+    "Per-pair IF-THEN sorting mat",
+    "Per-pair counters (~20)",
+    "Condition Cards (12) and Action Cards (12)",
+    "Lesson 2 writing tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Inspector If Writes Code",
+    "hook": "Inspector If wants to sort numbers. EVEN numbers — clap. ODD numbers — stomp. Help her write the code.",
+    "teacher_script": "Bring children to the carpet. Inspector If + Then the Action Dog puppets. 'Friends — yesterday we READ IF-THEN code. Today we WRITE it.'\n\nIf says: 'I want to sort numbers. EVEN numbers I clap for. ODD numbers I stomp for.'\n\nWrite on the chart:\nIF the number is even, THEN clap.\nIF the number is odd, THEN stomp.\n\n'See? TWO branches. One for EVEN, one for ODD. Every number falls into exactly one branch.'\n\nIntroduce the BRANCHES idea. 'A condition divides numbers into TWO groups. EVEN goes one way, ODD goes the other way. Each group has its own action.'\n\nNow demonstrate. Read input: 4. 'Is 4 even? YES. Run the EVEN action — clap.' All clap. Input: 7. 'Even? NO — odd. Run the ODD action — stomp.' All stomp. Input: 12. 'Even? YES — clap.' Clap.\n\n'Now you write code. Pick a math condition. Write the action for TRUE. Write the action for FALSE.'\n\nMore examples:\nIF count > 10, THEN say BIG. IF count ≤ 10, THEN say SMALL.\nIF the number is a multiple of 5, THEN raise hand. IF not, THEN keep hand down.\n\n'Today we write IF-THEN code with TWO branches.'",
+    "student_actions": [
+      "Listen to Inspector If's two-branch code.",
+      "Help write actions for sample conditions.",
+      "Predict outcomes for sample inputs.",
+      "Write their own two-branch IF-THEN."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "IF-THEN Writing Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: write IF-THEN code together for sorting tasks. (a) Sort even/odd. (b) Sort big (>10) / small (≤10). (c) Sort multiples of 5 / not. (d) Sort numbers ending in 0 / not.",
+        "teacher_prompt": "Say to students: 'Pick a condition. Write the action for TRUE. Write the action for FALSE.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Match — pair matches 8 condition cards with 8 action cards to form complete IF-THENs. Station B: Two-Branch Write — pair writes IF-THEN with TWO branches for 4 sorting tasks. Station C: Make Your Own — pair writes 3 of their own IF-THENs for math situations.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write a 3-branch IF-THEN-ELSE-IF (e.g., IF >20 say BIG; ELSE IF >10 say MEDIUM; ELSE say SMALL).",
+        "teacher_prompt": "Say to extending pairs: 'Stretch: try THREE branches. Big, medium, small.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the BRANCH idea. 'A condition splits inputs into groups. Each group has its own action. Like a fork in the road — depending on the condition, you go one way or the other.'",
+        "teacher_prompt": "Use the puppets to show the fork: Inspector If reads condition; the input goes left (TRUE) or right (FALSE)."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the writing tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's the condition? What are the two actions?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only everyday IF-THENs. Match condition to action.",
+      "for_extending": "Stretch at Station C: write 3-branch IF-THEN-ELSE-IF.",
+      "for_ell_or_iep": "Provide a structured frame: 'IF ___, THEN ___. IF NOT ___, THEN ___.'",
+      "for_movement_learners": "Act out the actions. Teacher reads inputs; class acts based on the IF-THEN code."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: writes a math condition; writes a matching action; writes the FALSE-branch action.",
+      "how_to_record": "Tick the writing tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Writes math condition",
+        "Writes matching action",
+        "Writes both branches",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Inspector If's Writing Brag",
+    "discussion_prompts": [
+      "What's a 'branch' in IF-THEN code?",
+      "Why do we write TWO branches (TRUE and FALSE)?",
+      "Can you give a math condition you used?",
+      "What happens if you forget the FALSE branch?"
+    ],
+    "exit_routine": "Each child writes ONE two-branch IF-THEN on a sticky note: 'IF ___, THEN ___. IF NOT ___, THEN ___.' Notes go on the chart."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "IF-THEN writing accuracy and two-branch coverage.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures C3.1 mastery for writing conditional code. Children at L4 write coherent two-branch code with a math condition."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes only the TRUE branch and forgets the FALSE — repairing the missed-branch trap",
+    "rationale": "The most common Grade-2 trap on C3.1 conditional writing is the missed-branch trap: the child writes 'IF the number is even, THEN clap' and stops, missing that ODD numbers also need an action. They cover only HALF the inputs.\n\nThis distinction matters because real conditional code must cover ALL inputs. If the FALSE branch is missing, the code is incomplete. The Grade-2 foundation is: every IF-THEN has a TRUE branch AND a FALSE branch (even if FALSE means 'do nothing').\n\nThe walkthrough covers the precise moment when a child writes only the TRUE branch and stops.",
+    "setup": "Pair is at Station B. The child writes 'IF the number is even, THEN clap.' and stops. Teacher reads input: 7. Child looks confused.",
+    "teacher_script": "Crouch beside the child. 'You wrote what to do for EVEN numbers. But what about ODD numbers like 7? Your code doesn't say.'\n\nThe child looks confused. 'Inspector If's code needs to handle EVERY number. So we need TWO branches. One for EVEN, one for ODD.'\n\nWalk through the addition. 'Add a second line: IF the number is odd, THEN ___. Pick an action — stomp, sit, snap.' The child writes 'stomp'. 'Now your code handles every number.'\n\nGeneralise. 'Inspector If always writes BOTH branches. TRUE branch for the condition. FALSE branch for the opposite. Even/odd, big/small, yes/no — TWO branches.'\n\nIf the child STILL writes only one branch: provide a sentence frame. 'IF ___, THEN ___. IF NOT ___, THEN ___.' Drill the two-branch reflex.\n\nLong-term recovery: every IF-THEN writing task starts with 'two branches'. Praise the FALSE branch as much as the TRUE.",
+    "expected_student_responses": [
+      "(Confused) Writes only the TRUE branch.",
+      "(Mid) Writes both branches with prompts.",
+      "(Strong) Writes both branches independently.",
+      "(Stretched) Writes 3-branch IF-THEN-ELSE-IF code."
+    ],
+    "common_misconceptions": [
+      "Only TRUE matters. (Repair: every IF-THEN needs both branches.)",
+      "FALSE means do nothing. (Repair: FALSE can have its own action OR explicitly say 'do nothing'.)",
+      "I can leave inputs uncovered. (Repair: every input must hit a branch.)"
+    ],
+    "recovery_moves": [
+      "Drill the two-branch frame.",
+      "Cover EVERY input with a check sweep.",
+      "Praise FALSE branches."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Inspector If's Writing",
+    "purpose": "Independent practice of C3.1 (write IF-THEN code).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Match 6 condition cards to action cards.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Write IF-THEN code with TWO branches for 4 sorting tasks.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write 2 of your own two-branch IF-THENs.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Inspector If in the worksheet header",
+      "6 condition-action match pairs for Part 1",
+      "4 two-branch slot pairs for Part 2",
+      "2 blank IF-THEN slot pairs for Part 3"
+    ]
+  }
+}

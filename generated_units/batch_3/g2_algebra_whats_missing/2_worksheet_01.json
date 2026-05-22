@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 1,
+  "worksheet_title": "Detective Dee's First Case",
+  "purpose": "Independent practice of C2.1 (variables as placeholders).",
+  "student_learning_goal": "I can recognise when a symbol stands for an unknown number.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can recognise when a symbol stands for an unknown number.",
+    "character_watermark": "Detective Dee in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Find the Variable",
+          "student_instructions": "Circle the variable in each equation. The variable is the symbol that stands for an unknown.",
+          "visual_layout": "Top of page. Six equation rows.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_FIND",
+              "description": "Six equation rows in B&W line-art, ~7in x 3in. Pre-printed equations: 5 + ? = 12, n - 4 = 6, ☐ + 7 = 15, 20 = m + 5, 14 - ___ = 8, x + 9 = 18. Header 'Circle the Variable:'.",
+              "placement": "Top of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "variable",
+                "circle"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_FIND: keywords (variable, circle) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Each variable should be circled: ?, n, ☐, m, ___, x."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: What Does It Stand For?",
+          "student_instructions": "Match each equation to the unknown number it stands for.",
+          "visual_layout": "Middle of page. Four equations on the left, four numbers on the right.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_MATCH",
+              "description": "Four matching pairs in B&W line-art, ~7in x 2.5in. Left column: 5 + ? = 12, n - 3 = 4, ☐ + 6 = 14, 10 = m + 2. Right column: 7, 8, 8, 7. Header 'Match the Variable to its Value:'.",
+              "placement": "Middle of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "match"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_MATCH: keywords (match, value) name what the pairs ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "5+?=12 → 7. n-3=4 → 7. ☐+6=14 → 8. 10=m+2 → 8."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make Your Own",
+          "student_instructions": "Write 3 of your own equations using a variable. Pick any symbol — box, blank, or letter.",
+          "visual_layout": "Bottom of page. Three numbered equation slots.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_OWN",
+              "description": "Three numbered equation slots in B&W line-art, ~7in x 2.5in. Each slot has '1.', '2.', '3.' on the left with a long equation line. Header 'My Equations with a Variable:'.",
+              "placement": "Bottom of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "equations"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_OWN: keywords (my, equations) name what the slots ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Each equation must include a variable symbol."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, swap with a partner and identify each other's variables.",
+  "teacher_notes": "Lesson 1 worksheet introduces C2.1 (variables). Watch for the variable-as-answer confusion — children who write 'box = 7' instead of 'box stands for 7'. Part 2: rewritten so children MATCH each equation to a description of the unknown ('the number that with 5 makes 12') without computing the value. Solving comes Lesson 2; today's job is to NAME the variable."
+}

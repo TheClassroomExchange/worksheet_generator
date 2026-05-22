@@ -1,0 +1,35 @@
+{
+  "pair_number": 4,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Body demo each turn.', 'Drill \"corner of square\".', 'Compare quarter and half.'] — concrete but does not branch by diagnostic, and the trap rationale cites no research even though Grade-3 turn/rotation confusion is well documented (Battista on spatial reasoning; Clements & Sarama on turn-as-rotation).",
+      "required_fix": "Branch the recovery_moves by what the diagnostic told you: (a) if child does a half when the card says quarter, anchor to the right-angle corner of a sticky-note and have the child press a body part to each side as they turn 90 degrees; (b) if child stops mid-turn or over-rotates past 180, drop back to a clock metaphor (12 to 3 = quarter, 12 to 6 = half) and re-do with the body; (c) if child names the turn but cannot execute it, model with the marker first then have child mirror. Cite Battista (2007) or Clements & Sarama on turn-as-rotation in the rationale so a substitute can see this is a real spatial-reasoning trap, not a vocabulary slip.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Action step 2 has pairs CREATE 2 multistep directions and trade, but the lesson never has children COMPARE different valid routes to the same treasure or refine a strategy — the consolidation discussion_prompts are recall questions ('What's a QUARTER TURN?') not strategy talk. The expanded_walkthrough also does not name the misconception in research-grounded terms (e.g., turn-as-rotation vs turn-as-displacement, Battista 2007).",
+      "required_fix": "Add a strategy-comparison move in consolidation: pose ONE start/treasure pair on the anchor map and have two pairs share their different valid routes ('Tig went 3-right + quarter + 2-forward; Coco went quarter + 2-forward + 3-right — both land on the treasure. Which uses fewer turns? Which is easier to follow?'). Then in expanded_walkthrough.rationale, name the underlying spatial-reasoning principle (turn-as-rotation around the body's vertical axis, per Battista 2007 / Clements & Sarama) so the trap reads as a research-grounded misconception, not a label mix-up.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ]
+}

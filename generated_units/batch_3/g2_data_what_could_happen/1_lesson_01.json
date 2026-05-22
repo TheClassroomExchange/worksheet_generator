@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "lesson_number": 1,
+  "lesson_title": "Likelihood Review",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Events are IMPOSSIBLE, POSSIBLE, or CERTAIN. We predict using likelihood.",
+  "learning_intention": "We are learning to use likelihood vocabulary.",
+  "student_learning_goal": "I can use likelihood vocabulary.",
+  "success_criteria": [
+    "I can name an event IMPOSSIBLE.",
+    "I can name POSSIBLE.",
+    "I can name CERTAIN."
+  ],
+  "vocabulary_introduced": [
+    "predict"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_likelihood_chart",
+    "M7_event_cards",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Likelihood'",
+    "Event Cards (16 per pair)",
+    "Lesson 1 likelihood tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Lucky Reviews Likelihood",
+    "hook": "Lucky: WILL it snow today? Sometimes! Will the sun come up tomorrow? CERTAIN! Will I fly to the moon? IMPOSSIBLE! Lucky opens: 'NEVER, ALWAYS, or SOMETIMES?' Class: 'I, C, or P!'",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets. 'Friends — last year you learned likelihood. Today we REVIEW.'\n\nReview vocabulary. Write IMPOSSIBLE, POSSIBLE, CERTAIN on chart. 'Impossible = NEVER. Possible = MAYBE. Certain = ALWAYS.'\n\nDemo. Hold up event cards. 'Snow in July → IMPOSSIBLE. Rain at recess → POSSIBLE. Day will end → CERTAIN.'\n\nMore Canadian examples:\n- 'Maple syrup tastes sweet' → CERTAIN.\n- 'Snow in May' → POSSIBLE (sometimes).\n- 'Pigs play hockey' → IMPOSSIBLE.\n- 'Sunny tomorrow' → POSSIBLE.\n- 'Polar bear in our class' → IMPOSSIBLE.\n- 'Lunch happens today' → CERTAIN.\n\n'Lucky says — every event fits ONE of three. Decide.'\n\n'Today we sort lots of events. We'll add a NEW idea tomorrow: complementary events.'\n\nIntroduce PREDICT. 'Predict = use likelihood to say what will happen.'\n\nDemo prediction: 'Will it be sunny tomorrow? POSSIBLE. I predict — yes!' Or no.\n\n'Today YOU predict events.'",
+    "student_actions": [
+      "Listen to Lucky",
+      "Echo vocabulary",
+      "Sort events I/P/C",
+      "Practice predictions"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Likelihood Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: name 6 events as I/P/C with Canadian context.",
+        "teacher_prompt": "Say: 'I, P, or C?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Sort 12 cards. B: Predict 5 events. C: Make own events.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: justify each likelihood.",
+        "teacher_prompt": "Say: 'Stretch: explain why.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the 3 categories.",
+        "teacher_prompt": "Show extreme cases."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two children share contrasting events for the same category. Class votes on which is 'more impossible' or 'more certain' and JUSTIFIES with cause-effect reasoning (Jones et al. 1997 Level 2).",
+        "teacher_prompt": "Lucky: 'Same category, different EVIDENCE. Probability is about REASONS.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A. Obvious events.",
+      "for_extending": "Stretch with reasons.",
+      "for_ell_or_iep": "Sentence frame: 'This is ___ because ___.'",
+      "for_movement_learners": "Children move to 3 corners by likelihood."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: names I, P, C.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names impossible",
+        "Names possible",
+        "Names certain",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lucky's Likelihood Brag",
+    "discussion_prompts": [
+      "What's IMPOSSIBLE?",
+      "What's POSSIBLE?",
+      "What's CERTAIN?",
+      "What does PREDICT mean?"
+    ],
+    "exit_routine": "Lucky's refrain — class chants: Lucky calls 'NEVER, ALWAYS, or SOMETIMES?' Class chants 'I, C, or P!' (Impossible, Certain, Possible). Repeat 3x. Each child writes one event + tag on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Likelihood term identification.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 reviews G1 likelihood vocabulary."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says POSSIBLE for everything — repairing the all-possible default at Grade 2",
+    "rationale": "On 'name likelihood as IMPOSSIBLE / POSSIBLE / CERTAIN', Grade-2 children frequently classify everything as POSSIBLE because 'anything could happen.' Fischbein (1975, 'The Intuitive Sources of Probabilistic Thinking in Children') and Jones, Langrall, Thornton & Mogill (1997 framework) place the move from 'anything is possible' to ordered IMPOSSIBLE/POSSIBLE/CERTAIN as the gateway of probabilistic reasoning. Without it, Lessons 2-5 cannot ground.\n\nToday reviews the 3 categories. Tomorrow Lesson 2 introduces complementary events; Lesson 3 spinners; Lesson 4 dice; Lesson 5 mode prediction capstone.",
+    "setup": "Pair at Station A. Card: 'A snowman in our class.' Child says POSSIBLE.",
+    "teacher_script": "Crouch. 'You said POSSIBLE. But Lucky asks — could a real snowman BE in our class right now? Snowmen melt. So it's IMPOSSIBLE.'\n\nGuide. 'IMPOSSIBLE = never (snowman in classroom). CERTAIN = always (sun rises). POSSIBLE = maybe (rain).'\n\nGenerlise. 'Lucky says — ask: NEVER, ALWAYS, or SOMETIMES?'",
+    "expected_student_responses": [
+      "(Confused) All possible.",
+      "(Mid) Distinguishes with prompts.",
+      "(Strong) Independent.",
+      "(Stretched) Justifies."
+    ],
+    "common_misconceptions": [
+      "Possible covers everything. (Repair: 3 distinct categories.)",
+      "Impossible = silly. (Repair: NEVER.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child sorts everything as POSSIBLE: anchor with obviously-impossible ('a fish flies to the moon') and obviously-certain ('we breathe air'); child anchors before tackling middle cases.",
+      "DIAGNOSTIC B — child can name TRUE/FALSE but not likelihood: drill the must-happen test 'is it locked-in or just LIKELY?' — locked = CERTAIN, otherwise POSSIBLE.",
+      "DIAGNOSTIC C — child swaps IMPOSSIBLE and POSSIBLE: physical sorting hoop — IMPOSSIBLE cards never touch the centre POSSIBLE hoop. Spatial separation prevents accidents."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lucky's Likelihood Review",
+    "purpose": "Independent practice of D2.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Sort 6 events as I, P, or C.",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Make a prediction with likelihood.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write your own event for each category.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky in worksheet header",
+      "6 events for Part 1",
+      "Prediction box for Part 2",
+      "3 lines for Part 3"
+    ]
+  }
+}

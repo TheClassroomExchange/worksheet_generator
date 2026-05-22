@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 1,
+  "lesson_title": "Longer and Shorter",
+  "duration_minutes": 35,
+  "primary_expectations": [
+    "A10.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We compare LENGTH by lining things up. Longer, shorter, or same length.",
+  "learning_intention": "We are learning to compare how long things are.",
+  "student_learning_goal": "I can compare how long things are.",
+  "success_criteria": [
+    "I can line up two things to compare them.",
+    "I can say which is longer or shorter.",
+    "I can say when two things are the SAME length."
+  ],
+  "vocabulary_introduced": [
+    "longer",
+    "shorter",
+    "same"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_length_strips",
+    "M3_object_set",
+    "M7_measure_chart",
+    "M9_animal_set",
+    "M10_measurement_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Max and Tess \u2014 if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Longer / Shorter / Same'",
+    "Length Comparison Strips (24 per pair)",
+    "Comparison Animal Tokens (12)",
+    "Lesson 1 length tracker \u2014 provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 7,
+    "activity_name": "Max Compares Trails",
+    "hook": "Max: Look at this trail of footprints. Is it LONGER or SHORTER than this other trail?",
+    "teacher_script": "Bring children to the carpet. Max + Tess puppets. 'I'm Max the Measure Moose. Today we learn LONGER, SHORTER, and SAME.'\n\nWrite LONGER, SHORTER, SAME on chart. 'Longer = goes farther. Shorter = doesn't go as far. Same = same length.'\n\nDemonstrate. Hold two ribbons of different lengths side by side at one end. 'LINE THEM UP at the start. The red ribbon is LONGER. The blue ribbon is SHORTER.'\n\nSame-length: hold two equal ribbons. 'Line up. They end at the same place. SAME length!'\n\nThree quick examples: pencil vs marker \u2014 longer? Two shoes \u2014 same? Book vs notebook \u2014 shorter?\n\nMax's RULE: 'LINE IT UP \u2014 COMPARE \u2014 NAME IT!'\n\nClass refrain. Class chants 3x with claps: 'LINE IT UP \u2014 COMPARE \u2014 NAME IT! That's how Max measures!'\n\n'Today we LINE UP and COMPARE lots of things.'",
+    "student_actions": [
+      "Listen to Max compare trails.",
+      "Echo new vocabulary: 'longer', 'shorter', 'same'.",
+      "Identify longer, shorter, or same in examples.",
+      "Practice lining up at the start."
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Length Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: compare 4 pairs of objects. (a) pencil vs marker. (b) ribbon vs string. (c) book vs notebook. (d) two same-length blocks.",
+        "teacher_prompt": "Say: 'Line them up. Which is longer?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Strip Sort \u2014 sort 24 length strips into longer-than-blue / shorter-than-blue piles. Station B: Animal Line-Up \u2014 order 5 animal tokens from shortest to longest. Station C: Find Same \u2014 find pairs of same-length classroom items.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: find 3 things the same length as your hand.",
+        "teacher_prompt": "Say: 'Stretch: 3 same-length things.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the line-up rule. 'Always line up one end FIRST. Then compare the other end.'",
+        "teacher_prompt": "Demonstrate again with two unequal pencils."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic evidence on the length tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Which is longer? How do you know?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just sort longer / shorter (skip 'same').",
+      "for_extending": "Stretch at Station C: order 7 strips from shortest to longest.",
+      "for_ell_or_iep": "Provide a sentence frame: 'This is ___ than that.'",
+      "for_movement_learners": "NO-PAPER PATH: children pair up, stand back-to-back at the wall, line their feet at the same baseline, and compare heights \u2014 taller, shorter, or same. Run with arms (longer/shorter arm-spans) and shoes (longer/shorter shoes). Whole lesson can run with NO purchased materials \u2014 bodies + classroom objects only."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: lines up at one end; says longer or shorter correctly; recognizes 'same'.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Lines up at one end",
+        "Names longer/shorter",
+        "Recognizes 'same'",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Max's Length Brag",
+    "discussion_prompts": [
+      "What does LONGER mean?",
+      "What does SHORTER mean?",
+      "How do you compare two things? (LINE IT UP first.)",
+      "When are two things the SAME length? (When they end at the same place.)"
+    ],
+    "exit_routine": "Refrain chant 3x. Then each child completes the sentence frame: 'My ___ is LONGER than my ___' (or SHORTER / SAME). Sticky-note one comparison and post."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Length comparison accuracy and line-up technique.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who can already line up and compare from those who guess by eye."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child guesses 'longer' by eye without lining up \u2014 repairing the eyeball-comparison trap at K (Piaget, 1960; Sarama & Clements, 2009)",
+    "rationale": "On A10.2 direct length comparison, the most-documented K trap is the eyeball-comparison trap: child glances at two objects and announces which is longer without physically lining them up at one end. They miss that the START point matters and judge by overall visual impression.\n\nPiaget (1960) showed that pre-conservation children attribute length to whichever endpoint extends farthest in their view, not to the actual extent of the object \u2014 a stick moved to the right looks 'longer' simply because its right end extends past the comparison stick's right end, even when its left end was correspondingly shifted right. Sarama & Clements (2009) place direct comparison BEFORE indirect comparison and unit iteration in their measurement learning trajectory: K children must master endpoint alignment with two physical objects before they can reason about non-physical units (cubes, hands).\n\nWhy this matters: length comparison requires aligning one end. A long-but-tilted object can look shorter than a short-but-straight one if the child compares only visible endpoints. The 'line up first' move is the K conceptual lever \u2014 it's not a procedural step, it's the move that makes length a property of the object rather than a property of the viewing angle.\n\nThe walkthrough covers the precise moment when a child guesses without lining up.",
+    "setup": "Pair is at Station B. Child holds two pencils, one tilted, one straight. Says 'this one's longer' without aligning ends.",
+    "teacher_script": "Crouch. 'You said this one's longer. Let's CHECK \u2014 line up the eraser ends.'\n\nLine them up together. 'Now look. Which one goes farther? That's the longer one.'\n\nGeneralise. 'Max says \u2014 always LINE IT UP first. Then COMPARE. Then NAME IT.'\n\nNow practice. Show two strips, one tilted. 'Line them up. Which is longer?' The child aligns and answers.\n\nIf still guessing: provide a 'Line Here!' sticker on a piece of paper. 'Place both ends here.' Force the alignment behaviour.\n\nLong-term recovery: every comparison opens with 'line up first'.",
+    "expected_student_responses": [
+      "(Confused) Guesses by eye without lining up; judges by which endpoint sticks out further on the right.",
+      "(Mid) Lines up with prompts, then compares.",
+      "(Strong) Lines up independently and uses 'longer/shorter'.",
+      "(Stretched) Recognizes 'same length' AND uses a third object as a non-standard unit to verify."
+    ],
+    "common_misconceptions": [
+      "Tilted = longer. (Repair: line up at one end first.)",
+      "Right-extended endpoint = longer (Piaget conservation trap). (Repair: line both LEFT ends together; check both right ends.)",
+      "Same length means identical objects. (Repair: same length means equal end-points only.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A \u2014 child is an eyeball-guesser (never aligns): provide a 'Line Here!' alignment sticker on a strip of paper; force both objects' left ends to touch the sticker before any comparison; do this for the next 3 comparisons until alignment becomes habitual.",
+      "DIAGNOSTIC B \u2014 child aligns the wrong end (lines up right ends, asks 'longer' from the left): hold the wall as the start line; mark with masking tape; drill 'WHICH end did Max line up? The SAME end on both.'",
+      "DIAGNOSTIC C \u2014 child conflates 'same' with 'identical' (says objects of equal length but different colour aren't 'same'): two identical-length but different-colour ribbons; align endpoints; ask 'where do they end?' \u2014 same place = same length, regardless of colour or thickness."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Max's Length Hunt",
+    "purpose": "Independent practice of A10.2 length comparison.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Circle the longer object in 5 pairs.",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Order 4 strips from shortest to longest.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Find and draw 2 things the same length.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Max in worksheet header",
+      "5 pair rows for Part 1",
+      "4 strips for Part 2",
+      "Blank drawing area for Part 3"
+    ]
+  }
+}

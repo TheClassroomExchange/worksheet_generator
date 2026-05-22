@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "lesson_number": 2,
+  "worksheet_title": "Mae's Big Story Problems",
+  "purpose": "Independent practice of B2.4 (modelling story problems with totals to 100) and B2.1 (relationship between add/sub via check-by-reversing).",
+  "student_learning_goal": "I can act out, draw, and write an equation for an addition or subtraction story problem with totals up to 100, and check by reversing.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can act out, draw, and write an equation for an addition or subtraction story problem with totals up to 100, and check by reversing.",
+    "character_watermark": "Mae the Multiplier in the top-right corner with her workshop apron. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Change-Add-To Stories",
+          "student_instructions": "Sketch a tape diagram showing both parts. Write an addition equation. Add a check sentence.",
+          "visual_layout": "Top of the page. Two story-problem boxes side by side.",
+          "image_placeholders": [
+            {"id": "WS02_P1_TWO_CHANGE_ADD", "description": "Two story-problem boxes in B&W line-art, side by side, each ~3.5in × 3in. Box A story: 'Mae had 47 paper kittens. Buddy delivered 36 more. How many altogether?' Box B story: 'Dan had 58 paper cookies. Mae baked 27 more. How many cookies now?' Below each: blank tape-diagram, equation line, AND check-equation line.", "placement": "Top of the page; two boxes side by side.", "approximate_size": "full_width", "keywords": ["story", "tape-diagram"], "text_image_alignment_check": "Image WS02_P1_TWO_CHANGE_ADD: keywords (story, tape-diagram) name what the boxes ask for."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Box A: tape diagram parts 47 and 36, total 83. Equation 47+36=83. Check 83-36=47. Box B: tape diagram parts 58 and 27, total 85. Equation 58+27=85. Check 85-27=58."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Change-Take-From Stories",
+          "student_instructions": "Show the take-from action with a tape diagram. Write a subtraction equation. Add an addition check.",
+          "visual_layout": "Upper-middle. Two story-problem boxes side by side.",
+          "image_placeholders": [
+            {"id": "WS02_P2_TWO_CHANGE_TAKE", "description": "Two story-problem boxes in B&W line-art, side by side, each ~3.5in × 3in. Box A story: 'Mae had 75 paper cookies. She used 28 for a baking demo. How many left?' Box B story: 'Dan had 92 paper kittens. He gave 38 to friends. How many remain?' Below each: blank tape-diagram, equation line, AND check-equation line.", "placement": "Upper-middle; two boxes side by side.", "approximate_size": "full_width", "keywords": ["story", "subtraction"], "text_image_alignment_check": "Image WS02_P2_TWO_CHANGE_TAKE: keywords (story, subtraction) name what the boxes ask for."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Box A: tape diagram parts 28 (used) and 47 (left), total 75. Equation 75-28=47. Check 47+28=75. Box B: tape diagram parts 38 (given) and 54 (left), total 92. Equation 92-38=54. Check 54+38=92."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Part-Part-Whole Stories",
+          "student_instructions": "Sketch the part-part-whole on a tape diagram. Write the equation. Solve and circle the answer.",
+          "visual_layout": "Middle-lower. Two story-problem boxes side by side.",
+          "image_placeholders": [
+            {"id": "WS02_P3_TWO_PART_WHOLE", "description": "Two story-problem boxes in B&W line-art, side by side, each ~3.5in × 3in. Box A story (total-unknown): 'Mae has 43 paper kittens and 39 paper cookies. How many items total?' Box B story (missing-addend): 'Dan and Buddy collected 84 acorns altogether. Dan collected 39. How many did Buddy collect?' Below each: blank tape-diagram and equation line.", "placement": "Middle-lower; two boxes side by side.", "approximate_size": "full_width", "keywords": ["story", "part-whole"], "text_image_alignment_check": "Image WS02_P3_TWO_PART_WHOLE: keywords (story, part-whole) name what the boxes show."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Box A: tape diagram parts 43 and 39, total 82. Equation 43+39=82. Box B: tape diagram parts 39 (Dan) and 45 (Buddy), total 84. Equation 39+__=84, so __=45."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: My Own Story",
+          "student_instructions": "Write your own change-take-from story with totals near 80. Draw a tape diagram. Write the equation. Check.",
+          "visual_layout": "Bottom of the page. A blank box for the child to write a story, draw a diagram, write the equation, and check.",
+          "image_placeholders": [
+            {"id": "WS02_P4_BLANK_STORY", "description": "A large blank rectangular box in B&W line-art, ~7in × 4in, with light-grey solid outline. Inside the box, four labeled sections: 'My Story:', 'My tape diagram:', 'My equation:', 'My check:'. A small Mae thinking-bubble icon in the top-right.", "placement": "Bottom of the page; spans full width.", "approximate_size": "full_width", "keywords": ["story", "tape-diagram"], "text_image_alignment_check": "Image WS02_P4_BLANK_STORY: keywords (story, tape-diagram) name what the box asks for."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible change-take-from story with totals near 80, including diagram, correct equation, and a valid check."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a SECOND story on the back — a part-part-whole story with a missing addend.",
+  "teacher_notes": "Lesson 2 consolidation. Hand out at the end of the Action phase. Watch for: (a) children who skip the tape diagram — flag for diagram-as-thinking-tool reteach; (b) children who skip the check — flag for the relationship-as-tool reteach; (c) Part 4 children whose equation doesn't match their story — coaching on problem-type identification."
+}

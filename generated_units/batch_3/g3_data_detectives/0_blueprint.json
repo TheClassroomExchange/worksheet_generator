@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "thematic_title": "Data Detectives — Grade 3 Case",
+  "descriptive_title": "Grade 3 Mathematics: Demonstrations — Reading and Interpreting Graphs (D1.1-D1.5)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "D. Data",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-3",
+  "curriculum_codes": [
+    "D1.1",
+    "D1.2",
+    "D1.3",
+    "D1.4",
+    "D1.5"
+  ],
+  "curriculum_expectations": {
+    "D1.1": "sort sets of data about people or things according to two and three attributes, using tables and logic diagrams, including Venn, Carroll, and tree diagrams, as appropriate",
+    "D1.2": "collect data through observations, experiments, and interviews to answer questions of interest that focus on qualitative and quantitative data, and organize the data using frequency tables",
+    "D1.3": "display sets of data, using many-to-one correspondence, in pictographs and bar graphs with proper sources, titles, and labels, and appropriate scales",
+    "D1.4": "determine the mean and identify the mode(s), if any, for various data sets involving whole numbers, and explain what each of these measures indicates about the data",
+    "D1.5": "analyse different sets of data presented in various ways, including in frequency tables and in graphs with different scales, by asking and answering questions about the data and drawing conclusions, then make convincing arguments and informed decisions"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on data (D1.1-D1.5) framed around 'Data Detectives — Grade 3 Case' — Detective Dot and Tally now tackle 3-attribute sorting (tree diagrams), frequency tables, many-to-one bar graphs, MEAN and MODE. Day 1 sorts by 3 attributes with tree diagrams. Day 2 builds frequency tables (qualitative + quantitative). Day 3 introduces MANY-TO-ONE scale. Day 4 calculates MEAN. Day 5 closes with a Big Case Capstone. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will sort by 3 attributes, build frequency tables, use many-to-one scale on graphs, calculate mean and mode, and analyse data with conclusions.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Three-Attribute Sort",
+      "primary_expectations": [
+        "D1.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Tree diagrams sort by 3 attributes by branching at each step.",
+      "student_learning_goal": "I can sort by 3 attributes using a tree diagram.",
+      "one_line_summary": "Detective Dot teaches tree diagrams; children sort by 3 attributes."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Frequency Tables",
+      "primary_expectations": [
+        "D1.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "FREQUENCY TABLES list categories with their COUNTS. Qualitative = words. Quantitative = numbers.",
+      "student_learning_goal": "I can build a frequency table with qualitative or quantitative data.",
+      "one_line_summary": "Tally teaches frequency tables; children survey both kinds of data."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Many-to-One Bar Graphs",
+      "primary_expectations": [
+        "D1.3"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "On bigger data, ONE bar height = TWO or FIVE or TEN units. SCALE matters!",
+      "student_learning_goal": "I can use many-to-one scale on a bar graph.",
+      "one_line_summary": "Detective Dot scales bars: 1 unit = 5 children; children build scaled bars."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Mean and Mode",
+      "primary_expectations": [
+        "D1.4"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "MEAN = total ÷ count (the 'fair share'). MODE = most common.",
+      "student_learning_goal": "I can find the mean and mode of a data set.",
+      "one_line_summary": "Tally calculates mean and mode; children practice with whole-number data."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "The Big Case Capstone",
+      "primary_expectations": [
+        "D1.5"
+      ],
+      "secondary_expectations": [
+        "D1.1",
+        "D1.2",
+        "D1.3",
+        "D1.4"
+      ],
+      "big_idea": "Detectives use sort, frequency, graphs, mean+mode to TELL the data's story.",
+      "student_learning_goal": "I can analyse data and write a conclusion using mean and mode.",
+      "one_line_summary": "Children run a full case: survey, scale, mean, mode, conclude."
+    }
+  ],
+  "expectation_lesson_map": {
+    "D1.1": [
+      1,
+      5
+    ],
+    "D1.2": [
+      2,
+      5
+    ],
+    "D1.3": [
+      3,
+      5
+    ],
+    "D1.4": [
+      4,
+      5
+    ],
+    "D1.5": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Detective Dot the Sorting Squirrel",
+      "role": "Lead character. Same Detective Dot from G1/G2; now tackles tree diagrams and many-to-one. Anchors all 5 lessons.",
+      "visual_description": "A young squirrel with detective hat, magnifying glass, and a 3-column notebook. Confident expression."
+    },
+    {
+      "name": "Tally the Tally Cat",
+      "role": "Detective Dot's partner. Mean + mode character. Cameo Lessons 2-5.",
+      "visual_description": "A young cat in a striped vest with a calculator and frequency table clipboard."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "tree diagram",
+      "child_friendly_definition": "A diagram with branches that sorts by 3 attributes."
+    },
+    {
+      "term": "frequency table",
+      "child_friendly_definition": "A table that lists categories and their counts."
+    },
+    {
+      "term": "qualitative data",
+      "child_friendly_definition": "Data that's WORDS (favourite colour: blue)."
+    },
+    {
+      "term": "quantitative data",
+      "child_friendly_definition": "Data that's NUMBERS (height: 120 cm)."
+    },
+    {
+      "term": "scale",
+      "child_friendly_definition": "How much one bar unit shows. 1 unit = 5 children."
+    },
+    {
+      "term": "mean",
+      "child_friendly_definition": "The 'fair share'. Add all values, divide by count."
+    },
+    {
+      "term": "mode",
+      "child_friendly_definition": "The most common value."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_tree_mat",
+      "name": "Tree Diagram Mat",
+      "description": "Letter-size mat with branching tree.",
+      "used_in_lessons": [
+        1,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_frequency_template",
+      "name": "Frequency Table Template",
+      "description": "Letter-size template for category-count tables.",
+      "used_in_lessons": [
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_bar_grid",
+      "name": "Scaled Bar Graph Grid",
+      "description": "Letter-size bar graph grid with adjustable scale.",
+      "used_in_lessons": [
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_mean_chart",
+      "name": "Mean Calculation Chart",
+      "description": "Anchor chart showing total ÷ count.",
+      "used_in_lessons": [
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_data_cards",
+      "name": "Survey Data Cards",
+      "description": "Set of 30 paper data cards with 3 attributes each.",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_capstone_template",
+      "name": "Big Case Template",
+      "description": "Letter-size capstone with all 5 detective steps.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_data_chart",
+      "name": "G3 Data Vocabulary Chart",
+      "description": "Anchor chart with tree, frequency, scale, mean, mode.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_scale_chart",
+      "name": "Scale Chart",
+      "description": "Anchor chart explaining many-to-one scale.",
+      "used_in_lessons": [
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_calculator_set",
+      "name": "Paper Calculator Cards",
+      "description": "Set of 12 paper calculators for mean calculation.",
+      "used_in_lessons": [
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_unit_poster",
+      "name": "G3 Detectives Poster",
+      "description": "Anchor poster of Dot and Tally with G3 skills.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Tree Diagram Mat (per pair)",
+    "Frequency Table Template (per pair)",
+    "Scaled Bar Graph Grid (per pair)",
+    "Mean Chart",
+    "Survey Data Cards (30)",
+    "Big Case Template (per child)",
+    "G3 Data Vocabulary Chart",
+    "Scale Chart",
+    "Paper Calculator Cards (12)",
+    "Unit Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 tree-diagram snapshot.",
+    "formative": "Lesson 2 frequency tracker; Lesson 3 scale tracker; Lesson 4 mean tracker.",
+    "summative": "Lesson 5 Big Case capstone."
+  },
+  "pedagogical_notes": [
+    "Grade 3 deepens G2 with 3-attribute sorting (tree diagrams).",
+    "Frequency tables introduce qualitative AND quantitative distinction.",
+    "Many-to-one is the leap to scaled graphs — foundational for fractions later.",
+    "Mean is new at G3 — calculate as total ÷ count.",
+    "Conclusions use mean OR mode plus group language."
+  ],
+  "canadian_context_notes": [
+    "Use Canadian survey topics: hockey, weather, snow days, maple syrup.",
+    "Time spent on Tim Hortons donuts for quantitative data.",
+    "Hockey jersey numbers for mean exercises.",
+    "Provincial/territorial sorting for tree diagrams."
+  ]
+}

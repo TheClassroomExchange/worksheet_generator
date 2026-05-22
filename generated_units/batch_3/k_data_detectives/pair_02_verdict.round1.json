@@ -1,0 +1,38 @@
+{
+  "unit_id": "k_data_detectives",
+  "pair_number": 2,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 4,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "mathematical_authenticity": 4,
+    "sor_alignment": null,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "blueprint.curriculum_expectations['A8.2'] = 'collect data through observation and counting' but input_row.curriculum_expectations['A8.2'] = 'collect and record data to answer questions of interest, and display it in concrete graphs or picture graphs'. The blueprint and lesson text drift from the verbatim source — the source includes 'record', 'answer questions of interest' and 'display in concrete/picture graphs' which are dropped. Lesson 2 also does not explicitly bridge to Lesson 1 sorting in expanded_walkthrough or to Lesson 3 graphing.",
+      "required_fix": "Update lesson_02.primary_expectations text (and blueprint downstream if needed) so curriculum_expectations for A8.2 is byte-identical to input_row: 'collect and record data to answer questions of interest, and display it in concrete graphs or picture graphs'. Add an explicit bridge in expanded_walkthrough or minds_on referencing Lesson 1's sorting ('yesterday Detective Dot sorted these into groups — today Tally COUNTS each group') and forecasting Lesson 3 ('tomorrow we will turn these counts into a picture graph').",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.activity_name = 'Tally's Count Brag' and exit_routine = 'Each child writes ONE tally count: \"I counted ___ ___s.\"' — there is a sentence frame, but Tally has no distinctive quotable refrain that children chant back across lessons. The teacher_script gives Tally lines like 'count each group ONCE' but no memorable repeated chant a child carries into Lessons 3-5.",
+      "required_fix": "Give Tally a distinctive, memorable closing chant that children echo in every lesson — for example 'Tally's rule: ONE touch, ONE tally, ONE time!' chanted in call-and-response at consolidation, and reuse it in the exit_routine instead of just the open sentence frame. Reference the chant in Lesson 1's character intro so it threads across the unit.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "notes": "Strong pair overall. Pedagogical depth is genuinely Level 4 — double-count trap is a real K misconception with concrete touch-and-move recovery branching by child response. Instructional balance is excellent: puppets explicitly OPTIONAL with stuffed-animal/picture fallback, all materials makeable from chart paper and tokens, 12/25/13 timing realistic for K. Math authenticity is strong: counting tied to one-to-one correspondence and cardinality, tally as concrete data representation, expected_student_responses ladder from confused→stretched. Worksheet maps cleanly to the three success criteria with image_assets matching the lesson's tally-chart manipulatives. Two fixable gaps: (1) curriculum text drift from input_row, (2) no quotable Tally refrain to anchor Level 4 clarity_voice."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 2,
+  "worksheet_title": "Maya's 2s, 5s, 10s Toolkit",
+  "purpose": "Independent practice of B2.2 and B2.1.",
+  "student_learning_goal": "I can recall multiplication facts of 2, 5, and 10 and write the related division facts.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can recall multiplication facts of 2, 5, and 10 and write the related division facts.", "character_watermark": "Maya the Multiplication Maven in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Fluency Table", "student_instructions": "Fill in each fact.", "visual_layout": "Top of the page. A 12-cell fluency table in a 4x3 grid.",
+      "image_placeholders": [{"id": "WS02_P1_FLUENCY_TABLE", "description": "A 12-cell fluency table in B&W line-art, 4-row × 3-column grid. Facts: 2×7, 2×9, 5×6, 5×8, 10×4, 10×7, 2×5, 5×9, 10×6, 2×8, 5×3, 10×9.", "placement": "Top of the page; 4x3 grid.", "approximate_size": "full_width", "keywords": ["fluency", "facts"], "text_image_alignment_check": "Image WS02_P1_FLUENCY_TABLE: keywords (fluency, facts) name what the table shows."}],
+      "student_response_type": "write", "answer_key": "2×7=14, 2×9=18, 5×6=30, 5×8=40, 10×4=40, 10×7=70, 2×5=10, 5×9=45, 10×6=60, 2×8=16, 5×3=15, 10×9=90."},
+    {"part_number": 2, "part_title": "Part 2: Fact Families", "student_instructions": "Each triangle holds a fact family. Write all four facts (or three for doubles).", "visual_layout": "Middle. Six fact-family triangles in a 2x3 grid.",
+      "image_placeholders": [{"id": "WS02_P2_SIX_TRIANGLES", "description": "Six fact-family triangles in B&W line-art, 2-row × 3-column grid. Each ~1.6in tall. Numbers: T1 (2,7,14), T2 (5,6,30), T3 (10,4,40), T4 (5,5,25 — doubles), T5 (2,8,16), T6 (10,7,70). Below each: equation lines.", "placement": "Middle; 2x3 grid.", "approximate_size": "full_width", "keywords": ["triangles", "facts"], "text_image_alignment_check": "Image WS02_P2_SIX_TRIANGLES: keywords (triangles, facts) name what the triangles show."}],
+      "student_response_type": "write", "answer_key": "T1: 2×7=14, 7×2=14, 14÷2=7, 14÷7=2. T2: 5×6=30, 6×5=30, 30÷5=6, 30÷6=5. T3: 10×4=40, 4×10=40, 40÷10=4, 40÷4=10. T4 doubles: 5×5=25, 25÷5=5. T5: 2×8=16, 8×2=16, 16÷2=8, 16÷8=2. T6: 10×7=70, 7×10=70, 70÷10=7, 70÷7=10."},
+    {"part_number": 3, "part_title": "Part 3: Division-to-Multiplication", "student_instructions": "For each division fact, write the related multiplication.", "visual_layout": "Bottom. Six division-multiplication pair rows.",
+      "image_placeholders": [{"id": "WS02_P3_SIX_PAIRS", "description": "Six rows in B&W line-art, stacked vertically. Each ~7in × 0.6in. Format: division fact on left (e.g., 18÷2=___), arrow, related multiplication slot. Facts: 18÷2, 35÷5, 80÷10, 14÷7, 30÷6, 60÷10.", "placement": "Bottom of the page; six rows.", "approximate_size": "full_width", "keywords": ["division", "multiplication"], "text_image_alignment_check": "Image WS02_P3_SIX_PAIRS: keywords (division, multiplication) name what the rows ask for."}],
+      "student_response_type": "write", "answer_key": "18÷2=9, related 9×2=18 or 2×9=18. 35÷5=7, 5×7=35. 80÷10=8, 10×8=80. 14÷7=2, 2×7=14. 30÷6=5, 5×6=30. 60÷10=6, 6×10=60."}
+  ]}],
+  "early_finisher_prompt": "If you finish, write 3 fact families of your own with ×2, ×5, or ×10.",
+  "teacher_notes": "Lesson 2 consolidation. Use Part 1 fluency for diagnostic data. Watch for Part 2 children who write only 2 facts per triangle."
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "Drift gate clean. compose.py extension for the Data Detectives narrative is pending — deck routes to _drafts/ until added."
+  },
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "All five lessons carry expanded_walkthroughs with paired misconceptions and recovery moves. Lesson 1: multi-attribute confusion. Lesson 2: double-count. Lesson 3: unaligned graph. Lesson 4: irrelevant-attribute trap. Lesson 5: unbounded-question capstone trap.", "evidence_refs": ["1_lesson_01..05.json::expanded_walkthrough"]},
+    "instructional_balance": {"score": 4, "justification": "K-appropriate CRA progression: physical sorting and counting (concrete) → tally charts (representational) → pictographs (representational-abstract bridge) → reading and capstone investigation. Children-led capstone integrates all 4 expectations.", "evidence_refs": ["1_lesson_01..05.json::action.steps", "3_manipulatives.json::assets (10 manipulatives + 2 character puppets)"]},
+    "clarity_communication": {"score": 4, "justification": "All lessons have substantial teacher_script, 4 expected_student_responses bands, paired misconceptions/recovery. Every lesson has K-appropriate 'I can' student_learning_goal.", "evidence_refs": ["1_lesson_01..05.json::expanded_walkthrough.teacher_script"]},
+    "alignment": {"score": 4, "justification": "consistency_check 0; verify_curriculum_text 0; validate_unit_alignment 0. A8.1-A8.4 codes cited. classroom_time_total_minutes 250 = 5x50.", "evidence_refs": ["0_blueprint.json::curriculum_codes (A8.1-A8.4)", "pipeline.image_alignment.validate_unit_alignment (0 issues)"]},
+    "appearance": {"score": 4, "justification": "Drift gate clean. 12 assets (10 M-id + 2 character_puppet). Marketplace $9.99.", "evidence_refs": ["pipeline.rubric.pre_grade_drift_check::placeholder_artwork_count=0", "3_manipulatives.json::assets (12 total)", "6_marketplace.json::suggested_price_cad=9.99"]}
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-04-k-data",
+  "graded_at": "2026-05-04T10:30:00Z"
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 1,
+  "lesson_title": "Variables in Real Life",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "A variable stands for an unknown OR a quantity that varies.",
+  "learning_intention": "We are learning to describe how variables are used in real-life contexts.",
+  "student_learning_goal": "I can describe how variables are used in real-life contexts.",
+  "success_criteria": [
+    "I can name 3+ real-life examples of variables.",
+    "I can describe whether a variable holds a fixed unknown or a varying value.",
+    "I can use a variable to represent something in my life."
+  ],
+  "vocabulary_introduced": [
+    "variable"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_variable_chart",
+    "M9_equation_chart",
+    "M10_engineer_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Eddy the Equation Engineer — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Variables in Real Life'",
+    "Variable in Real Life Chart (M1)",
+    "Lesson 1 variable tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Eddy's Variable Tour",
+    "hook": "Eddy: Variables are everywhere — temperature, score, age. They CHANGE every day. Eddy opens: 'Letters in math STAND for NUMBERS!'",
+    "teacher_script": "Bring children to the carpet. Eddy puppet. 'Friends — I'm Eddy the Equation Engineer. Today I want you to see VARIABLES everywhere in your life.'\n\nIntroduce vocabulary. Write VARIABLE on chart. 'A variable stands for a value that can CHANGE or that we don't yet KNOW.'\n\nExamples:\n- Temperature in Toronto: changes each day. T = 5°C today, T = -10°C tomorrow.\n- Leafs score: changes each game. S = 4 last night, S = 2 tonight.\n- Your age: changes each year. A = 8 this year, A = 9 next year.\n- Snowfall: varies each storm. S = 5 cm Monday, S = 15 cm Tuesday.\n- Your weight: changes as you grow.\n\n'In each case, the LETTER stands for the value. The letter is the VARIABLE.'\n\nNow contrast: 'Unknown variable: in 5 + n = 12, n is the missing number — fixed but unknown.\nVarying variable: in T = temperature, T can be ANY value depending on the day.'\n\n'Both are variables. They're different USES of the same idea.'\n\n'Today we identify variables in real life and explain how they're used.'",
+    "student_actions": [
+      "Listen to Eddy's variable tour.",
+      "Echo new vocabulary: 'variable'.",
+      "Identify variables in real-life examples.",
+      "Distinguish unknown vs varying."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Variable Real-Life Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: identify variables in 4 real-life contexts. (a) Temperature today vs tomorrow. (b) Leafs score per game. (c) Snowfall per storm. (d) Your age each year.",
+        "teacher_prompt": "Say: 'Find the variable. Is it unknown or varying?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations (~7 min each). Station A: Variable Hunt — pair finds 6 real-life variables. Station B: Unknown vs Varying — pair sorts 12 variable cards. Station C: Use Your Own — pair writes 4 of their own variable examples.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write a variable for a quantity in your home (steps to school, homework time).",
+        "teacher_prompt": "Say: 'Stretch: pick a home variable.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the two uses of variables. 'Unknown: the value is fixed but we don't know it (5 + n = 12). Varying: the value can change (T = temperature).'",
+        "teacher_prompt": "Show the chart with both columns side by side."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the variable tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's a variable in your life?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their variable choices. Class compares: which letter best fits 'unknown' vs 'varying' quantity? Cite Kuchemann (1981) — letter-as-variable is the research-grounded gateway.",
+        "teacher_prompt": "Eddy: 'Different letters, same JOB — they hold the place of an unknown.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use everyday variables (age, temperature).",
+      "for_extending": "Stretch at Station C: write a 2-variable example (e.g., score difference between teams).",
+      "for_ell_or_iep": "Provide a structured frame: '___ is a variable because ___.'",
+      "for_movement_learners": "Walk around the room finding variables on signs, posters, calendar."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: identifies variables; describes use; uses own variable.",
+      "how_to_record": "Tick the variable tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Identifies variables",
+        "Describes use (unknown or varying)",
+        "Uses own variable",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Eddy's Variable Brag",
+    "discussion_prompts": [
+      "What does VARIABLE mean?",
+      "What's a variable in your day?",
+      "Difference between unknown and varying variables?",
+      "Why do we use letters as variables?",
+      "Eddy's preview: tomorrow we put expressions on Vex's balance scale (Lesson 2 — C2.2). What variable from today might appear there?"
+    ],
+    "exit_routine": "Eddy's variable refrain — class chants 3x: 'Letters in math STAND for NUMBERS!' (with hand gesture: open palm = unknown). Each child writes one variable equation on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Variable identification and use description.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already grasp variable use vs those who treat letters as labels."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child treats a letter as a label (T = Toronto) instead of a value (T = temperature) — repairing the letter-as-label confusion at Grade 3",
+    "rationale": "On 'letters stand for unknown numbers', Grade-3 children frequently treat letters as labels (n = 'name' or 'number') OR as fixed objects rather than variable quantities. Kuchemann (1981, 'The Meaning of Letters in School Mathematics') and Knuth et al. (2006) frame the letter-as-label / letter-as-object misconception as the algebra-readiness gateway.\n\nToday: variables stand for unknown numbers. Tomorrow Eddy puts expressions on Vex's balance scale (Lesson 2 — C2.2). Lesson 3 multiplicative equivalence; Lesson 4 multi-target; Lesson 5 balance capstone.",
+    "setup": "Pair is at Station B. Card: T = today's temperature. Child says 'T means Toronto'.",
+    "teacher_script": "Crouch beside the child. 'Good thinking — T sometimes means Toronto. But in math, a variable T means a NUMBER. Like T = 5 degrees today.'\n\nWalk through. 'When we write T, we mean the temperature value. T = 5 today. Tomorrow T might = -10. The letter STANDS FOR a number.'\n\n'Letters in math = numbers. Letters in writing = words. Both are useful, but DIFFERENT.'\n\nIf the child still confuses: provide a sentence frame. 'T stands for the number ___ today.' Force the numeric reading.\n\nLong-term recovery: every variable activity uses 'T stands for the number...'. Build the variable-as-number reflex.",
+    "expected_student_responses": [
+      "(Confused) Treats T as a label (Toronto, T-shirt).",
+      "(Mid) Treats T as a number with prompts.",
+      "(Strong) Identifies T as a numeric value that varies.",
+      "(Stretched) Uses 2 variables to show a relationship (T_today vs T_tomorrow)."
+    ],
+    "common_misconceptions": [
+      "Letters are labels. (Repair: in math, letters are numbers.)",
+      "Variables only mean unknowns. (Repair: variables can also vary over time.)",
+      "Different letters mean different math. (Repair: any letter works the same.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child reads x as 'x = name': drill 'letters in MATH stand for NUMBERS, not names'; child re-says before solving.",
+      "DIAGNOSTIC B — child treats x as fixed object (always = 1): show x in TWO different equations with different values; child sees x varies.",
+      "DIAGNOSTIC C — child names variable but can't find value: drop to balance demo with cubes; child finds the missing count."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Eddy's Variables",
+    "purpose": "Independent practice of C2.1 (variables in real life).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Identify the variable in 6 real-life examples.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Sort 6 variables into UNKNOWN and VARYING.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write 3 variables from your own life.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Eddy in the worksheet header",
+      "6 example rows for Part 1",
+      "6 sort rows for Part 2",
+      "3 blank slots for Part 3"
+    ]
+  }
+}

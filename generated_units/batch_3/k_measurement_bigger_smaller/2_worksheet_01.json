@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 1,
+  "worksheet_title": "Max's Length Hunt",
+  "purpose": "Independent practice of A10.2 — comparing length. Used as Lesson 1 consolidation artifact and as evidence for the diagnostic checklist.",
+  "student_learning_goal": "I can compare how long things are.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compare how long things are.",
+    "character_watermark": "Max the Measure Moose in the top-right corner of the header, holding a measuring stick. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Circle the longer one!",
+          "student_instructions": "Look at each pair. Circle the LONGER object.",
+          "visual_layout": "Five paired-object rows stacked vertically. Each row shows two objects side by side, lined up at the left edge: (1) pencil vs marker, (2) ribbon vs string, (3) snake vs worm, (4) hockey stick vs paint brush, (5) two same-length blocks. Each pair ~3in × 1in.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_PAIRS",
+              "description": "Five paired-object rows in B&W line art for a Kindergarten worksheet, each row ~3in × 1in. Each pair shows two objects lined up at the left edge so the student can compare lengths visually. Row 1: short pencil + long marker. Row 2: short ribbon + long ribbon. Row 3: short worm + long snake. Row 4: short paint brush + long hockey stick. Row 5: two equal-length blocks. Generous spacing between rows for the child to circle.",
+              "placement": "Centred horizontally in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["pencil", "marker", "ribbon"],
+              "text_image_alignment_check": "Image WS01_P1_PAIRS at Part 1: instructions ask the child to circle the longer object. Keywords name the pairs shown — children compare specific object pairs (pencil vs marker, ribbon pairs)."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "Row 1: marker. Row 2: long ribbon. Row 3: snake. Row 4: hockey stick. Row 5: SAME — neither is longer. Accept circling either or both for Row 5."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Order the strips!",
+          "student_instructions": "Number the strips from 1 (shortest) to 4 (longest).",
+          "visual_layout": "Four horizontal strips of varied lengths stacked vertically. Each strip is a thin solid B&W rectangle, all aligned at the left edge. Lengths: 1in, 2in, 3in, 5in (in mixed order). Beside each strip is a small numbered box for the child to write 1, 2, 3, or 4.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_STRIPS",
+              "description": "Four horizontal strips in B&W line art for a Kindergarten worksheet, stacked vertically and aligned at the left edge. Lengths in display order (top to bottom): 3in, 1in, 5in, 2in (mixed so children must reason). Each strip ~0.4in tall, thin solid border. Beside each strip, a small empty box (~0.5in × 0.5in) for the child to write a number from 1 (shortest) to 4 (longest).",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "medium",
+              "keywords": ["strips", "shortest", "longest"],
+              "text_image_alignment_check": "Image WS01_P2_STRIPS at Part 2: instructions ask the child to order strips by length. Keywords name the visual elements (strips) and the comparison endpoints (shortest, longest)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Top to bottom: 3in→3, 1in→1, 5in→4, 2in→2."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Find SAME-length things!",
+          "student_instructions": "Look around your classroom. Find 2 things that are the SAME length. Draw them.",
+          "visual_layout": "Two blank drawing boxes side by side, each ~3in × 2in with thin solid border. Below each box is a label line for the child to write the object's name.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_BOXES",
+              "description": "Two blank drawing boxes side by side for a Kindergarten worksheet. Each box is ~3in × 2in with a thin solid border. Below each box, a horizontal line for writing the object's name. Designed for the child to draw two same-length classroom items.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": ["same", "length"],
+              "text_image_alignment_check": "Image WS01_P3_BOXES at Part 3: instructions ask the child to find and draw two same-length things. Keywords name the comparison criterion (same, length)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 2 objects in the classroom that are the same length. Common: two pencils, two markers, two same blocks, two same shoes."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, find 1 thing that is LONGER than your hand. Draw it.",
+  "teacher_notes": "Lesson 1 consolidation artifact. Hand out at the end of the Action phase. Most children should complete Part 1 with one prompt. Part 2 may need scaffolding for the 'mixed order' reasoning. Use Part 1 as the primary diagnostic signal — children who circle the wrong object on visually-tilted pairs need the 'line up at one end' re-loop."
+}

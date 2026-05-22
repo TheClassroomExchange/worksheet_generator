@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "deck_url": "https://docs.google.com/presentation/d/1LUERMeLtcL6S6znLIStMvMDn-17U6pcMr3BP5_KueIs/edit",
+  "pdf_path": "/Users/aria/Documents/TheClassroomExchange/claude_code_handoff/worksheet_generator/generated_units/batch_3/g1_measurement_how_long/validation_export.pdf",
+  "pdf_size_kb": 787,
+  "slide_count": 27,
+  "inspected_at": "2026-05-10T12:14:02Z",
+  "inspected_by": "claude-visual-inspector-batch3",
+  "status": "revise_assets",
+  "issues": [
+    {
+      "slide_number": 9,
+      "category": "missing_asset",
+      "description": "Roo's Length and Area Sheet worksheet preview shows only a blank pale-yellow rectangle labelled 'WS02 P1 STRIPS' with caption 'Worksheet area' as the hero. The actual length-strips ranking artwork that a teacher would expect to see is not rendered; this is a composer placeholder, not a real asset.",
+      "suggested_fix": "Re-run the worksheet composer for WS02 P1 STRIPS so the hero image shows actual labelled length strips ready to be ranked 1-4, instead of the empty 'Worksheet area' placeholder rectangle.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 22,
+      "category": "missing_asset",
+      "description": "The How Long? How Big? Poster (M10_unit_poster) slide is an empty pale-yellow landscape rectangle with the caption 'Anchor chart' in the corner. There is no rendering of Roo and Cal with sample measurements as the blueprint specifies, leaving the unit anchor poster blank.",
+      "suggested_fix": "Re-run the manipulative composer for M10_unit_poster to draw Roo the Ruler Rabbit and Cal the Calendar Cat with sample length/area/mass/capacity comparisons and a calendar inset, in letter-landscape format.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 25,
+      "category": "title_clipping",
+      "description": "Summative Assessment Rubric expectation cells truncate the curriculum text with ellipses: 'E2.1 identify measurable attributes of…', 'E2.2 compare several everyday objects and order them…', 'E2.3 read the date on a calendar, and use a calendar…'. Several Level 3 cells also end with '…' (e.g., 'all 4 attributes (length, area, mass, capacity) and picks…').",
+      "suggested_fix": "Widen the Expectation column or reduce font size so the full E2.1, E2.2, and E2.3 expectation text fits without ellipsis. Audit Level 3 cells too — these are the achievement standard and should not be cut off.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 2,
+  "summary": "Two blocking missing-asset issues: the Lesson 2 worksheet preview shows a generic 'Worksheet area' placeholder instead of the length-strips hero, and the M10 unit poster slide is an empty rectangle. The Roo and Cal puppets are kawaii-styled and recognizable. Rubric cells truncate expectation text — a minor content fix. Manipulative composer re-runs needed."
+}

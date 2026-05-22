@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "lesson_number": 3,
+  "lesson_title": "Where Did It Go? — Subtracting with Minnie",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.1",
+    "B2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Subtraction asks 'what is missing?' If I know 4+3=7, I also know 7-3=4 and 7-4=3.",
+  "learning_intention": "We are learning to recall subtraction facts up to 10 and write the four-fact family for any addition fact.",
+  "student_learning_goal": "I can recall subtraction facts up to 10, and write the four-fact family for any addition fact.",
+  "success_criteria": [
+    "I can find the missing part when I know the total and one part.",
+    "I can write the four facts in a fact family using one triangle.",
+    "I can use a known addition fact to solve a subtraction fact."
+  ],
+  "vocabulary_introduced": [
+    "subtract",
+    "missing addend",
+    "fact family"
+  ],
+  "vocabulary_reinforced": [
+    "addend",
+    "sum",
+    "difference"
+  ],
+  "manipulatives_used": [
+    "M2_minnie_puppet",
+    "M3_double_ten_frame",
+    "M4_two_colour_counters",
+    "M5_fact_triangles",
+    "M10_machine_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Minnie the Mouse paper-bag (teacher copy) — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "The Adding Machine anchor poster — referenced from Lesson 1",
+    "Per-child double ten-frame mat",
+    "Per-pair set of two-colour counters (~20)",
+    "Fact-triangle deck (30 cards) for the missing-addend game",
+    "An opaque cup to hide counters during the missing-addend game",
+    "Lesson 3 fact-family tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Minnie the Detective Investigates the Missing Treats",
+    "hook": "Plus had 7 treats. Now he only has 4. How many GOT AWAY?",
+    "teacher_script": "Bring children to the carpet. Reveal Minnie the Minus Mouse the puppet. 'Friends — meet Minnie. Minnie is a detective. Her favourite question is — how many got away?' Wiggle Minnie excitedly with her magnifying glass.\n\n'Listen — Plus the Pup had 7 treats this morning.' Show 7 counters. 'But when Plus checked his bowl this afternoon — only 4 were left.' Hide 3 under an opaque cup; show only 4. 'Minnie wants to know — how many GOT AWAY?'\n\nTake responses. Most children say 3. Affirm. 'Three! How did you figure that out?' Some will say they counted up: 4, 5, 6, 7 — that's 3. Some will say they know 4+3=7 from yesterday. Some will say they did 7 minus 4. All three paths are valid; name them. 'Whoa — three different ways to find the same answer. Listen to those.' Repeat each strategy aloud.\n\n'Today we are going to learn the THIRD way — subtraction. We write it like this.' Write 7 - 4 = 3 on the board. 'The number we start with — 7 — is the TOTAL. The number we take away — 4 — is the part we know. The answer — 3 — is the MISSING ADDEND, the part Minnie wants to find.' Label total - known part = missing part.\n\n'Now look at this triangle.' Show the (4, 3, 7) fact triangle from Lesson 1. 'This morning Plus showed us this triangle holds two ADDITION facts: 4+3=7 and 3+4=7. Watch what happens when Minnie looks at the same triangle.' Lift Minnie. 'Minnie says — I see TWO MORE facts in this triangle. 7 minus 4 equals 3. 7 minus 3 equals 4. Four facts in one triangle.' Write all four facts on the board:\n\n4 + 3 = 7\n3 + 4 = 7\n7 - 4 = 3\n7 - 3 = 4\n\n'This is called a FACT FAMILY. Plus and Minnie BOTH live in this triangle. Today we will find the four facts for many more triangles.'",
+    "student_actions": [
+      "Watch Minnie's investigation and propose how Plus's treats got away.",
+      "Help count the missing 3 treats using any of the three strategies.",
+      "Echo the new vocabulary: 'subtract', 'missing addend'.",
+      "Read the four fact-family facts aloud as a class."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Fact-Family Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: model 3 fact families on the board. Use triangles (5,2,7), (6,3,9), (4,4,8). For each, write ALL four facts (or three, in the doubles case). Note the doubles case: 4+4=8 has only THREE facts because 4+4 is the same as 4+4, and 8-4=4 has only one subtraction. This is a special case worth naming.",
+        "teacher_prompt": "Say to students: 'Triangle (5,2,7). Plus says — 5+2=7 and 2+5=7. Minnie says — 7-5=2 and 7-2=5. Four facts.' Repeat with (6,3,9). For (4,4,8): 'Hmm — 4+4 and 4+4 are the SAME. So this triangle only has 3 facts: 4+4=8, 8-4=4, and… that's it. Doubles are special.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Introduce the missing-addend game with the cup. Teacher places 6 counters on the double ten-frame, hides some under the cup, leaves the rest visible. 'Plus had 6 in all. I see 4. How many are under the cup?' Children find the missing addend. Repeat 5 times with different totals (5-9) and different visible counts.",
+        "teacher_prompt": "Say to students: 'Look — I have 6 in all. I'm hiding some.' Place 6, cover 2. 'I see 4. How many under the cup?' Wait. '2!' 'Yes. How did you know?' Children say 'I know 4+2=6' or 'I counted up from 4' or 'I subtracted 4 from 6'. Affirm all paths. Repeat 5 times."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Fact-Family Builder — pair draws a triangle card, writes the four (or three for doubles) facts. Station B: Cup Hide — partner hides counters, the other partner finds the missing addend by writing the equation. Station C: Subtraction Match — pair has 12 subtraction cards (e.g., 9-5) and 12 addition cards (e.g., 5+4=9). Match each subtraction to its related addition fact.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Listen for the chime to switch.' Set the rotation."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record formative evidence on the fact-family tracker. Watch for: (a) does the child write all four facts when given a triangle? (b) does the child use a known addition fact to solve a subtraction fact (vs. counting back)? (c) does the child correctly handle the doubles case (only 3 facts)?",
+        "teacher_prompt": "Stop at each pair. Hand them a triangle and ask 'Write all four facts.' Mark the tracker. For Station C, ask 'Why does 9-5 match 5+4=9?' to test the relationship understanding."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose fact recall is still emerging stay at Station A (Fact-Family Builder) for both rotations. Use only triangles whose totals are 7 or less (e.g., 3+2=5, 4+1=5, 3+3=6). Build fluency on the SMALL fact families before pushing to 10.",
+      "for_extending": "Stretch at Station C: include subtraction facts that go to 12-15 (e.g., 12-7). Discuss whether the fact-family logic still applies (yes — 12-7 is in the triangle (5,7,12)). Previews B2 Grade 2 territory.",
+      "for_ell_or_iep": "Provide a sentence frame: 'I know ___ + ___ = ___, so ___ - ___ = ___.' Provide picture-supported triangle cards. Pair with a strong-recall peer for Station B (the cup-hide game).",
+      "for_movement_learners": "Cup Hide naturally suits movement learners — picking up the cup, peeking, replacing is kinesthetic. Allow them to PHYSICALLY hide counters instead of writing equations. Convert to written form only after 3 successful physical rounds."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: (1) does the child write all four facts (or three for doubles) given a triangle? (2) does the child use addition to solve subtraction (e.g., 9-5 by thinking 5+__=9)? (3) does the child correctly identify the doubles case as having only 3 facts?",
+      "how_to_record": "Tick the fact-family tracker per child as you observe.",
+      "tracker_columns": [
+        "Student name",
+        "Writes all 4 facts from a triangle",
+        "Uses addition to solve subtraction",
+        "Recognises doubles case (3 facts)",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Plus and Minnie Live Together",
+    "discussion_prompts": [
+      "How are Plus and Minnie connected? Why do they live in the same triangle?",
+      "If you know 5+4=9, what subtraction facts do you ALSO know?",
+      "Why does the triangle (4,4,8) only have 3 facts instead of 4?",
+      "Which strategy is easiest for finding 8-3 — counting back, counting up, or using a known addition fact?"
+    ],
+    "exit_routine": "Each child whispers to a partner one fact family they figured out today: 'I know ___+___=___, ___+___=___, ___-___=___, and ___-___=___.' Partners share a few examples with the class. Each child adds a sticky note with their favourite triangle to the Adding Machine anchor poster on the way to the door."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Fact-family completion (all 4 facts from a triangle), addition-to-subtraction reasoning (using known sum to solve subtraction), and correct handling of the doubles case across 3-5 triangles per child observed during station rotations.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 is the integration point for B2.1 (relationship between add/sub) and B2.2 (recall of subtraction facts). Children who can flex between addition and subtraction within a single fact family will have an easier time with Lesson 4's mixed story problems (some change-add-to, some change-take-from). Children who treat addition and subtraction as separate operations need explicit small-group repair via the cup-hide game before Lesson 4."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child counts BACK for every subtraction fact instead of using the related addition — repairing the count-back vs. count-up vs. fact-family-recall progression",
+    "rationale": "The most common Grade-1 trap on B2.2 (recall of subtraction facts) is the child who has fluent ADDITION recall but does subtraction by counting BACK on fingers. For 9-3, they put up 9 fingers and bend 3 down: 8, 7, 6 — answer 6. This works for small differences but fails for larger ones (try 13-5 with finger-counting back — children lose track regularly). The B2.1 + B2.2 integration is what fixes this: the child should think 'I know 6+3=9, so 9-3=6' — fact-family recall, not finger counting.\n\nThe progression matters. Count-back is the K stage. Count-up (start at 3, count to 9, that's 6 steps) is the early-Grade-1 stage. Fact-family-recall (use 6+3=9 to know 9-3=6) is the Grade-1 target. Children who stay at count-back hit a ceiling around 13-7 territory. Lesson 3 is where the teacher diagnoses which stage each child is at and pushes them toward fact-family-recall using the cup-hide game.\n\nThe expanded walkthrough covers the precise moment when a child is observed counting back on fingers for 9-3 and the teacher steps in to redirect them to the related addition fact.",
+    "setup": "Pair is at Station B (Cup Hide). The teacher partner has placed 9 counters on the double ten-frame, then covered 3 with the cup. The other child sees 6 counters and the cup. Asked 'how many under the cup?', they put up 9 fingers and start bending: 'eight, seven, six, five, four, three' — and arrive at 3 by counting back too far. Their answer is wrong.",
+    "teacher_script": "Crouch beside the child. 'Let's pause. I saw you counting backward. What were you trying to find?' Wait. The child says 'how many under the cup'. 'Right. The total is 9. You can see 6. So how many under the cup?' The child starts counting back again. Stop them gently. 'Don't count back this time. Try a different way. Look at the 6 you can see. Think — 6 plus what equals 9?' Pause.\n\nThe child looks at the 6 counters. They might look at their fingers. They might look back at the ten-frame. Wait. Often the child says 'three' — because they CAN solve 6+__=9 in their head from yesterday's lesson. 'YES! How did you know?' 'I just knew 6+3=9.' 'EXACTLY. You used an addition fact you ALREADY KNEW to find the missing part. That's what Minnie does. She doesn't count back — she asks WHAT GOES WITH 6 to make 9.'\n\nNow set up the practice. 'Try one more.' Cover 4 of the 9 counters. The child sees 5. Ask 'how many under?' The child says — sometimes immediately, sometimes after a pause — '4. Because 5+4=9.' Affirm. 'Now you're using fact-family-recall. Plus and Minnie are working TOGETHER.'\n\nIf the child STILL counts back even after the prompt: their addition recall isn't strong enough yet to use as a tool. Repair by going back to facts to 7 or less. 'Let's use easier numbers.' Cover 2 of 6 counters. Child sees 4. 'What goes with 4 to make 6?' '2.' 'Right — and that's because 4+2=6. So 6-2=4 is the same triangle.' Build the bridge from familiar addition facts to subtraction facts at the SMALL number range first.\n\nLong-term recovery: send home a parent note with subtraction-from-fact-family flash cards. Each card shows a triangle on one side and a subtraction fact on the back. Five minutes of flash a day for two weeks moves most children from count-back to fact-family-recall on facts to 10.",
+    "expected_student_responses": [
+      "(Confused) Counts back on fingers for every subtraction fact. Doesn't yet recognise that subtraction can use addition recall. Most common at the start of Grade 1 for transition learners.",
+      "(Mid) Counts UP from the smaller part (5+__=9 by counting 6, 7, 8, 9 — that's 4 fingers up). Better than count-back but not yet fact-family-recall. Typical of mid-Grade-1.",
+      "(Strong) Uses a known addition fact: '5+4=9, so 9-5=4'. Recall is automatic for facts to 10. Typical of children with strong fact fluency from Lesson 1.",
+      "(Stretched) Recognises that one triangle holds two subtraction facts: '5+4=9 means I also know 9-5=4 AND 9-4=5'. Volunteers the second subtraction fact without prompting."
+    ],
+    "common_misconceptions": [
+      "Subtraction is the opposite of addition, so it works in the opposite direction. (Some children try to subtract starting from the smaller number: 3-9. Repair: write the equation in standard form and emphasise 'big number first, small number second' for subtraction.)",
+      "If you know one addition fact, you only know one subtraction fact. (Child sees 5+4=9 and only writes 9-5=4, missing 9-4=5. Repair: physically swap the two parts in the triangle and write both subtraction facts side by side.)",
+      "Doubles fact families have 4 facts. (Child writes 4+4=8, 4+4=8, 8-4=4, 8-4=4 — duplicates that don't add new information. Repair: doubles ARE special — only 3 unique facts. Star this on the chart so it stands out.)"
+    ],
+    "recovery_moves": [
+      "Always say the addition fact aloud before the subtraction fact. 'I know 6+3=9, SO 9-3=6 AND 9-6=3.' Three sentences. Trains the fact-family-recall reflex.",
+      "Use the cup-hide game daily for 5 minutes for two weeks. The hide-and-find structure is the embodied form of subtraction-as-missing-addend. More durable than flashcards alone.",
+      "For doubles, explicitly slow down and discuss 'why are there only 3 facts?' Children who internalise this can spot doubles in their fact-family work and avoid writing duplicates."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Plus and Minnie's Fact Families",
+    "purpose": "Independent practice of B2.1 (relationship between add/sub) and B2.2 (subtraction facts to 10). Captures formative evidence on fact-family completion.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Six fact-family triangles (mix of doubles and non-doubles). For each, the child writes all four facts (or three for doubles).",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Four cup-hide scenes. Each scene shows total counters with some hidden under a cup. The child writes the equation: total - visible = hidden. Then writes the related addition fact.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Subtraction Sort: 6 subtraction facts in a column on the left, 6 addition facts in a column on the right. The child draws lines to match each subtraction fact to its related addition fact.",
+        "response_type": "match"
+      }
+    ],
+    "expected_image_assets": [
+      "Minnie the Mouse puppet thumbnail in the worksheet header",
+      "Six fact-family triangles for Part 1 (mix of doubles and non-doubles)",
+      "Four cup-hide scene illustrations for Part 2",
+      "Two-column matching layout for Part 3"
+    ]
+  }
+}

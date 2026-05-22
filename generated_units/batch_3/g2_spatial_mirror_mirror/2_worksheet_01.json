@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "lesson_number": 1,
+  "worksheet_title": "Symmy's Shape Counter",
+  "purpose": "Independent practice of E1.1.",
+  "student_learning_goal": "I can sort shapes by sides, angles, and symmetry.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can sort shapes by sides, angles, and symmetry.",
+    "character_watermark": "Symmy in the top-right with a small mirror. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Count sides + angles.",
+          "student_instructions": "Look at each shape. Write number of sides and angles.",
+          "visual_layout": "6 shapes with 'Sides: ___ Angles: ___' lines.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_SHAPES",
+              "description": "6 shapes in a 3x2 grid for a Grade 2 worksheet, B&W line art. Triangle, square, rectangle, hexagon, pentagon, octagon. Each ~1.5in. Below each: 'Sides: ___ Angles: ___'.",
+              "placement": "Centred; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "sides",
+                "angles"
+              ],
+              "text_image_alignment_check": "WS01_P1_SHAPES at Part 1: keywords name the attributes."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Triangle: 3, 3. Square: 4, 4. Rectangle: 4, 4. Hexagon: 6, 6. Pentagon: 5, 5. Octagon: 8, 8."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Find symmetry lines.",
+          "student_instructions": "Draw lines of symmetry on each shape.",
+          "visual_layout": "Four shapes stacked vertically (square, equilateral triangle, rectangle, letter F) with generous space for drawing symmetry lines on each.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_SYM",
+              "description": "4 shapes stacked vertically for Grade 2 worksheet, B&W line art. Square, equilateral triangle, rectangle, letter F. Each ~2in. Generous space for drawing symmetry lines.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "symmetry",
+                "lines"
+              ],
+              "text_image_alignment_check": "WS01_P2_SYM at Part 2: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Square: 4 lines. Triangle: 3 lines. Rectangle: 2 lines. F: 0 lines."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Sort by sides.",
+          "student_instructions": "Sort 6 shapes by NUMBER OF SIDES.",
+          "visual_layout": "Sort table with 3 columns: 3 sides / 4 sides / 5+ sides.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_SORT",
+              "description": "A 3-column sort table for Grade 2 worksheet. Columns: '3 sides' / '4 sides' / '5+ sides'. Below: 6 shape thumbnails to sort.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "sides",
+                "sort"
+              ],
+              "text_image_alignment_check": "WS01_P3_SORT at Part 3: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Distribute 6 shapes across 3 columns by side count."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw a shape with 5 lines of symmetry.",
+  "teacher_notes": "Lesson 1 consolidation. Use Part 1 as diagnostic. Part 1 includes 1-2 transfer shapes (irregular pentagon, arrow) to verify side-counting + symmetry generalises beyond the canonical shapes from the lesson."
+}

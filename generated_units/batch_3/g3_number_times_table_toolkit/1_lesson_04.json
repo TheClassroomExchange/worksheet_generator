@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 4,
+  "lesson_title": "Numerator as Repeated Addition",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.8"
+  ],
+  "secondary_expectations": [
+    "B2.7"
+  ],
+  "big_idea": "The numerator of a fraction tells us how many copies of the unit fraction.",
+  "learning_intention": "We are learning to show that 3/4 = 1/4 + 1/4 + 1/4 and 4 × 1/2 = 2 wholes using fraction strips.",
+  "student_learning_goal": "I can show that 3/4 = 1/4 + 1/4 + 1/4 and 4 × 1/2 = 2 wholes using fraction strips.",
+  "success_criteria": [
+    "I can show that 3/4 is three 1/4 pieces using fraction strips.",
+    "I can write 3/4 as 1/4 + 1/4 + 1/4 = 3 × 1/4.",
+    "I can show 4 × 1/2 = 2 wholes."
+  ],
+  "vocabulary_introduced": [
+    "unit fraction"
+  ],
+  "vocabulary_reinforced": [
+    "numerator",
+    "denominator",
+    "halves",
+    "fourths"
+  ],
+  "manipulatives_used": [
+    "M7_fraction_strips",
+    "M10_toolkit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Tony the Toolkit Master — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Fractions and Multiplication' with 3/4 = 3 × 1/4 example",
+    "Per-pair set of fraction strips (8 strips: whole, 1/2, 1/3, 1/4, 1/5, 1/6, 1/8, 1/10)",
+    "Lesson 4 fraction-as-addition tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tony's Pizza Slice Discovery",
+    "hook": "Tony has 3 slices of a pizza cut into 4 equal pieces. What fraction of the pizza is that? AND can we write it as multiplication? Pixel reminds: 'Numerator counts the pieces — PRACTICE counting!'",
+    "teacher_script": "Bring children to the carpet. Tony the Toolkit Master puppet in hand. 'Friends — Tony has been thinking about fractions. He's found a connection to multiplication. Watch.'\n\nLay out a fraction strip showing 1/4 (one quarter of the whole). 'This is 1/4. ONE fourth. Just one piece of a 4-piece whole.'\n\nNow lay out three 1/4 strips together. 'Three 1/4 pieces. How much pizza is that?' Children: '3/4!' 'Right. Three fourths.'\n\nNow the connection. 'What did we DO?' Lead them: 'We added 1/4 + 1/4 + 1/4 = 3/4. Three copies of 1/4.'\n\n'Tony says — that's REPEATED ADDITION. And remember from Lesson 3 — repeated addition IS multiplication.'\n\nWrite on the board: 1/4 + 1/4 + 1/4 = 3/4. ALSO: 3 × 1/4 = 3/4.\n\n'See — 3/4 IS 3 × 1/4. The NUMERATOR (3) tells us how many copies of the unit fraction (1/4).'\n\nIntroduce vocabulary. 'A UNIT FRACTION has 1 on top: 1/2, 1/3, 1/4, 1/5. Like a single slice of any-sized pizza.'\n\nNow practice: 'What's 5 × 1/3?' Lay out five 1/3 strips. They make 5/3 = 1 and 2/3. 'See — 5/3 is FIVE 1/3 pieces. More than a whole because 5 > 3.'\n\nAnd: 'What's 4 × 1/2?' Lay out four 1/2 strips. Combine: 2 wholes. 'Four halves = 2 wholes. 4 × 1/2 = 2.'\n\n'Today we'll practice fraction-as-multiplication AND multiplication-as-fraction.'",
+    "student_actions": [
+      "Watch Tony lay out three 1/4 strips and combine them.",
+      "Help write 1/4 + 1/4 + 1/4 = 3/4 AND 3 × 1/4 = 3/4.",
+      "Echo new vocabulary: 'unit fraction'.",
+      "Predict the result of 4 × 1/2."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Fraction-as-Multiplication Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: practice 4 more equivalences. (a) 5/6 = 5 × 1/6. (b) 7/8 = 7 × 1/8. (c) 6 × 1/3 = 6/3 = 2 wholes. (d) 3 × 1/5 = 3/5.",
+        "teacher_prompt": "Say to students: 'Four more together. Lay out the strips. Write the multiplication.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Strip-and-Write — pair has fraction strips; teacher gives a fraction (e.g., 5/8); pair lays out the strips and writes the multiplication. Station B: Multiply-and-Lay — teacher gives a multiplication (e.g., 4 × 1/3); pair builds with strips and writes the fraction result. Station C: Whole-Number Results — pair has 8 multiplications where the answer is a whole number (4×1/2, 3×1/3, 6×1/2, 8×1/4, etc.); they identify and explain.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include results greater than 1 whole (5×1/2 = 2 1/2; 7×1/3 = 2 1/3). Discuss mixed numbers.",
+        "teacher_prompt": "Say to pairs: 'Some answers are bigger than 1 whole. Write them as mixed numbers.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the pattern. 'When does N × 1/D give a whole number?' Lead to: when N is a multiple of D. (4 × 1/2 = 2 because 4 is a multiple of 2. 6 × 1/3 = 2 because 6 is a multiple of 3.)",
+        "teacher_prompt": "Use examples: 4×1/4=1, 8×1/4=2 (whole), 5×1/4=1¼ (mixed). Connect the pattern to the multiplication chart."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the fraction-as-addition tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Show 5/6 with strips. Write the multiplication.' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only fractions with denominators 2 or 4. The half/quarter family is the most familiar.",
+      "for_extending": "Stretch to fractions with denominators 8 or 10 (5/8 = 5 × 1/8). Discuss whether the pattern holds.",
+      "for_ell_or_iep": "Provide picture-supported fraction cards. Use the sentence frame: '___ × 1/___ = ___.'",
+      "for_movement_learners": "Allow movement learners to physically lay out strips on the floor and walk around the array."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: shows fraction-as-strips (3/4 with three 1/4 strips); writes the multiplication (3 × 1/4); identifies when N × 1/D = whole number.",
+      "how_to_record": "Tick the fraction-as-addition tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Shows fraction with strips",
+        "Writes the multiplication form",
+        "Identifies whole-number results",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tony's Fraction Brag",
+    "discussion_prompts": [
+      "What's a unit fraction?",
+      "How is 3/4 the same as 3 × 1/4?",
+      "When does N × 1/D give a whole number?",
+      "Show 4 × 1/2 with strips. What's the result?"
+    ],
+    "exit_routine": "Each child writes ONE fraction multiplication on a sticky note: '___ × 1/___ = ___.' Notes go on the chart. Pixel's tap-out: 'Pieces practiced — fractions LOCKED!'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Fraction-as-multiplication accuracy, strip-laying, whole-number recognition.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures B2.8 mastery. Children at L4 see fractions and multiplication as connected operations."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child computes 3 × 1/4 as 3 (treating the fraction as 1/1) — repairing the unit-fraction recognition",
+    "rationale": "The most common Grade-3 trap on B2.8 (numerator as repeated addition) is the unit-fraction-collapse error: the child sees 3 × 1/4, ignores the denominator, and computes 3 × 1 = 3 (or some similar collapse). They haven't yet internalised that 1/4 is a SPECIFIC AMOUNT smaller than 1.\n\nThe distinction matters because B2.8 requires explicit understanding that the numerator counts copies of a defined unit. A child who collapses 1/4 to 1 misses the entire fraction structure. The walkthrough covers the precise moment when a child writes 3 × 1/4 = 3 (instead of 3/4).",
+    "setup": "Pair is at Station B. The card says 3 × 1/4. The child writes 3 × 1/4 = 3.",
+    "teacher_script": "Crouch beside the child. 'Tell me how you got 3.' The child says 'I multiplied 3 × 1 and got 3.' Pause. 'OK — but the second factor is 1/4, not 1. They're DIFFERENT amounts. Watch.'\n\nLay out a whole-strip and a 1/4 strip. 'Whole. And one fourth. 1/4 is much smaller than 1.'\n\nNow lay three 1/4 strips. 'Three fourths. Combine.' Three 1/4 strips together cover 3/4 of the whole. 'See? 3 × 1/4 = 3/4. Not 3.'\n\n'Tony says — when you multiply by a UNIT FRACTION (1/something), you get a SMALLER answer than the first factor. 3 × 1/4 is much smaller than 3 × 1 = 3. It's 3/4.'\n\nWrite the rule. 'Numerator times unit fraction = the result. 3 × 1/4 = 3/4. The 3 becomes the new numerator.'\n\nHave the child redo. '5 × 1/6 = ?' '5/6.' '7 × 1/8 = ?' '7/8.' Affirm.\n\nIf the child STILL collapses: build with strips for every problem until the size difference is internalised.\n\nLong-term recovery: practice 'multiply a whole by a unit fraction = smaller answer' daily until the reflex builds.",
+    "expected_student_responses": [
+      "(Confused) Computes 3 × 1/4 = 3 (collapses 1/4 to 1). Most common at start of Lesson 4.",
+      "(Mid) Recognises with prompts that 1/4 is smaller than 1; uses strips to build.",
+      "(Strong) Auto-applies: '3 × 1/4 = 3/4'. Connects numerator to copy count.",
+      "(Stretched) Generalises to mixed numbers: '5 × 1/4 = 5/4 = 1 1/4'."
+    ],
+    "common_misconceptions": [
+      "Multiplication always makes things bigger. (1/4 multiplied by 3 = bigger? Repair: depends on the multiplier — bigger only when multiplying by >1.)",
+      "1/4 = 1. (Children ignore denominators. Repair: explicit strips show 1/4 is smaller than 1.)",
+      "Numerators are just decorations. (Repair: numerator counts copies of the unit fraction. 3/4 = 3 copies of 1/4.)"
+    ],
+    "recovery_moves": [
+      "Always lay out strips for the first 2-3 problems. Visual evidence proves the size difference.",
+      "Connect to repeated addition: 'three 1/4 pieces is 1/4 + 1/4 + 1/4 = 3/4'. Two views of the same operation.",
+      "Use the multiplication chart. 3 × 4 = 12; 3 × 1/4 = 3/4. Same factor (3) — different second factor (4 vs 1/4) gives wildly different results."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tony's Fraction Multiplication",
+    "purpose": "Independent practice of B2.8 (numerator as repeated addition).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Six fractions (3/4, 5/6, 7/8, 4/5, 3/10, 5/8). Child writes each as repeated addition AND as multiplication.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Six multiplication-of-unit-fraction problems (4×1/3, 5×1/4, 6×1/2, 8×1/4, 7×1/3, 3×1/5). Child writes the fraction result. Identify which give whole numbers.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: 'Pick a fraction. Write 3 different ways to express it (as a fraction, as repeated addition, as multiplication).'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tony in the worksheet header",
+      "Six fraction-decomposition rows for Part 1",
+      "Six multiplication problems for Part 2",
+      "A blank box with thinking-bubble icon for Part 3"
+    ]
+  }
+}

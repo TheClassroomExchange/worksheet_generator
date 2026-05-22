@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "lesson_number": 2,
+  "lesson_title": "Compare and Order on Fraction Street",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B1.2",
+    "B1.4"
+  ],
+  "secondary_expectations": [
+    "B1.1"
+  ],
+  "big_idea": "To compare numbers to 1000, look at the thousands first, then hundreds, then tens, then ones.",
+  "learning_intention": "We are learning to compare and order numbers to 1000 using place-value reasoning, and to count to 1000 by 50s, 100s, and 200s.",
+  "student_learning_goal": "I can compare and order numbers to 1000 using place-value reasoning and count to 1000 by 50s, 100s, and 200s.",
+  "success_criteria": [
+    "I can compare two numbers to 1000 using the place-value rule.",
+    "I can order 5 numbers to 1000 from smallest to biggest.",
+    "I can count to 1000 by 50s, 100s, and 200s starting from 0."
+  ],
+  "vocabulary_introduced": [
+    "greater than",
+    "less than"
+  ],
+  "vocabulary_reinforced": [
+    "place value",
+    "thousands",
+    "skip-count"
+  ],
+  "manipulatives_used": [
+    "M3_number_street_1000",
+    "M4_compare_cards_th",
+    "M10_street_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Penny the Place Value Pal — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Compare and Order' with the place-value rule",
+    "Per-pair set of compare cards (24 to 1000)",
+    "0-1000 Number Street strip rolled out on the carpet",
+    "Lesson 2 comparison tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Penny's House-Number Compare",
+    "hook": "Penny lives at house 347. Frankie lives at 374. Whose house number is BIGGER? Penny opens: 'THOUSANDS first, then HUNDREDS, TENS, ONES!'",
+    "teacher_script": "Bring children to the carpet. Reveal Penny puppet. 'Friends — Penny lives on Fraction Street at house 347. Frankie lives at 374. Whose house number is BIGGER?'\n\nTake responses. Some children say 374; some say 347 (because of digit-sum or ones-first habit). 'Penny says — LOOK AT THE PLACE VALUES. Hundreds first.' Show 347 vs 374. 'Same hundreds — both have 3.' 'Tens?' Children: '4 vs 7. 7 is bigger.' 'So 374 > 347.' Write the comparison.\n\nNow harder: 562 vs 1000. 'Hundreds first?' '5 hundreds vs 0 hundreds — wait, 1000 has THOUSAND.' Lead to: 1000 has 1 thousand and 0 hundreds; 562 has 0 thousands and 5 hundreds. '1 thousand beats 0 thousand. 1000 > 562.' Write it.\n\nNow the skip-count move. Roll out the 0-1000 Number Street. 'Penny says — Fraction Street is LONG. From 0 to 1000. Let's walk it by 100s.' Walk: 0, 100, 200, 300...1000. 'Now by 50s.' Walk by 50s. 'And by 200s.' 0, 200, 400, 600, 800, 1000.\n\n'Today we'll compare and order numbers all the way to 1000, AND skip-count to 1000 by 50s, 100s, and 200s.'",
+    "student_actions": [
+      "Predict the bigger number in 347 vs 374 BEFORE Penny explains.",
+      "Help apply the place-value rule.",
+      "Walk the 0-1000 Number Street by 100s and 200s.",
+      "Echo the new vocabulary: 'greater than', 'less than'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Compare-and-Order Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "STRATEGY INVENT: Pairs propose at least TWO different comparison strategies for 999 vs 1000 BEFORE Penny states the rule. Class compares: digit-count vs place-value alignment. Cite Fuson (1990) multidigit comparison.",
+        "teacher_prompt": "Penny: 'Two strategies, same answer — but PLACE-VALUE always wins.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Whole group: practice 4 more comparisons. (a) 562 vs 526 (same hundreds, tens decide). (b) 999 vs 1000 (the cross-thousand jump). (c) 234 vs 432 (different hundreds). (d) 700 vs 70 (zero matters).",
+        "teacher_prompt": "Say to students: 'Four more pairs. Apply the rule.' Walk through each, slowing down on (b) — the tightest comparison — and (d), where the zero placeholder is decisive."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Whole group skip-count: walk the Number Street by 50s 0-500 (children take turns leading). Then by 100s 0-1000. Then by 200s 0-1000. Discuss: which step takes more steps? (50s — 20 steps to 1000. 100s — 10 steps. 200s — 5 steps.)",
+        "teacher_prompt": "Say to students: 'Three skip-count walks. By 50s — slow.' Walk. 'By 100s.' Walk. 'By 200s — biggest jumps.' Walk. Discuss the count efficiency."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Compare-the-Pair — pair has 24 cards; apply the place-value rule, write < or > and a one-line reason. Station B: Skip-Count Trail — pair walks the Number Street by 50s, 100s, 200s; partner records the landing numbers. Station C: Order Five Numbers — pair gets 5 numbers (e.g., 234, 567, 89, 800, 142) and orders smallest to biggest.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Listen for the chime.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Stretch challenge at Station C: include same-hundreds-different-tens close pairs (567 vs 576). Children who reverse these need explicit place-value reteach.",
+        "teacher_prompt": "Say to pairs: 'Some pairs are very close — like 567 and 576. The hundreds match. Look CAREFULLY at the tens.' Lead to confident comparison."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Circulate to record formative evidence on the comparison tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Which is bigger? Why?' Mark for place-value rule application."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children stay at Station A with numbers under 500. Anchor on hundreds-first rule before extending to thousands.",
+      "for_extending": "Stretch comparisons to 4 digits (1234 vs 1243). Discuss whether the rule extends (yes — thousands first).",
+      "for_ell_or_iep": "Provide the place-value sentence frame: '___ is greater than ___ because ___.'",
+      "for_movement_learners": "Station B (Number Street walk) is naturally kinesthetic. Allow extra rotations there."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: applies place-value rule for cross-hundred and cross-thousand pairs; orders 5+ numbers correctly; skip-counts to 1000 by 50s/100s/200s.",
+      "how_to_record": "Tick the comparison tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Compares using place-value rule (Th-H-T-O)",
+        "Orders 5+ numbers correctly",
+        "Skip-counts to 1000 by 200s",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Penny's Comparison Brag",
+    "discussion_prompts": [
+      "What's the rule for comparing numbers to 1000?",
+      "Why does the 0 in 700 matter when comparing to 70?",
+      "When skip-counting to 1000, which step is fastest? When is it useful?",
+      "Which station felt the easiest? Which felt the trickiest?"
+    ],
+    "exit_routine": "Penny's compare refrain — 'THOUSANDS first, then HUNDREDS, TENS, ONES!' (3x). Each child orders one set of 3 numbers with column-order working."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Place-value comparison reasoning, ordering accuracy, and skip-count fluency to 1000.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures B1.2 (compare to 1000) + B1.4 (count by 50s/100s/200s). Children who can apply the place-value rule across thousands AND skip-count to 1000 by 200s are at L4."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child compares 999 and 1000 by saying 999 is bigger because '999 has more 9s' — repairing the digit-count comparison fallacy at the cross-thousand boundary",
+    "rationale": "On comparing 4-digit numbers, the trap is digit-count comparison: child says 999 > 1000 because '999 has a 9 in front'. Fuson (1990) on multidigit comparison frames this. Without place-value-aware comparison, Lesson 3 rounding and downstream work fail.\n\nYesterday Penny introduced 1000s house. Today comparing + ordering. Lesson 3 rounding; Lesson 4 sharing; Lesson 5 fractions.",
+    "setup": "Pair is at Station A (Compare-the-Pair). The card reads 999 vs 1000. The child stares at it, counts digits/9s, and writes 999 > 1000.",
+    "teacher_script": "Crouch beside the child. 'Tell me how you compared.' The child says 'I see three 9s in 999 and only one 1 in 1000. 999 is bigger because more 9s.' Pause. 'OK — but bigger digits don't always mean bigger number. Let me show you with base-ten blocks.'\n\nGet base-ten blocks. 'Build 999.' Child places 9 hundred-flats + 9 ten-rods + 9 unit-cubes. 'Build 1000.' Child places 1 thousand-cube. Place them side by side. 'Which physical pile is bigger?' Wait. The thousand-cube is visibly larger than the 999 build (since the 9-flats stack to 900, plus 9 tens = 90, plus 9 ones = 9, total 999 — almost as big as the thousand-cube but less).\n\n'Right — the thousand-cube is bigger. So 1000 > 999.' Now the rule. 'Penny says — when comparing, look at the BIGGEST place first. In this comparison, that's THOUSANDS. 999 has 0 thousands. 1000 has 1 thousand. 1 thousand wins. We don't even need to look at the hundreds, tens, or ones.'\n\nHave the child rewrite. '999 < 1000. Why?' '0 thousands vs 1 thousand. 1 thousand is bigger.' Affirm.\n\nIf the child STILL gets confused: connect to money. '999 toonies vs 1000 toonies. Which pile is more dollars?' Money-as-magnitude often clicks for transition learners.\n\nLong-term recovery: include cross-thousand comparisons in daily warm-ups (998 vs 1002, 99 vs 100, 999 vs 1000). The reflex builds within a week.",
+    "expected_student_responses": [
+      "(Confused) Counts digits or 'big digits' to compare. 999 > 1000 by faulty heuristic. Most common at the start of Grade 3.",
+      "(Mid) Recognises the thousands-place jump with prompts. Gets cross-thousand right when reminded but reverts on subsequent pairs.",
+      "(Strong) Auto-applies the place-value rule. 999 < 1000 because '0 thousands vs 1 thousand'.",
+      "(Stretched) Volunteers that the rule extends infinitely: '9999 < 10000 because 0 ten-thousands vs 1 ten-thousand. Same idea.' Sees the rule structurally."
+    ],
+    "common_misconceptions": [
+      "More digits in a row = bigger number. (999 looks 'denser' than 1000. Repair: compare with base-ten blocks.)",
+      "Bigger 9s = bigger number. (Children compare digit values rather than positions. Repair: explicit thousands-first rule.)",
+      "1000 is just one more than 999. (Numerically true but children miss the place-value structural change. Repair: build both with blocks.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child uses digit-count rule: drill 'count DIGITS first; more digits = bigger number'; child re-orders.",
+      "DIAGNOSTIC B — child compares ones-first: drill 'thousands FIRST, then hundreds, tens, ones'.",
+      "DIAGNOSTIC C — child compares correctly but cannot articulate: force 'because 1000s digit is ___ and ___, the bigger number is ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Compare and Order to 1000",
+    "purpose": "Independent practice of B1.2 (compare to 1000) and B1.4 (skip-count to 1000).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Six comparison pairs (mix of same-hundreds and cross-hundred/thousand). Child writes < or > and a place-value reason.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Three skip-count tasks: by 50s (0 to 500), by 100s (0 to 1000), by 200s (0 to 1000). Fill in the missing numbers.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Order five numbers: child receives 5 numbers (e.g., 234, 567, 89, 800, 142) and writes them in order from smallest to biggest.",
+        "response_type": "write"
+      }
+    ],
+    "expected_image_assets": [
+      "Penny in the worksheet header",
+      "Six comparison rows with < / > selection bubbles",
+      "Three Number Line strips",
+      "Five number cards plus blank ordering line"
+    ]
+  }
+}

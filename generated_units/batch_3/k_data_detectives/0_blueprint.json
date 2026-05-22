@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "thematic_title": "Data Detectives",
+  "descriptive_title": "Kindergarten Mathematics: Demonstrations — Collecting and Displaying Data (A8.1-A8.4)",
+  "grade": "Kindergarten",
+  "subject": "Mathematics",
+  "strand": "A. Mathematical Learning",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-kindergarten",
+  "curriculum_codes": [
+    "A8.1",
+    "A8.2",
+    "A8.3",
+    "A8.4"
+  ],
+  "curriculum_expectations": {
+    "A8.1": "sort objects or data using one attribute",
+    "A8.2": "collect and record data to answer questions of interest, and display it in concrete graphs or picture graphs",
+    "A8.3": "respond to data in concrete graphs and picture graphs by interpreting it and drawing conclusions",
+    "A8.4": "describe how likely familiar events are to happen"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Kindergarten unit on data demonstrations (A8.1-A8.4) framed around 'Data Detectives' — Detective Dot the Sorting Squirrel and Tally the Tally Cat. Day 1 categorises objects. Day 2 collects data by counting. Day 3 displays data on simple charts and pictographs. Day 4 reads and describes data. Day 5 closes with child-chosen data investigations. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will categorise, count, display, and describe simple data.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Sorting and Categorizing",
+      "primary_expectations": [
+        "A8.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Things can be sorted into groups by a SAME attribute — colour, shape, size.",
+      "student_learning_goal": "I can sort objects into groups.",
+      "one_line_summary": "Detective Dot sorts buttons by colour; children sort their own collections."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Counting Data",
+      "primary_expectations": [
+        "A8.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Counting things in groups gives us DATA — numbers we can use.",
+      "student_learning_goal": "I can collect data by counting things in groups.",
+      "one_line_summary": "Children count classroom things by category and record."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Picture Graphs",
+      "primary_expectations": [
+        "A8.3"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "We can DISPLAY data with pictures. Each picture stands for one thing counted.",
+      "student_learning_goal": "I can make a picture graph.",
+      "one_line_summary": "Children build pictographs from their counts."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Likelihood: Always, Sometimes, Never",
+      "primary_expectations": [
+        "A8.4"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Some events ALWAYS happen, some SOMETIMES happen, some NEVER happen — that's LIKELIHOOD.",
+      "student_learning_goal": "I can tell if events ALWAYS, SOMETIMES, or NEVER happen.",
+      "one_line_summary": "Children sort 6 events into ALWAYS / SOMETIMES / NEVER and write one event of their own."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Data Detective Capstone",
+      "primary_expectations": [
+        "A8.1",
+        "A8.2",
+        "A8.3",
+        "A8.4"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "We can be DATA DETECTIVES — sort, count, display, read.",
+      "student_learning_goal": "I can be a Data Detective for a question I pick.",
+      "one_line_summary": "Children investigate a class question (favourite colour, snack, season); sort, count, graph, describe."
+    }
+  ],
+  "expectation_lesson_map": {
+    "A8.1": [
+      1,
+      5
+    ],
+    "A8.2": [
+      2,
+      5
+    ],
+    "A8.3": [
+      3,
+      5
+    ],
+    "A8.4": [
+      4,
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Detective Dot the Sorting Squirrel",
+      "role": "Lead character. A friendly squirrel detective with magnifying glass who loves sorting acorns. Anchors all 5 lessons.",
+      "visual_description": "A young squirrel in a deerstalker cap with a magnifying glass and acorn pouch. Bushy tail, alert ears, friendly grin."
+    },
+    {
+      "name": "Tally the Tally Cat",
+      "role": "Detective Dot's partner. The 'count' character. Cameo Lessons 2-5.",
+      "visual_description": "A young cat with a tally chart and pencil. Stripes for tallies, eager smile."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "sort",
+      "child_friendly_definition": "To put things into groups."
+    },
+    {
+      "term": "category",
+      "child_friendly_definition": "A group of things that are alike."
+    },
+    {
+      "term": "data",
+      "child_friendly_definition": "Numbers we get by counting."
+    },
+    {
+      "term": "graph",
+      "child_friendly_definition": "A picture that shows our data."
+    },
+    {
+      "term": "most",
+      "child_friendly_definition": "The biggest group."
+    },
+    {
+      "term": "fewest",
+      "child_friendly_definition": "The smallest group."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_sort_mats",
+      "name": "Sorting Mats",
+      "description": "Letter-size sort mats with category circles.",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_button_set",
+      "name": "Paper Button Tokens",
+      "description": "Set of 60 paper button tokens in 4 colours.",
+      "used_in_lessons": [
+        1,
+        2
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_tally_charts",
+      "name": "Tally Chart Templates",
+      "description": "6 tally chart templates.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_pictograph_template",
+      "name": "Pictograph Template",
+      "description": "Letter-size pictograph template with rows.",
+      "used_in_lessons": [
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_question_cards",
+      "name": "Class Question Cards",
+      "description": "12 cards with class-data questions.",
+      "used_in_lessons": [
+        1,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_capstone_template",
+      "name": "Detective Capstone Template",
+      "description": "Letter-size capstone template.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_object_set",
+      "name": "Mixed Object Tokens",
+      "description": "60 paper tokens (shapes, animals, foods).",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_class_chart",
+      "name": "Class Wall Chart",
+      "description": "Letter-size chart for class-wide data.",
+      "used_in_lessons": [
+        2,
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_data_chart",
+      "name": "Data Anchor Chart",
+      "description": "Anchor chart of the data process.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_detective_poster",
+      "name": "Data Detectives Anchor Poster",
+      "description": "Anchor poster of Detective Dot and Tally.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Sorting Mats (1 per pair)",
+    "Paper Button Tokens (60)",
+    "Tally Chart Templates (6)",
+    "Pictograph Templates (1 per pair)",
+    "Class Question Cards (12)",
+    "Detective Capstone Templates (1 per child)",
+    "Mixed Object Tokens (60)",
+    "Class Wall Chart",
+    "Data Anchor Chart",
+    "Data Detectives Anchor Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 sorting snapshot.",
+    "formative": "Lesson 2 counting tracker; Lesson 3 graphing tracker; Lesson 4 reading tracker.",
+    "summative": "Lesson 5 capstone."
+  },
+  "pedagogical_notes": [
+    "Kindergarten data work is concrete — physical sorting and tallying.",
+    "Pictographs are appropriate; bar graphs come later.",
+    "Use class-wide questions to make data meaningful (favourite colour, snack).",
+    "Most/fewest/same are foundational comparison vocabulary.",
+    "Iterative process: sort → count → graph → describe."
+  ],
+  "canadian_context_notes": [
+    "Class examples: favourite NHL team, favourite Tim Hortons donut, favourite season (extra fun in winter).",
+    "Sorting examples: snowflakes vs leaves vs raindrops, hockey sticks vs skates.",
+    "Real classroom data: lunch boxes by colour, shoes by type."
+  ]
+}

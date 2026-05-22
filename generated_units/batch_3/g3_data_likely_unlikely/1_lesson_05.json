@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_likely_unlikely",
+  "lesson_number": 5,
+  "lesson_title": "The Big Predict Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1",
+    "D2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Predictors use the SCALE plus mean and mode to PREDICT, TEST, and DECIDE.",
+  "learning_intention": "We are learning to predict using the scale, then test with mean and mode.",
+  "student_learning_goal": "I can predict using the scale, then test with mean and mode.",
+  "success_criteria": [
+    "I can MAKE a prediction with a scale word.",
+    "I can COLLECT or use given data.",
+    "I can TEST with mean and mode.",
+    "I can WRITE a conclusion about my prediction."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "impossible",
+    "unlikely",
+    "equally likely",
+    "likely",
+    "certain",
+    "prediction",
+    "population",
+    "mean",
+    "mode"
+  ],
+  "manipulatives_used": [
+    "M1_scale_strip",
+    "M2_event_cards",
+    "M3_coin_dice_set",
+    "M4_population_chart",
+    "M5_mean_mode_chart",
+    "M6_capstone_template",
+    "M9_calculator_set",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky Lou and Maybe Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Big Predict Steps'",
+    "Big Predict Templates (1 per child)",
+    "All previous manipulatives at 5 stations",
+    "Lesson 5 capstone rubric"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Lucky Lou's Big Predict",
+    "hook": "Lucky Lou: Today's BIG case — predict, test, decide. Use scale words AND mean/mode! Lucky+Mae open: 'SCALE, PREDICT, COMPARE, TEST, TELL!'",
+    "teacher_script": "Bring children to the carpet. Lucky Lou and Maybe Mae puppets in capes. 'Friends — today is our CAPSTONE. We use ALL we know: 5 likelihood words, predictions, two-population tests, mean, and mode.'\n\nReview the 5 predict steps: 'Step 1 — PREDICT with a scale word. Step 2 — COLLECT data from 2 populations. Step 3 — CALCULATE mean and mode. Step 4 — COMPARE. Step 5 — WRITE a conclusion.'\n\nDemo. 'Class A and Class B both surveyed: how many siblings?'\n\nPredict: 'It is LIKELY both classes have the same mode (1 or 2 siblings).'\n\nClass A data: 1, 1, 2, 0, 3. Mean = 1.4 ≈ 1. Mode = 1.\nClass B data: 2, 1, 1, 2, 4. Mean = 2. Mode = 1 and 2 (bi-modal).\n\nCompare: 'Mode in A = 1. Mode in B = 1 and 2. PARTLY same!'\n\nConclusion: 'I predicted LIKELY same — and the mode 1 IS shared, so my prediction was right (mostly).'\n\n'Lucky Lou says — even close predictions can be RIGHT. Detective work uses scale + mean + mode.'\n\nNow show the 5 stations:\n- Station 1: SCALE — sort 6 events on the 5-zone scale.\n- Station 2: PREDICT — 4 coin/dice predictions.\n- Station 3: TWO POPULATIONS — compare 2 favourites.\n- Station 4: MEAN+MODE — predict and calculate.\n- Station 5: WRITE — conclusion using scale + mean + mode.\n\nEach child rotates and records on TEMPLATE.\n\n'Lucky Lou says — predictions END with a CONCLUSION using all the tools.'",
+    "student_actions": [
+      "Watch Lucky Lou demo",
+      "Echo all unit vocabulary",
+      "Plan station order",
+      "Practice each skill briefly"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "The Big Predict",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out templates. 5 stations rotation (~5 min each).",
+        "teacher_prompt": "Say: '5 stations.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Stations 1-5: scale, predict, populations, mean+mode, conclude.",
+        "teacher_prompt": "Say: 'Complete each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: write a 2-sentence conclusion using ALL 5 scale words OR mean + mode.",
+        "teacher_prompt": "Say: 'Stretch: 2 sentences.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with prediction word choice as needed.",
+        "teacher_prompt": "Show: 5 words on scale."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record summative evidence.",
+        "teacher_prompt": "Stop at each child. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE at action step 3: two children share DIFFERENT ways they decided their conclusion. Class debates: scale-only, data-only, math-only, or all three? Cite Shaughnessy on probability conclusions.",
+        "teacher_prompt": "Lucky: 'A strong conclusion uses ALL THREE — scale, data, math.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Visit 3 stations.",
+      "for_extending": "Big-idea conclusion.",
+      "for_ell_or_iep": "Pre-printed sentence frames.",
+      "for_movement_learners": "Walk between 5 stations physically. NO-PAPER VERSION: children use fingers as the 5-word scale (thumb=impossible, pinky=certain); body becomes the case report."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: scale; predict; populations; mean+mode; conclude.",
+      "how_to_record": "Score on capstone rubric.",
+      "tracker_columns": [
+        "Student name",
+        "Scale + predict",
+        "Populations",
+        "Mean+mode + conclude",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lucky Lou's Big Predict Brag",
+    "discussion_prompts": [
+      "What are the 5 likelihood words?",
+      "What's a prediction?",
+      "What's a population?",
+      "Same mean? Same mode?"
+    ],
+    "exit_routine": "Capstone refrain — Lucky + Mae call: 'SCALE, PREDICT, COMPARE, TEST, TELL — that's PROBABILITY!' (3x). Each child shares their case + the tool used at each step."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Capstone template across 5 stations.",
+    "tracker_reference": "summative_capstone_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures both expectations."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes a conclusion WITHOUT a scale word AND without mean/mode — repairing the bare-conclusion trap at Grade 3",
+    "rationale": "On the predict capstone, the trap is bare-conclusion: child concludes without citing scale + data. Konold (1989) 'outcome approach' + Shaughnessy on probability frame this as the Grade-3 terminal target.\n\nToday integrates Lessons 1-4: scale (L1), predict (L2), compare (L3), mean/mode (L4) into a peer prediction case.",
+    "setup": "Capstone Station 5. Child writes 'Yes, my prediction was right.'",
+    "teacher_script": "Crouch. 'Lucky Lou asks — what did you PREDICT? What scale word? What MEAN and MODE?'\n\nGuide. 'I predicted UNLIKELY. The mean was 4. The mode was 4. So my prediction was ___.'\n\nGeneralise. 'Lucky Lou says — Grade 3 conclusions use SCALE WORD + MEAN/MODE NUMBERS.'\n\nIf still bare: provide a 'tools-required' frame. 'I predicted ___ (scale word). The mean was ___ and the mode was ___. So my prediction was right/wrong because ___.'",
+    "expected_student_responses": [
+      "(Confused) Bare 'right/wrong'.",
+      "(Mid) Scale word only.",
+      "(Strong) Word + numbers.",
+      "(Stretched) Articulates relationship."
+    ],
+    "common_misconceptions": [
+      "Conclusion = right/wrong. (Repair: include tools.)",
+      "Mean and mode aren't part of D2. (Repair: D2.2 needs them.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child concludes without scale word: drill 'use ONE of the 5 scale words'; child re-conclude.",
+      "DIAGNOSTIC B — child uses scale but no data: 'cite the ROW from your data table'; child re-says.",
+      "DIAGNOSTIC C — child cites data but no math reasoning: force 'because mean = ___ and mode = ___, I conclude ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lucky Lou's Big Predict",
+    "purpose": "Summative artifact applying D2.1-D2.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Make a prediction using a scale word for a given scenario.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Compare two populations and find mean and mode for each.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write a conclusion using the scale word AND mean+mode.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky Lou and Maybe Mae in worksheet header",
+      "Scale strip for Part 1",
+      "Two-population chart for Part 2",
+      "Conclusion box for Part 3"
+    ]
+  }
+}

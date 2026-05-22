@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_coding_little_programmers",
+  "lesson_number": 1,
+  "lesson_title": "Move with Bot",
+  "duration_minutes": 40,
+  "primary_expectations": [
+    "B11.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "DIRECTIONAL words tell us HOW TO MOVE: forward, back, left, right.",
+  "learning_intention": "We are learning to use direction words to move.",
+  "student_learning_goal": "I can use direction words to move.",
+  "success_criteria": [
+    "I can SAY 4 direction words.",
+    "I can MOVE forward and back.",
+    "I can TURN left and right.",
+    "I can FOLLOW a direction."
+  ],
+  "vocabulary_introduced": [
+    "forward",
+    "back",
+    "left",
+    "right"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_floor_mat",
+    "M2_arrow_cards",
+    "M7_coding_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Bot the Robot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Direction Words'",
+    "Coding Floor Mat (1 per pair)",
+    "Arrow Cards (20)",
+    "Lesson 1 diagnostic checklist"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Bot's First Move",
+    "hook": "Bot the Robot Programmer: BEEP BOOP! Friends, I move with DIRECTION words. Forward! Back! Left! Right! Bot opens: 'STEP, STEP, STEP — that's CODE!'",
+    "teacher_script": "Bring children to the carpet. Bot the Robot puppet (silver foil over square box). 'Coder friends — I'm Bot the Robot. I MOVE with FOUR direction words. Watch!'\n\nDemo each:\n- FORWARD: Bot steps toward children. 'BEEP! Forward!'\n- BACK: Bot steps backward. 'BOOP! Back!'\n- LEFT: Bot turns left. 'TINK! Left!'\n- RIGHT: Bot turns right. 'TONK! Right!'\n\nClass echoes each with body. Stand up. 'Forward step!' All step forward. 'Back step!' All step back. 'Turn left!' All turn left. 'Turn right!' All turn right.\n\n'Bot says — these 4 words make me MOVE. Without them, I'm stuck!'\n\nNow show the floor mat. 'A 4-by-4 grid. Bot starts at corner A. We can MOVE Bot anywhere with direction words.'\n\nDemo. 'Forward, forward, right, forward.' Trace Bot's path with finger.\n\nDirections game. Stand 4 children up. Each holds an arrow card. Class calls out: 'FORWARD!' Forward child steps. 'LEFT!' Left child steps. Repeat.\n\n'Bot says — direction words make us PROGRAMMERS!'\n\nNow each pair gets a Floor Mat + 4 Arrow Cards. They take turns MOVING a small toy Bot.",
+    "student_actions": [
+      "Watch Bot demo",
+      "Echo 4 direction words",
+      "Body-step in 4 directions",
+      "Hold and play arrow cards"
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Move Bot 8 Steps",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Floor Mats + Arrow Cards. Pairs move Bot 4 steps.",
+        "teacher_prompt": "Say: 'Move 4.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Pairs trade: one calls, one moves.",
+        "teacher_prompt": "Say: 'Trade roles.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: include 1 LEFT and 1 RIGHT in the 4 steps.",
+        "teacher_prompt": "Say: 'Stretch: include turns.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with left vs right (use stickers on hands).",
+        "teacher_prompt": "Show: L sticker on left hand."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: Two pairs share 4-step routes to the SAME target. Class compares: same target, different paths? Cite Bers (2018) on multi-path coding.",
+        "teacher_prompt": "Bot: 'Same place, different paths. Both work — but the SHORTEST path is the SMARTEST.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Use only forward and back.",
+      "for_extending": "Add 'jump' as a new direction.",
+      "for_ell_or_iep": "Picture cards with arrows.",
+      "for_movement_learners": "Walk a tape grid on classroom floor. NO-MATERIALS PATH: Children become Bot — one stands in for Bot, partner gives arrow commands; Bot-child walks the move. Body becomes the robot."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: names; moves; turns; follows; consistency.",
+      "how_to_record": "Diagnostic — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names directions",
+        "Moves correctly",
+        "Turns left/right",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Bot's Move Brag",
+    "discussion_prompts": [
+      "Name 4 direction words.",
+      "Show FORWARD with your body.",
+      "Which is your LEFT hand?",
+      "What if Bot has NO direction words?",
+      "Bot's preview: tomorrow Bot HIDES and we have to find HIM (Lesson 2)! What did today teach us about Bot's directions?"
+    ],
+    "exit_routine": "Bot's refrain — 'Bot says: STEP, STEP, STEP — that's CODE!' (3x). Each child shows one move sequence with arrows."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Tracker of direction word use.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 sets the baseline for direction language."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child confuses LEFT and RIGHT — repairing the hand-side mix-up at Kindergarten",
+    "rationale": "On directional moves with Bot, the dominant Kindergarten trap is egocentric frame-of-reference: child treats left/right as fixed in the room rather than relative to Bot's facing. Clements & Sarama (2009) on early spatial reasoning + Bers (2018) on coding-as-playground frame this as the K computational-thinking gateway.\n\nToday: Bot moves with arrow cards. Tomorrow Lesson 2 finds Bot's position; Lesson 3 codes with pictures; Lesson 4 debugs; Lesson 5 capstones.",
+    "setup": "Move activity. Child says 'right' but moves left.",
+    "teacher_script": "Crouch. 'Bot asks — show me your LEFT hand.'\n\nProbe. 'Use the L sticker. L for LEFT. Other hand = right.'\n\nGeneralise. 'Bot says — left is the L hand. Right is the other!'\n\nIf still confused: stickers stay on. 'Look at your hands every time.'",
+    "expected_student_responses": [
+      "(Confused) Mixes hands.",
+      "(Mid) Right with prompts.",
+      "(Strong) Knows both.",
+      "(Stretched) Articulates 'left is L hand'."
+    ],
+    "common_misconceptions": [
+      "Left/right are the same. (Repair: hand check.)",
+      "Left is always the same direction. (Repair: relative to body.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child uses fixed left/right: drill 'left from BOT'S view, not yours'; physical demo standing where Bot stands.",
+      "DIAGNOSTIC B — child can rotate but stalls on multi-step: drill ONE arrow at a time; child says + acts each direction.",
+      "DIAGNOSTIC C — child moves correctly but cannot articulate: force the sentence frame 'I moved Bot ___ then ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Bot's First Moves",
+    "purpose": "Independent practice of B11.1 directions.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Match 4 direction words to 4 arrow icons.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Follow 4 arrows on a mat — colour Bot's path.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Draw an arrow showing how to go from start to apple.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Bot the Robot in worksheet header",
+      "4 arrow icons for Part 1",
+      "Coding mat for Part 2"
+    ]
+  }
+}

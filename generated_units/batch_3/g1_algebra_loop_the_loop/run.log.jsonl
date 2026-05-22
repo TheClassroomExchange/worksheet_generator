@@ -1,0 +1,18 @@
+{"ts": "2026-05-04T06:12:10+00:00", "stage": "blueprint", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:15:18+00:00", "stage": "lesson_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:17:08+00:00", "stage": "lesson_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:19:07+00:00", "stage": "lesson_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:21:10+00:00", "stage": "lesson_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:22:10+00:00", "stage": "lesson_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:24:28+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:24:28+00:00", "stage": "worksheet_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:24:28+00:00", "stage": "worksheet_03", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for Worksheet\npages.0.parts.0.visual_layout\n  String should have at least 20 characters [type=string_too_short, input_value='Top. Six grid maps.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short"}
+{"ts": "2026-05-04T06:24:28+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:24:28+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:24:43+00:00", "stage": "worksheet_03", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:24:43+00:00", "stage": "worksheet_02", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:28:09+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:28:09+00:00", "stage": "formative_reflection", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:28:09+00:00", "stage": "assessment_suite", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:28:09+00:00", "stage": "marketplace", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:28:42+00:00", "stage": "rubric_grade", "transition": "pending→done", "attempt": 0, "error": null}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 1,
+  "worksheet_title": "Buzz's Concurrent Cases",
+  "purpose": "Independent practice of C3.1 (concurrent events).",
+  "student_learning_goal": "I can identify and write code with concurrent events.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can identify and write code with concurrent events.",
+    "character_watermark": "Buzz in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Sort Scenarios",
+          "student_instructions": "Sort 8 scenarios as CONCURRENT or SEQUENTIAL. Mark C or S.",
+          "visual_layout": "Top of page. Eight sort rows.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_SORT",
+              "description": "Eight sort rows in B&W line-art, ~7in x 3in. Each row has a scenario and C/S bubbles. Pre-filled scenarios: '2 robots forward at same time', 'Robot 1 then Robot 2', '2 chefs cooking dishes', 'Order coffee then pay', '2 kids skating in same rink', 'Add then subtract', '2 cars at the same intersection', 'Walk then jump'. Header 'Concurrent (C) or Sequential (S)?'.",
+              "placement": "Top.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "concurrent",
+                "sequential"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_SORT: keywords (concurrent, sequential) name the bubbles."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "C, S, C, S, C, S, C, S."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Trace 2-Lane Code",
+          "student_instructions": "Trace 2 existing 2-lane codes. Predict where each robot ends.",
+          "visual_layout": "Middle of page. Two trace tables.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_TRACE",
+              "description": "Two trace tables in B&W line-art, ~7in x 3in. Each: 2-lane code on top, 'R1 ends at: ___' and 'R2 ends at: ___' below. Pre-filled codes. Header 'Trace and Predict:'.",
+              "placement": "Middle.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "trace"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_TRACE: keywords (trace) name the tables."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Each prediction must match the code's outcome."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Write Your Own",
+          "student_instructions": "Write your own 2-lane code with 4 time-steps.",
+          "visual_layout": "Bottom of page. Blank 2-lane grid.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_OWN",
+              "description": "A blank 2-lane code grid in B&W line-art, ~7in x 2.5in. 4 rows x 2 columns (R1 and R2). Header 'My 2-Lane Code:'.",
+              "placement": "Bottom.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "code"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_OWN: keywords (my, code) name the grid."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Must have 2 lanes, 4 time-steps."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a 3-lane code (3 robots).",
+  "teacher_notes": "Lesson 1 worksheet. Watch for lane-by-lane reading. Part 3 transfer: child writes 2-lane code that produces a NAMED outcome (e.g., both robots end on top-right). Verifies concurrency understanding generalises beyond reading."
+}

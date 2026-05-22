@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 1,
+  "lesson_title": "Mental Math and Algorithms to 1000",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.3",
+    "B2.4",
+    "B2.5"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can add and subtract numbers to 1000 using mental chunking OR the standard algorithm.",
+  "learning_intention": "We are learning to add and subtract numbers to 1000 using mental chunking and the standard algorithm.",
+  "student_learning_goal": "I can add and subtract numbers to 1000 using mental chunking and the standard algorithm.",
+  "success_criteria": [
+    "I can chunk a number into hundreds, tens, and ones to add or subtract mentally.",
+    "I can use the standard algorithm with regrouping to add or subtract.",
+    "I can solve a story problem with totals to 1000."
+  ],
+  "vocabulary_introduced": [
+    "algorithm",
+    "regroup"
+  ],
+  "vocabulary_reinforced": [
+    "chunking",
+    "place value"
+  ],
+  "manipulatives_used": [
+    "M1_base_ten_blocks_1000",
+    "M9_story_cards_1000",
+    "M10_toolkit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Tony the Toolkit Master — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Add and Subtract to 1000' with chunking and algorithm rows",
+    "Per-pair set of base-ten blocks (with thousand-cubes)",
+    "Story Problem Cards (18 cards)",
+    "Per-child whiteboards for algorithm practice",
+    "Lesson 1 mental-math snapshot tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tony's Toolkit Warm-Up",
+    "hook": "Tony has 347 nails. He buys 285 more. How many altogether? Tony opens: 'Trade ten for one — that's how it's done!' Pixel zips in: 'Practice makes the trade automatic — let's go!'",
+    "teacher_script": "Bring children to the carpet. Tony the Toolkit Master puppet in hand. 'Friends — meet Tony. He runs the Times Table Toolkit. Today he opens his FIRST tool: adding and subtracting big numbers.'\n\n'Tony has 347 nails. He buys 285 more. How many ALTOGETHER?'\n\n'Two ways to solve.' Write 347 + 285 on the board. 'Way 1: chunking.' Chunk: 347 = 300+40+7. 285 = 200+80+5. Add tens: 300+200=500. Add tens: 40+80=120. Add ones: 7+5=12. Combine: 500+120+12 = 632. Write each step.\n\n'Way 2: the standard algorithm.' Stack vertically:\n  3 4 7\n+ 2 8 5\n_______\nAdd ones: 7+5=12. Write 2, regroup 1 ten. Add tens: 4+8+1=13. Write 3, regroup 1 hundred. Add hundreds: 3+2+1=6. Write 6. Total: 632.\n\n'Same answer — 632. Both ways work. Mental chunking is faster for round numbers; the algorithm is faster for tricky regrouping.'\n\nNow subtraction. 'Tony had 632 nails. He used 287 today. How many left?' Algorithm with regrouping: \n  6 3 2\n- 2 8 7\n_______\nOnes: 2-7 — borrow! 12-7=5. Tens: 2-8 — borrow! 12-8=4. Hundreds: 5-2=3. Total: 345.\n\n'Today we'll practice BOTH chunking AND the algorithm.'",
+    "student_actions": [
+      "Watch Tony solve 347+285 with chunking.",
+      "Watch the standard algorithm with regrouping.",
+      "Echo the new vocabulary: 'algorithm', 'regroup'.",
+      "Predict whether subtraction needs regrouping for 632-287."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Operations Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: practice 3 more sums and 2 more differences. Sums: 256+478, 389+524, 167+833. Differences: 824-356, 700-289. For each, do BOTH chunking and algorithm.",
+        "teacher_prompt": "Say to students: 'Five more together. Use chunking AND the algorithm. Compare answers.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Mental Chunking — 8 sums and differences in the 100-1000 range. Station B: Standard Algorithm — 8 problems with regrouping. Station C: Story Problems — 4 cards from the deck; solve with whichever method works best.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Listen for the chime.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include 2 multi-step problems (e.g., 'Tony had 456 nails, bought 289 more, used 178 today. How many left?'). Discuss as two-step computation.",
+        "teacher_prompt": "Say to pairs: 'Some stories need TWO steps. Solve in order.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss when each method is best. Chunking is faster for 'nice' numbers (round multiples). The algorithm is more reliable when regrouping is needed.",
+        "teacher_prompt": "Use 600+250 (chunking is fast: 850) vs 487+356 (algorithm is more reliable). Make the strategy choice explicit."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the mental-math snapshot tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Which method did you use? Why?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY INVENT: 'Is there a third way? Some kids round 285 to 300, add, then subtract 15 — try it.' Compare class alternatives. Cite Hiebert & Wearne (1996) — flexibility-of-strategy.",
+        "teacher_prompt": "Tony: 'Different paths, same answer. Pick the path that fits the numbers.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children stay at Station A (Mental Chunking) with smaller sums (under 500). Anchor on chunking before introducing the algorithm.",
+      "for_extending": "Stretch to 4-digit numbers (1234+567). Discuss whether the chunking and algorithm extend (yes — both extend naturally).",
+      "for_ell_or_iep": "Provide a sentence frame: 'I used ___ because ___.'",
+      "for_movement_learners": "Allow whiteboard work standing up — physical movement reinforces the column-by-column algorithm. NO-BLOCKS ALTERNATIVE: children sketch place-value (squares=hundreds, lines=tens, dots=ones) on whiteboards; trade by erasing and redrawing. Body becomes the trade gesture."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: chunks correctly for nice-number sums; uses the algorithm correctly with regrouping; chooses the right method for the problem.",
+      "how_to_record": "Tick the mental-math snapshot tracker.",
+      "tracker_columns": [
+        "Student name",
+        "Chunks correctly for sums to 1000",
+        "Uses the standard algorithm with regrouping",
+        "Selects appropriate strategy",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tony's Strategy Brag",
+    "discussion_prompts": [
+      "When is chunking faster than the algorithm?",
+      "When is the algorithm more reliable?",
+      "What does 'regroup' mean? Show with base-ten blocks.",
+      "Did your story problem need one step or two?",
+      "Tony's preview: tomorrow Maya brings the multiplication toolkit (Lesson 2 — B2.4). What did today teach about working ONE column at a time?"
+    ],
+    "exit_routine": "Tony's chant — 'Trade ten for one — that's how it's done!' (3x). Each child shows one regrouping problem with the trade explicitly marked. Pixel's exit cheer: 'Today's algorithm — tomorrow's automatic!'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Chunking accuracy, algorithm accuracy with regrouping, and strategy-choice reasoning.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 establishes operational fluency for the unit. Children who can flex between chunking and algorithm are at L4."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child uses the standard algorithm but forgets to regroup — repairing the silent-regroup error",
+    "rationale": "On 3-digit addition/subtraction with regrouping, the trap is borrow-without-decrement (Fuson 1990; Hiebert & Wearne 1996 on multidigit subtraction): child borrows but doesn't decrement the next column. Without correct regrouping, downstream multi-operation work cannot ground.\n\nToday: regrouping algorithms. Tomorrow Maya's multiplication toolkit. Lesson 3 to 10×10; Lesson 4 fractions; Lesson 5 ratios.",
+    "setup": "Pair is at Station B (Standard Algorithm). The child has stacked 347+285 vertically. They have written 12 in the ones column (instead of 2 with a regrouped 1 above the tens).",
+    "teacher_script": "Crouch beside the child. 'Show me your work.' The child shows the column with '12' written. 'OK — 7+5 IS 12. But 12 is too BIG to fit in one column. The ones column can only hold 0-9. Watch.'\n\nUse base-ten blocks. 'Build 7 ones and 5 ones. How many?' Place 12 unit-cubes. 'Twelve. Now — TRADE: 10 ones for 1 ten.' Take 10 cubes, swap for a ten-rod. 'Now I have 1 ten and 2 ones. The 2 stays in the ones column. The 1 ten REGROUPS to the tens column.'\n\nWrite the regrouping. Above the tens column: small '1'. In the ones column: '2'. 'Now add tens: 1 + 4 + 8 = 13. Same problem — 13 is too big. Trade 10 tens for 1 hundred.' Continue.\n\nFinal: 632. 'See — every time the column sum is 10 or more, we TRADE.'\n\nIf the child STILL skips the regrouping: use base-ten blocks for every step of the next problem. Visible trades make the algorithm concrete.\n\nLong-term recovery: daily warm-up with sums that REQUIRE regrouping. The reflex builds within a week.",
+    "expected_student_responses": [
+      "(Confused) Writes column sums >9 directly, skipping regrouping. Most common at the start of Lesson 1 for transition learners.",
+      "(Mid) Regroups with prompts; doesn't yet auto-regroup when column sum exceeds 9.",
+      "(Strong) Auto-regroups. Writes the small carry digit above the next column without prompting.",
+      "(Stretched) Volunteers that the algorithm extends to thousands and beyond. Sees regrouping as a structural property of base-ten."
+    ],
+    "common_misconceptions": [
+      "Each column can hold any number. (Position-value misunderstanding. Repair: explicit 'each column holds 0-9 only — anything more must trade'.)",
+      "Regrouping changes the answer. (Children worry that carrying digits 'changes' the sum. Repair: build with blocks — same total, different arrangement.)",
+      "Subtraction borrowing is just addition regrouping in reverse. (Some children get confused between borrowing/regrouping. Repair: distinct words for distinct moves.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child borrows but doesn't decrement: drill 'when you trade ten, the next column GOES DOWN BY ONE'; child rewrites with cross-out marks.",
+      "DIAGNOSTIC B — child decrements correctly but stalls on zero: drill 'borrow from the NEXT non-zero column; cascade.'",
+      "DIAGNOSTIC C — child computes correctly but cannot articulate: force the sentence frame 'I borrowed ___ from the ___ column to give ___ to the ___ column.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tony's Algorithm Tools",
+    "purpose": "Independent practice of B2.3, B2.4, B2.5.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Four sums in 100-1000 range. Solve using chunking. Show all steps.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Four sums and differences using the standard algorithm. Show regrouping clearly.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Three story problems with totals to 1000. Solve with whichever method works best. Write the equation.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tony the Toolkit Master in the worksheet header",
+      "Four chunking work-areas for Part 1",
+      "Four algorithm column-stacks for Part 2",
+      "Three story-problem boxes for Part 3"
+    ]
+  }
+}

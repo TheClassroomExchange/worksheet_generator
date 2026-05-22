@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "overall_unit_grader@opus-4-7",
+  "status": "revise",
+  "scores": {
+    "pedagogical_depth": 4,
+    "alignment": 4,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "arc_coherence": 4,
+    "code_coverage": 4,
+    "capstone_integration": 3,
+    "vocabulary_progression": 4,
+    "character_continuity": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 4
+  },
+  "category_feedback": [
+    {
+      "category": "character_continuity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Blueprint recurring_characters lists Scoot as mascot 'appears in every lesson with a how many speech bubble.' But across all 5 lesson JSONs, Scoot is referenced ONLY in worksheet_brief.expected_image_assets ('Scoot the puppy mascot icon in a corner') — never in any minds_on, action, or consolidation script. Lila and Otto carry every minds_on; Scoot's role is unfulfilled.",
+      "required_fix": "In each lesson's minds_on hook OR consolidation exit_routine, add ONE Scoot beat — a 'how many' speech-bubble line where Scoot wags his COUNT bandana and asks the day's count question (Lesson 1: jar count; Lesson 2: 32 ways; Lesson 3: break-apart count; Lesson 4: order 4 jars; Lesson 5: 1/2 of pizza). Two-line addition per lesson is enough to honour the 'every lesson' role description.",
+      "affected_stages": ["lesson_01", "lesson_02", "lesson_03", "lesson_04", "lesson_05"],
+      "affected_pairs": [1, 2, 3, 4, 5],
+      "severity": "blocking"
+    },
+    {
+      "category": "capstone_integration",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson 5 launches three new expectations (B1.6/B1.7/B1.8) and only loosely revisits prior days. vocabulary_reinforced lists 'compose, decompose, compare' (Days 3-4 vocab) and M1_button_set returns from Day 1, but the action has no 4-station structure explicitly mirroring Days 1/2/3/4 with a named skill per station. Level-4 bar requires 4 stations each tied to one earlier day.",
+      "required_fix": "Restructure Lesson 5 action into a capstone-stations block where Day 1 (skip-count buttons before sharing), Day 2 (read-and-show share total in two forms), Day 3 (decompose the share — 12 = 6+6 = 4+4+4), and Day 4 (compare 1/2 vs 1/4 sizes) each get a named station. Capstone tracker records per-station evidence. Keep B1.6/B1.7/B1.8 as new content, anchored in earlier-skill recap.",
+      "affected_stages": ["lesson_05", "worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "pairs_to_revise": [1, 2, 3, 4, 5],
+  "summary": "Solid Math unit with strong pedagogical depth, complete B1.1-B1.8 code coverage, verbatim curriculum language, and consistent Lila/Otto voice. Two arc-level issues block pass: Scoot's blueprint role (every-lesson mascot) is unfulfilled in lesson scripts, and Lesson 5 introduces fractions without an explicit Day-1-through-Day-4 station recap. Both fixable with targeted edits across all 5 pairs and Lesson 5 specifically."
+}

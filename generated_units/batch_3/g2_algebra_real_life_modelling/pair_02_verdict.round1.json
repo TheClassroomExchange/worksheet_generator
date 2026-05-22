@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "pair_number": 2,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough and consolidation never bridge backward to Lesson 1's QUESTION step or forward to Lesson 3's PREDICT step. The minds_on says 'yesterday we asked QUESTIONS' once but there is no explicit cross-reference like 'remember when Mayor Mira asked HOW MANY buses on Day 1? Today we COUNT to find out — and tomorrow we'll PREDICT'.",
+      "required_fix": "Add explicit forward and backward bridges in consolidation: name Lesson 1 ('Yesterday we asked the math QUESTIONS') and preview Lesson 3 ('Tomorrow we use today's DATA to PREDICT what happens next'). The cross-reference must use the neighbouring lesson titles and the modelling-cycle step names so children carry the 5-step arc explicitly.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Provide explicit tally chart slots.', 'Drill count one at a time.', 'Praise tallies more than estimates.'] — three flat moves with no diagnostic branching, and the trap cites no named research. Grade-2 data-collection research (Lehrer & Schauble on data modeling; English on early modelling; Sarama & Clements on counting/cardinality) is not named.",
+      "required_fix": "Branch recovery by what the diagnostic told you: if the child writes 'about 30' but CAN count to 30, drill the count-vs-estimate distinction and require a tally; if the child writes 'a lot' and cannot enumerate, drop back to one-to-one correspondence with manipulatives before tallying; if the child tallies but miscounts, group tallies in fives. Cite Lehrer & Schauble's data-modelling work or English (2010) by name in the rationale.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Town Data Collection Charts (6)', 'Per-pair counters (~30)', 'Per-pair number line to 100', 'Per-pair town map' — all paper or counter manipulatives. differentiation has no NO-PAPER, NO-PURCHASE alternative path. for_movement_learners says 'Walk around the classroom counting items... Tally on a chart' — still requires a chart.",
+      "required_fix": "Add an explicit no-materials path in differentiation: e.g., 'No-materials version — clap or tap once per item counted; track tallies on fingers (one finger up per five). Body becomes the data table — voice says the count, fingers track the tallies.' This makes the lesson runnable on a no-prep day.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = 'Each child writes ONE town data point on a sticky note: I'd count ___. My data: ___.' — there is no quotable Mayor-Mira refrain or chant. teacher_script never quotes a signature line children echo back, and the unit needs a refrain that carries across all 5 lessons (the rubric Level 4 calls this out).",
+      "required_fix": "Add a Mayor-Mira signature refrain children chant back, locked into discussion_prompts and exit_routine. E.g., 'Mayor Mira's rule: COUNT IT, don't GUESS IT — every tally tells the truth!' Use it to close consolidation and reference it in Lessons 3-5 so children carry it across the arc.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson never invites children to invent or compare data-collection strategies. action.steps prescribes tally charts at every station; the stretch challenge ('2-day comparison') is a quantity extension, not a strategy comparison. expanded_walkthrough.rationale describes the count-vs-estimate trap correctly but names no research-grounded term (Sarama & Clements on cardinality; Lehrer & Schauble's data-modelling line of work; CGI counting types).",
+      "required_fix": "Add a 3-5 minute 'compare strategies' move in action: one pair tallies in singles, another groups in fives, a third uses two-colour counters as a moving count — children compare which is faster/more accurate and refine. Then in expanded_walkthrough rationale, name the principle: 'Sarama & Clements (2009) frame this as the count-cardinality bridge; Lehrer & Schauble (2007) call this the move from descriptive count to organised data.'",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 1 pre-fills the totals ('Library books returned: 28', 'Buses arriving: 5', 'Sandwiches sold: 60', 'Recess minutes: 15') and the answer_key is '28, 5, 60, 15' — children copy the given number into a tally box rather than COUNT to produce data. This is a near-rote rehearsal of the lesson's whole-group example, not a transfer task, and undermines the count-don't-guess trap the lesson explicitly teaches.",
+      "required_fix": "Vary Part 1 so each row shows a visual cluster of 12-18 items (e.g., 14 book icons, 9 bus icons) for the child to actually tally and total — the count is what they produce, not copy. Justify in teacher_notes: 'Part 1 varies from the lesson's whole-group counts by requiring children to tally from a pictorial set, verifying the count-don't-guess move transferred from Station A.'",
+      "affected_stages": ["worksheet_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Day-2 sits at achieving across the board: optional puppets and realistic 12/25/13 timing are good, but the pair has no forward/backward arc bridges, flat non-branching recovery moves with no cited research, no no-materials path, no Mayor-Mira refrain, no strategy-compare move, and a worksheet Part 1 that hands children the totals instead of asking them to count. Fix the named items in lesson_02 and worksheet_02 to clear the pass bar."
+}

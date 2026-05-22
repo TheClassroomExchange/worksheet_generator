@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "formative_worksheets": [
+    {
+      "title": "The Three-Way Measurement Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 minutes) to confirm A10.2 (length, mass, capacity) before extending into non-standard units.",
+      "purpose": "Standalone formative check that probes whether the child can compare across all 3 attributes. Catches children who are strong on length but weak on capacity (or vice versa) before they hit the capstone.",
+      "expectations_assessed": ["A10.2"],
+      "student_learning_goal": "I can compare in 3 different ways.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can compare in 3 different ways.",
+        "character_watermark": "Max the Measure Moose in the top-right corner with a clipboard. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "LENGTH: Circle the longer one.",
+          "visual_layout": "Two horizontal pairs stacked: pair A is a short pencil + a long marker; pair B is two same-length blocks. Each pair ~3in × 1in.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_LENGTH",
+              "description": "Two length-comparison pairs in B&W line art for a Kindergarten formative check. Pair A: a short pencil (~1.5in) + a long marker (~3in), aligned at the left edge. Pair B: two identical-length blocks (~2in each). Each pair ~3in × 1in. Generous spacing for circling.",
+              "placement": "Centred horizontally in Prompt 1.",
+              "approximate_size": "medium",
+              "keywords": ["pencil", "marker"],
+              "text_image_alignment_check": "Image FORM_Q1_LENGTH at Prompt 1: instructions ask the child to circle the longer object. Keywords name the example pair (pencil, marker)."
+            }
+          ],
+          "response_type": "circle_or_loop",
+          "answer_key": "Pair A: marker. Pair B: SAME (accept either or both circled)."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "MASS: Mark the heavier side.",
+          "visual_layout": "Two balance pictures stacked. Balance 1: brick on left, feather on right (brick lower). Balance 2: two same blocks (level). Each ~3in × 2in.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_MASS",
+              "description": "Two balance pictures in B&W line art for a Kindergarten formative check. Balance 1: brick on left pan (lower) + feather on right pan (higher). Balance 2: two same blocks, level. Each balance ~3in × 2in with triangular fulcrum. Beside each pan, a small label box for writing H, L, or S.",
+              "placement": "Centred horizontally in Prompt 2.",
+              "approximate_size": "medium",
+              "keywords": ["balance", "heavier"],
+              "text_image_alignment_check": "Image FORM_Q2_MASS at Prompt 2: instructions ask the child to mark heavier sides. Keywords name the visual artifact (balance) and the criterion (heavier)."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Balance 1: brick = H, feather = L. Balance 2: SAME (both blocks)."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "CAPACITY: Circle the cup that holds more.",
+          "visual_layout": "Two cup pairs stacked. Pair A: large mug + tiny espresso cup. Pair B: two same-size cups. Each pair ~3in × 1.5in.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_CAPACITY",
+              "description": "Two cup pairs in B&W line art for a Kindergarten formative check. Pair A: a large mug (~2in) + a tiny espresso cup (~0.7in). Pair B: two identical drinking cups. Each pair ~3in × 1.5in. Generous spacing for circling.",
+              "placement": "Centred horizontally in Prompt 3.",
+              "approximate_size": "medium",
+              "keywords": ["cup", "more"],
+              "text_image_alignment_check": "Image FORM_Q3_CAPACITY at Prompt 3: instructions ask the child to circle the cup that holds more. Keywords name the visual element (cup) and criterion (more)."
+            }
+          ],
+          "response_type": "circle_or_loop",
+          "answer_key": "Pair A: large mug. Pair B: SAME (accept either or both circled)."
+        }
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child; circulate while children work. Score guide: 6/6 (with both 'same' recognized) = ready for non-standard units. 4-5/6 = 1:1 conference about the missed attribute. 0-3/6 = small-group re-loop on Lessons 1-3 before Lesson 4."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Measurement Reflection",
+    "purpose": "End-of-unit metacognition. Children look back at their week of measurement work and rate themselves, name a favourite, name a struggle, and set a forward goal.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Max and Tess in the top-right corner with a Junior Measure Captain certificate. Small (~1.5in tall combined). References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Measure Captain? Circle one.",
+        "visual_layout": "Three star-rating options shown horizontally in ovals: 1 star, 2 stars, 3 stars. Below each, a label: 'Just starting', 'Mostly got it', 'I am a Captain!'. Child circles one.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three rating options shown horizontally in ovals for a Kindergarten reflection sheet. Left: 1 large star. Middle: 2 stars. Right: 3 stars. Each in a thin oval ~2in wide. Below each oval, printed label: 'Just starting', 'Mostly got it', 'I am a Captain!'. Total row ~6.5in.",
+            "placement": "Centred horizontally in Prompt 1.",
+            "approximate_size": "full_width",
+            "keywords": ["stars", "captain"],
+            "text_image_alignment_check": "Image REF_STARS at Prompt 1: instructions ask the child to rate themselves. Keywords name the visual (stars) and the role (captain)."
+          }
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am a Captain!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things? Circle YES or NO.",
+        "visual_layout": "A four-row table. Each row has a question on the left and YES/NO bubbles on the right. Questions: 'I compared lengths.', 'I compared mass on a balance.', 'I compared capacity by pouring.', 'I measured with cubes.'.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A bordered four-row table for a Kindergarten reflection sheet. Each row ~1in tall. Left column ~4in wide with question text. Right column ~2in wide with YES / NO bubbles side by side. Total ~6in wide. Thin grey row dividers.",
+            "placement": "Centred horizontally in Prompt 2.",
+            "approximate_size": "full_width",
+            "keywords": ["yes", "no"],
+            "text_image_alignment_check": "Image REF_YN_TABLE at Prompt 2: instructions ask the child to circle yes or no. Keywords name the response options."
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I compared lengths.", "I compared mass on a balance.", "I compared capacity by pouring.", "I measured with cubes."]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite measurement was...",
+        "visual_layout": "A bordered rectangular box ~5in × 1.8in centred on the page, prompt printed above. Box is empty workspace.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall for a Kindergarten reflection sheet. Thin solid border, empty inside. Above the box, printed prompt 'My favourite measurement was...'. Below the bottom-right corner, faint guide-lines for writing.",
+            "placement": "Centred horizontally in Prompt 3.",
+            "approximate_size": "full_width",
+            "keywords": ["favourite", "measurement"],
+            "text_image_alignment_check": "Image REF_FAV_BOX at Prompt 3: instructions ask the child to draw or write their favourite measurement. Keywords name the prompt focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangular box ~5in × 1.8in. Same layout.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle ~5in × 1.8in for a Kindergarten reflection sheet, identical layout to REF_FAV_BOX. Above the box: 'The trickiest part for me was...'.",
+            "placement": "Centred in Prompt 4.",
+            "approximate_size": "full_width",
+            "keywords": ["trickiest"],
+            "text_image_alignment_check": "Image REF_TRICKY_BOX at Prompt 4: instructions ask what was 'trickiest'. Keyword matches the prompt."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangular box ~5in × 1.8in. Same layout.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle ~5in × 1.8in for a Kindergarten reflection sheet, identical layout to other boxes. Above the box: 'Next time, I want to try...'.",
+            "placement": "Centred in Prompt 5.",
+            "approximate_size": "full_width",
+            "keywords": ["next", "try"],
+            "text_image_alignment_check": "Image REF_NEXT_BOX at Prompt 5: instructions ask the child to set a goal. Keywords name the prompt focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5, alongside the Junior Measure Captain certificate ceremony. Children may need scribe support for prompts 3-5. Read responses to inform next-year unit notes (which prompts kept emerging as 'trickiest', which moments children loved). The yes/no audit on Prompt 2 is also a quick teacher check: a 'NO' on any item signals the child either missed a key activity or doesn't recognize they did it."
+  }
+}

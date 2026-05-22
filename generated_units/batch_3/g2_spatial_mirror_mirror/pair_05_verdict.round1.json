@@ -1,0 +1,65 @@
+{
+  "unit_id": "g2_spatial_mirror_mirror",
+  "pair_number": 5,
+  "subject": "Mathematics",
+  "alignment": 3,
+  "pedagogical_depth": 3,
+  "instructional_balance": 4,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 2,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "Lesson 5 runs 5 stations covering E1.1 (shapes), E1.2 (area/rearrange 6 tiles), E1.3 (congruent), E1.4 (map/find 3 objects), and E1.5 (maze directions), but the worksheet's parts_outline only has 3 parts (Part 1 shapes/E1.1, Part 2 congruent/E1.3, Part 3 maze/E1.5). Stations 2 (AREA) and 4 (MAP) are entirely absent from the worksheet despite the lesson positioning them as summative-evidence stations and the worksheet being labeled 'Summative artifact applying E1.1-E1.5.'",
+      "required_fix": "Add a Part for area conservation (e.g., 'Show 6 tiles rearranged two ways; circle that the area = 6 in both') and a Part for map reading (e.g., 'Look at the map; mark the 3 objects you find') so the summative worksheet practices all 5 expectations the lesson teaches, matching the stated purpose 'applying E1.1-E1.5'. Then update worksheet_brief.parts_outline and the answer keys to match.",
+      "affected_stages": ["worksheet_05", "lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "primary_expectations is E1.5 with secondary E1.1-E1.4, but the worksheet only practises 3 of the 5 (Parts 1/2/3 = E1.1/E1.3/E1.5). E1.2 (area conservation) and E1.4 (map reading) are named in the lesson stations but never reach the worksheet, so the capstone fails to bridge cleanly to the prior days' work in writing.",
+      "required_fix": "Add explicit cross-references in expanded_walkthrough or teacher_script to Day 2's area conservation and Day 4's map work, AND ensure each named primary/secondary code has a worksheet part. For example, add: 'Remember on Day 2 when Flippy showed area stays the same? Today's Station 2 proves it. On Day 4 we made maps — Station 4 reads one.' Mirror those on the worksheet.",
+      "affected_stages": ["lesson_05", "worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title 'When the child writes forward without a number' is a real Grade-2 trap with concrete recovery moves (template with blanks, drill verb+number, walk physical paths), but no research grounding is cited. recovery_moves does not branch by what the diagnostic showed — it lists three moves applied uniformly rather than 'if child can produce a number when prompted, do X; if child cannot count squares, do Y'.",
+      "required_fix": "Cite research-grounded framing (e.g., Battista on spatial structuring of arrays / iteration of unit lengths in path-following, or Clements & Sarama on spatial reasoning trajectories) and branch recovery_moves by diagnostic: if the child can count squares but omits the number, drill 'verb + number' with sentence frame; if the child cannot iterate unit squares along the path, drop back to physically stepping squares before re-attempting written directions.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Symmy and Flippy anchor minds_on, action, and consolidation, all success_criteria start with 'I can', and vocabulary is defined. But there is no distinctive quotable refrain children chant back, and the exit_routine ('Each child shares ONE direction sequence: To find ___, go ___.') is a sentence frame for content rather than a memorable cross-lesson chant tied to Symmy/Flippy.",
+      "required_fix": "Add a unit-spanning Symmy/Flippy refrain children chant at consolidation — for example, 'Symmy says: VERB plus NUMBER, every time!' chanted back, or 'Mirror, mirror — match it fair, every side and every square!' — and reference it as carried from Lessons 1-4 so the capstone closes a known refrain.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson distinguishes verb+number for forward moves vs. no-number for turns (precise vocabulary) and uses manipulatives meaningfully across 5 stations, but the action.steps do not invite children to invent or compare strategies (e.g., compare two valid 3-direction routes through the maze), and expanded_walkthrough does not name the misconception in research-grounded terms (Battista spatial structuring, etc.).",
+      "required_fix": "Add an explicit strategy-comparison move in action or consolidation: 'Pair-share: Did your partner reach the goal a different way? Compare your direction sequences — both can be correct.' AND name the trap in research terms in expanded_walkthrough.rationale (e.g., 'This is a unit-iteration / spatial-structuring miscount — Battista 2007').",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    }
+  ]
+}

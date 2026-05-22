@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "lesson_number": 4,
+  "worksheet_title": "Tally's Mean Lab",
+  "purpose": "Independent practice of D1.4.",
+  "student_learning_goal": "I can find the mean and mode of a data set.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find the mean and mode of a data set.",
+    "character_watermark": "Tally with a calculator in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Calculate mean.",
+          "student_instructions": "Calculate the mean for 5 data sets.",
+          "visual_layout": "5 data sets stacked with answer lines.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_MEAN",
+              "description": "5 mean problems for Grade 3 worksheet, B&W line art. Each row: data set (e.g., '4, 6, 8, 2, 5') + 'Mean = ___ ÷ ___ = ___'. Examples: simple whole-number sets.",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "mean",
+                "data"
+              ],
+              "text_image_alignment_check": "WS04_P1_MEAN at Part 1: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Set 1 (4,6,8,2,5): 25÷5 = 5. Other sets calculated correctly."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Find mode.",
+          "student_instructions": "Find the MODE for 6 data sets. Some have NO mode, some have MORE THAN ONE.",
+          "visual_layout": "6 data sets with mode answer lines.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_MODE",
+              "description": "6 mode problems for Grade 3 worksheet. Each row: data set + 'Mode: ___' line. Mix of single-mode, no-mode, bimodal cases.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "mode",
+                "data"
+              ],
+              "text_image_alignment_check": "WS04_P2_MODE at Part 2: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Mix of single, no, two modes."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Both for 3 sets.",
+          "student_instructions": "Calculate BOTH mean and mode for 3 data sets.",
+          "visual_layout": "3 data sets with mean + mode lines.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_BOTH",
+              "description": "3 data sets for Grade 3 worksheet. Each row: data set + 'Mean: ___' + 'Mode: ___' lines.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "mean",
+                "mode"
+              ],
+              "text_image_alignment_check": "WS04_P3_BOTH at Part 3: keywords name the activities."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Both calculated correctly for each set."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, find a data set where mean = mode.",
+  "teacher_notes": "Lesson 4 consolidation. Use Part 1 as formative — count check. Part 3 transfer: instead of repeating 'calculate both for 3 sets', present a real-world Canadian context (e.g., daily snowfall in cm for one week in Toronto) requiring mean + mode."
+}

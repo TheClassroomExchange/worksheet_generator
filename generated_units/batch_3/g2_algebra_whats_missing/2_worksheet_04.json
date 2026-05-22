@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 4,
+  "worksheet_title": "Detective Dee's Many Ways",
+  "purpose": "Independent practice of C2.3 (equivalent expressions for whole numbers to 100).",
+  "student_learning_goal": "I can find many equivalent expressions for the same whole number up to 100.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can find many equivalent expressions for the same whole number up to 100.", "character_watermark": "Detective Dee in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Make 50", "student_instructions": "List 8 different expressions that equal 50. Mix addition and subtraction.", "visual_layout": "Top of page. Eight numbered expression slots.",
+      "image_placeholders": [{"id": "WS04_P1_M50", "description": "Eight numbered expression slots in B&W line-art, ~7in x 3in. Each slot pre-printed: '50 = ___'. Header 'Make 50:'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["make"], "text_image_alignment_check": "Image WS04_P1_M50: keywords (make) name what the slots ask for."}],
+      "student_response_type": "write", "answer_key": "Open. 8 different expressions: 25+25, 30+20, 40+10, 45+5, 50+0, 60-10, 75-25, 100-50, etc."},
+    {"part_number": 2, "part_title": "Part 2: Make 100", "student_instructions": "List 6 different expressions that equal 100.", "visual_layout": "Middle of page. Six numbered expression slots.",
+      "image_placeholders": [{"id": "WS04_P2_M100", "description": "Six numbered expression slots in B&W line-art, ~7in x 2.5in. Each slot pre-printed: '100 = ___'. Header 'Make 100:'.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["make"], "text_image_alignment_check": "Image WS04_P2_M100: keywords (make) name what the slots ask for."}],
+      "student_response_type": "write", "answer_key": "Open. 6 different expressions: 50+50, 75+25, 60+40, 90+10, 25+25+25+25, 150-50, etc."},
+    {"part_number": 3, "part_title": "Part 3: Pick Your Target", "student_instructions": "Pick a target number between 60 and 100. List 5 different expressions for it.", "visual_layout": "Bottom of page. A target slot and 5 numbered expression slots.",
+      "image_placeholders": [{"id": "WS04_P3_PICK", "description": "A target-and-5-slot box in B&W line-art, ~7in x 2.5in. Top: 'My target: ___'. Below: 5 numbered expression slots. Header 'Pick Your Target:'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["target"], "text_image_alignment_check": "Image WS04_P3_PICK: keywords (target) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Child picks any target 60-100 and lists 5 different expressions."}
+  ]}],
+  "early_finisher_prompt": "If you finish, list 5 expressions for a target above 100.",
+  "teacher_notes": "Lesson 4 worksheet practices C2.3. Watch for children listing the same expression repeatedly. Push for variety — different addend pairs."
+}

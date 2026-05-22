@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 1,
+  "worksheet_title": "Eddy's Variables",
+  "purpose": "Independent practice of C2.1 (variables in real life).",
+  "student_learning_goal": "I can describe how variables are used in real-life contexts.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe how variables are used in real-life contexts.",
+    "character_watermark": "Eddy in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Find the Variable",
+          "student_instructions": "Identify the variable in 6 real-life examples. Underline each.",
+          "visual_layout": "Top of page. Six example rows.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_FIND",
+              "description": "Six rows in B&W line-art, ~7in x 3in. Pre-filled examples: 'T = temperature today (5°C)', 'S = Leafs score (4 goals)', 'A = your age (8 years)', 'P = price of milk ($4.50)', 'D = days till summer (60)', 'W = weight in kg (28)'. Header 'Identify the Variable:'.",
+              "placement": "Top of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "variable"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_FIND: keywords (variable) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "T, S, A, P, D, W."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Unknown or Varying",
+          "student_instructions": "Sort 6 variables into UNKNOWN (one fixed value we need to find) or VARYING (changes over time).",
+          "visual_layout": "Middle of page. Six sort rows.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_SORT",
+              "description": "Six sort rows in B&W line-art, ~7in x 2.5in. Pre-filled: '5 + n = 12', 'Temperature each day', '? - 8 = 6', 'Hockey score per game', 'm + 4 = 9', 'Price of bread weekly'. Each with U/V bubbles. Header 'Unknown (U) or Varying (V)?'.",
+              "placement": "Middle of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "unknown",
+                "varying"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_SORT: keywords (unknown, varying) name the bubbles."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "U, V, U, V, U, V."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Variables",
+          "student_instructions": "Write 3 variables from your own life. Describe what each one stands for.",
+          "visual_layout": "Bottom of page. Three blank slots.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_OWN",
+              "description": "Three numbered slots in B&W line-art, ~7in x 2.5in. Each: 'Variable: ___', 'Stands for: ___'. Header 'My Variables:'.",
+              "placement": "Bottom of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "my",
+                "variables"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_OWN: keywords (my, variables) name what the slots ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Each variable should stand for a real-life value."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a 4-day temperature pattern using the variable T.",
+  "teacher_notes": "Lesson 1 worksheet. Watch for letter-as-label confusion. Part 2 includes 1-2 transfer contexts (gas-tank g, ice-cream scoops s) not seen in lesson stations — verifies variable naming generalises beyond rehearsed contexts."
+}

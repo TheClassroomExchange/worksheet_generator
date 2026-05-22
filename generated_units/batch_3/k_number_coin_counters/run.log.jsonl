@@ -1,0 +1,35 @@
+{"ts": "2026-05-03T22:28:02+00:00", "stage": "blueprint", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-04T00:06:14+00:00", "stage": "blueprint", "transition": "pending→done", "attempt": 1, "error": null}
+{"ts": "2026-05-04T00:06:38+00:00", "stage": "lesson_01", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-04T00:08:15+00:00", "stage": "lesson_01", "transition": "in_progress→failed", "attempt": 1, "error": "schema validation failed: 1 validation error for LessonPlan\nsuccess_criteria\n  Value error, success criterion must start with 'I can': 'When my teacher gives me a starting number, I can count on by 1s up to 20.' [type=value_error, input_value=['I can write or say a sm...unt on by 1s up to 20.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"ts": "2026-05-04T00:08:29+00:00", "stage": "lesson_01", "transition": "failed→pending", "attempt": 1, "error": null}
+{"ts": "2026-05-04T00:08:29+00:00", "stage": "lesson_01", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-04T00:08:29+00:00", "stage": "lesson_01", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-04T01:00:26+00:00", "stage": "lesson_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:00:40+00:00", "stage": "lesson_02", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:00:45+00:00", "stage": "lesson_02", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:02:45+00:00", "stage": "lesson_03", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for LessonPlan\naction.structure\n  Input should be 'whole_group', 'partner', 'small_group', 'centres', 'whole_group_then_partner', 'whole_group_then_centres' or 'individual' [type=literal_error, input_value='whole_group_then_stations', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error"}
+{"ts": "2026-05-04T01:03:07+00:00", "stage": "lesson_03", "transition": "failed→pending", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:03:07+00:00", "stage": "lesson_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:04:51+00:00", "stage": "lesson_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:06:53+00:00", "stage": "lesson_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:34:21+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:35:43+00:00", "stage": "worksheet_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:36:28+00:00", "stage": "worksheet_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:37:06+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:37:56+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:40:04+00:00", "stage": "manipulatives", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 5 validation errors for Manipulatives\nassets.1.image_placeholders.0.approximate_size\n  Input should be 'thumbnail', 'small', 'medium', 'large' or 'full_width' [type=literal_error, input_value='full_page', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error\nassets.7.image_placeholders.0.approximate_size\n  Input should be 'thumbnail', 'small', 'medium', 'large' or 'full_width' [type=literal_error, input_value='full_page', input_type=str]\n    For furth"}
+{"ts": "2026-05-04T01:40:17+00:00", "stage": "manipulatives", "transition": "failed→pending", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:40:17+00:00", "stage": "manipulatives", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for Manipulatives\noverall_prep_notes\n  Field required [type=missing, input_value={'schema_version': 1, 'un...ons': [1, 2, 3, 4, 5]}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"}
+{"ts": "2026-05-04T01:40:32+00:00", "stage": "manipulatives", "transition": "failed→pending", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:40:32+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:42:03+00:00", "stage": "formative_reflection", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:43:44+00:00", "stage": "assessment_suite", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 47 validation errors for AssessmentSuite\nsummative_rubric.purpose\n  Field required [type=missing, input_value={'rubric_id': 'summative_...ions are equivalent.'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nsummative_rubric.rows.0.levels\n  Field required [type=missing, input_value={'expectation_code': 'A6....added a couple more').\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nsummative_rubric.ro"}
+{"ts": "2026-05-04T01:44:17+00:00", "stage": "assessment_suite", "transition": "failed→pending", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:44:17+00:00", "stage": "assessment_suite", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 14 validation errors for AssessmentSuite\nsummative_rubric.rubric_id\n  Extra inputs are not permitted [type=extra_forbidden, input_value='summative_rubric', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nsummative_rubric.expectation_focus\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['A6.7', 'A6.8', 'A6.9', ...6.11', 'A6.12', 'A6.13'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/"}
+{"ts": "2026-05-04T01:45:29+00:00", "stage": "assessment_suite", "transition": "failed→pending", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:45:29+00:00", "stage": "assessment_suite", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:45:50+00:00", "stage": "assessment_suite", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:46:49+00:00", "stage": "marketplace", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T01:47:06+00:00", "stage": "marketplace", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T02:15:50+00:00", "stage": "rubric_grade", "transition": "pending→done", "attempt": 0, "error": null}

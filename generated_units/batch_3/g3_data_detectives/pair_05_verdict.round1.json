@@ -1,0 +1,55 @@
+{
+  "unit_id": "g3_data_detectives",
+  "pair_number": 5,
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use measures-required frame.', 'Drill mode + mean.', 'Compare conclusions.'] — terse, do not branch by what the diagnostic told you about the child, and the rationale cites no research.",
+      "required_fix": "Branch the recovery by diagnostic: (a) if child names mode but not mean, model 'add all values, divide by count' on a 4-number set on the anchor chart; (b) if child names neither, return to Lesson 4's mean chart and recompute one mean together before reattempting conclusion; (c) if child names both but cannot relate them, contrast 'mode = peak of the bars / mean = level if we shared equally'. Cite Konold & Pollatsek's 'data as a signal in noise' or Russell & Mokros on averages-as-typical.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Anchor chart Big Case Steps', 'Big Case Templates (1 per child)', 'All previous manipulatives at 5 stations', 'Lesson 5 capstone rubric' — required paper templates with no NO-PAPER, NO-PURCHASE alternative path offered in differentiation.",
+      "required_fix": "Add an explicit no-paper variant to differentiation, e.g., 'No-materials version — children rotate through 5 carpet zones; whisper or finger-write their frequency tally, gesture bar heights with cupped hands at scaled levels (1 hand = 2 children), say mean and mode aloud, and tell the conclusion to a partner in the sentence frame. Teacher records on a single class clipboard.' This makes the capstone runnable on a no-prep day.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "minds_on teacher_script: 'Mean: 42÷8 = 5.25 (round to 5)' — D1.4 specifies whole-number data sets, so the demo should be tuned so the mean is a whole number rather than rounding away the conceptual moment. The lesson also does not let children INVENT or COMPARE strategies for finding mean (rule says Level 4 = children refine/compare strategies), and the misconception is not named in research-grounded terms (Konold, Russell & Mokros, or Strauss & Bichler on averages).",
+      "required_fix": "Swap the demo data to a whole-number mean (e.g., 4, 6, 5, 5 → mean 5; or 2, 4, 6 → mean 4) so children see the 'fair share' resolve cleanly. Then add a strategy-comparison moment: 'Some detectives ADD-then-DIVIDE; some level out the bars by moving cubes from tall to short until equal — both find the fair share.' Name the misconception in the expanded_walkthrough rationale (e.g., 'Strauss & Bichler 1988 — children at this stage treat the mode as a stand-in for typical and miss the leveling property of the mean').",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "worksheet_05 Part 2 answer_key = 'Bars at 1.5, 1, 1, 0.5 units (× 2 = 3, 2, 2, 1). Mean: 8÷4 = 2. Mode: hockey OR none.' Half-unit bars on a scale=2 grid contradict the lesson's clean many-to-one teaching, and 'Mode: hockey OR none' confuses students about what mode means on category counts. Also, the lesson runs FIVE stations (tree, frequency, scale, mean+mode, conclude) but the worksheet has only THREE parts and drops the tree-diagram station entirely — Part 1 of the worksheet does not map to lesson Station 1 (D1.1).",
+      "required_fix": "Tune Part 2 data so each bar lands on a whole many-to-one mark (e.g., counts 4, 6, 2, 4 with scale 1 unit = 2, giving bars at 2, 3, 1, 2 grid units — mean 4, mode 4). Fix the mode answer to be unambiguous ('Mode: hockey, the most common with 6 votes'). Add a Part 0 or revise Part 1 to include a tree-diagram capstone item that mirrors lesson Station 1 so D1.1 is practised on the worksheet. Update worksheet_brief.parts_outline to match.",
+      "affected_stages": ["lesson_05", "worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ]
+}

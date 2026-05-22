@@ -1,0 +1,15 @@
+{
+  "unit_id": "g1_measurement_how_long",
+  "status": "pass",
+  "inspected_at": "2026-05-10T18:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch2",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 8, "description": "Lesson 1 worksheet 'Roo's Attribute Hunt' uses 'Mission' header instead of 'Instructions for the Student:'. Variant header."},
+    {"page": 10, "description": "Lesson 3 worksheet 'Roo's Mass and Capacity Sheet' uses 'Mission' header variant."},
+    {"page": 11, "description": "Lesson 4 worksheet 'Cal's Calendar Reader' uses 'Mission' header variant."},
+    {"page": 22, "description": "M9 Capstone Template description says '4 station response areas' but renders as single blank canvas labeled 'Capstone canvas — measure 5 things.' Content/render mismatch."},
+    {"page": 23, "description": "M10 poster: Roo + Cal art renders in top-left/top-center cells; other 4 cells text-label only. Acceptable."}
+  ],
+  "summary": "PASS. All 27 pages render cleanly. Worksheets (pages 8-12) now show real titles + learning-goal box + student instructions/mission + ruled workspace - no 'Read prompt / Try it' debug stubs. 3-row E2.1/E2.2/E2.3 rubric fully readable. Characters (Roo, Cal) render correctly."
+}

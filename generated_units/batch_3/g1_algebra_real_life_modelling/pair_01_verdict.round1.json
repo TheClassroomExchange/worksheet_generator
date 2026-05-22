@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "pair_number": 1,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a real Grade-1 trap (descriptive-vs-mathematical questions) and recovery_moves are concrete, but no named research is cited and recovery does not branch on what the diagnostic told you.",
+      "required_fix": "Cite a research source (e.g., English 2003 on primary modelling, or Lesh & Doerr model-eliciting activities) and add diagnostic-branched recovery: IF child uses pure feeling-words, drop to HOW MANY frame with count target; IF child uses number-word but non-quantifiable ('how happy?'), reroute to physical attributes; IF auto-asks countable, stretch to prediction.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Maple the Maple Tree mascot' and printed cycle chart and situation cards as required; differentiation lacks an explicit no-paper, no-purchase alternative path using only voice/body/gesture for days when prep wasn't possible.",
+      "required_fix": "Add a NO-MATERIALS VERSION to differentiation: skip the mascot and point to any classroom plant or whiteboard sketch as Maple; replace printed situation cards with three orally-named classroom situations (snack, recess, lining up); sketch the 5-step cycle on the whiteboard live. Lesson runnable on a no-prep day.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Maple anchors the minds_on and consolidation but has no distinctive quotable refrain; consolidation discussion_prompts are plain questions and the exit_routine has no memorable chant or sentence frame children carry between lessons.",
+      "required_fix": "Give Maple a recurring chant tied to the modelling cycle, e.g., 'HOW MANY? HOW MUCH? HOW LONG? HOW TALL? — that's a math question, every one!' Children chant it back at the close of every lesson; bake the same frame into the exit routine and forward into Lessons 2-5 for continuity.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson identifies a real misconception and uses precise vocabulary, but children do not invent or compare strategies for posing/answering math questions, and the expanded_walkthrough does not name the misconception in research-grounded terms.",
+      "required_fix": "Add a strategy-comparison move in the action phase: after Station C, two pairs share question lists and the class sorts them by 'count', 'measure', or 'predict' — children debate which strategy answers each question best. In expanded_walkthrough.rationale name the research lens (English 2003 modelling; Lesh & Doerr).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong Grade-1 modelling intro with tight lesson-worksheet alignment and a real Grade-1 misconception named. To clear the high bar, lesson_01 needs a research citation plus diagnostic-branched recovery, an explicit no-materials alternative path, a quotable Maple refrain that carries between lessons, and a strategy-compare moment in the action phase."
+}

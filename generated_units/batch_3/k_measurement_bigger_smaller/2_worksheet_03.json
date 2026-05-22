@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 3,
+  "worksheet_title": "Max's Capacity Pour",
+  "purpose": "Independent practice of A10.2 — comparing capacity. Used as Lesson 3 consolidation artifact.",
+  "student_learning_goal": "I can compare how much things hold.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compare how much things hold.",
+    "character_watermark": "Max the Measure Moose in the top-right corner of the header, holding a measuring cup. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Circle the cup that holds more!",
+          "student_instructions": "Look at each pair. Circle the cup that HOLDS MORE.",
+          "visual_layout": "Five paired-cup rows stacked vertically. Each row shows two containers side by side: (1) bowl vs thimble, (2) bucket vs cup, (3) jug vs glass, (4) bathtub vs sink, (5) two same-size cups. Each pair ~3in × 1.5in.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_PAIRS",
+              "description": "Five paired-container rows in B&W line art for a Kindergarten worksheet, each row ~3in × 1.5in. Each row shows two containers for capacity comparison. Row 1: large mixing bowl + tiny thimble. Row 2: full bucket + small cup. Row 3: tall jug + small drinking glass. Row 4: bathtub + small sink. Row 5: two identical drinking cups. Generous spacing for circling.",
+              "placement": "Centred horizontally in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["bowl", "bucket", "jug", "cups"],
+              "text_image_alignment_check": "Image WS03_P1_PAIRS at Part 1: instructions ask the child to circle the container that holds more. Keywords name the containers shown."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "Row 1: bowl. Row 2: bucket. Row 3: jug. Row 4: bathtub. Row 5: SAME — accept circling either or both."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Order the cups by capacity!",
+          "student_instructions": "Number the cups from 1 (holds least) to 4 (holds most).",
+          "visual_layout": "Four cups in a horizontal row, displayed in mixed order. Cup sizes: small, large, medium, tiny. Each cup ~1.5in tall. Beside each cup, a small numbered box for writing 1, 2, 3, or 4.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_CUPS",
+              "description": "Four cups arranged horizontally for a Kindergarten worksheet, in mixed-size order. From left to right: medium cup (~1.2in tall), tiny cup (~0.5in tall), large cup (~2in tall), small cup (~0.8in tall). All B&W line art with thin outlines. Beside each cup at its base, a small empty number box (~0.5in × 0.5in) for the child to write 1-4.",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "medium",
+              "keywords": ["cups", "least", "most"],
+              "text_image_alignment_check": "Image WS03_P2_CUPS at Part 2: instructions ask the child to order cups by capacity. Keywords name the visual elements (cups) and the comparison endpoints (least, most)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Left to right: medium→3, tiny→1, large→4, small→2."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Find more in your kitchen!",
+          "student_instructions": "Think about your kitchen at home. Pick 2 things that hold liquid. Draw them. Circle the one that HOLDS MORE.",
+          "visual_layout": "Two blank drawing boxes side by side, each ~3in × 2in with thin solid border. Below each box, a label line for the object's name.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_BOXES",
+              "description": "Two blank drawing boxes side by side for a Kindergarten worksheet. Each box is ~3in × 2in with a thin solid border. Below each box, a horizontal line for writing the object's name. Designed for the child to draw two kitchen containers and circle the one that holds more.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": ["kitchen", "more"],
+              "text_image_alignment_check": "Image WS03_P3_BOXES at Part 3: instructions ask the child to draw two kitchen containers. Keywords name the prompt focus (kitchen) and comparison criterion (more)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 2 kitchen liquid-holding containers. Common: pot vs cup, milk jug vs glass, bowl vs spoon, jug vs juice box."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, name 3 things at home that hold WATER.",
+  "teacher_notes": "Lesson 3 consolidation artifact. Use Part 1 as the formative signal for height-capacity conflation — children who circle a tall thin container over a wide short one need the 'pour to find out' re-loop."
+}

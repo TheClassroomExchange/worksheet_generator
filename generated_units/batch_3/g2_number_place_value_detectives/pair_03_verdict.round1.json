@@ -1,0 +1,37 @@
+{
+  "unit_id": "g2_number_place_value_detectives",
+  "pair_number": 3,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 4,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names the digit-counting fallacy concretely ('27 is half-and-half because 2 is even and 7 is odd') and recovery_moves are concrete, but the trap is not anchored to a named research framework or citation. The recovery is a single linear path (cubes -> last-digit rule -> WHY-via-tens) rather than branching by what the diagnostic told you about the child (e.g., 'if child can pair small collections but not articulate WHY, do X; if child can't pair correctly even with cubes, do Y').",
+      "required_fix": "In expanded_walkthrough.rationale, cite the place-value misconception literature by name (e.g., Ross 1989 'place value as digit-by-digit, not as composed quantity'; or Fuson 1990 on multi-digit number understanding; or Kamii's work on the unitizing required for tens-as-units). Then restructure recovery_moves into two explicit branches: Branch A — child pairs cubes correctly but says '27 is half-and-half'; drill the tens-always-pair-up logic with two-digit numbers first. Branch B — child can't pair cubes correctly even for small N; drop back to 8 vs 9 with physical pairing and one-leftover language before re-introducing the last-digit rule. State which diagnostic signal triggers which branch.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Detective Ona Ones anchors the minds_on and consolidation, and all success_criteria are first-person 'I can' statements, but the consolidation activity_name 'Ona's Pair-Up Brag' has no quotable refrain or memorable chant that children carry between lessons. The mantra 'last digit decides' appears only inside expanded_walkthrough.recovery_moves, not in Ona's voice in the teacher_script or consolidation. discussion_prompts and exit_routine carry no Ona-voiced sentence frame children echo together.",
+      "required_fix": "Give Detective Ona a distinctive quotable refrain that closes every minds_on and consolidation, modeled on the rubric's Sounder Sam 'HOO knows the sounds? YOU do!' example. Concrete option: Ona's call-and-response 'Last digit decides! ZERO-TWO-FOUR-SIX-EIGHT — EVEN! ONE-THREE-FIVE-SEVEN-NINE — ODD!' with children chanting it back. Add it to the minds_on teacher_script close, the consolidation discussion close, and the exit_routine so children speak it three times in the lesson. Add a corresponding refrain banner image asset to the worksheet header so it travels home.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

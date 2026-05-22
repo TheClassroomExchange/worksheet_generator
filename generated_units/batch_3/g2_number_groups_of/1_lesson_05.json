@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "lesson_number": 5,
+  "lesson_title": "Equal Sharing — Dan's Division Move",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.6"
+  ],
+  "secondary_expectations": [
+    "B2.5",
+    "B2.1"
+  ],
+  "big_idea": "Division is equal sharing. 12 items shared by 3 friends → 4 each.",
+  "learning_intention": "We are learning to share up to 12 items fairly between 2, 3, 4, or 6 friends, and to write the division equation showing the inverse relationship to multiplication.",
+  "student_learning_goal": "I can share up to 12 items fairly between 2, 3, 4, or 6 friends, and write the division equation.",
+  "success_criteria": [
+    "I can share 12 items fairly into N equal groups for N = 2, 3, 4, or 6.",
+    "I can write the division equation 12 ÷ N = M.",
+    "I can show that 12 ÷ 3 = 4 is the partner of 3 × 4 = 12."
+  ],
+  "vocabulary_introduced": [
+    "division",
+    "fact family"
+  ],
+  "vocabulary_reinforced": [
+    "equal groups",
+    "multiplication",
+    "factor",
+    "product"
+  ],
+  "manipulatives_used": [
+    "M2_two_colour_counters",
+    "M3_paper_kittens",
+    "M8_share_plates",
+    "M9_fact_triangles_md",
+    "M10_workshop_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Mae the Multiplier and Dan the Divider — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Multiplication and Division — Partners' with fact-family triangles",
+    "Per-group set of 12 paper kittens (or 12 counters)",
+    "Per-group set of 6 paper plates",
+    "Multiplication/Division Fact Triangles (24 cards)",
+    "Lesson 5 division summative tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Dan's Equal-Sharing Mystery",
+    "hook": "Mae has 12 kittens. Dan needs to share them fairly between 3 friends. How many does each friend get?",
+    "teacher_script": "Bring children to the carpet. Mae and Dan puppets in hand. 'Friends — Mae has 12 paper kittens at the workshop. Dan the Divider is here to help SHARE them fairly between 3 friends. How many kittens does each friend get?'\n\nPlace 12 kittens on the carpet and 3 plates. 'Watch — Dan deals one kitten to each plate.' Deal: 1, 2, 3 (one each). 'Round 1 done. Continue.' Deal: 4, 5, 6 (two each). 'Round 2 done.' Deal: 7, 8, 9 (three each). 'Round 3 done.' Deal: 10, 11, 12 (four each). 'Done — 4 kittens on each plate.'\n\nWrite on the board: 12 ÷ 3 = 4. 'Dan uses a NEW symbol — ÷. It means SHARED EQUALLY BY. 12 ÷ 3 means 12 SHARED BY 3, and the answer is 4 each.'\n\nNow the partner reveal. 'Mae says — Dan and I are PARTNERS. If 3 × 4 = 12 (3 baskets of 4 kittens), then 12 ÷ 3 = 4 (12 kittens shared by 3 friends). SAME numbers, DIFFERENT operations.'\n\nWrite both equations on the board:\n3 × 4 = 12\n12 ÷ 3 = 4\n12 ÷ 4 = 3\n4 × 3 = 12\n\n'See — same THREE numbers (3, 4, 12) but FOUR facts. That's a fact family.' Show a fact-family triangle card with 3, 4, and 12 at the corners.\n\n'Today we'll practice DIVISION as equal-sharing AND the multiplication-division partner relationship.'",
+    "student_actions": [
+      "Watch Dan deal 12 kittens fairly to 3 plates.",
+      "Help count out the deal — 1 each, 2 each, 3 each, 4 each.",
+      "Watch the new ÷ symbol introduced.",
+      "Echo the new vocabulary: 'division', 'fact family'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Equal-Sharing Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: practice 3 more division problems. Problem 1: 12 ÷ 4 (deal 12 kittens to 4 plates → 3 each). Problem 2: 12 ÷ 6 (12 to 6 plates → 2 each). Problem 3: 12 ÷ 2 (12 to 2 plates → 6 each). For each, write the division AND the related multiplication.",
+        "teacher_prompt": "Say to students: 'Three more together. Deal the kittens. Write the division. Write the multiplication partner.' For each, slow down on the partner connection."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Deal-and-Divide — pair has 12 kittens and 6 plates; teacher writes a division (12 ÷ 3, 12 ÷ 4, 12 ÷ 6); pair deals fairly and writes the equation AND the related multiplication. Station B: Fact-Family Triangles — pair has 6 multiplication-division fact-family triangles; for each, they write all 4 facts (2 multiplication, 2 division). Station C: Story-Problem Sort — pair has 8 cards: 4 multiplication stories and 4 division stories. Sort and label each.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Listen for the chime to switch.' Set the rotation."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include 2 cards where the division 'doesn't divide evenly' (e.g., 12 ÷ 5). Discuss: what happens if we can't share evenly? (Answer: this is harder — for B2.6 we stick to even shares with 2, 3, 4, 6, 12. We'll come back to remainders in Grade 3.)",
+        "teacher_prompt": "Say to pairs at Station C: 'You'll find a problem like 12 ÷ 5. Can you share 12 fairly between 5? Discuss.' Lead pairs to the answer: 12 doesn't divide evenly by 5 — each friend gets 2 with 2 left over. This is fine to recognise but not the B2.6 target."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record summative-style evidence on the division tracker. Watch for: (a) does the child deal fairly with the right number of plates? (b) does the child write the correct division equation? (c) can the child write the related multiplication?",
+        "teacher_prompt": "Stop at each pair. Hand them a division problem and ask 'Show me with the kittens AND write the multiplication partner.' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose Lesson 1-4 work was emerging stay at Station A (Deal-and-Divide) for both rotations. Use only smaller dividends (6 ÷ 2, 8 ÷ 2, 8 ÷ 4) to anchor the equal-sharing concept before extending to 12.",
+      "for_extending": "Stretch problems: 24 ÷ 4 = 6, 30 ÷ 6 = 5. Stretch question: 'If we know 4 × 5 = 20, what does 20 ÷ 4 equal?' (Answer: 5.) Building fact-family fluency at the Grade-3 boundary.",
+      "for_ell_or_iep": "Provide a sentence frame: 'I share ___ kittens with ___ friends. Each friend gets ___. ___ ÷ ___ = ___.' Provide picture-supported problem cards. Pair with a strong-counter peer for Station A.",
+      "for_movement_learners": "Dealing kittens to plates is naturally kinesthetic. For movement learners, allow them to BE the dealer — physically distributing one kitten at a time. Body movement reinforces the equal-sharing structure."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: (1) does the child deal fairly with the right number of equal groups? (2) does the child write the correct division equation? (3) can the child write the related multiplication partner equation?",
+      "how_to_record": "Tick the division tracker per child as you observe. Combine with Lesson 5 worksheet for summative evidence on B2.6.",
+      "tracker_columns": [
+        "Student name",
+        "Deals fairly into N equal groups",
+        "Writes correct division equation",
+        "Writes related multiplication partner",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Workshop Closing — Mae and Dan's Brag",
+    "discussion_prompts": [
+      "What does division MEAN? How is it different from multiplication?",
+      "If 4 × 3 = 12, what division facts does this tell us?",
+      "When does division NOT work cleanly? (When the dividend doesn't divide evenly.)",
+      "What was your favourite station this week?"
+    ],
+    "exit_routine": "Each child receives a Junior Equal-Groups Builder certificate (one per child). Quick whisper: 'My favourite Workshop moment this week was ___.' Mae, Dan, and Buddy say goodbye with a final fact-family triangle demo for the whole class."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Equal-sharing across 3-4 division problems plus the fact-family partner relationship across the worksheet and station observations.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures the B2.6 (division-as-equal-sharing) summative for the unit. Combined with Lessons 1-4 formative trackers, the teacher has evidence for all six expectations B2.1-B2.6: facts to 20 (Lesson 1), modelling to 100 (Lesson 2), multiplication-as-equal-groups (Lesson 3), half-and-fourth groups (Lesson 4), and division-as-equal-sharing (Lesson 5)."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child deals 12 kittens evenly to 3 plates but cannot write the division equation 12 ÷ 3 = 4 — repairing the build-to-equation translation",
+    "rationale": "The most common Grade-2 trap on B2.6 (division as equal sharing) is a build-to-equation translation gap: the child can DEAL 12 kittens fairly to 3 plates and recognises that each plate has 4 kittens. But when asked to write the division equation, they freeze. They might write 12 = 3 × 4 (the multiplication form) or 12 - 3 = 4 (subtraction) or 4 + 4 + 4 = 12 (repeated addition). They haven't yet internalised the ÷ notation as the bridge from sharing to symbolic division.\n\nThe distinction matters because B2.6 explicitly requires using the division notation to represent equal sharing. A child who can share fairly but not write the equation hasn't completed the conceptual move from concrete to abstract. The expanded walkthrough covers the precise moment when a child has built 12 ÷ 3 with kittens but cannot write the equation.",
+    "setup": "Pair is at Station A (Deal-and-Divide). The teacher has written 12 ÷ 3 on the card. The child has dealt 12 kittens to 3 plates fairly — 4 on each plate. They look up at the teacher with the kittens dealt but no equation written.",
+    "teacher_script": "Crouch beside the child. 'Beautiful share — 4 kittens on each plate. Now write the equation.' The child looks blank or writes something else (e.g., 12 = 3 × 4). 'Almost — but the equation should match what you DID. You SHARED 12 kittens by 3 friends. Each got 4. Watch.'\n\nWrite on a fresh whiteboard:\nTotal kittens: 12 (this is the dividend)\nNumber of friends: 3 (this is the divisor)\nKittens each: 4 (this is the quotient)\n\n'In division, we write the dividend FIRST, then the ÷ symbol, then the divisor, then = the quotient.' Write 12 ÷ 3 = 4.\n\n'See — 12 ÷ 3 = 4 means 12 shared by 3 = 4 each. The numbers go IN ORDER: total, divisor, quotient.'\n\nNow the partner reveal. 'Dan also says — every division has a multiplication partner. 12 ÷ 3 = 4 partners with 3 × 4 = 12. Same three numbers, different operations.' Write both:\n12 ÷ 3 = 4\n3 × 4 = 12\n\nHave the child redo. 'Try again with the next problem.' Hand them 12 ÷ 4. The child deals 12 to 4 plates, 3 each. They write 12 ÷ 4 = 3. Affirm. 'Now the multiplication partner?' 4 × 3 = 12. Affirm.\n\nIf the child STILL writes the wrong form: connect to fact-family triangles. 'Look at this triangle — 3, 4, 12. Two multiplications: 3 × 4 = 12 and 4 × 3 = 12. Two divisions: 12 ÷ 3 = 4 and 12 ÷ 4 = 3. FOUR facts in one triangle.' The triangle is the structural anchor.\n\nLong-term recovery: practice the build-to-equation translation daily for a week. Three problems per day. Children build the reflex of writing the division equation right after the share.",
+    "expected_student_responses": [
+      "(Confused) Builds the share correctly but can't translate to the division equation. Most common at the start of Lesson 5 for transition learners.",
+      "(Mid) Writes the equation with prompting. Needs the order-of-numbers reminder (dividend, divisor, quotient).",
+      "(Strong) Writes 12 ÷ 3 = 4 without prompting. Connects to the multiplication partner 3 × 4 = 12.",
+      "(Stretched) Volunteers all four facts in the family: 'Triangle 3-4-12 has 3 × 4 = 12, 4 × 3 = 12, 12 ÷ 3 = 4, 12 ÷ 4 = 3.' Sees the structural unity of multiplication and division."
+    ],
+    "common_misconceptions": [
+      "Division and subtraction are the same. (Children write 12 - 3 = 9 instead of 12 ÷ 3 = 4. Repair: division is REPEATED subtraction or equal sharing — but it's a different operation with its own symbol.)",
+      "The order of numbers in division doesn't matter. (Children write 3 ÷ 12 = 4 instead of 12 ÷ 3 = 4. Repair: ORDER matters in division — total first, then how many to share with.)",
+      "Division and multiplication are unrelated operations. (Children miss the partner relationship. Repair: fact-family triangles show the four-way connection — same three numbers, four facts.)"
+    ],
+    "recovery_moves": [
+      "Always say division aloud as 'shared by'. '12 shared by 3 = 4'. The phrase anchors the order.",
+      "Use fact-family triangles to anchor the multiplication-division partnership. Every triangle holds 4 facts.",
+      "Build BEFORE writing. The kitten share makes the structure concrete; the equation just labels what you did."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Dan's Equal-Sharing Workshop",
+    "purpose": "Summative evidence for B2.6 (division as equal sharing of up to 12 items) and B2.1 (multiplication-division relationship).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Three sharing scenes. Scene A: 12 cookies for 3 friends. Scene B: 12 cookies for 4 friends. Scene C: 12 cookies for 6 friends. Child draws the share and writes the division equation.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Three fact-family triangles. Each triangle shows 3 numbers (e.g., 3, 4, 12). Child writes all 4 facts: 2 multiplications + 2 divisions.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Story-problem sort: 6 short stories. Child labels each MULTIPLY (×) or DIVIDE (÷) and writes the equation.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 4,
+        "task": "Open prompt: 'Mae and Dan want to share 12 paper kittens with their friends. How many ways can they share fairly?' Child lists ways (e.g., 12 ÷ 1, 12 ÷ 2, 12 ÷ 3, 12 ÷ 4, 12 ÷ 6, 12 ÷ 12).",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mae, Dan, and Buddy together in the worksheet header (final unit appearance)",
+      "Three sharing-scene illustrations for Part 1",
+      "Three fact-family triangles for Part 2",
+      "Six short-story boxes for Part 3",
+      "A blank lined area with thinking-bubble icon for Part 4"
+    ]
+  }
+}

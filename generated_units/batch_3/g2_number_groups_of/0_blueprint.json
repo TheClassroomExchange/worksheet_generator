@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "thematic_title": "Groups of",
+  "descriptive_title": "Grade 2 Mathematics: Numbers — Addition and Subtraction Facts to 20, Mental Strategies and Modelling to 100, Multiplication as Repeated Equal Groups, and Division as Equal Sharing (B2.1–B2.6)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "B. Numbers",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math",
+  "curriculum_codes": [
+    "B2.1",
+    "B2.2",
+    "B2.3",
+    "B2.4",
+    "B2.5",
+    "B2.6"
+  ],
+  "curriculum_expectations": {
+    "B2.1": "use the properties of addition and subtraction, and the relationships between addition and multiplication and between subtraction and division, to solve problems and check calculations",
+    "B2.2": "recall and demonstrate addition facts for numbers up to 20, and related subtraction facts",
+    "B2.3": "use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 50, and explain the strategies used",
+    "B2.4": "use objects, diagrams, and equations to represent, describe, and solve situations involving addition and subtraction of whole numbers that add up to no more than 100",
+    "B2.5": "represent multiplication as repeated equal groups, including groups of one half and one fourth, and solve related problems, using various tools and drawings",
+    "B2.6": "represent division of up to 12 items as the equal sharing of a quantity, and solve related problems, using various tools and drawings"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on Numbers framed around 'The Equal Groups Workshop' — Mae the Multiplier (a friendly maker with an × symbol on her hat), Dan the Divider (her partner with ÷ glasses), and Buddy the Workshop Helper (who delivers the materials). Day 1 'Big Sums to 20' anchors fact recall to 20 with double ten-frames and the doubles/near-doubles/make-ten strategies (B2.2, B2.3 — fact-fluency builds on Grade 1). Day 2 'Story Problems to 100' is the modelling lesson — children act out, draw tape diagrams, and write equations for change-add-to / change-take-from / part-part-whole stories at scale 100, using the relationship between addition and subtraction (B2.4, B2.1). Day 3 'Equal Groups — Mae's Multiplication Move' introduces multiplication as repeated equal groups — 4 baskets of 3 kittens = 12 kittens = 4 groups of 3 = 4×3 (B2.5). Day 4 'Half-Groups and Fourth-Groups' tackles the trickier B2.5 case: groups of 1/2 and 1/4 (e.g., 4 groups of 1/2 = 2 wholes; 6 groups of 1/4 = 1½). Day 5 'Equal Sharing — Dan's Division Move' closes with division-as-equal-sharing (12 items into 3 friends → 4 each), connecting to B2.6 and the inverse relationship to multiplication. The unit progresses concrete (snap cubes, paper kittens, paper cookies) → representational (group drawings, tape diagrams, fraction circles) → abstract (equations, multiplication notation, division notation).",
+  "unit_learning_goal": "Children will recall addition facts to 20 and related subtraction facts, apply mental strategies for sums to 50, model story problems with totals to 100, represent multiplication as repeated equal groups including groups of 1/2 and 1/4, and represent division as the equal sharing of up to 12 items.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Big Sums to 20",
+      "primary_expectations": [
+        "B2.2",
+        "B2.3"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "We can add and subtract numbers up to 20 quickly using doubles, near-doubles, and make-ten strategies.",
+      "student_learning_goal": "I can recall addition facts to 20 and use mental strategies to add and subtract within 50.",
+      "one_line_summary": "Mae the Multiplier opens the Workshop; whole-class doubles dice rounds to 10+10; near-doubles bridging; make-ten on the double ten-frame; estimation moves for sums to 50."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Story Problems to 100",
+      "primary_expectations": [
+        "B2.4",
+        "B2.1"
+      ],
+      "secondary_expectations": [
+        "B2.3"
+      ],
+      "big_idea": "Story problems can be modelled with objects, drawn as tape diagrams, and written as equations. Addition and subtraction are partners — every problem can be checked by reversing the operation.",
+      "student_learning_goal": "I can act out, draw, and write an equation for an addition or subtraction story problem with totals up to 100, and check by reversing.",
+      "one_line_summary": "Build-Draw-Write pipeline at scale 100; story problem rotations; the check-by-reverse move (35+47=82, so 82-47=35)."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Equal Groups — Mae's Multiplication Move",
+      "primary_expectations": [
+        "B2.5"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Multiplication is repeated equal groups. 4 groups of 3 means 3 + 3 + 3 + 3 = 12. We can write this as 4 × 3 = 12.",
+      "student_learning_goal": "I can show a multiplication problem as repeated equal groups, draw the groups, and write the multiplication equation.",
+      "one_line_summary": "Pet shop scenario — Buddy delivers kittens in equal-sized baskets; children build groups, count by repeated addition, write 4×3=12; introduce the array as a second representation."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Half-Groups and Fourth-Groups",
+      "primary_expectations": [
+        "B2.5"
+      ],
+      "secondary_expectations": [
+        "B2.6"
+      ],
+      "big_idea": "Even small groups can multiply. 4 groups of 1/2 = 2 wholes. 6 groups of 1/4 = 1½. Equal groups don't have to be whole numbers.",
+      "student_learning_goal": "I can show 4 groups of one half = 2 wholes, and 6 groups of one fourth = 1½, using drawings.",
+      "one_line_summary": "Mae's special 'half-groups' challenge — paper cookies cut in half assigned to plates; 4 plates with 1/2 each = 2 wholes; reveal that 8 halves = 4 wholes; preview division (12 halves ÷ 2 = 6 wholes)."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Equal Sharing — Dan's Division Move",
+      "primary_expectations": [
+        "B2.6"
+      ],
+      "secondary_expectations": [
+        "B2.5",
+        "B2.1"
+      ],
+      "big_idea": "Division is equal sharing. If we have 12 items and 3 friends, we share fairly — 4 each. Division is the partner of multiplication: 3 × 4 = 12 means 12 ÷ 3 = 4.",
+      "student_learning_goal": "I can share up to 12 items fairly between 2, 3, 4, or 6 friends, and write the division equation.",
+      "one_line_summary": "Dan the Divider's sharing rounds — 12 cookies for 3 friends, 12 for 4 friends, 12 for 6 friends; introduce ÷ notation; the inverse-relationship reveal (3 × 4 = 12 ↔ 12 ÷ 3 = 4); fact-family triangles for multiplication/division."
+    }
+  ],
+  "expectation_lesson_map": {
+    "B2.1": [2, 5],
+    "B2.2": [1],
+    "B2.3": [1, 2],
+    "B2.4": [2],
+    "B2.5": [3, 4],
+    "B2.6": [5]
+  },
+  "recurring_characters": [
+    {
+      "name": "Mae the Multiplier",
+      "role": "Lead character of the Equal Groups Workshop. Anchors Lessons 3 and 4. Loves making things in equal-sized batches. Catchphrase: 'Look for the GROUPS!'",
+      "visual_description": "A friendly maker wearing a worker's apron with a large × symbol patch on the chest, a soft cap with the same × symbol, and rolled-up sleeves. Short brown hair, eager expression, often holding a bag of paper kittens or cookies."
+    },
+    {
+      "name": "Dan the Divider",
+      "role": "Mae's partner. Anchors Lesson 5 with the equal-sharing focus. Specialises in sharing things fairly — favourite question: 'Did everyone get the same?'",
+      "visual_description": "A careful-looking maker with round glasses (one lens has a small ÷ symbol etched in), a vest with a pocket of paper plates, dark short hair. Methodical expression, holding a clipboard for tracking who got what."
+    },
+    {
+      "name": "Buddy the Workshop Helper",
+      "role": "The cheerful helper who delivers materials. Appears in Lessons 1-5 as the rotation between activities. A small running figure with a delivery cart full of math props.",
+      "visual_description": "A small bouncy helper character with a yellow rain-cap, a tiny tool belt, and a small wheeled cart full of paper kittens, paper cookies, snap cubes, or whatever the lesson needs. Usually shown mid-step with an eager grin."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "equal groups",
+      "child_friendly_definition": "Groups that all have the same number in them. 3 baskets with 4 kittens each are equal groups."
+    },
+    {
+      "term": "multiplication",
+      "child_friendly_definition": "Repeated equal groups. 4 groups of 3 means 3 + 3 + 3 + 3 = 12. We write this as 4 × 3 = 12."
+    },
+    {
+      "term": "division",
+      "child_friendly_definition": "Equal sharing. If 12 items go to 3 friends fairly, each friend gets 4. We write 12 ÷ 3 = 4."
+    },
+    {
+      "term": "array",
+      "child_friendly_definition": "Equal groups arranged in rows. 4 rows of 3 cubes is an array showing 4 × 3 = 12."
+    },
+    {
+      "term": "factor",
+      "child_friendly_definition": "One of the parts of a multiplication. In 4 × 3 = 12, the factors are 4 and 3."
+    },
+    {
+      "term": "product",
+      "child_friendly_definition": "The total when you multiply. In 4 × 3 = 12, the product is 12."
+    },
+    {
+      "term": "tape diagram",
+      "child_friendly_definition": "A drawing of a long rectangle split into parts, showing a story problem visually."
+    },
+    {
+      "term": "fact family",
+      "child_friendly_definition": "A set of related facts using the same numbers. 3, 4, and 12 are a fact family for multiplication and division: 3 × 4 = 12, 4 × 3 = 12, 12 ÷ 3 = 4, 12 ÷ 4 = 3."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_double_ten_frame",
+      "name": "Double Ten-Frame Mat",
+      "description": "Letter-size mat with two stacked ten-frames. Used in Lesson 1 for fact modelling and make-ten strategy.",
+      "used_in_lessons": [1],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "description": "Per-pair set of ~30 round counters, red on one side and yellow on the other. Used for fact modelling, story-problem building, and array construction.",
+      "used_in_lessons": [1, 2, 3, 5],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_paper_kittens",
+      "name": "Paper Kittens",
+      "description": "Set of 20 printable paper kitten tokens. Used in Lesson 3 for the pet-shop equal-groups scenario.",
+      "used_in_lessons": [3, 5],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_baskets_template",
+      "name": "Baskets Template",
+      "description": "Letter-size template with 6 basket outlines for grouping kittens (or any items) into equal groups.",
+      "used_in_lessons": [3, 5],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_story_cards",
+      "name": "Story Problem Cards",
+      "description": "Set of 18 letter-size story problem cards (6 change-add-to, 6 change-take-from, 6 part-part-whole) with totals up to 100. Used in Lesson 2 station rotations.",
+      "used_in_lessons": [2],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_array_grid",
+      "name": "Array Grid Mat",
+      "description": "Letter-size grid mat with rows and columns labeled 1-6. Children place counters to form arrays for multiplication.",
+      "used_in_lessons": [3, 5],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_paper_cookies_halves",
+      "name": "Paper Cookies (with halves and fourths)",
+      "description": "Set of ~24 printable paper cookie tokens. Some are pre-cut along half-lines, some along fourth-lines. Used in Lesson 4 for half-group and fourth-group activities.",
+      "used_in_lessons": [4],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_share_plates",
+      "name": "Sharing Paper Plates",
+      "description": "Set of 6 paper plates per group. Used in Lesson 5 for division-as-equal-sharing.",
+      "used_in_lessons": [5],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_fact_triangles_md",
+      "name": "Multiplication/Division Fact Triangles",
+      "description": "Set of 24 laminated triangle cards. Each shows 3 numbers of a multiplication/division fact family at the corners with × and ÷ icons in the centre.",
+      "used_in_lessons": [5],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_workshop_poster",
+      "name": "The Equal Groups Workshop Anchor Poster",
+      "description": "Large classroom anchor chart showing the four operations (+, -, ×, ÷) with example representations. Posted Lesson 1, referenced all week.",
+      "used_in_lessons": [1, 2, 3, 4, 5],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Double Ten-Frame Mats — one per child",
+    "Two-Colour Counters — ~30 per pair",
+    "Paper Kittens — set of 20 per group (Lesson 3)",
+    "Baskets Template — one per pair",
+    "Story Problem Cards — 18 cards (Lesson 2)",
+    "Array Grid Mat — one per pair",
+    "Paper Cookies (with halves/fourths) — ~24 per group (Lesson 4)",
+    "Sharing Paper Plates — 6 per group of 4 children (Lesson 5)",
+    "Multiplication/Division Fact Triangles — 24 cards per class set (Lesson 5)",
+    "The Equal Groups Workshop anchor poster (one classroom copy)",
+    "Anchor chart 'Operations Family' showing the four operations"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 fact-recall snapshot: each child receives 10 facts to 20 (mix of doubles, near-doubles, make-ten) on flash cards and shows answers on a whiteboard. Tally fluent (≤3 sec) / developing (≤10 sec) / emerging (counts on fingers). Diagnoses readiness for Lessons 2-5.",
+    "formative": "Lesson 2 story-problem tracker (build-draw-write pipeline at scale 100). Lesson 3 multiplication tracker (does the child see equal groups AND write the multiplication equation?). Lesson 4 half-group tracker (can the child show 4 × 1/2 = 2?). All three trackers feed the summative.",
+    "summative": "Lesson 5 Equal Sharing worksheet — three division scenarios (12 items shared into 2, 3, 4, 6 friends) plus a multiplication-division fact-family prompt. Captures B2.6 explicitly and pulls in B2.5 and B2.1. Combined with formatives, evidences all six expectations B2.1-B2.6."
+  },
+  "pedagogical_notes": [
+    "B2.2 (facts to 20) extends Grade 1's facts to 10. The doubles and near-doubles to 20 (e.g., 9+9=18, 9+10=19) are the Grade 2 anchor; the 'awkward middle' facts (7+8, 6+9) need explicit practice.",
+    "B2.3 (mental strategies to 50) requires the make-ten strategy plus the count-on/count-back for 50-range sums. Children who default to count-all-on-fingers for sums like 32+15 are at L2; those who use 30+15+2 chunking are at L3-L4.",
+    "B2.5 (multiplication as repeated equal groups) is the conceptual gateway to Grade 3's full multiplication work. Children must see 4×3 as '4 GROUPS of 3' (not just '4 times 3' as memorised). The pet-shop scenario in Lesson 3 makes the GROUPS visible.",
+    "B2.5 'including groups of one half and one fourth' is the trickiest curriculum move. Children intuit that 4 groups of 1/2 should equal 2, but they have to see it concretely — paper cookies cut in half on 4 plates, total 2 whole cookies. The half-group concept is the bridge to fractions.",
+    "B2.6 (division as equal sharing) extends Grade 1's fair-share work to formal notation (÷). The hardest case: 12 ÷ 5 doesn't divide evenly, but B2.6 stays at 'up to 12' shared evenly among 2, 3, 4, 6, 12. We can keep all examples even-sharing.",
+    "Differentiation: emerging learners stay on facts to 10 with the double ten-frame in Lesson 1; extending learners get sums to 100 with the chunking strategy. Lesson 4 (half-groups) is where the most differentiation matters — emerging learners stay at 4 × 1/2 = 2; extending learners try 6 × 1/4 = 1½."
+  ],
+  "canadian_context_notes": [
+    "The Workshop theme uses Canadian-friendly visuals: Mae's apron is patched in red plaid; the workshop bench is built of pine. Schools can swap to local imagery without affecting the math.",
+    "Paper kittens (Lesson 3) reflect the popularity of cats in Canadian homes; teachers in regions with a different beloved animal can re-skin to puppies, bunnies, or hamsters.",
+    "Lesson 5 cookies can be Tim Hortons Timbits, butter tarts, or oatmeal cookies — culturally swappable.",
+    "B2.6 division-as-sharing connects directly to the Canadian classroom routine of dividing snacks at recess fairly. Use real classroom examples wherever possible."
+  ]
+}

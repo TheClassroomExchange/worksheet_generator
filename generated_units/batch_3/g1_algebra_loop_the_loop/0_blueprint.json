@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "thematic_title": "Loop the Loop",
+  "descriptive_title": "Grade 1 Mathematics: Algebra (Coding) — Sequential Events and Loops Without Screens (C3.1–C3.2)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g1-math",
+  "curriculum_codes": ["C3.1", "C3.2"],
+  "curriculum_expectations": {
+    "C3.1": "solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events",
+    "C3.2": "read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on coding without screens, framed around 'Loop the Loop' — Coda the Coding Robot and Looper the Loop Helper. Day 1 introduces sequential code: a list of step-by-step instructions a robot follows in order. Day 2 introduces loops: 'Repeat 4 times' compresses 4 instructions into 1. Day 3 reads existing code and predicts the outcome. Day 4 alters existing code to change the outcome. Day 5 capstone — child-written code with sequence and loop.",
+  "unit_learning_goal": "Children will write and execute simple code with sequential steps and loops, read existing code and predict outcomes, and alter code to change the result.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Step-by-Step Code", "primary_expectations": ["C3.1"], "secondary_expectations": [], "big_idea": "Code is a list of steps in ORDER. The order matters — change the order, and the outcome changes.", "student_learning_goal": "I can write step-by-step code for a simple task and follow it in order.", "one_line_summary": "Coda introduces sequential code; whole-class 'make a peanut-butter sandwich' code; partner code-and-execute on grid mat."},
+    {"lesson_number": 2, "lesson_title": "The Loop Discovery", "primary_expectations": ["C3.1"], "secondary_expectations": [], "big_idea": "When we repeat the same step, we can use a LOOP. 'Repeat 4 times: take a step' is shorter than writing 'take a step' four times.", "student_learning_goal": "I can use a loop in my code to repeat steps.", "one_line_summary": "Looper introduces loops; class chants 'repeat 4 times: clap'; movement code on the grid mat with loops."},
+    {"lesson_number": 3, "lesson_title": "Reading Code", "primary_expectations": ["C3.2"], "secondary_expectations": [], "big_idea": "We can READ code and predict what it will do BEFORE running it. Predicting tests our understanding.", "student_learning_goal": "I can read code and predict what will happen when it runs.", "one_line_summary": "Coda hands the class pre-written code; children predict; then execute and check."},
+    {"lesson_number": 4, "lesson_title": "Altering Code", "primary_expectations": ["C3.2"], "secondary_expectations": [], "big_idea": "When we change code, the outcome changes. We can predict the effect of our changes BEFORE running.", "student_learning_goal": "I can change code and predict the new outcome.", "one_line_summary": "Children alter pre-written code (change a number, swap two steps) and predict the new outcome before testing."},
+    {"lesson_number": 5, "lesson_title": "My Code Capstone", "primary_expectations": ["C3.1", "C3.2"], "secondary_expectations": [], "big_idea": "We can write code to draw a shape, walk a path, or make music. Code is everywhere.", "student_learning_goal": "I can write my own code to do a task with sequence and loop.", "one_line_summary": "Children invent their own code (draw a square with loops, walk a path) and share with the class."}
+  ],
+  "expectation_lesson_map": {"C3.1": [1, 2, 5], "C3.2": [3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Coda the Coding Robot", "role": "Lead character. A small friendly robot that follows instructions exactly. Anchors all 5 lessons.", "visual_description": "A small square robot with a screen face showing emotions, two extending arms, and treads for feet. Yellow body with antenna. Friendly emoticon eyes."},
+    {"name": "Looper the Loop Helper", "role": "Coda's friend. The 'repeat' expert. Anchors Lesson 2 and reappears throughout.", "visual_description": "A round robot with a circular spinning antenna. Loop-shaped body design, three small wheels. Encouraging beeps."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "code", "child_friendly_definition": "A list of step-by-step instructions for a robot or computer to follow."},
+    {"term": "sequence", "child_friendly_definition": "A list of steps in ORDER. The first step happens first, then the second, then the third."},
+    {"term": "loop", "child_friendly_definition": "A way to repeat the same step many times. 'Repeat 4 times: take a step' is a loop."},
+    {"term": "execute", "child_friendly_definition": "To RUN code — follow the steps and do what they say."},
+    {"term": "predict", "child_friendly_definition": "To say what you THINK will happen before it happens."},
+    {"term": "alter", "child_friendly_definition": "To change. We can ALTER code by adding, removing, or changing steps."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_grid_mat", "name": "Coding Grid Mat", "description": "Letter-size grid mat (5×5) for code execution.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M2_code_cards", "name": "Code Step Cards", "description": "Set of 30 cards: step left/right/up/down, repeat N, etc.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M3_existing_code_cards", "name": "Existing Code Sample Cards", "description": "12 pre-written code samples for reading and predicting.", "used_in_lessons": [3, 4], "clipart_files": []},
+    {"id": "M4_robot_marker", "name": "Robot Marker", "description": "A small token (paper robot or dice) that moves on the grid following the code.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M5_loop_card", "name": "Loop Cards", "description": "8 cards with loop counts: 'Repeat 2', 'Repeat 3', 'Repeat 4', 'Repeat 5'.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M6_code_template", "name": "Code Writing Template", "description": "Letter-size template for writing custom code.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_predict_chart", "name": "Predict-and-Check Chart", "description": "Letter-size chart with PREDICT and CHECK columns.", "used_in_lessons": [3, 4], "clipart_files": []},
+    {"id": "M8_alter_cards", "name": "Code Alteration Cards", "description": "8 cards each with original code + a change (e.g., 'Change Repeat 3 to Repeat 5').", "used_in_lessons": [4], "clipart_files": []},
+    {"id": "M9_capstone_template", "name": "Capstone Code Template", "description": "Letter-size template for Lesson 5 capstone.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M10_loop_poster", "name": "Loop the Loop Anchor Poster", "description": "Large classroom anchor showing Coda and Looper with sample code.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Coding grid mat (5×5)",
+    "Code step cards (30)",
+    "Existing code sample cards (12)",
+    "Robot marker (paper or dice)",
+    "Loop cards (8)",
+    "Code writing template",
+    "Predict-and-check chart",
+    "Code alteration cards (8)",
+    "Capstone code template",
+    "Loop the Loop anchor poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1: can the child write 3 sequential steps for a simple task (brush teeth, walk to the door)?",
+    "formative": "Lesson 2: can the child use a loop to repeat steps? Lesson 3: can the child predict the outcome of code? Lesson 4: can the child change code and predict the new outcome?",
+    "summative": "Lesson 5 Capstone: child writes their own code with sequence AND loop, executes it correctly."
+  },
+  "pedagogical_notes": [
+    "C3.1+C3.2 are the K-3 coding-without-screens expectations. The 'no screens' caveat means we use grid mats, paper robot tokens, physical movements.",
+    "Sequence is foundational: 'first this, then this'. The order matters.",
+    "Loops are the first abstraction: a way to compress repetition. Children should see the SHORTER code as a benefit.",
+    "Predicting outcomes is metacognitive — it tests understanding before testing on the grid.",
+    "Altering code shows that changes have consequences — this is the foundation of debugging."
+  ],
+  "canadian_context_notes": [
+    "Canadian classrooms use Scratch Jr or other coding tools, but the curriculum says 'without screens' for early grades.",
+    "The grid mat is portable — works in any classroom without computers."
+  ]
+}

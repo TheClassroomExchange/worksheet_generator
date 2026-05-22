@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "lesson_number": 1,
+  "lesson_title": "Count Big with Lila",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B1.4",
+    "B1.5"
+  ],
+  "secondary_expectations": [
+    "B1.1"
+  ],
+  "big_idea": "Bigger collections need smarter counting. We can count by 1s, 2s, 5s, or 10s.",
+  "learning_intention": "We are learning to estimate a collection up to 50 and check our estimate by counting in different ways.",
+  "student_learning_goal": "I can estimate how many in a collection up to 50, and count by 1s, 2s, 5s, and 10s to check.",
+  "success_criteria": [
+    "I can make a smart estimate using a chunk-of-10 strategy.",
+    "I can count by 1s, 2s, 5s, and 10s to 50.",
+    "I can start a count from any number, not just 1."
+  ],
+  "vocabulary_introduced": [
+    "estimate",
+    "chunk",
+    "skip-count"
+  ],
+  "vocabulary_reinforced": [
+    "altogether"
+  ],
+  "manipulatives_used": [
+    "M1_button_set",
+    "M2_estimation_jar",
+    "M4_number_line_floor"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart 'Smart Counting Strategies' with 4 rows ready to fill: by 1s, by 2s, by 5s, by 10s",
+    "OPTIONAL: Lila props (button-collector apron) and Otto (jars) — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Estimation button jar with ~38 buttons (visible to all)",
+    "Number Line floor mat (0 to 50) unrolled on the carpet",
+    "Lesson 1 diagnostic tracker (Estimate + Skip-Count) — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Lila's Mystery Button Jar",
+    "hook": "Lila's button jar is BIGGER than last year's. Can your eyes still figure out how many? Scoot zooms in with Lila to open: 'Big numbers? Big counting!' Class echoes.",
+    "teacher_script": "Bring children to the carpet. Hold up Lila and a clear glass jar holding ~38 buttons.\n\n'Friends — Lila started a new button collection! Look at this jar.' Tilt it gently so all buttons are visible. 'How many buttons do you think are in there? Don't count yet. Just LOOK and make a smart guess.' Take 5-6 estimates from around the carpet. Record them on the chart. Some children may say 100, some may say 12 — both are reasonable starting points without practice.\n\nIntroduce the chunk strategy: 'Watch what I do.' Tip ~10 buttons out onto the carpet. Count them out loud: 'one, two, three… ten.' Push them aside. 'That's a chunk of ten. Now look at what's still in the jar. About how many MORE chunks of ten do you see?' Take responses. Affirm thoughtful answers: 'I see about three more chunks like the first one. So I think there are about THREE more groups of ten in the jar — that's about 30 more. With our first ten, that's about 40 buttons altogether. That's my estimate.' Write 40 on the chart beside Lila's name.\n\n'Today we are going to PRACTICE this chunk-strategy AND then check our estimates by counting. We have four ways to count, and we're going to use ALL of them.'",
+    "student_actions": [
+      "Look at the jar without speaking and form a private estimate.",
+      "Listen to others' estimates without correcting.",
+      "Help count one chunk of ten out loud as a class.",
+      "Make a private estimate using the chunk strategy."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Skip-Count Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: walk the Number Line floor mat together by 1s from 0 to 20. Then by 2s from 0 to 30 (every other cell). Then by 5s from 0 to 50 (skip 4 cells each time). Then by 10s. Children take turns leading.",
+        "teacher_prompt": "Say to students: 'We're going to walk the Number Line. First by 1s — say each number with me.' Walk 0-20. 'Now by 2s — we hop over every other number.' Walk 0-30 by 2s, jumping every second cell. 'Now by 5s — much bigger jumps.' Walk by 5s. 'Now by 10s — the biggest jumps.' Reach 50 in 5 hops. Add each strategy to the anchor chart with example."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Stretch: count by 5s starting from 17 (NOT a multiple of 5). 17, 22, 27, 32, 37, 42, 47. Walk it on the Number Line. Discuss how this is different from starting at 5.",
+        "teacher_prompt": "Say to students: 'Lila is at the number 17 on the Number Line. She wants to count by 5s. What's next?' Wait. Some children will say 20 (the next multiple of 5). 'Hmm — we're starting at 17. If I add 5 to 17, what do I get?' Lead them to 22. 'Then 27, 32, 37, 42, 47. Skip-counting works from any starting number — not just from zero.' Walk it on the floor."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Send pairs to three stations. Station A: Estimate Jar — three different jars (small ~15, medium ~30, large ~50 buttons); pairs estimate then count. Station B: Button Sort — each pair gets 50 button cards (M1) and counts by 5s and 10s into groups. Station C: Number Line Walk — pairs walk the floor mat skip-counting from various starts.",
+        "teacher_prompt": "Say to students: 'You'll work in pairs at three stations. Each one practises a different smart-counting move. Listen for the chime to switch.' 7-min rotations × 3."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record formative evidence on the diagnostic tracker. Watch for: (a) chunk strategy use vs. one-by-one counting, (b) accurate skip-count by 5s and 10s, (c) ability to start a count from a non-multiple.",
+        "teacher_prompt": "Stop at each pair. Hand them a stretch card: 'Count this collection of 32 buttons by 5s.' Record per-child evidence on the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "These children stay at Station A (Estimate Jar) and Station B (Button Sort) for both rotations and skip Station C. Counting by 1s and 2s is the focus; skip-counting by 5s and 10s comes once 1s and 2s are fluent.",
+      "for_extending": "Stretch cards: 'Count by 2s from 47 to 65.' or 'Estimate the buttons in TWO jars; which has more, and by how many?' Stays inside B1.4/B1.5 with stretch into B1.3 territory.",
+      "for_ell_or_iep": "Provide a number-name reference card with both numerals and number-words side by side. Allow physical pointing (no oral counting required) for emerging-language children. Pair with a strong-counter peer for the Button Sort station.",
+      "for_movement_learners": "Number Line Walk station gets extra rotations. The body-on-floor walk is the embodied form of skip-counting; for movement learners this is the strongest learning path."
+    },
+    "formative_check": {
+      "what_to_look_for": "Does the child use a chunk strategy when estimating, or guess randomly? Can they count by 5s and 10s to 50? Can they start a count from a non-multiple? Tracking these three signals separates emerging, on-track, and exceeding learners.",
+      "how_to_record": "Tick the diagnostic tracker columns per child as you observe. The chunk-strategy column captures B1.4 explicitly; the skip-count columns capture B1.5.",
+      "tracker_columns": [
+        "Student name",
+        "Uses chunk strategy when estimating",
+        "Counts by 5s to 50",
+        "Counts by 10s to 50",
+        "Starts a skip-count from a non-multiple",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lila's Counting Brag",
+    "discussion_prompts": [
+      "What's the smartest way to count buttons in a big collection?",
+      "When is counting by 10s faster than counting by 1s? Always? Sometimes?",
+      "Why might Lila's chunk-strategy estimate sometimes be off by 5 or 10?",
+      "If you had a jar of 50 buttons, how would you count them?"
+    ],
+    "exit_routine": "Each child whispers to a partner: 'I would count my 50 buttons by ___s, because ___.' Partners share a few examples with the class. Then each child returns their button cards to their pair's bag and lines up at the door. Scoot's exit cheer: 'Counted big — high-five Otto!'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Estimate-vs-count gap (estimate within 5 = on track for B1.4 at scale 50). Skip-count fluency by 2s/5s/10s. Stretch evidence: count from a non-multiple.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 is the diagnostic gateway for the unit. Children whose estimate at scale 50 is more than 10 off may need a re-loop on the chunk strategy before Lesson 3's compose/decompose. Children who can't skip-count by 5s past 20 may not fully access the Lesson 3 base-ten work."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child counts one-by-one even after the chunk demo — repairing estimation strategy at scale 50",
+    "rationale": "The most common Grade-1 trap on B1.4 (estimate to 50) is the child who watched the chunk demo, understood it, and then defaults to counting one-by-one anyway when given their own jar. This isn't a strategy failure; it's a habit failure. K-style counting is reflexive, and at scale 30+ it breaks down — the child loses count, restarts, gets frustrated. The chunk strategy is the K-to-Grade-1 transition. Step 3's Station A (Estimate Jar) is where this surfaces. The script below covers the precise prompt that breaks the count-from-1 habit and what to do when the child still defaults to it.",
+    "setup": "Pair is at Station A. They have three jars in front of them — 15 buttons, ~30 buttons, ~50 buttons. The child has been asked to estimate the medium jar (~30). They are slowly counting buttons one by one. They are at button 14 and have lost count of which they've already counted. The teacher steps in.",
+    "teacher_script": "Crouch beside the child. 'Let's stop counting for a second.' Take the jar and tip ~10 buttons out onto the table. Count them aloud together: 'one, two, three, four, five, six, seven, eight, nine, ten.' Push that pile aside. 'OK — that's our REFERENCE PILE. Ten buttons. Now look at what's still in the jar.' Tip the jar slightly so the child can see all the remaining buttons. 'About how many MORE piles like our reference pile do you think are in there?' Wait. The child often says '2 more' or '3 more' — a meaningful estimate. 'Three more piles of ten? That's 30 more. Plus our reference pile of 10 — that's 40 altogether. Is that close?'\n\nNow let the child count to verify. They will use the chunk strategy this time — they pull out 10, count, push aside, repeat. The behaviour changes once they've SEEN the strategy used on their own jar. Tick 'uses chunk strategy when estimating' on the tracker.\n\nIf the child STILL counts one-by-one despite the demo: the chunk concept hasn't landed. Repair by showing it on a smaller scale: 'Let's go back to 20 buttons. Make ONE pile of 10 and ONE pile of 10. Count them.' (10, 10. 20.) 'Now THIS works for any size — 5 piles of 10 = 50.' This 1:1 reset usually lands. Plan to revisit with the child during Day 2 small groups.\n\nLong-term recovery: send home a parent note encouraging the child to estimate household items (Cheerios, raisins, cubes in the LEGO drawer) using the chunk-of-10 strategy nightly for one week. The strategy becomes reflexive only with practice across contexts.",
+    "expected_student_responses": [
+      "(Confused) Counts one-by-one, loses count by 14, restarts. Hasn't internalised that chunk-counting is a separate strategy. Most common Grade-1 starting point for transition learners.",
+      "(Mid) After chunk demo on their own jar, uses the strategy on subsequent jars but reverts to 1-by-1 if the jar 'looks small' (under ~20). The strategy isn't yet automatic; it's situational.",
+      "(Strong) Sees a jar, immediately tips out ~10, pushes aside, estimates the rest in chunks-of-10. The chunk strategy is reflexive.",
+      "(Stretched) Volunteers: 'I'll count by 5s instead — that gives me MORE checkpoints than counting by 10s.' Has internalised that different chunk sizes serve different precisions."
+    ],
+    "common_misconceptions": [
+      "Estimation = guessing. (Child treats the activity as a lottery — random number, no strategy. Repair: model the chunk strategy explicitly and ALWAYS reference back to the chart 'Smart Counting Strategies'.)",
+      "Bigger numbers need bigger chunks. (Child tries to chunk-by-50 on a jar of 30 — misses the strategy entirely. Repair: chunks of 10 are the universal Grade-1 anchor; chunks of 5 are the precision option.)",
+      "Skip-counting only works from zero. (Child can count by 5s 0,5,10,…50 but freezes when asked to start at 17. Repair: the Number Line floor mat lets the child see that 17+5=22 by walking it physically.)"
+    ],
+    "recovery_moves": [
+      "Always tip out the reference pile FIRST. The visible pile of 10 anchors all subsequent estimates. Without it, children default to whole-jar guessing.",
+      "Use both chunk-of-10 AND chunk-of-5 explicitly. Different jars need different precisions — for a jar of ~25, chunks of 5 give a tighter estimate; for a jar of ~50, chunks of 10 are faster.",
+      "Practise skip-counting from non-multiples ON the Number Line floor mat. The body movement (jump 5 cells) is more durable than the verbal pattern."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lila's Big Button Jar",
+    "purpose": "Independent practice of B1.4 (estimation at scale 50) and B1.5 (skip-counting). Captures diagnostic-level evidence for the unit.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Two estimation scenes. Scene A: Lila's jar with ~22 buttons visible. Scene B: Lila's jar with ~45 buttons visible. The child writes a smart guess (chunk strategy) and then the actual count after counting in groups.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "A printed Number Line strip 0-50. The child fills in the missing numbers in three different skip-count tasks: by 2s starting at 14, by 5s starting at 17, by 10s starting at 0.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: 'How would YOU count 50 buttons fastest?' The child writes a 1-2 sentence strategy explanation and draws their grouping.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lila puppet thumbnail in the worksheet header",
+      "Two button-jar illustrations (small + large) for Part 1",
+      "Number Line strip 0-50 for Part 2",
+      "Scoot the puppy mascot icon in a corner"
+    ]
+  }
+}

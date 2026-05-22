@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Equal Groups Workshop — Day 1 Fact-Recall Snapshot",
+    "when_used": "During Lesson 1 stations.",
+    "expectation_focus": [
+      "B2.2",
+      "B2.3"
+    ],
+    "columns": [
+      "Student name",
+      "Recall fluent for doubles to 10+10",
+      "Applies make-ten for sums 11-20",
+      "Chunks by tens for sums 21-50",
+      "Verbalises strategy",
+      "Notes"
+    ],
+    "usage_notes": "Walk between pairs at all three stations. The recall and chunk columns are the diagnostic gate — children whose recall is mostly emerging on facts to 20 will struggle with Lessons 3-5 multiplication/division work. The chunk-by-tens column captures B2.3 mastery.",
+    "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page in B&W line-art. Title: 'Equal Groups Workshop — Day 1 Fact-Recall Snapshot'. Expectations: B2.2 + B2.3. 6-column grid with 24 student rows.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "diagnostic",
+          "fact-recall"
+        ],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER: keywords (diagnostic, fact-recall) name what the tracker captures."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Equal Groups Workshop — Lesson 2 Story-Problem Tracker",
+      "when_used": "During Lesson 2 station rotations.",
+      "expectation_focus": [
+        "B2.4",
+        "B2.1"
+      ],
+      "columns": [
+        "Student name",
+        "Identifies problem type",
+        "Draws tape diagram correctly",
+        "Writes correct equation",
+        "Checks by reversing",
+        "Notes"
+      ],
+      "usage_notes": "The 'check by reversing' column captures B2.1 mastery — children who skip the check are at L3 instead of L4.",
+      "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Equal Groups Workshop — Lesson 2 Story-Problem Tracker'. Expectations: B2.4 + B2.1. 6-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "story-problem",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2: keywords (story-problem, tracker) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Equal Groups Workshop — Lesson 3 Multiplication Tracker",
+      "when_used": "During Lesson 3 station rotations.",
+      "expectation_focus": [
+        "B2.5"
+      ],
+      "columns": [
+        "Student name",
+        "Builds correct number of equal groups",
+        "Writes repeated addition AND multiplication",
+        "Builds same problem as array",
+        "Notes"
+      ],
+      "usage_notes": "The 'array' column captures B2.5 flexibility — children who can flex between groups and array forms are at L4.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Equal Groups Workshop — Lesson 3 Multiplication Tracker'. Expectation: B2.5. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "multiplication",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3: keywords (multiplication, tracker) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Equal Groups Workshop — Lesson 4 Half-Group Tracker",
+      "when_used": "During Lesson 4 station rotations.",
+      "expectation_focus": [
+        "B2.5"
+      ],
+      "columns": [
+        "Student name",
+        "Builds correct number of halves/fourths",
+        "Combines correctly into wholes",
+        "Writes 4 × 1/2 = 2 form",
+        "Notes"
+      ],
+      "usage_notes": "The 'combines correctly' column is the B2.5 fractional-groups marker — children who reverse the operation (4 × 1/2 = 8) need the half-as-fraction reteach.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Equal Groups Workshop — Lesson 4 Half-Group Tracker'. Expectation: B2.5. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "half-group",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4: keywords (half-group, tracker) name what the tracker captures."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Equal Groups Workshop — Summative Rubric",
+    "purpose": "End-of-unit rubric covering all 6 expectations B2.1-B2.6. Used to score each child against four levels.",
+    "rows": [
+      {
+        "expectation_code": "B2.1",
+        "expectation_text": "use the properties of addition and subtraction, and the relationships between addition and multiplication and between subtraction and division, to solve problems and check calculations",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Treats addition, subtraction, multiplication, and division as separate operations; doesn't recognise the partner relationships."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Recognises addition-subtraction partnership with prompts; doesn't yet see multiplication-division pairs."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently uses check-by-reversing for addition/subtraction; recognises that 3 × 4 = 12 partners with 12 ÷ 3 = 4."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Articulates the four-fact family for any multiplication triple unprompted; uses the partner relationship to verify both addition/subtraction and multiplication/division."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.2",
+        "expectation_text": "recall and demonstrate addition facts for numbers up to 20, and related subtraction facts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Counts every fact from 1 on fingers; recall is essentially zero for facts above 10."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Fluent on facts to 10; finger-counts facts to 20. Subtraction by count-back."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Fluent on doubles and make-ten facts to 20. Subtraction via fact-family-recall."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Fluent on all facts to 20; produces all four facts in a fact family within 5 seconds."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.3",
+        "expectation_text": "use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 50, and explain the strategies used",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Defaults to count-all on fingers for sums to 50."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Uses make-ten for sums 11-20; chunks by tens with prompts for sums 21-50."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently chunks by tens for sums 21-50; verbalises the strategy."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Combines strategies fluently (e.g., make-ten inside chunk-by-tens for cross-tens sums); estimates to verify."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.4",
+        "expectation_text": "use objects, diagrams, and equations to represent, describe, and solve situations involving addition and subtraction of whole numbers that add up to no more than 100",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Can build with objects but cannot draw a tape diagram or write the matching equation."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Identifies problem type with prompts; draws single-rectangle tape diagrams; writes correct equation."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Identifies all three problem types; draws proportionally-correct tape diagram with both parts labeled; writes correct equation; checks by reversing."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Recognises the same tape diagram structure across multiple problem types; solves multi-step problems."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.5",
+        "expectation_text": "represent multiplication as repeated equal groups, including groups of one half and one fourth, and solve related problems, using various tools and drawings",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Memorises multiplication facts but cannot demonstrate them as equal groups; treats fractions as whole numbers (e.g., 4 × 1/2 = 8)."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Builds equal groups for whole-number multiplication; struggles with half- and fourth-groups."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Builds and writes multiplication for whole-number AND fractional groups (4 × 1/2 = 2; 6 × 1/4 = 1½). Recognises arrays as a second representation."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Connects fractional groups to halving/quartering; volunteers commutativity (4 × 3 = 3 × 4); flexes between equal-groups and array representations."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.6",
+        "expectation_text": "represent division of up to 12 items as the equal sharing of a quantity, and solve related problems, using various tools and drawings",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot share fairly; doesn't yet understand division as equal sharing."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Shares fairly when prompted; cannot yet write the division equation independently."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Shares 12 items fairly between 2, 3, 4, or 6 friends; writes the division equation; sees the multiplication partner."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Lists all factor pairs of 12 (1, 2, 3, 4, 6, 12); writes all four facts of any multiplication-division fact family unprompted."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Apply this rubric to each child's combined evidence: diagnostic tracker (Lesson 1) + L2/L3/L4 formative trackers + summative worksheet (Lesson 5). The level achieved is the LOWEST of the relevant evidence sources for that expectation.",
+    "layout_description": "One letter page, landscape. 5-column grid (Expectation + 4 levels) with 6 rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable summative rubric grid in B&W line-art on a landscape letter page. 5-column grid with 6 rows (B2.1 through B2.6). Each cell holds the level descriptor in 9pt font.",
+        "placement": "Full landscape page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "levels",
+          "expectation"
+        ],
+        "text_image_alignment_check": "Image AS_RUBRIC: keywords (rubric, levels, expectation) name what the rubric grid captures."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Lesson 5 Summative Task — Equal Sharing and Fact Families",
+    "purpose": "End-of-unit summative assessment. Captures evidence for B2.6 (division as equal sharing) and B2.1 (multiplication-division relationship) explicitly via the worksheet.",
+    "administration_steps": [
+      "Bring children back to the carpet after the small-group rotations on Day 5.",
+      "Hold up the worksheet and walk through the four parts: (1) equal sharing, (2) fact-family triangles, (3) sort the stories, (4) how many ways.",
+      "Distribute one worksheet per child. Allow 15 minutes for completion.",
+      "Walk around and record per-child evidence on the division tracker.",
+      "Collect worksheets and score against the rubric: 9-10/10 = Level 4; 7-8 = Level 3; 5-6 = Level 2; 0-4 = Level 1."
+    ],
+    "scoring_guidance": "Part 1 (3 sharing scenes, score out of 3): captures B2.6 baseline. Part 2 (3 fact-family triangles, score out of 4): captures B2.1 + B2.5 + B2.6 integration. Part 3 (sort 6 stories, score out of 2): captures multiplication-vs-division identification. Part 4 (list ways, score out of 1): captures factor-pair fluency. Total score out of 10.",
+    "evidence_per_expectation": {
+      "B2.1": "Lesson 2 formative — check-by-reversing for addition/subtraction; Lesson 5 formative — fact-family triangles for multiplication/division.",
+      "B2.2": "Lesson 1 diagnostic — fluent recall for facts to 20.",
+      "B2.3": "Lesson 1 diagnostic — chunks by tens for sums 21-50.",
+      "B2.4": "Lesson 2 formative — story-problem build-draw-write-check pipeline.",
+      "B2.5": "Lesson 3 formative — multiplication as equal groups; Lesson 4 formative — half- and fourth-groups.",
+      "B2.6": "Summative worksheet Parts 1 + 2 + 4."
+    }
+  },
+  "certificate": {
+    "title": "Junior Equal Groups Builder Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Equal Groups Workshop unit and demonstrating the skills of a Junior Equal Groups Builder. Mae the Multiplier, Dan the Divider, and Buddy the Workshop Helper congratulate the student and welcome them to the next adventure in numbers.",
+    "skills_demonstrated": [
+      "Recalling addition facts up to 20 with fluency",
+      "Using mental math strategies for sums to 50",
+      "Modelling story problems with totals to 100",
+      "Showing multiplication as repeated equal groups",
+      "Showing 4 × 1/2 = 2 wholes with halves",
+      "Sharing 12 items fairly between 2, 3, 4, or 6 friends"
+    ],
+    "layout_description": "One letter page, portrait. A decorative dashed-line double border surrounds the page. Title centred at top. Below the title, the recipient_field_label and a long horizontal line for the child's name. The Mae + Dan + Buddy illustration sits at the top centre, ~3in tall. Below the achievement_text, a sub-header 'By completing this unit, this student has demonstrated:' followed by the skills_demonstrated list as bullet points.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative dashed-line certificate border in B&W line-art, full letter page. Double border with corner flourishes featuring small × and ÷ symbol icons.",
+        "placement": "Full page border.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate",
+          "border"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_BORDER: keywords (certificate, border) name what the page is."
+      },
+      {
+        "id": "AS_CERT_FRIENDS",
+        "description": "Illustration of Mae the Multiplier + Dan the Divider + Buddy the Workshop Helper standing side by side, all smiling. Mae has her × apron; Dan has his ÷ glasses; Buddy has his delivery cart. ~3in × 4in.",
+        "placement": "Top-centre of the certificate, inside the border.",
+        "approximate_size": "medium",
+        "keywords": [
+          "mae",
+          "dan",
+          "buddy"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_FRIENDS: keywords (mae, dan, buddy) name what the illustration shows."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

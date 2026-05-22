@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "lesson_number": 1,
+  "worksheet_title": "Penny's Place-Value House",
+  "purpose": "Independent practice of B1.1 (numbers to 1000) and B1.5 (place value).",
+  "student_learning_goal": "I can read and represent numbers to 1000 with base-ten blocks and describe each digit's place value.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can read and represent numbers to 1000 with base-ten blocks and describe each digit's place value.",
+    "character_watermark": "Penny the Place Value Pal in the top-right corner with a notebook. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Read the Build",
+          "student_instructions": "Each scene shows a base-ten block build. Write the number and the expanded form.",
+          "visual_layout": "Top of the page. Six base-ten block scenes in a 2x3 grid.",
+          "image_placeholders": [
+            {"id": "WS01_P1_SIX_BUILDS", "description": "Six base-ten block scenes in B&W line-art, 2-row × 3-column grid. Each scene ~2.2in × 1.8in. Pre-fills: B1 — 3 hundred-flats + 4 ten-rods + 7 cubes (347); B2 — 7 flats + 6 tens + 2 cubes (762); B3 — 4 flats + 8 tens + 9 cubes (489); B4 — 9 flats + 0 tens + 5 cubes (905); B5 — 5 flats + 2 tens + 8 cubes (528); B6 — 1 thousand-cube alone (1000).", "placement": "Top of the page; six builds in 2x3 grid.", "approximate_size": "full_width", "keywords": ["build", "blocks"], "text_image_alignment_check": "Image WS01_P1_SIX_BUILDS: keywords (build, blocks) name what the scenes show."}
+          ],
+          "student_response_type": "write",
+          "answer_key": "B1: 347 = 300+40+7. B2: 762 = 700+60+2. B3: 489 = 400+80+9. B4: 905 = 900+0+5 (or 900+5). B5: 528 = 500+20+8. B6: 1000 = 1000."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Place Value of Each Digit",
+          "student_instructions": "For each number, write what each digit is worth.",
+          "visual_layout": "Middle. Six numbers stacked, each with place-value lines (Th-H-T-O).",
+          "image_placeholders": [
+            {"id": "WS01_P2_SIX_NUMBERS", "description": "Six number entries in B&W line-art, stacked vertically. Each ~7in × 0.7in. Format: number on the left in a circle, then four labeled lines (___ Th ___ H ___ T ___ O = ___). Numbers: 405, 909, 200, 1000, 305, 707.", "placement": "Middle of the page; six entries stacked.", "approximate_size": "full_width", "keywords": ["place-value", "digits"], "text_image_alignment_check": "Image WS01_P2_SIX_NUMBERS: keywords (place-value, digits) name what the entries ask for."}
+          ],
+          "student_response_type": "write",
+          "answer_key": "405: 0 Th, 4 H, 0 T, 5 O = 400+0+5. 909: 0 Th, 9 H, 0 T, 9 O. 200: 0 Th, 2 H, 0 T, 0 O. 1000: 1 Th, 0 H, 0 T, 0 O. 305: 0 Th, 3 H, 0 T, 5 O. 707: 0 Th, 7 H, 0 T, 7 O."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Numbers Around Me",
+          "student_instructions": "Where do you see 3-digit numbers in your life? Draw and write 2-3 examples.",
+          "visual_layout": "Bottom of the page. A blank box for drawing and writing real-life examples.",
+          "image_placeholders": [
+            {"id": "WS01_P3_REAL_LIFE_BOX", "description": "A blank rectangular drawing box in B&W line-art, ~7in × 2.5in, with light-grey solid outline. Penny thinking-bubble icon in the top-right corner.", "placement": "Bottom of the page; full-width.", "approximate_size": "full_width", "keywords": ["real-life", "numbers"], "text_image_alignment_check": "Image WS01_P3_REAL_LIFE_BOX: keywords (real-life, numbers) name what the box is for."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible: '167 days of school', '500 pages in my chapter book', 'street numbers like 142 Oak Street', '750 km from Toronto to Ottawa'."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over. Pick a number between 100 and 1000 and write its expanded form three different ways.",
+  "teacher_notes": "Lesson 1 consolidation. Hand out at the end of the Action phase. Watch for: (a) Part 1 children who write B6 as '10' or '100' (missing the thousand-cube) — flag for thousands-place reteach; (b) Part 2 children who skip the zero placeholder (writing '405 = 4 H + 5 O' without showing the 0 in the tens) — flag for the zero-as-structural reteach; (c) Part 3 children who can only think of small numbers — coaching opportunity for everyday numbers."
+}

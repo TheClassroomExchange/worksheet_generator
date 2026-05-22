@@ -1,0 +1,48 @@
+{
+  "unit_id": "g2_number_place_value_detectives",
+  "pair_number": 4,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 4,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Three estimation jars: small (~50 buttons), medium (~100 marbles), large (~175 cubes)' and the action structure assumes physical jar rotations at three stations; differentiation does not include a no-paper, no-purchase alternative path using only voice/body/gesture. The OPTIONAL note covers Tina the character but not the jars themselves.",
+      "required_fix": "Add an explicit no-materials alternative inside differentiation: e.g., 'No-jar version — teacher claps a chunk of 10 then keeps clapping; children listen and estimate total claps. Or: scatter snap cubes/paper clips on the carpet and circle a chunk-of-10 with a piece of yarn. The estimation routine works without any jars, buttons, or marbles by using sound, body, or whatever loose objects the room already has.' This makes the lesson runnable on a no-prep day.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Detective Tina anchors minds_on and consolidation, vocabulary is child-friendly, and all three success_criteria start with 'I can', which is solid Level 3. But there is no distinctive quotable refrain children chant back, and the exit_routine (sticky note: 'Jar __, I estimated __, actual __, gap __') is procedural rather than a memorable chant or sentence frame. Tina says 'DON'T COUNT. Estimate first' once in the hook but it is not carried into consolidation or repeated as a class refrain.",
+      "required_fix": "Give Tina a quotable refrain children chant back, e.g., 'Tina says: pick the chunk that fits the jar! Small jar — chunk of TEN! Big jar — chunk of ONE HUNDRED!' Embed it in minds_on, the formative_check teacher prompt, and the exit_routine so consolidation closes with the whole class chanting it. This is the L4 'memorable chant or sentence frame children carry between lessons' criterion.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.common_misconceptions names the trap as 'Strategy-rigidity misconception' and 'K-stage holdover' but does not cite or align with named research on estimation/number-sense (e.g., Sowder & Wheeler on estimation strategies, Sarama & Clements on number-sense progressions, or Joram et al. on benchmark estimation). Strategies are compared (chunk-of-10 vs chunk-of-100, hybrid in expected_student_responses) which clears one half of the L4 bar, but the misconception is not framed in research-grounded terms.",
+      "required_fix": "In expanded_walkthrough.rationale or common_misconceptions, name the underlying research principle — e.g., 'This is the benchmark-estimation progression described in Joram, Subrahmanyam & Gelman (1998): novices apply a single rote strategy regardless of magnitude; expert estimators select a benchmark (10 vs 100) matched to the collection size. Sowder & Wheeler (1989) call this strategy flexibility the hallmark of mature number sense.' One sentence with a named researcher clears the L4 bar.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "Strong pair on alignment, pedagogical depth, and lesson-worksheet consistency — the strategy-mismatch trap is concrete and the worksheet's hockey-game transfer task is genuinely a Level 4 variation. Three categories sit at 3 because: (1) materials require physical jars with no no-prep fallback path, (2) Tina has a hook line but no class chant carried through consolidation, (3) the misconception is well-named but not anchored in cited research. All three fixes are small additions to the lesson stage; the worksheet itself is solid."
+}

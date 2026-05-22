@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 2,
+  "lesson_title": "Heavier and Lighter",
+  "duration_minutes": 35,
+  "primary_expectations": [
+    "A10.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We compare MASS by feeling weight or using a balance. Heavier, lighter, or same weight.",
+  "learning_intention": "We are learning to compare how heavy things are.",
+  "student_learning_goal": "I can compare how heavy things are.",
+  "success_criteria": [
+    "I can hold one thing in each hand to feel which is heavier.",
+    "I can use a balance to compare mass.",
+    "I can say which is heavier or lighter \u2014 or 'same weight'."
+  ],
+  "vocabulary_introduced": [
+    "heavier",
+    "lighter"
+  ],
+  "vocabulary_reinforced": [
+    "same"
+  ],
+  "manipulatives_used": [
+    "M2_paper_balance",
+    "M3_object_set",
+    "M7_measure_chart",
+    "M10_measurement_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Max and Tess \u2014 if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Heavier / Lighter / Same'",
+    "Paper Balance Mat (1 per pair)",
+    "Comparison Object Cards (24)",
+    "Real classroom objects (book, pencil, eraser, scissors)",
+    "Lesson 2 mass tracker \u2014 provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 7,
+    "activity_name": "Tess Tests Heavy and Light",
+    "hook": "Tess: I am LIGHT. Max is HEAVY. Look \u2014 when I sit on this seesaw, Max goes DOWN.",
+    "teacher_script": "Bring children to the carpet. Max + Tess puppets. 'Yesterday we compared LENGTH. Today we compare MASS \u2014 HEAVY or LIGHT.'\n\nWrite HEAVIER, LIGHTER, SAME WEIGHT on chart. 'Heavier = more weight. Lighter = less weight.'\n\nDemonstrate hand-feel. Hold a book in one hand and an eraser in the other. 'FEEL both. The book pulls down \u2014 HEAVIER. Eraser \u2014 LIGHTER.'\n\nDemo balance: paper balance with two pans. 'HEAVY side goes DOWN.'\n\nQuick examples: pencil vs marker \u2014 heavier? Lego vs cotton ball \u2014 heavier? (Surprise \u2014 small Lego beats big cotton.)\n\nMax's RULE: 'LINE IT UP \u2014 COMPARE \u2014 NAME IT!' For mass: line them up on the balance, compare which side drops, name HEAVIER or LIGHTER.\n\nClass refrain. Class chants 3x with claps: 'LINE IT UP \u2014 COMPARE \u2014 NAME IT! That's how Max measures!'\n\n'Today we FEEL and BALANCE to compare.'",
+    "student_actions": [
+      "Listen to Tess and Max compare weight.",
+      "Echo new vocabulary: 'heavier', 'lighter'.",
+      "Hand-feel pairs of objects.",
+      "Practice using the paper balance."
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Mass Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: hand-feel and balance 4 pairs of objects. (a) book vs pencil. (b) eraser vs scissors. (c) two same blocks. (d) Lego vs cotton ball.",
+        "teacher_prompt": "Say: 'Hand-feel. Now balance. Which is heavier?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Hand-Feel \u2014 pair compares 6 object pairs by hand. Station B: Paper Balance \u2014 pair places objects on the balance and records heavier/lighter. Station C: Find Same \u2014 pair finds 3 pairs of objects with same weight.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station B: order 4 objects from heaviest to lightest using the balance.",
+        "teacher_prompt": "Say: 'Stretch: order 4 from heaviest to lightest.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss when hand-feel works and when balance is needed. 'Hand-feel works for very different weights. Balance is best when things are CLOSE.'",
+        "teacher_prompt": "Demonstrate two same blocks: hand-feel says 'same', balance confirms."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the mass tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Which is heavier? Show me on the balance.' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only very different pairs (book vs cotton ball).",
+      "for_extending": "Stretch at Station B: order 5 objects from heaviest to lightest.",
+      "for_ell_or_iep": "Provide a sentence frame: 'This is ___ than that.'",
+      "for_movement_learners": "NO-PAPER PATH: children pair up and become the 'human balance' \u2014 arms out shoulder-height, partner places one classroom object in each hand; child leans toward the heavier side; partner names which arm dropped. Whole lesson can run with NO printable balance and NO purchased materials \u2014 bodies + classroom objects only."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: feels weight by hand; uses balance correctly; recognizes 'same weight'.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Feels weight by hand",
+        "Uses balance correctly",
+        "Recognizes same weight",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Tess's Mass Brag",
+    "discussion_prompts": [
+      "What does HEAVIER mean?",
+      "What does LIGHTER mean?",
+      "When do you use a balance? (When weights feel close \u2014 hand-feel can fool you.)",
+      "How does the balance show heavier? (Heavier side goes DOWN.)"
+    ],
+    "exit_routine": "Refrain chant 3x. Then each child completes the sentence frame: 'My ___ is HEAVIER than my ___' (or LIGHTER / SAME WEIGHT). Sticky-note one mass comparison and post."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Mass comparison accuracy with hand-feel and balance.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures A10.2 mastery for mass."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says BIGGER means HEAVIER \u2014 repairing the size-mass conflation at K (Smith, Carey & Wiser, 1985; Sarama & Clements, 2009)",
+    "rationale": "On A10.2 mass comparison, the most-documented K trap is the size-mass (volume-weight) conflation: child says the BIGGER object must be heavier. They have not yet differentiated weight from size as separate properties.\n\nSmith, Carey & Wiser (1985) traced this empirically: K children operate with a fused 'amount of stuff' concept where any cue to bigness \u2014 height, width, volume, surface area \u2014 counts as evidence of heaviness. Asked 'which is heavier \u2014 a big block of styrofoam or a small block of metal?', the typical K child says styrofoam, because density is not yet part of their material ontology. The differentiation of weight from size is a multi-year achievement; K is where it begins, with the hand-feel and balance becoming the empirical tools that pry the two properties apart. Sarama & Clements (2009) place direct mass comparison via balance BEFORE non-standard mass units in their measurement learning trajectory.\n\nWhy this matters: mass is INDEPENDENT of size. Without the surprise pair (small-heavy vs big-light), children leave K with their volume-weight fusion intact and arrive in Grade 2 still guessing weight from visual size.\n\nThe walkthrough covers the moment a child equates size with weight.",
+    "setup": "Pair is at Station A. Child has a big cotton ball and a small Lego brick. Says 'cotton ball is heavier because it's bigger'.",
+    "teacher_script": "Crouch. 'You said the cotton ball is heavier. Let's HAND-FEEL both.'\n\nChild holds both. Surprise! 'The cotton ball is BIGGER but the Lego is HEAVIER.'\n\nWalk through. 'Max says \u2014 LINE IT UP on the balance. COMPARE which side drops. NAME IT.'\n\nGeneralise. 'Big things can be light (cotton, balloon). Small things can be heavy (rock, coin). FEEL or BALANCE \u2014 don't eyeball.'\n\nNow verify on balance. Place both. The Lego side drops. 'Confirmed!'\n\nIf still using size: provide pairs that break the rule (small heavy + big light). Force the FEEL behaviour.\n\nLong-term recovery: every mass comparison feels first, judges second.",
+    "expected_student_responses": [
+      "(Confused) Says bigger = heavier without feeling; volume-weight fused.",
+      "(Mid) Feels with prompts, surprised by results.",
+      "(Strong) Feels first, names heavier independently, accepts 'small can be heavy'.",
+      "(Stretched) Predicts which is heavier before feeling, AND uses balance to verify; can articulate 'size and weight are different'."
+    ],
+    "common_misconceptions": [
+      "Bigger = heavier. (Repair: feel both, mass is independent of size.)",
+      "Same shape = same weight. (Repair: density matters, not just shape.)",
+      "Balance leans toward lighter. (Repair: balance leans toward HEAVIER \u2014 gravity pulls heavier down.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A \u2014 child still says 'bigger = heavier' after one surprise pair: line up FOUR pre-staged surprise pairs (cotton vs Lego, sponge vs eraser, balloon vs marble, paper-fold vs pebble); make the child predict, then feel, then balance \u2014 accumulating counter-evidence pries the volume-weight fusion apart.",
+      "DIAGNOSTIC B \u2014 child reads the balance backwards (says lighter side dropped): hand the child a heavy object and a light object; ask 'which one PULLS your hand DOWN?' \u2014 link gravity-down to balance-down by body experience, not by rule.",
+      "DIAGNOSTIC C \u2014 child can hand-feel correctly but resists the balance ('it doesn't work'): pair-test the balance with two identical blocks first to show it stays level; then a known-heavy + known-light pair; only then introduce close-call pairs."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tess's Mass Match",
+    "purpose": "Independent practice of A10.2 mass comparison.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Circle the heavier object in 5 pairs.",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Look at 3 balance pictures. Write H (heavier) or L (lighter) on each side.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Draw 2 things in your classroom. Circle the heavier one.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tess in worksheet header",
+      "5 pair rows for Part 1",
+      "3 balance images for Part 2",
+      "Blank drawing area for Part 3"
+    ]
+  }
+}

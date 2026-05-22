@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 2,
+  "worksheet_title": "Detective Dee's Addition Cases",
+  "purpose": "Independent practice of C2.2 (find missing number in addition).",
+  "student_learning_goal": "I can find the missing number in an addition equation.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can find the missing number in an addition equation.", "character_watermark": "Detective Dee in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Addition to 50", "student_instructions": "Find the missing number in each addition equation. Numbers up to 50.", "visual_layout": "Top of page. Six equation rows.",
+      "image_placeholders": [{"id": "WS02_P1_ADD50", "description": "Six equation rows in B&W line-art, ~7in x 3in. Pre-printed equations: 6 + ☐ = 14, ? + 7 = 15, 12 + ☐ = 25, 30 + ☐ = 45, ? + 8 = 22, 18 + ☐ = 50. Header 'Addition to 50:'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["addition", "missing"], "text_image_alignment_check": "Image WS02_P1_ADD50: keywords (addition, missing) name what the rows ask for."}],
+      "student_response_type": "write", "answer_key": "8, 8, 13, 15, 14, 32."},
+    {"part_number": 2, "part_title": "Part 2: Addition to 100", "student_instructions": "Find the missing number. Numbers up to 100.", "visual_layout": "Middle of page. Six equation rows with larger numbers.",
+      "image_placeholders": [{"id": "WS02_P2_ADD100", "description": "Six equation rows in B&W line-art, ~7in x 3in. Pre-printed equations: 35 + ☐ = 60, ? + 25 = 75, 50 + ☐ = 85, 40 + ☐ = 100, ? + 30 = 90, 65 + ☐ = 95. Header 'Addition to 100:'.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["addition", "100"], "text_image_alignment_check": "Image WS02_P2_ADD100: keywords (addition, 100) name what the rows ask for."}],
+      "student_response_type": "write", "answer_key": "25, 50, 35, 60, 60, 30."},
+    {"part_number": 3, "part_title": "Part 3: Make Your Own Case", "student_instructions": "Write your own missing-addend case. Then solve it.", "visual_layout": "Bottom of page. A blank case box with equation and answer slots.",
+      "image_placeholders": [{"id": "WS02_P3_OWN", "description": "A blank case-and-equation box in B&W line-art, ~7in x 2.5in. Top: case description lines. Middle: 'Equation: ___ + ___ = ___'. Bottom: 'Answer: ___'. Header 'My Case:'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["case"], "text_image_alignment_check": "Image WS02_P3_OWN: keywords (case) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Case must be a missing-addend equation with a verified solution."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and solve their case.",
+  "teacher_notes": "Lesson 2 worksheet practices C2.2 addition. Watch for guess-and-go strategy. Encourage children to CHECK by adding."
+}

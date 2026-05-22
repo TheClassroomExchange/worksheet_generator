@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 4,
+  "lesson_title": "Many Ways to Make 50 (and 100)",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Many addition and subtraction expressions equal the same number. 50 = 25+25 = 40+10 = 60-10 = 75-25.",
+  "learning_intention": "We are learning to find many equivalent expressions for the same whole number up to 100.",
+  "student_learning_goal": "I can find many equivalent expressions for the same whole number up to 100.",
+  "success_criteria": [
+    "I can list 6+ different addition expressions that equal 50.",
+    "I can list 5+ different addition or subtraction expressions for any number up to 100.",
+    "I can use both addition and subtraction to make equivalent expressions."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "equivalent",
+    "expression",
+    "equation"
+  ],
+  "manipulatives_used": [
+    "M2_balance_mat",
+    "M5_two_colour_counters",
+    "M6_target_cards",
+    "M8_number_line",
+    "M9_variable_chart",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dee and Mystery Mo — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Many Ways to Make 50' with 8+ expressions listed",
+    "Per-pair balance scale drawing mat",
+    "Per-pair counters (~30)",
+    "Per-pair number line to 100",
+    "Equivalent-Target Card deck (12 cards)",
+    "Lesson 4 equivalent-expressions tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dee's Many Ways Challenge",
+    "hook": "Detective Dee says 25 + 25 makes 50. Mystery Mo says 40 + 10 makes 50. Who's right?",
+    "teacher_script": "Bring children to the carpet. Detective Dee + Mystery Mo puppets. 'Friends — Detective Dee and Mystery Mo are arguing. Dee says 25 + 25 makes 50. Mo says 40 + 10 makes 50. Who's right?'\n\nTake responses. 'Both!' 'Right — they're BOTH right. 25 + 25 = 50 AND 40 + 10 = 50. They're EQUIVALENT EXPRESSIONS — different ways to write the same number.'\n\nWrite on the chart:\n50 = 25 + 25\n50 = 40 + 10\n\n'Today we're hunting for ALL the ways to make 50. Watch.'\n\nAdd more:\n50 = 30 + 20\n50 = 45 + 5\n50 = 49 + 1\n50 = 50 + 0\n50 = 60 - 10 (subtraction works too)\n50 = 75 - 25\n50 = 100 - 50\n50 = 25 + 15 + 10 (3 numbers also)\n50 = 10 + 10 + 10 + 10 + 10 (5 numbers)\n\n'Detective Dee says — there are MANY ways to make 50. Different expressions, SAME amount.'\n\nReinforce vocabulary. 'Equivalent means EQUAL. 25 + 25 and 40 + 10 are equivalent because they both equal 50.'\n\nNow another target: 100. Build expressions: 100 = 50+50 = 75+25 = 90+10 = 60+40 = 100+0 = 150-50 = 200-100 = 25+25+25+25.\n\n'Today we'll find many ways for many target numbers — 50, 75, even 100.'",
+    "student_actions": [
+      "Predict who's right between Dee and Mo.",
+      "Help find more ways to make 50.",
+      "Predict ways to make 100.",
+      "Discuss whether subtraction expressions count."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Equivalent-Hunt Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: find 6+ expressions for 75. Examples: 50+25, 70+5, 80-5, 100-25, 25+25+25, 60+15.",
+        "teacher_prompt": "Say to students: 'Many ways to make 75. Who has one?' Take responses; record on chart."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Make 50 — pair lists 8+ expressions for 50 on a worksheet. Station B: Make 100 — pair lists 6+ expressions for 100. Station C: Pick Your Target — pair picks a target between 60 and 100 and lists 5+ expressions.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include 3-term expressions (25+15+10 = 50). Discuss whether 3 addends count as equivalent expressions. (Yes — same total.)",
+        "teacher_prompt": "Say to pairs: 'You can use 2, 3, or more numbers. Same total, equivalent expression.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss patterns. (a) Pairs that swap: 30+20 and 20+30 are commutative — same expression. (b) Adding/subtracting from neighbours: 25+25 ↔ 24+26 ↔ 23+27 — each move keeps the same total. (c) Subtraction: 60-10 = 50 = 25+25.",
+        "teacher_prompt": "Use the balance scale: 25+25 vs 40+10 — both balance with 50. Visual proof of equivalence."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the equivalent-expressions tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'How many ways did you find for 50?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only sums under 50. Find 5+ ways to make 50 with addition only.",
+      "for_extending": "Stretch to targets above 100 (e.g., make 200). Discuss whether the rule extends.",
+      "for_ell_or_iep": "Provide a structured chart with 8 blank rows under each target. Sentence frame: 'I made ___ with ___ + ___.'",
+      "for_movement_learners": "Use the balance scale physically — for each new way, build it on the scale and verify the balance."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: lists 6+ equivalent expressions for 50; lists 5+ for a number up to 100; uses both addition and subtraction.",
+      "how_to_record": "Tick the equivalent-expressions tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Lists 6+ ways for 50",
+        "Lists 5+ ways for 60-100 target",
+        "Uses both + and -",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dee's Equivalence Brag",
+    "discussion_prompts": [
+      "What does EQUIVALENT mean?",
+      "How many ways did you find to make 50?",
+      "Can subtraction expressions equal 50? Give an example.",
+      "Can a 3-term expression equal 50? Give an example."
+    ],
+    "exit_routine": "Each child writes ONE equivalent expression for a target of their choice on a sticky note: '___ = ___ + ___' or '___ = ___ - ___'. Notes go on the chart."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Equivalent-expression generation count and variety (addition and subtraction, 2 and 3 terms).",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures C2.3 mastery for whole numbers up to 100. Children at L4 generate 6+ expressions including subtraction and 3-term combinations."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child lists 'equivalent' expressions that all use the same numbers (25+25, 25+25, 25+25) — repairing the variety-of-equivalence understanding",
+    "rationale": "The most common Grade-2 trap on C2.3 is the same-numbers-different-order trap: the child finds 25+25 = 50 and then writes 25+25 = 50 again, treating each rewrite as a new equivalence. They miss that the LIST should contain DIFFERENT addend pairs.\n\nThe distinction matters because C2.3 requires variety — the child must show they understand that the SAME total can be reached MANY DIFFERENT ways. The walkthrough covers the precise moment when a child writes the same expression repeatedly.",
+    "setup": "Pair is at Station A. The child lists for 50: '25+25, 25+25, 25+25, 25+25, 25+25'. Same expression five times.",
+    "teacher_script": "Crouch beside the child. 'You wrote 25+25 five times. That's just ONE way to make 50. Detective Dee wants you to find SIX DIFFERENT ways.' Pause. 'How else could you make 50?'\n\nWait. The child thinks. 'Maybe 30+20?' 'YES! 30+20 is a NEW way. Different addend pair. Write it.' Child writes.\n\n'Now another. What else?' 'Maybe 50+0?' 'Right! 50 plus zero is also 50. Write it.' Continue.\n\nNow the rule. 'Detective Dee says — to find DIFFERENT ways, change the addend pair. 25+25, 30+20, 40+10, 45+5, 50+0, 75-25 — all different addend pairs, all make 50.'\n\nIf the child STILL repeats: provide a sentence frame. 'For each way, write a NEW pair: ___ + ___ = 50. Pick numbers that aren't the same as before.' Build the variety reflex.\n\nLong-term recovery: practice 'find 6 DIFFERENT ways' as a daily warm-up. Variety becomes the goal.",
+    "expected_student_responses": [
+      "(Confused) Lists same expression repeatedly.",
+      "(Mid) Finds 3-4 different ways with prompts.",
+      "(Strong) Lists 6+ different ways including 0-and-target endpoints.",
+      "(Stretched) Includes subtraction expressions and 3-term sums."
+    ],
+    "common_misconceptions": [
+      "Equivalent = the same EXPRESSION. (Repair: equivalent = the same TOTAL with different expressions.)",
+      "Subtraction can't make positive numbers. (Children miss 75-25 = 50. Repair: explicit subtraction examples.)",
+      "Only 2-term expressions count. (Repair: 3-term expressions like 25+15+10 = 50 also work.)"
+    ],
+    "recovery_moves": [
+      "Always say 'find a DIFFERENT way' aloud. The word 'different' targets variety.",
+      "Use a chart with explicit slots for addend pairs. Visible structure prevents repetition.",
+      "Show subtraction examples. Variety is bigger when both operations are options."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dee's Many Ways",
+    "purpose": "Independent practice of C2.3 (equivalent expressions for whole numbers to 100).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Make 50: list 8 different expressions that equal 50. Mix addition and subtraction.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Make 100: list 6 different expressions that equal 100.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick Your Target: pick a target number between 60 and 100. List 5 different expressions for it.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dee in the worksheet header",
+      "8 blank expression slots for Part 1",
+      "6 blank expression slots for Part 2",
+      "A target-and-5-slot box for Part 3"
+    ]
+  }
+}

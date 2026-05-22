@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "formative_worksheets": [
+    {
+      "title": "The Tally and Pictograph Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 minutes) to confirm D1.2 (tally) and D1.3 (pictograph) before extending into ordering.",
+      "purpose": "Standalone formative check that probes whether the child can read tallies AND build a pictograph with one-to-one. Catches children who succeed at tallying but fail at one-to-one pictograph construction before they hit the capstone.",
+      "expectations_assessed": ["D1.2", "D1.3"],
+      "student_learning_goal": "I can read tallies and build a pictograph.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can read tallies and build a pictograph.",
+        "character_watermark": "Detective Dot in the top-right corner with a clipboard. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Read the tallies. Write the totals.",
+          "visual_layout": "A 3-row mini tally chart: Apples ||||CROSS || (7), Bananas |||| (4), Grapes ||||CROSS (5). Each row has an empty total box.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_TALLIES",
+              "description": "A 3-row tally chart for a Grade 1 formative check, B&W line art. Row 1: 'Apples' label + ||||CROSS || tally + empty total box. Row 2: 'Bananas' label + |||| tally + empty total box. Row 3: 'Grapes' label + ||||CROSS tally + empty total box. Each row ~3.5in × 0.8in.",
+              "placement": "Centred horizontally in Prompt 1.",
+              "approximate_size": "full_width",
+              "keywords": ["tally", "totals"],
+              "text_image_alignment_check": "Image FORM_Q1_TALLIES at Prompt 1: instructions ask the child to read tallies and write totals. Keywords name the activity (tally, totals)."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Apples = 7. Bananas = 4. Grapes = 5."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Build a pictograph from the tallies above. Add title and labels.",
+          "visual_layout": "A blank 3-row pictograph grid below Prompt 1. Title line at top, label boxes beside each row, ~7 grid cells per row.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_GRID",
+              "description": "A blank 3-row pictograph grid for a Grade 1 formative check, B&W line art. ~5in × 2.5in. Each row has a label box on the left, ~7 grid cells in the middle. Above the grid, an empty title line. Designed for the child to build a pictograph from the Q1 tally totals.",
+              "placement": "Centred horizontally in Prompt 2.",
+              "approximate_size": "full_width",
+              "keywords": ["pictograph", "title"],
+              "text_image_alignment_check": "Image FORM_Q2_GRID at Prompt 2: instructions ask the child to build a pictograph. Keywords name the format (pictograph) and required component (title)."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Pictograph with: Title (e.g., 'Favourite Fruit'), Apples row with 7 pictures, Bananas with 4, Grapes with 5. Pictures one-to-one and same size."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling about tallies and pictographs? Circle the face.",
+          "visual_layout": "Three faces in a row: smile, neutral, frown. Below: 'I got it!', 'Almost!', 'Need help!'.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons in a horizontal row for a Grade 1 formative check, B&W line art. Left: smile. Middle: neutral. Right: frown. Each ~1.5in across. Below each, label: 'I got it!', 'Almost!', 'Need help!'. Total row ~6in.",
+              "placement": "Centred horizontally in Prompt 3.",
+              "approximate_size": "full_width",
+              "keywords": ["faces", "feeling"],
+              "text_image_alignment_check": "Image FORM_Q3_FACES at Prompt 3: instructions ask the child to circle their feeling. Keywords name the visual (faces, feeling)."
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open. Use this self-rating alongside Prompts 1 and 2 to identify mismatches."
+        }
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child. Score guide: Q1 + Q2 perfect + 'I got it' = ready for ordering. Q1 right but Q2 has size-varying pictures = re-loop on one-to-one. Q1 wrong = re-loop on tally totals."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Detective's Reflection",
+    "purpose": "End-of-unit metacognition. Children look back at their week as data detectives.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Detective Dot and Tally in the top-right corner with a Junior Data Detective certificate. Small (~1.5in combined). References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Data Detective? Circle one.",
+        "visual_layout": "Three star-rating ovals: 1 star, 2 stars, 3 stars. Below: 'Just starting', 'Mostly got it', 'I am a Detective!'.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three rating ovals for a Grade 1 reflection sheet. Left: 1 star. Middle: 2 stars. Right: 3 stars. Each oval ~2in × 1.5in. Below each, label: 'Just starting', 'Mostly got it', 'I am a Detective!'. Total ~6.5in.",
+            "placement": "Centred horizontally in Prompt 1.",
+            "approximate_size": "full_width",
+            "keywords": ["stars", "detective"],
+            "text_image_alignment_check": "Image REF_STARS at Prompt 1: instructions ask the child to rate themselves. Keywords name the rating (stars) and role (detective)."
+          }
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am a Detective!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things? Circle YES or NO.",
+        "visual_layout": "A four-row table. Each row: question + YES/NO bubbles.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A 4-row YES/NO table for a Grade 1 reflection sheet. Each row ~1in tall. Left column ~4in with question. Right column ~2in with YES / NO bubbles. Total ~6in. Thin row dividers.",
+            "placement": "Centred in Prompt 2.",
+            "approximate_size": "full_width",
+            "keywords": ["yes", "no"],
+            "text_image_alignment_check": "Image REF_YN_TABLE at Prompt 2: instructions ask the child to circle yes or no. Keywords name the response options."
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I sorted by a rule.", "I tallied a survey.", "I built a pictograph.", "I wrote a conclusion."]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite detective step was...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in. Prompt above.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle ~5in × 1.8in for a Grade 1 reflection sheet. Empty inside. Above: 'My favourite detective step was...'. Faint guide-lines at bottom.",
+            "placement": "Centred in Prompt 3.",
+            "approximate_size": "full_width",
+            "keywords": ["favourite", "detective"],
+            "text_image_alignment_check": "Image REF_FAV_BOX at Prompt 3: instructions ask the child for their favourite. Keywords name the prompt focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle ~5in × 1.8in for a Grade 1 reflection sheet. Above: 'The trickiest part for me was...'.",
+            "placement": "Centred in Prompt 4.",
+            "approximate_size": "full_width",
+            "keywords": ["trickiest"],
+            "text_image_alignment_check": "Image REF_TRICKY_BOX at Prompt 4: instructions ask what was 'trickiest'. Keyword matches the prompt."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle ~5in × 1.8in for a Grade 1 reflection sheet. Above: 'Next time, I want to try...'.",
+            "placement": "Centred in Prompt 5.",
+            "approximate_size": "full_width",
+            "keywords": ["next", "try"],
+            "text_image_alignment_check": "Image REF_NEXT_BOX at Prompt 5: instructions ask for a forward goal. Keywords name the focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5, alongside the Junior Data Detective certificate. Children may need scribe support for prompts 3-5. Read responses to inform next-year unit notes."
+  }
+}

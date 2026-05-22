@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 2,
+  "worksheet_title": "Looper's Loop Workshop",
+  "purpose": "Independent practice of C3.1 with loops.",
+  "student_learning_goal": "I can use a loop in my code to repeat steps.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can use a loop in my code to repeat steps.", "character_watermark": "Looper the Loop Helper in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Long Code to Loop Code", "student_instructions": "Each long code can be written shorter using a loop. Write the loop version.", "visual_layout": "Top. Four conversion rows.",
+      "image_placeholders": [{"id": "WS02_P1_FOUR_CONVERSIONS", "description": "Four code-conversion rows in B&W line-art, stacked. Each ~7in × 1in. Format: long code on left (e.g., 'right, right, right'), arrow, blank loop slot on right ('Repeat ___: ___'). Long codes: 3 rights; 4 ups; 5 forwards; 6 turn rights.", "placement": "Top of the page.", "approximate_size": "full_width", "keywords": ["loop"], "text_image_alignment_check": "Image WS02_P1_FOUR_CONVERSIONS: keywords (loop) name what the rows ask for."}],
+      "student_response_type": "write", "answer_key": "Repeat 3: right. Repeat 4: up. Repeat 5: forward. Repeat 6: turn right."},
+    {"part_number": 2, "part_title": "Part 2: Shape Code", "student_instructions": "Write loop code to draw each shape. Use Repeat N: forward, turn.", "visual_layout": "Middle. Three shape boxes (square, triangle, hexagon).",
+      "image_placeholders": [{"id": "WS02_P2_THREE_SHAPES", "description": "Three shape boxes in B&W line-art, stacked. Each ~7in × 1.5in. Each shows a shape name (Square, Triangle, Hexagon) plus a blank code line.", "placement": "Middle of the page.", "approximate_size": "full_width", "keywords": ["shape", "loop"], "text_image_alignment_check": "Image WS02_P2_THREE_SHAPES: keywords (shape, loop) name what the boxes ask for."}],
+      "student_response_type": "write", "answer_key": "Square: Repeat 4: forward, turn. Triangle: Repeat 3: forward, turn. Hexagon: Repeat 6: forward, turn."},
+    {"part_number": 3, "part_title": "Part 3: My Loop", "student_instructions": "Invent your own loop. Write what it draws or does.", "visual_layout": "Bottom. A blank box with thinking-bubble icon.",
+      "image_placeholders": [{"id": "WS02_P3_MY_LOOP", "description": "A blank box in B&W line-art, ~7in × 2in. Top: 'My loop: ___'. Below: 'What it does: ___'. Looper thinking-bubble icon top-right.", "placement": "Bottom of the page.", "approximate_size": "full_width", "keywords": ["loop"], "text_image_alignment_check": "Image WS02_P3_MY_LOOP: keywords (loop) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Accept any plausible loop."}
+  ]}],
+  "early_finisher_prompt": "If you finish, write a loop to draw an octagon.",
+  "teacher_notes": "Lesson 2 consolidation. Watch for loop-as-list errors (Repeat 1 multiple times) — flag for compression reteach."
+}

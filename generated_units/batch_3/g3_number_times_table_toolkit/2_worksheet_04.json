@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 4,
+  "worksheet_title": "Tony's Fraction Multiplication",
+  "purpose": "Independent practice of B2.8 (numerator as repeated addition).",
+  "student_learning_goal": "I can show that 3/4 = 1/4 + 1/4 + 1/4 and 4 × 1/2 = 2 wholes using fraction strips.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can show that 3/4 = 1/4 + 1/4 + 1/4 and 4 × 1/2 = 2 wholes using fraction strips.", "character_watermark": "Tony the Toolkit Master in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Fraction Decomposition", "student_instructions": "Write each fraction as repeated addition AND as multiplication.", "visual_layout": "Top of the page. Six fraction-decomposition rows.",
+      "image_placeholders": [{"id": "WS04_P1_DECOMP", "description": "Six fraction decomposition rows in B&W line-art, stacked vertically. Each ~7in × 0.7in. Format: fraction on left (e.g., 3/4), addition slot ('___+___+___'), multiplication slot ('___×___'). Fractions: 3/4, 5/6, 7/8, 4/5, 3/10, 5/8.", "placement": "Top of the page; six rows.", "approximate_size": "full_width", "keywords": ["fraction", "decomposition"], "text_image_alignment_check": "Image WS04_P1_DECOMP: keywords (fraction, decomposition) name what the rows ask for."}],
+      "student_response_type": "write", "answer_key": "3/4 = 1/4+1/4+1/4 = 3×1/4. 5/6 = 1/6+1/6+1/6+1/6+1/6 = 5×1/6. 7/8 = seven 1/8s = 7×1/8. 4/5 = 4×1/5. 3/10 = 3×1/10. 5/8 = 5×1/8."},
+    {"part_number": 2, "part_title": "Part 2: Multiplication of Unit Fractions", "student_instructions": "Solve each. Identify which give whole numbers.", "visual_layout": "Middle. Six multiplication problems in a 2x3 grid.",
+      "image_placeholders": [{"id": "WS04_P2_FRAC_MULT", "description": "Six multiplication problems in B&W line-art, 2-row × 3-column grid. Each ~2.5in × 1.5in. Pre-fills: 4×1/3, 5×1/4, 6×1/2, 8×1/4, 7×1/3, 3×1/5. Below each: result line and 'Whole number? Y/N' bubble.", "placement": "Middle; 2x3 grid.", "approximate_size": "full_width", "keywords": ["multiplication", "fractions"], "text_image_alignment_check": "Image WS04_P2_FRAC_MULT: keywords (multiplication, fractions) name what the boxes ask for."}],
+      "student_response_type": "write", "answer_key": "4×1/3 = 4/3 = 1 1/3 (NOT whole). 5×1/4 = 5/4 = 1 1/4 (NOT whole). 6×1/2 = 3 (whole). 8×1/4 = 2 (whole). 7×1/3 = 7/3 = 2 1/3 (NOT). 3×1/5 = 3/5 (NOT)."},
+    {"part_number": 3, "part_title": "Part 3: Three Ways", "student_instructions": "Pick a fraction. Write it 3 different ways: as a fraction, as repeated addition, as multiplication.", "visual_layout": "Bottom of the page. A blank box.",
+      "image_placeholders": [{"id": "WS04_P3_THREE_WAYS_BOX", "description": "A blank rectangular box in B&W line-art, ~7in × 2in, with light-grey solid outline. Tony thinking-bubble icon in the top-right corner.", "placement": "Bottom of the page; full-width.", "approximate_size": "full_width", "keywords": ["three-ways", "fraction"], "text_image_alignment_check": "Image WS04_P3_THREE_WAYS_BOX: keywords (three-ways, fraction) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Accept e.g., '5/6 = 1/6+1/6+1/6+1/6+1/6 = 5×1/6'."}
+  ]}],
+  "early_finisher_prompt": "If you finish, find another multiplication that gives a whole-number result.",
+  "teacher_notes": "Lesson 4 consolidation. Use Part 2's whole-number identification as evidence of mastery. Watch for Part 2 children who collapse 1/4 to 1."
+}

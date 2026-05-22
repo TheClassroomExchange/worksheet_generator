@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "lesson_number": 1,
+  "lesson_title": "Three-Attribute Sort",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Tree diagrams sort by 3 attributes by branching at each step.",
+  "learning_intention": "We are learning to sort by 3 attributes using tree diagrams.",
+  "student_learning_goal": "I can sort by 3 attributes using a tree diagram.",
+  "success_criteria": [
+    "I can pick 3 attributes.",
+    "I can BRANCH at each level.",
+    "I can place items at the right BRANCH."
+  ],
+  "vocabulary_introduced": [
+    "tree diagram"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_tree_mat",
+    "M5_data_cards",
+    "M7_data_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Tree Diagram'",
+    "Tree Diagram Mat (1 per pair)",
+    "Survey Data Cards (30 per pair)",
+    "Lesson 1 tree tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dot Branches the Sort",
+    "hook": "Detective Dot: 3 attributes! RED or BLUE? SQUARE or CIRCLE? BIG or SMALL? Each is a BRANCH on the tree! Dot opens: 'Three levels, three rules — same rule on every BRANCH!'",
+    "teacher_script": "Bring children to the carpet. Detective Dot and Tally puppets. 'Friends — last year you sorted by 2 attributes with Venn and Carroll. Today we sort by 3 attributes with a TREE DIAGRAM.'\n\nIntroduce vocabulary. Write TREE DIAGRAM on chart. 'Tree diagram = a branching diagram. At each level we branch by ONE attribute.'\n\nDemonstrate. Draw a tree on chart:\n- Top node: All shapes\n- Level 1: RED branch, BLUE branch (attribute 1 = colour)\n- Level 2 (under each colour): SQUARE branch, CIRCLE branch (attribute 2 = shape)\n- Level 3 (under each shape): BIG branch, SMALL branch (attribute 3 = size)\n\n'Each leaf at the bottom is one combination: RED + SQUARE + BIG, RED + SQUARE + SMALL, etc. 8 combinations total!'\n\nPlace cards at correct leaves. 'A red big square goes here. A blue small circle goes there.'\n\nMore examples (Canadian flavour):\n- Hockey players: home/away → forward/defence → captain/not. 8 categories.\n- Pets: dog/cat → big/small → fluffy/short hair. 8 categories.\n- Weather: warm/cold → sunny/cloudy → windy/calm. 8 categories.\n\n'Detective Dot says — 3 attributes, 3 branch levels. 2^3 = 8 leaves possible.'\n\nNon-example. 'Trying tree with 1 attribute? Use Venn. With 2? Use Carroll. With 3? TREE.'\n\n'Today we sort 30 data cards by 3 attributes.'",
+    "student_actions": [
+      "Watch Detective Dot branch",
+      "Echo 'tree diagram'",
+      "Practice placing cards at leaves",
+      "Identify 3-attribute combinations"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Tree Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: build a class tree with 8 leaves.",
+        "teacher_prompt": "Say: 'What attribute? What branch?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Build tree with 12 cards. B: Read existing tree, place 8 new cards. C: Make own 3-attribute tree.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: explain why 3 attributes give 8 leaves.",
+        "teacher_prompt": "Say: 'Stretch: 2^3 = 8.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss when tree vs Venn vs Carroll.",
+        "teacher_prompt": "Show: 1 attr = list, 2 attr = Venn/Carroll, 3 attr = tree."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After Station C, two pairs share trees with DIFFERENT attribute orders (colour-shape-size vs size-shape-colour). Class compares: same data, different trees? Cite English (1993) — combinatorial problems often have multiple valid orderings.",
+        "teacher_prompt": "Dot: 'Same data, different ORDER, different TREES — but every leaf still names ONE thing.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A. Use 8 cards.",
+      "for_extending": "Stretch at C: explain power of 2.",
+      "for_ell_or_iep": "Sentence frame: 'This card is ___ AND ___ AND ___.'",
+      "for_movement_learners": "Children form a human tree, branching by 3 attributes."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks 3 attributes; branches correctly; places cards at correct leaves.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Picks 3 attributes",
+        "Branches correctly",
+        "Places cards correctly",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dot's Tree Brag",
+    "discussion_prompts": [
+      "What's a TREE DIAGRAM?",
+      "How many leaves in a 3-attribute tree?",
+      "When is tree better than Venn?",
+      "What would 4 attributes give?",
+      "Dot's preview: tomorrow Tally turns these branches into a FREQUENCY TABLE (Lesson 2 — D1.1). What attribute would make the rows? Columns?"
+    ],
+    "exit_routine": "Detective Dot's branch refrain — 'Three levels, three rules — same rule on every BRANCH!' (3x). Each child writes one branch path of their tree."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Tree diagram understanding.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who handle 3-attribute reasoning."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child mixes branches at SAME LEVEL — repairing the cross-branching trap at Grade 3",
+    "rationale": "On three-attribute sorting (sort tree), the trap is branch-mixing — child applies different attribute orders within branches. English (1993, 'Children's Strategies in Solving Two- and Three-Dimensional Combinatorial Problems') frames consistent branching as the gateway to systematic data classification. Without it, Lesson 2's frequency tables cannot ground.\n\nToday: 3-attribute sort tree with consistent branching. Tomorrow Tally turns the branches into a FREQUENCY TABLE (Lesson 2 — D1.1). Lesson 3 bar graphs; Lesson 4 mean/mode; Lesson 5 capstones.",
+    "setup": "Pair at Station A. Left subtree branches: RED → SQUARE/CIRCLE. Right subtree branches: BLUE → BIG/SMALL. Mixed.",
+    "teacher_script": "Crouch. 'Detective Dot says — at one LEVEL, every branch uses the SAME attribute.'\n\nGuide. 'Level 1 was COLOUR. Level 2 should be SHAPE for ALL — left and right.'\n\nRedraw. Both sides level 2 = SQUARE/CIRCLE. Then level 3 = SIZE for all.\n\nGenerlise. 'Detective Dot says — pick attributes BEFORE drawing. Each level = one attribute. Both sides match.'\n\nIf still mixed: provide a level-attribute card stack to refer to.",
+    "expected_student_responses": [
+      "(Confused) Mixed branches.",
+      "(Mid) Consistent with prompts.",
+      "(Strong) Consistent independently.",
+      "(Stretched) Plans 3 attributes before drawing."
+    ],
+    "common_misconceptions": [
+      "Each subtree is independent. (Repair: all branches at one level = same attribute.)",
+      "Tree branches randomly. (Repair: tree is structured.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names 3 attributes but mixes branches: give level-attribute card ('Level 1 = colour, Level 2 = shape, Level 3 = size'); child re-sorts following the card.",
+      "DIAGNOSTIC B — child applies same attribute twice in tree: drill 'each LEVEL = ONE attribute' rule; child labels each level.",
+      "DIAGNOSTIC C — child sorts but cannot articulate: force 'this branch is BIG-RED-CIRCLE because Level 1 = ___, Level 2 = ___, Level 3 = ___'."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dot's Tree Sort",
+    "purpose": "Independent practice of D1.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Place 8 items in a 3-attribute tree (colour x shape x size).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Read a tree, identify 4 specific items at leaves.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Make your own tree with 3 attributes for your toys.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dot in worksheet header",
+      "Tree template for Part 1",
+      "Pre-built tree for Part 2",
+      "Blank for Part 3"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "deck_url": "https://docs.google.com/presentation/d/1Tp2VHKdD3La5vlJVvjH8rDelYEZW7q0WuX9JJCeUOVY/edit",
+  "pdf_path": "/Users/aria/Documents/TheClassroomExchange/claude_code_handoff/worksheet_generator/generated_units/batch_3/g1_financial_classroom_market/validation_export.pdf",
+  "pdf_size_kb": 849,
+  "slide_count": 27,
+  "inspected_at": "2026-05-10T12:14:02Z",
+  "inspected_by": "claude-visual-inspector-batch3",
+  "status": "revise_assets",
+  "issues": [
+    {
+      "slide_number": 14,
+      "category": "other",
+      "description": "Canadian Bill Cards manipulative shows $5, $10, $20, $50, AND $100 bills, but the unit blueprint and curriculum (F1.1) limit this Grade 1 unit to bills up to $50. The $100 bill is out of scope and contradicts the lesson plans, which never reference $100.",
+      "suggested_fix": "Regenerate the M2_bill_set asset to display only $5, $10, $20, and $50 (4 denominations), matching the blueprint and the lesson 3 and 4 scripts that introduce bills up to $50.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 18,
+      "category": "missing_asset",
+      "description": "The Big Market Template (M6_capstone_template) slide shows an empty bordered rectangle labelled only 'M6 CAPSTONE' inside a pale yellow box. No actual capstone template (4 station response areas) is rendered. This is the summative artifact and cannot be a placeholder.",
+      "suggested_fix": "Re-run the manipulative composer for M6_capstone_template so the slide shows the actual letter-portrait capstone template with the 4 station response areas (coins, bills, compare, buy) drawn out.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 19,
+      "category": "missing_asset",
+      "description": "The G1 Money Vocabulary Chart (M7_money_chart) slide is an empty bordered rectangle labelled 'M7 VOCAB' with no actual vocabulary content rendered. Children are supposed to see 10 G1 money words on this anchor chart, but the slide is blank.",
+      "suggested_fix": "Re-run the manipulative composer for M7_money_chart so the slide displays the 10 G1 money vocabulary terms (nickel, dime, quarter, loonie, toonie, bill, value, more, less, equal) with child-friendly definitions.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 22,
+      "category": "missing_asset",
+      "description": "The Classroom Market Poster (M10_unit_poster) slide shows an empty pale-yellow rectangle with only the caption 'Anchor chart'. There is no rendering of Penny and Cassie at a market with money tools, which is the entire point of this unit anchor poster.",
+      "suggested_fix": "Re-run the manipulative composer for M10_unit_poster to produce an actual letter-landscape anchor poster that shows Penny the Penguin Shopkeeper and Coin Cassie the Cashier at a market with sample coins, bills, and price tags.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 23,
+      "category": "character_unrecognizable",
+      "description": "The Penny Puppet slide shows TWO line-art chefs (a baker holding bread and a chef holding a whisk) instead of Penny the Penguin Shopkeeper. The label below reads 'Penny the Coin Counter'. The image bears no resemblance to a penguin in an apron with a coin pouch as described in the blueprint.",
+      "suggested_fix": "Regenerate char_penny_puppet via character_svg_designer skill to produce a kawaii-style penguin in an apron with a coin pouch and price-tag sticker, matching BLENDY/SOUNDER reference proportions (head-dominant, oval pupils with sparkles, blush, rounded body).",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 24,
+      "category": "character_unrecognizable",
+      "description": "The Coin Cassie Puppet slide shows the same two line-art chefs (baker and whisk-holding chef) used on the Penny slide. This is clearly the wrong asset and Cassie the Cashier (a young person at a cash register with a bill stack) is not depicted at all.",
+      "suggested_fix": "Regenerate char_coin_puppet via character_svg_designer skill to produce a kawaii-style young person at a cash register with a bill stack, matching the kawaii reference style (head-dominant, oval pupils with sparkles, blush, rounded body, single accessory).",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 6,
+      "category": "text_overflow",
+      "description": "Lesson 4 consolidation Exit text ends mid-sentence with 'ONE equivalence on a sticky (e.g.' followed by nothing — the example clause was clearly truncated by the slide layout, leaving the teacher script incomplete on this slide.",
+      "suggested_fix": "Edit the lesson 4 consolidation_exit field in the lesson JSON to either complete the sentence after '(e.g.' with a concrete example or restructure so the slide does not truncate the Exit prompt.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 25,
+      "category": "title_clipping",
+      "description": "Summative Assessment Rubric F1.1 row shows the expectation text truncated mid-sentence: 'F1.1 identify the various Canadian coins up to 50¢…' — the cell ellipses the rest of the curriculum expectation, hiding the bills-up-to-$50 wording teachers need.",
+      "suggested_fix": "Widen the Expectation column or shrink the row text so the full F1.1 expectation 'identify the various Canadian coins up to 50¢ and coins and bills up to $50, and compare their values' fits without ellipsis.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 5,
+  "summary": "Five blocking missing-asset/character issues: M6 capstone, M7 vocab chart, and M10 poster all render as empty placeholder rectangles; both character puppet slides (Penny, Cassie) show the wrong art (two chefs) instead of a penguin and a cashier. Phase B character regeneration plus manipulative composer re-runs are required before this deck can ship."
+}

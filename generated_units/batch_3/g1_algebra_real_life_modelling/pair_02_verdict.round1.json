@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "pair_number": 2,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the 'no-record error' but recovery_moves are flat ('Always record IMMEDIATELY after counting', 'Use a table with rows pre-printed', 'Compare written vs remembered') and do not branch by what the diagnostic told you about the child. No research citation in rationale.",
+      "required_fix": "Branch recovery_moves by diagnostic: (a) child counts accurately but doesn't record -> pre-printed tally rows; (b) child loses count mid-record -> count-and-write chant after each item; (c) child records but can't reuse data -> point-and-read the table back. Cite English (2010) on early statistical reasoning.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Sap Sam anchors minds_on and consolidation, success_criteria all start with 'I can', vocabulary is child-friendly. But Sap Sam has no distinctive quotable refrain children chant back. Exit_routine 'I counted ___ ___s.' is generic, not a memorable Sap-Sam catchphrase.",
+      "required_fix": "Give Sap Sam a distinctive refrain (e.g., 'Sap Sam says: COUNT IT, WRITE IT, USE IT!') and weave it into the minds_on hook, action step 4, and consolidation/exit_routine so children chant it back at least three times in the lesson.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression (count -> record -> use data) is explicit and 'data' is defined precisely, but children never INVENT or COMPARE strategies. Step 4 ('messy list vs clean table') is teacher-shown, not child-generated. Walkthrough does not name the misconception in research-grounded terms.",
+      "required_fix": "Add an invent-and-compare beat in action step 4: pairs first record their Station A count however they want (drawing, tally, number), then post two methods side by side and ask 'which helps Sap Sam answer faster?'. Cite English (2010) or CGI direct-modelling stage in expanded_walkthrough.rationale.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 2 is solid on alignment, materials, and lesson-worksheet match, but three categories sit at 3 (pedagogical_depth, clarity_voice, mathematical_authenticity). The pass bar requires at most ONE score of 3, so the lesson must be revised. Add branching recovery_moves with research citation, give Sap Sam a quotable refrain, and let pairs invent-and-compare a recording method before the teacher reveals the table."
+}

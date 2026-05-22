@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "lesson_number": 2,
+  "worksheet_title": "Mayor Mira's Town Data",
+  "purpose": "Independent practice of C4 step 2 (data collection).",
+  "student_learning_goal": "I can collect data to answer a math question about my town.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can collect data to answer a math question about my town.",
+    "character_watermark": "Mayor Mira in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Town Tally",
+          "student_instructions": "Look at each town situation. Tally the count and record on the chart.",
+          "visual_layout": "Top of page. Four labelled tally rows.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_TALLY",
+              "description": "Four tally rows in B&W line-art, ~7in x 3in. Each row: situation label + visual + tally box + total slot. Pre-filled situations: 'Library books returned: 28', 'Buses arriving: 5', 'Sandwiches sold: 60', 'Recess minutes: 15'. Tally area below each. Header 'Town Tally:'.",
+              "placement": "Top of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "town",
+                "tally"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_TALLY: keywords (town, tally) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "28, 5, 60, 15."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Use the Data",
+          "student_instructions": "Use your data to answer 3 questions about town situations.",
+          "visual_layout": "Middle of page. Three numbered answer slots.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_USE",
+              "description": "Three numbered answer slots in B&W line-art, ~7in x 2.5in. Q1: 'How many TOTAL items in the data?'. Q2: 'Which is the BIGGEST count?'. Q3: 'Which is the SMALLEST count?'. Header 'Use Your Data:'.",
+              "placement": "Middle of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "data"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_USE: keywords (data) name what the slots ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "28+5+60+15 = 108. Biggest: 60 sandwiches. Smallest: 5 buses."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Real Town",
+          "student_instructions": "Pick something to count in your real town life. Draw or describe. Tally. Write 1 question your data answers.",
+          "visual_layout": "Bottom of page. A blank data box with question line.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_REAL",
+              "description": "A blank data box in B&W line-art, ~7in x 2.5in. 'My count: ___' on top. Tally area in the middle. 'My question: ___' at the bottom. Header 'My Real Town Data:'.",
+              "placement": "Bottom of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "real",
+                "town"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_REAL: keywords (real, town) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Child counts a real town thing and writes a question their count answers."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, count something else and add a tally row to Part 3.",
+  "teacher_notes": "Lesson 2 worksheet practices C4 step 2. Watch for the guess-instead-of-count trap. Part 1 each row shows a visual cluster (14 book icons, 9 bus icons, etc.) the child must TALLY and total — the count is produced, not copied."
+}

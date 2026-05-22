@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "lesson_number": 1,
+  "worksheet_title": "Mayor Mira's Town Questions",
+  "purpose": "Independent practice of C4 step 1 (situation and question).",
+  "student_learning_goal": "I can describe a town situation and ask a math question about it.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe a town situation and ask a math question about it.",
+    "character_watermark": "Mayor Mira in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Town Description",
+          "student_instructions": "Pick a town location. Draw or write 2-3 sentences describing it.",
+          "visual_layout": "Top of page. A description box.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_DESC",
+              "description": "A description box in B&W line-art, ~7in x 2in. 'Town location: ___' on top. 3 description lines below. Small drawing area on the right. Header 'My Town Description:'.",
+              "placement": "Top of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "town",
+                "description"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_DESC: keywords (town, description) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Should describe a real town location."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Math Questions",
+          "student_instructions": "Write 4 math questions about your town. Each must start with HOW MANY, HOW MUCH, HOW LONG, or HOW TALL.",
+          "visual_layout": "Middle of page. Four numbered question lines.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_Q",
+              "description": "Four numbered question slots in B&W line-art, ~7in x 2.5in. Each slot has '1.', '2.', '3.', '4.' on the left with a long question line. Header 'My Math Questions:'.",
+              "placement": "Middle of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "math",
+                "questions"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_Q: keywords (math, questions) name what the slots ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Each question must be a math question."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Sort Questions",
+          "student_instructions": "Sort 6 questions into MATH and NOT MATH. Mark M for math, N for not-math.",
+          "visual_layout": "Bottom of page. A 6-row sort chart.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_SORT",
+              "description": "A 6-row sort chart in B&W line-art, ~7in x 2.5in. 6 question rows: 'How many books?', 'What colour is the library?', 'How long is recess?', 'Is the park fun?', 'How many buses arrive?', 'Does the rink smell like snow?'. Each row has M/N bubbles. Header 'Math (M) or Not Math (N)?'.",
+              "placement": "Bottom of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "math",
+                "not"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_SORT: keywords (math, not) name the bubbles."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "M, N, M, N, M, N."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, swap with a partner and answer 1 of their math questions with a guess.",
+  "teacher_notes": "Lesson 1 worksheet introduces C4 step 1. Watch for the descriptive-vs-math question confusion. Part 3 is a TRANSFER probe: instead of sorting ready-made questions, children TURN 3 descriptive starter prompts into math questions ('It is sunny.' → 'How many sunny days this week?')."
+}

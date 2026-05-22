@@ -1,0 +1,34 @@
+{
+  "unit_id": "g3_data_likely_unlikely",
+  "pair_number": 2,
+  "status": "revise_lesson",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 4,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a real bare-guess trap ('child says Yes it'll rain or No it won't — without the SCALE word') and lists concrete recovery_moves ('Use 5-word frame', 'Drill word + why', 'Compare bare vs scaled'), but the trap is not anchored to named research on probabilistic reasoning, and recovery_moves do not branch by what the diagnostic told you about the child.",
+      "required_fix": "Cite a named source for the bare-guess / equiprobability misconception (e.g., Konold 1989 'outcome approach' where children predict yes/no rather than scaling likelihood, or Shaughnessy 1992 on intuitive probability). Then make recovery_moves branch by diagnostic: if child can produce a scale word but defaults to yes/no, drill word+why with frame; if child treats every event as 50/50 (equiprobability bias), contrast a certain event (sun rises) vs an unlikely event (snow in July) before reintroducing the 5-word scale; if child picks a word but cannot justify, give two-event compare ('which is MORE likely?').",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (scale word → prediction → decision → revise) and vocabulary is precise ('heads is EQUALLY LIKELY each flip'), but the action steps are tightly directed ('Hand out 6 prediction scenarios. Pairs predict each.' / 'Word + decision.') with no opportunity for children to invent or compare prediction strategies, and the expanded_walkthrough does not name the misconception in research-grounded terms.",
+      "required_fix": "In the action phase, add an explicit strategy-compare moment: after pairs predict 2-3 scenarios, pause for a brief share where two pairs explain DIFFERENT reasoning for the same scenario (e.g., 'rain tomorrow' — one pair uses forecast, another uses 'it rained yesterday'), and have children evaluate which reasoning is stronger. Also re-frame the expanded_walkthrough trap using research-grounded language — name it the 'outcome approach' (Konold 1989) where learners answer yes/no instead of scaling likelihood, or the 'equiprobability bias' (Lecoutre 1992) where every uncertain event collapses to 50/50.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ]
+}

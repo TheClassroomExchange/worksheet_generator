@@ -1,0 +1,13 @@
+{
+  "unit_id": "g3_data_detectives",
+  "status": "pass",
+  "inspected_at": "2026-05-10T20:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch5",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 11, "description": "Tally's Mean Lab: 'Goals scored:' label visually tight against '2 + 3 + 4 + 5 + 6' expression (R19/R20 cosmetic carry-over); content readable."},
+    {"page": 16, "description": "M4_mean_chart: Set A/B/C labels overlap numeric expressions (R19/R20 cosmetic carry-over)."},
+    {"page": 25, "description": "5-row rubric (D1.1-D1.5) all rows present; D1.5 row trails to page bottom but visible — within R22 tolerance."}
+  ],
+  "summary": "PASS. Worksheets now hero layout (title + learning goal + instructions + content) with no debug stubs. Puppets, poster, certificate, 5-row rubric (D1.1-D1.5) all render correctly. Only cosmetic minor notes carried over from prior rounds."
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "lesson_number": 3,
+  "worksheet_title": "Make and Break 50",
+  "purpose": "Independent practice of B1.2 — composing and decomposing numbers to 50 in multiple ways.",
+  "student_learning_goal": "I can compose and decompose any number to 50 using tens, ones, and partner pairs in different ways.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compose and decompose any number to 50 using tens, ones, and partner pairs in different ways.",
+    "character_watermark": "Otto in the top-right corner, holding two jars of marbles. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Tens and Ones, Then a New Way",
+          "student_instructions": "For each target number, write ONE tens-and-ones decomposition AND ONE different decomposition.",
+          "visual_layout": "Top third of the page. Three rows. Each row shows a target number on the left (15, 27, 42), a tens-and-ones blank on the middle (___ tens + ___ ones), and a free-form blank on the right ('Another way: ___ + ___').",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_DECOMP_GRID",
+              "description": "A 3-row decomposition grid in B&W line-art. Left column: target numbers 15, 27, 42 (each in a bold box). Middle column: tens-and-ones template '___ tens + ___ ones'. Right column: 'Another way: ___ + ___'. Each row ~1.2in tall.",
+              "placement": "Top third of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "tens",
+                "ones",
+                "decomposition"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_DECOMP_GRID: keywords (tens, ones, decomposition) name what the grid asks for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "15: tens=1, ones=5. Another way: 7+8 or 10+5 or 12+3 etc. 27: tens=2, ones=7. Another way: 15+12 or 20+7 or 25+2 etc. 42: tens=4, ones=2. Another way: 20+22 or 25+17 or 40+2 etc."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Three Ways for 32 and Three Ways for 47",
+          "student_instructions": "Find three different partner pairs for each target.",
+          "visual_layout": "Middle of the page. Two compose tasks side by side. Task A: '32 = ___ + ___' three times. Task B: '47 = ___ + ___' three times.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_COMPOSE_TASKS",
+              "description": "Two stacked compose tasks in B&W line-art. Task A: header '32 = ___ + ___' three times in a column. Task B: header '47 = ___ + ___' three times. Each compose blank ~2in wide. Total grid spans full width.",
+              "placement": "Middle of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "partner",
+                "pairs",
+                "compose"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_COMPOSE_TASKS: keywords (partner, pairs, compose) name what the task asks for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "32 examples: 30+2, 25+7, 16+16, 20+12, 15+17. 47 examples: 40+7, 25+22, 30+17, 20+27, 35+12."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: As Many Ways As You Can",
+          "student_instructions": "Pick a number between 25 and 50. Find as many decompositions as you can.",
+          "visual_layout": "Bottom of the page. A target box at the top ('My number: ___'). Below it, 6 blank lines for decompositions. To the right, a small Otto puppet thumbnail with a thought bubble: 'Otto bets you can find 5 or more!'",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_OPEN_DECOMP",
+              "description": "An open decomposition area in B&W line-art. Top: small target box 'My number: ___'. Below: 6 blank lines for decompositions. Right side: Otto puppet (~1.5in tall) with a thought bubble.",
+              "placement": "Bottom of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "decomposition",
+                "otto",
+                "number"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_OPEN_DECOMP: keywords (decomposition, otto, number) name what the area asks for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Accept any target 25-50 with at least 4 decompositions. Children with 5+ decompositions including non-tens-ones partners are demonstrating mastery."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and try a number BIGGER than 50 (like 75 or 99). How many decompositions can you find?",
+  "teacher_notes": "Lesson 3 consolidation; this is the keystone worksheet for B1.2. Hand out at the end of small-group time. Watch for: (a) Part 1 children who write the SAME thing in both columns — they haven't internalised that there are multiple decompositions; (b) Part 3 children who only find tens-and-ones decompositions — flag for the rod-moving reteach in Day 4 small groups. Use Part 3 as evidence for the formative tracker column 'finds non-tens-ones partner pair'."
+}

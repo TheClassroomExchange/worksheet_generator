@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "lesson_number": 1,
+  "lesson_title": "Sort the 3D Solids",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "5 named solids: cubes, prisms, pyramids, cylinders, cones. Sort by FACES, EDGES, VERTICES.",
+  "learning_intention": "We are learning to sort 5 named solids by their faces, edges, and vertices.",
+  "student_learning_goal": "I can sort 5 named solids by faces, edges, and vertices.",
+  "success_criteria": [
+    "I can NAME all 5 solids.",
+    "I can COUNT faces, edges, and vertices.",
+    "I can SORT solids by attribute.",
+    "I can EXPLAIN how I sorted."
+  ],
+  "vocabulary_introduced": [
+    "face",
+    "edge",
+    "vertex",
+    "prism",
+    "pyramid"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_solids_set",
+    "M2_attribute_chart",
+    "M7_geometry_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Trekker Tig and Compass Coco — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Faces-Edges-Vertices'",
+    "3D Solid Cards (1 set per pair)",
+    "Sorting hoops or labels",
+    "Lesson 1 diagnostic checklist"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Trekker Tig's 5 Solids",
+    "hook": "Trekker Tig: Geometers, today we meet 5 NAMED solids — cubes, prisms, pyramids, cylinders, cones. Count their FACES, EDGES, and VERTICES! Tig opens: 'Sort by ATTRIBUTES, not by LOOKS!'",
+    "teacher_script": "Bring children to the carpet. Trekker Tig the Tiger Cub puppet with backpack. 'Geometer friends — in Grade 3 we name 5 solids. Each one has a different number of FACES, EDGES, and VERTICES.'\n\nDefine. 'A FACE is a FLAT side. An EDGE is the LINE where two faces meet. A VERTEX is a CORNER where edges meet.'\n\nReveal each solid one by one with the chart:\n\nCUBE: 6 faces (all squares), 12 edges, 8 vertices.\nRECTANGULAR PRISM: 6 faces (rectangles), 12 edges, 8 vertices.\nSQUARE PYRAMID: 5 faces (1 square + 4 triangles), 8 edges, 5 vertices.\nCYLINDER: 2 flat faces (circles) + 1 curved, 2 edges (curved), 0 vertices.\nCONE: 1 flat face (circle) + 1 curved, 1 edge (curved), 1 apex vertex.\n\n'Trekker Tig says — every solid has a NAME and a COUNT. Use BOTH!'\n\nDemo. 'I'll pick a solid card and name + count.' Pick a cube. 'CUBE — 6 faces, 12 edges, 8 vertices.'\n\nThen partners get a sorting hoop labelled FACES=6 and 3 solid cards. They check.\n\nNow each pair gets the Solid Card Set (15 cards: 3 of each type). They sort first by NAME (5 piles), then by FACES.\n\n'Trekker Tig says — sorting GROUPS solids by their attribute!'",
+    "student_actions": [
+      "Watch Tig demo",
+      "Echo all 5 solid names",
+      "Count faces on a cube",
+      "Sort 15 cards into 5 piles"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Sort 15 Solid Cards",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Solid Card Sets. Pairs sort by NAME (5 piles).",
+        "teacher_prompt": "Say: 'Sort by name.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Resort by FACES (1 face, 5 faces, 6 faces).",
+        "teacher_prompt": "Say: 'Now by faces.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: sort by VERTICES (0, 1, 5, 8).",
+        "teacher_prompt": "Say: 'Stretch: by vertices.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with cone (curved counts as 1 face?). Use chart.",
+        "teacher_prompt": "Show: chart counts."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "GEOMETER'S CHOICE: Pairs INVENT their own sorting rule (by EDGES, curved-vs-flat, tall-vs-short). Two pairs share. Class compares which rule is most useful. Cite van Hiele (1986) Level 2 — children invent property-based classifications.",
+        "teacher_prompt": "Tig: 'Different rules, different sorts. Pick the rule that helps you.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Sort by name only.",
+      "for_extending": "Sort by 2 attributes.",
+      "for_ell_or_iep": "Picture cards alongside names.",
+      "for_movement_learners": "Walk to 5 stations, one per solid type. NO-PAPER PATH: children form solid shapes with hands/bodies (fists for cubes, flat hand for square faces). Body becomes the solid."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: names; counts; sorts; explains; consistency.",
+      "how_to_record": "Diagnostic — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names 5 solids",
+        "Counts attributes",
+        "Sorts correctly",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Trekker Tig's Sort Brag",
+    "discussion_prompts": [
+      "Name all 5 solids.",
+      "How many faces on a CUBE?",
+      "Where's the VERTEX of a CONE?",
+      "How are CYLINDER and CONE different?",
+      "Tig's preview: tomorrow Coco helps us BUILD with these solids (Lesson 2 — E1.1). What attribute matters when stacking?"
+    ],
+    "exit_routine": "Tig + Coco refrain — 'Sort by ATTRIBUTES, not by LOOKS — FACES, EDGES, VERTICES!' (3x). Each child writes one solid with attribute counts."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Tracker of solid naming and attribute counts.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 sets the baseline for solid identification."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child confuses CYLINDER with CONE — repairing the curved-solid mix-up at Grade 3",
+    "rationale": "On 3D solid sorting, the trap is van Hiele Level 1 visual fixation: child sorts by appearance (cube looks like a die) rather than properties (faces, edges, vertices). Battista (2007) and van Hiele (1986) frame the L1→L2 transition as the gateway to all later geometry.\n\nToday: sort by named attributes. Tomorrow Lesson 2 composes structures; Lesson 3 congruent faces; Lesson 4 map+move; Lesson 5 capstones.",
+    "setup": "Sorting activity. Child puts cone in the cylinder pile.",
+    "teacher_script": "Crouch. 'Trekker Tig asks — where's the POINTY end?'\n\nProbe. 'Cone has a point at the top — that's the APEX vertex. Cylinder has 2 flat circles, no point.'\n\nGeneralise. 'Trekker Tig says — POINT = cone. NO POINT = cylinder.'\n\nIf still confused: hand both shapes. 'Run finger up the side. Cone narrows to a point. Cylinder stays the same.'",
+    "expected_student_responses": [
+      "(Confused) 'Both round.'",
+      "(Mid) 'Cone has a point.'",
+      "(Strong) 'Cone has 1 vertex; cylinder has 0.'",
+      "(Stretched) 'Both have curved faces but cone has 1 flat face, cylinder has 2.'"
+    ],
+    "common_misconceptions": [
+      "Both curved = same. (Repair: count vertices.)",
+      "Cylinder has a point. (Repair: only cone does.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child sorts by appearance: drill 'name the ATTRIBUTE first — faces, edges, vertices'; child re-sorts by named attribute.",
+      "DIAGNOSTIC B — child can count faces but loses edge count: physical demo with finger-tracing; child counts each edge once.",
+      "DIAGNOSTIC C — child sorts but cannot articulate: force 'this solid has ___ faces and ___ edges, so it sorts as ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Trekker Tig's 3D Sort",
+    "purpose": "Independent practice of E1.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Name 5 solids in a picture row.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Count faces, edges, and vertices for 3 solids.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Sort 8 mixed solids into 5 named piles.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Trekker Tig and Compass Coco in worksheet header",
+      "5 solid icons for Part 1",
+      "3-solid count chart for Part 2",
+      "Sort grid for Part 3"
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "lesson_number": 2,
+  "lesson_title": "Story Problems to 100",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.4",
+    "B2.1"
+  ],
+  "secondary_expectations": [
+    "B2.3"
+  ],
+  "big_idea": "Story problems can be modelled with objects, drawn as tape diagrams, and written as equations.",
+  "learning_intention": "We are learning to act out, draw, and write an equation for an addition or subtraction story problem with totals up to 100, and to check by reversing.",
+  "student_learning_goal": "I can act out, draw, and write an equation for an addition or subtraction story problem with totals up to 100, and check by reversing.",
+  "success_criteria": [
+    "I can identify the problem type (change-add-to / change-take-from / part-part-whole).",
+    "I can draw a tape diagram with both parts labeled.",
+    "I can write the equation and check by reversing the operation."
+  ],
+  "vocabulary_introduced": [
+    "tape diagram",
+    "check by reversing"
+  ],
+  "vocabulary_reinforced": [
+    "addend",
+    "sum",
+    "difference",
+    "chunking"
+  ],
+  "manipulatives_used": [
+    "M2_two_colour_counters",
+    "M5_story_cards",
+    "M10_workshop_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Mae the Multiplier — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Story Problem Cards deck (18 cards: 6 change-add-to, 6 change-take-from, 6 part-part-whole; totals to 100)",
+    "Anchor chart 'Build → Draw → Write → Check' with four columns",
+    "Per-pair set of two-colour counters (~30)",
+    "Per-child small whiteboards for tape diagrams",
+    "Lesson 2 story-problem tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mae's Workshop Stories",
+    "hook": "Mae sold 47 paper kittens last week. This week she sold 36 more. How many altogether? AND how do we CHECK our answer?",
+    "teacher_script": "Bring children to the carpet. Mae the Multiplier puppet in hand. 'Friends — Mae has a story problem from her workshop. Listen.'\n\nMae speaks: 'I sold 47 paper kittens last week. I sold 36 MORE this week. How many in total?'\n\n'Hmm. Four jobs to do.' Hold up four fingers. 'BUILD it. DRAW it. WRITE it. CHECK it.'\n\nBuild: 'Build with counters — but 47+36 is too many counters for the carpet. Let's use the chunk strategy from yesterday.' Write 47+36 on the board. 'Chunk: 40+30+7+6. Add the tens: 70. Add the ones: 13. Combine: 70+13 = 83.'\n\nDraw: 'Now draw the tape diagram.' Draw a long rectangle on the chart. Split it into two parts — 47 (left week) and 36 (this week). Label total = 83 above. 'See — the rectangle shows the WHOLE story.'\n\nWrite: '47 + 36 = 83.' Write on the board.\n\nNow CHECK. 'Mae says — addition and subtraction are PARTNERS. If 47+36=83, then we can CHECK by REVERSING. Take 83. Subtract 36. We should get back to 47.' Compute: 83-36 = 47. 'Yes! Match. The check confirms.'\n\nNow Dan makes a cameo. (Use a hand gesture or quick puppet swap.) Dan asks: 'Mae had 92 paper cookies. She gave 38 to her friends. How many left?' Build (mentally chunk 92-38 = 90+2-30-8 = 60+2-8 = 60-6 = 54). Draw (tape diagram 92 = 38 + 54). Write (92-38=54). Check (54+38 = 54+30+8 = 84+8 = 92 ✓).\n\n'Today we'll practice the BUILD-DRAW-WRITE-CHECK pipeline on lots of story problems.'",
+    "student_actions": [
+      "Listen as Mae tells the change-add-to story.",
+      "Help build, draw, and write the equation for Mae's story.",
+      "Watch the CHECK BY REVERSING move.",
+      "Echo the new vocabulary: 'check by reversing'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Story Problem Rotations with Check",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: model 2 more story problems. Story 1 (change-take-from): 'Mae had 75 paper cookies. She used 28 for a baking demo. How many left?' Story 2 (part-part-whole): 'Buddy delivered 43 paper kittens and 39 paper cookies. How many items in total?'",
+        "teacher_prompt": "Say to students: 'Two more stories together. Listen carefully — what's the question? Build, draw, write, CHECK.' For each, walk through all four steps, slowing down on the check."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Change-Add-To Story Cards — pair draws 2 cards, builds with counters (or chunks mentally), draws the tape diagram, writes the equation, AND writes the check equation. Station B: Change-Take-From Story Cards — same routine, with subtraction equations. Station C: Part-Part-Whole Story Cards — same routine.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Same four steps every time: BUILD, DRAW, WRITE, CHECK. The CHECK is new — don't skip it.' Set the rotation."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge: at each station, include 2 cards where the answer is just under or over a 'round' number (e.g., 47+36=83 is close to but not 80; 92-38=54 is close to but not 50). Discuss how to estimate the answer first as a sanity check.",
+        "teacher_prompt": "Say to pairs: 'Before you build, ESTIMATE — about how many do you expect? If 47 + 36 — both close to 50, total close to 80-100. If your answer is 23, something's wrong.' Estimation as a third check layer."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record formative evidence on the story-problem tracker. Watch for: (a) does the child correctly identify the problem TYPE? (b) does the tape diagram match the structure? (c) does the equation match the story? (d) does the child do the CHECK BY REVERSING?",
+        "teacher_prompt": "Stop at each pair. Ask 'What kind of story is this?' before checking work. Mark the tracker for type identification AND tape-diagram accuracy AND equation accuracy AND check completion."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose Lesson 1 work was emerging stay at Station A (Change-Add-To) for both rotations. Use only stories with totals to 50. The change-add-to type is the most intuitive — start with some, add more.",
+      "for_extending": "Stretch story cards: totals to 200 (extending the chunk strategy), two-step problems (e.g., 'Mae sold 47 kittens, then 28 more, then 32 cookies. How many items in total?'). Two-step problems require composing two equations.",
+      "for_ell_or_iep": "Provide picture-supported story cards. Provide a sentence frame: 'I built ___. I drew ___. My equation is ___ ___ ___ = ___. My check is ___ ___ ___ = ___.' Pair with a strong-reader peer for any text-heavy cards.",
+      "for_movement_learners": "Build is naturally kinesthetic. For movement learners, allow them to push counters into two distinct piles for change-take-from stories. The body movement of pushing-apart anchors the take-from concept."
+    },
+    "formative_check": {
+      "what_to_look_for": "Four signals: (1) does the child correctly identify the problem type? (2) does the tape diagram show both parts plus total? (3) does the equation match? (4) does the child do the check-by-reversing? Children at L4 do all four; children at L3 skip the check.",
+      "how_to_record": "Tick the story-problem tracker per child as you observe across 3 stations.",
+      "tracker_columns": [
+        "Student name",
+        "Identifies problem type",
+        "Draws tape diagram correctly",
+        "Writes correct equation",
+        "Checks by reversing",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mae's Four-Step Brag",
+    "discussion_prompts": [
+      "What are the four steps for any story problem?",
+      "Why do we CHECK BY REVERSING? What does it tell us?",
+      "If 47 + 36 = 83, what subtraction would check it?",
+      "Was estimation helpful as a sanity check?"
+    ],
+    "exit_routine": "Each child writes one fact-family triple from today's stories on a sticky note: 'I learned that ___ + ___ = ___, so ___ - ___ = ___.' Notes go onto the anchor chart on the way to the door."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Problem-type identification, tape-diagram structure, equation accuracy, AND check-by-reversing completion across 3-5 problems per child.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures B2.4 (modelling) + B2.1 (relationship between add/sub) integration. Children who do all four steps including the check are at L4. Children who skip the check are at L3 and need explicit reminder before Grade 3's multi-step word problems."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes 47+36=83 correctly but produces a tape diagram that's just one rectangle with 83 in it — repairing the tape-diagram-as-structure understanding",
+    "rationale": "The most common Grade-2 trap on B2.4 is identical to what we saw in g1_number_adding_machine Lesson 4 — children who can build and write the equation but cannot draw a structurally-correct tape diagram. They draw a single rectangle with the answer (83) inside instead of a two-part diagram showing the parts (47 and 36) and the total (83) explicitly.\n\nWhat's different at Grade 2 is the SCALE. At sums to 100, the proportional accuracy of the diagram matters more — children who draw 47 and 36 as same-size parts give a misleading visual. The fix is to teach proportional drawing: 47 and 36 should look approximately the same size (both close to 40), with the total 83 approximately twice that.\n\nThe expanded walkthrough covers the precise moment when a child has built 47+36 with chunking, written 47+36=83, but drawn a single rectangle for the diagram. The repair is to insist on the two-part structure with proportional sizing.",
+    "setup": "Pair is at Station A (Change-Add-To). The card reads 'Mae had 47 paper kittens. Buddy brought 36 more. How many altogether?' The child has chunked: 47+36=83. They have written 47+36=83. They have drawn a small rectangle with '83' inside. The teacher steps in.",
+    "teacher_script": "Crouch beside the child. 'Your equation is right — 47+36=83. Now help me see the WHOLE story in your tape diagram.' Wait. The child says 'It's the answer.' or 'It's how many in total.' 'OK — but the tape diagram shows ALL the parts of the story, not just the answer. Watch.'\n\nDraw a fresh tape diagram on a whiteboard. Make a long rectangle. 'Total = 83.' Write 83 above the rectangle. 'Now split into the two parts.' Split the rectangle roughly in half (47 and 36 are close). Label left part 47, right part 36. 'See? Two parts, one total. They add to 83.'\n\nNow the structural rule. 'Mae says — every tape diagram has TWO parts and a TOTAL. If the parts are close in size (like 47 and 36), draw them about the same. If one is way bigger (like 75 and 25), draw it bigger.'\n\nHave the child redraw their diagram with both parts labeled. They redraw: rectangle split in half-ish, 47 on left, 36 on right, 83 on top. Affirm.\n\nIf the child STILL won't draw two parts: the part-part-whole concept hasn't anchored. Repair by going back to Lesson 1's chunk strategy. 'You chunked 47 into 40+7 and 36 into 30+6. The TWO PARTS in your tape diagram are 47 and 36 — the things being added.' Connect chunking concept (which they've internalised) to tape-diagram structure.\n\nLong-term recovery: for the next 3 stories, REQUIRE the diagram before the equation. Children who write equations first treat the diagram as redundant and skip it.",
+    "expected_student_responses": [
+      "(Confused) Draws a single rectangle with the answer inside. Doesn't yet see the diagram as a structural representation. Most common at the start of Lesson 2 for transition learners.",
+      "(Mid) Draws two parts but disregards proportion (47 and 36 drawn as if 47 is twice the size). Captures structure but not scale.",
+      "(Strong) Draws a proportionally-correct tape diagram with both parts labeled and total above. Connects diagram to equation explicitly.",
+      "(Stretched) Volunteers that the same diagram could represent multiple problem types — change-add-to (47 + 36 = 83) or part-part-whole (47 + 36 = 83 in a different context). Sees structural unity."
+    ],
+    "common_misconceptions": [
+      "The tape diagram is just the answer. (Children draw only the result. Repair: insist on parts AND total.)",
+      "All parts in a tape diagram are the same size. (Children draw 47 and 36 as identical halves. Repair: emphasise proportion when one part is much bigger.)",
+      "The check-by-reversing is optional. (Children skip it because the equation is already correct. Repair: the check catches arithmetic mistakes — show how it would catch 47+36=82 vs 83.)"
+    ],
+    "recovery_moves": [
+      "Always require the diagram BEFORE the equation. The diagram is the bridge from concrete (chunked counters) to abstract (equation).",
+      "Connect chunking and tape diagrams. 'You chunked 47 and 36; those are the two parts in your tape diagram.' Two strategies, one structural insight.",
+      "Always do the check, even when you're sure. Daily routine: after every equation, write the reversed equation. Becomes automatic by Day 3."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Mae's Big Story Problems",
+    "purpose": "Independent practice of B2.4 (modelling story problems with totals to 100) and B2.1 (relationship between add/sub via check-by-reversing).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Two change-add-to story problems with totals to 100. For each: tape diagram, equation, AND check equation.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Two change-take-from story problems with totals to 100. Same format: diagram + equation + check.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Two part-part-whole story problems (one total-unknown, one missing-addend). Same format.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 4,
+        "task": "Open prompt: 'Write your own change-take-from story with totals near 80. Solve it with a tape diagram, equation, and check.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mae the Multiplier in the worksheet header",
+      "Two change-add-to story scenes with empty tape-diagram frames for Part 1",
+      "Two change-take-from story scenes with empty tape-diagram frames for Part 2",
+      "Two part-part-whole story scenes for Part 3",
+      "A blank tape-diagram template and equation lines for Part 4"
+    ]
+  }
+}

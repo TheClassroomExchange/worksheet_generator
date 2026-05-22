@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Coin Counters — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1, while children are in the partner estimate-then-count phase of the Action segment.",
+    "expectation_focus": [
+      "A6.7",
+      "A6.8"
+    ],
+    "columns": [
+      "estimates_before_counting",
+      "one_to_one_to_15",
+      "count_on_from_non_1",
+      "estimate_within_3_of_actual"
+    ],
+    "usage_notes": "Walk between pairs during the estimation activity. For each child, tick the columns where you see clear evidence; leave blank if not yet observed. 'Estimate within 3 of actual' is the diagnostic signal for emerging quantity-sense. 'Counts on from a given number' captures A6.8 explicitly. Children with blanks across the first three columns may need small-group re-loop on Lesson 1 before continuing.",
+    "layout_description": "One letter page, portrait. Title at top with A6.7/A6.8 expectation focus in a small box below. Date and class header fields. Body is a table: name column (~1.5in), three tick columns (~1.1in each), Notes column (~1.8in). 24 blank student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page in B&W line-art. Title at top: 'Coin Counters — Day 1 Diagnostic Checklist'. Small box below: 'Expectations: A6.7 (estimate) + A6.8 (count to 20 from any number)'. Header fields: 'Date: ____' and 'Class: ____'. 5-column grid table with 24 blank student rows. Column 1 'Student name' ~1.5in wide; columns 2-4 tick boxes ~1.1in each; column 5 'Notes' ~1.8in. Thin grey row dividers, thicker column dividers.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "diagnostic",
+          "estimate",
+          "count"
+        ],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER: keywords (diagnostic, estimate, count) name what the tracker captures."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Coin Counters — Lesson 2 Formative Tracker (Partners of 5)",
+      "when_used": "During Lesson 2, while children are in the Partner Hunt game.",
+      "expectation_focus": [
+        "A6.11"
+      ],
+      "columns": [
+        "Student name",
+        "Names partner instantly (recall)",
+        "Names partner after counting",
+        "Cannot find missing partner",
+        "Connects + and − (says both 3+2=5 and 5−2=3)",
+        "Notes"
+      ],
+      "usage_notes": "Walk between pairs during Partner Hunt. The 'instant vs counting' columns capture recall versus computation — important for A6.11's 'recall' wording. Children who tick 'Cannot find missing partner' need 1:1 reteach with the cube tower visible.",
+      "layout_description": "One letter page, portrait. 6-column grid with 24 student rows. Name column ~1.4in; tick columns ~1in each; Notes ~1.5in.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class formative tracker page in B&W line-art. Title at top: 'Coin Counters — Lesson 2 Formative Tracker (Partners of 5)'. Expectation box: 'A6.11 — recall addition facts to 5'. 6-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "partners",
+            "tracker",
+            "recall"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2: keywords (partners, tracker, recall) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Coin Counters — Lesson 3 Formative Tracker (Operation Choice)",
+      "when_used": "During Lesson 3 station rotations and the mid-unit Numerals 0-10 Check-In worksheet.",
+      "expectation_focus": [
+        "A6.12"
+      ],
+      "columns": [
+        "Student name",
+        "Chooses + correctly (add stories)",
+        "Chooses − correctly (take-away stories)",
+        "Models the start of the story with materials",
+        "Writes the answer as a number sentence",
+        "Mid-unit worksheet score (out of 3)",
+        "Notes"
+      ],
+      "usage_notes": "The 'Chooses + correctly' vs 'Chooses − correctly' columns separate computation from operation choice. Children who get the right ANSWER but the wrong OPERATION are the priority for Day 4 small-group review.",
+      "layout_description": "One letter page, portrait. 7-column grid with 24 student rows. Name ~1.3in; tick columns ~0.9in each; Notes ~1.4in.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class formative tracker page in B&W line-art. Title: 'Coin Counters — Lesson 3 Formative Tracker (Operation Choice)'. Expectation box: 'A6.12 — addition and subtraction situations to 10'. 7-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "operation",
+            "tracker",
+            "story"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3: keywords (operation, tracker, story) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Coin Counters — Lesson 4 Formative Tracker (Sharing Fairly)",
+      "when_used": "During Lesson 4 sharing rounds.",
+      "expectation_focus": [
+        "A6.9"
+      ],
+      "columns": [
+        "Student name",
+        "Deals one at a time (no scoop)",
+        "Checks each plate has the same",
+        "Articulates fair-share rule",
+        "Suggests reasonable leftover plan",
+        "Notes"
+      ],
+      "usage_notes": "The 'Deals one at a time' column is the key strategy signal — children who scoop piles but get the right answer are using calculation, not the K-appropriate dealing strategy. The leftover round flushes them out.",
+      "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class formative tracker page in B&W line-art. Title: 'Coin Counters — Lesson 4 Formative Tracker (Sharing Fairly)'. Expectation box: 'A6.9 — equal-share problems'. 6-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "sharing",
+            "tracker",
+            "deal"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4: keywords (sharing, tracker, deal) name what the tracker captures."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Coin Counters — Summative Rubric",
+    "rows": [
+      {
+        "expectation_code": "A6.7",
+        "expectation_text": "estimate the number of objects in small collections and check by counting",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "With adult prompting, names a number when shown a small collection but the estimate is far from the actual count."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Names an estimate that is sometimes within 5 of the actual; counts to check with support."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently estimates within 3 of the actual count and verifies by counting."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Estimates within 2 of the actual; explains the strategy ('I saw a bunch and added a couple more')."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.8",
+        "expectation_text": "count to 20 by 1s, starting from any number",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Counts to 10 starting from 1; cannot count from any other start."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Counts to 20 starting from 1; counts on from a number with prompting."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Counts to 20 starting from any given number 0-15 without restarting."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Counts to 20 from any start; volunteers count-back from a given number."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.9",
+        "expectation_text": "solve equal-share problems using concrete materials",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Distributes objects unevenly; does not check fairness."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Shares evenly when totals divide cleanly; gives up on leftover scenarios."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Deals one at a time, checks each plate; articulates a leftover plan."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Deals fluently; explains why dealing works for any total; offers multiple leftover plans."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.10",
+        "expectation_text": "describe relationships between any two numbers from 0 to 20",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Identifies which of two numbers is bigger only with strong adult prompting; cannot articulate the relationship in words."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Identifies bigger / smaller for two numbers within 0-10 with prompting; struggles with numbers 11-20."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently describes more, less, equal, or 1-more / 1-less relationships between any two numbers 0-20."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Articulates multiple relationships ('5 is more than 3 AND less than 8 AND 2 less than 7'); spontaneously uses comparison language in everyday counting."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.11",
+        "expectation_text": "recall addition facts to 5 and related subtraction facts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Counts to find sums to 5; cannot recall any partner of 5 instantly."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Recalls 1-2 partners of 5 (typically 4+1 or 2+3); counts up for the rest."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Recalls all 6 partners of 5 instantly and connects each + with its related −."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Recalls partners of 5 fluently; extends spontaneously to partners of 6 or 7."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.12",
+        "expectation_text": "solve situations involving addition and subtraction to 10 using concrete materials",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Models the start with materials but cannot decide which operation; guesses."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Chooses correctly when keywords are obvious; struggles with 'altogether' vs 'left'."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Listens to a story, picks the right operation, models with cubes or coins, writes the equation."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Maps story to operation fluently; writes the equation before modelling; explains the keyword cue."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.13",
+        "expectation_text": "identify and explore the value of Canadian coins to 25¢ and coins and bills to $10",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Names some coins by colour but mixes up the dime and nickel; does not yet attach values."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Names the four coins reliably; states the value when prompted with the chart."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Names all four coins on sight, states their values without the chart, and pays for a 5¢/10¢/25¢ snack with a single matching coin."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Pays for a price multiple ways using coin combinations (e.g., 10¢ as 2 nickels OR 1 dime); explains why combinations are equivalent."
+          }
+        ]
+      }
+    ],
+    "purpose": "End-of-unit summative rubric covering all 7 expectations (A6.7-A6.13). Used by the teacher to score each child against four levels (Beginning, Developing, Achieving, Exceeding). Achieving = on track for K end-of-year expectations.",
+    "usage_notes": "Apply this rubric to each child's combined evidence: the Lesson 1 diagnostic + L2/L3/L4 formative trackers + Lesson 5 summative worksheet. The score is holistic — a child whose summative worksheet was perfect but whose tracker shows operation-choice errors should be Level 3, not Level 4. Record level 1-4 per expectation; the level achieved is the lowest of the relevant evidence sources for that expectation.",
+    "layout_description": "One letter page, landscape orientation. Title at top. Body is a 4-column rubric grid (Level 1, Level 2, Level 3, Level 4) with one row per expectation (7 rows). Each cell ~1.8in × 1.2in, descriptor text in 9pt font.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable summative rubric grid in B&W line-art, landscape letter page. Title at top: \"Coin Counters — Summative Rubric\". 5-column grid (Expectation + 4 levels) with 7 rows (A6.7 through A6.13). Each cell holds the level descriptor text in 9pt font. Thin grey row dividers, slightly thicker column dividers.",
+        "placement": "Full landscape page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "levels",
+          "expectation"
+        ],
+        "text_image_alignment_check": "Image AS_RUBRIC: keywords (rubric, levels, expectation) name what the rubric grid captures."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Lesson 5 Summative Task — Coin Counters at the Snack Shop",
+    "purpose": "End-of-unit summative assessment for the Coin Counters unit. Captures evidence for A6.13 (coin recognition + payment) explicitly and A6.11/A6.12 (coin value composition) through the multi-coin combination prompts. Used as the headline scoring artifact alongside the formative trackers.",
+    "administration_steps": [
+      "Bring children back to the carpet after the small-group rotations on Day 5.",
+      "Hold up the worksheet and walk through the three parts: (1) coin matching grid, (2) snack-shop pay scenes, (3) pay 10 cents three different ways.",
+      "Distribute one worksheet per child. Allow 15 minutes for completion.",
+      "Walk around and record per-child evidence on the Lesson 5 formative tracker (recognition, value, single-coin payment, multi-coin combination).",
+      "Collect worksheets and score against the rubric. Map total to level: 9-10/10 = Level 4; 7-8 = Level 3; 5-6 = Level 2; 0-4 = Level 1."
+    ],
+    "scoring_guidance": "Part 1 (4 matching pairs) captures A6.13 coin recognition. Part 2 (3 priced items) captures A6.13 payment selection. Part 3 (3 different combinations totalling 10 cents) captures A6.11/A6.12 coin value composition. Total score out of 10. Map to summative rubric: 9-10 = Level 4 Exceeding; 7-8 = Level 3 Achieving; 5-6 = Level 2 Developing; 0-4 = Level 1 Beginning.",
+    "evidence_per_expectation": {
+      "A6.7": "Diagnostic tracker — child estimated within 3 of actual.",
+      "A6.8": "Diagnostic tracker — child counted on from a given start without restarting at 1.",
+      "A6.9": "Lesson 4 formative tracker — child dealt one at a time and articulated a leftover plan.",
+      "A6.10": "Lessons 1-3 formative trackers — child described relationships between numbers (more/less/same).",
+      "A6.11": "Lesson 2 formative tracker (Partner Hunt). Summative worksheet Part 3 — coin value composition.",
+      "A6.12": "Lesson 3 formative tracker. Mid-unit Numerals 0-10 Check-In worksheet.",
+      "A6.13": "Lesson 5 formative tracker. Summative worksheet Parts 1-3."
+    }
+  },
+  "certificate": {
+    "title": "Junior Counting Crew Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Coin Counters unit and demonstrating the skills of a Counting Crew chef. Penny and Nick, and Quincy the piggy-bank, congratulate the student and welcome them to the next adventure in numbers and money.",
+    "skills_demonstrated": [
+      "Estimating a small collection and checking by counting",
+      "Counting to 20 starting from any number",
+      "Recalling partners of 5 and connecting addition with subtraction",
+      "Solving snack-shop story problems to 10",
+      "Sharing fairly using the deal strategy",
+      "Naming the four Canadian coins to 25¢ and paying with the right coins"
+    ],
+    "layout_description": "One letter page, portrait. A decorative dashed-line double border surrounds the page. Title centred at top in large script. Below the title, the recipient_field_label and a long horizontal line for the child's name. Below, the achievement_text as a centred paragraph. Below that, a sub-header 'By completing this unit, this student has demonstrated:' followed by the skills_demonstrated list as bullet points. The Penny + Nick + Quincy chefs scene illustration sits at the top centre, inside the border, ~3in tall.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative dashed-line certificate border in B&W line-art, full letter page. Double border with corner flourishes. Inner content area ~6.5in × 9in for the certificate text.",
+        "placement": "Full page border.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate",
+          "counting"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_BORDER: keywords (certificate, counting) name what the page is."
+      },
+      {
+        "id": "AS_CERT_CHEFS",
+        "description": "A celebratory illustration of Penny and Nick (the two child chef Coin Counters) standing side by side with Quincy the piggy-bank between them, all smiling. Penny holds a small jar of pennies; Nick holds a snap-cube tower; Quincy has a coin in his slot. ~3in tall × 4in wide. Centred above the certificate text.",
+        "placement": "Top-centre of the certificate, inside the border.",
+        "approximate_size": "medium",
+        "keywords": [
+          "penny",
+          "nick",
+          "quincy",
+          "chefs"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_CHEFS: keywords (penny, nick, quincy, chefs) name what the illustration shows."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

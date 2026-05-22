@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "lesson_number": 2,
+  "worksheet_title": "Tally's Frequency Builder",
+  "purpose": "Independent practice of D1.2.",
+  "student_learning_goal": "I can build a frequency table with qualitative or quantitative data.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can build a frequency table with qualitative or quantitative data.",
+    "character_watermark": "Tally with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Sort question types.",
+          "student_instructions": "Sort 6 survey questions as QUAL (words) or QUANT (numbers).",
+          "visual_layout": "6 questions with checkboxes.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_SORT",
+              "description": "Six survey questions for Grade 3 worksheet, B&W line art. Each question with QUAL/QUANT checkboxes. Examples: 'Favourite drink' (qual), 'Number of pets' (quant), 'Eye colour' (qual), 'Hours of TV' (quant), 'Favourite season' (qual), 'Number of siblings' (quant).",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "qualitative",
+                "quantitative"
+              ],
+              "text_image_alignment_check": "WS02_P1_SORT at Part 1: keywords name the categories."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Drink: QUAL. Pets: QUANT. Eye colour: QUAL. TV: QUANT. Season: QUAL. Siblings: QUANT."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Build frequency table.",
+          "student_instructions": "Use the tally chart to build a frequency table.",
+          "visual_layout": "Tally chart + frequency table side-by-side.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_BUILD",
+              "description": "A tally chart and blank frequency table for Grade 3 worksheet. Tally chart shows hockey 12, soccer 8, baseball 6, football 4. Right: blank frequency table for the child to fill in.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "tally",
+                "frequency"
+              ],
+              "text_image_alignment_check": "WS02_P2_BUILD at Part 2: keywords name the visual elements."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Hockey: 12. Soccer: 8. Baseball: 6. Football: 4."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make own survey.",
+          "student_instructions": "Make 1 qualitative + 1 quantitative survey question.",
+          "visual_layout": "Two labelled lines for the child to write a qualitative survey question and a quantitative survey question.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_SURVEY",
+              "description": "Two labelled lines for Grade 3 worksheet. 'My QUAL question: ___' and 'My QUANT question: ___'.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "question"
+              ],
+              "text_image_alignment_check": "WS02_P3_SURVEY at Part 3: keyword names the activity (question)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid pair of survey questions."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, give 1 question that could be either type.",
+  "teacher_notes": "Lesson 2 consolidation. Use Part 1 as formative."
+}

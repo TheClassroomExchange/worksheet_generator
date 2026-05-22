@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "thematic_title": "Bug Busters",
+  "descriptive_title": "Grade 3 Mathematics: Algebra (Coding) — Sequential, Concurrent, and Repeating Events Without Screens (C3.1-C3.2)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+  "curriculum_codes": ["C3.1", "C3.2"],
+  "curriculum_expectations": {
+    "C3.1": "solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events",
+    "C3.2": "read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on coding without screens (C3.1-C3.2) framed around 'Bug Busters' — Buzz the Bug-Buster Beetle and Patch the Repair Pup. Day 1 introduces concurrent events. Day 2 writes code with concurrent events. Day 3 reads code and finds bugs. Day 4 alters buggy code to fix it. Day 5 closes with child-invented bug-busting projects. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will write and execute code with sequential, concurrent, and repeating events; read and alter buggy code; and describe how changes affect outcomes.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Concurrent Events", "primary_expectations": ["C3.1"], "secondary_expectations": [], "big_idea": "Some events happen AT THE SAME TIME (concurrent) instead of one after another. Two robots moving at once = concurrent.", "student_learning_goal": "I can identify and write code with concurrent events.", "one_line_summary": "Buzz introduces concurrent events; children identify which events run at the same time vs in order."},
+    {"lesson_number": 2, "lesson_title": "Writing Concurrent Code", "primary_expectations": ["C3.1"], "secondary_expectations": [], "big_idea": "Concurrent code uses parallel lanes. Two actions in the same time-step run together.", "student_learning_goal": "I can write code with concurrent events.", "one_line_summary": "Children write 2-lane code: one robot does X while the other does Y, all in the same time-step."},
+    {"lesson_number": 3, "lesson_title": "Finding Bugs", "primary_expectations": ["C3.2"], "secondary_expectations": ["C3.1"], "big_idea": "A BUG is a problem in code that makes the outcome wrong. Bug Busters find bugs by tracing code carefully.", "student_learning_goal": "I can find a bug in existing code and explain it.", "one_line_summary": "Children read code with planted bugs; trace and identify what went wrong."},
+    {"lesson_number": 4, "lesson_title": "Fixing Bugs", "primary_expectations": ["C3.2"], "secondary_expectations": [], "big_idea": "We fix bugs by altering the code. Change the wrong step, the wrong number, or the wrong order.", "student_learning_goal": "I can fix a bug by altering the code.", "one_line_summary": "Children take buggy code and alter it to produce the correct outcome."},
+    {"lesson_number": 5, "lesson_title": "Bug Buster Capstone", "primary_expectations": ["C3.1", "C3.2"], "secondary_expectations": [], "big_idea": "We can write our own code AND plant a bug for a partner to find.", "student_learning_goal": "I can write code, plant a bug, and check my partner's fix.", "one_line_summary": "Children write code with concurrent events, plant a bug, swap, debug, share."}
+  ],
+  "expectation_lesson_map": {"C3.1": [1, 2, 3, 5], "C3.2": [3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Buzz the Bug-Buster Beetle", "role": "Lead character. A friendly beetle with a magnifying glass and a wrench. Anchors all 5 lessons.", "visual_description": "A friendly beetle with a hard hat, magnifying glass, wrench, big eyes. Cheerful smile, antenna with bug detector."},
+    {"name": "Patch the Repair Pup", "role": "Buzz's partner. The 'fix-it' character. Cameo Lessons 2-5.", "visual_description": "A young dog with a tool belt and bandage roll. Eager expression, tail wagging."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "concurrent", "child_friendly_definition": "Happening at the same time."},
+    {"term": "sequential", "child_friendly_definition": "Happening one after another in order."},
+    {"term": "repeating", "child_friendly_definition": "Doing the same thing many times (a loop)."},
+    {"term": "bug", "child_friendly_definition": "A problem in code that makes the outcome wrong."},
+    {"term": "alter", "child_friendly_definition": "To change something on purpose."},
+    {"term": "outcome", "child_friendly_definition": "What the code makes happen."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_grid_mat", "name": "2-Lane Coding Grid Mat", "description": "Letter-size mat with 2 robot lanes for concurrent code.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M2_code_cards", "name": "Code Step Cards", "description": "30 step cards (forward, turn, repeat).", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M3_bug_cards", "name": "Buggy Code Cards", "description": "12 cards with planted bugs.", "used_in_lessons": [3, 4], "clipart_files": []},
+    {"id": "M4_robot_markers", "name": "Robot Markers (2 colours)", "description": "10 robot tokens, 2 colours.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M5_concurrent_chart", "name": "Concurrent vs Sequential Chart", "description": "Anchor chart.", "used_in_lessons": [1, 2], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Bug Buster Capstone Template", "description": "Letter-size template.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_loop_cards", "name": "Loop Cards", "description": "8 cards: Repeat 2, 3, 4, 5.", "used_in_lessons": [2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_alter_cards", "name": "Code Alteration Cards", "description": "8 cards.", "used_in_lessons": [4], "clipart_files": []},
+    {"id": "M9_bug_chart", "name": "Bug Type Anchor Chart", "description": "Chart of common bug types: wrong step, wrong number, wrong order.", "used_in_lessons": [3, 4], "clipart_files": []},
+    {"id": "M10_buster_poster", "name": "Bug Busters Anchor Poster", "description": "Poster of Buzz and Patch.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "2-Lane Coding Grid Mats (1 per pair)",
+    "Code Step Cards (30)",
+    "Buggy Code Cards (12)",
+    "Robot Markers (10, 2 colours)",
+    "Concurrent vs Sequential Chart",
+    "Bug Buster Capstone Templates (1 per child)",
+    "Loop Cards (8)",
+    "Code Alteration Cards (8)",
+    "Bug Type Anchor Chart",
+    "Bug Busters Anchor Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 concurrent snapshot.",
+    "formative": "Lesson 2 writing tracker; Lesson 3 finding tracker; Lesson 4 fixing tracker.",
+    "summative": "Lesson 5 Bug Buster worksheet."
+  },
+  "pedagogical_notes": [
+    "C3.1 with concurrent events is the Grade-3 expansion. Use 2-lane mat to visualise.",
+    "Bugs are normal. Frame them as part of coding, not failure.",
+    "Trace code carefully — bugs hide in subtle places.",
+    "Alteration to fix a bug is the same skill as altering for any reason.",
+    "Concurrent events parallel real-world simultaneity — cooking 2 dishes, 2 kids playing."
+  ],
+  "canadian_context_notes": [
+    "Concurrent: 2 hockey games at the same time on different rinks.",
+    "Sequential: Tim Hortons line — order, then pay, then receive.",
+    "Repeating: skating laps around the rink."
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "lesson_number": 5,
+  "lesson_title": "My Real-Life Math",
+  "duration_minutes": 50,
+  "primary_expectations": ["C4"],
+  "secondary_expectations": [],
+  "big_idea": "We can model ANY real-life situation. Pick a topic from your life, ask a question, build a model.",
+  "learning_intention": "We are learning to model a real-life situation from our own life.",
+  "student_learning_goal": "I can model a real-life situation from my own life.",
+  "success_criteria": [
+    "I can pick a real-life situation that interests me.",
+    "I can walk through the modelling cycle: situation → question → data → predict → reflect.",
+    "I can share my model with the class."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": ["model", "data", "predict", "refine", "real-life situation"],
+  "manipulatives_used": ["M6_capstone_template", "M7_situation_cards", "M9_syrup_jar_template", "M3_modelling_chart", "M10_sugar_bush_poster"],
+  "lesson_specific_materials": [
+    "Maple and Sap Sam together",
+    "Per-child capstone modelling template",
+    "Real-life situation cards (12) for inspiration",
+    "Syrup jar template for the certificate ceremony",
+    "Lesson 5 capstone tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Closing Showcase",
+    "hook": "Now you model YOUR life. Pick a situation. Walk through all 5 steps.",
+    "teacher_script": "Bring children to the carpet. Maple + Sap Sam. 'Friends — today you become MATHEMATICAL MODELLERS. Pick a real-life situation from your own life. Walk through the cycle: SITUATION, QUESTION, DATA, PREDICT, REFLECT.'\n\nShow the modelling cycle chart. 'You've practiced each step. Today you do them ALL together.'\n\nShow examples:\n- 'My class snack box: how many crackers per kid? If 24 kids share 60 crackers, predict each gets 2-3.'\n- 'Recess weather: how many sunny days this week? Data → predict.'\n- 'Library books I read: 1 book per night × 7 nights = 7 books per week.'\n\n'Pick something from YOUR life. Walk through the 5 steps. We share at the end.'",
+    "student_actions": [
+      "Look at the modelling cycle chart.",
+      "Brainstorm potential topics.",
+      "Pick a topic.",
+      "Plan the cycle."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Capstone Modelling",
+    "structure": "individual",
+    "steps": [
+      {"step_number": 1, "instruction": "Hand out capstone templates. Children pick a topic and walk through the modelling cycle: write the situation, the question, collect/imagine data, make a prediction, reflect.", "teacher_prompt": "Say to students: 'Use the template. Walk through ALL 5 steps.'"},
+      {"step_number": 2, "instruction": "Children work for 12-15 minutes individually. Teacher circulates and prompts.", "teacher_prompt": "Stop at each child. Check completeness — situation, question, data, predict, reflect."},
+      {"step_number": 3, "instruction": "Stretch challenge: include a refinement based on imagined or real data.", "teacher_prompt": "Say to extending children: 'Add a refinement step.'"},
+      {"step_number": 4, "instruction": "Gallery walk: children swap templates and read each other's models.", "teacher_prompt": "Say to students: 'Swap with a partner. Read their model. Tell them ONE thing you liked.'"},
+      {"step_number": 5, "instruction": "Whole-class share: 5-6 children share their model aloud.", "teacher_prompt": "Pick variety: snacks, sports, friends, daily routines."}
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a starter situation card.",
+      "for_extending": "Stretch: invent a model with two refinements.",
+      "for_ell_or_iep": "Provide picture-supported templates with sentence frames.",
+      "for_movement_learners": "Allow them to act out their model with classmates."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks a coherent topic; walks through all 5 steps; shares with the class.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Coherent topic",
+        "All 5 steps complete",
+        "Shares with class",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Closing Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most surprising model you saw today?",
+      "Why do we use the modelling CYCLE (with arrows back)?",
+      "What's something in your life you'll model after this unit?",
+      "What's the difference between data and prediction?"
+    ],
+    "exit_routine": "Each child receives a Junior Mathematical Modeller certificate. Quick whisper: 'My model was about ___'. Maple and Sap Sam say goodbye with a final modelling demo using the class's collective stories."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Full modelling cycle from a child-chosen topic.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures the C4 summative integration. Children at L4 walk through all 5 steps with a coherent real-life topic."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child can't pick a topic and freezes — repairing the choice paralysis on capstone day",
+    "rationale": "The most common Grade-1 trap on the capstone is choice paralysis: the child wants the perfect topic and freezes when given full freedom. They've practiced each step but the open invention paralyses them.\n\nThe walkthrough covers the precise moment when a child stares at a blank template.",
+    "setup": "Child has the capstone template open. Empty. They look stuck.",
+    "teacher_script": "Crouch beside the child. 'Hard to pick a topic? That's normal. Let's narrow.' Ask: 'What did you do this morning?' 'Brushed teeth, ate breakfast.' 'Pick one. Brushed teeth. Now — math question?' 'How many seconds to brush?' 'YES. Data — actually time it. Predict — 60 seconds. Reflect — was it close?'\n\nAny topic works. The child just needs ONE prompt.\n\nLong-term recovery: provide situation cards as starters.",
+    "expected_student_responses": [
+      "(Confused) Stares at blank template; can't pick.",
+      "(Mid) Picks with prompts.",
+      "(Strong) Picks topic and walks through cycle.",
+      "(Stretched) Includes a refinement and projects future improvement."
+    ],
+    "common_misconceptions": [
+      "I need a perfect topic. (Repair: any topic works.)",
+      "Modelling is hard. (Repair: every step we've practised.)",
+      "Other people will judge my topic. (Repair: showcase celebrates variety.)"
+    ],
+    "recovery_moves": [
+      "Use situation cards. Pre-built topics ease choice paralysis.",
+      "Ask 'what did you do today?' Anything is a model topic.",
+      "Praise the topic regardless of how 'big' it seems."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My Real-Life Model",
+    "purpose": "Summative evidence for C4.",
+    "parts_outline": [
+      {"part_number": 1, "task": "Topic + 1-sentence situation description.", "response_type": "draw_or_write"},
+      {"part_number": 2, "task": "Math question about the situation.", "response_type": "write"},
+      {"part_number": 3, "task": "Data collected (count, measure, observe).", "response_type": "draw_or_write"},
+      {"part_number": 4, "task": "Prediction based on the data.", "response_type": "write"},
+      {"part_number": 5, "task": "Reflection — would my model need refining?", "response_type": "draw_or_write"}
+    ],
+    "expected_image_assets": [
+      "Maple and Sap Sam together in the worksheet header (final unit appearance)",
+      "Topic and situation slot for Part 1",
+      "Question slot for Part 2",
+      "Data area with table or drawing for Part 3",
+      "Prediction line for Part 4",
+      "Reflection area for Part 5"
+    ]
+  }
+}

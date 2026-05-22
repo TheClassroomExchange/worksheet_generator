@@ -1,0 +1,65 @@
+{
+  "unit_id": "g3_algebra_real_life_modelling",
+  "pair_number": 2,
+  "subject": "Mathematics",
+  "alignment": 3,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough and teacher_script never explicitly bridge to Day 1's question-asking ('remember yesterday Coach Cara asked HOW MANY...?') or forward-reference Day 3's predictions; lesson sits as a standalone Step 2 demo rather than an arc beat.",
+      "required_fix": "Add a sentence in minds_on teacher_script that explicitly recalls Lesson 1's community questions (e.g., 'Yesterday we wrote questions like \"How many people use the rink?\" — today we COUNT the answer') and a closing line in consolidation that hands off to Lesson 3 ('Tomorrow Coach Cara will use this data to PREDICT next Saturday's count').",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough trap 'child writes \"about 200\" for community counts' is real but cites no research and recovery_moves are a flat list ('Provide tally chart with 100s row', 'Drill count, don't guess', 'Praise tallies') with no diagnostic branching by what the child shows.",
+      "required_fix": "Anchor the trap to research (e.g., Sarama & Clements 2009 on counting-to-quantity transition at scale, or Carpenter & Moser CGI work on counting strategies for larger numbers) and branch recovery_moves: if the child can count to 100 reliably, provide a 100s-grouped tally template; if the child loses track past ~30, drop back to skip-count-by-5s on a number line first; if the child resists tallying, model one full row aloud then hand the marker over.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials and differentiation never offer a no-paper, no-purchase alternative path; even the 'movement_learners' note ('Walk around tallying classroom things') still implicitly requires a chart, and there is no body/voice-only fallback for a day prep wasn't possible.",
+      "required_fix": "Add an explicit no-materials variant in differentiation: e.g., 'No-paper version — pairs tally on fingers in groups of 5, then trade a closed fist for one chalk stroke on the board; the body becomes the tally chart.' Make it parallel to the index-card sound-box no-materials example in the rubric.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Coach Cara and Sport Sam anchor every section and success_criteria all start with 'I can', but neither character has a quotable refrain and consolidation/exit_routine ('Each child writes ONE community data point on a sticky note') has no memorable chant or sentence frame children carry between lessons.",
+      "required_fix": "Give Coach Cara a recurring refrain children chant back at consolidation, e.g., 'Coach Cara COUNTS — she doesn't GUESS!' and convert the exit ticket sentence frame to a fixed chant: 'I counted ___. My data is ___. Coach Cara COUNTS — she doesn't GUESS!' so it carries into Lessons 3-5.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The action steps prescribe one tally method ('group by 5s, 10s, 100s') and discussion_prompts include 'difference between counting and measuring' but children never invent or compare alternative data-collection strategies — there is no moment where two pairs share different ways of organising 245 book returns and class compares them.",
+      "required_fix": "Add a step where two pairs at Station B share their tally organisation (e.g., one used groups of 10, another used 100s rows), and the class compares which strategy was faster/more accurate; name the underlying principle ('unitising' / Battista or Empson on quantity composition) in the expanded_walkthrough rationale.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ]
+}

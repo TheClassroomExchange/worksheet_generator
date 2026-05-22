@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "lesson_number": 1,
+  "worksheet_title": "Plus the Pup's Adding Machine",
+  "purpose": "Independent practice of B2.2 (facts to 10) with explicit attention to commutativity (B2.1). Captures diagnostic-level evidence for the unit.",
+  "student_learning_goal": "I can recall addition facts up to 10 and show that 3+4 and 4+3 have the same total.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can recall addition facts up to 10 and show that 3+4 and 4+3 have the same total.",
+    "character_watermark": "Plus the Adding Pup in the top-right corner with a green '+' bandana, paws holding two-colour counters. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Fact-Family Triangles",
+          "student_instructions": "Each triangle holds two addition facts. Fill in the missing number on each triangle. Then write the two addition facts the triangle holds.",
+          "visual_layout": "Top half of the page. Six fact-family triangles arranged in a 2x3 grid. Each triangle is ~1.6in tall with a sum at the top and two addends at the bottom corners (one number missing in each). Below each triangle, two equation lines: '___ + ___ = ___' and '___ + ___ = ___'.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_SIX_TRIANGLES",
+              "description": "Six fact-family triangles in B&W line-art, arranged in a 2-row × 3-column grid. Each triangle ~1.6in tall, with the sum number at the top vertex (in a circle) and two addend numbers at the bottom corners (in circles). One number per triangle is shown as a blank dotted circle. Pre-fills: T1 sum=7, addends 4 and ?; T2 sum=8, addends 3 and ?; T3 sum=10, addends 6 and ?; T4 sum=6, addends ? and 4; T5 sum=9, addends ? and 5; T6 sum=10, addends 7 and ?. Below each triangle, two equation lines.",
+              "placement": "Top half of the page; six triangles in a 2x3 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "triangle",
+                "addends",
+                "sum"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_SIX_TRIANGLES: keywords (triangle, addends, sum) name what the triangles show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "T1: 3 (4+3=7, 3+4=7). T2: 5 (3+5=8, 5+3=8). T3: 4 (6+4=10, 4+6=10). T4: 2 (2+4=6, 4+2=6). T5: 4 (4+5=9, 5+4=9). T6: 3 (7+3=10, 3+7=10)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Ten-Frame Adding",
+          "student_instructions": "Each ten-frame shows red counters and yellow counters. Write the addition equation. Then write the SWAPPED equation underneath.",
+          "visual_layout": "Middle of the page. Four ten-frame scenes in a 2x2 grid. Each scene ~2.5in wide × 1.5in tall, showing a single ten-frame with red dots and yellow dots. Below each scene, two equation lines: '___ + ___ = ___' and 'Swap: ___ + ___ = ___'.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_FOUR_TEN_FRAMES",
+              "description": "Four ten-frame scenes in B&W line-art, arranged in a 2-row × 2-column grid. Each ten-frame is a 2x5 grid of 10 cells. Pre-fills: TF1 — 5 red dots in top row + 2 yellow dots in bottom row; TF2 — 4 red + 3 yellow; TF3 — 6 red + 4 yellow; TF4 — 3 red + 5 yellow. Red dots are solid filled circles; yellow dots are open (unfilled) circles. Below each ten-frame, two equation lines.",
+              "placement": "Middle of the page; four ten-frames in 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "ten-frame",
+                "red",
+                "yellow"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_FOUR_TEN_FRAMES: keywords (ten-frame, red, yellow) name what the ten-frames show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "TF1: 5+2=7, swap 2+5=7. TF2: 4+3=7, swap 3+4=7. TF3: 6+4=10, swap 4+6=10. TF4: 3+5=8, swap 5+3=8."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Plus the Pup's Two Paws",
+          "student_instructions": "Plus the Pup has 6 treats in one paw. He has some treats in the other paw. Plus has 9 treats ALTOGETHER. How many are in the second paw? Draw the answer and write the equation.",
+          "visual_layout": "Bottom of the page. Plus the Pup illustration with two paws extended. Left paw shows 6 treats. Right paw is empty (~3in × 2in box for the child to draw the missing treats). Below the illustration, an equation line: '6 + ___ = 9' and a second blank line for the answer sentence: 'There are ___ treats in the second paw.'",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_PLUS_TWO_PAWS",
+              "description": "Plus the Adding Pup illustration in B&W line-art, ~5in tall, sitting upright with both paws extended forward. Left paw holds 6 small round treats (drawn as circles). Right paw is empty with a light-grey 3in × 2in dashed-outline box where the child draws. Below the illustration, the equation line and the answer sentence.",
+              "placement": "Bottom of the page; full-width illustration plus equation and sentence lines.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "paws",
+                "treats"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_PLUS_TWO_PAWS: keywords (paws, treats) name what the illustration shows."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Child draws 3 treats in the second paw. Equation: 6 + 3 = 9. Sentence: 'There are 3 treats in the second paw.'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and write THREE more fact-family triangles of your own. Pick any three sums between 5 and 10.",
+  "teacher_notes": "Lesson 1 consolidation. Hand out at the end of the Action phase. Most children should complete Parts 1 and 2 with minimal prompting. Watch for: (a) Part 1 children who write only ONE fact per triangle (missing the swap) — flag for commutativity reteach in Lesson 2 warm-up; (b) Part 2 children who get the equation but not the swap — same flag; (c) Part 3 children who count up from 6 vs. those who recall 6+3=9 — diagnostic evidence for fact-recall fluency. Use Part 1 results as evidence for the diagnostic checklist columns 'Recall fluent for facts to 10' and 'Can produce the swapped fact'."
+}

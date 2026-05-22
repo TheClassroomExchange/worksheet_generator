@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "overall_unit_grader",
+  "status": "revise",
+  "scores": {
+    "pedagogical_depth": 4,
+    "alignment": 4,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "arc_coherence": 4,
+    "code_coverage": 4,
+    "capstone_integration": 3,
+    "vocabulary_progression": 4,
+    "character_continuity": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 4
+  },
+  "category_feedback": [
+    {
+      "category": "capstone_integration",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_05 action.steps[3] sends pairs to only THREE ratio-themed stations: Station A Recipe, Station B Money, Station C Distance. None is named as mirroring a Day 1-4 skill. The walkthrough rationale claims 'Today integrates Lessons 1-4' but the station structure does not realise it.",
+      "required_fix": "Restructure L5 action into FOUR stations, each named after a prior day: A 'Recipe Algorithm' (L1 regrouping in ratio sums), B 'Toolkit Ratios' (L2 x2/x5/x10 facts as scale factors), C 'Array Scale-Up' (L3 distributive on a ratio), D 'Fraction Ratios' (L4 unit fraction in a 1:2 recipe). Capstone tracker records evidence per station.",
+      "affected_stages": ["lesson_05", "worksheet_05", "5_assessment_suite"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "character_continuity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Blueprint recurring_characters[2] declares Pixel the Practice Pal 'appears at every station... Cameo across all 5 lessons'. Pixel never appears in L1-L4 minds_on, action steps, or consolidation scripts. Pixel only surfaces in the L5 worksheet watermark and certificate.",
+      "required_fix": "Add a one-line Pixel cameo to every L1-L4 action station (e.g., 'Pixel buzzes by Station A flashing the day's fact card') and to each consolidation exit routine. Update worksheets 1-4 headers to include a small Pixel watermark beside Tony/Maya so the visual cameo promise is delivered.",
+      "affected_stages": ["lesson_01", "lesson_02", "lesson_03", "lesson_04", "worksheet_01", "worksheet_02", "worksheet_03", "worksheet_04"],
+      "affected_pairs": [1, 2, 3, 4],
+      "severity": "blocking"
+    }
+  ],
+  "pairs_to_revise": [1, 2, 3, 4, 5],
+  "summary": "Foundational four solid: traps cite Fuson, Hiebert/Wearne, CGI, Anghileri, Baroody, Lamon; codes B2.1-B2.9 each map to named activities; materials everyday with no-paper variants in L1/L2/L5; Tony and Maya voices consistent. Two arc threes block pass: L5 has only 3 ratio-themed stations so capstone does not explicitly mirror Days 1-4; and Pixel, billed as cameo across all 5 lessons, is invisible in L1-L4 scripts. Fix L5 station restructure plus Pixel cameos in L1-L4."
+}

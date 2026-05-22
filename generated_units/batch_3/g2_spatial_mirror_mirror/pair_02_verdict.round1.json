@@ -1,0 +1,65 @@
+{
+  "unit_id": "g2_spatial_mirror_mirror",
+  "pair_number": 2,
+  "subject": "Mathematics",
+  "alignment": 3,
+  "pedagogical_depth": 3,
+  "instructional_balance": 4,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title and rationale focus only on E1.2 within Lesson 2; no cross-reference to Lesson 1's sides/symmetry work or to Lesson 3's congruence (which builds on matching/decomposing). The pair sits in isolation rather than bridging the unit's arc.",
+      "required_fix": "Add an explicit bridge in expanded_walkthrough or teacher_script: e.g., 'Yesterday Symmy SORTED shapes by sides — today we DECOMPOSE them into smaller shapes. Tomorrow we test if two shapes are CONGRUENT — same idea, MATCHING the parts.' Tie to Day 1 sides/angles vocabulary that the children already learned.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use a transparent grid overlay.', 'Drill count, dont judge by spread.', 'Multiple rearrangements.'] — concrete but not branched by what the diagnostic told you, and no research is cited (this is a classic Piagetian conservation-of-area trap; Battista on spatial reasoning, or Outhred & Mitchelmore 2000 on area measurement, would anchor it).",
+      "required_fix": "Branch the recovery: if the child counts correctly but still claims spread = more, do the transparent-grid overlay; if the child miscounts (skips/double-counts tiles), drop back to one-to-one tile tagging with a finger before re-tackling conservation. Cite Piaget's conservation-of-area task or Battista's spatial-reasoning research in the rationale field.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = \"Each child rearranges 4 tiles 2 ways: 'My 4 tiles can look like ___ AND ___. Area stays ___.'\" — a sentence frame, but Flippy and Symmy have no memorable quotable refrain that children carry between lessons. Compare to the rubric's Level 4 example ('HOO knows the sounds? YOU do!').",
+      "required_fix": "Give Flippy a distinctive refrain children chant back at every consolidation, e.g., 'Same tiles, SAME area — Flippy's rule!' or 'Rearrange, rearrange — area DOESN'T change!' Quote it in teacher_script and have children echo it in the exit_routine so it carries to Lessons 3-5.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale: 'child sees an L-shape made of 6 tiles and a 2x3 rectangle made of 6 tiles, says the L-shape looks bigger so has more area' — accurate but not named in research-grounded terms. Children also do not get to invent/refine/compare strategies; the action steps prescribe the moves rather than soliciting strategies for comparison.",
+      "required_fix": "Name the misconception as Piagetian conservation-of-area failure (or Battista on area-as-count vs perimeter conflation) in expanded_walkthrough.rationale. In action step 4, add a strategy-share: 'Two pairs share their arrangements. Class compares: did anyone find a way without re-counting? Did anyone PREDICT before counting?' Let children compare counting-each-time vs. predicting-then-verifying.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 2 ('Decompose a hexagon into 6 triangles') introduces a hexagon-into-triangles decomposition that the lesson did not explicitly model — the lesson uses square unit tiles into rectangles/L-shapes/rows. This is a reasonable transfer task but the deliberate variation is not justified anywhere in worksheet.teacher_notes or worksheet_brief.",
+      "required_fix": "Either (a) add a brief hexagon-into-triangles demo in lesson minds_on or action so the worksheet practises what the lesson taught, OR (b) keep the transfer but justify it in worksheet.teacher_notes: 'Part 2 deliberately VARIES the decomposition (hexagon into triangles, not square tiles into rectangles) to verify children generalize area-conservation beyond unit squares.'",
+      "affected_stages": ["worksheet_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 2,
+  "worksheet_title": "Tig's Build Sheet",
+  "purpose": "Independent practice of E1.2 — building 3D structures and finding 2D shapes inside.",
+  "student_learning_goal": "I can build a 3D structure and find 2D shapes inside it.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can build a 3D structure and find 2D shapes inside it.",
+    "character_watermark": "Trekker Tig in the top-right corner with paper blocks. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [{"page_number": 1, "parts": [
+    {
+      "part_number": 1,
+      "part_title": "Part 1: Find shapes in 3 structures.",
+      "student_instructions": "Look at each 3D structure. Count and name the 2D shapes you can see.",
+      "visual_layout": "Three structure illustrations stacked vertically. Each has a blank line below for shape names and counts.",
+      "image_placeholders": [
+        {
+          "id": "WS02_P1_STRUCTURES",
+          "description": "Three 3D structure illustrations for a Grade 1 worksheet, B&W line art with light shading. Structure 1: a tower of 3 cubes (so 3 squares visible front-on). Structure 2: a cube with a pyramid on top — 'cabin' shape (squares on cube + triangles on pyramid). Structure 3: a cylinder + 2 cubes 'bridge' (rectangles + squares + circles). Below each structure, blank lines for the child to write shape names and counts.",
+          "placement": "Centred vertically in Part 1.",
+          "approximate_size": "full_width",
+          "keywords": ["structures", "shapes"],
+          "text_image_alignment_check": "Image WS02_P1_STRUCTURES at Part 1: instructions ask the child to find shapes in 3D structures. Keywords name the visual elements."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Structure 1: squares (multiple). Structure 2: squares + triangles. Structure 3: rectangles + squares + circles."
+    },
+    {
+      "part_number": 2,
+      "part_title": "Part 2: Build a tower in your mind.",
+      "student_instructions": "Imagine a tower of 4 cubes. Draw it. List the shapes you see.",
+      "visual_layout": "Top half: blank drawing space (~4in × 3in). Bottom half: a list area with 5 numbered lines for shapes.",
+      "image_placeholders": [
+        {
+          "id": "WS02_P2_TOWER",
+          "description": "A blank drawing space and shape list for a Grade 1 worksheet, B&W line art. Top: a ~4in × 3in blank rectangle with thin solid border for the child to draw a 4-cube tower. Bottom: 5 numbered list lines for shape names.",
+          "placement": "Centred horizontally; spans Part 2.",
+          "approximate_size": "full_width",
+          "keywords": ["tower", "cubes"],
+          "text_image_alignment_check": "Image WS02_P2_TOWER at Part 2: instructions ask the child to draw a tower. Keywords name the structure type."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Drawing of 4 stacked cubes. Shape list: squares (visible per face). Strong answers note multiple squares per cube."
+    },
+    {
+      "part_number": 3,
+      "part_title": "Part 3: Build any structure.",
+      "student_instructions": "Build (or draw) any structure. Find 3+ different 2D shapes inside.",
+      "visual_layout": "Large blank drawing space (~5in × 4in) with a list area below for shape names.",
+      "image_placeholders": [
+        {
+          "id": "WS02_P3_FREE",
+          "description": "A large blank drawing space for a Grade 1 worksheet, ~5in × 4in with thin solid border, plus a small list area below with 4 lines for shape names. Designed for the child's own structure design.",
+          "placement": "Centred horizontally; spans Part 3.",
+          "approximate_size": "full_width",
+          "keywords": ["structure", "shapes"],
+          "text_image_alignment_check": "Image WS02_P3_FREE at Part 3: instructions ask the child to build any structure. Keywords name the activity."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any structure with at least 3 different 2D shapes named."
+    }
+  ]}],
+  "early_finisher_prompt": "If you finish, build a structure with all 5 different 3D shapes.",
+  "teacher_notes": "Lesson 2 consolidation artifact. Use Part 1 as the formative signal for 'turn and find' — children who count shapes from multiple faces have grasped the rule."
+}

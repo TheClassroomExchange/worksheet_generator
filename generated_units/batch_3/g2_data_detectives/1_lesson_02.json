@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "lesson_number": 2,
+  "lesson_title": "Two-Way Tally Tables",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Two-way tally tables ROW-by-ROW capture TWO PIECES of information per data point.",
+  "learning_intention": "We are learning to make a two-way tally table.",
+  "student_learning_goal": "I can make a two-way tally table.",
+  "success_criteria": [
+    "I can ask 2 survey questions.",
+    "I can record answers in a 2-way table.",
+    "I can total each ROW and COLUMN."
+  ],
+  "vocabulary_introduced": [
+    "two-way tally"
+  ],
+  "vocabulary_reinforced": [
+    "Venn diagram"
+  ],
+  "manipulatives_used": [
+    "M3_two_way_table",
+    "M9_question_cards",
+    "M7_data_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Two-Way Tally Tables'",
+    "Two-Way Tally Template (1 per pair)",
+    "Survey Question Cards (12)",
+    "Lesson 2 tally tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tally Builds a Two-Way Table",
+    "hook": "Tally: I asked TWO questions: favourite snack AND favourite drink. Now I record BOTH answers per child! Dot opens: 'BOTH? Only one? Or NEITHER?' Tally adds: 'Row, Column, Cell!'",
+    "teacher_script": "Bring children to the carpet. Detective Dot and Tally puppets. 'Friends — yesterday Venn and Carroll. Today TWO-WAY TALLY TABLES.'\n\nIntroduce vocabulary. Write TWO-WAY TALLY on chart. 'Two-way tally = a table with rows AND columns. Each cell is the count of children who chose THIS row AND THIS column.'\n\nDemo. Draw on chart:\n\n          | Apple | Cookie\nMilk      |       |\nWater     |       |\n\n'Ask: snack? Drink? Tally each child in BOTH cells!'\n\nExample: 'Bea picks cookie + milk. Tally in cookie+milk cell.' || mark.\n'Maple picks apple + water. Tally in apple+water cell.' | mark.\n\nMore examples. Tally 5 students. Show row totals and column totals.\n\n'Tally says — every CHILD = 1 tally in 1 cell. Row total = how many for that DRINK. Column total = how many for that SNACK.'\n\n'Today YOU survey 2 questions and tally.'",
+    "student_actions": [
+      "Watch Tally",
+      "Echo 'two-way tally'",
+      "Practice 2-question surveys",
+      "Practice cell-tallying"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Two-Way Tally Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: tally 6 children's snack + drink choices in 2x2 table.",
+        "teacher_prompt": "Say: 'Both answers. One cell.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Use a survey card and tally 8 classmates. B: Total rows + columns. C: Make own 2-question survey.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at Station C: 3x3 table.",
+        "teacher_prompt": "Say: 'Stretch: 3 categories per question.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss row vs column totals.",
+        "teacher_prompt": "Show: row total = drink totals; column = snack totals."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their two-way tables for the same survey data. Class compares: 'Did you label rows the same? Did you get the same joint counts?' Cite English (1993) cross-classification — table format MUST preserve joint counts regardless of row/column choice.",
+        "teacher_prompt": "Tally: 'Different headers, same data — but the JOINT COUNTS must match.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. 2x2 only.",
+      "for_extending": "3x3 stretch.",
+      "for_ell_or_iep": "Pre-printed table.",
+      "for_movement_learners": "Children stand in 2x2 grid by their answers."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: asks 2 questions; tallies in correct cell; totals rows + columns.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Asks 2 questions",
+        "Tallies in cell",
+        "Totals rows/columns",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tally's 2-Way Brag",
+    "discussion_prompts": [
+      "What's a two-way tally?",
+      "What does each CELL mean?",
+      "What's the row total?",
+      "What's the column total?"
+    ],
+    "exit_routine": "Detective Dot's table refrain — class chants: 'Row says ___. Column says ___. Cell says BOTH!' Each child fills one cell and reads it aloud as a joint count."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Two-way tally accuracy.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures D1.2 mastery."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child tallies BOTH answers in TWO cells — repairing the double-count trap at Grade 2",
+    "rationale": "On two-way tally tables, the trap is the SAME cross-classification difficulty surfaced through a different display: child can name a row OR a column attribute but cannot trace a CELL to its joint (row, column) coordinate (Inhelder & Piaget 1964; English 1993 on 2-D matrices in young children).\n\nYesterday Lesson 1 sorted by two rules with Venn/Carroll. Today the same two-attribute thinking goes into a TABLE — rows are one attribute, columns the other, cells are the joint count. Lesson 3 builds bar graphs from this; Lesson 4 finds mode; Lesson 5 capstones.",
+    "setup": "Pair is at Station A. Bea picks cookie + milk. Child tallies '|' in cookie row, then '|' in milk row separately — 2 tallies total.",
+    "teacher_script": "Crouch. 'You tallied Bea TWICE. But Tally says — ONE child = ONE tally. Where do BOTH her answers cross?'\n\nGuide. Find the cell where COOKIE row meets MILK column. Place tally THERE. Erase the duplicates.\n\nGeneralise. 'Two-way tables work by INTERSECTION. Each cell = HOW MANY chose that BOTH combination.'\n\nIf still doubling: provide a tally template with example arrows pointing to one cell only.\n\nLong-term recovery: every two-way tally uses 'one child, one cell'.",
+    "expected_student_responses": [
+      "(Confused) Doubles tallies.",
+      "(Mid) Single-tallies with prompts.",
+      "(Strong) Single-tallies independently.",
+      "(Stretched) Totals row + column accurately."
+    ],
+    "common_misconceptions": [
+      "Two questions = 2 tallies. (Repair: 1 child = 1 cell.)",
+      "Cells are independent. (Repair: cells are intersections.)",
+      "Row total = column total. (Repair: they're different sums.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child fills cells but ignores row/column labels: ALWAYS-VISIBLE labels, child reads the row label aloud before placing the tally; reads column label aloud second.",
+      "DIAGNOSTIC B — child confuses rows and columns: lay the table horizontally on the floor; child stands on a row and walks along columns to find the cell.",
+      "DIAGNOSTIC C — child can find a cell but can't articulate joint count: drill 'this cell counts students who are BOTH ___ AND ___'; child re-says before recording."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tally's Two-Way Survey",
+    "purpose": "Independent practice of D1.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Read a 2-way table. Find row and column totals.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Survey 6 classmates. Make a 2x2 table.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Make your own 2-way survey at home.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tally in worksheet header",
+      "Pre-built 2-way table for Part 1",
+      "Blank 2-way table for Part 2",
+      "Blank table for Part 3"
+    ]
+  }
+}

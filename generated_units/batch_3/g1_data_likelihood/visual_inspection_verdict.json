@@ -1,0 +1,13 @@
+{
+  "unit_id": "g1_data_likelihood",
+  "status": "pass",
+  "inspected_at": "2026-05-10T18:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch2",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 19, "description": "M6 Likelihood Lab Capstone Template now shows clean zone labels 'Coin / Dice / Marbles / Weather' with NO meta-text leakage (the R21 'Section headings: COIN' leak is FIXED). Template displays 4 of the 5 expected zones; the 5th 'Sort' zone is not visible — likely cut off due to layout capacity, but visible labels are clean."},
+    {"page": 22, "description": "M10 'Will It? Maybe!' poster: only 2 of 6 cells (Lucky, Maybe Mae) have character art; other 4 cells show stub labels 'Tiny Example / Around them / Possible / Certain'. Cosmetic, carryover."},
+    {"page": 14, "description": "M2 Likelihood Sort Mat shows 5-point fractional scale (0, 1/4, 1/2, 3/4, 1); brief is for 3-zone G1 likelihood. Content drift, not visual."}
+  ],
+  "summary": "PASS. Zone extractor fix is working - M6 capstone (page 19) now shows clean labels 'Coin / Dice / Marbles / Weather' with NO 'Section headings: COIN' leak. 2-row D2.1/D2.2 rubric fully readable. Worksheets render with real titles, instructions, ruled workspace - no debug stubs. Characters (Lucky, Maybe Mae) render correctly."
+}

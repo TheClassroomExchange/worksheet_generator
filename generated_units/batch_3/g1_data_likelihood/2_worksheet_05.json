@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 5,
+  "worksheet_title": "Lucky's Likelihood Lab",
+  "purpose": "Summative artifact applying D2.1 + D2.2 across 5 mini-experiments. Used as Lesson 5 capstone evidence.",
+  "student_learning_goal": "I can predict, test, and tell if my prediction was right.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can predict, test, and tell if my prediction was right.",
+    "character_watermark": "Lucky and Mae together in lab coats in the top-right corner. Small (~1.5in combined). References blueprint.recurring_characters."
+  },
+  "pages": [{"page_number": 1, "parts": [
+    {
+      "part_number": 1,
+      "part_title": "Part 1: COIN flips.",
+      "student_instructions": "Predict 5 coin flips. Then flip a real coin and record results.",
+      "visual_layout": "A 2-column 5-row table. Columns: 'Predict' and 'Result'.",
+      "image_placeholders": [
+        {
+          "id": "WS05_P1_COIN",
+          "description": "A 2-column 5-row prediction table for a Grade 1 capstone worksheet. Header: 'Predict' and 'Result'. 5 rows for H/T entries. Above the table, a small coin icon labelled 'COIN' (~0.6in).",
+          "placement": "Centred horizontally; spans Part 1.",
+          "approximate_size": "medium",
+          "keywords": ["coin", "predict"],
+          "text_image_alignment_check": "Image WS05_P1_COIN at Part 1: instructions ask the child to predict and test coin flips. Keywords name the visual element and activity."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any 5 predictions paired with 5 actual flip results."
+    },
+    {
+      "part_number": 2,
+      "part_title": "Part 2: MARBLE pulls.",
+      "student_instructions": "Bag has 4 RED + 1 BLUE marble. Predict 5 pulls. Then pull and record (replace each marble!).",
+      "visual_layout": "Top: a marble bag illustration (4 red, 1 blue). Below: 2-column 5-row table for predictions and results.",
+      "image_placeholders": [
+        {
+          "id": "WS05_P2_MARBLES",
+          "description": "A marble pull layout for a Grade 1 capstone worksheet. Top: an open bag with 4 red marbles + 1 blue marble visible (each ~0.5in). Below: a 2-column 5-row prediction table with header 'Predict' and 'Result'.",
+          "placement": "Centred horizontally; spans Part 2.",
+          "approximate_size": "full_width",
+          "keywords": ["marbles", "red", "blue"],
+          "text_image_alignment_check": "Image WS05_P2_MARBLES at Part 2: instructions ask the child to predict and test marble pulls. Keywords name the visual elements."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Most predictions = RED (more likely 4 of 5). Results may vary; both columns should reflect actual pulls. Most pulls should be red over time."
+    },
+    {
+      "part_number": 3,
+      "part_title": "Part 3: Sort and summarize.",
+      "student_instructions": "Sort 6 events as IMPOSSIBLE, POSSIBLE, or CERTAIN. Then write: 'I predicted ___ and the result was ___.'",
+      "visual_layout": "Top: 6 event cards arranged in a sort area with 3 destination columns (I/P/C). Below: a sentence-frame writing line.",
+      "image_placeholders": [
+        {
+          "id": "WS05_P3_SORT_SUMMARY",
+          "description": "A sort + summary layout for a Grade 1 capstone worksheet. Top: 6 small event cards (each ~2in × 0.6in) listed and 3 column areas labelled IMPOSSIBLE / POSSIBLE / CERTAIN where the child writes the events. Below: a single sentence-frame line 'I predicted ___ and the result was ___.'.",
+          "placement": "Centred horizontally; spans Part 3.",
+          "approximate_size": "full_width",
+          "keywords": ["sort", "events"],
+          "text_image_alignment_check": "Image WS05_P3_SORT_SUMMARY at Part 3: instructions ask the child to sort 6 events and write a sentence. Keywords name the activity (sort) and items (events)."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Sort: distribute 6 events into 3 columns appropriately (2 each ideally). Summary: any sentence using 'predicted' and 'result' from any of the experiments."
+    }
+  ]}],
+  "early_finisher_prompt": "If you finish, predict tomorrow's weather. Tell why.",
+  "teacher_notes": "Lesson 5 capstone — summative evidence. Score against the rubric. Look for: predictions made BEFORE results (Part 1, 2); use of likelihood reasoning (Part 2); valid sort across 3 categories (Part 3); coherent summary sentence (Part 3)."
+}

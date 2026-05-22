@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Place Value Detectives — Day 1 Place-Value Snapshot",
+    "when_used": "During Lesson 1 stations.",
+    "expectation_focus": [
+      "B1.1",
+      "B1.4"
+    ],
+    "columns": [
+      "Student name",
+      "Reads 3-digit numbers correctly",
+      "Builds with correct H/T/O counts",
+      "Names digit values (e.g., '3 in 132 is 30')",
+      "Skip-counts to 200 by 25s",
+      "Notes"
+    ],
+    "usage_notes": "Walk between pairs at all three stations. The 'reads correctly' and 'builds correctly' columns are the diagnostic gate — children who confuse 132 vs 312 (digit-order issue) need place-value reteach during Lesson 2 small groups. The 'skip-counts by 25s' column captures B1.4 explicitly.",
+    "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page in B&W line-art. Title: 'Place Value Detectives — Day 1 Place-Value Snapshot'. Expectations: B1.1 + B1.4. 6-column grid with 24 student rows.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "diagnostic",
+          "place-value"
+        ],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER: keywords (diagnostic, place-value) name what the tracker captures."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Place Value Detectives — Lesson 2 Formative Tracker (Decompositions)",
+      "when_used": "During Lesson 2 station rotations.",
+      "expectation_focus": [
+        "B1.1",
+        "B1.2"
+      ],
+      "columns": [
+        "Student name",
+        "Writes 3+ decompositions of one target",
+        "Compares using hundreds-first rule",
+        "Orders 4+ numbers correctly",
+        "Notes"
+      ],
+      "usage_notes": "The 'compares using hundreds-first rule' column captures B1.2 mastery. Children who default to ones-first reasoning (89 > 102 because 9 > 2) need explicit reteach with base-ten blocks.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Place Value Detectives — Lesson 2 Formative Tracker (Decompositions)'. Expectations: B1.1 + B1.2. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "decomposition",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2: keywords (decomposition, tracker) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Place Value Detectives — Lesson 3 Formative Tracker (Even/Odd)",
+      "when_used": "During Lesson 3 station rotations.",
+      "expectation_focus": [
+        "B1.5"
+      ],
+      "columns": [
+        "Student name",
+        "Uses pair-up test with cubes",
+        "Applies last-digit rule",
+        "Connects skip-2 to even numbers",
+        "Notes"
+      ],
+      "usage_notes": "The 'last-digit rule' column captures B1.5 mastery — children who try to apply majority-of-digits reasoning (27 = 'half-and-half') need the pair-up test demo. The skip-2 connection is the bridge to multiplicative thinking.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Place Value Detectives — Lesson 3 Formative Tracker (Even/Odd)'. Expectation: B1.5. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "even-odd",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3: keywords (even-odd, tracker) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Place Value Detectives — Lesson 4 Formative Tracker (Estimation)",
+      "when_used": "During Lesson 4 station rotations.",
+      "expectation_focus": [
+        "B1.3"
+      ],
+      "columns": [
+        "Student name",
+        "Uses chunk strategy proactively",
+        "Selects right chunk size for collection",
+        "Estimate within 10% of actual",
+        "Notes"
+      ],
+      "usage_notes": "The 'right chunk size' column captures B1.3 mastery — children who default to chunk-of-10 on a 175-item jar are at L2; those who switch to chunk-of-100 are at L3-L4.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Place Value Detectives — Lesson 4 Formative Tracker (Estimation)'. Expectation: B1.3. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "estimation",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4: keywords (estimation, tracker) name what the tracker captures."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Place Value Detectives — Summative Rubric",
+    "purpose": "End-of-unit rubric covering all 7 expectations B1.1-B1.7. Used to score each child against four levels.",
+    "rows": [
+      {
+        "expectation_code": "B1.1",
+        "expectation_text": "read, represent, compose, and decompose whole numbers up to and including 200, using a variety of tools and strategies, and describe various ways they are used in everyday life",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Reads numerals to 99 reliably; struggles with 3-digit numbers; confuses 132 vs 312."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Reads numerals to 200 with prompts; builds with correct counts but sometimes wrong placements."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Reads, builds, and decomposes numbers to 200 with at least the standard hundreds-tens-ones split."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Produces multiple flexible decompositions (e.g., 132 = 100+30+2 = 130+2 = 100+20+12); volunteers real-life uses for 3-digit numbers."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.2",
+        "expectation_text": "compare and order whole numbers up to and including 200, in various contexts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Defaults to ones-first or biggest-digit reasoning. Gets cross-hundred comparisons wrong (89 > 102)."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Applies hundreds-first rule with prompts. Gets same-hundreds comparisons right but reverts on edge cases."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently applies hundreds-first rule. Compares and orders 4+ numbers to 200 correctly including cross-hundred pairs."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Articulates the place-value rule unprompted; orders 5+ numbers including same-hundreds-different-tens close pairs; extends rule to 3+ digit comparisons."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.3",
+        "expectation_text": "estimate the number of objects in collections of up to 200 and verify their estimates by counting",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Guesses without strategy; estimates often more than 25 off at scale 200."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Uses chunk-of-10 with prompting; over-uses it for huge collections; estimates within 20% of actual."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Selects chunk-of-10 vs chunk-of-100 based on collection size; estimates within 10% of actual at scale 200."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Uses hybrid strategy (chunk-of-100 for bulk + chunk-of-10 for remainder); estimates within 5% of actual; explains the strategy choice unprompted."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.4",
+        "expectation_text": "count to 200, including by 20s, 25s, and 50s, using a variety of tools and strategies",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Counts by 5s and 10s starting from 0; cannot skip-count by 25s or 50s."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Counts by 25s and 50s starting from 0 with prompts; struggles to start from non-multiple."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Counts by 20s, 25s, 50s to 200 starting from 0 or other multiples; uses the 0-200 number line as scaffold."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Skip-counts fluently from any number; volunteers count-back by 25s or 50s; uses skip-counting in real-life contexts."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.5",
+        "expectation_text": "describe what makes a number even or odd",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Pairs up small concrete collections; doesn't yet recognise that leftover means odd. Or applies majority-of-digits reasoning ('27 is half-and-half')."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Uses pair-up test for collections under 20; applies last-digit rule with prompts on bigger numbers."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently applies the last-digit rule for any number to 200. Connects skip-counting by 2s to even numbers."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Articulates WHY only the last digit decides (the tens always pair perfectly; only the ones can have a leftover); extends to 3+ digit numbers; volunteers connections to multiples of 2."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.6",
+        "expectation_text": "use drawings to represent, solve, and compare the results of fair-share problems that involve sharing up to 10 items among 2, 3, 4, 5, 6, 8, and 10 sharers",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Distributes objects unevenly OR stops at 'fair share with leftover' for small numbers; cannot handle 3+ sharers fluently."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Shares evenly when totals divide cleanly; struggles to match the leftover-fraction to the number of sharers."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Shares fairly between 2, 3, 4, or 6 sharers including fractional leftovers (cuts into halves, thirds, sixths to match)."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Generalises to 5, 8, 10 sharers; volunteers when a leftover requires multiple cuts; explains why fraction matches sharers."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.7",
+        "expectation_text": "recognize that one third and two sixths of the same whole are equal, in fair-sharing contexts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Recognises thirds and sixths as separate fractions; does not yet see 1/3 = 2/6 even with overlay demo."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Recognises 1/3 = 2/6 after the pizza-overlay demo."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Recognises 1/3 = 2/6 unprompted; applies to a new context (e.g., share scenarios)."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Generalises to other equivalences (e.g., 2/3 = 4/6, 1/2 = 3/6); volunteers connections to compose/decompose; sees fraction equivalence as a structural property."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Apply this rubric to each child's combined evidence: diagnostic tracker (Lesson 1) + L2/L3/L4 formative trackers + summative worksheet (Lesson 5). The level achieved is the LOWEST of the relevant evidence sources for that expectation.",
+    "layout_description": "One letter page, landscape. 5-column grid (Expectation + 4 levels) with 7 rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable summative rubric grid in B&W line-art on a landscape letter page. 5-column grid with 7 rows (B1.1 through B1.7). Each cell holds the level descriptor in 9pt font.",
+        "placement": "Full landscape page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "levels",
+          "expectation"
+        ],
+        "text_image_alignment_check": "Image AS_RUBRIC: keywords (rubric, levels, expectation) name what the rubric grid captures."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Lesson 5 Summative Task — Fair Shares and Fraction Equivalence",
+    "purpose": "End-of-unit summative assessment. Captures evidence for B1.6 (fair-share with 2-10 sharers including fractional leftovers) and B1.7 (1/3 = 2/6 equivalence) explicitly via the worksheet.",
+    "administration_steps": [
+      "Bring children back to the carpet after the small-group rotations on Day 5.",
+      "Hold up the worksheet and walk through the four parts: (1) even shares, (2) fractional shares, (3) equivalence prompt, (4) reasoning prompt.",
+      "Distribute one worksheet per child. Allow 15 minutes for completion.",
+      "Walk around and record per-child evidence on the fair-share + fraction tracker.",
+      "Collect worksheets and score against the rubric: 9-10/10 = Level 4; 7-8 = Level 3; 5-6 = Level 2; 0-4 = Level 1."
+    ],
+    "scoring_guidance": "Part 1 (2 even-share scenes, score out of 4): captures B1.6 baseline. Part 2 (2 fractional-share scenes, score out of 4): captures B1.6 mastery (matching fraction to sharers). Part 3 (equivalence prompt, score out of 1): captures B1.7. Part 4 (reasoning prompt, score out of 1): captures B1.7 mastery. Total score out of 10. Map to summative rubric: 9-10 = Level 4 Exceeding; 7-8 = Level 3 Achieving; 5-6 = Level 2 Developing; 0-4 = Level 1 Beginning.",
+    "evidence_per_expectation": {
+      "B1.1": "Lesson 1 diagnostic — child reads/builds 3-digit numbers; Lesson 2 formative — flexible decomposition.",
+      "B1.2": "Lesson 2 formative — applies hundreds-first comparison rule.",
+      "B1.3": "Lesson 4 formative — selects right chunk strategy and gets within 10% of actual.",
+      "B1.4": "Lesson 1 diagnostic — skip-counts by 25s; Lesson 4 reinforcement.",
+      "B1.5": "Lesson 3 formative — applies last-digit rule; explains pair-up test.",
+      "B1.6": "Summative worksheet Parts 1 + 2.",
+      "B1.7": "Summative worksheet Parts 3 + 4."
+    }
+  },
+  "certificate": {
+    "title": "Junior Place Value Detective Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For completing the 5-Day Place Value Detective unit. Hugo, Tina, and Ona welcome a new Junior Detective.",
+    "skills_demonstrated": [
+      "Reading and representing numbers to 200 with base-ten blocks",
+      "Composing and decomposing numbers to 200 in flexible ways",
+      "Comparing and ordering numbers to 200 using place-value reasoning",
+      "Estimating collections of up to 200 with the chunk strategy",
+      "Counting to 200 by 20s, 25s, and 50s",
+      "Describing what makes a number even or odd"
+    ],
+    "layout_description": "One letter page, portrait. A decorative dashed-line double border surrounds the page. Title centred at top. Below the title, the recipient_field_label and a long horizontal line for the child's name. The Hugo + Tina + Ona illustration sits at the top centre, ~3in tall. Below the achievement_text, a sub-header 'By completing this unit, this student has demonstrated:' followed by the skills_demonstrated list as bullet points.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative dashed-line certificate border in B&W line-art, full letter page. Double border with corner flourishes featuring small detective magnifying-glass icons.",
+        "placement": "Full page border.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate",
+          "border"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_BORDER: keywords (certificate, border) name what the page is."
+      },
+      {
+        "id": "AS_CERT_FRIENDS",
+        "description": "Illustration of Detective Hugo Hundreds + Detective Tina Tens + Detective Ona Ones standing side by side, all smiling. Hugo with his 'HUNDREDS' top hat; Tina with her striped vest; Ona with her '1' badge and paper-clip evidence bag. ~3in × 4in.",
+        "placement": "Top-centre of the certificate, inside the border.",
+        "approximate_size": "medium",
+        "keywords": [
+          "hugo",
+          "tina",
+          "ona"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_FRIENDS: keywords (hugo, tina, ona) name what the illustration shows."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

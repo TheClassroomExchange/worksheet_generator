@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_coding_little_programmers",
+  "lesson_number": 4,
+  "lesson_title": "Find the Bug",
+  "duration_minutes": 40,
+  "primary_expectations": [
+    "B11.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "TEST your code. If wrong, REFINE — find the BUG and fix it!",
+  "learning_intention": "We are learning to test and refine our steps.",
+  "student_learning_goal": "I can test and refine my steps.",
+  "success_criteria": [
+    "I can FOLLOW a code and TEST it.",
+    "I can SAY 'bug!' when wrong.",
+    "I can FIND the wrong step.",
+    "I can FIX the wrong step."
+  ],
+  "vocabulary_introduced": [
+    "bug"
+  ],
+  "vocabulary_reinforced": [
+    "forward",
+    "back",
+    "left",
+    "right",
+    "above",
+    "below",
+    "beside",
+    "between",
+    "code"
+  ],
+  "manipulatives_used": [
+    "M1_floor_mat",
+    "M5_code_strips",
+    "M8_bug_cards",
+    "M7_coding_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Bot the Robot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "OPTIONAL: Buggy the Beetle — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Test and Refine'",
+    "Bug Cards (12)",
+    "Code Strips",
+    "Lesson 4 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Buggy's Bug Hunt",
+    "hook": "Buggy the Beetle: BZZ! Friends, sometimes code has a BUG — a mistake! TEST first. Then FIX! Buggy opens: 'TEST it, FIX it, TEST it AGAIN!' Yesterday on Day 3 we RECORDED codes with arrows. Today we HUNT bugs in them.",
+    "teacher_script": "Bring children to the carpet. Buggy the Beetle puppet (small green felt with magnifying glass). 'Coder friends — meet Buggy! Buggy finds BUGS in code!'\n\nDefine. 'BUG = a MISTAKE in code. The code says one thing, but Bot ends up in the wrong spot.'\n\nDemo. Place Bot at A and apple at B3. Show a broken code: → ↑ ↑ ↑.\n\n'Test! → (forward = B1). ↑ (up = B1 still, then maybe up to A2?). Hmm. Bot ends at A4, not B3. BUG!'\n\n'Buggy says — TEST means try the code and see where Bot lands.'\n\nFind the bug. 'The first step should be →, ✓. Second should be →, but it's ↑. BUG! Fix to →. Now: → → ↑ ↑.'\n\nTest fix. 'Bot lands at B3 = apple! WORKS!'\n\n'Buggy says — TEST + FIND BUG + FIX = REFINE!'\n\nNow show 4 sample bug cards:\n1. Code: → → → → (too many forwards).\n2. Code: → ↑ ← ↓ (zigzag — bug in direction).\n3. Code: ↑ ↑ → → (wrong start direction).\n4. Code: → → ↑ (missing one step).\n\nClass tries each, finds bug, fixes.\n\n'Buggy says — every programmer fixes BUGS. It's NORMAL!'",
+    "student_actions": [
+      "Watch Bot + Buggy demo",
+      "Echo bug definition",
+      "Read 4 sample bugs",
+      "Find bug in 1 sample"
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Fix 4 Buggy Codes",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out 4 Bug Cards. Pairs test each code.",
+        "teacher_prompt": "Say: 'Test 4.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Find the BUG and write the FIXED code.",
+        "teacher_prompt": "Say: 'Find and fix.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: explain WHERE the bug was.",
+        "teacher_prompt": "Say: 'Stretch: explain.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help by walking the code on a tape mat.",
+        "teacher_prompt": "Show: walk and check."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After step 2, prompt 'How did you test? Walk it, trace with finger, mental?' Two pairs share. Class compares which test catches more bugs. Cite Brennan & Resnick (2012).",
+        "teacher_prompt": "Buggy: 'Different tests, same goal. Walking is SLOW but never lies.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Fix 2 simple bugs.",
+      "for_extending": "Create your own buggy code for a partner.",
+      "for_ell_or_iep": "Pre-printed BUG sticker.",
+      "for_movement_learners": "Walk each broken code on tape grid."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: tests; identifies bug; fixes; explains; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Tests code",
+        "Identifies bug",
+        "Fixes code",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Buggy's Bug Brag",
+    "discussion_prompts": [
+      "What's a BUG?",
+      "What does TEST mean?",
+      "What's REFINE?",
+      "Why are bugs OK?"
+    ],
+    "exit_routine": "Bot+Buggy debug refrain — 'TEST it, FIX it, TEST it AGAIN!' (3x). Each child names one bug + their fix."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Bug-find tracker.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures B11.2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says 'no bug' but the code IS wrong — repairing the no-test trap at Kindergarten",
+    "rationale": "On debugging, the K trap is trust-the-code disposition (Brennan & Resnick 2012 'New Frameworks for CT'): child runs the code, reaches the wrong place, and accepts the result instead of finding the bug.\n\nYesterday Lesson 3 wrote arrow code. Today we DEBUG it. Lesson 5 capstones.",
+    "setup": "Bug activity. Child says 'no bug' for code → → → → (overshoots).",
+    "teacher_script": "Crouch. 'Buggy asks — let's TEST. Move Bot one step at a time.'\n\nProbe. '→. Bot at B1. → again. C1. → again. D1. → again. Bot OFF the mat! BUG!'\n\nGeneralise. 'Buggy says — TEST = follow each step. Don't trust a glance!'\n\nIf still no test: walk it together. 'Step 1: forward.' 'Step 2: forward.' 'Step 3: forward — wait, off the mat!'",
+    "expected_student_responses": [
+      "(Confused) 'No bug.'",
+      "(Mid) Test with prompts.",
+      "(Strong) Tests independently.",
+      "(Stretched) Explains the off-mat issue."
+    ],
+    "common_misconceptions": [
+      "Code without test = correct. (Repair: always test.)",
+      "Bug = obvious. (Repair: subtle bugs need testing.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child runs code but accepts wrong destination: drill 'compare planned destination to ACTUAL'; child names the step that diverged.",
+      "DIAGNOSTIC B — child finds bug location but can't fix: model 'change ONE arrow' single-edit principle.",
+      "DIAGNOSTIC C — child fixes but can't articulate: force 'I changed step ___ from ___ to ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Buggy's Bug Hunt",
+    "purpose": "Independent practice of B11.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Test 3 codes — circle BUG or NO BUG.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "For 1 buggy code, cross out the wrong arrow and replace.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write a new code that reaches the apple (no bug!).",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Bot and Buggy in worksheet header",
+      "3 codes for Part 1",
+      "Buggy code for Part 2",
+      "Map for Part 3"
+    ]
+  }
+}

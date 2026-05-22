@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 4,
+  "lesson_title": "Altering IF-THEN Code",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Changing the condition or the action changes the outcome.",
+  "learning_intention": "We are learning to alter IF-THEN code and describe the effect.",
+  "student_learning_goal": "I can alter IF-THEN code and describe the effect.",
+  "success_criteria": [
+    "I can change a condition and predict how the outcome changes.",
+    "I can change an action and predict how the outcome changes.",
+    "I can swap branches and describe the effect."
+  ],
+  "vocabulary_introduced": [
+    "alter"
+  ],
+  "vocabulary_reinforced": [
+    "condition",
+    "action",
+    "IF-THEN",
+    "true",
+    "false",
+    "outcome"
+  ],
+  "manipulatives_used": [
+    "M1_if_then_cards",
+    "M2_condition_cards",
+    "M3_action_cards",
+    "M4_input_cards",
+    "M5_alteration_cards",
+    "M8_two_colour_counters",
+    "M9_truth_chart",
+    "M10_if_then_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Inspector If and Then the Action Dog — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Alter and Predict'",
+    "Code Alteration Cards (8)",
+    "IF-THEN Statement Cards (24)",
+    "Lesson 4 altering tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Inspector If Alters Code",
+    "hook": "Original code: IF >10, THEN BIG. New code: IF >20, THEN BIG. What changed? Inspector If opens: 'NEW code, NEW trace!' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Inspector If + Then the Action Dog puppets. 'Friends — yesterday we READ code. Today we ALTER it. Altering means CHANGING.'\n\nIntroduce vocabulary. Write ALTER on the chart. 'To alter is to change something on purpose. We alter code by changing a condition or an action.'\n\nIf shows two codes side by side.\nORIGINAL: IF >10, THEN BIG.\nALTERED: IF >20, THEN BIG.\n\n'What changed? The CONDITION — from >10 to >20. The action stayed the same.'\n\nTrace original with input 15. '15 > 10? YES → BIG.' Trace altered with same input 15. '15 > 20? NO → not BIG.' 'Same input, different outcome. The alteration CHANGED the outcome for input 15.'\n\nMore examples:\nALTER the action: IF >10, THEN BIG → IF >10, THEN HUGE. Same condition, different word.\nALTER both: IF even, THEN clap → IF odd, THEN stomp. Both branches changed.\nSWAP branches: IF even, THEN clap; ELSE stomp → IF even, THEN stomp; ELSE clap. The branches are swapped.\n\n'Inspector If says — every alteration changes the OUTCOME for some inputs. We predict how.'\n\n'Today we alter IF-THEN code and describe the effect.'",
+    "student_actions": [
+      "Listen to Inspector If alter code.",
+      "Echo new vocabulary: 'alter'.",
+      "Predict outcomes after alterations.",
+      "Try one alteration independently."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "IF-THEN Alteration Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: alter 4 codes together. (a) IF >10 THEN BIG → change to >5. (b) IF even THEN clap → change action to jump. (c) IF >20 THEN HIGH → swap branches with ELSE LOW. (d) IF multiple of 5 THEN star → change to multiple of 10.",
+        "teacher_prompt": "Say to students: 'Alter the code. Predict the outcome for input 15 BEFORE and AFTER.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Change Condition — pair gets 6 codes; alter the condition; predict outcomes. Station B: Change Action — pair alters the action of 6 codes; predicts outcomes. Station C: Swap Branches — pair swaps TRUE and FALSE branches of 6 codes; predicts outcomes.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: chain TWO alterations on the same code. Predict the cumulative effect.",
+        "teacher_prompt": "Say to extending pairs: 'Stretch: alter twice in a row. Predict how the combined alteration changes outcomes.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss alteration types. 'Three kinds: (1) change condition (different inputs match), (2) change action (different outcome for matching inputs), (3) swap branches (TRUE becomes FALSE behavior, vice versa).'",
+        "teacher_prompt": "Make a 3-column chart on the anchor: condition / action / swap. Examples in each column."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the altering tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What did you change? How did the outcome change?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: Each pair writes TWO different alterations of the same original code that produce the SAME altered outcome for a chosen input. Two pairs share. Class explains why both work. Cite Lister (2011) trace-before-writing: alteration requires fresh tracing each time.",
+        "teacher_prompt": "Inspector If: 'Different alterations, same outcome. The math says: many paths to the same answer.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Alter only the condition. Use clearly different inputs.",
+      "for_extending": "Stretch at Station C: chain TWO alterations.",
+      "for_ell_or_iep": "Provide a structured frame: 'Original: ___. Altered: ___. The outcome for input ___ changed from ___ to ___.'",
+      "for_movement_learners": "Act out the original and altered behaviours. Compare side by side."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: alters the code; predicts the new outcome; describes the difference.",
+      "how_to_record": "Tick the altering tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Alters condition or action",
+        "Predicts new outcome",
+        "Describes the effect",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Inspector If's Alter Brag",
+    "discussion_prompts": [
+      "What does ALTER mean?",
+      "What 3 kinds of alterations did we try?",
+      "Can an alteration leave the outcome the same? Give an example.",
+      "Why is altering useful?"
+    ],
+    "exit_routine": "Inspector If's Day-4 refrain — class chants: 'NEW code, NEW trace!' (3x). Then carry-over: 'CHECK the IF — THEN do the THEN!' Each child writes ONE alteration they made and the input where it changed the outcome."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Code alteration accuracy and outcome prediction.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures C3.2 mastery for altering conditional code. Children at L4 alter code in 3 ways and predict each new outcome."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child alters the code but predicts the same outcome — repairing the alteration-doesn't-matter trap",
+    "rationale": "When children alter existing IF-THEN code (Day 4 task: change the THEN action, swap branches, or add a condition), the dominant Grade-2 trap is keeping the OLD trace in mind — child predicts the post-alteration output as if the code hadn't changed. Lister (2011, 'Concrete and Other Neo-Piagetian Forms of Reasoning in the Novice Programmer') frames this as the trace-before-writing principle: each alteration demands a fresh mental trace.\n\nLesson 2 wrote IF-THEN code; Lesson 3 traced it; today's alteration work primes Lesson 5's capstone where children design + alter their own multi-step projects.",
+    "setup": "Pair is at Station A. Original: IF >10 THEN BIG; ELSE SMALL. Altered: IF >20 THEN BIG; ELSE SMALL. Input 15. Child predicts BIG.",
+    "teacher_script": "Crouch beside the child. 'You altered the condition from >10 to >20. Now let's TRACE the altered code with input 15.'\n\nThe child re-traces. 'Is 15 > 20? Pause.' 'No.' 'Right. So the condition is FALSE. The ELSE action runs. Outcome: SMALL.'\n\n'See? The alteration CHANGED the outcome for input 15. From BIG (when the threshold was 10) to SMALL (when the threshold is 20).'\n\nGeneralise. 'Inspector If says — every alteration must be RE-TRACED. The new code is a NEW code. Don't carry over the old outcome.'\n\nNow check. 'For which inputs did the outcome change? Inputs between 11 and 20 — they used to be BIG, now they're SMALL. Inputs ≤10 stayed SMALL. Inputs >20 stayed BIG.'\n\nIf the child STILL carries old outcomes: provide a side-by-side template. 'Original | Altered. Trace each separately.' Use it as a checklist.\n\nLong-term recovery: every alteration task starts with a fresh re-trace. Build the re-trace reflex.",
+    "expected_student_responses": [
+      "(Confused) Carries old outcomes; doesn't re-trace.",
+      "(Mid) Re-traces with prompts; identifies changed inputs.",
+      "(Strong) Re-traces independently; describes which inputs changed.",
+      "(Stretched) Identifies the boundary inputs that changed; predicts cumulative effects of multiple alterations."
+    ],
+    "common_misconceptions": [
+      "Alterations don't change outcomes. (Repair: alterations usually change SOME outcomes.)",
+      "I don't need to re-trace. (Repair: every altered code needs a fresh trace.)",
+      "Same input = same outcome. (Repair: altered code can give a different outcome for the same input.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child predicts pre-alteration outcome: force a RE-TRACE — child reads each line of the NEW code aloud before predicting any output.",
+      "DIAGNOSTIC B — child alters but the gate logic doesn't change: highlight the IF clause; child re-says aloud what changed before tracing again.",
+      "DIAGNOSTIC C — child alters but cannot articulate effect: side-by-side diff — original code vs altered code; child names ONE specific input where the outcome differs."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Inspector If's Alterations",
+    "purpose": "Independent practice of C3.2 (alter IF-THEN code).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Alter the condition in 4 codes. Predict new outcomes for given inputs.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Alter the action in 4 codes. Predict new outcomes.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Swap branches in 2 codes. Describe the effect.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Inspector If in the worksheet header",
+      "4 condition-alteration tables for Part 1",
+      "4 action-alteration tables for Part 2",
+      "2 branch-swap descriptions for Part 3"
+    ]
+  }
+}

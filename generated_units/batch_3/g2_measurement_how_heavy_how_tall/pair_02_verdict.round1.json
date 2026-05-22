@@ -1,0 +1,58 @@
+{
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "pair_number": 2,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson 2 covers E2.2 (100 cm = 1 m, fingernail/hockey stick benchmarks) faithfully and curriculum_expectations text matches input_row, but the expanded_walkthrough and teacher_script never reference Lesson 1's non-standard units arc or bridge forward to Lesson 3's ruler work. There is no explicit teacher language like 'remember yesterday when Roo measured with cubes — today we use STANDARD units instead.'",
+      "required_fix": "Add explicit cross-references in minds_on teacher_script: open with a callback to Lesson 1 ('yesterday Roo measured with hand-spans — today STANDARD units cm/m so everyone agrees') and close consolidation by previewing Lesson 3 ('tomorrow Roo will use a RULER to measure cm exactly — start at ZERO!'). This bridges the unit arc per Level 4 alignment.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child says 100 cm = 100 m — repairing the same-unit-different-name trap at Grade 2' names a real trap with concrete repair (lay out 100 cm strips to reach 1 m), but no research is cited and recovery_moves do not branch by diagnostic. recovery_moves = ['Use side-by-side ruler.', 'Drill one hundred cm makes one metre.', 'Lay out 100 cm strips.'] — same fix regardless of why the child is stuck.",
+      "required_fix": "Cite a named source (e.g., Lehrer 2003 on measurement units, or Sarama & Clements 2009 measurement learning trajectories on unit-iteration before unit-conversion) in the rationale, AND branch recovery_moves: if child denies cm and m are different sizes, do the lay-out demo; if child knows they differ but writes 100 cm = 100 m, drill 'one hundred small ones make one big one' with the metre strip; if child confuses the conversion direction, side-by-side ruler with both scales.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists puppets as OPTIONAL with clear voice/poster alternatives, and timing 12/25/13 = 50 min fits Grade 2. Required materials are everyday (cm strips, metre strip, chart paper). However, no explicit NO-PAPER, NO-PURCHASE alternative path is provided: differentiation lacks a body/voice version of the cm/m estimation activity for days when paper strips weren't prepped.",
+      "required_fix": "Add a no-materials variant in differentiation: 'No-paper version — use fingernail (1 cm) and arm-span (~1 m) on the body. Children compare body benchmarks to objects in the room without strips.' This makes Lesson 2 runnable on a no-prep day per Level 4.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (cm and m as different sizes, 100 cm = 1 m as same length, benchmarks anchor estimation), manipulatives carry meaning (strips lay out to demonstrate equivalence), and vocabulary is precise. But children are not invited to invent or compare estimation strategies, and the misconception is not named in research-grounded terms (e.g., Lehrer's distinction between unit-iteration and conversion, or Sarama & Clements' measurement trajectory).",
+      "required_fix": "Add a strategy-comparison move in action.steps[1] or [2]: ask two pairs to share HOW they estimated the doorway (whose-arm-span vs hockey-stick vs counting tiles) and let the class compare which benchmark was easier and why. Then in expanded_walkthrough.rationale, name the misconception in research terms (e.g., 'Lehrer 2003 / Sarama & Clements 2009 — children must coordinate unit-size with unit-count before they can convert across unit systems').",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Worksheet is strong — Part 1 estimation, Part 2 conversion practising the 100 cm = 1 m trap, Part 3 home-transfer task all map to lesson success criteria with Roo character watermark. Clarity/voice is 4 (Roo anchors all phases, child-friendly vocab definitions, all 'I can' criteria, sentence-frame exit routine). The four blocking issues all sit in the lesson: arc-bridging language, research-grounded trap with branched recovery, no-materials path, and strategy-comparison + named-research misconception framing. Fixing these in lesson_02 should clear the bar without worksheet edits."
+}

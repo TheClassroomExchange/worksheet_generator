@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "lesson_number": 2,
+  "worksheet_title": "Compose, Decompose, Compare",
+  "purpose": "Independent practice of B1.1 (decomposition) and B1.2 (comparison). Captures formative evidence on flexibility and place-value reasoning.",
+  "student_learning_goal": "I can compose and decompose numbers to 200 in different ways, and compare numbers using place-value reasoning.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compose and decompose numbers to 200 in different ways, and compare numbers using place-value reasoning.",
+    "character_watermark": "Detective Tina Tens in the top-right corner with a striped vest and magnifying glass. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Three Ways to Decompose",
+          "student_instructions": "Each box has a target number. Write THREE different decompositions for the number.",
+          "visual_layout": "Top of the page. Three target-number boxes stacked vertically. Each box ~7in × 1.5in. Format per box: target number on the left in a circle (89, 132, 178), three decomposition lines on the right.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_THREE_TARGETS",
+              "description": "Three target-number boxes in B&W line-art, stacked vertically. Each box ~7in × 1.5in. Left side: a circle ~1.2in across with the target number. Right side: three blank decomposition lines '___ + ___ + ___ = 89' etc. Targets: T1=89, T2=132, T3=178.",
+              "placement": "Top of the page; three boxes stacked.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "target",
+                "decomposition"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_THREE_TARGETS: keywords (target, decomposition) name what the boxes ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "T1 89: 80+9; 70+19; 60+29; 50+39. T2 132: 100+30+2; 100+20+12; 130+2; 120+12. T3 178: 100+70+8; 100+60+18; 170+8; 100+78."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Compare Two Numbers",
+          "student_instructions": "Write > or < between each pair. Then write 1 line saying WHY using the place-value rule.",
+          "visual_layout": "Middle of the page. Six comparison rows. Each row shows two numbers with a blank in the middle for the symbol, plus a 'Why?' reason line.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_SIX_COMPARES",
+              "description": "Six comparison rows in B&W line-art, stacked vertically. Each row ~7in × 0.7in. Number boxes on each side, > / < bubbles in the middle for selection, a 'Why?' line below. Pairs: 147 vs 174, 89 vs 102, 134 vs 143, 178 vs 187, 99 vs 100, 156 vs 165.",
+              "placement": "Middle of the page; six rows.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "compare",
+                "place-value"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_SIX_COMPARES: keywords (compare, place-value) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "147 < 174 (same hundreds, 4 tens vs 7 tens). 89 < 102 (0 hundreds vs 1 hundred). 134 < 143 (same hundreds, 3 vs 4 tens). 178 < 187 (same hundreds, 7 vs 8 tens). 99 < 100 (0 hundreds vs 1 hundred). 156 < 165 (same hundreds, 5 vs 6 tens)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Order Five Numbers",
+          "student_instructions": "Order these numbers from SMALLEST to BIGGEST. Write them in the boxes in order.",
+          "visual_layout": "Bottom of the page. Five number cards on the left (67, 134, 89, 178, 145) and five empty ordering boxes on the right with arrows.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_ORDER",
+              "description": "An ordering layout in B&W line-art, ~7in × 2.5in. Left side: 5 number cards in random order (67, 134, 89, 178, 145). Right side: 5 empty boxes in a row with right-arrows between them, labeled 'smallest to biggest'.",
+              "placement": "Bottom of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "order",
+                "smallest",
+                "biggest"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_ORDER: keywords (order, smallest, biggest) name what the layout asks for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "67, 89, 134, 145, 178."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over. Pick a number between 100 and 200. Write FIVE different decompositions of it.",
+  "teacher_notes": "Lesson 2 consolidation. Hand out at the end of the Action phase. Use Part 1 as evidence of B1.1 decomposition flexibility — children writing only 3 standard splits are at L3; children producing creative non-standard splits are at L4. Use Part 2's 89-vs-102 row as the strongest test of place-value reasoning — children who pick 89 are still applying ones-first reasoning."
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "formative_worksheets": [
+    {
+      "title": "The Shape & Position Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 minutes) to confirm A9.1 (2D), A9.2 (3D), and A9.3 (position) before extending into compose/decompose territory.",
+      "purpose": "Standalone formative assessment distinct from lesson worksheets. Lets the teacher quickly see which children hold 2D-vs-3D distinction AND can use position words, so reteach happens before the capstone.",
+      "expectations_assessed": ["A9.1", "A9.2", "A9.3"],
+      "student_learning_goal": "I can name shapes and use position words.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can name shapes and use position words.",
+        "character_watermark": "Sammy the Safari Sloth in the top-right corner with a small clipboard — the 'check-in' Sammy. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Look at each shape. Write the name on the line.",
+          "visual_layout": "Four shape thumbnails arranged in a 2×2 grid centred on the page, each cell ~2in × 1.8in. Shapes shown: triangle (2D), sphere (3D shaded), hexagon (2D), cube (3D shaded). Below each shape is a label line for the child to write the name.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_SHAPES",
+              "description": "A 2×2 grid of 4 shape thumbnails for a Kindergarten formative check, B&W line art. Top-left: 2D triangle (equilateral, point up, ~1.5in). Top-right: 3D sphere with light shading (~1.5in). Bottom-left: 2D hexagon (regular, ~1.5in). Bottom-right: 3D cube showing 3 faces with light shading (~1.5in). Each in its own thin-bordered cell with a writing line below.",
+              "placement": "Centred horizontally in Prompt 1.",
+              "approximate_size": "medium",
+              "keywords": ["triangle", "sphere", "hexagon", "cube"],
+              "text_image_alignment_check": "Image FORM_Q1_SHAPES at Prompt 1: instructions ask the child to name each shape. The keywords match the shapes shown — 2 are 2D (triangle, hexagon) and 2 are 3D (sphere, cube), testing both A9.1 and A9.2."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Top-left: triangle. Top-right: sphere. Bottom-left: hexagon. Bottom-right: cube. A child who names all 4 has consolidated A9.1 + A9.2."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Look at the picture. Write the position word: above, below, or beside.",
+          "visual_layout": "Three small picture panels stacked vertically, each ~3in × 1.5in. Panel 1: a sun above a tree. Panel 2: a snake below a rock. Panel 3: a lion beside a giraffe. Below each panel is a writing line.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_PANELS",
+              "description": "Three safari picture panels for a Kindergarten formative check, B&W line art. Each panel ~3in × 1.5in with a thin border. Panel 1: a smiling sun in the upper portion of the panel, with a small tree in the lower portion (sun ABOVE tree). Panel 2: a tall rock in the upper portion, a snake slithering at the bottom (snake BELOW rock). Panel 3: a lion on the left and a giraffe on the right, both standing on level ground (lion BESIDE giraffe). Each panel has a writing line below for the position word.",
+              "placement": "Centred vertically in Prompt 2.",
+              "approximate_size": "medium",
+              "keywords": ["sun", "snake", "lion", "giraffe"],
+              "text_image_alignment_check": "Image FORM_Q2_PANELS at Prompt 2: each panel illustrates a position word. Keywords name the safari subjects shown; the visual relationships (above, below, beside) are what the child writes."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Panel 1: above. Panel 2: below. Panel 3: beside. A child who gets all 3 has consolidated A9.3."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling about shapes and positions? Circle the face that fits.",
+          "visual_layout": "Three faces in a horizontal row: a big smile, a neutral mouth, and a worried frown. Below each face, a label: 'I got it!', 'Almost!', 'Need help!'. The student circles one face.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons in a horizontal row, each ~1.5in across, B&W line art. Left face: smiling face with curved upturned mouth and round eyes. Middle face: neutral face with straight-line mouth. Right face: face with downturned mouth (concerned). Below each face, printed label: 'I got it!', 'Almost!', 'Need help!'. Total row width ~6in.",
+              "placement": "Centred horizontally in Prompt 3.",
+              "approximate_size": "full_width",
+              "keywords": ["faces", "feeling"],
+              "text_image_alignment_check": "Image FORM_Q3_FACES at Prompt 3: instructions ask the child to circle one face that matches their feeling. Keywords name what the visual shows (faces, feeling)."
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open. Use this self-rating alongside Prompts 1 and 2 to find mismatches: a child who got Prompt 1 wrong but circled 'I got it!' may need conversation; a child who got both right but circled 'Need help!' likely just needs confidence-building."
+        }
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child; circulate while children work. Score guide: 7/7 + confident self-rating = ready for compose/decompose. 5-6/7 = brief 1:1 conference about the missed shape or position word. 0-4/7 = small-group re-loop on Lessons 1-3 before continuing."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Shape Safari Reflection",
+    "purpose": "End-of-unit metacognition. Children look back at their week of shape work and rate themselves, name a favourite, name a struggle, and set a forward goal. Companion to the Lesson 5 capstone — captures voice, not skill.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Sammy the Safari Sloth in the top-right corner, holding a Junior Shape Explorer certificate. Small (~1.5in tall). References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Shape Explorer? Circle one.",
+        "visual_layout": "Three star-rating options shown horizontally, each in its own oval: 1 star, 2 stars, 3 stars. Beneath each oval, a label: 'Just starting', 'Mostly got it', 'I am an Explorer!'. Child circles one oval.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three rating options shown horizontally in ovals for a Kindergarten reflection sheet. Left option = 1 large star (~1in). Middle = 2 stars side by side. Right = 3 stars side by side. Each option enclosed in a thin oval ~2in wide × 1.5in tall. Beneath each oval, printed label: 'Just starting', 'Mostly got it', 'I am an Explorer!'. Total row ~6.5in wide. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 1.",
+            "approximate_size": "full_width",
+            "keywords": ["stars", "explorer"],
+            "text_image_alignment_check": "Image REF_STARS at Prompt 1: instructions ask the child to rate themselves. Keywords name the visual rating system (stars) and the unit's role identity (explorer)."
+          }
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am an Explorer!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things? Circle YES or NO.",
+        "visual_layout": "A four-row table. Each row contains a question label on the left and YES / NO bubbles on the right. Questions: 'I named 5 2D shapes.', 'I named 5 3D shapes.', 'I used position words.', 'I built a shape picture.'.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A bordered four-row table for a Kindergarten reflection sheet. Each row ~1in tall. Left column ~4in wide with question text in K-readable type. Right column ~2in wide containing two bubbles labelled 'YES' and 'NO' side by side. Total table ~6in wide. Thin grey row dividers. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 2.",
+            "approximate_size": "full_width",
+            "keywords": ["yes", "no"],
+            "text_image_alignment_check": "Image REF_YN_TABLE at Prompt 2: instructions ask the child to circle YES or NO for 4 self-audit questions. Keywords name the response options shown in the table."
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I named 5 2D shapes.", "I named 5 3D shapes.", "I used position words.", "I built a shape picture."]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite part of Shape Safari was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The box is empty workspace; the child draws or writes inside it.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall for a Kindergarten reflection sheet. Thin solid black border. Empty inside. Above the box, the printed prompt 'My favourite part of Shape Safari was...'. Below the bottom-right corner, faint guide-lines for writing if the child prefers words.",
+            "placement": "Centred horizontally in Prompt 3.",
+            "approximate_size": "full_width",
+            "keywords": ["favourite", "safari"],
+            "text_image_alignment_check": "Image REF_FAV_BOX at Prompt 3: instructions ask the child to draw or write their favourite part. Keywords name the prompt focus (favourite, safari)."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The child draws or writes inside.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall for a Kindergarten reflection sheet. Identical layout to REF_FAV_BOX. Above the box, the printed prompt 'The trickiest part for me was...'.",
+            "placement": "Centred horizontally in Prompt 4.",
+            "approximate_size": "full_width",
+            "keywords": ["trickiest"],
+            "text_image_alignment_check": "Image REF_TRICKY_BOX at Prompt 4: instructions ask the child to identify what was 'trickiest'. The single keyword matches the word that appears in both prompt and visual_layout."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide × 1.8in tall, centred on the page, with the prompt printed above it. The child draws or writes inside.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle ~5in wide × 1.8in tall for a Kindergarten reflection sheet. Identical layout to the other boxes. Above the box, the printed prompt 'Next time, I want to try...'.",
+            "placement": "Centred horizontally in Prompt 5.",
+            "approximate_size": "full_width",
+            "keywords": ["next", "try"],
+            "text_image_alignment_check": "Image REF_NEXT_BOX at Prompt 5: instructions ask the child to set a forward goal. Keywords name the prompt focus (next, try)."
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the very end of Lesson 5, alongside the Junior Shape Explorer certificate ceremony. Children may need scribe support for prompts 3-5 — accept a drawing as a complete answer. Read responses to inform unit notes for next year (which prompts kept emerging as 'trickiest', which moments children loved). The yes/no audit on Prompt 2 is also a quick teacher check: a 'NO' on any item signals the child either missed a key activity or doesn't recognize they did it — worth a 30-second conference."
+  }
+}

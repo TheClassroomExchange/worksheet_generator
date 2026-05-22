@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "overall_prep_notes": "Total prep time across all 10 assets is approximately 2 hours. The bulk is M3 Double Ten-Frame Mat (one per child = 20+ pages), M5 Fact Family Triangles (30 cards laminated), and M7 Story Problem Cards (18 cards). The two character puppets (Plus and Minnie) should be printed on cardstock for years of reuse. Two-colour counters (M4) are a standard math-kit item; confirm you have ~20 per pair before Lesson 1. Doubles dice (M6) are 1-10 foam dice — order from a standard math-kit supplier if not already in stock.",
+  "assets": [
+    {
+      "asset_id": "M1_plus_puppet",
+      "name": "Plus the Pup Puppet",
+      "category": "manipulative",
+      "purpose": "Paper-bag puppet of Plus the Adding Pup. Used in every lesson, anchors Lesson 1.",
+      "page_layout": "Single letter page, portrait. Front and back of the puppet printed on one sheet, ready to cut and glue to a paper bag.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_PLUS_PUPPET_TEMPLATE",
+          "description": "Plus the Adding Pup puppet template in B&W line-art, ~6in tall. Front side shows a golden-retriever-style puppy face with floppy ears, a friendly smile, and a green '+' bandana. Back side shows the puppy's body. Cut lines indicate where to trim before gluing to a paper bag.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "puppet"
+          ],
+          "text_image_alignment_check": "Image M1_PLUS_PUPPET_TEMPLATE: keywords (puppet) name what the template shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Cut along the cut lines.",
+        "Glue front and back to a small paper lunch bag.",
+        "Add a small pom-pom for Plus's nose if desired.",
+        "Store flat between lessons; the puppet should last a full school year."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_minnie_puppet",
+      "name": "Minnie the Mouse Puppet",
+      "category": "manipulative",
+      "purpose": "Paper-bag puppet of Minnie the Minus Mouse. Anchors Lesson 3 and reappears in Lesson 4.",
+      "page_layout": "Single letter page, portrait. Front and back of the puppet printed on one sheet.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_MINNIE_PUPPET_TEMPLATE",
+          "description": "Minnie the Minus Mouse puppet template in B&W line-art, ~6in tall. Front side shows a small mouse face with round eyes, whiskers, and a red '-' kerchief tied around the neck. Right paw holds a magnifying glass. Back side shows the body. Cut lines indicate where to trim.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "mouse",
+            "puppet"
+          ],
+          "text_image_alignment_check": "Image M2_MINNIE_PUPPET_TEMPLATE: keywords (mouse, puppet) name what the template shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Cut along the cut lines.",
+        "Glue front and back to a small paper lunch bag.",
+        "Add a tiny black pom-pom for Minnie's nose if desired.",
+        "Store flat between lessons; the puppet should last a full school year."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M3_double_ten_frame",
+      "name": "Double Ten-Frame Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat with two stacked ten-frames. Used for Lesson 1 fact modelling, Lesson 2 make-ten strategy, and Lesson 3 cup-hide game.",
+      "page_layout": "Single letter page, landscape. Top half has a 2x5 ten-frame grid; bottom half has another 2x5 ten-frame grid; thin divider between.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_DOUBLE_TEN_FRAME",
+          "description": "A double ten-frame mat in B&W line-art. Top half shows a 2-row × 5-column grid of empty squares (10 cells), labeled 'TOP'. Bottom half shows an identical grid, labeled 'BOTTOM'. Cell borders are thin solid black lines.",
+          "placement": "Centred on the page, full-width landscape.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "ten-frame",
+            "mat"
+          ],
+          "text_image_alignment_check": "Image M3_DOUBLE_TEN_FRAME: keywords (ten-frame, mat) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per child (20+ pages for a class of 20).",
+        "Laminate every page so children can use dry-erase markers if desired.",
+        "Hand out at the start of Lesson 1; collect at the end of Lesson 3.",
+        "Store mats in a labelled folder between lessons.",
+        "Optional: print extras for emerging-learner small group review."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "1 mat per child = 20+ for a class of 20.",
+      "used_in_lessons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M4_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "category": "manipulative",
+      "purpose": "Round counters, red on one side and yellow on the other. Used to model addition (red + yellow = combined collection) and subtraction (cup-hide). Standard math-kit item, not printed.",
+      "page_layout": "Not printable — physical counters from the classroom math kit. Page is a storage-bag label.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_COUNTERS_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows two stacked counters (one red side up, one yellow side up) with a header 'TWO-COLOUR COUNTERS — 20 per pair'. Decorative dot icons around the border.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "counters",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M4_COUNTERS_LABEL: keywords (counters, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Confirm you have a class set of two-colour counters (20 per pair = 200 for a class of 20).",
+        "Print storage labels; tape to zip-top bags.",
+        "Sort into per-pair bags before Lesson 1.",
+        "Have bags ready at the start of Lessons 1, 2, 3, and 4.",
+        "Optional: use red and yellow paper circles if you don't have foam counters."
+      ],
+      "estimated_prep_minutes": 8,
+      "quantity_per_class": "20 counters per pair = 200 for a class of 20.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M5_fact_triangles",
+      "name": "Fact Family Triangles",
+      "category": "manipulative",
+      "purpose": "Set of 30 laminated triangle cards. Each shows the three numbers of a fact family at the corners and a +/- icon at the centre. Used in Lessons 1 and 3 to build fluency with the four-fact family for any sum to 10.",
+      "page_layout": "5 letter pages, portrait. Each page holds 6 triangle cards in a 2x3 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 5,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_TRIANGLE_CARD",
+          "description": "A fact-family triangle card in B&W line-art, ~3in tall. Equilateral triangle outline with a number circle at each corner: top corner = sum, bottom-left = first addend, bottom-right = second addend. Centre of the triangle has a small +/- icon. Cut lines around each card.",
+          "placement": "Repeated 30 times across 5 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "triangle",
+            "fact"
+          ],
+          "text_image_alignment_check": "Image M5_TRIANGLE_CARD: keywords (triangle, fact) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 5 pages on cardstock.",
+        "Laminate every page before cutting.",
+        "Cut along cut lines into 30 individual triangle cards.",
+        "Sort by sum (5, 6, 7, 8, 9, 10 — five triangles per sum).",
+        "Store in a labelled box; reuse all year for fact-fluency practice."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "30 cards per class set; one set serves the whole class.",
+      "used_in_lessons": [
+        1,
+        3
+      ]
+    },
+    {
+      "asset_id": "M6_doubles_dice",
+      "name": "Doubles Dice",
+      "category": "manipulative",
+      "purpose": "Pair of large foam 1-10 dice. Used in Lesson 2 doubles round (roll once, double the number) and near-doubles round (roll twice, find the near-double). Standard math-kit item.",
+      "page_layout": "Not printable — physical foam dice. Page is a storage-bag label.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_DICE_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows two 10-sided dice illustrations with a header 'DOUBLES DICE — 2 per pair (1-10)'.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "dice",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M6_DICE_LABEL: keywords (dice, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Order a class set of 1-10 foam dice (2 per pair = 20 dice for a class of 20).",
+        "Print storage labels; tape to zip-top bags.",
+        "Sort into per-pair bags before Lesson 2.",
+        "Have bags ready at the start of Lesson 2 only.",
+        "Optional: use printable 0-9 paper dice if foam dice are unavailable."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "2 dice per pair = 20 dice for a class of 20.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M7_story_problem_cards",
+      "name": "Story Problem Cards",
+      "category": "manipulative",
+      "purpose": "Deck of 18 letter-size story problem cards: 6 change-add-to, 6 change-take-from, 6 part-part-whole. Totals up to 50. Used in Lesson 4 station rotations.",
+      "page_layout": "18 half-letter cards across 9 letter pages (2 cards per page). Each card has the story text + a small illustration.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 9,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_STORY_CARD",
+          "description": "A story-problem card in B&W line-art, ~5.5in × 4in. Top section shows the story text in large readable font (~16pt). Bottom section shows a small illustration matching the story (e.g., Plus with a bowl of treats for change-take-from cards, Lila with two button piles for part-part-whole). Card border is a thick black outline. Card number printed in the bottom-right corner (e.g., 'Card 1 of 18').",
+          "placement": "Two cards per letter page, stacked vertically.",
+          "approximate_size": "large",
+          "keywords": [
+            "story",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M7_STORY_CARD: keywords (story, card) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 9 pages on cardstock.",
+        "Laminate every page before cutting.",
+        "Cut each page in half to make 18 individual cards.",
+        "Sort by problem type (6 change-add-to, 6 change-take-from, 6 part-part-whole). Colour-code the corner with a sticker if desired.",
+        "Distribute 6 cards per station for Lesson 4 rotations."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 deck of 18 cards per class set; serves 3 stations of 6 cards each.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M8_paper_cookies",
+      "name": "Paper Cookies",
+      "category": "manipulative",
+      "purpose": "Set of ~30 printable paper cookie tokens (chocolate chip, oatmeal, sugar). Some cookies are pre-cut along a half-line so they can split into halves visibly. Used in Lesson 5 fair-share scenarios.",
+      "page_layout": "3 letter pages, portrait. Each page holds 10 cookies in a 2x5 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 3,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_COOKIE_CARD",
+          "description": "A paper cookie token in B&W line-art, ~2in diameter. Three variants: chocolate chip (round with 5-7 small dark dots), oatmeal (round with rough texture lines), sugar (round with sparkle marks). Some cookies (about 1 in 5) have a dotted half-line through the middle indicating where to cut.",
+          "placement": "10 cookies per page in a 2x5 grid.",
+          "approximate_size": "small",
+          "keywords": [
+            "cookie",
+            "token"
+          ],
+          "text_image_alignment_check": "Image M8_COOKIE_CARD: keywords (cookie, token) name what the token shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 3 pages on cardstock.",
+        "Laminate every page before cutting.",
+        "Cut into 30 individual cookie tokens.",
+        "Pre-cut about 6 cookies along the half-line into two visible halves (these are the leftover cookies for the half-share demo).",
+        "Store in a labelled bag; refresh annually if tokens get bent."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "30 cookies per class set; serves 4-5 groups in Lesson 5.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_share_plates",
+      "name": "Sharing Paper Plates",
+      "category": "manipulative",
+      "purpose": "Set of 5 paper plates per group. Used in Lesson 5 to deal cookies into equal groups for 2, 4, or 5 friends.",
+      "page_layout": "Not printable — real disposable paper plates. Page is a label/instructions sheet.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_PLATES_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows a stack of 3 paper plates with a header 'SHARING PLATES — 5 per group'. Decorative cookie icons in the corners.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "plates",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M9_PLATES_LABEL: keywords (plates, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Buy a pack of small disposable paper plates (5 per group = ~25-30 for a class of 20 in groups of 4).",
+        "Print storage labels; tape to plate stacks if desired.",
+        "Sort into per-group sets before Lesson 5.",
+        "Have plates ready at the start of Lesson 5 only.",
+        "Reuse plates across the week if they stay clean."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "5 plates per group = ~25-30 for a class of 20 in groups of 4.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "char_plus_puppet",
+      "name": "Plus the Pup Character Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Plus the Pup illustration mounted on a popsicle stick, used as the unit's lead addition character. Distinct from M1_plus_puppet (paper-bag puppet) — this is the popsicle-stick variant.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_PLUS_FRONT",
+          "description": "Plus the Adding Pup illustration in B&W line-art: a golden-retriever-style puppy with a green '+' bandana, soft round ears, friendly smile, paws holding two-colour counters. ~6in tall on a letter page with a 1in attachment tab below.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "plus",
+            "puppet"
+          ],
+          "text_image_alignment_check": "Image CHAR_PLUS_FRONT: keywords (plus, puppet) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible.",
+        "Cut around Plus's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_minnie_puppet",
+      "name": "Minnie the Mouse",
+      "category": "character_puppet",
+      "purpose": "Printable Minnie the Mouse illustration on a popsicle stick — the unit's lead subtraction character. Distinct from M2_minnie_puppet (paper-bag puppet) — this is the popsicle-stick variant.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_MINNIE_FRONT",
+          "description": "Minnie the Minus Mouse illustration in B&W line-art: a small grey mouse standing upright with a magnifying glass in her right paw, a red '-' kerchief tied around her neck, whiskers, round eyes, slight detective hat tilt. ~6in tall with attachment tab below.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "minnie",
+            "puppet"
+          ],
+          "text_image_alignment_check": "Image CHAR_MINNIE_FRONT: keywords (minnie, puppet) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible.",
+        "Cut around Minnie's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "char_doubles_puppet",
+      "name": "Doubles the Robot",
+      "category": "character_puppet",
+      "purpose": "Printable Doubles the Robot illustration used as a visual hook in Lesson 2 only — posted at the front of the room during the doubles introduction.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_DOUBLES_FRONT",
+          "description": "Doubles the Robot illustration in B&W line-art, ~9in tall. A small mirror-symmetrical robot with a square head, antenna with a small heart, and friendly visor. Two arms extended forward, each showing a 5-cell ten-frame panel. The same number of dots is lit on each panel. Caption below: 'Doubles — Both Sides Match!'",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "doubles",
+            "robot"
+          ],
+          "text_image_alignment_check": "Image CHAR_DOUBLES_FRONT: keywords (doubles, robot) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Laminate the page.",
+        "Tape to the front whiteboard for Lesson 2 only.",
+        "Remove after Lesson 2; store for re-use next year.",
+        "Optional: print a second copy for the cameo's introduction during Lesson 2 minds-on."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "1 card for the classroom.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M10_machine_poster",
+      "name": "The Adding Machine Poster",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor chart drawn as a friendly machine with input slots on top and an output chute on the bottom, plus reference rows for the four mental strategies. Posted Lesson 1, referenced all week.",
+      "page_layout": "1 large-format letter page, portrait — printed at tabloid size if a tabloid printer is available, or assembled from 4 letter pages tiled together for a roughly 17in × 22in poster.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_MACHINE_POSTER",
+          "description": "The Adding Machine anchor poster in B&W line-art, ~17in × 22in. Top section shows a friendly mechanical machine with two input slots labeled 'Addend' and 'Addend' and an output chute labeled 'Sum' below. Middle section has 4 strategy rows: Count-On (with a footstep icon), Doubles (twin icon), Near-Doubles (twin+1 icon), Make-Ten (10-frame icon). Bottom section has Plus the Pup and Minnie the Mouse standing beside the machine waving.",
+          "placement": "Centre of the poster, full-width.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "machine",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_MACHINE_POSTER: keywords (machine, poster) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 letter pages and tile together OR print 1 tabloid page if available.",
+        "Laminate the assembled poster.",
+        "Tape to the front classroom wall on Day 1.",
+        "Reference the strategy rows during every lesson. Add child-generated examples as the week progresses.",
+        "Store rolled at the end of the unit for re-use next year."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "1 poster for the classroom.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

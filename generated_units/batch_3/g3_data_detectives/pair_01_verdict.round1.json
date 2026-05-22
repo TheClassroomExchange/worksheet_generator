@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_01.minds_on.teacher_script references 'last year you sorted by 2 attributes with Venn and Carroll' (G2 backward bridge), but no part of lesson_01 cross-references neighbouring days in this unit's arc — Day 2 frequency tables and Day 5 Big Case capstone (which reuses tree diagrams per expectation_lesson_map D1.1=[1,5]) are never named in expanded_walkthrough or consolidation.",
+      "required_fix": "Add a forward bridge in consolidation: 'Tomorrow Tally turns these branches into a FREQUENCY TABLE — count how many cards landed at each leaf.' Also bridge expanded_walkthrough to Day 5: 'In the Big Case you'll sort survey data with a tree before graphing.' Anchors lesson_01 inside the unit arc rather than as a standalone G2 handoff.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use level-attribute cards.', 'Drill all branches same attribute.', 'Plan attributes first.'] — concrete but does NOT branch by diagnostic, and the cross-branching trap is not anchored to named research on hierarchical/multiple classification (Inhelder & Piaget, English 1991 on combinatorial reasoning, Battista on spatial reasoning).",
+      "required_fix": "Rewrite recovery_moves to branch on diagnostic: (a) child names 3 attributes but mixes branches → give level-attribute card stack, place ONE per level before drawing; (b) child cannot name 3 attributes → drop back to G2 Carroll with 2 attributes before reintroducing the third. Cite research (multiple classification, Inhelder & Piaget; English 1991 on combinatorial reasoning).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the trap as 'mixes branches at SAME LEVEL' and offers concrete repair, but there is no opportunity for children to invent or compare strategies (e.g., compare a tree vs a 3-way Carroll vs a list), and the misconception is not framed in research-grounded terms (Battista spatial reasoning, English combinatorial reasoning, or CGI-style comparison of student methods).",
+      "required_fix": "Add a strategy-comparison step after Station C: two pairs share trees and compare attribute order (colour-shape-size vs size-colour-shape) — same 8 leaves, different paths. In expanded_walkthrough, name the misconception in research terms (multiple classification, Inhelder & Piaget; English 1991 combinatorial reasoning) so the trap is anchored in literature.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Solid Grade-3 tree-diagram pair with strong Detective Dot voice, optional-puppet flexibility plus a body-based human-tree no-materials version, and a worksheet whose 3 parts mirror the lesson stations cleanly. Three lesson-side categories sit at 3: alignment lacks a forward bridge to Day 2/Day 5; pedagogical_depth has a real cross-branching trap but no diagnostic-branched recovery and no research citation; mathematical_authenticity stays conceptual but never lets children compare strategies or anchors the trap in named research. Worksheet is fine — fixes are all in lesson_01."
+}

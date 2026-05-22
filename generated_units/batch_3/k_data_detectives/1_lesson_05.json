@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 5,
+  "lesson_title": "Data Detective Capstone",
+  "duration_minutes": 34,
+  "primary_expectations": [
+    "A8.1",
+    "A8.2",
+    "A8.3",
+    "A8.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can be DATA DETECTIVES — sort, count, display, read.",
+  "learning_intention": "We are learning to be a Data Detective for a question we pick.",
+  "student_learning_goal": "I can be a Data Detective for a question I pick.",
+  "success_criteria": [
+    "I can pick a class question to investigate.",
+    "I can sort, count, graph the data.",
+    "I can describe my graph (most, fewest)."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "sort",
+    "category",
+    "data",
+    "graph",
+    "most",
+    "fewest"
+  ],
+  "manipulatives_used": [
+    "M1_sort_mats",
+    "M3_tally_charts",
+    "M4_pictograph_template",
+    "M5_question_cards",
+    "M6_capstone_template",
+    "M7_object_set",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "Detective Dot and Tally together",
+    "Per-child Detective Capstone Template",
+    "Class Question Cards (12)",
+    "Lesson 5 capstone tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 8,
+    "activity_name": "Detective Dot's Final Mission",
+    "hook": "Now you become a DATA DETECTIVE. Pick a class question. Sort, count, graph, describe. Detective Dot opens: 'SORT it! COUNT it! GRAPH it! READ it! That's how Data Detectives DO it!'",
+    "teacher_script": "Bring children to the carpet. Detective Dot + Tally together. 'Friends — today YOU become DATA DETECTIVES. Pick a class question. Sort. Count. Graph. Describe.'\n\nShow the modelling chart. 'You've practiced each step. Today you do them ALL together.'\n\nShow examples:\n- 'Favourite colour: red, blue, yellow, green. Survey 6 classmates. Tally. Graph. Most? Fewest?'\n- 'Favourite snack: apple, granola, cookie. Survey. Tally. Graph. Compare.'\n- 'Favourite season: winter, spring, summer, fall. Survey. Tally. Graph.'\n- 'Pet at home: dog, cat, fish, none. Survey. Tally. Graph.'\n- 'Lunch box colour: red, blue, plain, other. Survey. Tally. Graph.'\n\n'Detective Dot says — pick ONE question. Survey 6+ classmates. Sort answers. Tally. Build a pictograph. Find most and fewest.'\n\nShow capstone template. 'Five sections: QUESTION, SURVEY, TALLY, GRAPH, DESCRIBE.'",
+    "student_actions": [
+      "Look at example detective missions.",
+      "Brainstorm class questions.",
+      "Pick a question.",
+      "Plan the survey."
+    ]
+  },
+  "action": {
+    "duration_minutes": 18,
+    "activity_name": "Detective Capstone",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "WHOLE GROUP RECAP (5 min): four mini-stations on the carpet, each mirroring a prior day:\n  Station 1 (D1 — Sort): Detective Dot holds up 4 cards; class names ONE attribute and sorts.\n  Station 2 (D2 — Count): Tally calls 'how many cars?' class tallies on fingers.\n  Station 3 (D3 — Graph): Dot stacks 3 picture-icons; class reads the tallest column.\n  Station 4 (D4 — Likelihood): Dot says 'school has a roof' class chants ALWAYS; 'snow today' SOMETIMES; 'fish in lava' NEVER. Each station explicitly names its day.",
+        "teacher_prompt": "Detective Dot: 'You can SORT, COUNT, GRAPH, and READ likelihood. Today's case uses ALL FOUR.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Children build a pictograph from their survey.",
+        "teacher_prompt": "Stop at each child. Check pictograph alignment."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge: survey 12 classmates and graph.",
+        "teacher_prompt": "Say: 'Stretch: more classmates.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Children describe their graph: most, fewest, total.",
+        "teacher_prompt": "Say: 'Find most. Find fewest. Total.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Whole-class share: 5-6 children share aloud.",
+        "teacher_prompt": "Pick variety: colour, snack, season, pet, lunch."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Two friends asked the same question but graphed it differently. Class debates whose graph makes the data clearer. Cite Lehrer & Schauble (2002).",
+        "teacher_prompt": "Detective Dot: 'Different paths, same goal. Math says: try multiple ways!'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a starter question card; survey 4 classmates.",
+      "for_extending": "Stretch: survey 12 classmates and ask 2 questions.",
+      "for_ell_or_iep": "Provide picture-supported templates with sentence frames.",
+      "for_movement_learners": "Survey by walking to each classmate physically. NO-PAPER CAPSTONE: 4 corners — Sort corner, Count corner, Graph corner, Read corner. Children rotate; body becomes the workshop."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks question; surveys, tallies, graphs; describes most/fewest.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Picks question",
+        "Surveys, tallies, graphs",
+        "Describes most/fewest",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Detective Dot's Closing Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most surprising survey you saw today?",
+      "What's the most popular ___?",
+      "Why are class graphs interesting?",
+      "What other question would you investigate next?"
+    ],
+    "exit_routine": "Detective Dot's refrain — class chants 3x: 'SORT it! COUNT it! GRAPH it! READ it! That's how Data Detectives DO it!' Each child writes one finding on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Full data investigation cycle from a child-chosen question.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures A8.1+A8.2+A8.3+A8.4 summative integration."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child picks a question with too many possible answers — repairing the unbounded-question trap at K capstone",
+    "rationale": "On the capstone, K trap is single-skill fixation — uses only sort or only graph. Lehrer & Schauble (2002) data-tools integration frames this as the K terminal target.\n\nThe most common K trap on the capstone is the unbounded question: child picks 'what's everyone's favourite thing in the world?' which has too many possible answers to sort. They miss that data questions need BOUNDED categories.\n\nThis matters because data investigations need finite categories.\n\nThe walkthrough covers when child picks an unbounded question.",
+    "setup": "Child writes 'What's your favourite thing?' on the capstone template.",
+    "teacher_script": "Crouch. 'Lots of answers possible. Detective Dot picks questions with FEW choices. Like favourite COLOUR: red, blue, yellow, green. Or favourite PET: dog, cat, fish.'\n\nThe child rewrites. 'Favourite colour. 4 choices.'\n\nGeneralise. 'Detective Dot says — pick a question with 3-4 choices. Bounded. Then survey.'\n\nIf still unbounded: provide question cards. 'Pick from these.' Force bounded.\n\nLong-term recovery: every capstone uses bounded questions.",
+    "expected_student_responses": [
+      "(Confused) Picks unbounded question.",
+      "(Mid) Bounds question with prompts.",
+      "(Strong) Picks 3-4-choice question.",
+      "(Stretched) Compares two bounded questions."
+    ],
+    "common_misconceptions": [
+      "Open questions are good. (Repair: data needs bounded choices.)",
+      "More choices = better. (Repair: 3-4 is plenty for K.)",
+      "Any question works. (Repair: pick countable categories.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child uses only one prior skill: explicit checklist (sort, count, graph, likelihood); child checks all four.",
+      "DIAGNOSTIC B — child completes but skips conclusion: force 'My data shows ___ because ___'.",
+      "DIAGNOSTIC C — child completes but cannot articulate: force the sentence frame 'I used SORT, COUNT, GRAPH, READ to find ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My Detective Mission",
+    "purpose": "Summative evidence for A8.1+A8.2+A8.3+A8.4.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Pick your question and 3-4 choices.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Survey 6 classmates. Tally each answer.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Make a pictograph from your tallies.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 4,
+        "task": "Describe: which has the most? Fewest?",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dot and Tally together in worksheet header",
+      "Question slot for Part 1",
+      "Tally chart for Part 2",
+      "Pictograph for Part 3",
+      "Description box for Part 4"
+    ]
+  }
+}

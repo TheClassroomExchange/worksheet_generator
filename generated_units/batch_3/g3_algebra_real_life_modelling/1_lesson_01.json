@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 1,
+  "lesson_title": "Math in My Community",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Math is everywhere in our community: parks, hockey rinks, libraries, restaurants.",
+  "learning_intention": "We are learning to describe a community situation and ask a math question about it.",
+  "student_learning_goal": "I can describe a community situation and ask a math question about it.",
+  "success_criteria": [
+    "I can name 3+ community locations with math.",
+    "I can ask a math question about a community situation.",
+    "I can tell math questions apart from descriptive questions."
+  ],
+  "vocabulary_introduced": [
+    "model",
+    "real-life situation"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_community_map",
+    "M3_modelling_chart",
+    "M4_situation_cards",
+    "M9_coach_chart",
+    "M10_community_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coach Cara — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Math in My Community'",
+    "Community Maps",
+    "Community Situation Cards (12)",
+    "Lesson 1 question tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coach Cara's Community Tour",
+    "hook": "Coach Cara: Math is everywhere in our community! Where do you see math? Coach Cara opens: 'math questions ANSWER WITH NUMBERS!'",
+    "teacher_script": "Bring children to the carpet. Coach Cara puppet. 'Friends — I'm Coach Cara the Community Captain. Today we see math everywhere in our community.'\n\nIntroduce vocabulary. Write MODEL and REAL-LIFE SITUATION on chart. 'A model is a math representation. We pick a situation, ask a math QUESTION, and find the answer.'\n\nShow the community map. Point to hockey rink. 'How many goals scored in a season?' Park: 'How many trees?' Library: 'How many books in the children's section?' Restaurant: 'How many pizzas sold per Saturday?'\n\n'These are MATH questions. They start with HOW MANY, HOW MUCH, HOW LONG. They have NUMBER answers.'\n\nContrast with descriptive: 'What's the colour of the rink? Not math. What flavour pizza? Not math.'\n\nMore math examples:\n- How many goals scored at the rink in 1 month?\n- How many books returned to the library on Friday?\n- How many people on the bus at 8am?\n- How long is the bridge to walk?\n- How many TTC trips per week?\n\n'Coach Cara says — pick a community LOCATION, ask a math QUESTION. That's how we start a model.'\n\n'Today we identify community math and ask questions.'",
+    "student_actions": [
+      "Listen to Coach Cara's tour.",
+      "Echo new vocabulary.",
+      "Suggest math questions for community locations.",
+      "Distinguish math vs descriptive."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Community Question Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: pick 4 community locations. Suggest 2 math questions for each.",
+        "teacher_prompt": "Say: 'Math questions start with HOW. Suggest 2 each.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Community Map — pair picks 4 locations and writes 2 math questions for each. Station B: Sort — pair sorts 12 question cards into MATH and NOT MATH. Station C: Make Your Own — pair writes 4 of their own community math questions.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write a question that needs 2 numbers (e.g., difference between weekday and weekend visitors).",
+        "teacher_prompt": "Say: 'Stretch: 2-number question.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss math vs descriptive. 'Math questions feed the modelling cycle. Descriptive questions are great too, but for a different purpose.'",
+        "teacher_prompt": "Show modelling chart: 'Step 1: math question.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the question tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Math question for the rink?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share questions about the same location (rink, library, store). Class compares: which is MOST answerable with a count? Cite English & Watters (2005) — modelling questions partition by operational tag.",
+        "teacher_prompt": "Coach Cara: 'Same location, different math. The QUESTION decides the tool.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use familiar locations.",
+      "for_extending": "Stretch at Station C: 2-number questions.",
+      "for_ell_or_iep": "Provide a structured frame: 'How many ___ at the ___?'",
+      "for_movement_learners": "Walk around the room as if it's the community."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: identifies locations; writes math questions; distinguishes math from descriptive.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Identifies 3+ locations",
+        "Writes math questions",
+        "Distinguishes math vs descriptive",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coach Cara's Question Brag",
+    "discussion_prompts": [
+      "What does MODEL mean?",
+      "What's a community location with math?",
+      "Math vs descriptive question example?",
+      "Why are math questions important?"
+    ],
+    "exit_routine": "Coach Cara's refrain — class chants: 'Coach Cara's rule: math questions ANSWER WITH NUMBERS!' (3x). Each child writes one math question + tag (COUNT/MEASURE/PREDICT) on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Community question generation accuracy.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already grasp math questions vs those who default to descriptive."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes 'What sport is best?' instead of a math question — repairing the descriptive-vs-math at Grade 3 community scale",
+    "rationale": "On real-world community math questions, the Grade-3 trap is opinion-vs-math confusion: child writes 'why is the rink fun?' instead of 'how many ice times per week?' English & Watters (2005, 'Mathematical Modelling in the Early School Years') and Lesh's model-eliciting activities place math-question framing as the gateway to all later modelling.\n\nToday: math questions about community locations. Tomorrow Cara tallies counts (Lesson 2 — C4.1). Lesson 3 predictions; Lesson 4 reflections; Lesson 5 capstones.",
+    "setup": "Pair is at Station A. Map shows a restaurant. Child writes 'What's the best food at the restaurant?'.",
+    "teacher_script": "Crouch. 'Great curiosity question. But Coach Cara needs a MATH question. Math questions have NUMBER answers.'\n\nWalk through. 'Try: HOW MANY people eat at the restaurant on Friday? HOW MUCH does a meal cost? HOW LONG does it take to make a pizza? Each is a number.'\n\nThe child rewrites. Generalise. 'Coach Cara says — math questions start with HOW. They produce NUMBERS, not opinions.'\n\nIf still opinion-based: provide HOW frame card. 'HOW MANY ___ at the ___?' Force the math start.\n\nLong-term recovery: every modelling task starts with HOW.",
+    "expected_student_responses": [
+      "(Confused) Writes opinion or descriptive questions.",
+      "(Mid) Writes math questions with prompts.",
+      "(Strong) Writes math questions independently.",
+      "(Stretched) Writes 2-number math questions; explains why."
+    ],
+    "common_misconceptions": [
+      "Any question is a math question. (Repair: math questions have number answers.)",
+      "Opinions are math too. (Repair: opinions are not measurable.)",
+      "I can't think of math questions. (Repair: use HOW frames.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child writes opinion ('why is fun?'): drill 'math questions ANSWER WITH NUMBERS'; child rewrites with HOW MANY/HOW MUCH/HOW LONG.",
+      "DIAGNOSTIC B — child writes math but unanswerable ('how many stars?'): drill 'COUNTABLE' constraint; child re-checks.",
+      "DIAGNOSTIC C — child writes good question but won't categorise: model COUNT/MEASURE/PREDICT on 3 sample questions; child sorts."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Math in My Community",
+    "purpose": "Independent practice of C4 step 1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Describe a community location in 2-3 sentences.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Write 4 math questions about the community.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Sort 6 questions into MATH and NOT MATH.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coach Cara in worksheet header",
+      "A blank box for Part 1",
+      "4 numbered question lines for Part 2",
+      "A 6-row sort chart for Part 3"
+    ]
+  }
+}

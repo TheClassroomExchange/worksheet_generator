@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "lesson_number": 4,
+  "lesson_title": "Many Ways to Make 10 (and More)",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "There are many ways to make the same amount. 10 = 5+5 = 4+6 = 8+2 = 0+10 = 11-1.",
+  "learning_intention": "We are learning to find many equivalent expressions for the same whole number up to 50.",
+  "student_learning_goal": "I can find many equivalent expressions for the same whole number up to 50.",
+  "success_criteria": [
+    "I can list 5 different addition expressions that equal 10.",
+    "I can list 5 different addition or subtraction expressions for any number up to 50.",
+    "I can use the balance scale to verify equivalences."
+  ],
+  "vocabulary_introduced": [
+    "equivalent"
+  ],
+  "vocabulary_reinforced": [
+    "equal",
+    "expression",
+    "balance"
+  ],
+  "manipulatives_used": [
+    "M1_balance_scale",
+    "M2_balance_drawings",
+    "M4_equivalence_cards",
+    "M5_two_colour_counters",
+    "M7_equivalent_target_cards",
+    "M9_equality_chart",
+    "M10_balance_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Bella the Balance Beam Scientist — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Many Ways to Make 10' with 6+ expressions listed",
+    "Per-pair balance scale drawing mat",
+    "Per-pair set of two-colour counters (~30)",
+    "Equivalent-Target Card deck (12 cards)",
+    "Lesson 4 equivalent-expressions tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Bella's 'Many Ways to Make 10' Challenge",
+    "hook": "Bella says 5+5 makes 10. Bobby says 4+6 makes 10. Who's right? Bella opens with the unit refrain: 'Same total, NEW way!' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Bella + Bobby puppets. 'Friends — Bella and Bobby are arguing. Bella says 5+5 makes 10. Bobby says 4+6 makes 10. Who's right?'\n\nTake responses. 'Both!' 'Right — they're BOTH right. 5+5 = 10 AND 4+6 = 10. They're EQUIVALENT EXPRESSIONS — different ways to write the same number.'\n\nWrite on the chart:\n10 = 5 + 5\n10 = 4 + 6\n\n'Today we're hunting for ALL the ways to make 10. Watch.'\n\nAdd more:\n10 = 8 + 2\n10 = 7 + 3\n10 = 9 + 1\n10 = 10 + 0\n10 = 11 - 1 (subtraction works too!)\n10 = 12 - 2\n10 = 100 - 90 (a stretch — but it works!)\n10 = 5 + 4 + 1 (3 numbers also)\n\n'Bella says — there are MANY ways to make 10. Different expressions, SAME amount. They're all EQUIVALENT — equal in value.'\n\nIntroduce vocabulary. 'Equivalent means EQUAL. 5+5 and 4+6 are equivalent because they both equal 10.'\n\nNow another target: 25. Build expressions: 25 = 20+5 = 15+10 = 12+13 = 30-5 = 50-25 = 24+1.\n\n'Today we'll find many ways for many target numbers — 10, 25, even 50.'",
+    "student_actions": [
+      "Predict who's right between Bella and Bobby.",
+      "Help find more ways to make 10.",
+      "Echo new vocabulary: 'equivalent'.",
+      "Predict ways to make 25."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Equivalent-Hunt Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: find 5+ expressions for 15. Examples: 7+8, 10+5, 14+1, 20-5, 6+9.",
+        "teacher_prompt": "Say to students: 'Many ways to make 15. Who has one?' Take responses; record on chart."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Make 10 — pair lists 8+ expressions for 10 on a worksheet. Station B: Make 25 — pair lists 6+ expressions for 25. Station C: Pick Your Target — pair picks a target between 20 and 50 and lists 5+ expressions.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include 3-term expressions (10+5+5 = 20). Discuss whether 3 addends count as equivalent expressions. (Yes — same total.)",
+        "teacher_prompt": "Say to pairs: 'You can use 2 or 3 numbers. Same total, equivalent expression.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss patterns. (a) Pairs that swap: 6+4 and 4+6 are essentially the same swap of the commutative property. (b) Adding/subtracting from neighbors: 5+5 ↔ 4+6 ↔ 3+7 — each move keeps the same total. (c) Subtraction works too: 11-1 = 10 = 5+5.",
+        "teacher_prompt": "Use the balance scale: 5+5 vs 4+6 — both balance with 10. Visual proof of equivalence."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the equivalent-expressions tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'How many ways did you find for 10?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: two pairs share their lists side-by-side and NAME the moves they used (commutative swap 6+4 → 4+6, near-doubles shift 5+5 → 4+6, subtraction inverse 10 = 11-1). Bella names operational-vs-relational view of equality (Carpenter, Franke & Levi 2003).",
+        "teacher_prompt": "Bella: 'Same TOTAL, but the MOVES are different. The equals sign doesn't mean DO SOMETHING — it means SAME ON BOTH SIDES.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only sums under 10. Find 5+ ways to make 10 with addition only.",
+      "for_extending": "Stretch to targets above 50 (e.g., make 100). Discuss whether the rule extends.",
+      "for_ell_or_iep": "Provide a structured chart with 5 blank rows under each target. Sentence frame: 'I made ___ with ___ + ___.'",
+      "for_movement_learners": "Use the balance scale physically — for each new way, build it on the scale and verify the balance. NO-PREP VERSION: children use fingers as counters (two hands = 10), draw the balance scale on the whiteboard with one marker, call targets verbally. Children whisper expressions to a partner instead of writing."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: lists 5+ equivalent expressions for 10; lists 5+ for a number up to 50; uses both addition and subtraction.",
+      "how_to_record": "Tick the equivalent-expressions tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Lists 5+ ways for 10",
+        "Lists 5+ ways for a 20-50 target",
+        "Uses both + and -",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Bella's Equivalence Brag",
+    "discussion_prompts": [
+      "What does EQUIVALENT mean?",
+      "How many ways did you find to make 10?",
+      "Can subtraction expressions make 10? Give an example.",
+      "Why are there so many ways?"
+    ],
+    "exit_routine": "Bella's refrain — class chants together: \"Same total, NEW way — that's EQUIVALENT!\" Each child reads their sticky aloud: 'My new way: ___'."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Equivalent-expression generation count and variety (addition and subtraction, 2 and 3 terms).",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures C2.3 mastery. Children at L4 generate 5+ expressions including subtraction and 3-term combinations."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child lists 'equivalent' expressions that all use the same numbers (5+5, 5+5, 5+5) — repairing the variety-of-equivalence understanding",
+    "rationale": "On 'how many ways to make 10', Grade-1 children commonly fixate on a single canonical pair (often 5+5 if they've memorised doubles) and treat any other expression as 'wrong' — the operational vs relational view of equality (Falkner, Levi & Carpenter 1999; Carpenter, Franke & Levi 2003, 'Thinking Mathematically'). The relational view is the research-grounded gateway to flexible computation; today's many-ways task forces it.\n\nYesterday's mystery-number work (Lesson 3) primed the balance-as-equality move. Tomorrow's capstone (Lesson 5) asks children to generate balance stories — they'll need today's flexibility.",
+    "setup": "Pair is at Station A. The child lists for 10: '5+5, 5+5, 5+5, 5+5, 5+5'. Same expression five times.",
+    "teacher_script": "Crouch beside the child. 'You wrote 5+5 five times. That's just ONE way to make 10. Bella wants you to find FIVE DIFFERENT ways.' Pause. 'How else could you make 10?'\n\nWait. The child thinks. 'Maybe 4+6?' 'YES! 4+6 is a NEW way. Different addend pair. Write it.' Child writes.\n\n'Now another. What else?' 'Maybe 10+0?' 'Right! 10 plus zero is also 10. Write it.' Continue.\n\nNow the rule. 'Bella says — to find DIFFERENT ways, change the addend pair. 5+5, 4+6, 3+7, 2+8, 1+9, 0+10 — all different addend pairs, all make 10.'\n\nIf the child STILL repeats: provide a sentence frame. 'For each way, write a NEW pair: __ + __ = 10. Pick numbers that aren't the same as before.' Build the variety reflex.\n\nLong-term recovery: practice 'find 5 DIFFERENT ways' as a daily warm-up. Variety becomes the goal.",
+    "expected_student_responses": [
+      "(Confused) Lists same expression repeatedly.",
+      "(Mid) Finds 2-3 different ways with prompts.",
+      "(Strong) Lists 5+ different ways including 0-and-10 endpoints.",
+      "(Stretched) Includes subtraction expressions and 3-term sums."
+    ],
+    "common_misconceptions": [
+      "Equivalent = the same EXPRESSION. (Repair: equivalent = the same TOTAL with different expressions.)",
+      "Subtraction can't make positive numbers. (Children miss 11-1 = 10. Repair: explicit subtraction examples.)",
+      "Only 2-term expressions count. (Repair: 3-term expressions like 5+3+2 = 10 also work.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child produces ONE alternative pair only: scaffold a near-doubles shift (5+5 → 4+6; demonstrate that moving 1 cube from left to right keeps the total).",
+      "DIAGNOSTIC B — child produces NONE: start with a physical balance, 5+5 cubes, tip one cube → tray no longer balances → re-add to other side → balance restored. Child names what they did.",
+      "DIAGNOSTIC C — child produces 5+5 and 6+4 but stalls: introduce the subtract/add inverse (10 = 11-1 = 12-2)."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Bella's Many Ways",
+    "purpose": "Independent practice of C2.3 (equivalent expressions for whole numbers to 50).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Make 10: list 8 different expressions that equal 10. Mix addition and subtraction.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Make 25: list 6 different expressions that equal 25.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick Your Target: pick a target number between 20 and 50. List 5 different expressions for it.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Bella in the worksheet header",
+      "8 blank expression slots for Part 1",
+      "6 blank expression slots for Part 2",
+      "A target-and-5-slot box for Part 3"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Adding Machine — Day 1 Fact-Recall Snapshot",
+    "when_used": "During Lesson 1 stations.",
+    "expectation_focus": ["B2.2", "B2.1"],
+    "columns": ["Student name", "Recall fluent (≤3 sec) for +0/+1/+2", "Recall fluent for doubles + easy 9s", "Recall developing or emerging for awkward middle (5+4, 6+3, 7+2)", "Can produce the swapped fact", "Notes"],
+    "usage_notes": "Walk between pairs at all three stations. The recall columns are the diagnostic gate — children whose recall is mostly emerging need a small-group fact-fluency push before Lesson 2 mental strategies. The 'swapped fact' column captures B2.1 commutativity.",
+    "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+    "image_placeholders": [
+      {"id": "AS_DIAG_TRACKER", "description": "A printable class checklist page in B&W line-art. Title: 'Adding Machine — Day 1 Fact-Recall Snapshot'. Expectations: B2.2 + B2.1. 6-column grid with 24 student rows.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["diagnostic", "recall", "swap"], "text_image_alignment_check": "Image AS_DIAG_TRACKER: keywords (diagnostic, recall, swap) name what the tracker captures."}
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Adding Machine — Lesson 2 Formative Tracker (Mental Strategies)",
+      "when_used": "During Lesson 2 station rotations.",
+      "expectation_focus": ["B2.3"],
+      "columns": ["Student name", "Selects a strategy proactively", "Strategy match is correct", "Can verbalise the strategy", "Notes"],
+      "usage_notes": "Walk between pairs at all three stations. The 'strategy match' column captures B2.3 mastery — children who default to count-on for everything are not yet at L4. The 'verbalise' column distinguishes children who use a strategy reflexively from those who can also explain it.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {"id": "AS_FORM_TRACKER_L2", "description": "A printable class formative tracker in B&W line-art. Title: 'Adding Machine — Lesson 2 Formative Tracker (Mental Strategies)'. Expectation: B2.3. 5-column grid with 24 student rows.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["strategy", "tracker"], "text_image_alignment_check": "Image AS_FORM_TRACKER_L2: keywords (strategy, tracker) name what the tracker captures."}
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Adding Machine — Lesson 3 Formative Tracker (Fact Families)",
+      "when_used": "During Lesson 3 station rotations and the cup-hide game.",
+      "expectation_focus": ["B2.1", "B2.2"],
+      "columns": ["Student name", "Writes all 4 facts from a triangle", "Uses addition to solve subtraction", "Recognises doubles case (3 facts)", "Notes"],
+      "usage_notes": "The 'uses addition to solve subtraction' column is the B2.1 mastery signal — children who count back instead need explicit fact-family-recall practice before Lesson 4. The 'doubles case' column catches the special-case understanding.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {"id": "AS_FORM_TRACKER_L3", "description": "A printable class formative tracker in B&W line-art. Title: 'Adding Machine — Lesson 3 Formative Tracker (Fact Families)'. Expectations: B2.1 + B2.2. 5-column grid with 24 student rows.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["fact-family", "tracker"], "text_image_alignment_check": "Image AS_FORM_TRACKER_L3: keywords (fact-family, tracker) name what the tracker captures."}
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Adding Machine — Lesson 4 Formative Tracker (Story Problems)",
+      "when_used": "During Lesson 4 station rotations.",
+      "expectation_focus": ["B2.4"],
+      "columns": ["Student name", "Identifies problem type", "Builds with counters", "Draws tape diagram correctly", "Writes correct equation", "Notes"],
+      "usage_notes": "The 'tape diagram' column is the B2.4 structural-representation signal. Children who skip the diagram step often get the right answer but cannot generalise to multi-step problems. Watch for diagrams that show only the answer (single rectangle) vs. those that show both parts.",
+      "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+      "image_placeholders": [
+        {"id": "AS_FORM_TRACKER_L4", "description": "A printable class formative tracker in B&W line-art. Title: 'Adding Machine — Lesson 4 Formative Tracker (Story Problems)'. Expectation: B2.4. 6-column grid with 24 student rows.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["story-problem", "tracker"], "text_image_alignment_check": "Image AS_FORM_TRACKER_L4: keywords (story-problem, tracker) name what the tracker captures."}
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Adding Machine — Summative Rubric",
+    "purpose": "End-of-unit rubric covering all 5 expectations B2.1-B2.5. Used to score each child against four levels.",
+    "rows": [
+      {"expectation_code": "B2.1", "expectation_text": "use the properties of addition and subtraction, and the relationship between addition and subtraction, to solve problems and check calculations", "levels": [{"level_number": 1, "level_name": "Beginning", "descriptor": "Treats addition and subtraction as separate operations; cannot use addition to solve subtraction; does not recognise commutativity (4+3 vs 3+4 seen as different)."}, {"level_number": 2, "level_name": "Developing", "descriptor": "Recognises commutativity with prompting (after Lesson 1 swap demo); uses addition for subtraction occasionally with reminder."}, {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently uses commutative property for addition; uses addition to solve subtraction (fact-family-recall); writes all four facts from a triangle."}, {"level_number": 4, "level_name": "Exceeding", "descriptor": "Articulates the commutative property unprompted; flexes between addition and subtraction across all fact families; explains the special doubles case (3 facts only)."}]},
+      {"expectation_code": "B2.2", "expectation_text": "recall and demonstrate addition facts for numbers up to 10, and related subtraction facts", "levels": [{"level_number": 1, "level_name": "Beginning", "descriptor": "Counts every fact from 1 on fingers; recall is essentially zero. Subtraction always done by counting back."}, {"level_number": 2, "level_name": "Developing", "descriptor": "Fluent on +0, +1, +2 facts; finger-counts the rest. Subtraction by count-up or count-back; not yet by fact-family-recall."}, {"level_number": 3, "level_name": "Achieving", "descriptor": "Fluent (≤3 sec) on all addition facts to 10. Subtraction facts to 10 done via fact-family-recall (knows 6+3=9, so 9-3=6)."}, {"level_number": 4, "level_name": "Exceeding", "descriptor": "Fluent recall on facts to 10; can produce the swapped fact AND the related subtraction facts within 5 seconds. Beginning to extend to facts at 12-15."}]},
+      {"expectation_code": "B2.3", "expectation_text": "use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 20, and explain the strategies used", "levels": [{"level_number": 1, "level_name": "Beginning", "descriptor": "Defaults to count-all on fingers for sums to 20. Does not yet name doubles, near-doubles, or make-ten as strategies."}, {"level_number": 2, "level_name": "Developing", "descriptor": "Knows doubles 1+1 to 5+5; uses make-ten on the ten-frame with prompts. Cannot yet swap-then-make-ten for sums like 5+8."}, {"level_number": 3, "level_name": "Achieving", "descriptor": "Selects a strategy proactively, matches it to the fact (doubles for 6+6, make-ten for 8+5), AND verbalises the strategy steps in 1-2 sentences."}, {"level_number": 4, "level_name": "Exceeding", "descriptor": "Auto-swaps for make-ten when the larger addend is on the right; volunteers alternative strategy combinations; uses estimation to predict whether a sum is reasonable."}]},
+      {"expectation_code": "B2.4", "expectation_text": "use objects, diagrams, and equations to represent, describe, and solve situations involving addition and subtraction of whole numbers that add up to no more than 50", "levels": [{"level_number": 1, "level_name": "Beginning", "descriptor": "Builds with counters but cannot draw a tape diagram or write an equation matching the story. Mixes up problem types."}, {"level_number": 2, "level_name": "Developing", "descriptor": "Identifies problem type with prompting; draws a single-rectangle tape diagram with only the answer; writes correct equation."}, {"level_number": 3, "level_name": "Achieving", "descriptor": "Identifies all three problem types (change-add-to, change-take-from, part-part-whole); draws a tape diagram with both parts labeled; writes correct equation."}, {"level_number": 4, "level_name": "Exceeding", "descriptor": "Recognises that the same tape diagram can represent multiple problem types; volunteers alternative equations; solves multi-step problems."}]},
+      {"expectation_code": "B2.5", "expectation_text": "represent and solve equal-group problems where the total number of items is no more than 10, including problems in which each group is a half, using tools and drawings", "levels": [{"level_number": 1, "level_name": "Beginning", "descriptor": "Distributes objects unevenly OR stops at 'fair share with leftover'; does not yet recognise that a leftover breaks the equal-group rule."}, {"level_number": 2, "level_name": "Developing", "descriptor": "Shares evenly when totals divide cleanly; cuts leftover in half with prompting; sometimes drifts back to 'with leftover' answer."}, {"level_number": 3, "level_name": "Achieving", "descriptor": "Shares fairly between 2 or 4 sharers including the half-share case; writes the per-plate share with 'and a half' notation; explains why a half is needed."}, {"level_number": 4, "level_name": "Exceeding", "descriptor": "Shares fluently with multiple half-cuts (e.g., 6÷4 = 1½ each); generalises the fair-share-with-half rule to other contexts (biscuits, fruit); volunteers when the share would need a quarter or third."}]}
+    ],
+    "usage_notes": "Apply this rubric to each child's combined evidence: diagnostic tracker (Lesson 1) + L2/L3/L4 formative trackers + summative worksheet (Lesson 5). The level achieved is the LOWEST of the relevant evidence sources for that expectation.",
+    "layout_description": "One letter page, landscape. 5-column grid (Expectation + 4 levels) with 5 rows.",
+    "image_placeholders": [
+      {"id": "AS_RUBRIC", "description": "A printable summative rubric grid in B&W line-art on a landscape letter page. 5-column grid with 5 rows (B2.1 through B2.5). Each cell holds the level descriptor in 9pt font.", "placement": "Full landscape page.", "approximate_size": "full_width", "keywords": ["rubric", "levels", "expectation"], "text_image_alignment_check": "Image AS_RUBRIC: keywords (rubric, levels, expectation) name what the rubric grid captures."}
+    ]
+  },
+  "summative_task_script": {
+    "title": "Lesson 5 Summative Task — Equal Groups and Half Groups",
+    "purpose": "End-of-unit summative assessment. Captures evidence for B2.5 (equal-group sharing including halves) explicitly via the worksheet, with B2.4 reinforced through the modelling steps.",
+    "administration_steps": [
+      "Bring children back to the carpet after the small-group rotations on Day 5.",
+      "Hold up the worksheet and walk through the three parts: (1) even-share scenes, (2) half-share scenes, (3) reasoning prompt.",
+      "Distribute one worksheet per child. Allow 15 minutes for completion.",
+      "Walk around and record per-child evidence on the equal-group tracker.",
+      "Collect worksheets and score against the rubric: 9-10/10 = Level 4; 7-8 = Level 3; 5-6 = Level 2; 0-4 = Level 1."
+    ],
+    "scoring_guidance": "Part 1 (2 even-share scenes, score out of 4): captures B2.5 baseline. Part 2 (2 half-share scenes, score out of 4): captures B2.5 mastery (the half-cut move). Part 3 (reasoning prompt, score out of 2): captures the child's articulation of the fair-share-with-half rule. Total score out of 10. Map to summative rubric: 9-10 = Level 4 Exceeding; 7-8 = Level 3 Achieving; 5-6 = Level 2 Developing; 0-4 = Level 1 Beginning.",
+    "evidence_per_expectation": {
+      "B2.1": "Lesson 1 diagnostic — child produces swapped fact; Lesson 3 formative tracker — uses addition to solve subtraction.",
+      "B2.2": "Lesson 1 diagnostic — recall fluency on facts to 10; Lesson 3 formative tracker — writes all 4 facts from a triangle.",
+      "B2.3": "Lesson 2 formative tracker — selects, matches, and verbalises a mental strategy.",
+      "B2.4": "Lesson 4 formative tracker — identifies problem type, draws tape diagram, writes correct equation. Reinforced by summative worksheet modelling.",
+      "B2.5": "Summative worksheet Parts 1 + 2 + 3."
+    }
+  },
+  "certificate": {
+    "title": "Junior Adding Machine Operator Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Adding Machine unit and demonstrating the skills of a Junior Adding Machine Operator. Plus the Pup, Minnie the Mouse, and Doubles the Robot congratulate the student and welcome them to the next adventure in numbers.",
+    "skills_demonstrated": [
+      "Recalling addition facts up to 10 with fluency",
+      "Recalling subtraction facts up to 10 using fact-family logic",
+      "Using mental math strategies (doubles, near-doubles, make-ten) for sums to 20",
+      "Modelling addition and subtraction story problems with tape diagrams and equations",
+      "Solving equal-group problems including the half-share case",
+      "Recognising the commutative property and the addition-subtraction relationship"
+    ],
+    "layout_description": "One letter page, portrait. A decorative dashed-line double border surrounds the page. Title centred at top. Below the title, the recipient_field_label and a long horizontal line for the child's name. The Plus + Minnie + Doubles illustration sits at the top centre, ~3in tall. Below the achievement_text, a sub-header 'By completing this unit, this student has demonstrated:' followed by the skills_demonstrated list as bullet points.",
+    "image_placeholders": [
+      {"id": "AS_CERT_BORDER", "description": "A decorative dashed-line certificate border in B&W line-art, full letter page. Double border with corner flourishes.", "placement": "Full page border.", "approximate_size": "full_width", "keywords": ["certificate", "border"], "text_image_alignment_check": "Image AS_CERT_BORDER: keywords (certificate, border) name what the page is."},
+      {"id": "AS_CERT_FRIENDS", "description": "Illustration of Plus the Pup + Minnie the Mouse + Doubles the Robot standing side by side, all smiling. Plus has his green '+' bandana; Minnie has her red '-' kerchief; Doubles has both arms showing matching dots. ~3in × 4in.", "placement": "Top-centre of the certificate, inside the border.", "approximate_size": "medium", "keywords": ["plus", "minnie", "doubles"], "text_image_alignment_check": "Image AS_CERT_FRIENDS: keywords (plus, minnie, doubles) name what the illustration shows."}
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "lesson_number": 4,
+  "lesson_title": "Estimation Stake-Out",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B1.3"
+  ],
+  "secondary_expectations": [
+    "B1.4"
+  ],
+  "big_idea": "Smart estimates use a chunk strategy.",
+  "learning_intention": "We are learning to estimate the number of objects in a collection up to 200 using a chunk strategy and to verify the estimate by counting.",
+  "student_learning_goal": "I can estimate the number of objects in a collection up to 200 using a chunk strategy and verify by counting.",
+  "success_criteria": [
+    "I can pull out one chunk of 10 (or 100) and use it as a reference.",
+    "I can count the chunks to make a smart estimate.",
+    "I can verify my estimate by counting and tell whether I was close, low, or high."
+  ],
+  "vocabulary_introduced": [
+    "estimate",
+    "chunk-of-100"
+  ],
+  "vocabulary_reinforced": [
+    "chunk strategy",
+    "skip-count"
+  ],
+  "manipulatives_used": [
+    "M8_estimation_jars",
+    "M3_number_line_200",
+    "M7_hundreds_chart"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart 'Smart Estimation' with three rows: chunk-of-10, chunk-of-100, verify",
+    "OPTIONAL: Detective Tina Tens (back from Lesson 2) \u2014 if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Three estimation jars: small (~50 buttons), medium (~100 marbles), large (~175 cubes)",
+    "Hundreds chart 1-100 (one per pair) for counting verification",
+    "Lesson 4 estimation tracker \u2014 provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tina's Stake-Out \u2014 Three Mystery Jars",
+    "hook": "Three mystery jars on the carpet. How many in each? Tina says \u2014 DON'T COUNT. Estimate first. Tina opens: 'Pick the chunk that fits the jar!'",
+    "teacher_script": "Bring children to the carpet. Reveal Detective Tina Tens. 'Friends \u2014 Tina is back. She has three mystery jars. Each one is part of a STAKE-OUT \u2014 we have to estimate the contents WITHOUT counting all of them.'\n\nShow the three jars in size order: small, medium, large. 'Jar 1 \u2014 small. About 50 buttons. Jar 2 \u2014 medium. About 100 marbles. Jar 3 \u2014 large. About 175 cubes. Today we estimate ALL three.'\n\n'Watch Tina's strategy on Jar 1.' Tip out about 10 buttons. 'Tina pulls out a CHUNK OF 10. That's our reference pile.' Push them aside. 'Now look at the rest in the jar. About how many MORE chunks like that?' Wait. Children estimate 4 more chunks (so 50 total). 'Five chunks of ten = 50 buttons. That's Tina's estimate.' Write on the chart.\n\nNow count to verify. Pour out the rest, count chunks of 10. Reveal: 47 buttons. 'Estimate 50, actual 47. Tina was off by 3 \u2014 that's CLOSE.' Star the close estimate.\n\n'Now Jar 2 \u2014 but it's BIGGER. About 100 things. The chunk-of-10 strategy works but takes a while. Tina has an upgrade.' Reveal the chunk-of-100 strategy. 'For HUGE collections, Tina pulls out 1 chunk of 100. It's basically a hundreds chart full.' Show what 100 marbles look like (about a half-fill of the medium jar). 'Looking at the rest \u2014 is it about ZERO more chunks of 100? About a HALF-chunk? Hmm \u2014 looks like nearly 0 more. So estimate is 100.' Verify by counting: 102 marbles. 'CLOSE.'\n\n'Jar 3 \u2014 about 175. Pull a chunk of 100 first.' Show. 'Then look at the rest. About 75 more.' (How? Pull a chunk of 10, see about 7-8 chunks of 10 left.) 'So 100 + 70 or 80 = 170-180. Tina's estimate is 175.' Verify: 173. 'CLOSE again.'\n\n'Today we'll practice the chunk strategy on three more jars at three sizes.'",
+    "student_actions": [
+      "Watch Tina pull a chunk of 10 from Jar 1 and estimate.",
+      "Verify Jar 1 by counting in chunks of 10.",
+      "Watch the chunk-of-100 upgrade for the bigger jars.",
+      "Echo the new vocabulary: 'chunk-of-100'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Estimation Rotations and Verification",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: practice 1 more estimation together. Show a fourth jar (about 130 paper clips). Children predict using the chunk strategy. Then pour out and verify by counting in chunks of 10. Discuss whether the estimate was close, low, or high.",
+        "teacher_prompt": "Say to students: 'One more jar to crack together. About how many?' Take responses. 'Use the chunk strategy. Pull out 10. Now look at the rest.' Children estimate around 130. Pour out and count: 132. 'Close!' Discuss strategy choices."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Small Jar (40-60 items) \u2014 pair uses chunk-of-10 strategy; partner estimates, then counts to verify, records the gap. Station B: Medium Jar (90-110 items) \u2014 same routine, with chunk-of-10 verification. Station C: Large Jar (150-200 items) \u2014 chunk-of-100 strategy first; partner estimates then verifies.",
+        "teacher_prompt": "Say to students: 'Three jars at three stations, 7 minutes each. Use the right chunk strategy for each size \u2014 chunk of 10 for small, chunk of 100 for big.' Set the rotation. Note: have spare jars per station so two pairs can rotate without sharing items."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge: at Station C, after estimating, pairs make an estimate WITHOUT seeing the items first \u2014 just by feeling the weight of the jar and considering the size. This 'eyeball estimate' is harder and gives a baseline before the chunk-strategy estimate.",
+        "teacher_prompt": "Say to pairs at Station C: 'Before pulling any items out, just LOOK at the jar. Make an eyeball estimate. Now pull out a chunk of 100 and make a STRATEGY estimate. Compare \u2014 which one was closer?'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record formative evidence on the estimation tracker. Watch for: (a) does the child use a chunk strategy proactively (vs random guess)? (b) does the child select the right chunk SIZE (10 for small, 100 for huge)? (c) is the verified gap within 10% of actual (the L3 marker)?",
+        "teacher_prompt": "Stop at each pair. Ask 'How did you estimate?' BEFORE they verify. Mark the tracker for strategy use AND chunk-size selection. After verification, mark whether the gap is < 10%, 10-20%, or > 20%."
+      },
+      {
+        "step_number": 5,
+        "instruction": "STRATEGY COMPARE: Two pairs share their chunk-of-10 vs chunk-of-100 estimates for the same jar. Class debates which chunk size is more accurate. Cite Sowder (1992) benchmark estimation.",
+        "teacher_prompt": "Tina: 'Different chunks, same jar. Pick the chunk that MATCHES the size.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose Lesson 1-3 work was emerging stay at Station A (Small Jar) for both rotations. Anchor on chunk-of-10 with collections under 50 first. The chunk-of-100 strategy comes once chunk-of-10 is fluent.",
+      "for_extending": "Stretch jars: 4th jar with 250+ items requiring multiple chunk-of-100 pulls. Question: 'Can you estimate WITHOUT pouring anything out \u2014 just by eyeballing?'",
+      "for_ell_or_iep": "Provide a sentence frame: 'I see ___ chunks of ___, so my estimate is ___.' Provide picture-supported jar cards with reference pile illustrations. Pair with a strong-counter peer for Station C (the large jar).",
+      "for_movement_learners": "All three stations involve physical pouring and chunking, which is naturally kinesthetic. For movement learners with limited fine-motor control, allow them to use larger items (snap cubes) vs. smaller (paper clips). NO-JAR VERSION: teacher claps a chunk of 10 then keeps clapping; child estimates total claps by chunk-counting. Body becomes the jar."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: (1) does the child use a chunk strategy (vs random guess)? (2) does the child match chunk size to collection size (chunk-of-10 for small, chunk-of-100 for huge)? (3) is the estimate gap within 10% of actual?",
+      "how_to_record": "Tick the estimation tracker per child as you observe.",
+      "tracker_columns": [
+        "Student name",
+        "Uses chunk strategy proactively",
+        "Selects right chunk size for collection",
+        "Estimate within 10% of actual",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tina's Best Estimate Brag",
+    "discussion_prompts": [
+      "When does chunk-of-10 work best? When does chunk-of-100 work better?",
+      "Why does the chunk strategy beat just guessing?",
+      "Is there ever a time when the chunk strategy is WRONG to use?",
+      "What's the closest estimate you made today? How did you do it?"
+    ],
+    "exit_routine": "Tina's estimation refrain \u2014 Tina calls 'Pick the chunk that fits the jar! Small jar \u2014 chunk of TEN! Big jar \u2014 chunk of HUNDRED!' Class echoes. Each child estimates one jar with chunk method."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Strategy use, chunk-size selection, and estimate accuracy across 3 jars per child observed during station rotations.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures the B1.3 (estimation to 200) summative-style evidence. Children who select the right chunk strategy AND get within 10% of actual on at least 2 of 3 jars are at L4. Children who guess randomly or always use chunk-of-10 (ignoring scale) need explicit strategy-selection coaching."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child uses chunk-of-10 on a 175-item jar and runs out of class time before finishing \u2014 repairing the strategy-mismatch error",
+    "rationale": "On estimation, the Grade-2 trap is benchmark mismatch: child estimates with the wrong chunk size (chunks of 5 for a 200-jar). Sowder (1992) on benchmark estimation and NCTM number-sense trajectories place chunk-matching as the gateway to fluent estimation. Without it, Lesson 5's fraction work cannot ground.\n\nYesterday Lesson 3 introduced even/odd; today we estimate by matching chunk size to jar size. Lesson 5 fair shares.",
+    "setup": "Pair is at Station C (Large Jar, ~175 cubes). The child has pulled out 10 cubes and pushed them aside. They are looking into the jar trying to count more chunks of 10. They have estimated chunk 1, chunk 2, chunk 3\u2026 and gotten lost at chunk 9. They look frustrated. They guess 90 and write it down.",
+    "teacher_script": "Crouch beside the child. 'Tell me how you estimated.' The child says 'I tried chunks of 10 but there are too many.' 'Yeah \u2014 chunks of 10 work great for small jars. But this jar is HUGE. Let me show you Tina's upgrade.'\n\nReach for the jar. 'Watch \u2014 I pull out a chunk of 100. That's about a hundreds chart full.' Pour cubes onto the table until you have approximately 100. 'See? That's 100 cubes. Push them aside. Now look at what's left in the jar.'\n\nThe child looks. 'About 75 more.' 'Right. So 100 + 75 = 175. That's the chunk-of-100 strategy. ONE big chunk + a small estimate of the rest.'\n\nNow the rule. 'Tina says \u2014 pick your chunk size based on the COLLECTION size. Small jar \u2014 chunk of 10. Big jar \u2014 chunk of 100. Huge jar \u2014 chunk of 100, then chunk of 10 for the rest.'\n\nHave the child redo. 'Try the verification.' Count by chunks of 10: 10, 20, 30\u2026 170. 'And a few more singles.' 173. 'Estimate 175, actual 173. Close.' Tick 'selects right chunk size for collection' on the tracker.\n\nIf the child STILL defaults to chunk-of-10 even on big jars: the chunk-of-100 strategy needs more rehearsal. Repair by going back to the chunk-of-10 \u2192 chunk-of-100 connection. 'Ten chunks of 10 = 100. So one chunk of 100 = ten chunks of 10. Same thing, faster.' Build the bridge from the familiar strategy to the new one.\n\nLong-term recovery: make a daily warm-up for the next week showing 3 collections at 3 sizes (small, medium, big). Children name the chunk strategy BEFORE estimating. The strategy-selection reflex builds with practice.",
+    "expected_student_responses": [
+      "(Confused) Defaults to chunk-of-10 for any collection size. Runs out of time or loses count on big collections. Most common at the start of Lesson 4.",
+      "(Mid) Switches to chunk-of-100 with prompting; doesn't yet auto-select based on collection size.",
+      "(Strong) Auto-selects: chunk-of-10 for small, chunk-of-100 for big. Verbalises the choice before estimating.",
+      "(Stretched) Volunteers a hybrid: 'I'll use chunk-of-100 for the bulk, then chunk-of-10 for the remainder.' Has internalised that the strategy itself can be combined."
+    ],
+    "common_misconceptions": [
+      "Chunk-of-10 always works. (Strategy-rigidity misconception. Repair: chunk size must match collection size \u2014 small/big distinction.)",
+      "Estimation means guessing. (K-stage holdover. Repair: the chunk strategy is the OPPOSITE of guessing \u2014 it's a tool for accuracy.)",
+      "Bigger collection = better strategy = more accuracy. (Children think pulling out 10 must be more careful than pulling out 100. Repair: chunk-of-100 isn't less careful \u2014 it's right-sized to the collection.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A \u2014 child uses single-count for big jars: drill 'chunks of TEN for jars over 50; chunks of HUNDRED for jars over 500'; child re-estimates.",
+      "DIAGNOSTIC B \u2014 child estimates wildly off (300 for a 30-item jar): physical compare \u2014 show a known 30-jar next to the unknown; child adjusts.",
+      "DIAGNOSTIC C \u2014 child estimates exactly without reasoning: force the chunk-method \u2014 child names chunk size BEFORE estimating."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tina Estimates Tens",
+    "purpose": "Independent practice of B1.3 (estimation to 200) with reinforcement of B1.4 (skip-counting). Captures formative evidence on strategy use and accuracy.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Three jar scenes at three sizes (small ~40, medium ~100, large ~170). For each, child writes an estimate and circles the chunk strategy used (chunk-of-10 / chunk-of-100).",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Three skip-count tasks: by 20s starting at 0 (to 200), by 25s starting at 50 (to 200), by 50s starting at 0 (to 200). Fill in the missing numbers.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: 'Tina is at a hockey game with about 175 fans. How would you estimate? Draw and write your strategy.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Tina Tens in the worksheet header",
+      "Three jar illustrations at three sizes for Part 1",
+      "Three Number Line strips for skip-count tasks in Part 2",
+      "A blank box with Tina thinking-bubble icon for Part 3"
+    ]
+  }
+}

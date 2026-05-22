@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Times Table Toolkit — Day 1 Mental-Math Snapshot",
+    "when_used": "During Lesson 1 stations.",
+    "expectation_focus": [
+      "B2.3",
+      "B2.4",
+      "B2.5"
+    ],
+    "columns": [
+      "Student name",
+      "Chunks correctly for sums to 1000",
+      "Uses the standard algorithm with regrouping",
+      "Selects appropriate strategy",
+      "Notes"
+    ],
+    "usage_notes": "Children at L4 flex between chunking and algorithm.",
+    "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page in B&W. Title: 'Times Table Toolkit — Day 1 Mental-Math Snapshot'. Expectations: B2.3-B2.5. 5-column grid with 24 student rows.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "diagnostic",
+          "mental-math"
+        ],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER: keywords (diagnostic, mental-math) name what the tracker captures."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Times Table Toolkit — Lesson 2 Fact-Recall Tracker",
+      "when_used": "During Lesson 2 stations.",
+      "expectation_focus": [
+        "B2.2",
+        "B2.1"
+      ],
+      "columns": [
+        "Student name",
+        "Recalls ×2 facts fluently",
+        "Recalls ×5 facts fluently",
+        "Recalls ×10 facts fluently",
+        "Writes all 4 facts of a triangle",
+        "Notes"
+      ],
+      "usage_notes": "Children at L4 are fluent on all three.",
+      "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class formative tracker in B&W. Title: 'Times Table Toolkit — Lesson 2 Fact-Recall Tracker'. Expectations: B2.2 + B2.1. 6-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "fact-recall",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2: keywords (fact-recall, tracker) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Times Table Toolkit — Lesson 3 Array Tracker",
+      "when_used": "During Lesson 3 stations.",
+      "expectation_focus": [
+        "B2.6"
+      ],
+      "columns": [
+        "Student name",
+        "Builds array for any fact up to 10×10",
+        "Uses distributive property",
+        "Writes related division",
+        "Notes"
+      ],
+      "usage_notes": "Children at L4 use distributive property fluently.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class formative tracker in B&W. Title: 'Times Table Toolkit — Lesson 3 Array Tracker'. Expectation: B2.6. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "array",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3: keywords (array, tracker) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Times Table Toolkit — Lesson 4 Fraction-as-Addition Tracker",
+      "when_used": "During Lesson 4 stations.",
+      "expectation_focus": [
+        "B2.8",
+        "B2.7"
+      ],
+      "columns": [
+        "Student name",
+        "Shows fraction with strips",
+        "Writes the multiplication form",
+        "Identifies whole-number results",
+        "Notes"
+      ],
+      "usage_notes": "Children at L4 connect fractions and multiplication.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class formative tracker in B&W. Title: 'Times Table Toolkit — Lesson 4 Fraction-as-Addition Tracker'. Expectations: B2.8 + B2.7. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "fraction",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4: keywords (fraction, tracker) name what the tracker captures."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Times Table Toolkit — Summative Rubric",
+    "purpose": "End-of-unit rubric covering all 9 expectations B2.1-B2.9.",
+    "rows": [
+      {
+        "expectation_code": "B2.1",
+        "expectation_text": "use the properties of operations, and the relationships between multiplication and division, to solve problems and check calculations",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Treats operations as separate."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Uses fact-family logic with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently uses fact-family logic for any × ↔ ÷ pair."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Volunteers all four facts of a triangle unprompted."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.2",
+        "expectation_text": "recall and demonstrate multiplication facts of 2, 5, and 10, and related division facts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Counts every fact; no recall."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Recall on most ×2 facts; struggles with ×5, ×10."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Fluent on all ×2, ×5, ×10 facts AND related divisions."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Auto-recalls all 30 facts (×2, ×5, ×10, ÷2, ÷5, ÷10) within 3 seconds."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.3",
+        "expectation_text": "use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 1000, and explain the strategies used",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot chunk for sums to 1000."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Chunks with prompts for sums to 500."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently chunks for sums to 1000; verbalises strategy."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Combines chunking with rounding for estimates; selects strategy proactively."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.4",
+        "expectation_text": "demonstrate an understanding of algorithms for adding and subtracting whole numbers by making connections to and describing the way other tools and strategies are used to add and subtract",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Algorithm errors with regrouping."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Algorithm with prompts; misses some regroups."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Uses standard algorithm correctly with regrouping for sums and differences to 1000."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Connects algorithm to chunking; explains why both work."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.5",
+        "expectation_text": "represent and solve problems involving the addition and subtraction of whole numbers that add up to no more than 1000, using various tools and algorithms",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot solve story problems to 1000."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Solves single-step stories with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Solves single-step stories independently for totals to 1000."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Solves multi-step stories; checks by reversing."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.6",
+        "expectation_text": "represent multiplication of numbers up to 10 × 10 and division up to 100 ÷ 10, using a variety of tools and drawings, including arrays",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot build arrays."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Builds arrays for ×2, ×5, ×10 facts only."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Builds any array up to 10×10; uses distributive property; writes related division."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Volunteers multiple breakdowns for tricky facts."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.7",
+        "expectation_text": "represent and solve problems involving multiplication and division, including problems that involve groups of one half, one fourth, and one third, using tools and drawings",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Treats fractions as whole numbers."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Solves whole-number multiplication; struggles with fractional groups."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Solves multiplication with groups of 1/2, 1/4, 1/3 using strips."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Generalises to other fractions."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.8",
+        "expectation_text": "represent the connection between the numerator of a fraction and the repeated addition of the unit fraction with the same denominator using tools, drawings, and standard fractional notation",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Doesn't see numerator as count of unit fractions."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Recognises 3/4 = 3 × 1/4 with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently writes any fraction as repeated addition AND multiplication."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Identifies whole-number results (4 × 1/2 = 2)."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B2.9",
+        "expectation_text": "use the ratios of 1 to 2, 1 to 5, and 1 to 10 to scale up numbers and to solve problems",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot scale a ratio."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Scales 1:2 with prompts; struggles with 1:5, 1:10."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently scales 1:2, 1:5, 1:10 by multiplication."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Solves real-life ratio problems including reverse-scaling."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Apply this rubric to each child's combined evidence.",
+    "layout_description": "One letter page, landscape. 5-column grid with 9 rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable summative rubric grid in B&W on a landscape letter page. 5-column grid with 9 rows (B2.1-B2.9). Each cell holds the level descriptor.",
+        "placement": "Full landscape page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "levels"
+        ],
+        "text_image_alignment_check": "Image AS_RUBRIC: keywords (rubric, levels) name what the rubric grid captures."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Lesson 5 Summative Task — Ratios",
+    "purpose": "End-of-unit summative for B2.9.",
+    "administration_steps": [
+      "Bring children back after rotations.",
+      "Walk through 3 worksheet parts.",
+      "Distribute worksheet, allow 15 min.",
+      "Walk around recording.",
+      "Score: 9-10/10 = L4; 7-8 = L3; 5-6 = L2; 0-4 = L1."
+    ],
+    "scoring_guidance": "Part 1 (3 ratio tables, score out of 5): captures B2.9 baseline. Part 2 (6 scenarios, score out of 4): captures B2.9 mastery. Part 3 (open prompt, score out of 1): captures depth.",
+    "evidence_per_expectation": {
+      "B2.1": "L2 formative — fact-family logic.",
+      "B2.2": "L2 formative — fluency on ×2/×5/×10.",
+      "B2.3": "L1 diagnostic — chunking.",
+      "B2.4": "L1 diagnostic — algorithm.",
+      "B2.5": "L1 worksheet stories.",
+      "B2.6": "L3 formative — arrays.",
+      "B2.7": "L4 formative — multiplication of fractions.",
+      "B2.8": "L4 formative — numerator as addition.",
+      "B2.9": "Summative worksheet."
+    }
+  },
+  "certificate": {
+    "title": "Junior Times Table Toolkit Operator Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Times Table Toolkit unit and demonstrating the skills of a Junior Times Table Toolkit Operator. Tony, Maya, and Pixel congratulate the student.",
+    "skills_demonstrated": [
+      "Adding and subtracting numbers to 1000 with chunking and the standard algorithm",
+      "Recalling multiplication facts of 2, 5, and 10",
+      "Building arrays for multiplication up to 10×10",
+      "Using fact families for multiplication and division",
+      "Showing fractions as repeated addition (3/4 = 1/4+1/4+1/4)",
+      "Multiplying with fractional groups (4 × 1/2 = 2)"
+    ],
+    "layout_description": "Letter page, portrait. Decorative dashed-line double border. Title centred at top. Below: recipient_field_label and a horizontal line for the name. Tony + Maya + Pixel illustration top-centre, ~3in tall. Below achievement_text: sub-header 'By completing this unit, this student has demonstrated:' and the skills_demonstrated list as bullets.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "Decorative dashed-line certificate border in B&W, full letter page. Double border with corner flourishes featuring small × ÷ + − symbols.",
+        "placement": "Full page border.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate",
+          "border"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_BORDER: keywords (certificate, border) name what the page is."
+      },
+      {
+        "id": "AS_CERT_FRIENDS",
+        "description": "Illustration of Tony + Maya + Pixel standing side by side, all smiling. Tony with tool belt; Maya with sketch pad; Pixel with screen-face. ~3in × 4in.",
+        "placement": "Top-centre of certificate.",
+        "approximate_size": "medium",
+        "keywords": [
+          "tony",
+          "maya",
+          "pixel"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_FRIENDS: keywords (tony, maya, pixel) name what the illustration shows."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

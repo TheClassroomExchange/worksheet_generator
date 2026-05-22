@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "lesson_number": 1,
+  "lesson_title": "Big Sums to 20",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.2",
+    "B2.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can add and subtract numbers up to 20 quickly using doubles, near-doubles, and make-ten.",
+  "learning_intention": "We are learning to recall addition facts to 20 and use mental strategies to add and subtract within 50.",
+  "student_learning_goal": "I can recall addition facts to 20 and use mental strategies to add and subtract within 50.",
+  "success_criteria": [
+    "I can recall doubles up to 10+10.",
+    "I can use make-ten to find a sum like 8+5.",
+    "I can chunk by tens to add 32+15 in my head."
+  ],
+  "vocabulary_introduced": [
+    "double",
+    "near-double",
+    "make-ten",
+    "chunking"
+  ],
+  "vocabulary_reinforced": [
+    "addend",
+    "sum"
+  ],
+  "manipulatives_used": [
+    "M1_double_ten_frame",
+    "M2_two_colour_counters",
+    "M10_workshop_poster"
+  ],
+  "lesson_specific_materials": [
+    "The Equal Groups Workshop anchor poster posted at the front",
+    "OPTIONAL: Mae the Multiplier (× symbol patch on apron) — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Per-child double ten-frame mat",
+    "Per-pair set of two-colour counters (~30)",
+    "Anchor chart 'Mental Strategies' with rows for doubles, near-doubles, make-ten, chunk-by-tens",
+    "Lesson 1 fact-recall snapshot tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mae's Big-Sum Warm-Up",
+    "hook": "Mae wants to make BIG sums fast. What's 9+9? What's 8+5? What about 32+15? Mae opens: 'Chunk it, ten it, one it, COMBINE it!'",
+    "teacher_script": "Bring children to the carpet. Reveal Mae the Multiplier puppet. 'Friends — meet Mae. Mae runs the Equal Groups Workshop. Today we warm up our adding muscles before we open the workshop.' Wiggle Mae excitedly.\n\n'Quick rapid-fire — DOUBLES.' Run through the doubles 1+1, 2+2, 3+3 ... 10+10. Most children chant the answers; pause on 7+7 and 8+8 (the awkward middle).\n\n'Now near-doubles.' 6+7. 'Hmm — that's 6+6 plus one. 12+1 = 13.' 7+8. 'That's 7+7 plus one. 14+1 = 15.' Continue with 4-5 near-doubles.\n\nNow the make-ten strategy. Show 8+5 on the double ten-frame. 'Watch — 8 reds in the top frame, 5 yellows in the bottom.' Place the counters. 'I move 2 yellows up to fill the top frame to 10. Now I have 10 + 3 = 13.' Run through 9+4 and 7+6 the same way.\n\nNow the BIG move — chunking for 32+15. 'But Mae says — what about a sum bigger than 20? 32 + 15. We can't fit it on one ten-frame. Watch.' Write on the board: 32 = 30 + 2. 15 = 10 + 5. 'Add the tens: 30 + 10 = 40. Add the ones: 2 + 5 = 7. Add the chunks: 40 + 7 = 47.'\n\nWrite the strategy: chunk into tens and ones, add tens, add ones, combine. 'This is the BIG-SUM strategy.' Add it to the chart.\n\n'Today we'll practice all four strategies. By the end of class you'll add and subtract sums up to 50 in your head.'",
+    "student_actions": [
+      "Chant doubles 1+1 through 10+10 with the class.",
+      "Solve 4-5 near-doubles using the double-plus-one move.",
+      "Watch the make-ten move on the double ten-frame.",
+      "Watch the chunking-by-tens move for 32+15."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Four-Strategy Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "INVENT-AND-COMPARE: Before demoing chunk-by-tens for 24+13, pairs invent ANY non-count-all strategy and share. Class converges on chunk-by-tens as most efficient. Cite Fuson (1990) multidigit-addition trajectories — chunking is the research-named gateway.",
+        "teacher_prompt": "Mae: 'Many ways to add 24+13. The MATH says: tens with tens, ones with ones, COMBINE.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Whole group: practice 4 more chunking sums together. 24+13, 47+22, 65-30, 38-15. For subtraction, chunk the same way (chunk into tens, subtract the tens, subtract the ones). Discuss when chunking is needed (when sums exceed 20).",
+        "teacher_prompt": "Say to students: 'Four chunking sums together. Watch the steps.' Walk through each: 24+13 = 20+10+4+3 = 30+7 = 37. For subtraction 65-30: chunk 65 into 60+5; 60-30=30; 30+5=35. Slow down on the subtraction step."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Doubles & Near-Doubles — pair has 12 fact cards (mix of doubles and near-doubles to 20); they solve and label the strategy used. Station B: Make-Ten — pair has the double ten-frame and 8 cards with sums like 9+5, 8+6, 7+7; they build and write the equation chain. Station C: Chunk-by-Tens — pair has 8 cards with sums and differences in the 20-50 range; they chunk into tens and ones, write the working out.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Station A — strategy labels. Station B — make-ten chain. Station C — chunk-by-tens. Listen for the chime to switch.' Set the rotation."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch challenge at Station C: include 2 cards that involve 'crossing the ten' (e.g., 28+5 — 28+2=30, 30+3=33). This is harder than chunking and requires the make-ten move INSIDE the chunking strategy. Discuss as a hybrid.",
+        "teacher_prompt": "Say to pairs at Station C: 'You'll find some cards that cross a ten. Like 28 + 5. How can you handle that?' Lead pairs to combine make-ten + chunk: 28+2=30, then add 3=33."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the fact-recall snapshot tracker. Watch for: (a) does the child recall doubles fluently (≤3 sec)? (b) does the child apply make-ten for sums to 20? (c) does the child chunk by tens for sums to 50?",
+        "teacher_prompt": "Stop at each pair. Hand them a fact card and ask 'How would you solve this in your head?' Mark the tracker for strategy use AND fluency."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose Grade-1 facts to 10 work was emerging stay at Station A (Doubles & Near-Doubles) for both rotations. Use only doubles 1+1 to 5+5 first, then near-doubles below 10. The make-ten and chunk strategies come later for these children.",
+      "for_extending": "Stretch cards: sums that go to 80 or beyond (e.g., 47+38 = 40+30+7+8 = 70+15 = 85). Discuss whether the chunk strategy still works (yes — extends naturally). Previews Grade 3 territory.",
+      "for_ell_or_iep": "Provide a strategy reference card with picture supports for each of the four strategies. Provide a sentence frame: 'I see a ___, so my strategy is ___.' Pair with a strong-recall peer for Station B (make-ten on the ten-frame).",
+      "for_movement_learners": "Allow movement learners to stand up at the whiteboard and physically draw the chunk-by-tens move with arrows. Body-on-whiteboard motion reinforces the chunk strategy. NO-PAPER CHUNK-BY-TENS: children touch left thumb for tens, right thumb for ones, then clap together for combine. Body becomes the chunk strategy."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: (1) does the child recall doubles AND make-ten facts to 20 fluently? (2) does the child apply chunking for sums to 50? (3) does the child verbalise the strategy in 1-2 sentences? Children at L4 do all three.",
+      "how_to_record": "Tick the fact-recall snapshot tracker per child as you observe.",
+      "tracker_columns": [
+        "Student name",
+        "Recall fluent for doubles to 10+10",
+        "Applies make-ten for sums 11-20",
+        "Chunks by tens for sums 21-50",
+        "Verbalises strategy",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mae's Strategy Brag",
+    "discussion_prompts": [
+      "Which strategy is fastest for 6+7? Why?",
+      "How is chunk-by-tens different from make-ten?",
+      "When would you NOT need a strategy — when's count-on faster?",
+      "What's the trickiest fact you faced today?",
+      "Mae's preview: tomorrow chunk-by-tens handles STORY problems to 100 (Lesson 2 — B2.3). Keep the four steps (chunk, tens, ones, combine) handy."
+    ],
+    "exit_routine": "Mae's chunk refrain — class chants with motions: 'Chunk it, ten it, one it, COMBINE it!' (chop / lift two hands / lift one hand / clap). Repeat 3x. Each child writes one 2-digit + 2-digit sum with chunk-by-tens working."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Fact-recall fluency on doubles and make-ten facts to 20, plus chunking accuracy for sums and differences in the 20-50 range.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 is the diagnostic gateway. Children whose recall is mostly emerging on facts to 20 will struggle with Lessons 3-5 multiplication/division work (which assumes addition fluency). Children who can chunk by tens are ready for Lesson 2 modelling at scale 100."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child knows make-ten for 8+5 but tries to count-all on fingers for 32+15 — repairing the strategy-scale mismatch",
+    "rationale": "Grade-2 children entering chunk-by-tens transition from direct modeling (count-all) to derived facts. Carpenter & Moser CGI work and Fuson (1990, 'Issues in Place-Value and Multidigit Addition and Subtraction Learning and Teaching') place the chunk-by-tens move as the gateway to multidigit fluency.\n\nToday: chunk 24+13 → 20+10 + 4+3 → 30+7 → 37. Tomorrow Lesson 2 uses chunk-by-tens in story problems to 100; Lesson 3 multiplication (equal groups); Lesson 4 fractional groups; Lesson 5 division.",
+    "setup": "Pair is at Station C (Chunk-by-Tens). The child has drawn the card 32+15. They have placed 32 cubes on the desk and started counting them out one-by-one to the 33rd cube, then 34th, then 35th... they get to 47 after a long minute. They look exhausted.",
+    "teacher_script": "Crouch beside the child. 'Pause for a second. You used count-all and got there — but your fingers are tired! Let me show you Mae's BIG-SUM strategy.'\n\nWrite on a fresh whiteboard: 32 + 15. 'Watch.' Above 32, write 30 + 2. Above 15, write 10 + 5. 'Mae says — chunk each number into tens and ones. 32 is 30 + 2. 15 is 10 + 5.'\n\nNow add. 'Add the tens: 30 + 10 = 40.' Write 40. 'Add the ones: 2 + 5 = 7.' Write 7. 'Combine: 40 + 7 = 47.' Write the answer.\n\n'Took about 5 seconds — way faster than counting 47 cubes. That's the chunk-by-tens strategy.'\n\nNow the rule. 'Mae says — for any sum bigger than 20, chunk each number into tens and ones first. Then add the tens. Then add the ones. Then combine. Four steps.'\n\nHave the child redo. 'Try the next card.' Hand them 24+13. 'Chunk?' '20+4 and 10+3.' 'Tens?' '30.' 'Ones?' '7.' 'Combine?' '37.' Affirm.\n\nIf the child STILL count-alls on the next card: the chunk concept hasn't connected. Repair by going to the place-value mat. 'Build 32 with base-ten blocks: 3 tens and 2 ones. Build 15: 1 ten and 5 ones. Put them together. Count tens: 4. Count ones: 7. Total: 47.' The base-ten anchor makes the chunk strategy concrete.\n\nLong-term recovery: include a chunk-by-tens warm-up daily for the first week. Three sums per day. Children see the strategy ~15 times in week 1 and the reflex builds.",
+    "expected_student_responses": [
+      "(Confused) Defaults to count-all on fingers for sums over 20. Doesn't yet recognise that the chunk-by-tens strategy exists. Most common at the start of Lesson 1 for transition learners.",
+      "(Mid) Chunks with prompting; doesn't yet auto-apply for any sum over 20. Needs the teacher to start the chunk move.",
+      "(Strong) Auto-chunks for sums in the 20-50 range. Says '32 is 30+2; 15 is 10+5; tens 40; ones 7; total 47'. Has internalised the chunk-by-tens strategy.",
+      "(Stretched) Volunteers a hybrid for cross-tens sums: '28+5 — 28+2=30, then +3=33. Chunk + make-ten together.' Reasoning through strategy combinations."
+    ],
+    "common_misconceptions": [
+      "Make-ten only works on the ten-frame (one chunk of 10 max). (Strategy-scale rigidity. Repair: chunk-by-tens is the make-ten upgrade — multiple tens.)",
+      "Chunking changes the answer. (Children worry that 32+15 done as 30+10+2+5 might give a different answer than counting all 47. Repair: place-value blocks demonstration shows the answer is the same.)",
+      "Bigger numbers need more steps. (Children think 32+15 needs more time than 8+5. Repair: chunking actually takes FEWER steps if practiced — 4 steps vs. 47 fingers.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child can chunk single tens (32=30+2) but stalls on combining: drill 'tens FIRST, then ones, then COMBINE'; child writes each chunk before combining.",
+      "DIAGNOSTIC B — child counts all: physical demo with ten-frames; child sees that chunking saves counting.",
+      "DIAGNOSTIC C — child chunks but adds wrong: drill 30+7 as a known fact (place value), not 30+1+1+1+1+1+1+1."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Mae's Big Sum Warm-Up",
+    "purpose": "Independent practice of B2.2 (facts to 20) and B2.3 (mental strategies to 50). Captures diagnostic-level evidence for the unit.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Doubles and Near-Doubles",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Make-Ten Move",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Chunk by Tens",
+        "response_type": "write"
+      },
+      {
+        "part_number": 4,
+        "task": "Strategy Choice",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 5,
+        "task": "TRANSFER — Mae's story",
+        "response_type": "write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mae the Multiplier in the worksheet header",
+      "8 doubles/near-doubles fact boxes for Part 1",
+      "4 double ten-frame scenes for Part 2",
+      "4 chunk-by-tens working boxes for Part 3",
+      "4 strategy-choice rows for Part 4"
+    ]
+  }
+}

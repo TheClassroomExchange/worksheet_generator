@@ -1,0 +1,58 @@
+{
+  "unit_id": "g2_data_what_could_happen",
+  "pair_number": 5,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['3-group comparison.', 'Drill group-specific.', 'Test in many groups.'] — terse and non-branching, with no research citation. The trap is real (D2.2 generalization-across-populations), but it isn't named in research-grounded terms (e.g., Konold & Pollatsek on data-as-aggregate, Watson on variability) and recovery doesn't branch by what the diagnostic told you about the child.",
+      "required_fix": "Rewrite expanded_walkthrough to (a) name the misconception with research framing — e.g., 'mode-as-property-of-the-data vs. mode-as-property-of-the-group, Konold & Pollatsek 2002 on data-as-aggregate / Watson on variability across samples' — and (b) branch recovery: IF child predicts identical mode after seeing 1 contrasting group, drill with 3 visibly different groups (allergy class, sport class, snack class); IF child accepts variability but can't say WHY, scaffold with sentence frame 'Different group, different ___, so different mode'; IF child overcorrects ('it's always different'), re-anchor with one matched group. Each branch should be one concrete teacher sentence a substitute could read aloud.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Mode Prediction Templates (1 per child)' and 'All previous manipulatives at 5 stations' as required. The differentiation block (for_emerging/for_extending/for_ell_or_iep/for_movement_learners) does not include a no-paper, no-purchase fallback path — every station depends on the printed template plus prior-built manipulatives, so a teacher whose printer is down or who lost the unit's manipulatives can't run this capstone.",
+      "required_fix": "Add a 'no-materials' or 'voice-and-body' alternative to differentiation: e.g., 'No-paper version — use 5 corners of the room as stations (Likelihood corner, Complement corner, Spinner corner, Dice corner, Survey corner). Children verbally answer at each corner; teacher records on a single class chart. For Station 5, survey by show-of-hands; mode = tallest column of standing children.' Keep this in the lesson, not just the worksheet, so the capstone is runnable on a no-prep day.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lucky and Mae anchor minds_on and consolidation, and success_criteria all begin with 'I can', but there is no distinctive quotable refrain and the consolidation/exit_routine — 'Each child shares one finding: My mode was ___' — is a generic frame, not a memorable chant or character catchphrase children carry between lessons. Across the unit, Lucky's 'Today's CASE' line and Mae's clipboard never crystallize into a repeatable group chant.",
+      "required_fix": "Give Lucky (or Lucky+Mae as a call-and-response) a quotable closing refrain that carries the unit's big idea, and write it into consolidation.exit_routine so children chant it. Example: Teacher/Lucky: 'Detectives — same group?' Children: 'Same mode!' Teacher: 'Different group?' Children: 'MAYBE different mode!' Repeat twice. Capture the exact wording in teacher_script and exit_routine so a substitute can run it.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale = 'Most common D2.2 trap: child finds mode in their class, then predicts SAME mode for another group without considering that different groups have different favourites.' The conceptual progression is sound and vocabulary is precise, but the lesson does not let children compare strategies (e.g., 'Lin predicted same-mode because the groups looked alike; Sam predicted different-mode because they're different ages — whose reasoning fits the data?') and the misconception is not named in research-grounded terms (Konold on data-as-aggregate, Watson on sampling variability, or Bakker & Gravemeijer on informal inference).",
+      "required_fix": "In expanded_walkthrough or action.steps, add a brief 'compare two predictions' move: present two child-voiced predictions ('Lin says SAME mode because both classes are Grade 2'; 'Sam says DIFFERENT mode because the other class is older') and have children pick which reasoning the data supports and why. Then in expanded_walkthrough.rationale, name the principle: 'This is the data-as-aggregate vs. data-as-individuals shift (Konold & Pollatsek 2002); Grade 2 children often treat one group's mode as a universal fact rather than a group-specific aggregate.'",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "Strong capstone architecture — 5 stations cleanly synthesize D2.1 + D2.2, materials are everyday, and the worksheet's 3-part synthesis is a genuine transfer task (Level 4 consistency). Four categories sit at 3 because the lesson stays at 'achieving' on the things that distinguish a great capstone from a competent one: research-grounded trap framing, a no-prep fallback, a memorable character refrain, and a compare-strategies move. Fix the four items above in lesson_05 only — the worksheet is fine as-is."
+}

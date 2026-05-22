@@ -1,0 +1,67 @@
+{
+  "unit_id": "g2_financial_tap_to_pay",
+  "pair_number": 5,
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child gives ONLY ONE way for an amount — repairing the single-combo trap at Grade 2'. The trap is real and recovery_moves are concrete ('Prompt removal of bills.', 'Drill find another way.', 'Compare combos.') but the trap is NOT anchored to a named research source and recovery does NOT branch by what the diagnostic told you about the child.",
+      "required_fix": "Anchor the single-combo trap to research — e.g. 'This is a flexibility-of-representation failure (see Sowder 1992 on quantitative units; Carpenter & Moser CGI on multiple solution paths): the child has produced ONE valid composition and has not yet learned that F1.1 demands GENERATING ALTERNATIVES.' Then branch recovery by diagnostic: (a) if child can verify the total but only writes one combo, drill 'find another way without the twenty'; (b) if child writes wrong totals, drop back to skip-counting before retrying; (c) if child copies a peer, redirect with a hidden card constraint ('this time WITHOUT the $100 bill').",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "differentiation = {'for_emerging': 'Visit 2 stations.', 'for_extending': 'Find a 4th way for one amount.', 'for_ell_or_iep': 'Pre-printed combo template.', 'for_movement_learners': 'Walk between stations physically.'} — every path still requires printed Coin Cards, Bill Cards, capstone templates, and amount cards. There is NO no-paper, no-purchase alternative path using only voice, body, or gesture for days when prep wasn't possible.",
+      "required_fix": "Add a no-materials version to differentiation, e.g. 'No-materials version — use FINGERS as bills (closed fist = $100, open hand = $50, thumb-up = $20, finger = $10) and CLAPS as coins (1 clap = $1 loonie, 2 claps = $2 toonie). Children build $25 with finger-claps: \"thumb-up plus 1 finger plus a fiver-clap.\" Or chant combos aloud: \"TWENTY-FIVE = TWENTY plus FIVE!\" while patting knees.' This makes the capstone runnable on any day even when card sets aren't prepped.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Tappy + Lou anchor minds_on, action, and consolidation, success_criteria all begin with 'I can', and vocabulary has child-friendly defs — but neither character has a distinctive quotable refrain, and the consolidation/exit_routine ('Each child shares ONE: My favourite combo for ___ was ___.') has NO memorable chant or sentence frame children carry between lessons.",
+      "required_fix": "Give Tappy + Lou a unit-closing refrain children chant back at the end of every lesson, e.g. 'Tappy + Lou call: SAME AMOUNT, MANY WAYS — children echo: TAP TO PAY!' Add this to consolidation and to exit_routine so the capstone leaves children with a memorable two-month-later phrase. Two months later kids should still remember 'SAME AMOUNT, MANY WAYS — TAP TO PAY!' the way Sounder Sam's 'HOO knows the sounds? YOU do!' sticks.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale = 'Most common Grade-2 trap on F1.1: child writes only 1 combo and says done. They miss that the SKILL is finding MULTIPLE combos.' Children DO invent combos, but the expanded_walkthrough never names the misconception in research-grounded terms (Carpenter & Moser CGI multiple-solution-paths, Sowder on quantitative units, Empson on equivalence), and the consolidation does not include an explicit strategy-comparison move where two children share different combos and the class reasons about which uses the fewest pieces.",
+      "required_fix": "In expanded_walkthrough.rationale, name the misconception in research terms — e.g. 'This is a unitizing/flexibility-of-representation failure (Sowder 1992 on quantitative units; Carpenter & Moser CGI on generating multiple solution paths): the child stops at the first valid composition rather than re-grouping the same total into different bill+coin units.' Then in consolidation, add an explicit strategy-comparison: 'Child A shares their $25 combo (e.g., 1 twenty + 1 fiver = 2 pieces). Child B shares a different one (e.g., 5 fivers = 5 pieces). Class reasons: SAME amount, FEWER pieces — why? Which would you tap-to-pay?'",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson minds_on lists FOUR capstone stations ('Station 1: $1', 'Station 2: $25', 'Station 3: $100', 'Station 4: $150') and the action.formative_check tracker_columns explicitly include '$100 + $150', but the worksheet has only THREE parts ($1, $25, $150) — Station 3's $100 amount is never captured on the summative artifact. Worksheet parts also do not vary the format from rote lesson repetition (still 'draw 3 ways' / 'draw 2 ways'); the difference is not justified as a transfer task.",
+      "required_fix": "Either (a) add Part 4 to the worksheet capturing $100 (3 ways) so the summative artifact mirrors all 4 lesson stations and the tracker, OR (b) drop Station 3 from the lesson so action and worksheet match exactly. Then add a deliberate transfer twist to one part with justification — e.g. Part 3 becomes 'Find 2 ways to make $150 — one WITH the $100 bill, one WITHOUT, then circle the FEWEST-pieces combo' (justification: verifies generalisation of the fewest-pieces idea introduced in minds_on without rote repeat).",
+      "affected_stages": ["lesson_05", "worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Alignment is Level 4 (F1.1 covered across all 5 stations, byte-identical expectation text, capstone bridges all earlier days). Five categories sit at Level 3, so this is a multi-blocker revise. The biggest issue is lesson_worksheet_consistency: the lesson runs 4 stations ($1, $25, $100, $150) and the tracker references all four, but the worksheet only captures 3 — Station 3 ($100) is dropped on the summative artifact. Pedagogical_depth, instructional_balance, clarity_voice, and mathematical_authenticity all need a Level 4 lift: research-cited trap with branched recovery, no-materials fallback, a memorable unit-closing refrain, and a strategy-comparison consolidation move. Once those land AND the lesson/worksheet station count reconciles, the capstone will clear the strict bar."
+}

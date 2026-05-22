@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Data Detectives Return — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1, while children are at the Venn/Carroll stations.",
+    "expectation_focus": ["D1.1"],
+    "columns": ["Student name", "Picks 2 attributes", "Sorts in Venn", "Sorts in Carroll", "Notes"],
+    "usage_notes": "Walk between pairs. Tick where you see clear evidence. Children placing in correct overlap zone show D1.1 mastery.",
+    "layout_description": "One letter page, portrait, 5-column tick table with 24 rows.",
+    "image_placeholders": [{"id": "AS_DIAG_TRACKER", "description": "Diagnostic tracker for a Grade 2 teacher. Title: 'Data Detectives Return — Day 1'. Expectation D1.1. 5-column tick table with 24 rows. B&W line art.",
+      "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "sort"], "text_image_alignment_check": "AS_DIAG_TRACKER fills the page as the diagnostic tracker. Keywords name the artifact and focus."}]
+  },
+  "formative_trackers": [
+    {"tracker_id": "formative_tracker_lesson_02", "title": "Data Detectives Return — Lesson 2 Formative (Two-Way Tally)",
+     "when_used": "During Lesson 2.", "expectation_focus": ["D1.2"],
+     "columns": ["Student name", "Asks 2 questions", "Tallies in cell", "Totals rows/columns", "Notes"],
+     "usage_notes": "Stop at each pair to observe the technique. Tick where you see clear evidence.",
+     "layout_description": "Identical layout to diagnostic tracker, Lesson 2 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L2", "description": "Lesson 2 formative tracker. Title: 'Lesson 2 Formative (Two-Way Tally)'. D1.2. 5-column tick table.",
+       "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "tally"], "text_image_alignment_check": "AS_FORM_TRACKER_L2: keywords name the artifact."}]},
+    {"tracker_id": "formative_tracker_lesson_03", "title": "Data Detectives Return — Lesson 3 Formative (Bar Graph)",
+     "when_used": "During Lesson 3.", "expectation_focus": ["D1.3"],
+     "columns": ["Student name", "Bar height correct", "Writes title", "Labels axes", "Notes"],
+     "usage_notes": "Stop at each pair to check bar graph construction. Tick where you see clear evidence.",
+     "layout_description": "Identical layout, Lesson 3 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L3", "description": "Lesson 3 formative tracker. Title: 'Lesson 3 Formative (Bar Graph)'. D1.3. 5-column tick table.",
+       "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "bar"], "text_image_alignment_check": "AS_FORM_TRACKER_L3: keywords name the artifact."}]},
+    {"tracker_id": "formative_tracker_lesson_04", "title": "Data Detectives Return — Lesson 4 Formative (Mode)",
+     "when_used": "During Lesson 4.", "expectation_focus": ["D1.4"],
+     "columns": ["Student name", "Finds mode in bar", "Finds mode in tally", "Recognizes no-mode", "Notes"],
+     "usage_notes": "Stop at each pair. Ask 'what is the mode?' Tick where you see clear evidence.",
+     "layout_description": "Identical layout, Lesson 4 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L4", "description": "Lesson 4 formative tracker. Title: 'Lesson 4 Formative (Mode)'. D1.4. 5-column tick table.",
+       "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "mode"], "text_image_alignment_check": "AS_FORM_TRACKER_L4: keywords name the artifact."}]}
+  ],
+  "summative_rubric": {
+    "title": "Data Detectives Return — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 to score against all 5 expectations on a 4-level scale.",
+    "rows": [
+      {"expectation_code": "D1.1", "expectation_text": "sort sets of data about people or things according to two attributes, using tables and logic diagrams, including Venn and Carroll diagrams",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Sorts by one attribute only. Cannot use Venn or Carroll."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Sorts by 2 attributes with prompts using either Venn OR Carroll."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently sorts by 2 attributes using both Venn and Carroll diagrams correctly."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Sorts by 3 attributes (3-circle Venn) and explains when to use Venn vs Carroll."}]},
+      {"expectation_code": "D1.2", "expectation_text": "collect data through observations, experiments, and interviews to answer questions of interest that focus on two pieces of information, and organize the data in two-way tally tables",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot ask 2 questions independently. Tally in wrong cell."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Asks 2 questions with prompts. Tally with single-cell rule with prompts."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently asks 2 questions, surveys 6+, tallies 1-cell-per-child correctly."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Surveys 10+, totals rows + columns accurately."}]},
+      {"expectation_code": "D1.3", "expectation_text": "display sets of data, using one-to-one correspondence, in concrete graphs, pictographs, line plots, and bar graphs with proper sources, titles, and labels",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Bar heights don't match counts. No title or labels."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Bar heights mostly match. Title or labels missing."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Bar heights match exactly. Title and labels both present."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Bar graph + line plot or pictograph (multiple displays)."}]},
+      {"expectation_code": "D1.4", "expectation_text": "identify the mode(s), if any, for various data sets presented in concrete graphs, pictographs, line plots, bar graphs, and tables, and explain what this measure indicates about the data",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot identify the mode."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Identifies single mode with prompts."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently identifies mode in bar graphs and tally tables. Recognizes no-mode and bimodal cases."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Explains why mode matters: 'mode tells us what's most popular'."}]},
+      {"expectation_code": "D1.5", "expectation_text": "analyse different sets of data presented in various ways, including in logic diagrams, line plots, and bar graphs, by asking and answering questions about the data and drawing conclusions, then make convincing arguments and informed decisions",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Personal preference instead of data conclusion."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Group conclusion with sentence frame."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independent group conclusion using mode."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Comparison conclusion + informed decision based on data."}]}
+    ],
+    "usage_notes": "Score during and after Lesson 5 capstone. Level 3 is the grade-level expectation.",
+    "layout_description": "One letter page, landscape, 5-row × 4-level grid.",
+    "image_placeholders": [{"id": "AS_RUBRIC", "description": "Summative rubric for a Grade 2 Data Detectives Return unit. 5-row × 4-level table. Light-grey shading on Level 3.",
+      "placement": "Full page.", "approximate_size": "full_width", "keywords": ["rubric", "data"], "text_image_alignment_check": "AS_RUBRIC: keywords name the artifact and focus."}]
+  },
+  "summative_task_script": {
+    "title": "Bar Graph Case Capstone — Summative Administration Guide",
+    "purpose": "Ties Lesson 5 capstone, the 5 detective steps, and the rubric together.",
+    "administration_steps": [
+      "Before: photocopy templates, print rubric, ready Junior Data Detective certificates.",
+      "Step 1-2 (Ask + Tally, 5 min): question + 2-way table for 6 classmates. Evidence for D1.1, D1.2.",
+      "Step 3 (Bar graph, 8 min): build from tally. Evidence for D1.3.",
+      "Step 4 (Mode, 5 min): find the mode. Evidence for D1.4.",
+      "Step 5 (Conclude, 5 min): write conclusion. Evidence for D1.5.",
+      "After: review with each child. Below-Level-3 needs targeted small-group work."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence.",
+    "evidence_per_expectation": {
+      "D1.1": "Look at the 2-way tally — child sorted by 2 questions consistently.",
+      "D1.2": "Look at the 2-way tally — single-tally per child, totals correct.",
+      "D1.3": "Look at the bar graph — bar heights match tally totals; title + labels present.",
+      "D1.4": "Look at the mode line — child identified the value with the highest count.",
+      "D1.5": "Look at the conclusion sentence — uses GROUP language and references the MODE."
+    }
+  },
+  "certificate": {
+    "title": "Junior Data Detective Certificate (G2)",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Data Detectives Return unit and demonstrating the skills of a G2 Junior Data Detective. A G2 data certificate. Detective Dot the Sorting Squirrel congratulates the student.",
+    "skills_demonstrated": [
+      "Sorting by 2 attributes with Venn and Carroll",
+      "Building 2-way tally tables",
+      "Constructing bar graphs",
+      "Finding the mode and writing conclusions"
+    ],
+    "layout_description": "One letter page, portrait, decorative border, title, recipient line, achievement text, skill bullets, signature lines, small Detective Dot illustration.",
+    "image_placeholders": [
+      {"id": "AS_CERT_BORDER", "description": "Decorative border for a Grade 2 certificate, ~0.5in inset. Scrollwork with bar graph + tally motifs at corners. B&W line art.",
+       "placement": "Frames the entire page.", "approximate_size": "full_width", "keywords": ["certificate"], "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keyword names the artifact."},
+      {"id": "AS_CERT_DOT", "description": "Small Detective Dot illustration at bottom-centre, ~1.5in tall. Dot smiling with magnifying glass raised. B&W consistent with CHAR_DOT_FRONT.",
+       "placement": "Bottom-centre.", "approximate_size": "small", "keywords": ["dot", "certificate"], "text_image_alignment_check": "AS_CERT_DOT at Bottom-centre: keywords name the character and artifact."}
+    ],
+    "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false}
+  }
+}

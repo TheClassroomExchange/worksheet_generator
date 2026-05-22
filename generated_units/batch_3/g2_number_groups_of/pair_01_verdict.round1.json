@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale references 'the chunk-of-100 upgrade in the Place Value Detectives unit' (a different unit) but does not bridge forward to Lesson 2's tape-diagram modelling at scale 100, even though Lesson 2 explicitly relies on B2.3 chunking competency from Day 1.",
+      "required_fix": "In expanded_walkthrough.rationale or consolidation, add an explicit forward bridge such as: 'Tomorrow Mae's friend will use this chunk-by-tens move to handle story problems with totals to 100 — keep the four steps (chunk, tens, ones, combine) ready.' Cross-reference Lesson 2 by name so the unit arc is visible to the teacher.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child knows make-ten for 8+5 but tries to count-all on fingers for 32+15 — repairing the strategy-scale mismatch'. Recovery moves are concrete (four-step mantra, base-ten anchor, time the strategies) but recovery_moves do not branch by what the diagnostic told you about the child, and no named research is cited.",
+      "required_fix": "Cite the trap by name (e.g., Carpenter & Moser CGI 'direct-modelling vs. derived-fact' transition, or Fuson on chunk-by-tens). Then branch recovery_moves: if the child can chunk a single ten (32 = 30+2) but stalls on combining, drill the combine step in isolation; if the child cannot chunk at all, drop back to base-ten blocks and rebuild place-value before retrying chunk-by-tens.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Per-child double ten-frame mat' and 'Per-pair set of two-colour counters (~30)' as required. Differentiation does not include a no-paper, voice/body-only fallback path for the chunk-by-tens strategy on a day when prep wasn't possible.",
+      "required_fix": "Add a no-materials variant in differentiation, e.g.: 'No-paper chunk-by-tens — children touch left thumb for tens, right thumb for ones, then clap together for combine. The body becomes the chunk strategy. Useful when ten-frames or counters are unavailable.' Make the lesson runnable on any day.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Mae the Multiplier appears in minds_on, action steps, and consolidation, but the blueprint catchphrase 'Look for the GROUPS!' is never voiced in lesson_01, and the consolidation/exit_routine ('Each child writes one fact and the strategy they'd use on a sticky note') has no memorable chant or sentence frame children carry between lessons.",
+      "required_fix": "Add Mae's quotable refrain to consolidation — for B2.3 chunking it could be 'Chunk it, ten it, one it, COMBINE it!' chanted by the class with hand motions (chop / lift two hands / lift one hand / clap). Repeat in exit_routine so children carry the chant into Lesson 2. Confirm the same refrain shows up in worksheet header.",
+      "affected_stages": ["lesson_01", "worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Parts 1-4 mirror lesson stations 1:1 (doubles/near-doubles, make-ten on ten-frame, chunk-by-tens, strategy choice). The worksheet does not deliberately VARY format from lesson rote — there is no transfer task with explicit justification. Part 4 includes 5+12 which could read as either near-double or count-on, but the answer_key flags this without a justified generalization purpose.",
+      "required_fix": "Add a Part 5 transfer task explicitly justified as a generalization probe — e.g., 'Story problem: Mae has 28 paper kittens and Buddy delivers 15 more. Show the chunk-by-tens working.' Note in teacher_notes: 'Part 5 verifies the chunk strategy transfers from naked-number facts to a story context — children who solve Part 3 but stall on Part 5 have not yet generalized.'",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit and manipulatives carry meaning, but children are SHOWN chunk-by-tens directly in minds_on rather than invited to invent or compare strategies, and the misconception is labelled 'strategy-scale rigidity' without grounding in named research (Carpenter & Moser CGI, Fuson on multi-digit addition).",
+      "required_fix": "In action step 1, before demoing chunk-by-tens for 24+13, ask pairs to invent any non-count-all strategy and share — converge on chunk-by-tens as most efficient. In expanded_walkthrough.rationale, cite named research (e.g., Fuson 1990 multi-digit addition: tens-and-ones decomposition).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 is solid Level 3 across all six categories — strong make-ten-to-chunk-by-tens progression, Mae anchors the lesson, faithful worksheet — but clears no Level 4 bar. To pass (only one 3 allowed), lift five categories to 4: add a forward bridge to Lesson 2; cite named research and branch recovery; add a no-materials variant; voice Mae's quotable chunking refrain; add a justified transfer task; invite student-invented strategies before the teacher reveal."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "deck_url": "https://docs.google.com/presentation/d/1IiPwLmWv9Um7-OECp5bMhFzRTKbQq9iMgcYwUCsfzSM/edit",
+  "pdf_path": "/Users/aria/Documents/TheClassroomExchange/claude_code_handoff/worksheet_generator/generated_units/batch_3/g1_data_detectives/validation_export.pdf",
+  "pdf_size_kb": 1006,
+  "slide_count": 27,
+  "inspected_at": "2026-05-08T00:00:00Z",
+  "inspected_by": "visual_inspector_agent_round_3",
+  "status": "pass",
+  "issues": [
+    {
+      "slide_number": 25,
+      "category": "text_overflow",
+      "description": "Several Level 3 and Level 4 rubric cells (D1.1 L3/L4, D1.2 L4, D1.3 L4, D1.5 L4) end with a trailing ellipsis indicating that the descriptor extends slightly beyond the visual cell. After round-2 trimming the cuts now occur on clean word boundaries rather than mid-word; the full text remains available on the printable rubric. Tight but readable, no blocking truncation.",
+      "suggested_fix": "Optional polish: shorten the affected L3/L4 descriptors by another 5-10 characters or widen the rubric table cells slightly so the trailing ellipses disappear. Not required for shipping.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 0,
+  "summary": "Third-pass visual inspection of g1_data_detectives passes. All three round-2 blocking issues are resolved: slide 5 (Lesson 3 consolidation) no longer truncates mid-quote, the slide 12 capstone preview correctly shows one hero asset with the '(3 parts on the printable worksheet)' footer per the updated SKILL note, and the slide 25 rubric L3/L4 cells now break on word boundaries rather than mid-word. One minor remains: rubric cells still end with trailing ellipses indicating tight (but not blocking) text fit. Status: pass."
+}

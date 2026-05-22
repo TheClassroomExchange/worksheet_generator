@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 5,
+  "worksheet_title": "Maya's Ratio Workshop",
+  "purpose": "Summative evidence for B2.9 (scale up ratios 1:2, 1:5, 1:10).",
+  "student_learning_goal": "I can use ratios 1:2, 1:5, and 1:10 to scale up amounts and solve real-life problems.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can use ratios 1:2, 1:5, and 1:10 to scale up amounts and solve real-life problems.", "character_watermark": "Tony, Maya, and Pixel together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Ratio Tables", "student_instructions": "Fill in the scaled-up rows for each ratio.", "visual_layout": "Top of the page. Three ratio tables stacked.",
+      "image_placeholders": [{"id": "WS05_P1_THREE_TABLES", "description": "Three ratio tables in B&W line-art, stacked vertically. Each ~7in × 1.8in. Table 1 — 1:2 ratio with rows 1, 3, 5, 7, 10 (fill in the second column). Table 2 — 1:5 ratio with rows 1, 2, 4, 6, 8. Table 3 — 1:10 ratio with rows 1, 3, 5, 7, 9.", "placement": "Top of the page; three tables stacked.", "approximate_size": "full_width", "keywords": ["ratio", "table"], "text_image_alignment_check": "Image WS05_P1_THREE_TABLES: keywords (ratio, table) name what the tables show."}],
+      "student_response_type": "write", "answer_key": "Table 1 (1:2): 1→2, 3→6, 5→10, 7→14, 10→20. Table 2 (1:5): 1→5, 2→10, 4→20, 6→30, 8→40. Table 3 (1:10): 1→10, 3→30, 5→50, 7→70, 9→90."},
+    {"part_number": 2, "part_title": "Part 2: Real-Life Problems", "student_instructions": "Solve each problem using the appropriate ratio.", "visual_layout": "Middle. Six scenario boxes in a 2x3 grid.",
+      "image_placeholders": [{"id": "WS05_P2_SIX_SCENARIOS", "description": "Six scenario boxes in B&W line-art, 2-row × 3-column grid. Each ~2.5in × 1.8in. Scenarios: S1 'Pancake recipe is 1:2 flour:milk. 4 cups flour = ? milk.' S2 '1 toonie = 2 dollars. 6 toonies = ? dollars.' S3 '1 dime = 10 pennies. 4 dimes = ?' S4 '1 nickel = 5 pennies. 7 nickels = ?' S5 '1 km = 1000m. 3 km = ?' S6 '1 dozen = 12 eggs. 5 dozen = ?'", "placement": "Middle; 2x3 grid.", "approximate_size": "full_width", "keywords": ["scenario", "ratio"], "text_image_alignment_check": "Image WS05_P2_SIX_SCENARIOS: keywords (scenario, ratio) name what the boxes ask for."}],
+      "student_response_type": "draw_or_write", "answer_key": "S1: 4×2=8 cups milk. S2: 6×2=12 dollars. S3: 4×10=40 pennies. S4: 7×5=35 pennies. S5: 3×1000=3000 m. S6: 5×12=60 eggs."},
+    {"part_number": 3, "part_title": "Part 3: My Ratio", "student_instructions": "Pick a 1:2, 1:5, or 1:10 ratio from real life. Write 3 scaled-up examples.", "visual_layout": "Bottom of the page. A blank box.",
+      "image_placeholders": [{"id": "WS05_P3_MY_RATIO_BOX", "description": "A blank rectangular box in B&W line-art, ~7in × 2in, with light-grey solid outline. Maya thinking-bubble icon in the top-right corner.", "placement": "Bottom of the page; full-width.", "approximate_size": "full_width", "keywords": ["ratio", "examples"], "text_image_alignment_check": "Image WS05_P3_MY_RATIO_BOX: keywords (ratio, examples) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Accept e.g., 'Ratio: 1 dog to 2 dog treats. Scaled: 3 dogs need 6 treats; 5 dogs need 10 treats; 10 dogs need 20 treats.'"}
+  ]}],
+  "early_finisher_prompt": "If you finish, write a 1:3 ratio (a stretch beyond what we covered) and scale it up.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use Parts 1-3 as summative evidence for B2.9. Watch for additive scale-up errors in Part 1."
+}

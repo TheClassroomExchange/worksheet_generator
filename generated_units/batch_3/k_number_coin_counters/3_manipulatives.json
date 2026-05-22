@@ -1,0 +1,484 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "overall_prep_notes": "Total prep time across all 10 manipulatives is approximately 2.5 hours. The bulk is the M1 Coin Set (printing + laminating + cutting 25 cards per pair) and the M4 Ten-Frame Mats (one per child, laminated). Plan to print and laminate over a weekend before the unit starts. Real Canadian coins can replace M1 printed cards if available — they are more durable and the handling experience is more authentic. The three character puppets (Penny, Nick, Quincy) should be printed on cardstock for years of reuse; store flat in a folder so they don't crease. Snap-cubes (M3) are a standard math-kit item; confirm you have ~600 cubes in 2-3 colours before Lesson 2.",
+  "assets": [
+    {
+      "asset_id": "M1_canadian_coins",
+      "name": "Canadian Coin Set",
+      "category": "manipulative",
+      "purpose": "Per-pair set of real or printed Canadian coins used to identify coin types by colour, size, and embossed image, and to pay for Snack Shop items in Lesson 5.",
+      "page_layout": "Two letter pages, portrait. Page 1 holds a 5×5 grid of coin cards (10 pennies + 6 nickels + 5 dimes + 4 quarters = 25 coin cards). Each card is ~1.5in × 1.5in with thin cut-lines. Each card shows a single coin in B&W line-art with the embossed image (maple leaves, beaver, Bluenose, caribou) clearly visible.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_PENNY_CARD",
+          "description": "A 1.5in × 1.5in card showing a Canadian penny in B&W line-art: copper-coloured circle with maple leaves visible on the back side, '1¢' label clearly printed below. Repeated 10 times.",
+          "placement": "10 cards in a row at the top of page 1.",
+          "approximate_size": "small",
+          "keywords": [
+            "1¢",
+            "coin"
+          ],
+          "text_image_alignment_check": "Image M1_PENNY_CARD: keywords (penny, 1¢, coin) name what the card shows."
+        },
+        {
+          "id": "M1_NICKEL_CARD",
+          "description": "A 1.5in × 1.5in card showing a Canadian nickel in B&W line-art: silver-coloured circle with a beaver visible on the back, '5¢' label clearly printed below. Repeated 6 times.",
+          "placement": "6 cards in a row in the middle of page 1.",
+          "approximate_size": "small",
+          "keywords": [
+            "nickel",
+            "5¢",
+            "beaver"
+          ],
+          "text_image_alignment_check": "Image M1_NICKEL_CARD: keywords (nickel, 5¢, beaver) name what the card shows."
+        },
+        {
+          "id": "M1_DIME_CARD",
+          "description": "A 1.5in × 1.5in card showing a Canadian dime in B&W line-art: silver-coloured circle (smallest of the silver coins) with the Bluenose schooner visible on the back, '10¢' label clearly printed below. Repeated 5 times.",
+          "placement": "5 cards in a row at the bottom of page 1.",
+          "approximate_size": "small",
+          "keywords": [
+            "dime",
+            "10¢",
+            "bluenose"
+          ],
+          "text_image_alignment_check": "Image M1_DIME_CARD: keywords (dime, 10¢, bluenose) name what the card shows."
+        },
+        {
+          "id": "M1_QUARTER_CARD",
+          "description": "A 1.5in × 1.5in card showing a Canadian quarter in B&W line-art: silver-coloured circle (largest silver coin) with a caribou visible on the back, '25¢' label clearly printed below. Repeated 4 times.",
+          "placement": "4 cards in a row on page 2.",
+          "approximate_size": "small",
+          "keywords": [
+            "quarter",
+            "25¢",
+            "caribou"
+          ],
+          "text_image_alignment_check": "Image M1_QUARTER_CARD: keywords (quarter, 25¢, caribou) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 set of 2 pages per pair (10 pairs for a class of 20 = 20 pages).",
+        "Laminate every page before cutting. Coins get heavy K-handling across two lessons.",
+        "Cut along cut-lines. Each set has 25 coin cards (10 pennies, 6 nickels, 5 dimes, 4 quarters).",
+        "Store each set in a labelled zip-top bag with the coin counts written on the bag.",
+        "Optional: replace printed cards with REAL Canadian coins for Lesson 5. Real coins are more durable and the handling experience is more authentic."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 set per pair = 10 sets for a class of 20.",
+      "used_in_lessons": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_estimation_jar",
+      "name": "Estimation Penny Jar",
+      "category": "manipulative",
+      "purpose": "Clear jar with 12-18 pennies inside, used in Lesson 1 for the estimate-then-count routine and revisited in Lesson 5 for Quincy's coin mystery.",
+      "page_layout": "Single letter page, portrait. A printable jar template with a clear-glass illustration; the teacher tapes pennies behind the printed jar to make a visible quantity for whole-class display.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_JAR_TEMPLATE",
+          "description": "A large clear-glass jar illustration in B&W line-art, ~7in tall, centred on the page. The jar has a screw-top lid and clear walls. Inside the jar shape, faint dotted-line outlines suggest where pennies will sit. The teacher prints this and either tapes real pennies or draws penny circles inside.",
+          "placement": "Centred on the letter page.",
+          "approximate_size": "large",
+          "keywords": [
+            "jar",
+            "pennies",
+            "estimate"
+          ],
+          "text_image_alignment_check": "Image M2_JAR_TEMPLATE: keywords (jar, pennies, estimate) name what the template shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 jar template per classroom (1 page).",
+        "Laminate the page so it can be re-used across days and classes.",
+        "Use a real clear plastic jar with 12 pennies on Day 1. On Day 5 swap to 18 pennies for the Quincy challenge.",
+        "Place the jar at the carpet during Minds On for both lessons. Remove during partner work to prevent counting fatigue.",
+        "Optional: add a sticky note with each child's estimate beside the jar. Tally accuracy for diagnostic notes."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 jar template + 1 real jar with pennies for the whole class.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_linking_cubes",
+      "name": "Linking Snap-Cubes",
+      "category": "manipulative",
+      "purpose": "30 snap-together cubes per child in 2-3 colours. Used for partner-of-5 number bonds (Lesson 2), story-problem modelling to 10 (Lesson 3), and showing coin values as cube-stacks (Lesson 5).",
+      "page_layout": "Not printable — these are physical cubes from a classroom kit. The page shows a labelling card for the storage bag.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_CUBE_STORAGE_LABEL",
+          "description": "A printable storage-bag label, ~3in × 4in, in B&W line-art. Shows a small illustration of a stack of snap-cubes (red and yellow alternating) with the label 'COIN COUNTERS — Snap-cubes (30 per child, 2-3 colours)'. Includes a small Penny puppet icon in the corner.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "cubes",
+            "snap-cube",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M3_CUBE_STORAGE_LABEL: keywords (cubes, snap-cube, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Confirm you have ~30 linking snap-cubes per child in your math kit.",
+        "Sort cubes into 2-3 colours (red and yellow are ideal for partner-of-5 work).",
+        "Print and cut storage labels; tape one to each child's cube bag.",
+        "Have cubes ready in bags at the start of Lessons 2, 3, and 5.",
+        "Optional. Store red cubes and yellow cubes in separate bags for Lesson 2 to avoid mixing during distribution."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "~30 cubes per child = 600 cubes for a class of 20.",
+      "used_in_lessons": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M4_ten_frames",
+      "name": "Ten-Frame Mats",
+      "category": "manipulative",
+      "purpose": "Laminated 2×5 grids printed at letter size. Children fill cells with cubes or pennies to model 'how many altogether' and 'how many are left' across Lessons 2, 3, and 5.",
+      "page_layout": "Single letter page, landscape. One large 2×5 ten-frame grid centred on the page; cells are ~2.5in square. A thin border surrounds the whole frame. A small Penny icon decorates the top-right corner.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_TEN_FRAME_MAT",
+          "description": "A large 2×5 ten-frame grid in B&W line-art on a landscape letter page. Each cell ~2.5in square, with thick black grid lines. Centered on the page. A small Penny puppet icon (~0.8in) sits in the top-right corner. Faint label 'TEN-FRAME' below the grid.",
+          "placement": "Centred, full landscape page width.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "ten-frame",
+            "cubes",
+            "pennies"
+          ],
+          "text_image_alignment_check": "Image M4_TEN_FRAME_MAT: keywords (ten-frame, cubes, pennies) name what the mat shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 ten-frame mat per child (20 pages for a class of 20).",
+        "Laminate every page. Children will use dry-erase markers on these mats during Lesson 5.",
+        "Stack mats at the math centre. Distribute at the start of Lessons 2, 3, and 5.",
+        "Pair each mat with a small bag of 10 round counters (or borrow cubes from M3 bag).",
+        "Optional. Print 2 mats per child if you want a 'before/after' modelling routine in Lesson 3."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "1 mat per child = 20 mats for a class of 20.",
+      "used_in_lessons": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_snack_shop_cards",
+      "name": "Snack Shop Price Cards",
+      "category": "manipulative",
+      "purpose": "Printable price-tag cards for the Lesson 5 Snack Shop: pizza slice (25¢), popcorn (10¢), lollipop (5¢). Used to set up the classroom payment scenario.",
+      "page_layout": "Single letter page, portrait. Three price-tag cards stacked vertically, each ~3in × 3in with thin cut-lines. Each card shows the snack illustration centred with the price below in large bold text.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_PIZZA_CARD",
+          "description": "A 3in × 3in card in B&W line-art showing a pizza slice (cheese pizza, classic triangular wedge) centred. Below the slice, large bold text 'PIZZA  25¢'. Thin black border.",
+          "placement": "Top of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "pizza",
+            "25¢",
+            "snack"
+          ],
+          "text_image_alignment_check": "Image M5_PIZZA_CARD: keywords (pizza, 25¢, snack) name what the card shows."
+        },
+        {
+          "id": "M5_POPCORN_CARD",
+          "description": "A 3in × 3in card in B&W line-art showing a striped popcorn bucket overflowing with kawaii popcorn pieces. Below the bucket, large bold text 'POPCORN  10¢'. Thin black border.",
+          "placement": "Middle of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "popcorn",
+            "10¢",
+            "snack"
+          ],
+          "text_image_alignment_check": "Image M5_POPCORN_CARD: keywords (popcorn, 10¢, snack) name what the card shows."
+        },
+        {
+          "id": "M5_LOLLIPOP_CARD",
+          "description": "A 3in × 3in card in B&W line-art showing a swirl-pattern lollipop on a stick. Below the lollipop, large bold text 'LOLLIPOP  5¢'. Thin black border.",
+          "placement": "Bottom of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "lollipop",
+            "5¢",
+            "snack"
+          ],
+          "text_image_alignment_check": "Image M5_LOLLIPOP_CARD: keywords (lollipop, 5¢, snack) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per pair (10 pages for a class of 20).",
+        "Laminate every page before cutting. Cards live in the Snack Shop play zone for the whole week.",
+        "Cut along cut-lines into 3 individual price cards per pair.",
+        "Tape one card to each Snack Shop station before Lesson 5 starts.",
+        "Optional. Replace printed cards with photos of real classroom snack items if your school runs a snack-store programme."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 set of 3 cards per pair = 30 cards total for a class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_share_plates",
+      "name": "Sharing Paper Plates",
+      "category": "manipulative",
+      "purpose": "Set of 4 paper plates per group of 4 children, used in Lesson 4 sharing rounds. Children deal objects onto the plates to make equal shares.",
+      "page_layout": "Single letter page, portrait. Four paper-plate templates printed in a 2×2 grid, each ~3.5in diameter. Thin cut-lines separate the plates. The teacher cuts and laminates so plates are reusable.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_PAPER_PLATE_TEMPLATE",
+          "description": "Four paper-plate templates in B&W line-art, ~3.5in diameter each, arranged 2×2 on a portrait letter page. Each plate has a wavy double-line edge to suggest paper, and a small label space at the top reading 'PLATE'. Cut-lines around each plate.",
+          "placement": "2×2 grid on the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "plate",
+            "share"
+          ],
+          "text_image_alignment_check": "Image M6_PAPER_PLATE_TEMPLATE: keywords (plate, share) name what the template shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per group of 4 students (5 pages for a class of 20).",
+        "Laminate the pages before cutting. Plates need to survive the dealing rhythm in Lesson 4.",
+        "Cut along the cut-lines into 4 individual plates per page.",
+        "Keep all plates flat in a labelled folder. Distribute at the start of Lesson 4 small-group time.",
+        "Optional. Substitute real paper plates from the supply closet if your school has them in stock."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 set of 4 plates per group of 4 = 5 sets for a class of 20.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M7_sharing_objects_set",
+      "name": "Sharing Objects Kit",
+      "category": "manipulative",
+      "purpose": "24 small classroom objects per group of 4 (wooden counters, paper grapes, paper cookies). Used for the equal-share rounds in Lesson 4.",
+      "page_layout": "Single letter page, portrait. Sheet of 24 small object icons (cookies + grapes + stickers) arranged in a grid. Children cut these out before the sharing activity.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_OBJECTS_SHEET",
+          "description": "A sheet of 24 small share-object icons in B&W line-art. The icons include 8 round cookies, 8 grape clusters, and 8 simple stars. Each icon ~1in square. Cut-lines around each. Arranged 4×6 on a portrait letter page.",
+          "placement": "Centred 4×6 grid on the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "cookies",
+            "grapes",
+            "stars",
+            "share"
+          ],
+          "text_image_alignment_check": "Image M7_OBJECTS_SHEET: keywords (cookies, grapes, stars, share) name what the sheet shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per group of 4 students (5 pages for a class of 20).",
+        "Laminate the pages before cutting so the objects can be re-used across multiple lessons.",
+        "Cut along the cut-lines into 24 individual object icons per group.",
+        "Pre-sort the objects into types (cookies, grapes, stars) for the sharing rounds.",
+        "Optional. Substitute real classroom counters (wooden or plastic) for the printed icons if you have them."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 set of 24 objects per group of 4 = 5 sets for a class of 20.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "char_penny_puppet",
+      "name": "Penny Lead Counter Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Penny illustration mounted on a popsicle stick, used as the unit's lead character across all 5 lessons.",
+      "page_layout": "Single letter page, portrait. One Penny figure centred on the page with a tab at the bottom for popsicle-stick attachment.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_PENNY_FRONT",
+          "description": "A full-figure Penny illustration in B&W line-art: a young Kindergartener with light brown hair in two short pigtails, bright yellow t-shirt with a small copper coin pin at the collar, holding a clear jar of pennies in front of her. Friendly smile. Approximately 6in tall on a letter page with a 1in attachment tab at the bottom.",
+          "placement": "Centred on the page with attachment tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "penny",
+            "puppet"
+          ],
+          "text_image_alignment_check": "Image CHAR_PENNY_FRONT: keywords (penny, puppet, chef) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible (or paper + laminate for durability).",
+        "Cut around the outside of Penny's silhouette including the bottom tab.",
+        "Glue or tape a popsicle stick behind the bottom tab so Penny can be held up.",
+        "Optional: laminate before cutting for years of reuse.",
+        "Store flat in a folder so the puppet does not crease."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_nick_puppet",
+      "name": "Nick Partner Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Nick illustration mounted on a popsicle stick, used as Penny's pair partner across all 5 lessons.",
+      "page_layout": "Single letter page, portrait. One Nick figure centred with attachment tab.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_NICK_FRONT",
+          "description": "A full-figure Nick illustration in B&W line-art: a young Kindergartener with black hair, blue-and-white striped shirt, soft green ball-cap, holding a small wooden tray with stacks of snap-cubes on it. Warm grin. Approximately 6in tall on a letter page with a 1in attachment tab at the bottom.",
+          "placement": "Centred on the page with attachment tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "nick",
+            "puppet",
+            "partner"
+          ],
+          "text_image_alignment_check": "Image CHAR_NICK_FRONT: keywords (nick, puppet, partner) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible (or paper + laminate for durability).",
+        "Cut around the outside of Nick's silhouette including the bottom tab.",
+        "Glue or tape a popsicle stick behind the bottom tab so Nick can be held up.",
+        "Optional: laminate before cutting for years of reuse.",
+        "Store flat in a folder next to the Penny puppet so they always travel together."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_quincy_puppet",
+      "name": "Quincy Piggy Bank Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Quincy piggy-bank cardstock cut-out, propped beside the Snack Shop on Day 5 and appearing in every lesson with a 'how many' speech bubble.",
+      "page_layout": "Single letter page, portrait. One Quincy figure centred with attachment tab.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_QUINCY_FRONT",
+          "description": "A full-figure Quincy piggy-bank illustration in B&W line-art: a round, smiling pink piggy bank standing upright like a character, with a slim coin slot on top of his head, big eyes, a tiny curly tail, and four short legs. Approximately 6in tall on a letter page with a 1in attachment tab at the bottom.",
+          "placement": "Centred on the page with attachment tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "quincy",
+            "piggy-bank",
+            "puppet"
+          ],
+          "text_image_alignment_check": "Image CHAR_QUINCY_FRONT: keywords (quincy, piggy-bank, puppet) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible (or paper + laminate for durability).",
+        "Cut around the outside of Quincy's silhouette including the bottom tab.",
+        "Glue or tape a popsicle stick behind the bottom tab so Quincy can be held up.",
+        "Optional: laminate before cutting for years of reuse.",
+        "Store flat in a folder; bring out for every lesson alongside Penny and Nick."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

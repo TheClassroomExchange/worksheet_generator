@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "lesson_number": 5,
+  "worksheet_title": "Frankie's Equivalent Fractions",
+  "purpose": "Summative evidence for B1.7 (equivalent fractions).",
+  "student_learning_goal": "I can show that fractions like 1/2 = 2/4 = 4/8, 1/3 = 2/6, and 1/5 = 2/10 are equivalent using fraction strips and drawings.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can show that fractions like 1/2 = 2/4 = 4/8, 1/3 = 2/6, and 1/5 = 2/10 are equivalent using fraction strips and drawings.",
+    "character_watermark": "Frankie, Penny, and Sammy together in the top-right corner. Small (~1.5in tall combined)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Equivalence Chains",
+          "student_instructions": "Fill in each equivalence chain.",
+          "visual_layout": "Top. Three equivalence chains stacked.",
+          "image_placeholders": [
+            {"id": "WS05_P1_THREE_CHAINS", "description": "Three equivalence chains in B&W line-art, stacked vertically. Each ~7in × 0.8in. Chain 1: 1/2 = ___/4 = ___/8. Chain 2: 1/3 = ___/6. Chain 3: 1/5 = ___/10.", "placement": "Top of the page; three chains.", "approximate_size": "full_width", "keywords": ["equivalence", "fractions"], "text_image_alignment_check": "Image WS05_P1_THREE_CHAINS: keywords (equivalence, fractions) name what the chains ask for."}
+          ],
+          "student_response_type": "write",
+          "answer_key": "Chain 1: 1/2 = 2/4 = 4/8. Chain 2: 1/3 = 2/6. Chain 3: 1/5 = 2/10."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Pizza Equivalences",
+          "student_instructions": "Three same-size pizzas. Shade matching equivalent fractions. Write the equation.",
+          "visual_layout": "Middle. Three pizzas side by side.",
+          "image_placeholders": [
+            {"id": "WS05_P2_THREE_PIZZAS", "description": "Three same-size circular pizzas in B&W line-art, side by side. Each ~2.5in diameter. Pizza A divided into 2 halves. Pizza B divided into 4 fourths. Pizza C divided into 8 eighths. Below: 'Shade 1/2 of A, 2/4 of B, 4/8 of C. Equation: ___/2 = ___/4 = ___/8.'", "placement": "Middle of the page; three pizzas in a row.", "approximate_size": "full_width", "keywords": ["pizza", "equivalent"], "text_image_alignment_check": "Image WS05_P2_THREE_PIZZAS: keywords (pizza, equivalent) name what the pizzas show."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pizza A: shade 1 of 2 sectors. Pizza B: shade 2 of 4 sectors. Pizza C: shade 4 of 8 sectors. Equation: 1/2 = 2/4 = 4/8."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: True or False?",
+          "student_instructions": "For each claim, circle TRUE or FALSE. Write 1 line of reasoning.",
+          "visual_layout": "Lower-middle. Six claim rows.",
+          "image_placeholders": [
+            {"id": "WS05_P3_SIX_CLAIMS", "description": "Six equivalence-claim rows in B&W line-art, stacked vertically. Each ~7in × 0.5in. Format: claim on left (e.g., '1/2 = 4/8'), TRUE/FALSE bubbles, reason line. Claims: 1/2 = 4/8, 1/3 = 2/4, 1/4 = 2/8, 1/2 = 2/3, 1/5 = 3/15, 2/4 = 4/6.", "placement": "Lower-middle; six rows.", "approximate_size": "full_width", "keywords": ["true", "false"], "text_image_alignment_check": "Image WS05_P3_SIX_CLAIMS: keywords (true, false) name what the rows ask for."}
+          ],
+          "student_response_type": "circle_yes_no",
+          "answer_key": "1/2 = 4/8 TRUE (×4 both). 1/3 = 2/4 FALSE (would need to multiply by same factor). 1/4 = 2/8 TRUE (×2 both). 1/2 = 2/3 FALSE (different multipliers). 1/5 = 3/15 TRUE (×3 both). 2/4 = 4/6 FALSE (different multipliers; 2/4 = 1/2 = 4/8, NOT 4/6)."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Why Are They Equal?",
+          "student_instructions": "Why does 1/2 equal 2/4? Draw a picture and write 1-2 sentences.",
+          "visual_layout": "Bottom of the page. A blank box with drawing area and writing lines.",
+          "image_placeholders": [
+            {"id": "WS05_P4_WHY_BOX", "description": "A blank rectangular box in B&W line-art, ~7in × 2.5in, with light-grey solid outline. Top half is drawing area; bottom half is 3 lined writing rows. Frankie thinking-bubble icon in the top-right.", "placement": "Bottom of the page; full-width.", "approximate_size": "full_width", "keywords": ["equivalent"], "text_image_alignment_check": "Image WS05_P4_WHY_BOX: keywords (equivalent) name what the box asks for."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible reasoning that touches on (a) the SAME amount of pizza is shaded and (b) more cuts make smaller pieces but more of them. Examples: '1/2 and 2/4 cover the same amount of pizza. The pizza is just cut differently.' 'Multiplying top and bottom by 2 gives an equivalent fraction.'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write 3 more equivalence pairs of your own using denominators between 2 and 12.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use Parts 1-4 as summative evidence for B1.7. Part 4 reasoning is the deepest understanding marker — children who can articulate the SAME-AMOUNT-OF-PIZZA insight are at L4. Watch for Part 3 children who write TRUE for 1/3 = 2/4 (the additive fallacy) — flag for the multiplication-pattern reteach."
+}

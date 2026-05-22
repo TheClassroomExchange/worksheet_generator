@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "lesson_number": 2,
+  "lesson_title": "Compare by Length and Area",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E2.2"
+  ],
+  "secondary_expectations": [
+    "E2.1"
+  ],
+  "big_idea": "We line up to compare LENGTH. We cover to compare AREA.",
+  "learning_intention": "We are learning to compare and order by length and area.",
+  "student_learning_goal": "I can compare and order objects by length and area.",
+  "success_criteria": [
+    "I can line up to find longer/shorter.",
+    "I can cover to find bigger/smaller area.",
+    "I can ORDER 4 objects."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "length",
+    "area",
+    "attribute"
+  ],
+  "manipulatives_used": [
+    "M2_length_strips",
+    "M3_area_tiles",
+    "M7_attribute_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Roo and Cal — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Compare Length and Area'",
+    "Length Strips (24 per pair)",
+    "Area Tiles (60 per pair)",
+    "Lesson 2 length/area tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Roo Lines Up the Strips",
+    "hook": "Roo: I have 4 ribbons. Line them up — which is LONGEST? Now look at 4 cards — which has the BIGGEST AREA?",
+    "teacher_script": "Bring children to the carpet. Roo and Cal puppets. 'Friends — yesterday we named attributes. Today we COMPARE LENGTH and AREA.'\n\nReview vocabulary. 'Length = how long. Area = how much flat space.'\n\nDemo length. Hold up 4 ribbons of varied length. 'Line them up at one end. Now look at the OTHER end. Longest goes farthest.' Order: shortest to longest.\n\nDemo area. Hold up 4 cards of varied size. 'Cover each card with TILES. The one needing MORE tiles has BIGGER AREA.' Place tiles on each. Count. Order: smallest to largest.\n\nMore examples:\n- 4 pencils → order by length\n- 4 books → order by area (cover each with tiles)\n- 4 leaves → order by area\n\n'Roo says — line up for length. COVER for area.'\n\n'Today we ORDER 4+ objects two ways.'",
+    "student_actions": [
+      "Watch Roo line up",
+      "Echo vocabulary",
+      "Practice lining up at one end",
+      "Count tile coverage"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Length and Area Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: order 4 ribbons by length, 4 cards by area.",
+        "teacher_prompt": "Say: 'Order shortest to longest.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Strip Order — order 5 strips by length. Station B: Tile Cover — cover 4 shapes with tiles, count. Station C: Mixed — order 4 objects by EITHER length OR area.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: order 6 objects.",
+        "teacher_prompt": "Say: 'Stretch: 6 objects.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the line-up and cover rules. 'Length = line up. Area = cover.'",
+        "teacher_prompt": "Demonstrate again."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the tracker.",
+        "teacher_prompt": "Stop at each pair. Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just length ordering.",
+      "for_extending": "Stretch at Station C: 6 objects.",
+      "for_ell_or_iep": "Provide a sentence frame: 'The ___ is longer than the ___.'",
+      "for_movement_learners": "Children stand in line ordered by height (length comparison)."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: lines up at one end; counts tile coverage; orders 4+ objects.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Lines up",
+        "Counts tiles",
+        "Orders 4+ objects",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Roo's Compare Brag",
+    "discussion_prompts": [
+      "How do we compare LENGTH?",
+      "How do we compare AREA?",
+      "What does ORDER mean?",
+      "What was easiest?"
+    ],
+    "exit_routine": "Each child writes ONE comparison: 'My ___ is longer than my ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Length and area comparison.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures E2.2 mastery for length and area."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child counts tiles WITH GAPS — repairing the gap-cover trap at Grade 1",
+    "rationale": "The most common Grade-1 trap on E2.2 area is the gap-cover trap: the child places tiles loosely on a shape, with gaps between them, then counts and reports an undercount. They miss that AREA requires NO GAPS and NO OVERLAPS.\n\nThis matters because area measurement depends on full coverage.\n\nThe walkthrough covers when a child leaves gaps.",
+    "setup": "Pair is at Station B. Child covers a card with tiles, but tiles are spaced loosely. Reports '5 tiles' when actual coverage needs 8.",
+    "teacher_script": "Crouch. 'You said 5. But Roo asks — push tiles together with NO GAPS.'\n\nGuide. 'Tiles must TOUCH. No spaces. No overlaps.' Push tiles together. 'Now count again.'\n\nGeneralise. 'Roo says — area covers ALL the space. Gaps mean undercounting.'\n\nNow practice. 'Recount with no gaps.'\n\nIf still gappy: provide a grid template under the card. Force tile alignment.\n\nLong-term recovery: every area count uses 'no gaps, no overlaps'.",
+    "expected_student_responses": [
+      "(Confused) Counts with gaps",
+      "(Mid) Closes gaps with prompts",
+      "(Strong) Tightly covers and counts",
+      "(Stretched) Compares 4+ areas confidently"
+    ],
+    "common_misconceptions": [
+      "Gaps don't matter. (Repair: each gap loses tiles.)",
+      "Tile size doesn't matter. (Repair: same-size tiles only.)",
+      "Approximate counting is fine. (Repair: count every tile precisely.)"
+    ],
+    "recovery_moves": [
+      "Use a grid template.",
+      "Drill 'no gaps, no overlaps'.",
+      "Compare with full coverage."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Roo's Length and Area Sheet",
+    "purpose": "Independent practice of E2.2 length/area.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Order 4 strips from shortest (1) to longest (4).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Count tile coverage on 3 shapes. Write the area in tiles.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Find and order 3 things by length OR area.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Roo in worksheet header",
+      "4 strips for Part 1",
+      "3 shapes with tiles for Part 2",
+      "Blank for Part 3"
+    ]
+  }
+}

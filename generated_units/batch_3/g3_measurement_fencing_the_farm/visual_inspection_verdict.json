@@ -1,0 +1,11 @@
+{
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "status": "pass",
+  "inspected_at": "2026-05-10T20:15:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch5",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 25, "description": "9-row rubric (E2.1, E2.7, E2.9, E2.3, E2.6, E2.2, E2.4, E2.5, E2.8) all rows present; E2.8 row trails to page bottom with Expectation text wrapping but Level cells visible — within R22 tolerance for compact 9-row case."}
+  ],
+  "summary": "PASS. Worksheet composer rewrite landed: pages 8-12 now hero layout (title + learning goal + instructions + content) with no debug stubs. 9-row rubric all rows present in compact 7pt format. Roo + Cal puppet art, lesson plans, manipulatives, certificate all render correctly."
+}

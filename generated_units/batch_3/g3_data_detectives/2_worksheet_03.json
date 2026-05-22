@@ -1,0 +1,29 @@
+{
+  "schema_version": 1, "unit_id": "g3_data_detectives", "lesson_number": 3,
+  "worksheet_title": "Detective Dot's Scale Lab", "purpose": "Independent practice of D1.3.",
+  "student_learning_goal": "I can use many-to-one scale on a bar graph.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can use many-to-one scale on a bar graph.",
+    "character_watermark": "Detective Dot with a scaled bar graph in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Read a scaled bar graph.",
+     "student_instructions": "Look at the bar graph. Scale: 1 unit = 5 children. Find counts for 4 categories.",
+     "visual_layout": "Pre-built scaled bar graph + 4 question lines.",
+     "image_placeholders": [{"id": "WS03_P1_GRAPH", "description": "A pre-built scaled bar graph for Grade 3 worksheet, B&W line art. Title 'Favourite Sport'. Y-axis: 0, 5, 10, 15, 20, 25, 30. X-axis: hockey (6 units), soccer (4), baseball (3), football (2). Below: 4 question lines about counts.",
+       "placement": "Centred in Part 1.", "approximate_size": "full_width", "keywords": ["bar", "scale"], "text_image_alignment_check": "WS03_P1_GRAPH at Part 1: keywords name the visual elements."}],
+     "student_response_type": "draw_or_write", "answer_key": "Hockey 30, Soccer 20, Baseball 15, Football 10."},
+    {"part_number": 2, "part_title": "Part 2: Build scaled bar.",
+     "student_instructions": "Use the frequency table to build a scaled bar graph. Scale: 1 unit = 5 students.",
+     "visual_layout": "Frequency table + blank scaled grid.",
+     "image_placeholders": [{"id": "WS03_P2_BUILD", "description": "A frequency table + blank bar grid for Grade 3 worksheet. Table: dogs 25, cats 20, fish 10, birds 5. Blank grid with y-axis labels 0, 5, 10, 15, 20, 25.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["frequency", "graph"], "text_image_alignment_check": "WS03_P2_BUILD at Part 2: keywords name the elements."}],
+     "student_response_type": "draw_or_write", "answer_key": "Bars at 5, 4, 2, 1 units (× 5 = 25, 20, 10, 5)."},
+    {"part_number": 3, "part_title": "Part 3: Pick scale.",
+     "student_instructions": "For 3 different data sets (counts shown), pick a scale.",
+     "visual_layout": "3 data sets + 3 scale choices.",
+     "image_placeholders": [{"id": "WS03_P3_PICK", "description": "Three data sets for Grade 3 worksheet. Set 1: counts 5, 10, 15, 20 (scale 5 ideal). Set 2: counts 100, 200, 300, 400 (scale 100). Set 3: counts 2, 4, 6, 8 (scale 2). Each with 'Scale: 1 unit = ___' line.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["scale", "data"], "text_image_alignment_check": "WS03_P3_PICK at Part 3: keywords name the activity."}],
+     "student_response_type": "draw_or_write", "answer_key": "Set 1: 5. Set 2: 100. Set 3: 2."}
+  ]}],
+  "early_finisher_prompt": "If you finish, build the bar graph for one of the Part 3 sets.",
+  "teacher_notes": "Lesson 3 consolidation. Use Part 1 as formative."
+}

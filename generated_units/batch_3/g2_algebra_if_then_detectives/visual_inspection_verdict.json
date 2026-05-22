@@ -1,0 +1,12 @@
+{
+  "unit_id": "g2_algebra_if_then_detectives",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch3",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 1, "description": "Cover subtitle 'If-Then Detectives' rendered in light grey — readable but lower contrast than title."},
+    {"page": 22, "description": "M10 If-Then Detectives Anchor poster: 2 of 4 zones (Inspector If, Then the Action Dog) have character art; bottom 2 zones (Detective, Poster) show labels only."}
+  ],
+  "summary": "PASS. All 5 worksheet pages now use new format (title + Learning Goal box + Instructions + workspace). Previous R21 'Read prompt / Try it' stubs fully removed. Rubric, character art (Inspector If, Then the Action Dog), and Truth Chart render cleanly."
+}

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_financial_plan_your_party",
+  "lesson_number": 1,
+  "lesson_title": "Estimate the Change",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "F1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "ESTIMATE first! Round prices to nearest dollar, then subtract from money paid.",
+  "learning_intention": "We are learning to estimate change for whole-dollar transactions.",
+  "student_learning_goal": "I can estimate change for whole-dollar transactions.",
+  "success_criteria": [
+    "I can ROUND a price to nearest dollar.",
+    "I can SUBTRACT mentally.",
+    "I can ESTIMATE the change.",
+    "I can CHECK my estimate."
+  ],
+  "vocabulary_introduced": [
+    "change",
+    "estimate",
+    "round",
+    "transaction"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_money_set",
+    "M2_pricetag_set",
+    "M3_estimate_chart",
+    "M7_money_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Pat the Pup — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Estimate the Change'",
+    "Money Cards + Price Cards (1 set per pair)",
+    "Lesson 1 diagnostic checklist"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Pat's Quick Change Estimate",
+    "hook": "Pat the Pup: Friends, when you BUY something, you might get CHANGE. Estimate first — round and subtract! Pat opens: 'PAID FIRST?' Class: 'PAID FIRST!'",
+    "teacher_script": "Bring children to the carpet. Pat the Party Planner Pup puppet (felt pup with party hat). 'Money friends — Grade 2, you made COMBOS. Grade 3, we go further: when you PAY, you might get CHANGE BACK!'\n\nDefine each word:\n- TRANSACTION = a TRADE (money for item).\n- CHANGE = money BACK after paying.\n- ESTIMATE = a CLOSE GUESS, not exact.\n- ROUND = make number CLOSER to a tidy number.\n\nDemo. 'I buy a maple cookie for $3. I pay with a $5 bill. CHANGE?'\n\nCalculate. '$5 - $3 = $2 change!'\n\nNow tricker: 'Cookie costs $2.95. ROUND to $3. Pay $5. ESTIMATE: $5 - $3 = $2.'\n\n'Pat says — ROUND to NEAREST DOLLAR first. Makes math EASY.'\n\nDemo 4 transactions:\n- Item $4. Pay $5. Estimate: $5 - $4 = $1.\n- Item $7. Pay $10. Estimate: $10 - $7 = $3.\n- Item $13. Pay $20. Estimate: $20 - $13 = $7.\n- Item $9. Pay $10. Estimate: $10 - $9 = $1.\n\n'Pat says — ESTIMATE gives a quick check on real change. Use ROUND + SUBTRACT!'\n\nNow each pair gets 4 Money + Price Cards. They estimate each transaction.\n\n'Pat says — quick estimate every time!'",
+    "student_actions": [
+      "Watch Pat demo",
+      "Echo all vocabulary",
+      "Estimate 1 transaction together",
+      "Plan first 4 estimates"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Estimate 4 Transactions",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Money + Price Cards. Pairs estimate change for 4 transactions.",
+        "teacher_prompt": "Say: 'Estimate 4.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Round prices first, then subtract.",
+        "teacher_prompt": "Say: 'Round, then subtract.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: predict if pair has enough money.",
+        "teacher_prompt": "Say: 'Stretch: enough money?'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with subtraction (count up if needed).",
+        "teacher_prompt": "Show: count up from price."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their estimate strategies. Class compares: round both? round paid only? round price only? Cite Sowder (1992) — benchmark choice matters.",
+        "teacher_prompt": "Pat: 'Different rounding, different estimates. Pick the strategy that fits the prices.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Use only $1 changes ($10 - $9 etc).",
+      "for_extending": "Estimate to nearest $5.",
+      "for_ell_or_iep": "Pre-printed estimate frame.",
+      "for_movement_learners": "Walk to bill stations. NO-PAPER PATH: teacher calls a price + paid amount; children show estimated change with fingers (each finger = $1). Body becomes the till."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: rounds; subtracts; estimates; checks; consistency.",
+      "how_to_record": "Diagnostic — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Rounds prices",
+        "Subtracts",
+        "Estimates change",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Pat's Estimate Brag",
+    "discussion_prompts": [
+      "What's CHANGE?",
+      "What's ESTIMATE?",
+      "How ROUND $2.95?",
+      "Item $7, pay $10 — change?",
+      "Pat's preview: tomorrow Bea shows EXACT change (Lesson 2 — F1.1). What did today teach about ROUNDING vs PRECISION?"
+    ],
+    "exit_routine": "Pat's refrain — 'Pat asks: PAID FIRST? Children: PAID FIRST!' (3x). Each child estimates one transaction with rounded-paid + rounded-price."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Tracker of estimation.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 sets the baseline for transactions and change."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child SUBTRACTS the WRONG WAY (price - money) — repairing the order trap at Grade 3",
+    "rationale": "On 'estimate the change', the trap is computing exact change instead of estimating — child can't separate ROUND-then-subtract from precise subtraction. Sowder (1992) on benchmark estimation and Carpenter & Moser (1984) CGI Change-Unknown subtraction frame this. Without estimation fluency, Lesson 2's exact change (precision target) cannot ground.\n\nToday: estimate by rounding. Tomorrow Bea calculates EXACT change. Lesson 3 cents-only; Lesson 4 mixed; Lesson 5 capstones.",
+    "setup": "Estimate activity. Item $3, paid $5. Child writes '$3 - $5 = ???'.",
+    "teacher_script": "Crouch. 'Pat asks — what did you PAY? $5. What's the PRICE? $3.'\n\nProbe. 'Subtract PRICE FROM what you PAID. So $5 - $3 = $2 change!'\n\nGeneralise. 'Pat says — money paid FIRST, price MINUS. Always.'\n\nIf still confused: write the formula. 'CHANGE = PAID - PRICE.'",
+    "expected_student_responses": [
+      "(Confused) Wrong order.",
+      "(Mid) Right with prompts.",
+      "(Strong) Paid first.",
+      "(Stretched) Articulates formula."
+    ],
+    "common_misconceptions": [
+      "Subtract any direction. (Repair: PAID - PRICE.)",
+      "Negative change OK. (Repair: change is positive.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child computes exact instead of estimate: drill 'ROUND to nearest dollar FIRST, then subtract'; child re-rounds.",
+      "DIAGNOSTIC B — child rounds wrong direction: drill the rounding rule '$4.50 → $5; $4.40 → $4'.",
+      "DIAGNOSTIC C — child rounds but subtracts wrong: physical money demo with $5 vs rounded $4 prices."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Pat's Quick Change",
+    "purpose": "Independent practice of F1.1 estimation.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Round 4 prices to nearest dollar.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Estimate change for 4 whole-dollar transactions.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Item $4.50, pay $5. Estimate change.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Pat the Pup in worksheet header",
+      "4 prices for Part 1",
+      "4 transactions for Part 2"
+    ]
+  }
+}

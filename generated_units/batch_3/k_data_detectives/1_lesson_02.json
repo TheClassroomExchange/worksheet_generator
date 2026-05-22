@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 2,
+  "lesson_title": "Counting Data",
+  "duration_minutes": 35,
+  "primary_expectations": [
+    "A8.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Counting things in groups gives us DATA — numbers we can use.",
+  "learning_intention": "We are learning to collect data by counting things in groups.",
+  "student_learning_goal": "I can collect data by counting things in groups.",
+  "success_criteria": [
+    "I can count items in a group.",
+    "I can record the count on a tally chart.",
+    "I can collect data for 3+ groups."
+  ],
+  "vocabulary_introduced": [
+    "data"
+  ],
+  "vocabulary_reinforced": [
+    "sort",
+    "category"
+  ],
+  "manipulatives_used": [
+    "M1_sort_mats",
+    "M2_button_set",
+    "M3_tally_charts",
+    "M7_object_set",
+    "M8_class_chart",
+    "M9_data_chart",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Counting Data'",
+    "Sorting Mats",
+    "Tally Chart Templates (6)",
+    "Paper Button Tokens (60)",
+    "Lesson 2 counting tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 8,
+    "activity_name": "Tally Counts the Sort",
+    "hook": "Detective Dot sorted the buttons. Tally COUNTS them.",
+    "teacher_script": "Bring children to the carpet. Detective Dot + Tally puppets. 'Friends — yesterday Detective Dot sorted. Today Tally COUNTS each group. We get DATA.'\n\nIntroduce vocabulary. Write DATA on chart. 'Data is numbers we get by COUNTING. Each group has a count.'\n\nDemonstrate. Show sorted buttons (red, blue, yellow, green from yesterday). Tally counts. 'Red: 1, 2, 3, 4, 5, 6, 7, 8. Eight reds.' Make 8 tally marks on chart.\n\nMore counts: 'Blue: 5. Yellow: 7. Green: 4.' Total marks. 24 buttons total.\n\nIntroduce tally chart format. Five marks = a bundle (||||̸).\n\nMore examples:\n- Children's eye colour: brown 12, blue 5, green 3.\n- Lunch boxes: red 8, blue 6, plain 4.\n- Snowflakes vs raindrops collected.\n\n'Tally says — count each group ONCE. Don't double count. Mark each item once.'\n\n'Today we sort and COUNT. Tally chart for each group.'",
+    "student_actions": [
+      "Listen to Tally count.",
+      "Echo new vocabulary: 'data'.",
+      "Watch tally marks.",
+      "Try counting a group together."
+    ]
+  },
+  "action": {
+    "duration_minutes": 19,
+    "activity_name": "Counting Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: count 4 sorted button groups. Tally each. Total all.",
+        "teacher_prompt": "Say: 'Tally each group. One mark per item.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Count Buttons. Station B: Count Mixed Objects. Station C: Class Survey — pair surveys 6 classmates' favourite colour.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: count more classmates and total.",
+        "teacher_prompt": "Say: 'Stretch: count more.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss tally marks. 'Bundle by 5s. Easy to count.'",
+        "teacher_prompt": "Show data anchor chart: tally examples."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the counting tracker.",
+        "teacher_prompt": "Stop at each pair. Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Two pairs share their counts of the same set. Compare totals; if different, find the over-count or under-count. Cite CGI counting research.",
+        "teacher_prompt": "Detective Dot: 'Different paths, same goal. Math says: try multiple ways!'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Station A only. Count to 10.",
+      "for_extending": "Stretch at Station C: more classmates.",
+      "for_ell_or_iep": "Sentence frame: 'I counted ___ ___s.'",
+      "for_movement_learners": "Walk around classroom counting things by attribute. NO-PAPER PATH: children tally on fingers as teacher names items; switch hands every 5."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: counts each group; tallies accurately; collects data for 3+ groups.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Counts each group",
+        "Tallies accurately",
+        "Collects 3+ groups",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Tally's Count Brag",
+    "discussion_prompts": [
+      "What does DATA mean?",
+      "How do tally marks help?",
+      "Why bundle by 5s?",
+      "What did you count today?"
+    ],
+    "exit_routine": "Detective Dot's refrain — class chants 3x: 'Tally's rule: ONE touch, ONE tally!' Each child writes one finding on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Counting and tallying accuracy.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures A8.2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child double-counts items — repairing the count-twice trap at K",
+    "rationale": "On counting data, K trap is one-to-one correspondence lapse — child counts faster than they touch (Sarama & Clements 2009; CGI counting). Today: ONE touch ONE tally. Lesson 3 graphs; Lesson 4 likelihood; Lesson 5 capstones.\n\nThe most common K trap on A8.2 is the double-count: child counts the same item twice, getting an inflated total. They miss that each item gets ONE tally.\n\nThis matters because data accuracy depends on one-to-one counting.\n\nThe walkthrough covers when child counts a button twice.",
+    "setup": "Pair is at Station A. 8 red buttons. Child counts 'one, two, three, four, five, six, seven, eight, nine, ten' and writes 10 tally marks.",
+    "teacher_script": "Crouch. 'Let's check. Count again, but TOUCH each button as you count.'\n\nTouch button 1: 'one'. Touch button 2: 'two'. ...Touch button 8: 'eight'. 'There are 8 reds. Not 10.'\n\nGeneralise. 'Tally says — TOUCH each item ONCE as you count. Each touch = 1 tally.'\n\nIf still double-counting: have child move counted items to a separate pile. 'Counted ones go HERE.' Force separation.\n\nLong-term recovery: every count uses touch-and-move technique.",
+    "expected_student_responses": [
+      "(Confused) Double-counts; inflates totals.",
+      "(Mid) Touches with prompts; mostly accurate.",
+      "(Strong) Touches and counts each item once.",
+      "(Stretched) Counts in bundles of 5; uses tally bundles."
+    ],
+    "common_misconceptions": [
+      "Counting is fast. (Repair: counting is one-to-one.)",
+      "I can count without touching. (Repair: touch helps prevent doubles.)",
+      "Bigger numbers are estimates. (Repair: count exactly with touch.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child counts ahead of touching: drill 'point THEN say'; child slows to one tap per number.",
+      "DIAGNOSTIC B — child loses count past 5: chunk in groups of 5 with cross-tallies.",
+      "DIAGNOSTIC C — child counts but cannot record: drill 'COUNT-tally-COUNT-tally' rhythm."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tally's Counting",
+    "purpose": "Independent practice of A8.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Count sorted groups. Tally each.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Count things in your classroom by colour.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Class survey: tally favourite colour from 6 classmates.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tally in worksheet header",
+      "Tally chart for Part 1",
+      "Tally chart for Part 2",
+      "6-classmate survey for Part 3"
+    ]
+  }
+}

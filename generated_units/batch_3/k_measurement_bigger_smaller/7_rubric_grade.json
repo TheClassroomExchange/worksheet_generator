@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "rubric_version": "bigger_smaller_v1_2026_05_04",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "passed": true
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Every lesson includes a full expanded_walkthrough naming a specific Kindergarten trap (eyeball comparison, size-mass conflation, height-capacity conflation, gap-measurement, wrong-tool use), with teacher_script, common_misconceptions, and recovery_moves. Both A10.1 and A10.2 are represented in the summative rubric on Ontario's 4-level scale.",
+      "evidence_refs": [
+        "1_lesson_01.json::expanded_walkthrough",
+        "1_lesson_02.json::expanded_walkthrough",
+        "1_lesson_05.json::expanded_walkthrough",
+        "5_assessment_suite.json::summative_rubric.rows"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Each lesson follows the Ontario minds_on / action / consolidation arc with explicit duration_minutes (12 + 25 + 13 = 50 min). Action structure 'whole_group_then_centres' (and 'individual' for capstone) gives floor-vs-desk balance. Three rotating stations of 7 min each. Differentiation tiers explicit per lesson.",
+      "evidence_refs": [
+        "1_lesson_01.json::action.structure",
+        "1_lesson_04.json::action.steps"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Voice is consistent across lessons: Max + Tess anchor every minds-on; vocabulary introduced/reinforced is named explicitly; success_criteria use child-friendly 'I can' phrasing; teacher_script is concrete with quoted dialogue. Worksheets use child-voice instructions; manipulatives have step-by-step prep notes.",
+      "evidence_refs": [
+        "1_lesson_01.json::success_criteria",
+        "2_worksheet_01.json::header.student_learning_goal_banner",
+        "3_manipulatives.json::assets[*].teacher_prep_steps"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "Curriculum codes (A10.1, A10.2) mapped lesson-by-lesson via expectation_lesson_map. Each lesson's primary_expectations align to blueprint codes. The summative rubric covers both expectations with descriptors that match blueprint.curriculum_expectations text exactly. Image-text alignment validation passes with 0 issues.",
+      "evidence_refs": [
+        "0_blueprint.json::expectation_lesson_map",
+        "5_assessment_suite.json::summative_rubric.rows[*].expectation_text"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "Composite generation passes 0 placeholders thanks to the smart_fallback composer plus newly-added MAX and TESS character clipart entries. All worksheet/manipulative images have well-described visual_layout and placement specs. Pre-grade drift check: 0 consistency issues, 0 curriculum issues, 0 image-text issues, 0 placeholders.",
+      "evidence_refs": [
+        "composed/.composed_manifest.json",
+        "3_manipulatives.json::assets[*].image_placeholders"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7",
+  "graded_at": "2026-05-04T11:50:00+00:00"
+}

@@ -1,0 +1,56 @@
+{
+  "pair_number": 3,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child predicts the SMALLEST section — repairing the small-section trap at Grade 2'; recovery_moves = ['Visual aid with arrows.', 'Drill biggest section.', 'Spin many times to demonstrate.'] — the trap is plausible but no research citation is given, and recovery_moves are flat (not branched by what the diagnostic told you about the child).",
+      "required_fix": "Re-anchor the trap in research-grounded probabilistic-reasoning literature for early grades — e.g., Bryant & Nunes on proportional reasoning before formal probability, or Fischbein's intuitive probability work showing children attend to absolute frequency over ratio. Then BRANCH recovery_moves: (a) if child can verbalise 'bigger section' but still picks small, do paired spin-tally so they SEE frequency match section size; (b) if child can't yet identify which section is bigger, drop back to direct visual comparison ('point to the biggest section') before reintroducing the prediction step; (c) if child says 'all sections equal regardless of size', use a 7/8 vs 1/8 extreme spinner to make the size difference impossible to miss.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Paper Spinner Set (6)' and 'Prediction Recording Mat (1 per pair)' as required prep; differentiation.for_movement_learners = 'Children physically spin a large floor spinner.' — there is no explicit no-paper, no-purchase fallback for a teacher who couldn't prep the spinner set today.",
+      "required_fix": "Add a NO-PAPER alternative to differentiation: e.g., 'No-materials version — clock-spin: child stands and points an arm like a clock hand, closes eyes, partner says STOP; predict whether arm lands in the big half (3/4 of the carpet circle marked with painter's tape or imaginary quadrants) or small quarter. Body becomes the spinner. Same prediction logic, zero prep.' This makes the lesson runnable on any day.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.activity_name = 'Lucky's Spinner Brag'; exit_routine = 'Each child writes one prediction: My spinner most likely lands ___.' — Lucky says 'bigger = more likely' inside the teacher_script but there is no distinctive quotable refrain children CHANT back, and the exit_routine is a written sentence frame, not a memorable cross-lesson chant.",
+      "required_fix": "Give Lucky a distinctive, repeatable refrain that travels through the unit — e.g., 'BIG section, BIG chance — small section, small chance!' with a hand gesture (big arms / pinch fingers). Have children chant it back at the close of minds_on, again at consolidation, and ask them to use it in Lesson 4 when predicting dice modes. Update teacher_script and consolidation.discussion_prompts so the refrain appears verbatim.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "action.steps include predicting + spinning at three stations and discussing 'equal vs unequal spinners', but children are not asked to INVENT or COMPARE prediction strategies, and expanded_walkthrough.common_misconceptions = ['Small = special.', 'All sections equal regardless of size.'] are named in plain language without grounding in named research.",
+      "required_fix": "Add a strategy-comparison move in action: after Station A, two pairs share HOW they decided which section was 'biggest' — by eye, by counting equal slices, by overlaying a finger to compare. Teacher names the strategies ('Lucky's eyeball check' vs 'slice-counting') and asks children which is more reliable when sections are close in size. In expanded_walkthrough.rationale, name the misconception in research terms — Fischbein's primary intuition that 'rare = more interesting / more worth predicting' or Bryant & Nunes' finding that young children attend to absolute counts before proportions.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "Lesson 3 is solid Achieving across the board but doesn't clear the Level 4 bar in four categories. Alignment and lesson-worksheet consistency are genuinely strong (worksheet parts map cleanly to success criteria; cross-references to Day 2 are explicit). The revise is concentrated in the lesson stage — deepen the trap with research grounding and branched recovery, add a no-paper fallback, give Lucky a quotable refrain, and let children compare prediction strategies. The worksheet itself does not need changes."
+}

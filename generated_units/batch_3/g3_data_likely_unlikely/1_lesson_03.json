@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_likely_unlikely",
+  "lesson_number": 3,
+  "lesson_title": "Two Populations Test",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We test predictions by collecting data from TWO populations and comparing.",
+  "learning_intention": "We are learning to test a prediction by comparing two populations.",
+  "student_learning_goal": "I can test a prediction by comparing two populations.",
+  "success_criteria": [
+    "I can MAKE a prediction.",
+    "I can COLLECT data from two groups.",
+    "I can COMPARE the two groups.",
+    "I can EXPLAIN if my prediction was right."
+  ],
+  "vocabulary_introduced": [
+    "population"
+  ],
+  "vocabulary_reinforced": [
+    "impossible",
+    "unlikely",
+    "equally likely",
+    "likely",
+    "certain",
+    "prediction"
+  ],
+  "manipulatives_used": [
+    "M4_population_chart",
+    "M7_vocab_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky Lou and Maybe Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Two Populations'",
+    "Two-Population Compare Charts (1 per pair)",
+    "Class A and Class B fake data sets",
+    "Tracker for Lesson 3"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Lucky Lou's Two Classes",
+    "hook": "Lucky Lou: Imagine TWO classes. Class A loves hockey. Class B loves soccer. PREDICT — same favourite? TEST! Lucky+Mae open: 'Class A, Class B — same math, different DATA!' Yesterday Mae predicted; today we compare TWO classes' data.",
+    "teacher_script": "Bring children to the carpet. Lucky Lou puppet in green. 'Detective friends — today we test predictions across TWO POPULATIONS.'\n\nDefine. 'A POPULATION is a GROUP we collect data from. Class A is one population. Class B is another.'\n\nDemo. 'Predict — will Class A and Class B have the SAME favourite sport?'\n\nClass A data (Grade 3 in Toronto): hockey 8, soccer 4, basketball 3, swim 2.\nClass B data (Grade 3 in Vancouver): soccer 6, hockey 5, swim 4, basketball 2.\n\n'Class A favourite: hockey. Class B favourite: soccer. Same? NO!'\n\n'Lucky Lou says — predictions about populations might be RIGHT or WRONG. We TEST by collecting from BOTH.'\n\nNow show three more comparisons:\n- Class A pets vs Class B pets — likely DIFFERENT.\n- Class A bedtime vs Class B bedtime — likely SAME.\n- Class A breakfast vs Class B breakfast — likely SAME.\n\n'Lucky Lou says — sometimes populations agree. Sometimes they don't. The TEST tells us.'\n\nExplain the activity. Each pair gets a Two-Population Chart + 2 fake data sets. They:\n1. Predict (same or different).\n2. Compare data.\n3. Decide if prediction was right.\n\n'Lucky Lou says — every PREDICTION needs a TEST.'",
+    "student_actions": [
+      "Watch Lucky Lou demo",
+      "Echo population definition",
+      "Predict 4 comparisons",
+      "Identify same/different patterns"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Compare Two Populations",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out 4 two-population data sets. Pairs predict same/different.",
+        "teacher_prompt": "Say: '4 sets. Predict.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Compare data and decide if prediction was right.",
+        "teacher_prompt": "Say: 'Right or wrong?'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: explain WHY same or different.",
+        "teacher_prompt": "Say: 'Stretch: why?'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with comparison technique — find favourite of each.",
+        "teacher_prompt": "Show: most-counted in each."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY INVENT: Pairs decide HOW they will compare — by favourite only, by top 2, or by all rows. Two pairs share. Class debates which is most thorough. Cite Lehrer & Schauble (2002) — distribution-level comparison is research-target.",
+        "teacher_prompt": "Lucky: 'Different comparison strategies. The MATH says: more rows = more truth.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Compare 2 sets only.",
+      "for_extending": "Predict probability of agreement.",
+      "for_ell_or_iep": "Pre-printed comparison frames.",
+      "for_movement_learners": "Walk between two stations. NO-PAPER VERSION: teacher reads two class tallies aloud; children stand for matches, sit for differences. Body becomes the comparison."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: prediction; collection; comparison; decision; explanation.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Predicts",
+        "Compares",
+        "Explains",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lucky Lou's Two-Class Brag",
+    "discussion_prompts": [
+      "What's a POPULATION?",
+      "Why TWO?",
+      "When are populations DIFFERENT?",
+      "When are they the SAME?"
+    ],
+    "exit_routine": "Lucky+Mae two-population refrain — 'Class A, Class B — same math, different DATA!' (3x). Each child compares one value across both populations."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Two-population tracker.",
+    "tracker_reference": "formative_population_tracker (assembled in formative_reflection stage)",
+    "rationale": "Lesson 3 captures D2.2 two-population test."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child compares ONE population only — repairing the single-group trap at Grade 3",
+    "rationale": "On two-population comparison, the trap is favourite-only comparison: child compares only the most-frequent value, missing the distribution. Lehrer & Schauble (2002) and Konold & Pollatsek (2002) frame distribution-aware comparison as the Grade-3 data target.\n\nYesterday Mae predicted from data. Today comparing two populations. Lesson 4 mean/mode; Lesson 5 capstones.",
+    "setup": "Two-population activity. Child writes only Class A's favourite.",
+    "teacher_script": "Crouch. 'Lucky Lou asks — what about Class B?'\n\nGuide. 'Look at BOTH columns. Class A favourite? Class B favourite? Same?'\n\nGeneralise. 'Lucky Lou says — D2.2 means TEST across TWO populations. ONE doesn't test.'\n\nIf still single: split chart. 'Cover Class A. Look at Class B. Now compare.'",
+    "expected_student_responses": [
+      "(Confused) Class A only.",
+      "(Mid) Both with prompts.",
+      "(Strong) Both compared.",
+      "(Stretched) Same/different + reason."
+    ],
+    "common_misconceptions": [
+      "One population = test. (Repair: D2.2 needs TWO.)",
+      "Same data = same population. (Repair: groups differ.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names Class A favourite but freezes at B: side-by-side both surveys; child names BOTH favourites first.",
+      "DIAGNOSTIC B — child compares only top values: drill 'compare ALL rows — count similarities and differences.'",
+      "DIAGNOSTIC C — child compares but cannot decide: force the sentence frame 'Class A and Class B are ___ because ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lucky Lou's Two-Class Test",
+    "purpose": "Compare 4 two-population data sets.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Predict for 4 scenarios: same or different favourite.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Look at 2 data sets and identify each population's favourite.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Decide: was the prediction right? Why?",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky Lou and Maybe Mae in worksheet header",
+      "Two-column compare chart for Part 2",
+      "Same/different icons"
+    ]
+  }
+}

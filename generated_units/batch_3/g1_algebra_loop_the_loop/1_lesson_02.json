@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 2,
+  "lesson_title": "The Loop Discovery",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "When we repeat the same step many times, we can use a LOOP.",
+  "learning_intention": "We are learning to use a loop in our code to repeat steps.",
+  "student_learning_goal": "I can use a loop in my code to repeat steps.",
+  "success_criteria": [
+    "I can write 'Repeat N: STEP' to repeat a step.",
+    "I can use a loop to draw a square (Repeat 4: forward, turn).",
+    "I can compare loop code to repeated code and see they do the same thing."
+  ],
+  "vocabulary_introduced": [
+    "loop",
+    "repeat"
+  ],
+  "vocabulary_reinforced": [
+    "code",
+    "sequence",
+    "execute"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M2_code_cards",
+    "M4_robot_marker",
+    "M5_loop_card",
+    "M10_loop_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coda the Coding Robot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "OPTIONAL: Looper the Loop Helper — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Loops Make Code SHORTER'",
+    "Per-pair grid mat",
+    "Per-pair set of code step cards plus loop cards (Repeat 2, 3, 4, 5)",
+    "Lesson 2 loop tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Looper Comes to the Rescue",
+    "hook": "Coda needs to take 5 steps right. Watch what Looper does. Looper opens: 'Pick the BIG number!' Class chants: 'Loops make it SHORT!'",
+    "teacher_script": "Bring children to the carpet. Coda + Looper puppets. 'Friends — yesterday Coda followed step-by-step code. Today Coda's friend Looper has a TRICK that makes code shorter.'\n\nShow code: 'Step 1: right. Step 2: right. Step 3: right. Step 4: right. Step 5: right.' Long.\n\n'Looper says — when you're doing the SAME step over and over, use a LOOP.' Write the loop version: 'Repeat 5: right.'\n\n'See — 5 lines became 1 LINE. Same outcome — Coda still moves 5 squares right. Just SHORTER code.'\n\nNow draw a square. 'Coda wants to draw a square. Without loops: Step 1: forward. Step 2: turn right. Step 3: forward. Step 4: turn right. Step 5: forward. Step 6: turn right. Step 7: forward. Step 8: turn right.' Eight steps.\n\n'With a loop: Repeat 4: forward, turn right.' One line! 'Same square — 4 sides drawn, 4 corners turned.'\n\nNow class chant: 'Repeat 4: clap.' Clap clap clap clap. 'Repeat 3: jump.' Jump jump jump.\n\n'Today we'll write code with LOOPS to make our code shorter.'",
+    "student_actions": [
+      "Watch Coda's long 5-step code.",
+      "Watch Looper compress it to 1-line loop.",
+      "Echo the new vocabulary: 'loop', 'repeat'.",
+      "Class-chant 'Repeat 4: clap'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Loop Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: practice 4 more loop conversions. (a) 3 ups → Repeat 3: up. (b) 4 rights → Repeat 4: right. (c) Square: Repeat 4: forward, turn. (d) Triangle: Repeat 3: forward, turn.",
+        "teacher_prompt": "Say to students: 'Four loops together. Convert long code to loop code.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Loop Comparison — pair has long code on cards; rewrite using loop cards. Station B: Square and Triangle — pair uses loop cards to code a square (Repeat 4) and a triangle (Repeat 3). Station C: Body Loops — pair acts out loops physically (Repeat 5: hop, Repeat 3: spin).",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station B: include a hexagon (Repeat 6: forward, turn). Discuss whether the loop strategy works for any number of sides.",
+        "teacher_prompt": "Say to pairs: 'Hexagon has 6 sides. What loop?' 'Repeat 6: forward, turn.' Same pattern."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the why. 'Why use loops? Loops make code SHORTER and EASIER TO READ. They tell us at a glance how many times something happens.'",
+        "teacher_prompt": "Compare 'Step 1, 2, 3, 4, 5: right' (5 lines) with 'Repeat 5: right' (1 line). Visual brevity is the win."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the loop tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'How would you write this with a loop?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: 2-3 pairs share alternative loop solutions for the same shape. For a square: Pair A wrote 'Repeat 4: forward, turn'. Pair B wrote 'Repeat 2: forward, turn, forward, turn'. Class discusses which is shorter, why both work, and which is easier to read. Sorva (2013) names this the equivalence-of-iteration-forms principle.",
+        "teacher_prompt": "Looper: 'Same shape, different loops. There is no ONE loop — there's a loop that BEST captures the repeated unit.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only single-step loops (Repeat N: right). Don't yet do Square (which requires 2 steps in the loop body).",
+      "for_extending": "Stretch at Station C: invent your own body loop (Repeat 5: do this dance move).",
+      "for_ell_or_iep": "Provide loop cards with picture supports. Sentence frame: 'Repeat ___ times: ___.'",
+      "for_movement_learners": "Station C is naturally kinesthetic. Allow extra rotations there."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: writes a single-step loop (Repeat N: STEP); writes a multi-step loop (Repeat N: STEP1, STEP2); converts long code to loop code.",
+      "how_to_record": "Tick the loop tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Writes single-step loop",
+        "Writes multi-step loop",
+        "Converts long code to loop",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Looper's Brag",
+    "discussion_prompts": [
+      "What is a LOOP?",
+      "When should you use a loop?",
+      "Why are loops better than writing the same step many times?",
+      "What does 'Repeat 4: forward, turn' draw?",
+      "Tomorrow we'll READ Coda's code on the grid (Lesson 3 — C3.1). What loop pattern from today might you SEE inside Coda's code tomorrow?"
+    ],
+    "exit_routine": "Looper's call-and-response refrain — Looper calls 'Pick the BIG number!' and class chants back 'Loops make it SHORT!' Repeat 3x. Each child writes one Repeat N statement on a sticky and reads it aloud."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Loop-writing accuracy and loop-vs-long-code recognition.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures the loop concept. Children at L4 use multi-step loops fluently."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes a 'loop' that's actually just a list (Repeat 1: STEP, Repeat 1: STEP) — repairing the loop-as-shortcut understanding",
+    "rationale": "On the loop concept, Grade-1 children frequently write Repeat 1 (or Repeat 0) when they actually mean 'do this once before moving on' — the loop count is read as 'how many times to repeat ADDITIONALLY' rather than 'how many total iterations'. This off-by-one is documented in Sorva (2013) 'Notional Machines and Introductory Programming' and Pea & Kurland (1984) on iteration as the most common novice-programming misconception.\n\nToday's task — find the repeated pattern, count its occurrences, write Repeat N where N is the TOTAL count — primes Lesson 3 (reading nested code) and Lesson 4 (altering loop counts).",
+    "setup": "Pair is at Station A. The card asks for code to move right 5 times. The child writes 'Repeat 1: right' five times.",
+    "teacher_script": "Crouch beside the child. 'You wrote Repeat 1 five times. Why?' The child says 'Because each step is different.' Pause. 'Hmm — but you wrote the same thing 5 times. The whole point of a loop is to NOT repeat. Watch.'\n\nWrite on the chart: 'Repeat 5: right.' One line. 'See — ONE line says it five times. That's the loop's job.'\n\n'Looper says — pick the BIG number. If you're doing the same step 5 times, the loop is Repeat 5, not Repeat 1.'\n\nIf the child STILL writes 1: ask 'How many times does the right step happen?' '5.' 'Then the loop count is 5.' Explicit connection.\n\nLong-term recovery: practice 'pick the count' as a daily warm-up. The reflex builds.",
+    "expected_student_responses": [
+      "(Confused) Writes Repeat 1 multiple times.",
+      "(Mid) Uses correct loop count when prompted.",
+      "(Strong) Auto-uses the right count: 5 steps right = Repeat 5: right.",
+      "(Stretched) Uses multi-step loops fluently."
+    ],
+    "common_misconceptions": [
+      "Loops are just a different way to write a list. (Repair: loops compress.)",
+      "Each step needs its own 'Repeat'. (Repair: ONE Repeat covers ALL the iterations.)",
+      "Loops don't count individual steps. (Some children miss the body of the loop. Repair: loop body = what to repeat.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child writes Repeat 1: drill count semantics with blocks ('how many TOTAL spoons in this Repeat? count them — that number IS the loop count').",
+      "DIAGNOSTIC B — child collapses too aggressively (Repeat 4 over a non-repeating sequence): unfold the loop step-by-step on the board, ask 'is THIS step the same as THAT step?' for each one.",
+      "DIAGNOSTIC C — child correctly counts but doesn't name the repeated unit: have child highlight ONE repetition with a marker, then count how many marker-blocks fit before writing Repeat N."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Looper's Loop Workshop",
+    "purpose": "Independent practice of C3.1 with loops.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Convert 4 long codes to loop code.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Write loop code for a square, triangle, and hexagon.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: invent your own loop. Write what it draws or does.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Looper in the worksheet header",
+      "Four long-vs-loop conversion rows for Part 1",
+      "Three shape boxes for Part 2",
+      "A blank box for Part 3"
+    ]
+  }
+}

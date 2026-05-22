@@ -1,0 +1,11 @@
+{
+  "unit_id": "k_measurement_bigger_smaller",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch1",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 19, "description": "M6 Carnival Capstone Template zone 4 label still reads 'Thin Section Dividers' — styling directive in a label slot. Cosmetic."}
+  ],
+  "summary": "Unit passes. All 5 worksheets now use hero layout — no debug stubs, no mid-word truncations. Mass and capacity Part 3 prompts render full text ('Find heavier in your classroom!', 'Find more in your kitchen!'). Rubric clean, characters recognizable."
+}

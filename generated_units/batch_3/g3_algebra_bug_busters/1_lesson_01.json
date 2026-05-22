@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 1,
+  "lesson_title": "Concurrent Events",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Some events happen AT THE SAME TIME (concurrent) instead of one after another.",
+  "learning_intention": "We are learning to identify and write code with concurrent events.",
+  "student_learning_goal": "I can identify and write code with concurrent events.",
+  "success_criteria": [
+    "I can distinguish concurrent from sequential events.",
+    "I can describe code with 2 robots moving at the same time.",
+    "I can write a 2-lane code with concurrent events."
+  ],
+  "vocabulary_introduced": [
+    "concurrent",
+    "sequential"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M2_code_cards",
+    "M4_robot_markers",
+    "M5_concurrent_chart",
+    "M10_buster_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Buzz the Bug-Buster Beetle — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Concurrent vs Sequential'",
+    "2-Lane Coding Grid Mats (per pair)",
+    "Code Step Cards (30)",
+    "Robot Markers (10, 2 colours)",
+    "Lesson 1 concurrent tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Buzz Introduces Concurrent",
+    "hook": "Buzz: Two robots can move AT THE SAME TIME. That's concurrent! Buzz opens: 'Read by ROW, not by LANE!'",
+    "teacher_script": "Bring children to the carpet. Buzz puppet. 'Friends — I'm Buzz the Bug-Buster Beetle. Today we learn CONCURRENT events.'\n\nIntroduce vocabulary. Write CONCURRENT and SEQUENTIAL on chart. 'Sequential = one event, then the next. Concurrent = events at the SAME TIME.'\n\nDemonstrate. Hold up two robot markers. 'Robot 1 forward, Robot 2 turn — at the SAME MOMENT. That's concurrent. Same time-step.'\n\nContrast: 'Sequential — Robot 1 forward. THEN Robot 2 turn. Different time-steps.'\n\nReal-life examples:\n- Sequential: Order coffee. THEN pay. THEN receive. Three time-steps.\n- Concurrent: Two skaters spinning at the same time. One time-step.\n- Sequential: Tying shoes — left first, then right.\n- Concurrent: Two doors opening on a car. Same time.\n\n'Buzz code uses 2-LANE format. Top lane = Robot 1. Bottom lane = Robot 2. Each row = one time-step. Both lanes' actions in that row run TOGETHER.'\n\nDraw on chart:\nStep | Robot 1 | Robot 2\n  1  |  fwd    |  fwd\n  2  |  turn   |  fwd\n  3  |  fwd    |  turn\n\n'Each step is concurrent — both robots act in that step.'\n\n'Today we identify concurrent events and start writing 2-lane code.'",
+    "student_actions": [
+      "Listen to Buzz introduce concurrent.",
+      "Echo new vocabulary.",
+      "Identify concurrent vs sequential examples.",
+      "Read 2-lane code together."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Concurrent Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: identify 4 examples as concurrent or sequential. (a) 2 robots forward at same time. (b) Robot 1 then Robot 2. (c) 2 chefs cooking 2 dishes. (d) Bus arrives, then doors open.",
+        "teacher_prompt": "Say: 'Concurrent or sequential? Why?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Sort — pair sorts 12 scenarios into concurrent or sequential. Station B: Read 2-Lane Code — pair reads existing 2-lane code and traces. Station C: Write Concurrent — pair writes their first 2-lane code.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write code where Robot 1 has 5 steps and Robot 2 has 3 steps. Which finishes first?",
+        "teacher_prompt": "Say: 'Stretch: different-length lanes.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the time-step idea. 'Each ROW of 2-lane code is ONE time-step. Both lanes' actions in that row run simultaneously.'",
+        "teacher_prompt": "Demonstrate on the grid mat with both robots moving."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the concurrent tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Concurrent or sequential? Show me.' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their reads of the same 2-lane code. Class debates: same time-steps? Same outcomes? Cite Bers (2019) — concurrency reading must respect simultaneity.",
+        "teacher_prompt": "Buzz: 'Same code, same robots — every row matters!'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only obvious examples.",
+      "for_extending": "Stretch at Station C: 3-lane code (3 robots).",
+      "for_ell_or_iep": "Provide a structured frame: 'These events happen ___ because ___.'",
+      "for_movement_learners": "Act out concurrent vs sequential with classmates. NO-MATERIALS PATH: use floor tape or a row of two desks as the lane mat; children walk the lanes."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: distinguishes concurrent/sequential; reads 2-lane code; writes own 2-lane code.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Distinguishes concurrent and sequential",
+        "Reads 2-lane code",
+        "Writes own 2-lane code",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Buzz's Concurrent Brag",
+    "discussion_prompts": [
+      "What does CONCURRENT mean?",
+      "How is it different from SEQUENTIAL?",
+      "Real-life concurrent example?",
+      "What does each row of 2-lane code mean?",
+      "Buzz's preview: tomorrow we WRITE concurrent code (Lesson 2 — C3.1). What concurrency rule from today must hold tomorrow?"
+    ],
+    "exit_routine": "Buzz's refrain — class chants: 'BUZZ says: Read by ROW, not by LANE!' (3x). Each child writes one 2-lane code segment with row labels."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Concurrent vs sequential identification.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already grasp concurrency vs those who treat all events as sequential."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child reads 2-lane code as if each lane runs separately — repairing the lane-by-lane reading trap at Grade 3",
+    "rationale": "On 'two robots running concurrently', the dominant Grade-3 trap is parallelism-as-sequence conflation: child reads time-step-1 row as both events happening one-after-another. Bers (2019, 'Coding as Another Language') and Grover & Pea (2013, 'Computational Thinking in K-12') frame parallelism understanding as the gateway to multi-agent CT.\n\nToday: each row = ONE time-step shared by ALL lanes. Tomorrow Lesson 2 writes concurrent code; Lesson 3 finds bugs; Lesson 4 fixes; Lesson 5 capstones.",
+    "setup": "Pair is at Station B. Code: Row 1: R1 fwd, R2 fwd. Row 2: R1 turn, R2 fwd. Child reads 'R1 forward, R1 turn, R2 forward, R2 forward' (lane by lane).",
+    "teacher_script": "Crouch. 'You're reading lane by lane. But concurrent code reads ROW by row. Each row is ONE time-step.'\n\nWalk through. 'Row 1: BOTH robots forward (at the same time). Row 2: R1 turns AND R2 forward (at the same time).'\n\nGeneralise. 'Buzz reads ACROSS a row, not down a lane. Each row = one moment. Both actions happen in that moment.'\n\nIf still lane-by-lane: provide a finger trace pointer. 'Point to row 1. Read both. Point to row 2. Read both.' Force the row-wise reading.\n\nLong-term recovery: every 2-lane reading uses 'row by row'.",
+    "expected_student_responses": [
+      "(Confused) Reads lane by lane.",
+      "(Mid) Reads row-by-row with prompts.",
+      "(Strong) Reads row-by-row independently.",
+      "(Stretched) Predicts both robots' positions after each step."
+    ],
+    "common_misconceptions": [
+      "Each lane is separate. (Repair: lanes are concurrent, not sequential.)",
+      "I read top to bottom in one lane first. (Repair: read by row, not by lane.)",
+      "Concurrent means same action. (Repair: concurrent means same TIME, different actions.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child reads row-by-row but sequences within row: drill 'every cell in this ROW happens AT THE SAME TIME'; physical demo with two children stepping together.",
+      "DIAGNOSTIC B — child accepts simultaneity but loses lane-track: two-finger pointing — index on left lane, middle on right; child moves both fingers down the rows together.",
+      "DIAGNOSTIC C — child handles 2 lanes but breaks at 3+: drop to 2 lanes only; build up after fluency."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Buzz's Concurrent Cases",
+    "purpose": "Independent practice of C3.1 (concurrent events).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Sort 8 scenarios as CONCURRENT or SEQUENTIAL.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Read 2 existing 2-lane codes. Predict outcomes.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write 1 of your own 2-lane code with 4 time-steps.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Buzz in worksheet header",
+      "8 sort rows for Part 1",
+      "2 trace areas for Part 2",
+      "A blank 2-lane grid for Part 3"
+    ]
+  }
+}

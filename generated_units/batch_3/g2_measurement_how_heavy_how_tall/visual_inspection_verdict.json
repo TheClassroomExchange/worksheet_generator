@@ -1,0 +1,12 @@
+{
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "status": "pass",
+  "inspected_at": "2026-05-10T00:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch4",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 1, "description": "Title page shows strand 'Spatial Sense' / 'Measure Maven' — branding mismatch vs folder name 'measurement_how_heavy_how_tall'. Cosmetic."},
+    {"page": 25, "description": "Rubric E2.4 row content extends to page bottom; wrap is tolerable."}
+  ],
+  "summary": "Post-F20 worksheet composer renders title + prompt + ruled workspace cleanly (no debug stubs). Rubric multi-line wraps fit. Kawaii character art legible. PASS."
+}

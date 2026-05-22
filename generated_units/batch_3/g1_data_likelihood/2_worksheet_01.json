@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 1,
+  "worksheet_title": "Lucky's Likelihood Hunt",
+  "purpose": "Independent practice of D2.1 — using impossible / possible / certain. Used as Lesson 1 consolidation artifact.",
+  "student_learning_goal": "I can name events as impossible, possible, or certain.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can name events as impossible, possible, or certain.",
+    "character_watermark": "Lucky Lou the Loon in the top-right corner with a magnifying glass. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [{"page_number": 1, "parts": [
+    {
+      "part_number": 1,
+      "part_title": "Part 1: Circle I, P, or C.",
+      "student_instructions": "Read each event. Circle I (impossible), P (possible), or C (certain).",
+      "visual_layout": "Six event rows stacked vertically. Each row has the event text on the left and three letter circles I / P / C on the right for the child to circle. Events: (1) A pig will fly today. (2) The sun will rise tomorrow. (3) It will rain at recess. (4) I will turn 100 today. (5) I will hear my name today. (6) Maple leaves will grow on a hockey stick.",
+      "image_placeholders": [
+        {
+          "id": "WS01_P1_EVENTS",
+          "description": "Six event rows stacked vertically for a Grade 1 worksheet, B&W line art. Each row ~5in × 0.8in. Row layout: event text on the left (~3.5in), three letter circles I / P / C on the right (~1.5in). Each circle ~0.4in in diameter, generously spaced. Events listed cover the I/P/C range with Canadian context.",
+          "placement": "Centred horizontally; spans Part 1.",
+          "approximate_size": "full_width",
+          "keywords": ["impossible", "possible", "certain"],
+          "text_image_alignment_check": "Image WS01_P1_EVENTS at Part 1: instructions ask the child to circle I, P, or C. Keywords name the three likelihood categories."
+        }
+      ],
+      "student_response_type": "circle_or_loop",
+      "answer_key": "(1) I. (2) C. (3) P. (4) I. (5) C. (6) I."
+    },
+    {
+      "part_number": 2,
+      "part_title": "Part 2: Sort the events.",
+      "student_instructions": "Look at 6 events. Write each one in the right column: IMPOSSIBLE, POSSIBLE, or CERTAIN.",
+      "visual_layout": "A 3-column sort table. Columns: IMPOSSIBLE, POSSIBLE, CERTAIN. Below the table, a small list of 6 events for the child to sort. Events: rain in spring, snow in summer, lunch today, see a dragon, smile from a friend, day will end.",
+      "image_placeholders": [
+        {
+          "id": "WS01_P2_TABLE",
+          "description": "A 3-column sort table for a Grade 1 worksheet. Columns labelled 'IMPOSSIBLE', 'POSSIBLE', 'CERTAIN', each ~2in wide and ~3in tall, with thin solid borders. Below the table, a small list of 6 short events (each ~0.4in tall) the child reads and writes into the appropriate column.",
+          "placement": "Centred horizontally in Part 2.",
+          "approximate_size": "full_width",
+          "keywords": ["impossible", "possible", "certain"],
+          "text_image_alignment_check": "Image WS01_P2_TABLE at Part 2: instructions ask the child to sort events into 3 columns. Keywords name the column headings."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "IMPOSSIBLE: snow in summer, see a dragon. POSSIBLE: rain in spring, smile from a friend. CERTAIN: lunch today, day will end."
+    },
+    {
+      "part_number": 3,
+      "part_title": "Part 3: Make your own.",
+      "student_instructions": "Write ONE event for each likelihood. Make sure each event fits.",
+      "visual_layout": "Three labelled lines stacked vertically: 'IMPOSSIBLE: ___', 'POSSIBLE: ___', 'CERTAIN: ___'.",
+      "image_placeholders": [
+        {
+          "id": "WS01_P3_LINES",
+          "description": "Three labelled writing lines stacked vertically for a Grade 1 worksheet. Each line ~5in long with the label printed on the left: 'IMPOSSIBLE: ___', 'POSSIBLE: ___', 'CERTAIN: ___'. Generous height between lines.",
+          "placement": "Centred horizontally in Part 3.",
+          "approximate_size": "medium",
+          "keywords": ["impossible", "possible", "certain"],
+          "text_image_alignment_check": "Image WS01_P3_LINES at Part 3: instructions ask the child to write 3 events. Keywords name the labels for each line."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any 3 events that correctly fit each likelihood. Common: 'IMPOSSIBLE: pigs fly. POSSIBLE: rain. CERTAIN: school ends.'"
+    }
+  ]}],
+  "early_finisher_prompt": "If you finish, draw something IMPOSSIBLE that would be funny if it happened.",
+  "teacher_notes": "Lesson 1 consolidation artifact. Use Part 1 as the primary diagnostic signal. Children who can't distinguish I from P need the 'reality check' re-loop."
+}

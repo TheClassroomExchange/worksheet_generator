@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "All 45 composites produced by real composers. Character/object slides use clipart from sample_assets/clipart/ (slide01_people_01 chef pair for Penny+Nick+cert, slide02_random_04 puppy for Quincy as closest available stand-in for the piggy-bank, food-category slides for the Snack Shop items). 35+ structural worksheet/manipulative templates rendered procedurally via pipeline/template_composers.py. Coin Counters dispatch added to pipeline/compose.py."
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met. All five lessons carry an expanded_walkthrough block of 4000-5000 chars covering title/rationale/setup/teacher_script/expected_student_responses (4 bands)/common_misconceptions (3 each, paired with recovery_moves). Five distinct worksheet student_response_types: write, draw_or_write, circle_or_loop, match, self_rate. Mid-unit formative gate present (Numerals 0-10 Check-In after Lesson 3) AND unit-level reflection sheet present (5 prompts). Multi-step plan-build-revise visible: Lesson 5 Snack Shop has explicit pay → check → pay-another-way cycle.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough (avg ~4500 chars each)",
+        "1_lesson_01..05.json::expanded_walkthrough.common_misconceptions (3 each, paired)",
+        "2_worksheet_01..05.json::pages[].parts[].student_response_type (5 distinct types)",
+        "4_formative_reflection.json::formative_worksheets + reflection_sheet"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Strict L4 met. CRA progression visible across the unit: concrete (Coin Path floor mat with feet, snap-cubes, paper plates with paper grapes/cookies, real Canadian coins) → representational (ten-frames, price-tag cards, partner-hunt cube towers, jars with visible counts) → abstract (number bonds, equation writing, coin-value composition like 5¢ + 5¢ = 10¢). Lesson 3 is the keystone (operation choice via keyword chart); Lesson 5 capstone integrates every prior skill into the Snack Shop play scenario.",
+      "evidence_refs": [
+        "1_lesson_01.json::action.steps (Coin Path body counting → ten-frame model)",
+        "1_lesson_03.json::action.steps (story-problem keyword chart → cubes/coins → equation)",
+        "1_lesson_05.json::action.steps (real coins → coin combinations → Snack Shop scenario)",
+        "3_manipulatives.json::assets (M1-M7 + Penny/Nick/Quincy puppets span all three CRA tiers)"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Strict L4 met. All five lessons have expanded_walkthrough blocks covering the trickiest moment of each lesson with substantial teacher_script (≥3000 chars of dialogue), 4 expected_student_responses bands (Confused/Mid/Strong/Stretched), 3 misconceptions paired with concrete recovery_moves. Every lesson has student_learning_goal starting with 'I can'. Teacher scripts use embodied gestures (hide-the-cubes hand, dealing rhythm chant, dime-vs-nickel side-by-side compare) so the script is enactable, not just readable.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.teacher_script (each 3000+ chars)",
+        "1_lesson_01..05.json::expanded_walkthrough.expected_student_responses (4 bands each)",
+        "1_lesson_01..05.json::expanded_walkthrough.recovery_moves (paired with each misconception)"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "consistency_check 0 issues; verify_curriculum_text 0 issues; validate_unit_alignment (image-text) 0 issues. Every A6.7-A6.13 code is cited as a primary expectation in at least one lesson; assessment_suite.summative_rubric covers all 7 codes (after the A6.10 row was added during validation); lesson tracker_columns match assessment_suite formative_tracker columns; classroom_time_total_minutes (215) equals sum of lesson durations (40+40+45+40+50). Worksheet_brief.worksheet_title fields match worksheet_title verbatim across all 5 worksheet/lesson pairs. Marketplace descriptive_title matches blueprint exactly.",
+      "evidence_refs": [
+        "0_blueprint.json::curriculum_codes + curriculum_expectations (A6.7-A6.13)",
+        "1_lesson_*.json::primary_expectations vs 5_assessment_suite.json::summative_rubric.rows",
+        "pipeline.schemas.consistency_check (0 issues)",
+        "pipeline.curriculum_reference.verify_curriculum_text (0 issues)",
+        "pipeline.image_alignment.validate_unit_alignment (0 issues)"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "validate_unit_for_slides returns clean (no blocking warnings post-fix). validate_grade_density shows L5 at 1280 chars (just over the 1100 K ceiling) — non-blocking advisory. 0 placeholder hero images (all 45 composites real). 10 manipulative assets (M1-M7 + Penny/Nick/Quincy puppets) covering every blueprint M-id. Marketplace long_description ~1900 chars with 11 inclusions; suggested_price $9.99. Pipeline/compose.py extended with full Coin Counters dispatch using template_composers + the local clipart library (slide01_people_01 chefs for Penny+Nick+cert, slide02_random_04 puppy for Quincy, slide09_food_* for Snack Shop items).",
+      "evidence_refs": [
+        "composed/.composed_manifest.json::placeholder_count=0",
+        "validate_unit_for_slides (clean post-extension)",
+        "3_manipulatives.json::assets (10 total: 7 M-ids + 3 character puppets)",
+        "6_marketplace.json::long_description + what_is_included (11 items)",
+        "pipeline/compose.py — Coin Counters dispatch block (added 2026-05-04)"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-04-loop",
+  "graded_at": "2026-05-04T02:25:00Z"
+}

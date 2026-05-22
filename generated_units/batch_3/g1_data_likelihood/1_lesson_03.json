@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 3,
+  "lesson_title": "Make a Prediction",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1",
+    "D2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can use likelihood to PREDICT what will happen. The MORE LIKELY thing is the BEST PREDICTION.",
+  "learning_intention": "We are learning to use likelihood to predict.",
+  "student_learning_goal": "I can use likelihood to predict.",
+  "success_criteria": [
+    "I can MAKE a prediction before something happens.",
+    "I can use likelihood words in my prediction.",
+    "I can compare my prediction to what actually happened."
+  ],
+  "vocabulary_introduced": [
+    "predict"
+  ],
+  "vocabulary_reinforced": [
+    "impossible",
+    "possible",
+    "certain",
+    "likelihood"
+  ],
+  "manipulatives_used": [
+    "M3_coin_set",
+    "M4_dice_set",
+    "M5_prediction_mat",
+    "M8_predict_chart",
+    "M9_outcome_cards",
+    "M10_likelihood_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Predict'",
+    "Paper Coin Set (12 per pair)",
+    "Paper Dice Set (6 foldable)",
+    "Prediction Recording Mat (1 per pair)",
+    "Outcome Cards (16 per pair)",
+    "Lesson 3 prediction tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Lucky Predicts the Coin",
+    "hook": "Lucky: I will FLIP this coin. PREDICT — heads or tails? Now let's see if you were right! Lucky opens: 'I predict and I PROVE!' Class: 'Maybe yes, maybe no — let's TEST and we'll know!'",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets. 'Friends — yesterday we sorted events. Today we PREDICT — say what will happen BEFORE it happens.'\n\nIntroduce vocabulary. Write PREDICT on chart. 'Predict = guess what will happen, using clues like LIKELIHOOD.'\n\nDemonstrate with a coin. 'I will flip this coin. Heads or tails are both POSSIBLE. So either prediction is OK.' Flip. 'I predicted heads! It was tails. My prediction was wrong, but it WAS possible.'\n\nMore coin examples. Flip 5 times. Predict each. Some right, some wrong. 'See — likelihood doesn't mean 100% sure. It means MOST LIKELY.'\n\nNow use a die. 'I will roll. POSSIBLE — any number 1 to 6. I predict 3.' Roll. Show result.\n\nThen biased examples. 'In this bag, 4 RED tokens, 1 BLUE token. If I pull one — likely RED, possible BLUE. PREDICT?' Pull. Show.\n\nMore prediction practice:\n- 'It is sunny today. Will it be sunny in 5 minutes?' Predict (likely yes — certain).\n- 'I have 5 marbles, 1 black, 4 white. Pull one. Predict?' (likely white).\n- 'The lunch bell will ring in 1 hour. PREDICT.' (certain — yes).\n\n'Lucky says — when you predict, USE likelihood. The MORE LIKELY thing is your BEST guess.'\n\n'Today YOU make predictions and test them.'",
+    "student_actions": [
+      "Watch Lucky's coin and dice predictions.",
+      "Echo new vocabulary: 'predict'.",
+      "Make predictions before flips.",
+      "Compare predictions to outcomes."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Prediction Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: predict 4 events. (a) coin flip. (b) die roll. (c) marble pull. (d) tomorrow's weather.",
+        "teacher_prompt": "Say: 'Predict! Then test.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Coin Flips — predict 5 flips, record results. Station B: Marble Pulls — pair has a bag with 4 red + 1 blue, predict 5 pulls, record. Station C: Class Predictions — pair predicts class events (will it be sunny in 1 hour, will the bell ring, etc.).",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: predict 3 events with different likelihoods (one impossible, one possible, one certain).",
+        "teacher_prompt": "Say: 'Stretch: 3 likelihoods.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss prediction accuracy. 'You can be right or wrong. Likelihood helps but doesn't guarantee.'",
+        "teacher_prompt": "Show: 'I predicted heads 5 times, got tails 3 — that's normal!'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the prediction tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What was your prediction? What happened?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After Station B (4R+1B bag), bring two children's strategies to the carpet — one who predicted RED every pull, one who alternated. Class debates: which is the BEST PREDICTION over 10 pulls and why? Cite Konold (1989) outcome-orientation: 'best prediction' means alignment with long-run frequency, not match-this-pull.",
+        "teacher_prompt": "Lucky: 'A SINGLE pull doesn't make a prediction wrong. The PATTERN over many pulls is what counts.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A with coin flips only.",
+      "for_extending": "Stretch at Station C: predict + reason for likelihood.",
+      "for_ell_or_iep": "Provide sentence frame: 'I predict ___ because ___.'",
+      "for_movement_learners": "Children flip and record at the rug; physically separate predictions from outcomes."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: makes a prediction; uses likelihood word; compares to outcome.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Makes a prediction",
+        "Uses likelihood word",
+        "Compares to outcome",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lucky's Predict Brag",
+    "discussion_prompts": [
+      "What does PREDICT mean?",
+      "What word do you use when something is likely?",
+      "Were any predictions wrong? That's OK!",
+      "What helps you make a good prediction?"
+    ],
+    "exit_routine": "Mae and Lucky chant together — Lucky calls 'I predict and I PROVE!' and class echoes 'Maybe yes, maybe no — let's TEST and we'll know!' Each child writes ONE prediction on a sticky and tags it MORE LIKELY or LESS LIKELY."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Prediction-making and outcome comparison.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures D2.1 (likelihood-based prediction) and intro to D2.2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says 'I'm wrong' after one wrong prediction — repairing the perfectionist trap at Grade 1",
+    "rationale": "On 'predict the next pull from a 4-red-1-blue bag', Grade-1 children commonly fall into outcome-orientation (Konold 1989, 'Informal Conceptions of Probability'): every prediction is right or wrong based on the SINGLE next pull, ignoring the underlying ratio. Combined with Fischbein's equiprobability bias, this is the core G1 probability misconception.\n\nYesterday Mae sorted events by likelihood (Lesson 2). Today Lucky uses that sort to make a prediction OVER MANY PULLS. Tomorrow we'll TEST these predictions and reconcile what 'right' means when chance is involved.",
+    "setup": "Pair is at Station A. Child predicts heads 3 times, gets 2 tails. Says 'I'm bad at predicting'.",
+    "teacher_script": "Crouch. 'You predicted heads. You got 2 tails. But Lucky says — that's NORMAL! Coins land tails sometimes, even when we predict heads.'\n\nWalk through. 'Heads and tails are EQUALLY POSSIBLE. So predicting heads is FINE. Sometimes you're right. Sometimes wrong.'\n\nGeneralise. 'Lucky says — predictions aren't right or wrong. They're EDUCATED GUESSES using likelihood. Wrong predictions still count as good thinking.'\n\nNow show 50/50 distribution. Flip 10 times. Maybe 6 heads, 4 tails. 'See — both happen.'\n\nNow use a biased example. 'In this bag, 4 red, 1 blue. Pull. Most pulls = red (because red is MORE LIKELY). Even still, sometimes blue.'\n\nIf still discouraged: provide cumulative tally — keep track of right and wrong predictions across the whole session. Show that wrong-rate is normal.\n\nLong-term recovery: every prediction activity celebrates the THINKING, not the OUTCOME.",
+    "expected_student_responses": [
+      "(Confused) Quits after one wrong prediction.",
+      "(Mid) Continues after a pep-talk.",
+      "(Strong) Accepts wrong predictions as part of the process.",
+      "(Stretched) Names the likelihood reason for their prediction even when wrong."
+    ],
+    "common_misconceptions": [
+      "Wrong = bad. (Repair: wrong is normal in probability.)",
+      "Right answer should always come up. (Repair: likelihood ≠ certainty.)",
+      "I should predict the same thing every time. (Repair: vary based on observed outcomes.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child judges single wrong pull as 'failed prediction': introduce cumulative tally — predict, then track over 10 pulls. Child sees the prediction was right OVERALL even if a single pull differed.",
+      "DIAGNOSTIC B — child predicts only RED every time (extreme outcome-orientation): rotate predictor every 3 pulls and require child to JUSTIFY using the bag composition.",
+      "DIAGNOSTIC C — child predicts but cannot connect to bag composition: physical demo — empty bag onto carpet, count colours, child re-articulates 'because there are MORE red, red is more likely.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lucky's Prediction Lab",
+    "purpose": "Independent practice of D2.1 + D2.2 prediction.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Predict 4 coin flips. Mark predictions. Then flip a real coin and compare.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Look at a marble bag (4 red + 1 blue). Predict 3 pulls. Tell why your prediction is most likely.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Make 2 predictions about today: one POSSIBLE, one CERTAIN.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky in worksheet header",
+      "Coin prediction table for Part 1",
+      "Marble bag image for Part 2",
+      "2 prediction lines for Part 3"
+    ]
+  }
+}

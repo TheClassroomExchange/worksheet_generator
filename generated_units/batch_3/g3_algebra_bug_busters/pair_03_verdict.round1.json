@@ -1,0 +1,57 @@
+{
+  "pair_number": 3,
+  "unit_id": "g3_algebra_bug_busters",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names 'vague-bug-detection' as the Grade-3 trap and recovery_moves are concrete (trace template, drill 'first divergent step is the bug', practice with all 3 bug types) — but no named research is cited and recovery_moves do not branch by what the diagnostic told you. Level 4 requires the trap to align with a named research source (e.g., Pea 1986 on debugging misconceptions; Kafai & Burke; Brennan & Resnick CT framework on systematic tracing) AND branched recovery.",
+      "required_fix": "In expanded_walkthrough.rationale, anchor the vague-bug-detection trap to a named source (e.g., Pea's 1986 'Language-Independent Conceptual Bugs in Novice Programming' which documents the 'global vs. local' debugging trap, or Brennan & Resnick 2012 on systematic vs. trial-and-error debugging). Then convert recovery_moves into a branched diagnostic: (a) if the child can articulate the expected outcome but not trace, give a written trace template; (b) if the child cannot state the expected outcome, drop back to predicting outcome before tracing; (c) if the child finds the divergent step but not the type, drill the 3-bug-type sort with sample cards.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = 'Each child writes ONE bug-find on a sticky note: \"The bug is ___ because ___.\"' is a sentence frame, but Buzz has no distinctive quotable refrain that children carry between lessons. The teacher_script has Buzz speaking but no memorable chant like the Level 4 example ('HOO knows the sounds? YOU do!'). Children should leave with a Buzz catchphrase that anchors bug-busting across all 5 lessons.",
+      "required_fix": "Add a recurring Buzz refrain to minds_on and consolidation. For example: Buzz's bug-busting chant 'TRACE it, FACE it, REPLACE it!' (trace step-by-step, face the divergent step, replace the wrong number/step/order). Have teacher_script open and close with the chant; consolidation has children chant it back. Reference it again in the exit_routine sticky note prompt: 'Buzz says TRACE-FACE-REPLACE. The bug is at step ___ because ___.' Make sure the same refrain appears in lessons 1, 2, 4, 5 (cross-lesson anchor).",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson presents one bug-finding strategy (trace step-by-step, find first divergence, name type) and applies it across stations. expanded_walkthrough.common_misconceptions are stated in plain language but the trap is not named in research-grounded computational-thinking terms. Level 4 requires children to invent or refine a strategy and compare strategies, AND for the walkthrough to name the misconception in research-grounded terms (Brennan & Resnick on debugging, Pea 1986 on bug taxonomies, or Wing 2008 CT abstraction).",
+      "required_fix": "In action.steps, add a step where pairs compare two strategies for a wrong-order bug: Strategy A 'trace from the start' vs Strategy B 'work backward from the wrong outcome'. Have pairs decide which works faster for which bug type. Then in expanded_walkthrough.rationale, name the misconception in research-grounded terms — e.g., reference Pea 1986's 'superbug' (treating the computer as intentional) and Brennan & Resnick 2012's distinction between systematic debugging (trace) and 'tinkering' (random changes). Connect the trace strategy to CT abstraction (Wing 2008): a step is the unit of analysis.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "primary_expectations and curriculum_expectations match input_row.json byte-for-byte and every expectation has a named lesson activity. However, the lesson does not explicitly bridge to/from neighbouring days in the unit's arc with cross-referencing teacher language. minds_on uses 'Repeat 5: fwd' but never says 'remember the concurrent code we wrote on Day 2 — today some of those have bugs'. The expanded_walkthrough also doesn't cross-reference Day 2's writing skill or preview Day 4's fixing.",
+      "required_fix": "In minds_on.teacher_script, add an explicit bridge to Day 2: 'Friends — yesterday we WROTE code with two robots running at the same time. Today, Buzz is going to show us a code where something went WRONG. We're going to be detectives.' In consolidation.discussion_prompts, add a forward-looking prompt: 'Tomorrow we'll FIX the bugs we found today — what would you change in the code from Station A?' This anchors lesson 3 inside the 5-day arc.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "minor"
+    }
+  ],
+  "summary_note": "Strong worksheet-lesson consistency (Part 3 transfer task) and excellent everyday-materials discipline (puppets explicitly optional). Three blocking gaps to clear Level 4: (1) name the debugging trap in research-grounded terms and branch the recovery, (2) give Buzz a quotable refrain that travels between lessons, (3) let pairs compare strategies, not just apply the one taught. Alignment is a minor cross-reference fix. All blocking issues live in lesson_03; worksheet_03 is solid as is."
+}

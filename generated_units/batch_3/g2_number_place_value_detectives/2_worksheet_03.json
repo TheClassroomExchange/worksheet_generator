@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "lesson_number": 3,
+  "worksheet_title": "Detective Ona's Even/Odd Probe",
+  "purpose": "Independent practice of B1.5 (even/odd) with reinforcement of B1.4 (skip-counting by 2s). Captures formative evidence on pair-up test, last-digit rule, and the skip-count connection.",
+  "student_learning_goal": "I can describe what makes a number even or odd, and use the pair-up test to check.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe what makes a number even or odd, and use the pair-up test to check.",
+    "character_watermark": "Detective Ona Ones in the top-right corner with a single '1' badge and a paper-clip evidence bag. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Pair-Up Test",
+          "student_instructions": "Each scene shows a small collection. Draw the pairing. Write EVEN or ODD.",
+          "visual_layout": "Top of the page. Six pair-up scenes in a 2x3 grid. Each scene shows a number of cubes (9, 12, 15, 18, 23, 26).",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_SIX_PAIRUPS",
+              "description": "Six pair-up scenes in B&W line-art, 2-row × 3-column grid. Each scene ~2.2in × 1.5in. Each scene shows N small cubes scattered in a row with a blank pairing area below where the child will draw the pairing. Pre-fills: 9 cubes, 12 cubes, 15 cubes, 18 cubes, 23 cubes, 26 cubes. Below each scene, a label line for EVEN or ODD.",
+              "placement": "Top of the page; six scenes in 2x3 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "pair-up",
+                "cubes"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_SIX_PAIRUPS: keywords (pair-up, cubes) name what the scenes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "9 ODD (4 pairs + 1). 12 EVEN (6 pairs). 15 ODD (7 pairs + 1). 18 EVEN (9 pairs). 23 ODD (11 pairs + 1). 26 EVEN (13 pairs)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Last-Digit Rule",
+          "student_instructions": "Circle the EVEN numbers. Underline the ODD numbers. Use the last-digit rule.",
+          "visual_layout": "Middle of the page. A 4x3 grid of 12 numbers. Each cell has a number in a light-grey outlined box.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_TWELVE_NUMBERS",
+              "description": "A 4-row × 3-column grid of 12 number boxes in B&W line-art. Each box ~1.5in × 1in with a number in 24pt font. Numbers: 27, 134, 156, 89, 200, 137, 78, 99, 145, 60, 31, 174.",
+              "placement": "Middle of the page; full-width grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "last-digit",
+                "numbers"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_TWELVE_NUMBERS: keywords (last-digit, numbers) name what the grid shows."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "EVEN (circled): 134, 156, 200, 78, 60, 174. ODD (underlined): 27, 89, 137, 99, 145, 31."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Skip-Count by 2s",
+          "student_instructions": "Three skip-count tasks. Fill in the missing numbers. The TRICKY one starts at 17 — what happens to the EVEN/ODD pattern?",
+          "visual_layout": "Bottom of the page. Three Number Line strips stacked. Strip 1: by 2s starting at 4 (to 30). Strip 2: by 2s starting at 17 (to 35) — TRICKY (lands on odds). Strip 3: by 2s starting at 100 (to 130).",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_SKIP_LINES",
+              "description": "Three horizontal Number Line strips in B&W line-art, stacked vertically. Each ~7in × 0.8in. Strip 1: cell 1 shows '4', label 'by 2s, ends 30'. Strip 2: cell 1 shows '17', label 'by 2s, ends 35 — TRICKY!'. Strip 3: cell 1 shows '100', label 'by 2s, ends 130'.",
+              "placement": "Bottom of the page; three strips.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "number-line",
+                "skip-count"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_SKIP_LINES: keywords (number-line, skip-count) name what the lines show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Strip 1 (4 by 2s): 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30. Strip 2 (17 by 2s): 17, 19, 21, 23, 25, 27, 29, 31, 33, 35 (all ODD). Strip 3 (100 by 2s): 100, 102, 104, 106, 108, 110, 112, 114, 116, 118, 120, 122, 124, 126, 128, 130."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over. Pick a 3-digit number bigger than 200 and tell whether it's even or odd. How do you know without pairing up that many cubes?",
+  "teacher_notes": "Lesson 3 consolidation. Hand out at the end of the Action phase. Watch for: (a) Part 1 children who can pair up cubes but get the EVEN/ODD label wrong — flag for the leftover-means-odd reteach; (b) Part 2 children who use majority-of-digits reasoning ('27 is even because 2 is even') — flag for the last-digit-rule reteach; (c) Part 3 Strip 2 children who fill in even numbers (16, 18, 20...) instead of odd (17, 19, 21...) — flag for the skip-count-from-odd-start practice."
+}

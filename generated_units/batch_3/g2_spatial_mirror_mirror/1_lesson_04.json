@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "lesson_number": 4,
+  "lesson_title": "Make a Map",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "A MAP shows places from above. We use SYMBOLS for objects.",
+  "learning_intention": "We are learning to make a simple map of a familiar place.",
+  "student_learning_goal": "I can make a simple map of a familiar place.",
+  "success_criteria": [
+    "I can DRAW from above.",
+    "I can use SYMBOLS for objects.",
+    "I can label places."
+  ],
+  "vocabulary_introduced": [
+    "map"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M4_map_template",
+    "M5_symbol_cards",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Symmy and Flippy — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Map Symbols'",
+    "Map Template (1 per pair)",
+    "Map Symbol Cards (12)",
+    "Lesson 4 map tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Flippy Maps the Classroom",
+    "hook": "Flippy: A MAP shows our classroom from ABOVE. The desk is a square. The door is a rectangle. The carpet is a circle! Symmy + Flippy open: 'Top-down, top-down, that's how MAPS look!'",
+    "teacher_script": "Bring children to the carpet. Symmy and Flippy puppets. 'Friends — yesterday congruence. Today we make a MAP.'\n\nIntroduce vocabulary. Write MAP on chart. 'Map = a drawing of a place from ABOVE — like a bird looking down. We use SYMBOLS for objects.'\n\nDemonstrate. Show classroom. Walk to a desk. 'From above, the desk looks like a SQUARE.' Draw on chart.\n\nWalk to door. 'From above, the door is a RECTANGLE on the wall.' Draw.\n\nWalk to carpet. 'A CIRCLE.' Draw.\n\nNow the windows. 'Long thin rectangles on the side.'\n\nMore symbols:\n- Bookshelf = long rectangle.\n- Round table = circle.\n- Whiteboard = wide rectangle on wall.\n- Tree (outside) = green dot or circle.\n- Path = thin line.\n\n'Flippy says — every object becomes a SHAPE on the map. We pick simple symbols.'\n\nLabel each object. 'Don't forget LABELS so others can read the map.'\n\nDemo a finished map. 'Title: My Classroom. Symbols: 20 small squares (desks), 1 rectangle (door), 1 circle (carpet), labels.'\n\n'Today YOU map a place — your bedroom, kitchen, or backyard.'",
+    "student_actions": [
+      "Watch Flippy map",
+      "Echo 'map'",
+      "Identify symbols for objects",
+      "Practice drawing from above"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Map Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: map our classroom together.",
+        "teacher_prompt": "Say: 'What shape is the ___?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Read 3 maps and identify objects. B: Map a small space (bedroom). C: Map the schoolyard.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: include compass rose (N/S/E/W).",
+        "teacher_prompt": "Say: 'Stretch: compass rose.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss bird's-eye view. 'Maps show TOP DOWN, not front.'",
+        "teacher_prompt": "Show: side view vs top view."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their bedroom maps and compare how they chose symbols. Cite Liben & Downs (1989) perspective-taking — top-down is the math convention.",
+        "teacher_prompt": "Symmy: 'Different symbols, same TOP-DOWN view. The MATH cares about the perspective.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A. Read pre-made maps.",
+      "for_extending": "Stretch at C: compass rose.",
+      "for_ell_or_iep": "Pre-cut symbol stickers + sentence frame.",
+      "for_movement_learners": "Walk the classroom; map as you walk. NO-PAPER VERSION: children walk a small classroom zone and SAY their route from above ('I am at the door, then I go to the carpet, then to the bookshelf')."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: draws from above; uses symbols; labels.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Draws from above",
+        "Uses symbols",
+        "Labels objects",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Flippy's Map Brag",
+    "discussion_prompts": [
+      "What is a MAP?",
+      "Why from ABOVE?",
+      "What are SYMBOLS?",
+      "What's important to LABEL?"
+    ],
+    "exit_routine": "Symmy + Flippy map refrain — 'Top-down, top-down, that's how MAPS look!' Class chants 3x. Each child shows their map and names one symbol + label."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Map-making accuracy.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures E1.4 mastery."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child draws SIDE VIEW instead of TOP DOWN — repairing the perspective trap at Grade 2",
+    "rationale": "On map-making, the Grade-2 trap is perspective confusion: child draws the map from a side view (their own height) instead of top-down (Liben & Downs 1989, 'Children's Understanding of Maps'; Battista on spatial perspective-taking). Without top-down perspective, Lesson 5's capstone mirror-maze cannot ground.\n\nYesterday Lesson 3 worked on congruence. Today: top-down maps. Lesson 5 capstones.",
+    "setup": "Pair at B. Child drawing a 'map' of bedroom. Drawing a bed with headboard, footboard, blanket — side view, not top.",
+    "teacher_script": "Crouch. 'Beautiful drawing! But Flippy asks — what would your bed look like if you were a BIRD looking DOWN?'\n\nGuide. 'From above, you'd just see the rectangle of the mattress. No headboard. Top view.'\n\nDraw a top-view bed. 'Now this is map-style.'\n\nGenerlise. 'Symmy says — maps are TOP DOWN. We see the FOOTPRINT of objects, not the side.'\n\nIf still side-viewing: provide a top-down photo example. 'Like this picture from a drone.'",
+    "expected_student_responses": [
+      "(Confused) Side view drawings.",
+      "(Mid) Top view with prompts.",
+      "(Strong) Top view independently.",
+      "(Stretched) Adds compass rose."
+    ],
+    "common_misconceptions": [
+      "Map = picture. (Repair: map = bird's-eye view.)",
+      "Side view OK on map. (Repair: top down only.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child draws side-view: physical demo with toys + phone camera held above; child sees the top-down view.",
+      "DIAGNOSTIC B — child draws top-down but misses scale: drill 'big things take MORE map space than small things.'",
+      "DIAGNOSTIC C — child draws but uses random symbols: drill the key — 'every symbol gets a label.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Flippy's Map Maker",
+    "purpose": "Independent practice of E1.4.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Look at a map. Identify 4 objects.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Map your bedroom. Use symbols.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Map a place at home. Add labels.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Flippy in worksheet header",
+      "Pre-built map for Part 1",
+      "Blank space for Part 2",
+      "Larger blank for Part 3"
+    ]
+  }
+}

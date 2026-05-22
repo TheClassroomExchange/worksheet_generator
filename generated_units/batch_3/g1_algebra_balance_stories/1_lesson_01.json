@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "lesson_number": 1,
+  "lesson_title": "Change vs Stay the Same",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Some quantities CHANGE (people in class, weather); others STAY THE SAME (10 fingers, 4 corners).",
+  "learning_intention": "We are learning to identify quantities that can change and quantities that always stay the same in real-life contexts.",
+  "student_learning_goal": "I can name things that change and things that stay the same in my life.",
+  "success_criteria": [
+    "I can name 3 things that change.",
+    "I can name 3 things that stay the same.",
+    "I can sort photo cards into 'CHANGE' and 'STAY THE SAME' columns."
+  ],
+  "vocabulary_introduced": [
+    "change",
+    "stay the same"
+  ],
+  "vocabulary_reinforced": [
+    "count",
+    "amount"
+  ],
+  "manipulatives_used": [
+    "M3_change_constant_cards",
+    "M10_balance_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Bella the Balance Beam Scientist — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Change or Stay the Same?' with two columns",
+    "Per-pair set of 24 photo cards",
+    "Lesson 1 change-or-stay snapshot tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Bella's Sorting Game",
+    "hook": "How many children are in class today? How many sides on a square? Which one CHANGES? Bella opens with her refrain: 'Bella's question — does it CHANGE or STAY?' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Reveal Bella the Balance Beam Scientist puppet. 'Friends — meet Bella. Bella is a SCIENTIST. She studies which things change and which things stay the same in the world.'\n\n'Bella has two questions for you. Question 1: How many children are in our class TODAY?' Take a count. Children might say 'twenty-one' or 'eighteen'. 'Now — how many will be in class TOMORROW?' Children think. 'Different — maybe one is sick, or someone is back from vacation.' 'So the number of children CHANGES. We can't predict it exactly.'\n\nWrite 'Number of children in class' on a chart, in the CHANGE column.\n\n'Question 2: How many sides on a square?' '4!' 'Right — 4. Will it be 4 tomorrow?' '4!' 'Will it be 4 next week?' '4!' 'Bella says — that STAYS THE SAME. The number of sides on a square is ALWAYS 4. It can't change.'\n\nWrite 'Sides on a square' on the chart, in the STAY THE SAME column.\n\nWalk through more examples:\n- Number of seasons in a year (STAYS THE SAME — 4)\n- Weather today (CHANGES)\n- Number of fingers on one hand (STAYS THE SAME — 5)\n- Number of cars in the parking lot (CHANGES)\n- Days in a week (STAYS THE SAME — 7)\n- Number of leaves on the maple tree (CHANGES)\n\nFor each, ask the class. Move them through the sorting.\n\n'Today we'll practice sorting MORE pictures into CHANGE and STAY THE SAME.'",
+    "student_actions": [
+      "Discuss whether the number of children in class changes.",
+      "Discuss whether the number of sides on a square changes.",
+      "Echo new vocabulary: 'change', 'stay the same'.",
+      "Predict for additional examples."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Change or Stay-the-Same Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: sort 6 more cards as a class. Cards: number of pets at home (CHANGE), number of doors in our school (STAY THE SAME — fixed building), birthday month (STAY — yours doesn't change), how many books in your bag (CHANGE — depends on day), number of provinces in Canada (STAY — 10), temperature outside (CHANGE — by season and day).",
+        "teacher_prompt": "Say to students: 'Six more sorting cards. CHANGE or STAY THE SAME?' For each, ask the class and place the card in the right column."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Card Sort — pair has 16 cards; sort into CHANGE and STAY THE SAME piles. Station B: My Life — pair makes a list of 5 things in their own life that change and 5 that stay the same. Station C: Classroom Hunt — pair walks around the room with a clipboard; records 5 quantities they see (e.g., number of chairs, number of windows, number of pencils on the teacher's desk) and labels each.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: ask 'Are there any quantities that CHANGE only sometimes? Like during certain seasons or events?' Examples: number of decorations on the school door (changes around holidays), number of people at recess (changes by recess time).",
+        "teacher_prompt": "Say to pairs: 'Some quantities are tricky — they change only at certain times. Find a couple and discuss.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the why. 'Why does the number of sides on a square stay the same? Because that's its DEFINITION — without 4 sides, it's not a square.' 'Why does the number of children change? Because each day is different — some are sick, some are away, some are new.'",
+        "teacher_prompt": "Use the definition vs lived-experience contrast. The DEFINITION of a square is fixed; the LIVED experience of class population varies."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the change-or-stay snapshot tracker.",
+        "teacher_prompt": "Stop at each pair. Hand them a card and ask 'CHANGE or STAY?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: pairs find a quantity in the room nobody else thought of — name it and decide CHANGES or STAYS. Two pairs share. Class votes for the most surprising STAY (e.g. fingers = 10 forever) and most surprising CHANGE (e.g. shadows = move with the sun). Bella names the principle: a variable is a VARYING quantity (Carpenter & Levi 2000).",
+        "teacher_prompt": "Bella: 'Same total of fingers, same shape of room — but DIFFERENT shadows on the floor. Math is about figuring out what STAYS and what CHANGES.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only obvious cases — number of legs on a chair, number of fingers, number of pets.",
+      "for_extending": "Stretch at Station C: 'Find 3 quantities that change ONCE A YEAR (like grade level, age, season).' Discuss longer time scales.",
+      "for_ell_or_iep": "Use picture-supported cards. Provide a sentence frame: '___ is a thing that ___s.'",
+      "for_movement_learners": "Station C (the classroom hunt) is naturally kinesthetic. Allow extra rotations. NO-PAPER VERSION: teacher calls out a quantity (children today / sides of a square / weather). Children point THUMBS-UP for STAYS THE SAME, WIGGLE-FINGERS for CHANGES. Sort 12 spoken quantities; no cards required."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: correctly sorts cards; names own examples of change and stay-the-same; explains the WHY (definition vs experience).",
+      "how_to_record": "Tick the change-or-stay snapshot tracker.",
+      "tracker_columns": [
+        "Student name",
+        "Sorts cards correctly",
+        "Names own examples of change",
+        "Names own examples of stay-the-same",
+        "Explains WHY",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Bella's Closing Sort",
+    "discussion_prompts": [
+      "What are three things in your life that change?",
+      "What are three things that stay the same?",
+      "Why does the number of fingers on one hand stay the same?",
+      "Why does the number of children in class change?",
+      "Bella's preview: tomorrow we meet the BALANCE SCALE (Lesson 2 — C2.2). When two amounts STAY the same on each side, the scale balances. What 'stays the same' from today's sort might balance tomorrow?"
+    ],
+    "exit_routine": "Bella's refrain — class chants three times together: \"Bella's question — does it CHANGE or STAY?\" with hand-signs (open palm = CHANGE, closed fist = STAY). Each child writes ONE quantity from the room on a sticky and tags it C or S."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Change-vs-stay sorting accuracy and the ability to articulate WHY a quantity changes or doesn't.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 captures C2.1 baseline. Children who can sort correctly AND articulate WHY are at L4."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child sorts 'number of children in class' as STAY THE SAME because 'we have 24 kids' — repairing the snapshot vs trend confusion",
+    "rationale": "Grade-1 children fluidly count quantities but rarely classify them as fixed (10 fingers) vs varying (children-here-today). Carpenter & Levi (2000, 'Developing Conceptions of Algebraic Reasoning in the Primary Grades') place this distinction — variable as varying-quantity vs constant — as the gateway to early algebraic reasoning. Without it, children read x in 4 + x = 7 as 'a number-letter' rather than as an amount that varies until balanced.\n\nTomorrow Bella brings out the balance scale — when two amounts STAY THE SAME on each side, the scale balances (Lesson 2). Today's stay-the-same idea sets that up; Lesson 3 then asks children to FIND a missing amount that makes the balance hold.",
+    "setup": "Pair is at Station A. The card 'Number of children in class' goes into STAY THE SAME pile. Bella 'fixes' it.",
+    "teacher_script": "Crouch beside the child. 'You sorted Number of children in class as STAY THE SAME. Tell me why.' The child says 'Because we have 24 in our class.' 'OK — today there are 24. But was there 24 yesterday? Last week? On the first day of school?' Pause.\n\nThe child thinks. 'Maybe not... someone was sick yesterday.' 'Right. The count VARIES from day to day. Bella says — if it can be DIFFERENT on different days, it CHANGES.'\n\nNow the rule. 'Stays the same means it's ALWAYS the same — every single day, every year, every place. Like a square always has 4 sides. The number of children in our class isn't always 24 — it's WHATEVER count we have today.'\n\nMove the card to CHANGE.\n\nIf the child STILL insists: try a memorable counter-example. 'Was Sarah here last Tuesday?' 'No.' 'So on last Tuesday, was there 23 or 24?' '23.' 'And today?' '24.' 'See — different days, different counts. It CHANGES.'\n\nLong-term recovery: in daily class routines, point out variable quantities. 'Today we have 24. Yesterday we had 23. Tomorrow might be 25. The class size CHANGES.'",
+    "expected_student_responses": [
+      "(Confused) Sorts based on today's count. 'Today is 24, so it stays the same.'",
+      "(Mid) Recognises that the count varies after prompts; sometimes auto-applies.",
+      "(Strong) Independently identifies varying quantities; uses 'every day different' or 'depends on the day' reasoning.",
+      "(Stretched) Volunteers more nuanced cases: 'My grade level changes once a year.' Sees time scales."
+    ],
+    "common_misconceptions": [
+      "Snapshot = forever. (Repair: ask 'was it the same yesterday?')",
+      "Definition fixes are weird. (Children find 'sides on a square' obvious but 'days in a week' less so. Repair: both are universal — they don't depend on the day or place.)",
+      "Anything I can count today is fixed. (Repair: emphasize the time dimension — 'will it be the same tomorrow?')"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child cites today's count as 'fixed': counter-prompt 'was Sarah here last Tuesday?' to surface that today's number is one moment in a varying quantity.",
+      "DIAGNOSTIC B — child cannot name any varying quantity: drop to a body example ('how tall are you?' — same right now, but you grew from last year's mark on the wall).",
+      "DIAGNOSTIC C — child sorts everything as 'changes' (over-generalising): give 4 obviously-fixed items in a row (2 hands, 5 fingers, 4 corners of a paper, 7 days/week) and ask 'which ONE could change tomorrow?' before re-sorting."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Bella's Sorting Game",
+    "purpose": "Independent practice of C2.1 (change vs stay the same).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Sort 12 picture/word cards into CHANGE or STAY THE SAME. Child draws an arrow or circles the right column.",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Open prompt: 'Name 3 things in your own life that CHANGE and 3 things that STAY THE SAME.'",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Why prompt: 'Pick one thing that CHANGES. Why does it change?' Child writes a sentence.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Bella in the worksheet header",
+      "12 picture/word cards for Part 1",
+      "A blank box with thinking-bubble icon for Parts 2 and 3"
+    ]
+  }
+}

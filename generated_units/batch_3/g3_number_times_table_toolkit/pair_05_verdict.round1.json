@@ -1,0 +1,57 @@
+{
+  "unit_id": "g3_number_times_table_toolkit",
+  "pair_number": 5,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title names the additive scale-up error ('child scales 1:2 up by 5 by adding (1+5=6, 2+5=7) instead of multiplying'), and recovery_moves include 'multiply both parts aloud' and 'use counters'. The trap is real and grade-level-specific, but no named research is cited (Lamon's proportional reasoning research; Lobato & Ellis on ratios; or Ontario CGI work). Recovery_moves are concrete but do not branch by what the diagnostic told you about the child — only one fallback ('try a smaller scale') is offered, not differentiated by the child's specific error pattern.",
+      "required_fix": "In expanded_walkthrough.rationale, cite the additive-scaling-error research by name (e.g., 'Lamon (2007) identifies the additive strategy as the dominant Grade 3 ratio misconception; Lobato & Ellis (2010) call this the additive comparison error'). Then expand recovery_moves into branched paths: (a) IF the child can multiply but defaults to adding, drill the rule 'multiply both parts' with 3-4 quick scalings; (b) IF the child cannot multiply by the scale factor, drop back to repeated addition (1:2, 1:2, 1:2, 1:2, 1:2 = 5:10) before reintroducing multiplication; (c) IF the child mixes ratios with fractions, contrast 'ratio compares two amounts' vs 'fraction is part of a whole'.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'OPTIONAL: Maya the Multiplication Maven puppet' with substitutes (good — Level 3). Time allocations 12/25/13 = 50 min are realistic for G3. Materials are everyday (ratio table templates, counters, anchor poster). HOWEVER, differentiation lacks an explicit no-paper / no-purchase alternative path. The 'for_movement_learners' entry suggests 'real measuring cups' (not always available) but there is no fully voice/body/gesture-only fallback for days when no prep is possible.",
+      "required_fix": "Add to differentiation a 'no_materials_version' entry: 'No-paper version — children stand in a line. For 1:2 ratio, 1 child holds up 1 finger and the partner holds up 2 fingers. Scale by 5: now 5 children each hold up 1 finger, and 5 partners each hold up 2 fingers (count: 10 fingers). The body becomes the ratio table.' Add a parallel chant-based approach for money ratios (clap 1, snap 2; clap 1, snap 2 — five times = 5 claps and 10 snaps). This makes Lesson 5 runnable with zero printed materials.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Maya anchors minds_on ('Maya's Recipe Ratio') and consolidation ('Maya's Closing Ratio Brag'). Vocabulary 'ratio' and 'scale up' are introduced child-friendly. All success_criteria start with 'I can'. HOWEVER, Maya has no distinctive quotable refrain that children carry between lessons. The closing exit_routine is a 'whisper my favourite ratio' frame but no memorable chant. Compare to the Level 4 example ('HOO knows the sounds? YOU do!').",
+      "required_fix": "Give Maya a quotable refrain children chant back. Example: in minds_on add 'Maya says — MULTIPLY both parts, the ratio stays SMART!' and have children echo. In consolidation/exit_routine, replace the open whisper with a call-and-response: Teacher: 'How do we scale a ratio?' Children: 'Multiply both parts the SAME way!' Repeat 3 times. Add to teacher_script that Maya uses this refrain at every station check-in so the rule is reinforced 6+ times in the lesson.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The conceptual progression is explicit (ratio as comparison; scaling preserves the ratio via multiplication). Vocabulary 'ratio', 'scale up', 'factor' is used precisely. The expanded_walkthrough names the additive vs multiplicative misconception. HOWEVER, the lesson does NOT let children invent or compare strategies — step 1 hands them the ratio-table strategy and step 2-3 just apply it. There is also no research citation by name (Lamon's proportional reasoning, Lobato & Ellis on ratios, or Empson on ratio-as-multiplicative-comparison).",
+      "required_fix": "In action.steps, insert a Step 1.5 strategy-invention move: 'Pose 1:2 scaling to 5 cups flour with NO method shown. Ask pairs to find the milk amount any way they choose. Collect strategies on chart paper: (a) repeated addition 2+2+2+2+2=10; (b) skip-counting by 2s five times; (c) multiplication 5×2=10; (d) ratio table. Compare: which is fastest? Which always works? Lead to multiplication as the efficient strategy.' Also add to expanded_walkthrough.rationale a research citation: 'Lamon (2007) and Lobato & Ellis (2010) identify the additive scale-up error as the dominant misconception in early proportional reasoning.'",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong final-day capstone with solid alignment and tight lesson-worksheet consistency, but four categories sit at Level 3 and miss Level 4. The expanded_walkthrough names a real misconception (additive scale-up) but lacks research citation and branched recovery; instructional_balance has no zero-materials fallback; Maya needs a quotable refrain; and the lesson hands students the ratio-table strategy instead of letting them invent and compare strategies. All blocking issues are in the lesson (worksheet is clean) — revise_lesson."
+}

@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "overall_prep_notes": "Total prep ~2.5 hours. Bulk: M3 0-1000 Number Street (assembled from letter pages), M4 Compare Cards (24), M5 Rounding Jump Cards (24), M9 Equivalence Pizza Cards. Base-ten blocks (M1) and fraction strips (M7) are standard math-kit items. The three character puppets (Frankie, Penny, Sammy) print on cardstock for years of reuse.",
+  "assets": [
+    {
+      "asset_id": "M1_base_ten_blocks_1000",
+      "name": "Base-Ten Blocks",
+      "category": "manipulative",
+      "purpose": "Per-pair set: 2 thousand-cubes + 8 hundred-flats + 20 ten-rods + 30 unit-cubes.",
+      "page_layout": "Not printable — physical blocks from the math kit.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_BASE_TEN_LABEL",
+          "description": "Storage-bag label, ~3in × 4in, B&W line-art. Shows a thousand-cube, hundred-flat, ten-rod, and unit-cube stacked, with header 'BASE-TEN BLOCKS — 2 thousands + 8 hundreds + 20 tens + 30 ones per pair'.",
+          "placement": "Top-centre.",
+          "approximate_size": "small",
+          "keywords": [
+            "base-ten",
+            "blocks"
+          ],
+          "text_image_alignment_check": "Image M1_BASE_TEN_LABEL: keywords (base-ten, blocks) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Confirm class set of base-ten blocks (incl. thousand-cubes).",
+        "Print storage labels.",
+        "Sort into per-pair bags.",
+        "Have ready for Lessons 1 and 2.",
+        "Optional: printable thousand-cube cards if not in stock."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "Per pair = 2 thousand + 8 flats + 20 tens + 30 ones; ~10 sets for class of 20.",
+      "used_in_lessons": [
+        1,
+        2
+      ]
+    },
+    {
+      "asset_id": "M2_place_value_mat_th",
+      "name": "Place-Value Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat with 4 labeled columns: THOUSANDS, HUNDREDS, TENS, ONES.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_PV_MAT_TH",
+          "description": "Place-value mat in B&W line-art on a landscape letter page. Four columns left to right: THOUSANDS (with thousand-cube icon), HUNDREDS (flat icon), TENS (rod icon), ONES (cube icon). Each column ~2.5in × 7in. Thin black borders.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "mat",
+            "columns"
+          ],
+          "text_image_alignment_check": "Image M2_PV_MAT_TH: keywords (mat, columns) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per child.",
+        "Laminate.",
+        "Hand out start of Lesson 1.",
+        "Collect end of Lesson 2.",
+        "Optional: extras for emerging-learner small group."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 mat per child = 20+ for a class of 20.",
+      "used_in_lessons": [
+        1,
+        2
+      ]
+    },
+    {
+      "asset_id": "M3_number_street_1000",
+      "name": "Number Street 0-1000",
+      "category": "manipulative",
+      "purpose": "Long printable strip showing 0 to 1000 with a cell every 50.",
+      "page_layout": "11 letter pages, landscape. Each page holds 2 cells (every 100).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 11,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_STREET_PAGE",
+          "description": "A 2-cell horizontal Number Street tile in B&W line-art on a landscape letter page. Each cell ~5in × 4in with the multiple-of-50 numeral centred. Cells border each other so multiple pages tile seamlessly.",
+          "placement": "Repeated 11 times to cover 0-1000.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "number-street",
+            "cells"
+          ],
+          "text_image_alignment_check": "Image M3_STREET_PAGE: keywords (number-street, cells) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 11 pages on cardstock.",
+        "Laminate each.",
+        "Tape together to make a continuous strip.",
+        "Lay on the carpet for Lessons 2 and 3.",
+        "Roll up after."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 strip for the class.",
+      "used_in_lessons": [
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M4_compare_cards_th",
+      "name": "Compare Cards (to 1000)",
+      "category": "manipulative",
+      "purpose": "Set of 24 number-pair cards for Lesson 2 partner game.",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_COMPARE_CARD",
+          "description": "Compare card in B&W line-art, ~3in × 4in. Two number boxes (e.g., 347 and 374) with a '?' bubble between, plus 'Which is bigger? Why?' below. Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "compare",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M4_COMPARE_CARD: keywords (compare, card) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort by type (same-hundreds, cross-hundred, cross-thousand).",
+        "Distribute 8 per pair."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M5_rounding_jumps",
+      "name": "Rounding Jump Cards",
+      "category": "manipulative",
+      "purpose": "Set of 24 cards each with a number and a 'round to' label (10 or 100).",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_ROUNDING_CARD",
+          "description": "Rounding card in B&W line-art, ~3in × 4in. Top: a number (e.g., 47 or 132). Below: 'Round to nearest [10 or 100]'. Bottom: a small number-line scaffold. Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "rounding",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M5_ROUNDING_CARD: keywords (rounding, card) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort 12 nearest-10 + 12 nearest-100.",
+        "Distribute per station."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        3
+      ]
+    },
+    {
+      "asset_id": "M6_paper_treats_20",
+      "name": "Paper Treats (20 per group)",
+      "category": "manipulative",
+      "purpose": "Set of 20 paper treat tokens per group for Lesson 4 fair-share.",
+      "page_layout": "2 letter pages, portrait. 10 treats per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_TREAT_TOKEN",
+          "description": "A paper treat token in B&W line-art, ~2in tall. Round shape with simple decoration. Repeated 20 times across 2 pages.",
+          "placement": "10 per page in 2x5 grid.",
+          "approximate_size": "small",
+          "keywords": [
+            "treat",
+            "token"
+          ],
+          "text_image_alignment_check": "Image M6_TREAT_TOKEN: keywords (treat, token) name what the token shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock per group.",
+        "Laminate.",
+        "Cut into 20 tokens.",
+        "Sort into per-group bags.",
+        "Refresh annually."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "20 per group = ~5 sets for class of 20.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M7_fraction_strips",
+      "name": "Fraction Strips",
+      "category": "manipulative",
+      "purpose": "Per-pair set of 7 fraction strips: 1 whole, 1/2, 1/3, 1/4, 1/5, 1/6, 1/8, 1/10 (8 total).",
+      "page_layout": "Single letter page, landscape — 8 strips stacked.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_FRACTION_STRIPS",
+          "description": "Eight fraction strips stacked in B&W line-art on a landscape letter page. Each strip ~10in × 0.7in. Top: WHOLE strip (no divisions). Below: 1/2 strip (1 division), 1/3 (2 divisions making 3 thirds), 1/4 (3 divisions), 1/5 (4 divisions), 1/6 (5 divisions), 1/8 (7 divisions), 1/10 (9 divisions). Each strip labeled with its fraction.",
+          "placement": "Stacked, full-width.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "fraction",
+            "strips"
+          ],
+          "text_image_alignment_check": "Image M7_FRACTION_STRIPS: keywords (fraction, strips) name what the strips show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per pair.",
+        "Laminate.",
+        "Cut into 8 strips per pair.",
+        "Distribute at start of Lesson 5.",
+        "Store in folders."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "8 strips per pair = 80 for a class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_share_plates_10",
+      "name": "Sharing Paper Plates",
+      "category": "manipulative",
+      "purpose": "Set of 10 paper plates per group for Lesson 4.",
+      "page_layout": "Not printable — real disposable plates.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_PLATES_LABEL",
+          "description": "Storage-bag label, ~3in × 4in, B&W line-art. Shows a stack of 5 plates with header 'SHARING PLATES — 10 per group'.",
+          "placement": "Top-centre.",
+          "approximate_size": "small",
+          "keywords": [
+            "plates",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M8_PLATES_LABEL: keywords (plates, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Buy disposable plates.",
+        "Print labels.",
+        "Sort into per-group sets.",
+        "Have ready Lesson 4.",
+        "Reuse if clean."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "10 per group = ~50 for class of 20.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M9_equivalence_pizzas",
+      "name": "Equivalence Pizza Cards",
+      "category": "manipulative",
+      "purpose": "Same-size pizza cards divided into halves, thirds, fourths, fifths, sixths, eighths, tenths.",
+      "page_layout": "4 letter pages, portrait. 2 pizzas per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_PIZZA_CARD",
+          "description": "Pizza card in B&W line-art, ~5in diameter. Each card has a circular pizza divided into N equal sectors (N = 2, 3, 4, 5, 6, 8, 10). Plus 1 whole-pizza card. All same diameter so overlays work for equivalence comparisons.",
+          "placement": "2 pizzas per page.",
+          "approximate_size": "large",
+          "keywords": [
+            "pizza"
+          ],
+          "text_image_alignment_check": "Image M9_PIZZA_CARD: keywords (pizza) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock per group.",
+        "Laminate.",
+        "Cut into individual pizzas.",
+        "Sort by denominator.",
+        "Distribute one set per group."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 set per group = ~5 sets for class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_street_poster",
+      "name": "Fraction Street Anchor Poster",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor showing the street with 5 houses (one per lesson concept).",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_STREET_POSTER",
+          "description": "Fraction Street anchor poster in B&W line-art, ~17in × 22in. Shows a row of 5 houses representing the 5 lessons: House 1000 (place value), Compare House (with > and <), Rounding House, Sharing House (with paper plates), Fraction House (with pizzas). Frankie, Penny, and Sammy walk down the street.",
+          "placement": "Centre, full-width.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "street",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_STREET_POSTER: keywords (street, poster) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to front wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use next year."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_frankie_puppet",
+      "name": "Frankie the Fraction Friend",
+      "category": "character_puppet",
+      "purpose": "Printable Frankie illustration on a popsicle stick — the unit's lead character.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_FRANKIE_FRONT",
+          "description": "Frankie the Fraction Friend illustration in B&W line-art: a tween with a striped shirt with a half-fraction symbol, a baker's apron with paint splatters, short hair, eager smile, holding a paper pizza. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "frankie"
+          ],
+          "text_image_alignment_check": "Image CHAR_FRANKIE_FRONT: keywords (frankie) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut around silhouette.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_penny_puppet",
+      "name": "Penny the Place Value Pal",
+      "category": "character_puppet",
+      "purpose": "Printable Penny illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_PENNY_FRONT",
+          "description": "Penny the Place Value Pal illustration in B&W line-art: organised-looking with eyeglasses, carrying a notebook with column dividers labeled 'Th H T O', a vest with little base-ten block patches. Calm methodical expression. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "penny"
+          ],
+          "text_image_alignment_check": "Image CHAR_PENNY_FRONT: keywords (penny) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "char_sammy_puppet",
+      "name": "Sammy the Sharer",
+      "category": "character_puppet",
+      "purpose": "Printable Sammy illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_SAMMY_FRONT",
+          "description": "Sammy the Sharer illustration in B&W line-art: a cheerful character with a small chef's hat, a vest pocket full of paper plates, holding a serving tray. Friendly, fair-minded expression. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "sammy"
+          ],
+          "text_image_alignment_check": "Image CHAR_SAMMY_FRONT: keywords (sammy) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        4
+      ]
+    }
+  ]
+}

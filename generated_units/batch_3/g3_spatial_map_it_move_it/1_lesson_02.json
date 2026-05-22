@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "lesson_number": 2,
+  "lesson_title": "Compose and Decompose",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Bigger structures are MADE OF smaller 2D shapes and 3D objects.",
+  "learning_intention": "We are learning to compose and decompose a structure into its parts.",
+  "student_learning_goal": "I can compose and decompose a structure into its parts.",
+  "success_criteria": [
+    "I can BUILD a structure from 3D parts.",
+    "I can NAME the parts I used.",
+    "I can DECOMPOSE a structure I see.",
+    "I can FIND 2D shapes inside 3D parts."
+  ],
+  "vocabulary_introduced": [
+    "compose",
+    "decompose"
+  ],
+  "vocabulary_reinforced": [
+    "face",
+    "edge",
+    "vertex",
+    "prism",
+    "pyramid"
+  ],
+  "manipulatives_used": [
+    "M1_solids_set",
+    "M3_structure_set",
+    "M7_geometry_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Trekker Tig and Compass Coco — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Compose-Decompose'",
+    "Solid Cards (1 set per pair)",
+    "Structure Cards (12)",
+    "Lesson 2 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Trekker Tig's Tower Build",
+    "hook": "Trekker Tig: Watch me COMPOSE a tower from 3 parts. Then DECOMPOSE — what's inside? Coco opens: 'BUILD it BIG, BREAK it small — both ways are MATH!'",
+    "teacher_script": "Bring children to the carpet. Trekker Tig with backpack and 3 paper solid cards. 'Geometers — today we COMPOSE (build) and DECOMPOSE (break) structures.'\n\nDefine. 'COMPOSE = put together. DECOMPOSE = take apart.'\n\nDemo. 'I'll BUILD a tower from 3 cards: cube on bottom, rectangular prism in middle, square pyramid on top.'\n\nStack them. 'My tower COMPOSES 3 parts: cube, prism, pyramid.'\n\nNow flip. 'I'll DECOMPOSE this tower I see.' Show a structure card with a stacked cube + cylinder. 'I see: 1 cube and 1 cylinder.'\n\n'Trekker Tig says — every STRUCTURE is made of named SOLIDS.'\n\nNow zoom in. 'Each 3D solid is also made of 2D faces. The cube has 6 SQUARE faces. The pyramid has 1 SQUARE base + 4 TRIANGLE sides.'\n\n'Trekker Tig says — 3D objects are MADE OF 2D shapes!'\n\nDemo a second structure. 'A house: rectangular prism (body) + square pyramid (roof).'\n\nNow each pair gets 4 Solid Cards. They COMPOSE 2 structures (e.g., 'tower of 3' and 'house of 2'). Then they get 4 Structure Cards to DECOMPOSE.\n\n'Trekker Tig says — building and breaking are TWO sides of the same coin.'",
+    "student_actions": [
+      "Watch Tig demo",
+      "Echo compose/decompose",
+      "Build 2 structures from 4 cards",
+      "Identify parts in 4 structure cards"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Compose 4 + Decompose 4",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Solid Cards + Structure Cards. Pairs compose 4 structures.",
+        "teacher_prompt": "Say: 'Compose 4.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Pairs decompose 4 structure cards: list the parts.",
+        "teacher_prompt": "Say: 'Decompose 4.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: identify 2D shapes inside one 3D part.",
+        "teacher_prompt": "Say: 'Stretch: 2D inside 3D.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with naming — point at chart.",
+        "teacher_prompt": "Show: chart names."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE 'Two ways to build it': Pairs compose the SAME target structure two different ways (e.g., 4-cube tower vs 4-cube L-shape both = 4 cubes). Class compares. Cite Battista (2007) spatial structuring.",
+        "teacher_prompt": "Coco: 'Same blocks, different shapes. The MATH counts BOTH as valid.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Compose only with 2 parts.",
+      "for_extending": "Compose with 5 parts.",
+      "for_ell_or_iep": "Picture cards beside named solids.",
+      "for_movement_learners": "Build with real classroom objects. NO-MATERIALS VERSION: children compose structures using their own bodies and classroom objects (book stack = rectangular prism). Body becomes the construction set."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: composes; decomposes; names parts; finds 2D inside 3D; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Composes",
+        "Decomposes",
+        "Names parts",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Trekker Tig's Build Brag",
+    "discussion_prompts": [
+      "What's COMPOSE?",
+      "What's DECOMPOSE?",
+      "Name 2 parts in a 'house' structure.",
+      "What 2D shape is in a CYLINDER?"
+    ],
+    "exit_routine": "Coco's compose refrain — 'Coco says: BUILD it BIG, BREAK it small — both ways are MATH!' (3x). Each child shows one structure decomposed into its parts."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Compose tracker.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures E1.2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child names ONE part of a multi-part structure — repairing the partial-decompose trap at Grade 3",
+    "rationale": "On compose/decompose, the Grade-3 trap is partial-decompose: child decomposes top-half but leaves bottom intact. Battista (2007) on spatial structuring + Sarama & Clements (2009) on composition trajectories frame this.\n\nYesterday Tig sorted solids. Today we BUILD and BREAK with them. Lesson 3 congruent faces; Lesson 4 map+move; Lesson 5 capstones.",
+    "setup": "Decompose activity. Child sees a tower (cube + prism + pyramid) and writes only 'cube'.",
+    "teacher_script": "Crouch. 'Trekker Tig asks — what's ABOVE the cube? What's on TOP?'\n\nGuide. 'Look at the WHOLE structure. Bottom to top. What do you see?'\n\nGeneralise. 'Trekker Tig says — DECOMPOSE means name EVERY part, not just the easy one.'\n\nIf still partial: trace the structure with finger. 'Here's part 1, part 2, part 3 — name each.'",
+    "expected_student_responses": [
+      "(Confused) One part.",
+      "(Mid) Two parts with prompts.",
+      "(Strong) All parts named.",
+      "(Stretched) Names parts AND 2D faces."
+    ],
+    "common_misconceptions": [
+      "Decompose = 1 thing. (Repair: name every part.)",
+      "Only big parts count. (Repair: small parts too.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child partial-decomposes: drill 'EVERY part comes apart'; physical demo with full disassembly.",
+      "DIAGNOSTIC B — child decomposes correctly but cannot recompose: force 'put them back EXACTLY as found' as a check.",
+      "DIAGNOSTIC C — child can do both but cannot articulate: force the sentence frame 'I broke ___ into ___ pieces.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tig's Build and Break",
+    "purpose": "Independent practice of E1.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Decompose 4 structures: list parts.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Compose 2 structures: draw or write the parts used.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Find 2D shapes inside 1 named 3D solid.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Trekker Tig and Compass Coco in worksheet header",
+      "4 structure icons for Part 1",
+      "Compose workspace for Part 2",
+      "Cylinder cross-section for Part 3"
+    ]
+  }
+}

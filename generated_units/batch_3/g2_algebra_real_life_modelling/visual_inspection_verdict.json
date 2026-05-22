@@ -1,0 +1,14 @@
+{
+  "unit_id": "g2_algebra_real_life_modelling",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch3",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 18, "description": "Modelling Cycle Chart shows only 4 boxes (ASK, COLLECT, SHOW, REFLECT) while unit references '5-step cycle' (SITUATION step missing from visual)."},
+    {"page": 19, "description": "M8 Town Number Line described as '0 to 100' but renders only 0-30."},
+    {"page": 22, "description": "M9 Mayor's Modelling Anchor renders as 'Mayor's Question Chart' bullets rather than full modelling cycle."},
+    {"page": 24, "description": "Mayor Mira character puppet labeled 'Mira the Map Monkey' — inconsistent with lesson script naming ('Mayor Mira')."}
+  ],
+  "summary": "PASS. All 5 worksheet pages now use new format (title + Learning Goal + Instructions + workspace). Previous R21 'Read prompt' stub on Ws03 fully resolved. Several minor manipulative description mismatches (number line range, cycle step count) flagged as cosmetic."
+}

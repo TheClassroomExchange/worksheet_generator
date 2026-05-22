@@ -1,0 +1,13 @@
+{
+  "unit_id": "g2_financial_tap_to_pay",
+  "status": "pass",
+  "inspected_at": "2026-05-11T00:00:00Z",
+  "inspected_by": "claude-visual-inspector-r23-final",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 3, "description": "Lesson 1 Minds-On paragraph still runs close to the '2. Action' heading without an obvious blank-line separator — tight but readable, not overlapping (per R23 tolerance)."},
+    {"page": 21, "description": "M9 Item Price Cards mix ¢ notation and $X notation — acceptable."},
+    {"page": 23, "description": "Tappy the Toonie Frog puppet art still lacks distinct frog visual cues (generic round mascot) — cosmetic."}
+  ],
+  "summary": "F21 fix verified: Big Tap-to-Pay worksheet (Ws05, page 12) now correctly renders '$150 Budget' as the workspace title and 'Stay within $150.' as the subtitle. No remaining '$1.50' occurrences anywhere in the unit. All 27 pages render cleanly."
+}

@@ -1,0 +1,13 @@
+{
+  "unit_id": "g3_spatial_map_it_move_it",
+  "status": "pass",
+  "inspected_at": "2026-05-10T20:30:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch5",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 16, "description": "M2 'Faces-Edges-Vertices Chart' renders 8 2D shapes labeled '2D Shapes' instead of 3D solids (R20-flagged; known deferred per R22 instructions)."},
+    {"page": 18, "description": "M4 Congruent Face Match Cards shows 2D shapes (related drift)."},
+    {"page": 25, "description": "4-row rubric (E1.1-E1.4) all rows present; E1.4 trails to page bottom with all 4 Level cells visible — within R22 tolerance."}
+  ],
+  "summary": "PASS. Worksheet composer rewrite landed: pages 8-12 now hero layout (title + learning goal + instructions + content) with no debug stubs. 4-row rubric (E1.1-E1.4) all rows visible. Trekker Tig and Compass Coco puppet art render correctly. M2 2D-shapes drift remains a known deferred minor note."
+}

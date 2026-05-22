@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "lesson_number": 4,
+  "lesson_title": "Compare and Order",
+  "duration_minutes": 45,
+  "primary_expectations": [
+    "B1.3"
+  ],
+  "secondary_expectations": [
+    "B1.1"
+  ],
+  "big_idea": "Compare numbers by tens first, then ones. Order them on the number line.",
+  "learning_intention": "We are learning to compare two numbers up to 50 and order a small set from smallest to biggest.",
+  "student_learning_goal": "I can compare two numbers up to 50 and order a small set from smallest to biggest.",
+  "success_criteria": [
+    "I can decide which of two numbers is bigger using their tens.",
+    "I can order three numbers from smallest to biggest.",
+    "I can place a number on the Number Line floor mat."
+  ],
+  "vocabulary_introduced": [
+    "compare",
+    "order",
+    "greater than",
+    "less than"
+  ],
+  "vocabulary_reinforced": [
+    "tens and ones",
+    "represent"
+  ],
+  "manipulatives_used": [
+    "M1_button_set",
+    "M2_estimation_jar",
+    "M4_number_line_floor"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart 'Compare with Tens First' showing 3 example pairs (12 vs 21, 35 vs 38, 47 vs 50)",
+    "OPTIONAL: Lila and Otto — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Two estimation jars filled with 31 and 38 buttons each (clearly different)",
+    "Number Line floor mat (0 to 50) unrolled",
+    "Sticky-note number cards 0-50 for the floor ordering activity",
+    "Lesson 4 formative tracker (Compare + Order) — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Whose Jar Has More?",
+    "hook": "Lila has a jar of 31 buttons. Otto has a jar of 38. Whose jar has more? Scoot lines up with Otto: 'Compare? I LOVE compare! Tens first!'",
+    "teacher_script": "Bring children to the carpet. Hold up two jars side by side — one Lila's (31 buttons), one Otto's (38 buttons).\n\n'Friends — Lila and Otto each brought a jar of buttons. Which jar has MORE? Look without counting.' Take responses. Children may guess based on visual fullness; some will be right by luck.\n\n'Now let's count.' Tip Lila's jar onto a tray; count by 5s: 5, 10, 15, 20, 25, 30, 31. Write '31 = LILA'. Tip Otto's: 5, 10, 15, 20, 25, 30, 35, 36, 37, 38. Write '38 = OTTO'.\n\n'How do we KNOW 38 is bigger than 31?' Take responses. Lead them: 'Both numbers have 3 tens. So we look at the ONES. 31 has 1 one, 38 has 8 ones. 8 > 1. So 38 is bigger.' Write the comparison: 38 > 31. Read it: 'thirty-eight is GREATER THAN thirty-one'.\n\n'Today we're going to be comparison experts. We'll look at the TENS first, then the ONES, and we'll order numbers from smallest to biggest on the Number Line.'",
+    "student_actions": [
+      "Look at the two jars without speaking.",
+      "Help count each jar aloud as a class.",
+      "Read the comparison '38 > 31' aloud.",
+      "Repeat the words 'compare', 'greater than', 'less than'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 22,
+    "activity_name": "Number Line Ordering + Compare-the-Jar",
+    "structure": "whole_group_then_partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole-class activity on the floor mat. Hand each child a sticky-note with a number 0-50. Children walk to the spot on the Number Line where their number goes. As a class, check: are everyone's numbers in order from smallest to biggest?",
+        "teacher_prompt": "Say to students: 'You have a number on a sticky-note. Walk to where your number goes on our Number Line. The smallest number goes at this end, the biggest at the other end.' Watch for children who place their number wrong; coach them through the tens-first rule."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Introduce the 'tricky compare' rule: when two numbers have the SAME tens digit, look at the ones. Use 35 vs 38: both have 3 tens. Compare the ones: 5 < 8, so 35 < 38. Use 47 vs 41: both have 4 tens. Compare ones: 7 > 1, so 47 > 41.",
+        "teacher_prompt": "Say to students: 'When the tens are the SAME, we look at the ones. Same tens? Look at ones. Different tens? Bigger tens wins.' Add to the anchor chart with arrows."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Send pairs to Compare-the-Jar partner stations. Each station has 4 jars with different button counts (e.g. 23, 31, 28, 35). Pairs sort the jars from smallest to biggest. Then write the order using > symbols.",
+        "teacher_prompt": "Say to students: 'You and your partner have 4 jars. Sort them from smallest to biggest. Write the order using GREATER THAN symbols (>): biggest > next > next > smallest.' Walk around. Watch for tens-first reasoning vs guessing."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch round: at one station, 4 jars have CLOSE numbers (37, 38, 41, 42). Pairs must look very carefully. Pairs explain how they decided.",
+        "teacher_prompt": "Say to students: 'These four jars have close numbers. You'll need to look at the tens first, then the ones. Tell your partner WHY you put each jar where you did.' Listen for the 'tens, then ones' reasoning."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence. Watch for: tens-first reasoning, accurate comparisons, ability to use > and < correctly.",
+        "teacher_prompt": "Stop at each pair. Show them a new pair: '47 vs 39'. Ask them to compare. Record their reasoning."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "These children focus on Compare-the-Jar with 2 jars only (not 4) and stay at 0-30 range. The 'tens-first' rule is the focus; ordering of more than 2 numbers comes later.",
+      "for_extending": "Stretch cards: 'Order 5 numbers from 30 to 50 from smallest to biggest' or 'Compare 47 vs 7 — which has more tens?' Stays inside B1.3 with stretch into number-magnitude reasoning.",
+      "for_ell_or_iep": "Provide a comparison-symbol reference card showing > and < as 'greater than' and 'less than' with example sentences. Allow physical demonstration with two stacks of cubes (taller stack > shorter stack).",
+      "for_movement_learners": "Number Line floor walk gets extended: pairs walk together holding their sticky-note number to find the right spot. The body movement reinforces the ordering."
+    },
+    "formative_check": {
+      "what_to_look_for": "Does the child use the tens-first rule, or compare ones digits even when tens are different? Can they articulate why one number is bigger? Can they place numbers in correct order?",
+      "how_to_record": "Tick the tracker per child. The 'uses tens-first reasoning' column captures B1.3 mastery.",
+      "tracker_columns": [
+        "Student name",
+        "Compares two-digit numbers correctly",
+        "Uses tens-first reasoning",
+        "Orders 3+ numbers smallest to biggest",
+        "Uses > and < symbols correctly",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Number Line Walk-Out",
+    "discussion_prompts": [
+      "What's the rule for comparing two numbers? Which do we look at first?",
+      "Are 38 and 41 close on the Number Line, or far apart? How do you know?",
+      "If I had 50 marbles and you had 35, who has more? How many more?",
+      "Outside school, when do you compare numbers? (Prices, ages, time, etc.)"
+    ],
+    "exit_routine": "Each child holds up their sticky-note number from the floor walk. The class chants 'smallest to biggest!' and children re-arrange themselves in line at the door. Quick verification: are we in order? Scoot's compare cheer: 'Tens first — ones second — Scoot says SOLVED!'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Compare + Order tracker for B1.3 (per-child observation across the activities). Worksheet 'Order the Number Friends' for paper evidence.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "B1.3 has two subskills: COMPARE two numbers AND ORDER multiple numbers. The tracker captures both. The 'tens-first reasoning' column is the deepest signal — children who can order without articulating the rule have the procedure but not the concept."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child compares ones-first — repairing place-value-aware comparison for B1.3",
+    "rationale": "The most common Grade-1 trap on B1.3 is the child who compares 47 vs 39 by looking at the ones digits first: 7 > 9 so 47 > 39 (lucky right answer); but for 21 vs 38, ones-first gives 1 < 8 so 21 < 38 (also right by coincidence); but for 41 vs 38, ones-first gives 1 < 8 so 41 < 38 (WRONG). The ones-first habit gets right answers about half the time at small scales, so it's hard to detect without the right test pairs. Step 4 (close-numbers stretch round) is the diagnostic. The script below covers what to say when the child says '41 < 38'.",
+    "setup": "Pair is at the stretch round with jars of 37, 38, 41, 42. They've ordered them 37, 38, 41, 42. The teacher checks: 'How did you compare 41 and 38?' The child says: '41 has a 1 in the ones. 38 has an 8. 1 is smaller, so 41 is smaller. So 38 > 41.' Wait — the child had it right in the ordering but their reasoning is wrong. The ordering coincidence happened because 41 IS bigger, but their reasoning is broken.",
+    "teacher_script": "Crouch beside the child. 'Hmm — let me check. You said 41 < 38 because 1 < 8. But your line shows 41 AFTER 38. Let me ask: which is BIGGER, 41 or 38?' The child looks at the line, gets confused. Some say 38 (sticking with their rule), some say 41 (looking at the line).\n\n'Let's check with our base-ten rods.' Pull out 4 ten-rods + 1 one for 41, and 3 ten-rods + 8 ones for 38. Place them side by side. 'Which pile has MORE rods?' (41 has 4 rods.) 'Which pile has MORE ones?' (38 has 8 ones.) 'But which pile is BIGGER overall?' Wait. The child counts: 41 vs 38. (41.) 'Right — 41 is bigger. WHY?'\n\nIf they say 'because it has more rods', YES! Affirm. 'Tens are bigger than ones. ALWAYS look at the TENS first. 41 has 4 tens; 38 has 3 tens. 4 > 3. So 41 > 38. We don't even need to look at the ones because the tens already told us.'\n\nRedo two more pairs: '47 vs 32' (4 > 3, 47 > 32). '23 vs 28' (same tens — 2 each — so look at ones: 8 > 3, 28 > 23). The tens-first rule covers the WHOLE comparison space.\n\nIf the child still flips back to ones-first: send them home with a parent note encouraging them to compare household pairs (sibling ages, prices at a store) using the tens-first rule. The habit only sticks with practice across contexts.\n\nLong-term recovery: the Number Line floor mat is the visual anchor. Numbers further right on the mat are always bigger. Children who internalise this position-on-the-line concept don't fall back to ones-first reasoning.",
+    "expected_student_responses": [
+      "(Confused) Compares ones first, gets right answers by coincidence. Reasoning is broken even when the answer is right.",
+      "(Mid) After the rod demo, uses tens-first on the next pair but reverts to ones-first on the third (especially when the ones digit is dramatically different).",
+      "(Strong) Articulates 'tens first, then ones if tens are the same'. Applies the rule consistently.",
+      "(Stretched) Volunteers: 'I bet I could compare 100 and 99 — same tens? No, different tens! 10 vs 9, so 100 > 99.' Has generalised the rule beyond two-digit numbers."
+    ],
+    "common_misconceptions": [
+      "The bigger number has the bigger ones digit. (Wrong half the time. Repair: tens-first rule.)",
+      "Numbers with more digits are always bigger. (True for two-digit vs one-digit, but children sometimes overgeneralise. Repair: comparison only meaningful within the same digit-count for K-G1.)",
+      "Equal numbers can't be compared. (Some children freeze on 38 vs 38. Repair: 'they're EQUAL — same number. We can write 38 = 38.')"
+    ],
+    "recovery_moves": [
+      "Always anchor to the base-ten rods. Side-by-side rod comparison is the physical proof of tens-first.",
+      "Use the Number Line floor mat as a visual anchor. Right of left = bigger. Always.",
+      "Practice with same-tens pairs explicitly. Pairs like 35 vs 38 or 21 vs 27 force the child to look at ones AFTER tens; this builds the two-step habit."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Compare and Order",
+    "purpose": "Independent practice of B1.3 — comparing two-digit numbers up to 50 and ordering small sets.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Six comparison pairs. The child writes >, <, or = between each pair. Pairs include same-tens (32 vs 38) and different-tens (47 vs 23) cases.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Two ordering tasks. Task A: order 4 numbers (15, 32, 8, 25) from smallest to biggest. Task B: order 5 numbers (47, 30, 41, 35, 50) from biggest to smallest.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: 'Pick THREE numbers between 20 and 50. Order them. Write a sentence explaining HOW you decided which was biggest.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lila puppet thumbnail in the worksheet header",
+      "Number Line strip 0-50 for Part 2",
+      "Two estimation jars side-by-side for Part 1 visual",
+      "Scoot the puppy mascot icon in a corner"
+    ]
+  }
+}

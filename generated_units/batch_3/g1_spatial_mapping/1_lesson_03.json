@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 3,
+  "lesson_title": "Matching Halves",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "A shape with MATCHING HALVES has a line of SYMMETRY. Each half is a MIRROR of the other.",
+  "learning_intention": "We are learning to make shapes with matching halves.",
+  "student_learning_goal": "I can make shapes with matching halves.",
+  "success_criteria": [
+    "I can FOLD a shape and check if halves match.",
+    "I can DRAW a line of symmetry.",
+    "I can MAKE a shape with matching halves."
+  ],
+  "vocabulary_introduced": [
+    "halves",
+    "matching halves"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M3_symmetry_set",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Tig and Coco — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Matching Halves'",
+    "Symmetry Shape Set (16 per pair)",
+    "Square paper for fold-and-cut",
+    "Lesson 3 symmetry tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coco Folds the Maple Leaf",
+    "hook": "Coco: I FOLDED a maple leaf. Look — both halves MATCH! It has a line of SYMMETRY.",
+    "teacher_script": "Bring children to the carpet. Tig and Coco puppets. 'Friends — yesterday we built. Today we look at MATCHING HALVES.'\n\nIntroduce vocabulary. Write HALVES and MATCHING HALVES on chart. 'Halves = two equal parts. Matching halves = two halves that LOOK THE SAME — like mirror twins.'\n\nDemonstrate. Hold up a paper square. Fold in half down the middle. 'See — both halves MATCH. They are MIRROR images.'\n\nNow show a circle. Fold any line through the centre. 'Match!'\n\nNow a Canadian maple leaf. Fold down the centre. 'Match! The maple leaf has matching halves.'\n\nNon-example. Hold up a letter L. Fold any way. 'NO MATCH. The L doesn't have matching halves.'\n\nMore examples:\n- Heart: matching halves (down the middle).\n- Star (5-point): matching halves (vertical line).\n- Letter A: matching halves (vertical).\n- Letter B: matching halves (horizontal).\n- Letter F: NO matching halves.\n\nDraw on chart: a square with a vertical fold line + 'matching halves' label. A circle with any line + 'matching halves'. A rectangle with horizontal or vertical line.\n\n'Coco says — fold the shape. If the halves overlap perfectly, MATCHING. If not, NO match.'\n\n'Today we fold and find matching halves.'",
+    "student_actions": [
+      "Watch Coco fold shapes.",
+      "Echo new vocabulary: 'halves', 'matching halves'.",
+      "Identify shapes with matching halves.",
+      "Practice folding."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Symmetry Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: fold 4 shapes. (a) circle. (b) square. (c) maple leaf. (d) letter F.",
+        "teacher_prompt": "Say: 'Match or no match?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Fold and Find — fold 8 paper shapes. Station B: Find the Line — draw the line of symmetry on 6 shapes. Station C: Make Your Own — fold and cut paper to make a matching-halves shape.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: make a shape with TWO lines of symmetry (like a square or rectangle).",
+        "teacher_prompt": "Say: 'Stretch: 2 lines.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the fold test. 'Fold any line. If halves match perfectly, the shape HAS matching halves on that line.'",
+        "teacher_prompt": "Demonstrate again with a heart shape."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the symmetry tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Match or no match?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just fold and check.",
+      "for_extending": "Stretch at Station C: 2 lines of symmetry.",
+      "for_ell_or_iep": "Provide a sentence frame: 'This shape ___ matching halves.' (has / does not have)",
+      "for_movement_learners": "Children stand back-to-back as 'matching halves' demo."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: folds carefully; identifies match correctly; draws line of symmetry.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Folds carefully",
+        "Identifies match",
+        "Draws symmetry line",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coco's Symmetry Brag",
+    "discussion_prompts": [
+      "What are MATCHING HALVES?",
+      "How do we test for matching halves?",
+      "What's a Canadian shape with matching halves?",
+      "What's a shape with NO matching halves?"
+    ],
+    "exit_routine": "Each child names ONE shape with matching halves and ONE without."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Matching halves identification.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures E1.3 mastery for matching halves."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child folds the WRONG line and says NO match — repairing the wrong-fold trap at Grade 1",
+    "rationale": "The most common Grade-1 trap on E1.3 is the wrong-fold trap: the child folds a shape on a line that doesn't bisect, sees no match, concludes 'no matching halves'. They miss that there's USUALLY ONE specific line that gives matching halves.\n\nThis matters because finding the right fold line is the test. Kids may give up if they fold the wrong way first.\n\nThe walkthrough covers when a child folds wrong.",
+    "setup": "Pair is at Station A. Child has a heart shape. Folds horizontally (top to bottom) — halves don't match. Says 'no matching halves'.",
+    "teacher_script": "Crouch. 'Folded one way, no match. But Coco says — try a DIFFERENT FOLD.'\n\nGuide. 'Try folding VERTICALLY — top to bottom across the centre.' Child folds. 'See — halves match!'\n\nWalk through. 'Some shapes only have matching halves on ONE specific line. Try different folds until you find it.'\n\nGeneralise. 'Coco says — if first fold doesn't match, try ANOTHER. The line of symmetry is hiding!'\n\nNow practice. Maple leaf — fold vertically down the centre.\n\nIf still struggling: provide pre-marked dotted fold lines. 'Fold on the dot line.' Force the right line.\n\nLong-term recovery: every fold attempt tries multiple lines.",
+    "expected_student_responses": [
+      "(Confused) Folds one way, gives up after mismatch.",
+      "(Mid) Tries multiple folds with prompts.",
+      "(Strong) Independently finds the symmetry line.",
+      "(Stretched) Identifies multiple lines (square = 4 lines)."
+    ],
+    "common_misconceptions": [
+      "Any fold = symmetry test. (Repair: only the symmetry line matches.)",
+      "If first fold fails, no symmetry. (Repair: try another fold.)",
+      "Matching halves means identical decoration. (Repair: matching means mirror image of the shape itself.)"
+    ],
+    "recovery_moves": [
+      "Provide pre-marked fold lines.",
+      "Drill 'try another fold'.",
+      "Demonstrate symmetry with mirror visualization."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coco's Symmetry Page",
+    "purpose": "Independent practice of E1.3 matching halves.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Circle the shapes that have MATCHING HALVES.",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Draw a line of symmetry on 4 shapes.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Draw your OWN shape with matching halves. Show the line.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coco in worksheet header",
+      "Mixed shapes (some symmetric) for Part 1",
+      "4 shapes for line-drawing in Part 2",
+      "Blank space for Part 3"
+    ]
+  }
+}

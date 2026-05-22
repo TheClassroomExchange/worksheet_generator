@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "pair_number": 1,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use 3-zone sort.', 'Drill never, always, sometimes.', 'Show extreme examples.'] — concrete but does not branch by what the diagnostic told you, and the 'all-possible default' trap is not tied to a named research source (Bryant & Nunes likelihood research, or Fischbein's intuitive probability work).",
+      "required_fix": "Add a research citation to expanded_walkthrough.rationale (e.g., Fischbein 1975 on intuitive probability) and split recovery_moves into branches: if child can name one IMPOSSIBLE event independently, drill never/always/sometimes contrast; if child cannot, drop back to physical 3-zone body sort with extreme exemplars before reintroducing vocabulary.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = \"Each child names one of each: 'I: ___. P: ___. C: ___.'\" — functional sentence frame but Lucky has no distinctive quotable refrain children carry between lessons. Lucky's hook line ('Will I fly to the moon? IMPOSSIBLE!') never recurs as a chant, and Mae has no signature line at all.",
+      "required_fix": "Give Lucky a memorable closing chant that the whole class echoes back at the end of every lesson — e.g., Lucky: 'NEVER, ALWAYS, or SOMETIMES?' / Class: 'I, C, or P!' Wire it into consolidation.exit_routine and reference it in the teacher_script so children carry the refrain into Lessons 2-5.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson teaches likelihood vocabulary via teacher modelling and sorting; children echo and sort but never invent or compare strategies. expanded_walkthrough.common_misconceptions = ['Possible covers everything.', 'Impossible = silly.'] uses plain language, not research-grounded terms like Fischbein's intuitive probability or randomness-vs-determinism confusion.",
+      "required_fix": "Add a strategy-comparison move in action.steps: after Station C, have two children share contrasting events for the same category and class votes on which is 'most clearly POSSIBLE' with reasoning. In expanded_walkthrough.rationale, name the misconception in research terms (Fischbein 1975 on intuitive probability, or Bryant & Nunes 2012 on the development of probabilistic reasoning).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 1 (sort 6 events I/P/C) directly mirrors action.steps step 2 Station A, and Part 3 (write own I/P/C events) directly mirrors Station C — pure rote repeat with no transfer task. Worksheet does not deliberately vary practice format or introduce unfamiliar items to verify generalization.",
+      "required_fix": "Vary at least one part to test transfer rather than repeat. E.g., make Part 1 a 'Lucky vs Mae disagree' format where children must justify which character is right about a tricky event, OR add 2 unfamiliar Canadian events in Part 1 (e.g., 'Aurora borealis tonight in Ontario') and note in teacher_notes that those items verify generalization beyond the lesson exemplars.",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Solid Lesson 1 likelihood review with strong alignment (bridges forward to complementary events Day 2) and excellent instructional balance (puppets explicitly optional, body-corner movement variant, realistic 12/25/13 timing). Four categories sit at Level 3 not 4: trap lacks research citation and branching recovery; Lucky has no memorable cross-lesson refrain; no strategy-invention move and no research-grounded misconception naming; worksheet is rote repeat of stations rather than a transfer task. Fix in lesson_01 and worksheet_01 to clear the bar."
+}

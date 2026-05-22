@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "pair_number": 3,
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Overlap test.', 'Drill BOTH.', 'Compare same-size vs different-size.'] — three terse imperatives with no diagnostic branching and no research grounding for the size-blind congruence trap.",
+      "required_fix": "Branch recovery by what the diagnostic told you: (a) if the child can name 'same shape' but freezes on size, drop to a side-by-side ruler/tracing paper measure to make size visible; (b) if the child confuses 'congruent' with 'similar', name the contrast explicitly and overlap to show non-match; (c) if the child accepts any two same-named shapes, return to the cube-faces demo. Cite the research basis (e.g., Battista 2007 on spatial reasoning levels, or van Hiele Level 1 visual-only reasoning) in expanded_walkthrough.rationale.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials require 'Congruent Face Match Cards (1 set per pair)' and 'Tracing paper'; differentiation.for_ell_or_iep = 'Tracing paper to overlap.' — no no-paper, no-purchase alternative path is offered for days when prep wasn't possible.",
+      "required_fix": "Add an explicit NO-MATERIALS alternative in differentiation: e.g., 'No-paper version — children use their own two hands (palms together for congruent; one palm + one fist for not-congruent), or trace shapes from classroom objects (book covers, tile floor, window panes) and compare by laying one on top of the other. Body/voice carries the same overlap test.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale = 'Common Grade-3 trap on E1.3: child says congruent for 2 squares of different sizes' — names the trap correctly but does not cite a research-grounded framework (Battista on spatial reasoning, van Hiele levels, Clements on geometric thinking) and the lesson does not invite children to invent or compare strategies for testing congruence.",
+      "required_fix": "In expanded_walkthrough.rationale, name the misconception in research-grounded terms — e.g., 'This is a van Hiele Level 1 (visual) error: children attend to shape category but not metric attributes, a documented Grade-3 transition difficulty (Battista 2007).' Then in the action steps, add a strategy-comparison move: 'Pairs share two different ways they tested — overlap, tracing, or side-by-side measuring — and the class names which is most reliable when shapes are close in size.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "lesson_number": 5,
+  "worksheet_title": "Symmy's Mirror Maze",
+  "purpose": "Summative artifact applying E1.1-E1.5.",
+  "student_learning_goal": "I can describe positions and movements on a map.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe positions and movements on a map.",
+    "character_watermark": "Symmy and Flippy in capes in the top-right. Small (~1.5in combined). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Shapes.",
+          "student_instructions": "Count sides + lines of symmetry for 3 shapes.",
+          "visual_layout": "3 shapes with table for sides and symmetry lines.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_SHAPES",
+              "description": "3 shapes for Grade 2 capstone worksheet, B&W line art. Square, equilateral triangle, regular hexagon. Each ~1.5in. Below: table 'Shape | Sides | Symmetry'.",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "sides",
+                "symmetry"
+              ],
+              "text_image_alignment_check": "WS05_P1_SHAPES at Part 1: keywords name the attributes."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Square: 4, 4. Triangle: 3, 3. Hexagon: 6, 6."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Congruent.",
+          "student_instructions": "Match 3 pairs as congruent or NOT.",
+          "visual_layout": "3 pair rows with checkboxes.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_CONGRUENT",
+              "description": "3 pair rows for Grade 2 capstone, B&W line art. Each row: 2 shapes + checkboxes 'CONGRUENT' / 'NOT'. Pairs: same triangles, different sized squares, same rectangles (one rotated).",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "congruent",
+                "match"
+              ],
+              "text_image_alignment_check": "WS05_P2_CONGRUENT at Part 2: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Same triangles: CONGRUENT. Different squares: NOT. Same rectangles: CONGRUENT."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Maze directions.",
+          "student_instructions": "Look at the maze. Write 3 directions to navigate from START to GOAL.",
+          "visual_layout": "Maze grid + 3 numbered direction lines.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_MAZE",
+              "description": "A maze grid for Grade 2 capstone, B&W line art. ~5in × 3in. 6×4 squares. START at bottom-left with star icon. GOAL at top-right with chest icon. Path squares visible. Below: 3 numbered direction lines.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "maze",
+                "directions"
+              ],
+              "text_image_alignment_check": "WS05_P3_MAZE at Part 3: keywords name the visual elements."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid 3-direction sequence (e.g., 'forward 5, turn right, forward 3') reaching the goal."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: AREA — same tiles, two ways.",
+          "student_instructions": "Show 6 tiles rearranged two ways. Circle that the area = 6 in BOTH.",
+          "visual_layout": "Two boxes labelled 'Way 1' and 'Way 2'; below each, the prompt 'area = ___' for the child to fill in 6.",
+          "image_placeholders": [],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Both areas = 6 (same 6 tiles rearranged)."
+        },
+        {
+          "part_number": 5,
+          "part_title": "Part 5: MAP — read the map.",
+          "student_instructions": "Look at the top-down map. Circle the symbol that matches the bedroom door. Write one position-word sentence about another symbol.",
+          "visual_layout": "Small top-down bedroom map with bed, desk, door, window. Three blank lines for the position-word sentence.",
+          "image_placeholders": [],
+          "student_response_type": "write",
+          "answer_key": "Sample: 'The desk is BETWEEN the bed and the window.' Accept any valid position-word sentence."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write directions BACKWARDS (GOAL to START).",
+  "teacher_notes": "Lesson 5 capstone — summative. Score against the rubric. Look for: shape attributes (E1.1), congruence (E1.3), maze directions verb+number (E1.5). Parts added to capture E1.2 (area conservation) and E1.4 (map reading) — summative artefact now includes all 4 lesson skills."
+}

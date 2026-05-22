@@ -1,0 +1,307 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "thematic_title": "Fraction Street",
+  "descriptive_title": "Grade 3 Mathematics: Numbers — Reading, Composing, Comparing, Rounding, and Counting Numbers to 1000, plus Fair-Sharing Up to 20 Items and Equivalent Fractions (B1.1–B1.7)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "B. Numbers",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+  "curriculum_codes": [
+    "B1.1",
+    "B1.2",
+    "B1.3",
+    "B1.4",
+    "B1.5",
+    "B1.6",
+    "B1.7"
+  ],
+  "curriculum_expectations": {
+    "B1.1": "read, represent, compose, and decompose whole numbers up to and including 1000, using a variety of tools and strategies, and describe various ways they are used in everyday life",
+    "B1.2": "compare and order whole numbers up to and including 1000, in various contexts",
+    "B1.3": "round whole numbers to the nearest ten or hundred, in various contexts",
+    "B1.4": "count to 1000, including by 50s, 100s, and 200s, using a variety of tools and strategies",
+    "B1.5": "use place value when describing and representing multi-digit numbers in a variety of ways, including with base ten materials",
+    "B1.6": "use drawings to represent, solve, and compare the results of fair-share problems that involve sharing up to 20 items among 2, 3, 4, 5, 6, 8, and 10 sharers",
+    "B1.7": "represent and solve fair-share problems that focus on determining and using equivalent fractions, including problems that involve halves, fourths, and eighths; thirds and sixths; and fifths and tenths"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on Numbers framed around 'Fraction Street' — a friendly neighbourhood where Frankie the Fraction Friend, Penny the Place Value Pal, and Sammy the Sharer live and work. Day 1 'House 1000' opens with thousands place value: reading, representing, and decomposing numbers to 1000 using base-ten materials including hundred-flats, thousand-cubes, ten-rods, and unit-cubes (B1.1, B1.5). Day 2 'Compare and Order on Fraction Street' extends comparison and ordering to 1000 with skip-counting by 50s, 100s, and 200s on the long Number Street (B1.2, B1.4). Day 3 'The Rounding House' teaches rounding to the nearest 10 or 100, anchored on the number-line jump strategy (B1.3). Day 4 'Sharing Up to 20' tackles fair-share problems with collections to 20 and sharers up to 10 — including the tricky case of 18 ÷ 8 with halves (B1.6). Day 5 'Equivalent Fractions' is the capstone: the equivalence sets 1/2 = 2/4 = 4/8, 1/3 = 2/6, 1/5 = 2/10 visualised through fraction strips and pizza overlays (B1.7). The unit progresses concrete (base-ten blocks, fraction strips, paper cookies) → representational (number lines, rounding diagrams, fraction circles) → abstract (numerical comparison, fraction notation, equivalence equations).",
+  "unit_learning_goal": "Read, write, compare and order numbers up to 1000; round to nearest 10/100; share equally up to 20; understand fractions as equal parts of a whole.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "House 1000",
+      "primary_expectations": [
+        "B1.1",
+        "B1.5"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Numbers to 1000 are made of thousands, hundreds, tens, and ones. Each digit's place tells us its value.",
+      "student_learning_goal": "I can read and represent numbers to 1000 with base-ten blocks and describe each digit's place value.",
+      "one_line_summary": "Frankie introduces House 1000; whole-class base-ten thousand-cube + hundred-flats builds; place-value mat work for numbers like 347, 762, 1000."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Compare and Order on Fraction Street",
+      "primary_expectations": [
+        "B1.2",
+        "B1.4"
+      ],
+      "secondary_expectations": [
+        "B1.1"
+      ],
+      "big_idea": "To compare numbers to 1000, look at the thousands first, then hundreds, then tens, then ones. We can count to 1000 by 50s, 100s, and 200s.",
+      "student_learning_goal": "I can compare and order numbers to 1000 using place-value reasoning and count to 1000 by 50s, 100s, and 200s.",
+      "one_line_summary": "Compare-the-house pairs (347 vs 374, 562 vs 1000); 0-1000 number street walk with 50/100/200 jumps; ordering 5-card sets."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "The Rounding House",
+      "primary_expectations": [
+        "B1.3"
+      ],
+      "secondary_expectations": [
+        "B1.1"
+      ],
+      "big_idea": "Rounding tells us 'about how many'. To round to the nearest ten, we look at the ones; to round to the nearest hundred, we look at the tens. The 5-or-more rule decides.",
+      "student_learning_goal": "I can round any number to 1000 to the nearest ten or hundred and explain my reasoning.",
+      "one_line_summary": "Number-line jump strategy for rounding 47 to 50, 132 to 130 vs 200; the 5-or-more rule with explicit tie-breakers; real-life rounding (estimating crowd sizes, store prices)."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Sharing Up to 20",
+      "primary_expectations": [
+        "B1.6"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Fair-share with 20 items can use up to 10 sharers. When the sharing doesn't divide evenly, we cut into the right fraction (halves, thirds, fourths, fifths, sixths, eighths, tenths).",
+      "student_learning_goal": "I can share up to 20 items fairly between 2, 3, 4, 5, 6, 8, or 10 friends and write the result with a mixed number when needed.",
+      "one_line_summary": "Sammy's sharing rounds — 12÷4, 15÷5, 18÷6, 18÷8 (with halves); 20÷8 (with fourths); the match-fraction-to-sharers rule extended."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Equivalent Fractions",
+      "primary_expectations": [
+        "B1.7"
+      ],
+      "secondary_expectations": [
+        "B1.6"
+      ],
+      "big_idea": "Different fractions can name the same amount. 1/2 = 2/4 = 4/8 because cutting a pizza into more pieces makes each piece smaller, but the SAME amount of pizza can still be a half.",
+      "student_learning_goal": "I can show that fractions like 1/2 = 2/4 = 4/8, 1/3 = 2/6, and 1/5 = 2/10 are equivalent using fraction strips and drawings.",
+      "one_line_summary": "Fraction strip stacking — the 1/2-strip lines up perfectly with two 1/4-strips and four 1/8-strips; pizza overlays for thirds/sixths and fifths/tenths; equivalence equation writing."
+    }
+  ],
+  "expectation_lesson_map": {
+    "B1.1": [
+      1,
+      2
+    ],
+    "B1.2": [
+      2
+    ],
+    "B1.3": [
+      3
+    ],
+    "B1.4": [
+      2
+    ],
+    "B1.5": [
+      1
+    ],
+    "B1.6": [
+      4
+    ],
+    "B1.7": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Frankie the Fraction Friend",
+      "role": "Lead character of Fraction Street. Anchors Lessons 4 and 5 with fraction work, but appears as the unit's host throughout. Loves cutting pizzas and dividing things into equal pieces.",
+      "visual_description": "A friendly tween-aged character wearing a striped shirt with a fraction symbol (a half) printed on the chest, a baker's apron with paint splatters, short hair, eager smile. Often shown holding a paper pizza or fraction strip."
+    },
+    {
+      "name": "Penny the Place Value Pal",
+      "role": "Frankie's friend. Anchors Lessons 1, 2, and 3 — the number-and-place-value lessons. Specialises in base-ten and place-value reasoning.",
+      "visual_description": "An organised-looking character with eyeglasses, carrying a notebook with column dividers labeled 'Th H T O'. Wears a vest with little base-ten block patches. Calm, methodical expression."
+    },
+    {
+      "name": "Sammy the Sharer",
+      "role": "Frankie's friend. Anchors Lesson 4 with the equal-share work. Specialises in fair distribution and counts paper plates.",
+      "visual_description": "A cheerful character with a chef's hat (small, paper-style), a vest pocket full of paper plates, holding a serving tray. Friendly, fair-minded expression."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "place value",
+      "child_friendly_definition": "What a digit is worth depending on where it sits. In 347, the 3 is worth 300, the 4 is worth 40, and the 7 is worth 7."
+    },
+    {
+      "term": "thousands",
+      "child_friendly_definition": "Groups of 1000. The number 1000 has 1 thousand, 0 hundreds, 0 tens, and 0 ones."
+    },
+    {
+      "term": "round",
+      "child_friendly_definition": "To say about how many — replacing a number with the nearest ten or nearest hundred. 47 rounds to 50; 47 rounds to 100 if rounding to the nearest hundred."
+    },
+    {
+      "term": "estimate",
+      "child_friendly_definition": "A smart guess about how many. Rounding helps make estimates."
+    },
+    {
+      "term": "equivalent fractions",
+      "child_friendly_definition": "Different fractions that name the same amount. 1/2 and 2/4 are equivalent — they cover the same part of the whole."
+    },
+    {
+      "term": "mixed number",
+      "child_friendly_definition": "A number with a whole part and a fraction part. 2 1/2 is a mixed number — 2 whole pieces plus a half piece."
+    },
+    {
+      "term": "denominator",
+      "child_friendly_definition": "The number on the bottom of a fraction. It tells us how many equal pieces the whole was divided into."
+    },
+    {
+      "term": "numerator",
+      "child_friendly_definition": "The number on the top of a fraction. It tells us how many of those pieces we have."
+    },
+    {
+      "term": "skip-count",
+      "child_friendly_definition": "Count by jumping a fixed amount each time. Counting by 50s — 50, 100, 150, 200 — is skip-counting by 50."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_base_ten_blocks_1000",
+      "name": "Base-Ten Blocks (with Thousand-Cubes)",
+      "description": "Per-pair set: 2 thousand-cubes + 8 hundred-flats + 20 ten-rods + 30 unit-cubes. Used in Lesson 1 representation, Lesson 2 composition.",
+      "used_in_lessons": [
+        1,
+        2
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_place_value_mat_th",
+      "name": "Place-Value Mat (with Thousands)",
+      "description": "Letter-size mat with 4 labeled columns: THOUSANDS, HUNDREDS, TENS, ONES.",
+      "used_in_lessons": [
+        1,
+        2
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_number_street_1000",
+      "name": "Number Street 0-1000",
+      "description": "Long printable strip showing numbers 0 to 1000 with cells for each multiple of 50.",
+      "used_in_lessons": [
+        2,
+        3
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_compare_cards_th",
+      "name": "Compare Cards (to 1000)",
+      "description": "Set of 24 number-pair cards for Lesson 2 partner game.",
+      "used_in_lessons": [
+        2
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_rounding_jumps",
+      "name": "Rounding Jump Cards",
+      "description": "Set of 24 cards each with a number and a 'round to' label (10 or 100).",
+      "used_in_lessons": [
+        3
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_paper_treats_20",
+      "name": "Paper Treats (20 per group)",
+      "description": "Set of 20 paper treats (cookies, snacks, marbles) per group. Used in Lesson 4 fair-share.",
+      "used_in_lessons": [
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_fraction_strips",
+      "name": "Fraction Strips",
+      "description": "Per-pair set of 7 fraction strip-bars: 1 whole, 1/2, 1/3, 1/4, 1/5, 1/6, 1/8, 1/10. Used in Lesson 5 equivalence work.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_share_plates_10",
+      "name": "Sharing Paper Plates (10 per group)",
+      "description": "Set of 10 paper plates per group for Lesson 4 sharing scenarios.",
+      "used_in_lessons": [
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_equivalence_pizzas",
+      "name": "Equivalence Pizza Cards",
+      "description": "Printable letter-size pizza cards: same-size pizzas divided into halves, thirds, fourths, fifths, sixths, eighths, tenths. Used for Lesson 5 overlay demos.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_street_poster",
+      "name": "Fraction Street Anchor Poster",
+      "description": "Large classroom anchor showing the street with 5 houses (one per lesson concept). Posted Lesson 1, referenced all week.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Base-ten blocks: 2 thousand-cubes + 8 hundred-flats + 20 ten-rods + 30 unit-cubes per pair",
+    "Place-value mats with thousands column",
+    "0-1000 Number Street strip (assembled from letter pages)",
+    "Compare Cards (24 to 1000)",
+    "Rounding Jump Cards (24)",
+    "Paper treats (20 per group)",
+    "Fraction strips (7 per pair)",
+    "Sharing paper plates (10 per group)",
+    "Equivalence Pizza Cards (10+ per group)",
+    "Fraction Street Anchor Poster",
+    "Anchor chart 'Place Value Th-H-T-O'"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 place-value snapshot: each child reads three numbers (347, 762, 1000) and represents them with base-ten blocks. Tally per-child accuracy on reading, building, and naming digit values.",
+    "formative": "Lesson 2 comparison tracker (place-value reasoning to 1000). Lesson 3 rounding tracker (number-line jump strategy + 5-or-more rule). Lesson 4 fair-share tracker (matching fraction to sharers up to 10).",
+    "summative": "Lesson 5 Equivalent Fractions worksheet — fraction-strip equivalences for 1/2=2/4=4/8, 1/3=2/6, 1/5=2/10 + a fair-share scenario. Captures B1.7 explicitly and pulls in B1.6."
+  },
+  "pedagogical_notes": [
+    "B1.1 (numbers to 1000) extends Grade 2's B1.1 (numbers to 200) by adding the THOUSANDS place. The 'thousand cube' visualisation helps children grasp that 1000 = 10 hundreds = 100 tens = 1000 ones.",
+    "B1.2 (compare to 1000) uses the same place-value rule as Grade 2: thousands first, then hundreds, then tens, then ones. The hardest cases involve numbers like 999 vs 1000 — 1-digit difference, but a thousands-place jump.",
+    "B1.3 (round to 10 or 100) is the new Grade-3 skill. Children need the number-line jump strategy: place the number on a number line, see which 'tens marker' it's closer to. The 5-or-more rule resolves ties.",
+    "B1.4 (count by 50s, 100s, 200s) extends Grade 2's count by 25s/50s. The 200s count is hardest — 200, 400, 600, 800, 1000 — children sometimes default to 100s or skip a step.",
+    "B1.5 (place value with multi-digit numbers) is integrated throughout. Children should be able to describe 347 as 3 hundreds, 4 tens, 7 ones AND as 300 + 40 + 7 in expanded form.",
+    "B1.6 (fair-share to 20) extends Grade 2's B1.6 (sharing 12 items). The new cases involve sharers up to 10 (8 and 10 are new) and dividends up to 20. The trickiest: 18 ÷ 8 = 2 and 1/4 (because 18 = 16 + 2 = 8×2 + 2, and 2/8 = 1/4).",
+    "B1.7 (equivalent fractions) is the conceptual peak. Children must SEE that 1/2 = 2/4 by overlaying fraction strips. The 1/2 = 2/4 = 4/8 chain is the most accessible; 1/5 = 2/10 follows naturally."
+  ],
+  "canadian_context_notes": [
+    "Numbers to 1000 align with Canadian everyday experience: 750 km from Toronto to Ottawa, 1000 toonies in a bank roll, 365 days in a year (leap of 366).",
+    "Fraction Street's 5 houses are a metaphor for the 5 lesson topics. Schools can swap the imagery to a Canadian streetscape (e.g., townhouses with snow on the roofs, or maple leaves between houses).",
+    "Paper treats (Lesson 4) can swap to Timbits, butter tarts, or oatmeal raisin cookies — culturally swappable.",
+    "Rounding (Lesson 3) connects to Canadian penny rounding (since the penny was retired in 2013, prices in cash are rounded to the nearest 5¢ or 10¢) — a real-world rounding example for students to discuss."
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "batch": 3,
+  "row_number": null,
+  "runner": "claude-multi-unit",
+  "prompt_version": "2026-05-02",
+  "num_lessons": 5,
+  "created_at": "2026-05-04T08:45:24+00:00",
+  "updated_at": "2026-05-10T08:20:39+00:00",
+  "status": "in_progress",
+  "stages": {
+    "blueprint": {
+      "label": "Blueprint (anchors, lesson titles, expectation map)",
+      "short": "BP",
+      "output_filename": "0_blueprint.json",
+      "depends_on": [],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:46:09+00:00",
+      "output_path": "0_blueprint.json"
+    },
+    "lesson_01": {
+      "label": "Lesson 1 plan",
+      "short": "L1",
+      "output_filename": "1_lesson_01.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:48:08+00:00",
+      "output_path": "1_lesson_01.json"
+    },
+    "lesson_02": {
+      "label": "Lesson 2 plan",
+      "short": "L2",
+      "output_filename": "1_lesson_02.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:50:09+00:00",
+      "output_path": "1_lesson_02.json"
+    },
+    "lesson_03": {
+      "label": "Lesson 3 plan",
+      "short": "L3",
+      "output_filename": "1_lesson_03.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:52:09+00:00",
+      "output_path": "1_lesson_03.json"
+    },
+    "lesson_04": {
+      "label": "Lesson 4 plan",
+      "short": "L4",
+      "output_filename": "1_lesson_04.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:54:07+00:00",
+      "output_path": "1_lesson_04.json"
+    },
+    "lesson_05": {
+      "label": "Lesson 5 plan",
+      "short": "L5",
+      "output_filename": "1_lesson_05.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:56:07+00:00",
+      "output_path": "1_lesson_05.json"
+    },
+    "worksheet_01": {
+      "label": "Lesson 1 student worksheet",
+      "short": "W1",
+      "output_filename": "2_worksheet_01.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:58:35+00:00",
+      "output_path": "2_worksheet_01.json"
+    },
+    "worksheet_02": {
+      "label": "Lesson 2 student worksheet",
+      "short": "W2",
+      "output_filename": "2_worksheet_02.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_02"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:58:35+00:00",
+      "output_path": "2_worksheet_02.json"
+    },
+    "worksheet_03": {
+      "label": "Lesson 3 student worksheet",
+      "short": "W3",
+      "output_filename": "2_worksheet_03.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_03"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:58:35+00:00",
+      "output_path": "2_worksheet_03.json"
+    },
+    "worksheet_04": {
+      "label": "Lesson 4 student worksheet",
+      "short": "W4",
+      "output_filename": "2_worksheet_04.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_04"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:58:35+00:00",
+      "output_path": "2_worksheet_04.json"
+    },
+    "worksheet_05": {
+      "label": "Lesson 5 student worksheet",
+      "short": "W5",
+      "output_filename": "2_worksheet_05.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_05"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T08:58:35+00:00",
+      "output_path": "2_worksheet_05.json"
+    },
+    "manipulatives": {
+      "label": "Teacher manipulatives & visual templates",
+      "short": "MN",
+      "output_filename": "3_manipulatives.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T09:00:14+00:00",
+      "output_path": "3_manipulatives.json"
+    },
+    "formative_reflection": {
+      "label": "Standalone formative + reflection sheets",
+      "short": "FR",
+      "output_filename": "4_formative_reflection.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T09:02:55+00:00",
+      "output_path": "4_formative_reflection.json"
+    },
+    "assessment_suite": {
+      "label": "Summative rubric, summative task, certificate",
+      "short": "AS",
+      "output_filename": "5_assessment_suite.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T09:02:55+00:00",
+      "output_path": "5_assessment_suite.json"
+    },
+    "marketplace": {
+      "label": "Marketplace listing block (derived)",
+      "short": "MK",
+      "output_filename": "6_marketplace.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05",
+        "worksheet_01",
+        "worksheet_02",
+        "worksheet_03",
+        "worksheet_04",
+        "worksheet_05",
+        "manipulatives",
+        "formative_reflection",
+        "assessment_suite"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T09:02:55+00:00",
+      "output_path": "6_marketplace.json"
+    },
+    "rubric_grade": {
+      "label": "Product-quality rubric grade (publication gate)",
+      "short": "RG",
+      "output_filename": "7_rubric_grade.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05",
+        "worksheet_01",
+        "worksheet_02",
+        "worksheet_03",
+        "worksheet_04",
+        "worksheet_05",
+        "manipulatives",
+        "formative_reflection",
+        "assessment_suite",
+        "marketplace"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T09:03:21+00:00",
+      "output_path": "7_rubric_grade.json"
+    },
+    "pair_01_gate": {
+      "label": "Pair 1 rubric gate",
+      "short": "P1",
+      "output_filename": "pair_01_verdict.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "worksheet_01"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "added_by_extension_at": "2026-05-10T08:20:39+00:00"
+    },
+    "pair_02_gate": {
+      "label": "Pair 2 rubric gate",
+      "short": "P2",
+      "output_filename": "pair_02_verdict.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_02",
+        "worksheet_02"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "added_by_extension_at": "2026-05-10T08:20:39+00:00"
+    },
+    "pair_03_gate": {
+      "label": "Pair 3 rubric gate",
+      "short": "P3",
+      "output_filename": "pair_03_verdict.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_03",
+        "worksheet_03"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "added_by_extension_at": "2026-05-10T08:20:39+00:00"
+    },
+    "pair_04_gate": {
+      "label": "Pair 4 rubric gate",
+      "short": "P4",
+      "output_filename": "pair_04_verdict.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_04",
+        "worksheet_04"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "added_by_extension_at": "2026-05-10T08:20:39+00:00"
+    },
+    "pair_05_gate": {
+      "label": "Pair 5 rubric gate",
+      "short": "P5",
+      "output_filename": "pair_05_verdict.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_05",
+        "worksheet_05"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "added_by_extension_at": "2026-05-10T08:20:39+00:00"
+    },
+    "overall_unit_gate": {
+      "label": "Overall unit rubric gate (strict bar)",
+      "short": "OU",
+      "output_filename": "overall_unit_verdict.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05",
+        "worksheet_01",
+        "worksheet_02",
+        "worksheet_03",
+        "worksheet_04",
+        "worksheet_05",
+        "manipulatives",
+        "formative_reflection",
+        "assessment_suite",
+        "marketplace",
+        "pair_01_gate",
+        "pair_02_gate",
+        "pair_03_gate",
+        "pair_04_gate",
+        "pair_05_gate",
+        "rubric_grade"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "added_by_extension_at": "2026-05-10T08:20:39+00:00"
+    },
+    "visual_inspection": {
+      "label": "Visual inspection (Phase C, post-deck-build)",
+      "short": "VI",
+      "output_filename": "visual_inspection_verdict.json",
+      "depends_on": [
+        "overall_unit_gate"
+      ],
+      "status": "pending",
+      "attempts": 0,
+      "added_by_extension_at": "2026-05-10T08:20:39+00:00"
+    }
+  },
+  "stage_order": [
+    "blueprint",
+    "lesson_01",
+    "lesson_02",
+    "lesson_03",
+    "lesson_04",
+    "lesson_05",
+    "worksheet_01",
+    "worksheet_02",
+    "worksheet_03",
+    "worksheet_04",
+    "worksheet_05",
+    "manipulatives",
+    "formative_reflection",
+    "assessment_suite",
+    "marketplace",
+    "rubric_grade",
+    "pair_01_gate",
+    "pair_02_gate",
+    "pair_03_gate",
+    "pair_04_gate",
+    "pair_05_gate",
+    "overall_unit_gate",
+    "visual_inspection"
+  ],
+  "errors": []
+}

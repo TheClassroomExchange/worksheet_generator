@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 1,
+  "worksheet_title": "Math in My Community",
+  "purpose": "Independent practice of C4 step 1.",
+  "student_learning_goal": "I can describe a community situation and ask a math question about it.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe a community situation and ask a math question about it.",
+    "character_watermark": "Coach Cara in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Community Description",
+          "student_instructions": "Pick a community location. Draw or write 2-3 sentences describing it.",
+          "visual_layout": "Top of page. A description box.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_DESC",
+              "description": "A description box in B&W line-art, ~7in x 2in. 'Community location: ___' on top. 3 description lines below. Header 'My Community Description:'.",
+              "placement": "Top.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "community",
+                "description"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_DESC: keywords (community, description) name the box."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Math Questions",
+          "student_instructions": "Write 4 math questions about your community. Use HOW MANY, HOW MUCH, HOW LONG.",
+          "visual_layout": "Middle of page. Four numbered question lines.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_Q",
+              "description": "Four numbered question slots in B&W, ~7in x 2.5in. Header 'My Math Questions:'.",
+              "placement": "Middle.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "math",
+                "questions"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_Q: keywords (math, questions) name the slots."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Sort Questions",
+          "student_instructions": "Sort 6 questions into MATH and NOT MATH. Mark M or N.",
+          "visual_layout": "Bottom of page. A 6-row sort chart.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_SORT",
+              "description": "A 6-row sort chart in B&W, ~7in x 2.5in. Pre-filled questions; M/N bubbles. Header 'Math (M) or Not Math (N)?'.",
+              "placement": "Bottom.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "math"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_SORT: keywords (math) name the bubbles."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, swap with a partner and answer 1 math question with a guess.",
+  "teacher_notes": "Lesson 1 worksheet. Watch for opinion-vs-math at community scale."
+}

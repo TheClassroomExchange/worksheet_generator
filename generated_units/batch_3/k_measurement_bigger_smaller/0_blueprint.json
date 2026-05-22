@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "thematic_title": "Bigger, Smaller, Same!",
+  "descriptive_title": "Kindergarten Mathematics: Demonstrations — Comparing Length, Mass, and Capacity (A10.1-A10.2)",
+  "grade": "Kindergarten",
+  "subject": "Mathematics",
+  "strand": "A. Mathematical Learning",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-kindergarten",
+  "curriculum_codes": ["A10.1", "A10.2"],
+  "curriculum_expectations": {
+    "A10.1": "describe different ways that objects can be measured",
+    "A10.2": "compare the length, area, mass, and capacity of objects using concrete materials"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Kindergarten unit on measurement (A10.1, A10.2) framed around 'Bigger, Smaller, Same!' — Max the Measure Moose and Tess the Tiny Mouse. Day 1 explores LENGTH (longer / shorter / same length). Day 2 explores MASS (heavier / lighter / same weight). Day 3 explores CAPACITY (holds more / less / same). Day 4 introduces non-standard units of measurement (cubes, hands, footsteps). Day 5 closes with a Measurement Carnival capstone where children apply all 3 attributes. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will compare objects by length, mass, and capacity using concrete materials, and describe different ways objects can be measured.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Longer and Shorter",
+      "primary_expectations": ["A10.2"],
+      "secondary_expectations": [],
+      "big_idea": "We compare LENGTH by lining things up. Longer, shorter, or same length.",
+      "student_learning_goal": "I can compare how long things are.",
+      "one_line_summary": "Max compares animal trails and ribbons; children sort by length."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Heavier and Lighter",
+      "primary_expectations": ["A10.2"],
+      "secondary_expectations": [],
+      "big_idea": "We compare MASS by feeling weight or using a balance. Heavier, lighter, or same weight.",
+      "student_learning_goal": "I can compare how heavy things are.",
+      "one_line_summary": "Tess uses a paper balance; children sort by mass."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Holds More, Holds Less",
+      "primary_expectations": ["A10.2"],
+      "secondary_expectations": [],
+      "big_idea": "We compare CAPACITY by pouring. Holds more, holds less, or same.",
+      "student_learning_goal": "I can compare how much things hold.",
+      "one_line_summary": "Max and Tess pour water between cups; children compare capacity."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "How Many Cubes Long?",
+      "primary_expectations": ["A10.1"],
+      "secondary_expectations": ["A10.2"],
+      "big_idea": "We measure with non-standard UNITS — cubes, hands, footsteps. Same object: many units.",
+      "student_learning_goal": "I can measure with cubes, hands, or footsteps.",
+      "one_line_summary": "Children use linking cubes and hand-spans to measure objects."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Measurement Carnival Capstone",
+      "primary_expectations": ["A10.1", "A10.2"],
+      "secondary_expectations": [],
+      "big_idea": "We use length, mass, and capacity to compare and measure. We pick the right way for each job.",
+      "student_learning_goal": "I can compare and measure things in different ways.",
+      "one_line_summary": "Children rotate through 3 carnival stations: length, mass, and capacity."
+    }
+  ],
+  "expectation_lesson_map": {
+    "A10.1": [4, 5],
+    "A10.2": [1, 2, 3, 4, 5]
+  },
+  "recurring_characters": [
+    {
+      "name": "Max the Measure Moose",
+      "role": "Lead character. A friendly moose who measures everything. Anchors all 5 lessons.",
+      "visual_description": "A young moose with big antlers, holding a measuring stick. Cheerful, curious expression. Wears a small explorer's vest with measurement tools in the pockets."
+    },
+    {
+      "name": "Tess the Tiny Mouse",
+      "role": "Max's partner. The 'small' character who shows comparison from the smaller side. Cameo Lessons 1-5.",
+      "visual_description": "A small mouse with big eyes and a tiny tape measure. Stands beside Max to demonstrate big-vs-small. Wears a polka-dot bow tie."
+    }
+  ],
+  "threaded_vocabulary": [
+    {"term": "longer", "child_friendly_definition": "More long. Goes farther."},
+    {"term": "shorter", "child_friendly_definition": "Less long. Doesn't go as far."},
+    {"term": "heavier", "child_friendly_definition": "Has more weight. Pulls down more."},
+    {"term": "lighter", "child_friendly_definition": "Has less weight. Pulls down less."},
+    {"term": "more", "child_friendly_definition": "A bigger amount."},
+    {"term": "less", "child_friendly_definition": "A smaller amount."},
+    {"term": "same", "child_friendly_definition": "Equal — the same amount."},
+    {"term": "measure", "child_friendly_definition": "Find out how big, how heavy, or how much."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_length_strips", "name": "Length Comparison Strips", "description": "Set of 24 paper strips of varied lengths used for sorting and pair-comparison.", "used_in_lessons": [1, 4, 5], "clipart_files": []},
+    {"id": "M2_paper_balance", "name": "Paper Balance Mat", "description": "Letter-size mat showing a balance with two pans for comparing mass.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M3_object_set", "name": "Comparison Object Cards", "description": "Set of 24 paper object tokens (heavy/light, big/small) for sorting activities.", "used_in_lessons": [1, 2, 3, 5], "clipart_files": []},
+    {"id": "M4_cup_cards", "name": "Capacity Cup Cards", "description": "Set of 12 paper cup cards in 3 sizes for capacity comparison.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M5_linking_cubes", "name": "Paper Linking Cubes", "description": "Set of 60 paper cubes that link to measure length in non-standard units.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M6_carnival_template", "name": "Measurement Carnival Template", "description": "Letter-size template for the Lesson 5 capstone with 3 stations.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_measure_chart", "name": "Measurement Anchor Chart", "description": "Anchor chart showing length, mass, and capacity comparisons with examples.", "used_in_lessons": [1, 2, 3, 4], "clipart_files": []},
+    {"id": "M8_unit_chart", "name": "Non-Standard Units Chart", "description": "Anchor chart of cubes, hands, and footsteps as non-standard measurement units.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M9_animal_set", "name": "Comparison Animal Tokens", "description": "Set of 12 paper animal tokens (mouse, cat, dog, bear, elephant) of graded sizes for length comparison.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M10_measurement_poster", "name": "Bigger, Smaller, Same Poster", "description": "Anchor poster of Max and Tess with all three measurement attributes.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Length Comparison Strips (24)",
+    "Paper Balance Mat (1 per pair)",
+    "Comparison Object Cards (24)",
+    "Capacity Cup Cards (12)",
+    "Paper Linking Cubes (60)",
+    "Measurement Carnival Templates (1 per child)",
+    "Measurement Anchor Chart",
+    "Non-Standard Units Chart",
+    "Comparison Animal Tokens (12)",
+    "Bigger, Smaller, Same Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 length-comparison snapshot.",
+    "formative": "Lesson 2 mass tracker; Lesson 3 capacity tracker; Lesson 4 non-standard units tracker.",
+    "summative": "Lesson 5 measurement carnival capstone."
+  },
+  "pedagogical_notes": [
+    "Kindergarten measurement is concrete — children must HOLD and PHYSICALLY compare.",
+    "Direct comparison (line up two things) precedes indirect (using a tool).",
+    "Non-standard units are foundational — children measure with cubes BEFORE rulers.",
+    "Use the 'same' option always — children need to recognize equality, not just inequality.",
+    "Pair work matters: comparing reveals what 'longer' means more than seeing one thing alone."
+  ],
+  "canadian_context_notes": [
+    "Canadian examples: maple leaves of different sizes, hockey stick lengths, lake vs pond capacity.",
+    "Use snowballs of different sizes for mass comparison.",
+    "Toonies vs loonies for small mass comparisons.",
+    "Tim Hortons cup sizes (small / medium / large) for capacity introduction."
+  ]
+}

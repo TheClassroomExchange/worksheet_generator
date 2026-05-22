@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "lesson_number": 3,
+  "worksheet_title": "Snack Shop Story Problems",
+  "purpose": "Independent practice of A6.12 — listening to (or reading) a story, choosing the operation, modelling with cubes or coins, and writing the equation.",
+  "student_learning_goal": "I can listen to a snack-shop story, act it out with cubes, and tell how many are altogether or how many are left.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can listen to a snack-shop story, act it out with cubes, and tell how many are altogether or how many are left.",
+    "character_watermark": "Penny the Lead Coin Counter in the top-right corner of the header, holding a tray of cookies. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Read, Decide, Solve",
+          "student_instructions": "Read each story. Decide if you ADD or TAKE AWAY. Write the operation and the answer.",
+          "visual_layout": "Top third of the page. Three numbered rows. Each row has a small illustration on the left (~1.2in tall), a 1–2 sentence story in the middle, and a blank equation line on the right. Story 1 (add): pennies; Story 2 (take away): cookies; Story 3 (add): popcorn. Each illustration features Penny or Nick at the snack shop.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_THREE_STORY_SCENES",
+              "description": "Three small B&W line-art scenes, each ~1.2in tall, stacked vertically. Scene 1: Penny holds a small pile of pennies, with 3 more pennies sliding down toward her hand (add story). Scene 2: A cookie tray with 8 cookies, 2 with bites taken (take away story). Scene 3: Nick adds a bag of popcorn to a small pile (add story). Each scene has a thought-bubble or motion-line cue indicating direction (more in vs going away).",
+              "placement": "Top third of the page, three scenes stacked vertically with stories beside.",
+              "approximate_size": "medium",
+              "keywords": [
+                "snack",
+                "pennies",
+                "cookies",
+                "popcorn"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_THREE_STORY_SCENES at top third: keywords (snack, pennies, cookies, popcorn) name what the scenes show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Story 1 (Penny had 6 pennies. A customer gave her 3 more): 6 + 3 = 9. Story 2 (Penny baked 8 cookies; 2 got nibbled): 8 − 2 = 6. Story 3 (Nick had 4 bags of popcorn; he made 5 more): 4 + 5 = 9."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Draw the Story",
+          "student_instructions": "Read the story. Draw what happens in three boxes: the START, the CHANGE, and the END. Then write the equation.",
+          "visual_layout": "Middle of the page. Two stacked story rows. Each row has a story sentence at the top and three labelled boxes below: START | CHANGE | END. Each box is ~1.5in × 1.2in with light-grey outlines for drawing. Story A: 'Penny had 4 cubes; Nick gave her 3 more.' Story B: 'Quincy had 9 pennies; Nick took 5.' Below each row, a blank equation line.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_START_CHANGE_END_BOXES",
+              "description": "Two stacked story-modelling rows in B&W line-art. Each row has three labelled boxes side-by-side: START | CHANGE | END. Each box ~1.5in × 1.2in with solid grey outlines for drawing. Above each row, the story sentence is printed in a banner. Below each row, a faint dotted line for the equation.",
+              "placement": "Middle of the page; two rows spanning full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "story",
+                "start",
+                "change",
+                "end"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_START_CHANGE_END_BOXES at middle: keywords (story, start, change, end) name what the boxes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Story A: START 4 cubes, CHANGE +3 cubes (drawn or arrowed in), END 7 cubes; equation 4 + 3 = 7. Story B: START 9 pennies, CHANGE −5 pennies (crossed out or arrowed away), END 4 pennies; equation 9 − 5 = 4."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make Your Own Story",
+          "student_instructions": "Look at the equation 6 − 2 = 4. Write your OWN snack-shop story that matches. Use the sentence starters to help.",
+          "visual_layout": "Bottom of the page. A target equation banner at the top reads '6 − 2 = 4' in large print. Below that, four sentence-starter lines: '___ had 6 ___.', '___ took (or gave away) 2.', 'Now there are 4 ___.', and 'I used: ADD / TAKE AWAY' (circle one). To the right, a blank box for an optional drawing of the story.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_STORY_BUILDER_BANNER",
+              "description": "A horizontal banner at the top of Part 3 in B&W line-art. The banner shows the equation '6 − 2 = 4' in large bold numerals (~3in tall). Decorative cookies and pennies frame the equation. To the right of the banner, a blank drawing box (~2in × 2in) with a light-grey outline for the child's optional illustration.",
+              "placement": "Bottom of the page, banner spanning full width with optional drawing box on the right.",
+              "approximate_size": "medium",
+              "keywords": [
+                "equation",
+                "story",
+                "snack"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_STORY_BUILDER_BANNER at bottom: keywords (equation, story, snack) name what the banner shows."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Any plausible take-away story to 6 − 2 = 4. Examples: 'Penny had 6 cookies. Nick took 2. Now there are 4 cookies.' 'Quincy had 6 pennies. Penny used 2 for the snack shop. Now there are 4 pennies left.' Accept any story where (a) the start is 6, (b) something is taken away or used, (c) 4 are left, and (d) the child circles TAKE AWAY."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and write a story for the equation 5 + 2 = 7! Use the snack shop too.",
+  "teacher_notes": "Lesson 3 consolidation; this is the keystone worksheet because A6.12 lives or dies on operation choice. Hand out at the end of the small-group rotation. Watch for: (a) right answer with wrong operation symbol — diagnostic for the lesson 3 expanded_walkthrough recovery moves; (b) a child who writes the wrong story for Part 3 (e.g. an add story to a take-away equation) — flag for re-loop on the keyword chart. Use Part 2 as evidence for the formative tracker."
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 4,
+  "worksheet_title": "Eddy's Many Ways",
+  "purpose": "Independent practice of C2.3 (equivalent for whole numbers to 1000).",
+  "student_learning_goal": "I can find many equivalent expressions for whole numbers up to 1000.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find many equivalent expressions for whole numbers up to 1000.",
+    "character_watermark": "Eddy in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Make 100",
+          "student_instructions": "List 8 different equivalent expressions for 100. Mix all 4 operations.",
+          "visual_layout": "Top of page. Eight numbered slots.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_M100",
+              "description": "Eight numbered slots in B&W line-art, ~7in x 3in. Each: '100 = ___'. Header 'Make 100:'.",
+              "placement": "Top.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "make"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_M100: keywords (make) name the slots."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Sample: 50+50, 60+40, 200-100, 25x4, 50x2, 1000÷10, 99+1, 25+25+25+25."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Make 500",
+          "student_instructions": "List 6 different equivalent expressions for 500.",
+          "visual_layout": "Middle of page. Six numbered slots.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_M500",
+              "description": "Six numbered slots in B&W line-art, ~7in x 2.5in. Each: '500 = ___'. Header 'Make 500:'.",
+              "placement": "Middle.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "make"
+              ],
+              "text_image_alignment_check": "Image WS04_P2_M500: keywords (make) name the slots."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Sample: 250+250, 100+400, 1000-500, 100x5, 250x2, 1000÷2."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Target",
+          "student_instructions": "Pick a target between 250 and 1000. List 5 different expressions.",
+          "visual_layout": "Bottom of page. Target slot and 5 expression slots.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_TARGET",
+              "description": "A target slot and 5 numbered expression slots in B&W line-art, ~7in x 2.5in. 'My target: ___'. 5 slots below. Header 'My Target:'.",
+              "placement": "Bottom.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "target"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_TARGET: keywords (target) name the slots."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, list 5 expressions for a target above 1000.",
+  "teacher_notes": "Lesson 4 worksheet. Watch for operation-stuck trap. Part 3 transfer task: introduce target 750 OR 825 (NOT used in the lesson) and require at least 1 expression with a 3-step operation chain. Verifies operation flexibility."
+}

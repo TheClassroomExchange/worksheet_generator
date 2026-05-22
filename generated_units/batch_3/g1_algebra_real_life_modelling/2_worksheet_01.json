@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "lesson_number": 1,
+  "worksheet_title": "Maple's Sugar Bush Questions",
+  "purpose": "Independent practice of C4 step 1 (situation and question).",
+  "student_learning_goal": "I can describe a real-life situation and ask math questions about it.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can describe a real-life situation and ask math questions about it.", "character_watermark": "Maple the Maple Tree in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Sugar Bush", "student_instructions": "Draw or write what you see in the sugar bush. Use 2-3 sentences.", "visual_layout": "Top of page. A bordered box with lines for description.",
+      "image_placeholders": [{"id": "WS01_P1_BUSH_BOX", "description": "A blank bordered box in B&W line-art, ~7in x 2in, with 3 description lines beneath. Header 'My Sugar Bush:'. Small Maple tree icon in the corner of the box.", "placement": "Top of the page.", "approximate_size": "full_width", "keywords": ["sugar", "bush"], "text_image_alignment_check": "Image WS01_P1_BUSH_BOX: keywords (sugar, bush) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Look for trees, taps, buckets, snow, or sap detail."},
+    {"part_number": 2, "part_title": "Part 2: Math Questions", "student_instructions": "Write 3 math questions about the sugar bush. Each question should ask HOW MANY, HOW MUCH, HOW LONG, or HOW TALL.", "visual_layout": "Middle of page. Three numbered question lines.",
+      "image_placeholders": [{"id": "WS01_P2_QUESTIONS", "description": "Three numbered question slots in B&W line-art, ~7in x 3in. Each slot has '1.', '2.', '3.' on the left with a long question line. Header 'My Math Questions:'.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["math", "questions"], "text_image_alignment_check": "Image WS01_P2_QUESTIONS: keywords (math, questions) name what the slots ask for."}],
+      "student_response_type": "write", "answer_key": "Open. Each question must be countable or measurable. Examples: 'How many trees?' 'How tall is each tree?' 'How long does it take to fill a bucket?'"},
+    {"part_number": 3, "part_title": "Part 3: My Day", "student_instructions": "Pick something from YOUR day (snack, recess, bus). Draw or describe it, then write 2 math questions about it.", "visual_layout": "Bottom of page. A drawing or writing box plus 2 question lines.",
+      "image_placeholders": [{"id": "WS01_P3_MY_DAY", "description": "A blank drawing area in B&W line-art, ~7in x 2.5in, with 2 numbered question lines beneath. Header 'My Day:'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["my", "day"], "text_image_alignment_check": "Image WS01_P3_MY_DAY: keywords (my, day) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Two math questions must be countable or measurable about a real-life situation from the child's day."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and answer one of their math questions with a guess.",
+  "teacher_notes": "Lesson 1 worksheet introduces C4 step 1 (situation and question). Watch for descriptive-vs-mathematical confusion. If a child writes 'What colour is the tree?' redirect to a HOW MANY frame."
+}

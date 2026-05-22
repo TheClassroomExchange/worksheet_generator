@@ -1,0 +1,59 @@
+{
+  "schema_version": 1, "unit_id": "k_coding_little_programmers",
+  "formative_worksheets": [{
+    "title": "The Direction and Position Check", "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (8 min).",
+    "purpose": "Standalone formative check confirming directions and positions before debugging.",
+    "expectations_assessed": ["B11.1", "B11.3"],
+    "student_learning_goal": "I can use directions and record code.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can use directions and record code.",
+      "character_watermark": "Bot the Robot with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "Match arrow to direction word.",
+       "visual_layout": "Two arrows and two direction word options to match.",
+       "image_placeholders": [{"id": "FORM_Q1_DIR", "description": "Two arrow icons (forward, right) for Kindergarten formative check, B&W line art. Below: word options FORWARD, RIGHT.",
+         "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["arrow", "match"], "text_image_alignment_check": "FORM_Q1_DIR at Prompt 1: keywords name the arrow direction match task."}],
+       "response_type": "draw_or_write", "answer_key": "Arrow up = FORWARD, arrow right = RIGHT."},
+      {"prompt_number": 2, "prompt": "Where is Bot? Circle the right word.",
+       "visual_layout": "A picture of Bot above a star with four position word options.",
+       "image_placeholders": [{"id": "FORM_Q2_POS", "description": "Picture of Bot above a star for Kindergarten formative check, B&W line art. Below: ABOVE / BELOW / BESIDE / BETWEEN circles.",
+         "placement": "Centred in Prompt 2.", "approximate_size": "medium", "keywords": ["above", "circle"], "text_image_alignment_check": "FORM_Q2_POS at Prompt 2: keywords name the above-the-star circle task."}],
+       "response_type": "draw_or_write", "answer_key": "ABOVE."},
+      {"prompt_number": 3, "prompt": "How are you feeling? Circle the face.",
+       "visual_layout": "Three faces in a row.",
+       "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for Kindergarten formative check, B&W line art.",
+         "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"], "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."}],
+       "response_type": "self_rate", "answer_key": "Open."}
+    ],
+    "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+  }],
+  "reflection_sheet": {
+    "title": "My Little Programmer Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Bot and Buggy with a Junior Programmer certificate in the top-right. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for Kindergarten reflection.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "rating"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the star rating visual."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Programmer!"]},
+      {"prompt_number": 2, "prompt": "Did you do these? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for Kindergarten reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name response options."}],
+       "response_type": "circle_yes_no", "options": ["I moved Bot.", "I used position words.", "I wrote a code.", "I fixed a bug."]},
+      {"prompt_number": 3, "prompt": "My favourite coding activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle for Kindergarten reflection.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the favourite activity focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for Kindergarten reflection.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword names the trickiest part focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for Kindergarten reflection.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the next-time focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Programmer certificate."
+  }
+}

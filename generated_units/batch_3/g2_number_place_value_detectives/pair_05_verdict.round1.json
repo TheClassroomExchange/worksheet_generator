@@ -1,0 +1,45 @@
+{
+  "unit_id": "g2_number_place_value_detectives",
+  "pair_number": 5,
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child cuts the leftover cookie in HALF for a 3-friend share — repairing the fraction-mismatch error' and recovery_moves include 'match the fraction to the sharers' mantra and pizza-overlay repair, but the rationale and recovery do not cite named fraction-misconception research (e.g., Empson & Levi on equipartitioning, or Steffe & Olive on partitive vs. quotitive division). The branching by diagnostic ('If the child STILL defaults to halves: the rule hasn't connected to the WHY') is good but not anchored to a research-named principle.",
+      "required_fix": "Add a one-line research citation in expanded_walkthrough.rationale anchoring the fraction-mismatch trap to named research — e.g., 'This is the equipartitioning failure described in Empson & Levi (2011) Extending Children's Mathematics: children apply a 'cut-in-half' default learned from 2-sharer Grade 1 work to all leftover splits, regardless of the sharer count.' This pushes the trap from Level 3 (real misconception with concrete recovery) to Level 4 (research-grounded).",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Per-group set of 12+ paper cookies (some pre-cut along third-line, some along sixth-line)' and 'Pizza fraction cards: whole, thirds (3 sectors), sixths (6 sectors), with same-size whole pizzas for overlay demos' as required. The differentiation.for_movement_learners offers a kinesthetic option ('allow them to BE the dealer at every station') but this still requires paper cookies and plates. There is no explicit no-paper / no-prep alternative path using only voice, body, gesture, or items already in any G2 classroom (e.g., counters, bottle caps, fingers as 'sharers').",
+      "required_fix": "Add a no-paper, no-prep variant in differentiation. Concrete example: 'No-materials version — use 7 bottle caps (or counters/erasers) as cookies and 3 children's open hands as plates. For the leftover, draw a circle on chart paper and cut/erase three pie-wedges with marker. Pizza overlay can be replaced by two same-size paper plates from the lunchroom, folded into thirds vs. sixths and held one in front of the other.' This converts Level 3 to Level 4 by guaranteeing the lesson runs on a no-prep day.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit and Station C invites comparison ('Try to find ALL the equivalences. Some pairs are equal; some aren't.'), which is genuine strategy refinement. However, the expanded_walkthrough names the misconception in everyday terms ('the leftover always gets cut in half. Grade-1 strategy holdover') without citing the fraction-research literature. Level 4 requires 'names the misconception in research-grounded terms (Carpenter & Moser CGI types, Empson on fractions, Battista on spatial reasoning, etc.).'",
+      "required_fix": "Either in expanded_walkthrough.rationale or in pedagogical_notes, name the principle in research-grounded terms. Suggested wording: 'Empson & Levi (2011) describe the developmental progression in equipartitioning: children first master 2-share/halving, then must coordinate the number of shares with the fraction name. The cut-in-half default is the predictable transition error when 3-share or 6-share situations arrive — children import their halving schema. The repair is to make the share-count-to-fraction-name mapping explicit BEFORE cutting.' Pairs naturally with the pedagogical_depth fix above.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ]
+}

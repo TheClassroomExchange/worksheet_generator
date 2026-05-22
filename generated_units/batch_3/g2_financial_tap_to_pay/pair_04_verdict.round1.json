@@ -1,0 +1,47 @@
+{
+  "unit_id": "g2_financial_tap_to_pay",
+  "pair_number": 4,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child says $100 = 100 loonies — repairing the impractical-combo trap at Grade 2'. Recovery_moves are concrete ('Show $100 bill', 'Drill biggest bill first', 'Compare combos by piece count') but the trap is not anchored to a named research source, and recovery does not branch by what the diagnostic told you about the child.",
+      "required_fix": "Cite the trap explicitly: this is the 'unit-coin perseveration' / G1-to-G2 denomination-equivalence misconception (see Carraher & Schliemann's work on currency cognition or Sowder's research on quantitative units). Then branch recovery_moves by diagnostic: (a) if the child knows the $100 bill exists but defaults to coins, drill 'biggest bill first' with side-by-side piece counts; (b) if the child cannot add by 50s/20s, drop back to skip-counting on a hundred chart before reintroducing the $100 target; (c) if the child resists the $100 bill ('I've never seen one'), show the brown bill features and a Tim Hortons receipt example before retrying.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "differentiation = {'for_emerging': 'Find 1 way for $100.', 'for_extending': 'Find 3 ways for $200.', 'for_ell_or_iep': 'Pre-printed bill grid.', 'for_movement_learners': 'Walk to bill stations.'} — every path still requires the printed Bill + Coin Cards. There is no NO-PAPER, NO-PURCHASE alternative path using only voice, body, or gesture for days when prep wasn't possible.",
+      "required_fix": "Add a no-materials alternative to the differentiation block, e.g. 'No-materials version — use FINGERS as bills: open hand = $50 bill, closed fist = $100 bill, thumb-up = $20. Children build $150 by showing a fist + open hand (1 hundred + 1 fifty). Or chant the combo: \"FIFTY, ONE-HUNDRED, ONE-FIFTY!\" while clapping each bill.' This makes Lesson 4 runnable on any day, including days when card sets aren't ready.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale = 'Common Grade-2 trap on F1.1: child says just use 100 loonies. They miss that the $100 BILL exists for this purpose.' The lesson does invite children to find their own $150 combos and a no-$100-bill stretch, but the expanded_walkthrough never names the misconception in research-grounded terms (Carpenter & Moser CGI types, Sowder on quantitative units, Carraher & Schliemann on currency), and there is no explicit strategy-comparison move where two pairs share different combos and the class reasons about which uses fewer pieces.",
+      "required_fix": "In expanded_walkthrough.rationale, name the misconception in research terms — e.g. 'This is a unitizing failure (see Sowder 1992 on quantitative units, and Carraher & Schliemann on currency cognition): the child treats every dollar as a unit-coin and has not yet flexibly grouped 100 of those into a single $100 bill.' Then in consolidation, add a strategy-comparison move: 'Pair A shares their $150 combo (e.g., 1 hundred + 1 fifty = 2 pieces). Pair B shares a different one (e.g., 7 twenties + 1 ten = 8 pieces). Class compares: SAME amount, FEWER pieces — why?'",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Strong alignment, clarity, and lesson-worksheet consistency (all Level 4). Three categories sit at Level 3 — the trap is real but not research-anchored, materials are everyday but no voice/body fallback, and the math is conceptually sound but doesn't yet name the misconception in CGI/Sowder/Carraher terms. All three blockers are in lesson_04 (the worksheet is solid), so the fix is a focused lesson revision. Once the expanded_walkthrough cites a named source and branches recovery by diagnostic, AND a no-materials differentiation path is added, AND the consolidation invites a strategy-comparison move, this pair will clear the strict bar."
+}

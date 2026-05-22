@@ -1,0 +1,56 @@
+{
+  "pair_number": 2,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = [\"Examples chart with values.\", \"Drill 'value type'.\", \"Practice with 10 examples.\"] — these are vague directives, not branching teacher actions tied to what the diagnostic told you about the child, and no research is cited for the qual/quant data-type misconception.",
+      "required_fix": "Rewrite recovery_moves to branch by diagnostic: if child gives a number value but calls it qual, say 'Point to the value 7 — is that a WORD or a NUMBER? Numbers go in QUANT.'; if child gives a category but calls it quant because the word contains digits (e.g., 'Grade 3'), repair with the value-vs-label distinction. Cite Friel/Curcio/Bright graph-comprehension research or Konold's data-as-cases vs data-as-aggregate framing so the trap is research-grounded.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists Frequency Table Template (1 per pair) and tracker as required, and differentiation contains for_movement_learners but no explicit NO-PAPER/NO-PURCHASE alternative path that runs the lesson on voice/body/gesture alone for a no-prep day.",
+      "required_fix": "Add a no-materials path to differentiation: 'No-paper version — children stand in two lines (QUAL line vs QUANT line) when teacher reads each survey question; for the table, finger-tally on knees while a child calls out categories, then the class chants the count. Lesson runs with zero printed templates.' Make this explicit so a substitute on a no-prep day can deliver Lesson 2.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = \"Each child names one survey: 'My survey is ___ data because ___.'\" — this is a generic sentence frame with no character refrain. Tally never has a distinctive quotable line that children chant back, and there is no memorable phrase carried between lessons.",
+      "required_fix": "Give Tally a quotable refrain children chant back at every consolidation, e.g., 'Tally's rule: WORDS go in QUAL, NUMBERS go in QUANT — check the VALUE!' Have children repeat it twice during minds_on and once at exit_routine so the phrase carries to Lessons 3-5. Quote the refrain in teacher_script verbatim.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson presents frequency tables and qual/quant distinction with precise vocabulary, but children do not invent or refine a strategy and compare strategies — they follow the teacher-demonstrated table format. expanded_walkthrough.rationale describes the trap as 'child sees favourite number ... and says qualitative' but does not name the misconception in research-grounded terms (e.g., Konold's data-as-individual-cases vs data-as-aggregate, or Friel/Curcio/Bright on graph comprehension).",
+      "required_fix": "In action.steps, add an invent-and-compare phase: pairs design TWO different frequency table layouts for the same survey (e.g., categories-as-rows vs categories-as-columns), then a quick gallery walk where children argue which layout reads more clearly and why. In expanded_walkthrough.rationale, name the misconception using Konold's data-as-individual-cases framing or cite Friel, Curcio & Bright (2001) on graph-sense development.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "Strong alignment and worksheet consistency (both 4). Lesson lands at achieving across pedagogical_depth, instructional_balance, clarity_voice, and mathematical_authenticity — four 3s exceed the strict bar of at most one 3. All blocking issues live in lesson_02; worksheet_02 is solid. Fix the four lesson-only items above and the pair will pass."
+}

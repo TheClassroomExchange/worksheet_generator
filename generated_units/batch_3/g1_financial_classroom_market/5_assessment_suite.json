@@ -1,0 +1,81 @@
+{
+  "schema_version": 1, "unit_id": "g1_financial_classroom_market",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker", "title": "G1 Classroom Market — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1.", "expectation_focus": ["F1.1"],
+    "columns": ["Student name", "Names 4 coins", "Says values", "Sorts correctly", "Notes"],
+    "usage_notes": "Walk between pairs to observe coin sorting. Tick where evidence is clear.",
+    "layout_description": "One letter page, portrait, 5-column tick table with 24 rows.",
+    "image_placeholders": [{"id": "AS_DIAG_TRACKER", "description": "Diagnostic tracker for Grade 1 teacher. Title: 'G1 Classroom Market — Day 1'. F1.1 focus.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "coins"], "text_image_alignment_check": "AS_DIAG_TRACKER: keywords name the tracker and coins focus."}]
+  },
+  "formative_trackers": [
+    {"tracker_id": "formative_tracker_lesson_02", "title": "G1 Classroom Market — Lesson 2 Formative (Loonie/Toonie)",
+     "when_used": "During Lesson 2.", "expectation_focus": ["F1.1"],
+     "columns": ["Student name", "Names loonie/toonie", "Says values", "Sorts 30 coins", "Notes"],
+     "usage_notes": "Stop at each pair to observe loonie/toonie identification.",
+     "layout_description": "Identical to diagnostic.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L2", "description": "Lesson 2 formative tracker for Grade 1 money unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "loonie"], "text_image_alignment_check": "AS_FORM_TRACKER_L2: keywords name the tracker and loonie focus."}]},
+    {"tracker_id": "formative_tracker_lesson_03", "title": "G1 Classroom Market — Lesson 3 Formative (Bills)",
+     "when_used": "During Lesson 3.", "expectation_focus": ["F1.1"],
+     "columns": ["Student name", "Names bills", "Sorts by colour", "Sorts by value", "Notes"],
+     "usage_notes": "Stop at each pair to observe bill identification.",
+     "layout_description": "Identical layout, Lesson 3 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L3", "description": "Lesson 3 formative tracker for Grade 1 money unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "bills"], "text_image_alignment_check": "AS_FORM_TRACKER_L3: keywords name the tracker and bills focus."}]},
+    {"tracker_id": "formative_tracker_lesson_04", "title": "G1 Classroom Market — Lesson 4 Formative (Compare)",
+     "when_used": "During Lesson 4.", "expectation_focus": ["F1.1"],
+     "columns": ["Student name", "Counts pouch", "Compares amounts", "Uses words", "Notes"],
+     "usage_notes": "Stop at each pair to observe value comparison.",
+     "layout_description": "Identical layout, Lesson 4 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L4", "description": "Lesson 4 formative tracker for Grade 1 money unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "compare"], "text_image_alignment_check": "AS_FORM_TRACKER_L4: keywords name the tracker and compare focus."}]}
+  ],
+  "summative_rubric": {
+    "title": "G1 Classroom Market — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 to score against F1.1.",
+    "rows": [
+      {"expectation_code": "F1.1", "expectation_text": "identify the various Canadian coins up to 50¢ and coins and bills up to $50, and compare their values",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot name most coins or bills."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Names some coins/bills with prompts and frequent errors."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently names 6 coins and 4 bills and compares their values."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Combines coins/bills and explains equivalence and value relationships."}]}
+    ],
+    "usage_notes": "Score during Lesson 5 capstone. Level 3 = grade-level.",
+    "layout_description": "One letter page, landscape, 1-row × 4-level grid.",
+    "image_placeholders": [{"id": "AS_RUBRIC", "description": "Summative rubric for Grade 1 G1 Classroom Market unit. 1-row × 4-level table.",
+      "placement": "Full page.", "approximate_size": "full_width", "keywords": ["rubric", "money"], "text_image_alignment_check": "AS_RUBRIC: keywords name the rubric and money focus."}]
+  },
+  "summative_task_script": {
+    "title": "Big Market Capstone — Summative Administration Guide",
+    "purpose": "Ties Lesson 5 capstone, the 4 stations, and the rubric together.",
+    "administration_steps": [
+      "Before: photocopy templates, print rubric, ready Junior Shopper certificates.",
+      "Stations 1-4 (5 min each): COINS, BILLS, COMPARE, BUY.",
+      "Station 1 COINS: name 4 coins. Evidence F1.1.",
+      "Station 2 BILLS: name 4 bills. Evidence F1.1.",
+      "Station 3 COMPARE: 4 pairs. Evidence F1.1.",
+      "Station 4 BUY: pay for 2 items. Evidence F1.1.",
+      "After: review with each child."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence. Level 3 = grade-level.",
+    "evidence_per_expectation": {
+      "F1.1": "Stations 1-4 — coins, bills, compare, buy."
+    }
+  },
+  "certificate": {
+    "title": "Junior Shopper Certificate (G1)",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day G1 Classroom Market unit and demonstrating the skills of a G1 Junior Shopper. Penny the Penguin congratulates the student.",
+    "skills_demonstrated": [
+      "Naming 6 Canadian coins",
+      "Naming 4 Canadian bills",
+      "Comparing money values",
+      "Paying for items in a market"
+    ],
+    "layout_description": "One letter page, portrait, decorative border, title, recipient line, achievement text, skill bullets, signature lines, small Penny illustration.",
+    "image_placeholders": [
+      {"id": "AS_CERT_BORDER", "description": "Decorative border for Grade 1 certificate, ~0.5in inset. Scrollwork with coin + bill motifs at corners. B&W line art.", "placement": "Frames the entire page.", "approximate_size": "full_width", "keywords": ["certificate", "border"], "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keywords name the certificate border."},
+      {"id": "AS_CERT_PENNY", "description": "Small Penny the Penguin Shopkeeper at bottom-centre, ~1.5in tall, holding a coin pouch.", "placement": "Bottom-centre.", "approximate_size": "small", "keywords": ["penny"], "text_image_alignment_check": "AS_CERT_PENNY at Bottom-centre: keyword names the penny character on certificate."}
+    ],
+    "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false}
+  }
+}

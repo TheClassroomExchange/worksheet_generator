@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 2,
+  "lesson_title": "Sort by Likelihood",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can SORT everyday events into THREE likelihood buckets: impossible, possible, certain.",
+  "learning_intention": "We are learning to sort events into three likelihood groups.",
+  "student_learning_goal": "I can sort events into three likelihood groups.",
+  "success_criteria": [
+    "I can place an event in the IMPOSSIBLE bucket.",
+    "I can place an event in the POSSIBLE bucket.",
+    "I can place an event in the CERTAIN bucket."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "impossible",
+    "possible",
+    "certain",
+    "likelihood"
+  ],
+  "manipulatives_used": [
+    "M1_event_cards",
+    "M2_likelihood_mat",
+    "M7_likelihood_chart",
+    "M10_likelihood_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Likelihood Sort'",
+    "Likelihood Sort Mat (1 per pair)",
+    "Event Cards (24 per pair)",
+    "Lesson 2 sort tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mae Sorts the Event Pile",
+    "hook": "Mae: I have a PILE of events. Help me put each one in the right bucket: IMPOSSIBLE, POSSIBLE, or CERTAIN! Mae opens: 'Will it? Maybe!' Class: 'Impossible — Possible — Certain!'",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets. 'Friends — yesterday we learned the 3 likelihood words. Today we SORT a big pile of events.'\n\nReview vocabulary. 'Impossible = never. Possible = maybe. Certain = always.'\n\nDemonstrate the sort. Show the 3-zone mat (left=IMPOSSIBLE, middle=POSSIBLE, right=CERTAIN). Place a card: 'A dog will speak words today.' Goes in IMPOSSIBLE. 'It will rain at recess.' Goes in POSSIBLE. 'Lunch will be served today.' Goes in CERTAIN.\n\nMore examples — children call out the bucket:\n- 'Snow falls in summer.' (IMPOSSIBLE)\n- 'I will see a friend smile.' (POSSIBLE)\n- 'School ends today.' (CERTAIN)\n- 'A ladybug will land on my hand.' (POSSIBLE)\n- 'I will turn 10 today.' (depends on age — usually IMPOSSIBLE for G1)\n- 'The clock will tick.' (CERTAIN)\n\n'Mae says — every event has ONE bucket. Pick the bucket. Place the card.'\n\n'Today we sort 24 events into 3 buckets.'",
+    "student_actions": [
+      "Watch Mae's sort.",
+      "Echo vocabulary.",
+      "Decide bucket for each event.",
+      "Practice placing cards on a 3-zone mat."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Sort Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: sort 6 events on a giant 3-zone mat as a class.",
+        "teacher_prompt": "Say: 'Which bucket?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Sort 12 cards (4 of each bucket). Station B: 'Hard sorts' — 8 ambiguous events that need discussion. Station C: Make Your Own — pair invents 6 events and sorts them.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station B: justify each placement with WHY ('possible because it sometimes happens at recess').",
+        "teacher_prompt": "Say: 'Stretch: explain WHY.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss tricky 'possible' events. 'POSSIBLE means it MIGHT happen. Sun shining at noon = certain in summer, possible in winter (might be cloudy).'",
+        "teacher_prompt": "Show 2 tricky events and reason aloud."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the sort tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Why is this in CERTAIN?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: 2 pairs share their sorted bins. Class compares disputed cards and votes — what evidence puts a card in CERTAIN vs POSSIBLE? Frame in Jones et al. (1997) Level 2 terms: children must justify the bin with cause-effect reasoning, not feeling.",
+        "teacher_prompt": "Mae: 'Same card, different bin? Tell me WHY. Math chance is about REASONS, not feelings.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only the obvious-impossible and obvious-certain cards.",
+      "for_extending": "Stretch at Station B with 'why' explanations.",
+      "for_ell_or_iep": "Provide a sentence frame: 'This is ___ because ___.'",
+      "for_movement_learners": "Children physically walk to 3 corners (impossible/possible/certain) when teacher reads an event."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: sorts impossible correctly; sorts possible correctly; sorts certain correctly.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Sorts impossible",
+        "Sorts possible",
+        "Sorts certain",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mae's Sort Brag",
+    "discussion_prompts": [
+      "How do you decide IMPOSSIBLE?",
+      "How do you decide CERTAIN?",
+      "When is something POSSIBLE?",
+      "Are there events that change buckets in different seasons?"
+    ],
+    "exit_routine": "Mae's call-and-response refrain — Mae calls 'Will it? Maybe!' and class chants back 'Impossible — Possible — Certain!' Repeat 3x. Each child sticks ONE event-card to the right bin on the wall chart."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Sorting accuracy across all 3 likelihood categories.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures D2.1 mastery for sorting events by likelihood."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child sorts SILLY events as POSSIBLE — repairing the silly-not-impossible trap at Grade 1",
+    "rationale": "When children sort events by likelihood, the dominant Grade-1 trap is the equiprobability bias — every outcome feels equally likely because it's all 'chance' (Fischbein 1975, 'The Intuitive Sources of Probabilistic Thinking in Children'). Jones, Langrall & Thornton (1997) Level-1-to-2 transition frames this as the move from 'anything could happen' to ordered IMPOSSIBLE → POSSIBLE → CERTAIN. Today's three-bin sort drives that ordering.\n\nLesson 1 named the three categories; today we sort within them. Lesson 3 will use the sort to PREDICT, and Lesson 4 will TEST those predictions.",
+    "setup": "Pair is at Station A. Card: 'A pig will fly to school today.' Child places it in POSSIBLE. Says 'maybe!'.",
+    "teacher_script": "Crouch. 'You put this in POSSIBLE. But Lucky asks — CAN pigs fly? Like, in real life?'\n\nChild says 'no'. 'Right. Pigs CANNOT fly. So this is IMPOSSIBLE — it CANNOT happen.'\n\nWalk through. 'POSSIBLE means it COULD happen. IMPOSSIBLE means it CANNOT — there's a real-world reason.'\n\n'Pigs can't fly because they have no wings. That's an impossible reason. Snow in July in Toronto — too warm. Impossible.'\n\nGeneralise. 'Lucky says — ask yourself: COULD this really happen in our world? Yes = possible/certain. No = impossible.'\n\nNow re-sort. Card: 'I will turn into a fish.' Impossible. Card: 'My friend will smile at me.' Possible.\n\nIf still using POSSIBLE: provide a 'reality check' question card: 'CAN this really happen?' Force the test.\n\nLong-term recovery: every sort asks 'is this real-world possible?'",
+    "expected_student_responses": [
+      "(Confused) Sorts impossible events into POSSIBLE.",
+      "(Mid) With prompting, recognizes 'cannot really happen'.",
+      "(Strong) Sorts independently using real-world possibility test.",
+      "(Stretched) Distinguishes 'unlikely possible' from 'impossible' with reasoning."
+    ],
+    "common_misconceptions": [
+      "Anything imaginable is possible. (Repair: real-world possible only.)",
+      "Silly = impossible. (Repair: silly events can be possible if real.)",
+      "Hard to do = impossible. (Repair: hard but doable = possible.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child sorts everything as POSSIBLE: pose three obviously-impossible events ('a fish will fly to the moon today') and three obviously-certain events ('we will breathe air'); child anchors those before tackling middle cases.",
+      "DIAGNOSTIC B — child sorts CERTAIN as POSSIBLE: drill 'must-happen' test — 'is it locked-in or just likely?' If locked, CERTAIN.",
+      "DIAGNOSTIC C — child swaps IMPOSSIBLE and POSSIBLE: introduce a physical sorting hoop; impossible cards must NEVER touch the centre (possible) hoop. Spatial separation prevents accidental swaps."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Mae's Sort Worksheet",
+    "purpose": "Independent practice of D2.1 sorting.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Read 6 events. Write I, P, or C.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Sort 9 events into 3 columns.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Make a tricky event for EACH category. Why does it fit?",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mae in worksheet header",
+      "6 event cards for Part 1",
+      "Sort grid for Part 2",
+      "3 blank event lines + reason boxes for Part 3"
+    ]
+  }
+}

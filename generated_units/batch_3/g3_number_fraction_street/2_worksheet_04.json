@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "lesson_number": 4,
+  "worksheet_title": "Sammy's Sharing Marathon",
+  "purpose": "Independent practice of B1.6 (fair-share with up to 10 sharers, 20 items).",
+  "student_learning_goal": "I can share up to 20 items fairly between 2, 3, 4, 5, 6, 8, or 10 friends and write the result with a mixed number when needed.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can share up to 20 items fairly between 2, 3, 4, 5, 6, 8, or 10 friends and write the result with a mixed number when needed.",
+    "character_watermark": "Sammy the Sharer in the top-right corner with paper plates. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Even Shares",
+          "student_instructions": "Share fairly with no leftovers. Draw what each plate gets. Write the per-plate count.",
+          "visual_layout": "Top of the page. Four sharing scenes in a 2x2 grid.",
+          "image_placeholders": [
+            {"id": "WS04_P1_FOUR_EVEN", "description": "Four sharing scenes in B&W line-art, 2-row × 2-column grid. Each scene ~3.5in × 1.8in. Scene A: 12 treats, 4 plates. Scene B: 15 treats, 5 plates. Scene C: 20 treats, 4 plates. Scene D: 16 treats, 8 plates.", "placement": "Top of the page; four scenes in 2x2 grid.", "approximate_size": "full_width", "keywords": ["plates"], "text_image_alignment_check": "Image WS04_P1_FOUR_EVEN: keywords (plates) name what the scenes show."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "A: 3 each (12÷4=3). B: 3 each (15÷5=3). C: 5 each (20÷4=5). D: 2 each (16÷8=2)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Mixed-Number Shares",
+          "student_instructions": "Find the leftover and cut it as a fraction. Write your answer as a mixed number.",
+          "visual_layout": "Middle. Four sharing scenes in a 2x2 grid with pre-drawn fraction-lines.",
+          "image_placeholders": [
+            {"id": "WS04_P2_FOUR_MIXED", "description": "Four sharing scenes in B&W line-art, 2-row × 2-column grid. Each ~3.5in × 1.8in. Scene A: 18 treats, 8 plates (one leftover-set with pre-drawn fourth-lines). Scene B: 14 treats, 4 plates (one leftover-set with pre-drawn half-line). Scene C: 17 treats, 5 plates (leftover with pre-drawn fifths). Scene D: 16 treats, 6 plates (leftover with pre-drawn thirds).", "placement": "Middle of the page; four scenes in 2x2 grid.", "approximate_size": "full_width", "keywords": ["fraction"], "text_image_alignment_check": "Image WS04_P2_FOUR_MIXED: keywords (fraction) name what the scenes show."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "A: 18÷8 = 2 1/4 each. B: 14÷4 = 3 1/2 each. C: 17÷5 = 3 2/5 each. D: 16÷6 = 2 2/3 each."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Sammy's Choice",
+          "student_instructions": "Sammy has 20 treats. List 5 different ways he could share them fairly between 2-10 friends. Write each as a division equation.",
+          "visual_layout": "Bottom of the page. A blank box with thinking-bubble icon.",
+          "image_placeholders": [
+            {"id": "WS04_P3_CHOICE_BOX", "description": "A blank rectangular drawing box in B&W line-art, ~7in × 2.5in, with light-grey solid outline. Sammy thinking-bubble icon in the top-right corner.", "placement": "Bottom of the page; full-width.", "approximate_size": "full_width", "keywords": ["share", "ways"], "text_image_alignment_check": "Image WS04_P3_CHOICE_BOX: keywords (share, ways) name what the box asks for."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Even shares only: 20÷2=10, 20÷4=5, 20÷5=4, 20÷10=2. Plus 20÷1=20 and 20÷20=1. Children may also list: 20÷3 = 6 2/3, 20÷6 = 3 1/3, 20÷8 = 2 1/2 (mixed-number shares — also valid)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write your own sharing scenario with 19 items and 4 friends. Solve.",
+  "teacher_notes": "Lesson 4 consolidation. Watch for: (a) Part 2 children who can deal but can't match the fraction — flag for matching-rule reteach; (b) Part 2 D (16÷6) — the trickiest, requiring 4 leftovers cut into thirds; (c) Part 3 children who only list even-divisor answers — coaching opportunity for mixed-number alternatives."
+}

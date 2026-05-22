@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 3,
+  "lesson_title": "Finding Bugs",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.2"
+  ],
+  "secondary_expectations": [
+    "C3.1"
+  ],
+  "big_idea": "A BUG is a problem in code that makes the outcome wrong.",
+  "learning_intention": "We are learning to find a bug in existing code and explain it.",
+  "student_learning_goal": "I can find a bug in existing code and explain it.",
+  "success_criteria": [
+    "I can trace code carefully step by step.",
+    "I can identify which step has the bug.",
+    "I can explain why the bug breaks the outcome."
+  ],
+  "vocabulary_introduced": [
+    "bug",
+    "outcome"
+  ],
+  "vocabulary_reinforced": [
+    "concurrent",
+    "sequential",
+    "repeating"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M2_code_cards",
+    "M3_bug_cards",
+    "M4_robot_markers",
+    "M7_loop_cards",
+    "M9_bug_chart",
+    "M10_buster_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Buzz and Patch — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Bug Types'",
+    "2-Lane Grid Mats",
+    "Buggy Code Cards (12)",
+    "Robot Markers (10)",
+    "Lesson 3 finding tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Buzz Hunts a Bug",
+    "hook": "Buzz: This code says R1 should end at (3,0). But it ends at (4,0). Where's the BUG? Buzz opens: 'TRACE it, FACE it, REPLACE it!' Yesterday we WROTE code — today we HUNT bugs.",
+    "teacher_script": "Bring children to the carpet. Buzz + Patch puppets. 'Friends — today we BUST BUGS. A bug is a problem in code that makes the outcome WRONG.'\n\nIntroduce vocabulary. Write BUG and OUTCOME on chart. 'Bug = problem in code. Outcome = what the code makes happen.'\n\nDemonstrate. Show code: R1: fwd, fwd, fwd, fwd. Expected outcome: end at (3,0) starting from (0,0). 'Trace carefully: 0→1→2→3→4. Wait, that's 4 forwards, ending at (4,0). The code says fwd 4 times but expected outcome was (3,0). The bug: ONE TOO MANY forwards.'\n\nShow the bug-types chart:\n- Wrong NUMBER (e.g., Repeat 4 instead of Repeat 3)\n- Wrong STEP (e.g., turn instead of forward)\n- Wrong ORDER (e.g., forward turn vs turn forward)\n\nMore examples:\n- Code: Repeat 5: fwd. Expected: 4 forward. BUG: number 5 should be 4.\n- Code: turn left, fwd, fwd. Expected: turn right first. BUG: wrong direction.\n- Code: fwd, turn, fwd. Expected: fwd fwd then turn. BUG: order wrong.\n\n'Buzz says — every bug has a TYPE. Find which step is wrong, then which TYPE.'\n\n'Today we trace code carefully and find bugs.'",
+    "student_actions": [
+      "Watch Buzz hunt a bug.",
+      "Echo new vocabulary: 'bug', 'outcome'.",
+      "Trace sample buggy codes.",
+      "Identify the bug step and type."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Bug-Finding Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: find bugs in 4 codes. (a) Repeat 5 should be 4. (b) Turn left should be turn right. (c) Order swap. (d) Loop count off.",
+        "teacher_prompt": "Say: 'Trace carefully. Find the bug. Name the type.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Number Bugs — pair finds 4 wrong-number bugs. Station B: Step Bugs — pair finds 4 wrong-step bugs. Station C: Order Bugs — pair finds 4 wrong-order bugs.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: find a bug in a 2-lane code where one lane is buggy.",
+        "teacher_prompt": "Say: 'Stretch: 2-lane bug.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss bug-finding strategy. 'Step 1: read expected outcome. Step 2: trace each step. Step 3: where does it diverge? Step 4: identify type.'",
+        "teacher_prompt": "Show 4-step strategy on chart."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the finding tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Where's the bug? What type?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two children share their bug-finding approaches — Strategy A 'trace from the start' vs Strategy B 'jump to the suspicious cell'. Class debates which is more reliable. Cite Pea (1986) — tracing is the canonical research-grounded approach.",
+        "teacher_prompt": "Buzz: 'Tracing is SLOW but never wrong. Jumping is FAST but risky.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only number bugs (easiest).",
+      "for_extending": "Stretch at Station C: 2-lane bugs.",
+      "for_ell_or_iep": "Provide a structured frame: 'The bug is in step ___. It's a ___ bug because ___.'",
+      "for_movement_learners": "Walk through code physically with robot tokens."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: traces carefully; identifies bug step; names bug type.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Traces carefully",
+        "Identifies bug step",
+        "Names bug type",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Buzz's Finding Brag",
+    "discussion_prompts": [
+      "What's a BUG?",
+      "Three types of bugs?",
+      "What's the bug-finding strategy?",
+      "Why do bugs hide?"
+    ],
+    "exit_routine": "Buzz's bug-busting chant — 'TRACE it, FACE it, REPLACE it!' (3x). Each child names one bug they found + which line."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Bug-finding accuracy and type identification.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures C3.2 mastery for bug finding."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child sees code is wrong but can't pinpoint the step — repairing the vague-bug-detection at Grade 3",
+    "rationale": "On bug detection, the Grade-3 trap is vague-bug naming: child says 'something's wrong' without locating the line. Pea (1986, 'Language-Independent Conceptual Bugs in Novice Programming') frames bug detection as a precise location skill — without it, Lesson 4's fixing cannot ground.\n\nYesterday Lesson 2 wrote concurrent code. Today we hunt bugs. Lesson 4 fixes; Lesson 5 capstones.",
+    "setup": "Pair is at Station A. Code expected to end at (3,0). Code: Repeat 4: fwd. Child says 'something's off'.",
+    "teacher_script": "Crouch. 'Where's it off? Let's trace step by step.'\n\nWalk through. 'Start: (0,0). Step 1: fwd → (1,0). Step 2: fwd → (2,0). Step 3: fwd → (3,0). Wait — that's where we expected to end. But the code says Repeat 4. Step 4: fwd → (4,0). That's TOO FAR.'\n\n'The bug is at step 4. The bug type: NUMBER. The Repeat says 4, but should be 3.'\n\nGeneralise. 'Buzz traces step by step. The first step where actual ≠ expected — that's the bug. Then check: is it a number, step, or order bug?'\n\nIf still vague: provide a trace template. 'Step 1: ___. Step 2: ___.' Force step-by-step.\n\nLong-term recovery: every bug-find uses step-by-step trace.",
+    "expected_student_responses": [
+      "(Confused) Says vaguely 'something's wrong'.",
+      "(Mid) Pinpoints step with prompts.",
+      "(Strong) Traces step by step; identifies bug step and type.",
+      "(Stretched) Predicts what fix would solve the bug."
+    ],
+    "common_misconceptions": [
+      "Bugs are everywhere. (Repair: bugs are at specific steps.)",
+      "I can't trace carefully. (Repair: trace one step at a time.)",
+      "Bug type doesn't matter. (Repair: type guides the fix.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names 'broken' but no line: drill 'point to the EXACT cell. Which row? Which lane?'; child must specify.",
+      "DIAGNOSTIC B — child finds line but can't name bug type: drill the categories — wrong-action, wrong-lane, missing-step, wrong-order; child labels.",
+      "DIAGNOSTIC C — child finds bug but can't articulate fix: that's Day 4 territory — for today, just LOCATING is enough."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Buzz's Bug Hunt",
+    "purpose": "Independent practice of C3.2 (find bugs).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Find the bug in 6 buggy codes. Identify the step and type.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Trace 2 codes step by step. Where does it diverge from expected?",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write your own buggy code. Plant a bug. Describe it.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Buzz in worksheet header",
+      "6 buggy code rows for Part 1",
+      "2 trace tables for Part 2",
+      "Blank code area for Part 3"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "thematic_title": "Map It, Move It!",
+  "descriptive_title": "Grade 1 Mathematics: Demonstrations — Geometric Shapes, Position, and Movement (E1.1-E1.5)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "E. Spatial Sense",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-1",
+  "curriculum_codes": ["E1.1", "E1.2", "E1.3", "E1.4", "E1.5"],
+  "curriculum_expectations": {
+    "E1.1": "sort three-dimensional objects and two-dimensional shapes according to one attribute at a time, and identify the sorting rule being used",
+    "E1.2": "construct three-dimensional objects, and identify two-dimensional shapes contained within structures and objects",
+    "E1.3": "construct and describe two-dimensional shapes and three-dimensional objects that have matching halves",
+    "E1.4": "describe the relative locations of objects or people, using positional language",
+    "E1.5": "give and follow directions for moving from one location to another"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on spatial sense (E1.1-E1.5) framed around 'Map It, Move It!' — Trekker Tig the Tiger Cub and Compass Coco the Cat. Day 1 sorts 2D and 3D shapes by attribute. Day 2 builds 3D structures and finds 2D shapes inside. Day 3 makes shapes with matching halves (symmetry). Day 4 describes relative locations with position words. Day 5 gives and follows directions in a Treasure Trail Capstone. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will sort shapes by attribute, build 3D structures, identify 2D shapes within them, make shapes with matching halves, describe locations, and give/follow directions.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Sort My Shapes",
+      "primary_expectations": ["E1.1"],
+      "secondary_expectations": [],
+      "big_idea": "We sort shapes by ONE attribute. Same shapes can be sorted in DIFFERENT ways.",
+      "student_learning_goal": "I can sort shapes by one rule and name the rule.",
+      "one_line_summary": "Tig sorts a shape pile by attribute; children sort and name their rule."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Build and Find",
+      "primary_expectations": ["E1.2"],
+      "secondary_expectations": [],
+      "big_idea": "We can BUILD 3D structures. Inside every structure are 2D SHAPES.",
+      "student_learning_goal": "I can build a 3D structure and find 2D shapes inside it.",
+      "one_line_summary": "Children build with paper blocks; identify 2D shapes on the faces."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Matching Halves",
+      "primary_expectations": ["E1.3"],
+      "secondary_expectations": [],
+      "big_idea": "A shape with MATCHING HALVES has a line of SYMMETRY. Each half is a MIRROR of the other.",
+      "student_learning_goal": "I can make shapes with matching halves.",
+      "one_line_summary": "Coco folds shapes; children identify and create matching-halves shapes."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Where Is It?",
+      "primary_expectations": ["E1.4"],
+      "secondary_expectations": [],
+      "big_idea": "We describe LOCATION with position words: above, below, beside, between, in front, behind.",
+      "student_learning_goal": "I can describe where something is using position words.",
+      "one_line_summary": "Tig hides treasures; children describe locations on a map."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Treasure Trail Capstone",
+      "primary_expectations": ["E1.5"],
+      "secondary_expectations": ["E1.1", "E1.2", "E1.3", "E1.4"],
+      "big_idea": "We can GIVE and FOLLOW directions to move from one place to another.",
+      "student_learning_goal": "I can give and follow directions to move.",
+      "one_line_summary": "Children write directions, follow a partner's directions, and find the treasure."
+    }
+  ],
+  "expectation_lesson_map": {
+    "E1.1": [1, 5],
+    "E1.2": [2, 5],
+    "E1.3": [3, 5],
+    "E1.4": [4, 5],
+    "E1.5": [5]
+  },
+  "recurring_characters": [
+    {
+      "name": "Trekker Tig the Tiger Cub",
+      "role": "Lead character. A young tiger cub explorer who loves hiking trails and finding treasures. Anchors all 5 lessons.",
+      "visual_description": "A young tiger cub with stripes wearing a small explorer's hat and backpack. Carries a walking stick. Bright eyes, curious expression."
+    },
+    {
+      "name": "Compass Coco the Cat",
+      "role": "Tig's partner. The 'directions' character — holds a compass and gives bearings. Cameo Lessons 3-5.",
+      "visual_description": "A young cat with a small compass on a chain around its neck and a tiny map under one paw. Calm, focused expression."
+    }
+  ],
+  "threaded_vocabulary": [
+    {"term": "attribute", "child_friendly_definition": "A way to describe a shape — colour, shape, size, etc."},
+    {"term": "rule", "child_friendly_definition": "How we decide what goes in each group."},
+    {"term": "structure", "child_friendly_definition": "A 3D thing we built — like a tower or a hut."},
+    {"term": "halves", "child_friendly_definition": "Two equal parts of a whole."},
+    {"term": "matching halves", "child_friendly_definition": "Two halves that are the SAME — mirror twins."},
+    {"term": "location", "child_friendly_definition": "Where something is."},
+    {"term": "direction", "child_friendly_definition": "An instruction to move — like 'forward 3 steps'."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_shape_set", "name": "Shape Set (2D + 3D)", "description": "Set of 30 paper shape tokens (2D outlines + 3D models) for sorting.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M2_3d_blocks", "name": "Paper 3D Blocks", "description": "Set of 12 paper-fold 3D blocks (cubes, cones, cylinders, pyramids, prisms).", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M3_symmetry_set", "name": "Symmetry Shape Set", "description": "Set of 16 paper shape halves for matching-halves activities.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M4_treasure_map", "name": "Treasure Map Mat", "description": "Letter-size treasure map with grid cells for placing tokens and giving directions.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M5_treasure_tokens", "name": "Treasure Tokens", "description": "Set of 12 small treasure tokens (gold, silver, gem, key) for hiding on the map.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Treasure Trail Template", "description": "Letter-size capstone template with map, direction lines, and reflection.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_attribute_chart", "name": "Attribute Anchor Chart", "description": "Anchor chart showing 6 attributes for sorting (colour, shape, size, faces, edges, vertices).", "used_in_lessons": [1, 2, 5], "clipart_files": []},
+    {"id": "M8_position_chart", "name": "Position Words Chart", "description": "Anchor chart of 6 position words with picture examples.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M9_direction_cards", "name": "Direction Cards", "description": "Set of 12 direction cards (forward, backward, left, right, up, down).", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Map It, Move It! Poster", "description": "Anchor poster of Tig and Coco with sample shapes and directions.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Shape Set (2D + 3D) (30)",
+    "Paper 3D Blocks (12 foldable)",
+    "Symmetry Shape Set (16)",
+    "Treasure Map Mat (per pair)",
+    "Treasure Tokens (12)",
+    "Treasure Trail Template (per child)",
+    "Attribute Anchor Chart",
+    "Position Words Chart",
+    "Direction Cards (12)",
+    "Map It, Move It! Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 sort-rule snapshot.",
+    "formative": "Lesson 2 build tracker; Lesson 3 symmetry tracker; Lesson 4 position tracker.",
+    "summative": "Lesson 5 treasure trail capstone."
+  },
+  "pedagogical_notes": [
+    "Grade 1 spatial work is concrete — children handle real shapes and build real structures.",
+    "Sorting precedes building — children must categorize shapes confidently before construction.",
+    "Symmetry (matching halves) introduced via folding — fold-and-cut, fold-and-look.",
+    "Position language must be precise — 'beside' is different from 'between'.",
+    "Direction-giving uses a turtle-style language: 'forward 3, turn right, forward 2'."
+  ],
+  "canadian_context_notes": [
+    "Use Canadian places for treasure maps: cabins, lakes, maple trees, snow-covered hills.",
+    "Reference Canadian symbols: maple leaf (with line of symmetry), flag.",
+    "Hockey rink layout (rectangles, circles) for shape inside structure.",
+    "Compass directions familiar to Canadian students from outdoor education."
+  ]
+}

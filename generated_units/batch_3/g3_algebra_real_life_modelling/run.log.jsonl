@@ -1,0 +1,19 @@
+{"ts": "2026-05-04T08:25:05+00:00", "stage": "blueprint", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:28:11+00:00", "stage": "lesson_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:29:46+00:00", "stage": "lesson_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:32:07+00:00", "stage": "lesson_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:34:09+00:00", "stage": "lesson_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:36:06+00:00", "stage": "lesson_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:38:38+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:38:38+00:00", "stage": "worksheet_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:38:38+00:00", "stage": "worksheet_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:38:38+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:38:38+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:40:19+00:00", "stage": "manipulatives", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for Manipulatives\nassets.6.purpose\n  String should have at least 20 characters [type=string_too_short, input_value='30 per pair.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short"}
+{"ts": "2026-05-04T08:40:23+00:00", "stage": "manipulatives", "transition": "failed→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for Manipulatives\nassets.6.purpose\n  String should have at least 20 characters [type=string_too_short, input_value='30 per pair.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short"}
+{"ts": "2026-05-04T08:40:32+00:00", "stage": "manipulatives", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:40:41+00:00", "stage": "manipulatives", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:44:01+00:00", "stage": "formative_reflection", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:44:01+00:00", "stage": "assessment_suite", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:44:01+00:00", "stage": "marketplace", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T08:44:27+00:00", "stage": "rubric_grade", "transition": "pending→done", "attempt": 0, "error": null}

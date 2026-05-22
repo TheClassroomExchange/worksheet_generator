@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 3,
+  "worksheet_title": "Maya's Tricky Facts Workshop",
+  "purpose": "Independent practice of B2.6 (multiplication to 10×10).",
+  "student_learning_goal": "I can represent any multiplication fact up to 10×10 as an array and find the related division.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can represent any multiplication fact up to 10×10 as an array and find the related division.",
+    "character_watermark": "Maya in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Tricky Facts",
+          "student_instructions": "For each fact, write the array dimensions and the answer.",
+          "visual_layout": "Top of the page. Six tricky-fact array boxes in a 2x3 grid.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_SIX_TRICKY",
+              "description": "Six fact array boxes in B&W line-art, 2-row × 3-column grid. Each ~2.2in × 1.8in. Pre-fills: 6×7, 7×8, 8×9, 9×6, 7×6, 8×7. Each box has 'rows × columns = ___' format.",
+              "placement": "Top of the page; 2x3 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "array",
+                "tricky"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_SIX_TRICKY: keywords (array, tricky) name what the boxes ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "6×7=42. 7×8=56. 8×9=72. 9×6=54. 7×6=42. 8×7=56."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Use What You Know",
+          "student_instructions": "Each problem shows a hint. Use the hint to find the related fact.",
+          "visual_layout": "Middle. Six hint-and-derive rows.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_HINTS",
+              "description": "Six rows in B&W line-art, stacked vertically. Each ~7in × 0.7in. Format: hint on left (e.g., '5×7=35'), arrow, target fact (e.g., '6×7=___'). Hints/targets: (5×7=35 → 6×7), (10×8=80 → 9×8), (5×6=30 → 7×6), (10×9=90 → 9×9), (5×8=40 → 7×8), (10×7=70 → 8×7).",
+              "placement": "Middle of the page; six rows.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "hint",
+                "derive"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_HINTS: keywords (hint, derive) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "5×7=35 → 6×7=42 (35+7). 10×8=80 → 9×8=72 (80-8). 5×6=30 → 7×6=42 (30+12). 10×9=90 → 9×9=81 (90-9). 5×8=40 → 7×8=56 (40+16). 10×7=70 → 8×7=56 (70-14)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Multiplication Chart",
+          "student_instructions": "Fill in the missing cells of the chart.",
+          "visual_layout": "Bottom of the page. A partial 10×10 multiplication chart.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_CHART",
+              "description": "A partial 10×10 multiplication chart in B&W line-art, ~7in × 7in. Some cells filled in (the ×2, ×5, ×10 rows and columns plus a few others); ~30 cells blank for the child to fill.",
+              "placement": "Bottom of the page; full chart.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "chart",
+                "multiplication"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_CHART: keywords (chart, multiplication) name what the page shows."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Standard 1-10 multiplication chart values. Children fill the ×3, ×4, ×6, ×7, ×8, ×9 rows."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Inverse facts.",
+          "student_instructions": "For each multiplication fact, write its inverse division facts: (a) 6×4 = 24; (b) 7×8 = 56; (c) 9×3 = 27.",
+          "visual_layout": "A 3-row table: each row has the multiplication fact on the left and two blank lines for inverse divisions on the right.",
+          "image_placeholders": [],
+          "student_response_type": "write",
+          "answer_key": "(a) 24÷6=4, 24÷4=6. (b) 56÷7=8, 56÷8=7. (c) 27÷9=3, 27÷3=9."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, find a fact in the chart that has a square answer (e.g., 4×4=16). List 3.",
+  "teacher_notes": "Lesson 3 consolidation. Use Part 2 to assess distributive property fluency. Part 4 added to assess SC3 (related division) — verifies multiplication-division inverse fluency."
+}

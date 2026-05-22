@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "lesson_number": 2,
+  "lesson_title": "Town Data Day",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We answer math questions by collecting DATA. Counts, measurements, observations.",
+  "learning_intention": "We are learning to collect data to answer a math question about our town.",
+  "student_learning_goal": "I can collect data to answer a math question about my town.",
+  "success_criteria": [
+    "I can pick a math question to investigate.",
+    "I can record data on a chart (counts or measurements).",
+    "I can use the data to answer the question."
+  ],
+  "vocabulary_introduced": [
+    "data"
+  ],
+  "vocabulary_reinforced": [
+    "model",
+    "real-life situation"
+  ],
+  "manipulatives_used": [
+    "M1_town_map",
+    "M2_data_charts",
+    "M3_modelling_chart",
+    "M7_two_colour_counters",
+    "M8_number_line",
+    "M9_mayor_chart",
+    "M10_town_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Mayor Mira and Town Tom — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Collecting Data'",
+    "Town Data Collection Charts (6)",
+    "Per-pair counters (~30)",
+    "Per-pair number line to 100",
+    "Per-pair town map",
+    "Lesson 2 data tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mayor Mira's Data Day",
+    "hook": "Mayor Mira asks: How many buses come to school each day? Let's COUNT to find out. Mira opens: 'COUNT IT, don't GUESS IT — every tally tells the truth!'",
+    "teacher_script": "Bring children to the carpet. Mayor Mira + Town Tom puppets. 'Friends — yesterday we asked QUESTIONS. Today we ANSWER them by collecting DATA. Data is numbers we count or measure.'\n\nIntroduce vocabulary. Write DATA on the chart. 'Data is what we count. Data is what we measure. Data answers our math questions.'\n\nDemonstrate. 'Mayor Mira asks: How many buses come to school each morning? Town Tom counts. Let's say he counts 5 yellow school buses. The DATA is 5. The answer to our question: 5 buses.'\n\nWrite on the chart:\nQuestion: How many buses?\nData: 5\nAnswer: 5 buses arrive each morning.\n\nMore examples:\nQuestion: How many books does the library lend?\nData: Tally on Friday → 28 books.\nAnswer: 28 books on Friday.\n\nQuestion: How long is recess?\nData: Time it → 15 minutes.\nAnswer: Recess is 15 minutes.\n\n'Data is the BRIDGE between the question and the answer. Without data, we just have guesses. With data, we have a real model.'\n\nIntroduce the data table. 'A data table has TWO columns: ITEM and COUNT. We tally each thing.' Demonstrate filling in a table for buses, books, recess minutes.\n\n'Today we collect data for many town situations.'",
+    "student_actions": [
+      "Listen to Mayor Mira's data demo.",
+      "Echo new vocabulary: 'data'.",
+      "Predict possible data values.",
+      "Try a tally chart together."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Town Data Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: collect data for 4 imagined town situations. (a) Buses: 5 each morning x 5 days. (b) Library books: 28 Mon, 32 Tue, 25 Wed. (c) Recess minutes: 15 minutes per recess. (d) Cafeteria sandwiches: 60 sold at lunch.",
+        "teacher_prompt": "Say to students: 'Use the data table. Record each count.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Library Data — pair fills in book counts for 5 days. Station B: Recess Data — pair tallies recess activities (skipping, basketball, monkey bars). Station C: Bus Data — pair counts buses arriving and tallies on the data chart.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: collect data for TWO different days. Compare. Look for patterns.",
+        "teacher_prompt": "Say to extending pairs: 'Stretch: 2-day comparison. Where are the differences?'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss data quality. 'Good data is COUNTABLE. Tally marks count things. Numbers measure things. Both are data.'",
+        "teacher_prompt": "Show the modelling chart. 'Step 2 of modelling: DATA. After we ask a question, we collect data to answer.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the data tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'How many ___? Show me the data.' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: One pair tallies in singles, another groups in fives, a third uses two-colour counters as a moving count. Class compares which is faster, which is more accurate, which is easier to USE downstream. Cite Lehrer & Schauble (2002) on data work — recording strategies trade off speed-of-creation vs speed-of-reuse.",
+        "teacher_prompt": "Mira: 'Same count, different recording. Pick the one your future self can READ.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only single-day counts. Tally each item.",
+      "for_extending": "Stretch at Station C: 2-day comparison.",
+      "for_ell_or_iep": "Provide a structured frame: 'I counted ___. The data is ___.'",
+      "for_movement_learners": "Walk around the classroom counting items (chairs, books, posters). Tally on a chart. NO-MATERIALS PATH: clap or tap once per item counted; track tallies on fingers (one finger up per five). Body becomes the data table — no paper required."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks a question; records data on chart; uses data to answer.",
+      "how_to_record": "Tick the data tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Picks a question",
+        "Records data accurately",
+        "Uses data to answer",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mayor Mira's Data Brag",
+    "discussion_prompts": [
+      "What does DATA mean?",
+      "Why do we collect data?",
+      "Can we model without data? Why or why not?",
+      "What's a town situation you'd collect data on?",
+      "Mira's preview: tomorrow we use TODAY'S DATA to PREDICT what happens NEXT (Lesson 3 — C4.2). Why is recording today's count important for tomorrow's prediction?"
+    ],
+    "exit_routine": "Mayor Mira's data refrain — class chants 3x: 'Mayor Mira's rule: COUNT IT, don't GUESS IT — every tally tells the truth!' Each child reads their tally row aloud and uses the count in one sentence."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Data collection accuracy and chart use.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures C4 step 2 (data). Children at L4 record data accurately and use it to answer the question."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child estimates instead of counting — repairing the guess-instead-of-count trap at Grade 2",
+    "rationale": "On counting + recording town data, the dominant Grade-2 trap is the count-vs-estimate confusion: child reports 'about 30' for a set they CAN count exactly, blurring data with guess. CGI work (Carpenter, Fennema & Franke) on cardinality + Lehrer & Schauble (2002, 'Investigating Real Data in the Classroom') frame tally-and-total as the prerequisite for every later prediction.\n\nYesterday Lesson 1 asked the math questions. Today we COUNT and RECORD what those questions point at. Tomorrow (Lesson 3 — C4.2) uses today's DATA to PREDICT what happens next.",
+    "setup": "Pair is at Station A. The data table asks for books returned each day. Child writes 'about 30' for Monday.",
+    "teacher_script": "Crouch beside the child. 'About 30 is a GUESS. The data table needs a COUNT.'\n\nThe child looks confused. 'Mayor Mira says — count each book one at a time. Make a TALLY mark for each. Then count the tallies.'\n\nWalk through. 'Pretend it's Monday. We see 28 books on the return cart.' Child tallies. ||||| ||||| ||||| ||||| ||||| ||| (5 groups of 5 = 25 + 3 more = 28). 'There. Data is 28, not about 30.'\n\nGeneralise. 'Mayor Mira always counts CAREFULLY. Tally one at a time. Numbers are exact.'\n\nIf the child STILL estimates: provide a tally chart with explicit slots. 'Make 1 tally per item. No guessing.' Build the count-don't-guess reflex.\n\nLong-term recovery: every data-collection task uses tallies. Praise the count, not the guess.",
+    "expected_student_responses": [
+      "(Confused) Estimates instead of counting.",
+      "(Mid) Counts with prompts; uses tallies.",
+      "(Strong) Counts independently using a tally chart.",
+      "(Stretched) Compares counts across days; explains differences."
+    ],
+    "common_misconceptions": [
+      "Estimates count as data. (Repair: data is counted or measured.)",
+      "Tallies are unnecessary. (Repair: tallies are the most accurate way to count.)",
+      "I don't need a chart. (Repair: data tables organise counts and prevent miscounts.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child writes 'about 30' but CAN count to 30: drill count-vs-estimate distinction, require a tally row with one mark per item; total is COUNTED not estimated.",
+      "DIAGNOSTIC B — child writes 'a lot' and cannot count: drop to a smaller cluster (10 items), child counts in singles before any tally grouping.",
+      "DIAGNOSTIC C — child counts but doesn't record: pre-printed tally rows; child SAYS-and-MARKS one tally per said number, no skipping."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Mayor Mira's Town Data",
+    "purpose": "Independent practice of C4 step 2 (data collection).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Count and record data for 4 town situations on a tally chart.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Use your data to answer 3 questions.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick a real-life thing in your town. Count and record. Write 1 question your data answers.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mayor Mira in the worksheet header",
+      "4 town tally rows for Part 1",
+      "3 question slots for Part 2",
+      "A blank data box for Part 3"
+    ]
+  }
+}

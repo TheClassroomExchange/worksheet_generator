@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 3,
+  "lesson_title": "Equivalent in Multiplication and Division",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Two expressions are EQUIVALENT when their products or quotients are the same value.",
+  "learning_intention": "We are learning to determine whether multiplication and division expressions are equivalent.",
+  "student_learning_goal": "I can determine whether multiplication and division expressions are equivalent.",
+  "success_criteria": [
+    "I can compute products and quotients.",
+    "I can decide if two expressions are EQUIVALENT or NOT.",
+    "I can use both x and ÷ to make equivalent expressions."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "variable",
+    "equivalent",
+    "expression",
+    "equation",
+    "balance"
+  ],
+  "manipulatives_used": [
+    "M2_balance_mat",
+    "M4_multiplication_cards",
+    "M7_two_colour_counters",
+    "M8_number_line",
+    "M9_equation_chart",
+    "M10_engineer_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Eddy and Vex — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Equivalent: x and ÷'",
+    "Big Balance Scale Mats",
+    "Multiplication/Division Equivalence Cards (24)",
+    "Per-pair counters and number line",
+    "Lesson 3 mult/div tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Eddy Tests Mult/Div Pairs",
+    "hook": "Eddy: 4x6 = 24. Vex: 8x3 = 24. Are these equivalent?",
+    "teacher_script": "Bring children to the carpet. Eddy + Vex puppets. 'Friends — yesterday we tested + and -. Today we test x and ÷.'\n\nEddy says 4x6. Vex says 8x3. 'Both equal 24. So 4x6 and 8x3 are EQUIVALENT.'\n\nWrite on chart:\n4 x 6 = 24\n8 x 3 = 24\nSo: 4x6 = 8x3 (both equivalent for 24).\n\nMore examples:\n- 5 x 8 = 40 vs 10 x 4 = 40. EQUIVALENT.\n- 6 x 7 = 42 vs 6 x 8 = 48. NOT equivalent.\n- 24 ÷ 2 = 12 vs 36 ÷ 3 = 12. EQUIVALENT.\n- 100 ÷ 4 = 25 vs 50 ÷ 2 = 25. EQUIVALENT.\n- 60 ÷ 6 = 10 vs 5 x 2 = 10. EQUIVALENT (across operations).\n\n'Eddy says — equivalence works ACROSS operations. A multiplication can equal a division.'\n\nNow link to factors. 'Equivalent multiplications use FACTORS of the same product. 24 = 1x24 = 2x12 = 3x8 = 4x6. All equivalent.'\n\nAnd division. 'Division equivalents come from rearranging. 24÷2 = 12. So 12x2 = 24.'\n\n'Today we test pairs across multiplication and division. Compute, compare, verify.'",
+    "student_actions": [
+      "Watch Eddy test pairs.",
+      "Compute products and quotients.",
+      "Decide equivalent or not.",
+      "Find factor pairs."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Mult/Div Equivalence Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: test 4 pairs. (a) 5x6 vs 6x5. (b) 4x9 vs 36÷1. (c) 24÷4 vs 30÷5. (d) 8x10 vs 100-20.",
+        "teacher_prompt": "Say: 'Compute. Decide equivalent or not. Show how.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Mult Pairs — pair tests 6 multiplication pairs. Station B: Div Pairs — pair tests 6 division pairs. Station C: Mixed — pair tests 6 mixed-operation pairs.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: factor a number into 3+ equivalent multiplications.",
+        "teacher_prompt": "Say: 'Stretch: list 3 factor pairs for the same product.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss patterns. (a) Commutative: axb = bxa. (b) Inverse: 24÷4 = 6 because 4x6 = 24. (c) Identity: x1 doesn't change.",
+        "teacher_prompt": "Show patterns on the chart."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the mult/div tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Equivalent? How?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only products under 30.",
+      "for_extending": "Stretch at Station C: cross-operation pairs (mult vs div).",
+      "for_ell_or_iep": "Provide a structured frame: '___ = ___, so equivalent.'",
+      "for_movement_learners": "Use the balance physically — counters as equal-groups."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: computes both; decides equivalent/not; uses x and ÷.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Computes both",
+        "Decides equivalent or not",
+        "Uses x and ÷",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Eddy's Mult/Div Brag",
+    "discussion_prompts": [
+      "Can a multiplication and a division be equivalent? Example?",
+      "What's the inverse relationship?",
+      "What does commutative mean?",
+      "How do you check on the balance?"
+    ],
+    "exit_routine": "Each child writes ONE equivalent pair on a sticky note: '___ x ___ = ___ ÷ ___'."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Mult/div equivalence accuracy.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures C2.2 mastery for x and ÷."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child treats x and ÷ as 'always different' — repairing the cross-operation block at Grade 3",
+    "rationale": "The most common Grade-3 trap on C2.2 mult/div is the cross-operation block: the child won't accept that a multiplication can equal a division. They think 24÷4 and 12 must be different because they look like different operations.\n\nThis matters because equivalence is operation-agnostic. The Grade-3 foundation is: equivalence is about VALUE, not operation type.\n\nThe walkthrough covers the precise moment when a child rejects cross-operation equivalence.",
+    "setup": "Pair is at Station C. Pair: 24÷6 vs 2x2. Child says 'NOT equivalent because one is division and one is multiplication'.",
+    "teacher_script": "Crouch beside the child. 'You're right that they LOOK different. But Eddy says compute both. 24÷6 = 4. 2x2 = 4. Same value.'\n\nWalk through. 'Equivalence doesn't care about operations. It cares about VALUE. If both expressions have value 4, they're equivalent.'\n\nGeneralise. 'Eddy shows on the balance: 4 counters on left (from 24÷6), 4 counters on right (from 2x2). They balance. Equivalent.'\n\nNow practice. Show 100÷2 vs 25x2. Compute. 50 = 50. Equivalent.\n\nIf the child STILL blocks: provide a sentence frame. '___ = (compute), ___ = (compute). Same value? Equivalent.' Force the value-first reflex.\n\nLong-term recovery: drill 'value matters, not operation'.",
+    "expected_student_responses": [
+      "(Confused) Rejects cross-operation pairs.",
+      "(Mid) Accepts with prompts.",
+      "(Strong) Computes both and accepts equivalence regardless of operation.",
+      "(Stretched) Generates cross-operation equivalent pairs."
+    ],
+    "common_misconceptions": [
+      "Different operations = different values. (Repair: value depends on computation, not operation.)",
+      "Multiplication is bigger than division. (Repair: not always; depends on numbers.)",
+      "I can only compare same operations. (Repair: equivalence works across all operations.)"
+    ],
+    "recovery_moves": [
+      "Drill 'value matters, not operation'.",
+      "Show same-value cross-operation pairs.",
+      "Verify on the balance every time."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Eddy's Mult/Div Test",
+    "purpose": "Independent practice of C2.2 (mult/div equivalence).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Test 8 pairs of mult/div expressions for equivalence.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Find a partner expression that's equivalent to a given one (4 questions, mixed operations).",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write 3 cross-operation equivalent pairs (multiplication = division).",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Eddy in the worksheet header",
+      "8 pair rows for Part 1",
+      "4 partner-finding rows for Part 2",
+      "3 blank slots for Part 3"
+    ]
+  }
+}

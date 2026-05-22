@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "lesson_number": 4,
+  "worksheet_title": "Tally's Mode Hunt",
+  "purpose": "Independent practice of D1.4.",
+  "student_learning_goal": "I can find the mode of a data set.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find the mode of a data set.",
+    "character_watermark": "Tally with a clipboard pointing at a graph in the top-right corner. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Find the mode.",
+          "student_instructions": "Find the mode in 4 displays.",
+          "visual_layout": "4 small displays stacked: tally, pictograph, bar graph, line plot.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_DISPLAYS",
+              "description": "4 small data displays for a Grade 2 worksheet, B&W line art. Display 1: tally chart (apples 5, bananas 3, grapes 2). Display 2: pictograph (dogs 4, cats 6, fish 1). Display 3: bar graph (sports). Display 4: line plot of sizes. Each display ~3in × 1.5in.",
+              "placement": "Centred vertically in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "tally",
+                "pictograph",
+                "bar"
+              ],
+              "text_image_alignment_check": "WS04_P1_DISPLAYS at Part 1: instructions ask the child to find mode in different displays. Keywords name the visual elements."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Display 1 mode: apples. Display 2 mode: cats. Display 3 mode: hockey (or whichever tallest). Display 4 mode: most common size."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Special cases.",
+          "student_instructions": "Look at 2 special data sets. Identify NO MODE or TWO MODES.",
+          "visual_layout": "Two data sets shown in tally chart form: Set 1 with all categories tied; Set 2 with two categories tied higher than the third.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_SPECIAL",
+              "description": "2 special data sets for a Grade 2 worksheet, B&W line art. Set 1 (no mode): all categories tied at 3 each. Set 2 (bimodal): two categories tied at 4 each, one at 2.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "no mode",
+                "two modes"
+              ],
+              "text_image_alignment_check": "WS04_P2_SPECIAL at Part 2: instructions ask the child to identify special cases. Keywords name the categories."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Set 1: NO MODE. Set 2: TWO MODES (whichever are tied)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make your own.",
+          "student_instructions": "Make a data set with a clear mode. List 5 values.",
+          "visual_layout": "Five numbered writing lines for the child to list 5 data values, with a header that reads My data set.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_LINES",
+              "description": "5 numbered lines for a Grade 2 worksheet, B&W line art. Above: 'My data set:'. 5 numbered lines below for writing values.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "data",
+                "mode"
+              ],
+              "text_image_alignment_check": "WS04_P3_LINES at Part 3: instructions ask the child to make a data set. Keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 5-value data set with a clear most-common value (e.g., 5,5,3,2,1 — mode 5)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a sentence about the mode.",
+  "teacher_notes": "Lesson 4 consolidation. Use Part 2 for formative — recognizing special cases."
+}

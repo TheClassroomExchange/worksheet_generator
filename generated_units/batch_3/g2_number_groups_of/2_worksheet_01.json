@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "lesson_number": 1,
+  "worksheet_title": "Mae's Big Sum Warm-Up",
+  "purpose": "Independent practice of B2.2 (facts to 20) and B2.3 (mental strategies to 50). Captures diagnostic-level evidence for the unit.",
+  "student_learning_goal": "I can recall addition facts to 20 and use mental strategies to add and subtract within 50.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can recall addition facts to 20 and use mental strategies to add and subtract within 50.",
+    "character_watermark": "Mae the Multiplier in the top-right corner with × symbol patches on her apron. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Doubles and Near-Doubles",
+          "student_instructions": "Fill in each fact. Watch for doubles and near-doubles.",
+          "visual_layout": "Top of the page. An 8-row table with a fact on each row.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_FACTS_TABLE",
+              "description": "An 8-row fact-fluency table in B&W line-art. Each row has two pre-filled addend boxes and a blank sum box. Rows: 6+6, 7+7, 8+8, 9+9, 10+10, 5+6, 7+8, 8+9.",
+              "placement": "Top of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "doubles",
+                "near-doubles"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_FACTS_TABLE: keywords (doubles, near-doubles) name what the table shows."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "6+6=12. 7+7=14. 8+8=16. 9+9=18. 10+10=20. 5+6=11. 7+8=15. 8+9=17."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Make-Ten Move",
+          "student_instructions": "Each double ten-frame shows the starting position. Draw the make-ten arrow. Write the equation chain.",
+          "visual_layout": "Upper-middle. Four double ten-frame scenes in a 2x2 grid.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_FOUR_TEN_FRAMES",
+              "description": "Four double ten-frame scenes in B&W line-art, 2-row × 2-column grid. Each scene shows a top ten-frame and a bottom ten-frame stacked. Pre-fills: TF1 — top 8 red, bottom 5 red (8+5); TF2 — top 9 red, bottom 6 red (9+6); TF3 — top 7 red, bottom 5 red (7+5); TF4 — top 9 red, bottom 7 red (9+7). Below each scene, an equation chain.",
+              "placement": "Upper-middle; four scenes in 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "ten-frame",
+                "make-ten"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_FOUR_TEN_FRAMES: keywords (ten-frame, make-ten) name what the scenes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "TF1: 8+5 = 8+2+3 = 10+3 = 13. TF2: 9+6 = 9+1+5 = 10+5 = 15. TF3: 7+5 = 7+3+2 = 10+2 = 12. TF4: 9+7 = 9+1+6 = 10+6 = 16."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Chunk by Tens",
+          "student_instructions": "Chunk each number into tens and ones. Add the tens. Add the ones. Combine.",
+          "visual_layout": "Middle-lower. Four chunking problems in a 2x2 grid.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_FOUR_CHUNKS",
+              "description": "Four chunking-by-tens problem boxes in B&W line-art, 2-row × 2-column grid. Each box ~3in × 1.5in. Format per box: problem on top (e.g., '32 + 15 = ?'); chunked working area below ('30+2 + 10+5 = ___ + ___ = ___'); answer line. Problems: 32+15, 47+22, 65-30, 38-15.",
+              "placement": "Middle-lower; four boxes in 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "chunk",
+                "tens"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_FOUR_CHUNKS: keywords (chunk, tens) name the problem layout."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "32+15: 30+2+10+5 = 40+7 = 47. 47+22: 40+7+20+2 = 60+9 = 69. 65-30: 60+5-30 = 30+5 = 35. 38-15: 30+8-10-5 = 20+3 = 23."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Strategy Choice",
+          "student_instructions": "For each fact, circle the strategy you would use.",
+          "visual_layout": "Bottom. Four rows. Each row has a fact and four strategy bubbles.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P4_STRATEGY_CHOICE",
+              "description": "Four rows in B&W line-art. Each row ~7in wide. Format: fact box on left, four strategy bubbles to the right (DOUBLE / NEAR-DOUBLE / MAKE-TEN / CHUNK-BY-TENS). Facts: 7+7, 9+5, 32+15, 5+12.",
+              "placement": "Bottom of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "strategy",
+                "choice"
+              ],
+              "text_image_alignment_check": "Image WS01_P4_STRATEGY_CHOICE: keywords (strategy, choice) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "7+7: DOUBLE. 9+5: MAKE-TEN. 32+15: CHUNK-BY-TENS. 5+12: NEAR-DOUBLE (or accept count-on for 5+12)."
+        },
+        {
+          "part_number": 5,
+          "part_title": "Part 5: TRANSFER — Mae's story.",
+          "student_instructions": "Mae has 28 paper kittens. Buddy delivers 15 more. How many kittens? Show the chunk-by-tens working.",
+          "visual_layout": "Speech bubble from Mae stating the story; below, a 4-row chunk-by-tens working frame: 'Tens: ___ + ___ = ___' / 'Ones: ___ + ___ = ___' / 'Combine: ___ + ___ = ___' / 'Total: ___'.",
+          "image_placeholders": [],
+          "student_response_type": "write",
+          "answer_key": "Tens: 20+10=30; Ones: 8+5=13; Combine: 30+13=43. Total: 43 kittens. Accept any chunk-by-tens working that arrives at 43."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write THREE chunk-by-tens problems of your own and solve them.",
+  "teacher_notes": "Lesson 1 consolidation. Hand out at the end of the Action phase. Use Part 3 as the strongest evidence for B2.3 chunking — children who can articulate the four-step chunk move are at L4. Watch for: Part 1 fluency gaps (children who slow down on 7+8 or 8+9 need a doubles drill); Part 3 children who default to count-all (need explicit chunking reteach). Part 5 added as TRANSFER probe — story problem requiring chunk-by-tens working. Verifies strategy generalises beyond lesson examples."
+}

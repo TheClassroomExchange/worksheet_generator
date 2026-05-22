@@ -1,0 +1,56 @@
+{
+  "pair_number": 2,
+  "unit_id": "g2_financial_tap_to_pay",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Skip-count to 100.', 'Drill STOP at target.', 'Compare exact vs over.'] — concrete but does not branch by what the diagnostic shows, and the over-shoot trap is not anchored to named research (CGI types, Carpenter & Moser, or Empson on equivalence).",
+      "required_fix": "Cite the misconception by name (e.g., target-monitoring failure / counting-on-without-anchoring as in Carpenter & Moser CGI 'join-result-unknown' chains) and branch recovery_moves: if child overshoots by exactly one coin, drill the 'STOP at 100' verbal anchor; if child cannot skip-count by 25s/10s reliably, drop back to one-by-one penny counting on the hundreds chart before reintroducing skip-count; if child reaches 100 but cannot articulate 'exact', use a comparison frame ($1.00 vs $1.25 with two record strips side-by-side).",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Coin Cards (1 set per pair)' and 'Record Strips' as required, and differentiation.for_movement_learners says 'Walk to coin stations' — there is no NO-PAPER, NO-PURCHASE fallback for a day when paper coin cards weren't pre-cut.",
+      "required_fix": "Add an explicit no-materials path to differentiation: 'No-paper version — children use 10 fingers as 10¢ each (10 fingers = $1 = 10 dimes), or tap the carpet 4 times saying 25-50-75-100 for 4 quarters, or clap groups (4 claps for quarters, 10 taps for dimes). Body becomes the combo recorder; record on chart paper at end.' This makes Lesson 2 runnable on any day, including days when prep was not possible.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = 'Each child shares ONE: My $1 combo: ___.' and consolidation.discussion_prompts list factual recall questions only — there is no distinctive quotable refrain children carry between lessons. Lou says 'many ways add to 100¢ = $1' once but it is not a memorable chant.",
+      "required_fix": "Give Loonie Lou a quotable refrain and use it as the exit chant: e.g., 'Lou's Loonie Cheer — One hundred cents, ONE LOONIE LOU! Many coin combos make a buck for you!' Have children chant it back at minds_on close and again at exit_routine, with a body movement (hands form a circle for the loonie). This refrain should reappear in Lessons 3-5 so children remember it months later.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale = 'Common Grade-2 trap on F1.1: child overshoots target. 5 quarters = $1.25, not $1.' — the over-shoot trap is correctly named but is not grounded in named research, and the action.steps push pairs to find 3 ways without an explicit invent-and-compare-strategies move (steps 1-2 say 'Find 3 ways' / 'Write combos'; only the stretch in step 3 hints at strategy refinement).",
+      "required_fix": "Add a strategy-comparison consolidation move before the exit chant: have 2-3 pairs share their $1 combo, then ask the class 'Whose combo used the FEWEST coins? Whose used the MOST? What did Tappy notice?' — making children compare and refine their own strategies. In the expanded_walkthrough.rationale, anchor the trap to named research: 'Equivalent-amount tasks at G2 expose the cardinality-vs-running-total confusion (Carpenter, Fennema, Franke 1996 CGI; Sarama & Clements 2009 on monetary equivalence). Children treat each coin-add as a successful step rather than monitoring the running total against the target 100¢.'",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ]
+}

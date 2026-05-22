@@ -1,0 +1,81 @@
+{
+  "schema_version": 1, "unit_id": "g2_financial_tap_to_pay",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker", "title": "G2 Tap to Pay — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1.", "expectation_focus": ["F1.1"],
+    "columns": ["Student name", "Makes 50¢", "Records combos", "Finds 3 ways", "Notes"],
+    "usage_notes": "Walk between pairs to observe combo creation. Tick where evidence is clear.",
+    "layout_description": "One letter page, portrait, 5-column tick table with 24 rows.",
+    "image_placeholders": [{"id": "AS_DIAG_TRACKER", "description": "Diagnostic tracker for Grade 2 teacher. Title: 'G2 Tap to Pay — Day 1'. F1.1 focus.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "combos"], "text_image_alignment_check": "AS_DIAG_TRACKER: keywords name the tracker and combos focus."}]
+  },
+  "formative_trackers": [
+    {"tracker_id": "formative_tracker_lesson_02", "title": "G2 Tap to Pay — Lesson 2 Formative ($1)",
+     "when_used": "During Lesson 2.", "expectation_focus": ["F1.1"],
+     "columns": ["Student name", "Makes $1", "Records combos", "Finds 3 ways", "Notes"],
+     "usage_notes": "Stop at each pair to observe $1 combo creation.",
+     "layout_description": "Identical to diagnostic.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L2", "description": "Lesson 2 formative tracker for Grade 2 money unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "loonie"], "text_image_alignment_check": "AS_FORM_TRACKER_L2: keywords name the tracker and loonie focus."}]},
+    {"tracker_id": "formative_tracker_lesson_03", "title": "G2 Tap to Pay — Lesson 3 Formative (Mix)",
+     "when_used": "During Lesson 3.", "expectation_focus": ["F1.1"],
+     "columns": ["Student name", "Makes $35", "Records combos", "Mixes bills + coins", "Notes"],
+     "usage_notes": "Stop at each pair to observe bill/coin mixing.",
+     "layout_description": "Identical layout, Lesson 3 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L3", "description": "Lesson 3 formative tracker for Grade 2 money unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "mix"], "text_image_alignment_check": "AS_FORM_TRACKER_L3: keywords name the tracker and mix focus."}]},
+    {"tracker_id": "formative_tracker_lesson_04", "title": "G2 Tap to Pay — Lesson 4 Formative ($100)",
+     "when_used": "During Lesson 4.", "expectation_focus": ["F1.1"],
+     "columns": ["Student name", "Identifies $100", "Makes $150", "Records combos", "Notes"],
+     "usage_notes": "Stop at each pair to observe $150 work.",
+     "layout_description": "Identical layout, Lesson 4 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L4", "description": "Lesson 4 formative tracker for Grade 2 money unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "hundred"], "text_image_alignment_check": "AS_FORM_TRACKER_L4: keywords name the tracker and hundred focus."}]}
+  ],
+  "summative_rubric": {
+    "title": "G2 Tap to Pay — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 to score against F1.1.",
+    "rows": [
+      {"expectation_code": "F1.1", "expectation_text": "identify different ways of representing the same amount of money up to Canadian 200¢ using various combinations of coins, and up to $200 using various combinations of $1 and $2 coins and $5, $10, $20, $50, and $100 bills",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot make a combo. Wrong totals."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Makes 1 combo with prompts."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently finds 3 combos for amounts up to $200."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Finds fewest pieces and explains equivalence."}]}
+    ],
+    "usage_notes": "Score during Lesson 5 capstone. Level 3 = grade-level.",
+    "layout_description": "One letter page, landscape, 1-row × 4-level grid.",
+    "image_placeholders": [{"id": "AS_RUBRIC", "description": "Summative rubric for Grade 2 G2 Tap to Pay unit. 1-row × 4-level table.",
+      "placement": "Full page.", "approximate_size": "full_width", "keywords": ["rubric", "money"], "text_image_alignment_check": "AS_RUBRIC: keywords name the rubric and money focus."}]
+  },
+  "summative_task_script": {
+    "title": "Big Tap-to-Pay Capstone — Summative Administration Guide",
+    "purpose": "Ties Lesson 5 capstone, the 4 stations, and the rubric together.",
+    "administration_steps": [
+      "Before: photocopy templates, print rubric, ready Junior Money Master certificates.",
+      "Stations 1-4 (6 min each): $1, $25, $100, $150.",
+      "Station 1 $1: 3 combo ways. Evidence F1.1.",
+      "Station 2 $25: 3 combo ways. Evidence F1.1.",
+      "Station 3 $100: 3 combo ways. Evidence F1.1.",
+      "Station 4 $150: 2 combo ways. Evidence F1.1.",
+      "After: review with each child."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence. Level 3 = grade-level.",
+    "evidence_per_expectation": {
+      "F1.1": "Stations 1-4 — combos for $1, $25, $100, $150."
+    }
+  },
+  "certificate": {
+    "title": "Junior Money Master Certificate (G2)",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day G2 Tap to Pay unit and demonstrating the skills of a G2 Junior Money Master. Tappy the Toonie Frog congratulates the student.",
+    "skills_demonstrated": [
+      "Making 50¢ and $1 in multiple ways",
+      "Mixing bills and coins for amounts up to $50",
+      "Identifying the $100 bill",
+      "Making amounts up to $200"
+    ],
+    "layout_description": "One letter page, portrait, decorative border, title, recipient line, achievement text, skill bullets, signature lines, small Tappy illustration.",
+    "image_placeholders": [
+      {"id": "AS_CERT_BORDER", "description": "Decorative border for Grade 2 certificate, ~0.5in inset. Scrollwork with coin + bill motifs at corners. B&W line art.", "placement": "Frames the entire page.", "approximate_size": "full_width", "keywords": ["certificate", "border"], "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keywords name the certificate border."},
+      {"id": "AS_CERT_TAPPY", "description": "Small Tappy the Toonie Frog at bottom-centre, ~1.5in tall, holding a tap-to-pay card.", "placement": "Bottom-centre.", "approximate_size": "small", "keywords": ["tappy"], "text_image_alignment_check": "AS_CERT_TAPPY at Bottom-centre: keyword names the tappy character on certificate."}
+    ],
+    "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false}
+  }
+}

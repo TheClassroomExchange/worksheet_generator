@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "pair_number": 3,
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale says 'Common Grade-3 trap on E2.9: child counts a hockey rink in cm² (huge number) or a sticky note in m² (huge waste). They miss that unit size should match the area.' — recovery_moves are 'Show 1 cm² vs 1 m².', 'Drill match unit to size.', 'Compare different-unit estimates.' — flat list, not branched by diagnostic, and no named research citation.",
+      "required_fix": "Cite the underlying research on area-unit structuring (Battista 2007 'array structuring' or Outhred & Mitchelmore 2000 on unit iteration for area) in expanded_walkthrough.rationale, and split recovery_moves into branches keyed to the diagnostic — e.g. (a) if child picks cm² for floor and can articulate WHY it's wrong when shown 1m² square, drill mental comparison only; (b) if child still insists cm² works after the comparison, drop to physical iteration: tape a 1m² square on floor, have child stand inside it and try to imagine fingernail-sized squares filling it; (c) if child confuses the count direction (bigger unit = bigger number), demonstrate same shape covered by both unit sizes and show the count gets SMALLER with bigger units.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Cm² Grid Paper (1 per pair)' and 'Square Tiles (60 per pair)' as REQUIRED — there is no explicit no-paper, no-purchase alternative path that lets the lesson run when grid paper isn't pre-printed. The differentiation 'Walk a 1m² square on the floor' applies only to movement learners, not as a whole-class fallback.",
+      "required_fix": "Add an explicit no-prep alternative path to differentiation or lesson_specific_materials: 'No-paper version — use masking-tape squares on the floor (one 1m² taped square; children visit and count their bodies/feet inside). For cm² counting, children draw a 5cm × 5cm square in their notebooks with a ruler and subdivide into 25 squares by hand — no pre-printed grid paper needed. Activity is unaffected.' This makes Lesson 3 runnable on a day when grid paper wasn't copied.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the trap as 'unit-size mismatch' and gives child-friendly remediation, but does not name the underlying research-grounded concept (spatial structuring of arrays, unit iteration for area, or the inverse relationship between unit size and count). The lesson doesn't ask children to invent or compare strategies — minds_on demos a teacher-given method (count whole + half squares for circles) and action just executes it.",
+      "required_fix": "In consolidation, add a strategy-comparison move: 'Two pairs share how they handled the L-shape — did anyone DECOMPOSE it into a rectangle + rectangle? Did anyone count square-by-square? Both work. Which is faster?' Then in expanded_walkthrough.rationale, name the principle: 'Battista (2007) calls this array structuring — children must mentally organize the area into a row × column grid, not just count squares one at a time. The unit-size mismatch is the surface symptom; the deeper issue is that the child hasn't yet seen area as a 2-D iteration of equal units.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 1 mirrors action step 1 directly (count cm² in 4 shapes on a grid). Part 2 mirrors action step 2 (pick cm²/m²). Part 3 mirrors action step 3 (curved shape). Practice format is rote-repeat of the lesson activity rather than a transfer task — there is no item that asks the child to GENERALIZE (e.g., construct a shape with a given area, or compare two shapes that look different but have equal area).",
+      "required_fix": "Add a Part 4 transfer task to the worksheet: 'Draw your OWN shape on the grid that has an area of exactly 12 cm². It can look different from the rectangle in Part 1 but must cover 12 squares. Tell a friend how you know it is 12 cm².' This converts the worksheet from rote repeat to a generalization check (different shape, same area — bridges to E2.7 same-area-different-shape) and is justified as a transfer task verifying that the child holds the cm²-as-iterated-unit concept, not just the count routine.",
+      "affected_stages": ["worksheet_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

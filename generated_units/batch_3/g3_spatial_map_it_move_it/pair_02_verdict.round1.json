@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "pair_number": 2,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child names ONE part of a multi-part structure — repairing the partial-decompose trap at Grade 3'. The trap is real and grade-appropriate, and recovery_moves ['Trace each part.', 'Drill bottom to top.', 'Compare full vs partial.'] are concrete. But there is no named research citation, and recovery does not branch by what the diagnostic told you about the child.",
+      "required_fix": "Cite a named source for the partial-decompose trap (Battista 2007 on spatial structuring, or Sarama & Clements 2009 on composition/decomposition trajectories) in the rationale. Then split recovery_moves into two diagnostic branches: (a) if child names parts when you trace one-by-one but not on their own → drill 'bottom-to-top scan' as a self-cuing routine; (b) if child cannot see hidden/back parts at all → use a physical solid the child can rotate before returning to the 2D structure card.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Solid Cards (1 set per pair)' and 'Structure Cards (12)' as required, and differentiation.for_movement_learners says 'Build with real classroom objects' but this is not framed as a complete no-paper alternative path. The lesson does not offer an explicit NO-PAPER, NO-PURCHASE version a teacher could run on a day when prep wasn't possible.",
+      "required_fix": "Add a 'No-materials version' bullet under differentiation: children compose structures using their own bodies and classroom items (book = rectangular prism, marker = cylinder, paper cup = cone, balled-up paper = sphere); decompose by walking around a real classroom object (chair, desk, recycling bin) and naming each 3D part out loud. Make explicit that the activity runs with zero printed cards.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "minds_on teacher_script presents one teacher-modelled decomposition ('A house: rectangular prism (body) + square pyramid (roof)') and pairs follow the same template. There is no moment where children INVENT or COMPARE alternative decompositions of the same structure, and the expanded_walkthrough does not name the misconception in research-grounded terms (no reference to Battista's spatial structuring or Sarama & Clements composition levels).",
+      "required_fix": "In the action phase, add a 'Two ways to build it' step: pairs compose the SAME target structure two different ways (e.g., a 4-block tower as cube+cube+cube+cube vs cube+rectangular-prism+cube), then compare which decomposition is 'easier to see' and why. In expanded_walkthrough.rationale, name the trap as a level shift on Sarama & Clements' composition trajectory (pre-composer → piece-assembler → picture-maker → shape-composer) so a substitute teacher knows what level the child is operating at.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary_note": "Strong pair on alignment, voice, and lesson-worksheet match. Three categories sit at Achieving (3) but not Exceeding (4): the partial-decompose trap needs a research citation and a branching recovery; the lesson needs an explicit no-paper alternative; and the math needs a strategy-comparison move plus research-named misconception language. All three fixes land in lesson_02; worksheet is fine as-is."
+}

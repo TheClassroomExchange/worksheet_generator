@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "lesson_number": 5,
+  "worksheet_title": "Equal Groups and Half Groups",
+  "purpose": "Independent practice and summative evidence for B2.5 (equal-group sharing including halves). Captures both whole-quotient and half-quotient share scenarios plus a child-explained reasoning prompt.",
+  "student_learning_goal": "I can solve equal-group problems with totals up to 10, including problems where each group is a half.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can solve equal-group problems with totals up to 10, including problems where each group is a half.",
+    "character_watermark": "Plus the Pup with a birthday hat in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Even Shares",
+          "student_instructions": "Share each collection of cookies fairly between the friends. Draw the share onto each plate. Write how many cookies on each plate.",
+          "visual_layout": "Top of the page. Two share scenes stacked. Scene A: 8 cookies on the left, 4 plates on the right. Scene B: 10 cookies on the left, 5 plates on the right. Below each scene: 'Each plate gets ___ cookies.'",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_TWO_EVEN_SHARES",
+              "description": "Two share scenes stacked in B&W line-art. Each scene ~7in × 2.5in. Scene A: a tray with 8 round chocolate-chip cookies on the left, 4 paper plates with light-grey outlines on the right. Scene B: a tray with 10 cookies on the left, 5 paper plates on the right. Each plate ~1.5in diameter.",
+              "placement": "Top of the page; two scenes stacked.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "cookies",
+                "plates",
+                "share"
+              ],
+              "text_image_alignment_check": "Image WS05_P1_TWO_EVEN_SHARES: keywords (cookies, plates, share) name what the scenes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Scene A: 2 cookies on each plate. Scene B: 2 cookies on each plate."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Half Shares",
+          "student_instructions": "Share each collection of cookies fairly between 2 friends. There will be a leftover. CUT the leftover cookie in HALF and put one half on each plate. Write how many cookies on each plate (use 'and a half').",
+          "visual_layout": "Middle of the page. Two share scenes stacked. Scene A: 5 cookies on the left, 2 plates on the right. Scene B: 9 cookies on the left, 2 plates on the right. The leftover cookie in each scene shows a pre-drawn dotted half-line. Below each scene: 'Each plate gets ___ and a half cookies.'",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_TWO_HALF_SHARES",
+              "description": "Two share scenes stacked in B&W line-art. Each scene ~7in × 2.5in. Scene A: a tray with 5 cookies (4 whole + 1 with a dotted half-line through the middle) on the left, 2 paper plates on the right. Scene B: a tray with 9 cookies (8 whole + 1 with a dotted half-line) on the left, 2 paper plates on the right. The half-line is a pre-drawn dotted line cutting through the leftover cookie.",
+              "placement": "Middle of the page; two scenes stacked.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "cookies",
+                "plates",
+                "half"
+              ],
+              "text_image_alignment_check": "Image WS05_P2_TWO_HALF_SHARES: keywords (cookies, plates, half) name what the scenes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Scene A: 2 and a half cookies on each plate (2 whole + 1 half). Scene B: 4 and a half cookies on each plate (4 whole + 1 half)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Why Cut In Half?",
+          "student_instructions": "Why does Plus sometimes need to cut a cookie in half? Write 1-2 sentences to explain.",
+          "visual_layout": "Bottom of the page. A blank lined area (~7in × 2in) for the child to write 1-2 sentences. Plus the Pup thinking-bubble icon in the top-right corner.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_WHY_HALF_BOX",
+              "description": "A blank lined writing area in B&W line-art, ~7in × 2in, with 4-5 dotted writing lines. Plus the Pup thinking-bubble icon in the top-right corner of the box (~1in tall).",
+              "placement": "Bottom of the page; full-width writing area.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "explain",
+                "half"
+              ],
+              "text_image_alignment_check": "Image WS05_P3_WHY_HALF_BOX: keywords (explain, half) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible reasoning that touches on (a) leftover-when-sharing-equally and (b) halving-makes-it-fair. Examples: 'Plus needs to cut a cookie in half when there's one extra and 2 friends so they both get the same amount.' 'If there is a leftover the share is not fair so we have to cut it in half so each friend gets the same.'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw your own share scenario on the back: 7 cookies, 4 friends. How would you make this fair? Hint — you might need MORE than just one half!",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Hand out at the end of the Action phase. Watch for: (a) Part 1 children who draw uneven shares — flag for fair-share reteach; (b) Part 2 children who give the leftover whole to one plate — this is the K-stage answer that B2.5 explicitly targets, flag for the half-share reteach with pre-cut paper cookies; (c) Part 3 children who can't articulate the reason — coaching opportunity for the 'fair-means-equal' explicit principle. Use Parts 1-3 as the summative evidence for B2.5; combine with Lessons 1-4 formative trackers for the full B2.1-B2.5 picture."
+}

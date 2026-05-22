@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "pair_number": 1,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the 'attribute-drift trap' with concrete moves (write 'ATTRIBUTE = ___' card), but cites no research, and recovery_moves do not branch by diagnostic — every drifting child gets the same written-card scaffold rather than splitting by 'can re-state attribute' vs 'cannot'.",
+      "required_fix": "Cite research in expanded_walkthrough.rationale (Sarama & Clements 2009 classification trajectory, or Piaget/Inhelder on multi-attribute classification at age 6-7), AND split recovery_moves into a branch: if child re-states the attribute, drill per-shape check; if not, drop back to a single written attribute card and sort-as-you-place.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Tig anchors minds_on and consolidation, vocabulary is child-friendly, all success_criteria start with 'I can'. But Tig has no quotable refrain and exit_routine is a write-only stem ('I sorted by ___ attribute'), not a chant. Discussion prompt 'Why do detectives sort?' drops a 'detective' frame absent elsewhere.",
+      "required_fix": "Give Tig a three-step refrain ('Pick ONE, SAY it, SORT it!') planted in minds_on and chanted by class in consolidation before the exit-write. Remove the orphan 'detectives' prompt or rewrite it as a Tig-anchored question so character voice is consistent across all three lesson phases.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "minor"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (rule decides grouping; same pile re-sorted by different rules); 'attribute' and 'rule' precisely defined. But children never INVENT or COMPARE strategies — attributes (colour/shape/size) are teacher-listed and the stretch (red AND big) is also prescribed. Walkthrough names misconception in plain language, not research-grounded terms.",
+      "required_fix": "Add an action step where children pick their OWN attribute (no teacher list), then partner-compare: 'Same attribute or different? Why is each fair?' In expanded_walkthrough name the trap in research terms (Piaget/Inhelder shifting-criterion classification, or Sarama & Clements 2009 classification trajectory) so a substitute reads why it matters.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong opener: alignment to E1.1 is exact, materials are everyday with explicit puppet-optional language, worksheet parts mirror the lesson's three success criteria with a transfer-format Part 3. Three categories sit at 3 (pedagogical_depth, clarity_voice, mathematical_authenticity), failing the 'at most one 3' bar. All fixes are lesson-side; worksheet is solid as-is."
+}

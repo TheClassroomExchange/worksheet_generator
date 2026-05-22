@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "lesson_number": 3,
+  "lesson_title": "The Rounding House",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B1.3"
+  ],
+  "secondary_expectations": [
+    "B1.1"
+  ],
+  "big_idea": "Rounding tells us 'about how many'.",
+  "learning_intention": "We are learning to round any number to 1000 to the nearest ten or hundred and to explain our reasoning.",
+  "student_learning_goal": "I can round any number to 1000 to the nearest ten or hundred and explain my reasoning.",
+  "success_criteria": [
+    "I can round a number to the nearest ten by looking at the ones digit.",
+    "I can round a number to the nearest hundred by looking at the tens digit.",
+    "I can apply the 5-or-more rule to decide which way to round."
+  ],
+  "vocabulary_introduced": [
+    "round",
+    "nearest"
+  ],
+  "vocabulary_reinforced": [
+    "estimate",
+    "place value"
+  ],
+  "manipulatives_used": [
+    "M3_number_street_1000",
+    "M5_rounding_jumps",
+    "M10_street_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Penny the Place Value Pal — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Rounding to 10s and 100s' with the 5-or-more rule",
+    "0-1000 Number Street strip rolled out",
+    "Per-pair set of Rounding Jump Cards (24)",
+    "Lesson 3 rounding tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Penny's Rounding House",
+    "hook": "Penny is at house 47. Is she closer to house 40 or house 50? Penny opens: 'Five or more, round it UP! Less than five, round it DOWN!'",
+    "teacher_script": "Bring children to the carpet. Penny puppet in hand. 'Friends — Penny visits a special house on Fraction Street. The Rounding House. Inside, she learns to ESTIMATE about how many — by ROUNDING.'\n\nDraw a number line on the board: 40 — 41 — 42 — 43 — 44 — 45 — 46 — 47 — 48 — 49 — 50. 'Penny is at 47. Is she closer to 40 or 50?'\n\nMark 47 on the line. 'Count the jumps. From 47 to 40 is 7 jumps. From 47 to 50 is only 3 jumps. So 47 is CLOSER to 50.'\n\n'When we round 47 to the NEAREST TEN, the answer is 50.' Write 47 → 50.\n\nNow the rule. 'Penny says — to round to the nearest ten, LOOK AT THE ONES DIGIT. If it's 5, 6, 7, 8, 9 — round UP. If it's 0, 1, 2, 3, 4 — round DOWN.'\n\nPractice: 23 → 20 (3 is less than 5, round down). 67 → 70 (7 is 5 or more, round up). 45 → 50 (the tie — exactly 5, round up by the 5-or-more rule).\n\nNow rounding to nearest 100. 'Penny is at house 132. Is she closer to 100 or 200?' Number line: 100 — 130 — 200. 132 is way closer to 100 (32 jumps) than 200 (68 jumps). 'Round to nearest 100: 132 → 100.'\n\n'Look at the TENS digit to round to the nearest 100. 132 has 3 tens — that's less than 5 — round DOWN to 100.'\n\nTry 178 → 200 (7 tens, 5 or more, round up). 250 → 300 (the tie — round up).\n\n'Today we'll practice rounding to 10s AND to 100s.'",
+    "student_actions": [
+      "Predict whether 47 is closer to 40 or 50.",
+      "Help apply the 5-or-more rule.",
+      "Watch Penny round 132 to the nearest 100.",
+      "Echo the new vocabulary: 'round', 'nearest'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Rounding Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "STRATEGY INVENT: Mark 47 on the number line. BEFORE Penny states the rule, ask pairs: 'closer to 40 or 50? How do you know?' Class invents the rounding logic before formal rule. Cite Sowder (1992) benchmark estimation.",
+        "teacher_prompt": "Penny: 'Before the RULE, find the BENCHMARKS.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Whole group: practice 5 more roundings. (a) 84 → 80 (round down). (b) 95 → 100 (the cross-ten case). (c) 156 → 200 (nearest 100, 5 tens rounds up). (d) 449 → 400 (nearest 100, 4 tens rounds down). (e) 350 → 400 (the nearest-100 tie).",
+        "teacher_prompt": "Say to students: 'Five more together. Apply the rule. Show on the number line.' For each, mark the position and count jumps."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Discuss real-life rounding. 'When does Penny use rounding?' (Estimating crowd sizes, store prices to nearest dollar, distances on a map.) Connect to Canadian penny rounding (cash prices to nearest 5¢ since 2013).",
+        "teacher_prompt": "Say to students: 'Where do you see rounding in real life?' Examples: '13 students per class, 25 classes — about 300 students.' 'A movie ticket is $12.99 — about $13.' Anchor rounding as a real-world tool."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Round to Nearest 10 — pair has 12 cards (numbers 1-100); rounds each, marks position on number line, writes the rounded number. Station B: Round to Nearest 100 — pair has 12 cards (numbers 100-1000); same routine. Station C: Real-Life Rounding — pair has 8 scenario cards ('There are 47 students in the cafeteria. About how many?'); rounds and explains.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Listen for the chime.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Stretch challenge at Station C: include 2 cards where the choice of nearest-10 or nearest-100 matters. (For 47 students, nearest-10 gives 50; nearest-100 gives 0 — and 0 is a silly answer for crowd size.) Discuss when each is appropriate.",
+        "teacher_prompt": "Say to pairs: 'Some scenarios are tricky. 47 students rounded to nearest 100 is 0. Is that useful?' Lead to: 'Round to the level that matches the question. Crowd size — usually nearest 10 or 50. National population — nearest million.'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Circulate to record formative evidence on the rounding tracker.",
+        "teacher_prompt": "Stop at each pair. Hand them a card and ask 'Round this. Show on the number line. Explain.' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children stay at Station A (Round to Nearest 10) only; numbers under 50.",
+      "for_extending": "Stretch numbers to nearest 1000 (e.g., 4567 → 5000). Discuss whether the rule extends.",
+      "for_ell_or_iep": "Provide a sentence frame: '___ rounds to ___ because ___.'",
+      "for_movement_learners": "Number Street walk: physically jump to the nearer ten or hundred."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: applies 5-or-more rule for nearest 10; applies 5-or-more rule (looking at tens) for nearest 100; explains reasoning with the number-line jump strategy.",
+      "how_to_record": "Tick the rounding tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Rounds to nearest 10 correctly",
+        "Rounds to nearest 100 correctly",
+        "Applies 5-or-more rule consistently",
+        "Explains using number-line jumps",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Penny's Rounding Brag",
+    "discussion_prompts": [
+      "What's the rule for rounding to the nearest 10?",
+      "Why does 45 round UP to 50 and not DOWN to 40?",
+      "When does 132 round to 100? When does it round to 130?",
+      "Where do you see rounding in real life?"
+    ],
+    "exit_routine": "Penny's rounding chant — 'Five or more, round it UP! Less than five, round it DOWN!' (3x). Each child rounds one number with rounding rule articulated."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Rounding accuracy to nearest 10 and 100, 5-or-more rule application, and number-line jump reasoning across 5-8 numbers per child.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures B1.3 (rounding). Children who apply the 5-or-more rule consistently AND can show the rounding on a number line are at L4."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child rounds 132 to 100 by 'looking at the ones' instead of the tens — repairing the wrong-place rounding error",
+    "rationale": "On rounding, the trap is rule-without-meaning — child applies '5 or more rounds up' without articulating WHY. Fuson + Sowder (1992) on benchmark estimation frame rounding as estimation foundation. Without meaning, Lesson 5's fraction work cannot ground.\n\nYesterday Lesson 2 compared multi-digit numbers. Today: round to nearest 10 / 100. Lesson 4 sharing; Lesson 5 fractions.",
+    "setup": "Pair is at Station B (Round to Nearest 100). The card is '178, round to nearest 100'. The child writes 180.",
+    "teacher_script": "Crouch beside the child. 'Show me how you got 180.' The child says 'I looked at the 8 in the ones place. 8 is 5 or more, so round up. 178 + 2 = 180.' Pause. 'OK — but the question is round to the nearest HUNDRED, not the nearest TEN. We need a different digit.'\n\nDraw a number line: 100 — 178 — 200. Mark 178. 'Where is 178 on this line? Closer to 100 or 200?' Count jumps: from 178 to 100 is 78 jumps; from 178 to 200 is 22 jumps. '22 jumps to 200, 78 jumps to 100. 200 is closer.'\n\n'For nearest 100, we look at the TENS digit, not the ones. The tens of 178 is 7. 7 is 5 or more — round UP. 178 → 200.'\n\nWrite the rule clearly:\nNearest 10: look at ONES (rightmost digit).\nNearest 100: look at TENS (second-from-right).\n\nHave the child redo. 'Try 234 — round to nearest 100.' Tens digit: 3. Less than 5. Round down. 200. Affirm. 'Try 567 — round to nearest 100.' Tens: 6. 5 or more. Round up. 600. Affirm.\n\nIf the child STILL applies the rule to the wrong place: use the explicit underline. Have the child UNDERLINE the digit they need to look at. For nearest 100, underline the tens. For nearest 10, underline the ones. Visual marker breaks the wrong-place habit.\n\nLong-term recovery: include nearest-10 AND nearest-100 in alternation in daily warm-ups. The which-digit-to-look-at reflex builds with practice.",
+    "expected_student_responses": [
+      "(Confused) Applies 5-or-more rule to the ones digit regardless of target place. 178 → 180 for nearest 100. Most common at the start of Lesson 3.",
+      "(Mid) Applies the right rule with prompting. Underlines the right digit when reminded.",
+      "(Strong) Auto-selects the right digit. 'For nearest 100, look at tens. 178 — tens is 7 — round up — 200.'",
+      "(Stretched) Volunteers that the rule extends: 'For nearest 1000, look at hundreds. 4567 — hundreds is 5 — round up — 5000.' Sees the rule structurally."
+    ],
+    "common_misconceptions": [
+      "The 5-or-more rule always uses the ones digit. (Wrong-place error. Repair: explicit position rule based on target.)",
+      "Rounding always rounds DOWN. (Children miss the 5-or-more cases. Repair: number-line jumps make the 'closer to which' decision visible.)",
+      "If the digit is exactly 5, round down. (Children disagree on tie-breakers. Repair: standard 5-or-more rounds UP.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child rounds wrong direction: drill 'find BENCHMARKS — closer to which BENCHMARK?'; physical demo on number line.",
+      "DIAGNOSTIC B — child can round 10s but stalls on 100s: drill 'find the two HUNDREDS the number is between'.",
+      "DIAGNOSTIC C — child applies rule but cannot justify: force the sentence frame '47 rounds to 50 because 47 is closer to 50 than to 40.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Penny's Rounding House",
+    "purpose": "Independent practice of B1.3 (round to nearest 10 or 100).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Eight rounding-to-nearest-10 problems with number-line scaffolds.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Six rounding-to-nearest-100 problems with number-line scaffolds.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Real-life rounding: 4 scenario cards. Child rounds and writes a sentence.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Penny in the worksheet header",
+      "Eight rounding-to-10 number-line scaffolds for Part 1",
+      "Six rounding-to-100 number-line scaffolds for Part 2",
+      "Four scenario boxes with thinking-bubble icons for Part 3"
+    ]
+  }
+}

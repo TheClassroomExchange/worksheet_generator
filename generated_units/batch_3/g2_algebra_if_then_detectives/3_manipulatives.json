@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "overall_prep_notes": "Total prep ~1.5 hours. The two character puppets (Inspector If, Then) print on cardstock. Card decks (M1, M2, M3, M4, M5) are laminated. The detective poster (M10) is the visual centerpiece.",
+  "assets": [
+    {
+      "asset_id": "M1_if_then_cards",
+      "name": "IF-THEN Statement Cards",
+      "category": "manipulative",
+      "purpose": "24 cards each showing an IF-THEN statement (everyday + math).",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_IFTHEN_CARD",
+          "description": "An IF-THEN card in B&W line-art, ~3in x 4in. Each shows a complete IF-THEN statement. Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "statement",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M1_IFTHEN_CARD: keywords (statement, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort by complexity.",
+        "Distribute Lessons 1-3."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M2_condition_cards",
+      "name": "Condition Cards",
+      "category": "manipulative",
+      "purpose": "12 condition cards (e.g., 'IF the number is even', 'IF it is sunny').",
+      "page_layout": "2 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_CONDITION_CARD",
+          "description": "A condition card in B&W line-art, ~3in x 2in. Each shows a single condition starting with IF. Cut lines.",
+          "placement": "12 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "condition",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M2_CONDITION_CARD: keywords (condition, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 12 cards.",
+        "Sort by type.",
+        "Distribute Lessons 1-4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "12 cards.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M3_action_cards",
+      "name": "Action Cards",
+      "category": "manipulative",
+      "purpose": "12 action cards (e.g., 'THEN clap', 'THEN take an umbrella').",
+      "page_layout": "2 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_ACTION_CARD",
+          "description": "An action card in B&W line-art, ~3in x 2in. Each shows a single action starting with THEN. Cut lines.",
+          "placement": "12 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "action",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M3_ACTION_CARD: keywords (action, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 12 cards.",
+        "Sort by type.",
+        "Distribute Lessons 1-4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "12 cards.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M4_input_cards",
+      "name": "Input Number Cards",
+      "category": "manipulative",
+      "purpose": "20 input number cards (numbers 1-50) for tracing IF-THEN code.",
+      "page_layout": "2 letter pages, portrait. 10 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_INPUT_CARD",
+          "description": "An input card in B&W line-art, ~2in x 2in. Each shows a number 1-50. Cut lines.",
+          "placement": "20 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "input",
+            "number"
+          ],
+          "text_image_alignment_check": "Image M4_INPUT_CARD: keywords (input, number) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 20 cards.",
+        "Sort by value.",
+        "Distribute Lessons 3-4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "20 cards.",
+      "used_in_lessons": [
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M5_alteration_cards",
+      "name": "Code Alteration Cards",
+      "category": "manipulative",
+      "purpose": "8 cards each with an original IF-THEN and an alteration instruction.",
+      "page_layout": "Single letter page, portrait. 8 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_ALTER_CARD",
+          "description": "An alteration card in B&W line-art, ~2.5in x 2in. Each shows original IF-THEN on top and alteration instruction on bottom. Cut lines.",
+          "placement": "8 cards on 1 page.",
+          "approximate_size": "small",
+          "keywords": [
+            "alteration",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M5_ALTER_CARD: keywords (alteration, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Laminate.",
+        "Cut into 8 cards.",
+        "Sort by alteration type.",
+        "Distribute Lesson 4."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "8 cards.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Capstone IF-THEN Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template for Lesson 5 capstone.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE_TEMPLATE",
+          "description": "A capstone template in B&W on a portrait letter page. Sections: write code (2 branches), trace 3 inputs, alter and re-trace, reflection.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "capstone",
+            "template"
+          ],
+          "text_image_alignment_check": "Image M6_CAPSTONE_TEMPLATE: keywords (capstone, template) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out Lesson 5.",
+        "Children fill in.",
+        "Collect for assessment.",
+        "Display gallery."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_sorting_mat",
+      "name": "IF-THEN Sorting Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat with TRUE column and FALSE column.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_SORT_MAT",
+          "description": "A sorting mat in B&W on a landscape letter page. Two columns: TRUE on the left, FALSE on the right. Header row labelled.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "sorting",
+            "mat"
+          ],
+          "text_image_alignment_check": "Image M7_SORT_MAT: keywords (sorting, mat) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per pair.",
+        "Laminate.",
+        "Hand out Lesson 1.",
+        "Use dry-erase.",
+        "Reuse Lessons 2-3."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M8_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "category": "manipulative",
+      "purpose": "20 counters per pair for IF-THEN tracing.",
+      "page_layout": "Single letter page, portrait. 20 counter circles.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_COUNTER_SHEET",
+          "description": "A counter sheet in B&W line-art, ~7in x 9in. 20 circles arranged in 4 rows of 5. Each circle has a thin border. Cut lines.",
+          "placement": "Centred grid.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "counter",
+            "sheet"
+          ],
+          "text_image_alignment_check": "Image M8_COUNTER_SHEET: keywords (counter, sheet) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 sheet per pair.",
+        "Laminate.",
+        "Cut into 20 counters.",
+        "Sort into pair bags.",
+        "Distribute Lessons 2-4."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "20 per pair = 200 for class of 20.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M9_truth_chart",
+      "name": "TRUE / FALSE Anchor Chart",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor chart explaining TRUE and FALSE.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_TRUTH_CHART",
+          "description": "A TRUE/FALSE anchor chart in B&W, ~17in x 22in. Centre: large TRUE/FALSE labels with sample conditions and outcomes.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M9_TRUTH_CHART: keywords (truth, chart) name what the chart shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M10_if_then_poster",
+      "name": "If-Then Detectives Anchor",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor showing Inspector If and Then the Action Dog with sample IF-THEN code.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_IFTHEN_POSTER",
+          "description": "If-Then Detectives poster in B&W, ~17in x 22in. Centre: Inspector If (cat with deerstalker) and Then the Action Dog (eager dog with bandana) with a sample IF-THEN code.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "detective",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_IFTHEN_POSTER: keywords (detective, poster) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_if_puppet",
+      "name": "Inspector If Character Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Inspector If illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_IF_FRONT",
+          "description": "Inspector If illustration in B&W: a friendly cat with a deerstalker cap, notebook, and magnifying glass. Cheerful expression, striped tail, alert ears. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "inspector"
+          ],
+          "text_image_alignment_check": "Image CHAR_IF_FRONT: keywords (inspector) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_then_puppet",
+      "name": "Then the Action Dog Character",
+      "category": "character_puppet",
+      "purpose": "Printable Then the Action Dog illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_THEN_FRONT",
+          "description": "Then the Action Dog illustration in B&W: an eager dog with a tool belt and bandana, tongue out, tail wagging, holding an action card. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "action",
+            "dog"
+          ],
+          "text_image_alignment_check": "Image CHAR_THEN_FRONT: keywords (action, dog) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

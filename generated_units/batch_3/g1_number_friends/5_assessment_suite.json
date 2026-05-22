@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Number Friends — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1 stations.",
+    "expectation_focus": [
+      "B1.4",
+      "B1.5"
+    ],
+    "columns": [
+      "Student name",
+      "Uses chunk strategy when estimating",
+      "Counts by 5s to 50",
+      "Counts by 10s to 50",
+      "Starts a skip-count from a non-multiple",
+      "Notes"
+    ],
+    "usage_notes": "Walk between pairs at all three stations. The chunk-strategy column is the diagnostic gate — children who guess randomly need a re-loop with the chunk-of-10 demo before Lesson 2. The skip-count columns capture B1.5 explicitly.",
+    "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page in B&W line-art. Title: 'Number Friends — Day 1 Diagnostic Checklist'. Expectations: B1.4 + B1.5. 6-column grid with 24 student rows.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "diagnostic",
+          "estimate",
+          "skip-count"
+        ],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER: keywords (diagnostic, estimate, skip-count) name what the tracker captures."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Number Friends — Lesson 2 Formative Tracker (Representations)",
+      "when_used": "During Lesson 2 gallery walk.",
+      "expectation_focus": [
+        "B1.1"
+      ],
+      "columns": [
+        "Student name",
+        "Reads numeral",
+        "Reads word",
+        "Reads ten-frame",
+        "Reads base-ten rod",
+        "Reads tally mark",
+        "Names a real-life number-use",
+        "Notes"
+      ],
+      "usage_notes": "Walk between gallery stations. The 5 reading columns capture B1.1 explicitly. Children who read 4-5 forms confidently are ready for Lesson 3; 0-2 forms suggests a re-loop.",
+      "layout_description": "One letter page, portrait. 8-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Number Friends — Lesson 2 Formative Tracker (Representations)'. Expectation: B1.1. 8-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "representations",
+            "tracker",
+            "tally"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2: keywords (representations, tracker, tally) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Number Friends — Lesson 3 Formative Tracker (Decompositions)",
+      "when_used": "During Lesson 3 partner game and mid-unit Numerals 0-50 Check-In.",
+      "expectation_focus": [
+        "B1.2"
+      ],
+      "columns": [
+        "Student name",
+        "Decomposes in tens-and-ones",
+        "Finds a non-tens-ones partner pair",
+        "Recomposes two parts back to target",
+        "Mid-unit worksheet score (out of 4)",
+        "Notes"
+      ],
+      "usage_notes": "The 'finds non-tens-ones partner pair' column is the B1.2 mastery signal. Children who only do tens-and-ones are emerging.",
+      "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Number Friends — Lesson 3 Formative Tracker (Decompositions)'. Expectation: B1.2. 6-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "decomposition",
+            "tracker",
+            "compose"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3: keywords (decomposition, tracker, compose) name what the tracker captures."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Number Friends — Lesson 4 Formative Tracker (Compare + Order)",
+      "when_used": "During Lesson 4 partner stations.",
+      "expectation_focus": [
+        "B1.3"
+      ],
+      "columns": [
+        "Student name",
+        "Compares two-digit numbers correctly",
+        "Uses tens-first reasoning",
+        "Orders 3+ numbers smallest to biggest",
+        "Uses > and < symbols correctly",
+        "Notes"
+      ],
+      "usage_notes": "The 'tens-first reasoning' column captures B1.3 mastery. Children who order correctly without tens-first reasoning may be matching by coincidence.",
+      "layout_description": "One letter page, portrait. 6-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class formative tracker in B&W line-art. Title: 'Number Friends — Lesson 4 Formative Tracker (Compare + Order)'. Expectation: B1.3. 6-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "compare",
+            "tracker",
+            "order"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4: keywords (compare, tracker, order) name what the tracker captures."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Number Friends — Summative Rubric",
+    "purpose": "End-of-unit rubric covering all 8 expectations B1.1-B1.8. Used to score each child against four levels.",
+    "rows": [
+      {
+        "expectation_code": "B1.1",
+        "expectation_text": "read and represent whole numbers up to and including 50, and describe various ways they are used in everyday life",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Reads numerals to 20 reliably; struggles with words, ten-frames, base-ten rods, or tally marks at scale 50."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Reads numerals and words to 50; reads 1-2 of the alternative forms (ten-frames, rods, tally) with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Reads numbers to 50 in all 5 forms (numeral, word, ten-frames, base-ten rods, tally marks). Names a real-life number-use."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Reads all forms fluently to 50; spontaneously volunteers a 6th form or describes multiple real-life uses for the same number."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.2",
+        "expectation_text": "compose and decompose whole numbers up to and including 50, using a variety of tools and strategies, in various contexts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Decomposes in tens-and-ones with adult prompting; cannot find alternative decompositions."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Finds tens-and-ones decomposition independently; finds 1-2 alternatives with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently produces 3+ decompositions of a number to 50, including non-tens-and-ones partner pairs. Recomposes correctly."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Produces 5+ decompositions including creative pairs (16+16, 25+7); explains which decomposition is best for a given problem."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.3",
+        "expectation_text": "compare and order whole numbers up to and including 50, in various contexts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Compares numbers to 20 with prompts; reverts to ones-first reasoning at scale 50."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Compares numbers to 50; uses tens-first reasoning with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently uses tens-first reasoning to compare numbers to 50; orders 4+ numbers smallest-to-biggest."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Uses tens-first reasoning fluently; articulates the rule unprompted; orders sets of 5+ numbers including same-tens close pairs."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.4",
+        "expectation_text": "estimate the number of objects in collections of up to 50, and verify their estimates by counting",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Guesses without strategy; estimates often more than 15 off at scale 50."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Uses chunk strategy with prompting; estimates within 10 of actual sometimes."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Uses chunk-of-10 strategy independently; estimates within 5 of actual at scale 50."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Uses chunk strategy fluently; estimates within 3 of actual; explains the strategy unprompted."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.5",
+        "expectation_text": "count to 50 by 1s, 2s, 5s, and 10s, using a variety of tools and strategies",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Counts by 1s and 2s to 50 starting from 0; cannot skip-count by 5s or 10s."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Counts by 1s, 2s, 5s, 10s starting from 0; struggles with non-multiple starting points."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Counts by 1s, 2s, 5s, 10s to 50 starting from any number including non-multiples."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Skip-counts fluently; volunteers count-back from a number; uses skip-counting in real-life contexts."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.6",
+        "expectation_text": "use drawings to represent and solve fair-share problems that involve 2 and 4 sharers, respectively, and have remainders of 1 or 2",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Distributes objects unevenly; cannot articulate fair share."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Shares evenly when totals divide cleanly; freezes on remainder cases."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Shares fairly between 2 and 4 sharers; articulates a remainder plan."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Shares fluently with leftover-of-2 cases; explains why dealing-strategy works for any total."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.7",
+        "expectation_text": "recognize that one half and two fourths of the same whole are equal, in fair-sharing contexts",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Recognises halves; does not yet see 1/2 = 2/4 even with overlay demo."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Recognises 1/2 = 2/4 after the half-on-fourths overlay demo."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Recognises 1/2 = 2/4 unprompted; can also see 2/2 = 4/4 = 1 whole."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Generalises to other equivalences (e.g. 1/3 = 2/6); volunteers connections to compose/decompose."
+          }
+        ]
+      },
+      {
+        "expectation_code": "B1.8",
+        "expectation_text": "use drawings to compare and order unit fractions representing the individual portions that result when a whole is shared by different numbers of sharers, up to a maximum of 10",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Says bigger denominator = bigger piece (whole-number rule transferred). Reverses the comparison."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Recognises that more sharers = smaller pieces with overlay demo; flips back to bigger-bottom-bigger-piece without prompting."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Orders unit fractions 1/2 to 1/8 from biggest to smallest pieces correctly; articulates the bigger-bottom-smaller-piece rule."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Generalises to 1/100 (tiny piece); volunteers connections to fair-sharing scenarios with many sharers."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Apply this rubric to each child's combined evidence: diagnostic tracker (Lesson 1) + L2/L3/L4 formative trackers + summative worksheet (Lesson 5). The level achieved is the LOWEST of the relevant evidence sources for that expectation.",
+    "layout_description": "One letter page, landscape. 5-column grid (Expectation + 4 levels) with 8 rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable summative rubric grid in B&W line-art on a landscape letter page. 5-column grid with 8 rows (B1.1 through B1.8). Each cell holds the level descriptor in 9pt font.",
+        "placement": "Full landscape page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "levels",
+          "expectation"
+        ],
+        "text_image_alignment_check": "Image AS_RUBRIC: keywords (rubric, levels, expectation) name what the rubric grid captures."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Lesson 5 Summative Task — Fair Shares and Fractions",
+    "purpose": "End-of-unit summative assessment. Captures evidence for B1.6 (fair sharing with leftovers), B1.7 (1/2 = 2/4 equivalence), B1.8 (unit fraction comparison) explicitly via the worksheet.",
+    "administration_steps": [
+      "Bring children back to the carpet after the small-group rotations on Day 5.",
+      "Hold up the worksheet and walk through the three parts: (1) fair-share scenes, (2) one-half equals two-fourths, (3) unit fraction order.",
+      "Distribute one worksheet per child. Allow 15 minutes for completion.",
+      "Walk around and record per-child evidence on the Lesson 5 formative tracker.",
+      "Collect worksheets and score against the rubric: 9-10/10 = Level 4; 7-8 = Level 3; 5-6 = Level 2; 0-4 = Level 1."
+    ],
+    "scoring_guidance": "Part 1 (2 fair-share scenes, score out of 4): captures B1.6. Part 2 (one-half equals two-fourths, score out of 3): captures B1.7. Part 3 (unit fraction order, score out of 3): captures B1.8. Total score out of 10. Map to summative rubric: 9-10 = Level 4 Exceeding; 7-8 = Level 3 Achieving; 5-6 = Level 2 Developing; 0-4 = Level 1 Beginning.",
+    "evidence_per_expectation": {
+      "B1.1": "Lesson 2 formative tracker — child reads all 5 forms confidently.",
+      "B1.2": "Lesson 3 formative tracker — child finds non-tens-ones partner pair. Mid-unit Numerals 0-50 Check-In score.",
+      "B1.3": "Lesson 4 formative tracker — child uses tens-first reasoning.",
+      "B1.4": "Lesson 1 diagnostic tracker — child uses chunk strategy.",
+      "B1.5": "Lesson 1 diagnostic tracker — child counts by 5s and 10s, including from non-multiples.",
+      "B1.6": "Summative worksheet Part 1.",
+      "B1.7": "Summative worksheet Part 2.",
+      "B1.8": "Summative worksheet Part 3."
+    }
+  },
+  "certificate": {
+    "title": "Junior Number Friend Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Number Friends unit and demonstrating the skills of a Junior Number Friend. Lila and Otto, and Scoot the puppy, congratulate the student and welcome them to the next adventure in numbers.",
+    "skills_demonstrated": [
+      "Estimating a small collection up to 50 using the chunk-of-10 strategy",
+      "Counting to 50 by 1s, 2s, 5s, and 10s starting from any number",
+      "Reading and representing numbers to 50 in five different forms",
+      "Composing and decomposing numbers to 50 in multiple ways",
+      "Comparing and ordering numbers to 50 using tens-first reasoning",
+      "Sharing fairly between 2 or 4 friends with leftover plans"
+    ],
+    "layout_description": "One letter page, portrait. A decorative dashed-line double border surrounds the page. Title centred at top. Below the title, the recipient_field_label and a long horizontal line for the child's name. The Lila + Otto + Scoot illustration sits at the top centre, ~3in tall. Below the achievement_text, a sub-header 'By completing this unit, this student has demonstrated:' followed by the skills_demonstrated list as bullet points.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative dashed-line certificate border in B&W line-art, full letter page. Double border with corner flourishes.",
+        "placement": "Full page border.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate",
+          "border"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_BORDER: keywords (certificate, border) name what the page is."
+      },
+      {
+        "id": "AS_CERT_FRIENDS",
+        "description": "Illustration of Lila + Otto + Scoot the puppy standing side by side, all smiling. Lila holds buttons; Otto holds marbles; Scoot has a COUNT bandana. ~3in × 4in.",
+        "placement": "Top-centre of the certificate, inside the border.",
+        "approximate_size": "medium",
+        "keywords": [
+          "lila",
+          "otto",
+          "scoot"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_FRIENDS: keywords (lila, otto, scoot) name what the illustration shows."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

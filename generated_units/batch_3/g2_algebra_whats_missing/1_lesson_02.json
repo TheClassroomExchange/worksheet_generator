@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 2,
+  "lesson_title": "Missing Number in Addition",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.2"
+  ],
+  "secondary_expectations": [
+    "C2.1"
+  ],
+  "big_idea": "If 5 + ? = 12, the missing number is 7.",
+  "learning_intention": "We are learning to find the missing number in an addition equation.",
+  "student_learning_goal": "I can find the missing number in an addition equation.",
+  "success_criteria": [
+    "I can find what to add to make two sides equivalent.",
+    "I can solve missing-number addition puzzles using counters or a number line.",
+    "I can check my answer by adding."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "variable",
+    "unknown",
+    "equivalent",
+    "expression"
+  ],
+  "manipulatives_used": [
+    "M2_balance_mat",
+    "M3_addition_puzzle_cards",
+    "M5_two_colour_counters",
+    "M8_number_line",
+    "M9_variable_chart",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dee and Mystery Mo — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Find What's Missing in +'",
+    "Per-pair balance scale drawing mat",
+    "Per-pair counters (~30)",
+    "Per-pair number line to 100",
+    "Addition Missing-Number Cards (24)",
+    "Lesson 2 addition tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dee Solves an Addition Case",
+    "hook": "Detective Dee found 8 cookies. After the bake-off, she has 15. How many were added? Detective Dee opens: 'Find it! Then CHECK it! That's the Detective way!'",
+    "teacher_script": "Yesterday Detective Dee opened the VARIABLE BOXES (Day 1). Today the unknown number lives INSIDE an addition equation — '5 + ? = 12'. Detective Dee says the equal sign means SAME ON BOTH SIDES, not 'do something.' We FIND the unknown that makes both sides equal.\n\nBring children to the carpet. Detective Dee + Mystery Mo puppets. 'Friends — Detective Dee has another case. Listen carefully.'\n\nDee whispers: 'I had 8 cookies. After the bake-off, I had 15 cookies. How many were ADDED?'\n\nWrite on the chart: 8 + ? = 15.\n\n'The variable is the question mark — it stands for the number ADDED. We need to find what makes BOTH SIDES equivalent.'\n\nShow with counters. Place 8 red counters on one pan of the balance, 15 yellow counters on the other. 'They don't balance — the right side is heavier. We need to add MORE red counters to make them balance.'\n\nCount up. 8, 9, 10, 11, 12, 13, 14, 15. 'How many did we add? 7. So the missing number is 7.'\n\nWrite: 8 + 7 = 15. 'CHECK. 8 + 7 is 15. The two sides are equivalent. The variable stood for 7.'\n\nNow another. ☐ + 6 = 11. 'This time the variable is on the LEFT. What's missing?' Take responses. Show with counters. The unknown is 5.\n\n'Today's job: solve missing-number addition cases. Use counters, balance scales, or number lines.'",
+    "student_actions": [
+      "Watch Detective Dee solve a case.",
+      "Predict the missing number.",
+      "Check by counting on a number line.",
+      "Try a second case independently."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Missing-Number Addition Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: solve 4 missing-addend equations together. (a) 7 + ? = 14. (b) ☐ + 9 = 16. (c) 25 + ? = 50. (d) 40 + ☐ = 75.",
+        "teacher_prompt": "Say to students: 'Find the missing number. Use counters, number line, or fingers.' Take responses; verify with the balance scale."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Counter Solve — pair solves 6 missing-addend cards using counters on the balance mat. Station B: Number Line Solve — pair solves 6 cards using a number line up to 100. Station C: Pick Your Tool — pair solves 6 mixed cards using their preferred method.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: solve 3-term equations like 5 + ☐ + 4 = 15. Discuss whether multiple missing values are possible. (No — only one variable per equation in Grade 2.)",
+        "teacher_prompt": "Say to pairs: 'Stretch: try a 3-term equation. The variable is still the only unknown.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss strategies. (a) Count up from the smaller side. (b) Use known facts. (c) Use the balance scale to visualise. (d) Add or subtract to find the gap.",
+        "teacher_prompt": "Use the balance scale: 'When the right side is heavier, we add counters to the left.' Show the strategies on the anchor chart."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the addition tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's the missing number? How did you find it?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Pairs first share their OWN strategy (count-up vs count-back vs known-fact vs balance). Class compares: which is most efficient for 5 + ? = 12 vs 20 + ? = 50? Cite Carpenter, Franke & Levi (2003) — flexible strategy choice signals the relational view of equality.",
+        "teacher_prompt": "Detective Dee: 'Same answer, different paths. The DETECTIVE picks the path that fits the case.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only sums to 20. Count up with counters one at a time.",
+      "for_extending": "Stretch at Station C: include sums to 100 and missing numbers in 3-term equations.",
+      "for_ell_or_iep": "Provide a structured frame: 'The unknown is ___. I added ___ to find it.'",
+      "for_movement_learners": "Use the number line as a floor mat. Walk from 8 to 15 and count steps."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: finds the missing number; uses an effective strategy; checks the answer by adding.",
+      "how_to_record": "Tick the addition tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Finds missing number",
+        "Uses an effective strategy",
+        "Checks the answer",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dee's Addition Brag",
+    "discussion_prompts": [
+      "What does the variable stand for in 5 + ? = 12?",
+      "How can a number line help you find the missing number?",
+      "What does it mean to make two sides EQUIVALENT?",
+      "Can you check your answer? Show how."
+    ],
+    "exit_routine": "Detective Dee's signature — class chants: 'Find it! Then CHECK it! That's the Detective way!' Each child writes one missing-addend solution + a CHECK substitution."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Missing-number identification accuracy and strategy quality.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures C2.2 mastery for addition. Children at L4 solve missing-addend equations to 100 and check by adding."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child guesses randomly instead of using a strategy — repairing the no-strategy approach to missing numbers",
+    "rationale": "On 5 + ? = 12, the dominant Grade-2 trap is the equal-sign-as-operator misconception (Behr, Erlwanger & Nichols 1980; Carpenter, Franke & Levi 2003 'Thinking Mathematically'). Child reads = as 'do something' and writes 5 + ? = 12 → ? = 17 (treats it as 5 + 12). Until the relational view of = takes hold, missing-addend work cannot ground.\n\nYesterday Detective Dee opened the variable boxes (Lesson 1). Today the unknown lives INSIDE an addition equation. Lesson 3 moves to missing minuends; Lesson 4 multi-step; Lesson 5 capstones.",
+    "setup": "Pair is at Station A. The card shows '8 + ☐ = 14'. The child writes 5 and moves on without checking.",
+    "teacher_script": "Crouch beside the child. 'I see you wrote 5. Let's CHECK. 8 + 5 is 13, not 14. So 5 isn't right yet. Detective Dee always CHECKS.'\n\nNow show a strategy. 'Let's count UP from 8 to 14. 8, 9, 10, 11, 12, 13, 14. How many steps? Count them on your fingers.' The child counts. 'Six steps. So 8 + 6 = 14. The unknown is 6.'\n\n'Now CHECK. 8 + 6 is 14. ✓ Two sides equivalent. We found it.'\n\nTeach the strategies. 'Detective Dee uses 3 strategies. (1) Count up from the smaller side. (2) Use a known fact (like 8 + 6 = 14 from doubles). (3) Use counters on the balance.'\n\nIf the child STILL guesses: provide a checklist on the desk. 'Pick a strategy: count up, known fact, or counters. Then CHECK by adding.' Build the strategy reflex.\n\nLong-term recovery: drill 'find then check' as a 2-step routine. Praise checking even more than getting it right.",
+    "expected_student_responses": [
+      "(Confused) Guesses random numbers; doesn't check.",
+      "(Mid) Uses one strategy but doesn't check.",
+      "(Strong) Uses a strategy, finds the unknown, checks by adding.",
+      "(Stretched) Picks the most efficient strategy for each equation; explains why."
+    ],
+    "common_misconceptions": [
+      "Missing numbers are random guesses. (Repair: every missing number can be SYSTEMATICALLY found.)",
+      "Once I write an answer, I'm done. (Repair: always CHECK by substituting back.)",
+      "The variable is just one number — no strategy needed. (Repair: every equation has a logic; find it.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child writes ? = 17 (operator view): physically demo balance with 5 cubes + ? = 12 cubes; child sees both sides must MATCH. = means SAME ON BOTH SIDES.",
+      "DIAGNOSTIC B — child gets correct answer but can't justify: drill counting-up verbalisation ('start at 5 — 6, 7, 8, 9, 10, 11, 12 — that's SEVEN counts, so ? = 7').",
+      "DIAGNOSTIC C — child uses subtraction by inverse but misapplies: side-by-side compare 5 + ? = 12 with 12 - 5 = ?; child traces equivalence."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dee's Addition Cases",
+    "purpose": "Independent practice of C2.2 (find missing number in addition).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Solve 6 missing-addend equations to 50.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Solve 6 missing-addend equations to 100.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write your own missing-addend case and solve it.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dee in the worksheet header",
+      "6 equation slots for Part 1",
+      "6 equation slots for Part 2",
+      "A blank case-and-equation box for Part 3"
+    ]
+  }
+}

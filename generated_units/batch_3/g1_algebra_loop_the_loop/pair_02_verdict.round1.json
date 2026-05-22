@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "pair_number": 2,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the loop-as-list / 'Repeat 1' misconception ('the child uses Repeat 1 over and over instead of Repeat N') with concrete recovery, but no named CS-ed research grounds it and recovery_moves do not branch on what the diagnostic told you about the child.",
+      "required_fix": "Cite CS-ed research in expanded_walkthrough.rationale (e.g., Sorva 2013 on novice loop misconceptions, or Pea & Kurland 1984 on iteration). Branch recovery_moves: if child can articulate why they wrote Repeat 1, drill count semantics with body-loops; if not, drop back to choral 'count the same step' before reintroducing Repeat N notation.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Looper anchors minds_on and consolidation, but consolidation is generically 'Looper's Brag' with discussion_prompts and no quotable refrain children chant back. exit_routine ('write ONE loop on a sticky note') has no memorable chant or sentence frame carried between lessons; no Looper signature line on par with Sounder Sam's example.",
+      "required_fix": "Give Looper a recurring call-and-response refrain children chant back, e.g., Looper: 'Pick the BIG number!' / Children: 'Loops make it SHORT!' Add this chant to consolidation.exit_routine and quote it inside teacher_script in minds_on so it is set up Day 2 and reusable across Lessons 3-5.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (long code -> loop count = compression) and the loop-as-list misconception is named precisely, but children do not invent or compare strategies (Station A is 'rewrite using loop cards' per a fixed model) and no named CS-ed research grounds the trap.",
+      "required_fix": "Add a strategy-comparison move in action.steps: 2-3 pairs share alternative loop solutions for the same shape (e.g., square as 'Repeat 4: forward, turn' vs 'Repeat 2: forward, turn, forward, turn') and discuss which is shorter and why both work. In expanded_walkthrough.rationale name the underlying CS-ed principle (Sorva 2013 notional machine, or Pea & Kurland 1984).",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong worksheet (Part 2 hexagon transfers Station B stretch; image_assets map to lesson manipulatives) and excellent materials hygiene (puppets explicitly optional, body-loops as no-paper path). Lesson blockers are polish only: add a research citation for the loop-as-list trap, give Looper a child-facing call-and-response refrain, and add a strategy-compare share-out so children see multiple correct loop encodings of the same shape. Worksheet does not need changes."
+}

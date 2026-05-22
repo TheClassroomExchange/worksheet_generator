@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "lesson_number": 5,
+  "worksheet_title": "Coins at the Snack Shop",
+  "purpose": "Independent practice and summative evidence of A6.13 — recognising the four Canadian coins to 25¢, naming their values, and selecting the right coins to pay for priced items.",
+  "student_learning_goal": "I can name the four Canadian coins to 25¢ and tell how much each one is worth, and I can pick coins to pay for a snack priced 5¢, 10¢, or 25¢.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can name the four Canadian coins to 25¢ and tell how much each one is worth, and I can pick coins to pay for a snack priced 5¢, 10¢, or 25¢.",
+    "character_watermark": "Penny the Lead Coin Counter in the top-right corner of the header, holding a quarter and pointing to the snack shop sign. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Match the Coin",
+          "student_instructions": "Look at each coin. Draw a line from the coin picture to its name and to its value.",
+          "visual_layout": "Top third of the page. Three columns: COIN PICTURES on the left, COIN NAMES in the middle, VALUES on the right. Four rows for the four coins. The child draws lines from each picture across to the matching name and value. Coins shown: penny, nickel, dime, quarter. Names in random order: NICKEL, QUARTER, PENNY, DIME. Values in random order: 25¢, 1¢, 10¢, 5¢.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_COIN_MATCH_GRID",
+              "description": "A 4-row, 3-column matching grid in B&W line-art. Left column: photo-realistic-style line drawings of the penny (with maple leaves), nickel (beaver), dime (Bluenose ship), and quarter (caribou). Middle column: coin names in playful text (NICKEL, QUARTER, PENNY, DIME — order randomized). Right column: cent values (25¢, 1¢, 10¢, 5¢ — order randomized). Each row ~0.7in tall.",
+              "placement": "Top third of the page; full-width matching grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "coin",
+                "penny",
+                "nickel",
+                "dime",
+                "quarter"
+              ],
+              "text_image_alignment_check": "Image WS05_P1_COIN_MATCH_GRID at top third: keywords (coin, penny, nickel, dime, quarter) name what the grid shows."
+            }
+          ],
+          "student_response_type": "match",
+          "answer_key": "Penny picture → PENNY → 1¢. Nickel picture → NICKEL → 5¢. Dime picture → DIME → 10¢. Quarter picture → QUARTER → 25¢."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Snack Shop Pay",
+          "student_instructions": "Three customers want a snack. Look at the price. Circle the right coin (or coin combination) for each price.",
+          "visual_layout": "Middle of the page. Three numbered scenes stacked. Each scene has the snack picture on the left (with its price written below: e.g., 'POPCORN 10¢'), and four coin options arrayed on the right for the child to circle. Options for each scene: (a) one coin matching the price, (b) one coin too small, (c) one coin too big, (d) a multi-coin combination that ALSO matches the price. Snack 1: popcorn 10¢ (options: 1 dime, 1 nickel, 1 quarter, 5¢+5¢). Snack 2: lollipop 5¢ (options: 1 nickel, 1 dime, 5 pennies, 1 quarter). Snack 3: pizza 25¢ (options: 1 quarter, 1 dime + 1 nickel, 5 nickels, 1 dime).",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_SNACK_PAY_SCENES",
+              "description": "Three Snack Shop pay-the-price scenes stacked vertically in B&W line-art. Each scene ~2in tall. Each: (left) snack illustration with price label below — Scene 1: popcorn bucket with '10¢'; Scene 2: lollipop on stick with '5¢'; Scene 3: pizza slice with '25¢'. (right) four coin-option boxes in a 2×2 grid; each box ~1in × 1in containing a coin or coin-combination drawing with the value labelled. The child circles the box that pays the right price.",
+              "placement": "Middle of the page; three scenes spanning full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "snack",
+                "coin",
+                "price",
+                "popcorn",
+                "pizza"
+              ],
+              "text_image_alignment_check": "Image WS05_P2_SNACK_PAY_SCENES at middle: keywords (snack, coin, price, popcorn, pizza) name what the scenes show."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "Snack 1 (popcorn 10¢): circle 1 dime AND/OR 5¢+5¢ (both pay correctly). Snack 2 (lollipop 5¢): circle 1 nickel AND/OR 5 pennies. Snack 3 (pizza 25¢): circle 1 quarter AND/OR 1 dime + 1 nickel + 1 nickel — but in this layout, the dime+nickel option pays 15¢ (too low), so the correct circle is 1 quarter only. Five nickels also pays 25¢ if shown."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Pay 10¢ Another Way!",
+          "student_instructions": "Penny needs to pay 10¢ for popcorn — but in THREE different ways. Draw three different coin combinations that all add up to 10¢. Use the sentence starter.",
+          "visual_layout": "Bottom of the page. Three labelled coin-combo boxes in a horizontal row, each ~1.8in × 1.5in with a light-grey outline. Below each box, a sentence-starter line: 'I can pay 10¢ as ___ + ___ = 10¢.' Beside the boxes, a small reference key showing all four coin types with their values.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_PAY_TEN_CENTS_BOXES",
+              "description": "Three blank coin-combination boxes in a row, B&W line-art, each ~1.8in × 1.5in with light-grey outlines for drawing. Above each box, a banner labelled 'WAY 1', 'WAY 2', 'WAY 3'. Below each box, a sentence-starter dotted line. To the right of the three boxes, a small reference key (~1in tall) showing all four coin pictures with their values labelled.",
+              "placement": "Bottom of the page; three boxes spanning full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "pay",
+                "coin",
+                "popcorn"
+              ],
+              "text_image_alignment_check": "Image WS05_P3_PAY_TEN_CENTS_BOXES at bottom: keywords (pay, coin, popcorn) name what the boxes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any three valid combinations totalling 10¢. Common: (a) 1 dime, (b) 2 nickels = 5¢ + 5¢, (c) 10 pennies, (d) 1 nickel + 5 pennies = 5¢ + 1¢×5, (e) 5 pennies + 1 nickel. Accept any combination that adds to 10¢ and is expressed in the sentence starter."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and pay 25¢ in three different ways! How many ways can you find?",
+  "teacher_notes": "Lesson 5 capstone worksheet. This is the SUMMATIVE artifact for A6.13 — the child's score on Parts 1 and 2 is the headline assessment. Part 3 captures whether the child can compose coin values (A6.11/A6.12 connection). Watch for: (a) child can name the coins (Part 1) but freezes on multi-coin combinations (Part 2 d-options) — these children mastered recognition but not yet value-composition; (b) Part 3 with only one or two valid combinations — flag for next session's small-group review with real coins."
+}

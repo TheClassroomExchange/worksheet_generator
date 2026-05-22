@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "pair_number": 1,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the mass-capacity mix-up trap with concrete teacher moves, but the trap is not anchored in named research and recovery_moves is a flat list ('Use sorting cards', 'Drill is this about holding or weight?', 'Show containers vs solids') rather than diagnostic-conditioned branches keyed to what the child actually showed.",
+      "required_fix": "Cite Sarama & Clements 2009 measurement learning trajectory in expanded_walkthrough.rationale, AND restructure recovery_moves into branches: IF child names mass for any container, contrast a full-vs-empty cup; IF child applies capacity to solids, sort containers vs solids; IF child cannot articulate either, drop back to body gestures (cup-hands vs push-down).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Roo anchors minds_on and consolidation and 'I can' success criteria are present, but Roo lacks a distinctive quotable refrain and consolidation/exit_routine has no memorable chant or sentence frame children carry between lessons — exit_routine is only a generic 'My ___ has ___' frame and 'Roo's Attribute Brag' contains discussion prompts but no chant.",
+      "required_fix": "Add a Roo signature refrain that recurs across all 5 lessons (e.g., 'Roo says — every thing you can MEASURE is a thing you can NAME!') and bake it into consolidation as a class call-and-response chant; surface the refrain in lesson_01.consolidation.exit_routine as the closing chant so children carry it forward to Lessons 2-5.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Vocabulary is precise and child-friendly and progression names attributes before comparing them — clearly Level 3. But the lesson does not let children invent or refine a strategy and compare strategies, and expanded_walkthrough does not name the misconception in research-grounded terms (no Battista, Sarama & Clements, or Empson reference; trap is described in plain terms only).",
+      "required_fix": "In action.steps add a strategy-comparison move at Station C: ask two pairs to share HOW they decided which attribute to name for an ambiguous object (e.g., a backpack — mass or capacity?), then have the class compare reasoning. Also name the underlying concept in expanded_walkthrough.rationale citing Sarama & Clements 2009 measurement trajectory.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong pair overall — alignment, instructional balance (puppets explicitly OPTIONAL with substitution), and lesson-worksheet consistency clear Level 4. Three categories sit at Level 3 with concrete paths to 4: research citation plus branched recovery, a signature Roo chant, and a strategy-comparison move at Station C. Worksheet faithfully mirrors all 3 success criteria across Parts 1-3."
+}

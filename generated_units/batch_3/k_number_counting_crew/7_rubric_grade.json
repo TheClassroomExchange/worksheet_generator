@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "All 52 composites now produced by real composers. 4 character/cert hero images use clipart from sample_assets/clipart/ (slide01_people_01 chef pair for Mae+Theo+cert; slide02_random_04 golden retriever puppy for Buddy). 25 structural worksheet/manipulative templates rendered procedurally via the new pipeline/template_composers.py module (ten-frames, sorting mats, number paths, quadrant grids, comparison strips, tracing grids, match grids, paw-print groups, decomposition pairs, teen tens-stick visuals, dice + random subitize cards, number-line blanks). Compose dispatch wired in pipeline/compose.py."
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met on the lesson-plan + worksheet content axis. All five lessons carry an expanded_walkthrough block (~4000-5000 chars each) covering title/rationale/setup/teacher_script/expected_student_responses (4 bands)/common_misconceptions (3 each, paired with recovery_moves). Five distinct worksheet student_response_types: circle_or_loop, cut_and_sort, draw_or_write, match, write. Mid-unit formative gate present (Numerals 0-20 Check-In after L3) AND unit-level reflection sheet present (5 prompts). Pedagogical content is strong; the hero-image gap below is the appearance issue, not a depth issue.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough (avg 4626 chars each)",
+        "1_lesson_01..05.json::expanded_walkthrough.common_misconceptions (3 each, paired with recovery_moves)",
+        "2_worksheet_01..05.json::pages[].parts[].student_response_type (5 distinct types)",
+        "4_formative_reflection.json::formative_worksheets + reflection_sheet"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Strict L4 met. CRA progression visible across the unit: concrete (Counting Path floor mat with feet, cube towers, paper apples in basket, paper-bone plates) → representational (ten-frames, dice-pattern dot cards, number cards, sorting trays) → abstract (decomposition pair listing, justification scripts 'how do you know'). L4 subitizing arc and L5 composing arc each show plan → build → check.",
+      "evidence_refs": [
+        "1_lesson_02.json::action.steps (Counting Path floor walks → cube tower → arrow cards)",
+        "1_lesson_04.json::expanded_walkthrough (dice → flash → random pattern arc)",
+        "1_lesson_05.json::expanded_walkthrough (cubes → ten-frames → decomposition pairs)",
+        "3_manipulatives.json::assets (M1-M7 span all three CRA tiers)"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Strict L4 met. All five lessons have expanded_walkthrough blocks (≥3000 chars of dialogue each), 4 expected_student_responses bands per lesson, ≥3 misconceptions paired with recovery_moves, 'I can…' student_learning_goals. Teacher scripts are voice-rich and embodied.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.teacher_script",
+        "1_lesson_01..05.json::expanded_walkthrough.expected_student_responses",
+        "1_lesson_01..05.json::expanded_walkthrough.recovery_moves"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "consistency_check 0 issues; verify_curriculum_text 0 issues; validate_unit_alignment (image-text) 0 issues. Every A6.x code is cited as primary in ≥1 lesson; assessment_suite covers all 6 codes; lesson tracker_columns match assessment_suite formative_tracker columns; classroom_time_total_minutes matches sum of lesson durations; worksheet_brief.worksheet_title fields match worksheet_title verbatim.",
+      "evidence_refs": [
+        "0_blueprint.json::curriculum_codes + curriculum_expectations",
+        "1_lesson_*.json::primary_expectations vs 5_assessment_suite.json::summative_rubric.rows",
+        "pipeline.schemas.consistency_check (0 issues)",
+        "pipeline.curriculum_reference.verify_curriculum_text (0 issues)",
+        "pipeline.image_alignment.validate_unit_alignment (0 issues)"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "Strict L4 met after compose.py extension. 0 placeholder artwork (all 52 composites are real). 0 layout warnings post slide-layout calibration (overview Learning Goal box height + line-wrap factor recalibrated; lesson section header height now adapts per-section to subtitle wrap so section 3 body no longer crashes into a wrapped 2nd-line title). 0 density warnings (lesson big_ideas trimmed to ≤100 chars, minds_on first paragraphs ≤360 chars via paragraph breaks). Manipulative names ≤30 chars, prep_steps' first sentences end within 90 chars. 4 character/cert hero images use real clipart (chef pair sticker for Mae/Theo/cert, golden retriever puppy for Buddy). 25 structural templates rendered procedurally via pipeline/template_composers.py (ten-frames, sorting mats, number paths, quadrant grids, compare strips, tracing/match grids, paw-print groups, teen tens-stick, decomposition pairs, dice/random subitize cards). Marketplace long_description 2595 chars with substantive differentiator content; classroom time total 205 minutes equals sum of lesson durations.",
+      "evidence_refs": [
+        "composed/.composed_manifest.json::placeholder_count=0",
+        "validate_unit_for_slides (0 warnings post-fix)",
+        "validate_grade_density (0 warnings)",
+        "pipeline/template_composers.py (new generic composer library)",
+        "pipeline/compose.py — Counting Crew dispatch block (29 image_ids → real composers)"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-03-resume-final",
+  "graded_at": "2026-05-03T20:30:00Z"
+}

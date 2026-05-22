@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "lesson_number": 2,
+  "lesson_title": "Are They Equal?",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Two expressions can be EQUAL (same amount) or NOT EQUAL.",
+  "learning_intention": "We are learning to determine whether given pairs of addition and subtraction expressions are equivalent or not.",
+  "student_learning_goal": "I can decide if two addition or subtraction expressions are equal.",
+  "success_criteria": [
+    "I can use a balance scale to test if two expressions are equal.",
+    "I can use the equal sign (=) when amounts are the same.",
+    "I can use the NOT equal sign (≠) when amounts are different."
+  ],
+  "vocabulary_introduced": [
+    "equal",
+    "not equal",
+    "balance"
+  ],
+  "vocabulary_reinforced": [
+    "expression"
+  ],
+  "manipulatives_used": [
+    "M1_balance_scale",
+    "M2_balance_drawings",
+    "M4_equivalence_cards",
+    "M5_two_colour_counters",
+    "M9_equality_chart",
+    "M10_balance_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Bella the Balance Beam Scientist — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "OPTIONAL: Bobby the Balance Beam Buddy — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Real balance scale (or cardboard prop with movable arm)",
+    "Per-pair balance scale drawing mat",
+    "Per-pair set of two-colour counters (~20)",
+    "Equivalence Card deck (30 cards)",
+    "Equal Sign Anchor Chart (= and ≠)",
+    "Lesson 2 equivalence tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Bella's Balance Test",
+    "hook": "Bella has 5+3 on one side. Bobby has 4+4 on the other. Will the balance be level or tipped?",
+    "teacher_script": "Bring children to the carpet. Bella + Bobby puppets. 'Friends — Bella and Bobby have a real balance scale. They want to know — are 5+3 and 4+4 the SAME?'\n\nPlace 5 counters on the left pan, 3 more (total 8). On the right pan, place 4 counters, then 4 more (total 8). Show the balance — LEVEL.\n\n'Bella says — when both sides have the SAME amount, the balance is LEVEL. 5+3 and 4+4 BOTH equal 8. They're EQUAL.' Write 5 + 3 = 4 + 4 on the chart with the equal sign highlighted.\n\nNow not-equal. 'Bella has 5+3 on the left. Bobby puts 9 on the right. Same?' Place 8 vs 9. Balance TIPS to the right.\n\n'Tipped! 5+3 is 8, but 9 is more. They're NOT EQUAL. We write that with a special sign — the NOT equal sign.' Write 5 + 3 ≠ 9 on the chart, the ≠ symbol highlighted (drawn as = with a slash through it).\n\nMore practice: 6+4 vs 10. Equal. 7+2 vs 8+2. Not equal (9 ≠ 10). 5-3 vs 1+1. Equal (both 2). Demonstrate each on the balance.\n\nNow the rule. 'Bella says — the equal sign (=) means SAME AMOUNT. The NOT equal sign (≠) means DIFFERENT amounts.'\n\n'Today we'll test lots of pairs to see which are equal and which aren't.'",
+    "student_actions": [
+      "Predict whether 5+3 and 4+4 will balance.",
+      "Watch Bella place counters on each pan.",
+      "Echo new vocabulary: 'equal', 'not equal', 'balance'.",
+      "Predict for the 5+3 vs 9 case."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Balance Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: test 4 more pairs on the balance. (a) 6+3 vs 5+4. Equal. (b) 8-2 vs 4+1. Not equal (6 ≠ 5). (c) 7+1 vs 9-1. Equal (both 8). (d) 10-3 vs 5+2. Equal (both 7).",
+        "teacher_prompt": "Say to students: 'Four more pairs. Predict, then test.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Balance Drawings — pair has 8 cards; for each, draw counters on each pan of the balance drawing mat and write = or ≠. Station B: Equivalence Cards — pair has 16 expression-pair cards; sort into EQUAL and NOT EQUAL piles. Station C: Build Your Own — pair invents 4 pairs of expressions and tests each on a small balance.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include 2 'looks-different but equal' cases (5+3 vs 7+1; 10-3 vs 4+3) and 2 'looks-similar but not equal' cases (4+4 vs 4+5; 8-2 vs 8-3). Discuss why looks can deceive.",
+        "teacher_prompt": "Say to pairs: 'Some pairs LOOK obvious — but check carefully. Sometimes appearances trick you.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the equal sign. 'What does = mean?' Lead to: 'SAME AMOUNT.' NOT 'gives you the answer'. Distinguish: 5+3 = 8 means '5+3 is the same amount as 8'. 5+3 = 4+4 means '5+3 is the same amount as 4+4'.",
+        "teacher_prompt": "Use the balance scale to drive home the symmetry of the equal sign. The equal sign is BIDIRECTIONAL — both sides are the same."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the equivalence tracker.",
+        "teacher_prompt": "Stop at each pair. Hand them an expression pair and ask 'Equal or not? How do you know?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only addition pairs (no subtraction yet). Limit to facts under 10.",
+      "for_extending": "Stretch with 3-term expressions (1+2+3 vs 4+2). Discuss whether the rule extends.",
+      "for_ell_or_iep": "Provide picture-supported expression cards. Sentence frame: '___ is equal/not equal to ___.'",
+      "for_movement_learners": "Allow them to be the 'balance' — physically tilt their arms based on which side is heavier."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: tests pairs correctly with the balance; uses = and ≠ symbols correctly; explains 'same amount' for the equal sign.",
+      "how_to_record": "Tick the equivalence tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Tests pairs correctly",
+        "Uses = and ≠ correctly",
+        "Explains 'same amount'",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Bella's Equal-Sign Brag",
+    "discussion_prompts": [
+      "What does the = sign MEAN?",
+      "What does the ≠ sign mean?",
+      "How does the balance scale show equal?",
+      "Are 5+3 and 4+4 equal? Why?"
+    ],
+    "exit_routine": "Each child writes ONE pair they tested today on a sticky note: '___ ___ ___' (with = or ≠). Notes go on the chart on the way out."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Equivalence-testing accuracy, correct symbol use, and explanation of the equal sign meaning.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures C2.2 mastery. Children at L4 explain equal sign as 'same amount' (not 'gives the answer')."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child reads 5+3 = 4+4 as 'wrong because there's no answer' — repairing the operator misconception of the equal sign",
+    "rationale": "The most common Grade-1 trap on C2.2 is the operator misconception: the child reads = as 'gives you the answer'. So 5+3 = 8 makes sense ('5+3 gives you 8'), but 5+3 = 4+4 doesn't ('5+3 doesn't give you 4+4'). They reject equations of the form expression = expression because they don't see how the right side is 'an answer'.\n\nThe distinction matters because the equal sign is BIDIRECTIONAL — both sides have the same value. A child who reads = as 'gives' will struggle with all algebraic thinking. The walkthrough covers the precise moment when a child rejects 5+3 = 4+4 because 'there's no answer'.",
+    "setup": "Pair is at Station A. The card is '5+3 vs 4+4'. The child says 'They're not equal because there's no answer.' Or writes 5+3 ≠ 4+4 incorrectly.",
+    "teacher_script": "Crouch beside the child. 'Tell me how you decided.' The child says 'Equal sign means GIVES YOU THE ANSWER. 5+3 gives 8, but 4+4 isn't an answer.' Pause. 'OK — but the equal sign actually means SAME AMOUNT. Watch.'\n\nUse the balance scale. Place 5+3 (8 counters) on one pan. Place 4+4 (8 counters) on the other. Balance is LEVEL. 'Both sides have 8 counters. Both pans are the SAME. So 5+3 = 4+4 — they're equal AMOUNTS, even though the EXPRESSIONS look different.'\n\nNow rewrite the equal sign meaning. 'Equal means SAME AMOUNT. Not gives you the answer. 5+3 = 8 because they're the same amount. 5+3 = 4+4 because they're the same amount. 8 = 8 because they're the same amount.'\n\nIf the child STILL resists: emphasise the SYMMETRY. 'The equal sign works both ways. 5+3 = 4+4 is fine. 4+4 = 5+3 is fine. They're both saying SAME AMOUNT.'\n\nLong-term recovery: include expression-on-both-sides equations daily in warm-ups. 5+3 = 4+4. 7+2 = 6+3. Children build the bidirectional reading.",
+    "expected_student_responses": [
+      "(Confused) Reads = as 'gives you the answer' — rejects expression = expression. Most common at start of Lesson 2.",
+      "(Mid) Accepts with prompts; doesn't yet auto-read = as 'same amount'.",
+      "(Strong) Reads 5+3 = 4+4 as 'both sides have the same amount'. Writes equations both ways.",
+      "(Stretched) Volunteers that = is symmetric: 'I can write it 4+4 = 5+3 too. Same thing.'"
+    ],
+    "common_misconceptions": [
+      "= means 'gives you'. (Operator misconception. Repair: balance scale shows symmetry.)",
+      "Right side of = must be a single number. (Children expect '8' on the right, not '4+4'. Repair: explicit expression = expression demonstration.)",
+      "Equations are unidirectional. (Repair: explicitly write both 5+3=4+4 AND 4+4=5+3. Both valid.)"
+    ],
+    "recovery_moves": [
+      "Always say 'same amount' aloud when reading an equation. Trains the bidirectional reading.",
+      "Use the balance scale for the first 2-3 expression-on-both-sides equations. Visual proof.",
+      "Include equation = equation cases in daily warm-ups. Build the reflex."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Bella's Balance Test",
+    "purpose": "Independent practice of C2.2 (testing equivalence of expression pairs).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Six expression pairs. Child writes = or ≠ between them.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Four balance scale drawings. Each shows expressions on each pan; child draws the balance level (level or tipped) and writes = or ≠.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: 'Write your own pair of expressions that are EQUAL. Write your own pair that are NOT EQUAL.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Bella in the worksheet header",
+      "Six expression-pair rows for Part 1",
+      "Four blank balance scale drawings for Part 2",
+      "A blank box for Part 3"
+    ]
+  }
+}

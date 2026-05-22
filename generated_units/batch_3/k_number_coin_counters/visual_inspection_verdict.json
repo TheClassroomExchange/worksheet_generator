@@ -1,0 +1,11 @@
+{
+  "unit_id": "k_number_coin_counters",
+  "status": "pass",
+  "inspected_at": "2026-05-11T00:00:00Z",
+  "inspected_by": "claude-visual-inspector-r23-final",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 24, "description": "Certificate final bullet still truncates mid-sentence with an ellipsis ('...paying with the right…'); cosmetic, non-blocking."}
+  ],
+  "summary": "F21 fix verified: Lesson 5 Learning Goal on page 7 trimmed to 91 chars, wraps cleanly across 2 lines, and Materials header sits well below it with no overlap. All 25 pages render correctly."
+}

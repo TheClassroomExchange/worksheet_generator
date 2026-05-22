@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_likely_unlikely",
+  "lesson_number": 3,
+  "worksheet_title": "Lucky Lou's Two-Class Test",
+  "purpose": "Independent practice of D2.2 two-population testing.",
+  "student_learning_goal": "I can test a prediction by comparing two populations.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can test a prediction by comparing two populations.",
+    "character_watermark": "Lucky Lou the Loon in the top-right with a clover charm and two side-by-side data charts. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Predict same or different.",
+          "student_instructions": "For 4 scenarios, predict if Class A and Class B will have the SAME favourite.",
+          "visual_layout": "Four scenario boxes with same/different choice circles for each population pair.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_PREDICT",
+              "description": "A Grade 3 prediction layout for two-population worksheet, B&W line art. 4 scenarios: 'favourite sport', 'favourite snack', 'pet at home', 'bedtime'. Each row: SAME / DIFFERENT circles.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "population",
+                "predict"
+              ],
+              "text_image_alignment_check": "WS03_P1_PREDICT at Part 1: keywords name the population prediction task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Sample: sport=different, snack=different, pet=same, bedtime=same."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Read the data.",
+          "student_instructions": "Look at 2 paired data sets. Find each population's favourite.",
+          "visual_layout": "Two side-by-side columns showing Class A and Class B frequency counts for the same survey question.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_DATA",
+              "description": "A Grade 3 two-column data layout for two-population worksheet, B&W line art. Class A column: hockey 8, soccer 4, basketball 3. Class B column: soccer 6, hockey 5, basketball 4. Below the columns: 2 lines for favourite of each.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "columns",
+                "favourite"
+              ],
+              "text_image_alignment_check": "WS03_P2_DATA at Part 2: keywords name the side-by-side columns showing favourite counts."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Class A favourite = hockey; Class B favourite = soccer."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Was your prediction right?",
+          "student_instructions": "Compare your Part 1 prediction to the data. Was it right? Why?",
+          "visual_layout": "Sentence frame with a yes/no answer box and an explanation line.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_CHECK",
+              "description": "A Grade 3 right-or-wrong layout for two-population worksheet. Sentence frame: 'I predicted ___ . The data showed ___. My prediction was right/wrong because ___.' 4 lines.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "compare",
+                "right"
+              ],
+              "text_image_alignment_check": "WS03_P3_CHECK at Part 3: keywords name the compare-and-check task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid linkage of prediction to result with reason."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, design ONE survey question to compare two classes.",
+  "teacher_notes": "Lesson 3 consolidation. Formative — check two-population comparison with reason. Part 3 transfer: introduces ONE unfamiliar comparison context (e.g., two grade-levels' favourite snacks instead of pet polls). Verifies comparison generalises."
+}

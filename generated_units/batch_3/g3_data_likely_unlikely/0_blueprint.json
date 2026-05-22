@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_likely_unlikely",
+  "thematic_title": "Likely, Unlikely, Impossible — Grade 3 Predictions",
+  "descriptive_title": "Grade 3 Mathematics: Demonstrations — Probability and Predictions (D2.1-D2.2)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "D. Data",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-3",
+  "curriculum_codes": ["D2.1", "D2.2"],
+  "curriculum_expectations": {
+    "D2.1": "use mathematical language, including the terms 'impossible', 'unlikely', 'equally likely', 'likely', and 'certain', to describe the likelihood of events happening, and use that likelihood to make predictions and informed decisions",
+    "D2.2": "make and test predictions about the likelihood that the mean and the mode(s) of a data set will be the same for data collected from different populations"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on probability (D2.1-D2.2) framed around 'Likely, Unlikely, Impossible' — Lucky Lou the Loon and Maybe Mae the Cat. Day 1 introduces the FIVE-WORD likelihood scale (impossible, unlikely, equally likely, likely, certain). Day 2 uses the scale to make and explain predictions. Day 3 introduces SECOND-POPULATION testing (compare predictions across two groups). Day 4 introduces predicting MEAN and MODE across populations. Day 5 closes with a Big Predict Capstone integrating both expectations. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will use the 5-word likelihood scale, predict outcomes, test predictions across two populations, and predict whether mean and mode stay the same.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "The Five-Word Scale", "primary_expectations": ["D2.1"], "secondary_expectations": [], "big_idea": "There are FIVE likelihood words: impossible, unlikely, equally likely, likely, certain. They sit on a SCALE.", "student_learning_goal": "I can use all 5 likelihood words on the scale.", "one_line_summary": "Lucky Lou teaches the 5-word scale; children sort 12 events along it."},
+    {"lesson_number": 2, "lesson_title": "Predict and Decide", "primary_expectations": ["D2.1"], "secondary_expectations": [], "big_idea": "We use likelihood words to PREDICT and make INFORMED DECISIONS.", "student_learning_goal": "I can use likelihood words to make a prediction.", "one_line_summary": "Maybe Mae predicts coin flips and dice; children predict 6 events."},
+    {"lesson_number": 3, "lesson_title": "Two Populations Test", "primary_expectations": ["D2.2"], "secondary_expectations": [], "big_idea": "We test predictions by collecting data from TWO populations and comparing.", "student_learning_goal": "I can test a prediction by comparing two populations.", "one_line_summary": "Lucky Lou compares Class A and Class B favourites; children test their own."},
+    {"lesson_number": 4, "lesson_title": "Same Mean? Same Mode?", "primary_expectations": ["D2.2"], "secondary_expectations": [], "big_idea": "We can predict whether MEAN and MODE will be the SAME or DIFFERENT across populations.", "student_learning_goal": "I can predict if mean and mode stay the same across two populations.", "one_line_summary": "Maybe Mae predicts mean+mode across two classes; children calculate."},
+    {"lesson_number": 5, "lesson_title": "The Big Predict Capstone", "primary_expectations": ["D2.1", "D2.2"], "secondary_expectations": [], "big_idea": "Predictors use the SCALE plus mean and mode to PREDICT, TEST, and DECIDE.", "student_learning_goal": "I can predict using the scale, then test with mean and mode.", "one_line_summary": "Children run a full predict-test cycle: word, predict, collect, compare."}
+  ],
+  "expectation_lesson_map": {"D2.1": [1, 2, 5], "D2.2": [3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Lucky Lou the Loon", "role": "Lead character. Same Lucky Lou from G1/G2 likelihood units; now uses the full 5-word scale. Anchors all 5 lessons.", "visual_description": "A cheerful young loon with bright eyes and a clover charm around his neck, holding a 5-word scale chart."},
+    {"name": "Maybe Mae the Cat", "role": "Lucky Lou's partner. Mean+mode prediction character. Cameo Lessons 2-5.", "visual_description": "A small cat in a striped shirt with a question-mark hat, holding a clipboard and calculator."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "impossible", "child_friendly_definition": "Will never happen. Probability = 0."},
+    {"term": "unlikely", "child_friendly_definition": "Probably won't happen, but could."},
+    {"term": "equally likely", "child_friendly_definition": "Just as likely to happen as not. 50/50."},
+    {"term": "likely", "child_friendly_definition": "Probably will happen, but not for sure."},
+    {"term": "certain", "child_friendly_definition": "Will definitely happen. Probability = 1."},
+    {"term": "prediction", "child_friendly_definition": "What we think WILL happen, before testing."},
+    {"term": "population", "child_friendly_definition": "A group we collect data from. (Class A, Class B.)"},
+    {"term": "mean", "child_friendly_definition": "The 'fair share'. Add all values, divide by count."},
+    {"term": "mode", "child_friendly_definition": "The most common value."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_scale_strip", "name": "Five-Word Scale Strip", "description": "Letter-size strip with 5 likelihood zones.", "used_in_lessons": [1, 2, 5], "clipart_files": []},
+    {"id": "M2_event_cards", "name": "Likelihood Event Cards", "description": "Set of 24 event cards (sun rises, snow in July, coin flip, etc.).", "used_in_lessons": [1, 2, 5], "clipart_files": []},
+    {"id": "M3_coin_dice_set", "name": "Coin and Dice Cards", "description": "Set of 12 paper coins + 12 paper dice for prediction tests.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M4_population_chart", "name": "Two-Population Compare Chart", "description": "Letter-size chart with side-by-side population A and B columns.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M5_mean_mode_chart", "name": "Mean and Mode Chart", "description": "Anchor chart of mean (fair share) and mode (most common).", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Big Predict Template", "description": "Letter-size capstone with predict-test-compare flow.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_vocab_chart", "name": "G3 Likelihood Vocabulary Chart", "description": "Anchor chart with 5 likelihood words and definitions.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_prediction_chart", "name": "Prediction-Decision Chart", "description": "Anchor chart linking likelihood to decisions.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M9_calculator_set", "name": "Paper Calculator Cards", "description": "Set of 12 paper calculators for mean+mode work.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Likely Unlikely Poster", "description": "Anchor poster of Lucky Lou and Maybe Mae with the 5-word scale.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["Five-Word Scale Strip (per pair)", "Likelihood Event Cards (24)", "Coin and Dice Cards (12 each)", "Two-Population Compare Chart", "Mean and Mode Chart", "Big Predict Template (per child)", "G3 Likelihood Vocabulary Chart", "Prediction-Decision Chart", "Paper Calculator Cards (12)", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 word-sort snapshot.", "formative": "Lesson 2 prediction tracker; Lesson 3 two-population tracker; Lesson 4 mean+mode tracker.", "summative": "Lesson 5 Big Predict capstone."},
+  "pedagogical_notes": [
+    "Grade 3 expands G2 (3-word scale: impossible/possible/certain) to FIVE words by adding 'unlikely' and 'equally likely'.",
+    "The scale is visual — left = impossible, right = certain, middle = equally likely.",
+    "D2.2 is new — predict and test across two populations.",
+    "Mean+mode prediction connects D1.4 (computation) to D2.2 (prediction).",
+    "Conclusions use the 5-word scale, not just yes/no."
+  ],
+  "canadian_context_notes": [
+    "Examples: snow in July (impossible), maple leaves in fall (certain).",
+    "Hockey: predicting a Leafs win (likely or unlikely depending on class poll).",
+    "Tim Hortons: rolling Roll-Up cup (unlikely to win).",
+    "Provincial weather predictions (Vancouver rain = likely)."
+  ]
+}

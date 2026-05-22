@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Shape Safari — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1, while children are at the 2D shape sorting and identification stations.",
+    "expectation_focus": ["A9.1"],
+    "columns": ["Student name", "Names 5 shapes", "Describes properties", "Finds classroom examples", "Notes"],
+    "usage_notes": "Walk between pairs during the partner sort. For each child, tick the columns where you see clear evidence; leave blank if not yet observed (rather than marking 'no'). The 'Finds classroom examples' column is the key signal for which children have transferred shape vocabulary into the world — these can be challenged in Lessons 2-5. Children with blanks across all three skill columns may need a small-group re-loop on Lesson 1 before continuing.",
+    "layout_description": "One letter page, portrait orientation. Title at the top, expectation focus (A9.1) in a small box below. A date field and class label in the header row. The body is a table with one column for student names (left, ~1.5in wide), three narrow tick columns (~0.9in each) labelled with the column names, and a Notes column on the right (~2in wide). Approximately 24 blank student rows so the page accommodates a typical Ontario K class.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page for a Kindergarten teacher. Title at top: 'Shape Safari — Day 1 Diagnostic Checklist'. A small box below the title with text 'Expectation: A9.1 — identify, describe, and compare 2D shapes'. Two header fields: 'Date: ____' and 'Class: ____'. A grid table with 5 columns (matching the columns list) and 24 blank student rows. The first column is 'Student name' (~1.5in wide); columns 2-4 are tick boxes (~0.9in each); the last column is 'Notes' (~2in wide). Thin grey row dividers, slightly thicker column dividers. B&W line art only, full page.",
+        "placement": "Full page — the tracker IS the page.",
+        "approximate_size": "full_width",
+        "keywords": ["tracker", "shapes"],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER fills the page as the diagnostic tracker for Lesson 1. Keywords name the artifact (tracker) and unit focus (shapes)."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Shape Safari — Lesson 2 Formative Tracker (3D Shapes)",
+      "when_used": "During Lesson 2, while children are at the 3D shape stations identifying and comparing shapes.",
+      "expectation_focus": ["A9.2"],
+      "columns": ["Student name", "Names 5 3D shapes", "Describes properties", "Distinguishes 2D and 3D", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'What shape is this? Is it 2D or 3D? How do you know?' to elicit the third column. Tick when you see clear evidence; leave blank if not observed. The 'Distinguishes 2D and 3D' column is the deepest signal — children who can articulate 'flat vs solid' have crossed the conceptual threshold for the rest of the unit.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 2 column names. Title and expectation box updated to reflect A9.2 focus.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Shape Safari — Lesson 2 Formative Tracker (3D Shapes)' and 5 columns matching the Lesson 2 tracker_columns. Expectation box reads 'Expectation: A9.2 — identify, describe, and compare 3D shapes'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "3d"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2 fills the page as the formative tracker for Lesson 2. Keywords name the artifact (tracker) and the lesson focus (3D)."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Shape Safari — Lesson 3 Formative Tracker (Position Words)",
+      "when_used": "During Lesson 3, while pairs are placing animals on the safari map using position cards.",
+      "expectation_focus": ["A9.3", "A9.6"],
+      "columns": ["Student name", "Uses 5+ position words", "Describes locations", "Places objects", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'Where is the lion? Where is the elephant?' to elicit position words. Tick when you see clear evidence. The 'Uses 5+ position words' column is the precision signal — a child who only uses 'over' for everything is not yet there. The 'Places objects' column captures the productive use (the child can take a position-word direction and act on it correctly).",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 3 column names. Title and expectation box updated to reflect A9.3 + A9.6 focus.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Shape Safari — Lesson 3 Formative Tracker (Position Words)' and 5 columns matching the Lesson 3 tracker_columns. Expectation box reads 'Expectations: A9.3 — use positional language; A9.6 — describe location with positional language'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "position"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3 fills the page as the formative tracker for Lesson 3. Keywords name the artifact (tracker) and the lesson focus (position)."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Shape Safari — Lesson 4 Formative Tracker (Compose and Decompose)",
+      "when_used": "During Lesson 4, while pairs are at the compose, decompose, and 3D-build stations.",
+      "expectation_focus": ["A9.4", "A9.5"],
+      "columns": ["Student name", "Composes 2D shape", "Decomposes 2D shape", "Builds 3D structure", "Notes"],
+      "usage_notes": "These three columns are deliberately separated by skill because they have different difficulties: composing a target from pattern blocks is easiest; decomposing a bigger shape with internal lines is harder; building a 3D structure that names its component shapes is hardest. A child solid on compose but blank on the others is on track for the typical K trajectory. Use this tracker to identify children who are ready for the capstone (3 ticks) versus those who need a 1:1 conference before Lesson 5.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 4 column names. Title and expectation box updated to reflect A9.4 + A9.5 focus.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Shape Safari — Lesson 4 Formative Tracker (Compose and Decompose)' and 5 columns matching the Lesson 4 tracker_columns. Expectation box reads 'Expectations: A9.4 — compose and decompose 2D shapes; A9.5 — build with 3D shapes'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "compose"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4 fills the page as the formative tracker for Lesson 4. Keywords name the artifact (tracker) and the lesson focus (compose)."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Shape Safari — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 (Shape Safari Art Capstone) to score each child against six expectations on a 4-level scale. Aligned with Ontario Kindergarten Communication of Learning conventions: descriptive, observational, growth-oriented.",
+    "rows": [
+      {
+        "expectation_code": "A9.1",
+        "expectation_text": "identify, describe, and compare 2D shapes",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "With significant adult prompting, names 1-2 2D shapes only some of the time. Does not yet describe properties."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Names 3-4 2D shapes most of the time with prompts. Describes basic properties (round vs straight) when asked."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently names 5 2D shapes (circle, triangle, square, rectangle, hexagon) and describes properties using shape vocabulary."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Names additional 2D shapes (oval, pentagon, semicircle) beyond the core 5 and spontaneously identifies 2D shapes in the environment."}
+        ]
+      },
+      {
+        "expectation_code": "A9.2",
+        "expectation_text": "identify, describe, and compare 3D shapes",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot consistently distinguish 2D from 3D. May call all shapes 'shapes' without flat/solid distinction."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Names 1-2 3D shapes (typically cube and sphere). Recognizes 3D as 'solid' when prompted."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently names 5 3D shapes (sphere, cube, cylinder, cone, pyramid) and clearly distinguishes 2D from 3D using flat/solid vocabulary."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Articulates faces, edges, and vertices for 3D shapes and recognizes that 3D shapes have 2D faces (e.g., 'a cube's face is a square')."}
+        ]
+      },
+      {
+        "expectation_code": "A9.3",
+        "expectation_text": "use positional language (above, below, beside, inside, outside)",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Uses 1-2 position words (typically 'in' and 'on') for everything. Does not yet differentiate above/below or inside/outside reliably."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Uses 3-4 position words with prompts. May still confuse above with below or inside with between."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently uses 5+ position words (above, below, beside, inside, outside) accurately to describe object placement."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Combines two position words ('above and beside') and applies position vocabulary spontaneously across the day."}
+        ]
+      },
+      {
+        "expectation_code": "A9.4",
+        "expectation_text": "compose and decompose 2D shapes",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Stacks pattern blocks randomly without a target. Cannot identify when a bigger shape can be made from smaller ones."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Composes a square from 2 triangles or a hexagon from 6 triangles with adult prompts. Decomposing remains difficult."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently composes target shapes (square, hexagon, rectangle, house) from pattern blocks AND decomposes a bigger shape into smaller named shapes."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Composes the same target shape two different ways (e.g., hexagon = 6 triangles OR 2 trapezoids) and explains why both work."}
+        ]
+      },
+      {
+        "expectation_code": "A9.5",
+        "expectation_text": "build with 3D shapes",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Stacks 3D shapes randomly without a target. Cannot name the shapes used in a structure."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Builds a simple structure (tower from cubes) and names 1-2 of the 3D shapes used."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently builds a multi-shape 3D structure (bridge, house, tower) AND names which 3D shapes were used."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Builds a structure using all 5 different 3D shapes AND describes the structure using position words ('the cone is above the cube')."}
+        ]
+      },
+      {
+        "expectation_code": "A9.6",
+        "expectation_text": "describe location with positional language",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Describes location only with pointing or 'here'/'there'. Cannot articulate position relationships in words."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Describes object location with 1-2 position words when prompted. Often confuses similar pairs (above/below)."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently describes object location using full 'The ___ is ___ the ___' sentence frame with correct position words."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Produces multi-clause descriptions ('the lion is above the rocks AND beside the tree') and uses position words across the school day spontaneously."}
+        ]
+      },
+      {
+        "expectation_code": "A9.7",
+        "expectation_text": "use shapes in art and patterns",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Free-draws without using identifiable shapes. Cannot name shapes in their own artwork."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Includes 2-3 shapes in their artwork with prompts. Can name some of the shapes when pointed to."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently uses 5+ different shapes in a safari picture, composes at least one bigger shape from smaller ones, and labels the shapes used."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Mixes 2D and 3D representations in artwork, includes a composed shape with multiple sub-shapes, and describes the picture using position words."}
+        ]
+      }
+    ],
+    "usage_notes": "Score during the Lesson 5 capstone phases (mostly visible from the worksheet artifact) and confirm during the gallery walk (partner observation). Level 3 is the grade-level expectation; aim for most children to land at L2 or L3 by end-of-unit. L1 is a signal for additional support; L4 is a signal for enrichment in Grade 1. Communicate scores to families using the Communication of Learning narrative format ('demonstrates a developing understanding of...') rather than letter grades.",
+    "layout_description": "One letter page, landscape orientation, with a 6×4 grid table (6 expectation rows × 4 level columns) plus a left-most column for the expectation code and text. Each cell contains the level descriptor in K-readable type. Title at the top of the page; usage notes printed below the table. Total table approximately 10in wide × 7in tall.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable rubric table page for a Kindergarten Shape Safari summative. Title at top: 'Shape Safari — Summative Rubric'. Below the title, a 5-column table: leftmost column 'Expectation' (~2.5in wide), and four level columns (~2in each) labelled 'Level 1 (Beginning)', 'Level 2 (Developing)', 'Level 3 (Achieving — the goal)', 'Level 4 (Exceeding)'. Six rows of expectations (A9.1, A9.2, A9.3, A9.4, A9.5, A9.7), each cell containing the descriptor. Light-grey shading on the Level 3 column to highlight that it is the goal level. Below the table, the usage notes printed in smaller type. Landscape orientation. B&W line art only.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": ["rubric", "shapes"],
+        "text_image_alignment_check": "Image AS_RUBRIC at the summative rubric: instructions describe a 6-expectation rubric used to score the Lesson 5 capstone. Keywords name the artifact (rubric) and the unit focus (shapes)."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Shape Safari Art Capstone — Summative Administration Guide",
+    "purpose": "Ties the Lesson 5 worksheet, the lesson plan's structured capstone phases (Plan-Build-Describe-Share), and the rubric together. Tells the teacher exactly what evidence to look for during each phase and which expectation each phase's evidence maps to.",
+    "administration_steps": [
+      "Before the lesson: photocopy one Safari Capstone template per child plus 5 extras for revisions. Print one rubric per child or maintain a single class rubric on a clipboard with student-name rows pre-filled. Have the Junior Shape Explorer certificates printed and ready for the closing ceremony (do not show them to children before they have earned them).",
+      "Phase 1 (Plan, 5 min): Children list 5 shapes in the plan slots. This produces visible evidence for A9.1 and A9.2 (which shapes can the child name). Walk the room and check that each child has identified 5 shapes; nudge children who have left slots blank.",
+      "Phase 2 (Build, 12 min): Children draw the safari picture using their planned shapes, including at least 1 composed bigger shape. This produces visible evidence for A9.4 (compose) and A9.7 (shapes in art). Begin one-on-one rubric conferences during this phase — ask each child 'What shape did you compose? What smaller shapes did you use?'.",
+      "Phase 3 (Describe, 5 min): Children write 3 sentences using position words. This produces visible evidence for A9.3 and A9.6. Continue rubric conferences. By the end of Phase 3, you should have scored most children on at least 4 of 6 expectations.",
+      "Phase 4 (Share, 5 min): Children pair up and walk through their picture with a partner. Listen for partners articulating shape names AND position words AND composed shapes. Use this phase to confirm scores you were uncertain about and to upgrade scores where a child demonstrates Level 4 thinking aloud.",
+      "After the lesson: review the rubric with the worksheet artifact in front of you. For any child below Level 3 on any expectation, note what evidence (or absence) drove that decision. Use this for the Communication of Learning narrative."
+    ],
+    "scoring_guidance": "Use the worksheet artifact as primary evidence and the partner-share conversation as confirming evidence. For each expectation, ask: 'What level of independence and confidence did this child show?' Level 3 is the grade-level goal — aim for most children to land at L2 or L3. Children who are L4 on every expectation are ready for Grade 1 spatial work; document this for the receiving teacher. Children who are L1 on multiple expectations need targeted small-group work in the next math block — do not retain them in K spatial sense; instead build the bridge in concrete play and revisit.",
+    "evidence_per_expectation": {
+      "A9.1": "Look at Part 1 (plan list). Did the child list 5+ shapes including 2D shapes (circle, triangle, square, rectangle, hexagon)? Combined with Part 2 (the picture). A child whose plan includes 5+ valid 2D shapes is at Level 3 on A9.1.",
+      "A9.2": "Look at Part 1 (plan list). Did the child include any 3D shapes (sphere, cube, cylinder, cone, pyramid)? A child whose plan and picture mix 2D and 3D is at Level 3 on A9.2; only 2D = Level 2.",
+      "A9.3": "Look at Part 3 (3 position-word sentences). Does the child use 3 different position words correctly? A child who uses 3 distinct words is at Level 3; one or two repeated words suggests Level 2.",
+      "A9.4": "Look at Part 2 (the picture). Did the child compose at least 1 bigger shape from smaller shapes? A composed shape with clear sub-shape outlines is Level 3; multiple composed shapes or composing the same shape two different ways is Level 4.",
+      "A9.5": "Lesson 5 doesn't require a 3D structure in the worksheet, but the partner-share may reveal A9.5. If a child describes a 3D structure in their picture (e.g., 'a cube hut'), credit Level 3.",
+      "A9.6": "Look at Part 3 (3 sentence frames). A child who completes all 3 sentence frames using the structure 'The ___ is ___ the ___' with correct position words for their own picture is at Level 3.",
+      "A9.7": "Look at Part 2 (the picture). Did the child use shapes intentionally to make a recognizable safari scene? A picture with 5+ shapes integrated into recognizable elements is Level 3."
+    }
+  },
+  "certificate": {
+    "title": "Junior Shape Explorer Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Shape Safari unit and demonstrating the skills of a Shape Explorer. A safari shape certificate. Sammy the Safari Sloth congratulates the student.",
+    "skills_demonstrated": [
+      "Identifying and naming 2D and 3D shapes",
+      "Using position words to describe location",
+      "Composing and decomposing shapes",
+      "Building 3D structures and using shapes in art"
+    ],
+    "layout_description": "One letter page, portrait orientation. Decorative ornamental border around the entire page (~0.5in margin). Title 'Junior Shape Explorer Certificate' at the top in large ornate font (~1in tall). Below: the recipient label and a wide blank line for the child's name. Below: 'For successfully completing the 5-Day Shape Safari unit and demonstrating the skills of a Shape Explorer.' Below: a bullet list of the four skills demonstrated. Toward the bottom: two side-by-side signature lines labelled 'Teacher Signature' and 'Date'. At the bottom-centre, a small Sammy the Safari Sloth illustration holding a safari hat. Designed to feel celebratory and ceremonial.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative ornamental border framing the certificate page, approximately 0.5in inset from each edge. Style: gentle scrollwork suitable for a child's certificate — repeating curls, small star or leaf motifs at the corners (safari-themed), no military or formal-medallion vibes. B&W line art with thin elegant strokes. Suitable for a Kindergarten celebration.",
+        "placement": "Frames the entire page.",
+        "approximate_size": "full_width",
+        "keywords": ["certificate"],
+        "text_image_alignment_check": "Image AS_CERT_BORDER at Frames the entire page: keywords name the artifact (certificate) the border decorates."
+      },
+      {
+        "id": "AS_CERT_SAMMY",
+        "description": "A small Sammy the Safari Sloth illustration at the bottom-centre of the certificate, approximately 1.5in tall. Sammy is smiling broadly and holding his safari hat up in a celebratory pose, as if just finishing a shape adventure. B&W line art consistent with the CHAR_SAMMY_FRONT puppet illustration. References blueprint.recurring_characters.",
+        "placement": "Bottom-centre of the page, below the signature lines.",
+        "approximate_size": "small",
+        "keywords": ["sammy", "certificate"],
+        "text_image_alignment_check": "Image AS_CERT_SAMMY at Bottom-centre: keywords name the character (sammy) and artifact (certificate)."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

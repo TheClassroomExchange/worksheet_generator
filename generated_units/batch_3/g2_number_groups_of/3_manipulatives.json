@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "overall_prep_notes": "Total prep time across all 13 assets is approximately 2 hours. The bulk is M3 Paper Kittens (printed and laminated for the pet-shop scenario), M5 Story Problem Cards (18 cards), M7 Paper Cookies with halves and fourths (pre-cut along fraction-lines), and M9 Multiplication/Division Fact Triangles (24 cards). Two-colour counters (M2) and the double ten-frame mat (M1) are standard. The three character puppets (Mae, Dan, Buddy) should be printed on cardstock for years of reuse.",
+  "assets": [
+    {
+      "asset_id": "M1_double_ten_frame",
+      "name": "Double Ten-Frame Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat with two stacked ten-frames. Used in Lesson 1 for fact modelling and make-ten strategy.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_DOUBLE_TEN_FRAME",
+          "description": "A double ten-frame mat in B&W line-art on a landscape letter page. Top half shows a 2x5 ten-frame grid (10 cells, labeled 'TOP'). Bottom half shows another 2x5 grid (labeled 'BOTTOM'). Cell borders are thin solid black lines.",
+          "placement": "Centred on the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "ten-frame",
+            "mat"
+          ],
+          "text_image_alignment_check": "Image M1_DOUBLE_TEN_FRAME: keywords (ten-frame, mat) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per child (20+ pages for class of 20).",
+        "Laminate every page so children can use dry-erase markers.",
+        "Hand out at the start of Lesson 1.",
+        "Collect at the end of Lesson 1.",
+        "Optional: print extras for emerging-learner small group review."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 mat per child = 20+ for a class of 20.",
+      "used_in_lessons": [
+        1
+      ]
+    },
+    {
+      "asset_id": "M2_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "category": "manipulative",
+      "purpose": "Round counters, red on one side, yellow on the other. Used for fact modelling, story-problem building, and array construction.",
+      "page_layout": "Not printable — physical counters from the classroom math kit.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_COUNTERS_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows two stacked counters (red side / yellow side) with header 'TWO-COLOUR COUNTERS — 30 per pair'.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "counters",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M2_COUNTERS_LABEL: keywords (counters, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Confirm class set of two-colour counters (30 per pair = 300 for a class of 20).",
+        "Print storage labels; tape to zip-top bags.",
+        "Sort into per-pair bags before Lesson 1.",
+        "Have bags ready at the start of Lessons 1, 2, 3, and 5.",
+        "Optional: use red and yellow paper circles if foam unavailable."
+      ],
+      "estimated_prep_minutes": 8,
+      "quantity_per_class": "30 counters per pair = 300 for a class of 20.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_paper_kittens",
+      "name": "Paper Kittens",
+      "category": "manipulative",
+      "purpose": "Set of 20 printable paper kitten tokens. Used in Lesson 3 for the pet-shop equal-groups scenario and Lesson 5 for division-as-equal-sharing.",
+      "page_layout": "2 letter pages, portrait. Each page holds 10 kittens in a 2x5 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_KITTEN_TOKEN",
+          "description": "A paper kitten token in B&W line-art, ~2in tall. Round-faced kitten with simple smile and whiskers. Repeated 20 times across 2 pages in a 2x5 grid each.",
+          "placement": "10 kittens per page in a 2x5 grid.",
+          "approximate_size": "small",
+          "keywords": [
+            "kitten",
+            "token"
+          ],
+          "text_image_alignment_check": "Image M3_KITTEN_TOKEN: keywords (kitten, token) name what the token shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock per group.",
+        "Laminate every page.",
+        "Cut into 20 individual kitten tokens.",
+        "Sort into per-group bags (~5 sets for a class of 20 in groups of 4).",
+        "Refresh annually if tokens get bent."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "20 kittens per group = ~5 sets for a class of 20.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M4_baskets_template",
+      "name": "Baskets Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template with 6 basket outlines for grouping kittens (or any items) into equal groups.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_BASKETS_TEMPLATE",
+          "description": "A baskets template in B&W line-art on a portrait letter page. 6 wicker basket outlines in a 2-row × 3-column grid. Each basket ~2.5in wide × 2in tall with a thin black outline.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "baskets",
+            "template"
+          ],
+          "text_image_alignment_check": "Image M4_BASKETS_TEMPLATE: keywords (baskets, template) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 template per pair.",
+        "Laminate every page.",
+        "Hand out at the start of Lesson 3.",
+        "Collect at the end of Lesson 5.",
+        "Optional: print extras for stations."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 template per pair = 10+ for a class of 20.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_story_cards",
+      "name": "Story Problem Cards",
+      "category": "manipulative",
+      "purpose": "Deck of 18 letter-size story problem cards: 6 change-add-to, 6 change-take-from, 6 part-part-whole. Totals up to 100. Used in Lesson 2.",
+      "page_layout": "9 letter pages, portrait. 2 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 9,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_STORY_CARD",
+          "description": "A story-problem card in B&W line-art, ~5.5in × 4in. Top section shows the story text. Bottom section shows a small illustration matching the story (Mae with kittens for change-add-to, Mae with cookies for change-take-from, Mae and Dan with mixed items for part-part-whole). Card border is thick black outline. Card number bottom-right.",
+          "placement": "Two cards per letter page, stacked vertically.",
+          "approximate_size": "large",
+          "keywords": [
+            "story",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M5_STORY_CARD: keywords (story, card) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 9 pages on cardstock.",
+        "Laminate every page.",
+        "Cut each page in half to make 18 individual cards.",
+        "Sort by problem type (6 change-add-to, 6 change-take-from, 6 part-part-whole). Colour-code corner stickers.",
+        "Distribute 6 cards per station for Lesson 2 rotations."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 deck of 18 cards.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M6_array_grid",
+      "name": "Array Grid Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size grid mat with rows and columns labeled 1-6. Children place counters to form arrays for multiplication.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_ARRAY_GRID",
+          "description": "An array grid mat in B&W line-art on a landscape letter page. 6×6 grid of empty squares. Row labels 1-6 on the left edge; column labels 1-6 on the top edge. Each cell ~1.2in × 1.2in.",
+          "placement": "Centred on the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "array",
+            "grid"
+          ],
+          "text_image_alignment_check": "Image M6_ARRAY_GRID: keywords (array, grid) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per pair.",
+        "Laminate every page.",
+        "Hand out at the start of Lesson 3.",
+        "Collect at the end of Lesson 3.",
+        "Optional: print extras for stations."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 mat per pair = 10+ for a class of 20.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_paper_cookies_halves",
+      "name": "Paper Cookies",
+      "category": "manipulative",
+      "purpose": "Set of ~24 printable paper cookie tokens. Some pre-cut along half-lines, some along fourth-lines. Used in Lesson 4 for half-group and fourth-group activities.",
+      "page_layout": "3 letter pages, portrait. Each page holds 8 cookies.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 3,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_COOKIE_TOKEN",
+          "description": "A paper cookie token in B&W line-art, ~2in diameter. Round shape with chocolate-chip dots. Some cookies have a dotted half-line dividing them; others have crossed dotted fourth-lines (4 sectors). 24 cookies total across 3 pages.",
+          "placement": "8 cookies per page in a 2x4 grid.",
+          "approximate_size": "small",
+          "keywords": [
+            "cookie",
+            "halves"
+          ],
+          "text_image_alignment_check": "Image M7_COOKIE_TOKEN: keywords (cookie, halves) name what the token shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 3 pages on cardstock per group.",
+        "Laminate every page before cutting.",
+        "Cut into 24 individual cookie tokens.",
+        "Pre-cut about 8 cookies along the half-line into halves. 8 along the fourth-lines into fourths; leave 8 whole.",
+        "Store in a labelled bag; refresh annually."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "24 cookies per group = ~5 sets for a class of 20.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M8_share_plates",
+      "name": "Sharing Paper Plates",
+      "category": "manipulative",
+      "purpose": "Set of 6 paper plates per group. Used in Lesson 5 for division-as-equal-sharing.",
+      "page_layout": "Not printable — real disposable paper plates.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_PLATES_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows a stack of 4 paper plates with header 'SHARING PLATES — 6 per group'.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "plates",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M8_PLATES_LABEL: keywords (plates, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Prep this step carefully. Buy a pack of small disposable paper plates (6 per group = ~30 for a class of 20 in groups of 4).",
+        "Print storage labels; tape to plate stacks.",
+        "Sort into per-group sets before Lesson 5.",
+        "Have plates ready at the start of Lesson 5.",
+        "Reuse plates across the week if clean."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "6 plates per group = ~30 for a class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_fact_triangles_md",
+      "name": "Multiplication/Division Fact",
+      "category": "manipulative",
+      "purpose": "Set of 24 laminated triangle cards. Each shows 3 numbers of a multiplication/division fact family at the corners with × and ÷ icons in the centre.",
+      "page_layout": "4 letter pages, portrait. 6 triangles per page in 2x3 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_TRIANGLE_CARD",
+          "description": "A multiplication/division fact-family triangle card in B&W line-art, ~3in tall. Equilateral triangle with 3 circles at corners (top circle = product, two bottom circles = factors). Centre of the triangle has a small × / ÷ icon. Cut lines around each card.",
+          "placement": "Repeated 24 times across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "triangle",
+            "fact"
+          ],
+          "text_image_alignment_check": "Image M9_TRIANGLE_CARD: keywords (triangle, fact) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate every page before cutting.",
+        "Cut into 24 individual triangle cards.",
+        "Sort by smallest factor (2s, 3s, 4s, 5s, 6s) — colour-code corner stickers.",
+        "Distribute 6 cards per pair for Lesson 5 Station B."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "24 cards per class set.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_workshop_poster",
+      "name": "The Equal Groups Workshop",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor chart showing the four operations (+, -, ×, ÷) with example representations. Posted Lesson 1, referenced all week.",
+      "page_layout": "1 large-format letter page, portrait — printed at tabloid size if possible, or assembled from 4 letter pages tiled together.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_WORKSHOP_POSTER",
+          "description": "The Equal Groups Workshop anchor poster in B&W line-art, ~17in × 22in. Top section shows the workshop facade with Mae and Dan inside. Middle section has 4 strategy/operation rows: Addition (+), Subtraction (-), Multiplication (×) with a 'GROUPS OF' icon, Division (÷) with a 'SHARED BY' icon. Bottom section has Buddy with a delivery cart waving.",
+          "placement": "Centre of the poster, full-width.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "workshop",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_WORKSHOP_POSTER: keywords (workshop, poster) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 letter pages and tile, OR print 1 tabloid page if available.",
+        "Laminate the assembled poster.",
+        "Tape to the front classroom wall on Day 1.",
+        "Reference the operations rows during every lesson.",
+        "Store rolled at the end of the unit for re-use next year."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "1 poster for the classroom.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_mae_puppet",
+      "name": "Mae the Multiplier",
+      "category": "character_puppet",
+      "purpose": "Printable Mae the Multiplier illustration on a popsicle stick — the unit's lead character.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_MAE_FRONT",
+          "description": "Mae the Multiplier illustration in B&W line-art: a friendly maker wearing a worker's apron with a large × symbol patch on the chest, a soft cap with the same × symbol, and rolled-up sleeves. Short brown hair, eager expression. ~6in tall on a letter page with 1in attachment tab below.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "mae"
+          ],
+          "text_image_alignment_check": "Image CHAR_MAE_FRONT: keywords (mae) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Cut around Mae's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_dan_puppet",
+      "name": "Dan the Divider",
+      "category": "character_puppet",
+      "purpose": "Printable Dan the Divider illustration on a popsicle stick — Mae's partner.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_DAN_FRONT",
+          "description": "Dan the Divider illustration in B&W line-art: a careful-looking maker with round glasses (one lens with a small ÷ symbol etched), a vest with a pocket of paper plates, dark short hair. Methodical expression, holding a clipboard. ~6in tall with attachment tab below.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "dan",
+            "divider"
+          ],
+          "text_image_alignment_check": "Image CHAR_DAN_FRONT: keywords (dan, divider) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Cut around Dan's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "char_buddy_puppet",
+      "name": "Buddy the Workshop Helper",
+      "category": "character_puppet",
+      "purpose": "Printable Buddy the Workshop Helper illustration on a popsicle stick — the cheerful helper who delivers materials.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_BUDDY_FRONT",
+          "description": "Buddy the Workshop Helper illustration in B&W line-art: a small bouncy helper with a yellow rain-cap, a tiny tool belt, and a small wheeled cart full of math props. Usually shown mid-step with eager grin. ~6in tall with attachment tab below.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "buddy",
+            "helper"
+          ],
+          "text_image_alignment_check": "Image CHAR_BUDDY_FRONT: keywords (buddy, helper) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Cut around Buddy's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

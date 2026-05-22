@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 5,
+  "worksheet_title": "My Detective Mission",
+  "purpose": "Summative evidence for A8.1+A8.2+A8.3+A8.4.",
+  "student_learning_goal": "I can be a Data Detective for a question I pick.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can be a Data Detective for a question I pick.", "character_watermark": "Detective Dot and Tally together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Question", "student_instructions": "Pick your question and 3-4 choices.", "visual_layout": "Top of page. Question slot and choices.",
+      "image_placeholders": [{"id": "WS05_P1_QUESTION", "description": "A question slot in B&W, ~7in x 1.5in. 'My question: ___'. 4 choice slots below. Header 'Part 1: My Question'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["question"], "text_image_alignment_check": "Image WS05_P1_QUESTION: keywords (question) name the slot."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 2, "part_title": "Part 2: Survey", "student_instructions": "Survey 6 classmates. Tally each answer.", "visual_layout": "Upper-middle. Tally chart.",
+      "image_placeholders": [{"id": "WS05_P2_SURVEY", "description": "A tally chart in B&W, ~7in x 2in. 4 row categories. Tally areas. Header 'Part 2: Survey (6 classmates)'.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["survey"], "text_image_alignment_check": "Image WS05_P2_SURVEY: keywords (survey) name the chart."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 3, "part_title": "Part 3: My Pictograph", "student_instructions": "Make a pictograph from your tallies.", "visual_layout": "Middle. Blank pictograph.",
+      "image_placeholders": [{"id": "WS05_P3_GRAPH", "description": "A blank 4-row pictograph in B&W, ~7in x 2in. Header 'Part 3: Pictograph'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["pictograph"], "text_image_alignment_check": "Image WS05_P3_GRAPH: keywords (pictograph) name the chart."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 4, "part_title": "Part 4: Describe", "student_instructions": "Which has the most? Fewest? Are any equal?", "visual_layout": "Bottom. Description slots.",
+      "image_placeholders": [{"id": "WS05_P4_DESC", "description": "Three description slots in B&W, ~7in x 1.5in. 'Most: ___'. 'Fewest: ___'. 'Equal: ___'. Header 'Part 4: Describe'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["describe"], "text_image_alignment_check": "Image WS05_P4_DESC: keywords (describe) name the slots."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and compare graphs.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use as integrated A8.1-A8.4 evidence."
+}

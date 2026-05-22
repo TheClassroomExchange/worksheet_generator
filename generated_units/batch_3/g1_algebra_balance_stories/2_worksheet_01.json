@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "lesson_number": 1,
+  "worksheet_title": "Bella's Sorting Game",
+  "purpose": "Independent practice of C2.1 (change vs stay the same).",
+  "student_learning_goal": "I can name things that change and things that stay the same in my life.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can name things that change and things that stay the same in my life.",
+    "character_watermark": "Bella the Balance Beam Scientist in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Change or Stay the Same?",
+          "student_instructions": "Sort each card into CHANGE or STAY THE SAME.",
+          "visual_layout": "Top of the page. 12 picture/word cards in a 4x3 grid; each labeled with a quantity to sort.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_TWELVE_CARDS",
+              "description": "12 picture/word cards in B&W line-art, 4-row × 3-column grid. Each ~2in × 1.5in. Cards: 'Number of children in class', 'Number of fingers on one hand', 'Days in a week', 'Number of pets at home', 'Sides of a square', 'Weather today', 'Birthday month', 'Number of leaves on tree', 'Number of seasons', 'Cars in parking lot', 'Number of provinces in Canada', 'Temperature outside'. Each card has CHANGE / STAY ovals to circle.",
+              "placement": "Top of the page; 4x3 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "sort",
+                "cards"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_TWELVE_CARDS: keywords (sort, cards) name what the cards ask for."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "STAY THE SAME: Number of fingers (5), Days in a week (7), Sides of a square (4), Birthday month (yours doesn't change), Number of seasons (4), Number of provinces in Canada (10). CHANGE: Number of children in class, Number of pets at home, Weather today, Number of leaves on tree, Cars in parking lot, Temperature outside."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: My Life",
+          "student_instructions": "Name 3 things in YOUR life that CHANGE and 3 things that STAY THE SAME.",
+          "visual_layout": "Middle. Two columns: CHANGE (3 lines) and STAY THE SAME (3 lines).",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_TWO_COLUMNS",
+              "description": "A 2-column layout in B&W line-art, ~7in × 3in. Left column titled 'CHANGE' with 3 lined writing rows. Right column titled 'STAY THE SAME' with 3 lined writing rows.",
+              "placement": "Middle of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "change",
+                "same"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_TWO_COLUMNS: keywords (change, same) name what the columns ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible: CHANGE — number of friends at recess, number of teeth I have, my mood. STAY — number of legs on a horse, number of letters in my name."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Why?",
+          "student_instructions": "Pick ONE thing that CHANGES from your list. Why does it change? Write a sentence.",
+          "visual_layout": "Bottom of the page. Lined writing area with thinking-bubble icon.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_WHY_BOX",
+              "description": "A blank lined writing area in B&W line-art, ~7in × 1.5in. 3-4 dotted lines. Bella thinking-bubble icon top-right.",
+              "placement": "Bottom of the page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "why"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_WHY_BOX: keywords (why) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Look for the WHY reasoning — 'because every day is different', 'because some kids are sick', 'because the weather depends on the season'."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw a quick picture of one thing in your classroom that STAYS THE SAME.",
+  "teacher_notes": "Lesson 1 consolidation. Watch Part 1 children who put 'Number of children in class' as STAY — flag for snapshot vs trend reteach. Part 1's 12 cards intentionally include 4 transfer items not seen in the lesson (test of generalisation); Part 3 is a transfer task where children apply the WHY reasoning from the expanded walkthrough to a self-chosen quantity."
+}

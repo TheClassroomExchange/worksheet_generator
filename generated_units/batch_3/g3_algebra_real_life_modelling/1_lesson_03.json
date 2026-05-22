@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 3,
+  "lesson_title": "Community Predictions",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We use rules and data to PREDICT community outcomes.",
+  "learning_intention": "We are learning to use a rule to predict a community outcome.",
+  "student_learning_goal": "I can use a rule to predict a community outcome.",
+  "success_criteria": [
+    "I can state a rule from data.",
+    "I can use a rule to predict for different time spans.",
+    "I can scale predictions to community size."
+  ],
+  "vocabulary_introduced": [
+    "predict"
+  ],
+  "vocabulary_reinforced": [
+    "model",
+    "data",
+    "real-life situation"
+  ],
+  "manipulatives_used": [
+    "M1_community_map",
+    "M2_data_charts",
+    "M3_modelling_chart",
+    "M5_prediction_chart",
+    "M7_two_colour_counters",
+    "M8_number_line",
+    "M9_coach_chart",
+    "M10_community_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coach Cara and Sport Sam — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Community Predictions'",
+    "Per-pair Prediction Chart",
+    "Per-pair counters and number line",
+    "Lesson 3 prediction tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coach Cara's Predictions",
+    "hook": "Coach Cara: 50 visitors at the rink each Saturday. Predict for 4 weeks. Coach Cara opens: 'PER day, PER week, PER YEAR — rate × time = TOTAL!'",
+    "teacher_script": "Bring children to the carpet. Coach Cara + Sport Sam puppets. 'Friends — yesterday we collected DATA. Today we PREDICT what will happen NEXT.'\n\nIntroduce vocabulary. Write PREDICT on chart. 'Predict means say what we think will happen, using DATA and a RULE.'\n\nDemonstrate. 'Sport Sam's data: 50 visitors per Saturday at the rink for 4 weeks. The rule: 50 per Saturday. Predict for 4 more Saturdays. 50 x 4 = 200 visitors total.'\n\nWrite on chart:\nRule: 50 per Saturday.\nPrediction: 200 for 4 weeks.\n\nMore community examples:\n- Library: 250 books per day x 5 weekdays = 1250 per week.\n- Restaurant: 80 pizzas per Saturday x 4 weeks = 320.\n- Park: 45 dogs per Sunday x 12 Sundays = 540.\n- TTC: 350 riders per hour x 8 peak hours = 2800.\n\n'Coach Cara says — RULES x TIME = PREDICTIONS. The rule is per-unit; the time scales the prediction.'\n\nDiscuss scaling. 'Community-scale predictions need careful arithmetic. 50 x 10 = 500. 80 x 12 = 960. Use multiplication for big spans.'\n\n'Today we predict community outcomes for 4 weeks, 12 weeks, even a season.'",
+    "student_actions": [
+      "Listen to the prediction demo.",
+      "Echo new vocabulary.",
+      "Predict outcomes for sample rules.",
+      "Plan their own prediction."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Community Prediction Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: predict for 4 community rules. (a) 50 per Saturday x 8 = 400. (b) 250 per weekday x 5 = 1250. (c) 80 per Saturday x 12 = 960. (d) 45 per Sunday x 16 = 720.",
+        "teacher_prompt": "Say: 'Use rule x time. Predict.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: One Rule, Many Times — pair takes one rule and predicts for 1, 4, 8, 12 weeks. Station B: One Time, Many Rules — pair takes 1 month and predicts 4 community situations. Station C: My Rule — pair invents a community rule.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: 2-rule prediction (e.g., morning + evening visitors).",
+        "teacher_prompt": "Say: 'Stretch: 2-rule prediction.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss prediction logic. 'Community-scale prediction = rule x time. Multiplication for big numbers.'",
+        "teacher_prompt": "Show modelling chart."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the prediction tracker.",
+        "teacher_prompt": "Stop at each pair. Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: Two pairs share their Station C scaling rules. Class debates which scaling rule is most accurate. Cite Thompson & Saldanha rate-as-state — Grade-3 children must move from static to multiplicative scaling.",
+        "teacher_prompt": "Coach Cara: 'Same data, different scope = different prediction. Multiply by TIME.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Single-week predictions.",
+      "for_extending": "Stretch at Station C: 2-rule predictions.",
+      "for_ell_or_iep": "Provide a structured frame: 'My rule: ___. For ___ weeks, my prediction is ___.'",
+      "for_movement_learners": "Use number line as floor mat."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: states a rule; predicts for given span; predicts for multiple spans.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "States a rule",
+        "Predicts for given span",
+        "Predicts for multiple spans",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coach Cara's Prediction Brag",
+    "discussion_prompts": [
+      "What does PREDICT mean?",
+      "How do we use a rule to predict?",
+      "Can predictions be wrong?",
+      "What's a community prediction you'd make?"
+    ],
+    "exit_routine": "Coach Cara's prediction refrain — 'PER day, PER week, PER YEAR — rate × time = TOTAL!' (3x). Each child writes one prediction with the scope-multiplier shown."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Prediction accuracy and rule application.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures C4 step 3 at community scale."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child fails to scale at community size — repairing the small-scale-only trap at Grade 3",
+    "rationale": "On predictions from data, the Grade-3 trap is the daily-vs-weekly scope confusion: child gives the daily count even when the question asks for weekly (Carpenter & Moser CGI on counting-and-multiplicative-reasoning; Thompson & Saldanha rate-as-state). Without scope-aware prediction, Lesson 5 capstone cannot ground.\n\nYesterday Cara organised data. Today we predict at different scopes. Lesson 4 reflections; Lesson 5 capstones.",
+    "setup": "Pair is at Station A. Question: predict library borrowers for 1 week. Child says 250 (daily count).",
+    "teacher_script": "Crouch. '250 is daily. The question asks for 1 WEEK.'\n\nWalk through. 'Rule: 250 per weekday. Time: 5 weekdays. 250 x 5 = 1250 for the week.'\n\nGeneralise. 'Coach Cara says — community predictions multiply by the time SPAN. Daily x days, hourly x hours.'\n\nIf still small-scale: provide scaling chart. '1 day, 1 week, 1 month, 1 season.' Force the multiplication.\n\nLong-term recovery: every prediction multiplies by time span.",
+    "expected_student_responses": [
+      "(Confused) Gives daily for weekly.",
+      "(Mid) Multiplies with prompts.",
+      "(Strong) Multiplies independently for any span.",
+      "(Stretched) Predicts for season or year."
+    ],
+    "common_misconceptions": [
+      "Daily = weekly = monthly. (Repair: scale by time span.)",
+      "Big numbers are scary. (Repair: multiplication handles any size.)",
+      "I can guess at scale. (Repair: rule x time = prediction.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child gives daily for weekly: drill 'multiply by days'; child re-says 'X per day × 7 days = weekly total.'",
+      "DIAGNOSTIC B — child can multiply but doesn't articulate scope: force the sentence frame 'PER day = ___, PER week = ___, PER year = ___.'",
+      "DIAGNOSTIC C — child confuses operations: drill 'PER means RATE; multiply RATE by TIME for total.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coach Cara's Predictions",
+    "purpose": "Independent practice of C4 step 3.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Predict for 1 week, 4 weeks, 12 weeks. Use rule 50 per Saturday.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Use 4 community rules. Predict for 1 month each.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick your own community rule. Predict for 12 weeks.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coach Cara in worksheet header",
+      "3 prediction rows for Part 1",
+      "4 community-rule prediction rows for Part 2",
+      "A blank rule and prediction box for Part 3"
+    ]
+  }
+}

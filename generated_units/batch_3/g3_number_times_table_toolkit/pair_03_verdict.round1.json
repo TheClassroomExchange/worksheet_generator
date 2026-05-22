@@ -1,0 +1,57 @@
+{
+  "unit_id": "g3_number_times_table_toolkit",
+  "pair_number": 3,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 2
+  },
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "The lesson lists three success criteria, the third being 'I can write the division for any multiplication up to 100÷10.' The worksheet's three parts cover arrays (Part 1), distributive-property derivation (Part 2), and a multiplication chart fill-in (Part 3) — none of them ask the child to write the related division. Station A in the lesson explicitly has children 'write the multiplication AND the related division', and the formative tracker has a 'Writes related division' column, but the independent worksheet has no division items at all.",
+      "required_fix": "Add division practice to the worksheet so SC3 is assessed. Concrete option: convert Part 1 from six tricky-fact array items into a fact-family format — for each of the six facts (6×7, 7×8, 8×9, 9×6, 7×6, 8×7) the child writes BOTH multiplications and BOTH divisions (e.g., 6×7=42, 7×6=42, 42÷6=7, 42÷7=6). Alternatively add a fourth short part: 'Write the related division for each fact you found in Part 1' with six blanks. Update the answer key and the part_title accordingly so it explicitly maps to the success criterion.",
+      "affected_stages": ["worksheet_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The expanded_walkthrough names a real grade-level trap (all-or-nothing recall — 'the child knows the ×2, ×5, ×10 facts ... but cannot derive harder facts like 7×8') and gives concrete recovery moves, but it never cites or aligns with named research. Level 4 requires the trap to 'cite or align with named research' AND for recovery_moves to branch by what the diagnostic told the teacher about the child. Current recovery_moves are three flat directives ('Always say use what you know...', 'Build arrays for the first 3-4 derivations...', 'Compare two breakdowns...') — none branches on a diagnostic signal.",
+      "required_fix": "Anchor the trap in research and add diagnostic-branching recovery. For example: cite Baroody (2006) on derived-fact strategies for multiplication, or Carpenter, Fennema & Franke's CGI work on multiplicative reasoning, in the rationale field. Then rewrite recovery_moves as branches: (a) 'If the child can state a near-fact (e.g., 5×8=40) but cannot apply it — model the array extension once, then have them narrate the second derivation back to you'; (b) 'If the child cannot recall a near-fact at all — drop back to the multiplication chart, locate 5×8 together, then build from there'; (c) 'If the child derives correctly but only with the +k path — explicitly contrast with the −k path (10×8−2×8) so flexibility is built'.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Maya is present in the hook, action, and consolidation, and 'Use what you know' is repeated as a teacher line. But there is no distinctive quotable refrain that the children themselves carry between lessons, and the exit_routine ('Each child writes ONE fact they used the distributive property on today: ___ × ___ = ___ × ___ + ___ × ___ = ___ + ___ = ___.') is a written sentence frame, not a memorable chant or call-and-response. Level 4 requires 'a distinctive quotable refrain, and the consolidation/exit_routine has a memorable chant or sentence frame children carry between lessons.'",
+      "required_fix": "Give Maya a short, sticky chant tied to the distributive move that children chorus back. Example: Maya says 'Big fact STUCK?' and the class answers 'BREAK it up!' — embed the call-and-response in the minds_on teacher_script (after introducing the property), have it close every consolidation across the unit's remaining multiplication moments, and add it as a one-line callout in the consolidation field (e.g., 'Class chant before the exit ticket: Maya — \"Big fact STUCK?\" / Class — \"BREAK it up!\"'). This gives the unit a quotable refrain children will reuse on Day 4 and beyond.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "minor"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson does let children compare strategies — two breakdowns of 7×8 ('5×8 + 2×8 = 40 + 16 = 56' AND '10×8 − 3×8 = 80 − 24 = 56') and the expected_student_responses include a 'Stretched' tier that 'Volunteers multiple breakdowns'. However, the misconception is named in plain language only ('all-or-nothing recall'); Level 4 requires the expanded_walkthrough to name the misconception 'in research-grounded terms (Carpenter & Moser CGI types, Empson on fractions, Battista on spatial reasoning, etc.).' No such citation appears in the rationale or common_misconceptions.",
+      "required_fix": "In expanded_walkthrough.rationale (or common_misconceptions), name the construct in research-grounded terms — e.g., 'This is the move from rote multiplication facts to derived-fact strategies (Baroody, 2006); Carpenter, Fennema & Franke (1996, CGI) describe this as the transition from direct-modeling to invented strategies in multiplicative thinking. The distributive-property derivation is the canonical invented strategy at this stage.' One sentence is enough; it just needs to anchor the trap in named research so a reader can trace the pedagogy back to its source.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "minor"
+    }
+  ]
+}

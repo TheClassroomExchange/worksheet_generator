@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "pair_number": 4,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the prediction-stuck trap with concrete branching recoveries, but the rationale text 'The most common Grade-1 trap on D2.2 is the prediction-stuck trap' is not anchored to a named author or framework. Level 4 requires the trap cite or align with named research.",
+      "required_fix": "Add a named research anchor in expanded_walkthrough.rationale — for variability across populations, cite Konold & Pollatsek 2002 'signal in noisy processes' or Rubin/Bruce/Tenney on early variability. One sentence naming the framework and the principle is enough to clear Level 4.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lucky and Mae appear consistently and success_criteria all use 'I can', but the consolidation/exit_routine has no quotable refrain. The exit_routine 'Each child writes ONE result: My prediction was ___. Group test was ___.' is a recording template, not a memorable chant children carry between lessons.",
+      "required_fix": "Add a Mae or Lucky quotable refrain children chant at consolidation and exit, e.g. Mae's 'Different group? Different data — that is OK!' Repeat it in teacher_script and discussion_prompts so it carries forward to the Lesson 5 capstone.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson sets up a clear conceptual progression (predict, test, compare, accept variability) with precise group/population language, but children do not invent or compare strategies, and the expanded_walkthrough does not name the misconception in research-grounded terms — both are Level 4 requirements.",
+      "required_fix": "Either add a 'compare strategies' beat to action.steps where two pairs share different ways they recorded mismatched test results and the class chooses, OR name the variability misconception by framework in expanded_walkthrough.rationale (Konold & Pollatsek 2002 signal-only misconception).",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 4 is solid: the predict-and-test arc is faithful, materials are everyday with optional puppets, and the worksheet mirrors lesson activities with a clean Part 3 transfer task. It misses the strict bar because three categories sit at 3 — the trap lacks a named research anchor, there is no memorable refrain children carry between lessons, and the lesson does not let children invent or compare strategies. All three fixes live in lesson_04, so revise_lesson is correct."
+}

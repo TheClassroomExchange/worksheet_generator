@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 3,
+  "worksheet_title": "Coda's Predict Workshop",
+  "purpose": "Independent practice of C3.2 (read code and predict).",
+  "student_learning_goal": "I can read code and predict what will happen when it runs.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can read code and predict what will happen when it runs.",
+    "character_watermark": "Coda in the top-right corner with a thought bubble. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Predict the Position",
+          "student_instructions": "Read each code. Mark Coda's ending position on the grid.",
+          "visual_layout": "Top of the page. Six small 5x5 grid maps in a 2x3 arrangement, each with code text and a grid for marking position.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_SIX_GRIDS",
+              "description": "Six small 5x5 grid maps in B&W line-art, 2-row × 3-column. Each ~2in × 2in. Each shows code text plus the grid for marking.",
+              "placement": "Top of the page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "grid",
+                "predict"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_SIX_GRIDS: keywords (grid, predict) name what the maps ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Each ending position depends on the specific code given."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Predict the Shape",
+          "student_instructions": "Read each code. Predict the shape it draws.",
+          "visual_layout": "Middle. Four shape-prediction boxes.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_FOUR_SHAPES",
+              "description": "Four shape-prediction boxes in B&W line-art, 2-row × 2-column grid. Each ~3.5in × 2in. Code text on left, blank shape drawing area on right. Codes: Repeat 4: forward, turn (square); Repeat 3: forward, turn (triangle); Repeat 5: forward, turn (pentagon); Repeat 6: forward, turn (hexagon).",
+              "placement": "Middle.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "shape",
+                "predict"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_FOUR_SHAPES: keywords (shape, predict) name what the boxes ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Square. Triangle. Pentagon. Hexagon."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Loop Code Predict",
+          "student_instructions": "Read this code with a loop. Predict where Coda ends.",
+          "visual_layout": "Bottom. A code box and a blank grid.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_LOOP_PREDICT",
+              "description": "A code box and prediction grid in B&W line-art, ~7in × 3in. Code: 'Repeat 2: right, up'. Coda starts at (0,0). Blank 5x5 grid for marking the ending position.",
+              "placement": "Bottom.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "loop",
+                "predict"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_LOOP_PREDICT: keywords (loop, predict) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Repeat 2: right, up = (1,1) → (2,2). Coda ends at (2,2)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a 4-step code of your own and predict the outcome.",
+  "teacher_notes": "Lesson 3 consolidation. Watch Part 1 children who count steps without tracking direction — flag for direction-aware reading reteach. Part 3 is a TRANSFER probe: present a code with a NESTED instruction or 6+ steps combining sequence + loop, and ask the child to JUSTIFY their prediction in one sentence ('I predict (3,2) because the loop runs twice, each time moving Coda forward 1 then up 1')."
+}

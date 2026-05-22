@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 5,
+  "worksheet_title": "Tig's Treasure Trail",
+  "purpose": "Summative artifact applying E1.1-E1.5 in 5 mini-tasks. Used as Lesson 5 capstone evidence.",
+  "student_learning_goal": "I can give and follow directions to move.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can give and follow directions to move.",
+    "character_watermark": "Trekker Tig and Compass Coco in the top-right corner with a treasure map. Small (~1.5in combined). References both characters from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: SORT.",
+          "student_instructions": "Pick a rule. Sort 6 shapes into 2 piles. Write the rule.",
+          "visual_layout": "6 shape thumbnails at the top + 2 sort boxes + a 'Rule: ___' line.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_SORT",
+              "description": "A sort layout for a Grade 1 capstone worksheet, B&W line art. Top: 6 shape thumbnails (mix of squares, triangles, circles in two sizes), each ~0.8in. Below: 2 empty sort boxes ~2.5in × 1.5in, each unlabelled (child writes pile labels). Below the boxes, a single 'My Rule: ___' line.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "shapes",
+                "sort",
+                "rule"
+              ],
+              "text_image_alignment_check": "Image WS05_P1_SORT at Part 1: instructions ask the child to sort by a rule. Keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any consistent sort by a single rule. Rule could be size, shape, sides, etc."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: MATCH.",
+          "student_instructions": "Draw a line of symmetry on each shape.",
+          "visual_layout": "Three shapes stacked vertically: square, butterfly, equilateral triangle.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_SYMMETRY",
+              "description": "Three shapes for symmetry lines for a Grade 1 capstone worksheet, B&W line art. Square (~1.5in), butterfly (~2in), equilateral triangle (~1.5in). Each clearly outlined for the child to draw a fold line through.",
+              "placement": "Centred vertically in Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "symmetry",
+                "line"
+              ],
+              "text_image_alignment_check": "Image WS05_P2_SYMMETRY at Part 2: instructions ask the child to draw symmetry lines. Keywords name the visual element."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Square: vertical or horizontal line through centre. Butterfly: vertical line down centre. Triangle: vertical line through apex."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: MOVE!",
+          "student_instructions": "Look at the trail map. Write 3 directions to find the treasure.",
+          "visual_layout": "A trail map with a START square at one corner and a TREASURE square at another. Below: 3 numbered direction lines.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_TRAIL",
+              "description": "A trail map for a Grade 1 capstone worksheet, B&W line art. ~5in × 3in. Grid of squares (~6 columns × 4 rows). 'START' square in the bottom-left corner with a small star icon. 'TREASURE' square in the top-right corner with a small chest icon. Visible path or grid for the child to plan the route. Below the map, 3 numbered direction lines: '1. ___', '2. ___', '3. ___'.",
+              "placement": "Centred horizontally; spans Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "trail",
+                "directions",
+                "treasure"
+              ],
+              "text_image_alignment_check": "Image WS05_P3_TRAIL at Part 3: instructions ask the child to write directions. Keywords name the visual elements (trail, treasure) and activity (directions)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid 3-direction sequence that moves from START to TREASURE. Sample: 'forward 4, turn right, forward 3'."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: BUILD — list 2D shapes inside.",
+          "student_instructions": "Look at the 3-block structure. List or sketch the 2D shapes you would see on its faces.",
+          "visual_layout": "A small 3-block tower drawn on the left; a 6-row table on the right labelled 'Face 1, Face 2, ... Face 6' for the child to write or sketch the shape.",
+          "image_placeholders": [],
+          "student_response_type": "draw_or_write",
+          "answer_key": "All faces are squares (cube faces); accept rectangle if structure is rectangular prism."
+        },
+        {
+          "part_number": 5,
+          "part_title": "Part 5: LOCATE — 3 position sentences.",
+          "student_instructions": "Look at the small map. Write 3 position-word sentences about it. Use words like BETWEEN, ABOVE, BELOW, NEXT TO.",
+          "visual_layout": "A small map showing maple tree, cabin, river, treasure-X laid out on a path. Three blank sentence lines below for the child to fill.",
+          "image_placeholders": [],
+          "student_response_type": "write",
+          "answer_key": "Sample: 'The maple is BETWEEN the cabin and the river.' / 'The treasure is NEXT TO the maple.' / 'The river is BELOW the cabin.' Accept any 3 valid position-word sentences."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write directions backwards (TREASURE back to START).",
+  "teacher_notes": "Lesson 5 capstone — summative evidence. Score against the rubric. Part 1 captures E1.1 (sorting). Part 2 captures E1.3 (symmetry). Part 3 captures E1.5 (directions). E1.2 and E1.4 captured in the lesson activities (build + locate). Children completing all 3 parts independently demonstrate full unit mastery. Parts 4 (BUILD) and 5 (LOCATE) added to map all 5 lesson stations to summative artefacts: Stations 1-3 → Parts 1-3, Station 2 BUILD → Part 4, Station 4 LOCATE → Part 5. E1.2 and E1.4 now have summative coverage."
+}

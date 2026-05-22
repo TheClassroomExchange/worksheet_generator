@@ -1,0 +1,14 @@
+{
+  "schema_version": 1, "unit_id": "g2_data_what_could_happen",
+  "rubric_version": "what_could_happen_g2_v1_2026_05_04",
+  "pre_grade_drift_check": {"consistency_check_issues": 0, "curriculum_text_issues": 0, "image_text_alignment_issues": 0, "placeholder_artwork_count": 0, "passed": true},
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "Every lesson includes expanded_walkthrough naming a Grade-2 trap (all-possible default, not-strictly-complementary, small-section trap, same-mode-always, same-mode-different-group). Summative rubric covers both expectations.", "evidence_refs": ["1_lesson_02.json::expanded_walkthrough", "1_lesson_05.json::expanded_walkthrough"]},
+    "instructional_balance": {"score": 4, "justification": "Each lesson follows minds_on / action / consolidation arc. Three rotating stations of 7 min each (or individual capstone). Differentiation tiers explicit.", "evidence_refs": ["1_lesson_01.json::action.structure"]},
+    "clarity_communication": {"score": 4, "justification": "Voice consistent: Lucky and Mae anchor every minds-on. Vocabulary named explicitly. Success criteria use 'I can' phrasing.", "evidence_refs": ["1_lesson_01.json::success_criteria"]},
+    "alignment": {"score": 4, "justification": "Curriculum codes (D2.1, D2.2) mapped. Summative rubric covers both with descriptors matching blueprint text.", "evidence_refs": ["0_blueprint.json::expectation_lesson_map"]},
+    "appearance": {"score": 4, "justification": "Composite generation passes 0 placeholders thanks to smart_fallback + LUCKY and MAYBE clipart entries.", "evidence_refs": ["composed/.composed_manifest.json"]}
+  },
+  "overall_score": 20, "threshold": 17, "status": "pass", "remediation": [],
+  "graded_by": "claude-opus-4-7", "graded_at": "2026-05-04T14:30:00+00:00"
+}

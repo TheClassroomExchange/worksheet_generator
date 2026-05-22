@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "thematic_title": "What Could Happen?",
+  "descriptive_title": "Grade 2 Mathematics: Demonstrations — Likelihood with Spinners and Dice (D2.1-D2.2)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "D. Data",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-2",
+  "curriculum_codes": ["D2.1", "D2.2"],
+  "curriculum_expectations": {
+    "D2.1": "use mathematical language, including the terms “impossible”, “possible”, and “certain”, to describe the likelihood of complementary events happening, and use that likelihood to make predictions and informed decisions",
+    "D2.2": "make and test predictions about the likelihood that the mode(s) of a data set from one population will be the same for data collected from a different population"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on likelihood and complementary events (D2.1, D2.2) framed around 'What Could Happen?' — Lucky Lou the Loon and Maybe Mae the Cat. Day 1 reviews impossible/possible/certain. Day 2 introduces COMPLEMENTARY events (one happens means the other doesn't). Day 3 explores spinners. Day 4 explores dice. Day 5 closes with a Mode Prediction Capstone. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will use likelihood vocabulary including complementary events, predict outcomes, and test mode predictions across populations.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Likelihood Review", "primary_expectations": ["D2.1"], "secondary_expectations": [], "big_idea": "Events are IMPOSSIBLE, POSSIBLE, or CERTAIN. We predict using likelihood.", "student_learning_goal": "I can use likelihood vocabulary.", "one_line_summary": "Lucky reviews impossible/possible/certain; children predict events."},
+    {"lesson_number": 2, "lesson_title": "Complementary Events", "primary_expectations": ["D2.1"], "secondary_expectations": [], "big_idea": "Complementary events: when ONE happens the OTHER doesn't. Heads OR tails. Rain OR no rain.", "student_learning_goal": "I can name complementary events.", "one_line_summary": "Maybe Mae shows pairs; children name complements."},
+    {"lesson_number": 3, "lesson_title": "Spinner Predictions", "primary_expectations": ["D2.1"], "secondary_expectations": ["D2.2"], "big_idea": "A SPINNER with bigger sections is MORE LIKELY to land there.", "student_learning_goal": "I can predict spinner outcomes using likelihood.", "one_line_summary": "Lucky spins and predicts; children make and test spinner predictions."},
+    {"lesson_number": 4, "lesson_title": "Dice Predictions", "primary_expectations": ["D2.2"], "secondary_expectations": ["D2.1"], "big_idea": "Dice rolls are POSSIBLE 1-6. We predict the MODE after many rolls.", "student_learning_goal": "I can predict the mode of dice rolls.", "one_line_summary": "Mae rolls and tracks the mode; children predict and test."},
+    {"lesson_number": 5, "lesson_title": "Mode Prediction Capstone", "primary_expectations": ["D2.1", "D2.2"], "secondary_expectations": [], "big_idea": "Detectives predict the MODE for one group, then test in ANOTHER group. Same mode? Different?", "student_learning_goal": "I can predict mode and test it across groups.", "one_line_summary": "Children survey 2 classes and compare modes."}
+  ],
+  "expectation_lesson_map": {"D2.1": [1, 2, 3, 5], "D2.2": [3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Lucky Lou the Loon", "role": "Lead character. Same Lucky from Grade 1; now tackles complementary events. Anchors all 5 lessons.", "visual_description": "A young Canadian loon with a tiny detective hat and magnifying glass. Holds a coin or die. Confident expression."},
+    {"name": "Maybe Mae the Cat", "role": "Lucky's partner. The 'maybe' character. Cameo Lessons 2-5.", "visual_description": "A small striped cat with a question-mark patch on her vest. Holds a clipboard for predictions."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "complementary event", "child_friendly_definition": "Two events where one happens means the other doesn't. Heads OR tails."},
+    {"term": "spinner", "child_friendly_definition": "A pointer on a circle divided into sections."},
+    {"term": "mode", "child_friendly_definition": "The most common result."},
+    {"term": "predict", "child_friendly_definition": "Say what will happen using likelihood."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_likelihood_chart", "name": "Likelihood Chart", "description": "Anchor chart of impossible/possible/certain.", "used_in_lessons": [1, 2, 5], "clipart_files": []},
+    {"id": "M2_complement_cards", "name": "Complement Cards", "description": "Set of 12 paired cards showing complementary events.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M3_spinner_set", "name": "Paper Spinner Set", "description": "Set of 6 paper spinners with varied section sizes.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M4_dice_set", "name": "Paper Dice Set", "description": "Set of 6 foldable paper dice.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M5_prediction_mat", "name": "Prediction Recording Mat", "description": "Letter-size mat for recording predictions and outcomes.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Mode Prediction Template", "description": "Letter-size capstone template.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_event_cards", "name": "Event Cards", "description": "Set of 16 event cards for likelihood review.", "used_in_lessons": [1, 2, 5], "clipart_files": []},
+    {"id": "M8_complement_chart", "name": "Complementary Events Chart", "description": "Anchor chart explaining complementary events.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M9_outcome_cards", "name": "Outcome Cards", "description": "Set of 12 outcome icons (heads/tails, sun/rain).", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "What Could Happen? Poster", "description": "Anchor poster of Lucky and Mae.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Likelihood Chart", "Complement Cards (12)", "Paper Spinner Set (6)", "Paper Dice Set (6)",
+    "Prediction Recording Mat (per pair)", "Mode Prediction Template (per child)",
+    "Event Cards (16)", "Complementary Events Chart", "Outcome Cards (12)", "Unit Poster"
+  ],
+  "assessment_strategy": {"diagnostic": "Lesson 1 likelihood snapshot.", "formative": "Lesson 2 complement tracker; Lesson 3 spinner tracker; Lesson 4 dice/mode tracker.", "summative": "Lesson 5 mode prediction capstone."},
+  "pedagogical_notes": [
+    "Grade 2 likelihood adds COMPLEMENTARY events to G1 vocabulary.",
+    "Spinners introduce ALL POSSIBLE outcomes with section size = likelihood.",
+    "Dice introduce 6-outcome events.",
+    "Mode prediction across populations is the main D2.2 idea.",
+    "Connect to scientific thinking — predict, test, observe."
+  ],
+  "canadian_context_notes": [
+    "Canadian weather: rain or no rain (complementary).",
+    "Loonie/toonie flips for heads/tails.",
+    "Hockey: home win or away win (complementary).",
+    "Maple syrup season for spinner illustration."
+  ]
+}

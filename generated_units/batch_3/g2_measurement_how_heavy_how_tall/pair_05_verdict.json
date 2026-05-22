@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "pair_number": 5,
+  "status": "pass",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 4,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 4,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [],
+  "reviewer_notes": "Pair 5 capstone clears the strict bar after Round 2 retrofit. ALIGNMENT (4): all four primary_expectations E2.1-E2.4 are addressed at named stations and the expanded_walkthrough explicitly bridges to L1-L4 ('Today integrates Lessons 1-4: pick units (L1), standard cm/m (L2), ruler use (L3), time tools (L4)'); curriculum text is byte-identical to input_row.json. PEDAGOGICAL_DEPTH (4): attribute-tool-mismatch trap is research-grounded with explicit Lehrer (2003) and Stephan & Clements measurement-length progressions citations, and recovery_moves now branches by diagnostic (A: wrong tool for mass; B: right tool, wrong zero-start read — drills L3 'count SPACES, start at 0'; C: correct measure but can't articulate WHY — sentence frame). INSTRUCTIONAL_BALANCE (4): puppets explicitly OPTIONAL with a no-purchase fallback ('teacher voices both characters... or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.'); 12/25/13 = 50 min is realistic for G2; everything else is teacher-made (chart paper, paper rulers, index-card event cards). CLARITY_VOICE (4): Roo+Cal anchor minds_on/action/consolidation; distinctive capstone refrain 'SMALL unit, BIG count! / BIG unit, small count! / Right TOOL, right NUMBER!' is chanted call-and-response in exit_routine; all success_criteria are 'I can' first-person. MATHEMATICAL_AUTHENTICITY (4): Station 3 STRATEGY COMPARE has two children measure the same pencil from 0 vs from 2 with class confirming both correct via 'Length = end MINUS start' (Stephan & Clements measurement-length progression cited inline); children invent/compare strategies, the very Level-4 marker. LESSON_WORKSHEET_CONSISTENCY (4): worksheet parts each map to a named success criterion (P1 unit pick = E2.1 SC, P2 ruler+6-cm draw = E2.3 SC, P3 time units = E2.4 SC), AND teacher_notes deliberately varies practice format with a non-zero-start TRANSFER probe ('Part 2 includes one TRANSFER object that requires a non-zero starting point on the ruler (a picture of a pencil starting at the 2-cm mark). Verifies interval-counting transfer beyond standard 0-start measurements.') — that is exactly the Level-4 transfer-not-rote-repeat criterion. mathematical_authenticity scored (Math unit); sor_alignment left null per rubric. Decision rule satisfied: no score < 3, zero categories at 3, all six at 4 — pass."
+}

@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "lesson_number": 5,
+  "lesson_title": "My Town Modelling Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can model ANY town situation. Pick a topic from your life, ask a question, build a model.",
+  "learning_intention": "We are learning to model a real-life town situation from our own life.",
+  "student_learning_goal": "I can model a real-life town situation from my own life.",
+  "success_criteria": [
+    "I can pick a town situation that interests me.",
+    "I can walk through the modelling cycle: situation, question, data, predict, reflect.",
+    "I can share my model with the class."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "model",
+    "data",
+    "predict",
+    "reflect",
+    "refine",
+    "real-life situation"
+  ],
+  "manipulatives_used": [
+    "M1_town_map",
+    "M4_situation_cards",
+    "M6_capstone_template",
+    "M3_modelling_chart",
+    "M10_town_poster"
+  ],
+  "lesson_specific_materials": [
+    "Mayor Mira and Town Tom together",
+    "Per-child Capstone Modelling Template",
+    "Town Situation Cards (12) for inspiration",
+    "Lesson 5 capstone tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mayor Mira's Final Showcase",
+    "hook": "Now you model YOUR town. Pick a situation. Walk through all 5 steps. Mira opens: 'Math lives in our town —' Class: 'and WE are the math!'",
+    "teacher_script": "Bring children to the carpet. Mayor Mira + Town Tom together. 'Friends — today you become MATHEMATICAL MODELLERS. Pick a town situation. Walk through the cycle: SITUATION, QUESTION, DATA, PREDICT, REFLECT.'\n\nShow the modelling cycle chart. 'You've practiced each step. Today you do them ALL together.'\n\nShow examples:\n- 'My local park: how many slides? How many kids use them on Saturday?'\n- 'My library: how many books per day? How many in a week?'\n- 'My corner store: how many candies sold each lunch? In 5 days?'\n- 'My bus stop: how many buses per hour? In 5 hours?'\n\n'Pick something from YOUR town life. Walk through the 5 steps. We share at the end.'\n\nShow the capstone template. 'Five sections: SITUATION, QUESTION, DATA, PREDICT, REFLECT. Fill them in for YOUR town topic.'",
+    "student_actions": [
+      "Look at the modelling cycle chart.",
+      "Brainstorm potential town topics.",
+      "Pick a topic.",
+      "Plan the cycle."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Capstone Modelling",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out capstone templates. Children pick a topic and walk through the modelling cycle.",
+        "teacher_prompt": "Say to students: 'Use the template. Walk through ALL 5 steps.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Children work for 12-15 minutes individually. Teacher circulates and prompts.",
+        "teacher_prompt": "Stop at each child. Check completeness."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge: include a refinement based on imagined or real data.",
+        "teacher_prompt": "Say to extending children: 'Add a refinement step.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Gallery walk: children swap templates and read each other's models.",
+        "teacher_prompt": "Say to students: 'Swap with a partner. Read their model. Tell them ONE thing you liked.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Whole-class share: 5-6 children share their model aloud.",
+        "teacher_prompt": "Pick variety: park, library, store, bus, school."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a starter situation card.",
+      "for_extending": "Stretch: invent a model with two refinements.",
+      "for_ell_or_iep": "Provide picture-supported templates with sentence frames.",
+      "for_movement_learners": "Allow them to act out their model with classmates. NO-PAPER VERSION: children fold a single sheet into 5 sections labelled SITUATION / QUESTION / DATA / PREDICT / REFLECT, OR turn it into an oral capstone where each child names one cell in turn and the teacher records on chart paper."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks a coherent topic; walks through all 5 steps; shares with the class.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Coherent topic",
+        "All 5 steps complete",
+        "Shares with class",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mayor Mira's Closing Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most surprising model you saw today?",
+      "Why do we use the modelling CYCLE (with arrows back)?",
+      "What's something in your town you'll model after this unit?",
+      "What's the difference between data and prediction?"
+    ],
+    "exit_routine": "Closing capstone refrain — Mira: 'Math lives in our town —' Class: 'and WE are the math!' Each child reads their 5-step modelling artefact aloud and points to the DATA cell their PREDICT cites."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Full modelling cycle from a child-chosen town topic.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures the C4 summative integration. Children at L4 walk through all 5 steps with a coherent town topic."
+  },
+  "expanded_walkthrough": {
+    "title": "When PREDICT and DATA are disconnected — the data-as-decoration trap",
+    "rationale": "On the modelling capstone, the dominant Grade-2 trap is the data-as-decoration phenomenon (Lehrer & Schauble 2002, 'Investigating Real Data in the Classroom'): children record numbers because the worksheet asks for them, but write a prediction that has no causal link to those numbers. The fix is explicit data-to-prediction grounding.\n\nToday integrates Lessons 1-4: ASK math questions (L1), COLLECT data (L2), PREDICT from data (L3), REFLECT/REFINE (L4) into a single town-modelling artefact.",
+    "setup": "Pair has filled in SITUATION + QUESTION + DATA but the PREDICT field reads 'we will go to recess' — disconnected from the data they collected (15 children present).",
+    "teacher_script": "Crouch. 'Your DATA says 15 children. Your PREDICT says \"we will go to recess.\" The math says: where in the prediction does the NUMBER 15 show up?'\n\nForce the data link. 'Your prediction must USE the data. Like: \"15 children today → tomorrow we predict 15 again.\" Or: \"15 children → 75 over 5 days.\"'\n\nLong-term recovery: every PREDICT field must cite at least one DATA cell.",
+    "expected_student_responses": [
+      "(Confused) PREDICT disconnected from DATA.",
+      "(Mid) Cites data but doesn't extend it.",
+      "(Strong) Cites + extends data ('15 today → 15 tomorrow → 75 over 5').",
+      "(Stretched) Predicts AND names what could refine the model."
+    ],
+    "common_misconceptions": [
+      "Data-as-decoration: numbers recorded but not used. (Repair: every PREDICT cites a DATA cell.)",
+      "Prediction-as-guess: PREDICT field reads as feeling. (Repair: drill 'because the data says'.)",
+      "Skipped REFINE: child stops after PREDICT. (Repair: 'what could change tomorrow's prediction?')"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — PREDICT disconnected: highlight one DATA cell, child must use that number IN the prediction sentence.",
+      "DIAGNOSTIC B — child cites data but doesn't extend: model the rate language ('15 today → 15 tomorrow because TODAY is the PATTERN').",
+      "DIAGNOSTIC C — child predicts but skips REFINE: prompt 'what could change tomorrow's prediction?' before they hand in."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My Town Model",
+    "purpose": "Summative evidence for C4.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "My Topic",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "My Question",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "My Data",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 4,
+        "task": "My Prediction",
+        "response_type": "write"
+      },
+      {
+        "part_number": 5,
+        "task": "My Reflection",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 6,
+        "task": "Modeller's Switch",
+        "response_type": "write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mayor Mira and Town Tom together in the worksheet header (final unit appearance)",
+      "Topic and situation slot for Part 1",
+      "Question slot for Part 2",
+      "Data area with table for Part 3",
+      "Prediction line for Part 4",
+      "Reflection area for Part 5"
+    ]
+  }
+}

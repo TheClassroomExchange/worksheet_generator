@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "overall_prep_notes": "Total prep ~1.5 hours. The two character puppets (Detective Dee, Mystery Mo) print on cardstock. Card decks (M1, M3, M4, M6) are laminated. The detective poster (M10) is the visual centerpiece.",
+  "assets": [
+    {
+      "asset_id": "M1_magnifying_cards",
+      "name": "Magnifying Glass Variable",
+      "category": "manipulative",
+      "purpose": "24 cards each showing an equation with a missing variable.",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_VAR_CARD",
+          "description": "A variable card in B&W line-art, ~3in x 4in. Each shows an equation with a missing symbol (box, blank, letter). Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "variable",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M1_VAR_CARD: keywords (variable, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort by difficulty.",
+        "Distribute Lesson 1."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        1
+      ]
+    },
+    {
+      "asset_id": "M2_balance_mat",
+      "name": "Balance Scale Drawing Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat with a drawn balance scale (two pans).",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_BALANCE_MAT",
+          "description": "A balance scale mat in B&W on a landscape letter page. Two pans, central pivot, baseplate. Each pan large enough to hold counters or numbers. Header 'Balance Mat'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "balance",
+            "mat"
+          ],
+          "text_image_alignment_check": "Image M2_BALANCE_MAT: keywords (balance, mat) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per pair.",
+        "Laminate.",
+        "Hand out Lesson 2.",
+        "Use dry-erase.",
+        "Reuse Lessons 3-5."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_addition_puzzle_cards",
+      "name": "Addition Missing-Number Cards",
+      "category": "manipulative",
+      "purpose": "24 cards each with an addition equation and one number missing.",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_ADD_CARD",
+          "description": "An addition card in B&W line-art, ~3in x 4in. Each shows an equation with one number replaced by a box. Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "addition",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M3_ADD_CARD: keywords (addition, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort by difficulty.",
+        "Distribute Lessons 2 and 5."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M4_subtraction_puzzle_cards",
+      "name": "Subtraction Missing-Number",
+      "category": "manipulative",
+      "purpose": "24 cards each with a subtraction equation and one number missing.",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_SUB_CARD",
+          "description": "A subtraction card in B&W line-art, ~3in x 4in. Each shows an equation with one number replaced by a box. Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "subtraction",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M4_SUB_CARD: keywords (subtraction, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort by difficulty.",
+        "Distribute Lessons 3 and 5."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "category": "manipulative",
+      "purpose": "30 counters per pair for balance modelling.",
+      "page_layout": "2 letter pages, portrait. 30 counter circles.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_COUNTER_SHEET",
+          "description": "A counter sheet in B&W line-art, ~7in x 9in. 30 circles arranged in 5 rows of 6. Each circle has a thin border and a centre dot. Cut lines.",
+          "placement": "Centred grid.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "counter",
+            "sheet"
+          ],
+          "text_image_alignment_check": "Image M5_COUNTER_SHEET: keywords (counter, sheet) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 sheets per pair on cardstock.",
+        "Laminate.",
+        "Cut into 30 counters.",
+        "Sort into pair bags.",
+        "Distribute Lessons 2-5."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "30 per pair = 300 for class of 20.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_target_cards",
+      "name": "Equivalent-Target Cards",
+      "category": "manipulative",
+      "purpose": "12 'target number' cards for the equivalent-expression hunt.",
+      "page_layout": "2 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_TARGET_CARD",
+          "description": "A target card in B&W line-art, ~3in x 4in. Each shows a target number (10, 25, 40, 50, 60, 75, 80, 90, 100, etc.). Cut lines.",
+          "placement": "12 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "target",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M6_TARGET_CARD: keywords (target, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 12 cards.",
+        "Sort by difficulty.",
+        "Distribute Lesson 4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "12 cards.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M7_mystery_case_template",
+      "name": "Mystery Case Capstone Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template for Lesson 5 capstone.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_CAPSTONE_TEMPLATE",
+          "description": "A capstone template in B&W on a portrait letter page. Sections: case description, equation with variable, solve and check, equivalent expression, reflection.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "capstone",
+            "template"
+          ],
+          "text_image_alignment_check": "Image M7_CAPSTONE_TEMPLATE: keywords (capstone, template) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out Lesson 5.",
+        "Children fill in.",
+        "Collect for assessment.",
+        "Display gallery."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_number_line",
+      "name": "Number Line to 100",
+      "category": "manipulative",
+      "purpose": "Letter-size number line marked 0 to 100.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_NUMBER_LINE",
+          "description": "A number line in B&W on a landscape letter page. Marked 0 to 100 with major ticks at every 5, minor at every 1. Header 'Number Line to 100'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "number",
+            "line"
+          ],
+          "text_image_alignment_check": "Image M8_NUMBER_LINE: keywords (number, line) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 line per pair.",
+        "Laminate.",
+        "Hand out Lesson 2.",
+        "Use dry-erase.",
+        "Reuse Lessons 3-4."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M9_variable_chart",
+      "name": "Variable Anchor Chart",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor chart showing variable symbols.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_VAR_CHART",
+          "description": "A variable anchor chart in B&W, ~17in x 22in. Centre: large equations with variables (\u2610, ?, n). Side: 'A variable stands for an unknown number'.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "variable",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M9_VAR_CHART: keywords (variable, chart) name what the chart shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M10_detective_poster",
+      "name": "Detective Dee Anchor Poster",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor showing Detective Dee and Mystery Mo with a missing-number case file.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_DETECTIVE_POSTER",
+          "description": "Detective Dee anchor poster in B&W, ~17in x 22in. Centre: Detective Dee and Mystery Mo holding a case file with a question mark. Around them: 5 missing-number examples.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "detective",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_DETECTIVE_POSTER: keywords (detective, poster) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_dee_puppet",
+      "name": "Detective Dee Character Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Detective Dee illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_DEE_FRONT",
+          "description": "Detective Dee illustration in B&W: a young Grade-2er in a small detective trench coat, deerstalker cap, holding a magnifying glass. Eager smile, neat braided hair. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "dee"
+          ],
+          "text_image_alignment_check": "Image CHAR_DEE_FRONT: keywords (dee) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_mo_puppet",
+      "name": "Mystery Mo Character Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Mystery Mo illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_MO_FRONT",
+          "description": "Mystery Mo illustration in B&W: a young Grade-2er in a striped shirt and bow-tie, carrying a small notebook and pencil. Curious expression, cap turned sideways. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "mo"
+          ],
+          "text_image_alignment_check": "Image CHAR_MO_FRONT: keywords (mo) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

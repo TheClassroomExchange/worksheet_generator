@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "lesson_number": 5,
+  "lesson_title": "The Big Case Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.5"
+  ],
+  "secondary_expectations": [
+    "D1.1",
+    "D1.2",
+    "D1.3",
+    "D1.4"
+  ],
+  "big_idea": "Detectives use sort, frequency, graphs, mean+mode to TELL the data's story.",
+  "learning_intention": "We are learning to analyse data and write a conclusion using mean and mode.",
+  "student_learning_goal": "I can analyse data and write a conclusion using mean and mode.",
+  "success_criteria": [
+    "I can BUILD a frequency table.",
+    "I can BUILD a scaled bar graph.",
+    "I can find MEAN and MODE.",
+    "I can WRITE a conclusion using both."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "tree diagram",
+    "frequency table",
+    "qualitative data",
+    "quantitative data",
+    "scale",
+    "mean",
+    "mode"
+  ],
+  "manipulatives_used": [
+    "M1_tree_mat",
+    "M2_frequency_template",
+    "M3_bar_grid",
+    "M4_mean_chart",
+    "M5_data_cards",
+    "M6_capstone_template",
+    "M7_data_chart",
+    "M8_scale_chart",
+    "M9_calculator_set",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Big Case Steps'",
+    "Big Case Templates (1 per child)",
+    "All previous manipulatives at 5 stations",
+    "Lesson 5 capstone rubric"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dot's Big Case",
+    "hook": "Detective Dot: Today's BIG CASE — survey, table, scale graph, mean, mode, conclude. The complete detective sweep! Dot + Tally open: 'Sort, TABLE, GRAPH, MEAN/MODE — case CLOSED!'",
+    "teacher_script": "Bring children to the carpet. Detective Dot and Tally puppets in capes. 'Friends — today is our CAPSTONE. We use ALL we know: tree diagrams, frequency tables, scaled graphs, mean, mode, and conclusions.'\n\nReview the 5 detective steps: 'Step 1 — ASK + survey. Step 2 — FREQUENCY TABLE. Step 3 — SCALED bar graph. Step 4 — MEAN + MODE. Step 5 — CONCLUDE using both.'\n\nDemo. 'Class survey: hours of TV per week.' Show 8 student responses: 5, 3, 8, 5, 10, 5, 2, 4.\n\nFrequency table: 2(1), 3(1), 4(1), 5(3), 8(1), 10(1).\nMean: 42÷8 = 5.25 (round to 5).\nMode: 5 (appears 3 times).\n\nScaled bar graph: hours 0-10, scale 1=1 (small data, no scaling needed).\n\nConclusion: 'In our class, students watch about 5 hours of TV per week (mean). The mode is also 5 hours, the most common amount.'\n\n'Detective Dot says — mean tells the AVERAGE, mode tells what's COMMON. Use BOTH in your conclusion.'\n\nNow show the 5 stations:\n- Station 1: TREE — sort 8 cards by 3 attributes.\n- Station 2: FREQUENCY — build table from class survey.\n- Station 3: SCALED GRAPH — build with 1 unit = 5.\n- Station 4: MEAN + MODE — calculate for given data.\n- Station 5: CONCLUDE — write using mean and mode.\n\nEach child rotates and records on TEMPLATE.\n\n'Detective Dot says — every BIG case ends with a CONCLUSION using mean AND mode.'",
+    "student_actions": [
+      "Watch Detective Dot demo",
+      "Echo all unit vocabulary",
+      "Plan station order",
+      "Practice each skill briefly"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "The Big Case",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out templates. 5 stations rotation (~5 min each).",
+        "teacher_prompt": "Say: '5 stations.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Stations 1-5: tree, frequency, scale, mean+mode, conclude.",
+        "teacher_prompt": "Say: 'Complete each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: write a 2-sentence conclusion.",
+        "teacher_prompt": "Say: 'Stretch: 2 sentences.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with mean calculation as needed.",
+        "teacher_prompt": "Show: total ÷ count = mean."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record summative evidence.",
+        "teacher_prompt": "Stop at each child. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their case analysis — Pair A focused on mode, Pair B on mean. Class debates: do both reach the same conclusion? When does each summary tool matter? Cite Konold & Pollatsek (2002) on data analysis tools.",
+        "teacher_prompt": "Dot: 'Same data, different tools, sometimes different stories. The DETECTIVE picks the right tool.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Visit 3 stations.",
+      "for_extending": "Big-idea conclusion.",
+      "for_ell_or_iep": "Pre-printed sentence frames.",
+      "for_movement_learners": "Walk between 5 stations physically. NO-PAPER VERSION: children rotate through 5 carpet zones (sort tree, frequency table, bar graph, mean/mode, conclusion). Body becomes the data flow."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: tree; frequency; scale; mean+mode; conclude.",
+      "how_to_record": "Score on capstone rubric.",
+      "tracker_columns": [
+        "Student name",
+        "Tree + frequency",
+        "Scale graph",
+        "Mean + mode + conclude",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dot's Big Case Brag",
+    "discussion_prompts": [
+      "What's MEAN? MODE?",
+      "What goes in a frequency table?",
+      "What's many-to-one scale?",
+      "What's a CONCLUSION with mean and mode?"
+    ],
+    "exit_routine": "Capstone refrain — Dot + Tally call: 'Sort, TABLE, GRAPH, MEAN/MODE — case CLOSED!' Class chants 3x. Each child shares their case + the tool they used at each step."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Capstone template across 5 stations.",
+    "tracker_reference": "summative_capstone_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures all 5 expectations."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes a conclusion WITHOUT mean or mode — repairing the no-measure-conclusion trap at Grade 3",
+    "rationale": "On the data-detectives capstone, the Grade-3 trap is single-tool fixation — child uses ONLY mode (Day 4) or only the bar graph (Day 3) instead of integrating all four prior-day tools (sort tree → frequency table → bar graph → mean/mode). Lehrer & Schauble (2002) place tool integration as the data-modelling terminal target.\n\nToday integrates Lessons 1-4 into a peer case-investigation.",
+    "setup": "Capstone Station 5. Child writes 'Most students chose hockey.' No mean or mode mentioned.",
+    "teacher_script": "Crouch. 'Detective Dot asks — what's the MODE? What's the MEAN? Include those NUMBERS.'\n\nGuide. 'Mode = hockey. Mean? If we numbered: 0 (none) to 5 (hockey is favourite) — mean would be the average.'\n\nGenerlise. 'Detective Dot says — at G3, conclusions use MODE (most common) AND MEAN (average) when possible.'\n\nIf still vague: provide a 'measures-required' frame. 'The mode is ___ (most common). The mean is ___ (average).'",
+    "expected_student_responses": [
+      "(Confused) No measures.",
+      "(Mid) Mode mentioned with prompts.",
+      "(Strong) Both mode and mean.",
+      "(Stretched) Articulates difference between mean and mode."
+    ],
+    "common_misconceptions": [
+      "Conclusion = group statement only. (Repair: G3 includes mean/mode.)",
+      "Mode and mean are the same. (Repair: different measures.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names mode but not mean: model 'add all values, divide by count' on a 4-value set; child re-computes.",
+      "DIAGNOSTIC B — child uses only one tool: explicit checklist (sort, tabulate, graph, summarize); child checks all four before final report.",
+      "DIAGNOSTIC C — child analyses but skips conclusion: force the sentence frame 'The data shows ___ because mean = ___ and mode = ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dot's Big Case",
+    "purpose": "Summative artifact applying D1.1-D1.5.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Build a frequency table from given survey data (8 students).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Build a scaled bar graph (1 unit = 2). Find mean and mode.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write a conclusion using BOTH mean and mode.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dot and Tally in worksheet header",
+      "Frequency template for Part 1",
+      "Bar grid + mean/mode lines for Part 2",
+      "Conclusion box for Part 3"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson 1's big_idea, consolidation, and expanded_walkthrough never cross-reference neighbouring lesson days. There is no teacher language bridging today's chunking/algorithm work to Lesson 2's array work or to the unit arc.",
+      "required_fix": "In 'Tony's Strategy Brag' consolidation, add a forward bridge: Tony previews Day 2 with a line like 'Tomorrow Maya brings the multiplication toolkit — arrays for the 2s, 5s, 10s. Same idea: a reliable strategy plus a quick mental trick.' Cross-reference the Toolkit anchor poster.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Silent-regroup trap is concrete (child writes 347+285 as 5,12,12) and recovery has one branch ('If the child STILL skips the regrouping...'), but no research is named and recovery doesn't fully branch by diagnostic.",
+      "required_fix": "Add a named-research anchor in expanded_walkthrough.rationale (Fuson 1990 or Hiebert & Wearne 1996 on multidigit addition). Add a second diagnostic branch: if child can verbalise '12 is 1 ten and 2 ones' but still mis-writes, drill notation only; if not, do trades-with-blocks first.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials REQUIRES per-pair base-ten blocks with thousand-cubes plus 18 pre-printed Story Problem Cards. The differentiation block has no no-paper / no-purchase fallback for prep-less days.",
+      "required_fix": "Add a no-materials version to differentiation: 'No-blocks alternative — children sketch place-value (squares=hundreds, lines=tens, dots=ones) on whiteboards; trade by erasing 10 dots, drawing 1 line. No-cards alternative — teacher voices 3 oral story problems while children solve.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Tony anchors all three lesson phases and success_criteria all start with 'I can', but there is no quotable refrain or memorable chant. 'Tony's Strategy Brag' has discussion prompts and a sticky-note exit but no sentence frame children carry between lessons.",
+      "required_fix": "Give Tony a distinctive refrain children chant back: 'Trade ten for one — that's how it's done!' Have teacher_script open and close with it. Add it to exit_routine: each child says the chant aloud as they place their sticky note. Make it the recurring Toolkit phrase across the unit.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (chunking by place value; regrouping as trading) and strategies are compared, but children do not invent or refine their own strategy and no named research (Carpenter et al. CGI, Fuson, Hiebert & Wearne) is cited in the walkthrough.",
+      "required_fix": "In action step 4 invite invention: 'Is there a third way? Some kids round 285 to 300, add, then subtract 15 — try it.' Compare class-invented strategies. In expanded_walkthrough.rationale, name the research base (Fuson 1990 multidigit addition or CGI invented algorithms).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 2 reuses the EXACT lesson minds_on problems: A1 '347+285' and A2 '632-287'. This is rote repeat, not transfer. Level 4 needs deliberately varied practice (transfer task, not repeat) with the difference justified.",
+      "required_fix": "Replace A1 and A2 with fresh problems testing the same skill: A1 '276+458' (ones-column regrouping); A2 '503-247' (regrouping across a zero — a deliberately harder transfer case). Add to teacher_notes: 'A2 tests zero-regrouping transfer; if children miss A2 only, target zero-regrouping in Day 2 warm-up.'",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong Lesson 1 with a precise silent-regroup trap and consistent Tony voice; gaps are at the Level-4 polish layer. To clear the bar: anchor the trap in named research (Fuson, Hiebert & Wearne), give Tony a quotable refrain, add a no-materials fallback in differentiation, swap worksheet Part 2 to fresh transfer numbers, and bridge the consolidation to Day 2's array work."
+}

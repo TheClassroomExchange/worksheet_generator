@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "thematic_title": "Real-Life Math",
+  "descriptive_title": "Grade 1 Mathematics: Algebra (Modelling) — Mathematical Modelling at the Sugar Bush (C4)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.cap/en/curriculum/elementary-mathematics/grades/g1-math",
+  "curriculum_codes": ["C4"],
+  "curriculum_expectations": {
+    "C4": "apply the process of mathematical modelling to represent, analyse, make predictions, and provide insight into real-life situations"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on mathematical modelling, framed around the Canadian sugar bush — Maple the Maple Tree mascot and Sap Sam the Sap Collector. Children walk through the modelling cycle: identify a real-life situation, ask a question, collect data, build a model, use it to predict, reflect on accuracy. The week culminates in children applying the modelling cycle to their own real-life situation.",
+  "unit_learning_goal": "Children will apply the mathematical modelling cycle (situation → question → data → model → predict → reflect) to a real-life situation.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "What is the Sugar Bush?", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "Mathematical modelling starts with a real-life situation. We pay attention to what's happening and ask questions.", "student_learning_goal": "I can describe a real-life situation and ask math questions about it.", "one_line_summary": "Maple introduces the sugar bush; class brainstorms questions like 'how many trees?' 'how much sap?'"},
+    {"lesson_number": 2, "lesson_title": "Counting Trees and Taps", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We collect data — count trees, measure tap holes — to feed our model.", "student_learning_goal": "I can collect data to answer a math question about a real-life situation.", "one_line_summary": "Children count paper trees and predict how many taps; record on a chart."},
+    {"lesson_number": 3, "lesson_title": "Predicting Sap Buckets", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We use the data to make predictions. If 1 tap fills 1 bucket, then 5 taps fill 5 buckets.", "student_learning_goal": "I can use data to predict an outcome.", "one_line_summary": "Sap Sam predicts: if 1 tap → 1 bucket, predict for 4, 6, 8 taps."},
+    {"lesson_number": 4, "lesson_title": "Reflecting and Refining", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "After predictions, we check our model against reality. Sometimes the model is off — we refine it.", "student_learning_goal": "I can check my prediction against what really happens and adjust the model.", "one_line_summary": "Children compare predicted vs actual sap counts; refine the rule."},
+    {"lesson_number": 5, "lesson_title": "My Real-Life Math", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We can model any real-life situation. Pick a topic from your life, ask a question, build a model.", "student_learning_goal": "I can model a real-life situation from my own life.", "one_line_summary": "Children invent their own real-life modelling problem (recess game scores, snack distribution, etc.) and walk through the cycle."}
+  ],
+  "expectation_lesson_map": {"C4": [1, 2, 3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Maple the Maple Tree", "role": "Lead character. A friendly maple tree mascot that stands at the sugar bush. Anchors all 5 lessons.", "visual_description": "A maple tree character with a smiling face on the trunk, vibrant red-orange leaves, sugar tap on the side, syrup bucket below. Cheerful expression."},
+    {"name": "Sap Sam the Collector", "role": "The hardworking helper who collects sap. Anchors Lessons 2 and 3.", "visual_description": "A young person in a plaid coat and toque, carrying a sap bucket and a wooden tap. Friendly Canadian smile."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "model", "child_friendly_definition": "A math representation of a real-life situation. The model helps us predict what will happen."},
+    {"term": "predict", "child_friendly_definition": "To say what we think will happen based on what we know."},
+    {"term": "data", "child_friendly_definition": "Information we collect by counting, measuring, or observing."},
+    {"term": "real-life situation", "child_friendly_definition": "Something that happens in the world we can ask math questions about."},
+    {"term": "refine", "child_friendly_definition": "To improve something. We refine our model when reality is different from our prediction."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_paper_trees", "name": "Paper Maple Trees", "description": "20 paper tree tokens for the sugar bush.", "used_in_lessons": [1, 2, 3], "clipart_files": []},
+    {"id": "M2_sap_buckets", "name": "Paper Sap Buckets", "description": "20 paper bucket tokens.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M3_modelling_chart", "name": "Modelling Cycle Chart", "description": "Letter-size chart showing the 5 modelling steps.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M4_data_table", "name": "Data Collection Table", "description": "Letter-size table for recording counts and measurements.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M5_prediction_chart", "name": "Prediction Chart", "description": "Letter-size chart with PREDICT and ACTUAL columns.", "used_in_lessons": [3, 4], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Capstone Modelling Template", "description": "Letter-size template for Lesson 5.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_situation_cards", "name": "Real-Life Situation Cards", "description": "12 cards with everyday situations to model.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M8_two_colour_counters", "name": "Two-Colour Counters", "description": "20 per pair for modelling.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M9_syrup_jar_template", "name": "Syrup Jar Template", "description": "Printable template for the final syrup product.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M10_sugar_bush_poster", "name": "Sugar Bush Anchor Poster", "description": "Large classroom anchor showing Maple, Sap Sam, and the sugar bush.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Paper maple trees (20)",
+    "Paper sap buckets (20)",
+    "Modelling cycle chart",
+    "Data collection table",
+    "Prediction chart",
+    "Capstone modelling template",
+    "Real-life situation cards (12)",
+    "Two-colour counters",
+    "Syrup jar template",
+    "Sugar bush anchor poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1: can the child describe a real-life situation and ask a math question about it?",
+    "formative": "Lesson 2: data-collection accuracy. Lesson 3: prediction accuracy. Lesson 4: reflection-and-refinement.",
+    "summative": "Lesson 5: child applies the full modelling cycle to their own real-life situation."
+  },
+  "pedagogical_notes": [
+    "C4 is the 'modelling' overall expectation — children walk through the modelling cycle multiple times.",
+    "The sugar bush is a quintessentially Canadian context — maple syrup is a strong cultural anchor.",
+    "Modelling is iterative — we EXPECT predictions to be off and refine them.",
+    "Capstone Lesson 5 invites children to model THEIR life — strongest engagement signal."
+  ],
+  "canadian_context_notes": [
+    "Sugar bush season runs late February to early April in Ontario. Schools sometimes do field trips.",
+    "Maple trees, sap, syrup are uniquely Canadian symbols — Indigenous-origin technology.",
+    "Other real-life modelling contexts: ice fishing, hockey scores, recess weather."
+  ]
+}

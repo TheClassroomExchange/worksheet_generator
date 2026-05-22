@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "lesson_number": 1,
+  "lesson_title": "House 1000",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B1.1",
+    "B1.5"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Numbers to 1000 are made of thousands, hundreds, tens, and ones.",
+  "learning_intention": "We are learning to read and represent numbers up to 1000 with base-ten blocks and to describe each digit's place value.",
+  "student_learning_goal": "I can read and represent numbers to 1000 with base-ten blocks and describe each digit's place value.",
+  "success_criteria": [
+    "I can build any number to 1000 with the right number of thousands, hundreds, tens, and ones.",
+    "I can read a four-digit number and say what each digit is worth.",
+    "I can describe 347 as 'three hundreds, four tens, seven ones' AND as '300 + 40 + 7'."
+  ],
+  "vocabulary_introduced": [
+    "thousands"
+  ],
+  "vocabulary_reinforced": [
+    "place value",
+    "hundreds",
+    "tens",
+    "ones"
+  ],
+  "manipulatives_used": [
+    "M1_base_ten_blocks_1000",
+    "M2_place_value_mat_th",
+    "M10_street_poster"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart 'Place Value: Th-H-T-O' with example representations",
+    "OPTIONAL: Penny the Place Value Pal — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Three target numbers on the board: 347, 762, 1000",
+    "Per-child place-value mat (Th, H, T, O columns)",
+    "Per-pair set of base-ten blocks including thousand-cubes",
+    "Lesson 1 place-value snapshot tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Penny's Big Number Mystery",
+    "hook": "Penny found a clue with the number 1000 on it. What does 1000 actually MEAN? Penny opens: 'Every digit has a PLACE — and the place names the SIZE!'",
+    "teacher_script": "Bring children to the carpet. Reveal Penny the Place Value Pal puppet. 'Friends — meet Penny. Penny lives in House 1000 on Fraction Street. Today she opens the doors of her house — and inside, she shows us the BIGGEST number we've ever worked with.'\n\nHold up a card with 1000 written in large numerals. 'What does this number actually MEAN?'\n\nTake responses. Some children will say 'one thousand'. Some will recognise it as 'ten hundreds'. Affirm both.\n\n'Watch Penny.' Place a thousand-cube on the floor — this is 10 hundred-flats stacked into a cube. 'A THOUSAND-CUBE. It's 1000 little ones, all together.' Show that the thousand-cube is the same volume as 10 hundred-flats.\n\nNow show 347 on the place-value mat. 'Penny says — every multi-digit number has DIGITS in PLACES. 347 has the digit 3 in the HUNDREDS place — that's worth 300. The digit 4 is in the TENS place — that's worth 40. And 7 is in the ONES place — just 7.' Build with blocks: 3 hundred-flats, 4 ten-rods, 7 unit-cubes.\n\nWrite on the board: 347 = 300 + 40 + 7. 'Expanded form. Same number, the place-values laid out.'\n\nNow 762. Build: 7 flats, 6 tens, 2 ones. Total: 762. Write 762 = 700 + 60 + 2.\n\nNow 1000. 'How would Penny build 1000?' Wait. Some say '10 hundred-flats'. Some say '1 thousand-cube'. 'BOTH! Same number, different builds.' Show both side by side.\n\n'Today we'll practice reading and building numbers to 1000.'",
+    "student_actions": [
+      "Watch Penny reveal the thousand-cube and explain its value.",
+      "Help count the place values of 347, 762, 1000.",
+      "Echo the new vocabulary: 'thousands'.",
+      "Predict whether 1 thousand-cube and 10 hundred-flats are the same."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Place-Value Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: build 2 more numbers together. 489 (4 flats, 8 tens, 9 ones; expanded 400+80+9) and 905 (9 flats, 0 tens, 5 ones; expanded 900+0+5 = 905). Discuss the zero placeholder in 905.",
+        "teacher_prompt": "Say to students: 'Two more numbers together. 489 — build it. Read the place values. Write the expanded form.' Then 905 — slow down on the zero. 'Why is 905 not the same as 95?' Children: '0 in the tens means no tens. We have to write the 0 as a placeholder.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Build the Mystery Number — pair draws a card (e.g., 347, 489, 762, 1000, 528, 905), builds with base-ten blocks, writes the expanded form. Station B: Match Digit-to-Place — pair has 12 cards: 6 numbers + 6 place-value descriptions ('3 hundreds, 4 tens, 7 ones'); match each. Station C: Real-Life Numbers — pair makes a list of 3 numbers between 100-1000 they see in real life (page numbers, prices, distances).",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Listen for the chime to switch.' Set the rotation."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station A: include 2 numbers with zero placeholders (e.g., 405, 700). Discuss why the zero is necessary.",
+        "teacher_prompt": "Say to pairs at Station A: 'You'll find numbers with zeros, like 405. Build it. Why is the zero important?' Lead to: '0 in the tens means no tens. Without it, we'd write 45, which is a different number.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record formative evidence on the place-value snapshot tracker.",
+        "teacher_prompt": "Stop at each pair. Hand them a number and ask 'Build it. Read each digit's value.' Mark the tracker."
+      },
+      {
+        "step_number": 5,
+        "instruction": "STRATEGY COMPARE: Two pairs share their 4-digit number compositions. Class compares: same digits, different places? Cite Ross (1989) place-value levels.",
+        "teacher_prompt": "Penny: 'Same digits, different places, different VALUES.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose Grade-2 work was emerging stay at Station A with numbers under 500 only. Anchor on 3-digit place value before extending to 4 digits.",
+      "for_extending": "Stretch numbers: 1234, 4567, 9999. Discuss whether the rule still applies (yes — extends to ten-thousands).",
+      "for_ell_or_iep": "Provide a sentence frame: 'In ___, there are ___ thousands, ___ hundreds, ___ tens, and ___ ones.'",
+      "for_movement_learners": "At Station B, allow movement learners to physically PLACE the digit-cards on a giant Th-H-T-O floor mat. NO-PAPER PATH: children use four fingers as place-value houses (thumb=thousands, index=hundreds, middle=tens, ring=ones). Body becomes the chart."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: (1) reads 3-4 digit numbers correctly without digit-by-digit naming; (2) builds with the correct counts; (3) writes the expanded form correctly.",
+      "how_to_record": "Tick the place-value snapshot tracker per child as you observe.",
+      "tracker_columns": [
+        "Student name",
+        "Reads 3-4 digit numbers correctly",
+        "Builds with correct H/T/O counts",
+        "Writes expanded form correctly",
+        "Recognises zero placeholder",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Penny's House-1000 Brag",
+    "discussion_prompts": [
+      "What's special about the number 1000?",
+      "Why is the zero placeholder important in 905?",
+      "Can you describe 762 in TWO ways?",
+      "Where do you see numbers between 100 and 1000 in real life?"
+    ],
+    "exit_routine": "Penny's chant — 'Every digit has a PLACE — and the place names the SIZE!' (3x). Each child writes one 4-digit number with house labels."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Multi-digit number reading, building with base-ten blocks, expanded-form writing, and zero-placeholder recognition.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 is the diagnostic gateway. Children who can't yet read 4-digit numbers need explicit place-value reteach during Lesson 2. The zero-placeholder marker catches a Grade-3-specific subtlety."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child reads 905 as 'ninety-five' or 'nine zero five' — repairing the zero-placeholder misunderstanding",
+    "rationale": "On 1000s place value, the trap is digit-count confusion: child treats place position as digit-count rather than power-of-10 structure. Fuson (1990) on multidigit number sequence and Ross's (1989) five levels of place-value understanding place this as the gateway to all 4-digit work.\n\nToday: 1000s house. Tomorrow Lesson 2 compares and orders. Lesson 3 rounding; Lesson 4 sharing; Lesson 5 fractions.",
+    "setup": "Pair is at Station A (Build the Mystery Number). The card reads 905. The child reads it as 'ninety-five' or 'nine zero five'. Asked to build it, they place 9 ten-rods and 5 unit-cubes (95) — missing the hundreds completely.",
+    "teacher_script": "Crouch beside the child. 'Show me your build for 905.' The child shows 9 ten-rods and 5 unit-cubes. 'OK — let's check. Count.' Together: 90 + 5 = 95. 'But the card says 905. Three digits, not two. Watch.'\n\nWrite 905 with vertical lines: 9 | 0 | 5. 'Three digits, three places. HUNDREDS — TENS — ONES. The 9 is in the HUNDREDS place — that's 900. The 0 is in the TENS place — that's no tens. The 5 is in the ONES place — that's 5.'\n\nBuild together: 9 hundred-flats + 0 ten-rods + 5 unit-cubes = 905. 'See? The 0 tells us NOTHING happens in the tens column — but the 9 still means HUNDREDS. The 0 holds the place.'\n\nNow expanded form. '905 = 900 + 0 + 5 = 900 + 5. The 0 doesn't add to the total but it KEEPS the digits in their right places.'\n\nIf the child STILL drops the zero: connect to position. 'In a phone number 905-555-1234, where does the 9 belong? In the area-code spot — the FIRST spot. Same with our number — the 9 is in the FIRST spot, which is HUNDREDS.' Position-as-structure analogy works for some children.\n\nLong-term recovery: include zero-placeholder numbers in the daily warm-up for a week (305, 109, 600, 207). Reflex builds with practice.",
+    "expected_student_responses": [
+      "(Confused) Reads 905 as 'ninety-five'. Builds 95. Most common at the start of Grade 3 for transition learners.",
+      "(Mid) Recognises the zero with prompting. Builds 905 correctly when reminded that the 0 is a placeholder.",
+      "(Strong) Reads 905 as 'nine hundred five'. Builds 9 hundred-flats + 5 unit-cubes (no ten-rods). Correctly explains the placeholder role.",
+      "(Stretched) Volunteers that 905 = 900 + 5 (no tens added). Beginning to see the zero as STRUCTURAL not just NUMERICAL."
+    ],
+    "common_misconceptions": [
+      "The 0 is silent / not a real digit. (Children skip zeros when reading. Repair: explicit position-as-structure with the place-value mat.)",
+      "More zeros = bigger number. (Children think 900 < 9000 because '9000 has more zeros'. Correct — for the wrong reason. Repair: position-by-position reading.)",
+      "Writing numbers with zeros is just style. (Children think 95 and 905 might be the same. Repair: build both side-by-side; 95 has 9 tens, 905 has 9 hundreds.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child reads 1234 as digits 1-2-3-4: drill 'thousands HOUSE, hundreds, tens, ones'; physical demo with place-value chart.",
+      "DIAGNOSTIC B — child uses chart but loses positional value: drill '1000 = 10 hundreds = 100 tens = 1000 ones.'",
+      "DIAGNOSTIC C — child knows places but cannot articulate: force the sentence frame 'in 1234, the ___ is in the ___ place and means ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Penny's Place-Value House",
+    "purpose": "Independent practice of B1.1 (numbers to 1000) and B1.5 (place value).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Six base-ten block scenes. Each shows a build (hundred-flats + ten-rods + unit-cubes). Child writes the number and the expanded form.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Six numbers including zero placeholders (e.g., 405, 909, 200, 1000, 305, 707). Child writes the place value of each digit.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: 'Where do you see 3-digit numbers in your life? Draw and write 2-3 examples.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Penny the Place Value Pal in the worksheet header",
+      "Six base-ten block scenes for Part 1",
+      "Six number boxes with place-value lines for Part 2",
+      "A blank box with Penny thinking-bubble icon for Part 3"
+    ]
+  }
+}

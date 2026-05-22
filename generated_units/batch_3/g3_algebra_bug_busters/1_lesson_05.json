@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 5,
+  "lesson_title": "Bug Buster Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.1",
+    "C3.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can write our own code AND plant a bug for a partner to find.",
+  "learning_intention": "We are learning to write code, plant a bug, and check our partner's fix.",
+  "student_learning_goal": "I can write code, plant a bug, and check my partner's fix.",
+  "success_criteria": [
+    "I can write a 2-lane code with concurrent events.",
+    "I can plant a bug intentionally.",
+    "I can check a partner's fix and verify."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "concurrent",
+    "sequential",
+    "repeating",
+    "bug",
+    "alter",
+    "outcome"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M2_code_cards",
+    "M4_robot_markers",
+    "M6_capstone_template",
+    "M10_buster_poster"
+  ],
+  "lesson_specific_materials": [
+    "Buzz and Patch together",
+    "Per-child Bug Buster Capstone Template",
+    "Lesson 5 capstone tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Buzz and Patch's Final Showcase",
+    "hook": "Now you write code AND plant a bug. Your partner finds and fixes it. Buzz + Patch open: 'TRACE it, FACE it, REPLACE it! FIND it, ALTER it, TEST it!'",
+    "teacher_script": "Bring children to the carpet. Buzz + Patch together. 'Friends — today you become BUG BUSTERS. Write your own 2-lane code with concurrent events. Plant a bug. Swap with a partner. They debug. Verify together.'\n\nShow examples:\n- Code: R1 fwd fwd Repeat 3:fwd. R2 fwd fwd fwd. Expected: both end at (5,0). Bug: Repeat 3 should be Repeat 1. Partner finds and fixes.\n- Code: R1 turn turn fwd. R2 fwd fwd. Expected: R1 turns 180 then forward to (-1,0). Bug: turn left should be turn right. Partner finds and fixes.\n\nShow capstone template. 'Three sections: WRITE code, PLANT bug, FIX partner's bug.'",
+    "student_actions": [
+      "Look at example codes.",
+      "Plan their own concurrent code.",
+      "Plan a bug to plant.",
+      "Predict ending positions."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Bug Buster Capstone",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out capstone templates. Children write 2-lane concurrent code (4-6 time-steps).",
+        "teacher_prompt": "Say: 'Use 2-lane format. At least 1 loop. Predict ending positions.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Children plant ONE bug in their code. Mark the expected outcome.",
+        "teacher_prompt": "Stop at each child. Verify bug is plantable."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge: plant TWO bugs.",
+        "teacher_prompt": "Say: 'Stretch: 2 bugs. Different types.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Swap with a partner. Partner finds bug, alters, verifies.",
+        "teacher_prompt": "Say: 'Swap. Find. Fix. Verify.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Whole-class share: 5-6 children share aloud.",
+        "teacher_prompt": "Pick variety: number bugs, step bugs, order bugs, 2-lane bugs."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a starter code with one slot for a bug.",
+      "for_extending": "Stretch: 2 bugs.",
+      "for_ell_or_iep": "Provide picture-supported templates.",
+      "for_movement_learners": "Build code physically with robot tokens. NO-PAPER VERSION: children draw their 2-lane code on the floor with chalk OR use floor tape; partner walks through the buggy code physically and fixes."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: writes 2-lane code; plants intentional bug; partner fixes and verifies.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Writes 2-lane code",
+        "Plants intentional bug",
+        "Verifies partner's fix",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Buzz's Final Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most surprising bug you saw today?",
+      "How did you plant your bug?",
+      "How did you fix your partner's bug?",
+      "What's something in coding you want to learn next?"
+    ],
+    "exit_routine": "Capstone refrain — Buzz + Patch call: 'TRACE it, FACE it, REPLACE it! FIND it, ALTER it, TEST it!' Class chants 3x. Each child shares one bug they planted AND one they fixed."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Full capstone code + bug + partner fix.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures C3.1+C3.2 summative integration."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child plants a bug that's actually correct (no real bug) — repairing the no-bug-plant trap at Grade 3",
+    "rationale": "On the bug-buster capstone, the trap is no-bug-plant: children design clean code without intentionally planting bugs to swap. Brennan & Resnick (2012, 'New Frameworks for Studying and Assessing the Development of Computational Thinking') frame bug-planting as the meta-debugging skill. Without planted bugs, swap-and-fix exchanges have nothing to debug.\n\nToday integrates Lessons 1-4: concurrent reading (L1), writing (L2), bug detection (L3), fixing (L4) into a peer bug-swap.",
+    "setup": "Child hands code to partner. Partner traces. Outcome matches expected. No bug found. Child says 'There IS a bug'.",
+    "teacher_script": "Crouch. 'Let's check. Trace step by step. Outcome (3,0). Expected (3,0). Match. So no bug.'\n\n'A real bug means the actual outcome is DIFFERENT from expected. Let's plant one. Pick a step. Change it.'\n\nWalk through. 'Step 3 is fwd. Change to Repeat 5: fwd. Now actual = (8,0), expected = (3,0). Different. THAT'S a bug.'\n\nGeneralise. 'Buzz says — to plant a bug, pick a step and change it from CORRECT to INCORRECT. Document the expected outcome. The partner traces; if outcome ≠ expected, they find the bug.'\n\nIf still no real bug: provide a 'plant template'. 'Step ___ should be ___, but I changed it to ___.' Force the deliberate alteration.\n\nLong-term recovery: every plant uses 'pick step, alter, document'.",
+    "expected_student_responses": [
+      "(Confused) Claims bug without altering.",
+      "(Mid) Plants bug with prompts.",
+      "(Strong) Plants a deliberate bug; documents expected outcome.",
+      "(Stretched) Plants 2 bugs of different types."
+    ],
+    "common_misconceptions": [
+      "Writing code automatically has bugs. (Repair: bugs are deliberate alterations.)",
+      "Any wrong outcome is a bug. (Repair: bugs come from intentional code changes.)",
+      "I plant after my partner traces. (Repair: plant THEN swap.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child writes clean code without bugs: explicit instruction 'add 1-2 INTENTIONAL bugs' before swap; child marks them in pencil for later checking.",
+      "DIAGNOSTIC B — child plants bugs but can't articulate them: force the sentence frame 'My bug is ___ on row ___ lane ___'.",
+      "DIAGNOSTIC C — child plants but partner can't find: drill the tracing protocol from Lesson 3 before swap."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My Bug Buster Project",
+    "purpose": "Summative evidence for C3.1+C3.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Write a 2-lane concurrent code (4-6 time-steps).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Plant a bug. Mark the expected outcome.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Swap with a partner. Find and fix their bug.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 4,
+        "task": "Reflect: which bug type was easiest to find?",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Buzz and Patch together in worksheet header",
+      "2-lane code area for Part 1",
+      "Bug-and-expected slot for Part 2",
+      "Partner fix area for Part 3",
+      "Reflection box for Part 4"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_data_likely_unlikely", "lesson_number": 5,
+  "worksheet_title": "Lucky Lou's Big Predict", "purpose": "Summative artifact applying D2.1-D2.2.",
+  "student_learning_goal": "I can predict using the scale, then test with mean and mode.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can predict using the scale, then test with mean and mode.",
+    "character_watermark": "Lucky Lou the Loon and Maybe Mae the Cat in the top-right with the 5-word scale and a calculator. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Predict.", "student_instructions": "Read the scenario. Make a prediction using a SCALE WORD.",
+     "visual_layout": "Scenario box with the 5-word scale strip below it and a prediction line for the chosen word.",
+     "image_placeholders": [{"id": "WS05_P1_PREDICT", "description": "A Grade 3 capstone prediction layout for likelihood worksheet, B&W line art. Scenario box at top: 'Class A and Class B both surveyed: how many books read?'. Below: 5-word scale strip. Below: prediction line.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["scale", "predict"], "text_image_alignment_check": "WS05_P1_PREDICT at Part 1: keywords name the scale-based prediction task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any valid scale word + scenario fit."},
+    {"part_number": 2, "part_title": "Part 2: Compare two classes.", "student_instructions": "Look at Class A and Class B data. Find MEAN and MODE for each.",
+     "visual_layout": "Two side-by-side data columns and a results table for total, count, mean, and mode.",
+     "image_placeholders": [{"id": "WS05_P2_DATA", "description": "A Grade 3 capstone compute layout for likelihood worksheet, B&W line art. Two columns. Class A: 2, 3, 4, 4, 7. Class B: 3, 3, 5, 5, 9. Below: results table with rows total, count, mean, mode.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["columns", "mean"], "text_image_alignment_check": "WS05_P2_DATA at Part 2: keywords name the side-by-side columns showing both populations and their mean."}],
+     "student_response_type": "draw_or_write", "answer_key": "Class A: total 20, count 5, mean 4, mode 4. Class B: total 25, count 5, mean 5, mode 3 and 5."},
+    {"part_number": 3, "part_title": "Part 3: Conclude.", "student_instructions": "Write a CONCLUSION using your scale word + the MEAN and MODE.",
+     "visual_layout": "Sentence frame with three blanks for the scale word, mean number, and mode number, plus a conclusion line.",
+     "image_placeholders": [{"id": "WS05_P3_CONCLUDE", "description": "A Grade 3 capstone conclusion layout for likelihood worksheet. Sentence frame: 'I predicted ___ (scale word). The mean was ___ and the mode was ___. My conclusion was that my prediction was right or wrong because ___.' 5 lines.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["conclusion", "frame"], "text_image_alignment_check": "WS05_P3_CONCLUDE at Part 3: keywords name the conclusion sentence frame."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any valid conclusion using scale word + mean + mode."}
+  ]}],
+  "early_finisher_prompt": "If you finish, design your own two-class survey question.",
+  "teacher_notes": "Lesson 5 capstone. Summative artifact — score on rubric."
+}

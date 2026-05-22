@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 4,
+  "lesson_title": "Fixing Bugs",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We fix bugs by altering the code. Change the wrong step, the wrong number, or the wrong order.",
+  "learning_intention": "We are learning to fix a bug by altering the code.",
+  "student_learning_goal": "I can fix a bug by altering the code.",
+  "success_criteria": [
+    "I can identify the bug step.",
+    "I can alter the code to fix it.",
+    "I can verify the fix produces the correct outcome."
+  ],
+  "vocabulary_introduced": [
+    "alter"
+  ],
+  "vocabulary_reinforced": [
+    "bug",
+    "outcome",
+    "concurrent",
+    "repeating"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M2_code_cards",
+    "M3_bug_cards",
+    "M4_robot_markers",
+    "M7_loop_cards",
+    "M8_alter_cards",
+    "M9_bug_chart",
+    "M10_buster_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Buzz and Patch — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Bug-Fix Strategies'",
+    "2-Lane Grid Mats",
+    "Buggy Code Cards (12) and Code Alteration Cards (8)",
+    "Robot Markers (10)",
+    "Lesson 4 fixing tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Buzz and Patch Fix Bugs",
+    "hook": "Patch: I found the bug. Buzz: Now we FIX it. Alter the code. Buzz opens: 'FIND it, ALTER it, TEST it!'",
+    "teacher_script": "Bring children to the carpet. Buzz + Patch puppets. 'Yesterday we FOUND bugs. Today we FIX them.'\n\nIntroduce vocabulary. Write ALTER on chart. 'Alter means to CHANGE. We alter buggy code to make it correct.'\n\nDemonstrate. Show buggy code: Repeat 4: fwd. Expected outcome (3,0). Bug: number 4 should be 3.\n\n'Fix: alter Repeat 4 → Repeat 3. Now: Repeat 3: fwd → ends at (3,0). Outcome matches expected. FIXED.'\n\nMore examples:\n- Bug: turn left should be turn right. Fix: alter the direction.\n- Bug: order swapped. Fix: alter the order.\n- Bug: forward should be backward. Fix: alter the step.\n\nIntroduce the strategies chart:\n- Wrong NUMBER → change the number\n- Wrong STEP → change the action\n- Wrong ORDER → swap the steps\n\n'Buzz and Patch always VERIFY after fixing. Re-trace. Does the new outcome match expected? If yes, FIXED.'\n\n'Today we fix bugs. Find them, alter them, verify the fix.'",
+    "student_actions": [
+      "Watch Buzz and Patch fix bugs.",
+      "Echo new vocabulary: 'alter'.",
+      "Predict fixes for sample bugs.",
+      "Verify by re-tracing."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Bug-Fixing Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: fix bugs in 4 codes. (a) Wrong number. (b) Wrong step. (c) Wrong order. (d) Wrong loop count.",
+        "teacher_prompt": "Say: 'Find the bug. Alter the code. Re-trace. Verify.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Fix Number Bugs (6 codes). Station B: Fix Step Bugs (6 codes). Station C: Fix Order Bugs (6 codes).",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: fix a bug in 2-lane code where the bug is in one lane.",
+        "teacher_prompt": "Say: 'Stretch: 2-lane bug fix.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the fix-and-verify pattern. 'Find → Alter → Verify. The verify step is critical. Always re-trace after the fix.'",
+        "teacher_prompt": "Show 3-step pattern on chart."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the fixing tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Show me the fix. Did you verify?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After Step 2, each pair shares HOW they fixed their bug — line-edit vs row-rewrite vs full-rewrite. Class debates which is most efficient for which bug type. Cite Pea (1986) on debugging strategies.",
+        "teacher_prompt": "Buzz: 'Different fixes, same bug. Pick the SMALLEST fix that works.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Number bugs only.",
+      "for_extending": "Stretch at Station C: 2-lane fixes.",
+      "for_ell_or_iep": "Provide a structured frame: 'Bug at step ___. Alter to ___. Verified.'",
+      "for_movement_learners": "Walk through fixes physically with robot tokens. NO-MATERIALS VERSION: children become the robots — two children stand side-by-side and execute the buggy code; class spots and fixes the bug live."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: identifies bug step; alters code; verifies fix.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Identifies bug step",
+        "Alters code correctly",
+        "Verifies fix",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Buzz's Fixing Brag",
+    "discussion_prompts": [
+      "What does ALTER mean?",
+      "What's the find-fix-verify pattern?",
+      "Why do we verify after fixing?",
+      "What if our fix introduces a NEW bug?"
+    ],
+    "exit_routine": "Buzz's fixing chant — 'FIND it, ALTER it, TEST it — that's DEBUGGING!' (3x). Each child names one bug + their fix + the test they ran."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Bug-fixing accuracy and verification.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures C3.2 mastery for bug fixing."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child alters the wrong step — repairing the wrong-fix trap at Grade 3",
+    "rationale": "On bug fixing, the trap is the wrong-fix tendency: child changes an unrelated line to 'make it work', creating new bugs. Pea (1986) on superbug + bug-fixing strategies frames this as the predict-test-revise loop. Without precise fix → trace → verify, the capstone cannot ground.\n\nYesterday Lesson 3 found bugs. Today we fix them. Lesson 5 capstones.",
+    "setup": "Pair is at Station A. Bug: code has 'fwd' instead of 'turn'. Child alters Repeat count. Re-trace shows still wrong.",
+    "teacher_script": "Crouch. 'You altered the Repeat. But the outcome is still wrong. So the bug wasn't there. Let's re-find.'\n\nWalk through. 'Trace step by step from the start. Where does it diverge?' Find the actual bug step. 'It's the fwd that should be a turn. Alter THAT step.'\n\nGeneralise. 'Buzz says — if your fix doesn't match expected, the bug was elsewhere. RE-find and re-fix.'\n\nIf still wrong fix: provide a verification template. 'After fix, run trace. Outcome match? Yes = done. No = re-find.' Force the verify reflex.\n\nLong-term recovery: every fix uses verify-loop until outcome matches.",
+    "expected_student_responses": [
+      "(Confused) Alters wrong step.",
+      "(Mid) Re-finds with prompts.",
+      "(Strong) Verifies fix; re-finds if still wrong.",
+      "(Stretched) Predicts cascading effects of fix on other steps."
+    ],
+    "common_misconceptions": [
+      "Any alteration fixes a bug. (Repair: only the right alteration fixes it.)",
+      "Verification is optional. (Repair: verify every fix.)",
+      "Multiple fixes might break code. (Repair: plan one fix at a time, verify, then next.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child changes random line: 'PAUSE — point at the BUG line first. Now what's the FIX?' Force precision.",
+      "DIAGNOSTIC B — child fixes one bug, breaks another: drill 'TEST after every FIX. Run the code. Did it work?'",
+      "DIAGNOSTIC C — child can fix but can't articulate: force sentence frame 'I changed ___ to ___ because the bug was ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Buzz's Fix It",
+    "purpose": "Independent practice of C3.2 (fix bugs).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Fix 6 buggy codes. Alter and verify.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Identify and fix bugs in 4 short codes (mixed types).",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Take a partner's bug. Fix it. Verify.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Buzz in worksheet header",
+      "6 fix-it rows for Part 1",
+      "4 mixed-bug rows for Part 2",
+      "A blank fix area for Part 3"
+    ]
+  }
+}

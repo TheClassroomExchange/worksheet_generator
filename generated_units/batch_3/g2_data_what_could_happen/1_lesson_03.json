@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "lesson_number": 3,
+  "lesson_title": "Spinner Predictions",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1"
+  ],
+  "secondary_expectations": [
+    "D2.2"
+  ],
+  "big_idea": "A SPINNER with bigger sections is MORE LIKELY to land there.",
+  "learning_intention": "We are learning to predict spinner outcomes.",
+  "student_learning_goal": "I can predict spinner outcomes using likelihood.",
+  "success_criteria": [
+    "I can read a spinner.",
+    "I can predict the MOST LIKELY outcome.",
+    "I can record results."
+  ],
+  "vocabulary_introduced": [
+    "spinner"
+  ],
+  "vocabulary_reinforced": [
+    "predict",
+    "complementary event"
+  ],
+  "manipulatives_used": [
+    "M3_spinner_set",
+    "M5_prediction_mat",
+    "M9_outcome_cards",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Spinner Predictions'",
+    "Paper Spinner Set (6)",
+    "Prediction Recording Mat (1 per pair)",
+    "Lesson 3 spinner tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Lucky Spins the Spinner",
+    "hook": "Lucky: Look at this spinner — RED is the BIG section, BLUE is small. Predict the spin — most likely RED! Lucky opens: 'BIG section, BIG chance — small section, small chance!'",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets. 'Friends — yesterday complementary events. Today SPINNERS.'\n\nIntroduce vocabulary. Write SPINNER on chart. 'Spinner = a pointer on a circle divided into sections. Bigger section = more likely.'\n\nDemo. Show a spinner with 3/4 red + 1/4 blue. 'Red is BIGGER. Spin — most likely RED.' Spin. Show outcome.\n\nAnother spinner: 4 equal quadrants (red, blue, green, yellow). 'All EQUAL — any colour equally likely.'\n\nAnother: 1/2 red, 1/4 blue, 1/4 green. 'Red biggest = most likely.'\n\n'Lucky says — bigger section = HIGHER chance. Predict the BIGGEST section first.'\n\nMore examples (complementary):\n- 1/2 red, 1/2 blue. 'Either red or blue — equal chance. Complementary.'\n- 3/4 dog, 1/4 cat. 'Most likely DOG.'\n- 1/4 hockey, 1/4 soccer, 1/4 baseball, 1/4 football. 'All equal.'\n\n'Today YOU spin and predict.'",
+    "student_actions": [
+      "Watch Lucky spin",
+      "Echo 'spinner'",
+      "Predict outcomes",
+      "Practice spinning"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Spinner Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: predict 4 spinners' most likely outcomes.",
+        "teacher_prompt": "Say: 'Bigger section = more likely.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Use a 2-section spinner; predict + spin 5 times. B: 4-section equal spinner; predict + spin. C: Make your own spinner; predict.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: design a 3-colour spinner with one big section.",
+        "teacher_prompt": "Say: 'Stretch: design.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss equal vs unequal spinners.",
+        "teacher_prompt": "Show: equal = any colour. Unequal = biggest most likely."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After Station A, two pairs share HOW they decided which section was 'biggest' — by eye, by counting equal slices, by overlay. Class debates which is most reliable. Cite Bryant & Nunes (2012) — proportional reasoning supports likelihood prediction.",
+        "teacher_prompt": "Lucky: 'Different paths to find the biggest. The CLEAREST path uses COUNTING.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A. 2-section only.",
+      "for_extending": "Stretch at C: design.",
+      "for_ell_or_iep": "Sentence frame: 'Most likely ___ because ___.'",
+      "for_movement_learners": "Children physically spin a large floor spinner. NO-PAPER VERSION: clock-spin — child stands, points arm like a clock hand, closes eyes, partner says STOP, child names where their arm lands. Body becomes the spinner."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: reads spinner; predicts most likely; records.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Reads spinner",
+        "Predicts most likely",
+        "Records results",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lucky's Spinner Brag",
+    "discussion_prompts": [
+      "What's a SPINNER?",
+      "What does BIGGER section mean?",
+      "Did your prediction match?",
+      "What if all sections are equal?"
+    ],
+    "exit_routine": "Lucky's spinner refrain — Lucky calls 'BIG section, BIG chance —' Class: 'small section, small chance!' (3x with hand gesture). Each child names ONE spinner section and predicts how often the arrow lands there."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Spinner predictions.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures D2.1 + intro to D2.2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child predicts the SMALLEST section — repairing the small-section trap at Grade 2",
+    "rationale": "On spinner-section reasoning, the trap is treating ALL sections as equiprobable regardless of size (Fischbein 1975, equiprobability bias). Bryant & Nunes (2012, 'Children's Understanding of Probability') frame proportional reasoning as the prerequisite — 'bigger section = more likely' is proportional-thinking-on-a-circle, the Grade-2 entry to formal probability.\n\nYesterday's complement work primed the framing. Today the spinner makes proportions VISIBLE. Lesson 4 dice; Lesson 5 mode capstone.",
+    "setup": "Pair at A. Spinner has 3/4 red, 1/4 blue. Child predicts BLUE.",
+    "teacher_script": "Crouch. 'You picked BLUE. But look — RED is the BIGGER section. Lucky says — bigger = more likely.'\n\nGuide. 'Spin many times. Most spins will land RED. So predict RED.'\n\nRoll several times. Child sees most are red. 'See!'\n\nGenerlise. 'Lucky says — predict the BIGGEST section.'\n\nIf still picking small: provide visual aid showing 'big section vs small section' with arrows.",
+    "expected_student_responses": [
+      "(Confused) Picks small section.",
+      "(Mid) Picks bigger with prompts.",
+      "(Strong) Picks bigger independently.",
+      "(Stretched) Estimates probability ratios."
+    ],
+    "common_misconceptions": [
+      "Small = special. (Repair: bigger = more likely.)",
+      "All sections equal regardless of size. (Repair: visual size matters.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child says all sections equally likely: physical demo with a clearly skewed spinner (1 big, 5 small); child predicts where the arrow lands MOST OFTEN over 10 spins.",
+      "DIAGNOSTIC B — child can identify biggest section but doesn't connect to likelihood: drill 'BIG section = BIG chance' (Lucky refrain); child re-says before predicting.",
+      "DIAGNOSTIC C — child predicts but cannot articulate proportion: use a counted-section spinner (4 of 8 = HALF); child says 'half the spinner means half the chance.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lucky's Spinner Lab",
+    "purpose": "Independent practice of D2.1 spinner.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Predict 4 spinners' most likely outcome.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Test spinner: predict + record 5 spins.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Design your own spinner with one BIG section.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky in worksheet header",
+      "4 spinners for Part 1",
+      "Spinner + table for Part 2",
+      "Blank spinner for Part 3"
+    ]
+  }
+}

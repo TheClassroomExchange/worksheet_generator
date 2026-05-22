@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 4,
+  "lesson_title": "How Many Cubes Long?",
+  "duration_minutes": 35,
+  "primary_expectations": [
+    "A10.1"
+  ],
+  "secondary_expectations": [
+    "A10.2"
+  ],
+  "big_idea": "We measure with non-standard UNITS \u2014 cubes, hands, footsteps. Same object: many units.",
+  "learning_intention": "We are learning to measure with non-standard units.",
+  "student_learning_goal": "I can measure with cubes, hands, or footsteps.",
+  "success_criteria": [
+    "I can line up cubes along an object to count its length.",
+    "I can measure with my hand-spans.",
+    "I can pick the right unit (cube, hand, footstep) for a job."
+  ],
+  "vocabulary_introduced": [
+    "measure"
+  ],
+  "vocabulary_reinforced": [
+    "longer",
+    "shorter",
+    "same"
+  ],
+  "manipulatives_used": [
+    "M1_length_strips",
+    "M5_linking_cubes",
+    "M7_measure_chart",
+    "M8_unit_chart",
+    "M10_measurement_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Max and Tess \u2014 if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'How to Measure'",
+    "Paper Linking Cubes (60 per pair)",
+    "Length Comparison Strips (24 per pair)",
+    "Tape on the floor for footstep measuring",
+    "Lesson 4 measurement tracker \u2014 provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 7,
+    "activity_name": "Max Measures with Cubes",
+    "hook": "Max: My measuring stick says 5 CUBES LONG. Can YOUR pencil be 5 cubes long?",
+    "teacher_script": "Bring children to the carpet. Max + Tess puppets. 'For 3 days we COMPARED. Today we MEASURE \u2014 count UNITS.'\n\nWrite MEASURE and UNIT on chart. 'Measure = count how many UNITS long.'\n\nDemonstrate with cubes. Pencil + 5 linking cubes alongside, TOUCHING. 'Pencil = 5 cubes long.'\n\nMarker = 7 cubes \u2014 longer than pencil.\n\nKey rule. 'Cubes must TOUCH \u2014 no gaps, no overlaps. Same size cubes.'\n\nOther units. Hand-span across a desk: '6 hands.' Heel-to-toe footsteps to door: '8 steps.'\n\nUnit choice: 'Cubes for SMALL. Hands for MEDIUM. Footsteps for LONG.'\n\nMax's RULE: 'LINE IT UP \u2014 COMPARE \u2014 NAME IT!' For measure: line up the units (touching), compare to a count, name the number.\n\nClass refrain. Class chants 3x with claps: 'LINE IT UP \u2014 COMPARE \u2014 NAME IT! That's how Max measures!'\n\n'Today we MEASURE with cubes, hands, and footsteps.'",
+    "student_actions": [
+      "Watch Max measure with cubes.",
+      "Echo new vocabulary: 'measure', 'unit'.",
+      "Predict cube counts before measuring.",
+      "Practice lining up cubes carefully."
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Measurement Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: measure 4 objects with cubes. (a) pencil. (b) marker. (c) book. (d) eraser. Compare results.",
+        "teacher_prompt": "Say: 'Predict how many cubes. Now measure.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Cube Measure \u2014 pair measures 5 classroom items with linking cubes and records counts. Station B: Hand-Spans \u2014 pair measures 5 desks/tables with hand-spans. Station C: Footsteps \u2014 pair measures 5 distances (table to door, etc.) with footsteps.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station A: measure the same object twice, once with cubes, once with hand-spans. Are they the same number?",
+        "teacher_prompt": "Say: 'Stretch: measure two ways.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss unit choice. 'Cubes for SMALL things (pencils). Hands for MEDIUM (desks). Footsteps for LONG (rooms).' Why?",
+        "teacher_prompt": "Demonstrate: 'A door in cubes = 80. In footsteps = 1. Which is easier to count?'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the measurement tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'How many cubes? Show me.' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just count cubes (skip hand and footstep stations).",
+      "for_extending": "Stretch at Station C: measure with footsteps AND with hand-spans, compare numbers; ask why one might give a bigger number than the other.",
+      "for_ell_or_iep": "Provide a sentence frame: 'My ___ is ___ cubes long.'",
+      "for_movement_learners": "NO-CUBE, NO-PAPER PATH: measure entirely with bodies and existing classroom objects. How many heel-to-toe footsteps from one wall to another? How many hand-spans across the carpet? How many pencils lined up tip-to-tip across a desk? Whole lesson can run with NO purchased linking cubes \u2014 pencils, books, hand-spans, and footsteps as same-size unit substitutes."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: lines up cubes carefully (no gaps); counts accurately; picks an appropriate unit.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Lines up cubes",
+        "Counts accurately",
+        "Picks right unit",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Max's Measurement Brag",
+    "discussion_prompts": [
+      "What does MEASURE mean? (Count units lined up.)",
+      "Why must cubes TOUCH? (Gaps lose count; overlaps double-count.)",
+      "When is hand-spans better than cubes? (For medium things \u2014 a desk would take too many cubes.)",
+      "When is footsteps better than hand-spans? (For long things \u2014 a room would take too many hand-spans.)"
+    ],
+    "exit_routine": "Refrain chant 3x. Then each child completes the sentence frame: 'My ___ is ___ cubes long.' Sticky-note one measurement and post."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Non-standard unit measurement accuracy.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures A10.1 mastery for non-standard units."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child leaves GAPS between cubes \u2014 repairing the unit-iteration gap trap at K (Lehrer, 2003; Stephan & Cobb, 2003; Battista, 2007)",
+    "rationale": "On A10.1 measurement with non-standard units, the most-documented K trap is the unit-iteration gap trap: child lines up cubes with spaces between them or with overlaps, then counts the cubes \u2014 not the LENGTH the cubes cover. They've grasped 'count the cubes' but not yet 'cubes must TILE the length without gaps or overlaps'.\n\nLehrer (2003) calls this the early-iteration phase: children treat the unit as an object to be counted (cardinal use) rather than as a covering of space (measurement use). Stephan & Cobb (2003) traced classroom development and found children move from counting placed objects, to placing-then-counting, to mentally projecting unit copies along a length \u2014 but only when teachers explicitly draw attention to gap and overlap. Battista (2007) frames spatial measurement as requiring the child to coordinate 'unit' (the cube) with 'extent' (the length), and to recognise that gaps leave un-counted extent while overlaps double-count.\n\nWhy this matters: if K children leave with gaps allowed, two students measuring the same object get different numbers and lose faith in measurement as objective. The 'cubes touch \u2014 no gaps, no overlaps' move is what makes non-standard units function as units rather than counters.\n\nThe walkthrough covers the precise moment when a child leaves gaps.",
+    "setup": "Pair is at Station A. Child measures a pencil with cubes. Cubes are spaced loosely; reports '3 cubes' for what's actually a 5-cube pencil.",
+    "teacher_script": "Crouch. 'You said 3 cubes. Let's CHECK \u2014 push the cubes TOGETHER. No spaces.'\n\nPush the cubes tight against each other. 'Now count.' Child counts 5. 'See \u2014 when there are GAPS, we count too few. When cubes touch, we count right.'\n\nWalk through. 'Max says \u2014 LINE IT UP touching. COMPARE the count to the pencil. NAME IT.'\n\nGeneralise. 'Imagine a parade \u2014 animals shoulder-to-shoulder. No empty spots. That's how cubes line up.'\n\nNow re-measure 3 more objects with the 'no-gap' rule.\n\nIf still gapping: provide a guideline strip with cube-spaced marks. 'One cube in each box.' Force the alignment.\n\nLong-term recovery: every measurement starts with 'cubes touching, no overlaps'.",
+    "expected_student_responses": [
+      "(Confused) Leaves gaps; counts placed cubes (cardinal use), not the length they cover.",
+      "(Mid) Closes gaps with prompts; counts correctly after.",
+      "(Strong) Lines cubes tight from the start; counts independently.",
+      "(Stretched) Notices when cubes overlap and corrects without prompts; can articulate 'cubes have to cover the WHOLE length, no holes'."
+    ],
+    "common_misconceptions": [
+      "Gaps don't matter \u2014 I just count the cubes I placed. (Repair: gaps are un-counted length; the length is what we're measuring.)",
+      "Overlaps don't matter. (Repair: overlapping cubes double-count the same bit of length.)",
+      "Bigger cubes give a bigger measurement. (Repair: same-size cubes only \u2014 that's what makes them 'units'.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A \u2014 child leaves visible gaps and counts cubes: provide a guideline strip with cube-spaced boxes drawn in pencil; one cube per box; the box visualises the LENGTH each cube must cover; do this for the next 3 measurements until the child closes gaps spontaneously.",
+      "DIAGNOSTIC B \u2014 child overlaps cubes (squeezes them in for a bigger count): hold a cube up and trace its OWN length on the table with a marker; show that overlapping makes two cubes claim the same bit of table; rule: 'each bit of length gets ONE cube, no sharing'.",
+      "DIAGNOSTIC C \u2014 child uses cubes of different sizes and counts them all the same: pre-sort cubes by colour-equals-size and rule that ONLY ONE COLOUR can be used for any one measurement; reinforce that 'unit' means 'same size every time'."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Max's Cube Counting",
+    "purpose": "Independent practice of A10.1 measurement with non-standard units.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Look at 4 pictures. Count the cubes alongside each object. Write the number.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Pick the right unit. Match cubes / hands / footsteps to 4 objects of different sizes.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Measure 3 things at home with cubes (or any same-size objects). Draw and record counts.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Max in worksheet header",
+      "4 cube-measure rows for Part 1",
+      "4 unit-match rows for Part 2",
+      "Blank measurement table for Part 3"
+    ]
+  }
+}

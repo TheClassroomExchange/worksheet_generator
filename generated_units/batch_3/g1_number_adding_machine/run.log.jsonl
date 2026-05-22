@@ -1,0 +1,23 @@
+{"ts": "2026-05-04T03:57:31+00:00", "stage": "blueprint", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 6 validation errors for Blueprint\nexpectation_lesson_map\n  Field required [type=missing, input_value={'schema_version': 1, 'un...door classroom alone.']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nrecurring_characters\n  Field required [type=missing, input_value={'schema_version': 1, 'un...door classroom alone.']}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nthreaded_vocabulary\n  Field required ["}
+{"ts": "2026-05-04T03:58:13+00:00", "stage": "blueprint", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:03:27+00:00", "stage": "lesson_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:05:37+00:00", "stage": "lesson_02", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for LessonPlan\nworksheet_brief.worksheet_title_alt\n  Extra inputs are not permitted [type=extra_forbidden, input_value=None, input_type=NoneType]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden"}
+{"ts": "2026-05-04T04:05:44+00:00", "stage": "lesson_02", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:10:59+00:00", "stage": "lesson_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:12:48+00:00", "stage": "lesson_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:14:46+00:00", "stage": "lesson_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:16:05+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:16:13+00:00", "stage": "worksheet_01", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:16:57+00:00", "stage": "worksheet_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:17:40+00:00", "stage": "worksheet_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:18:21+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:18:31+00:00", "stage": "worksheet_04", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:19:07+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:21:15+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:21:59+00:00", "stage": "manipulatives", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:22:51+00:00", "stage": "manipulatives", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:22:59+00:00", "stage": "manipulatives", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:24:10+00:00", "stage": "formative_reflection", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:26:14+00:00", "stage": "assessment_suite", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:27:07+00:00", "stage": "marketplace", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T04:28:01+00:00", "stage": "rubric_grade", "transition": "pending→done", "attempt": 0, "error": null}

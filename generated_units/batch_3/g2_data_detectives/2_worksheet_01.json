@@ -1,0 +1,31 @@
+{
+  "schema_version": 1, "unit_id": "g2_data_detectives", "lesson_number": 1,
+  "worksheet_title": "Detective Dot's Two-Way Sort",
+  "purpose": "Independent practice of D1.1 — sorting by 2 attributes with Venn and Carroll diagrams.",
+  "student_learning_goal": "I can sort by two attributes using Venn or Carroll.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can sort by two attributes using Venn or Carroll.",
+    "character_watermark": "Detective Dot in the top-right corner with a magnifying glass over a 2-attribute table. Small (~1.5in tall). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Venn diagram.", "student_instructions": "Place 6 items in the Venn (red circle / square circle / both / neither).",
+     "visual_layout": "A 2-circle Venn diagram with 4 zones labeled. Below: 6 items to place.",
+     "image_placeholders": [{"id": "WS01_P1_VENN", "description": "A 2-circle Venn diagram for a Grade 2 worksheet, B&W line art. Left circle labelled 'RED', right circle labelled 'SQUARE'. Wide overlap zone in the middle. Outside the circles, a 'NEITHER' label. Below the diagram, 6 items to place: red triangle, blue square, red square, blue triangle, red circle, blue circle.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["venn", "red", "square"], "text_image_alignment_check": "WS01_P1_VENN at Part 1: instructions ask the child to place 6 items in a Venn. Keywords name the visual element and the 2 attributes."}],
+     "student_response_type": "draw_or_write",
+     "answer_key": "Red triangle: red only. Blue square: square only. Red square: overlap. Blue triangle: outside. Red circle: red only. Blue circle: outside."},
+    {"part_number": 2, "part_title": "Part 2: Carroll diagram.", "student_instructions": "Place the same 6 items in a Carroll (red x square).",
+     "visual_layout": "A 2x2 Carroll table.",
+     "image_placeholders": [{"id": "WS01_P2_CARROLL", "description": "A 2x2 Carroll diagram for a Grade 2 worksheet, B&W line art. Headers: top columns 'SQUARE' / 'NOT SQUARE'; left rows 'RED' / 'NOT RED'. 4 cells, each ~2in × 2in for placing items.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["carroll", "red", "square"], "text_image_alignment_check": "WS01_P2_CARROLL at Part 2: instructions ask the child to place items in Carroll. Keywords name the visual element and 2 attributes."}],
+     "student_response_type": "draw_or_write",
+     "answer_key": "Red+Square cell: red square. Red+NotSquare: red triangle, red circle. NotRed+Square: blue square. NotRed+NotSquare: blue triangle, blue circle."},
+    {"part_number": 3, "part_title": "Part 3: Make your own.",
+     "student_instructions": "Pick 2 attributes for 4 of your toys. Make a Venn OR Carroll.",
+     "visual_layout": "Blank workspace with attribute lines.",
+     "image_placeholders": [{"id": "WS01_P3_BLANK", "description": "A blank workspace ~5in × 4in for a Grade 2 worksheet. Above: 'Attribute 1: ___' and 'Attribute 2: ___'. Below: blank area for child to draw Venn or Carroll.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["attributes", "sort"], "text_image_alignment_check": "WS01_P3_BLANK at Part 3: instructions ask the child to make their own. Keywords name the activity."}],
+     "student_response_type": "draw_or_write",
+     "answer_key": "Any valid 2-attribute sort with toys."}
+  ]}],
+  "early_finisher_prompt": "If you finish, try a 3-attribute Venn (3 circles).",
+  "teacher_notes": "Lesson 1 consolidation. Use Part 1 for diagnostic — children placing in correct overlap zone."
+}

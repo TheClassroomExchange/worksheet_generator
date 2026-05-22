@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "pair_number": 4,
+  "graded_at": "2026-05-08",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 2,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "instructional_balance",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "lesson_specific_materials lists 'Detective Dot and Tally puppets' as a required item with no optional fallback. Per the rubric, lessons that REQUIRE puppets are scored Level 2 because puppets are specialty items most G1 teachers do not have ready on any given day.",
+      "required_fix": "Reword the puppet line as explicitly optional with a no-prep fallback, e.g., 'OPTIONAL: Detective Dot and Tally puppets — if available; otherwise point to a stuffed animal, hold up a chart-paper sketch, or just voice/gesture them.' Mirror this in minds_on/teacher_script so the lesson runs on voice and body alone.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong D1.4 ordering lesson — position-not-count trap is a real Grade 1 misconception with concrete recovery moves (ordering boxes 1->N, count-first drill), and the worksheet's Parts 1-3 cleanly transfer the lesson skill across pictograph and tally formats. Blocked on instructional_balance only: lesson_specific_materials REQUIRES 'Detective Dot and Tally puppets' with no optional fallback. Reword the puppet line as optional with a no-prep alternative and the pair clears the gate."
+}

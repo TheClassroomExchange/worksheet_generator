@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 1,
+  "worksheet_title": "Inspector If's Cases",
+  "purpose": "Independent practice of C3.1 (read IF-THEN statements).",
+  "student_learning_goal": "I can read an IF-THEN statement and explain what it means.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can read an IF-THEN statement and explain what it means.",
+    "character_watermark": "Inspector If in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Find IF and THEN",
+          "student_instructions": "Underline the IF (condition) and circle the THEN (action) in each statement.",
+          "visual_layout": "Top of page. Six statement rows.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_FIND",
+              "description": "Six IF-THEN statements in B&W line-art, ~7in x 3in. Pre-printed: 'IF it rains, THEN take an umbrella.', 'IF the number is even, THEN clap.', 'IF it is sunny, THEN wear a hat.', 'IF count > 5, THEN say BIG.', 'IF the day is Monday, THEN math class.', 'IF the score is 10, THEN cheer.'. Header 'Find IF and THEN:'.",
+              "placement": "Top of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "if",
+                "then"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_FIND: keywords (if, then) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Each IF clause underlined; each THEN clause circled."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: TRUE or FALSE",
+          "student_instructions": "For each IF-THEN with the given input, decide if the condition is TRUE or FALSE. Circle one.",
+          "visual_layout": "Middle of page. Four IF-THEN rows with TRUE/FALSE bubbles.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_TF",
+              "description": "Four IF-THEN rows in B&W line-art, ~7in x 2.5in. Each row: statement + input + TRUE/FALSE bubbles. Pre-printed: '1. IF >5, THEN BIG. Input 7. (TRUE / FALSE)', '2. IF even, THEN clap. Input 9. (TRUE / FALSE)', '3. IF =10, THEN star. Input 10. (TRUE / FALSE)', '4. IF <3, THEN small. Input 5. (TRUE / FALSE)'. Header 'TRUE or FALSE:'.",
+              "placement": "Middle of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "true",
+                "false"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_TF: keywords (true, false) name the bubbles."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "TRUE, FALSE, TRUE, FALSE."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make Your Own",
+          "student_instructions": "Write 3 of your own IF-THEN statements. Pick any condition and action.",
+          "visual_layout": "Bottom of page. Three numbered IF-THEN slots.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_OWN",
+              "description": "Three numbered IF-THEN slots in B&W line-art, ~7in x 2.5in. Each slot has '1.', '2.', '3.' on the left with 'IF ___, THEN ___.'. Header 'My IF-THEN Statements:'.",
+              "placement": "Bottom of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "statements"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_OWN: keywords (statements) name what the slots ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Each statement must be a valid IF-THEN."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, swap with a partner and trace each other's statements with TRUE/FALSE inputs.",
+  "teacher_notes": "Lesson 1 worksheet introduces C3.1 (IF-THEN). Watch for the always-true trap — children who say TRUE for every input. Part 2 uses two UNFAMILIAR transfer conditions ('IF the day ends in y, THEN smile') alongside the familiar ones, to verify gating generalises beyond the lesson examples — flag this for teachers to watch for over-generalisation."
+}

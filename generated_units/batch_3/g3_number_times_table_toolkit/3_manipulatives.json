@@ -1,0 +1,522 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "overall_prep_notes": "Total prep ~2 hours. Bulk: M3 Multiplication Chart, M4 Array Grid Mat, M6 Fact Triangles, M7 Fraction Strips. Base-ten blocks (M1) and counters (M5) are standard math-kit items. The three character puppets (Tony, Maya, Pixel) print on cardstock for years of reuse.",
+  "assets": [
+    {
+      "asset_id": "M1_base_ten_blocks_1000",
+      "name": "Base-Ten Blocks",
+      "category": "manipulative",
+      "purpose": "Per-pair set with thousand-cubes for adding/subtracting to 1000.",
+      "page_layout": "Not printable — physical kit. Page is a storage label.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_LABEL",
+          "description": "Storage-bag label, ~3in × 4in, B&W. Header: 'BASE-TEN BLOCKS — 2 thousand-cubes + 8 hundred-flats + 20 ten-rods + 30 unit-cubes per pair'. Shows all four block types stacked.",
+          "placement": "Top-centre.",
+          "approximate_size": "small",
+          "keywords": [
+            "base-ten"
+          ],
+          "text_image_alignment_check": "Image M1_LABEL: keywords (base-ten) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Confirm class set.",
+        "Print labels.",
+        "Sort into pair bags.",
+        "Have ready Lesson 1.",
+        "Optional: printable cards if no physical kit."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "Per pair = 2 thousand + 8 flats + 20 tens + 30 ones.",
+      "used_in_lessons": [
+        1
+      ]
+    },
+    {
+      "asset_id": "M2_double_ten_frame",
+      "name": "Double Ten-Frame Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat for fact warm-ups in Lesson 2.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_TEN_FRAME",
+          "description": "Double ten-frame mat in B&W on a landscape letter page. Top half: 2x5 grid (10 cells, 'TOP'). Bottom half: 2x5 grid ('BOTTOM').",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "ten-frame"
+          ],
+          "text_image_alignment_check": "Image M2_TEN_FRAME: keywords (ten-frame) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Laminate.",
+        "Hand out start of Lesson 2.",
+        "Collect end of Lesson 2.",
+        "Optional: extras."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M3_multiplication_chart",
+      "name": "Multiplication Chart 1-10",
+      "category": "manipulative",
+      "purpose": "10×10 multiplication chart on cardstock.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_CHART",
+          "description": "A 10×10 multiplication chart in B&W on a portrait letter page. Header row 1-10; header column 1-10; cells filled with the products.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "multiplication"
+          ],
+          "text_image_alignment_check": "Image M3_CHART: keywords (multiplication) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per pair.",
+        "Laminate.",
+        "Hand out start of Lesson 2.",
+        "Use through Lesson 5.",
+        "Reference for fact recall."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair = ~10 for class of 20.",
+      "used_in_lessons": [
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M4_array_grid",
+      "name": "Array Grid Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size grid for building arrays.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_ARRAY",
+          "description": "Array grid mat in B&W on a landscape letter page. 10×10 grid of empty squares; row labels 1-10 left, column labels 1-10 top.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "array",
+            "grid"
+          ],
+          "text_image_alignment_check": "Image M4_ARRAY: keywords (array, grid) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per pair.",
+        "Laminate.",
+        "Use Lessons 2 and 3.",
+        "Store in folders.",
+        "Optional: extras."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair = ~10 for class of 20.",
+      "used_in_lessons": [
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M5_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "category": "manipulative",
+      "purpose": "30 per pair for arrays and fact families.",
+      "page_layout": "Not printable — physical kit. Page is a storage label.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_LABEL",
+          "description": "Storage-bag label, ~3in × 4in, B&W. Shows two stacked counters with header 'TWO-COLOUR COUNTERS — 30 per pair'.",
+          "placement": "Top-centre.",
+          "approximate_size": "small",
+          "keywords": [
+            "counters"
+          ],
+          "text_image_alignment_check": "Image M5_LABEL: keywords (counters) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Confirm class set.",
+        "Print labels.",
+        "Sort into pair bags.",
+        "Have ready Lessons 2-5.",
+        "Optional."
+      ],
+      "estimated_prep_minutes": 8,
+      "quantity_per_class": "30 per pair.",
+      "used_in_lessons": [
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M6_fact_triangles_md",
+      "name": "Multiplication/Division Fact",
+      "category": "manipulative",
+      "purpose": "30 fact-family triangle cards for 2s, 5s, 10s.",
+      "page_layout": "5 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 5,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_TRIANGLE",
+          "description": "Fact-family triangle card in B&W, ~3in tall. 3 corners with numbers; centre with × / ÷ icons. Cut lines.",
+          "placement": "30 cards across 5 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "triangle",
+            "facts"
+          ],
+          "text_image_alignment_check": "Image M6_TRIANGLE: keywords (triangle, facts) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 5 pages on cardstock.",
+        "Laminate.",
+        "Cut into 30 cards.",
+        "Sort by smallest factor.",
+        "Distribute per pair."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "30 cards.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M7_fraction_strips",
+      "name": "Fraction Strips",
+      "category": "manipulative",
+      "purpose": "Per-pair set: whole, 1/2, 1/3, 1/4, 1/5, 1/6, 1/8, 1/10.",
+      "page_layout": "Single letter page, landscape — 8 strips stacked.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_STRIPS",
+          "description": "Eight fraction strips stacked in B&W on a landscape letter page. Each ~10in × 0.7in. Top: WHOLE. Below: 1/2, 1/3, 1/4, 1/5, 1/6, 1/8, 1/10. Each labeled.",
+          "placement": "Stacked, full-width.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "fraction",
+            "strips"
+          ],
+          "text_image_alignment_check": "Image M7_STRIPS: keywords (fraction, strips) name what the strips show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per pair.",
+        "Laminate.",
+        "Cut into 8 strips per pair.",
+        "Distribute Lesson 4.",
+        "Store in folders."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "8 strips per pair.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M8_ratio_table_template",
+      "name": "Ratio Table Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template with empty 2-column ratio tables.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_RATIO_TABLE",
+          "description": "Ratio table template in B&W on a portrait letter page. Three empty 2-column tables (Flour | Milk style) with 5-6 rows each.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "ratio",
+            "table"
+          ],
+          "text_image_alignment_check": "Image M8_RATIO_TABLE: keywords (ratio, table) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per pair.",
+        "Laminate.",
+        "Hand out Lesson 5.",
+        "Reuse via dry-erase.",
+        "Optional."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_story_cards_1000",
+      "name": "Story Problem Cards (to 1000)",
+      "category": "manipulative",
+      "purpose": "18 cards for Lesson 1 modelling.",
+      "page_layout": "9 letter pages, portrait. 2 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 9,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_STORY",
+          "description": "Story-problem card in B&W, ~5.5in × 4in. Top: story text. Bottom: small illustration. Card border.",
+          "placement": "Two cards per page.",
+          "approximate_size": "large",
+          "keywords": [
+            "story",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M9_STORY: keywords (story, card) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 9 pages.",
+        "Laminate.",
+        "Cut into 18 cards.",
+        "Sort by problem type.",
+        "Distribute Lesson 1."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "18 cards.",
+      "used_in_lessons": [
+        1
+      ]
+    },
+    {
+      "asset_id": "M10_toolkit_poster",
+      "name": "Times Table Toolkit Poster",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor showing all four operations and the fact-family triangle structure.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "Times Table Toolkit anchor poster in B&W, ~17in × 22in. Centre shows Tony's tool belt with rulers, calculators, fraction strips. Around the edges: four operation panels (+, -, ×, ÷) with example fact-family triangles. Tony, Maya, Pixel walk along the bottom.",
+          "placement": "Centre, full-width.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "toolkit",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_POSTER: keywords (toolkit, poster) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages tiled or 1 tabloid.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_tony_puppet",
+      "name": "Tony the Toolkit Master",
+      "category": "character_puppet",
+      "purpose": "Printable Tony illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_TONY_FRONT",
+          "description": "Tony the Toolkit Master illustration in B&W: a maker-style character with a tool belt holding rulers, calculators, fraction strips. Wears a striped apron with a × symbol patch. Short hair, smart eyes, friendly smile. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "tony"
+          ],
+          "text_image_alignment_check": "Image CHAR_TONY_FRONT: keywords (tony) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_maya_puppet",
+      "name": "Maya the Multiplication Maven",
+      "category": "character_puppet",
+      "purpose": "Printable Maya illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_MAYA_FRONT",
+          "description": "Maya the Multiplication Maven illustration in B&W: a creative-looking character with a sketch pad covered in arrays and fact triangles. Wears a vest with multiplication-table patches, eyeglasses, eager smile. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "maya"
+          ],
+          "text_image_alignment_check": "Image CHAR_MAYA_FRONT: keywords (maya) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_pixel_puppet",
+      "name": "Pixel the Practice Pal",
+      "category": "character_puppet",
+      "purpose": "Printable Pixel illustration on a popsicle stick — cameo across all 5 lessons.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_PIXEL_FRONT",
+          "description": "Pixel the Practice Pal illustration in B&W: a tiny robot-like character with a screen for a face displaying a math fact. Bouncy walk pose, encouraging expression. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "pixel"
+          ],
+          "text_image_alignment_check": "Image CHAR_PIXEL_FRONT: keywords (pixel) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

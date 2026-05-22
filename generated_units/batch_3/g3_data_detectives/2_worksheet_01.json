@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_data_detectives", "lesson_number": 1,
+  "worksheet_title": "Detective Dot's Tree Sort", "purpose": "Independent practice of D1.1.",
+  "student_learning_goal": "I can sort by 3 attributes using a tree diagram.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can sort by 3 attributes using a tree diagram.",
+    "character_watermark": "Detective Dot in the top-right with a magnifying glass and 3-column notebook. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Place 8 items in a tree.", "student_instructions": "Place 8 items at the right leaves of the tree (colour x shape x size).",
+     "visual_layout": "A 3-level tree with 8 leaves and 8 items to place.",
+     "image_placeholders": [{"id": "WS01_P1_TREE", "description": "A 3-level tree diagram for Grade 3 worksheet, B&W line art. Top: 'Items'. Level 1 branches: RED/BLUE. Level 2: SQUARE/CIRCLE under each. Level 3: BIG/SMALL under each. 8 leaf positions. Below the tree: 8 items to assign (red big square, etc.).",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["tree", "items"], "text_image_alignment_check": "WS01_P1_TREE at Part 1: keywords name the visual elements."}],
+     "student_response_type": "draw_or_write", "answer_key": "Each item placed at the leaf matching its 3 attributes."},
+    {"part_number": 2, "part_title": "Part 2: Read tree.", "student_instructions": "Read the pre-built tree. Identify 4 specific items at named leaves.",
+     "visual_layout": "Pre-built tree + 4 questions.",
+     "image_placeholders": [{"id": "WS01_P2_READ", "description": "A pre-built 3-level tree diagram for Grade 3 worksheet with leaves labelled. Below: 4 questions like 'What's at the RED+SQUARE+SMALL leaf?'",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["tree", "leaves"], "text_image_alignment_check": "WS01_P2_READ at Part 2: keywords name the visual elements."}],
+     "student_response_type": "draw_or_write", "answer_key": "Sample names of items at each named leaf."},
+    {"part_number": 3, "part_title": "Part 3: Make own tree.", "student_instructions": "Pick 3 attributes for your toys. Make a tree.",
+     "visual_layout": "Blank workspace with attribute lines.",
+     "image_placeholders": [{"id": "WS01_P3_BLANK", "description": "A blank workspace for Grade 3 worksheet. Above: 'Attribute 1: ___ Attribute 2: ___ Attribute 3: ___'. Below: blank space for tree.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["attributes", "tree"], "text_image_alignment_check": "WS01_P3_BLANK at Part 3: keywords name the activity."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any valid 3-attribute tree."}
+  ]}],
+  "early_finisher_prompt": "If you finish, plan a 4-attribute tree. How many leaves?",
+  "teacher_notes": "Lesson 1 consolidation. Use Part 1 as diagnostic — children placing items at correct leaves."
+}

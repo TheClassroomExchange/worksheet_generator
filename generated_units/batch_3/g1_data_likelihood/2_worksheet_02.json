@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 2,
+  "worksheet_title": "Mae's Sort Worksheet",
+  "purpose": "Independent practice of D2.1 — sorting events into 3 likelihood categories. Used as Lesson 2 consolidation artifact.",
+  "student_learning_goal": "I can sort events into three likelihood groups.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can sort events into three likelihood groups.",
+    "character_watermark": "Maybe Mae the Cat in the top-right corner with a clipboard. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [{"page_number": 1, "parts": [
+    {
+      "part_number": 1,
+      "part_title": "Part 1: Write I, P, or C.",
+      "student_instructions": "Read 6 events. Write I (impossible), P (possible), or C (certain) on the line.",
+      "visual_layout": "Six event rows stacked vertically, each with event text on the left and a small writing line on the right.",
+      "image_placeholders": [
+        {
+          "id": "WS02_P1_EVENTS",
+          "description": "Six event rows for a Grade 1 worksheet, B&W line art. Each row has an event sentence on the left (~4in) and a small writing line on the right (~1in). Events sample: 'Snow falls in July', 'Lunch will happen today', 'It might rain', 'A dragon walks into school', 'A friend smiles at me', 'My birthday is today'.",
+          "placement": "Centred horizontally in Part 1.",
+          "approximate_size": "full_width",
+          "keywords": ["impossible", "possible", "certain"],
+          "text_image_alignment_check": "Image WS02_P1_EVENTS at Part 1: instructions ask the child to label events as I, P, or C. Keywords name the three categories."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Snow in July: I. Lunch today: C. Might rain: P. Dragon: I. Friend smiles: P. Birthday: depends — accept any reasonable answer based on context."
+    },
+    {
+      "part_number": 2,
+      "part_title": "Part 2: Sort 9 events.",
+      "student_instructions": "Sort the 9 events into the 3-column table.",
+      "visual_layout": "A 3-column sort table with 9 events listed below to sort.",
+      "image_placeholders": [
+        {
+          "id": "WS02_P2_TABLE",
+          "description": "A 3-column sort table for a Grade 1 worksheet. Columns: IMPOSSIBLE, POSSIBLE, CERTAIN. Each column ~2in × 4in. Below the table, 9 short events listed in a numbered list (~0.4in each).",
+          "placement": "Centred horizontally in Part 2.",
+          "approximate_size": "full_width",
+          "keywords": ["sort", "events"],
+          "text_image_alignment_check": "Image WS02_P2_TABLE at Part 2: instructions ask the child to sort events. Keywords name the activity (sort) and the items (events)."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Distribute 9 events appropriately into 3 columns (3 each)."
+    },
+    {
+      "part_number": 3,
+      "part_title": "Part 3: Tricky events!",
+      "student_instructions": "Make a TRICKY event for each likelihood. Tell why it fits.",
+      "visual_layout": "Three rows. Each row has a label, a writing line for the event, and a 'because' line for the reason.",
+      "image_placeholders": [
+        {
+          "id": "WS02_P3_TRICKY",
+          "description": "Three rows for a Grade 1 worksheet, B&W line art. Each row has the likelihood label on the left (IMPOSSIBLE / POSSIBLE / CERTAIN), a writing line for the event in the middle, and a separate 'because' line for the reason.",
+          "placement": "Centred horizontally in Part 3.",
+          "approximate_size": "full_width",
+          "keywords": ["tricky", "because"],
+          "text_image_alignment_check": "Image WS02_P3_TRICKY at Part 3: instructions ask the child to write a tricky event with a reason. Keywords name the prompt focus."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any 3 events with valid 'because' reasons. Sample: 'IMPOSSIBLE: a pig flies because pigs cannot fly. POSSIBLE: rain because it sometimes rains. CERTAIN: lunch because it always happens.'"
+    }
+  ]}],
+  "early_finisher_prompt": "If you finish, find an event in your day right now that's POSSIBLE.",
+  "teacher_notes": "Lesson 2 consolidation artifact. Use Part 3 as the formative signal — children who provide valid 'because' reasons demonstrate deep understanding."
+}

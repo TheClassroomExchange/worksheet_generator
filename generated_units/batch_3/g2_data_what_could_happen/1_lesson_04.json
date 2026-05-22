@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "lesson_number": 4,
+  "lesson_title": "Dice Predictions",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.2"
+  ],
+  "secondary_expectations": [
+    "D2.1"
+  ],
+  "big_idea": "Dice rolls are POSSIBLE 1-6. We predict the MODE after many rolls.",
+  "learning_intention": "We are learning to predict the mode of dice rolls.",
+  "student_learning_goal": "I can predict the mode of dice rolls.",
+  "success_criteria": [
+    "I can roll a die.",
+    "I can record results.",
+    "I can find the MODE of many rolls."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "predict",
+    "spinner",
+    "mode"
+  ],
+  "manipulatives_used": [
+    "M4_dice_set",
+    "M5_prediction_mat",
+    "M9_outcome_cards",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Dice + Mode'",
+    "Paper Dice Set (6)",
+    "Prediction Recording Mat (1 per pair)",
+    "Lesson 4 dice tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mae Rolls and Tracks",
+    "hook": "Mae: I'll roll this die 10 times. Predict the MODE — the most common number! Mae opens: 'Each roll is FRESH — the die FORGETS!'",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets. 'Friends — yesterday spinners. Today DICE and MODE.'\n\nReview vocabulary. 'Mode = most common result. Dice rolls are POSSIBLE 1-6 — all equally likely.'\n\nDemo. Roll a die. 'Got 4. Tally |.' Roll again. 'Got 2. Tally.' Roll 8 more times. Record on a tally chart.\n\nExample tally:\n1: |||\n2: ||\n3: |\n4: |||\n5: |\n6: ||\n\n'Total: 12 rolls (across 6 numbers, expecting roughly 2 each but RANDOM).'\n\nFind mode. '4 has 3 (highest!). Mode = 4.'\n\nMore demos. Different rolls. Sometimes mode is 5, sometimes 1.\n\n'Mae says — even though all 6 are EQUALLY POSSIBLE, after rolling MANY times, ONE number usually appears most. That's the MODE.'\n\nIntroduce D2.2 idea. 'If we roll AGAIN — same die — does the same number become mode? Maybe. Maybe not. Each TRIAL is a fresh test.'\n\n'Today YOU roll and find modes.'",
+    "student_actions": [
+      "Watch Mae roll",
+      "Echo 'mode'",
+      "Roll dice",
+      "Find mode in tallies"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Dice Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: roll die 12 times. Find the mode.",
+        "teacher_prompt": "Say: 'Tally each roll. Mode = highest tally.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Roll 12 times, find mode. B: Roll 20 times, find mode. C: Compare modes from 2 different rolls.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: predict if same mode will appear in a 3rd roll.",
+        "teacher_prompt": "Say: 'Stretch: predict 3rd roll mode.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss randomness. 'Every roll is a fresh test. Mode can change.'",
+        "teacher_prompt": "Demonstrate by rolling new sets."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After Station A, two pairs share HOW they could PREDICT mode of 6 rolls. Pair A 'guess my favourite'; Pair B 'roll-and-record-then-predict'; Pair C 'each face has 1/6 chance.' Class debates which is most reliable. Cite Konold (1989) — outcome-orientation gives way to long-run frequency thinking.",
+        "teacher_prompt": "Mae: 'Predicting a SINGLE roll is a guess. Predicting MANY rolls uses the math.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "A only, 12 rolls.",
+      "for_extending": "Stretch at C: predict.",
+      "for_ell_or_iep": "Sentence frame: 'My mode was ___.'",
+      "for_movement_learners": "Roll with whole-body action; tally on a giant floor chart. NO-PAPER VERSION: finger-dice — child holds up 1-6 fingers behind their back, partner says STOP, child reveals; treat as fair die. Body becomes the die."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: rolls; records; finds mode.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Rolls and records",
+        "Finds mode",
+        "Compares modes",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mae's Dice Brag",
+    "discussion_prompts": [
+      "What's MODE?",
+      "Are all 6 numbers equally likely?",
+      "Did mode change between rolls?",
+      "Why?",
+      "Mae's preview: tomorrow we test mode across MANY trials (Lesson 5 — D2.2 bridge). What did today teach about predicting mode after just 6 rolls?"
+    ],
+    "exit_routine": "Mae's fresh-die refrain — Mae calls 'Each roll is FRESH —' Class: 'the die FORGETS!' (3x with open-palm wipe). Each child writes one prediction on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Dice mode prediction.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures D2.2 mastery for mode in dice rolls."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child predicts SAME MODE will repeat — repairing the same-mode-always trap at Grade 2",
+    "rationale": "On dice predictions, the trap is the gambler's-fallacy / representativeness heuristic (Kahneman & Tversky 1972; Fischbein 1975 primary intuitions; Konold 1989 outcome approach): child thinks 'rolled 6 last time, won't roll 6 again' OR 'always rolls my favourite number'. The fix: each roll is independent, the die has no memory.\n\nYesterday Lesson 3 used proportional reasoning on spinners. Today extends to fair dice. Lesson 5 capstones with mode prediction across populations (D2.2 bridge).",
+    "setup": "Pair at C. First roll mode = 4. Child says next roll's mode WILL also be 4.",
+    "teacher_script": "Crouch. 'Your first roll mode was 4. But Mae asks — was it because 4 is special? Or just chance?'\n\nGuide. 'Each roll is FRESH. The die has no memory. Next time, mode could be 1, 2, 3, 5, or 6.'\n\nRoll second time. Show different mode.\n\nGenerlise. 'Lucky says — predict mode for ONE TRIAL. Different trials = often different modes. That's RANDOM.'\n\nIf still predicting same: provide a journal of multiple trials' modes. 'See — they vary.'",
+    "expected_student_responses": [
+      "(Confused) Predicts same mode.",
+      "(Mid) Accepts variation with prompts.",
+      "(Strong) Predicts variability.",
+      "(Stretched) Articulates 'each roll is independent'."
+    ],
+    "common_misconceptions": [
+      "Same mode every time. (Repair: random — varies.)",
+      "Mode = die's preferred number. (Repair: dice have no preference.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child says 'won't roll 6 again': demo 10 rolls in a row; child sees that 6 can repeat. Drill 'fresh die, fresh roll.'",
+      "DIAGNOSTIC B — child predicts favourite number always: cover the die with a cup, child predicts; reveal; child sees prediction doesn't change reality.",
+      "DIAGNOSTIC C — child knows uniform distribution but can't predict mode of 6 rolls: drill 'over MANY rolls each face appears about EQUALLY — for 6 rolls, mode might be ANY face.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Mae's Dice Lab",
+    "purpose": "Independent practice of D2.2 dice mode.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Roll a die 12 times. Tally results. Find mode.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Roll AGAIN 12 times. Find mode. Compare to first roll.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Predict the mode of a 3rd roll. Test it.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mae in worksheet header",
+      "Tally for Part 1",
+      "2nd tally + comparison for Part 2",
+      "Prediction box for Part 3"
+    ]
+  }
+}

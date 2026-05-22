@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "lesson_number": 4,
+  "lesson_title": "Town Reflections",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We check our predictions against what really happened. Sometimes the model needs refining.",
+  "learning_intention": "We are learning to compare a prediction to actual data and refine our model.",
+  "student_learning_goal": "I can compare a prediction to actual data and refine my model.",
+  "success_criteria": [
+    "I can compare predicted and actual values.",
+    "I can describe the gap between them.",
+    "I can suggest a refinement to make the model better."
+  ],
+  "vocabulary_introduced": [
+    "reflect",
+    "refine"
+  ],
+  "vocabulary_reinforced": [
+    "model",
+    "data",
+    "predict"
+  ],
+  "manipulatives_used": [
+    "M2_data_charts",
+    "M3_modelling_chart",
+    "M5_prediction_chart",
+    "M7_two_colour_counters",
+    "M8_number_line",
+    "M9_mayor_chart",
+    "M10_town_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Mayor Mira and Town Tom — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Reflect and Refine'",
+    "Per-pair prediction chart with PREDICT, ACTUAL, GAP columns",
+    "Per-pair counters and number line",
+    "Lesson 4 reflection tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mayor Mira's Reflection",
+    "hook": "Mayor Mira predicted 25 buses for next week. We counted 23 actual buses. What does that mean?",
+    "teacher_script": "Bring children to the carpet. Mayor Mira + Town Tom puppets. 'Friends — yesterday we PREDICTED. Today we REFLECT and REFINE.'\n\nIntroduce vocabulary. Write REFLECT and REFINE on the chart. 'Reflect means to look back and check. Refine means to improve our model based on what we learned.'\n\nDemonstrate. 'Mayor Mira predicted 25 buses for the week. We counted ACTUAL buses: 23. The GAP is 2 less than predicted.'\n\nWrite on the chart:\nPredicted: 25\nActual: 23\nGap: 2 less\nRefine: Maybe rule should be 4-5 buses per day, not exactly 5.\n\nDiscuss. 'Predictions are GUESSES based on rules. Reality is sometimes different. We REFINE — improve — our model with the new data.'\n\nMore examples:\nPredicted: 60 sandwiches per lunch x 5 = 300. Actual: 285. Gap: 15 less. Refine: Some days fewer sandwiches.\nPredicted: 72 books per week. Actual: 80. Gap: 8 more. Refine: Library is more popular.\n\n'Mayor Mira always reflects after predicting. The reflection makes the model BETTER.'\n\nNow another stretch. 'Sometimes a model needs MAJOR refining. Sometimes a small tweak. Both are good. The important thing is we LEARN from reality.'\n\n'Today we compare predictions to actuals and suggest refinements.'",
+    "student_actions": [
+      "Listen to Mayor Mira's reflection.",
+      "Echo new vocabulary: 'reflect', 'refine'.",
+      "Suggest refinements for sample gaps.",
+      "Compare predictions and actuals."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Town Reflection Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: compare 4 prediction-actual pairs. (a) Predicted 25, actual 23. (b) Predicted 300, actual 285. (c) Predicted 72, actual 80. (d) Predicted 50, actual 50.",
+        "teacher_prompt": "Say to students: 'Compare predict and actual. Find the gap. Suggest a refinement.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Predict-Actual Comparison — pair fills in 6 prediction-actual pairs. Station B: Refine the Rule — pair gets a rule and 3 actuals; refines the rule. Station C: Real-Life Refinement — pair refines a real-life town prediction.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: refine TWO different rules in the same situation (e.g., Tuesdays and Saturdays have different bus patterns).",
+        "teacher_prompt": "Say to extending pairs: 'Stretch: refine 2 rules for the same situation.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the cycle. 'Modelling is a CYCLE. We predict, check, refine, predict again. Each round we improve.'",
+        "teacher_prompt": "Show the modelling chart with arrows pointing back to PREDICT. 'Step 4: REFLECT and REFINE.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the reflection tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's the gap? How would you refine?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only single-day gaps.",
+      "for_extending": "Stretch at Station C: 2-rule refinement.",
+      "for_ell_or_iep": "Provide a structured frame: 'I predicted ___. Actual was ___. I refine to ___.'",
+      "for_movement_learners": "Walk through a physical predict-act-check loop with counters."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: compares predicted to actual; describes the gap; suggests a refinement.",
+      "how_to_record": "Tick the reflection tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Compares predict to actual",
+        "Describes the gap",
+        "Suggests refinement",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mayor Mira's Reflection Brag",
+    "discussion_prompts": [
+      "What does REFINE mean?",
+      "Why don't predictions always match reality?",
+      "How does refining make the model better?",
+      "What real-life rule would you refine?"
+    ],
+    "exit_routine": "Each child writes ONE refinement on a sticky note: 'I'd refine my rule to ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Reflection accuracy and refinement suggestions.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures C4 step 4 (reflect and refine). Children at L4 frame missed predictions as refinement opportunities."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says 'My prediction was WRONG' instead of 'I need to refine my model' — repairing the wrong-vs-imperfect framing at Grade 2",
+    "rationale": "The most common Grade-2 trap on C4 step 4 is the wrong-vs-imperfect framing: the child treats a missed prediction as a personal failure ('I was wrong') rather than as a data point that improves the model ('I need to refine my rule').\n\nThis distinction matters because modelling REQUIRES iteration. If the child cements 'wrong = bad' now, they avoid refinement and stop modelling. The Grade-2 foundation is: imperfect predictions are GOOD because they teach us how to refine.\n\nThe walkthrough covers the precise moment when a child feels bad about a missed prediction.",
+    "setup": "Pair is at Station A. Predicted 25 buses, actual 23. Child says 'I was wrong.'",
+    "teacher_script": "Crouch beside the child. 'You weren't WRONG — your model was IMPERFECT. That's totally normal. Mayor Mira says — every prediction teaches us. We REFINE.'\n\nThe child looks doubtful. 'Refining is GROWING — your model gets better with each round. The first prediction is a guess; later ones are smarter.'\n\nWalk through. 'You predicted 25 buses. Actual was 23. The gap is 2 less. So your rule was 5 buses per day. Maybe refine to 4-5 per day. That's a smarter rule based on REAL data.'\n\nGeneralise. 'Mayor Mira's models always start imperfect. With each refinement, they get closer to reality. NORMAL.'\n\nIf the child STILL says 'wrong': use the language script. 'Try saying: my model needs refining.' Build the refinement framing.\n\nLong-term recovery: every reflection task uses the language 'refine'. Praise the refinement, not the prediction accuracy.",
+    "expected_student_responses": [
+      "(Confused) Treats missed prediction as personal failure.",
+      "(Mid) Acknowledges with prompts; doesn't yet auto-frame as refinement.",
+      "(Strong) Says 'I'll refine my model' or 'next time I'll predict ___'.",
+      "(Stretched) Volunteers multiple refinements based on trends."
+    ],
+    "common_misconceptions": [
+      "Wrong predictions = wrong me. (Repair: imperfect models are expected.)",
+      "Refinement is failure. (Repair: refinement is growth.)",
+      "Models should be perfect from the start. (Repair: iterative improvement is the goal.)"
+    ],
+    "recovery_moves": [
+      "Always frame as 'refine' not 'wrong'.",
+      "Celebrate the iteration. 'Round 2 prediction is smarter.'",
+      "Show the cycle's looping arrows. Continual improvement."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Mayor Mira's Reflections",
+    "purpose": "Independent practice of C4 step 4 (reflect/refine).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Compare 5 predict-vs-actual scenarios. Note gaps.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Refine 3 rules based on actual data.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Reflect on a real-life prediction. Refine.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mayor Mira in the worksheet header",
+      "5 predict-actual rows for Part 1",
+      "3 rule-refining boxes for Part 2",
+      "A blank reflection box for Part 3"
+    ]
+  }
+}

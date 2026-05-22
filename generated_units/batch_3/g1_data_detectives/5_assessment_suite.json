@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Data Detectives — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1, while children are at the sorting stations.",
+    "expectation_focus": [
+      "D1.1"
+    ],
+    "columns": [
+      "Student name",
+      "Picks one rule",
+      "Sorts correctly",
+      "Names the rule",
+      "Notes"
+    ],
+    "usage_notes": "Walk between pairs during the sort stations. Tick where you see clear evidence. The 'Names the rule' column is the key signal — a child who can name the rule has internalized the rule-decides concept.",
+    "layout_description": "One letter page, portrait orientation. Title at top, expectation focus (D1.1) box. Date and class header. 5-column table: Student name (~1.5in), three tick columns (~0.9in each), Notes (~2in). 24 student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page for a Grade 1 teacher. Title: 'Data Detectives — Day 1 Diagnostic Checklist'. Below: 'Expectation: D1.1 — sort sets of data about people or things according to one attribute, and describe rules used for sorting'. Date and Class fields. 5-column table with 24 rows. B&W line art, full page.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "tracker",
+          "sort"
+        ],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER fills the page as the diagnostic tracker for Lesson 1. Keywords name the artifact and lesson focus."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Data Detectives — Lesson 2 Formative Tracker (Tally)",
+      "when_used": "During Lesson 2, while pairs are at the survey and tally stations.",
+      "expectation_focus": [
+        "D1.2"
+      ],
+      "columns": [
+        "Student name",
+        "Asks survey question",
+        "Draws 4+1 tally correctly",
+        "Totals by 5s",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair. Ask 'Show me your tallies. What's the total?' The 'Draws 4+1 tally correctly' column captures the cross-rule mastery — children who use all-vertical tallies need the 'group by 5' re-loop.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 2 column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Data Detectives — Lesson 2 Formative Tracker (Tally)' and 5 columns matching the Lesson 2 tracker_columns. Expectation box reads 'Expectation: D1.2 — collect data through observations, experiments, and interviews; record using tally tables'. 24 rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "tally"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2 fills the page as the Lesson 2 tally tracker. Keywords name the artifact and focus."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Data Detectives — Lesson 3 Formative Tracker (Pictograph)",
+      "when_used": "During Lesson 3, while pairs are at the pictograph-build stations.",
+      "expectation_focus": [
+        "D1.3"
+      ],
+      "columns": [
+        "Student name",
+        "One-to-one correspondence",
+        "Writes title",
+        "Writes labels",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair. The 'One-to-one correspondence' column is the deepest signal. Children who draw one big picture for many need the 'one picture per one item' re-loop.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 3 column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Data Detectives — Lesson 3 Formative Tracker (Pictograph)' and 5 columns matching the Lesson 3 tracker_columns. Expectation box reads 'Expectation: D1.3 — display sets of data using one-to-one correspondence, with proper sources, titles, and labels'. 24 rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "pictograph"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3 fills the page as the Lesson 3 pictograph tracker. Keywords name the artifact and focus."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Data Detectives — Lesson 4 Formative Tracker (Ordering)",
+      "when_used": "During Lesson 4, while pairs are at the ordering stations.",
+      "expectation_focus": [
+        "D1.4"
+      ],
+      "columns": [
+        "Student name",
+        "Identifies greatest",
+        "Identifies least",
+        "Orders correctly",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair. The 'Orders correctly' column is the foundational skill. Children who order by row position rather than count need the 'count first, order second' re-loop.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 4 column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Data Detectives — Lesson 4 Formative Tracker (Ordering)' and 5 columns matching the Lesson 4 tracker_columns. Expectation box reads 'Expectation: D1.4 — order categories of data from greatest to least frequency'. 24 rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "ordering"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4 fills the page as the Lesson 4 ordering tracker. Keywords name the artifact and focus."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Data Detectives — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 (Detective Case Capstone) to score each child against all 5 expectations on a 4-level scale. Aligned with Ontario Grade 1 Communication of Learning conventions.",
+    "rows": [
+      {
+        "expectation_code": "D1.1",
+        "expectation_text": "sort sets of data about people or things according to one attribute, and describe rules used for sorting",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot consistently apply one rule. Drifts mid-sort. Cannot articulate a rule when asked."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Sorts by one rule with adult prompting. Names the rule when asked but may need a sentence frame."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently picks a rule, applies it consistently across the set, and names the rule clearly."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Re-sorts the same set by a different rule and explains how the rule changes the groupings."
+          }
+        ]
+      },
+      {
+        "expectation_code": "D1.2",
+        "expectation_text": "collect data through observations, experiments, and interviews to answer questions of interest that focus on a single piece of information; record the data using methods of their choice; and organize the data in tally tables to answer questions of interest",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot independently ask a survey question. Tally marks are missing or all-vertical (no cross-rule)."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Asks a question with a frame. Uses 4+1 cross sometimes; struggles to total accurately."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently asks a question, surveys 5+ classmates, draws 4+1 tallies, and totals by 5s."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Reads tally, totals by 5s + ones, AND chooses fast strategy from 4+1 cross convention."
+          }
+        ]
+      },
+      {
+        "expectation_code": "D1.3",
+        "expectation_text": "display sets of data, using one-to-one correspondence, in concrete graphs and pictographs with proper sources, titles, and labels",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Draws one big picture for many items. No title or labels. Pictograph misrepresents the data."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Draws one-to-one with prompts. Pictures vary in size. Title or labels missing or unclear."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Builds pictograph with one-to-one same-size pictures, title and labels — clearly readable."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Builds pictograph one-to-one with title + labels AND explains why size = readability matters."
+          }
+        ]
+      },
+      {
+        "expectation_code": "D1.4",
+        "expectation_text": "order categories of data from greatest to least frequency for various data sets displayed in tally tables, concrete graphs, and pictographs",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Orders by row position rather than count. Cannot identify greatest or least independently."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Identifies greatest and least with prompts. Orders correctly when given counts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently identifies greatest and least, then orders all categories correctly."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Handles ties correctly and orders 5+ categories. Articulates why count beats position."
+          }
+        ]
+      },
+      {
+        "expectation_code": "D1.5",
+        "expectation_text": "analyse different sets of data presented in various ways, including in tally tables, concrete graphs, and pictographs, by asking and answering questions about the data and drawing conclusions, then making convincing arguments and informed decisions",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Writes a personal preference instead of a data-based conclusion ('I like apples')."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Writes a group conclusion with sentence frame help ('Most children chose ___')."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently writes a clear group conclusion using 'most' or 'least' that matches the data."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Owns full 5-step case AND shows another detective how each step holds up the conclusion."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Score during the Lesson 5 capstone phases (visible from the Detective Case Template) and confirm during the share. Level 3 is the grade-level expectation. Communicate scores to families using Communication of Learning narrative.",
+    "layout_description": "One letter page, landscape orientation, with a 5-row × 4-level grid table plus a left-most column for expectation code and text. Title at top; usage notes below.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable rubric table page for a Grade 1 Data Detectives summative. Title at top: 'Data Detectives — Summative Rubric'. Below: a 5-column table with leftmost column 'Expectation' (~2.5in) and four level columns (~2in each). Five rows of expectations (D1.1, D1.2, D1.3, D1.4, D1.5). Light-grey shading on Level 3 column. Below the table, the usage notes. Landscape orientation. B&W line art.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "data"
+        ],
+        "text_image_alignment_check": "Image AS_RUBRIC: keywords name the artifact (rubric) and unit focus (data)."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Detective Case Capstone — Summative Administration Guide",
+    "purpose": "Ties the Lesson 5 Detective Case Template, the 5 detective steps (Ask-Tally-Graph-Order-Conclude), and the rubric together. Tells the teacher exactly what evidence to look for at each step.",
+    "administration_steps": [
+      "Before the lesson: photocopy one Detective Case Template per child plus 5 extras. Print rubric or maintain a class-wide rubric on a clipboard. Have Junior Data Detective certificates printed and ready.",
+      "Step 1-2 (Ask + Survey, 5 min): Children pick a question card or invent one and survey 5 classmates. Evidence for D1.1 (sorting answers into categories) and D1.2 (asking).",
+      "Step 3 (Tally, 5 min): Children tally answers using 4+1 convention. Evidence for D1.2 (recording).",
+      "Step 4 (Graph, 10 min): Children build pictograph from tally with title and labels. Evidence for D1.3 (display).",
+      "Step 5 (Order + Conclude, 5 min): Children order categories greatest to least and write a conclusion. Evidence for D1.4 (ordering) and D1.5 (analysis + conclusion).",
+      "After the lesson: review the rubric with each template. For any child below Level 3, note the evidence that drove the decision."
+    ],
+    "scoring_guidance": "Use the case template as primary evidence. Level 3 is the grade-level goal. Children who are L4 on most expectations are ready for Grade 2 data work. Children L1 on multiple expectations need targeted small-group work.",
+    "evidence_per_expectation": {
+      "D1.1": "Look at the survey categories. Did the child sort answers into clean, mutually exclusive categories? A child whose categories don't overlap and cover all answers is at Level 3.",
+      "D1.2": "Look at the tally chart. Did the child use 4+1 cross convention? Did totals match the number surveyed (5)? A child with correct tally rules and accurate totals is at Level 3.",
+      "D1.3": "Look at the pictograph. One-to-one pictures? Same size? Title? Labels? A child with all 4 elements is at Level 3.",
+      "D1.4": "Look at the ordering boxes (1-3). Did the child order by count (not position)? A child with correct ordering is at Level 3.",
+      "D1.5": "Look at the conclusion sentence. Did the child use group language ('most', 'least', 'more than')? A child with a data-based conclusion is at Level 3."
+    }
+  },
+  "certificate": {
+    "title": "Junior Data Detective Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Data Detectives unit and demonstrating the skills of a Junior Data Detective. A data detective certificate. Detective Dot the Sorting Squirrel congratulates the student.",
+    "skills_demonstrated": [
+      "Sorting things by a single rule",
+      "Collecting data with tally marks",
+      "Building pictographs with title and labels",
+      "Ordering categories greatest to least and writing conclusions"
+    ],
+    "layout_description": "One letter page, portrait orientation. Decorative ornamental border around the entire page. Title 'Junior Data Detective Certificate' at the top. Below: recipient label and blank line. Below: achievement statement. Below: bullet list of 4 skills. Bottom: signature lines. Bottom-centre: small Detective Dot illustration.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative ornamental border framing the certificate page (~0.5in inset). Style: gentle scrollwork with small magnifying-glass and pictograph motifs at the corners. B&W line art.",
+        "placement": "Frames the entire page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_BORDER at Frames the entire page: keyword names the artifact (certificate)."
+      },
+      {
+        "id": "AS_CERT_DOT",
+        "description": "A small Detective Dot illustration at the bottom-centre of the certificate, ~1.5in tall. Dot smiling broadly, holding magnifying glass up in celebration. B&W line art consistent with CHAR_DOT_FRONT.",
+        "placement": "Bottom-centre of the page.",
+        "approximate_size": "small",
+        "keywords": [
+          "dot",
+          "certificate"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_DOT at Bottom-centre: keywords name the character (dot) and artifact (certificate)."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

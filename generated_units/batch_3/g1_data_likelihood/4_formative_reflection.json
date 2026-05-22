@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "formative_worksheets": [
+    {
+      "title": "The Predict and Test Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 minutes) to confirm D2.1 (likelihood) and the predict-then-test order before extending into D2.2.",
+      "purpose": "Standalone formative check that probes whether the child can use likelihood vocabulary AND make a prediction BEFORE testing. Catches predict-after issues before the capstone.",
+      "expectations_assessed": ["D2.1"],
+      "student_learning_goal": "I can name likelihoods and make a prediction.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can name likelihoods and make a prediction.",
+        "character_watermark": "Lucky Lou the Loon in the top-right corner with a clipboard. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Name 3 events as IMPOSSIBLE, POSSIBLE, or CERTAIN.",
+          "visual_layout": "Three event lines stacked. Each has the event sentence and 3 letter circles I/P/C to circle.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_EVENTS",
+              "description": "Three event rows for a Grade 1 formative check, B&W line art. Each row ~5in × 0.8in. Events: 'A cow flies' (IMPOSSIBLE), 'It rains today' (POSSIBLE), 'The day ends' (CERTAIN). Each row has the event on the left and three letter circles I/P/C on the right.",
+              "placement": "Centred horizontally in Prompt 1.",
+              "approximate_size": "full_width",
+              "keywords": ["impossible", "possible", "certain"],
+              "text_image_alignment_check": "Image FORM_Q1_EVENTS at Prompt 1: instructions ask the child to circle the likelihood. Keywords name the categories."
+            }
+          ],
+          "response_type": "circle_or_loop",
+          "answer_key": "(1) I. (2) P. (3) C."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Predict 3 coin flips. Then ask the teacher to flip and tell you the result.",
+          "visual_layout": "A 2-column 3-row table. Predict | Result.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_COINS",
+              "description": "A 2-column 3-row prediction table for a Grade 1 formative check, B&W line art. Header: 'Predict' and 'Result'. 3 rows for H/T entries. Each cell ~1in × 0.8in.",
+              "placement": "Centred in Prompt 2.",
+              "approximate_size": "medium",
+              "keywords": ["predict", "result"],
+              "text_image_alignment_check": "Image FORM_Q2_COINS at Prompt 2: instructions ask the child to predict and test coin flips. Keywords name the columns."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Any 3 H/T predictions in the Predict column with corresponding actual outcomes in the Result column. Predictions and results may differ."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling about likelihood and predictions? Circle the face.",
+          "visual_layout": "Three faces in a row: smile, neutral, frown. Below each: 'I got it!', 'Almost!', 'Need help!'.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons in a horizontal row for a Grade 1 formative check, B&W line art. Smile, neutral, frown. Each ~1.5in across with a label below.",
+              "placement": "Centred in Prompt 3.",
+              "approximate_size": "full_width",
+              "keywords": ["faces", "feeling"],
+              "text_image_alignment_check": "Image FORM_Q3_FACES at Prompt 3: instructions ask the child to circle their feeling. Keywords name the visual."
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open. Use this self-rating alongside Prompts 1 and 2."
+        }
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child. Score guide: Q1 perfect + predict-before-test in Q2 + 'I got it' = ready. Q1 wrong = re-loop on the 3 likelihood terms. Q2 with results filled before predictions = re-loop on order."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Likelihood Reflection",
+    "purpose": "End-of-unit metacognition. Children look back at their week of likelihood detective work.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Lucky and Mae in the top-right corner with a Junior Likelihood Detective certificate. Small (~1.5in combined). References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Likelihood Detective? Circle one.",
+        "visual_layout": "Three star-rating ovals: 1 star, 2 stars, 3 stars. Below: 'Just starting', 'Mostly got it', 'I am a Detective!'.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three rating ovals for a Grade 1 reflection sheet. 1, 2, 3 stars. Each oval ~2in × 1.5in with a label below.",
+            "placement": "Centred in Prompt 1.",
+            "approximate_size": "full_width",
+            "keywords": ["stars", "detective"],
+            "text_image_alignment_check": "Image REF_STARS at Prompt 1: keywords name the rating (stars) and role (detective)."
+          }
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am a Detective!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things? Circle YES or NO.",
+        "visual_layout": "A four-row YES/NO table.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A 4-row YES/NO table for a Grade 1 reflection sheet. Each row has a question and YES/NO bubbles.",
+            "placement": "Centred in Prompt 2.",
+            "approximate_size": "full_width",
+            "keywords": ["yes", "no"],
+            "text_image_alignment_check": "Image REF_YN_TABLE at Prompt 2: keywords name the response options."
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I named events impossible/possible/certain.", "I made a prediction.", "I tested a prediction.", "I compared results in two groups."]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite likelihood activity was...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle ~5in × 1.8in for a Grade 1 reflection sheet. Empty inside. Above: 'My favourite likelihood activity was...'.",
+            "placement": "Centred in Prompt 3.",
+            "approximate_size": "full_width",
+            "keywords": ["favourite", "activity"],
+            "text_image_alignment_check": "Image REF_FAV_BOX at Prompt 3: keywords name the prompt focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle ~5in × 1.8in for a Grade 1 reflection sheet. Above: 'The trickiest part for me was...'.",
+            "placement": "Centred in Prompt 4.",
+            "approximate_size": "full_width",
+            "keywords": ["trickiest"],
+            "text_image_alignment_check": "Image REF_TRICKY_BOX at Prompt 4: keyword matches the prompt."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle ~5in × 1.8in for a Grade 1 reflection sheet. Above: 'Next time, I want to try...'.",
+            "placement": "Centred in Prompt 5.",
+            "approximate_size": "full_width",
+            "keywords": ["next", "try"],
+            "text_image_alignment_check": "Image REF_NEXT_BOX at Prompt 5: keywords name the focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5, alongside the Junior Likelihood Detective certificate. Children may need scribe support. Read responses to inform next-year unit notes."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1, "unit_id": "g3_data_likely_unlikely",
+  "formative_worksheets": [{
+    "title": "The Predict and Compare Check", "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 min).",
+    "purpose": "Standalone formative check confirming scale words and two-population comparison before mean+mode.",
+    "expectations_assessed": ["D2.1", "D2.2"],
+    "student_learning_goal": "I can use scale words and compare two populations.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can use scale words and compare two populations.",
+      "character_watermark": "Lucky Lou the Loon with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "Pick a likelihood word for the event.",
+       "visual_layout": "Event description with five likelihood-word options to circle.",
+       "image_placeholders": [{"id": "FORM_Q1_WORD", "description": "An event prompt 'Roll a 6 on a die' for Grade 3 formative check, B&W line art. Below: 5 word boxes (impossible, unlikely, equally likely, likely, certain) to circle.",
+         "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["likelihood", "circle"], "text_image_alignment_check": "FORM_Q1_WORD at Prompt 1: keywords name the likelihood word circle task."}],
+       "response_type": "draw_or_write", "answer_key": "Unlikely (1 of 6)."},
+      {"prompt_number": 2, "prompt": "Same favourite? Look at 2 columns.",
+       "visual_layout": "Two side-by-side columns showing Class A and Class B counts and a yes-or-no answer line.",
+       "image_placeholders": [{"id": "FORM_Q2_COMPARE", "description": "A two-column compare illustration for Grade 3 formative check, B&W line art. Class A: hockey 6, soccer 3. Class B: hockey 5, soccer 5. Below: 'Same favourite?' answer line.",
+         "placement": "Centred in Prompt 2.", "approximate_size": "medium", "keywords": ["columns", "favourite"], "text_image_alignment_check": "FORM_Q2_COMPARE at Prompt 2: keywords name the side-by-side columns showing favourite counts."}],
+       "response_type": "draw_or_write", "answer_key": "No (Class A favourite = hockey; Class B = tied)."},
+      {"prompt_number": 3, "prompt": "How are you feeling? Circle the face.",
+       "visual_layout": "Three faces in a row.",
+       "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for Grade 3 formative check, B&W line art.",
+         "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"], "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."}],
+       "response_type": "self_rate", "answer_key": "Open."}
+    ],
+    "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+  }],
+  "reflection_sheet": {
+    "title": "My Likely Unlikely Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Lucky Lou and Maybe Mae with a Junior Predictor certificate in the top-right. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for Grade 3 reflection.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "rating"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the rating stars visual."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Predictor!"]},
+      {"prompt_number": 2, "prompt": "Did you do these? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for Grade 3 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name response options."}],
+       "response_type": "circle_yes_no", "options": ["I used the 5-word scale.", "I made a prediction.", "I compared two populations.", "I found mean and mode."]},
+      {"prompt_number": 3, "prompt": "My favourite likelihood activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle for Grade 3 reflection.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the favourite activity focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for Grade 3 reflection.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword names the trickiest part focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for Grade 3 reflection.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the next-time focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Predictor certificate."
+  }
+}

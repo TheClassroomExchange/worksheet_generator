@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 3,
+  "lesson_title": "Reading Code",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can READ code and predict what it will do BEFORE running it. Predicting tests our understanding.",
+  "learning_intention": "We are learning to read code and predict what will happen when it runs.",
+  "student_learning_goal": "I can read code and predict what will happen when it runs.",
+  "success_criteria": [
+    "I can read a piece of code with sequential steps.",
+    "I can predict where the robot will end before running.",
+    "I can predict the outcome of code that includes a loop."
+  ],
+  "vocabulary_introduced": [
+    "predict"
+  ],
+  "vocabulary_reinforced": [
+    "code",
+    "execute",
+    "loop"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M3_existing_code_cards",
+    "M4_robot_marker",
+    "M7_predict_chart",
+    "M10_loop_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coda the Coding Robot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Predict-then-Check'",
+    "Per-pair grid mat",
+    "Per-pair set of existing code sample cards (12)",
+    "Per-pair predict-and-check chart",
+    "Per-pair robot marker",
+    "Lesson 3 prediction tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coda's Code Mystery",
+    "hook": "Coda gives you code BEFORE running. Can you PREDICT where Coda will end up? Coda opens: 'PREDICT then CHECK — that's how we read code!'",
+    "teacher_script": "Day 1 we WROTE step-by-step code with Coda. Day 2 Looper showed us LOOPS. Today we READ code Coda hands us. Tomorrow we'll ALTER it.\n\nBring children to the carpet. Reveal Coda. 'Friends — yesterday we WROTE code. Today Coda gives us code that's ALREADY WRITTEN. Our job is to READ it and PREDICT what happens.'\n\nShow code on the chart:\nStep 1: right\nStep 2: right\nStep 3: up\nStep 4: right\n\nStart Coda at (0,0) on the grid. 'Coda STARTS HERE. Where will Coda END UP after this code? PREDICT first.'\n\nGive children 30 seconds to think. Take predictions: '(3, 1)' or 'three squares right and one up'. 'OK — let's check.' Move Coda step by step. Land at (3, 1). 'PREDICTION CORRECT.'\n\nNow harder code with a loop:\nRepeat 3: right\nUp\nRepeat 2: right\n\n'Predict?' Children think: 3 rights = (3,0). Then up = (3,1). Then 2 rights = (5,1). 'Predict (5, 1).' Run: Coda lands at (5, 1). 'CORRECT.'\n\n'Today we'll READ lots of code and PREDICT outcomes. Then we'll RUN to check.'",
+    "student_actions": [
+      "Read Coda's code aloud.",
+      "Predict the ending square BEFORE running.",
+      "Echo new vocabulary: 'predict'.",
+      "Verify by running the code."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Predict-and-Check Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: predict outcomes for 3 more codes. (a) right, right, up, up, right (3,2). (b) Repeat 4: right (4,0). (c) Repeat 2: right, up (2,2). For each, predict first, run second.",
+        "teacher_prompt": "Say to students: 'Three codes. PREDICT first. Then we run.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Predict-Check Cards — pair has 6 code cards; predict ending square, then run to verify. Station B: Predict the SHAPE — pair has 4 code cards that draw shapes (square, triangle, etc.); predict the shape, then trace. Station C: Two-Step Predict — pair has 4 codes that include 'turn' commands; predict ending position AND direction.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include 2 codes with NESTED loops or longer sequences. Predict carefully.",
+        "teacher_prompt": "Say to pairs: 'Some codes are tricky — read each line carefully.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss when predictions go wrong. 'If you predict wrong, what does that tell you?' Lead to: 'Maybe I missed a step. Maybe I miscounted. Predicting wrong is OK — it helps us LEARN.'",
+        "teacher_prompt": "Normalise wrong predictions. They're how we discover misreadings."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the prediction tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's your prediction? Why?' before running. Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: 'How did YOU predict Coda's destination?' Some children traced on paper; some pictured Coda walking; some used a finger on the grid. Pairs share strategies and decide: which is fastest? Which is most accurate for long codes (10+ steps with loops)? Battista (2007) names path-tracing strategies as the core of spatial-reasoning literacy.",
+        "teacher_prompt": "Coda: 'Different brains, different paths to the same answer. Try one strategy today, try another tomorrow — find what works for YOUR brain.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use 3-step codes only.",
+      "for_extending": "Stretch at Station C: codes with 8+ steps or 2 loops.",
+      "for_ell_or_iep": "Provide step-by-step prediction frame: 'After step 1, Coda is at ___. After step 2, Coda is at ___.'",
+      "for_movement_learners": "Allow them to walk Coda's path on a floor grid — body-on-grid predicting."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: predicts ending position correctly; predicts shape from code; explains the prediction.",
+      "how_to_record": "Tick the prediction tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Predicts ending position correctly",
+        "Predicts shape from code",
+        "Explains prediction reasoning",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coda's Predict Brag",
+    "discussion_prompts": [
+      "What does it mean to PREDICT?",
+      "How do you predict where Coda ends up?",
+      "What happens when your prediction is wrong?",
+      "How does predicting help you understand code?",
+      "Tomorrow we'll ALTER Coda's code (Lesson 4 — C3.2). If today you predicted Coda lands on (3,2), what would you change to make him land on (4,2) instead? That's tomorrow's question."
+    ],
+    "exit_routine": "Coda's refrain — class chants together: \"PREDICT then CHECK — that's how we read code!\" Then call-and-response with Looper: 'Loops make it SHORT!' Each child writes their PREDICT square on a sticky and CHECKs by tracing on the carpet grid."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Prediction accuracy and reasoning.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures C3.2 reading mastery."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child predicts the ending position by JUST counting steps without considering direction — repairing the direction-blind prediction",
+    "rationale": "When children READ code (rather than write it), Grade 1's main trap is losing position-track on a grid — they correctly read each command (forward, turn right) but lose where Coda is, especially after loops execute. Battista (2007) 'The Development of Geometric and Spatial Thinking' frames this as path-and-position memory; Clements & Sarama (2009) place coordinated tracking of direction + position in the early-childhood spatial trajectory.\n\nDay 1 we WROTE step-by-step code with Coda. Day 2 Looper showed us LOOPS. Today we READ code Coda hands us. Tomorrow we'll ALTER it. Today's predict-and-check work consolidates Days 1-2 spatial literacy.",
+    "setup": "Pair is at Station A. Code: right, up, right, up, right. Child predicts 'Coda moved 5 steps'.",
+    "teacher_script": "Crouch beside the child. 'Tell me where Coda ENDS UP, not how many steps.' The child looks puzzled. 'Walk through each step. Step 1: right — Coda goes from (0,0) to (1,0). Step 2: up — Coda goes from (1,0) to (1,1). Continue.'\n\nWalk together: (0,0) → (1,0) → (1,1) → (2,1) → (2,2) → (3,2). 'Coda ends at (3, 2).' Tick the tracker.\n\n'Direction matters. Each step changes WHICH WAY Coda goes. Predict ending position, not just step count.'\n\nLong-term recovery: trace each step on paper before predicting. Build the direction-aware reflex.",
+    "expected_student_responses": [
+      "(Confused) Says 'Coda moved 5 steps' without position.",
+      "(Mid) Predicts position with prompts.",
+      "(Strong) Traces each step's effect on position.",
+      "(Stretched) Predicts shape AND ending position together."
+    ],
+    "common_misconceptions": [
+      "All steps are the same. (Repair: each step's direction matters.)",
+      "Counting steps = predicting position. (Repair: position = sum of directions.)",
+      "Loops always go right. (Repair: the loop body determines direction — could be 'up, up' or any other.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child reads steps but loses position: paper-trace — child puts finger on grid start, says command aloud, MOVES finger physically before next command.",
+      "DIAGNOSTIC B — child cannot name 'right'/'up' as directions: stand the child up, name body-relative directions ('your right hand'), then transfer to grid with arrow stickers as anchors.",
+      "DIAGNOSTIC C — child correctly tracks position but cannot predict loops: unroll the loop on paper ('Repeat 3' = write the inside 3 times underneath), then re-read."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coda's Predict Workshop",
+    "purpose": "Independent practice of C3.2 (read code and predict).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Read 6 code samples; predict ending position on the grid.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Read 4 code samples that draw shapes; predict the shape.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: read this code with a loop and predict.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coda in the worksheet header",
+      "6 code-and-grid pairs for Part 1",
+      "4 code-and-shape boxes for Part 2",
+      "1 code-with-loop prediction box for Part 3"
+    ]
+  }
+}

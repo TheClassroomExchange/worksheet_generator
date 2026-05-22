@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "lesson_number": 2,
+  "worksheet_title": "Doubles, Near-Doubles, and Make-Ten",
+  "purpose": "Independent practice of B2.3 (mental strategies to 20). Captures formative evidence on strategy selection and execution.",
+  "student_learning_goal": "I can use doubles, near-doubles, and make-ten to add numbers up to 20 in my head and explain how I did it.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can use doubles, near-doubles, and make-ten to add numbers up to 20 in my head and explain how I did it.",
+    "character_watermark": "Doubles the Robot in the top-right corner with both arms showing 4 dots each. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Doubles",
+          "student_instructions": "Fill in each doubles fact.",
+          "visual_layout": "Top of the page. A doubles fact-fluency table with 8 rows. Each row shows '___ + ___ = ___'. Pre-fills: 1+1, 2+2, 3+3, 4+4, 5+5, 6+6, 7+7, 8+8 (left two addends pre-filled, sum blank).",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_DOUBLES_TABLE",
+              "description": "An 8-row doubles fact table in B&W line-art. Each row has two pre-filled addend boxes and a blank sum box, separated by '+' and '=' symbols. Rows from top to bottom: 1+1, 2+2, 3+3, 4+4, 5+5, 6+6, 7+7, 8+8.",
+              "placement": "Top of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "doubles",
+                "fact"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_DOUBLES_TABLE: keywords (doubles, fact) name what the table shows."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "1+1=2, 2+2=4, 3+3=6, 4+4=8, 5+5=10, 6+6=12, 7+7=14, 8+8=16."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Near-Doubles",
+          "student_instructions": "Each near-double has a hint slot. Fill in the helpful double, then write the near-double sum.",
+          "visual_layout": "Upper-middle of the page. Six near-doubles problems in a 2x3 grid. Each problem shows the near-double on the left, then a 'Helpful double: ___ + ___ = ___' hint slot, then the near-double answer line.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_NEAR_DOUBLES",
+              "description": "Six near-doubles problem boxes in B&W line-art, arranged in a 2-row × 3-column grid. Each box ~2in × 1.5in. Format per box: top row shows the near-double like '5+6 =___'; middle row 'Helpful double: ___ + ___ = ___'; bottom row '5+6 = ___'. Pre-filled near-doubles: 3+4, 4+5, 5+6, 6+7, 7+8, 8+9.",
+              "placement": "Upper-middle; six problems in 2x3 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "near-doubles",
+                "double",
+                "hint"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_NEAR_DOUBLES: keywords (near-doubles, double, hint) name the problem layout."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "3+4: helpful 3+3=6, sum 7. 4+5: 4+4=8, sum 9. 5+6: 5+5=10, sum 11. 6+7: 6+6=12, sum 13. 7+8: 7+7=14, sum 15. 8+9: 8+8=16, sum 17."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make-Ten Move",
+          "student_instructions": "Each double ten-frame shows the starting position. Draw an arrow showing the make-ten move. Then write the equation chain.",
+          "visual_layout": "Middle-lower of the page. Four double ten-frame scenes in a 2x2 grid. Each scene ~3in wide × 1.5in tall, showing two stacked ten-frames with starting counters. Below each scene, an equation chain: '___ + ___ = ___ + ___ + ___ = 10 + ___ = ___'.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_FOUR_MAKE_TENS",
+              "description": "Four double ten-frame scenes in B&W line-art, arranged in a 2-row × 2-column grid. Each scene shows a top ten-frame and a bottom ten-frame stacked. Pre-fills: M1 — top frame 8 red, bottom frame 5 red (problem 8+5); M2 — top 9 red, bottom 4 red (9+4); M3 — top 7 red, bottom 6 red (7+6); M4 — top 8 red, bottom 7 red (8+7). Below each scene, an equation chain.",
+              "placement": "Middle-lower; four scenes in 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "ten-frame",
+                "make-ten",
+                "arrow"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_FOUR_MAKE_TENS: keywords (ten-frame, make-ten, arrow) name what the scenes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "M1: 8+5 = 8+2+3 = 10+3 = 13. M2: 9+4 = 9+1+3 = 10+3 = 13. M3: 7+6 = 7+3+3 = 10+3 = 13. M4: 8+7 = 8+2+5 = 10+5 = 15."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Strategy Choice",
+          "student_instructions": "For each fact, circle the strategy you would use.",
+          "visual_layout": "Bottom of the page. Four rows. Each row shows a sum on the left, then four strategy bubbles to circle: DOUBLE / NEAR-DOUBLE / MAKE-TEN / COUNT-ON.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P4_STRATEGY_CHOICE",
+              "description": "Four rows in B&W line-art. Each row ~7in wide. Format per row: a fact on the left in a box (~1.5in × 0.75in), then four strategy bubbles to the right (each a small oval ~1.2in wide). Strategy bubble icons: a 'twin' icon for DOUBLE, a 'twin+1' icon for NEAR-DOUBLE, a 10-shaped frame icon for MAKE-TEN, and a footstep icon for COUNT-ON. Facts: 6+6, 7+8, 9+5, 12+3.",
+              "placement": "Bottom of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "strategy",
+                "circle"
+              ],
+              "text_image_alignment_check": "Image WS02_P4_STRATEGY_CHOICE: keywords (strategy, circle) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "6+6: DOUBLE (canonical). 7+8: NEAR-DOUBLE (could also accept MAKE-TEN). 9+5: MAKE-TEN. 12+3: COUNT-ON."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write THREE more facts on the back of the page and circle the strategy you would use for each.",
+  "teacher_notes": "Lesson 2 consolidation. Hand out at the end of the Action phase. Use Part 4 as the strongest evidence for B2.3 — children who can MATCH the strategy to the fact are at L4. Watch for: (a) Part 1 children who can't recall doubles past 5+5 — flag for a small-group doubles drill; (b) Part 2 children who can't connect the helpful double — flag for near-double reteach; (c) Part 3 children who skip the make-ten move and just count — flag for the counters-on-ten-frame demo; (d) Part 4 children who default to COUNT-ON for everything — flag for strategy-selection coaching."
+}

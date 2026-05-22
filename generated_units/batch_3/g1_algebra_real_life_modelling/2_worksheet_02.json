@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "lesson_number": 2,
+  "worksheet_title": "Sap Sam's Tree Count",
+  "purpose": "Independent practice of C4 step 2 (data collection).",
+  "student_learning_goal": "I can collect data to answer a math question about a real-life situation.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can collect data to answer a math question about a real-life situation.", "character_watermark": "Sap Sam the Collector in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Count the Trees", "student_instructions": "Look at each bush. Count the trees. Record your count in the tally box.", "visual_layout": "Top of page. Four labelled bush pictures with tally boxes.",
+      "image_placeholders": [{"id": "WS02_P1_BUSH_COUNT", "description": "Four small B&W line-art bush pictures arranged in a 2x2 grid, ~7in x 3.5in total. Each bush has a different number of trees (3, 5, 4, 6) drawn simply. Below each bush is a tally box with 'Trees: ___' label. Header 'Count the Trees:'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["count", "trees"], "text_image_alignment_check": "Image WS02_P1_BUSH_COUNT: keywords (count, trees) name what the activity asks for."}],
+      "student_response_type": "write", "answer_key": "Bush 1: 3, Bush 2: 5, Bush 3: 4, Bush 4: 6."},
+    {"part_number": 2, "part_title": "Part 2: Use Your Data", "student_instructions": "Use your tree counts from Part 1 to answer these 3 questions.", "visual_layout": "Middle of page. Three numbered question slots with answer lines.",
+      "image_placeholders": [{"id": "WS02_P2_DATA_QUESTIONS", "description": "Three numbered question slots in B&W line-art, ~7in x 2.5in. Q1 'Which bush has the MOST trees? ___'. Q2 'Which bush has the FEWEST? ___'. Q3 'How many trees in ALL? ___'. Header 'Use Your Data:'.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["data", "questions"], "text_image_alignment_check": "Image WS02_P2_DATA_QUESTIONS: keywords (data, questions) name what the slots ask for."}],
+      "student_response_type": "write", "answer_key": "Most: Bush 4 (6). Fewest: Bush 1 (3). Total: 18 trees."},
+    {"part_number": 3, "part_title": "Part 3: My Real-Life Count", "student_instructions": "Pick something to count in your day (crayons, books, friends). Draw it and count. Then write 1 question your count answers.", "visual_layout": "Bottom of page. A drawing area with a tally box and question line.",
+      "image_placeholders": [{"id": "WS02_P3_MY_COUNT", "description": "A blank drawing area in B&W line-art, ~7in x 2.5in, with a tally box on the right and 1 question line below. Header 'My Real-Life Count:'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["real-life", "count"], "text_image_alignment_check": "Image WS02_P3_MY_COUNT: keywords (real-life, count) name what the activity asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Child counts a real-life thing and writes a question their count answers."}
+  ]}],
+  "early_finisher_prompt": "If you finish, count something else and add a tally row to Part 3.",
+  "teacher_notes": "Lesson 2 worksheet practices C4 step 2 (data). Watch for children who write 'a lot' or 'many' instead of a number — redirect to a tally."
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 3,
+  "lesson_title": "Reading IF-THEN Code",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.2"
+  ],
+  "secondary_expectations": [
+    "C3.1"
+  ],
+  "big_idea": "Reading IF-THEN code means following the condition and predicting the action.",
+  "learning_intention": "We are learning to read IF-THEN code and predict the outcome.",
+  "student_learning_goal": "I can read IF-THEN code and predict the outcome.",
+  "success_criteria": [
+    "I can trace IF-THEN code with a sample input.",
+    "I can predict which action runs.",
+    "I can explain why my prediction is correct."
+  ],
+  "vocabulary_introduced": [
+    "outcome"
+  ],
+  "vocabulary_reinforced": [
+    "condition",
+    "action",
+    "IF-THEN",
+    "true",
+    "false"
+  ],
+  "manipulatives_used": [
+    "M1_if_then_cards",
+    "M2_condition_cards",
+    "M3_action_cards",
+    "M4_input_cards",
+    "M7_sorting_mat",
+    "M8_two_colour_counters",
+    "M9_truth_chart",
+    "M10_if_then_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Inspector If and Then the Action Dog — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Trace and Predict'",
+    "IF-THEN Statement Cards (24)",
+    "Input Number Cards (20)",
+    "Per-pair sorting mat",
+    "Lesson 3 reading tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Inspector If Reads Code",
+    "hook": "Inspector If's code: IF the number > 10, THEN say BIG. ELSE say SMALL. Trace it with input 7. What does it say?",
+    "teacher_script": "Bring children to the carpet. Inspector If + Then the Action Dog puppets. 'Friends — yesterday we WROTE IF-THEN code. Today we READ it.'\n\nIf says: 'Here's a code I wrote. IF the number > 10, THEN say BIG. ELSE say SMALL.'\n\nWrite on the chart:\nIF number > 10, THEN say BIG.\nELSE say SMALL.\n\n'Reading code means TRACING. We pick an input, check the condition, run the matching action.'\n\nIntroduce vocabulary. Write OUTCOME on the chart. 'The OUTCOME is what HAPPENS — the action that ran.'\n\nNow trace. 'Input: 7. Check: is 7 > 10? NO. So the condition is FALSE. We run the ELSE action — say SMALL. The outcome is SMALL.'\n\nMore traces:\nInput 15: 15 > 10? YES → say BIG. Outcome: BIG.\nInput 10: 10 > 10? NO (not greater than) → say SMALL. Outcome: SMALL.\nInput 25: 25 > 10? YES → say BIG. Outcome: BIG.\n\n'Inspector If always TRACES carefully. Check the condition. Run the matching action. Predict the outcome.'\n\nNow another code. 'IF the number is even, THEN clap. IF odd, THEN stomp.' Inputs: 4, 9, 12, 7. Trace each. Predict outcomes.\n\n'Today we trace IF-THEN code with many inputs.'",
+    "student_actions": [
+      "Listen to Inspector If trace code.",
+      "Echo new vocabulary: 'outcome'.",
+      "Predict outcomes for sample inputs.",
+      "Try a trace independently."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "IF-THEN Reading Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: trace 4 IF-THEN code samples together. (a) IF >10, THEN BIG; ELSE SMALL. Inputs: 5, 12, 10, 20. (b) IF even, THEN clap; ELSE stomp. Inputs: 4, 9, 8, 13. (c) IF multiple of 5, THEN raise hand. Inputs: 5, 7, 10, 23. (d) IF ≥ 20, THEN say HIGH. Inputs: 15, 25, 19, 30.",
+        "teacher_prompt": "Say to students: 'Pick an input. Check the condition. Predict the outcome.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Trace and Predict — pair traces 6 IF-THEN samples with given inputs. Station B: Pick the Input — pair picks inputs that make condition TRUE and inputs that make it FALSE. Station C: Predict and Verify — pair predicts outcome, then verifies by re-checking.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: trace a 3-branch code (IF >20 BIG; ELSE IF >10 MEDIUM; ELSE SMALL) with mixed inputs.",
+        "teacher_prompt": "Say to extending pairs: 'Stretch: 3-branch code. Trace each input.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the trace process. 'Tracing means: STEP 1 read the code, STEP 2 substitute the input, STEP 3 check the condition, STEP 4 run the matching action, STEP 5 record the outcome.'",
+        "teacher_prompt": "Walk through the 5-step trace on the anchor chart. Use coloured highlights for each step."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the reading tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's the outcome for this input?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only single-condition codes. Trace with given inputs.",
+      "for_extending": "Stretch at Station C: 3-branch codes with mixed inputs.",
+      "for_ell_or_iep": "Provide a structured frame: 'Input: ___. Condition: ___. Action: ___. Outcome: ___.'",
+      "for_movement_learners": "Act out the outcomes. Teacher reads input; class acts the predicted outcome."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: traces code with input; predicts the correct outcome; explains the prediction.",
+      "how_to_record": "Tick the reading tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Traces with input",
+        "Predicts outcome",
+        "Explains prediction",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Inspector If's Reading Brag",
+    "discussion_prompts": [
+      "What does TRACE mean?",
+      "What's the difference between condition and outcome?",
+      "Why do we substitute the input first?",
+      "Can two inputs give the same outcome?"
+    ],
+    "exit_routine": "Each child traces ONE IF-THEN code with a chosen input on a sticky note: 'Input: ___. Outcome: ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "IF-THEN trace accuracy and outcome prediction.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures C3.2 mastery for reading conditional code. Children at L4 trace code with multiple inputs and predict all outcomes."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child predicts the same outcome for every input — repairing the input-doesn't-matter trap",
+    "rationale": "The most common Grade-2 trap on C3.2 reading is the input-doesn't-matter trap: the child predicts the same outcome regardless of the input, missing that the input determines the condition's TRUTH and therefore the outcome. They treat the code as a fixed answer.\n\nThis distinction matters because conditional code by definition produces DIFFERENT outcomes for different inputs. If the child cements 'one outcome for all inputs' now, they can't read or alter conditional code in later grades. The Grade-2 foundation is: input determines truth → truth determines action → action determines outcome.\n\nThe walkthrough covers the precise moment when a child says BIG for both 5 and 15.",
+    "setup": "Pair is at Station A. Code: 'IF >10, THEN BIG; ELSE SMALL.' Inputs: 5, 15. Child writes BIG for both.",
+    "teacher_script": "Crouch beside the child. 'You wrote BIG for both. Let's TRACE input 5. Is 5 > 10? Pause.' The child thinks. 'No, 5 is less than 10.' 'Right. So the condition is FALSE. The ELSE action runs. The outcome is SMALL, not BIG.'\n\nGeneralise. 'Inspector If says — different inputs give different outcomes. Input 5 → SMALL. Input 15 → BIG. The input CHANGES which branch runs.'\n\nNow re-trace input 15. 'Is 15 > 10? YES.' 'Right — TRUE. So THEN runs. Outcome: BIG.'\n\nDraw the table.\nInput 5 → 5 > 10 FALSE → SMALL\nInput 15 → 15 > 10 TRUE → BIG\n\n'See how each row gets a DIFFERENT outcome? That's because the condition gets a different truth for each input.'\n\nIf the child STILL writes the same outcome: provide a 5-step trace template. 'Input → Substitute → Condition → Action → Outcome.' Use it as a checklist.\n\nLong-term recovery: every reading task starts with substitute-and-check. Build the input-determines-outcome reflex.",
+    "expected_student_responses": [
+      "(Confused) Predicts same outcome for every input.",
+      "(Mid) Traces with prompts; gets different outcomes for different inputs.",
+      "(Strong) Traces every input correctly; explains the difference.",
+      "(Stretched) Predicts which inputs give which outcomes; identifies boundary cases (10 vs 11)."
+    ],
+    "common_misconceptions": [
+      "The outcome is fixed. (Repair: outcome depends on input.)",
+      "I don't need to substitute. (Repair: every trace starts with substitute.)",
+      "Boundary inputs don't matter. (Repair: 10 vs 11 give different outcomes for >10.)"
+    ],
+    "recovery_moves": [
+      "Use a 5-step trace template.",
+      "Always show 2+ inputs per code.",
+      "Highlight boundary cases."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Inspector If's Reading",
+    "purpose": "Independent practice of C3.2 (read IF-THEN code).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Trace 4 IF-THEN samples with given inputs and predict outcomes.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "For 3 IF-THEN codes, list 2 inputs that give TRUE outcomes and 2 inputs that give FALSE outcomes.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick a code from above. Predict outcomes for 4 of your own inputs. Verify by re-tracing.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Inspector If in the worksheet header",
+      "4 trace tables for Part 1",
+      "3 input-output tables for Part 2",
+      "A blank verification table for Part 3"
+    ]
+  }
+}

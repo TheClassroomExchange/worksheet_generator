@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "lesson_number": 3,
+  "worksheet_title": "Match, Trace, Write Numbers",
+  "purpose": "End-of-Lesson-3 consolidation. Children practise recognising, tracing, and writing numerals 0-20 with extra emphasis on the tricky teens 11-15. Captures formative-level evidence for A6.3 — every child produces a written record of which numerals they can form independently.",
+  "student_learning_goal": "I can read and write the numbers from 0 to 20.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can read and write the numbers from 0 to 20.",
+    "character_watermark": "Mae stands in the top-left of the header holding a chalkboard with '13' written on it; Theo stands in the top-right holding a chalkboard with '30' written on it — visually anchoring the tricky-teen versus tricky-decade contrast."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Match Number to Quantity",
+          "student_instructions": "Match each number card on the left to the matching group of objects on the right. Draw a line.",
+          "visual_layout": "Top third of the page. Two columns separated by a wide blank match-zone. The LEFT column shows five number cards stacked vertically: 4, 7, 10, 13, 6. The RIGHT column shows five quantity-illustrations stacked vertically (in shuffled order so the matches require thought): a row of 7 paper bears, a row of 4 cookies, a tens-frame fully filled (10 cubes), a row of 6 timbits, and a tens-frame plus 3 extras (13). The child draws a line from each numeral to its matching quantity.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_NUMBER_QUANTITY_MATCH",
+              "description": "A two-column matching grid. LEFT column: five large numeral cards stacked vertically — 4, 7, 10, 13, 6 — each card ~1.5in square with a thick black border. RIGHT column (in deliberately shuffled order top-to-bottom so matches require attention): a row of 7 paper bears, a row of 4 cookies on a small plate, a fully-filled ten-frame (10 red cubes in 2×5 grid), a row of 6 timbits arranged in a shallow box, and a partially-filled tens setup (one full ten-frame plus 3 loose cubes off to the side, visually showing 13). Wide blank match-zone between the columns for the child to draw connecting lines.",
+              "placement": "spans the upper third of the page, full width",
+              "approximate_size": "full_width",
+              "keywords": [
+                "number",
+                "card",
+                "match",
+                "bears",
+                "cookies",
+                "tens-frame",
+                "cubes",
+                "timbits"
+              ],
+              "text_image_alignment_check": "Student instructions say 'Match each number card on the left to the matching group of objects on the right. Draw a line.' The Part 1 visual_layout names every keyword: bears, cookies, tens-frame, cubes, timbits — each as a row in the right column. The numerals 4, 7, 10, 13, 6 appear on the left cards (digit form is what the text uses; the spelled word 'thirteen' is intentionally omitted as a keyword because the surrounding text uses '13')."
+            }
+          ],
+          "student_response_type": "match",
+          "answer_key": "4 → 4 cookies. 7 → 7 paper bears. 10 → fully filled ten-frame. 13 → ten-frame plus 3 extras. 6 → 6 timbits."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Trace and Write 0 to 10",
+          "student_instructions": "Trace the dotted numerals 0 to 10 on the top row. On the bottom row, write each number 0 to 10 by yourself in the empty box.",
+          "visual_layout": "Middle third of the page. Two horizontal rows of 11 cells each. TOP row: each cell shows a dotted-line numeral (0 through 10) with a small green dot indicating the start point and a thin grey arrow showing the stroke direction. BOTTOM row: each cell is empty, sized to match the numeral above, with a faint baseline guide. Cell width is uniform; teen number 10 spans a slightly wider cell to accommodate the two digits.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_TRACING_GRID_0_10",
+              "description": "Two horizontal grids of 11 cells each, stacked vertically. TOP grid cells show dotted-line numerals 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 in a kindergarten-friendly slab font, each with a tiny green start-dot and a grey stroke-order arrow. BOTTOM grid cells are empty with a faint horizontal baseline. Each cell is ~0.7in wide × 1in tall; the cell for 10 is ~1.1in wide. The grid background is plain white with thin black cell-divider lines.",
+              "placement": "spans the middle third of the page, full width",
+              "approximate_size": "full_width",
+              "keywords": [
+                "numerals",
+                "trace",
+                "write",
+                "0",
+                "10",
+                "dotted",
+                "stroke"
+              ],
+              "text_image_alignment_check": "Student instructions say 'Trace the dotted numerals 0 to 10' and 'write each number 0 to 10 by yourself in the empty box'. The image shows two rows: a top row of dotted-line numerals 0-10 (matching 'trace the dotted numerals') and a bottom row of empty cells (matching 'write each number by yourself in the empty box')."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Top row traced: 0 1 2 3 4 5 6 7 8 9 10. Bottom row written: 0 1 2 3 4 5 6 7 8 9 10. Common errors to flag: reversed digits (especially 3 and 6), the teen 10 written as '01' (right-to-left), or 10 written as a single digit. These are the formative signals for tomorrow's small-group recovery."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Tricky Teens — Trace and Show",
+          "student_instructions": "Trace each teen numeral 11, 12, 13, 14, 15. Beside each numeral, draw ONE tens-stick and the right number of extra cubes to show what the teen number means.",
+          "visual_layout": "Bottom third of the page. Five rows, one per teen number. Each row has three cells: (LEFT) a dotted-line numeral 11/12/13/14/15 with stroke arrows; (MIDDLE) an empty rectangular drawing box ~2in × 1in for the child to draw a tens-stick (a column of 10 stacked squares); (RIGHT) another empty drawing box ~1.5in × 1in for the loose extra cubes. Above the entire Part 3 area, a small reference graphic shows the model: '11 = ten + one extra' with a tiny pre-drawn tens-stick and one cube.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_TEEN_TENSSTICK_DRAW_BOX",
+              "description": "Five horizontal rows, one for each teen 11 through 15. Each row contains: (left) a dotted-numeral cell showing the teen with stroke-direction arrows; (middle) an empty rectangular box labelled 'Tens-stick' for the child to draw a column of 10 cubes; (right) an empty rectangular box labelled 'Extras' for the child to draw the loose cubes. Above the rows, a small reference example shows the layout for 11: a fully-drawn tens-stick (10 cubes in a column) plus one loose cube to the right, with a label '11 = 10 + 1'.",
+              "placement": "spans the bottom third of the page, full width",
+              "approximate_size": "full_width",
+              "keywords": [
+                "teen",
+                "numeral",
+                "tens-stick",
+                "cubes",
+                "extras"
+              ],
+              "text_image_alignment_check": "Student instructions name 'each teen numeral 11, 12, 13, 14, 15', 'tens-stick', and 'extra cubes' — every keyword (teen, numeral, tens-stick, cubes, extras) appears verbatim in instructions or visual_layout. Spelled-out words ('eleven', 'twelve' etc.) are intentionally NOT keywords because the surrounding text uses digit form (11, 12, …); the alignment validator only matches against text the child reads, not against an alternate spelling."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "11 = 1 tens-stick + 1 extra cube. 12 = 1 tens-stick + 2 extras. 13 = 1 tens-stick + 3 extras. 14 = 1 tens-stick + 4 extras. 15 = 1 tens-stick + 5 extras. Children who draw a tens-stick PLUS the full teen quantity (e.g., 1 tens-stick + 13 cubes for 13) have not yet grasped that the tens-stick IS the 10 — re-teach with physical linking cubes at the morning meeting."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Turn the page over. Pick three numbers between 0 and 20 that are NOT on this worksheet. Write each one in big bold digits, and beside each write its name in your own letters (or draw it with cubes if writing the word feels tricky).",
+  "teacher_notes": "Give this worksheet at the end of Lesson 3 (last 12 minutes — slightly longer because the tracing requires careful pencil work). Common pitfalls: (a) Part 1 — child matches by length-of-row instead of by counting (e.g., matches 13 to a long row of 6 timbits because both 'look big'). Recovery: have them count one quantity aloud before drawing the line. (b) Part 2 — reversed digits (3 and 6 most often). Mark the cell with a sticky-flag and offer a one-on-one tracing minute tomorrow. (c) Part 3 — child draws the full teen quantity AS LOOSE CUBES instead of one tens-stick plus extras. This is the central A6.3 misconception about the tens-stick model — recovery requires physical cubes, not paper. Keep these worksheets in the per-child portfolio; they are the strongest single-page evidence for A6.3."
+}

@@ -1,0 +1,47 @@
+{
+  "pair_number": 3,
+  "unit_id": "g2_data_detectives",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child draws bars at WRONG HEIGHT — repairing the height-mismatch trap at Grade 2'. The trap is real and grade-appropriate, but rationale and recovery_moves do not cite or align with named research (Friel, Curcio & Bright 2001 on graph comprehension levels; or Shaughnessy on statistical reasoning), and recovery_moves = ['Use count-check before drawing.', 'Drill count = height.', 'Verify by reading bars back.'] do not branch by diagnostic — same three moves regardless of WHY the child mismatched (one-to-one correspondence not yet stable vs. y-axis scale not understood vs. bar drawn first then tally counted). Level 4 requires named research AND branching recovery.",
+      "required_fix": "In expanded_walkthrough.rationale, name the research framing — e.g., 'Friel, Curcio & Bright (2001) describe graph comprehension as reading-the-data, reading-between-the-data, reading-beyond-the-data; G2 children at the reading-the-data level confuse pictograph one-to-one correspondence with continuous bar height.' Then split recovery_moves into a branched diagnostic: (a) IF child can count tally correctly but draws the bar to a wrong height, THEN have them point to each tally mark while sliding a finger up the y-axis number line — coordinate count and height; (b) IF child cannot read y-axis scale, THEN drop back to a numbered grid where each square = 1 and have them shade square-by-square; (c) IF child draws first then counts, THEN enforce a 'count-then-draw' rule with a verbal cue. This makes the recovery substitute-runnable and research-grounded.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = \"Each child finishes: 'My bar graph showed ___ chose ___ most.'\" This is a sentence frame but not a memorable chant or distinctive quotable refrain children carry between lessons. Detective Dot's only repeated line in this lesson is the explanatory 'every bar graph needs: TITLE, LABELS on both axes, and BARS the right HEIGHT' — a definition, not a chantable refrain like the rubric's example 'HOO knows the sounds? YOU do!' that anchors recall across days.",
+      "required_fix": "Add a distinctive, repeatable Detective Dot refrain children chant back at minds_on AND consolidation — for example, Dot calls 'Bar height equals…' and children answer 'the COUNT!' or 'Title, labels, bars-just-right — Detective Dot, on the case!' Place it once in minds_on.teacher_script after the BAR GRAPH definition, again at the end of each station as a transition cue, and again in consolidation.exit_routine BEFORE the sentence frame so the chant frames the reflection. Carry the same refrain into Lesson 4 and Lesson 5 so it threads the unit.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale = 'The most common Grade-2 trap on D1.3 is the height-mismatch trap…' and common_misconceptions list 'Bar height = approximate', 'Tallest bar = mode', 'Bars can be any width'. The misconception is named in plain language, not in research-grounded terms (no reference to Friel/Curcio/Bright graph-comprehension framework, Bruner's enactive-iconic-symbolic progression for moving from concrete tallies to abstract bars, or Shaughnessy on G2 data sense). The lesson also does not let children INVENT or REFINE a graph strategy and COMPARE strategies — Station A converts tally→bar with a single fixed method, Station B reads, Station C surveys-then-graphs with the same method. There is no compare-strategies move.",
+      "required_fix": "(a) Name the research framing in expanded_walkthrough.rationale: 'Friel, Curcio & Bright (2001) graph comprehension levels — G2 children operate at reading-the-data; bar height as a continuous quantity (vs. one-to-one pictograph correspondence) is a Bruner iconic→symbolic transition.' (b) Add a compare-strategies move to action.steps: after Station A, gather two pairs who built the same tally differently — one who drew bars from the bottom up cell-by-cell vs. one who marked the top of each bar first then filled down — and ask 'Which way helped you match the count exactly? Why?' This invites strategy invention and comparison, which is the Level 4 hallmark.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong worksheet, well-aligned lesson, realistic materials and time, but three categories sit at Level 3: the trap is real but not research-grounded and recovery doesn't branch by diagnostic; the character has presence but no quotable refrain; and the math authenticity is precise but lacks a strategy-comparison move and a named research framing. All three fixes live in lesson_03."
+}

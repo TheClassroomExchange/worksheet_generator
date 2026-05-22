@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "lesson_number": 5,
+  "worksheet_title": "Roo and Cal's Marathon",
+  "purpose": "Summative artifact applying E2.1-E2.4.",
+  "student_learning_goal": "I can measure length and time using the right tool.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can measure length and time using the right tool.",
+    "character_watermark": "Roo and Cal in lab coats in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Match unit.",
+          "student_instructions": "Match 4 objects to the right unit (cubes/hand-spans/cm/m).",
+          "visual_layout": "A two-column matching layout pairing 4 objects to 4 unit choices with line-drawing.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_UNITS",
+              "description": "A two-column match for Grade 2 capstone. Left: 4 objects (paperclip, book, doorway, hallway). Right: 4 unit choices (cubes, hand-spans, cm, m).",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "units",
+                "objects"
+              ],
+              "text_image_alignment_check": "WS05_P1_UNITS at Part 1: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Paperclip → cm. Book → cm/hand-spans. Doorway → m. Hallway → m."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Use the ruler.",
+          "student_instructions": "Measure 3 objects with a ruler. Draw a 6-cm line.",
+          "visual_layout": "Three object icons stacked, each with a cm answer line, plus blank space below for drawing a 6-cm line.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_RULER",
+              "description": "3 objects (pencil, eraser, crayon) for Grade 2 capstone, B&W line art, with cm answer lines below each. Below: blank space for drawing a 6-cm line with label '6 cm line:'.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "ruler",
+                "draw"
+              ],
+              "text_image_alignment_check": "WS05_P2_RULER at Part 2: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Real measurements + 6-cm drawn line."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Time units.",
+          "student_instructions": "Pick the right time unit for 4 events.",
+          "visual_layout": "Four event rows with seconds/minutes/hours options for each.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_TIME",
+              "description": "4 events for Grade 2 capstone. Events: 'Blink', 'Brush teeth', 'Recess', 'School day'. Each row has S/M/H circles.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "time",
+                "events"
+              ],
+              "text_image_alignment_check": "WS05_P3_TIME at Part 3: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Blink: S. Brush: M. Recess: M. School day: H."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write 1 measurement you made today and the unit.",
+  "teacher_notes": "Lesson 5 capstone. Score against rubric. Part 2 includes one TRANSFER object that requires a non-zero starting point on the ruler (a picture of a pencil starting at the 2-cm mark). Verifies interval-counting transfer beyond standard 0-start measurements."
+}

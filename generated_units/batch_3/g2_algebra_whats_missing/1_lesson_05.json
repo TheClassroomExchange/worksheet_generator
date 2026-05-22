@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 5,
+  "lesson_title": "Mystery Case Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.1",
+    "C2.2",
+    "C2.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can write a mystery case that uses a variable, a missing number, and an equivalent expression.",
+  "learning_intention": "We are learning to write a mystery case using a variable and solve it.",
+  "student_learning_goal": "I can write a mystery case using a variable and solve it.",
+  "success_criteria": [
+    "I can invent a mystery case from real life.",
+    "I can write the case as an equation with a variable.",
+    "I can solve the case and check my answer."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "variable",
+    "unknown",
+    "equivalent",
+    "expression",
+    "equation",
+    "missing number"
+  ],
+  "manipulatives_used": [
+    "M2_balance_mat",
+    "M3_addition_puzzle_cards",
+    "M4_subtraction_puzzle_cards",
+    "M7_mystery_case_template",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "Detective Dee and Mystery Mo together",
+    "Per-child Mystery Case Capstone Template",
+    "Per-pair balance scale drawing mat",
+    "Lesson 5 capstone tracker \u2014 provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dee's Final Showcase",
+    "hook": "Now you become the detective. Pick a real-life mystery. Write the equation with a variable. Solve it.",
+    "teacher_script": "Bring children to the carpet. Detective Dee + Mystery Mo together. 'Friends \u2014 today you become DETECTIVES. Pick a real-life mystery. Write it as an equation with a variable. Solve it.'\n\nShow the modelling cycle. 'You've practiced each skill. Today you do them ALL together: variable, missing number, equivalent expression.'\n\nShow examples:\n- 'My class snack: 24 kids needed crackers. We had \u2610 crackers per kid. We had 96 crackers total. Find \u2610. (96 \u00f7 24 = 4.) The variable stood for 4 crackers per kid.'\n- 'Recess: 18 kids on the playground. Then \u2610 more came. Now there are 25. Find \u2610. (25 - 18 = 7.) The variable stood for 7 kids who came.'\n- 'Library: I read 5 books a week for \u2610 weeks. Total: 30 books. Find \u2610. (30 \u00f7 5 = 6 \u2014 or 5 \u00d7 6 = 30.) The variable stood for 6 weeks.'\n\n'Pick something from YOUR life. Write it as an equation. Use a variable for the unknown. Solve and CHECK.'",
+    "student_actions": [
+      "Look at the example cases.",
+      "Brainstorm potential mysteries.",
+      "Pick a mystery topic.",
+      "Plan the equation with a variable."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Mystery Case Capstone",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out capstone templates. Children pick a topic and write a mystery case as an equation with a variable.",
+        "teacher_prompt": "Say to students: 'Use the template. Write your mystery as an equation. Pick a symbol for the unknown.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Children solve their own case. They show the work and check the answer.",
+        "teacher_prompt": "Stop at each child. Check work \u2014 variable identified, equation correct, answer verified."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge: write a SECOND case using the same topic but a different variable position. Discuss whether the strategy changes.",
+        "teacher_prompt": "Say to extending children: 'Write another case with the variable in a different spot.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Gallery walk: children swap templates and solve each other's cases.",
+        "teacher_prompt": "Say to students: 'Swap with a partner. Solve their case. Check your answer.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Whole-class share: 5-6 children share their case aloud.",
+        "teacher_prompt": "Pick variety: snacks, sports, friends, daily routines."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a mystery starter: 'I had ___ cookies. ___ more came. Now I have ___.' Fill in the blanks.",
+      "for_extending": "Stretch: invent a 3-step case (e.g., '\u2610 + 5 - 3 = 10').",
+      "for_ell_or_iep": "Provide picture-supported templates with sentence frames.",
+      "for_movement_learners": "Allow them to act out their mystery case with classmates."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: invents a coherent case; writes the equation with a variable; solves and checks.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Coherent case",
+        "Equation with variable",
+        "Solves and checks",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dee's Final Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most surprising case you saw today?",
+      "What does the variable stand for in your case?",
+      "How did you check your answer?",
+      "What's something in your life you'll model after this unit?"
+    ],
+    "exit_routine": "Each child receives a Junior Detective certificate. Quick whisper: 'My mystery was about ___'. Detective Dee and Mystery Mo say goodbye with a final mystery using the class's collective stories."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Full mystery case from a child-chosen topic, with variable, equation, and solution.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures the C2.1 + C2.2 + C2.3 summative integration. Children at L4 invent a case with a variable, solve it, and verify the answer."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes a mystery case without a variable \u2014 repairing the no-unknown trap on capstone day",
+    "rationale": "The most common Grade-2 trap on the capstone is the no-unknown trap: the child writes a complete arithmetic problem ('I had 5 cookies and ate 3, so I have 2 left') without including a variable for an unknown. They miss that the case needs a MYSTERY \u2014 a value to find \u2014 which is what the variable represents.\n\nThis distinction matters because Detective Dee's whole identity is finding unknowns. A case without a variable isn't a mystery \u2014 it's a story. The Grade-2 foundation is: every mystery case has a UNKNOWN that the variable holds.\n\nThe walkthrough covers the precise moment when a child writes a complete, no-variable arithmetic story.",
+    "setup": "Child has written: 'I had 5 cookies. I ate 3. I have 2 left.' No variable. Teacher reads it.",
+    "teacher_script": "Crouch beside the child. 'You wrote a great story \u2014 but Detective Dee needs a MYSTERY. A mystery has a hidden number. What's the unknown?'\n\nThe child looks confused. 'Try this: pick ONE number to hide. Make THAT the variable. The other numbers stay.' Pause. 'For example: I had 5 cookies. I ate \u2610. I have 2 left. The variable is what I ATE \u2014 that's the mystery.'\n\nThe child rewrites. 'Now solve. The equation is 5 - \u2610 = 2. What goes in the box? 3. CHECK: 5 - 3 = 2. \u2713'\n\nGeneralise. 'Detective Dee says \u2014 pick ONE number to hide. That's your variable. The mystery is solving for it.'\n\nIf the child STILL writes complete stories: provide a sentence frame. 'I had ___. I added or subtracted \u2610. Now I have ___. Find \u2610.' The frame guarantees a variable.\n\nLong-term recovery: drill 'every mystery has ONE hidden number' until it's automatic.",
+    "expected_student_responses": [
+      "(Confused) Writes complete arithmetic story without a variable.",
+      "(Mid) Picks a variable with prompts; writes a partial case.",
+      "(Strong) Writes a coherent case with a variable; solves and checks.",
+      "(Stretched) Writes multiple cases with the variable in different positions; explains why each works."
+    ],
+    "common_misconceptions": [
+      "A mystery is a complete story. (Repair: a mystery has ONE hidden number to find.)",
+      "Variables are optional. (Repair: every mystery NEEDS a variable.)",
+      "I can solve without writing the variable. (Repair: write the variable FIRST, then solve.)"
+    ],
+    "recovery_moves": [
+      "Use the sentence frame: 'I had ___. \u2610 change. Now I have ___.'",
+      "Drill 'every mystery has ONE hidden number'.",
+      "Praise the variable choice as the START of the mystery."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My Mystery Case",
+    "purpose": "Summative evidence for C2.1 + C2.2 + C2.3.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Write a real-life mystery case (1-2 sentences).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Translate the case into an equation with a variable.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Solve the equation and CHECK.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 4,
+        "task": "Write 1 equivalent expression for the answer (e.g., if answer is 50: 50 = 25+25 = 60-10).",
+        "response_type": "write"
+      },
+      {
+        "part_number": 5,
+        "task": "Reflect: what does the variable in your case stand for?",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dee and Mystery Mo together in the worksheet header",
+      "Mystery case slot for Part 1",
+      "Equation slot for Part 2",
+      "Work and check area for Part 3",
+      "Equivalent expression slot for Part 4",
+      "Reflection box for Part 5"
+    ]
+  }
+}

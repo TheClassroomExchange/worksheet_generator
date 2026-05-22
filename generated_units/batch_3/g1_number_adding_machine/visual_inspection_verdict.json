@@ -1,0 +1,12 @@
+{
+  "unit_id": "g1_number_adding_machine",
+  "status": "pass",
+  "inspected_at": "2026-05-11T00:00:00Z",
+  "inspected_by": "claude-visual-inspector-r23-final",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 26, "description": "Rubric body cells are now rendered at 8pt with multi-line wrap (e.g., B2.1 Level 1 'Treats addition and subtraction as separate operations; cannot use addition to solve subtraction; does not recognise'). Wrap is clean and all cells finish within the row band — acceptable per R23 tolerance rule."},
+    {"page": 18, "description": "Manipulative pages still use generic hero images that don't visually match stated content (cookies/dice/plates) — cosmetic, non-blocking."}
+  ],
+  "summary": "F21 fix verified: page-26 5-row rubric now shows ALL FIVE rows B2.1 through B2.5 fully visible on a single page. B2.5 row fits with all four level cells fully readable to the bottom edge ('Shares fluently with multiple half-cuts (e.g., 6+4 = 1½ each); generalises the fair-share-with-half rule to other contexts'). Font drop to 8pt and equal page-budget share resolved the prior bottom-row clipping."
+}

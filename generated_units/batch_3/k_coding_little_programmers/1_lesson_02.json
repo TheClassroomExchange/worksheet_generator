@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_coding_little_programmers",
+  "lesson_number": 2,
+  "lesson_title": "Where is Bot?",
+  "duration_minutes": 40,
+  "primary_expectations": [
+    "B11.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "POSITIONAL words tell us WHERE: above, below, beside, between.",
+  "learning_intention": "We are learning to use position words.",
+  "student_learning_goal": "I can use position words.",
+  "success_criteria": [
+    "I can SAY 4 position words.",
+    "I can SHOW above and below.",
+    "I can SHOW beside and between.",
+    "I can DESCRIBE Bot's spot."
+  ],
+  "vocabulary_introduced": [
+    "above",
+    "below",
+    "beside",
+    "between"
+  ],
+  "vocabulary_reinforced": [
+    "forward",
+    "back",
+    "left",
+    "right"
+  ],
+  "manipulatives_used": [
+    "M1_floor_mat",
+    "M3_position_chart",
+    "M4_object_cards",
+    "M7_coding_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Bot the Robot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Position Words'",
+    "Coding Floor Mat (1 per pair)",
+    "Object Cards (12)",
+    "Lesson 2 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Bot's Hide and Seek",
+    "hook": "Bot the Robot: Friends, I'm hiding! ABOVE? BELOW? BESIDE? BETWEEN? Find me with POSITION words! Bot opens: 'STEP, STEP, STEP — that's CODE!'",
+    "teacher_script": "Bring children to the carpet. Bot the Robot puppet. 'Coder friends — yesterday we MOVED. Today we tell WHERE with POSITION words.'\n\nDefine each:\n- ABOVE: Bot floats above a chair. 'OVER the top!'\n- BELOW: Bot ducks under a table. 'UNDER!'\n- BESIDE: Bot stands NEXT TO a child. 'Right next to!'\n- BETWEEN: Bot goes BETWEEN two chairs. 'In the MIDDLE!'\n\nClass echoes each with body. 'Hands ABOVE your head!' 'Hands BELOW the desk!' 'Hands BESIDE you!' Stand near a friend. 'BETWEEN two friends!'\n\n'Bot says — these 4 words tell WHERE I am. Direction words tell HOW to move. Position words tell WHERE.'\n\nDemo with the mat. Place an apple card. 'Bot is BESIDE the apple.' Move Bot. 'Bot is BETWEEN the apple and the star.'\n\n'Bot says — every spot has POSITION words!'\n\nNow each pair gets a Floor Mat + 4 Object Cards. Place objects. Take turns hiding Bot and DESCRIBING Bot's position with words.\n\n'Bot says — say where I am with POSITION!'",
+    "student_actions": [
+      "Watch Bot demo",
+      "Echo 4 position words",
+      "Body-show each position",
+      "Place objects + hide Bot"
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Describe Bot's Spot 4 Times",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Floor Mat + 4 Object Cards. Pairs place objects randomly.",
+        "teacher_prompt": "Say: 'Place 4 objects.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Hide Bot 4 different spots. Describe with position words.",
+        "teacher_prompt": "Say: 'Describe 4 spots.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: use 2 position words for one spot.",
+        "teacher_prompt": "Say: 'Stretch: 2 words.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with above vs below (point up/down).",
+        "teacher_prompt": "Show: arrow up/down."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After 4 spots, two pairs share HOW they decided ABOVE/BELOW/LEFT/RIGHT — by Bot's view, by their own view, by absolute room directions. Class debates which is math-correct. Cite Clements & Sarama (2009).",
+        "teacher_prompt": "Bot: 'I have ONE view. Math directions match BOT'S view.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Use only above and below.",
+      "for_extending": "Use a 5th word: NEAR or FAR.",
+      "for_ell_or_iep": "Picture-icon support cards.",
+      "for_movement_learners": "Body-position with friend pairs. NO-PAPER VERSION: children pair up — one is Bot, the other describes position; switch roles. Body becomes the grid."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: names; shows above/below; shows beside/between; describes; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names positions",
+        "Shows above/below",
+        "Describes spots",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Bot's Position Brag",
+    "discussion_prompts": [
+      "Name 4 position words.",
+      "ABOVE or BELOW your hand?",
+      "Show BETWEEN.",
+      "Where is your pencil right now?"
+    ],
+    "exit_routine": "Bot's refrain (carry-over): 'STEP, STEP, STEP — that's CODE!' (3x). Each child describes Bot's position with one direction word."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Position word tracker.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures B11.1 position language."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child confuses ABOVE and BELOW — repairing the up-down trap at Kindergarten",
+    "rationale": "On finding Bot's position with directional words (above, below, left, right), the trap is direction-word confusion — child uses 'up' for 'above' but freezes on 'left of'. Clements & Sarama (2009) early spatial vocabulary frames this.\n\nYesterday Bot moved. Today we describe where Bot IS. Lesson 3 codes with pictures; Lesson 4 debugs; Lesson 5 capstones.",
+    "setup": "Position activity. Child says 'above the table' for a ball under it.",
+    "teacher_script": "Crouch. 'Bot asks — point UP with your finger. ABOVE means UP.'\n\nProbe. 'Now point DOWN. BELOW means DOWN.'\n\nGeneralise. 'Bot says — above is OVER (up). Below is UNDER (down).'\n\nIf still confused: stack 2 books. 'Top book is ABOVE. Bottom book is BELOW.'",
+    "expected_student_responses": [
+      "(Confused) Mixed.",
+      "(Mid) Right with prompts.",
+      "(Strong) Knows both.",
+      "(Stretched) Articulates over/under."
+    ],
+    "common_misconceptions": [
+      "Above = next to. (Repair: over the top.)",
+      "Below = inside. (Repair: under.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child can point up but can't say above: drill the word match — 'point + say in pairs'.",
+      "DIAGNOSTIC B — child reverses left/right: stand the child facing Bot's direction; drill 'YOUR left = BOT'S left' from this stance.",
+      "DIAGNOSTIC C — child names direction but misses position: force the sentence frame 'Bot is ___ of the ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Where is Bot?",
+    "purpose": "Independent practice of B11.1 positions.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Match 4 position words to 4 picture spots.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Circle Bot's position in 4 pictures (above, below, beside, between).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Draw a picture: Bot ABOVE a star.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Bot the Robot in worksheet header",
+      "4 picture spots for Part 1",
+      "4 position pictures for Part 2"
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 4,
+  "lesson_title": "Test Your Prediction",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.2"
+  ],
+  "secondary_expectations": [
+    "D2.1"
+  ],
+  "big_idea": "We can TEST a prediction in a new group. The same prediction may give DIFFERENT results.",
+  "learning_intention": "We are learning to test a prediction in a new group.",
+  "student_learning_goal": "I can test a prediction in a new group.",
+  "success_criteria": [
+    "I can MAKE a prediction in one group.",
+    "I can TEST the same prediction in a different group.",
+    "I can compare the two results."
+  ],
+  "vocabulary_introduced": [
+    "test"
+  ],
+  "vocabulary_reinforced": [
+    "predict",
+    "likelihood",
+    "possible"
+  ],
+  "manipulatives_used": [
+    "M3_coin_set",
+    "M5_prediction_mat",
+    "M8_predict_chart",
+    "M9_outcome_cards",
+    "M10_likelihood_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Predict and Test'",
+    "Prediction Recording Mat (1 per pair)",
+    "Outcome Cards (16 per pair)",
+    "Lesson 4 test tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mae Tests in Another Class",
+    "hook": "Mae: I predicted MOST kids in our class like dogs. Now I'll TEST in Ms. B's class — same numbers? Or different? Mae opens: 'Different group? Different data — that is OK!' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets. 'Friends — yesterday we PREDICTED. Today we TEST predictions in a NEW group to see if results are the SAME.'\n\nIntroduce vocabulary. Write TEST on chart. 'Test = try the prediction in a new group, count what happens.'\n\nDemonstrate. Show class data. 'Yesterday I asked our class: dog, cat, fish? 12 dogs, 6 cats, 2 fish. Most chose DOG.'\n\n'Today I PREDICT — Ms. B's class will also pick dog the most. Let's TEST.'\n\nShow Ms. B's hypothetical data. '8 dogs, 9 cats, 3 fish. CATS most! Different from us.'\n\nGeneralise. 'Lucky says — predictions can be RIGHT for one group and WRONG for another. Different groups can have different favourites.'\n\nMore examples:\n- Predict: 'Most kids in school like sunny weather.' Test in Grade 2 class. Compare.\n- Predict: 'Most pets are dogs.' Test in family survey. Compare.\n- Predict: 'Most kids walked to school today.' Test in another class. Compare.\n\n'Mae says — testing is HONEST. We accept the results, even if they don't match our prediction.'\n\n'Today YOU predict and test predictions across groups.'",
+    "student_actions": [
+      "Watch Mae's predict-and-test cycle.",
+      "Echo new vocabulary: 'test'.",
+      "Predict outcomes for one group.",
+      "Test in another and compare."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Predict-and-Test Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: predict 'most kids in our class like ___' for 4 categories. Then a teacher-aide brings results from another G1 class to compare.",
+        "teacher_prompt": "Say: 'Predict for our class. Now compare with another class.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Re-coin Pull — bag with 4 red + 1 blue. Predict 5 pulls. Then test with the bag of 1 red + 4 blue. Compare. Station B: Pet survey — predict for family, test for friend. Station C: Weather — predict tomorrow, test what actually happens.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station B: predict for 2 groups (family + friend) and compare ALL.",
+        "teacher_prompt": "Say: 'Stretch: 2 test groups.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss outcome variability. 'Same prediction, different group, DIFFERENT results. That's OK!'",
+        "teacher_prompt": "Show: red-bag pulls vs blue-bag pulls."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the test tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Was the prediction right in this group?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their mismatched test results (7R/3B vs 8R/2B). Class debates: which is RIGHT? Resolution — both, because the underlying ratio (4:1) is expressed differently across small samples. Cite Konold & Pollatsek (2002) signal-vs-noise framing.",
+        "teacher_prompt": "Mae: 'Same bag, different test, different counts. The math trick is to LOOK PAST the wiggles and see the pattern.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A with the bag-pull only. Skip prediction reasoning.",
+      "for_extending": "Stretch at Station B: 2-group comparison + reason.",
+      "for_ell_or_iep": "Provide sentence frame: 'In group 1, ___ was most. In group 2, ___ was most.'",
+      "for_movement_learners": "Children walk between two simulated 'classrooms' (corners of the room) for testing."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: makes prediction; tests in new group; compares results.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Makes prediction",
+        "Tests in new group",
+        "Compares results",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mae's Test Brag",
+    "discussion_prompts": [
+      "What does TEST mean?",
+      "Were any predictions WRONG in another group?",
+      "Why might different groups have different results?",
+      "What does this tell us about predictions?"
+    ],
+    "exit_routine": "Mae's variability refrain — class chants 3x: 'Different group? Different data — that is OK!' Then Lucky reminds: 'I predict and I PROVE!' Each child reports their pair's data and sticks the result onto the class pooled chart."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Predict-and-test cycle accuracy.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures D2.2 mastery for testing predictions across populations."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child insists their prediction was right despite different test results — repairing the prediction-stuck trap at Grade 1",
+    "rationale": "Across pairs/groups, test results VARY — even with the same setup, two pairs running 10 pulls of a 4R+1B bag may report 7R/3B vs 8R/2B. The G1 trap is to interpret this as 'someone is wrong.' Konold & Pollatsek (2002, 'Data Analysis as the Search for Signals in Noisy Processes') frame this as the foundation of variability literacy — the SIGNAL (probability) is constant; the data are noisy.\n\nYesterday Lucky predicted (Lesson 3). Today we test and reconcile across pairs. Tomorrow's capstone (Lesson 5) integrates the full likelihood-prediction-test loop.",
+    "setup": "Pair is at Station B. Child predicted family pets favourite = 'dog'. Tested with a friend's family — favourite was 'cat'. Child says 'but my prediction was right because in MY family it's dogs'.",
+    "teacher_script": "Crouch. 'You're partly right — in YOUR family, dogs were most. But the TEST asks about THIS group, not your family.'\n\nWalk through. 'A prediction is for ONE group. When we TEST in a NEW group, we accept the new group's results.'\n\nGeneralise. 'Lucky says — predictions don't COVER all groups. Each group can be different. The same prediction can be right or wrong depending on the group.'\n\nNow re-frame. 'For your family: dogs most (RIGHT for your family). For your friend's family: cats most (DIFFERENT — that's their data).'\n\nIf still stuck: show 3 different groups with different favourites. 'See — the same question gives 3 different answers.' Force the variability acceptance.\n\nLong-term recovery: every test cycle names BOTH groups and accepts both results.",
+    "expected_student_responses": [
+      "(Confused) Insists prediction was right despite different test.",
+      "(Mid) Accepts that test result is for new group, with prompts.",
+      "(Strong) Independently names that predictions can vary by group.",
+      "(Stretched) Predicts FOR each group separately and reasons about why they differ."
+    ],
+    "common_misconceptions": [
+      "My prediction works for everyone. (Repair: predictions are group-specific.)",
+      "If I'm right once, I'm right always. (Repair: same prediction can be wrong in another group.)",
+      "Different results = data is bad. (Repair: different results = different groups, that's expected.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child says 'someone is wrong' when pairs report different results: lay both result sheets side-by-side, note both are 'mostly red' even if exact counts differ. Variability is normal.",
+      "DIAGNOSTIC B — child wants to redo the test until results match: drill 'we keep ALL the data, even when it varies. The pattern is what we trust.'",
+      "DIAGNOSTIC C — child cannot articulate the pattern across pairs: make a class chart pooling every pair's results, count totals, show the underlying ratio (~4:1) emerges from the pooled data."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Mae's Test Sheet",
+    "purpose": "Independent practice of D2.2 testing predictions.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Look at our class data. Predict for ANOTHER class. Then look at the other class data. Right or wrong?",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Test 2 predictions: pet preference at home vs school. Record both.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write WHY predictions can be different in different groups.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mae in worksheet header",
+      "2-class comparison table for Part 1",
+      "2-group recording table for Part 2",
+      "Reason-writing box for Part 3"
+    ]
+  }
+}

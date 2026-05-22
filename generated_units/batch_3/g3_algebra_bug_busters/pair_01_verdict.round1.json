@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson 1 covers C3.1 with named activities and curriculum_expectations text matches input_row. However, expanded_walkthrough and teacher_script never bridge forward to Lesson 2 (writing concurrent code) or back to G2 sequential-coding. No cross-reference like 'tomorrow we'll write longer 2-lane codes' appears.",
+      "required_fix": "Add an explicit bridge in consolidation: 'Yesterday/last year you wrote sequential code where one robot moves at a time. Tomorrow Buzz teaches us to write LONGER 2-lane codes with both robots working all at once.' Also add a forward-pointer in the expanded_walkthrough naming Lesson 2's writing focus.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title names a real Grade-3 trap (lane-by-lane reading) with concrete recovery moves (finger trace, drill row by row, physical demo). However, the trap is not anchored in named research and recovery_moves does not branch by what the diagnostic told you about the child — all three moves apply to every child equally.",
+      "required_fix": "Anchor the trap in CT research (e.g., Grover & Pea 2013; Bers 2019). Branch recovery: if child reads row-by-row with a finger but reverts when finger lifts, drill row-wise pointing; if child cannot identify 'same time-step' at all, drop back to physical 2-robot demo plus clap-on-each-row before reintroducing the grid.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Materials are teacher-makeable from chart paper / index cards / bottle caps and the puppet is OPTIONAL with substitutes; 12/25/13=50 min is realistic. However, the lesson does NOT offer an explicit no-paper, no-purchase fallback path. differentiation.for_movement_learners lists 'act out' but only as one of four lanes, not a full-lesson alternative.",
+      "required_fix": "Add a 'No-materials version' line in differentiation: 'If you don't have grid mats today, use floor tape or a row of two desks as the 2 lanes. Children stand on the lane and step forward / turn / freeze on each spoken time-step. Their bodies become the robots.' This makes the lesson runnable on any day.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Buzz anchors minds_on, action, and consolidation. Vocabulary has child-friendly definitions and all success_criteria start with 'I can'. However, Buzz lacks a distinctive quotable refrain that children carry between lessons. The exit_routine is a sentence frame ('At the same time, ___ and ___') — useful, but not a memorable chant tied to the character.",
+      "required_fix": "Give Buzz a signature refrain children chant back, e.g., 'BUZZ says: Read by ROW, not by LANE!' or 'Same time-step? BUZZ, BUZZ, GO!' Embed it in the consolidation and reference 'Buzz's chant' so Lessons 2-5 can reuse it. The chant should appear in teacher_script and exit_routine.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet's three parts each map to a success criterion (sort = distinguish, trace = read, write own = write) and image_assets reference lesson items. However, the worksheet is largely a rote repeat of the three station tasks; it does NOT deliberately vary the practice format as a transfer task, and teacher_notes does not justify any variation.",
+      "required_fix": "In Part 2 or 3, vary the format to verify transfer: e.g., Part 3 asks the child to write 2-lane code that produces a NAMED outcome ('both robots end on the star'), not just any 4-step code. Add a teacher_notes line: 'Part 3 is a transfer task — children must reverse-engineer code from the desired outcome, not free-write.'",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Concurrent vs sequential is conceptually grounded with real-life examples; vocabulary is precise; the 2-lane grid carries time-step meaning. The stretch invites comparison (different-length lanes; 3-lane). However, expanded_walkthrough does NOT name the misconception in research-grounded CT terms (e.g., Bers 2019; Grover & Pea 2013), and children do not compare/refine each other's strategies.",
+      "required_fix": "In expanded_walkthrough.rationale, name the trap as 'parallelism-as-sequence conflation (Bers 2019; Grover & Pea 2013, computational thinking K-3)'. Add a consolidation move where two pairs compare their 2-lane codes and explain how Robot 1 and Robot 2 share each time-step — 'whose code finishes first and why?' so children refine strategies.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 is solid achieving-level work across all six categories, but no category clears the Level 4 bar. The lesson needs a named research anchor for the lane-by-lane trap, a forward bridge to Lesson 2, a no-materials fallback, a quotable Buzz refrain, and a strategy-comparison move; the worksheet needs one transfer-task variation in Part 3. With six 3s, the strict pair bar (max one 3) is not met — revise both lesson_01 and worksheet_01."
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_likely_unlikely",
+  "lesson_number": 4,
+  "lesson_title": "Same Mean? Same Mode?",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can predict whether MEAN and MODE will be the SAME or DIFFERENT across populations.",
+  "learning_intention": "We are learning to predict if mean and mode stay the same across two populations.",
+  "student_learning_goal": "I can predict if mean and mode stay the same across two populations.",
+  "success_criteria": [
+    "I can FIND the mean of a data set.",
+    "I can FIND the mode of a data set.",
+    "I can PREDICT if both stay the same.",
+    "I can TEST and explain my answer."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "impossible",
+    "unlikely",
+    "equally likely",
+    "likely",
+    "certain",
+    "prediction",
+    "population",
+    "mean",
+    "mode"
+  ],
+  "manipulatives_used": [
+    "M4_population_chart",
+    "M5_mean_mode_chart",
+    "M9_calculator_set",
+    "M7_vocab_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky Lou and Maybe Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Same Mean? Same Mode?'",
+    "Two-Population Charts (1 per pair)",
+    "Calculator Cards (1 per pair)",
+    "Sample data sets (8 pairs)"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Maybe Mae's Mean and Mode Test",
+    "hook": "Maybe Mae: TWO classes. Same favourite snack. PREDICT — same MEAN? Same MODE? Mae opens: 'PREDICT, then TEST, then TELL!'",
+    "teacher_script": "Bring children to the carpet. Maybe Mae puppet with calculator. 'Detective friends — yesterday we tested favourites across two populations. Today we test MEAN and MODE.'\n\nReview. 'MEAN = total ÷ count. MODE = most common.'\n\nDemo. 'Class A and Class B both surveyed: how many books read this month?'\n\nClass A: 3, 4, 2, 4, 5. Total = 18. Count = 5. Mean = 3.6 (round to 4). Mode = 4.\nClass B: 2, 3, 4, 4, 7. Total = 20. Count = 5. Mean = 4. Mode = 4.\n\n'Mean: A = 4, B = 4. SAME!'\n'Mode: A = 4, B = 4. SAME!'\n\n'Maybe Mae says — sometimes both stay the SAME. Sometimes they DIFFER.'\n\nNow show different data:\nClass A: 1, 1, 2, 3, 8. Mean = 3. Mode = 1.\nClass B: 5, 6, 7, 8, 9. Mean = 7. Mode = no mode (or all equal).\n\n'Mean: A = 3, B = 7. DIFFERENT.'\n'Mode: A = 1, B = none/all. DIFFERENT.'\n\n'Maybe Mae says — when classes are SIMILAR, mean and mode stay close. When classes DIFFER, they don't.'\n\nNow each pair gets a calculator card + 2 data sets. They:\n1. Predict same/different (mean and mode).\n2. Calculate.\n3. Compare.\n\n'Maybe Mae says — D2.2 is making and TESTING predictions about MEAN and MODE.'",
+    "student_actions": [
+      "Watch Maybe Mae demo",
+      "Echo mean and mode",
+      "Predict same/different for 2 sample sets",
+      "Practice calculation steps"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Predict Mean and Mode Across Two Classes",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out 4 paired data sets. Pairs predict mean+mode same/different.",
+        "teacher_prompt": "Say: '4 pairs. Predict.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Calculate mean and mode for both sets in each pair.",
+        "teacher_prompt": "Say: 'Calculate both.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: explain why same or different.",
+        "teacher_prompt": "Say: 'Stretch: why?'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with mean: total ÷ count.",
+        "teacher_prompt": "Show: total over count."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Some pairs find mean by adding all then dividing; some pairs estimate. Class compares accuracy. Cite Konold (1989) outcome approach — predictions must be TESTED.",
+        "teacher_prompt": "Mae: 'Different methods, same mean — but TEST to be sure.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Mode only (skip mean).",
+      "for_extending": "Predict by 'closeness'.",
+      "for_ell_or_iep": "Pre-printed compute frames.",
+      "for_movement_learners": "Walk between class A and class B stations. NO-PREP VERSION: teacher reads two short data sets aloud (Class A: 2,4,6,4; Class B: 4,4,5,3); children chant the mean and mode aloud."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: prediction; mean compute; mode compute; comparison; explanation.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Predicts",
+        "Computes mean",
+        "Computes mode",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Maybe Mae's Mean+Mode Brag",
+    "discussion_prompts": [
+      "What's MEAN? MODE?",
+      "When do they STAY the same?",
+      "When do they DIFFER?",
+      "What's a 'similar' population?"
+    ],
+    "exit_routine": "Mae's prediction-then-test refrain — 'Maybe Mae says — PREDICT, then TEST, then TELL!' (3x). Each child predicts then tests one mean+mode."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Mean+mode tracker.",
+    "tracker_reference": "formative_meanmode_tracker (assembled in formative_reflection stage)",
+    "rationale": "Lesson 4 captures D2.2 mean+mode prediction."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child predicts SAME/SAME without calculating — repairing the no-test trap at Grade 3",
+    "rationale": "On comparing mean and mode across populations, the trap is outcome approach extension: child predicts mean/mode equality without testing. Konold (1989) 'outcome approach' + Konold & Pollatsek (2002) signal-vs-noise frame this. Without statistical comparison, Lesson 5's capstone cannot ground.\n\nYesterday Lesson 3 compared two populations. Today: same mean? Same mode? Lesson 5 capstones.",
+    "setup": "Mean+mode activity. Child writes 'Same' for both without computing.",
+    "teacher_script": "Crouch. 'Maybe Mae asks — show me your CALCULATIONS.'\n\nGuide. 'Mean A = ? Mean B = ? Mode A = ? Mode B = ?'\n\nGeneralise. 'Maybe Mae says — predictions need TESTING. Compute both, then compare.'\n\nIf still no compute: write the four blanks. 'Fill: Mean A=__, Mean B=__, Mode A=__, Mode B=__.'",
+    "expected_student_responses": [
+      "(Confused) No calculation.",
+      "(Mid) One computed.",
+      "(Strong) Both computed and compared.",
+      "(Stretched) Explains 'why same/different'."
+    ],
+    "common_misconceptions": [
+      "Prediction = answer. (Repair: predict, then test.)",
+      "Same data shape = same numbers. (Repair: calculate.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child predicts same mean because 'same kind of data': drill 'compute BOTH'; child re-checks.",
+      "DIAGNOSTIC B — child computes mean correctly but ignores mode: drill 'BOTH summary tools — what does each say?'",
+      "DIAGNOSTIC C — child computes both but cannot articulate comparison: force 'Class A's mean is ___, Class B's mean is ___; same/different because ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Maybe Mae's Mean and Mode",
+    "purpose": "Predict and test mean+mode across two populations.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Predict same or different for 4 paired data sets (mean + mode).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Calculate mean and mode for each set in 2 pairs.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Compare predictions to results. Explain ONE.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky Lou and Maybe Mae in worksheet header",
+      "Two-column compare chart for Part 2",
+      "Calculator icon for Part 2"
+    ]
+  }
+}

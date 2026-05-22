@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Map It, Move It! — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1, while children are at the sort stations.",
+    "expectation_focus": ["E1.1"],
+    "columns": ["Student name", "Picks one attribute", "Sorts correctly", "Names the rule", "Notes"],
+    "usage_notes": "Walk between pairs. Tick where you see clear evidence. The 'Names the rule' column is the key signal.",
+    "layout_description": "One letter page, portrait orientation. Title at top, expectation focus (E1.1) box. Date and class fields. 5-column tick table with 24 rows.",
+    "image_placeholders": [
+      {"id": "AS_DIAG_TRACKER", "description": "A printable class checklist page for a Grade 1 teacher. Title: 'Map It, Move It! — Day 1 Diagnostic Checklist'. Expectation: 'E1.1 — sort 3D objects and 2D shapes by one attribute'. 5-column tick table with 24 rows. B&W line art.",
+       "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "sort"], "text_image_alignment_check": "AS_DIAG_TRACKER fills the page as the diagnostic tracker. Keywords name the artifact and focus."}
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02", "title": "Map It, Move It! — Lesson 2 Formative Tracker (Build)",
+      "when_used": "During Lesson 2, while pairs are at the build stations.",
+      "expectation_focus": ["E1.2"],
+      "columns": ["Student name", "Builds structure", "Finds 2D shapes", "Names 2D shapes", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'show me a square on your structure'.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 2 column names.",
+      "image_placeholders": [
+        {"id": "AS_FORM_TRACKER_L2", "description": "A printable class checklist for a Grade 1 teacher. Title: 'Map It, Move It! — Lesson 2 Formative Tracker (Build)'. Expectation: 'E1.2 — construct 3D objects and identify 2D shapes within'. 5-column tick table with 24 rows.",
+         "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "build"], "text_image_alignment_check": "AS_FORM_TRACKER_L2 fills the page as the Lesson 2 build tracker."}
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03", "title": "Map It, Move It! — Lesson 3 Formative Tracker (Symmetry)",
+      "when_used": "During Lesson 3, while pairs are at the fold-and-find stations.",
+      "expectation_focus": ["E1.3"],
+      "columns": ["Student name", "Folds carefully", "Identifies match", "Draws symmetry line", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'match or no match?'.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 3 column names.",
+      "image_placeholders": [
+        {"id": "AS_FORM_TRACKER_L3", "description": "A printable class checklist for a Grade 1 teacher. Title: 'Map It, Move It! — Lesson 3 Formative Tracker (Symmetry)'. Expectation: 'E1.3 — construct shapes with matching halves'. 5-column tick table with 24 rows.",
+         "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "symmetry"], "text_image_alignment_check": "AS_FORM_TRACKER_L3 fills the page as the Lesson 3 symmetry tracker."}
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04", "title": "Map It, Move It! — Lesson 4 Formative Tracker (Position)",
+      "when_used": "During Lesson 4, while pairs are at the locate stations.",
+      "expectation_focus": ["E1.4"],
+      "columns": ["Student name", "Uses 5+ position words", "Describes locations", "Uses the frame", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'where is the ___?'.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 4 column names.",
+      "image_placeholders": [
+        {"id": "AS_FORM_TRACKER_L4", "description": "A printable class checklist for a Grade 1 teacher. Title: 'Map It, Move It! — Lesson 4 Formative Tracker (Position)'. Expectation: 'E1.4 — describe relative locations using positional language'. 5-column tick table with 24 rows.",
+         "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "position"], "text_image_alignment_check": "AS_FORM_TRACKER_L4 fills the page as the Lesson 4 position tracker."}
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Map It, Move It! — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 (Treasure Trail Capstone) to score each child against all 5 expectations on a 4-level scale.",
+    "rows": [
+      {"expectation_code": "E1.1", "expectation_text": "sort three-dimensional objects and two-dimensional shapes according to one attribute at a time, and identify the sorting rule being used",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Sorts inconsistently. Drifts attribute mid-sort. Cannot articulate a rule."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Sorts by one attribute with prompts. Names the rule with a frame."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently picks an attribute, sorts consistently, and names the rule clearly."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Re-sorts the same set by a different attribute and explains how the rule changes the groupings."}]},
+      {"expectation_code": "E1.2", "expectation_text": "construct three-dimensional objects, and identify two-dimensional shapes contained within structures and objects",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Stacks blocks randomly. Cannot identify 2D shapes on faces."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Builds simple tower. Names 1-2 shapes on visible faces."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Builds a multi-block structure and names 3+ different 2D shapes inside (rotates structure to find faces)."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Counts faces, edges, vertices on a 3D shape AND identifies all 2D shapes from every angle."}]},
+      {"expectation_code": "E1.3", "expectation_text": "construct and describe two-dimensional shapes and three-dimensional objects that have matching halves",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot identify matching halves. Folds randomly without checking match."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Identifies matching halves with prompts. Sometimes finds the right fold line."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently identifies symmetric shapes, finds the line of symmetry by folding, and creates one matching-halves shape."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Identifies multiple lines of symmetry on shapes that have them (square = 4 lines)."}]},
+      {"expectation_code": "E1.4", "expectation_text": "describe the relative locations of objects or people, using positional language",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Uses one position word for many ('over' for everything). Cannot use the frame."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Uses 2-3 position words. Uses the frame with prompts."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently uses 5+ position words and the 'The ___ is ___ the ___' frame."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Combines two position words ('above and beside') and uses position vocabulary spontaneously across the day."}]},
+      {"expectation_code": "E1.5", "expectation_text": "give and follow directions for moving from one location to another",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Gestures vaguely. Cannot give numbered directions. Cannot follow a partner's directions."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Uses words but no numbers. Follows simple 1-step directions."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently gives verb + number directions ('forward 3'). Follows a 3-step sequence to the target."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Plans a multi-step route in advance and writes a complete sequence."}]}
+    ],
+    "usage_notes": "Score during the Lesson 5 capstone (visible from the Capstone Template). Level 3 is the grade-level expectation.",
+    "layout_description": "One letter page, landscape orientation, with a 5-row × 4-level grid table plus a left-most column for expectation code and text.",
+    "image_placeholders": [
+      {"id": "AS_RUBRIC", "description": "A printable rubric table page for a Grade 1 Map It, Move It! summative. 5-column table with leftmost 'Expectation' column and four level columns. Five rows for E1.1-E1.5. Light-grey shading on Level 3. Landscape, B&W.",
+       "placement": "Full page.", "approximate_size": "full_width", "keywords": ["rubric", "spatial"], "text_image_alignment_check": "AS_RUBRIC: keywords name the artifact and unit focus."}
+    ]
+  },
+  "summative_task_script": {
+    "title": "Treasure Trail Capstone — Summative Administration Guide",
+    "purpose": "Ties the Lesson 5 Capstone Template, the 5 detective skills (Sort, Build, Match, Locate, Move), and the rubric together.",
+    "administration_steps": [
+      "Before the lesson: photocopy one Capstone Template per child plus 5 extras. Print rubric. Have Junior Spatial Detective certificates ready.",
+      "Stations 1-5 (5 min each): each child rotates through SORT, BUILD, MATCH, LOCATE, MOVE.",
+      "Station 1 (SORT): sort 8 shapes. Evidence for E1.1.",
+      "Station 2 (BUILD): build with 3 blocks; find 2D shapes. Evidence for E1.2.",
+      "Station 3 (MATCH): fold 3 shapes; mark matching halves. Evidence for E1.3.",
+      "Station 4 (LOCATE): describe 3 locations on a map with position words. Evidence for E1.4.",
+      "Station 5 (MOVE): write 3-step directions; partner follows. Evidence for E1.5.",
+      "After: review the Capstone Template with each child."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence. Level 3 is the grade-level goal.",
+    "evidence_per_expectation": {
+      "E1.1": "Look at Station 1 sort. Did the child pick a single attribute and sort consistently?",
+      "E1.2": "Look at Station 2 build + shape list. Did the child find 3+ different 2D shapes?",
+      "E1.3": "Look at Station 3 fold marks. Did the child mark valid lines of symmetry?",
+      "E1.4": "Look at Station 4 sentences. Did the child use 3+ different position words?",
+      "E1.5": "Look at Station 5 directions. Did the child use verb + number consistently?"
+    }
+  },
+  "certificate": {
+    "title": "Junior Spatial Detective Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Map It, Move It! unit and demonstrating the skills of a Junior Spatial Detective. A spatial certificate. Trekker Tig the Tiger Cub congratulates the student.",
+    "skills_demonstrated": [
+      "Sorting shapes by attribute",
+      "Building 3D structures and finding 2D shapes",
+      "Making shapes with matching halves",
+      "Describing locations and giving directions"
+    ],
+    "layout_description": "One letter page, portrait orientation. Decorative ornamental border. Title at top. Below: recipient label and blank line. Below: achievement statement. Below: bullet list of 4 skills. Bottom: signature lines. Bottom-centre: small Tig illustration.",
+    "image_placeholders": [
+      {"id": "AS_CERT_BORDER", "description": "A decorative ornamental border framing the certificate page (~0.5in inset). Style: gentle scrollwork with small map and compass motifs at the corners. B&W line art.",
+       "placement": "Frames the entire page.", "approximate_size": "full_width", "keywords": ["certificate"], "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keyword names the artifact."},
+      {"id": "AS_CERT_TIG", "description": "A small Trekker Tig the Tiger Cub illustration at the bottom-centre of the certificate, ~1.5in tall. Tig smiling broadly with walking stick raised in celebration. B&W line art consistent with CHAR_TIG_FRONT.",
+       "placement": "Bottom-centre.", "approximate_size": "small", "keywords": ["tig", "certificate"], "text_image_alignment_check": "AS_CERT_TIG at Bottom-centre: keywords name the character and artifact."}
+    ],
+    "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false}
+  }
+}

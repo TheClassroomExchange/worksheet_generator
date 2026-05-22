@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough and consolidation never bridge to neighbouring days. Lesson 1 ends with Tig's exit routine ('A pyramid has 5 faces.') but has no forward hook to Lesson 2's compose/decompose work and no callback line tying these solids to tomorrow's tower-building.",
+      "required_fix": "Add a closing teacher_script line in consolidation that explicitly forward-bridges to Lesson 2 — e.g., Trekker Tig: 'Tomorrow Tig BUILDS a tower from these same solids — we will COMPOSE structures from cubes and prisms!' This satisfies Level 4 cross-referencing.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names the cylinder/cone trap but cites no research, and recovery_moves = ['Hand-tracing both shapes.', 'Drill point or no point.', 'Compare vertex counts.'] do NOT branch by what the diagnostic told you about the child.",
+      "required_fix": "Cite a named source (Battista 2007 spatial reasoning OR van Hiele Level 1 visual vs Level 2 analytic) and split recovery_moves into branches: 'If child names solid but mis-counts vertices, drill apex feature; if child cannot distinguish curved from flat, drop back to face-tracing with finger before re-asking name.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists anchor chart, paper Solid Cards (1 set per pair), and sorting hoops. Materials are everyday and puppets are optional, but no explicit NO-PAPER, NO-PURCHASE alternative is offered. for_movement_learners = 'Walk to 5 stations' still requires station setup.",
+      "required_fix": "Add a no-materials path to differentiation: 'No-paper version — children form solid SHAPES with hands/bodies (fists for cubes, palms touching for pyramids) and CALL OUT face/edge/vertex counts. Sorting becomes children moving to corners labelled by attribute count, voice and gesture only.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression and precise vocabulary present, but the sort attributes (NAME then FACES then VERTICES) are dictated by teacher prompts — children never INVENT or COMPARE strategies. expanded_walkthrough.rationale does not name the misconception in research-grounded terms (van Hiele or Battista).",
+      "required_fix": "Insert a 'Geometers Choice' moment in action step 2: 'Pairs INVENT their own sorting rule (by EDGES, curved-vs-flat, tallest-vs-shortest) and explain it; compare two pairs rules.' In expanded_walkthrough.rationale name the principle: 'This is the van Hiele Level 1 to Level 2 shift — from recognizing solids by LOOK to analyzing them by PROPERTIES.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet parts (name 5, count 3 solids, sort 8) directly mirror lesson activities (name 5, count, sort 15) without any TRANSFER task. No part introduces a novel context or item to verify generalization beyond the paper card set children already handled.",
+      "required_fix": "Convert Part 3 into a transfer task using Canadian context items already in the blueprint: 'Sort these 3 REAL-WORLD objects (Tim Hortons cup, hockey puck, CN Tower top) into the named bin.' Document in worksheet_brief: 'Part 3 introduces 3 unfamiliar real-world items to verify generalization beyond the paper card set.'",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 is solidly Level 3 across most categories but does not clear the Level-4 bar required for pass. Five categories sit at 3: no forward arc-bridge to Lesson 2; trap is real but uncited and recovery does not branch; no no-paper alternative; sort attributes dictated rather than child-invented; worksheet repeats the lesson format with no transfer task. clarity_voice clears Level 4. Revise both lesson_01 and worksheet_01."
+}

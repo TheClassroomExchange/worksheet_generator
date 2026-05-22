@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 2,
+  "lesson_title": "Community Data Day",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We answer math questions by collecting DATA. Counts, measurements, observations.",
+  "learning_intention": "We are learning to collect data to answer a math question about our community.",
+  "student_learning_goal": "I can collect data to answer a math question about my community.",
+  "success_criteria": [
+    "I can pick a math question.",
+    "I can record data on a chart.",
+    "I can use the data to answer the question."
+  ],
+  "vocabulary_introduced": [
+    "data"
+  ],
+  "vocabulary_reinforced": [
+    "model",
+    "real-life situation"
+  ],
+  "manipulatives_used": [
+    "M1_community_map",
+    "M2_data_charts",
+    "M3_modelling_chart",
+    "M7_two_colour_counters",
+    "M8_number_line",
+    "M9_coach_chart",
+    "M10_community_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coach Cara and Sport Sam — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Collecting Data'",
+    "Community Data Charts (6)",
+    "Community Maps",
+    "Per-pair counters and number line",
+    "Lesson 2 data tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coach Cara's Data Day",
+    "hook": "Coach Cara: How many people use the rink each Saturday? Let's COUNT. Coach Cara opens: 'COUNTS — not GUESSES!' Yesterday's questions are now today's COUNTS.",
+    "teacher_script": "Bring children to the carpet. Coach Cara + Sport Sam puppets. 'Yesterday we asked QUESTIONS. Today we ANSWER them by collecting DATA.'\n\nIntroduce vocabulary. Write DATA on chart. 'Data is what we count. Data is what we measure. Data answers our math questions.'\n\nDemonstrate. 'Coach Cara asks: How many goals scored at the rink in 1 hockey game? Sport Sam tallies. Game 1: 5 goals. Game 2: 3. Game 3: 7. The DATA is 5, 3, 7. Total: 15 goals across 3 games. Average: 5 goals per game.'\n\nMore examples:\n- Library: 250 books returned per day. Data is 250.\n- Restaurant: 80 pizzas sold Saturday. Data is 80.\n- Park: 45 dogs walked per Sunday. Data is 45.\n- TTC: 350 riders per hour at peak. Data is 350.\n\n'Sport Sam says — data is the BRIDGE between question and answer. Without data, we have a guess.'\n\nIntroduce the data table for community-scale numbers. 'Data tables have ITEM and COUNT columns. We tally each row.'\n\n'Today we collect community-scale data — counts that go into hundreds.'",
+    "student_actions": [
+      "Listen to the data demo.",
+      "Echo new vocabulary: 'data'.",
+      "Predict possible community data values.",
+      "Try a tally chart together."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Community Data Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: collect data for 4 community situations. (a) Hockey rink: 50 visitors per Saturday. (b) Library: 250 books returned. (c) Restaurant: 80 pizzas Saturday. (d) Park: 45 dogs Sunday.",
+        "teacher_prompt": "Say: 'Use the data table. Record each count.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Rink — pair tallies hockey-game data. Station B: Library — pair counts book returns over a week. Station C: Restaurant — pair tallies meals across a Friday night.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: collect data for TWO different days. Compare.",
+        "teacher_prompt": "Say: 'Stretch: 2-day comparison.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss data quality. 'Good data is COUNTABLE. Tally marks count. Numbers measure. Both work for community-scale.'",
+        "teacher_prompt": "Show the modelling chart. 'Step 2: DATA.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the data tracker.",
+        "teacher_prompt": "Stop at each pair. Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their tally organisation — one used groups of 10, another used 100s rows. Class compares: which is faster to total? Cite Sarama & Clements (2009) — tally organisation directly affects scaling.",
+        "teacher_prompt": "Coach Cara: 'Same count, different organisation. Pick the one your future self can READ.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Single-day counts.",
+      "for_extending": "Stretch at Station C: 2-day comparison.",
+      "for_ell_or_iep": "Provide a structured frame: 'I counted ___. The data is ___.'",
+      "for_movement_learners": "Walk around tallying classroom things. NO-PAPER VERSION: pairs tally on fingers in groups of 5, then trade a closed fist (5 marks) per pair when fingers run out. Body becomes the data table."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks a question; records data; uses data to answer.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Picks a question",
+        "Records data accurately",
+        "Uses data to answer",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coach Cara's Data Brag",
+    "discussion_prompts": [
+      "What does DATA mean?",
+      "Why collect data?",
+      "What's the difference between counting and measuring?",
+      "What community thing would you count?"
+    ],
+    "exit_routine": "Coach Cara's data refrain — 'Coach Cara COUNTS — she doesn't GUESS!' (3x). Each child reads their tally row aloud with a scaled total."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Data collection accuracy.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures C4 step 2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child estimates with 'about' or 'lots' for community-scale counts — repairing the guess-instead-of-count at Grade 3",
+    "rationale": "On counting + recording community data at scale, the trap is the count-without-organise problem: child counts 47 cars then loses track when asked 'how many over the week?' Sarama & Clements (2009) on counting-to-quantity at scale and CGI counting frameworks place tallying-with-organisation as the gateway.\n\nYesterday Lesson 1 wrote math questions. Today we COUNT and ORGANISE community data. Lesson 3 predictions; Lesson 4 reflections; Lesson 5 capstones.",
+    "setup": "Pair is at Station B. Library data: 245 books returned. Child writes 'about 200'.",
+    "teacher_script": "Crouch. 'About 200 is a guess. Coach Cara needs the COUNT.'\n\nWalk through. 'Use tally marks. Hundreds get tallied in groups of 100. Like: 100, 100, 25, 20. Total: 245. Real data, not estimate.'\n\nGeneralise. 'Coach Cara always counts. Tally one at a time, group by 5s, then by 10s, then by 100s.'\n\nIf still estimating: provide tally chart with 100s row. 'Group by 100s.' Force the count.\n\nLong-term recovery: every data task uses tallies even at scale.",
+    "expected_student_responses": [
+      "(Confused) Estimates with 'about' or 'lots'.",
+      "(Mid) Counts with prompts.",
+      "(Strong) Counts independently using tally chart at scale.",
+      "(Stretched) Compares data across days; explains differences."
+    ],
+    "common_misconceptions": [
+      "Estimates count as data. (Repair: data is counted or measured.)",
+      "Tallies don't work for big numbers. (Repair: group by 5s, 10s, 100s.)",
+      "I don't need a chart at this scale. (Repair: charts prevent miscounts.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child counts but won't organise: drill 'tally in GROUPS OF 5 OR 10'; child re-tallies with explicit grouping.",
+      "DIAGNOSTIC B — child organises but loses track of total: chunked totalling — '5+5+5 = 15' aloud after each group.",
+      "DIAGNOSTIC C — child gives daily count but struggles to scale-up to weekly: drill 'multiply by days' as the scaling rule."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coach Cara's Community Data",
+    "purpose": "Independent practice of C4 step 2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Tally and record data for 4 community situations.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Use your data to answer 3 questions.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick a real community thing to count. Tally. Write 1 question.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coach Cara in worksheet header",
+      "4 tally rows for Part 1",
+      "3 question slots for Part 2",
+      "A blank box for Part 3"
+    ]
+  }
+}

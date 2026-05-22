@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "k_coding_little_programmers", "lesson_number": 4,
+  "worksheet_title": "Buggy's Bug Hunt", "purpose": "Independent practice of B11.2.",
+  "student_learning_goal": "I can test and refine my steps.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can test and refine my steps.",
+    "character_watermark": "Bot and Buggy the Beetle in the top-right with a magnifying glass. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Bug or no bug?", "student_instructions": "For 3 codes, circle BUG or NO BUG.",
+     "visual_layout": "Three small grids each with a code strip and BUG / NO BUG circles.",
+     "image_placeholders": [{"id": "WS04_P1_TEST", "description": "A Kindergarten bug-test layout for coding worksheet, B&W line art. 3 small grids each with: Bot, target, and a code strip. Below each: BUG / NO BUG circles.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["codes", "test"], "text_image_alignment_check": "WS04_P1_TEST at Part 1: keywords name the codes test for bug task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Depends on each code; mix of bug and no bug."},
+    {"part_number": 2, "part_title": "Part 2: Fix the bug.", "student_instructions": "One code has a BUG. Cross out the wrong arrow and write the correct one.",
+     "visual_layout": "A buggy code strip with a target grid and replacement arrow box.",
+     "image_placeholders": [{"id": "WS04_P2_FIX", "description": "A Kindergarten bug-fix layout for coding worksheet, B&W line art. A buggy code: → → ↓ ↑. Beside: grid with Bot at A1 and target at B3. Below: replacement arrow box.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["fix", "wrong"], "text_image_alignment_check": "WS04_P2_FIX at Part 2: keywords name the fix wrong arrow task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Cross out ↓, replace with ↑."},
+    {"part_number": 3, "part_title": "Part 3: Write a no-bug code.", "student_instructions": "Write a 4-step code that reaches the apple. Make sure NO BUG!",
+     "visual_layout": "Empty 4-box code strip beside a grid with Bot and apple.",
+     "image_placeholders": [{"id": "WS04_P3_WRITE", "description": "A Kindergarten code-writing workspace for coding worksheet, B&W line art. Empty 4-box code strip. Beside: 4x4 grid with Bot at A1 and apple at C3.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["code", "apple"], "text_image_alignment_check": "WS04_P3_WRITE at Part 3: keywords name the code apple workspace task."}],
+     "student_response_type": "draw_or_write", "answer_key": "→→↑↑ or any 4-step path to C3."}
+  ]}],
+  "early_finisher_prompt": "If you finish, design a buggy code for a friend.",
+  "teacher_notes": "Lesson 4 consolidation. Formative — check bug detection."
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "lesson_number": 4,
+  "lesson_title": "What's the Mode?",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "The MODE is the value that appears MOST often. Some data sets have NO mode or MORE THAN ONE.",
+  "learning_intention": "We are learning to find the mode.",
+  "student_learning_goal": "I can find the mode of a data set.",
+  "success_criteria": [
+    "I can FIND the most-common value.",
+    "I can recognize when there's NO mode.",
+    "I can recognize when there's MORE THAN ONE mode."
+  ],
+  "vocabulary_introduced": [
+    "mode"
+  ],
+  "vocabulary_reinforced": [
+    "bar graph"
+  ],
+  "manipulatives_used": [
+    "M4_bar_graph",
+    "M7_data_chart",
+    "M8_mode_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'What is Mode?'",
+    "Bar Graph Grid (1 per pair)",
+    "Pre-built bar graphs for analysis",
+    "Lesson 4 mode tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tally Finds the Mode",
+    "hook": "Tally: This bar graph shows pets. DOG bar is HIGHEST. Dog is the MODE — most common! Dot opens: 'Most counts wins — that's the MODE!'",
+    "teacher_script": "Bring children to the carpet. Detective Dot and Tally puppets. 'Friends — yesterday bar graphs. Today MODE.'\n\nIntroduce vocabulary. Write MODE on chart. 'Mode = the value that appears MOST OFTEN.'\n\nDemo. Show a bar graph: dogs 8, cats 5, fish 2. 'Dogs is highest. Mode = DOGS.'\n\nMore examples:\n- Sport: hockey 7, soccer 5, baseball 3. Mode = HOCKEY.\n- Snack: apple 4, cookie 4, sandwich 3. TWO modes — apple AND cookie. (BIMODAL.)\n- Colour: red 3, blue 3, green 3. NO mode (all same — no single most-common).\n\n'Tally says — mode = MOST. If two are tied for most = TWO modes. If all are tied = NO mode.'\n\n'Today we find modes in tables, pictographs, bar graphs.'",
+    "student_actions": [
+      "Listen to Tally",
+      "Echo 'mode'",
+      "Identify mode in examples",
+      "Practice 'no mode' and 'two modes'"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Mode Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: find the mode in 4 different displays.",
+        "teacher_prompt": "Say: 'Which is most? That's the mode.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Bar Graph mode. B: Tally Mode. C: Pictograph Mode.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at Station C: find a 'NO MODE' or 'TWO MODES' example.",
+        "teacher_prompt": "Say: 'Stretch: tricky modes.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss bimodal and no-mode cases.",
+        "teacher_prompt": "Show: 3-3-3 = no mode. 4-4-3 = bimodal."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share how they found the mode on the same graph — Pair A 'I read all heights, picked tallest'; Pair B 'I scanned for the longest bar, then read the label.' Class debates which is more reliable when bars are close in height. Cite Konold & Higgins (2003) — informal-to-formal data reasoning.",
+        "teacher_prompt": "Dot: 'Different paths to the mode. Both work — but COUNTING beats EYEBALLING when bars are close.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Single mode only.",
+      "for_extending": "Stretch at Station C: bimodal.",
+      "for_ell_or_iep": "Sentence frame: 'The mode is ___ because it appears ___ times.'",
+      "for_movement_learners": "Children stand in lines by answer; tallest line = mode."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: finds mode in bar graph; finds mode in tally; recognizes no-mode and bimodal.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Finds mode in bar",
+        "Finds mode in tally",
+        "Recognizes no-mode",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tally's Mode Brag",
+    "discussion_prompts": [
+      "What is the MODE?",
+      "When is there NO mode?",
+      "Can there be TWO modes?",
+      "Why do detectives care about mode?"
+    ],
+    "exit_routine": "Detective Dot's mode refrain — class chants: 'Most counts wins — that's the MODE!' Each child reads one graph's mode aloud with the sentence frame."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Mode identification.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures D1.4 mastery."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says 'highest bar' for everything, including ties — repairing the mode-mistake trap at Grade 2",
+    "rationale": "On 'find the mode', the trap is identifying the largest VISUAL element rather than the most-frequent CATEGORY. Konold & Higgins (2003, 'Reasoning About Data') and Friel, Curcio & Bright (2001) Level 1 (read the data) place this confusion as central to early data literacy. Without it, Lesson 5's capstone analysis cannot ground.\n\nYesterday Lesson 3 read bar heights as counts. Today we name the mode — the category with the highest count. Lesson 5 capstones.",
+    "setup": "Pair is at Station C. Pictograph: red 4, blue 4, green 3. Child says 'red is the mode'.",
+    "teacher_script": "Crouch. 'You picked red. But Tally asks — count blue too. What's blue's count?'\n\nChild: '4'. 'And red?' '4'. 'TIED! That's BIMODAL — TWO modes.'\n\nGuide. 'Red AND Blue both = 4. Both are modes.'\n\nMore: '3-3-3 = no mode (all tied).'\n\nGeneralise. 'Tally says — count carefully. Tied for highest = TWO modes. All tied = NO mode.'\n\nIf still confused: provide pre-built examples. '3 cases: single mode, bimodal, no mode.'\n\nLong-term recovery: every mode check counts all values.",
+    "expected_student_responses": [
+      "(Confused) Says highest only.",
+      "(Mid) Recognizes ties with prompts.",
+      "(Strong) Identifies bimodal and no-mode independently.",
+      "(Stretched) Predicts mode from data before checking."
+    ],
+    "common_misconceptions": [
+      "Mode = tallest bar always. (Repair: check ties.)",
+      "Mode = unique answer. (Repair: can be 0, 1, or more modes.)",
+      "Mode = average. (Repair: mode = most common; not the same as average.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names tallest bar visually but says wrong category: drill 'point and read' — finger on bar, then finger on x-axis label; SAY both.",
+      "DIAGNOSTIC B — child can identify mode but can't articulate it: force the sentence frame 'The MODE is ___ because it has the MOST ___.'",
+      "DIAGNOSTIC C — child treats ties incorrectly: drill 'two categories tied = TWO modes (or no single mode)'; child labels tied categories explicitly."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tally's Mode Hunt",
+    "purpose": "Independent practice of D1.4.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Find the mode in 4 displays (bar, pictograph, tally, line plot).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Identify 2 special cases: NO mode and TWO modes.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Make your own data set with a clear mode.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tally in worksheet header",
+      "4 displays for Part 1",
+      "2 cases for Part 2",
+      "Blank for Part 3"
+    ]
+  }
+}

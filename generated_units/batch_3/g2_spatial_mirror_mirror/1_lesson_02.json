@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "lesson_number": 2,
+  "lesson_title": "Compose, Decompose, Conserve Area",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "When shapes are REARRANGED, the AREA stays the SAME. Decompose, rearrange, recompose.",
+  "learning_intention": "We are learning to show area stays the same when parts are rearranged.",
+  "student_learning_goal": "I can show area stays the same when parts are rearranged.",
+  "success_criteria": [
+    "I can DECOMPOSE a shape.",
+    "I can REARRANGE the parts.",
+    "I can show AREA is the SAME."
+  ],
+  "vocabulary_introduced": [
+    "compose",
+    "decompose",
+    "area"
+  ],
+  "vocabulary_reinforced": [
+    "side",
+    "angle"
+  ],
+  "manipulatives_used": [
+    "M2_pattern_blocks",
+    "M8_area_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Symmy and Flippy — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Area Stays the Same'",
+    "Pattern Block Set (60 per pair)",
+    "Lesson 2 area tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Flippy Rearranges Tiles",
+    "hook": "Flippy: I have 6 tiles. I make a rectangle — area = 6. Now I REARRANGE into an L-shape — STILL 6! Area stays the SAME! Flippy opens: 'Same TILES, SAME area — Flippy's rule!' Yesterday Symmy SORTED shapes — today we DECOMPOSE them.",
+    "teacher_script": "Bring children to the carpet. Symmy and Flippy puppets. 'Friends — yesterday sides and symmetry. Today COMPOSE, DECOMPOSE, and AREA CONSERVATION.'\n\nIntroduce vocabulary. Write COMPOSE, DECOMPOSE, AREA on chart. 'Compose = put together. Decompose = break apart. Area = how much space the inside covers.'\n\nDemonstrate. Show 6 unit tiles. 'Make a 2×3 rectangle. Area = 6 tiles.' Rearrange. 'Now an L-shape with the same 6 tiles. Area = STILL 6.' Rearrange again. 'A long row of 6. Still 6.' Stack into a different L. 'Still 6!'\n\n'Flippy says — REARRANGING the parts doesn't CHANGE the AREA. Same tiles, same area.'\n\nMore examples:\n- 4 tiles → 2x2 square OR 1x4 row OR L-shape. All area = 4.\n- 8 tiles → many arrangements. All area = 8.\n- 12 tiles → 4x3 rectangle OR 6x2 OR plus-sign shape. All area = 12.\n\n'Symmy says — COMPOSE = build. DECOMPOSE = break. AREA = inside space. The rule: REARRANGING never CHANGES area.'\n\nNon-example. 'If I REMOVE a tile? Area DROPS by 1. So removing changes area, but rearranging doesn't.'\n\n'Today we DECOMPOSE shapes and prove area stays the same.'",
+    "student_actions": [
+      "Watch Flippy rearrange",
+      "Echo 'compose', 'decompose', 'area'",
+      "Practice rearranging 4 tiles",
+      "Count tiles each time"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Area Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: 6 tiles arranged 3 different ways. Count area each time.",
+        "teacher_prompt": "Say: 'Same tiles. Same area?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Decompose 4 shapes into pattern blocks. B: Rearrange 6 tiles into 3 different shapes. C: Pick a target shape, decompose, rearrange.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: rearrange 12 tiles into 4 different shapes.",
+        "teacher_prompt": "Say: 'Stretch: 4 arrangements.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss area conservation rule.",
+        "teacher_prompt": "Show: same tiles → same area no matter the shape."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs decompose a hexagon — Pair A into triangles, Pair B into a rectangle + two triangles. Class compares: same tiles? Same area? Cite Piagetian conservation + Battista (2007) area-as-count.",
+        "teacher_prompt": "Flippy: 'Different decompositions, SAME tiles, SAME area.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A. Decompose only.",
+      "for_extending": "Stretch at C: 4 arrangements.",
+      "for_ell_or_iep": "Sentence frame: 'I rearranged ___ tiles. Area is still ___.'",
+      "for_movement_learners": "Children stand in 4-square arrangement, then rearrange to L-shape. Same children = same area."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: decomposes; rearranges; recognizes area unchanged.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Decomposes shape",
+        "Rearranges parts",
+        "Area unchanged",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Flippy's Area Brag",
+    "discussion_prompts": [
+      "What does COMPOSE mean?",
+      "What does DECOMPOSE mean?",
+      "What is AREA?",
+      "Why does area stay the same when we rearrange?"
+    ],
+    "exit_routine": "Flippy's refrain — class chants: 'Same TILES, SAME area — Flippy's rule!' (3x). Each child rearranges 6 tiles two ways and writes 'area = 6 in both'."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Area conservation understanding.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures E1.2 mastery."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says BIGGER LOOKING means MORE AREA — repairing the appearance-area conflation at Grade 2",
+    "rationale": "On area conservation, the trap is Piagetian conservation-of-area failure: child sees 6 tiles spread out and says 'more area' (Battista 2007 area-as-count vs perimeter conflation). Without conservation, Lesson 4 mapping and Lesson 5 capstone cannot ground.\n\nYesterday Symmy sorted shapes by attributes. Today we DECOMPOSE and rearrange — area stays SAME because tile count stays SAME. Lesson 3 congruence; Lesson 4 maps; Lesson 5 capstones.",
+    "setup": "Pair at B. Child has 6 tiles in 2 arrangements: rectangle (compact) and L-shape (spread out). Says 'L-shape has more area' because it 'spreads more'.",
+    "teacher_script": "Crouch. 'L-shape spreads out — true. But Flippy asks — COUNT the tiles in each.'\n\nGuide. Count rectangle: 6. Count L-shape: 6. 'Same number! Area is COUNT of tiles, not how SPREAD OUT.'\n\nMore demos. Rearrange 6 tiles into 4 shapes. Count each. All 6.\n\nGenerlise. 'Symmy says — area stays the SAME because the COUNT stays the same. Same tiles = same area.'\n\nIf still confused: outline both arrangements with a marker on a transparent grid. Count squares inside each outline.",
+    "expected_student_responses": [
+      "(Confused) Says spread shapes have more area.",
+      "(Mid) Counts with prompts; accepts.",
+      "(Strong) Counts independently.",
+      "(Stretched) Predicts area before counting."
+    ],
+    "common_misconceptions": [
+      "Spread = more area. (Repair: count = area.)",
+      "Different shape = different area. (Repair: same tiles = same area.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child counts correctly but still says spread = more: transparent-grid overlay; child overlays both arrangements and counts grid cells.",
+      "DIAGNOSTIC B — child miscounts tiles: drill 'point and count EVERY tile, no skipping'; chunk in pairs if helpful.",
+      "DIAGNOSTIC C — child says rearranging changes area: physical demo — pick up 6 tiles, lay flat, lay tall; child sees same 6 tiles, different shapes."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Flippy's Area Lab",
+    "purpose": "Independent practice of E1.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Count tiles in 4 arrangements. Are they all the same area?",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Decompose a hexagon into 6 triangles. Show the area is still 6.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Rearrange 8 tiles into 3 different shapes. Show area = 8 each time.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Flippy in worksheet header",
+      "4 arrangements for Part 1",
+      "Hexagon for Part 2",
+      "Blank for Part 3"
+    ]
+  }
+}

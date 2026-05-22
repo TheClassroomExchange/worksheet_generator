@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_measurement_fencing_the_farm", "lesson_number": 1,
+  "worksheet_title": "Roo's Fence Math", "purpose": "Independent practice of E2.1, E2.2.",
+  "student_learning_goal": "I can measure perimeter and pick the right metric unit.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can measure perimeter and pick the right metric unit.",
+    "character_watermark": "Roo the Ruler Rabbit in the top-right with a ruler and tape measure. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Find perimeter.", "student_instructions": "For 4 polygons, add up all sides to find the perimeter.",
+     "visual_layout": "Four polygon icons with side lengths labelled and an answer line for each perimeter total.",
+     "image_placeholders": [{"id": "WS01_P1_PERIM", "description": "A Grade 3 perimeter layout for measurement worksheet, B&W line art. 4 polygons with sides labelled: triangle (4cm,5cm,3cm), square (6cm), hexagon (2cm sides), rectangle (8cm,4cm). Each with answer line.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["polygon", "sides"], "text_image_alignment_check": "WS01_P1_PERIM at Part 1: keywords name the polygon icons with side lengths."}],
+     "student_response_type": "draw_or_write", "answer_key": "Triangle=12cm, Square=24cm, Hexagon=12cm, Rectangle=24cm."},
+    {"part_number": 2, "part_title": "Part 2: Pick a unit.", "student_instructions": "For 4 objects, circle the BEST unit: mm, cm, m, or km.",
+     "visual_layout": "Four object icons with four unit labels to circle for each.",
+     "image_placeholders": [{"id": "WS01_P2_UNITS", "description": "A Grade 3 unit picker for measurement worksheet, B&W line art. 4 objects: ant (mm), pencil (cm), table (m), highway (km). Each with circles labelled mm, cm, m, km.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["objects", "units"], "text_image_alignment_check": "WS01_P2_UNITS at Part 2: keywords name the objects and unit choices."}],
+     "student_response_type": "draw_or_write", "answer_key": "ant=mm, pencil=cm, table=m, highway=km."},
+    {"part_number": 3, "part_title": "Part 3: Build a polygon.", "student_instructions": "Draw a rectangle with perimeter 16 cm. Label sides.",
+     "visual_layout": "Empty rectangle workspace with side-label lines.",
+     "image_placeholders": [{"id": "WS01_P3_BUILD", "description": "A Grade 3 polygon building space for measurement worksheet, B&W line art. Empty workspace with note: 'Perimeter = 16 cm'. Side-label lines around a sample dotted rectangle.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["build", "rectangle"], "text_image_alignment_check": "WS01_P3_BUILD at Part 3: keywords name the build a rectangle space."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any rectangle whose 4 sides sum to 16 (e.g., 6+2+6+2 or 5+3+5+3 or 4+4+4+4)."}
+  ]}],
+  "early_finisher_prompt": "If you finish, find perimeter of your desk in cm.",
+  "teacher_notes": "Lesson 1 consolidation. Diagnostic — check addition and unit choice."
+}

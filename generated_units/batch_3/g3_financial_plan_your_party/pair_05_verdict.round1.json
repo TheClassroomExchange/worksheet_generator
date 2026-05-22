@@ -1,0 +1,60 @@
+{
+  "pair_number": 5,
+  "unit_id": "g3_financial_plan_your_party",
+  "subject": "Mathematics",
+  "alignment": 3,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson 5 references F1.1 cleanly but the expanded_walkthrough and teacher_script never explicitly bridge back to Days 1-4 with named teacher language (e.g., no 'remember on Day 1 when Pat ROUNDED to estimate? Today we use that estimate to CHECK our exact change'). The capstone is the natural place to weave in all four prior arc days, but the script just opens 'Money friends — today is our CAPSTONE' without naming the prior big_ideas (estimate, exact change, cents, mixed).",
+      "required_fix": "Add 2-3 sentences in minds_on.teacher_script that explicitly cross-reference each prior day's big_idea by name: 'On Day 1 we ESTIMATED with Pat. On Day 2 Bea showed EXACT change. Day 3 we did CENTS. Day 4 we mixed them. Today we put it all together to plan a party!' Echo this in expanded_walkthrough so the trap repair connects to the arc.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title is 'When the child OVERSHOOTS the BUDGET — repairing the over-spend trap'. This is a real classroom trap but it sidesteps the actual F1.1 misconception about CHANGE (e.g., child reports change as the price not money-paid-minus-price; child counts up the bills paid as the change; child can't decide whether to subtract price from $20 or $20 from price). Recovery_moves are terse ('Remove items.', 'Drill total ≤ budget.', 'Compare under vs over.') with no research citation and no diagnostic-branched recovery.",
+      "required_fix": "Replace or supplement the trap with the canonical F1.1 misconception: child computes change by adding the price to itself or returns the price as the change rather than money-paid - price. Cite a research anchor (e.g., Carpenter & Moser CGI 'separate result unknown' vs 'compare difference unknown' — change-making is compare/difference). Branch recovery: if child returned price as change, model 'Money paid ($20) STAYS; we take AWAY the price'; if child stuck on subtraction, switch to count-up-from-price strategy on a number line.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials and the action steps depend on printed Big Party Templates and Party Item Cards (16); differentiation lists 'Pre-printed budget grid' and 'Walk between 4 stations physically' but offers no explicit no-paper, no-purchase fallback for a day when prep wasn't possible. Level 4 requires a runnable-anywhere alternative path using only voice, body, or gesture.",
+      "required_fix": "Add to differentiation a 'No-materials version' such as: teacher calls out 4 item-prices verbally, children hold up fingers for each dollar (one finger per $1), partner totals on whiteboard or in air with finger-tracing, and 'pays' by mimicking handing over a $20 bill. Change is shown by holding up fingers for the difference. This makes Lesson 5 runnable when templates haven't been copied.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "action.steps are procedural rotation ('Stations 1-4: pick, total, pay, change'). The lesson does not invite children to INVENT or COMPARE strategies (e.g., 'Some children subtract $20 - $19; some count up from $19 to $20. Which is faster? Which is safer?'). The expanded_walkthrough names the trap in everyday terms ('budget = limit') but does not anchor it in research-grounded language (Carpenter & Moser CGI compare-difference-unknown for change problems is the natural fit).",
+      "required_fix": "Add a 2-minute strategy-share to consolidation: 'Who SUBTRACTED $20 - total? Who COUNTED UP from total to $20? Both work — when is each easier?' In expanded_walkthrough.rationale, name the misconception in CGI terms (compare-difference-unknown) so a coach can locate it.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "worksheet_brief.parts_outline has 3 parts but lesson action describes 4 stations (pick, total, pay, change). Worksheet collapses pick+total into Part 1 and pay+change into Part 2, then adds Part 3 (swap) which corresponds to the expanded_walkthrough trap, not a station. The lesson success_criteria are four ('PICK 4 items', 'TOTAL the cost', 'PAY with right money', 'CALCULATE change') but Part 3 of the worksheet practises a fifth implicit criterion (swap to stay within budget) that is never named in success_criteria.",
+      "required_fix": "Either (a) add a fifth success_criterion 'I can SWAP an item to stay under budget' to lesson_05 so worksheet Part 3 maps to a named criterion, OR (b) split worksheet Part 1 into two parts (Part 1 PICK 4, Part 2 TOTAL) so the worksheet's part numbering mirrors the four stations one-to-one. State explicitly in teacher_notes that Part 3 is a transfer task targeting the expanded_walkthrough trap.",
+      "affected_stages": ["lesson_05", "worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ]
+}

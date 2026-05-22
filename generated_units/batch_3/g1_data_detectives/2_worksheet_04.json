@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "lesson_number": 4,
+  "worksheet_title": "Tally's Ordering Quest",
+  "purpose": "Independent practice of D1.4 — ordering categories by frequency.",
+  "student_learning_goal": "I can order categories from greatest to least.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can order categories from greatest to least.",
+    "character_watermark": "Tally the Tally Cat in the top-right corner pointing to a pictograph with arrows. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Find greatest and least.",
+          "student_instructions": "Look at each pictograph. Circle the GREATEST row. Underline the LEAST row.",
+          "visual_layout": "Three small pictographs stacked vertically. Each pictograph has 3-4 rows. Row counts: Pictograph 1 — Apples 4, Bananas 6, Grapes 2. Pictograph 2 — Sunny 7, Rainy 4, Snowy 2. Pictograph 3 — Soccer 5, Tag 3, Hockey 6, Hopscotch 1. Each pictograph ~5in × 1.5in.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_PICTOGRAPHS",
+              "description": "Three small pictographs stacked vertically for a Grade 1 worksheet, B&W line art. Each pictograph has a title and labels. Pictograph 1 (Favourite Fruit): apples (4), bananas (6), grapes (2) — 3 rows. Pictograph 2 (Weather Last Week): sunny (7), rainy (4), snowy (2) — 3 rows. Pictograph 3 (Recess Game): soccer (5), tag (3), hockey (6), hopscotch (1) — 4 rows. Each pictograph ~5in × 1.5in. Pictures evenly sized.",
+              "placement": "Centred vertically in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["pictographs", "greatest", "least"],
+              "text_image_alignment_check": "Image WS04_P1_PICTOGRAPHS at Part 1: instructions ask the child to identify greatest and least. Keywords name the visual elements (pictographs) and the response criteria (greatest, least)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pictograph 1: greatest = bananas, least = grapes. Pictograph 2: greatest = sunny, least = snowy. Pictograph 3: greatest = hockey, least = hopscotch."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Order from greatest to least.",
+          "student_instructions": "Look at the tally chart. Order the categories from greatest (1) to least (4). Number them.",
+          "visual_layout": "A tally chart with 4 categories: 'Favourite Animal' — Dog ||||CROSS || (7), Cat ||||CROSS (5), Bird || (2), Fish ||||CROSS ||| (8). Beside each row, a blank box for the order number 1-4.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_TALLY",
+              "description": "A 4-row tally chart for a Grade 1 worksheet, B&W line art. Title: 'Favourite Animal'. Rows: Dog with ||||CROSS || (7), Cat with ||||CROSS (5), Bird with || (2), Fish with ||||CROSS ||| (8). Each row has a label, tally area, total, and an empty number box for ordering. Total chart ~5in × 2in.",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["tally", "order", "greatest"],
+              "text_image_alignment_check": "Image WS04_P2_TALLY at Part 2: instructions ask the child to order categories. Keywords name the data source (tally) and the ordering rule (order, greatest)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Fish = 1 (greatest at 8). Dog = 2 (7). Cat = 3 (5). Bird = 4 (least at 2)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Build and order a pictograph.",
+          "student_instructions": "Use this data: 4 hockey, 7 soccer, 3 baseball. Build a pictograph. Then order the rows by greatest to least.",
+          "visual_layout": "A blank pictograph grid with 3 rows. Above: title line. Beside each row: label box and an order number box (1-3). The child draws the pictures, labels rows, and orders.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_GRID",
+              "description": "A blank pictograph grid for a Grade 1 worksheet, B&W line art. ~5in × 3in with 3 empty rows. Each row has a label box on the left, ~7 grid cells in the middle for picture placement, and a small number box on the right for the order. Above the grid, a thin title line. Designed for the child to build a pictograph from given data and order it.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": ["pictograph", "order"],
+              "text_image_alignment_check": "Image WS04_P3_GRID at Part 3: instructions ask the child to build and order a pictograph. Keywords name the format (pictograph) and the ordering task (order)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Title: 'Favourite Sport' (or similar). Hockey row: 4 pictures, order = 2. Soccer row: 7 pictures, order = 1 (greatest). Baseball row: 3 pictures, order = 3 (least)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a sentence: 'The greatest in this graph is ___.'",
+  "teacher_notes": "Lesson 4 consolidation artifact. Use Part 2 as the formative signal for the position-not-count trap — children who order by tally COUNT, not by row position, have mastered the rule."
+}

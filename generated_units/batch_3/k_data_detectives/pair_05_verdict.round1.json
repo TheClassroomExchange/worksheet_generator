@@ -1,0 +1,68 @@
+{
+  "unit_id": "k_data_detectives",
+  "pair_number": 5,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson 5 is the capstone covering A8.1+A8.2+A8.3+A8.4 but neither minds_on, action, nor expanded_walkthrough cross-reference Days 1-4 by name (e.g., 'remember when Detective Dot sorted buttons on Day 1, then Tally counted on Day 2...'). The teacher_script just lists examples instead of bridging the unit arc.",
+      "required_fix": "Add explicit bridge language to the minds_on teacher_script: 'On Day 1 we SORTED with Detective Dot. On Day 2 we COUNTED with Tally. On Day 3 we built PICTOGRAPHS. On Day 4 we READ them. Today you do ALL FOUR.' Reference each prior lesson by number and skill so children feel the arc closing.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves is shallow: 'Use question cards. Drill bounded categories. Practice with 3-4 choices.' No research citation, and recovery does not branch by what the diagnostic told you about the child (e.g., child who picks unbounded vs. child who picks bounded but with non-mutually-exclusive categories).",
+      "required_fix": "Cite a research anchor (e.g., Franke/Kazemi/Battey on classroom data work, or Russell/Schifter/Bastable's 'Working with Data' for K data investigations) and branch recovery: if child picks unbounded ('favourite thing'), provide 4-card forced choice; if child picks bounded but overlapping (e.g., 'apples vs red foods'), redirect to mutually exclusive categories with a sort-mat rehearsal.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists the printed Detective Capstone Template, Class Question Cards (12), and tracker — every child needs the printed capstone template. There is no NO-PAPER, NO-PURCHASE alternative path for the day prep wasn't possible. Differentiation includes 'movement_learners: Survey by walking', but no body/voice-only fallback for the whole capstone.",
+      "required_fix": "Add a no-materials alternative in differentiation: 'No-paper version — children fold a blank page into 4 quadrants (Question, Tally, Graph, Describe), use voice for survey, draw stick-figure pictograph with marker. The capstone runs without any pre-printed template.' This makes Day 5 runnable on any day.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine is 'Each child receives a Junior Data Detective certificate. Whisper: \"My question was ___.\"' — there is no distinctive quotable refrain or memorable chant from Detective Dot or Tally that ties the unit together (e.g., a 'Sort, Count, Graph, Describe!' detective chant children would carry forward). The character refrain that anchors all 5 days is missing.",
+      "required_fix": "Add a unit-spanning chant: e.g., Detective Dot's closing — 'SORT it! COUNT it! GRAPH it! READ it! That's how Data Detectives do it!' Children chant back as they receive certificates. Add this to consolidation.exit_routine and reference it from teacher_script so the character has a quotable refrain children remember.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson lets children pick a question but does not invite them to invent or compare strategies (e.g., compare two different ways of organising the same data — tally vs pictograph vs sort piles — and discuss which makes 'most/fewest' easiest to see). The expanded_walkthrough names the unbounded-question trap but does not anchor it in research-grounded terms (Russell/Schifter/Bastable; Franke; Lehrer & Schauble on data modelling at K).",
+      "required_fix": "In consolidation.discussion_prompts, add: 'Two friends asked the same question but graphed it differently — whose graph makes MOST easiest to see? Why?' This invites strategy comparison. In expanded_walkthrough.rationale, cite Lehrer & Schauble (2007) on data modelling — children must learn that data questions need bounded, mutually exclusive categories before they can model variability.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "Solid capstone that integrates A8.1-A8.4 with a clear five-section template (Question/Survey/Tally/Graph/Describe) and the worksheet maps cleanly onto the lesson's success criteria — lesson_worksheet_consistency is the strongest category at 4. Five categories sit at 3, which trips the strict bar (needs all 4s with at most one 3). Highest-impact fixes: (1) add explicit Day-1-through-Day-4 bridge language so the capstone closes the arc; (2) deepen the expanded_walkthrough with a research citation and branched recovery; (3) add a no-paper fallback path; (4) give Detective Dot/Tally a quotable closing chant; (5) invite strategy comparison in consolidation. With those, the pair clears the bar."
+}

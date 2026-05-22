@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 5,
+  "worksheet_title": "My Mystery Case",
+  "purpose": "Summative evidence for C2.1 + C2.2 + C2.3.",
+  "student_learning_goal": "I can write a mystery case using a variable and solve it.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can write a mystery case using a variable and solve it.", "character_watermark": "Detective Dee and Mystery Mo together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Case", "student_instructions": "Write a real-life mystery case in 1-2 sentences. Pick something from your day.", "visual_layout": "Top of page. A case description box.",
+      "image_placeholders": [{"id": "WS05_P1_CASE", "description": "A case description box in B&W line-art, ~7in x 1.5in. Two long lines for sentences. Small drawing area on the right. Header 'Part 1: My Mystery'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["mystery"], "text_image_alignment_check": "Image WS05_P1_CASE: keywords (mystery) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Real-life situation with a hidden number."},
+    {"part_number": 2, "part_title": "Part 2: My Equation", "student_instructions": "Translate your case into an equation. Use a variable for the unknown.", "visual_layout": "Upper-middle. A long equation slot.",
+      "image_placeholders": [{"id": "WS05_P2_EQN", "description": "A long equation slot in B&W line-art, ~7in x 1in. Header 'Part 2: Equation'. Format: 'My equation: ___'.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["equation"], "text_image_alignment_check": "Image WS05_P2_EQN: keywords (equation) name what the slot asks for."}],
+      "student_response_type": "write", "answer_key": "Open. Equation must include a variable symbol."},
+    {"part_number": 3, "part_title": "Part 3: Solve and Check", "student_instructions": "Solve the equation. Show your work. CHECK by substituting back.", "visual_layout": "Middle. A work-and-check box.",
+      "image_placeholders": [{"id": "WS05_P3_SOLVE", "description": "A solve-and-check box in B&W line-art, ~7in x 2in. Top: 'My answer: ___'. Below: 'My check: ___'. Includes work area. Header 'Part 3: Solve and Check'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["solve"], "text_image_alignment_check": "Image WS05_P3_SOLVE: keywords (solve) name what the box asks for."}],
+      "student_response_type": "write", "answer_key": "Open. Answer must verify the equation."},
+    {"part_number": 4, "part_title": "Part 4: Equivalent Expression", "student_instructions": "Write 1 equivalent expression for your answer. (For example: if your answer is 50, write 50 = 25+25 = 60-10.)", "visual_layout": "Lower-middle. An expression line.",
+      "image_placeholders": [{"id": "WS05_P4_EQUIV", "description": "An expression slot in B&W line-art, ~7in x 1in. Header 'Part 4: Equivalent Expression'. Format: '___ = ___'.", "placement": "Lower-middle.", "approximate_size": "full_width", "keywords": ["equivalent"], "text_image_alignment_check": "Image WS05_P4_EQUIV: keywords (equivalent) name what the slot asks for."}],
+      "student_response_type": "write", "answer_key": "Open. Must equal the answer from Part 3."},
+    {"part_number": 5, "part_title": "Part 5: Reflection", "student_instructions": "What does the variable in your case stand for?", "visual_layout": "Bottom. A reflection box.",
+      "image_placeholders": [{"id": "WS05_P5_REFLECT", "description": "A reflection box in B&W line-art, ~7in x 1.5in, with 2 lines. Header 'Part 5: Reflection'. Lines: 'My variable stands for: ___'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["reflection"], "text_image_alignment_check": "Image WS05_P5_REFLECT: keywords (reflection) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Should clearly identify what the variable represents."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and solve each other's mystery cases.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use as integrated C2.1 + C2.2 + C2.3 evidence. Watch for no-variable cases."
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "thematic_title": "Will It? Maybe!",
+  "descriptive_title": "Grade 1 Mathematics: Demonstrations — A First Look at Likelihood (D2.1-D2.2)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "D. Data",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-1",
+  "curriculum_codes": ["D2.1", "D2.2"],
+  "curriculum_expectations": {
+    "D2.1": "use mathematical language, including the terms “impossible”, “possible”, and “certain”, to describe the likelihood of events happening, and use that likelihood to make predictions and informed decisions",
+    "D2.2": "make and test predictions about the likelihood that the categories in a data set from one population will have the same frequencies in data collected from a different population of the same size"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on likelihood (D2.1, D2.2) framed around 'Will It? Maybe!' — Lucky Lou the Loon and Maybe Mae the Cat. Day 1 introduces IMPOSSIBLE, POSSIBLE, CERTAIN. Day 2 sorts events by likelihood. Day 3 makes predictions. Day 4 tests predictions in a new group. Day 5 closes with a Likelihood Lab capstone. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will use the terms IMPOSSIBLE, POSSIBLE, CERTAIN to describe likelihood, make predictions, and test those predictions in another group.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Impossible, Possible, Certain",
+      "primary_expectations": ["D2.1"],
+      "secondary_expectations": [],
+      "big_idea": "Some events CAN'T happen (impossible). Some MIGHT (possible). Some MUST (certain).",
+      "student_learning_goal": "I can name events as impossible, possible, or certain.",
+      "one_line_summary": "Lucky Lou tries silly events; children name them impossible / possible / certain."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Sort by Likelihood",
+      "primary_expectations": ["D2.1"],
+      "secondary_expectations": [],
+      "big_idea": "We can SORT everyday events into THREE likelihood buckets: impossible, possible, certain.",
+      "student_learning_goal": "I can sort events into three likelihood groups.",
+      "one_line_summary": "Maybe Mae shows event cards; children sort them into the three buckets."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Make a Prediction",
+      "primary_expectations": ["D2.1", "D2.2"],
+      "secondary_expectations": [],
+      "big_idea": "We can use likelihood to PREDICT what will happen. The MORE LIKELY thing is the BEST PREDICTION.",
+      "student_learning_goal": "I can use likelihood to predict.",
+      "one_line_summary": "Lucky predicts coin flips and dice rolls; children predict using likelihood."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Test Your Prediction",
+      "primary_expectations": ["D2.2"],
+      "secondary_expectations": ["D2.1"],
+      "big_idea": "We can TEST a prediction in a new group. The same prediction may give DIFFERENT results.",
+      "student_learning_goal": "I can test a prediction in a new group.",
+      "one_line_summary": "Maybe Mae predicts pet preferences; children test in another class."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Likelihood Lab Capstone",
+      "primary_expectations": ["D2.1", "D2.2"],
+      "secondary_expectations": [],
+      "big_idea": "Detectives use LIKELIHOOD to predict and TEST. The data tells us if our prediction was right.",
+      "student_learning_goal": "I can predict, test, and tell if my prediction was right.",
+      "one_line_summary": "Children run a 5-station Likelihood Lab and write what their prediction showed."
+    }
+  ],
+  "expectation_lesson_map": {
+    "D2.1": [1, 2, 3, 5],
+    "D2.2": [3, 4, 5]
+  },
+  "recurring_characters": [
+    {
+      "name": "Lucky Lou the Loon",
+      "role": "Lead character. A friendly Canadian loon detective who predicts events. Anchors all 5 lessons.",
+      "visual_description": "A young loon with bright eyes and a small detective hat, holding a magnifying glass over a coin or die. Curious and confident."
+    },
+    {
+      "name": "Maybe Mae the Cat",
+      "role": "Lucky's partner. The 'maybe' character — embodies uncertainty and tests predictions. Cameo Lessons 2-5.",
+      "visual_description": "A small striped cat with a question-mark patch on her vest. Tilted head, considering pose. Holds a clipboard for predictions."
+    }
+  ],
+  "threaded_vocabulary": [
+    {"term": "impossible", "child_friendly_definition": "It CANNOT happen. No way."},
+    {"term": "possible", "child_friendly_definition": "It MIGHT happen. Maybe."},
+    {"term": "certain", "child_friendly_definition": "It WILL happen. For sure."},
+    {"term": "likelihood", "child_friendly_definition": "How likely something is to happen."},
+    {"term": "predict", "child_friendly_definition": "To say what will happen before it happens."},
+    {"term": "test", "child_friendly_definition": "To try and see if your prediction was right."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_event_cards", "name": "Event Cards", "description": "Set of 24 event cards (silly + everyday) for sorting by likelihood.", "used_in_lessons": [1, 2, 5], "clipart_files": []},
+    {"id": "M2_likelihood_mat", "name": "Likelihood Sort Mat", "description": "Letter-size mat with 3 zones: IMPOSSIBLE, POSSIBLE, CERTAIN.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M3_coin_set", "name": "Paper Coin Set", "description": "Set of 12 paper coins for predicting heads/tails.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M4_dice_set", "name": "Paper Dice Set", "description": "Set of 6 paper dice (foldable) for predicting outcomes.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M5_prediction_mat", "name": "Prediction Recording Mat", "description": "Letter-size mat for predicting and recording results in a 2-column table.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Likelihood Lab Template", "description": "Letter-size capstone template with 5 station response areas.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_likelihood_chart", "name": "Likelihood Anchor Chart", "description": "Anchor chart with the 3 likelihood terms and example events.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_predict_chart", "name": "Predict and Test Chart", "description": "Anchor chart of the 4-step cycle: predict, test, record, compare.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M9_outcome_cards", "name": "Outcome Cards", "description": "Set of 16 event-outcome cards (heads/tails, sun/rain, etc.) for prediction.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M10_likelihood_poster", "name": "Will It? Maybe! Poster", "description": "Anchor poster of Lucky and Mae with the 3 likelihood zones.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Event Cards (24)",
+    "Likelihood Sort Mat (per pair)",
+    "Paper Coin Set (12)",
+    "Paper Dice Set (6 foldable)",
+    "Prediction Recording Mat (per pair)",
+    "Likelihood Lab Template (per child)",
+    "Likelihood Anchor Chart",
+    "Predict and Test Chart",
+    "Outcome Cards (16)",
+    "Will It? Maybe! Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 likelihood term snapshot.",
+    "formative": "Lesson 2 sort tracker; Lesson 3 prediction tracker; Lesson 4 test tracker.",
+    "summative": "Lesson 5 likelihood lab capstone."
+  },
+  "pedagogical_notes": [
+    "Grade 1 likelihood is qualitative — no numerical probabilities. Just 3 terms.",
+    "Use everyday events students recognize: 'will it rain', 'will the coin land heads'.",
+    "Predictions are educated guesses, not always correct — name this explicitly.",
+    "Testing in a new group (D2.2) shows that predictions vary by population.",
+    "Connect to scientific thinking — predict, test, observe, revise."
+  ],
+  "canadian_context_notes": [
+    "Use Canadian weather examples: 'snow in July' (impossible), 'rain in spring' (possible), 'maple leaves fall in fall' (certain).",
+    "Loonie and toonie coins for the coin flip.",
+    "Hockey predictions: 'will the team win?' (possible).",
+    "Survey at school vs at home for predict-and-test contrast."
+  ]
+}

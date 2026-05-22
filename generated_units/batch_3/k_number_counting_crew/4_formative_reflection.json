@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "formative_worksheets": [
+    {
+      "title": "Numerals 0–20 Check-In",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 minutes) that captures number-recognition fluency 0–20 and confirms the tricky-teen visual decoding (a teen number starts with a 1) has landed before the unit moves into subitizing in Lesson 4.",
+      "purpose": "Standalone formative assessment distinct from the Lesson 3 take-home worksheet. Lets the teacher quickly see which children are confident matching numerals to quantities, sequencing teens, and decoding a teen as 'one tens-stick plus extras' — and which children need a 90-second tens-stick refresh during morning meeting before Lesson 4.",
+      "expectations_assessed": ["A6.3", "A6.2"],
+      "student_learning_goal": "I can read and write the numbers from 0 to 20.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can read and write the numbers from 0 to 20.",
+        "character_watermark": "Mae stands in the top-right corner holding a small chef's chalkboard with the numerals 0, 13, and 20 written on it — the 'check-in Mae' that signals this is a quick review, not a full lesson worksheet. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Draw a line to match each number card to the right group of cubes.",
+          "visual_layout": "A two-column matching block. The LEFT column shows three large numeral cards stacked vertically: 4, 8, and 13 — each card about 1.5in square with a thick black border and the digit centred. The RIGHT column shows three quantity pictures stacked vertically in deliberately shuffled order so matches require thought: a row of 8 separate cubes, a single tens-frame fully filled with 10 cubes plus 3 extra loose cubes off to the right (visually showing 13), and a row of 4 separate cubes. A wide blank match-zone runs between the two columns; the child draws a connecting line from each numeral to its matching cubes group.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_NUMBER_QUANTITY_MATCH",
+              "description": "A two-column matching grid in B&W line-art. LEFT column: three large numeral cards stacked vertically — 4, 8, 13 — each card ~1.5in square with a thick black border. RIGHT column (in shuffled order top-to-bottom): a row of 8 small cubes, a fully-filled tens-frame in 2x5 grid plus 3 loose extra cubes to its right showing 13, and a row of 4 small cubes. Wide blank match-zone between the columns. Total block ~6.5in wide. K-readable type, no shading.",
+              "placement": "Centred horizontally in Prompt 1, spans most of the page width.",
+              "approximate_size": "full_width",
+              "keywords": ["number", "card", "match", "cubes", "tens-frame", "extras"],
+              "text_image_alignment_check": "Student instructions say 'Draw a line to match each number card to the right group of cubes.' Visual_layout names every keyword: number cards (4, 8, 13), cubes (the loose-cube rows on the right), tens-frame (the filled 2x5 grid), and extras (the loose cubes beside the tens-frame for the 13 match). The validator stems 'matching' from 'match' and 'extras' to share its stem with 'extra'."
+            }
+          ],
+          "response_type": "match",
+          "answer_key": "4 → row of 4 cubes. 8 → row of 8 cubes. 13 → tens-frame with 3 extra cubes. A child who matches 13 to the row of 8 cubes (because 'they both look long') has not yet bound the numeral 13 to the tens-stick model — re-loop the Lesson 3 expanded walkthrough during morning meeting."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Write the missing number in each empty box. Some lines count forward and some count backward.",
+          "visual_layout": "Three horizontal number lines stacked vertically, each about 6in wide. LINE 1 (forward): 7, 8, 9, [empty box], 11. LINE 2 (forward through teens): 11, 12, [empty box], [empty box], 15. LINE 3 (backward): 20, 19, [empty box], 17, [empty box]. Each numeral sits inside a cell of uniform size with thin black borders; empty boxes have a faint dotted baseline so children write neatly. A small left-arrow icon labels Line 3 to remind children they are counting backward.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_FILL_THE_NUMBER_LINE",
+              "description": "Three horizontal number-line strips stacked vertically, each ~6in wide. Strip 1 (forward, labelled with a small right-arrow): cells reading 7, 8, 9, [empty], 11. Strip 2 (forward through teens): cells reading 11, 12, [empty], [empty], 15. Strip 3 (backward, labelled with a small left-arrow): cells reading 20, 19, [empty], 17, [empty]. Each cell ~1in wide x 1.2in tall with a thin black border; empty cells have a faint dotted baseline for the child's pencil. Numerals in K-readable slab font.",
+              "placement": "Centred horizontally in Prompt 2, all three lines stacked on the middle of the page.",
+              "approximate_size": "full_width",
+              "keywords": ["number", "line", "forward", "backward", "empty", "box"],
+              "text_image_alignment_check": "Student instructions say 'Write the missing number in each empty box. Some lines count forward and some count backward.' Visual_layout names every keyword: number lines, empty boxes for the missing numerals, the forward right-arrow on Lines 1 and 2, and the backward left-arrow on Line 3."
+            }
+          ],
+          "response_type": "write",
+          "answer_key": "Line 1: 10. Line 2: 13 and 14. Line 3: 18 and 16. A child who writes 30 in Line 2's first empty (the 13 slot) is repeating the 'thirteen / thirty' confusion — the recovery is the tens-stick demo from Lesson 3. A child who writes 17 in Line 3's last empty has slipped from counting backward to forward — pause and have them physically step backward on the Lesson 2 Counting Path mat before Lesson 4."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling about reading and writing numbers? Circle the face that fits.",
+          "visual_layout": "Three round face icons in a horizontal row, each about 1.5in across. Left face: B&W line-art smiling face with a curved upturned mouth. Middle face: neutral straight-line mouth. Right face: line-art with a downturned mouth. Below each face, printed labels in K-readable type: 'I got it!', 'Almost!', 'Need help!'. The child circles one face. Total row width about 6in, centred on the page.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons in a horizontal row, each ~1.5in across. Left face: B&W line-art smiling face with curved upturned mouth. Middle face: neutral straight-line mouth. Right face: line-art with downturned mouth. Below each face, printed labels in K-readable slab type: 'I got it!', 'Almost!', 'Need help!'. Total row ~6in wide.",
+              "placement": "Centred horizontally in Prompt 3 near the bottom of the page.",
+              "approximate_size": "full_width",
+              "keywords": ["face", "circle"],
+              "text_image_alignment_check": "Student instructions say 'Circle the face that fits.' Visual_layout describes three face icons in a row that the child circles, so both keywords (face, circle) appear in the surrounding text the child reads. Labels under each face are not keywords because they are answer options, not entities the validator must cross-reference."
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open. The teacher uses this self-rating alongside Prompts 1 and 2 to spot mismatches: a child who got Prompt 1 wrong but circled 'I got it!' may need a confidence-checking conversation; a child who got Prompts 1 and 2 right but circled 'Need help!' may just need confidence-building, not re-teaching."
+        }
+      ],
+      "teacher_notes": "Administer this between Lesson 3 and Lesson 4. Print one per child; circulate while children work and note who finishes confidently versus who hesitates over the teen slot in Line 2 of Prompt 2. Score guide: 2/2 + confident self-rating = ready for Lesson 4. 2/2 + low self-rating = nudge confidence with a positive specific (e.g., 'You wrote 14 perfectly — that's a teen!'). 1/2 with the wrong half being the teen on Prompt 2 = brief 1:1 conference reviewing the tens-stick model before Lesson 4. 0/2 = small-group re-loop on Lesson 3's expanded walkthrough (Repairing 'Thirty / Thirteen' confusion) before continuing — do NOT push this child into Lesson 4 subitizing while teen recognition is still fragile."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Counting Crew Reflection",
+    "purpose": "End-of-unit metacognition. Children look back at their week of counting work and rate themselves, audit which activities they completed, name a favourite, name a struggle, and set a forward goal. Companion to the Lesson 5 summative — captures voice, not skill.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Mae and Theo stand together in the top-right corner holding a small chef's chalkboard that reads 'Counting Crew' — the 'reflection-time' duo. Buddy the puppy sits beside them with one paw raised. Small (~1.8in tall total). References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Counting Crew member? Circle one.",
+        "visual_layout": "Three star-rating options shown horizontally, each enclosed in a thin oval ~2in wide and 1.5in tall: LEFT oval contains 1 large star, MIDDLE oval contains 2 stars side by side, RIGHT oval contains 3 stars side by side. Beneath each oval, a printed label: 'Just starting', 'Mostly got it', 'I am Counting Crew!'. The child circles one whole oval. Total row ~6.5in wide, centred on the page.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three options shown horizontally in thin ovals. LEFT oval: 1 large star (~1in wide). MIDDLE oval: 2 stars side by side. RIGHT oval: 3 stars side by side. Each oval ~2in wide x 1.5in tall. Beneath each oval, a printed label in K-readable type: 'Just starting', 'Mostly got it', 'I am Counting Crew!'. Total row ~6.5in wide. B&W line art only, no fill.",
+            "placement": "Centred horizontally in Prompt 1.",
+            "approximate_size": "full_width",
+            "keywords": ["star", "circle", "oval"],
+            "text_image_alignment_check": "Student prompt says 'Circle one.' Visual_layout names each visual element: ovals (the three rating containers), stars (1, 2, or 3 stars per oval as the visible rating). The keyword 'circle' matches the action verb in the prompt; 'star' and 'oval' match the named shapes in the visual_layout."
+          }
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am Counting Crew!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things this week? Circle YES or NO.",
+        "visual_layout": "A bordered four-row table approximately 6in wide. Each row about 1in tall. The LEFT column (~4in wide) holds the question text in K-readable type; the RIGHT column (~2in wide) holds two bubbles labelled YES and NO side by side. Questions, top to bottom: 'I counted forward to 20.', 'I counted backward from 20.', 'I wrote a teen number.', 'I built a number two ways with cubes.'. Thin grey row dividers separate the rows. The child circles one bubble per row.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A bordered four-row table ~6in wide. Each row ~1in tall, separated by thin grey row dividers. LEFT column ~4in wide containing question text in K-readable slab type. RIGHT column ~2in wide containing two bubbles labelled 'YES' and 'NO' side by side, each ~0.7in across. Questions top to bottom: 'I counted forward to 20.', 'I counted backward from 20.', 'I wrote a teen number.', 'I built a number two ways with cubes.'. B&W line art only.",
+            "placement": "Centred horizontally in Prompt 2.",
+            "approximate_size": "full_width",
+            "keywords": ["table", "yes", "no", "circle", "row"],
+            "text_image_alignment_check": "Student prompt says 'Circle YES or NO.' Visual_layout names every keyword: a four-row table, the YES and NO bubbles per row, the circle action the child performs, and the question rows themselves. The four question texts inside the table are answer options, not entities the validator cross-references as keywords."
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I counted forward to 20.", "I counted backward from 20.", "I wrote a teen number.", "I built a number two ways with cubes."]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite part of the Counting Crew week was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide and 1.8in tall, centred on the page below the printed prompt. The box is empty workspace; the child draws or writes inside it. Faint guide-lines run across the bottom half of the box for children who prefer to write words rather than draw a picture.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle ~5in wide x 1.8in tall, centred horizontally. Thin solid black border, empty inside. Faint horizontal guide-lines run across the lower half for children who prefer to write rather than draw. Printed prompt text 'My favourite part of the Counting Crew week was...' appears above the box.",
+            "placement": "Centred horizontally in Prompt 3.",
+            "approximate_size": "full_width",
+            "keywords": ["box", "draw", "write"],
+            "text_image_alignment_check": "Student prompt is open-ended ('My favourite part of the Counting Crew week was...'); the response_type is draw_or_write. Visual_layout explicitly names the empty drawing box and the guide-lines for writing — both keywords are mentioned. The keyword 'box' matches 'box' in visual_layout; 'draw' and 'write' match 'draws or writes' and 'write words' via stem matching."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide and 1.8in tall, centred on the page below the printed prompt. Identical layout to the favourite-part box: thin black border, empty inside, faint horizontal guide-lines across the lower half for children who write rather than draw.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle ~5in wide x 1.8in tall, centred horizontally. Identical layout to REF_FAV_BOX: thin solid black border, empty inside, faint horizontal guide-lines across the lower half. Printed prompt text 'The trickiest part for me was...' appears above the box.",
+            "placement": "Centred horizontally in Prompt 4.",
+            "approximate_size": "full_width",
+            "keywords": ["box", "draw", "write"],
+            "text_image_alignment_check": "Student prompt is open-ended; response_type is draw_or_write. Visual_layout names the empty box and the guide-lines for writing — the keywords 'box', 'draw', and 'write' are present via stem matching ('writing' → 'writ', 'draws' → 'draw')."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangular box approximately 5in wide and 1.8in tall, centred on the page below the printed prompt. Identical layout to the previous two boxes: thin black border, empty inside, faint horizontal guide-lines across the lower half. The child draws or writes a forward-looking goal inside the box.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle ~5in wide x 1.8in tall, centred horizontally. Identical layout to the other reflection boxes: thin solid black border, empty inside, faint horizontal guide-lines across the lower half. Printed prompt text 'Next time, I want to try...' appears above the box.",
+            "placement": "Centred horizontally in Prompt 5.",
+            "approximate_size": "full_width",
+            "keywords": ["box", "draw", "write"],
+            "text_image_alignment_check": "Student prompt is open-ended; response_type is draw_or_write. Visual_layout names the empty box and the guide-lines for writing — the keywords 'box', 'draw', and 'write' are present in the surrounding text via stem matching."
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the very end of Lesson 5, alongside the Junior Counting Crew certificate ceremony. Children at K may need scribe support for prompts 3–5 — accept a drawing as a complete answer. Read responses to inform your unit notes for next year (which prompts kept emerging as 'trickiest', which moments children loved). The yes/no audit on Prompt 2 is also a quick teacher check: a 'NO' on 'I wrote a teen number' or 'I built a number two ways with cubes' signals the child either missed a key activity or doesn't recognise that they did it — worth a 30-second conference. Save the completed reflections in the per-child portfolio alongside the Lesson 5 summative."
+  }
+}

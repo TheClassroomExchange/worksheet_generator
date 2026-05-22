@@ -1,0 +1,12 @@
+{
+  "unit_id": "g2_number_groups_of",
+  "status": "pass",
+  "inspected_at": "2026-05-10T00:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch4",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 16, "description": "Dan's Equal-Sharing worksheet Part 4 prompt clips mid-sentence: 'How many DIFFERENT ways can they share them fairly between friends? List all the' — likely overflow truncation but not blocking student use."},
+    {"page": 1, "description": "Title page subtitle 'Groups of' shown in light gray; matches design pattern across batch."}
+  ],
+  "summary": "Post-F20 worksheet composer renders title + prompt + ruled workspace cleanly (no debug stubs). All puppets render with kawaii art and recognizable captions. One prompt sentence appears truncated on page 16 but not a hard blocker. PASS."
+}

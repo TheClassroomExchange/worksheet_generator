@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "lesson_number": 2,
+  "lesson_title": "Frequency Tables",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "FREQUENCY TABLES list categories with their COUNTS. Qualitative = words. Quantitative = numbers.",
+  "learning_intention": "We are learning to build a frequency table.",
+  "student_learning_goal": "I can build a frequency table with qualitative or quantitative data.",
+  "success_criteria": [
+    "I can ask a survey question.",
+    "I can build a FREQUENCY TABLE.",
+    "I can distinguish QUALITATIVE and QUANTITATIVE data."
+  ],
+  "vocabulary_introduced": [
+    "frequency table",
+    "qualitative data",
+    "quantitative data"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M2_frequency_template",
+    "M5_data_cards",
+    "M7_data_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Frequency Tables'",
+    "Frequency Table Template (1 per pair)",
+    "Lesson 2 frequency tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tally Builds a Frequency Table",
+    "hook": "Tally: Favourite drink — qualitative WORDS. Number of pets — quantitative NUMBERS. Both go in a FREQUENCY TABLE! Tally opens: 'WORDS go in QUAL, NUMBERS go in QUANT!'",
+    "teacher_script": "Bring children to the carpet. Detective Dot and Tally puppets. 'Friends — yesterday tree diagrams. Today FREQUENCY TABLES.'\n\nIntroduce vocabulary. Write FREQUENCY TABLE, QUALITATIVE, QUANTITATIVE on chart. 'Frequency = how often. Qualitative = words/categories. Quantitative = numbers.'\n\nDemonstrate. Build a frequency table for QUALITATIVE data (favourite sport):\n\n  Sport     | Frequency\n  Hockey    | ||||CROSS ||||CROSS = 10\n  Soccer    | ||||CROSS  = 5\n  Baseball  | ||||  = 4\n  Skiing    | || = 2\n\nNow QUANTITATIVE (number of pets each child has):\n\n  Pets | Frequency\n  0    | ||||CROSS  = 5\n  1    | ||||CROSS ||||CROSS = 10\n  2    | ||| = 3\n  3+   | || = 2\n\n'Tally says — both kinds of data go in tables. Categories on left. Counts on right.'\n\nMore examples (Canadian flavour):\n- 'Favourite season' qualitative.\n- 'Number of snowy days last week' quantitative.\n- 'Hockey team you cheer for' qualitative.\n- 'Hours of TV per week' quantitative.\n\n'Detective Dot says — qualitative = WORDS. Quantitative = NUMBERS. Both work the same in a frequency table.'\n\n'Today YOU build 2 frequency tables: one of each kind.'",
+    "student_actions": [
+      "Listen to Tally",
+      "Echo new vocabulary",
+      "Distinguish qualitative vs quantitative",
+      "Practice building tables"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Frequency Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: build a frequency table for 'favourite season' (8 students).",
+        "teacher_prompt": "Say: 'Categories. Counts.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Build qualitative table from survey. B: Build quantitative table from survey. C: Sort 6 questions as qualitative or quantitative.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: invent 3 of each kind.",
+        "teacher_prompt": "Say: 'Stretch: invent.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss qualitative vs quantitative.",
+        "teacher_prompt": "Show: words vs numbers."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: Pairs design TWO different frequency table layouts for the same survey. Class compares: which makes totals easier? Cite Lehrer & Schauble (2002) — recording structure affects analysis.",
+        "teacher_prompt": "Tally: 'Same survey, different layouts. Pick the one your future self can read.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "A only. Qualitative table.",
+      "for_extending": "Stretch at C: invent 3 of each.",
+      "for_ell_or_iep": "Sentence frame: 'My data is QUAL or QUANT because ___.'",
+      "for_movement_learners": "Children stand in line by their answers; teacher tallies. NO-PAPER PATH: children stand in two lines (QUAL line vs QUANT line) when teacher calls out a survey value. Body becomes the frequency table."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: builds frequency table; distinguishes qual/quant; counts correctly.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Builds frequency table",
+        "Distinguishes qual quant",
+        "Counts correctly",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tally's Frequency Brag",
+    "discussion_prompts": [
+      "What's a FREQUENCY TABLE?",
+      "Qualitative vs quantitative?",
+      "Give one of each.",
+      "Why do we tally before counting?"
+    ],
+    "exit_routine": "Tally's table refrain — 'Tally's rule: WORDS go in QUAL, NUMBERS go in QUANT!' (3x). Each child writes one row in each table from their survey."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Frequency table accuracy.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures D1.2."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child confuses QUALITATIVE and QUANTITATIVE — repairing the data-type mix-up at Grade 3",
+    "rationale": "On qualitative vs quantitative classification, the Grade-3 trap is treating numerical values as qualitative (e.g., 'age 7' as a label category rather than a quantity). Lehrer & Schauble (2002) and NCTM data trajectories place qual/quant distinction as the frequency-table prerequisite.\n\nYesterday Dot's branches were qualitative attributes. Today we distinguish QUAL (words/labels) from QUANT (numbers/measurements) and tabulate. Lesson 3 bar graphs; Lesson 4 mean/mode; Lesson 5 capstones.",
+    "setup": "Pair at C. Question 'favourite number'. Child says QUALITATIVE.",
+    "teacher_script": "Crouch. 'Tally asks — what KIND of value would each child give? A NUMBER like 7 or 23. That's QUANTITATIVE.'\n\nGuide. 'Qualitative = words/categories (red, hockey, summer). Quantitative = numbers (7, 23, 100).'\n\nGenerlise. 'Tally says — look at the VALUES. Words = qual. Numbers = quant.'\n\nIf still confused: provide examples chart.",
+    "expected_student_responses": [
+      "(Confused) Mixes types.",
+      "(Mid) Distinguishes with prompts.",
+      "(Strong) Distinguishes independently.",
+      "(Stretched) Catches edge cases (number-of-letters in name = quant)."
+    ],
+    "common_misconceptions": [
+      "Words = always qualitative regardless of subject. (Repair: look at value type.)",
+      "Numbers = always quantitative. (Repair: usually yes, but check.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names a number but calls it qualitative: drill 'point to the VALUE — is it a NUMBER you could AVERAGE? Then it's QUANT.'",
+      "DIAGNOSTIC B — child sees a label and calls it quant: drill the opposite — 'words in QUAL, numbers in QUANT.'",
+      "DIAGNOSTIC C — child gets it but can't tabulate: side-by-side model — qual table + quant table for the same survey."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tally's Frequency Builder",
+    "purpose": "Independent practice of D1.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Sort 6 survey questions as QUAL or QUANT.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Build a frequency table from a tally chart.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Make your own qualitative + quantitative survey.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tally in worksheet header",
+      "6 questions for Part 1",
+      "Tally + table for Part 2",
+      "Blank for Part 3"
+    ]
+  }
+}

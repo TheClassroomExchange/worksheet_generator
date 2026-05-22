@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "lesson_number": 4,
+  "worksheet_title": "Bella's Many Ways",
+  "purpose": "Independent practice of C2.3 (equivalent expressions for whole numbers to 50).",
+  "student_learning_goal": "I can find many equivalent expressions for the same whole number up to 50.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can find many equivalent expressions for the same whole number up to 50.", "character_watermark": "Bella in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Make 10", "student_instructions": "Write 8 different ways to make 10. Use addition AND subtraction.", "visual_layout": "Top of the page. Eight blank slots in a 2x4 grid.",
+      "image_placeholders": [{"id": "WS04_P1_EIGHT_SLOTS", "description": "Eight blank expression slots in B&W line-art, 2-row × 4-column grid. Each slot ~2in × 0.7in. Format: '10 = ___ ___ ___'. Header: '8 different ways!'", "placement": "Top of the page; 2x4 grid.", "approximate_size": "full_width", "keywords": ["ways"], "text_image_alignment_check": "Image WS04_P1_EIGHT_SLOTS: keywords (ways) name what the slots ask for."}],
+      "student_response_type": "write", "answer_key": "Open. Examples: 10 = 5+5, 4+6, 3+7, 2+8, 1+9, 0+10, 11-1, 12-2, 15-5, 8+2, 6+4, 7+3."},
+    {"part_number": 2, "part_title": "Part 2: Make 25", "student_instructions": "Write 6 different ways to make 25.", "visual_layout": "Middle. Six blank slots in a 2x3 grid.",
+      "image_placeholders": [{"id": "WS04_P2_SIX_SLOTS", "description": "Six blank expression slots in B&W line-art, 2-row × 3-column grid. Each slot ~2.5in × 0.8in. Format: '25 = ___ ___ ___'. Header: '6 different ways!'", "placement": "Middle; 2x3 grid.", "approximate_size": "full_width", "keywords": ["ways"], "text_image_alignment_check": "Image WS04_P2_SIX_SLOTS: keywords (ways) name what the slots ask for."}],
+      "student_response_type": "write", "answer_key": "Open. Examples: 25 = 20+5, 15+10, 12+13, 24+1, 30-5, 50-25."},
+    {"part_number": 3, "part_title": "Part 3: My Target", "student_instructions": "Pick your own target between 30 and 50. Write 5 different ways.", "visual_layout": "Bottom of the page. A target slot plus 5 expression slots.",
+      "image_placeholders": [{"id": "WS04_P3_MY_TARGET", "description": "A target slot at the top ('My target: ___') with 5 blank expression slots below in B&W line-art. Total ~7in × 2.5in. Bella thinking-bubble icon top-right.", "placement": "Bottom of the page; full-width.", "approximate_size": "full_width", "keywords": ["target", "ways"], "text_image_alignment_check": "Image WS04_P3_MY_TARGET: keywords (target, ways) name what the slots ask for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Accept any target between 30-50 with 5 different equivalent expressions."}
+  ]}],
+  "early_finisher_prompt": "If you finish, find 5 ways to make 50.",
+  "teacher_notes": "Lesson 4 consolidation. Watch for children who repeat the same expression — flag for the variety-of-equivalence reteach."
+}

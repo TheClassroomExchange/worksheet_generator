@@ -1,0 +1,77 @@
+{
+  "unit_id": "g3_financial_plan_your_party",
+  "pair_number": 3,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 3
+  },
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson 3 minds_on opens with 'Money friends — last 2 days, whole dollars. Today: CENTS!' which is a one-line nod, but the expanded_walkthrough never cross-references Lesson 2's exact-change subtraction (Money Paid - Price = Change) and never previews Lesson 4's mixed dollar+cent transactions. Level 4 requires explicit arc bridging in the walkthrough.",
+      "required_fix": "In expanded_walkthrough.teacher_script, add an explicit bridge to Lesson 2 ('Yesterday Bea did Money Paid - Price = Change in DOLLARS — same subtraction today, just in CENTS') and a forward bridge to Lesson 4 ('Tomorrow we'll mix $ AND ¢ in one transaction — units must match'). Mirror Lesson 2's subtract chart label so the children see continuity.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "minor"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a real trap (¢ vs $ unit-mixing — child says change is $25 instead of 25¢) and gives concrete recovery moves ('Convert to ¢ first', 'Drill match units', 'Compare ¢ and $ amounts'). However, recovery does not branch by diagnostic (e.g., child who knows 100¢=$1 vs child who treats ¢ as a separate unitless number) and there is no research citation. Level 4 needs branching recovery and a named principle.",
+      "required_fix": "Rewrite recovery_moves as a branched diagnostic: IF child can state 100¢ = $1 but still mixes units, drill 'match the unit symbol on both sides of the minus sign' with a side-by-side $ column / ¢ column chart; IF child cannot state 100¢ = $1, drop back to a 10x10 hundreds grid showing 100 pennies = $1 before any subtraction. Cite the unit-coordination misconception (e.g., Lamon 2007 on measurement units, or Ontario curriculum F1.1 commentary on cents-as-fraction-of-dollar).",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials makes Pat+Bea explicitly OPTIONAL and lists everyday items (anchor chart, money/price cards, calculator cards, tracker). Time 12/25/13=50 min is realistic for G3. But differentiation only offers 'Walk to coin stations' — there is no full no-paper, no-purchase alternative path using only voice/body/gesture for the whole cents-subtraction activity. Level 4 requires a runnable-on-any-day no-materials version.",
+      "required_fix": "Add a 'No-materials version' bullet to differentiation: 'Children show cents on fingers — one hand = tens of cents (each finger = 10¢), other hand = ones of cents. Teacher calls out price and pay, children show price on fingers, then physically take down fingers to show subtraction; remaining fingers = change. Works with zero printed materials.' This makes Lesson 3 runnable on a forgotten-prep day.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "minor"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Pat anchors minds_on and consolidation, success_criteria all begin with 'I can', and Pat has multiple in-script lines ('Pat says — match UNITS', 'Pat says — careful with ¢ vs $!'). However there is no single distinctive quotable refrain children chant back, and the exit_routine 'Each child shares ONE: Item ___¢, change ___¢' is a sentence frame but not memorable. Level 4 requires a chant carried between lessons.",
+      "required_fix": "Add a Pat refrain in minds_on and repeat it in consolidation/exit_routine, e.g. Pat: 'CENTS with cents, BUCKS with bucks!' Children chant it back twice in minds_on and once at consolidation. Make it the unit-mixing mnemonic so it carries forward into Lesson 4 mixed transactions.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "minor"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson treats cents as a unit (100¢=$1), uses precise vocabulary, and unit-mixing is named in expanded_walkthrough. But children are not invited to invent or compare coin-decomposition strategies — the script just hands them '40¢ = 4 dimes or 1 quarter + 1 dime + 1 nickel'. Level 4 requires children invent/compare strategies and walkthrough names the misconception in research-grounded terms (e.g., Empson on rational numbers, or unit-coordination per Lamon).",
+      "required_fix": "In the action stage, add a 'Two ways' move: after the first transaction, ask each pair to find TWO different coin decompositions for the same change amount, then have two pairs compare on the carpet ('Why is 4 dimes the same as 1 quarter + 1 dime + 1 nickel?'). In expanded_walkthrough.rationale, name the principle: 'unit-coordination misconception — child fails to coordinate the cent-unit with the dollar-unit (cf. Lamon 2007).'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 1 lists the EXACT four transactions used in lesson minds_on demo (Cookie 60¢ pay $1, Sticker 25¢ pay 50¢, Apple 80¢ pay $1, Pencil 35¢ pay 50¢ — answers 40¢, 25¢, 20¢, 15¢). This is rote repetition of the teacher demo, not a transfer task. Level 4 requires the worksheet to deliberately VARY the format with justified reason.",
+      "required_fix": "Replace Part 1 transactions with FOUR new cents amounts not used in the lesson demo (e.g., Eraser 45¢ pay 50¢, Gum 65¢ pay $1, Sticker 90¢ pay $1, Pencil 15¢ pay 25¢) so Part 1 becomes a transfer check. Keep one 'familiar' anchor only. In teacher_notes, justify: 'Part 1 uses fresh amounts to verify the child can apply the unit-matching rule, not just recall the demo answers.'",
+      "affected_stages": ["worksheet_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

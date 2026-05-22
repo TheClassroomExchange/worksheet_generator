@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 3,
+  "lesson_title": "Missing Number in Subtraction",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.2"
+  ],
+  "secondary_expectations": [
+    "C2.1"
+  ],
+  "big_idea": "If 12 - ? = 7, the missing number is 5.",
+  "learning_intention": "We are learning to find the missing number in a subtraction equation.",
+  "student_learning_goal": "I can find the missing number in a subtraction equation.",
+  "success_criteria": [
+    "I can find what to subtract to make two sides equivalent.",
+    "I can solve missing-number subtraction puzzles using counters or a number line.",
+    "I can check my answer by subtracting."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "variable",
+    "unknown",
+    "equivalent",
+    "expression"
+  ],
+  "manipulatives_used": [
+    "M2_balance_mat",
+    "M4_subtraction_puzzle_cards",
+    "M5_two_colour_counters",
+    "M8_number_line",
+    "M9_variable_chart",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dee and Mystery Mo — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Find What's Missing in -'",
+    "Per-pair balance scale drawing mat",
+    "Per-pair counters (~30)",
+    "Per-pair number line to 100",
+    "Subtraction Missing-Number Cards (24)",
+    "Lesson 3 subtraction tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dee Solves a Subtraction Case",
+    "hook": "Detective Dee had 15 cookies. She gave some away. Now she has 8. How many were given away? Detective Dee opens: 'Find it! Then CHECK it!'",
+    "teacher_script": "Bring children to the carpet. Detective Dee + Mystery Mo puppets. 'Friends — Detective Dee has another case. Yesterday we worked on addition. Today subtraction.'\n\nDee whispers: 'I had 15 cookies. I gave some away. Now I have 8. How many did I give away?'\n\nWrite on the chart: 15 - ? = 8.\n\n'The variable stands for the number GIVEN AWAY. We need to find what subtracts to leave 8.'\n\nShow with counters. Place 15 counters on one side. Remove counters one by one. Count: 14, 13, 12, 11, 10, 9, 8. STOP. 'How many did we remove? 7. So the missing number is 7.'\n\nWrite: 15 - 7 = 8. CHECK. 15 take away 7 is 8. The two sides are equivalent.\n\nNow another. ☐ - 5 = 9. 'This time the variable is on the LEFT — the STARTING number.' Take responses. Show with counters. Start with 9, ADD 5 back. The unknown is 14. 'Wait — we ADDED to find a subtraction missing number? YES! Sometimes adding is faster.'\n\n'Today's job: solve missing-number subtraction cases. Counters, number line, or addition trick.'",
+    "student_actions": [
+      "Watch Detective Dee solve a subtraction case.",
+      "Predict the missing number.",
+      "Try the addition trick on a number line.",
+      "Solve a second case independently."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Missing-Number Subtraction Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: solve 4 missing-number subtraction equations together. (a) 14 - ? = 6. (b) ☐ - 5 = 12. (c) 50 - ? = 25. (d) ☐ - 30 = 40.",
+        "teacher_prompt": "Say to students: 'Find the missing number. Use counters, number line, or addition trick.' Verify with the balance scale."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Counter Solve — pair solves 6 missing-number subtraction cards using counters. Station B: Number Line Solve — pair solves 6 cards using a number line up to 100. Station C: Addition Trick — pair uses addition to solve 6 subtraction missing-number cards.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "STRATEGY INVENT-AND-COMPARE: Pairs solve ONE missing-minuend card with NO assigned strategy. Brief share-out: class compares invented strategies (count-back, count-up, addition-as-inverse, balance reasoning). Cite Carpenter et al. CGI taxonomy — Separate Start-Unknown vs Separate Change-Unknown.",
+        "teacher_prompt": "Detective Dee: 'Different paths, same destination. The MATH STRUCTURE picks the strategy.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch challenge at Station C: solve mixed addition AND subtraction equations like ☐ - 4 = 6 + 3. Discuss which side to compute first. (Right side first: 9. Then left: ☐ - 4 = 9 → ☐ = 13.)",
+        "teacher_prompt": "Say to pairs: 'Stretch: compute the right side first. Then find the unknown on the left.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Discuss the addition-subtraction relationship. 'Addition and subtraction are INVERSE OPERATIONS. If 15 - 7 = 8, then 8 + 7 = 15. We can use addition to check subtraction (and vice versa).' Show on the anchor chart.",
+        "teacher_prompt": "Use the balance scale: 'Subtraction takes counters away. Addition puts them back. INVERSE.'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Circulate to record formative evidence on the subtraction tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's the missing number? How did you find it?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only differences from 20 or less. Count back with counters one at a time.",
+      "for_extending": "Stretch at Station C: include differences to 100 and mixed-operation equations.",
+      "for_ell_or_iep": "Provide a structured frame: 'I subtracted ___ to get ___. The unknown is ___.'",
+      "for_movement_learners": "Use the number line as a floor mat. Walk back from 15 to 8 and count steps. NO-MATERIALS PATH: teacher calls a subtraction equation aloud ('15 minus WHAT equals 8?'). Children show the missing number on FINGERS without writing. Body-only solve."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: finds the missing number; uses an effective strategy; checks by adding or subtracting.",
+      "how_to_record": "Tick the subtraction tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Finds missing number",
+        "Uses an effective strategy",
+        "Checks the answer",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dee's Subtraction Brag",
+    "discussion_prompts": [
+      "What's the difference between solving 15 - ? = 8 and ? - 8 = 15?",
+      "When is the addition trick faster than counting back?",
+      "What does INVERSE mean?",
+      "Show how to check a subtraction answer."
+    ],
+    "exit_routine": "Detective Dee's refrain — class chants: 'Find it! Then CHECK it! That's the Detective way!' Each child writes one Start-Unknown OR Change-Unknown equation + the CGI label."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Missing-number subtraction accuracy and strategy quality.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures C2.2 mastery for subtraction. Children at L4 use the inverse relationship to solve missing-minuend AND missing-subtrahend equations."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child confuses the missing-minuend (☐ - 5 = 9) with the missing-subtrahend (15 - ? = 9) — repairing the role-of-variable confusion",
+    "rationale": "On missing-minuend / missing-subtrahend equations (15 - ? = 8 OR ? - 5 = 9), the Grade-2 trap is CGI Separate Start-Unknown vs Separate Change-Unknown confusion (Carpenter, Fennema, Franke, Levi & Empson 2014, 'Children's Mathematics: Cognitively Guided Instruction'). Children solve missing-addend (5 + ? = 12) but stall on the subtraction structures because the unknown's POSITION matters.\n\nYesterday Lesson 2 found missing addends. Today we extend to subtraction's two unknowns. Lesson 4 multi-step; Lesson 5 capstones.",
+    "setup": "Pair is at Station C. The card shows '☐ - 5 = 9'. The child writes 4 (subtracting 9 - 5).",
+    "teacher_script": "Crouch beside the child. 'You wrote 4. Let's CHECK. 4 - 5 — wait, can we even take 5 from 4? No, that's a problem. So 4 isn't right.'\n\nNow re-read. 'Look at the equation. The variable is on the LEFT. That means the variable is the STARTING number — what we had BEFORE we took 5 away. To find the starting number, we ADD 5 back to 9.'\n\n'9 + 5 = 14. So the unknown is 14. CHECK: 14 - 5 = 9. ✓ Two sides equivalent.'\n\nNow contrast. Show '15 - ? = 9'. 'This time the variable is in the MIDDLE. That's the amount REMOVED. We started with 15, ended with 9 — so we took 6 away. The unknown is 6.'\n\n'Detective Dee says — READ THE POSITION. Variable on LEFT means starting number → ADD. Variable in MIDDLE means amount removed → SUBTRACT.'\n\nIf the child STILL confuses positions: provide a sentence frame. 'The variable is on the ___. So I will ___.' Build the read-position-first reflex.\n\nLong-term recovery: drill the 2-position rule daily. Use coloured highlighters to mark variable positions.",
+    "expected_student_responses": [
+      "(Confused) Treats all missing-subtraction equations the same; gets answers wrong.",
+      "(Mid) Identifies the position with prompts; picks the correct strategy.",
+      "(Strong) Reads the position, picks the matching strategy, checks the answer.",
+      "(Stretched) Explains the role of the variable in each position; predicts the strategy before solving."
+    ],
+    "common_misconceptions": [
+      "Subtraction always means subtract. (Repair: missing-minuend requires ADDING.)",
+      "Position doesn't matter. (Repair: variable position determines the strategy.)",
+      "There's one rule for all. (Repair: 2 distinct rules — left-position adds, middle-position subtracts.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child treats Start-Unknown (? - 5 = 9) as Change-Unknown (15 - ? = 9): identify the structure first by asking 'where is the unknown?'; child labels Start, Change, or Result before solving.",
+      "DIAGNOSTIC B — child cannot start: drop to one-step missing-addend (5 + ? = 9), establish the inverse (? = 4), then return to ? - 5 = 9 with the inverse path.",
+      "DIAGNOSTIC C — child solves but won't articulate the strategy: force CGI naming — 'I used count-up because the unknown is the Start' or 'I used addition-inverse because subtraction's unknown links to addition.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dee's Subtraction.",
+    "purpose": "Independent practice of C2.2 (find missing number in subtraction).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Solve 6 missing-subtrahend equations to 50.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Solve 6 missing-minuend equations to 100.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write your own subtraction case (pick the variable position) and solve it.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dee in the worksheet header",
+      "6 equation slots for Part 1",
+      "6 equation slots for Part 2",
+      "A blank case-and-equation box for Part 3"
+    ]
+  }
+}

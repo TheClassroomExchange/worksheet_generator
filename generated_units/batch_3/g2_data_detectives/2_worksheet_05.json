@@ -1,0 +1,33 @@
+{
+  "schema_version": 1, "unit_id": "g2_data_detectives", "lesson_number": 5,
+  "worksheet_title": "Detective Dot's Final Case",
+  "purpose": "Summative artifact applying D1.1-D1.5.",
+  "student_learning_goal": "I can analyse a bar graph and write a conclusion using mode.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can analyse a bar graph and write a conclusion using mode.",
+    "character_watermark": "Detective Dot and Tally in detective hats in the top-right corner. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Tally + 2 questions.",
+     "student_instructions": "Pick 2 questions. Survey 6 classmates. Tally in a 2-way table.",
+     "visual_layout": "Blank 2x2 tally table.",
+     "image_placeholders": [{"id": "WS05_P1_TALLY", "description": "A blank 2x2 tally table for a Grade 2 capstone worksheet. Top: 'My questions: ___'. 4 cells for tallying.",
+       "placement": "Centred; spans Part 1.", "approximate_size": "full_width", "keywords": ["tally", "survey"], "text_image_alignment_check": "WS05_P1_TALLY at Part 1: instructions ask the child to tally 2-way. Keywords name the activity."}],
+     "student_response_type": "draw_or_write",
+     "answer_key": "Any valid 2-question survey of 6 with tallies in correct cells."},
+    {"part_number": 2, "part_title": "Part 2: Bar graph + mode.",
+     "student_instructions": "Build a bar graph from your tally. Find the MODE.",
+     "visual_layout": "Blank bar graph grid + mode line.",
+     "image_placeholders": [{"id": "WS05_P2_BAR", "description": "A blank bar graph grid + mode line for a Grade 2 capstone worksheet. Grid ~5in × 3in with empty axes. Below: 'The MODE is: ___'.",
+       "placement": "Centred; spans Part 2.", "approximate_size": "full_width", "keywords": ["bar", "graph", "mode"], "text_image_alignment_check": "WS05_P2_BAR at Part 2: instructions ask the child to build a bar graph and find mode. Keywords name the activities."}],
+     "student_response_type": "draw_or_write",
+     "answer_key": "Bar graph from tally totals + correct mode (most common value)."},
+    {"part_number": 3, "part_title": "Part 3: Write a conclusion.",
+     "student_instructions": "Write a conclusion using the mode.",
+     "visual_layout": "Bordered writing box.",
+     "image_placeholders": [{"id": "WS05_P3_CONCLUSION", "description": "A bordered writing box for a Grade 2 capstone worksheet, ~5in × 1.5in. Above: 'My conclusion:'. Below the box, sentence-frame reminder: 'The mode is ___. Most children chose ___.'",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["conclusion", "mode"], "text_image_alignment_check": "WS05_P3_CONCLUSION at Part 3: instructions ask the child to write a conclusion. Keywords name the focus."}],
+     "student_response_type": "draw_or_write",
+     "answer_key": "Any conclusion using GROUP language and MODE. Sample: 'The mode is hockey. Most children in our class chose hockey.'"}
+  ]}],
+  "early_finisher_prompt": "If you finish, write a comparison: 'More chose ___ than ___.'",
+  "teacher_notes": "Lesson 5 capstone — score against the rubric. Look for: 2-question survey (D1.2), bar graph with title and labels (D1.3), correct mode (D1.4), data-based conclusion (D1.5)."
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1, "unit_id": "g1_financial_classroom_market",
+  "formative_worksheets": [{
+    "title": "The Coin and Bill Check", "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (8 min).",
+    "purpose": "Standalone formative check confirming coin and bill identification before comparing.",
+    "expectations_assessed": ["F1.1"],
+    "student_learning_goal": "I can name coins and bills.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can name coins and bills.",
+      "character_watermark": "Penny the Penguin with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "Name 3 coins shown.",
+       "visual_layout": "Three coin icons with name lines under each.",
+       "image_placeholders": [{"id": "FORM_Q1_COINS", "description": "Three coin icons (dime, quarter, loonie) for Grade 1 formative check, B&W line art. Each with name line.",
+         "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["coins", "name"], "text_image_alignment_check": "FORM_Q1_COINS at Prompt 1: keywords name the coins identification task."}],
+       "response_type": "draw_or_write", "answer_key": "dime, quarter, loonie."},
+      {"prompt_number": 2, "prompt": "Match each bill to its colour.",
+       "visual_layout": "Three bills with colour lines beside.",
+       "image_placeholders": [{"id": "FORM_Q2_BILLS", "description": "Three bills ($5, $10, $20) for Grade 1 formative check, B&W line art. Each with colour line beside.",
+         "placement": "Centred in Prompt 2.", "approximate_size": "medium", "keywords": ["bills", "colour"], "text_image_alignment_check": "FORM_Q2_BILLS at Prompt 2: keywords name the bills colour match task."}],
+       "response_type": "draw_or_write", "answer_key": "$5=blue, $10=purple, $20=green."},
+      {"prompt_number": 3, "prompt": "How are you feeling? Circle the face.",
+       "visual_layout": "Three faces in a row.",
+       "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for Grade 1 formative check, B&W line art.",
+         "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"], "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."}],
+       "response_type": "self_rate", "answer_key": "Open."}
+    ],
+    "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+  }],
+  "reflection_sheet": {
+    "title": "My Classroom Market Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Penny and Cassie with a Junior Shopper certificate in the top-right. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for Grade 1 reflection.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "rating"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the star rating visual."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Shopper!"]},
+      {"prompt_number": 2, "prompt": "Did you do these? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for Grade 1 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name response options."}],
+       "response_type": "circle_yes_no", "options": ["I named coins.", "I named bills.", "I compared values.", "I bought an item."]},
+      {"prompt_number": 3, "prompt": "My favourite money activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle for Grade 1 reflection.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the favourite activity focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for Grade 1 reflection.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword names the trickiest part focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for Grade 1 reflection.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the next-time focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Shopper certificate."
+  }
+}

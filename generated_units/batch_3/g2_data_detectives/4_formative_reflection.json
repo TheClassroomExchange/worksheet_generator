@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "formative_worksheets": [
+    {
+      "title": "The Tally and Bar Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 min).",
+      "purpose": "Standalone formative check confirming 2-way tally and bar graph construction before mode.",
+      "expectations_assessed": ["D1.2", "D1.3"],
+      "student_learning_goal": "I can tally and build a bar graph.",
+      "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can tally and build a bar graph.",
+        "character_watermark": "Detective Dot in the top-right corner with a clipboard. Small (~1.5in). References blueprint.recurring_characters."},
+      "prompts": [
+        {"prompt_number": 1, "prompt": "Read the 2-way table. Find the row total for MILK.",
+         "visual_layout": "Pre-built 2-way table with tally marks and writing line for total.",
+         "image_placeholders": [{"id": "FORM_Q1_TABLE", "description": "A pre-built 2-way tally table for a Grade 2 formative check. 2x2 with tally marks. Below: 'Milk row total: ___'.",
+           "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["table", "milk"], "text_image_alignment_check": "FORM_Q1_TABLE at Prompt 1: instructions ask the child to find row total. Keywords name the visual elements."}],
+         "response_type": "draw_or_write", "answer_key": "Sum of the milk row tallies."},
+        {"prompt_number": 2, "prompt": "Build a 3-bar graph from the tallies given.",
+         "visual_layout": "Tally for 3 categories + blank bar graph grid.",
+         "image_placeholders": [{"id": "FORM_Q2_BUILD", "description": "Tally + blank bar graph for a Grade 2 formative check, B&W line art. Top: tally with 3 categories (apples 4, bananas 3, grapes 2). Bottom: blank bar graph grid for the child to draw.",
+           "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["bar", "graph"], "text_image_alignment_check": "FORM_Q2_BUILD at Prompt 2: instructions ask the child to build a bar graph. Keywords name the format."}],
+         "response_type": "draw_or_write", "answer_key": "Bars: apples 4, bananas 3, grapes 2 with title and labels."},
+        {"prompt_number": 3, "prompt": "How are you feeling? Circle the face.",
+         "visual_layout": "Three faces in a row.",
+         "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for a Grade 2 formative check. Smile, neutral, frown.",
+           "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"], "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."}],
+         "response_type": "self_rate", "answer_key": "Open."}
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Detective's Reflection (G2)",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Detective Dot and Tally with a Junior Data Detective certificate in the top-right. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel about being a G2 Data Detective? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for a Grade 2 reflection.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "detective"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the rating and role."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Detective!"]},
+      {"prompt_number": 2, "prompt": "Did you do these things? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for a Grade 2 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name response options."}],
+       "response_type": "circle_yes_no", "options": ["I sorted with Venn or Carroll.", "I made a 2-way tally.", "I built a bar graph.", "I found the mode."]},
+      {"prompt_number": 3, "prompt": "My favourite detective skill was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "Bordered rectangle for Grade 2 reflection. Above: 'My favourite detective skill was...'.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "skill"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "Bordered rectangle for Grade 2 reflection. Above: 'The trickiest part for me was...'.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword matches the prompt."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "Bordered rectangle for Grade 2 reflection. Above: 'Next time, I want to try...'.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Data Detective certificate."
+  }
+}

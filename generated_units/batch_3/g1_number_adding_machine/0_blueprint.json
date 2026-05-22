@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "thematic_title": "The Adding Machine",
+  "descriptive_title": "Grade 1 Mathematics: Numbers — Addition and Subtraction Facts to 10, Mental Strategies to 20, Modelling to 50, and Equal Groups with Halves (B2.1–B2.5)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "B. Numbers",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g1-math",
+  "curriculum_codes": [
+    "B2.1",
+    "B2.2",
+    "B2.3",
+    "B2.4",
+    "B2.5"
+  ],
+  "curriculum_expectations": {
+    "B2.1": "use the properties of addition and subtraction, and the relationship between addition and subtraction, to solve problems and check calculations",
+    "B2.2": "recall and demonstrate addition facts for numbers up to 10, and related subtraction facts",
+    "B2.3": "use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 20, and explain the strategies used",
+    "B2.4": "use objects, diagrams, and equations to represent, describe, and solve situations involving addition and subtraction of whole numbers that add up to no more than 50",
+    "B2.5": "represent and solve equal-group problems where the total number of items is no more than 10, including problems in which each group is a half, using tools and drawings"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on adding and subtracting framed around 'The Adding Machine' classroom math lab — a friendly station run by Plus the Adding Pup (a golden retriever puppy who loves combining things) and Minnie the Minus Mouse (a tiny detective with a magnifier who finds what's missing). Day 1 'Meet the Adding Machine' introduces addition as combining and the commutative property, anchoring the +0 to +5 facts to 10 with double ten-frames and number bond triangles (B2.1, B2.2). Day 2 'Doubles, Near-Doubles, Make-Ten' is the mental-strategy keystone for sums to 20: doubles dice, near-doubles bridging, and make-ten transformations like 8+6 = (8+2)+4 = 10+4 (B2.3). Day 3 'Where Did It Go? — Subtracting with Minnie' frames subtraction as finding the missing part, builds fact-family triangles, and explicitly addresses the 'subtraction is the opposite' relationship to addition (B2.1, B2.2). Day 4 'Build It, Solve It' is the story-problem capstone: act out, model with two-colour counters, draw a tape diagram, and write the equation for change-add-to / change-take-from / part-part-whole problems with totals to 50 (B2.4). Day 5 'Equal Groups and Half Groups' closes with equal-group situations to 10, including the subtle case where each group is a half — fair-sharing 5 cookies between 2 friends as 2-and-a-half each (B2.5). The unit progresses concrete (real two-colour counters, paper cookies, double ten-frames) → representational (ten-frame drawings, number bond diagrams, tape diagrams) → abstract (equations, fact families, mental strategy explanations).",
+  "unit_learning_goal": "Children will use the properties of addition and subtraction and their relationship to solve problems, recall facts to 10, apply mental strategies (doubles, near-doubles, make-ten) to add and subtract within 20, model and solve story problems with sums and differences to 50, and represent equal-group problems including those with half groups.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Meet the Adding Machine",
+      "primary_expectations": [
+        "B2.1",
+        "B2.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Addition combines two parts into a total. We can swap the parts and the total stays the same.",
+      "student_learning_goal": "I can recall addition facts up to 10 and show that 3+4 and 4+3 have the same total.",
+      "one_line_summary": "Plus the Adding Pup runs the Adding Machine; whole-class double ten-frame demos; commutative property game (flip the parts); fact triangle quick-recall round."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Doubles, Near-Doubles, and Make-Ten",
+      "primary_expectations": [
+        "B2.3"
+      ],
+      "secondary_expectations": [
+        "B2.2"
+      ],
+      "big_idea": "Some sums to 20 are easy if I know a double or a make-ten. Mental strategies make math fast and accurate.",
+      "student_learning_goal": "I can use doubles, near-doubles, and make-ten to add numbers up to 20 in my head and explain how I did it.",
+      "one_line_summary": "Doubles dice rounds; near-doubles bridging (6+7 = 6+6+1); make-ten transformations on the double ten-frame for sums like 8+6 and 9+4. Keystone strategy lesson."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Where Did It Go? — Subtracting with Minnie",
+      "primary_expectations": [
+        "B2.1",
+        "B2.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Subtraction asks 'what's missing?' If I know 4+3=7, I also know 7-3=4 and 7-4=3. Addition and subtraction are partners.",
+      "student_learning_goal": "I can recall subtraction facts up to 10, and write the four-fact family for any addition fact.",
+      "one_line_summary": "Minnie the Minus Mouse frames subtraction as 'find the missing part'; fact-family triangles for facts to 10; whole-class missing-addend game with hidden counters."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Build It, Solve It",
+      "primary_expectations": [
+        "B2.4"
+      ],
+      "secondary_expectations": [
+        "B2.1",
+        "B2.3"
+      ],
+      "big_idea": "Story problems can be modelled with objects, drawn as tape diagrams, and written as equations. Different problem types — change, take-from, part-part-whole — all use the same toolkit.",
+      "student_learning_goal": "I can act out, draw, and write an equation for an addition or subtraction story problem with numbers up to 50.",
+      "one_line_summary": "Story-problem rotations across three problem types (change-add-to, change-take-from, part-part-whole); two-colour counters → tape diagram → equation pipeline."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Equal Groups and Half Groups",
+      "primary_expectations": [
+        "B2.5"
+      ],
+      "secondary_expectations": [
+        "B2.4"
+      ],
+      "big_idea": "If we share fairly, each group has the same amount. Sometimes each share is a whole; sometimes each share is a half.",
+      "student_learning_goal": "I can solve equal-group problems with totals up to 10, including problems where each group is a half.",
+      "one_line_summary": "Fair-share rounds with paper cookies (10 ÷ 2, 10 ÷ 5, 8 ÷ 4); the half-group reveal: 5 cookies between 2 friends = 2½ each, drawn and explained."
+    }
+  ],
+  "expectation_lesson_map": {
+    "B2.1": [1, 3],
+    "B2.2": [1, 3],
+    "B2.3": [2],
+    "B2.4": [4],
+    "B2.5": [5]
+  },
+  "recurring_characters": [
+    {
+      "name": "Plus the Adding Pup",
+      "role": "Mascot for addition. Anchors Lesson 1 and reappears throughout the unit. Loves combining things and saying 'And one more!' when adding.",
+      "visual_description": "A golden retriever puppy with a bright green '+' bandana around its neck, soft round ears, friendly smile, paws often holding two-colour counters. Drawn in B&W line-art for printable manipulatives, with a colour version on the marketplace cover."
+    },
+    {
+      "name": "Minnie the Minus Mouse",
+      "role": "Mascot for subtraction. Anchors Lesson 3 and reappears in Lesson 4. Specialises in finding what's missing — favourite question: 'How many got away?'",
+      "visual_description": "A small grey mouse standing upright, holding a magnifying glass in her right paw and wearing a red '-' kerchief tied around her neck. Whiskers, round eyes, slight detective hat tilt. Drawn in B&W line-art for printables."
+    },
+    {
+      "name": "Doubles the Robot",
+      "role": "Cameo character in Lesson 2 only. Demonstrates doubles by lighting up the same number of dots on both arms. Visual hook for the doubles strategy.",
+      "visual_description": "A small mirror-symmetrical robot with two arms displaying ten-frame-style dot panels (one on each arm). Square head, antenna with a small heart, friendly visor. Both arms always show the same number of lit dots."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "addend",
+      "child_friendly_definition": "One of the parts you put together when you add. In 4 + 3 = 7, the addends are 4 and 3."
+    },
+    {
+      "term": "sum",
+      "child_friendly_definition": "The total you get when you add two parts together. In 4 + 3 = 7, the sum is 7."
+    },
+    {
+      "term": "difference",
+      "child_friendly_definition": "What you get left over when you subtract. In 7 - 3 = 4, the difference is 4."
+    },
+    {
+      "term": "fact family",
+      "child_friendly_definition": "Four facts that all use the same three numbers. For 3, 4, 7 the facts are 3 + 4 = 7, 4 + 3 = 7, 7 - 3 = 4, 7 - 4 = 3."
+    },
+    {
+      "term": "double",
+      "child_friendly_definition": "Adding a number to itself. The double of 6 is 6 + 6 = 12."
+    },
+    {
+      "term": "near-double",
+      "child_friendly_definition": "A sum that is one more or one less than a double. 6 + 7 is a near-double because it is 6 + 6 plus one more."
+    },
+    {
+      "term": "make-ten",
+      "child_friendly_definition": "Splitting one part so that you can make a ten first. 8 + 5 becomes 8 + 2 + 3 = 10 + 3."
+    },
+    {
+      "term": "equal groups",
+      "child_friendly_definition": "Groups that all have the same number in them. If you share 8 cookies between 4 friends and each friend gets 2, those are equal groups."
+    },
+    {
+      "term": "half",
+      "child_friendly_definition": "One of two equal parts of a whole. If you cut a cookie into 2 fair pieces, each piece is one half."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_plus_puppet",
+      "name": "Plus the Pup Puppet",
+      "description": "Printable paper-bag puppet of Plus the Adding Pup with green '+' bandana. Used by the teacher in Lesson 1 to introduce the Adding Machine; revisited in every subsequent lesson.",
+      "used_in_lessons": [1, 2, 3, 4, 5],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_minnie_puppet",
+      "name": "Minnie the Mouse Puppet",
+      "description": "Printable paper-bag puppet of Minnie the Minus Mouse with red '-' kerchief and magnifying glass. Anchors Lesson 3 and reappears in Lesson 4.",
+      "used_in_lessons": [3, 4],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_double_ten_frame",
+      "name": "Double Ten-Frame Mat",
+      "description": "Letter-size mat with two stacked ten-frames (top and bottom), each holding 10 cells. Used for Lesson 1 fact modelling and Lesson 2 make-ten strategy demonstration.",
+      "used_in_lessons": [1, 2, 3],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "description": "Per-pair set of ~20 round counters, red on one side and yellow on the other. Used to model addition (red + yellow = combined collection) and subtraction (flip to remove).",
+      "used_in_lessons": [1, 2, 3, 4],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_fact_triangles",
+      "name": "Fact Family Triangles",
+      "description": "Set of 30 laminated triangle cards. Each card has the three numbers of a fact family (e.g., 3, 4, 7) at the corners, with a +/- icon at the centre. Used in Lessons 1 and 3 to build fluency with the four-fact family for any sum to 10.",
+      "used_in_lessons": [1, 3],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_doubles_dice",
+      "name": "Doubles Dice",
+      "description": "Per-pair set of two large foam dice (1-10). Used in Lesson 2 doubles round: roll once, double the number; near-doubles round: roll twice, find the near-double.",
+      "used_in_lessons": [2],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_story_problem_cards",
+      "name": "Story Problem Cards",
+      "description": "Set of 18 letter-size story problem cards (6 change-add-to, 6 change-take-from, 6 part-part-whole) with totals up to 50. Used in Lesson 4 rotations.",
+      "used_in_lessons": [4],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_paper_cookies",
+      "name": "Paper Cookies",
+      "description": "Set of ~30 printable paper cookie tokens (chocolate chip, oatmeal, sugar). Used in Lesson 5 fair-share scenarios. Some cookies are pre-cut along a half-line so they can split into halves visibly.",
+      "used_in_lessons": [5],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_share_plates",
+      "name": "Sharing Paper Plates",
+      "description": "Set of 5 paper plates per group. Used in Lesson 5 to deal cookies into equal groups for 2, 4, or 5 sharers.",
+      "used_in_lessons": [5],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_machine_poster",
+      "name": "The Adding Machine Anchor Poster",
+      "description": "Large classroom anchor chart drawn as a friendly machine with input slots on top, an output chute on the bottom, and reference rows for the four mental strategies (count-on, doubles, near-doubles, make-ten). Posted Lesson 1, referenced all week.",
+      "used_in_lessons": [1, 2, 3, 4, 5],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Plus the Pup paper-bag puppet (one for the teacher)",
+    "Minnie the Mouse paper-bag puppet (one for the teacher)",
+    "Double ten-frame mats — one per child",
+    "Two-colour counters — ~20 per pair",
+    "Fact family triangles — 30 per pair",
+    "Doubles dice — 2 per pair (foam, 1-10)",
+    "Story problem cards — 18 cards (Lesson 4)",
+    "Paper cookies — ~30 per group",
+    "Sharing paper plates — 5 per group",
+    "The Adding Machine anchor poster (one classroom copy)",
+    "Anchor chart 'Mental Strategies' with the four strategies illustrated",
+    "Whiteboard markers and individual whiteboards (one per child)"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 fact-recall snapshot: each child receives 10 facts to 10 on a flash-card stack and shows on a whiteboard. Tally how many they know within 3 seconds (fluent), within 10 seconds (developing), or need fingers/cubes (emerging). The diagnostic identifies the children who need a small-group fluency push during Lessons 2-3.",
+    "formative": "Lesson 2 mental-strategy tracker: as children play doubles dice and make-ten on ten-frames, the teacher records which strategy each child uses (and whether they can verbalise it). Lesson 3 fact-family tracker: can the child write all four facts (a+b, b+a, c-a, c-b) given any triangle? Lesson 4 story-problem tracker: can the child move from object to drawing to equation for all three problem types (change-add-to, change-take-from, part-part-whole)?",
+    "summative": "Lesson 5 worksheet — three equal-group share scenarios with totals to 10, plus the half-group case (5 ÷ 2 = 2½). Captures B2.5 explicitly and pulls in B2.4 (modelling and equations). Combined with the formative trackers, the teacher has evidence on all five expectations B2.1-B2.5."
+  },
+  "pedagogical_notes": [
+    "B2.1 (properties + relationship): The commutative property is intuitive for combining contexts (4 cars + 3 trucks = 3 trucks + 4 cars) and confusing for change contexts (3 cookies, eat 4 — children try to swap and get -1). Teach commutativity in Lesson 1 ONLY in combining contexts. The addition-subtraction relationship is taught in Lesson 3 via fact-family triangles.",
+    "B2.2 (facts to 10 + related subtraction): Recall must be fluent (within 3 seconds), not just accurate. The doubles, plus-1, plus-0, and make-10 facts are the easiest; the 'awkward middle' (5+4, 6+3, 7+2) needs explicit practice. Plan a 5-min flash-card warm-up daily.",
+    "B2.3 (mental strategies to 20): Three strategies must be named, modelled, and practised: doubles/near-doubles, make-ten, and count-on (only for +1, +2, +3). Children who default to 'count-all on fingers' for a 12+5 are not yet meeting B2.3 — they are at B2.2 level.",
+    "B2.4 (modelling to 50): The leap from 'numbers to 20 in my head' to 'numbers to 50 with objects + drawings' is bigger than it looks. Lesson 4 explicitly uses a 3-step pipeline: (1) objects (counters or paper cookies), (2) drawing (tape diagram with two parts), (3) equation. Children who skip the drawing step often lose track on multi-step problems.",
+    "B2.5 (equal groups with halves): The half-group case is the trickiest — '5 cookies between 2 friends, fair shares' requires breaking one cookie. Many G1s answer '2 cookies each, 1 left over' which is fair-with-remainder, NOT equal. Use the cookie that pre-cuts along a half-line to make the half-share visible.",
+    "Differentiation: emerging learners stay on facts to 10 with double ten-frames (Lessons 1-3); extending learners get sums to 20 from Lesson 1 onwards and equal-groups with quarters in Lesson 5. ELL learners get an extra session connecting the words 'plus / add / and' (and 'minus / take away / less') to their first language equivalents."
+  ],
+  "canadian_context_notes": [
+    "The Adding Machine anchor poster uses Canadian classroom-friendly visuals: hockey pucks, maple leaves, beavers as the 'things being added'. Schools with a different cultural context can swap to local objects without affecting the math.",
+    "Plus the Pup is a golden retriever, the most common Canadian family dog; teachers in regions where another breed is iconic can re-skin the character to a husky, a Newfoundland dog, or any familiar breed without changing the unit content.",
+    "Lesson 5 paper cookies offer chocolate chip / oatmeal / sugar. Halal- and kosher-aware classrooms can swap to butter tarts or Timbits (Tim Hortons doughnut holes), which have natural halves visible in the icing pattern.",
+    "Snowstorm-day adaptation: if the unit lands in February and outdoor activities are cancelled, every concrete manipulative is paper-based and works in the indoor classroom alone."
+  ]
+}

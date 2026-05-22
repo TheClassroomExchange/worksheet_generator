@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "lesson_number": 2,
+  "worksheet_title": "Partners of 5",
+  "purpose": "Independent practice of A6.11 — naming all six partners of 5 and connecting each addition fact to its related subtraction.",
+  "student_learning_goal": "I can say all the ways to make 5 with two groups, and I can say what is left when I take some away.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can say all the ways to make 5 with two groups, and I can say what is left when I take some away.",
+    "character_watermark": "Penny the Lead Coin Counter in the top-right corner of the header, holding a snap-cube tower of 5. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: All the Partners of 5",
+          "student_instructions": "Look at each ten-frame. Some cells have red cubes and some have yellow cubes. Write the equation under each frame: __ + __ = 5.",
+          "visual_layout": "Top half of the page. Six ten-frames printed in a 2×3 grid, each ~2in × 1in. Each frame is pre-filled with a different partner of 5: (a) 0 red + 5 yellow, (b) 1 red + 4 yellow, (c) 2 red + 3 yellow, (d) 3 red + 2 yellow, (e) 4 red + 1 yellow, (f) 5 red + 0 yellow. Below each frame is a short equation line: __ + __ = 5. A small Penny puppet icon sits in the top-right corner.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_SIX_TEN_FRAMES",
+              "description": "Six ten-frames in a 2×3 grid, B&W line-art with red/yellow cube fills represented as solid-fill or pattern-fill circles in each frame's cells. Each frame ~2in × 1in. Order: (0,5), (1,4), (2,3), (3,2), (4,1), (5,0) reading L-to-R, top-to-bottom. Below each, a faint 'partners' label space.",
+              "placement": "Top half of the page; 2×3 grid spanning full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "ten-frame",
+                "partners",
+                "cubes"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_SIX_TEN_FRAMES at top half: keywords (ten-frame, partners, cubes) name what the image shows."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Six equations, in order: 0+5=5; 1+4=5; 2+3=5; 3+2=5; 4+1=5; 5+0=5. Accept any partner equation that matches the visible cube counts."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Penny's Hidden Hand",
+          "student_instructions": "Penny is hiding some cubes under her hand! Look at how many are showing. Write how many are hiding, then write the take-away equation: 5 − __ = __.",
+          "visual_layout": "Middle of the page. Three Partner Hunt scenes side-by-side. Each scene: a horizontal strip of 5 cubes with Penny's hand drawn covering some. Scene A shows 3 cubes visible (hand covers 2). Scene B shows 1 cube visible (hand covers 4). Scene C shows 4 cubes visible (hand covers 1). Below each scene, a blank line for hidden count and a take-away equation: 5 − __ = __.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_PARTNER_HUNT_SCENES",
+              "description": "Three horizontal cube-tower scenes side-by-side, each ~2in × 1.5in, B&W line-art. Each scene shows a row of 5 snap-cubes. Penny's chef hand (~1in) covers some cubes; the visible cubes are clearly delineated. Scene A: 3 visible, hand covers 2. Scene B: 1 visible, hand covers 4. Scene C: 4 visible, hand covers 1. Penny's chef hat shows in the top of the hand illustration.",
+              "placement": "Middle of the page; three scenes spanning full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "penny",
+                "cubes",
+                "hidden",
+                "showing"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_PARTNER_HUNT_SCENES at middle: keywords (penny, cubes, hidden, showing) name what the image shows."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Scene A: 2 hidden, 5 − 2 = 3. Scene B: 4 hidden, 5 − 4 = 1. Scene C: 1 hidden, 5 − 1 = 4."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Build Your Own Partner",
+          "student_instructions": "Colour in two ten-frames to show your own partners of 5. Then write your partner equation. Look — is your partner the SAME or DIFFERENT from your friend's?",
+          "visual_layout": "Bottom of the page. Two empty ten-frames printed side by side, each ~2.5in × 1.2in. All cells unfilled (light-grey outlines for colouring). Below each frame, a writing line: __ + __ = 5. To the right of the frames, two small circles labelled SAME and DIFFERENT — the child circles one to compare to a partner sibling worksheet.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_TWO_EMPTY_TEN_FRAMES",
+              "description": "Two empty ten-frames in B&W line-art, each ~2.5in × 1.2in, side by side. All 10 cells per frame unfilled with light-grey outlines suitable for crayon colouring. Below each, an equation line. To the right, the SAME / DIFFERENT comparison circles.",
+              "placement": "Bottom half of the page; two frames spanning the page width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "ten-frame",
+                "partner",
+                "same",
+                "different"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_TWO_EMPTY_TEN_FRAMES at bottom: keywords (ten-frame, partner, same, different) name what the image shows."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid partner of 5 in each frame. A response is correct if (a) the cube counts match the equation written, (b) the equation totals 5. Accept any partner: 0+5, 1+4, 2+3, 3+2, 4+1, 5+0. The SAME/DIFFERENT circle is reflective; either choice is acceptable as long as the child can articulate why."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and find partners for a NEW number — try partners of 4, or partners of 6!",
+  "teacher_notes": "Lesson 2 consolidation. Hand out at the end of the Partner Hunt game. Most children should complete Parts 1 and 2 independently if they were successful at the partner game. Part 3 is the diagnostic stretch — children who write a non-partner-of-5 (e.g. 4+2=6) need a re-loop on the partner concept before Lesson 3. Mark Part 1 instant-recall children for the formative tracker."
+}

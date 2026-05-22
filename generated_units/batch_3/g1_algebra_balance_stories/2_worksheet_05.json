@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "lesson_number": 5,
+  "worksheet_title": "My Balance Story",
+  "purpose": "Summative evidence integrating C2.1, C2.2, C2.3.",
+  "student_learning_goal": "I can tell a balance story about something in real life and write the equation.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can tell a balance story about something in real life and write the equation.",
+    "character_watermark": "Bella and Bobby together in the top-right corner. Small (~1.5in tall combined)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: My Story",
+          "student_instructions": "Title your story. Then write 1-2 sentences about it.",
+          "visual_layout": "Top of the page. Title slot and lined writing area.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_STORY_BOX",
+              "description": "A title slot 'My Story Title: ___' with a lined writing area below in B&W line-art. Total ~7in × 2in. 4-5 dotted writing lines.",
+              "placement": "Top of the page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "story",
+                "title"
+              ],
+              "text_image_alignment_check": "Image WS05_P1_STORY_BOX: keywords (story, title) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any 1-2 sentence story with a clear quantity comparison."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: My Balance Drawing",
+          "student_instructions": "Draw the balance scale. Label what's on each pan.",
+          "visual_layout": "Middle. A blank balance scale drawing area.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_BALANCE_BOX",
+              "description": "A blank balance scale drawing area in B&W line-art, ~7in × 3in. The two pans are pre-drawn with thin outlines but empty. The pivot is in the middle with a small triangle base. Children fill in what's on each pan.",
+              "placement": "Middle of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "balance",
+                "scale"
+              ],
+              "text_image_alignment_check": "Image WS05_P2_BALANCE_BOX: keywords (balance, scale) name what the area asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any balance drawing with both pans labeled with quantities matching the story."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Equation",
+          "student_instructions": "Write the equation that matches your story. Use = or ≠.",
+          "visual_layout": "Lower-middle. A single equation line.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_EQUATION",
+              "description": "A single equation line in B&W line-art, ~7in × 0.7in. Format: '___ ___ ___ ___ ___' (5 blanks for the equation).",
+              "placement": "Lower-middle; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "equation"
+              ],
+              "text_image_alignment_check": "Image WS05_P3_EQUATION: keywords (equation) name what the line asks for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Accept any equation matching the story."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Equivalent Expression",
+          "student_instructions": "Write ONE more way to express the same total.",
+          "visual_layout": "Bottom of the page. A single expression line.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P4_EQUIVALENT",
+              "description": "A single expression line in B&W line-art, ~7in × 0.7in. Format: '___ = ___ ___ ___'. Header: 'Another way to make the total!'",
+              "placement": "Bottom of the page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "equivalent"
+              ],
+              "text_image_alignment_check": "Image WS05_P4_EQUIVALENT: keywords (equivalent) name what the line asks for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Accept any equivalent expression for the same total as the story."
+        },
+        {
+          "part_number": 5,
+          "part_title": "Part 5: JUDGE Bella's balance story.",
+          "student_instructions": "Read Bella's balance story. Bella has 4 stickers. Bobby has 5 stickers. Together they have 8. Is Bella's balance correct? Circle YES or NO. If NO, write the equation that would balance.",
+          "visual_layout": "Story text in a speech bubble from Bella's avatar at the top of the section. Two YES/NO option circles below. Below that, a single equation line with three blanks: ___ + ___ = ___ for the corrected balance.",
+          "image_placeholders": [],
+          "student_response_type": "circle_yes_no",
+          "answer_key": "NO. The correct balance is 4 + 5 = 9 (or 4 + 4 = 8 if the goal is to make Bella's claim about the total of 8 hold). Accept either as long as the child shows reasoning."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a SECOND equivalent expression for your total.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use as the integrated evidence for C2.1+C2.2+C2.3. Watch for children who write a story but no balance/equation — flag for the structure reteach."
+}

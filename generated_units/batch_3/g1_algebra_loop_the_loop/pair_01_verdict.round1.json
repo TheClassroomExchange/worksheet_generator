@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "pair_number": 1,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale: 'The most common Grade-1 trap on C3.1 is the unordered-list error...' — trap is concrete and recovery is actionable, but no research citation and recovery_moves do not branch by diagnostic.",
+      "required_fix": "Cite a named source (e.g., Bers 2018 ScratchJr studies, Kazakoff & Bers on early sequencing, or NRC 2011 'Computational Thinking' framework) and branch recovery_moves: if child writes narrative-not-actions, drop to 'finger-act each step'; if child orders correctly but skips a step, use 'check Coda's hands' diagnostic.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine: 'Each child writes ONE 3-step code on a sticky note... Notes go on the chart.' Coda anchors every segment but has no quotable refrain or memorable chant carried between lessons.",
+      "required_fix": "Give Coda a signature opening/closing chant children echo (e.g., 'Coda says: STEP, by STEP, by STEP — that's CODE!') and embed it in minds_on hook AND consolidation exit_routine so the refrain travels into Lessons 2-5.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "action.steps[3]: 'Right, then up vs up, then right — same ending square. So order doesn't ALWAYS matter for movement.' — strong conceptual move, but expanded_walkthrough does not name the misconception in research-grounded terms.",
+      "required_fix": "In expanded_walkthrough.rationale, name the underlying construct using research-grounded terms — e.g., Papert's 'computational sequencing' or Bers' 'Powerful Ideas of CS' framework on order/sequencing — and frame the trap as a sequencing-vs-listing distinction explicitly.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "worksheet pages[0].parts: Part 1 (5-step task), Part 2 (execute 4 grids), Part 3 (invent task). Worksheet parallels lesson stations 1:1 but does not deliberately VARY format as a transfer task and gives no justification for a generalization probe.",
+      "required_fix": "Modify Part 2 or Part 3 to include a clearly-justified transfer twist (e.g., Part 2 grid 4 introduces a NEW direction the lesson didn't drill, or Part 3 prompts 'write code for someone else to follow' to verify generalization) and add a teacher_notes line naming the transfer rationale.",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 has strong alignment to C3.1 and excellent instructional balance (everyday materials, BE-Coda no-paper variant). However, pedagogical_depth needs research grounding and branched recovery; clarity_voice needs a Coda signature refrain that travels across lessons; mathematical_authenticity needs the misconception named in research terms; and the worksheet parallels rather than transfers the lesson's practice. Multiple categories at 3 — revise both lesson and worksheet."
+}

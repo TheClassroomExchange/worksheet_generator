@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "overall_prep_notes": "Total prep ~1.5 hours. Character puppets (Dot, Tally) print on cardstock. Card decks laminated. Detective poster (M10) is centerpiece.",
+  "assets": [
+    {
+      "asset_id": "M1_sort_mats",
+      "name": "Sorting Mats",
+      "category": "manipulative",
+      "purpose": "Letter-size sort mats with category circles for kindergarten sorting work.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_SORT_MAT",
+          "description": "A sorting mat in B&W on landscape letter page. 4 large circles labeled with attribute spots. Header 'Sorting Mat'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "sort",
+            "mat"
+          ],
+          "text_image_alignment_check": "Image M1_SORT_MAT: keywords (sort, mat) name the page."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per pair.",
+        "Laminate.",
+        "Hand out Lesson 1.",
+        "Reuse Lessons 2 and 5.",
+        "Use dry-erase."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_button_set",
+      "name": "Paper Button Tokens",
+      "category": "manipulative",
+      "purpose": "60 paper button tokens in 4 colours for sorting and counting.",
+      "page_layout": "5 letter pages, portrait. 12 buttons per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 5,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_BUTTON_TOKEN",
+          "description": "A button token in B&W line-art, ~1.5in x 1.5in. 60 buttons across 5 pages, with colour-fill outlines. Cut lines.",
+          "placement": "60 tokens across 5 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "button",
+            "token"
+          ],
+          "text_image_alignment_check": "Image M2_BUTTON_TOKEN: keywords (button, token) name the cards."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 5 pages on cardstock.",
+        "Colour-fill or use coloured cardstock.",
+        "Cut into 60 tokens.",
+        "Sort into bags.",
+        "Distribute Lessons 1-2."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "60 buttons, 4 colours.",
+      "used_in_lessons": [
+        1,
+        2
+      ]
+    },
+    {
+      "asset_id": "M3_tally_charts",
+      "name": "Tally Chart Templates",
+      "category": "manipulative",
+      "purpose": "6 tally chart templates for recording counts.",
+      "page_layout": "Single letter page, portrait. 6 small charts.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_TALLY_CHART",
+          "description": "Six small tally charts in B&W on portrait page. Each has 3-4 row labels and tally areas. Cut lines.",
+          "placement": "6 charts on 1 page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tally",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M3_TALLY_CHART: keywords (tally, chart) name the page."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per pair.",
+        "Cut into 6 charts.",
+        "Laminate.",
+        "Hand out Lesson 2.",
+        "Reuse Lessons 3-4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "6 per pair.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M4_pictograph_template",
+      "name": "Pictograph Template",
+      "category": "manipulative",
+      "purpose": "Letter-size pictograph template with rows.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_PICTOGRAPH",
+          "description": "A pictograph template in B&W on landscape page. 4 labeled rows with grid spots for stickers. Header 'My Pictograph'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "pictograph"
+          ],
+          "text_image_alignment_check": "Image M4_PICTOGRAPH: keywords (pictograph) name the page."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per pair.",
+        "Laminate.",
+        "Hand out Lesson 3.",
+        "Use dry-erase or stickers.",
+        "Reuse Lesson 5."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_question_cards",
+      "name": "Class Question Cards",
+      "category": "manipulative",
+      "purpose": "12 cards with class-data questions for survey practice.",
+      "page_layout": "2 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_QUESTION_CARD",
+          "description": "A question card in B&W line-art, ~3in x 4in. Each shows a class-data question (favourite colour, snack, season, pet, etc.) with 3-4 choices listed. 12 cards across 2 pages with cut lines.",
+          "placement": "12 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "question",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M5_QUESTION_CARD: keywords (question, card) name the cards."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 12 cards.",
+        "Sort by topic.",
+        "Distribute Lessons 1 and 5."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "12 cards.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Detective Capstone Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template for Lesson 5 capstone investigation.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE_TEMPLATE",
+          "description": "A capstone template in B&W on portrait page. 4 sections: QUESTION, SURVEY, GRAPH, DESCRIBE.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "capstone",
+            "template"
+          ],
+          "text_image_alignment_check": "Image M6_CAPSTONE_TEMPLATE: keywords (capstone, template) name the page."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out Lesson 5.",
+        "Children fill in.",
+        "Collect for assessment.",
+        "Display."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_object_set",
+      "name": "Mixed Object Tokens",
+      "category": "manipulative",
+      "purpose": "60 paper tokens (shapes, animals, foods) for sorting variety.",
+      "page_layout": "5 letter pages, portrait. 12 tokens per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 5,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_OBJECT_TOKEN",
+          "description": "Object tokens in B&W line-art, ~2in x 2in. Mix of shapes (circles, squares), animals (dogs, cats), foods (apples, cookies). 60 tokens across 5 pages with cut lines.",
+          "placement": "60 tokens across 5 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "object",
+            "token"
+          ],
+          "text_image_alignment_check": "Image M7_OBJECT_TOKEN: keywords (object, token) name the cards."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 5 pages on cardstock.",
+        "Laminate.",
+        "Cut into 60 tokens.",
+        "Sort into mixed bags.",
+        "Distribute Lessons 1, 2, 5."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "60 mixed objects.",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_class_chart",
+      "name": "Class Wall Chart",
+      "category": "manipulative",
+      "purpose": "Letter-size chart for class-wide data display.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_CLASS_CHART",
+          "description": "A class wall chart in B&W on landscape page. Big tally area for class-wide counts. Header 'Class Data Chart'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "class",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M8_CLASS_CHART: keywords (class, chart) name the page."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print and post on wall.",
+        "Laminate.",
+        "Use dry-erase.",
+        "Update with class data.",
+        "Reuse all week."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_data_chart",
+      "name": "Data Anchor Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart of the data process steps.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_DATA_CHART",
+          "description": "A data anchor chart in B&W, ~17in x 22in. 4 step boxes: SORT, COUNT, GRAPH, READ. Each with example.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "data",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M9_DATA_CHART: keywords (data, chart) name the chart."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M10_detective_poster",
+      "name": "Data Detectives Anchor Poster",
+      "category": "manipulative",
+      "purpose": "Anchor poster of Detective Dot and Tally.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_DETECTIVE_POSTER",
+          "description": "Data Detectives poster in B&W, ~17in x 22in. Centre: Detective Dot (squirrel with magnifying glass) and Tally (cat with tally chart) with sample data.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "detective",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_DETECTIVE_POSTER: keywords (detective, poster) name the poster."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_dot_puppet",
+      "name": "Detective Dot Character Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Dot illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_DOT_FRONT",
+          "description": "Detective Dot illustration in B&W: a young squirrel in deerstalker cap with magnifying glass and acorn pouch. Bushy tail, alert ears, friendly grin. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "dot"
+          ],
+          "text_image_alignment_check": "Image CHAR_DOT_FRONT: keywords (dot) name the figure."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_tally_puppet",
+      "name": "Tally the Tally Cat Character",
+      "category": "character_puppet",
+      "purpose": "Printable Tally illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_TALLY_FRONT",
+          "description": "Tally illustration in B&W: a young cat with tally chart and pencil. Stripes for tallies, eager smile. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "tally"
+          ],
+          "text_image_alignment_check": "Image CHAR_TALLY_FRONT: keywords (tally) name the figure."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

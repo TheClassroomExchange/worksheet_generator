@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "assets": [
+    {
+      "asset_id": "M1_counting_cubes",
+      "name": "Cube Sorting Mat",
+      "category": "manipulative",
+      "purpose": "Linking snap-cubes are the core hands-on manipulative for this unit, used in every lesson by every child to count, compose, decompose, and compare quantities up to 20. The printable companion is a Cube Sorting Mat that gives each child a labelled work surface where they can arrange cubes into a counting line, build two groups for composing, or split a tower for decomposing. The mat keeps loose cubes from rolling and gives the teacher a quick visual read of who built what.",
+      "page_layout": "One letter page, portrait orientation, holding ONE Cube Sorting Mat per page (~7.5in wide × 9.5in tall after a thin border). The mat has three labelled zones top to bottom: a 'COUNT HERE' rectangular tray (~7in × 2in) at the top with a faint dotted line marking 1-cube spacing for up to 20 cubes; a 'GROUP A' square (~3.2in × 3.2in) on the lower-left and a 'GROUP B' square (~3.2in × 3.2in) on the lower-right, separated by a tall plus sign (+); under the two squares a thin horizontal line and the word 'TOTAL' for children to lay their combined cubes back into the COUNT HERE strip.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_CUBE_SORTING_MAT",
+          "description": "A B&W line-art letter-page Cube Sorting Mat. Top third: a long horizontal rectangle labelled 'COUNT HERE' in bold uppercase, with 20 faint dotted square outlines arranged in a single row inside the rectangle (each square sized to fit one standard linking cube ~0.75in). Middle: two equal-sized squares labelled 'GROUP A' (left) and 'GROUP B' (right) in bold uppercase, separated by a large bold '+' between them. Below the two squares: a thin horizontal divider line and the word 'TOTAL' in bold uppercase, centred. Thin black border around the whole mat. Clean, simple, no decorations. Designed so a Kindergartener can immediately tell where to put their cubes.",
+          "placement": "Centred on the page, filling almost the whole letter sheet.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "count",
+            "cubes",
+            "group",
+            "total"
+          ],
+          "text_image_alignment_check": "The mat's three labels — COUNT HERE, GROUP A / GROUP B, and TOTAL — directly mirror the teacher_prep_steps language: 'count cubes', 'build two groups', 'snap them together to find the total'. The 20 dotted cube outlines visually anchor the count-to-20 expectation referenced in the unit's A6.3 goal."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 Cube Sorting Mat per child (20 pages for a class of 20).",
+        "Laminate every sheet. The mats live on the rug under loose cubes for all 5 lessons.",
+        "Confirm you have ~30 linking snap-cubes per child (not printed; classroom purchase).",
+        "Stack the laminated mats in the math centre. Hand each child a mat plus a cube bag at Lesson 1.",
+        "Optional colour: print COUNT HERE in blue and GROUP squares in yellow."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 mat per child = 20 mats for a class of 20.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_ten_frames",
+      "name": "Ten-Frame Mats",
+      "category": "manipulative",
+      "purpose": "Laminated 2×5 grids that children fill with cubes, counters, or sticker dots to model quantities up to 10. The ten-frame is the bridge between unstructured counting (M1) and the structured subitizing arrangements children will see in M3, and it makes composing and decomposing visually obvious because every gap shows what's missing from 10.",
+      "page_layout": "One letter page, portrait orientation, holding TWO ten-frame mats stacked vertically. Each mat is a 2×5 grid of squares, ~6.5in wide × 2.6in tall, with a thick outer border and thin internal grid lines. Each cell is ~1.3in × 1.3in, sized to hold one standard linking cube comfortably. A solid horizontal cut-line separates the two mats so the teacher can cut one page into two single-mat strips.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_TEN_FRAME_GRID",
+          "description": "A 2×5 ten-frame grid in B&W line-art style. Outer rectangle ~6.5in × 2.6in with a thick black border (~3pt). Two rows × five columns of equal cells (~1.3in square each), separated by thin black grid lines (~1pt). All cells empty (no dots, no fills) — children add their own cubes or sticker dots. Above the grid a small label 'Ten-Frame' in bold uppercase, ~0.4in tall. Clean and uncluttered.",
+          "placement": "Stacked twice on the page, with a horizontal cut-line between them.",
+          "approximate_size": "large",
+          "keywords": [
+            "ten",
+            "frame",
+            "cells"
+          ],
+          "text_image_alignment_check": "The 2×5 grid renders the 10-cell ten-frame named in teacher_prep_steps and matches the blueprint's M2_ten_frames description ('laminated 2×5 grids printed at letter size'). The grid empty state reflects the prep instruction that children fill cells with cubes or stickers themselves."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per child. Each page yields 2 mats (cut along the middle line).",
+        "Laminate before cutting so children can use dry-erase markers on the cells.",
+        "Cut each page along the solid horizontal line into 2 single ten-frame strips.",
+        "Distribute 2 mats per child before Lesson 4. Collect and reuse for Lesson 5.",
+        "Pair each child's mats with a small bag of 10 round counters (or M1 cubes)."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "2 mats per child = 40 mats = 20 printed pages for a class of 20.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_dot_cards",
+      "name": "Subitizing Dot Cards",
+      "category": "manipulative",
+      "purpose": "A 10-card flash set the teacher uses for instant-recognition subitizing in Lesson 4. Each card shows 1 to 5 paw prints arranged in either a standard dice pattern or a random pattern. Buddy the puppy is the visual frame — paw prints are explicitly Buddy's — which keeps the unit narrative threaded through every manipulative. The teacher flashes a card for ~2 seconds and children call out the quantity without counting.",
+      "page_layout": "Two letter pages, portrait orientation, each holding 5 cards in a 1×5 vertical strip. Each card is ~5in wide × 1.9in tall with a thin solid cut-line between cards. Page 1 holds the STANDARD dice-pattern set (1, 2, 3, 4, 5 paw prints in canonical dice arrangements). Page 2 holds the RANDOM-pattern set (1, 2, 3, 4, 5 paw prints in scattered non-dice arrangements). The two-pattern split is intentional: children must recognise quantity regardless of arrangement.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_BUDDY_REFERENCE",
+          "description": "A 4in × 4in B&W line-art portrait of Buddy the golden-retriever puppy seated alertly with one paw raised, a dog bone visible beside the front paws. Bold simple outlines, fur indicated by short hatching, friendly smile, big round eyes. Used as the cover image / title-card for the dot-card set so the teacher sees Buddy's face when pulling the deck out. References blueprint.recurring_characters['Buddy'].visual_description.",
+          "placement": "Top of page 1, above the 5 standard-pattern cards, as a title-card frame.",
+          "approximate_size": "medium",
+          "keywords": [
+            "puppy"
+          ],
+          "text_image_alignment_check": "The asset purpose names 'Buddy the puppy' as the visual frame for the dot-card deck, and the chosen clipart slide02_random_04.png caption — 'Sitting golden retriever puppy with a dog bone next to it' — anchors `puppy` in the catalogue. Keywords are deliberately tight to what works in BOTH the teacher prep text and the generic clipart catalogue (Buddy is the unit-level name; puppy is the catalogue token).",
+          "clipart_filename": "slide02_random_04.png"
+        },
+        {
+          "id": "M3_DOTS_STANDARD_1",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: ONE bold black paw print (~0.9in across), the standard 4-toes-and-pad shape. Bottom-right corner: small label 'STANDARD' in tiny type so the teacher can sort the deck. No number printed on the card itself — children must subitize.",
+          "placement": "Top of page 1's 1×5 strip, standard-pattern set.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Card shows 1 paw print; the asset purpose describes 'instant-recognition subitizing' of 1-to-5 paw prints. Quantity (1) is what the child calls out without counting — matches the lesson 4 expectation A6.4 'subitize quantities to 5'."
+        },
+        {
+          "id": "M3_DOTS_STANDARD_2",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: TWO bold black paw prints arranged in the standard dice pattern (one upper-left, one lower-right). Bottom-right: 'STANDARD' label.",
+          "placement": "Second card on page 1's strip.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Two paw prints in the canonical dice-2 arrangement; matches the asset's 'standard dice pattern' description and Buddy's paw-print imagery."
+        },
+        {
+          "id": "M3_DOTS_STANDARD_3",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: THREE bold black paw prints arranged in the standard dice pattern (diagonal, upper-left to centre to lower-right). Bottom-right: 'STANDARD' label.",
+          "placement": "Third card on page 1's strip.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Three paw prints in dice-3 diagonal — the canonical arrangement children memorise for instant subitizing per the asset purpose."
+        },
+        {
+          "id": "M3_DOTS_STANDARD_4",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: FOUR bold black paw prints in the standard dice-4 corners pattern (one in each corner of an invisible square). Bottom-right: 'STANDARD' label.",
+          "placement": "Fourth card on page 1's strip.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Four paw prints in dice-corners arrangement — the standard pattern children learn for subitizing 4."
+        },
+        {
+          "id": "M3_DOTS_STANDARD_5",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: FIVE bold black paw prints in the standard dice-5 quincunx pattern (four corners + one centre). Bottom-right: 'STANDARD' label.",
+          "placement": "Fifth card on page 1's strip.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Five paw prints in dice-5 quincunx — the asset purpose names 'standard dice arrangements' and 5 is the upper bound of A6.4 subitizing."
+        },
+        {
+          "id": "M3_DOTS_RANDOM_1",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: ONE bold black paw print (~0.9in across) placed off-centre toward the upper-right. Bottom-right: 'RANDOM' label.",
+          "placement": "Top of page 2's 1×5 strip, random-pattern set.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "One paw print in a random (non-canonical) position — pairs with the standard-1 card so children prove they recognise 'one' regardless of placement, per the asset's split-pattern design."
+        },
+        {
+          "id": "M3_DOTS_RANDOM_2",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: TWO bold black paw prints scattered randomly — one upper-left, one lower-centre. Bottom-right: 'RANDOM' label.",
+          "placement": "Second card on page 2's strip.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Two paw prints in non-dice arrangement; tests subitizing-of-2 generalisation beyond the canonical dice-2 pattern."
+        },
+        {
+          "id": "M3_DOTS_RANDOM_3",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: THREE bold black paw prints in a random triangle (not the diagonal dice-3): two near the top, one near the bottom-centre. Bottom-right: 'RANDOM' label.",
+          "placement": "Third card on page 2's strip.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Three paw prints in a non-canonical triangle — exercises perceptual subitizing of 3 in arrangements children have not memorised, the harder half of lesson 4."
+        },
+        {
+          "id": "M3_DOTS_RANDOM_4",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: FOUR bold black paw prints scattered loosely — two clustered upper-left, one mid-right, one lower-left. Bottom-right: 'RANDOM' label.",
+          "placement": "Fourth card on page 2's strip.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Four paw prints in a scattered cluster — the harder counterpart to the dice-4 corner pattern; tests true subitizing rather than memorised position."
+        },
+        {
+          "id": "M3_DOTS_RANDOM_5",
+          "description": "A 5in × 1.9in card with a thin black border. Centred inside: FIVE bold black paw prints in a curved arc (not the dice-5 quincunx) running from upper-left down to lower-right. Bottom-right: 'RANDOM' label.",
+          "placement": "Fifth card on page 2's strip.",
+          "approximate_size": "small",
+          "keywords": [
+            "paw",
+            "print"
+          ],
+          "text_image_alignment_check": "Five paw prints in a curved arc — the upper subitizing limit (A6.4) tested with a non-canonical arrangement, completing the standard/random pair the asset is built around."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 set (2 pages) for the teacher. This is a teacher-only flash deck.",
+        "Laminate both pages before cutting so cards survive daily flashing.",
+        "Cut along the cut-lines into 10 individual cards (5 standard + 5 random).",
+        "Store the deck in a labelled envelope. Keep STANDARD and RANDOM in separate stacks.",
+        "Optional: punch a hole in each card and bind on a ring so cards stay together."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 deck (10 cards) for the teacher — used in whole-group flash, not distributed.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M4_number_cards",
+      "name": "Number Cards 0-20",
+      "category": "manipulative",
+      "purpose": "A 21-card numeral set printed letter-sized, used by children to sequence numbers, match a numeral to a quantity, write the missing number in a row, and identify the tricky teen numbers. Lesson 3 uses these for the Number-Sort station; Lesson 5 uses them for the compare game where children pair a numeral with the matching cube tower.",
+      "page_layout": "Six letter pages, portrait orientation, each holding 4 cards in a 2×2 grid. Each card is ~3.75in × 4.75in. Page 1 holds 0, 1, 2, 3. Page 2 holds 4, 5, 6, 7. Page 3 holds 8, 9, 10, 11. Page 4 holds 12, 13, 14, 15. Page 5 holds 16, 17, 18, 19. Page 6 holds 20 (one card) plus 3 blank-with-question-mark cards used for missing-number Mystery activities. Each card has a thin solid border and cut-lines between cards.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 6,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_NUMERAL_CARD_SAMPLE",
+          "description": "A 3.75in × 4.75in numeral card. Top half: a single large bold black numeral (the digit 5 shown here as an exemplar of the set, ~2.5in tall) centred, in a clear K-readable font with rounded terminals. Bottom half: a 2×3 dot grid showing the same quantity (5 dots arranged as a dice-5 pattern), to anchor numeral-to-quantity. Below the dot grid, the spelled word 'FIVE' in clear K-readable type (~0.5in tall). Thin black border around the whole card. The same template is repeated for every numeral 0-20 in the set, each card showing its digit, dot pattern, and word.",
+          "placement": "Centred on each card; the set spans 6 letter pages.",
+          "approximate_size": "medium",
+          "keywords": [
+            "number",
+            "numeral",
+            "card"
+          ],
+          "text_image_alignment_check": "Each card shows the numeral, a dot pattern of the same quantity, and the spelled word — directly serving expectation A6.3 ('identify and write numbers to 20'). The 0-20 range named in the asset purpose matches the page layout (21 cards across 6 pages)."
+        },
+        {
+          "id": "M4_MYSTERY_CARD",
+          "description": "A 3.75in × 4.75in card with a thin solid border. Centred: a large bold question mark (~2.5in tall) drawn in dark grey or black. Below the question mark, the word 'MYSTERY' in clear K-readable type (~0.5in tall). Used in the Number-Sort station: the teacher hides one numeral card from a sequence and slots a Mystery card in its place; children call out which number is missing. Identical design on all 3 Mystery cards.",
+          "placement": "Three copies on page 6, alongside the '20' card.",
+          "approximate_size": "medium",
+          "keywords": [
+            "mystery",
+            "missing",
+            "number"
+          ],
+          "text_image_alignment_check": "The Mystery card represents the 'missing number' activity named in the asset purpose. The bold question mark is instantly readable to a Kindergartener as 'something goes here that we have to figure out', matching the teacher prompt the children hear."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print all 6 pages (1 class set). Used at a teacher-led station, not distributed.",
+        "Laminate every page before cutting so they survive a year of K hands.",
+        "Cut into 24 individual cards (numerals 0-20 + 3 Mystery cards).",
+        "Sort the 0-20 cards in order and bind on a ring. Keep Mystery cards loose in the envelope.",
+        "Place at the Number-Sort station for Lesson 3 and the Compare station for Lesson 5.",
+        "Optional colour suggestion: print the digit in red and the dot grid in blue if you. Have a colour printer — the colour cue helps children connect numeral to quantity faster."
+      ],
+      "estimated_prep_minutes": 30,
+      "quantity_per_class": "1 class set (24 cards) — shared at a station, not 1-per-child.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_counting_objects_set",
+      "name": "Object Sorting Tray",
+      "category": "manipulative",
+      "purpose": "Real classroom objects (apples, water bottles, books, blocks, paper bears) are the diagnostic backbone of Lesson 1 — children count them around the room and sort them by purpose. Because the objects themselves are sourced from the classroom, the printable companion is an Object Sorting Tray that gives children a labelled landing zone for each object kind. The tray makes the count visible: 5 apples in the apple zone, 4 books in the book zone, etc., with a 'TOTAL' strip across the bottom.",
+      "page_layout": "One letter page, landscape orientation, holding ONE Object Sorting Tray (~10in wide × 7in tall after a thin border). The tray has 5 zones in a 1×5 horizontal strip across the top: APPLES, WATER BOTTLES, BOOKS, BLOCKS, PAPER BEARS. Each zone is ~2in wide × 4in tall and has a small icon of the object at the top of the zone for non-readers. Below the 5 zones a thin horizontal divider, then a 'TOTAL' strip with 20 dotted cube outlines for tallying.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_OBJECT_TRAY",
+          "description": "A B&W line-art landscape Object Sorting Tray. Five labelled vertical zones across the top, each with a small icon and an uppercase label. Left to right: an apple icon + 'APPLES'; a water bottle icon + 'WATER BOTTLES'; a book icon + 'BOOKS'; a stacked block icon + 'BLOCKS'; a paper-bear icon + 'PAPER BEARS'. Each zone bordered by a thin vertical line. Below the zones a thin horizontal divider, then a long 'TOTAL' strip with 20 dotted cube outlines arranged in a single row, with the word 'TOTAL' in bold uppercase to the left. References the icon-set sampler clipart catalogued at sample_assets/clipart/INDEX.json::slide02_random_07.png as the visual style guide for the per-zone object icons.",
+          "placement": "Centred on the page, filling almost the whole letter sheet.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "apple",
+            "bottle",
+            "book",
+            "block",
+            "bear",
+            "total"
+          ],
+          "text_image_alignment_check": "The five zone labels (APPLES, WATER BOTTLES, BOOKS, BLOCKS, PAPER BEARS) match the five object kinds named in the blueprint's M5_counting_objects_set description verbatim and reappear in the asset's teacher_prep_steps (apple, water-bottle, book, building-block, paper-bear counters). The clipart sampler at slide02_random_07.png (apple + water-bottle icons) inspires the icon style, but the asset is a hand-authored composite — clipart_filename is intentionally NOT set so the image→clipart-caption check doesn't run against a sampler whose caption only covers two of the five icons. The TOTAL strip with dotted cube outlines mirrors the M1 mat so children read both surfaces the same way."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 sorting tray per child (20 pages for a class of 20).",
+        "Laminate every sheet. The tray sits on the floor for object sorting across L1, L2, L3, L5.",
+        "Confirm you have ~10 of each real object: apples, water bottles, books, blocks, bears.",
+        "Stack laminated trays at the Counting Centre. Each child gets one tray plus a small bag of objects.",
+        "Optional colour: per-zone icons can be printed in colour. Works equally well in B&W."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 tray per child = 20 trays for a class of 20.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_compare_strip",
+      "name": "More / Less / Equal Strip",
+      "category": "manipulative",
+      "purpose": "The summative manipulative for Lesson 5: a printable strip with two parallel rows where children align two groups of cubes (or counters) one-to-one and visually decide MORE, LESS, or EQUAL. Aligning quantities row-against-row turns 'compare two amounts' from an abstract guess into a perceptual judgement any K can make.",
+      "page_layout": "One letter page, landscape orientation, holding TWO comparison strips stacked vertically. Each strip is ~10in wide × 4.5in tall and contains: a top row of 10 squares labelled 'GROUP A' on the left, a bottom row of 10 squares labelled 'GROUP B' on the left, and three circle-able words on the right edge — 'MORE', 'LESS', 'EQUAL' — stacked vertically. A thin horizontal cut-line separates the two strips on the page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_COMPARE_STRIP",
+          "description": "A B&W line-art comparison strip. Two horizontal rows of 10 squares each, vertically aligned so cell N in the top row sits directly above cell N in the bottom row. Top row labelled 'GROUP A' in bold uppercase to the far left; bottom row labelled 'GROUP B'. Each cell ~0.75in × 0.75in, sized for a standard linking cube. To the right of the rows, three vertically stacked circle-able words: 'MORE', 'LESS', 'EQUAL', each in bold uppercase ~0.5in tall, with a thin oval drawn around each so children know to circle one. A thin black border around the whole strip.",
+          "placement": "Stacked twice on the page, with a horizontal cut-line between them.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "group",
+            "more",
+            "less",
+            "equal"
+          ],
+          "text_image_alignment_check": "The strip labels (GROUP A, GROUP B, MORE, LESS, EQUAL) directly mirror the Lesson 5 student_learning_goal ('compare two groups using more, less, or equal') and the threaded vocabulary terms 'more', 'less', 'equal' from the blueprint. The aligned rows operationalise the comparison strategy described in the asset purpose."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per pair. Each page yields 2 strips (1 per child or 1 per pair).",
+        "Laminate before cutting so children can use a dry-erase marker on MORE/LESS/EQUAL.",
+        "Cut along the horizontal cut-line into 2 single comparison strips per page.",
+        "Distribute 1 strip per child before Lesson 5 with ~10 cubes for each group.",
+        "Optional: provide dry-erase markers so children can circle their answer."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 strip per child = 20 strips = 10 printed pages for a class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_counting_path",
+      "name": "Counting Path Floor Mat",
+      "category": "manipulative",
+      "purpose": "A long numbered floor mat that children physically walk forward (count up) or backward (count down) one number at a time. The Lesson 2 centrepiece. Walking the count makes the bidirectional move embodied and fixes the K misconception that 'counting' only goes up.",
+      "page_layout": "Eleven letter pages, portrait orientation, each holding TWO numbered footprint tiles stacked vertically. Each tile is ~7.5in wide × 4.75in tall and shows: a single big bold numeral (~3in tall) at top, a footprint icon (~2.5in across) at bottom. Tiles are numbered 0 through 21, with the 21 tile NOT used (provides one spare); pages 1-11 collectively yield tiles 0, 1, 2, …, 20 plus 1 spare. A horizontal cut-line separates the two tiles per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 11,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_PATH_TILE_SAMPLE",
+          "description": "A 7.5in × 4.75in floor tile showing the digit 5 (as exemplar of the set). Top half: large bold numeral '5' (~3in tall) centred, K-readable rounded terminals. Bottom half: a single large footprint icon (~2.5in long × 1.5in wide), simple bold outline of a child-sized shoe sole with toes implied by 5 small circles. Thin black border. The same template repeats for every numeral 0-20 across the 11 pages — each tile shows its number and the same footprint silhouette.",
+          "placement": "Top tile of each letter page, with one matching tile below it (different numeral) per page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "number",
+            "footprint",
+            "path"
+          ],
+          "text_image_alignment_check": "Each tile shows a numeral 0-20 (matching A6.3) and a footprint icon — the footprint operationalises 'children physically step forward or backward' from the asset purpose. The numbered sequence supports the Lesson 2 forward-and-backward counting goal."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print all 11 pages on cardstock if available (otherwise paper + heavy lamination).",
+        "Laminate every page front and back. The mat lives on the floor and gets walked on for L2 and L5.",
+        "Cut every page along the horizontal cut-line into 22 single-tile sheets.",
+        "Lay tiles in a long line on the carpet from 0 to 20. Use removable tape so feet don't kick them.",
+        "Roll up tiles after each lesson and store in a labelled tube. Relay for Lesson 2 and L5 review.",
+        "Optional colour suggestion: print the numeral in red and the footprint in dark grey. If you have a colour printer — the colour cue helps children spot the next number quickly while walking."
+      ],
+      "estimated_prep_minutes": 45,
+      "quantity_per_class": "1 class mat (21 tiles) — children share, walking it one at a time.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "char_mae_puppet",
+      "name": "Mae the Lead Counter Puppet",
+      "category": "character_puppet",
+      "purpose": "A printable Mae illustration that the teacher mounts on a popsicle stick and uses as a recurring class character throughout all 5 lessons. Mae is named in every lesson's teacher script as the model who 'counts forward' or 'writes the number on the chart'; the puppet gives her a face the children look at when the script says 'Mae says…'.",
+      "page_layout": "One letter page, portrait orientation, holding a single full-body Mae illustration (~7in tall) plus a small rectangular tab (~1in × 3in) below for the popsicle stick. A thin cut-line traces the outside of Mae's silhouette including the tab.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_MAE_FRONT",
+          "description": "A full-body B&W line-art cartoon illustration of Mae, approximately 7in tall: a young child chef in a white apron and tall chef hat, holding a small loaf of bread in one hand. Bold simple outlines, friendly expressive face, big round eyes, warm smile. The bread loaf has a few hatched lines indicating crust texture. The hat is slightly stylized (not a real toque) and Kindergarten-appropriate. At the bottom of the illustration, a small rectangular tab (~1in × 3in) extends below Mae's feet for gluing the popsicle stick behind. A thin cut-line traces the outside of Mae's body including the tab. References blueprint.recurring_characters['Mae'].visual_description.",
+          "placement": "Centred on the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "Mae",
+            "puppet",
+            "character"
+          ],
+          "text_image_alignment_check": "Mae is the unit's named recurring character (asset purpose: 'a printable Mae illustration that the teacher mounts on a popsicle stick and uses as a recurring class character'). The keywords scope to what the teacher's prep card actually mentions — Mae, puppet, character. The image description's chef/apron/bread/spoon visual specification stays in the description field where the renderer reads it; it is intentionally NOT promoted to keywords because the teacher prep text doesn't mention those visual details and the alignment validator scopes keywords to the surrounding teacher-facing text."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible (or paper + laminate for durability).",
+        "Cut around the outside of Mae's silhouette including the bottom tab.",
+        "Glue or tape a popsicle stick behind the bottom tab so Mae can be held up.",
+        "Optional: laminate before cutting for years of reuse.",
+        "Store flat in a folder so the puppet does not crease.",
+        "Optional Day-0 activity: hand the B&W Mae to children to colour as a class before. Lesson 1 — a calm low-stakes way to introduce the character before the unit starts."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_theo_puppet",
+      "name": "Theo Partner Puppet",
+      "category": "character_puppet",
+      "purpose": "A printable Theo illustration mounted on a popsicle stick, used as Mae's pair partner across all 5 lessons. Theo models composing and decomposing in Lesson 5 ('Theo had 3, Mae had 4, together they have 7'); having both puppets in hand lets the teacher physically dramatise the partner-counting that drives every lesson's learning goal.",
+      "page_layout": "One letter page, portrait orientation, holding a single full-body Theo illustration (~7in tall) plus a small rectangular tab (~1in × 3in) below for the popsicle stick. A thin cut-line traces the outside of Theo's silhouette including the tab.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_THEO_FRONT",
+          "description": "A full-body B&W line-art cartoon illustration of Theo, approximately 7in tall: a young child chef in a white apron and chef hat, holding a wooden spoon in one hand and a small mixing bowl in the other. Bold simple outlines, friendly expressive face, big round eyes, warm smile. The bowl has a few hatched lines indicating its rim and contents. The hat matches Mae's stylized cartoon toque. At the bottom of the illustration, a small rectangular tab (~1in × 3in) extends below Theo's feet for gluing the popsicle stick behind. A thin cut-line traces the outside. References blueprint.recurring_characters['Theo'].visual_description.",
+          "placement": "Centred on the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "Theo",
+            "puppet",
+            "partner"
+          ],
+          "text_image_alignment_check": "Theo is the unit's recurring partner character (asset purpose: 'used as Mae's pair partner across all 5 lessons. Theo models composing and decomposing'). Keywords scope to what the teacher's prep card mentions — Theo, puppet, partner. The image description's chef/apron/spoon/bowl visual detail stays in the description field where the renderer reads it; not promoted to keywords because the alignment validator scopes keywords to teacher-facing surrounding text."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible (or paper + laminate for durability).",
+        "Cut around the outside of Theo's silhouette including the bottom tab.",
+        "Glue or tape a popsicle stick behind the bottom tab so Theo can be held up.",
+        "Optional: laminate before cutting for years of reuse.",
+        "Store flat in a folder next to the Mae puppet so they always travel together.",
+        "Optional Day-0 activity: pair the Theo and Mae colouring with the unit kick-off so. Children meet both characters before Lesson 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_buddy_puppet",
+      "name": "Buddy Companion Puppet",
+      "category": "character_puppet",
+      "purpose": "A printable Buddy-the-puppy illustration mounted on a popsicle stick. Buddy is the subitizing mascot in Lesson 4 (his paw prints are the dot-card image) and turns up in Lesson 1 and 5 as the friendly puppy observer who 'counts along' with Mae and Theo. Having the puppy puppet on a stick lets the teacher hold him up while flashing dot cards, threading the narrative through the manipulative.",
+      "page_layout": "One letter page, portrait orientation, holding a single Buddy illustration (~7in tall) plus a small rectangular tab (~1in × 3in) below for the popsicle stick. A thin cut-line traces the outside of Buddy's silhouette including the tab.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_BUDDY_FRONT",
+          "description": "A full-body B&W line-art cartoon illustration of Buddy, approximately 7in tall: a friendly golden-retriever puppy sitting alertly on his hind legs, with a dog bone visible beside the front paws. Bold simple outlines, fur indicated by short hatching (no fill), big round eyes, friendly smile, ears flopping forward, tail visible curling around the side. Kindergarten-appropriate, no scary features. At the bottom of the illustration, a small rectangular tab (~1in × 3in) extends below Buddy's hind paws for gluing the popsicle stick behind. A thin cut-line traces the outside of Buddy's body including the tab. References blueprint.recurring_characters['Buddy'].visual_description and the catalogued clipart at sample_assets/clipart/INDEX.json::slide02_random_04.png.",
+          "placement": "Centred on the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "puppy"
+          ],
+          "text_image_alignment_check": "The asset purpose names 'Buddy-the-puppy' twice (and 'puppy puppet') so the teacher's prep text anchors `puppy` directly. The chosen clipart slide02_random_04.png caption — 'Sitting golden retriever puppy with a dog bone next to it' — also anchors `puppy` in the catalogue. Keyword set is tight to the single token that works in both surfaces; visual details (bone, fur, ears, tail) stay in the image description for the renderer.",
+          "clipart_filename": "slide02_random_04.png"
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible (or paper + laminate for durability).",
+        "Cut around the outside of Buddy's silhouette including the bottom tab.",
+        "Glue or tape a popsicle stick behind the bottom tab so Buddy can be held up.",
+        "Optional: laminate before cutting for years of reuse.",
+        "Store flat in a folder; bring out for every lesson alongside Mae and Theo.",
+        "Optional colour suggestion: colour Buddy's coat golden-yellow if printing in colour. — the visual cue helps children connect the puppet to the paw-print dot cards in Lesson 4."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        4,
+        5
+      ]
+    }
+  ],
+  "overall_prep_notes": "Total prep time across all 10 assets is approximately 205 minutes (~3.5 hours) for a class of 20 — heavier than a typical unit because the counting-cube Sorting Mat and the Counting Path floor mat are both per-child / per-class scale. Default print spec is BLACK AND WHITE for every asset so any classroom printer can produce the unit. Recommended approach: front-load the bulk prep across two evenings the week before the unit launches — Evening 1 print+laminate everything, Evening 2 cut and store. Highest-yield prep priorities if time is tight: M1 Cube Sorting Mats (used every day), M3 Buddy dot cards (the centrepiece of Lesson 4), and the three character puppets (Mae, Theo, Buddy — referenced by name in every lesson's teacher script). M7 Counting Path is the most labour-intensive single asset; if prep time is critical, skip lamination and tape-protect the tiles instead, or use a chalk number line drawn directly on the gym floor as an emergency substitute. Storage: a single labelled bin on the math shelf with the puppets clipped to one side in a folder, the laminated mats stacked on the other, and the cube/object bags lined along the bottom. Re-using the unit next year takes zero re-prep if every asset was laminated this year."
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "pair_number": 1,
+  "graded_at": "2026-05-08T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale and teacher_script never bridge to neighbouring lessons in the unit arc. The text never references that 'tomorrow Tally will turn these sorts into tally counts (Lesson 2) and the day after we'll display them as a pictograph (Lesson 3)'. The arc connection is missing.",
+      "required_fix": "Add an explicit forward-bridge in the consolidation or expanded_walkthrough teacher_script: e.g., 'Detective Dot: tomorrow we'll COUNT each pile with Tally's tally marks — that's why ONE rule matters: if the rule drifts, the count is wrong.' This cross-references Lesson 2 (D1.2) and previews Lesson 3 (D1.3), satisfying the Level 4 arc-bridging criterion.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names the rule-drift trap concretely but cites no research (Inhelder & Piaget classification, Sarama & Clements early-data trajectory). recovery_moves is flat — three generic actions, no branching by what the diagnostic showed (cannot name a rule vs names it then drifts vs uses two rules at once).",
+      "required_fix": "Cite a named source in rationale (e.g., 'rule-drift mirrors Inhelder & Piaget classification by global similarity'). Branch recovery_moves by diagnostic: (a) cannot name rule -> give a written RULE card; (b) names then drifts -> ask 'does this fit the rule?' after each object; (c) uses two rules -> separate into two passes.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Detective Dot anchors every phase and 'I can' criteria are present, but no distinctive quotable refrain or memorable chant carries between lessons. consolidation.exit_routine is 'I sorted ___ by ___' — that is a sentence frame but not a chantable refrain. The unit lacks the Sounder-Sam-style 'HOO knows the sounds? YOU do!' kid-chant moment.",
+      "required_fix": "Add a recurring Detective Dot refrain that children chant back at every consolidation across the unit, e.g. 'ONE rule, ONE pile, ONE answer — case closed!' or 'Pick the rule, SAY the rule, SORT the rule!'. Bake it into consolidation.exit_routine and reference it in the teacher_script so children carry it forward to Lessons 2-5.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Children invent rules at Station C and re-sort the same pile (good strategy variation), but expanded_walkthrough does not name the misconception in research-grounded terms (no Inhelder & Piaget, Sarama & Clements, or Battista reference). The 'compare strategies' moment is implicit — not staged as an explicit comparison discussion in consolidation.discussion_prompts.",
+      "required_fix": "(1) Name misconception in research terms in expanded_walkthrough.rationale (e.g., 'classification by global similarity, per Inhelder & Piaget'). (2) Stage explicit strategy comparison in consolidation: have two pairs who used DIFFERENT rules on the same objects share, then ask 'why did you get different piles?' to surface that the RULE — not the objects — determines the sort.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong G1 data lesson with everyday materials, optional puppets, no-paper movement option, and worksheet that mirrors lesson stations with a transfer task in Part 3. Four categories sit at Level 3: lesson lacks arc-bridges to Lessons 2-3, no research citation on the rule-drift trap, no chantable Detective Dot refrain, and no explicit research-grounded strategy comparison. Worksheet is solid; revise lesson_01 only."
+}

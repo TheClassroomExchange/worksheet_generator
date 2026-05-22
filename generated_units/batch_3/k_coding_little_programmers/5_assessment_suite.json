@@ -1,0 +1,95 @@
+{
+  "schema_version": 1, "unit_id": "k_coding_little_programmers",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker", "title": "K Little Programmers — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1.", "expectation_focus": ["B11.1"],
+    "columns": ["Student name", "Names directions", "Moves correctly", "Turns left/right", "Notes"],
+    "usage_notes": "Walk between pairs to observe direction movement. Tick where evidence is clear.",
+    "layout_description": "One letter page, portrait, 5-column tick table with 24 rows.",
+    "image_placeholders": [{"id": "AS_DIAG_TRACKER", "description": "Diagnostic tracker for Kindergarten teacher. Title: 'K Little Programmers — Day 1'. B11.1 focus.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "directions"], "text_image_alignment_check": "AS_DIAG_TRACKER: keywords name the tracker and directions focus."}]
+  },
+  "formative_trackers": [
+    {"tracker_id": "formative_tracker_lesson_02", "title": "K Little Programmers — Lesson 2 Formative (Position)",
+     "when_used": "During Lesson 2.", "expectation_focus": ["B11.1"],
+     "columns": ["Student name", "Names positions", "Shows above/below", "Describes spots", "Notes"],
+     "usage_notes": "Stop at each pair to observe position word use.",
+     "layout_description": "Identical to diagnostic.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L2", "description": "Lesson 2 formative tracker for Kindergarten coding unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "position"], "text_image_alignment_check": "AS_FORM_TRACKER_L2: keywords name the tracker and position focus."}]},
+    {"tracker_id": "formative_tracker_lesson_03", "title": "K Little Programmers — Lesson 3 Formative (Code)",
+     "when_used": "During Lesson 3.", "expectation_focus": ["B11.3"],
+     "columns": ["Student name", "Draws arrows", "Orders steps", "Reads codes", "Notes"],
+     "usage_notes": "Stop at each pair to observe code recording.",
+     "layout_description": "Identical layout, Lesson 3 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L3", "description": "Lesson 3 formative tracker for Kindergarten coding unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "code"], "text_image_alignment_check": "AS_FORM_TRACKER_L3: keywords name the tracker and code focus."}]},
+    {"tracker_id": "formative_tracker_lesson_04", "title": "K Little Programmers — Lesson 4 Formative (Bug)",
+     "when_used": "During Lesson 4.", "expectation_focus": ["B11.2"],
+     "columns": ["Student name", "Tests code", "Identifies bug", "Fixes code", "Notes"],
+     "usage_notes": "Stop at each pair to observe bug detection.",
+     "layout_description": "Identical layout, Lesson 4 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L4", "description": "Lesson 4 formative tracker for Kindergarten coding unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "bug"], "text_image_alignment_check": "AS_FORM_TRACKER_L4: keywords name the tracker and bug focus."}]}
+  ],
+  "summative_rubric": {
+    "title": "K Little Programmers — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 to score against all 3 expectations.",
+    "rows": [
+      {"expectation_code": "B11.1", "expectation_text": "use directional and positional language to create and follow instructions involving movement",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot name directions. Mixes left and right."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Uses 1-2 direction or position words with prompts."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently uses 4 direction and 4 position words to create and follow instructions."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Combines direction and position words in multistep instructions."}]},
+      {"expectation_code": "B11.2", "expectation_text": "test and refine instructions",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Does not test code. Says 'no bug' without checking."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Tests step-by-step with prompts."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently tests instructions and finds and fixes bugs."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Articulates the bug location and proposes multiple fixes."}]},
+      {"expectation_code": "B11.3", "expectation_text": "communicate and record step-by-step instructions using symbols, words, or pictures",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot record arrows. Random order."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Records 1-2 steps with prompts."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently records a 4-step code in left-to-right order."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Designs original codes for a partner to follow."}]}
+    ],
+    "usage_notes": "Score during Lesson 5 capstone. Level 3 = Kindergarten-grade-level.",
+    "layout_description": "One letter page, landscape, 3-row × 4-level grid.",
+    "image_placeholders": [{"id": "AS_RUBRIC", "description": "Summative rubric for Kindergarten K Little Programmers unit. 3-row × 4-level table.",
+      "placement": "Full page.", "approximate_size": "full_width", "keywords": ["rubric", "coding"], "text_image_alignment_check": "AS_RUBRIC: keywords name the rubric and coding focus."}]
+  },
+  "summative_task_script": {
+    "title": "Big Programmer Capstone — Summative Administration Guide",
+    "purpose": "Ties Lesson 5 capstone, the 4 stations, and the rubric together.",
+    "administration_steps": [
+      "Before: photocopy templates, print rubric, ready Junior Programmer certificates.",
+      "Stations 1-4 (5 min each): MOVE, POSITION, RECORD, TEST.",
+      "Station 1 MOVE: 4 directions on the mat. Evidence B11.1.",
+      "Station 2 POSITION: describe Bot's spot. Evidence B11.1.",
+      "Station 3 RECORD: write a 4-step code. Evidence B11.3.",
+      "Station 4 TEST: fix a buggy code. Evidence B11.2.",
+      "After: review with each child."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence. Level 3 = Kindergarten-grade-level.",
+    "evidence_per_expectation": {
+      "B11.1": "Stations 1, 2 — direction and position words.",
+      "B11.2": "Station 4 — bug detection and fix.",
+      "B11.3": "Station 3 — code strip recording."
+    }
+  },
+  "certificate": {
+    "title": "Junior Programmer Certificate (K)",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day K Little Programmers unit and demonstrating the skills of a K Junior Programmer. Bot the Robot congratulates the student.",
+    "skills_demonstrated": [
+      "Using direction words (forward, back, left, right)",
+      "Using position words (above, below, beside, between)",
+      "Recording step-by-step codes with arrows",
+      "Testing code and finding bugs"
+    ],
+    "layout_description": "One letter page, portrait, decorative border, title, recipient line, achievement text, skill bullets, signature lines, small Bot illustration.",
+    "image_placeholders": [
+      {"id": "AS_CERT_BORDER", "description": "Decorative border for Kindergarten certificate, ~0.5in inset. Scrollwork with arrow + bug motifs at corners. B&W line art.", "placement": "Frames the entire page.", "approximate_size": "full_width", "keywords": ["certificate", "border"], "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keywords name the certificate border."},
+      {"id": "AS_CERT_BOT", "description": "Small Bot the Robot Programmer at bottom-centre, ~1.5in tall, holding arrow cards.", "placement": "Bottom-centre.", "approximate_size": "small", "keywords": ["bot"], "text_image_alignment_check": "AS_CERT_BOT at Bottom-centre: keyword names the bot character on certificate."}
+    ],
+    "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false}
+  }
+}

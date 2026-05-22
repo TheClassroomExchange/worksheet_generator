@@ -1,0 +1,48 @@
+{
+  "unit_id": "g3_data_likely_unlikely",
+  "pair_number": 5,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child writes a conclusion WITHOUT a scale word AND without mean/mode — repairing the bare-conclusion trap at Grade 3' and recovery_moves = ['Use tools-required frame.', 'Drill word + number.', 'Compare bare vs full conclusions.'] — trap is real and recovery is concrete, but there is no named research citation and the recovery does not branch by what the diagnostic told you about the child.",
+      "required_fix": "Anchor the bare-conclusion trap to named research (e.g., Konold's 'outcome approach' to probability, or Shaughnessy on probabilistic reasoning, or Bright/Frierson on student conclusion writing in data) AND make recovery_moves branch diagnostically: if the child has the scale word but no numbers, drill mean+mode retrieval from the data column; if the child has numbers but no scale word, point back to the 5-word strip and force a word-first restart; if the child has neither, drop back to a one-sentence model with all three blanks scaffolded.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "differentiation = {'for_emerging': 'Visit 3 stations.', 'for_extending': 'Big-idea conclusion.', 'for_ell_or_iep': 'Pre-printed sentence frames.', 'for_movement_learners': 'Walk between 5 stations physically.'} — strong everyday-materials baseline (puppets optional, paper coin/dice/calculator cards) but there is no explicit NO-PAPER, NO-PURCHASE alternative path that lets the lesson run on a day when prep wasn't possible.",
+      "required_fix": "Add to differentiation an explicit no-materials capstone path, e.g., 'No-paper version — children use fingers as the 5-word scale (thumb=impossible … pinky=certain), call out predictions orally, and the teacher writes Class A/B data on the whiteboard so children compute mean+mode mentally. Conclusion is spoken aloud using the I-predicted-___-mean-was-___-mode-was-___ frame chanted as a class.' This makes Lesson 5 runnable on any day, including days when templates weren't printed.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.common_misconceptions = ['Conclusion = right/wrong. (Repair: include tools.)', 'Mean and mode aren’t part of D2. (Repair: D2.2 needs them.)'] and minds_on demo computes mean=1.4≈1 and bi-modal mode without inviting children to invent or compare strategies — the lesson teaches the procedure cleanly but does not let children INVENT or REFINE a strategy and does not name the misconception in research-grounded terms.",
+      "required_fix": "Add a 'compare-strategies' beat to action step 3 or to consolidation: ask two children to share DIFFERENT ways they decided whether the mode was 'the same' across populations (e.g., one child says bi-modal counts as same-if-overlap; another says only single-mode-equal-single-mode counts) and have the class debate. Also name the underlying misconception in research terms in expanded_walkthrough.rationale — e.g., cite Konold's 'outcome approach' (children evaluate predictions as right/wrong rather than probabilistically) or Shaughnessy's work on bi-modal reasoning. This lifts the conceptual layer from 'follow steps' to 'invent and defend a strategy'.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "Strong capstone — alignment, character voice, and lesson-worksheet transfer (siblings demo → books-read worksheet) are all at Level 4. The pair is blocked by three 3s clustered in the lesson: pedagogical_depth needs research grounding + diagnostic branching in recovery_moves; instructional_balance needs an explicit no-paper path; mathematical_authenticity needs a strategy-invention/compare beat plus a research-named misconception (Konold's outcome approach is the cleanest fit). All three fixes live in lesson_05; the worksheet is solid as-is."
+}

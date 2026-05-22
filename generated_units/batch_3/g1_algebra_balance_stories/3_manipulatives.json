@@ -1,0 +1,495 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "overall_prep_notes": "Total prep ~1.5 hours. The two character puppets (Bella, Bobby) print on cardstock. Real balance scale is the centerpiece. Cards (M3, M4, M6, M7) are laminated card decks.",
+  "assets": [
+    {
+      "asset_id": "M1_balance_scale",
+      "name": "Classroom Balance Scale",
+      "category": "manipulative",
+      "purpose": "Real two-pan balance scale (or cardboard prop) for class demonstrations.",
+      "page_layout": "Not printable — physical prop. Page is a setup-instructions sheet for the cardboard version.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_BALANCE_INSTRUCTIONS",
+          "description": "A setup instruction sheet in B&W line-art. Top: title 'Classroom Balance Scale Setup'. Below: cardboard template diagram showing how to make a balance scale from a ruler, two paper cups, and a pivot block. Step labels 1-5.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "balance",
+            "scale"
+          ],
+          "text_image_alignment_check": "Image M1_BALANCE_INSTRUCTIONS: keywords (balance, scale) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Source a real balance scale OR build cardboard version.",
+        "Print the setup sheet.",
+        "Prepare for whole-class demos.",
+        "Have ready Lessons 2-5.",
+        "Optional: extras."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 balance scale.",
+      "used_in_lessons": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_balance_drawings",
+      "name": "Balance Scale Drawing Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat with a drawn balance scale for children to use.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_BALANCE_MAT",
+          "description": "A balance scale drawing mat in B&W on a landscape letter page. Centred drawing of a balance with two pans, central pivot, level beam. Each pan has empty space for placing counters or writing expressions.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "balance",
+            "mat"
+          ],
+          "text_image_alignment_check": "Image M2_BALANCE_MAT: keywords (balance, mat) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per child.",
+        "Laminate.",
+        "Hand out at start of Lesson 2.",
+        "Use through Lesson 5.",
+        "Optional: extras."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 mat per child = 20+ for class of 20.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_change_constant_cards",
+      "name": "Change vs Stay-the-Same Cards",
+      "category": "manipulative",
+      "purpose": "24 picture cards for sorting in Lesson 1.",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_SORT_CARD",
+          "description": "A sorting card in B&W line-art, ~3in × 4in. Each card shows a quantity (image + label) for sorting. 24 cards: 12 'changes' (children at recess, leaves on tree) and 12 'stays the same' (sides of square, days in week). Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "sorting",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M3_SORT_CARD: keywords (sorting, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort into per-pair sets.",
+        "Distribute Lesson 1."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        1
+      ]
+    },
+    {
+      "asset_id": "M4_equivalence_cards",
+      "name": "Equivalence Cards",
+      "category": "manipulative",
+      "purpose": "30 cards with expression pairs for sorting equal/not equal in Lesson 2.",
+      "page_layout": "5 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 5,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_EXPRESSION_CARD",
+          "description": "An equivalence card in B&W line-art, ~3in × 4in. Each card shows two expressions (e.g., 5+3 vs 4+4). Cut lines.",
+          "placement": "30 cards across 5 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "expression",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M4_EXPRESSION_CARD: keywords (expression, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 5 pages on cardstock.",
+        "Laminate.",
+        "Cut into 30 cards.",
+        "Sort by type.",
+        "Distribute Lesson 2."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "30 cards.",
+      "used_in_lessons": [
+        2,
+        4
+      ]
+    },
+    {
+      "asset_id": "M5_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "category": "manipulative",
+      "purpose": "20 per pair for balance modelling.",
+      "page_layout": "Not printable — physical kit. Page is a storage label.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_LABEL",
+          "description": "Storage-bag label, ~3in × 4in, B&W. Shows two stacked counters with header 'TWO-COLOUR COUNTERS — 20 per pair'.",
+          "placement": "Top-centre.",
+          "approximate_size": "small",
+          "keywords": [
+            "counters",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M5_LABEL: keywords (counters, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Confirm class set.",
+        "Print labels.",
+        "Sort into pair bags.",
+        "Have ready Lessons 2-5.",
+        "Optional."
+      ],
+      "estimated_prep_minutes": 8,
+      "quantity_per_class": "20 counters per pair.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_missing_number_cards",
+      "name": "Missing-Number Puzzle Cards",
+      "category": "manipulative",
+      "purpose": "24 cards for Lesson 3 missing-number puzzles.",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_MYSTERY_CARD",
+          "description": "A missing-number puzzle card in B&W line-art, ~3in × 4in. Each card shows an addition or subtraction equation with one number missing (e.g., 4+?=7). Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "missing",
+            "puzzle"
+          ],
+          "text_image_alignment_check": "Image M6_MYSTERY_CARD: keywords (missing, puzzle) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort by difficulty.",
+        "Distribute Lesson 3."
+      ],
+      "estimated_prep_minutes": 22,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        3
+      ]
+    },
+    {
+      "asset_id": "M7_equivalent_target_cards",
+      "name": "Equivalent-Target Cards",
+      "category": "manipulative",
+      "purpose": "12 'target number' cards for Lesson 4 hunt.",
+      "page_layout": "2 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_TARGET_CARD",
+          "description": "An equivalent-target card in B&W line-art, ~3in × 4in. Each shows a target number (10, 15, 20, 25, 30, 40, 50, etc.) with 5 blank slots for the child to write expressions. Cut lines.",
+          "placement": "12 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "target",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M7_TARGET_CARD: keywords (target, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 12 cards.",
+        "Distribute Lesson 4.",
+        "Optional: extras."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "12 cards.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M8_story_template",
+      "name": "Balance Story Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template for Lesson 5 capstone.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_STORY_TEMPLATE",
+          "description": "A balance story template in B&W line-art on a portrait letter page. Sections: title slot, story writing area, balance scale drawing area, equation line, equivalent expression line. Pre-printed labels.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "story",
+            "template"
+          ],
+          "text_image_alignment_check": "Image M8_STORY_TEMPLATE: keywords (story, template) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out Lesson 5.",
+        "Children fill in.",
+        "Collect for assessment.",
+        "Display gallery."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_equality_chart",
+      "name": "Equal Sign Anchor Chart",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor chart showing = and ≠.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_EQUAL_CHART",
+          "description": "Equal sign anchor chart in B&W line-art, ~17in × 22in. Top: large = symbol with examples. Bottom: large ≠ symbol with examples. Both labeled 'SAME AMOUNT' / 'NOT SAME AMOUNT'.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "equal",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M9_EQUAL_CHART: keywords (equal, chart) name what the chart shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Lesson 2.",
+        "Reference Lessons 2-4.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M10_balance_poster",
+      "name": "Balance Stories Poster",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor showing Bella and Bobby with the balance scale.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "Balance Stories anchor poster in B&W line-art, ~17in × 22in. Centre: Bella and Bobby standing beside a balance scale. Around them: thought bubbles with example balance stories.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "balance",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_POSTER: keywords (balance, poster) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_bella_puppet",
+      "name": "Bella",
+      "category": "character_puppet",
+      "purpose": "Printable Bella illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_BELLA_FRONT",
+          "description": "Bella the Balance Beam Scientist illustration in B&W line-art: a young Grade-1er in a lab coat with a balance-scale patch on the chest, eyeglasses, neat bobbed hair, eager smile, holding a small paper balance scale. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "bella"
+          ],
+          "text_image_alignment_check": "Image CHAR_BELLA_FRONT: keywords (bella) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_bobby_puppet",
+      "name": "Bobby the Balance Beam Buddy",
+      "category": "character_puppet",
+      "purpose": "Printable Bobby illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_BOBBY_FRONT",
+          "description": "Bobby the Balance Beam Buddy illustration in B&W line-art: a young Grade-1er with a striped shirt, a tool belt holding a small toy balance scale, curious expression, slight grin, hair tousled. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "bobby"
+          ],
+          "text_image_alignment_check": "Image CHAR_BOBBY_FRONT: keywords (bobby) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

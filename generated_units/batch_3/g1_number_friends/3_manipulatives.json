@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "overall_prep_notes": "Total prep time across all 10 manipulatives is approximately 2 hours. The bulk is M1 Button Set (printing 50 button cards per pair) and M4 Number Line Floor Mat (large format). Plan to print and laminate over a weekend. The three character puppets (Lila, Otto, Scoot) should be printed on cardstock for years of reuse. Base-ten rods (M3) are a standard math-kit item; confirm you have ~5 ten-rods + 20 ones per child before Lesson 2.",
+  "assets": [
+    {
+      "asset_id": "M1_button_set",
+      "name": "Lila's Button Set",
+      "category": "manipulative",
+      "purpose": "Per-pair set of 50 small printed button cards in 5 colours (10 each). Used for Lesson 1 estimation, Lesson 3 base-ten decomposition, Lesson 4 compare-the-jar.",
+      "page_layout": "Two letter pages, portrait. Page 1 holds 30 small button cards in a 5x6 grid. Page 2 holds 20 cards in a 4x5 grid. Each card ~1in × 1in with thin cut-lines.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_BUTTON_CARD",
+          "description": "A small 1in × 1in card showing a single button in B&W line-art: round shape with 4 small holes. Repeated 50 times across 2 pages, in 5 colour-pattern variants (solid, stripes, dots, checker, swirl) so each pair has 10 of each variant.",
+          "placement": "5x6 grid on page 1, 4x5 grid on page 2.",
+          "approximate_size": "small",
+          "keywords": [
+            "button",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M1_BUTTON_CARD: keywords (button, card) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 set per pair (10 sets for a class of 20 = 20 pages).",
+        "Laminate every page before cutting.",
+        "Cut along cut-lines into 50 single button cards per set.",
+        "Store in labelled zip-top bags (50 buttons per bag).",
+        "Optional: substitute real buttons from a sewing kit if you have a 500-button stash."
+      ],
+      "estimated_prep_minutes": 30,
+      "quantity_per_class": "1 set per pair = 10 sets for a class of 20.",
+      "used_in_lessons": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M2_estimation_jar",
+      "name": "Estimation Button Jar",
+      "category": "manipulative",
+      "purpose": "Clear jar with 35-50 buttons. Used in Lesson 1 estimate-then-count and Lesson 4 compare-the-jar.",
+      "page_layout": "Single letter page, portrait. A jar template that the teacher prints and uses as a label for the real glass jar.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_JAR_LABEL",
+          "description": "A jar-label template in B&W line-art, ~5in tall. Header 'Estimation Jar — Lila's Buttons'. Decorative button icons around the border.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "jar",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M2_JAR_LABEL: keywords (jar, label) name what the template is for."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 jar label per classroom (1 page).",
+        "Laminate; tape to a real clear glass jar.",
+        "Fill the jar with 38 buttons on Day 1; swap to 50 on Day 4.",
+        "Place the jar at the carpet during Minds On.",
+        "Optional: keep 2 jars (38 + 50) for compare-the-jar in Lesson 4."
+      ],
+      "estimated_prep_minutes": 8,
+      "quantity_per_class": "1 jar template + 1 real jar (or 2 for Lesson 4 compare).",
+      "used_in_lessons": [
+        1,
+        4
+      ]
+    },
+    {
+      "asset_id": "M3_base_ten_rods",
+      "name": "Base-Ten Rods",
+      "category": "manipulative",
+      "purpose": "Per-child set: 5 ten-rods + 20 single ones. Used for Lesson 2 representations and Lesson 3 compose/decompose.",
+      "page_layout": "Not printable — physical rods from the classroom kit. Page is a labelling template for storage.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_BASE_TEN_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows 1 ten-rod illustration with header 'BASE-TEN RODS — 5 tens + 20 ones per child'.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "base-ten",
+            "rods",
+            "label"
+          ],
+          "text_image_alignment_check": "Image M3_BASE_TEN_LABEL: keywords (base-ten, rods, label) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Prep this step carefully. Confirm you have a class set of base-ten rods (5 ten-rods + 20 ones per child = ~120 ten-rods + ~480 singles for a class of 20).",
+        "Print storage labels; tape to each child's bag.",
+        "Sort into per-child bags before Lesson 2.",
+        "Have bags ready at the start of Lessons 2 and 3.",
+        "Optional: use printed base-ten rod cards if you don't have physical rods."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "5 ten-rods + 20 ones per child = 120 + 400 for class of 20.",
+      "used_in_lessons": [
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M4_number_line_floor",
+      "name": "Number Line Floor Mat",
+      "category": "manipulative",
+      "purpose": "Long printable floor strip showing numbers 0 to 50. Children walk it for skip-counting (Lesson 1) and ordering (Lesson 4).",
+      "page_layout": "11 letter pages, landscape. Each page holds 5 cells of the Number Line; 11 pages tile to 55 cells (0 to 50 with margin).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 11,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_NUMBER_LINE_PAGE",
+          "description": "A 5-cell horizontal Number Line tile in B&W line-art. Each cell ~2in square with the numeral printed in the centre. Cells border each other with thin cut-lines so multiple pages tile seamlessly.",
+          "placement": "Repeated 11 times to cover 0-50.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "number-line",
+            "floor",
+            "cells"
+          ],
+          "text_image_alignment_check": "Image M4_NUMBER_LINE_PAGE: keywords (number-line, floor, cells) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print all 11 pages on cardstock if available; otherwise paper + laminate.",
+        "Laminate each page before assembly.",
+        "Prep this step carefully. Tape pages together (or use removable painter's tape) to make a continuous strip ~25ft long.",
+        "Lay the strip on the carpet for Lessons 1 and 4; roll up after each lesson.",
+        "Optional: use a long roll of paper instead of tiled letter pages."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 mat for the whole class.",
+      "used_in_lessons": [
+        1,
+        4
+      ]
+    },
+    {
+      "asset_id": "M5_fraction_pizza",
+      "name": "Fair-Share Pizza Cards",
+      "category": "manipulative",
+      "purpose": "Printable pizza cards showing whole, halved, fourthed, and other unit-fraction cuts. Used in Lesson 5 fraction reveal.",
+      "page_layout": "Single letter page, portrait. Six pizza diagrams in a 2x3 grid: whole, 1/2, 1/3, 1/4, 1/5, 1/6.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_PIZZA_FRACTIONS",
+          "description": "Six circular pizza diagrams in a 2x3 grid in B&W line-art. Each pizza ~3in diameter. Pizza 1: whole (no division). Pizza 2: divided into 2 halves. Pizza 3: thirds. Pizza 4: fourths. Pizza 5: fifths. Pizza 6: sixths. Each pizza has a thin black border and pizza-style decorative bumps on the edge.",
+          "placement": "Centred 2x3 grid.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "pizza",
+            "fractions",
+            "halves",
+            "fourths"
+          ],
+          "text_image_alignment_check": "Image M5_PIZZA_FRACTIONS: keywords (pizza, fractions, halves, fourths) name what the diagrams show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per pair (10 pages for class of 20).",
+        "Laminate every page before cutting.",
+        "Cut along the borders to free the 6 pizzas per set.",
+        "Stack pizzas in a labelled folder; distribute at start of Lesson 5.",
+        "Prep this step carefully. Optional: substitute real paper plates cut into halves and fourths if you prefer hands-on cutting."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 set per pair = 10 sets for a class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_share_plates",
+      "name": "Sharing Paper Plates",
+      "category": "manipulative",
+      "purpose": "Set of 4 paper plates per group of 4. Used for fair-sharing rounds in Lesson 5.",
+      "page_layout": "Single letter page, portrait. Four paper-plate templates in a 2x2 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_PLATE_TEMPLATE",
+          "description": "Four paper-plate templates in B&W line-art, ~3.5in diameter each, arranged 2x2. Each plate has a wavy double-line edge and a small label space.",
+          "placement": "2x2 grid.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "plate",
+            "share"
+          ],
+          "text_image_alignment_check": "Image M6_PLATE_TEMPLATE: keywords (plate, share) name what the template shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page per group of 4 students (5 pages for class of 20).",
+        "Laminate before cutting.",
+        "Cut into 4 plates per page.",
+        "Distribute at the start of Lesson 5 small-group time.",
+        "Optional: use real paper plates from the supply closet."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "4 plates per group = 5 sets for a class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_number_word_cards",
+      "name": "Number-Word Match Cards",
+      "category": "manipulative",
+      "purpose": "Per-pair set of 30 cards: 10 numerals + 10 number-words + 10 representations. Used in Lesson 2 gallery walk.",
+      "page_layout": "Two letter pages, portrait. Page 1 holds 15 cards (5 numerals + 5 words + 5 reps). Page 2 holds 15 more.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_MATCH_CARD",
+          "description": "A 1.5in × 1in card in B&W line-art. Each card shows ONE form of a number: a numeral (large bold), a number-word (cursive font), or a small representation (ten-frame, base-ten rod, or tally marks). 30 cards per set covering numbers 5, 12, 25, 38, 50, 47, 30, 20, 15, 10.",
+          "placement": "5x3 grid per page.",
+          "approximate_size": "small",
+          "keywords": [
+            "card",
+            "number",
+            "match"
+          ],
+          "text_image_alignment_check": "Image M7_MATCH_CARD: keywords (card, number, match) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 set of 2 pages per pair (10 sets for class of 20 = 20 pages).",
+        "Laminate before cutting.",
+        "Cut into 30 individual cards per set.",
+        "Store in labelled zip-top bags.",
+        "Optional: ELL/FSL classrooms — replace English number-words with bilingual cards."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "30 cards per pair = 10 sets for a class of 20.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "char_lila_puppet",
+      "name": "Lila Lead Counter Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Lila illustration mounted on a popsicle stick, used as the unit's lead character.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_LILA_FRONT",
+          "description": "Lila illustration in B&W line-art: a young Grade-1er with bright orange overalls and button-collection apron, light brown hair in a side ponytail, friendly smile, holding a clear jar of buttons. ~6in tall on a letter page with 1in attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "lila",
+            "puppet"
+          ],
+          "text_image_alignment_check": "Image CHAR_LILA_FRONT: keywords (lila, puppet) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible.",
+        "Cut around Lila's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_otto_puppet",
+      "name": "Otto Partner Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Otto illustration on a popsicle stick — Lila's pair partner.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_OTTO_FRONT",
+          "description": "Otto illustration in B&W line-art: a young Grade-1er with green plaid shirt, rolled-up jeans, dark curly hair, holding two jars of marbles. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "otto",
+            "puppet"
+          ],
+          "text_image_alignment_check": "Image CHAR_OTTO_FRONT: keywords (otto, puppet) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible.",
+        "Cut around Otto's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store next to the Lila puppet so they always travel together."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_scoot_puppet",
+      "name": "Scoot Counting Companion",
+      "category": "character_puppet",
+      "purpose": "Printable Scoot puppy mascot. Appears in every lesson with a 'how many' speech bubble.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_SCOOT_FRONT",
+          "description": "Scoot puppy illustration in B&W line-art: a small smiling puppy (golden retriever style) with a red collar and a small COUNT bandana, standing alertly. ~6in tall with attachment tab. Used as a puppet on a popsicle stick.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "scoot",
+            "puppy"
+          ],
+          "text_image_alignment_check": "Image CHAR_SCOOT_FRONT: keywords (scoot, puppy) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible.",
+        "Cut around Scoot's silhouette.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Bring out for every lesson alongside Lila and Otto."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

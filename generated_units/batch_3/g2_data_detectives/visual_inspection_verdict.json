@@ -1,0 +1,13 @@
+{
+  "unit_id": "g2_data_detectives",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch3",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 6, "description": "Lesson 4 Action STRATEGY COMPARE bullet ends with ellipsis '...then read the...' but does not overflow into Consolidation header."},
+    {"page": 13, "description": "M1 Venn Diagram Mat: 'BOTH' label overlaps the circle arcs cosmetically; readable."},
+    {"page": 25, "description": "Rubric: D1.5 final row appears partially clipped/wrapped at page bottom (D1.4 'mode' row complete, D1.5 'analyse' row starts but truncates). Acceptable per R22 multi-line wrap tolerance but flagged for layout review."}
+  ],
+  "summary": "PASS. All 5 worksheet pages use new format (title + Learning Goal + Instructions + workspace). No debug stubs. Character art (Detective Dot, Tally) and Venn/Carroll mats render correctly. Special probability complement-chart check N/A — this unit covers sorting/tally/bar graph/mode, not probability."
+}

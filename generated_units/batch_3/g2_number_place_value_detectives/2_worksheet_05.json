@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "lesson_number": 5,
+  "worksheet_title": "Fair Shares & Equiv",
+  "purpose": "Summative evidence for B1.6 (fair-share with 2-10 sharers) and B1.7 (1/3 = 2/6 equivalence).",
+  "student_learning_goal": "I can share a small collection fairly between 2, 3, 4, or 6 friends, and tell that one third equals two sixths.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can share a small collection fairly between 2, 3, 4, or 6 friends, and tell that one third equals two sixths.",
+    "character_watermark": "Hugo, Tina, and Ona together in the top-right corner. Small (~1.5in tall combined)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Even Shares",
+          "student_instructions": "Share each collection of cookies fairly. Draw the share onto each plate. Write how many cookies on each plate.",
+          "visual_layout": "Top of the page. Two share scenes stacked. Scene A: 8 cookies for 4 friends. Scene B: 12 cookies for 6 friends.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_TWO_EVEN_SHARES",
+              "description": "Two share scenes stacked in B&W line-art. Each scene ~7in \u00d7 2.2in. Scene A: a tray with 8 cookies on the left, 4 paper plates on the right. Scene B: a tray with 12 cookies on the left, 6 paper plates on the right. Each plate ~1.2in diameter.",
+              "placement": "Top of the page; two scenes stacked.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "cookies",
+                "plates",
+                "share"
+              ],
+              "text_image_alignment_check": "Image WS05_P1_TWO_EVEN_SHARES: keywords (cookies, plates, share) name what the scenes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Scene A: 2 cookies on each plate. Scene B: 2 cookies on each plate."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Fractional Shares",
+          "student_instructions": "Share each collection fairly. Cut the leftover into the right fraction. Write the per-plate share.",
+          "visual_layout": "Middle of the page. Two share scenes stacked. Scene A: 7 cookies for 3 friends (each = 2 1/3). Scene B: 9 cookies for 6 friends (each = 1 1/2).",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_TWO_FRACTIONAL",
+              "description": "Two share scenes stacked in B&W line-art. Each scene ~7in \u00d7 2.2in. Scene A: 7 cookies (6 whole + 1 with pre-drawn third-lines) on the left, 3 paper plates on the right. Scene B: 9 cookies (6 whole + 3 with pre-drawn sixth-lines, OR 6 whole + 3 with pre-drawn half-lines) on the left, 6 paper plates on the right. Pre-drawn fraction-lines are dotted lines on the leftover cookies.",
+              "placement": "Middle of the page; two scenes stacked.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "cookies",
+                "plates",
+                "fraction"
+              ],
+              "text_image_alignment_check": "Image WS05_P2_TWO_FRACTIONAL: keywords (cookies, plates, fraction) name what the scenes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Scene A: 2 1/3 on each plate (2 whole + 1/3). Scene B: 1 1/2 on each plate (1 whole + 1/2). Note: 9\u00f76 = 1 with 3 leftover; cut each of the 3 leftovers in half = 6 halves; one half per plate = 1 1/2 each."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: One Third Equals Two Sixths",
+          "student_instructions": "Two pizzas. Shade 1/3 of the first pizza. Shade 2/6 of the second pizza. Then write the equation: 1/3 = ___/___.",
+          "visual_layout": "Lower-middle of the page. Two pizzas side by side. Pizza A: divided into 3 thirds. Pizza B: divided into 6 sixths.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_TWO_PIZZAS",
+              "description": "Two circular pizzas in B&W line-art, side by side, each ~3in diameter. Pizza A has two crossed lines from a single intersection forming 3 equal sectors. Pizza B has 3 lines from the centre forming 6 equal sectors. Each pizza has a thin black border. Below the pizzas, an equation line '1/3 = ___/___'.",
+              "placement": "Lower-middle of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "pizza",
+                "thirds",
+                "sixths"
+              ],
+              "text_image_alignment_check": "Image WS05_P3_TWO_PIZZAS: keywords (pizza, thirds, sixths) name what the pizzas show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pizza A: one of the 3 sectors shaded. Pizza B: two of the 6 sectors shaded. Equation: 1/3 = 2/6."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Why Are They Equal?",
+          "student_instructions": "Why does 1/3 equal 2/6? Write 1-2 sentences to explain.",
+          "visual_layout": "Bottom of the page. A blank lined area (~7in \u00d7 1.5in) for the child to write. A small thinking-bubble icon in the top-right corner.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P4_WHY_EQUAL_BOX",
+              "description": "A blank lined writing area in B&W line-art, ~7in \u00d7 1.5in, with 3-4 dotted writing lines. A small thinking-bubble icon (~0.8in tall) in the top-right corner.",
+              "placement": "Bottom of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "explain",
+                "equal"
+              ],
+              "text_image_alignment_check": "Image WS05_P4_WHY_EQUAL_BOX: keywords (explain, equal) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible reasoning that touches on (a) the same total amount of pizza is shaded and (b) more sharers means smaller pieces but more of them. Examples: '1/3 and 2/6 cover the same amount of pizza. The pizza is just cut differently.' 'When you cut a third in half, you get 2 sixths.'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw your own equivalence: shade 2/3 of one pizza and the same amount of a second pizza divided into sixths. What is 2/3 equal to in sixths?",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Hand out at the end of the Action phase. Use Parts 1-4 as the summative evidence for B1.6 + B1.7. Watch for: (a) Part 2 Scene A children who cut the leftover in half instead of in thirds \u2014 flag for the match-fraction-to-sharers reteach; (b) Part 3 children who don't shade exactly 2 of the 6 sectors \u2014 flag for the overlay-demo reteach; (c) Part 4 children who can't articulate WHY 1/3 = 2/6 \u2014 this is the deepest understanding marker; flag for additional pizza-overlay practice."
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "lesson_number": 3,
+  "lesson_title": "Bar Graph Builder",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "A BAR GRAPH uses bars instead of pictures. The bar HEIGHT shows the count.",
+  "learning_intention": "We are learning to build bar graphs.",
+  "student_learning_goal": "I can build a bar graph with title and labels.",
+  "success_criteria": [
+    "I can draw a bar with the right HEIGHT.",
+    "I can write a TITLE and LABEL the axes.",
+    "I can read a bar graph."
+  ],
+  "vocabulary_introduced": [
+    "bar graph"
+  ],
+  "vocabulary_reinforced": [
+    "two-way tally"
+  ],
+  "manipulatives_used": [
+    "M4_bar_graph",
+    "M7_data_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Bar Graph Parts'",
+    "Bar Graph Grid (1 per pair)",
+    "Pre-collected tally data",
+    "Lesson 3 bar graph tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dot Builds a Bar",
+    "hook": "Detective Dot: A pictograph uses pictures. A BAR GRAPH uses bars! Each bar's HEIGHT is the count! Dot opens: 'Bar height equals…' Class: 'the COUNT!'",
+    "teacher_script": "Bring children to the carpet. Detective Dot and Tally puppets. 'Friends — yesterday two-way tallies. Today BAR GRAPHS.'\n\nIntroduce vocabulary. Write BAR GRAPH on chart. 'Bar graph = a graph with bars. Bar height = count.'\n\nDemo. Use yesterday's tally data: Snacks — apple 5, cookie 3, sandwich 4.\n\nDraw a grid:\nY-axis: 0-6 (counts)\nX-axis: apple, cookie, sandwich\n\nDraw bars: apple bar reaches 5; cookie bar reaches 3; sandwich bar reaches 4.\n\nAdd: Title 'Favourite Snack'. Y-axis label 'Number of children'. X-axis label 'Snack'.\n\n'Detective Dot says — every bar graph needs: TITLE, LABELS on both axes, and BARS the right HEIGHT.'\n\nMore examples:\n- Sport: hockey 8, soccer 5, baseball 4. Bars 8, 5, 4.\n- Pet: dog 6, cat 4, fish 2. Bars 6, 4, 2.\n\n'Today we BUILD bar graphs from tally data.'",
+    "student_actions": [
+      "Watch Detective Dot",
+      "Echo 'bar graph'",
+      "Practice drawing one bar",
+      "Practice labelling axes"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Bar Graph Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: build a 4-category bar graph from class snack data.",
+        "teacher_prompt": "Say: 'Bar height = count.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: From Tally to Bar — convert a 4-category tally. B: Read a Bar Graph — answer 4 questions. C: Build Your Own — survey 6 classmates and graph.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at Station C: 5+ categories.",
+        "teacher_prompt": "Say: 'Stretch: 5+ categories.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the title-and-labels rule.",
+        "teacher_prompt": "Show: bar graph without labels = unreadable."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their bar graphs for the same two-way table. Class compares: 'Same data, same heights? What if rows and columns were swapped — does the GRAPH change?' Cite Friel, Curcio & Bright (2001) levels — comparing two graphs of the same data is reading-between-the-data.",
+        "teacher_prompt": "Dot: 'Same counts, same heights. Different ORDER, same INFORMATION.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use pre-labeled grid.",
+      "for_extending": "Stretch at Station C: 5+ categories.",
+      "for_ell_or_iep": "Pre-printed grid with axis labels.",
+      "for_movement_learners": "Children form 'living bar graph' lines by their answers."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: bar height matches count; writes title; labels axes.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Bar height correct",
+        "Writes title",
+        "Labels axes",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dot's Bar Brag",
+    "discussion_prompts": [
+      "What's a BAR GRAPH?",
+      "What does bar HEIGHT mean?",
+      "Where does the TITLE go?",
+      "What do AXIS LABELS tell us?"
+    ],
+    "exit_routine": "Detective Dot's bar-graph refrain — Dot calls 'Bar height equals…' Class: 'the COUNT!' Repeat 3x. Then 'Title, labels, axes — case CLEAR!' Each child reads one bar's count aloud."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Bar graph construction.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures D1.3 mastery."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child draws bars at WRONG HEIGHT — repairing the height-mismatch trap at Grade 2",
+    "rationale": "On bar graphs, the dominant Grade-2 trap is reading-the-data literally: child names the tallest bar without articulating that bar HEIGHT corresponds to a COUNT. Friel, Curcio & Bright (2001, 'Making Sense of Graphs', JRME) frame graph comprehension as reading-the-data → reading-between-the-data → reading-beyond-the-data; G2 children operate at level 1 and need explicit scaffolding to articulate height-as-count.\n\nYesterday Lesson 2's two-way table holds the data. Today we DISPLAY it as a bar graph. Lesson 4 finds mode; Lesson 5 capstones.",
+    "setup": "Pair is at Station A. Tally shows apple = 3. Child draws apple bar to height 5 on the grid.",
+    "teacher_script": "Crouch. 'You drew apple to 5. But the tally says 3. Detective Dot asks — what should the height be?'\n\nGuide. Count tally marks. 'Three. So bar should reach 3 on the y-axis.' Erase, redraw to 3.\n\nGeneralise. 'Bar height EQUALS the count. Every count check before drawing.'\n\nIf still mismatching: provide a 'count-check' before drawing each bar. 'Look at the y-axis number. Match.'\n\nLong-term recovery: every bar starts with 'count-check'.",
+    "expected_student_responses": [
+      "(Confused) Bars don't match counts.",
+      "(Mid) Match with prompts.",
+      "(Strong) All bars match independently.",
+      "(Stretched) Reads bar graph back to verify."
+    ],
+    "common_misconceptions": [
+      "Bar height = approximate. (Repair: exact match.)",
+      "Tallest bar = mode. (Repair: yes, but at G2 we say 'most popular'.)",
+      "Bars can be any width. (Repair: same width, varying height.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names tallest bar without counting: drill 'bar height = COUNT'; child counts grid units up the bar before naming.",
+      "DIAGNOSTIC B — child reads height incorrectly (off-by-one): use a numbered grid background; child reads the topmost grid number the bar reaches.",
+      "DIAGNOSTIC C — child cannot connect bar to category: highlight the x-axis label; child says 'THIS bar (pointing) shows COUNT of THIS category (axis label).'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dot's Bar Builder",
+    "purpose": "Independent practice of D1.3.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Read a bar graph. Answer 4 questions.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Build a bar graph from tally data (4 categories).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Survey 5 classmates. Build your own bar graph.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dot in worksheet header",
+      "Pre-built bar graph for Part 1",
+      "Tally + blank grid for Part 2",
+      "Blank grid for Part 3"
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "lesson_number": 4,
+  "worksheet_title": "Cal's Time Test",
+  "purpose": "Independent practice of E2.4.",
+  "student_learning_goal": "I can describe duration using the right time unit.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe duration using the right time unit.",
+    "character_watermark": "Cal with a stopwatch in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Pick the unit.",
+          "student_instructions": "For each event, circle SECONDS, MINUTES, or HOURS.",
+          "visual_layout": "6 event rows with 3 unit options to circle.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_EVENTS",
+              "description": "6 event rows for Grade 2 worksheet. Events: 'Blink', 'Brush teeth', 'School day', 'Snap fingers', 'Recess', 'Sleep at night'. Each row has 3 letter circles S/M/H.",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "seconds",
+                "minutes",
+                "hours"
+              ],
+              "text_image_alignment_check": "WS04_P1_EVENTS at Part 1: keywords name the units."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "Blink: S. Brush: M. School day: H. Snap: S. Recess: M. Sleep: H."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Convert.",
+          "student_instructions": "Convert: 60 seconds = ? min. 2 hours = ? min. 1 hour = ? sec (challenge!).",
+          "visual_layout": "3 conversion problems.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_CONVERT",
+              "description": "3 conversion problems for Grade 2 worksheet: '60 seconds = ___ minute(s)', '2 hours = ___ minutes', '1 hour = ___ seconds'.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "convert",
+                "time"
+              ],
+              "text_image_alignment_check": "WS04_P2_CONVERT at Part 2: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "60s = 1 min. 2h = 120 min. 1h = 3600 sec (advanced)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: At home events.",
+          "student_instructions": "List 3 events you do at home and pick units.",
+          "visual_layout": "Three numbered rows for listing home events with their time units.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_HOME",
+              "description": "3 numbered rows for Grade 2 worksheet. Each: 'Event: ___ Unit: ___'.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "events",
+                "home"
+              ],
+              "text_image_alignment_check": "WS04_P3_HOME at Part 3: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 home events with valid units."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, time how long you can hop on one foot.",
+  "teacher_notes": "Lesson 4 consolidation. Use Part 1 as formative."
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "pair_number": 3,
+  "graded_at": "2026-05-08T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "big_idea reads 'If we know one side of the balance, we can find the missing number on the other side. 4 + ?' — the sentence is truncated, and the lesson never explicitly cross-references Lesson 2's equality work or foreshadows Lesson 4's equivalent-expression hunt in teacher_script.",
+      "required_fix": "Finish the truncated big_idea (e.g., '4 + ? = 7 means we need 3 to balance'). Add an explicit Day-2 callback in minds_on teacher_script ('Yesterday we proved 5+3 = 4+4 with the balance — today the BALANCE still shows EQUAL but one number is hidden') and a Day-4 foreshadow in consolidation.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the operator-as-instruction trap (child computes 4+7=11 for 4+?=7) with concrete recovery, but does NOT cite research by name. recovery_moves do not branch on diagnostic — only one fallback ('try a smaller mystery') is offered.",
+      "required_fix": "Cite Falkner, Levi & Carpenter 1999 ('Children's Understanding of Equality') in expanded_walkthrough.rationale. Branch recovery_moves: (a) child still adds after balance demo → drop to single-digit mystery; (b) child names mystery but can't justify → require counting-up verbalisation; (c) solves only with ? on right → flip mystery to left.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "duration_minutes total is 12+25+13=50, exceeding the rubric's G1 realistic range (40-45 min). Every station REQUIRES printed mystery-number cards, balance drawing mats, and two-colour counters; differentiation lacks any no-prep / body-only fallback path.",
+      "required_fix": "Tighten to 10/25/10 = 45 min for G1. Add a no-materials path under differentiation: teacher's two arms become the balance, body tilts toward the heavier side, children show the mystery on fingers and chant the equation back. Make this an explicit alternative path so the lesson runs on no-prep days.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Bella + Bobby anchor minds_on and consolidation ('Bella's Mystery Brag') and success_criteria all use 'I can'. However, there is no quotable refrain or memorable chant. exit_routine ('write a missing-number puzzle on a sticky note') gives children no Bella catchphrase or sentence frame to carry to Day 4.",
+      "required_fix": "Give Bella a recurring refrain such as 'Find what BALANCES — that's the mystery!' Have her chant it during minds_on and have children chorus it back during consolidation. Add a sentence frame to exit_routine: 'My mystery is ___ + ___ = ___. The missing number is ___ because ___.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson contrasts equal-sign-as-action vs as-relation and names three strategies, but action step 4 'Discuss strategies' is teacher-led exposition — children do not INVENT or COMPARE strategies. The walkthrough does not name the misconception in CGI research terms (Join Change Unknown / Separate Change Unknown).",
+      "required_fix": "Reframe action step 4 as a strategy-comparison: 'Pair A counted up 7,8,9,10; Pair B used 6+4=10 from memory. Which feels faster? When is each best?' In expanded_walkthrough.rationale name CGI types ('Join, Change Unknown' for a+?=c) and cite Carpenter, Fennema & Franke 1996 Cognitively Guided Instruction.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 3 is solid Grade-1 algebra: real misconception (operator-as-instruction), balance-scale modelling, three strategies, and the worksheet faithfully practises the success criteria with a transfer task in Part 3. But five categories sit at 'achieving not exceeding' — missing research citations (Falkner/Carpenter), no quotable Bella refrain or sentence frame, no-prep alternative path absent, time at 50 min exceeds G1 range, and strategy comparison is teacher-told. Fixes all live in lesson_03."
+}

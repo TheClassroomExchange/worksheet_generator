@@ -1,0 +1,89 @@
+{
+  "schema_version": 1, "unit_id": "g3_data_likely_unlikely",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker", "title": "G3 Likely Unlikely — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1.", "expectation_focus": ["D2.1"],
+    "columns": ["Student name", "Names all 5", "Correct placement", "Explains why", "Notes"],
+    "usage_notes": "Walk between pairs to observe scale-strip placement. Tick where evidence is clear.",
+    "layout_description": "One letter page, portrait, 5-column tick table with 24 rows.",
+    "image_placeholders": [{"id": "AS_DIAG_TRACKER", "description": "Diagnostic tracker for Grade 3 teacher. Title: 'G3 Likely Unlikely — Day 1'. D2.1 focus.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "scale"], "text_image_alignment_check": "AS_DIAG_TRACKER: keywords name the tracker and scale focus."}]
+  },
+  "formative_trackers": [
+    {"tracker_id": "formative_tracker_lesson_02", "title": "G3 Likely Unlikely — Lesson 2 Formative (Predict)",
+     "when_used": "During Lesson 2.", "expectation_focus": ["D2.1"],
+     "columns": ["Student name", "Word use", "Decision link", "Revises with data", "Notes"],
+     "usage_notes": "Stop at each pair to observe predictions. Tick where evidence is clear.",
+     "layout_description": "Identical layout to diagnostic tracker.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L2", "description": "Lesson 2 formative tracker for Grade 3 likelihood unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "predict"], "text_image_alignment_check": "AS_FORM_TRACKER_L2: keywords name the tracker and predict focus."}]},
+    {"tracker_id": "formative_tracker_lesson_03", "title": "G3 Likely Unlikely — Lesson 3 Formative (Two Populations)",
+     "when_used": "During Lesson 3.", "expectation_focus": ["D2.2"],
+     "columns": ["Student name", "Predicts", "Compares", "Explains", "Notes"],
+     "usage_notes": "Stop at each pair to observe two-population work. Tick where evidence is clear.",
+     "layout_description": "Identical layout, Lesson 3 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L3", "description": "Lesson 3 formative tracker for Grade 3 likelihood unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "compare"], "text_image_alignment_check": "AS_FORM_TRACKER_L3: keywords name the tracker and compare focus."}]},
+    {"tracker_id": "formative_tracker_lesson_04", "title": "G3 Likely Unlikely — Lesson 4 Formative (Mean+Mode)",
+     "when_used": "During Lesson 4.", "expectation_focus": ["D2.2"],
+     "columns": ["Student name", "Predicts", "Computes mean", "Computes mode", "Notes"],
+     "usage_notes": "Stop at each pair to observe mean+mode work. Tick where evidence is clear.",
+     "layout_description": "Identical layout, Lesson 4 columns.",
+     "image_placeholders": [{"id": "AS_FORM_TRACKER_L4", "description": "Lesson 4 formative tracker for Grade 3 likelihood unit, B&W line art.", "placement": "Full page.", "approximate_size": "full_width", "keywords": ["tracker", "mean"], "text_image_alignment_check": "AS_FORM_TRACKER_L4: keywords name the tracker and mean focus."}]}
+  ],
+  "summative_rubric": {
+    "title": "G3 Likely Unlikely — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 to score against both expectations.",
+    "rows": [
+      {"expectation_code": "D2.1", "expectation_text": "use mathematical language, including the terms 'impossible', 'unlikely', 'equally likely', 'likely', and 'certain', to describe the likelihood of events happening, and use that likelihood to make predictions and informed decisions",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Uses yes/no without scale words. Cannot place events on scale."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Uses 2-3 of the 5 words with prompts. Some misplacements."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently uses all 5 likelihood words to describe events and make predictions."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Uses scale words to make predictions and explains the resulting decision."}]},
+      {"expectation_code": "D2.2", "expectation_text": "make and test predictions about the likelihood that the mean and the mode(s) of a data set will be the same for data collected from different populations",
+       "levels": [
+         {"level_number": 1, "level_name": "Beginning", "descriptor": "Compares one population only. No mean/mode prediction."},
+         {"level_number": 2, "level_name": "Developing", "descriptor": "Predicts same/different with prompts. Computes one of mean or mode."},
+         {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently predicts and tests mean and mode across two populations."},
+         {"level_number": 4, "level_name": "Exceeding", "descriptor": "Explains why predictions were right or wrong using the data."}]}
+    ],
+    "usage_notes": "Score during Lesson 5 capstone. Level 3 = grade-level.",
+    "layout_description": "One letter page, landscape, 2-row × 4-level grid.",
+    "image_placeholders": [{"id": "AS_RUBRIC", "description": "Summative rubric for Grade 3 G3 Likely Unlikely unit. 2-row × 4-level table.",
+      "placement": "Full page.", "approximate_size": "full_width", "keywords": ["rubric", "likelihood"], "text_image_alignment_check": "AS_RUBRIC: keywords name the rubric and likelihood focus."}]
+  },
+  "summative_task_script": {
+    "title": "Big Predict Capstone — Summative Administration Guide",
+    "purpose": "Ties Lesson 5 capstone, the 5 stations, and the rubric together.",
+    "administration_steps": [
+      "Before: photocopy templates, print rubric, ready Junior Predictor certificates.",
+      "Stations 1-5 (5 min each): SCALE, PREDICT, POPULATIONS, MEAN+MODE, CONCLUDE.",
+      "Station 1 SCALE: place events on 5-zone scale. Evidence D2.1.",
+      "Station 2 PREDICT: 4 coin/dice predictions. Evidence D2.1.",
+      "Station 3 POPULATIONS: compare 2 favourites. Evidence D2.2.",
+      "Station 4 MEAN+MODE: predict and calculate. Evidence D2.2.",
+      "Station 5 CONCLUDE: scale word + mean + mode. Evidence D2.1 + D2.2.",
+      "After: review with each child."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence. Level 3 = grade-level.",
+    "evidence_per_expectation": {
+      "D2.1": "Stations 1, 2, 5 — scale words used in predictions and conclusion.",
+      "D2.2": "Stations 3, 4, 5 — two populations compared, mean+mode predicted and tested."
+    }
+  },
+  "certificate": {
+    "title": "Junior Predictor Certificate (G3)",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day G3 Likely Unlikely unit and demonstrating the skills of a G3 Junior Predictor. Lucky Lou the Loon congratulates the student.",
+    "skills_demonstrated": [
+      "Using all 5 likelihood words on the scale",
+      "Making predictions and decisions",
+      "Comparing two populations",
+      "Predicting and testing mean and mode"
+    ],
+    "layout_description": "One letter page, portrait, decorative border, title, recipient line, achievement text, skill bullets, signature lines, small Lucky Lou illustration.",
+    "image_placeholders": [
+      {"id": "AS_CERT_BORDER", "description": "Decorative border for Grade 3 certificate, ~0.5in inset. Scrollwork with clover + dice motifs at corners. B&W line art.", "placement": "Frames the entire page.", "approximate_size": "full_width", "keywords": ["certificate", "border"], "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keywords name the certificate border."},
+      {"id": "AS_CERT_LUCKY", "description": "Small Lucky Lou the Loon at bottom-centre, ~1.5in tall, holding a 5-word scale chart.", "placement": "Bottom-centre.", "approximate_size": "small", "keywords": ["lucky", "lou"], "text_image_alignment_check": "AS_CERT_LUCKY at Bottom-centre: keywords name the lucky lou character."}
+    ],
+    "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false}
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "lesson_number": 3,
+  "lesson_title": "Measure with Rulers",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E2.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Always START at ZERO on the ruler. Read the number at the END of the object.",
+  "learning_intention": "We are learning to measure and draw lengths with a ruler.",
+  "student_learning_goal": "I can measure and draw lengths with a ruler.",
+  "success_criteria": [
+    "I can START at ZERO.",
+    "I can read the END NUMBER.",
+    "I can DRAW a length."
+  ],
+  "vocabulary_introduced": [
+    "ruler"
+  ],
+  "vocabulary_reinforced": [
+    "centimetre",
+    "metre"
+  ],
+  "manipulatives_used": [
+    "M2_cm_strips",
+    "M3_metre_strip",
+    "M4_ruler_set",
+    "M8_zero_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Roo and Cal — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Start at Zero'",
+    "Paper Ruler Set (12 per pair)",
+    "Lesson 3 ruler tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Roo Measures with a Ruler",
+    "hook": "Roo: My ruler starts at ZERO! Pencil end touches ZERO. Other end shows TEN. Pencil = 10 cm! Roo opens: 'COUNT the SPACES, start at ZERO, end at the EDGE!'",
+    "teacher_script": "Bring children to the carpet. Roo and Cal puppets. 'Friends — yesterday cm and m. Today RULERS.'\n\nIntroduce vocabulary. Write RULER on chart. 'Ruler = a tool with cm marks. ALWAYS start at ZERO.'\n\nDemonstrate. Hold up a ruler and a pencil. 'Place the END of the pencil at ZERO on the ruler. Look at the OTHER end. Read the number.' Show: 10 cm.\n\nNon-example. 'If I start at 1 instead of 0, I get 11. WRONG! The pencil isn't 11 cm. It's 10 cm. ALWAYS start at ZERO.'\n\nMore demos:\n- Eraser: 5 cm.\n- Crayon: 8 cm.\n- Notebook: 21 cm.\n\n'Roo says — three rules. (1) START at ZERO. (2) Pencil edge TOUCHES zero. (3) Read the END number.'\n\nDraw a line. 'Now I'll DRAW a 6-cm line. Start at 0. Mark at 6. Connect.' Demo on paper.\n\nMore drawings:\n- 3-cm line.\n- 12-cm line.\n- 8-cm line.\n\n'Roo says — to DRAW, start at 0 and stop at the number you want.'\n\n'Today YOU measure 6 objects AND draw 4 lines.'",
+    "student_actions": [
+      "Watch Roo measure",
+      "Echo 'ruler'",
+      "Practice 'start at zero'",
+      "Practice drawing a line"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Ruler Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: measure 4 objects with rulers.",
+        "teacher_prompt": "Say: 'Start at zero. Read the end.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Measure 6 objects in cm. B: Draw 4 lines (3, 5, 8, 12 cm). C: Wrong-zero error spotting.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: spot the error in 3 wrong-zero examples.",
+        "teacher_prompt": "Say: 'Stretch: error spotting.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss zero-point. 'Most common mistake — starting at 1.'",
+        "teacher_prompt": "Show: starting at 1 makes pencils '1 too long'."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two children measure the same crayon — one starting at 0, one starting at 2. Class compares: same crayon, same length? How does each child get the answer? Cite Stephan & Cobb (2003) interval-counting principle: length is the COUNT OF UNITS BETWEEN edges.",
+        "teacher_prompt": "Roo: 'Same crayon, different start. Both can be RIGHT — but you must SUBTRACT the start from the end.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A. Just measure.",
+      "for_extending": "Stretch at C: error spotting.",
+      "for_ell_or_iep": "Sentence frame: 'My ___ is ___ cm.'",
+      "for_movement_learners": "Use big floor ruler made of tape."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: starts at zero; reads end correctly; draws lengths.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Starts at zero",
+        "Reads end correctly",
+        "Draws lengths",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Roo's Ruler Brag",
+    "discussion_prompts": [
+      "Where do we START on a ruler?",
+      "What's the rule?",
+      "What if I start at 1?",
+      "How do we DRAW a 5-cm line?"
+    ],
+    "exit_routine": "Roo's ruler refrain — 'COUNT the SPACES, start at ZERO, end at the EDGE!' (3x). Each child measures one classroom object with the ruler and reads the length aloud."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Ruler-use accuracy.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures E2.3."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child STARTS at 1 — repairing the off-by-one trap at Grade 2",
+    "rationale": "On ruler use, the dominant Grade-2 trap is the counting-marks vs counting-intervals confusion (Lehrer 2003; Stephan & Cobb 2003): child counts 0, 1, 2, 3 on the ruler and reports the object as '4 long' when it spans 3 intervals. Without interval-counting, every later measurement is off-by-one.\n\nYesterday Lesson 2 introduced cm. Today the RULER reads cm from a non-zero starting point. Lesson 4 time; Lesson 5 capstones.",
+    "setup": "Pair at A. Child measures pencil. Pencil starts at the '1' mark, ends at '11'. Records '11 cm'.",
+    "teacher_script": "Crouch. 'You said 11. Roo asks — where did the pencil END start?'\n\nGuide. 'You started at 1. But Roo says ALWAYS start at 0. Slide the pencil so the end touches 0.'\n\nChild slides. 'Now read the other end.' '10!'\n\nGenerlise. 'Roo says — start at 0 = correct measurement. Start at 1 = off by 1.'\n\nIf still off-by-one: provide a 'START HERE' sticker on the 0 mark.",
+    "expected_student_responses": [
+      "(Confused) Starts at 1.",
+      "(Mid) Starts at 0 with prompts.",
+      "(Strong) Starts at 0 independently.",
+      "(Stretched) Spots zero-error in others' work."
+    ],
+    "common_misconceptions": [
+      "Start at 1 (first mark). (Repair: start at ZERO.)",
+      "Numbers count edges. (Repair: numbers measure FROM zero.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child counts the marks instead of intervals: drill 'count the SPACES between marks, not the marks themselves'; use a 5-cm rod with marks numbered 0-5.",
+      "DIAGNOSTIC B — child starts at 1 instead of 0: physical demo — place the object's edge AT the 0 line; child re-says 'always start at 0.'",
+      "DIAGNOSTIC C — child measures from non-zero start but doesn't subtract: drill 'end - start = length' with a number-line model."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Roo's Ruler Workout",
+    "purpose": "Independent practice of E2.3.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Measure 5 objects in cm. Use the ruler.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Draw 4 lines: 3 cm, 5 cm, 8 cm, 12 cm.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Spot the zero-error in 2 wrong measurements.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Roo in worksheet header",
+      "5 objects for Part 1",
+      "Blank space for Part 2",
+      "2 wrong-ruler diagrams for Part 3"
+    ]
+  }
+}

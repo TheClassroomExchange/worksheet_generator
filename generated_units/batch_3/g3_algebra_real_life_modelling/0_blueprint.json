@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "thematic_title": "Math in My Community",
+  "descriptive_title": "Grade 3 Mathematics: Algebra (Modelling) — Mathematical Modelling for Real-Life Community Situations (C4)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+  "curriculum_codes": ["C4"],
+  "curriculum_expectations": {
+    "C4": "apply the process of mathematical modelling to represent, analyse, make predictions, and provide insight into real-life situations"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on mathematical modelling (C4) framed around 'Math in My Community' — Coach Cara the Community Captain and Sport Sam the Sports Reporter. Day 1 introduces the modelling cycle for community situations. Day 2 collects community data. Day 3 predicts community outcomes. Day 4 reflects and refines. Day 5 closes with child-chosen capstones modelling community life. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will apply the 5-step modelling cycle to community-scale situations: pick a situation, ask a math question, collect data, predict, reflect.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Math in My Community", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "Math is everywhere in our community: parks, hockey rinks, libraries, restaurants. Modelling means asking math questions about real-life situations.", "student_learning_goal": "I can describe a community situation and ask a math question about it.", "one_line_summary": "Coach Cara introduces community math; children identify situations and ask questions."},
+    {"lesson_number": 2, "lesson_title": "Community Data Day", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We answer math questions by collecting DATA. Counts, measurements, observations.", "student_learning_goal": "I can collect data to answer a math question about my community.", "one_line_summary": "Children collect data on community situations and record on charts."},
+    {"lesson_number": 3, "lesson_title": "Community Predictions", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We use rules and data to PREDICT community outcomes.", "student_learning_goal": "I can use a rule to predict a community outcome.", "one_line_summary": "Children use simple rules and community data to predict outcomes."},
+    {"lesson_number": 4, "lesson_title": "Community Reflections", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We check predictions against reality. Sometimes the model needs refining.", "student_learning_goal": "I can compare a prediction to actual data and refine my model.", "one_line_summary": "Children compare predictions to actual data; suggest refinements."},
+    {"lesson_number": 5, "lesson_title": "My Community Modelling Capstone", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We can model ANY community situation. Pick a topic, ask a question, build a model.", "student_learning_goal": "I can model a real-life community situation from my own life.", "one_line_summary": "Children invent a community modelling project — situation, question, data, predict, reflect — and share."}
+  ],
+  "expectation_lesson_map": {"C4": [1, 2, 3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Coach Cara the Community Captain", "role": "Lead character. A community sports coach with a clipboard and whistle. Anchors all 5 lessons.", "visual_description": "A young community coach in track jacket, holding a clipboard and whistle. Confident smile, ponytail."},
+    {"name": "Sport Sam the Sports Reporter", "role": "Coach Cara's partner. The 'data' character — collects stats. Cameo Lessons 2-5.", "visual_description": "A young reporter with a microphone and notebook. Eager expression, glasses, baseball cap backward."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "model", "child_friendly_definition": "A math representation of a real-life situation."},
+    {"term": "data", "child_friendly_definition": "Numbers we collect by counting or measuring."},
+    {"term": "predict", "child_friendly_definition": "To say what we think will happen using the data."},
+    {"term": "reflect", "child_friendly_definition": "To look back and check whether the prediction matched."},
+    {"term": "refine", "child_friendly_definition": "To make our model better."},
+    {"term": "real-life situation", "child_friendly_definition": "Something that happens in our community."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_community_map", "name": "Paper Community Map", "description": "Letter-size map showing community locations.", "used_in_lessons": [1, 2, 3, 5], "clipart_files": []},
+    {"id": "M2_data_charts", "name": "Community Data Charts", "description": "6 chart templates for recording counts.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M3_modelling_chart", "name": "Modelling Cycle Chart", "description": "Letter-size chart showing the 5 modelling steps.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M4_situation_cards", "name": "Community Situation Cards", "description": "12 community situation cards.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M5_prediction_chart", "name": "Prediction Chart", "description": "Letter-size chart with PREDICT, ACTUAL, GAP columns.", "used_in_lessons": [3, 4], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Capstone Modelling Template", "description": "Letter-size template for Lesson 5.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_two_colour_counters", "name": "Two-Colour Counters", "description": "30 per pair.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M8_number_line", "name": "Community Number Line to 1000", "description": "Letter-size number line marked 0 to 1000.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M9_coach_chart", "name": "Coach's Modelling Anchor Chart", "description": "Anchor chart with community examples.", "used_in_lessons": [1, 2, 3, 4], "clipart_files": []},
+    {"id": "M10_community_poster", "name": "Math in My Community Anchor Poster", "description": "Anchor poster of Coach Cara and Sport Sam.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Paper Community Maps (one per pair)",
+    "Community Data Charts (6)",
+    "Modelling Cycle Charts (one per pair)",
+    "Community Situation Cards (12)",
+    "Prediction Charts (one per pair)",
+    "Capstone Modelling Templates (one per child)",
+    "Two-colour counters (30 per pair)",
+    "Number Lines to 1000 (one per pair)",
+    "Coach's Modelling Anchor Chart",
+    "Math in My Community Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 community-question snapshot.",
+    "formative": "Lesson 2 data tracker; Lesson 3 prediction tracker; Lesson 4 reflection tracker.",
+    "summative": "Lesson 5 capstone."
+  },
+  "pedagogical_notes": [
+    "C4 in Grade 3 extends modelling to richer numbers and community-scale situations (counts to 1000).",
+    "The 5-step cycle anchors every lesson.",
+    "Real Canadian community examples ground the work.",
+    "Differentiation: emerging children stay simple; extending children build multi-step rules.",
+    "Iteration is core: models improve with refinement."
+  ],
+  "canadian_context_notes": [
+    "Real-life: hockey rink visitors per Saturday, library borrowers per week, recycling counts per month, Tim Hortons traffic.",
+    "Community events: weekend markets, concerts, sports days.",
+    "Population: town size, school enrollment, neighbourhood walkability."
+  ]
+}

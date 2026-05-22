@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 1,
+  "lesson_title": "Sorting and Categorizing",
+  "duration_minutes": 35,
+  "primary_expectations": [
+    "A8.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Things can be sorted into groups by a SAME attribute — colour, shape, size.",
+  "learning_intention": "We are learning to sort objects into groups.",
+  "student_learning_goal": "I can sort objects into groups.",
+  "success_criteria": [
+    "I can pick an attribute (colour, shape, size) to sort by.",
+    "I can put objects into groups that share the attribute.",
+    "I can name my groups."
+  ],
+  "vocabulary_introduced": [
+    "sort",
+    "category"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_sort_mats",
+    "M2_button_set",
+    "M5_question_cards",
+    "M7_object_set",
+    "M9_data_chart",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Sort and Categorize'",
+    "Sorting Mats (per pair)",
+    "Paper Button Tokens (60)",
+    "Mixed Object Tokens (60)",
+    "Lesson 1 sorting tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Detective Dot's Acorn Sort",
+    "hook": "Detective Dot has a pile of acorns! Help her SORT them by COLOUR.",
+    "teacher_script": "Bring children to the carpet. Detective Dot puppet. 'Friends — I'm Detective Dot the Sorting Squirrel. I have a pile of acorns. Some are big, some small. Some red, some brown. I need to SORT them.'\n\nIntroduce vocabulary. Write SORT and CATEGORY on chart. 'To SORT is to put things into groups. A CATEGORY is a group of things that are alike.'\n\nDemonstrate. Show paper button tokens. Pour them out. 'Look — buttons. Big and small. Red and blue. How could I sort them?'\n\nTake responses. By colour: red here, blue there. By size: big here, small there. By shape: round here, square there.\n\n'Detective Dot picks ONE attribute at a time. Today: COLOUR. Red buttons here. Blue buttons there.'\n\nSort all buttons by colour. Count: 'Red 8. Blue 5. Yellow 7. Green 4.' Show the groups.\n\nNow sort the same buttons by SIZE. 'Big buttons here. Small buttons there.' Different groups, same buttons.\n\n'See? The same buttons can be sorted DIFFERENT WAYS. We pick ONE attribute at a time.'\n\n'Today you sort objects by attribute. Pick colour, or shape, or size.'",
+    "student_actions": [
+      "Listen to Detective Dot's sort.",
+      "Echo new vocabulary.",
+      "Suggest sorting attributes.",
+      "Help sort buttons by colour."
+    ]
+  },
+  "action": {
+    "duration_minutes": 18,
+    "activity_name": "Sorting Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: sort 12 buttons together. (a) By colour. (b) By size. Discuss differences.",
+        "teacher_prompt": "Say: 'Pick attribute. Sort. Count each group.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Sort Buttons by COLOUR. Station B: Sort Mixed Objects by TYPE. Station C: Pick Your Attribute and sort 12 objects.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: sort the same set TWO different ways. Which way has more groups?",
+        "teacher_prompt": "Say: 'Stretch: 2 different sorts.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss attributes. 'Attributes describe things — colour, shape, size, type.'",
+        "teacher_prompt": "Show data anchor chart with attribute examples."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the sorting tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What attribute? How many groups?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "Two pairs share their sorts of the same set with DIFFERENT attributes (one by colour, one by size). Class compares: same set, different sorts? Cite Inhelder & Piaget (1964).",
+        "teacher_prompt": "Detective Dot: 'Different paths, same goal. Math says: try multiple ways!'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Sort by colour only.",
+      "for_extending": "Stretch at Station C: 2 sorts.",
+      "for_ell_or_iep": "Provide sentence frame: 'These ___ are all ___.'",
+      "for_movement_learners": "Sort children by attribute (eye colour, shoe type) physically. NO-PAPER PATH: children become the sort categories — stand in colour groups when teacher calls 'sort by colour'; re-form groups when teacher calls a different attribute."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks an attribute; sorts correctly; names groups.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Picks an attribute",
+        "Sorts correctly",
+        "Names groups",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 7,
+    "activity_name": "Detective Dot's Sort Brag",
+    "discussion_prompts": [
+      "What does SORT mean?",
+      "What attributes did you use?",
+      "Can the same things be sorted different ways?",
+      "What's a category?"
+    ],
+    "exit_routine": "Detective Dot's refrain — class chants 3x: 'ONE attribute — ONE sort — ONE detective!' Each child writes one finding on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Sorting accuracy and attribute naming.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already grasp categorical sorting versus those who mix categories."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child mixes categories — repairing the multi-attribute sort confusion at Kindergarten",
+    "rationale": "On one-attribute sorting, K trap is multi-attribute mixing — child sorts by colour partway then drifts to size. Inhelder & Piaget (1964) class-inclusion + Sarama & Clements (2009) sorting trajectories frame this. Today: ONE attribute, ONE sort. Tomorrow Tally counts data; Lesson 3 picture graphs; Lesson 4 reading graphs (likelihood); Lesson 5 capstones.\n\nThe most common K trap on A8.1 is the multi-attribute confusion: child puts a red big button in BOTH 'red' and 'big' piles. They miss that ONE sort uses ONE attribute.\n\nThis matters because data sorting requires picking ONE attribute at a time. Mixing creates ambiguous data.\n\nThe walkthrough covers when child puts a button in two piles.",
+    "setup": "Pair is at Station A. Buttons sorted by colour. Child puts red big button in BOTH 'red' and 'big' piles.",
+    "teacher_script": "Crouch. 'You put one button in two piles. But Detective Dot picks ONE attribute at a time. We're sorting by COLOUR right now.'\n\nWalk through. 'Red buttons go in the red pile. Whether they're big or small — doesn't matter. Today, only colour.'\n\nThe child puts the red button in only the red pile.\n\nGeneralise. 'Detective Dot says — pick ONE attribute. Stick with it. Each thing belongs to ONE group at a time.'\n\nIf still mixing: provide a 'today's attribute' card. 'Today: COLOUR. Only colour.' Force the single attribute.\n\nLong-term recovery: every sort starts with picking the attribute.",
+    "expected_student_responses": [
+      "(Confused) Puts items in multiple piles.",
+      "(Mid) Sorts with prompts; sometimes mixes.",
+      "(Strong) Sorts by single attribute; names groups.",
+      "(Stretched) Re-sorts the same set by different attributes; explains."
+    ],
+    "common_misconceptions": [
+      "Things can be in many groups. (Repair: ONE attribute, ONE group at a time.)",
+      "I can ignore the attribute. (Repair: every sort needs an attribute.)",
+      "All sorts give same groups. (Repair: different attributes give different groups.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child mid-sort drifts attribute: drill 'pick ONE attribute'; place a card showing the attribute on the sort tray.",
+      "DIAGNOSTIC B — child sorts by 2 attributes at once: split into two passes; first by attribute 1, then re-sort same pile by attribute 2.",
+      "DIAGNOSTIC C — child cannot articulate sort: force the sentence frame 'I sorted by ___; this pile is all ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dot's Sort",
+    "purpose": "Independent practice of A8.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Sort 12 picture-stickers into 3 colour groups.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Sort 8 shapes into 2 size groups.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick your attribute. Sort 6 personal things.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dot in worksheet header",
+      "12 sticker-place slots for Part 1",
+      "8 shape-place slots for Part 2",
+      "Blank attribute-pick area for Part 3"
+    ]
+  }
+}

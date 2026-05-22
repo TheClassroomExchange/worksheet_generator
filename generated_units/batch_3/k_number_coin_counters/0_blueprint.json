@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "thematic_title": "The Coin Counters",
+  "descriptive_title": "Kindergarten Mathematics: Number Sense and Operations — Estimating to 20, Adding and Subtracting to 10, Equal Sharing, and Canadian Coins to 25¢ (A6.7–A6.13)",
+  "grade": "Kindergarten",
+  "subject": "Mathematics",
+  "strand": "A. Foundations of Language and Mathematics — Number Sense and Operations",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/kindergarten-math",
+  "curriculum_codes": [
+    "A6.7",
+    "A6.8",
+    "A6.9",
+    "A6.10",
+    "A6.11",
+    "A6.12",
+    "A6.13"
+  ],
+  "curriculum_expectations": {
+    "A6.7": "estimate the number of objects in small collections and check by counting",
+    "A6.8": "count to 20 by 1s, starting from any number",
+    "A6.9": "solve equal-share problems using concrete materials",
+    "A6.10": "describe relationships between any two numbers from 0 to 20",
+    "A6.11": "recall addition facts to 5 and related subtraction facts",
+    "A6.12": "solve situations involving addition and subtraction to 10 using concrete materials",
+    "A6.13": "identify and explore the value of Canadian coins to 25¢ and coins and bills to $10"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Kindergarten unit on Number Sense and Operations framed around 'The Coin Counters' — Penny and Nick, two Kindergarteners running a classroom snack shop, with Quincy the smiling piggy bank cheering them on. Children estimate small collections of pennies and count to check, then count to 20 by 1s starting from any number (Day 1). They build addition facts to 5 and the related subtraction facts using snap-cubes (Day 2), then carry the same operations into story situations to 10 with concrete coin counters (Day 3). On Day 4 they solve equal-share problems by laying objects onto paper plates 'one for you, one for me'. The capstone (Day 5) introduces the Canadian penny, nickel, dime, and quarter and re-uses every prior skill: estimate the coins in Quincy's belly, add prices, share a snack plate fairly, and pay using the right coin combinations to 25¢. The unit moves from concrete (cubes + real coins) to representational (price tag cards + ten-frames) to abstract (numeric totals + cent symbol).",
+  "unit_learning_goal": "Children will estimate quantities and check by counting, count to 20 from any starting number, recall addition and subtraction facts to 5 and solve concrete situations to 10, share fairly using objects, and identify the Canadian penny, nickel, dime, and quarter and their values to 25¢.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "How Many in the Jar?",
+      "primary_expectations": [
+        "A6.7",
+        "A6.8"
+      ],
+      "secondary_expectations": [
+        "A6.10"
+      ],
+      "big_idea": "We can guess about how many before we count. Then we count by 1s — and we can start counting from any number, not just 1.",
+      "student_learning_goal": "I can guess how many pennies are in a jar, then count to check, and I can count to 20 starting from any number.",
+      "one_line_summary": "Estimation jar with pennies; verify by counting aloud, then practise 'count on' from a starting number along the Coin Path."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Plus and Minus to 5",
+      "primary_expectations": [
+        "A6.11"
+      ],
+      "secondary_expectations": [
+        "A6.10"
+      ],
+      "big_idea": "Two small groups together make a bigger group. If I take a small group away, a smaller group is left. Five has special partners: 0+5, 1+4, 2+3.",
+      "student_learning_goal": "I can say all the ways to make 5 with two groups, and I can say what is left when I take some away.",
+      "one_line_summary": "Snap-cube number-bond train for 5; partner game where one child shows part, the other names the missing part."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Snack Shop Story Problems",
+      "primary_expectations": [
+        "A6.12"
+      ],
+      "secondary_expectations": [
+        "A6.10",
+        "A6.11"
+      ],
+      "big_idea": "Story problems tell us what to do: if more comes in, we add; if some leaves, we subtract. We can act it out with cubes or coins.",
+      "student_learning_goal": "I can listen to a snack-shop story, act it out with cubes, and tell how many are altogether or how many are left.",
+      "one_line_summary": "Acted-out story problems to 10 (e.g. 'Penny had 7 pennies; she spent 3'); children model with cubes or pennies and write the total."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Sharing Fairly",
+      "primary_expectations": [
+        "A6.9"
+      ],
+      "secondary_expectations": [
+        "A6.12"
+      ],
+      "big_idea": "Fair sharing means every plate gets the SAME amount. We can deal one at a time — 'one for you, one for me' — until they are all gone.",
+      "student_learning_goal": "I can share a small group of things equally onto plates so each plate has the same amount.",
+      "one_line_summary": "Paper-plate sharing rounds (8 cookies for 2 friends, 12 grapes for 3 friends, 12 grapes for 4 friends); class talks about what to do with leftovers."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Penny, Nickel, Dime, Quarter",
+      "primary_expectations": [
+        "A6.13"
+      ],
+      "secondary_expectations": [
+        "A6.7",
+        "A6.11",
+        "A6.12"
+      ],
+      "big_idea": "A penny is worth 1¢, a nickel is worth 5¢, a dime is worth 10¢, and a quarter is worth 25¢. We can pay for things using coins, and the same price can be paid in different coin combinations.",
+      "student_learning_goal": "I can name the four Canadian coins to 25¢ and tell how much each one is worth, and I can pick coins to pay for a snack priced 5¢, 10¢, or 25¢.",
+      "one_line_summary": "Coin-sort circle with real Canadian coins; classroom Snack Shop where children pay for popcorn (10¢), lollipops (5¢), or pizza (25¢) with the matching coin combinations."
+    }
+  ],
+  "expectation_lesson_map": {
+    "A6.7": [
+      1,
+      5
+    ],
+    "A6.8": [
+      1
+    ],
+    "A6.9": [
+      4
+    ],
+    "A6.10": [
+      1,
+      2,
+      3
+    ],
+    "A6.11": [
+      2,
+      3,
+      5
+    ],
+    "A6.12": [
+      3,
+      4,
+      5
+    ],
+    "A6.13": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Penny",
+      "role": "Lead Coin Counter — runs the classroom Snack Shop, estimates jar contents in Lesson 1, and demonstrates coin combinations on Day 5.",
+      "visual_description": "A young Kindergartener with a bright yellow t-shirt and a small copper coin pinned at her collar. Light brown hair pulled into two short pigtails, friendly smile, holding a clear jar of pennies."
+    },
+    {
+      "name": "Nick",
+      "role": "Penny's shop partner — models adding and subtracting cubes in Lessons 2 and 3 and acts as the customer when Penny is the cashier.",
+      "visual_description": "A young Kindergartener with a blue-and-white striped shirt and a soft green ball-cap. Black hair, warm grin, holding a small wooden tray with stacks of snap-cubes on it."
+    },
+    {
+      "name": "Quincy",
+      "role": "Piggy-bank mascot — appears in every lesson with a 'how many' speech bubble. The unit's friendly counting cheerleader.",
+      "visual_description": "A round, smiling pink piggy bank with a slim coin slot on top, big eyes, a tiny curly tail, and four short legs. Drawn standing upright like a character (not a static object)."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "estimate",
+      "child_friendly_definition": "make a smart guess about how many — close, but not exact yet."
+    },
+    {
+      "term": "altogether",
+      "child_friendly_definition": "the total when we put two groups into one."
+    },
+    {
+      "term": "left",
+      "child_friendly_definition": "what is still there after we take some away."
+    },
+    {
+      "term": "share fairly",
+      "child_friendly_definition": "give the same amount to every plate or every friend."
+    },
+    {
+      "term": "cent / ¢",
+      "child_friendly_definition": "the unit we use for coin values; we write it like the symbol ¢ after the number."
+    },
+    {
+      "term": "penny",
+      "child_friendly_definition": "the small copper-coloured Canadian coin worth 1¢."
+    },
+    {
+      "term": "nickel",
+      "child_friendly_definition": "a thick silver-coloured Canadian coin worth 5¢, with a beaver on the back."
+    },
+    {
+      "term": "dime",
+      "child_friendly_definition": "the smallest silver-coloured Canadian coin, worth 10¢, with the Bluenose ship on the back."
+    },
+    {
+      "term": "quarter",
+      "child_friendly_definition": "a big silver-coloured Canadian coin worth 25¢, with a caribou on the back."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_canadian_coins",
+      "name": "Canadian Coin Set",
+      "description": "Per-pair set of real or printed Canadian coins: 10 pennies (1¢), 6 nickels (5¢), 5 dimes (10¢), 4 quarters (25¢). Used to identify coins by colour, size, and embossed image, and to pay for Snack Shop items.",
+      "used_in_lessons": [
+        1,
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_estimation_jar",
+      "name": "Estimation Penny Jar",
+      "description": "Clear plastic jar holding 12–18 pennies. Used in Lesson 1 for estimating-then-counting; revisited on Day 5 for the Quincy estimation challenge.",
+      "used_in_lessons": [
+        1,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_linking_cubes",
+      "name": "Linking Snap-Cubes",
+      "description": "30 snap-together cubes per child in 2–3 colours. Used for number bonds to 5 (Lesson 2), story-problem modelling to 10 (Lesson 3), and showing coin values as cube-stacks (Lesson 5).",
+      "used_in_lessons": [
+        2,
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_ten_frames",
+      "name": "Ten-Frame Mats",
+      "description": "Laminated 2×5 grids printed at letter size. Children fill cells with cubes or pennies to model 'how many altogether' and 'how many are left'.",
+      "used_in_lessons": [
+        2,
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_snack_shop_cards",
+      "name": "Snack Shop Price-Tag Cards",
+      "description": "Printable letter-size cards showing a snack picture with its Snack Shop price below: pizza slice (25¢), popcorn (10¢), lollipop (5¢). Used in Lesson 5 to set up a classroom shop where children pay with the matching coin combinations.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": [
+        "slide09_food_01.png",
+        "slide09_food_02.png",
+        "slide09_food_04.png"
+      ]
+    },
+    {
+      "id": "M6_share_plates",
+      "name": "Sharing Paper Plates",
+      "description": "Set of 4 small paper plates per group. Children deal objects onto the plates one at a time to make equal shares.",
+      "used_in_lessons": [
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_sharing_objects_set",
+      "name": "Sharing Objects Kit",
+      "description": "24 small classroom objects per group (e.g. wooden counters, paper grapes, paper cookies, plastic toy figures from the toy chest). Used for the equal-share rounds in Lesson 4.",
+      "used_in_lessons": [
+        4
+      ],
+      "clipart_files": [
+        "slide02_random_05.png"
+      ]
+    }
+  ],
+  "materials_overview": [
+    "Canadian coin set per pair: 10 pennies, 6 nickels, 5 dimes, 4 quarters (real or printed cards)",
+    "Clear estimation jar with 12–18 pennies",
+    "Linking snap-cubes (~30 per child in 2–3 colours)",
+    "Laminated ten-frame mats (1 per child)",
+    "Snack Shop price-tag cards: pizza slice (25¢), popcorn (10¢), lollipop (5¢)",
+    "Paper plates (4 per group of 4 children)",
+    "Sharing object kits: 24 wooden counters / paper cookies / paper grapes per group",
+    "Anchor chart 'Our Coin Counters Words' with PENNY 1¢ / NICKEL 5¢ / DIME 10¢ / QUARTER 25¢ rows",
+    "Quincy the piggy-bank class mascot (cardstock cut-out, propped beside the Snack Shop on Day 5)"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 estimate-vs-count: record each child's estimate of pennies in the jar and the actual count. Children whose estimate is within 3 of the actual show emerging quantity-sense; large gaps signal a need for more visual-anchoring practice during Day 2 small groups.",
+    "formative": "Lesson 2 number-bond observation: tally per child which 'partners of 5' they can name without prompting. Lesson 3 story-problem mid-unit worksheet captures whether the child can pick the right operation (add vs subtract) when given a story to 10. Lesson 4 sharing observation: does each plate end up with the same count, and can the child explain how they checked?",
+    "summative": "Lesson 5 Snack Shop worksheet — three priced items (5¢, 10¢, 25¢); the child circles the correct coin (or coin combination from a multi-choice grid) for each price. Captures A6.13 explicitly and indirectly assesses A6.11 / A6.12 (a 5¢ + 5¢ = 10¢ option appears for 'pay 10¢ another way')."
+  },
+  "pedagogical_notes": [
+    "Money is abstract for K children. Always start each coin-handling task with the real coin in hand; only move to printed cards or pictures once the child can name and value the coin from a closed fist.",
+    "Coin recognition gotcha: a dime is the smallest coin but worth more than the larger nickel. Plan to address 'bigger means more' misconception in Lesson 5 explicitly with a side-by-side compare.",
+    "The penny was withdrawn from circulation in 2013, but A6.13 still names it. Treat it as a learning object — the unit teaches what a penny IS, not that children will spend it.",
+    "Equal-share at K is informal: 'one for you, one for me' dealing is the developmentally-appropriate strategy. Allow leftovers and let children debate what to do — the discussion of fairness is the point, not precise division.",
+    "Counting on (A6.8) is the lesson-1 stretch: rather than restarting at 1 every time, model 'I already have 7, so the next one is 8'. Pair with the Coin Path floor cards so the move is physical and embodied.",
+    "Differentiate: students who are already confident with addition to 5 should get an extension card in Lesson 2 with addition to 7 or 8 using two cube colours. The lesson stays inside expectation A6.11 with stretch into A6.12."
+  ],
+  "canadian_context_notes": [
+    "All coins shown and named are Canadian: penny (maple leaves), nickel (beaver), dime (Bluenose schooner), quarter (caribou). Bills and the loonie/toonie are mentioned in the L5 closing chat but not assessed (those sit at the upper edge of A6.13 'coins and bills to $10').",
+    "Snack Shop pricing reflects classroom-fundraiser realism: popcorn 10¢, pizza slice 25¢, lollipop 5¢. The teacher can swap to local pricing if the school runs an actual snack-store programme.",
+    "Lesson 4 sharing context uses Tim Hortons-style timbits or paper grapes as the shareable items — recognisable Canadian everyday foods.",
+    "Quincy the piggy bank stays in English-only signage for this unit; a French label PETITE TIRELIRE can be added by the teacher for FSL classrooms."
+  ]
+}

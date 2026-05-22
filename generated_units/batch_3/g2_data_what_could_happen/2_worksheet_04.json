@@ -1,0 +1,27 @@
+{
+  "schema_version": 1, "unit_id": "g2_data_what_could_happen", "lesson_number": 4,
+  "worksheet_title": "Mae's Dice Lab",
+  "purpose": "Independent practice of D2.2 dice mode.",
+  "student_learning_goal": "I can predict the mode of dice rolls.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can predict the mode of dice rolls.",
+    "character_watermark": "Mae with dice in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: First roll.", "student_instructions": "Roll a die 12 times. Tally each result. Find the MODE.",
+     "visual_layout": "Tally chart 1-6 with totals + mode line.",
+     "image_placeholders": [{"id": "WS04_P1_TALLY", "description": "A tally chart for dice rolls, Grade 2 worksheet. Header: 'Roll #1 — 12 rolls'. 6 rows labelled 1-6 with tally area and total box. Below: 'Mode: ___'.",
+       "placement": "Centred in Part 1.", "approximate_size": "medium", "keywords": ["dice", "tally", "mode"], "text_image_alignment_check": "WS04_P1_TALLY at Part 1: keywords name the visual elements."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any tallies for 12 rolls + valid mode (highest tally)."},
+    {"part_number": 2, "part_title": "Part 2: Second roll.", "student_instructions": "Roll AGAIN 12 times. Find the new mode. Compare to first.",
+     "visual_layout": "Same tally chart + comparison line.",
+     "image_placeholders": [{"id": "WS04_P2_COMPARE", "description": "A second tally chart for Grade 2 worksheet. Header: 'Roll #2 — 12 rolls'. 6 rows labelled 1-6. Below: 'Mode: ___' and a comparison line: 'Was the mode the same as Roll #1?'",
+       "placement": "Centred in Part 2.", "approximate_size": "medium", "keywords": ["roll", "compare"], "text_image_alignment_check": "WS04_P2_COMPARE at Part 2: keywords name the activity."}],
+     "student_response_type": "draw_or_write", "answer_key": "Tallies for 12 rolls + mode + comparison answer."},
+    {"part_number": 3, "part_title": "Part 3: Predict third roll.", "student_instructions": "PREDICT the mode of a 3rd 12-roll. Test it.",
+     "visual_layout": "Prediction line + tally chart + result line.",
+     "image_placeholders": [{"id": "WS04_P3_PREDICT", "description": "A prediction layout for Grade 2 worksheet. Top: 'I predict the mode will be: ___'. Middle: tally chart for Roll #3. Bottom: 'Actual mode: ___'.",
+       "placement": "Centred in Part 3.", "approximate_size": "medium", "keywords": ["predict", "mode"], "text_image_alignment_check": "WS04_P3_PREDICT at Part 3: keywords name the activity."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any prediction + 12 rolls + actual mode."}
+  ]}],
+  "early_finisher_prompt": "If you finish, predict what 100 rolls would show.",
+  "teacher_notes": "Lesson 4 consolidation. Use Part 2 for formative — recognizing mode changes between trials."
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_coding_little_programmers",
+  "pair_number": 4,
+  "lesson_number": 4,
+  "worksheet_number": 4,
+  "subject": "Mathematics",
+  "alignment": 3,
+  "pedagogical_depth": 3,
+  "instructional_balance": 4,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.teacher_script and minds_on.teacher_script never explicitly cross-reference Lesson 3's recording work — Buggy demos a bug but does not say 'remember the code strips you made yesterday on Day 3? today we TEST those same strips.' The arc bridge from B11.3 (record) into B11.2 (test/refine) is implicit only.",
+      "required_fix": "In minds_on.teacher_script, add an explicit callback: 'Yesterday on Day 3 we RECORDED codes with arrows like → → ↑ ↑. Today Buggy shows us how to TEST those codes — and tomorrow on Day 5 we'll do all three together.' Also in expanded_walkthrough.rationale, name the unit-arc bridge so a substitute sees how Day 4 builds on Day 3 strips and feeds Day 5 capstone.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title is 'When the child says no bug but the code IS wrong — repairing the no-test trap at Kindergarten' and recovery_moves = ['Walk each step.', 'Drill test step by step.', 'Compare untested vs tested.'] — concrete but generic. No research citation (Papert/Bers/Sullivan/Clements & Sarama on CT, or Brennan & Resnick on debugging dispositions), and recovery_moves do not branch by what the diagnostic told you about the child (e.g., child who can sequence but not predict vs child who cannot sequence at all).",
+      "required_fix": "Cite the misconception in research-grounded terms — e.g., 'this is the trust-the-code disposition Brennan & Resnick (2012) flag in early CT, and Bers (2018) calls it the missing execution-trace step in K coding.' Then branch recovery_moves: (a) if child can predict Bot's next square but skips testing, drill 'predict-then-walk' contrast; (b) if child cannot predict at all, drop back to one-arrow-at-a-time embodied walking before reintroducing the strip; (c) if child tests but cannot locate which step is wrong, isolate with finger-cover (cover all but one arrow at a time).",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.common_misconceptions = ['Code without test = correct. (Repair: always test.)', 'Bug = obvious. (Repair: subtle bugs need testing.)'] names the trap in plain language but does not invoke research-grounded CT framing, and the action.steps do not invite children to invent or compare strategies for testing (walk-it vs trace-with-finger vs predict-then-check). It is teacher-led 'find and fix' rather than child-invented strategy comparison.",
+      "required_fix": "Add a child-strategy comparison to action.steps: after step 2, prompt 'How did you test? Did you walk it, trace with your finger, or predict in your head? Share with your partner — which way caught the bug?' Then in expanded_walkthrough name the misconception in research-grounded terms: 'Brennan & Resnick (2012) — debugging requires an execution-trace mental model; Bers (2018) on K coding — embodied walking precedes symbolic trace.' This converts the lesson from procedural bug-find to conceptual strategy comparison.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 4,
+  "worksheet_title": "Inspector If's Alterations",
+  "purpose": "Independent practice of C3.2 (alter IF-THEN code).",
+  "student_learning_goal": "I can alter IF-THEN code and describe the effect.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can alter IF-THEN code and describe the effect.",
+    "character_watermark": "Inspector If in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Alter the Condition",
+          "student_instructions": "Change the condition in each code. Predict the new outcome for the given input.",
+          "visual_layout": "Top of page. Four condition-alteration tables.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_COND",
+              "description": "Four condition-alteration tables in B&W line-art, ~7in x 3in. Each: 'Original: ___', 'Altered: ___', 'Input: ___', 'New outcome: ___'. Sample originals: 'IF >10 THEN BIG', 'IF even THEN clap', 'IF =5 THEN star', 'IF >20 THEN HIGH'. Header 'Alter Condition:'.",
+              "placement": "Top of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "alter",
+                "condition"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_COND: keywords (alter, condition) name what the tables ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Each altered condition must produce a verified outcome."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Alter the Action",
+          "student_instructions": "Change the action in each code. Predict the new outcome.",
+          "visual_layout": "Middle of page. Four action-alteration tables.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_ACTION",
+              "description": "Four action-alteration tables in B&W line-art, ~7in x 3in. Each: 'Original: ___', 'Altered: ___', 'Input: ___', 'New outcome: ___'. Sample originals same as Part 1. Header 'Alter Action:'.",
+              "placement": "Middle of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "alter",
+                "action"
+              ],
+              "text_image_alignment_check": "Image WS04_P2_ACTION: keywords (alter, action) name what the tables ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Each altered action must produce a verified outcome."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Swap Branches",
+          "student_instructions": "Swap the TRUE and FALSE branches in 2 codes. Describe the effect.",
+          "visual_layout": "Bottom of page. Two branch-swap descriptions.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_SWAP",
+              "description": "Two branch-swap descriptions in B&W line-art, ~7in x 2in. Each: 'Original: ___', 'Swapped: ___', 'Effect: ___'. Header 'Swap Branches:'.",
+              "placement": "Bottom of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "swap"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_SWAP: keywords (swap) name what the slots ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Effect description must show that opposite-branch outcomes are produced."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, chain TWO alterations on the same code and predict the cumulative effect.",
+  "teacher_notes": "Lesson 4 worksheet practices C3.2 altering. Watch for alteration-doesn't-matter trap — children who carry old outcomes to altered code. Part 3 is a TRANSFER probe: present an UNFAMILIAR multi-conditional code (e.g., 'IF >10 THEN BIG; ELSE IF =10 THEN MID; ELSE SMALL') that children did not see at any station. They must alter ONE branch and re-trace — verifies that alteration generalises beyond the lesson's specific code patterns."
+}

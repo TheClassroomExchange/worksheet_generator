@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "lesson_number": 5,
+  "worksheet_title": "Roo and Cal's Big Farm",
+  "purpose": "Summative artifact applying E2.1-E2.9.",
+  "student_learning_goal": "I can tell time and pick the right measurement tool.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can tell time and pick the right measurement tool.",
+    "character_watermark": "Roo and Cal in the top-right with measurement tools. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Perimeter and area.",
+          "student_instructions": "For 2 shapes, find PERIMETER (cm) and AREA (cm²).",
+          "visual_layout": "Two shapes drawn on a cm grid with two answer lines under each shape.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_PA",
+              "description": "A Grade 3 capstone perimeter+area layout for measurement worksheet, B&W line art. 2 shapes on cm grid: rectangle (4x3) and L-shape (5+2 squares). Below: P=___ cm, A=___ cm² lines for each.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "shapes",
+                "grid"
+              ],
+              "text_image_alignment_check": "WS05_P1_PA at Part 1: keywords name the shapes on grid for perimeter and area."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Rectangle: P=14 cm, A=12 cm². L-shape: P depends on layout, A=7 cm²."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Capacity and mass.",
+          "student_instructions": "Compare 1 capacity pair and 1 mass pair.",
+          "visual_layout": "One container pair and one pan balance with answer lines for each.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_CM",
+              "description": "A Grade 3 capstone capacity and mass layout for measurement worksheet, B&W line art. 1 container pair: pail (6 cups) vs bowl (3 cups). 1 pan balance: 1 apple vs 5 grapes. Each with answer line.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "capacity",
+                "balance"
+              ],
+              "text_image_alignment_check": "WS05_P2_CM at Part 2: keywords name the capacity and pan balance comparisons."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Capacity: pail more. Mass: apple heavier."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Tell time.",
+          "student_instructions": "Read 4 clocks (mix of analog + digital). Write the time.",
+          "visual_layout": "Four clock images mixing analog and digital displays with an answer line under each.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_CLOCKS",
+              "description": "A Grade 3 capstone clock-reading layout for measurement worksheet, B&W line art. 4 clocks: analog 9:00, digital 3:30, analog 12:15, digital 6:45. Each with answer line.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "clocks",
+                "time"
+              ],
+              "text_image_alignment_check": "WS05_P3_CLOCKS at Part 3: keywords name the clocks for telling time."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "9:00, 3:30, 12:15, 6:45."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Pick the Tool.",
+          "student_instructions": "Match each measurement job to the right tool: (a) distance from school to park; (b) area of your desk; (c) time to read a book; (d) mass of a backpack.",
+          "visual_layout": "A 4-row table with job descriptions on the left and tool options (ruler, grid, clock, scale) on the right.",
+          "image_placeholders": [],
+          "student_response_type": "match",
+          "answer_key": "(a) ruler/measuring tape; (b) grid/cm² counter; (c) clock; (d) scale."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw a clock for 7:20 — both analog and digital.",
+  "teacher_notes": "Lesson 5 capstone. Summative artifact — score on rubric. Part 4 'Pick the Tool' added — verifies attribute-tool matching across all 4 attributes (length/area/time/mass)."
+}

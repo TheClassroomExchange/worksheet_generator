@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "lesson_number": 1,
+  "lesson_title": "Sort by Sides and Symmetry",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Sort 2D shapes by SIDES + SYMMETRY: count edges, fold to test symmetry.",
+  "learning_intention": "We are learning to sort shapes by sides, angles, and symmetry.",
+  "student_learning_goal": "I can sort shapes by sides, angles, and symmetry.",
+  "success_criteria": [
+    "I can COUNT sides.",
+    "I can COUNT angles.",
+    "I can FIND lines of symmetry."
+  ],
+  "vocabulary_introduced": [
+    "side",
+    "angle",
+    "symmetry line"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_shape_set",
+    "M7_attribute_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Symmy and Flippy — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Shape Attributes'",
+    "Sortable 2D Shape Set (30 per pair)",
+    "Lesson 1 attribute tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Symmy Counts the Shape",
+    "hook": "Symmy: This SQUARE has 4 sides, 4 angles, and 4 lines of symmetry! Let's count them all! Symmy opens: 'Count the SIDES — fold the SHAPE — match the HALVES!'",
+    "teacher_script": "Bring children to the carpet. Symmy and Flippy puppets. 'Friends — I'm Symmy the Symmetry Squirrel and this is Flippy the Folding Frog. Today we sort shapes by THREE things: SIDES, ANGLES, and LINES OF SYMMETRY.'\n\nIntroduce vocabulary. Write SIDE, ANGLE, SYMMETRY LINE on chart. 'Side = a straight edge. Angle = a corner where 2 sides meet. Symmetry line = a line that splits a shape into matching halves.'\n\nDemonstrate with a square. Hold one up. 'Count sides: 1, 2, 3, 4 — FOUR SIDES.' Trace each side. 'Count angles: 1, 2, 3, 4 — FOUR ANGLES.' Touch each corner. Now fold the square in half — 'MATCH! 1 line of symmetry.' Fold differently — 'Match again! 2 lines.' Diagonal — 'Match! 3 lines.' Other diagonal — 'Match! 4 lines.' 'A square has FOUR lines of symmetry.'\n\nMore examples:\n- Triangle (equilateral): 3 sides, 3 angles, 3 lines of symmetry.\n- Rectangle: 4 sides, 4 angles, 2 lines of symmetry.\n- Circle: 0 sides, 0 angles, INFINITE lines of symmetry.\n- Hexagon (regular): 6 sides, 6 angles, 6 lines of symmetry.\n- Letter L: 6 sides, 6 angles, 0 lines of symmetry.\n- Heart: many sides, no straight angles, 1 line of symmetry.\n\n'Symmy says — count THREE things for every shape. Now we sort by ANY of the three.'\n\n'Today we sort 30 shapes 3 ways.'",
+    "student_actions": [
+      "Listen to Symmy",
+      "Echo new vocabulary",
+      "Count sides/angles/symmetry on shapes",
+      "Practice folding to find symmetry"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Sort Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: count sides/angles/symmetry on 4 shapes.",
+        "teacher_prompt": "Say: 'Count all 3 attributes.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Sort 30 shapes by NUMBER OF SIDES. B: Sort by NUMBER OF SYMMETRY LINES. C: Pick attribute and sort.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: 2-attribute sort (4-sided AND symmetric).",
+        "teacher_prompt": "Say: 'Stretch: 2 attributes.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss: same shape, different sorting attribute = different piles.",
+        "teacher_prompt": "Show: square has 4 sides, but also has 4 lines of symmetry. Sorts in different categories."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their fold-test methods. Class debates folding vs drawing-the-line and checking both halves match. Cite Battista (2007) — geometric reasoning requires multiple verification methods.",
+        "teacher_prompt": "Symmy: 'Two paths to symmetry. The MATH says: halves must MATCH.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A. Sort by sides only.",
+      "for_extending": "Stretch at C: 2 attributes.",
+      "for_ell_or_iep": "Sentence frame: 'This shape has ___ sides.'",
+      "for_movement_learners": "Children form shape outlines with their bodies; count sides physically."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: counts sides; counts angles; finds symmetry lines.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Counts sides",
+        "Counts angles",
+        "Finds symmetry lines",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Symmy's Sort Brag",
+    "discussion_prompts": [
+      "What's a SIDE?",
+      "What's an ANGLE?",
+      "What's a SYMMETRY LINE?",
+      "How many lines does a SQUARE have?",
+      "Symmy's preview: tomorrow Flippy REARRANGES these shapes — but watch what stays the SAME (Lesson 2 — E1.2 area conservation)."
+    ],
+    "exit_routine": "Symmy's refrain — class chants: 'Count the SIDES — fold the SHAPE — match the HALVES!' (3x). Each child writes one shape with side-count + symmetry verdict."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Shape sorting accuracy.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who can count attributes."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child counts CORNERS as SIDES — repairing the corner-side mix-up at Grade 2",
+    "rationale": "On 'sort shapes by sides + symmetry', the dominant Grade-2 trap is geometric attribute confusion (Battista 2007; Clements & Sarama 2009): child conflates side-count with symmetry, or names corners instead of sides. Without precise attribute naming, Lesson 2's decomposition and Lesson 3's congruence cannot ground.\n\nToday: name attributes precisely; test symmetry by folding. Tomorrow Lesson 2 decomposes/conserves area; Lesson 3 congruence; Lesson 4 maps; Lesson 5 capstones.",
+    "setup": "Pair at Station A. Child looks at a square, says '8' (counting both 4 sides and 4 corners as same attribute).",
+    "teacher_script": "Crouch. 'You said 8. Symmy asks — sides are STRAIGHT LINES. Corners are POINTS. Count just the sides.'\n\nGuide. 'Trace each STRAIGHT LINE: 1, 2, 3, 4. Stop. Now count CORNERS: 1, 2, 3, 4. They're DIFFERENT.'\n\nGenerlise. 'Symmy says — sides are EDGES. Angles are CORNERS where 2 edges meet. Count them separately.'\n\nIf still confused: provide a shape with sides numbered 1-4 in colour and corners numbered 1-4 in different colour.",
+    "expected_student_responses": [
+      "(Confused) Conflates sides and corners.",
+      "(Mid) Counts separately with prompts.",
+      "(Strong) Independently counts.",
+      "(Stretched) Notices regular shapes have side count = angle count = symmetry count."
+    ],
+    "common_misconceptions": [
+      "Sides = corners. (Repair: sides are EDGES, corners are POINTS.)",
+      "Symmetry lines = sides. (Repair: symmetry lines split the shape.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child conflates sides + corners: drill 'count EDGES, not corners'; child traces one edge at a time.",
+      "DIAGNOSTIC B — child sorts by symmetry but won't fold-check: force the fold-and-match test before any sort decision.",
+      "DIAGNOSTIC C — child can fold but misses asymmetry: explicit rule 'if halves don't EXACTLY match, NOT symmetric.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Symmy's Shape Counter",
+    "purpose": "Independent practice of E1.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Count sides + angles for 6 shapes.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Find lines of symmetry for 4 shapes.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Sort 6 shapes by number of sides.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Symmy in worksheet header",
+      "6 shapes for Part 1",
+      "4 shapes for Part 2",
+      "Sort grid for Part 3"
+    ]
+  }
+}

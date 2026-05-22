@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "lesson_number": 1,
+  "worksheet_title": "Where Did You See a Number?",
+  "purpose": "End-of-Lesson-1 consolidation. Children record one number-find per box on a four-quadrant page (COUNTING / LABELS / MEASURE / TIME). Captures diagnostic-level evidence for A6.1 and creates a take-home conversation starter so parents see the four jobs numbers do.",
+  "student_learning_goal": "I can find places where numbers are used in our classroom and tell why they matter.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find numbers and say what each one is for.",
+    "character_watermark": "Mae and Theo (the Counting Crew chefs) wave from the top-right corner of the header, with Buddy the puppy peeking out beside them."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Draw a Number You Saw Today",
+          "student_instructions": "Draw or write where you saw a COUNTING number today. It might be fingers, cookies, cubes, or something you counted with Mae or Theo.",
+          "visual_layout": "Top-left quadrant of the page, framed with a thick blue border. The label COUNTING sits in a banner across the top. A large blank drawing box (~3.5in × 3.5in) fills most of the quadrant. A small dotted writing line below the box lets the child write a word or two if they prefer. Mae's chef-hat icon sits in the top-left corner of the banner.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_QUADRANT_GRID",
+              "description": "A four-quadrant grid for the worksheet — labelled COUNTING (top-left), LABELS (top-right), MEASURE (bottom-left), TIME (bottom-right). Each quadrant has a thick coloured border and a banner. Each banner shows a small icon: COUNTING shows three apples; LABELS shows an open book with a page number; MEASURE shows a ruler; TIME shows a wall clock. Style: clean, kindergarten-friendly, line-drawing icons with simple colour fills.",
+              "placement": "spans the full Part 1 page area, forming the worksheet's main structure",
+              "approximate_size": "full_width",
+              "keywords": [
+                "counting",
+                "labels",
+                "measure",
+                "time",
+                "Mae"
+              ],
+              "text_image_alignment_check": "The Part 1 student instructions name COUNTING explicitly and reference 'Mae or Theo' as the partner; the four-quadrant grid's banner words (COUNTING / LABELS / MEASURE / TIME) match the four sort-box labels in Part 2's instructions. Mae's chef-hat icon in the COUNTING banner threads the recurring character through the page. The decorative apples / book / ruler / clock banner icons illustrate each column word but are intentionally not load-bearing keywords (no part's text names those objects directly)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any drawing or word that names a real-world counting use. Acceptable: fingers (5), cookies (any number), cubes, classroom counting objects, paper bears. Children may also write 'cookies' or '5' if they can spell or write the digit. The teacher accepts effort-level drawings — the diagnostic value is whether the child identifies a number that COUNTS something."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Sort the Number Cards",
+          "student_instructions": "Cut out the picture cards at the bottom. Sort them into the four boxes: COUNTING, LABELS, MEASURE, TIME. Glue or tape each card in the right box.",
+          "visual_layout": "Bottom-left quadrant (and the right half of the page). Four labelled boxes in a 2×2 grid take the top portion. A row of 6 picture cards sits at the bottom of the page along a perforated cut line. Cards: a wall clock (TIME), an open book showing 'page 12' (LABELS), a ruler with cm markings (MEASURE), a school bus with the numeral 47 on its side (LABELS), a hand showing five raised fingers (COUNTING), and a measuring tape extended (MEASURE).",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_SORT_CARDS_CLOCK_PAGE_RULER_BUS",
+              "description": "A row of 6 cut-out picture cards along the bottom of the worksheet, separated by a perforated cut line. Card 1: an analog wall clock showing 9 o'clock (TIME). Card 2: an open picture book with 'page 12' visible in the corner (LABELS). Card 3: a 30-cm ruler held horizontally with clear cm/inch markings (MEASURE). Card 4: a yellow school bus with the route number 47 on its side door (LABELS). Card 5: a child's hand showing five raised fingers (COUNTING). Card 6: a yellow measuring tape extended to show the numbers 10, 20, 30 (MEASURE). Each card is ~2in square with a thick black border for cutting.",
+              "placement": "bottom-strip of the worksheet, below the sort boxes, separated by a dotted cut line",
+              "approximate_size": "full_width",
+              "keywords": [
+                "clock",
+                "page",
+                "book",
+                "ruler",
+                "bus",
+                "fingers",
+                "hand",
+                "measuring tape",
+                "number"
+              ],
+              "text_image_alignment_check": "Student instructions for Part 2 say 'Cut out the picture cards' and the cards depict a clock (matches the TIME column word), a book with a page number (matches LABELS), a ruler and measuring tape (match MEASURE), a bus with route number (matches LABELS), and a hand of fingers (matches COUNTING). Every card depicts at least one entity named in the worksheet's instructions or column headers."
+            },
+            {
+              "id": "WS01_P2_SORT_BOXES",
+              "description": "A 2-by-2 grid of empty boxes labelled COUNTING (top-left), LABELS (top-right), MEASURE (bottom-left), TIME (bottom-right). Each box is ~2.5in square, sized to fit two of the cut-out cards from the bottom strip. Box borders are colour-coded: blue (COUNTING), green (LABELS), orange (MEASURE), purple (TIME). A small ghost-outline of one cut-out card sits inside each box to suggest where to glue.",
+              "placement": "spans the upper half of Part 2 and Part 3 area on the right of the page",
+              "approximate_size": "large",
+              "keywords": [
+                "counting",
+                "labels",
+                "measure",
+                "time"
+              ],
+              "text_image_alignment_check": "The four sort-box labels (COUNTING / LABELS / MEASURE / TIME) directly mirror the four words in the student instructions ('Sort them into the four boxes: COUNTING, LABELS, MEASURE, TIME'). Each box's coloured border matches the same word in the instructions and the column banners on Part 1."
+          }
+          ],
+          "student_response_type": "cut_and_sort",
+          "answer_key": "COUNTING: hand of five fingers. LABELS: open book with page 12, school bus with route 47. MEASURE: 30cm ruler, measuring tape. TIME: analog wall clock. (5 of the 6 cards have a single best-fit answer; the bus could prompt class discussion about whether route numbers also count quantity — both arguments are acceptable. Teacher accepts thoughtful sorts even when a card lands in a discussable second column, provided the child can articulate why.)"
+        },
+        {
+          "part_number": 3,
+          "part_title": "My Favourite Number Today",
+          "student_instructions": "Fill in the blanks. My favourite number today was ____ and it was for ____ .",
+          "visual_layout": "Bottom-right quadrant. A speech bubble extending from a small picture of Theo (the chef-partner character) holding a chalkboard. The bubble contains two large dotted-line writing slots: the first slot is small (~2 digit-widths), the second slot is wider (~10 character-widths) for the number-job word. Below the speech bubble is a 'I'll show my family at home' tick-box for parents to acknowledge.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_THEO_SPEECH_BUBBLE",
+              "description": "A friendly half-body illustration of Theo the chef-partner character (white apron, chef hat, holding a wooden spoon and a small mixing bowl). His mouth is open in a friendly speech pose. A speech bubble with a thick black outline extends from his mouth toward the centre of the worksheet. The bubble is empty, designed for the child to fill with their answer text. Theo's posture is encouraging, leaning slightly forward.",
+              "placement": "bottom-right quadrant, with the speech bubble extending into the writing area",
+              "approximate_size": "small",
+              "keywords": [
+                "Theo",
+                "chef",
+                "speech bubble",
+                "favourite number"
+              ],
+              "text_image_alignment_check": "The Part 3 student instructions invite the child to share 'My favourite number today was ____ and it was for ____'. The Part 3 visual_layout names 'Theo (the chef-partner character)' beside the speech bubble — every keyword (Theo, chef, speech bubble, favourite number) appears verbatim in either the instructions or the layout text. The image description's apron/spoon detail decorates the character but is not a load-bearing keyword."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open response. Acceptable: any digit 0-20 in the first slot; any number-job word in the second slot ('counting', 'labels', 'measure', 'time'). Children who can spell the job word are flagged for stretch in Lesson 3 (writing emphasis). Children who can only draw an icon for the job word are still on-track."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Turn the page over. Draw THREE more numbers you can see right now in our classroom. Tell your partner what each one is for.",
+  "teacher_notes": "Give this worksheet at the end of Lesson 1 (last 10 minutes). It works as both consolidation AND diagnostic — keep the worksheets in the per-child portfolio because they show baseline A6.1. Common pitfalls: (a) every quadrant filled with counting examples, which signals the child has not yet generalised that numbers do four jobs — circle these for the small-group recovery during Lesson 2. (b) cards sorted by visual style rather than by job (e.g., the school bus put in COUNTING because it has 'a number' generally) — gentle redirect: 'is the 47 telling us HOW MANY buses, or which bus?'. (c) Part 3 left blank — pair with a stronger verbal partner during the exit routine so the child says their favourite number aloud even if they don't write it."
+}

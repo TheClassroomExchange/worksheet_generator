@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "k_coding_little_programmers", "lesson_number": 5,
+  "worksheet_title": "Bot and Buggy Capstone", "purpose": "Summative artifact applying B11.1-B11.3.",
+  "student_learning_goal": "I can move, record, and test instructions.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can move, record, and test instructions.",
+    "character_watermark": "Bot and Buggy in the top-right with coding tools. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Match arrows.", "student_instructions": "Match 4 direction words to 4 arrows.",
+     "visual_layout": "Four direction words on the left and four arrows on the right.",
+     "image_placeholders": [{"id": "WS05_P1_MATCH", "description": "A Kindergarten capstone match layout for coding worksheet, B&W line art. Left: FORWARD, BACK, LEFT, RIGHT. Right: 4 arrow icons.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["arrows", "directions"], "text_image_alignment_check": "WS05_P1_MATCH at Part 1: keywords name the direction arrows match task."}],
+     "student_response_type": "draw_or_write", "answer_key": "FORWARD=up, BACK=down, LEFT=left, RIGHT=right."},
+    {"part_number": 2, "part_title": "Part 2: Position word.", "student_instructions": "Look at 2 pictures. Write the position word: above, below, beside, or between.",
+     "visual_layout": "Two pictures of Bot in different positions to a star with answer lines.",
+     "image_placeholders": [{"id": "WS05_P2_POS", "description": "A Kindergarten capstone position layout for coding worksheet, B&W line art. 2 pictures: 1) Bot ABOVE star, 2) Bot BESIDE star. Each with answer line.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["pictures", "position"], "text_image_alignment_check": "WS05_P2_POS at Part 2: keywords name the pictures position word task."}],
+     "student_response_type": "draw_or_write", "answer_key": "1=ABOVE, 2=BESIDE."},
+    {"part_number": 3, "part_title": "Part 3: Write code + check.", "student_instructions": "Write a 4-step code to reach the apple. If there's a BUG, circle it.",
+     "visual_layout": "A 4x4 grid with Bot and apple plus an empty 4-box code strip.",
+     "image_placeholders": [{"id": "WS05_P3_CODE", "description": "A Kindergarten capstone code-and-check layout for coding worksheet, B&W line art. 4x4 grid with Bot at A1 and apple at C3. Below: empty 4-box code strip with circle markers.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["code", "check"], "text_image_alignment_check": "WS05_P3_CODE at Part 3: keywords name the code check workspace task."}],
+     "student_response_type": "draw_or_write", "answer_key": "→→↑↑ or any 4-step that reaches C3. No bug if correct."}
+  ]}],
+  "early_finisher_prompt": "If you finish, design a 6-step code with one bug.",
+  "teacher_notes": "Lesson 5 capstone. Summative artifact — score on rubric."
+}

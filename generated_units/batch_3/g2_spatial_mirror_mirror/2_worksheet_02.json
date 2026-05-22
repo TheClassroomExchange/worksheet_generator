@@ -1,0 +1,27 @@
+{
+  "schema_version": 1, "unit_id": "g2_spatial_mirror_mirror", "lesson_number": 2,
+  "worksheet_title": "Flippy's Area Lab",
+  "purpose": "Independent practice of E1.2.",
+  "student_learning_goal": "I can show area stays the same when parts are rearranged.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can show area stays the same when parts are rearranged.",
+    "character_watermark": "Flippy with paper tiles in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Count tiles.", "student_instructions": "Count the tiles in each arrangement. Write the area.",
+     "visual_layout": "4 tile arrangements stacked vertically.",
+     "image_placeholders": [{"id": "WS02_P1_TILES", "description": "4 tile arrangements for Grade 2 worksheet, B&W line art. Same 6 tiles in 4 different shapes: 2x3 rectangle, L-shape, T-shape, long row of 6. Each ~2.5in. Below: 'Area = ___ tiles'.",
+       "placement": "Centred vertically in Part 1.", "approximate_size": "full_width", "keywords": ["tiles", "area"], "text_image_alignment_check": "WS02_P1_TILES at Part 1: keywords name the visual elements."}],
+     "student_response_type": "draw_or_write", "answer_key": "All 4 arrangements: area = 6 tiles."},
+    {"part_number": 2, "part_title": "Part 2: Decompose hexagon.", "student_instructions": "A hexagon decomposes into 6 triangles. Show area = 6.",
+     "visual_layout": "A hexagon outline + 6 small triangle tiles to draw.",
+     "image_placeholders": [{"id": "WS02_P2_HEX", "description": "A hexagon for Grade 2 worksheet, B&W line art. ~3in across. Above: 'Area = ___ triangles'. Decomposition lines optional for the child to draw.",
+       "placement": "Centred in Part 2.", "approximate_size": "medium", "keywords": ["hexagon", "triangles"], "text_image_alignment_check": "WS02_P2_HEX at Part 2: keywords name the visual elements."}],
+     "student_response_type": "draw_or_write", "answer_key": "Hexagon = 6 triangles."},
+    {"part_number": 3, "part_title": "Part 3: Rearrange 8 tiles.", "student_instructions": "Rearrange 8 tiles into 3 different shapes. Each time, area = 8.",
+     "visual_layout": "Three blank workspaces.",
+     "image_placeholders": [{"id": "WS02_P3_REARRANGE", "description": "Three blank workspaces for Grade 2 worksheet, each ~3in × 2in with thin border, for arranging 8 tiles. Above each: 'Area = ___' line.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["rearrange", "tiles"], "text_image_alignment_check": "WS02_P3_REARRANGE at Part 3: keywords name the activity."}],
+     "student_response_type": "draw_or_write", "answer_key": "Three different 8-tile arrangements; all area = 8."}
+  ]}],
+  "early_finisher_prompt": "If you finish, find a 4th arrangement.",
+  "teacher_notes": "Lesson 2 consolidation. Use Part 1 as formative — recognizing area unchanged."
+}

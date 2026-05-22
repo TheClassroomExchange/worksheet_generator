@@ -1,0 +1,14 @@
+{
+  "unit_id": "g3_number_fraction_street",
+  "status": "pass",
+  "inspected_at": "2026-05-10T20:20:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch5",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 23, "description": "Penny puppet label correctly reads 'Penny the Place Value Pal' — R22 special check PASSES."},
+    {"page": 26, "description": "7-row rubric (B1.1-B1.7) all rows present in compact format with adaptive word-boundary trim — within R22 tolerance."},
+    {"page": 24, "description": "M10 Fraction Street poster shows bullet list, no 5-house illustration (R20 carry-over)."},
+    {"page": 25, "description": "Sammy puppet caption reads 'Sammy the Safari Sloth' vs unit text 'Sammy the Sharer' (R20 carry-over)."}
+  ],
+  "summary": "PASS. Worksheet composer rewrite landed: pages 8-12 now hero layout (title + learning goal + instructions + content) with no debug stubs. Penny label correct. 7-row rubric (B1.1-B1.7) all rows present. Frankie, Penny, and Sammy puppet art all render correctly."
+}

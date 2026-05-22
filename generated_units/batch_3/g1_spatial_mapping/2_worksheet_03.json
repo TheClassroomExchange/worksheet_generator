@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 3,
+  "worksheet_title": "Coco's Symmetry Page",
+  "purpose": "Independent practice of E1.3 — matching halves and lines of symmetry.",
+  "student_learning_goal": "I can make shapes with matching halves.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can make shapes with matching halves.",
+    "character_watermark": "Compass Coco the Cat in the top-right corner with a folded shape. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [{"page_number": 1, "parts": [
+    {
+      "part_number": 1,
+      "part_title": "Part 1: Circle the matching halves.",
+      "student_instructions": "Circle the shapes that have MATCHING HALVES.",
+      "visual_layout": "8 shapes in a 2x4 grid. Some have matching halves (heart, square, circle, butterfly), some don't (letter F, apple bite, asymmetric blob, comma).",
+      "image_placeholders": [
+        {
+          "id": "WS03_P1_SHAPES",
+          "description": "A 2x4 grid of 8 shapes for a Grade 1 worksheet, B&W line art. Top row: heart, square, letter F, asymmetric blob. Bottom row: butterfly, circle, comma, apple-with-bite. Each shape ~1.5in across, suitable for circling. Some have matching halves (heart, square, butterfly, circle), some don't (F, asymmetric blob, comma, apple with bite).",
+          "placement": "Centred horizontally; spans Part 1.",
+          "approximate_size": "full_width",
+          "keywords": ["matching", "halves", "shapes"],
+          "text_image_alignment_check": "Image WS03_P1_SHAPES at Part 1: instructions ask the child to circle shapes with matching halves. Keywords name the criteria."
+        }
+      ],
+      "student_response_type": "circle_or_loop",
+      "answer_key": "CIRCLED (matching halves): heart, square, butterfly, circle. NOT CIRCLED: F, asymmetric blob, comma, apple-with-bite."
+    },
+    {
+      "part_number": 2,
+      "part_title": "Part 2: Draw the line.",
+      "student_instructions": "Draw a line of symmetry on each shape.",
+      "visual_layout": "Four shapes stacked vertically: rectangle, equilateral triangle, maple leaf, star. Each has space for the child to draw a fold/symmetry line.",
+      "image_placeholders": [
+        {
+          "id": "WS03_P2_LINES",
+          "description": "Four shapes for symmetry lines for a Grade 1 worksheet, B&W line art. Stacked vertically: rectangle, equilateral triangle, maple leaf (Canadian!), 5-point star. Each ~2in tall, generously spaced for the child to draw a vertical or other line of symmetry. No fill, just outlines.",
+          "placement": "Centred vertically in Part 2.",
+          "approximate_size": "full_width",
+          "keywords": ["symmetry", "line"],
+          "text_image_alignment_check": "Image WS03_P2_LINES at Part 2: instructions ask the child to draw symmetry lines. Keywords name the visual element."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Rectangle: vertical line through centre (or horizontal). Triangle: vertical line through apex. Maple leaf: vertical line through stem. Star: vertical line through one point."
+    },
+    {
+      "part_number": 3,
+      "part_title": "Part 3: Make your own.",
+      "student_instructions": "Draw a shape that has MATCHING HALVES. Show the line of symmetry.",
+      "visual_layout": "A blank drawing space (~5in × 3in) for the child's own design.",
+      "image_placeholders": [
+        {
+          "id": "WS03_P3_BLANK",
+          "description": "A blank drawing rectangle for a Grade 1 worksheet, ~5in × 3in with thin solid border. Designed for the child to draw their own matching-halves shape and mark the line of symmetry.",
+          "placement": "Centred horizontally in Part 3.",
+          "approximate_size": "full_width",
+          "keywords": ["matching", "shape"],
+          "text_image_alignment_check": "Image WS03_P3_BLANK at Part 3: instructions ask the child to draw a matching-halves shape. Keywords name the criteria."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any symmetric shape with the line clearly drawn (heart, butterfly, leaf, oval, etc.)."
+    }
+  ]}],
+  "early_finisher_prompt": "If you finish, draw a shape with TWO lines of symmetry.",
+  "teacher_notes": "Lesson 3 consolidation artifact. Use Part 1 as the formative signal — children who correctly identify all 4 symmetric shapes have grasped the concept."
+}

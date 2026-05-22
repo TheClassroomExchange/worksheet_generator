@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "lesson_number": 3,
+  "lesson_title": "Congruent Faces",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "CONGRUENT means SAME SIZE and SAME SHAPE. We match faces, lengths, and angles.",
+  "learning_intention": "We are learning to identify congruent faces, lengths, and angles.",
+  "student_learning_goal": "I can identify congruent faces, lengths, and angles.",
+  "success_criteria": [
+    "I can SAY what congruent means.",
+    "I can MATCH 2 congruent faces.",
+    "I can CHECK by overlapping.",
+    "I can DECIDE if 2 objects are congruent."
+  ],
+  "vocabulary_introduced": [
+    "congruent"
+  ],
+  "vocabulary_reinforced": [
+    "face",
+    "edge",
+    "vertex",
+    "prism",
+    "pyramid",
+    "compose",
+    "decompose"
+  ],
+  "manipulatives_used": [
+    "M4_congruent_set",
+    "M7_geometry_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Trekker Tig and Compass Coco — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Congruent = Same Size + Same Shape'",
+    "Congruent Face Match Cards (1 set per pair)",
+    "Tracing paper",
+    "Lesson 3 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Compass Coco's Match Game",
+    "hook": "Compass Coco: I have 2 face cards. Are they CONGRUENT? Same size AND same shape? Tig opens: 'SAME SHAPE, SAME SIZE — that's CONGRUENT!'",
+    "teacher_script": "Bring children to the carpet. Compass Coco the Cat puppet with compass. 'Geometers — today we learn CONGRUENT.'\n\nDefine. 'CONGRUENT = SAME SIZE and SAME SHAPE. Both must match!'\n\nDemo. Show 2 squares of the SAME SIZE. 'Same shape (square)? Yes. Same size? Yes. CONGRUENT!'\n\nShow a square + a rectangle. 'Same shape? NO — square vs rectangle. NOT congruent.'\n\nShow 2 squares of DIFFERENT SIZES. 'Same shape? Yes. Same size? NO. NOT congruent.'\n\n'Compass Coco says — BOTH must match!'\n\nShow how to TEST. 'I overlap them. If they match exactly, congruent!'\n\nNow try with 3D faces. 'A cube has 6 faces — all congruent squares!'\n\n'A rectangular prism has 6 faces — but only OPPOSITE faces are congruent.'\n\nLengths and angles too. 'All edges of a cube are CONGRUENT (same length). All angles are right angles (also congruent).'\n\nNow each pair gets the Congruent Face Match Cards (20 cards in 10 congruent pairs). They:\n1. Spread cards out.\n2. Find 5 congruent pairs.\n3. Identify 2 NON-congruent pairs.\n\n'Compass Coco says — match by overlapping or measuring!'",
+    "student_actions": [
+      "Watch Coco demo",
+      "Echo congruent definition",
+      "Test 2 squares for congruence",
+      "Match 5 face pairs"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Match 10 Congruent Pairs",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Match Card Sets. Pairs find 5 congruent pairs.",
+        "teacher_prompt": "Say: 'Find 5 pairs.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Identify 2 NON-congruent pairs (close but not match).",
+        "teacher_prompt": "Say: 'Now 2 not-pairs.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: explain 1 reason a pair is NOT congruent.",
+        "teacher_prompt": "Say: 'Stretch: why not?'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help by demonstrating overlap.",
+        "teacher_prompt": "Show: lay one over other."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Match 3 pairs.",
+      "for_extending": "Find congruent edges + angles.",
+      "for_ell_or_iep": "Tracing paper to overlap.",
+      "for_movement_learners": "Hold cards up to compare visually. NO-MATERIALS PATH: children use their own two hands as shape testers (fingers spread = pentagon, fist = square). Compare hand shapes for congruence."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: defines; matches; tests; explains; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Defines congruent",
+        "Matches pairs",
+        "Explains why not",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Compass Coco's Match Brag",
+    "discussion_prompts": [
+      "What's CONGRUENT?",
+      "Are 2 cubes always congruent?",
+      "How do you TEST?",
+      "Find 2 congruent faces in our classroom."
+    ],
+    "exit_routine": "Tig's congruent refrain — 'SAME SHAPE, SAME SIZE — that's CONGRUENT!' (3x). Each child tests one face pair with overlay."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Congruence match tracker.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures E1.3."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says CONGRUENT for SAME SHAPE only — repairing the size-blind trap at Grade 3",
+    "rationale": "On congruent faces, the trap is van Hiele Level 1 visual judgment: child says 'same' if it LOOKS same, ignoring size. Battista (2007) frames this as the L1→L2 transition.\n\nYesterday Lesson 2 built structures. Today we test FACE CONGRUENCE. Lesson 4 map+move; Lesson 5 capstones.",
+    "setup": "Match activity. Child says 2 squares (small + big) are congruent.",
+    "teacher_script": "Crouch. 'Compass Coco asks — same SHAPE? Same SIZE?'\n\nProbe. 'Both squares — same shape? Yes. Same size? NO — one is bigger.'\n\nGeneralise. 'Compass Coco says — CONGRUENT means BOTH size AND shape. Either one missing = NOT congruent.'\n\nIf still confused: overlap. 'Lay small on big. They don't match — NOT congruent.'",
+    "expected_student_responses": [
+      "(Confused) 'Both squares.'",
+      "(Mid) 'Different size.'",
+      "(Strong) 'Same shape but not same size.'",
+      "(Stretched) 'Need both.'"
+    ],
+    "common_misconceptions": [
+      "Congruent = same shape. (Repair: ALSO size.)",
+      "Congruent = similar. (Repair: ALSO size.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child can name 'same shape' but freezes on size: drop to a SAME shape, DIFFERENT size pair; child names 'NOT congruent because sizes differ'.",
+      "DIAGNOSTIC B — child accepts congruent but rejects rotation: physically rotate; child sees rotation doesn't change congruence.",
+      "DIAGNOSTIC C — child tests but cannot articulate: force 'these faces ARE/ARE NOT congruent because ___'."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coco's Congruent Match",
+    "purpose": "Independent practice of E1.3.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Match 5 pairs of congruent shapes.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Decide YES/NO if 4 pairs are congruent.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Explain WHY one pair is NOT congruent.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Trekker Tig and Compass Coco in worksheet header",
+      "10 face cards for Part 1",
+      "4 yes/no decision boxes for Part 2"
+    ]
+  }
+}

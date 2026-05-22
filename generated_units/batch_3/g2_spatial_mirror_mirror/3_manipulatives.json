@@ -1,0 +1,475 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "assets": [
+    {
+      "asset_id": "M1_shape_set",
+      "name": "Sortable 2D Shape Set",
+      "category": "manipulative",
+      "purpose": "30 paper 2D shapes for sorting by sides/angles/symmetry. Used in Lessons 1 and 5.",
+      "page_layout": "Two letter pages, portrait. 15 shapes per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_SHAPES",
+          "description": "Two pages of 30 paper 2D shapes for Grade 2 manipulative, B&W line art. Mix of triangles, squares, rectangles, hexagons, pentagons, octagons, irregular shapes. Each ~1.5in.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "shapes",
+            "sort"
+          ],
+          "text_image_alignment_check": "M1_SHAPES: keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 30 shapes per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_pattern_blocks",
+      "name": "Pattern Block Set",
+      "category": "manipulative",
+      "purpose": "60 paper pattern blocks for compose/decompose. Used in Lessons 2 and 5.",
+      "page_layout": "Two letter pages, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_BLOCKS",
+          "description": "Two pages of pattern blocks for Grade 2 manipulative, B&W line art. ~30 blocks per page: triangles, squares, hexagons, trapezoids, rhombi. Each ~1.2in.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "pattern",
+            "blocks"
+          ],
+          "text_image_alignment_check": "M2_BLOCKS: keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 60 blocks per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 30,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_congruent_cards",
+      "name": "Congruent Pair Cards",
+      "category": "manipulative",
+      "purpose": "16 paper shape cards in 8 congruent pairs. Used in Lessons 3 and 5.",
+      "page_layout": "One letter page, portrait. 16 cards in 4x4 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_CONGRUENT",
+          "description": "A 4x4 grid of 16 congruent pair cards for Grade 2 manipulative, B&W line art. 8 pairs of matching shapes (triangles, squares, hexagons, etc.). Each ~2in.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "congruent",
+            "pairs"
+          ],
+          "text_image_alignment_check": "M3_CONGRUENT: keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 16 cards per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M4_map_template",
+      "name": "Map Template",
+      "category": "manipulative",
+      "purpose": "Letter-size map grid for drawing. Used in Lessons 4 and 5.",
+      "page_layout": "One letter page, landscape. Grid + title line.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_MAP_GRID",
+          "description": "A landscape map grid for Grade 2 manipulative, B&W line art. ~7in × 5in. Faint grid background (~1/4in squares). Title line above.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "map",
+            "grid"
+          ],
+          "text_image_alignment_check": "M4_MAP_GRID: keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 templates.",
+        "Laminate for dry-erase.",
+        "Distribute one per pair."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "10-12 templates.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_symbol_cards",
+      "name": "Map Symbol Cards",
+      "category": "manipulative",
+      "purpose": "12 map-symbol cards for objects (bed, desk, tree, etc.). Used in Lessons 4 and 5.",
+      "page_layout": "One letter page, portrait. 12 cards in 3x4 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_SYMBOLS",
+          "description": "A 3x4 grid of 12 map-symbol cards for Grade 2 manipulative. Each card ~2in × 2in with a top-down symbol and label: bed, desk, door, window, table, chair, tree, path, fence, lamp, bookshelf, carpet.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "symbols",
+            "cards"
+          ],
+          "text_image_alignment_check": "M5_SYMBOLS: keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 12 cards per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Mirror Maze Template",
+      "category": "manipulative",
+      "purpose": "Letter-size capstone with maze, position lines, direction lines. Used in Lesson 5.",
+      "page_layout": "One letter page, portrait. 5 sections.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE",
+          "description": "A portrait capstone template for Grade 2 worksheet, B&W line art. 5 sections stacked: SHAPES (3 shapes + table), AREA (rearrangement workspace), CONGRUENT (pair-match grid), MAP (small map workspace), MAZE (grid + 3 direction lines).",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "capstone",
+            "maze"
+          ],
+          "text_image_alignment_check": "M6_CAPSTONE: keywords name the activity."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 25 templates.",
+        "Stack near teacher table.",
+        "No lamination."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "25 templates.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_attribute_chart",
+      "name": "Shape Attribute Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart of sides/angles/symmetry for common shapes. Posted in Lessons 1, 3, 5.",
+      "page_layout": "One letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_ATTRIBUTES",
+          "description": "A portrait shape attribute chart for Grade 2 classroom. Header 'Shape Attributes'. 6 rows: TRIANGLE (3, 3, 3), SQUARE (4, 4, 4), RECTANGLE (4, 4, 2), HEXAGON (6, 6, 6), CIRCLE (0, 0, infinite), PENTAGON (5, 5, 5). Columns: Sides | Angles | Symmetry lines.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "attributes",
+            "chart"
+          ],
+          "text_image_alignment_check": "M7_ATTRIBUTES: keywords name the chart's content."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape to front wall before Lesson 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_area_chart",
+      "name": "Area Conservation Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart showing area stays the same when rearranged. Posted in Lessons 2 and 5.",
+      "page_layout": "One letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_AREA",
+          "description": "A portrait area conservation chart for Grade 2 classroom. Header 'Area Stays the Same'. Below: 3 different arrangements of the same 6 tiles (rectangle, L-shape, T-shape) with 'Area = 6' beneath each.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "area"
+          ],
+          "text_image_alignment_check": "M8_AREA: instructions describe area conservation chart. Keyword names the focus."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape to front wall."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_direction_cards",
+      "name": "Direction Cards",
+      "category": "manipulative",
+      "purpose": "12 cards (forward/back/left/right with numbers). Used in Lesson 5.",
+      "page_layout": "One letter page, portrait. 12 cards in 3x4 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_DIRECTIONS",
+          "description": "A 3x4 grid of 12 direction cards for Grade 2 manipulative, B&W line art. Each card ~2in × 2in with a direction word + arrow icon. Cards: FORWARD 1/2/3, TURN LEFT/RIGHT, BACKWARD 1/2/3, etc.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "direction",
+            "cards"
+          ],
+          "text_image_alignment_check": "M9_DIRECTIONS: keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 12 cards per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_unit_poster",
+      "name": "Mirror Mirror Poster",
+      "category": "manipulative",
+      "purpose": "Anchor poster of Symmy and Flippy. Posted for the entire unit.",
+      "page_layout": "One letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "A landscape unit anchor poster for Grade 2 spatial classroom, B&W line art. Header 'Mirror Mirror'. Centre-left: Symmy with mirror. Centre-right: Flippy with folded paper. Around them: small icons for sides, symmetry, area, congruent, map, directions.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "symmy",
+            "flippy",
+            "poster"
+          ],
+          "text_image_alignment_check": "M10_POSTER: keywords name the characters and artifact."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on letter or 11x17.",
+        "Laminate.",
+        "Tape to front wall on Day 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_symmy_puppet",
+      "name": "Symmy Symmetry Squirrel Puppet",
+      "category": "character_puppet",
+      "purpose": "Paper puppet for teacher use in all 5 lessons.",
+      "page_layout": "One letter page, portrait. ~7in tall.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_SYMMY_FRONT",
+          "description": "A full-body cutout of Symmy the Symmetry Squirrel in B&W line art for Grade 2 teacher puppet, ~7in tall. Symmy has bushy symmetric tail, holds a small mirror. Bright eyes. Tab at the bottom for popsicle stick.",
+          "placement": "Centred, fills the page vertically.",
+          "approximate_size": "large",
+          "keywords": [
+            "symmy"
+          ],
+          "text_image_alignment_check": "CHAR_SYMMY_FRONT: keyword names the character."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Cut around silhouette + tab.",
+        "Laminate.",
+        "Glue popsicle stick."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_flippy_puppet",
+      "name": "Flippy the Folding Frog Puppet",
+      "category": "character_puppet",
+      "purpose": "Paper puppet for teacher use in Lessons 2-5.",
+      "page_layout": "One letter page, portrait. ~6in tall.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_FLIPPY_FRONT",
+          "description": "A full-body cutout of Flippy the Folding Frog in B&W line art for Grade 2 teacher puppet, ~6in tall. Flippy is a small green frog holding folded paper. Round eyes, slight smile. Tab at the bottom.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "flippy"
+          ],
+          "text_image_alignment_check": "CHAR_FLIPPY_FRONT: keyword names the character."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Cut around silhouette + tab.",
+        "Laminate.",
+        "Glue popsicle stick."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "overall_prep_notes": "Total prep time ~3 hours one-time before unit launch (laminating + cutting). Storage: keep all pair sets in labelled zip-top bags. Set up all anchor charts and the unit poster on Day 1."
+}

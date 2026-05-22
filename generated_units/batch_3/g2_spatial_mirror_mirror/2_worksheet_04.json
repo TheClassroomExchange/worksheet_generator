@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "lesson_number": 4,
+  "worksheet_title": "Flippy's Map Maker",
+  "purpose": "Independent practice of E1.4.",
+  "student_learning_goal": "I can make a simple map of a familiar place.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can make a simple map of a familiar place.",
+    "character_watermark": "Flippy with a map in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Read the map.",
+          "student_instructions": "Look at the map. Identify 4 objects.",
+          "visual_layout": "A pre-built map + 4 question lines.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_MAP",
+              "description": "A pre-built bedroom map for Grade 2 worksheet, B&W line art, ~5in × 4in. Top-down view: bed (rectangle), desk (square), door (rectangle on wall), window (long rectangle). Below: 4 question lines for identifying objects.",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "map",
+                "objects"
+              ],
+              "text_image_alignment_check": "WS04_P1_MAP at Part 1: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Bed, desk, door, window."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Map your bedroom.",
+          "student_instructions": "Draw a top-down map of your bedroom. Use symbols.",
+          "visual_layout": "Blank map workspace ~5in × 4in with title line above.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_BLANK",
+              "description": "A blank map workspace for Grade 2 worksheet, ~5in × 4in with thin border. Above: 'My Bedroom' title line. Designed for top-down drawing with symbols.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "map",
+                "bedroom"
+              ],
+              "text_image_alignment_check": "WS04_P2_BLANK at Part 2: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid top-down bedroom map with symbols and labels."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Add labels.",
+          "student_instructions": "Pick a place at home (kitchen, yard). Map it. Add labels.",
+          "visual_layout": "Larger blank space with title line.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_BLANK",
+              "description": "A larger blank map workspace for Grade 2 worksheet, ~6in × 5in with thin border. Above: 'My Place: ___' title line. Designed for child's choice.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "map",
+                "labels"
+              ],
+              "text_image_alignment_check": "WS04_P3_BLANK at Part 3: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid map with at least 3 labels."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, add a compass rose (N/S/E/W).",
+  "teacher_notes": "Lesson 4 consolidation. Use Part 2 as formative — top-down view (not side view). Part 1 uses a NEW context (kitchen or library top-down) instead of the bedroom rehearsed in the lesson — verifies map-reading transfer."
+}

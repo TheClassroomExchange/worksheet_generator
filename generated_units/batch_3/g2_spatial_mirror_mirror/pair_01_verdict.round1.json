@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough and teacher_script never reference Day 2 (compose/decompose) or how Day 1's attribute-counting feeds into the area-conservation work that follows; lesson stands alone with no arc bridge.",
+      "required_fix": "Add a closing line to consolidation that bridges to Lesson 2: e.g., Symmy says 'Tomorrow Flippy will REARRANGE these shapes — but watch what stays the same when we DECOMPOSE them!' Cross-reference attribute counts as the foundation for area work.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a real trap (counting corners as sides) and gives concrete recovery_moves but cites no research and recovery does not branch by what the diagnostic told you about the child — moves are a flat list, not a decision tree.",
+      "required_fix": "Cite Battista (2007) or Clements & Sarama on geometric attribute confusion. Restructure recovery_moves into branches: if child still conflates after coloured numbering, drop to one attribute at a time; if child counts sides accurately but cannot identify symmetry, separate into a fold-only mini-task before returning.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Parts 1, 2, 3 mirror lesson activities one-to-one (count sides+angles, find symmetry, sort by sides) — this is rote repeat. No transfer task and no unfamiliar shapes to verify generalization. Letter F in Part 2 is the only mild novelty.",
+      "required_fix": "Add a transfer element: include 1-2 unfamiliar/irregular shapes in Part 1 (e.g., an arrow or irregular pentagon) and add a justified 'why' note in teacher_notes explaining that Part 2's letter F probes whether children apply the symmetry rule rather than guessing — making the variation deliberate and named.",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson is conceptually sound (sides=edges, angles=corners, symmetry=fold-and-match) but children never invent or compare strategies — teacher demonstrates folding and children echo. expanded_walkthrough names the misconception in plain language without research-grounded terms (van Hiele levels, Battista on spatial reasoning).",
+      "required_fix": "In Action step 3 or consolidation, prompt: 'Two ways to find symmetry — folding OR drawing the line and checking both halves match. Which works for you? Why?' Have pairs compare strategies. Add to expanded_walkthrough rationale: 'This is van Hiele Level 1 (analysis) — children must distinguish attributes rather than treat shapes holistically (Battista 2007).'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Solid foundational pair — Symmy is clear, the corner-vs-side trap is real, materials include a body-only path, and the worksheet maps to success criteria. Four categories at 3 block pass: no arc bridge to Day 2, recovery moves don't branch and lack research citation, worksheet is rote repeat without transfer items, and children never invent/compare strategies. Edits to lesson_01 (bridge, branch recovery, cite Battista, strategy comparison) and worksheet_01 (transfer items + named variation rationale) will lift to pass."
+}

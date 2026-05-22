@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 1,
+  "lesson_title": "Sort My Shapes",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We sort shapes by ONE attribute. Same shapes can be sorted in DIFFERENT ways.",
+  "learning_intention": "We are learning to sort shapes by one attribute.",
+  "student_learning_goal": "I can sort shapes by one rule and name the rule.",
+  "success_criteria": [
+    "I can pick ONE attribute (colour, shape, size).",
+    "I can sort the shapes by that attribute.",
+    "I can name the rule I used."
+  ],
+  "vocabulary_introduced": [
+    "attribute",
+    "rule"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_shape_set",
+    "M7_attribute_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Tig and Coco — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Sort by Attribute'",
+    "Shape Set (30 per pair)",
+    "Lesson 1 sort tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tig Sorts the Trail Pile",
+    "hook": "Tig: I found a PILE of shapes on the trail. Help me SORT them. What ONE attribute can I use? Tig opens: 'Pick ONE! SAY it! SORT it!' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Tig and Coco puppets. 'Friends — I'm Trekker Tig the Tiger Cub, and this is my friend Compass Coco the Cat. Today we sort shapes by ATTRIBUTES.'\n\nIntroduce vocabulary. Write ATTRIBUTE and RULE on chart. 'Attribute = a way to describe a shape. Rule = how we decide what goes where.'\n\nDemonstrate. Show a pile of 8 shapes: 4 red, 4 blue, mix of squares + triangles + circles. 'Many attributes! Colour, shape, size...'\n\nSort by COLOUR: red pile, blue pile.\nSort by SHAPE: squares pile, triangles pile, circles pile.\nSort by SIZE: big pile, small pile.\n\nMore examples (Canadian-flavour):\n- Pile of leaves: maple, oak, birch. Sort by shape.\n- Pile of rocks: smooth, rough. Sort by texture.\n- Class of 20: tall, short. Sort by height.\n\n'Tig says — same pile, DIFFERENT rules. Pick ONE.'\n\n'Today we sort 30 shapes lots of ways.'",
+    "student_actions": [
+      "Listen to Tig's sort.",
+      "Echo new vocabulary.",
+      "Suggest sort attributes.",
+      "Practice naming the rule."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Sort Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: sort 4 piles. (a) shapes by colour. (b) shapes by size. (c) shapes by 2D vs 3D. (d) shapes by number of sides.",
+        "teacher_prompt": "Say: 'Pick ONE attribute. Sort.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Sort 30 shapes by COLOUR. Station B: Same 30 by SHAPE. Station C: Same 30 by SIZE.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: sort by 2 attributes (red AND big).",
+        "teacher_prompt": "Say: 'Stretch: 2 attributes.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss attribute choice. 'Different attributes give different piles. SAY the attribute first.'",
+        "teacher_prompt": "Show: same pile, sort 3 different ways."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic evidence on the sort tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's your attribute?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: Pairs pick their OWN attribute (no teacher list) and sort 8 shapes. Two pairs share — class debates: 'Same attribute or different? Why is EACH fair?' Cite Piaget & Inhelder (1964) shifting-criterion classification: math sorting requires attribute consistency.",
+        "teacher_prompt": "Tig: 'Different rule, different sort. The RULE picks the math, not the objects.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just colour sorts.",
+      "for_extending": "Stretch at Station C: 2-attribute sorting.",
+      "for_ell_or_iep": "Provide a sentence frame: 'My attribute is ___.'",
+      "for_movement_learners": "Children sort themselves into groups by attribute (shoe colour, hair colour, etc.)."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks ONE attribute; sorts correctly; names the rule.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Picks one attribute",
+        "Sorts correctly",
+        "Names the rule",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tig's Sort Brag",
+    "discussion_prompts": [
+      "What is an ATTRIBUTE?",
+      "Can the same pile be sorted in DIFFERENT ways?",
+      "How do you NAME your rule?",
+      "Why do detectives sort?",
+      "Tig's preview: tomorrow we BUILD with shapes (Lesson 2 — E1.2). What attribute today might matter when we're stacking blocks tomorrow?"
+    ],
+    "exit_routine": "Tig's three-step refrain — class chants 3x: 'Pick ONE! SAY it! SORT it!' Each child writes ONE attribute on a sticky and tags 3 shapes from the pile."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Sorting accuracy and attribute identification.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already sort by attribute from those who sort randomly."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child changes attribute mid-sort — repairing the attribute-drift trap at Grade 1",
+    "rationale": "Grade-1 children commonly classify shapes by SURFACE features (red = goes with red, big = goes with big) without committing to a single ATTRIBUTE. Sarama & Clements (2009, 'Early Childhood Mathematics') and Piaget & Inhelder's classic work on multi-attribute classification (age 6-7) place attribute-naming as the gateway to all later geometry: without it, sorting drifts and comparison breaks down.\n\nToday's task is to NAME the attribute first, then sort consistently. Tomorrow Lesson 2 builds 3D structures using these named shapes; Lesson 3 finds matching halves; Lesson 4 names positions; Lesson 5 integrates into a treasure trail.",
+    "setup": "Pair is at Station A. Child starts colour sort. After 5 shapes, places a small red shape in the 'BIG' pile because it's small (size attribute) instead of red (colour).",
+    "teacher_script": "Crouch. 'Wait — your attribute was COLOUR. But this little red shape went to BIG.'\n\nWalk through. 'When we sort, ONE attribute. If the rule is COLOUR, every red shape goes to red, no matter the size.'\n\nGeneralise. 'Tig says — pick the attribute, SAY the attribute, sort EVERY shape by it.'\n\nNow re-sort. 'What's the attribute?' Child says 'colour'. 'Right. Every red goes here, every blue goes there.'\n\nIf still drifting: provide an attribute card on the table. 'ATTRIBUTE = COLOUR' written big.\n\nLong-term recovery: every sort starts with a written attribute card.",
+    "expected_student_responses": [
+      "(Confused) Drifts to a different attribute mid-sort.",
+      "(Mid) Sticks to one attribute with a written reminder.",
+      "(Strong) States attribute first, sorts consistently.",
+      "(Stretched) Re-sorts the same pile with a different attribute on request."
+    ],
+    "common_misconceptions": [
+      "I can switch attributes mid-sort. (Repair: ONE attribute per sort.)",
+      "Sort means 'organize'. (Repair: sorting requires a single rule.)",
+      "All sorts give same piles. (Repair: different attributes give different piles.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child re-states the attribute then drifts: place a RULE card on the table ('SORT BY = COLOUR'); child must touch the card before placing each shape.",
+      "DIAGNOSTIC B — child uses two attributes at once (red AND big): split into two passes — first sort by colour only, then re-sort the same pile by size.",
+      "DIAGNOSTIC C — child cannot name an attribute: model 4 attributes on the same pile (colour, size, shape, number-of-corners); child picks ONE before sorting any object."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tig's Sort Sheet",
+    "purpose": "Independent practice of E1.1 sorting by attribute.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Look at the pile of shapes. Sort by COLOUR. Draw 2 piles.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Same shapes. Sort by SIZE. Draw 2 piles.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick your own attribute. Sort 6 shapes. Write the attribute.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tig in worksheet header",
+      "Pile of mixed shapes for Part 1",
+      "Same pile shown for Part 2",
+      "6 shapes + blank attribute line for Part 3"
+    ]
+  }
+}

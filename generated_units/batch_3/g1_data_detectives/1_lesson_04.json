@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "lesson_number": 4,
+  "lesson_title": "Order Greatest to Least",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can ORDER categories by HOW MANY. Greatest goes first, least goes last.",
+  "learning_intention": "We are learning to order categories from greatest to least.",
+  "student_learning_goal": "I can order categories from greatest to least.",
+  "success_criteria": [
+    "I can find the GREATEST category in a pictograph.",
+    "I can find the LEAST category.",
+    "I can list all categories in order from greatest to least."
+  ],
+  "vocabulary_introduced": [
+    "greatest",
+    "least"
+  ],
+  "vocabulary_reinforced": [
+    "pictograph",
+    "tally"
+  ],
+  "manipulatives_used": [
+    "M3_pictograph_grid",
+    "M4_picture_tokens",
+    "M7_data_chart",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally puppets — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Greatest to Least'",
+    "Pictograph Grid Mat (1 per pair)",
+    "Picture Tokens (60 per pair)",
+    "Lesson 4 ordering tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tally Orders the Pet Pictograph",
+    "hook": "Tally: Look at this pet pictograph. 4 dogs, 6 cats, 2 fish. Which has the MOST? Which has the LEAST?",
+    "teacher_script": "Bring children to the carpet. Detective Dot + Tally puppets. 'Friends — yesterday we BUILT pictographs. Today we ORDER them.'\n\nIntroduce vocabulary. Write GREATEST and LEAST on chart. 'Greatest = the biggest number. Least = the smallest number.'\n\nDemonstrate. Show on chart:\nDogs: 🐶🐶🐶🐶 (4)\nCats: 🐱🐱🐱🐱🐱🐱 (6)\nFish: 🐟🐟 (2)\n\nFind GREATEST. 'Cats has 6 — that's the most. CATS is GREATEST.'\nFind LEAST. 'Fish has 2 — that's the smallest. FISH is LEAST.'\n\nNow ORDER all 3 from greatest to least:\n1. Cats (6) — greatest\n2. Dogs (4) — middle\n3. Fish (2) — least\n\nMore examples:\n- Favourite recess: 5 tag, 8 soccer, 3 hopscotch. Order: soccer, tag, hopscotch.\n- Weather: 7 sunny, 4 rainy, 2 snowy. Order: sunny, rainy, snowy.\n- Snacks: 9 apples, 6 bananas, 4 grapes. Order: apples, bananas, grapes.\n\n'Tally says — count each row, find GREATEST, then ORDER all the way down to LEAST.'\n\n'Today we order pictographs and tally charts.'",
+    "student_actions": [
+      "Watch Tally order the pictograph.",
+      "Echo new vocabulary: 'greatest', 'least'.",
+      "Identify greatest and least in examples.",
+      "Practice ordering 3 categories."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Ordering Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: order 4 pictographs greatest to least. (a) pets. (b) recess. (c) weather. (d) snacks.",
+        "teacher_prompt": "Say: 'Find greatest. Find least. Order all.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Pictograph Order — pair orders 4 pictographs from greatest to least. Station B: Tally Order — pair takes a tally chart and orders rows by total. Station C: Build and Order — pair builds a pictograph and orders rows.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: order 5 categories (with one tie).",
+        "teacher_prompt": "Say: 'Stretch: 5 categories, possible tie.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss tie-handling. 'If two are the SAME, we can list them in either order. We say they are TIED.'",
+        "teacher_prompt": "Show a tie example: 4 dogs, 4 cats. 'Both tied at 4.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the ordering tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Which is greatest? Which is least?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just order 3 categories (no ties).",
+      "for_extending": "Stretch at Station C: 5 categories with possible ties.",
+      "for_ell_or_iep": "Provide a sentence frame: '___ is greatest because ___.'",
+      "for_movement_learners": "Children physically line up by their answer count, biggest line first."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: identifies greatest; identifies least; orders all categories.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Identifies greatest",
+        "Identifies least",
+        "Orders correctly",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tally's Order Brag",
+    "discussion_prompts": [
+      "What does GREATEST mean?",
+      "What does LEAST mean?",
+      "What if two are tied?",
+      "Why do detectives order data?"
+    ],
+    "exit_routine": "Each child shows ONE pictograph and names: 'Greatest = ___. Least = ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Ordering accuracy and greatest/least identification.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures D1.4 mastery for ordering by frequency."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child orders by ROW POSITION instead of COUNT — repairing the position-not-count trap at Grade 1",
+    "rationale": "The most common Grade-1 trap on D1.4 is the position-not-count trap: the child orders categories by where they appear on the chart (top row first) instead of by their count. They miss that ordering is by NUMBER, not LAYOUT.\n\nThis matters because ordering is the foundation of data interpretation. Without it, conclusions are about chart layout, not the data.\n\nThe walkthrough covers when a child orders by row position.",
+    "setup": "Pair is at Station A. Pictograph shows 3 rows: dogs (top, 4), cats (middle, 6), fish (bottom, 2). Child orders 'dogs, cats, fish' (top-to-bottom) instead of 'cats, dogs, fish' (most-to-least).",
+    "teacher_script": "Crouch. 'You ordered top to bottom. But Tally says — we order by COUNT, not by where they sit on the chart.'\n\nWalk through. 'Count each row first.' Child counts: dogs=4, cats=6, fish=2.\n\nNow find greatest. 'Which is biggest? CATS at 6. Cats GO FIRST.'\nNow find least. 'Smallest? FISH at 2. Fish GO LAST.'\nMiddle. 'Dogs at 4 in the middle.'\n\nOrder: CATS, DOGS, FISH.\n\nGeneralise. 'Detective Dot says — count each row. Order by COUNT, ignore the chart layout. Greatest first, least last.'\n\nNow practice with another pictograph. 'Count first. Then order.'\n\nIf still using position: provide ordering boxes labelled 1 (greatest) → 3 (least). 'Place each row in the right box.' Force count-based ordering.\n\nLong-term recovery: every ordering activity counts before ordering.",
+    "expected_student_responses": [
+      "(Confused) Orders by row position (top first).",
+      "(Mid) Orders by count with prompts to count first.",
+      "(Strong) Counts then orders independently; identifies greatest and least.",
+      "(Stretched) Handles ties correctly AND orders 5+ categories."
+    ],
+    "common_misconceptions": [
+      "First row = greatest. (Repair: count, then order.)",
+      "Order = the order they're written. (Repair: order by NUMBER.)",
+      "Tied categories must be split. (Repair: ties are OK; both rank the same.)"
+    ],
+    "recovery_moves": [
+      "Use ordering boxes labelled 1 → N.",
+      "Drill 'count first, order second'.",
+      "Verify order by reading counts back."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tally's Ordering Quest",
+    "purpose": "Independent practice of D1.4 ordering by frequency.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Look at 3 pictographs. Circle GREATEST and underline LEAST in each.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Order 4 categories greatest to least from a tally chart.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Build a pictograph from data. Order the rows greatest to least.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tally in worksheet header",
+      "3 pictographs for Part 1",
+      "Tally chart + ordering rows for Part 2",
+      "Blank pictograph for Part 3"
+    ]
+  }
+}

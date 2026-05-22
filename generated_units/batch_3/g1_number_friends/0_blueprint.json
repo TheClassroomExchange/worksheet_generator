@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "thematic_title": "Number Friends to 50",
+  "descriptive_title": "Grade 1 Mathematics: Numbers — Reading, Composing, Comparing, Counting, and Sharing Numbers to 50, with Halves and Fourths (B1.1–B1.8)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "B. Numbers",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g1-math",
+  "curriculum_codes": [
+    "B1.1",
+    "B1.2",
+    "B1.3",
+    "B1.4",
+    "B1.5",
+    "B1.6",
+    "B1.7",
+    "B1.8"
+  ],
+  "curriculum_expectations": {
+    "B1.1": "read and represent whole numbers up to and including 50, and describe various ways they are used in everyday life",
+    "B1.2": "compose and decompose whole numbers up to and including 50, using a variety of tools and strategies, in various contexts",
+    "B1.3": "compare and order whole numbers up to and including 50, in various contexts",
+    "B1.4": "estimate the number of objects in collections of up to 50, and verify their estimates by counting",
+    "B1.5": "count to 50 by 1s, 2s, 5s, and 10s, using a variety of tools and strategies",
+    "B1.6": "use drawings to represent and solve fair-share problems that involve 2 and 4 sharers, respectively, and have remainders of 1 or 2",
+    "B1.7": "recognize that one half and two fourths of the same whole are equal, in fair-sharing contexts",
+    "B1.8": "use drawings to compare and order unit fractions representing the individual portions that result when a whole is shared by different numbers of sharers, up to a maximum of 10"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on Numbers framed around 'Number Friends to 50' — Lila the Button Collector, Otto the Marble Counter, and Scoot the friendly puppy mascot who cheers them on. Children begin Day 1 by estimating Lila's button jar and counting collections to 50 by 1s, 2s, 5s, and 10s (B1.4, B1.5). Day 2 focuses on reading and representing numbers to 50 in many forms — numerals, words, ten-frame fills, base-ten rods, tally marks, and real-life uses (B1.1). Day 3 is the keystone: composing and decomposing numbers to 50 with multiple strategies — partition into tens and ones, partner-pair flexible decomp, breaking apart for easier addition (B1.2). Day 4 brings comparison and ordering of numbers to 50 with the Number Line classroom and a range of compare-the-collection scenarios (B1.3). Day 5 closes with fair-sharing problems for 2 and 4 sharers (B1.6) and the unit-fraction reveal: half = two fourths (B1.7), with comparison of unit fractions up to tenths (B1.8). The unit moves from concrete (real buttons, marbles, base-ten rods) to representational (ten-frames, number lines, sharing diagrams) to abstract (numerical comparison, fraction notation).",
+  "unit_learning_goal": "Children will read, represent, compose, decompose, compare, order, estimate, and count whole numbers to 50, share collections fairly between 2 and 4 sharers, and recognise that one half equals two fourths of the same whole.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Count Big with Lila",
+      "primary_expectations": [
+        "B1.4",
+        "B1.5"
+      ],
+      "secondary_expectations": [
+        "B1.1"
+      ],
+      "big_idea": "We can count by 1s, 2s, 5s, and 10s. Bigger groups need smarter counting strategies.",
+      "student_learning_goal": "I can estimate how many in a collection up to 50, and count by 1s, 2s, 5s, and 10s to check.",
+      "one_line_summary": "Lila's button jar estimation challenge; whole-class skip-counting on the Number Line by 1s, 2s, 5s, 10s; partner verification with real collections."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Read and Show Numbers",
+      "primary_expectations": [
+        "B1.1"
+      ],
+      "secondary_expectations": [
+        "B1.5"
+      ],
+      "big_idea": "The same number can be shown many ways. Numerals, words, tally marks, ten-frames, and base-ten rods all mean the same amount.",
+      "student_learning_goal": "I can read and represent numbers to 50 in many ways and tell where I see numbers in everyday life.",
+      "one_line_summary": "Number Friends gallery walk: each station shows a number 0-50 in 5 different forms; children rotate through and match. Real-life number hunt around the classroom."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Make and Break 50",
+      "primary_expectations": [
+        "B1.2"
+      ],
+      "secondary_expectations": [
+        "B1.1"
+      ],
+      "big_idea": "Numbers can be split into tens and ones, or into other partner pairs. Different splits help with different problems.",
+      "student_learning_goal": "I can compose and decompose any number to 50 using tens, ones, and partner pairs in different ways.",
+      "one_line_summary": "Base-ten rod decomposition; partner-pair Make-the-Number game; flexible decomposition (e.g. 32 = 10+10+10+2 = 25+7 = 30+2). Keystone lesson with the side-by-side comparison of decompositions."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Compare and Order",
+      "primary_expectations": [
+        "B1.3"
+      ],
+      "secondary_expectations": [
+        "B1.1"
+      ],
+      "big_idea": "We compare numbers by looking at their tens and ones. We order numbers from smallest to biggest using the Number Line.",
+      "student_learning_goal": "I can compare two numbers up to 50 and order a small set from smallest to biggest.",
+      "one_line_summary": "Compare-the-Jar partner activity (which jar has more?); Number Line ordering with sticky-note number cards; partner debate over close numbers (37 vs 41)."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Fair Shares — Halves and Fourths",
+      "primary_expectations": [
+        "B1.6",
+        "B1.7",
+        "B1.8"
+      ],
+      "secondary_expectations": [
+        "B1.3"
+      ],
+      "big_idea": "Sharing fairly between 2 friends gives halves; between 4 friends gives fourths. One half equals two fourths of the same thing.",
+      "student_learning_goal": "I can share a small collection fairly between 2 or 4 friends, draw the share, and tell that one half equals two fourths.",
+      "one_line_summary": "Fair-share rounds with 2 and 4 sharers (with leftovers of 1 or 2); pizza-slice fraction reveal showing 1/2 = 2/4; ordering unit fractions 1/2, 1/3, 1/4, 1/5 from largest to smallest."
+    }
+  ],
+  "expectation_lesson_map": {
+    "B1.1": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "B1.2": [
+      3
+    ],
+    "B1.3": [
+      4,
+      5
+    ],
+    "B1.4": [
+      1
+    ],
+    "B1.5": [
+      1,
+      2
+    ],
+    "B1.6": [
+      5
+    ],
+    "B1.7": [
+      5
+    ],
+    "B1.8": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Lila",
+      "role": "Lead Number Friend — collects buttons; runs the estimation jar in Lesson 1 and demonstrates the gallery walk in Lesson 2.",
+      "visual_description": "A young Grade-1er with bright orange overalls and a button-collection apron pinned with colourful buttons. Light brown hair in a single side ponytail, friendly smile, holding a clear glass jar of buttons."
+    },
+    {
+      "name": "Otto",
+      "role": "Lila's pair partner — collects marbles in jars; models compare-the-jar in Lesson 4 and base-ten decomposition in Lesson 3.",
+      "visual_description": "A young Grade-1er with a green plaid shirt and rolled-up jeans, dark curly hair, warm grin, holding two jars of marbles (red and blue) side by side."
+    },
+    {
+      "name": "Scoot",
+      "role": "Number Friend mascot — a friendly puppy who appears in every lesson with a 'how many' speech bubble. The unit's counting cheerleader.",
+      "visual_description": "A small smiling puppy (golden retriever style) with a red collar and a small bandana with the word COUNT printed on it. Drawn standing alertly, big eyes, friendly tail-wag."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "estimate",
+      "child_friendly_definition": "make a smart guess about how many — close, but not exact yet."
+    },
+    {
+      "term": "compose",
+      "child_friendly_definition": "put two or more numbers together to make a bigger number."
+    },
+    {
+      "term": "decompose",
+      "child_friendly_definition": "break a bigger number apart into smaller pieces that add up to it."
+    },
+    {
+      "term": "compare",
+      "child_friendly_definition": "look at two numbers and decide which is bigger, smaller, or equal."
+    },
+    {
+      "term": "order",
+      "child_friendly_definition": "put a list of numbers in line from smallest to biggest (or biggest to smallest)."
+    },
+    {
+      "term": "tens and ones",
+      "child_friendly_definition": "every number to 50 has tens (groups of 10) and ones (single units). 32 has 3 tens and 2 ones."
+    },
+    {
+      "term": "fair share",
+      "child_friendly_definition": "give the same amount to every person; check that all shares are equal."
+    },
+    {
+      "term": "remainder",
+      "child_friendly_definition": "what is left over when a fair share doesn't come out even."
+    },
+    {
+      "term": "half / fourth",
+      "child_friendly_definition": "a half is one of two equal shares; a fourth is one of four equal shares of the same thing."
+    },
+    {
+      "term": "unit fraction",
+      "child_friendly_definition": "a fraction that names ONE share of a whole — like 1/2, 1/3, 1/4, 1/5."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_button_set",
+      "name": "Lila's Button Set",
+      "description": "Per-pair set of 50 small printed button cards in 5 colours (10 each). Used for Lesson 1 estimation and counting, Lesson 3 base-ten decomposition, Lesson 4 compare-the-jar.",
+      "used_in_lessons": [
+        1,
+        3,
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_estimation_jar",
+      "name": "Estimation Button Jar",
+      "description": "Clear jar holding 35-50 buttons. Used in Lesson 1 for the estimate-then-count routine; revisited in Lesson 4 for compare-the-jar.",
+      "used_in_lessons": [
+        1,
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_base_ten_rods",
+      "name": "Base-Ten Rods",
+      "description": "Per-child set: 5 ten-rods (10 ones each, total 50) and 20 single ones. Used for Lesson 2 representations and Lesson 3 compose/decompose work.",
+      "used_in_lessons": [
+        2,
+        3
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_number_line_floor",
+      "name": "Number Line Floor Mat",
+      "description": "Long printable floor strip showing numbers 0 to 50 with cells ~6in each. Children walk the Number Line in Lesson 1 (skip-counting) and Lesson 4 (ordering and comparing).",
+      "used_in_lessons": [
+        1,
+        4
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_fraction_pizza",
+      "name": "Fair-Share Pizza Cards",
+      "description": "Printable letter-size cards showing whole pizzas, halves, and fourths. Used in Lesson 5 to reveal that 1/2 = 2/4 visually.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": [
+        "slide09_food_01.png"
+      ]
+    },
+    {
+      "id": "M6_share_plates",
+      "name": "Sharing Paper Plates",
+      "description": "Set of 4 paper plates per group. Children deal collections fairly between 2 sharers and 4 sharers in Lesson 5.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_number_word_cards",
+      "name": "Number-Word Match Cards",
+      "description": "Per-pair set of 30 cards: 10 numerals (5, 12, 25, 38, 50, etc.) + 10 number words (five, twelve, twenty-five, etc.) + 10 representation cards (ten-frames, base-ten rods, tally marks). Used in Lesson 2 gallery walk.",
+      "used_in_lessons": [
+        2
+      ],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Button collection per pair: ~50 printed button cards in 5 colours (or real buttons)",
+    "Estimation jar (clear glass) with 35-50 buttons",
+    "Base-ten rods: 5 ten-rods + 20 single ones per child",
+    "Number Line floor mat (0 to 50, ~25ft long)",
+    "Fair-Share Pizza cards (whole, halved, fourthed)",
+    "Paper plates (4 per group of 4 children)",
+    "Number-Word Match Cards (~30 per pair)",
+    "Anchor chart 'Tens and Ones' with 5 rows showing 10/20/30/40/50 as base-ten visuals",
+    "Sticky notes for child names and number cards on the floor Number Line"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 estimate-vs-count: record each child's estimate of buttons in the jar and the actual count. Children whose estimate is within 5 of actual show emerging quantity-sense at scale. Children with gaps over 10 may need anchor-counting practice during Day 2 small groups.",
+    "formative": "Lesson 2 representations tracker: tally per child which 5 forms (numeral, word, ten-frame, base-ten rod, tally) they can independently produce for a given target number. Lesson 3 decomposition observation: can the child produce ≥2 different decompositions for the same number? Lesson 4 compare-the-jar: can the child compare two jars without recounting from scratch?",
+    "summative": "Lesson 5 Fair-Share + Fraction worksheet — three priced share scenarios + a unit-fraction comparison; child draws and labels the share, then orders 1/2, 1/3, 1/4 from largest to smallest. Captures B1.6, B1.7, B1.8 explicitly and pulls in B1.3 implicitly."
+  },
+  "pedagogical_notes": [
+    "B1.5 says 'count to 50 by 1s, 2s, 5s, 10s' — the difficult counts in Grade 1 are 2s and 5s starting from a non-multiple (e.g. 'count by 5s starting at 17'). Plan to do this in Lesson 1's stretch.",
+    "B1.7 'one half = two fourths' is conceptually subtle. Use the same circular pizza in both halved and fourthed states; physically overlay the half-piece onto the two fourth-pieces to show equivalence.",
+    "B1.8 (compare unit fractions) has a counter-intuitive rule: bigger denominator = SMALLER share. Children intuit 'bigger number = bigger thing' (consistent with their whole-number experience). The repair is to show that more sharers means smaller pieces.",
+    "Composition and decomposition (B1.2) is the keystone — children need to flexibly see 32 as 30+2 AND 25+7 AND 10+10+10+2. The single-strategy child is operationally weak; build multi-strategy fluency in Lesson 3 small groups.",
+    "Differentiate: students confident with numbers to 50 should get extension cards reaching to 100 in Lesson 4 ordering, and 1/6 / 1/8 / 1/10 unit fractions in Lesson 5 comparison.",
+    "Estimation accuracy at scale (B1.4 to 50) requires a 'chunking' strategy — count one group of 10 first, then estimate 'about how many groups like that'. Without this strategy, K-style guesswork dominates."
+  ],
+  "canadian_context_notes": [
+    "Lila's button collection is intentionally diverse — buttons of different shapes, sizes, and patterns (some sewn, some snap, some toggle) reflecting real Canadian classroom button-jars. Multilingual classrooms can label buttons in students' home languages.",
+    "Pizza is the canonical fair-share example for halves and fourths. Schools running halal or kosher snack policies can swap to butter tarts (halved) or naan (quartered) as cultural variations.",
+    "Number-Word Match Cards include both English and FSL number words for FSL classrooms (a teacher option, not required for the base unit).",
+    "Scoot the puppy mascot's 'COUNT' bandana can be re-labelled in any classroom language; the visual remains the same."
+  ]
+}

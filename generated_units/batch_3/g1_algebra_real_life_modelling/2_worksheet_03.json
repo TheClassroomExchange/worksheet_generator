@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "lesson_number": 3,
+  "worksheet_title": "Sap Sam's Predictions",
+  "purpose": "Independent practice of C4 step 3 (predict).",
+  "student_learning_goal": "I can use data to predict an outcome.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can use data to predict an outcome.", "character_watermark": "Sap Sam the Collector in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: 1 Tree = 1 Bucket", "student_instructions": "Use the rule '1 tree = 1 bucket'. Predict the buckets for each tree count.", "visual_layout": "Top of page. Four prediction rows with tree counts.",
+      "image_placeholders": [{"id": "WS03_P1_RULE1", "description": "Four prediction rows in B&W line-art, ~7in x 2.5in. Each row: '__ trees → __ buckets'. Tree counts pre-filled: 4, 7, 10, 12. Header 'Rule: 1 tree = 1 bucket. Predict:'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["predict", "rule"], "text_image_alignment_check": "Image WS03_P1_RULE1: keywords (predict, rule) name what the rows ask for."}],
+      "student_response_type": "write", "answer_key": "4 trees → 4 buckets, 7 → 7, 10 → 10, 12 → 12."},
+    {"part_number": 2, "part_title": "Part 2: 1 Tree = 2 Buckets", "student_instructions": "New rule: '1 tree = 2 buckets'. Predict for each tree count.", "visual_layout": "Middle of page. Four prediction rows with the new rule.",
+      "image_placeholders": [{"id": "WS03_P2_RULE2", "description": "Four prediction rows in B&W line-art, ~7in x 2.5in. Each row: '__ trees → __ buckets'. Tree counts pre-filled: 3, 5, 8, 10. Header 'Rule: 1 tree = 2 buckets. Predict:'.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["new", "rule"], "text_image_alignment_check": "Image WS03_P2_RULE2: keywords (new, rule) name what the rows ask for."}],
+      "student_response_type": "write", "answer_key": "3 trees → 6 buckets, 5 → 10, 8 → 16, 10 → 20."},
+    {"part_number": 3, "part_title": "Part 3: My Real-Life Rule", "student_instructions": "Pick a rule from YOUR day (1 sandwich = 2 slices, 1 friend = 1 hello). Make a prediction.", "visual_layout": "Bottom of page. A rule line, prediction box, and drawing area.",
+      "image_placeholders": [{"id": "WS03_P3_MY_RULE", "description": "A blank rule line at the top in B&W line-art, ~7in x 2.5in. Below: a prediction box and a small drawing area. Header 'My Real-Life Rule:'. Lines: 'My rule: ___' and 'My prediction: ___'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["my", "rule"], "text_image_alignment_check": "Image WS03_P3_MY_RULE: keywords (my, rule) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Child writes a rule from their day and predicts an outcome."}
+  ]}],
+  "early_finisher_prompt": "If you finish, invent another rule and make 3 more predictions.",
+  "teacher_notes": "Lesson 3 worksheet practices C4 step 3 (predict). Watch for over-confident predictions ('always exactly 5 buckets') — flag for refinement in lesson 4."
+}

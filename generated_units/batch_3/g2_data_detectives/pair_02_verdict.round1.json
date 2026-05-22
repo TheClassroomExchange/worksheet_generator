@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "pair_number": 2,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names a genuine grade-2 trap ('the double-count trap: the child tallies the snack in one cell AND the drink in another cell for the same child'), and recovery_moves are concrete ('Use template with example arrows', 'Drill one child, one cell', 'Practice on pre-tallied examples'). But the trap is not tied to named research, and recovery does not branch by what the diagnostic showed about the child — every child gets the same arrow-template + drill sequence.",
+      "required_fix": "Cite the framing: this is a multiple-classification / cross-classification difficulty (Inhelder & Piaget 1964; English 1993 on cross-classification with 2-D matrices). Then branch recovery: if the child placed BOTH tallies in the correct ROW (the snack row) but in two different drink columns, they understand row-meaning but not intersection — drill the 'meet' gesture (finger from row, finger from column, meet at the cell). If the child placed tallies in unrelated cells (no row/column logic), drop back to a 1-way tally first, then re-introduce the second axis.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit and precise ('Two-way tables work by INTERSECTION. Each cell = HOW MANY chose that BOTH combination'; row total vs column total distinguished). Station C ('Make own 2-question survey') invites invention. But the expanded_walkthrough.rationale does not name the misconception in research-grounded terms, and the lesson does not include explicit strategy comparison where children compare and refine approaches to organising 2-attribute data.",
+      "required_fix": "In expanded_walkthrough.rationale add the framing: 'This is the cross-classification difficulty (Inhelder & Piaget 1964; English 1993) — children pre-stage-III track ONE attribute at a time, not the intersection of two.' In action step 4 add explicit strategy comparison: 'Some pairs tallied row-by-row (down a child list, mark snack THEN drink); some pairs tallied cell-by-cell (Bea = cookie+milk = one mark in that cell). Which got fewer double-counts? Why?' Record both strategies on the anchor chart so children name the more reliable approach.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong pair: the double-count trap is a real Grade-2 D1.2 misconception, the 'one child, one cell' refrain is memorable, materials are everyday with an OPTIONAL puppet line and a body/grid no-paper alternative for movement learners, and the worksheet's Part 3 home survey is a justified transfer task. Two categories sit at Level 3 because lesson_02's expanded_walkthrough does not (a) cite the cross-classification research frame (Inhelder & Piaget 1964; English 1993) with diagnostic-branched recovery, and (b) include explicit strategy comparison so children invent and refine 2-way tally approaches. Both fixes live in lesson_02; the worksheet is solid as written."
+}

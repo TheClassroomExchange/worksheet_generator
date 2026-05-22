@@ -1,0 +1,65 @@
+{
+  "pair_number": 5,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Cover one hand.', 'Drill short = hour.', 'Compare analog to digital.'] — concrete but extremely terse, no research citation, and recovery does not branch on what the diagnostic told you about the child.",
+      "required_fix": "Cite the research basis for the hour/minute confusion (e.g., Friedman & Laycock 1989 on children's clock reading, or Earnest 2017 on temporal reasoning) and branch recovery_moves: if child can read DIGITAL but not analog, drill hand-length contrast with covered-hand isolation; if child cannot count by 5s around the face, drop back to skip-counting on a number line before reintroducing the minute hand; if child reverses hands consistently, use a colour-coded hour/minute overlay. Each branch should be a substitute-followable sentence.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'All previous manipulatives at 4 stations' plus Big Farm Templates and Clock Cards (16); differentiation includes 'Walk between 4 stations physically' but there is no explicit NO-PAPER, NO-PURCHASE alternative path. The capstone effectively requires the full materials kit from days 1-4 to run.",
+      "required_fix": "Add a no-materials version to differentiation: e.g., 'No-paper version — replace stations with body math: perimeter = pace around a chalk-outlined rectangle on the floor and count steps; area = lay hands palm-down to tile a desk and count handprints; capacity = clap once per cup as you fill an imagined pail (6 claps) vs bowl (3 claps); time = teacher calls out a time and children form the hands with their arms (short arm = hour, long arm = minute).' This makes Day 5 runnable when the materials kit is missing.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = \"Each child shares ONE: 'My favourite measurement was ___.'\" — this is a fill-in stem, not a memorable chant, and the unit lacks a distinctive quotable refrain children carry between lessons. Roo and Cal speak in the teacher_script but no signature line repeats.",
+      "required_fix": "Add a signature refrain that Roo and Cal close every lesson with — e.g., 'Roo says MEASURE AROUND, Cal says MEASURE THE CLOCK — pick the RIGHT TOOL!' Children chant it back at the consolidation. Reference back to it in the exit_routine so it carries between lessons. Place the chant in teacher_script and quote it verbatim in the consolidation.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the trap as hour/minute hand confusion but does NOT cite research-grounded terms (Carpenter & Moser CGI types, Friedman on time concepts, Battista on spatial reasoning, etc.), and the action steps are procedural application of taught methods — children do not invent or compare strategies for, e.g., how to find the perimeter of the L-shape or how to compare capacity when units differ.",
+      "required_fix": "In action.steps, add a strategy-comparison move: 'Pause the room at min 15. Ask two children at the perimeter station to share HOW they found the perimeter of the L-shape — did they add all 6 sides one at a time, or did they use the rectangle trick (length + width) × 2 and adjust? Compare which is faster and why both give the same number.' In expanded_walkthrough.rationale, name the misconception in research-grounded terms (e.g., 'Friedman 1989 on hand-length salience; children attend to the more visually prominent long hand and over-weight it as the hour indicator').",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson success_criteria has 4 items including 'I can PICK the right tool for the job.' but the worksheet's 3 parts only practise reading clocks, measuring perimeter/area, and comparing capacity/mass — there is no worksheet item that practises the 'pick the right tool' criterion, and the worksheet is essentially a rote repeat of station tasks rather than a transfer task.",
+      "required_fix": "Add a Part 4 'Pick the Tool' to the worksheet that lists 4 measurement jobs (e.g., 'distance from school to the park', 'space inside a barn floor', 'how much milk a pail holds', 'how long it takes to feed the cows') and asks children to circle the right tool/unit (km, m², cups, minutes) for each. This (a) practises the 4th success criterion the lesson teaches but the worksheet currently skips, and (b) varies the practice format from the station rotation into a transfer task — covering the Level-4 'deliberately varies and justifies' bar.",
+      "affected_stages": ["worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ]
+}

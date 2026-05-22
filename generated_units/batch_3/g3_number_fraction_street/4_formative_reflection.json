@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "formative_worksheets": [
+    {
+      "title": "Mid-Unit Number-and-Rounding Check-In",
+      "when_to_use": "After Lesson 3, before Lesson 4. A 10-minute mid-unit check confirming B1.1, B1.2, B1.3 before fair-share work begins.",
+      "purpose": "Standalone formative assessment. Lets the teacher see which children can read, compare, and round to 1000 before extending to fair-share and equivalence.",
+      "expectations_assessed": ["B1.1", "B1.2", "B1.3"],
+      "student_learning_goal": "I can read, compare, and round numbers to 1000.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can read, compare, and round numbers to 1000.",
+        "character_watermark": "Penny in the top-right corner. Small (~1.5in tall)."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Three numbers, three jobs. For each: write the expanded form, compare to the next number, and round to the nearest 100.",
+          "visual_layout": "Top half. Three rows.",
+          "image_placeholders": [
+            {"id": "FORM_Q1_THREE_ROWS", "description": "Three rows in B&W line-art, stacked. Each row ~7in × 1.4in. Pre-fills: Row 1 — number 347, expanded slot, comparison '347 vs 374', round-to-100 slot. Row 2 — 905, expanded, '905 vs 1000', round-to-100. Row 3 — 562, expanded, '562 vs 526', round-to-100.", "placement": "Top half; full-width.", "approximate_size": "full_width", "keywords": ["expanded", "compare", "round"], "text_image_alignment_check": "Image FORM_Q1_THREE_ROWS: keywords (expanded, compare, round) name what the rows show."}
+          ],
+          "response_type": "write",
+          "answer_key": "Row 1: 347 = 300+40+7, 347 < 374, rounds to 300. Row 2: 905 = 900+0+5, 905 < 1000, rounds to 900. Row 3: 562 = 500+60+2, 562 > 526, rounds to 600."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Order these five numbers from smallest to biggest: 234, 567, 89, 800, 142.",
+          "visual_layout": "Middle. Number cards plus ordering boxes.",
+          "image_placeholders": [
+            {"id": "FORM_Q2_ORDER", "description": "An ordering layout in B&W line-art, ~7in × 2in. Five number cards (234, 567, 89, 800, 142) on left in random order. Five empty boxes on right with arrows.", "placement": "Middle; full-width.", "approximate_size": "full_width", "keywords": ["order", "smallest"], "text_image_alignment_check": "Image FORM_Q2_ORDER: keywords (order, smallest) name what the layout asks for."}
+          ],
+          "response_type": "write",
+          "answer_key": "89, 142, 234, 567, 800."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling? Circle the face.",
+          "visual_layout": "Bottom of the page. Three faces in a row. Below each: 'GOT IT!', 'ALMOST!', 'TRY AGAIN!'.",
+          "image_placeholders": [
+            {"id": "FORM_Q3_FACES", "description": "Three round face icons in a row, each ~1.5in across. Smile, neutral, frown.", "placement": "Bottom; centred.", "approximate_size": "full_width", "keywords": ["got", "almost", "try"], "text_image_alignment_check": "Image FORM_Q3_FACES: keywords (got, almost, try) name the labels."}
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open."
+        }
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child. Score guide: 3/3 row tasks + ordering correct = ready for Lesson 4. 2/3 row tasks = brief 1:1 conference. <2 = small-group reteach with base-ten blocks."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Fraction Street Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Frankie holding a Junior Fraction Friend certificate in the top-right corner. Small (~1.5in tall)."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel about being a Junior Fraction Friend? Circle one.",
+        "visual_layout": "Three star-rating ovals.",
+        "image_placeholders": [
+          {"id": "REF_STARS", "description": "Three rating ovals in B&W line-art. 1 star, 2 stars, 3 stars left to right. Labels: 'Just starting', 'Mostly got it', 'I am a Fraction Friend!'", "placement": "Centred at top.", "approximate_size": "full_width", "keywords": ["stars"], "text_image_alignment_check": "Image REF_STARS: keywords (stars) name the rating ovals."}
+        ],
+        "response_type": "self_rate",
+        "options": ["Just starting", "Mostly got it", "I am a Fraction Friend!"]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these things? Circle YES or NO.",
+        "visual_layout": "A 4-row YES/NO table.",
+        "image_placeholders": [
+          {"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table in B&W line-art. Each row has a question label on the left and YES/NO oval bubbles on the right.", "placement": "Centred, full-width.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "Image REF_YN_TABLE: keywords (yes, no) name the response bubbles."}
+        ],
+        "response_type": "circle_yes_no",
+        "options": ["I read numbers to 1000", "I rounded numbers", "I shared 20 items fairly", "I found equivalent fractions"]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "Which was your FAVOURITE house on Fraction Street?",
+        "visual_layout": "Five house icons in a row.",
+        "image_placeholders": [
+          {"id": "REF_FAV_BOX", "description": "Five house icons in a row in B&W line-art: House 1000 (with 1000 on the door), Compare House (with > and <), Rounding House, Sharing House, Fraction House. Each ~1in × 1in with a selection bubble below.", "placement": "Centred top.", "approximate_size": "full_width", "keywords": ["houses"], "text_image_alignment_check": "Image REF_FAV_BOX: keywords (houses) name the five houses."}
+        ],
+        "response_type": "circle_or_loop"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "Which was the TRICKIEST part?",
+        "visual_layout": "Three tricky-moment cards: rounding, sharing with leftovers, equivalent fractions.",
+        "image_placeholders": [
+          {"id": "REF_TRICKY_BOX", "description": "Three tricky-moment cards in a row in B&W line-art. Card A: a number-line with a rounding arrow. Card B: 18 treats and 8 plates. Card C: two pizzas — one with 1/2 shaded and one with 2/4 shaded. Each ~1.5in × 1.5in.", "placement": "Centred top.", "approximate_size": "full_width", "keywords": ["round", "share", "fractions"], "text_image_alignment_check": "Image REF_TRICKY_BOX: keywords (round, share, fractions) name the three cards."}
+        ],
+        "response_type": "circle_or_loop"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "What do you want to learn NEXT?",
+        "visual_layout": "Three forward-goal cards: numbers to 10000, multiplication facts, fraction operations.",
+        "image_placeholders": [
+          {"id": "REF_NEXT_BOX", "description": "Three forward-goal cards in a row in B&W line-art. Card A: 'numbers up to 10000'. Card B: '7 × 8 = ?'. Card C: '1/2 + 1/4 = ?'. Each ~1.5in × 1.5in.", "placement": "Centred top.", "approximate_size": "full_width", "keywords": ["numbers", "multiplication", "fractions"], "text_image_alignment_check": "Image REF_NEXT_BOX: keywords (numbers, multiplication, fractions) name the three forward-goal cards."}
+        ],
+        "response_type": "circle_or_loop"
+      }
+    ],
+    "teacher_notes": "Hand out at the very end of Lesson 5. Allow children to take home as a self-assessment artifact."
+  }
+}

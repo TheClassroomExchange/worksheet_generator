@@ -1,0 +1,57 @@
+{
+  "unit_id": "g2_algebra_whats_missing",
+  "pair_number": 2,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title and rationale never reference Lesson 1's variable introduction or signal forward to Lesson 3's subtraction parallel; the pair sits in isolation rather than bridging the unit arc.",
+      "required_fix": "Add explicit cross-day callbacks in the teacher_script: in minds_on reference 'remember the variable boxes Detective Dee opened on Day 1 — today the unknown is INSIDE the addition equation'; in consolidation foreshadow Day 3 with 'tomorrow Mystery Mo brings SUBTRACTION cases — same hunt for the unknown'.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title 'When the child guesses randomly instead of using a strategy' targets a generic guess-and-go behaviour; the canonical Grade 2 C2.2 trap is the equal-sign-as-operator misconception (child reads 5 + ? = 12 by adding 5 + 12 = 17, or rejects 12 = 5 + ?), and recovery_moves cite no research.",
+      "required_fix": "Replace the trap with the equal-sign-as-operator misconception (Behr, Erlwanger & Nichols 1980; Carpenter, Franke & Levi 2003 'Thinking Mathematically'). Show the child producing 5 + ? = 12 -> ? = 17, then branch recovery: (a) if child reads = as 'gives you', use the balance scale to re-anchor 'same value both sides'; (b) if child can read = relationally but still adds wrong numbers, drill count-up-from-larger.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine is purely procedural ('Each child writes ONE missing-addend equation on a sticky note') with no Detective Dee refrain or chant; Dee has no quotable signature line that children carry between lessons.",
+      "required_fix": "Give Detective Dee a recurring refrain children chant back at every consolidation, e.g. 'Find it! Then CHECK it! That's the Detective way!' Embed the chant in the consolidation script and the exit_routine: children say the refrain after writing their sticky note, so the catchphrase travels into Lessons 3-5.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "action.steps[4] lists strategies the teacher names ('Count up from the smaller side. Use known facts. Use the balance scale...') rather than letting children invent and compare strategies; expanded_walkthrough.common_misconceptions uses informal labels ('Missing numbers are random guesses') instead of research-grounded terms.",
+      "required_fix": "Restructure step 4 so pairs first share their OWN strategy, then the class compares (count-up vs count-back vs known-fact vs balance) and decides which is most efficient for which equation type — a strategy-comparison move per Carpenter & Moser CGI (Join Change Unknown). Re-label the misconception in the walkthrough as 'equal sign as operator' and cite Carpenter, Franke & Levi (2003).",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Solid Grade-2 algebra pair: balance-scale modelling, 'check by adding' routine, and Part 3 transfer task on the worksheet are all strengths. Four categories sit at 3 because the pair stays inside Lesson 2's bubble (no arc bridging), names a generic guess trap instead of the canonical equal-sign-as-operator misconception, lacks a Detective Dee refrain that travels between days, and teaches strategies rather than letting children invent/compare them. Worksheet itself is strong (Level 4 consistency with transfer task) — fixes belong in the lesson stage."
+}

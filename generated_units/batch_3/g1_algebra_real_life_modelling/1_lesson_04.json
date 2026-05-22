@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "lesson_number": 4,
+  "lesson_title": "Reflecting and Refining",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We check our model against reality. If it is off, we REFINE it \u2014 predictions improve with practice.",
+  "learning_intention": "We are learning to check our prediction against what really happens and adjust the model.",
+  "student_learning_goal": "I can check my prediction against what really happens and adjust the model.",
+  "success_criteria": [
+    "I can compare a prediction to actual data.",
+    "I can describe whether my model needs to be refined.",
+    "I can suggest how to refine the model."
+  ],
+  "vocabulary_introduced": [
+    "refine"
+  ],
+  "vocabulary_reinforced": [
+    "model",
+    "predict",
+    "data"
+  ],
+  "manipulatives_used": [
+    "M2_sap_buckets",
+    "M5_prediction_chart",
+    "M3_modelling_chart",
+    "M10_sugar_bush_poster",
+    "M8_two_colour_counters"
+  ],
+  "lesson_specific_materials": [
+    "Maple and Sap Sam together",
+    "Per-pair prediction chart with PREDICT and ACTUAL columns",
+    "Per-pair set of paper buckets",
+    "Lesson 4 reflection tracker \u2014 provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Check Sap Sam's Predictions",
+    "hook": "Sap Sam predicted 5 buckets but only got 4. What does that mean?",
+    "teacher_script": "Bring children to the carpet. Maple + Sap Sam puppets. 'Friends \u2014 yesterday Sap Sam PREDICTED. Today we CHECK whether his predictions matched reality.'\n\n'Sap Sam predicted 5 buckets for 5 trees. He went to the bush. He got... 4 buckets. One tree was DRY.'\n\nWrite on the chart:\nPredict: 5\nActual: 4\nDifference: 1 less\n\n'What does this mean? Was Sap Sam wrong?'\n\nLead the discussion: 'Predictions are GUESSES based on rules. Sometimes reality is different. We REFINE \u2014 improve \u2014 our model with new data.'\n\nWrite REFINE on the chart. 'Sap Sam refines his rule: maybe ONE in every five trees is dry. So for 10 trees, predict 8 (not 10).'\n\nNow another. 'Sap Sam predicts 8 buckets. Goes to bush. Gets 9. ONE EXTRA bucket \u2014 the rain made an extra-flowing tree.' Refine: 'Sometimes more, sometimes less. Use a RANGE.'\n\n'Today we'll predict, check, and refine. Not just one prediction \u2014 many.'",
+    "student_actions": [
+      "Watch the predict-vs-actual comparison.",
+      "Echo new vocabulary: 'refine'.",
+      "Suggest how to refine the rule.",
+      "Predict for the new scenario."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Reflect Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: predict-and-check 4 more scenarios. (a) 6 trees \u2192 predict 6, actual 5. (b) 8 trees \u2192 predict 8, actual 8. (c) 10 trees \u2192 predict 10, actual 11. (d) 4 trees \u2192 predict 4, actual 3.",
+        "teacher_prompt": "Say to students: 'Predict, check, refine.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Predict-and-Check \u2014 pair predicts 3 sap-bucket scenarios with given data; teacher reveals actual; pair refines. Station B: Refine the Rule \u2014 pair gets a rule that's a bit off ('1 tree = 1 bucket'); refine to '4 of 5 trees = 1 bucket each'. Station C: Real-Life Refinement \u2014 pair refines a real-life prediction (e.g., 'My class always has 24 \u2014 but Wednesday someone is sick \u2014 refine to 23').",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: invent a rule that always works. Discuss whether perfect rules exist. Most rules need refinement.",
+        "teacher_prompt": "Say to pairs: 'Most rules need refinement. Few rules are perfect.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the cycle. 'Modelling is a CYCLE. We predict, check, refine, predict again. Each round we improve.'",
+        "teacher_prompt": "Show the modelling cycle chart with arrows pointing back to PREDICT."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the reflection tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's your refinement?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only simple predict-vs-actual scenarios.",
+      "for_extending": "Stretch at Station C: refine a complex multi-rule model.",
+      "for_ell_or_iep": "Provide structured frame: 'I predicted ___. Actual was ___. I refine to ___.'",
+      "for_movement_learners": "Walk through a physical predict-act-check loop."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: compares prediction to actual; describes the gap; suggests a refinement.",
+      "how_to_record": "Tick the reflection tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Compares predict to actual",
+        "Describes the gap",
+        "Suggests refinement",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Maple's Refine Brag",
+    "discussion_prompts": [
+      "What does REFINE mean?",
+      "Why don't predictions always match reality?",
+      "How does refining make our model better?",
+      "What's a real-life rule you'd refine?"
+    ],
+    "exit_routine": "Each child writes ONE refinement on a sticky note: 'I'd refine my rule to ___.' Notes go on the chart."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Reflection accuracy and refinement suggestions.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures the REFLECT step of the modelling cycle."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says 'My prediction was WRONG' instead of 'I need to refine my model' \u2014 repairing the wrong-vs-imperfect framing",
+    "rationale": "The most common Grade-1 trap on REFLECT is the wrong-vs-refine framing: the child treats a missed prediction as a personal failure ('I was wrong') rather than as a data point that improves the model ('I need to refine my rule').\n\nThe walkthrough covers the precise moment when a child feels bad about a missed prediction.",
+    "setup": "Pair is at Station A. The child predicted 5 buckets, actual was 4. The child says 'I was wrong.'",
+    "teacher_script": "Crouch beside the child. 'You weren't WRONG \u2014 your model was IMPERFECT. That's totally normal. Maple says \u2014 every prediction teaches us. We REFINE.'\n\n'Refining is GROWING \u2014 your model gets better with each round. The first prediction is a guess; later ones are smarter.'\n\nLong-term recovery: normalize imperfect predictions. Praise the refinement.",
+    "expected_student_responses": [
+      "(Confused) Treats missed prediction as personal failure.",
+      "(Mid) Acknowledges with prompts; doesn't yet auto-frame as refinement.",
+      "(Strong) Says 'I'll refine my model' or 'next time I'll predict ___'.",
+      "(Stretched) Volunteers multiple refinements based on trends."
+    ],
+    "common_misconceptions": [
+      "Wrong predictions = wrong me. (Repair: imperfect models are expected.)",
+      "Refinement is failure. (Repair: refinement is growth.)",
+      "Models should be perfect from the start. (Repair: iterative improvement is the goal.)"
+    ],
+    "recovery_moves": [
+      "Always frame as 'refine' not 'wrong'.",
+      "Celebrate the iteration. 'Round 2 prediction is smarter.'",
+      "Show the cycle's looping arrows. Continual improvement."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Maple's Refine Time",
+    "purpose": "Independent practice of C4 step 4 (reflect/refine).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Compare 4 predict-vs-actual scenarios. Note gaps.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Refine 3 rules based on data.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Reflect on a real-life prediction you made. Did it match? How would you refine?",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Maple in the worksheet header",
+      "4 predict-actual rows for Part 1",
+      "3 rule-refining boxes for Part 2",
+      "A blank box for Part 3"
+    ]
+  }
+}

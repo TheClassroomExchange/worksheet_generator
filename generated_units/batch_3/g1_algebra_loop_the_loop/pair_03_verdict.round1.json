@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "pair_number": 3,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough and teacher_script open with 'yesterday we WROTE code' but never explicitly bridge to Lesson 2's LOOP introduction (Looper) nor forward to Lesson 4's altering. The minds_on hook moves directly into prediction without naming the unit arc.",
+      "required_fix": "In minds_on teacher_script add: 'Day 1 we WROTE step-by-step code with Coda. Day 2 Looper showed us LOOPS. Today we READ code Coda hands us. Tomorrow we'll ALTER it.' In consolidation reference Looper's loop refrain so the second predict-with-loop card explicitly recalls Lesson 2.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title names 'direction-blind prediction' with concrete recovery, but no research citation. Recovery_moves do not branch by diagnostic: 'Trace each step on paper. Read each step aloud with direction. Use the grid mat physically' are listed as parallel options, not branched by what the child can/cannot do.",
+      "required_fix": "Cite Battista (2007) on spatial reasoning OR Clements & Sarama on path-and-position thinking. Branch recovery: IF child can read each step's direction but loses position track, use paper-trace; IF child cannot name 'right'/'up' as direction effects, drop to body-on-grid first; IF child predicts step count (5 steps) instead of position, model 'position = where Coda IS, not how far Coda moved'.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Coda anchors minds_on and consolidation, but the consolidation 'Coda's Predict Brag' has no distinctive quotable refrain or sentence frame for children to chant between lessons. exit_routine asks for 'Code: ___. My prediction: ___.' but no Coda chant.",
+      "required_fix": "Add a Coda refrain such as 'PREDICT then CHECK — that's how we read code!' Have children chant it back at consolidation and write the refrain across the predict-and-check chart. Carry the refrain into Lessons 4 and 5.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names misconceptions correctly ('Counting steps = predicting position. Position = sum of directions') and lets children test predictions, but does not invite children to INVENT or COMPARE strategies for predicting (e.g., trace-on-paper vs mental-walk vs finger-on-grid).",
+      "required_fix": "In action step 4 add: 'How did YOU predict? Some children traced on paper, some pictured Coda walking, some used a finger on the grid. Compare strategies — which is fastest? which is most accurate for long codes?' Cite Battista 2007 on the role of mental imagery in spatial reasoning.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Parts 1, 2, 3 mirror Stations A, B, C exactly (predict position, predict shape, predict with loop). This is rote-repeat practice, not transfer. Part 3 is a single short loop ('Repeat 2: right, up') — same difficulty as the lesson minds_on example.",
+      "required_fix": "Vary Part 3 as transfer: introduce one code with a NESTED instruction or 6+ steps that combines sequence and loop, AND ask the child to JUSTIFY their prediction in one sentence ('I predict (3,2) because the loop runs twice, each time moving right then up'). Justify the variation in worksheet teacher_notes as a generalization check.",
+      "affected_stages": ["worksheet_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Solid Day 3 prediction lesson with the correct direction-blind trap and clean lesson/worksheet mirror, but stuck at Achieving in four categories. Lesson needs unit-arc bridges to Lesson 2 (Looper) and forward to Lesson 4, a research citation plus diagnostic-branched recovery, a Coda call-and-response refrain, and a strategy-comparison share. Worksheet Part 3 should vary as a transfer task with one-sentence justification rather than repeating the minds_on example."
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_financial_plan_your_party",
+  "lesson_number": 3,
+  "worksheet_title": "Cents Change Practice",
+  "purpose": "Independent practice of F1.1 cents.",
+  "student_learning_goal": "I can calculate change in cents.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can calculate change in cents.",
+    "character_watermark": "Pat the Pup in the top-right with a snack and clipboard. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Cents subtraction.",
+          "student_instructions": "Calculate change for 4 cents transactions.",
+          "visual_layout": "Four transaction boxes with cents prices and pay amounts.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_CENTS",
+              "description": "A Grade 3 cents-change layout for money worksheet, B&W line art. 4 transactions: 1) Cookie 60¢ pay $1, 2) Sticker 25¢ pay 50¢, 3) Apple 80¢ pay $1, 4) Pencil 35¢ pay 50¢. Each with cents answer slot.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "transactions",
+                "cents"
+              ],
+              "text_image_alignment_check": "WS03_P1_CENTS at Part 1: keywords name the cents transactions task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "40¢, 25¢, 20¢, 15¢."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Coin change.",
+          "student_instructions": "For 2 changes, draw the coins.",
+          "visual_layout": "Two coin workspaces with change amount labels.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_COINS",
+              "description": "A Grade 3 coin-change layout for money worksheet, B&W line art. 2 workspaces: 1) Show 25¢ in coins, 2) Show 40¢ in coins.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "coins",
+                "change"
+              ],
+              "text_image_alignment_check": "WS03_P2_COINS at Part 2: keywords name the coins change drawing task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "25¢ = 1 quarter or 2 dimes + 1 nickel; 40¢ = 4 dimes or 1 quarter + 1 dime + 1 nickel."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Single cents.",
+          "student_instructions": "Cookie 35¢, pay 50¢. Calculate change.",
+          "visual_layout": "Single cents transaction with subtraction.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_ONE",
+              "description": "A Grade 3 single-cents layout for money worksheet, B&W line art. 'Cookie 35¢, pay 50¢.' Below: subtraction workspace and answer line.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "cents",
+                "change"
+              ],
+              "text_image_alignment_check": "WS03_P3_ONE at Part 3: keywords name the cents change calculation task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "15¢."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, calculate change for 95¢ paid $1.",
+  "teacher_notes": "Lesson 3 consolidation. Formative — check ¢ vs $ unit clarity. Part 1 uses 4 NEW cents amounts (Eraser 45¢ pay 50¢, Gum 65¢ pay 75¢, etc.) not in the lesson demo — verifies cents-only subtraction generalises."
+}

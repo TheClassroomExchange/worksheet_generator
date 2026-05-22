@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "thematic_title": "Data Detectives Return",
+  "descriptive_title": "Grade 2 Mathematics: Demonstrations — Bar Graphs, Pictographs, and Tally Charts (D1.1-D1.5)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "D. Data",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-2",
+  "curriculum_codes": ["D1.1", "D1.2", "D1.3", "D1.4", "D1.5"],
+  "curriculum_expectations": {
+    "D1.1": "sort sets of data about people or things according to two attributes, using tables and logic diagrams, including Venn and Carroll diagrams",
+    "D1.2": "collect data through observations, experiments, and interviews to answer questions of interest that focus on two pieces of information, and organize the data in two-way tally tables",
+    "D1.3": "display sets of data, using one-to-one correspondence, in concrete graphs, pictographs, line plots, and bar graphs with proper sources, titles, and labels",
+    "D1.4": "identify the mode(s), if any, for various data sets presented in concrete graphs, pictographs, line plots, bar graphs, and tables, and explain what this measure indicates about the data",
+    "D1.5": "analyse different sets of data presented in various ways, including in logic diagrams, line plots, and bar graphs, by asking and answering questions about the data and drawing conclusions, then make convincing arguments and informed decisions"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on data (D1.1-D1.5) framed around 'Data Detectives Return' — Detective Dot the Sorting Squirrel and Tally the Tally Cat (our familiar Grade 1 detectives, now tackling 2-attribute sorting and bar graphs). Day 1 sorts by TWO attributes using Venn and Carroll diagrams. Day 2 collects 2-way tally tables. Day 3 builds bar graphs with title and labels. Day 4 finds the MODE in different displays. Day 5 closes with a Bar Graph Case Capstone. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will sort by 2 attributes using Venn/Carroll, collect 2-way tally tables, build bar graphs, find the mode, and write conclusions.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Sort by Two Rules", "primary_expectations": ["D1.1"], "secondary_expectations": [], "big_idea": "We can sort by TWO rules at once. Venn and Carroll diagrams show overlap.", "student_learning_goal": "I can sort by two attributes using Venn or Carroll.", "one_line_summary": "Detective Dot teaches Venn and Carroll diagrams for 2-attribute sorting."},
+    {"lesson_number": 2, "lesson_title": "Two-Way Tally Tables", "primary_expectations": ["D1.2"], "secondary_expectations": [], "big_idea": "Two-way tally tables ROW-by-ROW capture TWO PIECES of information per data point.", "student_learning_goal": "I can make a two-way tally table.", "one_line_summary": "Tally teaches 2-way tables; children survey two questions."},
+    {"lesson_number": 3, "lesson_title": "Bar Graph Builder", "primary_expectations": ["D1.3"], "secondary_expectations": [], "big_idea": "A BAR GRAPH uses bars instead of pictures. The bar HEIGHT shows the count.", "student_learning_goal": "I can build a bar graph with title and labels.", "one_line_summary": "Detective Dot turns tally totals into bars with title and labels."},
+    {"lesson_number": 4, "lesson_title": "What's the Mode?", "primary_expectations": ["D1.4"], "secondary_expectations": [], "big_idea": "The MODE is the value that appears MOST often. Some data sets have NO mode or MORE THAN ONE.", "student_learning_goal": "I can find the mode of a data set.", "one_line_summary": "Tally finds the mode in tables, pictographs, and bar graphs."},
+    {"lesson_number": 5, "lesson_title": "The Bar Graph Case Capstone", "primary_expectations": ["D1.5"], "secondary_expectations": ["D1.1", "D1.2", "D1.3", "D1.4"], "big_idea": "Detectives ANALYSE bar graphs and write CONCLUSIONS. The MODE tells what's most popular.", "student_learning_goal": "I can analyse a bar graph and write a conclusion using mode.", "one_line_summary": "Children run a class case: sort, tally, bar graph, find mode, conclude."}
+  ],
+  "expectation_lesson_map": {"D1.1": [1, 5], "D1.2": [2, 5], "D1.3": [3, 5], "D1.4": [4, 5], "D1.5": [5]},
+  "recurring_characters": [
+    {"name": "Detective Dot the Sorting Squirrel", "role": "Lead character. Same Detective Dot from Grade 1; now tackles 2-attribute sorting. Anchors all 5 lessons.", "visual_description": "A young squirrel with a tiny detective hat, magnifying glass, and notebook with 2 columns. Curious eager expression."},
+    {"name": "Tally the Tally Cat", "role": "Detective Dot's partner. The 'count' character — keeps 2-way tally tables. Cameo Lessons 2-5.", "visual_description": "A young cat with a striped vest counting tally marks on a 2-column clipboard. Whiskers, bright eyes."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "Venn diagram", "child_friendly_definition": "A diagram with two overlapping circles to sort by 2 rules."},
+    {"term": "Carroll diagram", "child_friendly_definition": "A 2x2 table to sort by 2 yes/no rules."},
+    {"term": "two-way tally", "child_friendly_definition": "A tally table with rows AND columns."},
+    {"term": "bar graph", "child_friendly_definition": "A graph with bars showing counts."},
+    {"term": "mode", "child_friendly_definition": "The value that appears MOST often."},
+    {"term": "conclusion", "child_friendly_definition": "What the data tells us — written in a sentence."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_venn_mat", "name": "Venn Diagram Mat", "description": "Letter-size mat with 2 overlapping circles for 2-attribute sorting.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M2_carroll_mat", "name": "Carroll Diagram Mat", "description": "Letter-size 2x2 mat with yes/no headers.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M3_two_way_table", "name": "Two-Way Tally Template", "description": "Letter-size 2-way tally chart with rows and columns.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M4_bar_graph", "name": "Bar Graph Grid", "description": "Letter-size bar graph grid with axes.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M5_data_cards", "name": "Survey Data Cards", "description": "Set of 30 paper data cards (each with 2 attributes).", "used_in_lessons": [1, 2, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Detective Case Template", "description": "Letter-size capstone template with all 5 detective steps.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_data_chart", "name": "Data Vocabulary Chart", "description": "Anchor chart of Venn, Carroll, bar graph, mode, conclusion.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_mode_chart", "name": "What is Mode? Chart", "description": "Anchor chart explaining mode with examples.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M9_question_cards", "name": "Two-Question Survey Cards", "description": "Set of 12 survey cards each with 2 questions.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Data Detectives Return Poster", "description": "Anchor poster of Dot and Tally with the new G2 detective steps.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["Venn Mat (per pair)", "Carroll Mat (per pair)", "Two-Way Tally Template (per pair)", "Bar Graph Grid (per pair)", "Survey Data Cards (30)", "Detective Case Template (per child)", "Data Vocabulary Chart", "Mode Chart", "Survey Question Cards (12)", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 Venn/Carroll snapshot.", "formative": "Lesson 2 tally tracker; Lesson 3 bar graph tracker; Lesson 4 mode tracker.", "summative": "Lesson 5 case capstone."},
+  "pedagogical_notes": [
+    "Grade 2 data deepens G1 with 2-attribute sorting (Venn + Carroll).",
+    "Two-way tables introduce row-AND-column thinking — precursor to bar graphs.",
+    "Bar graphs replace pictographs; bar height = count.",
+    "Mode is the only measure of central tendency at G2.",
+    "Conclusions use group language with mode reference."
+  ],
+  "canadian_context_notes": [
+    "Use Canadian survey topics: hockey teams, Tim Hortons drinks, weather, season.",
+    "Maple-leaf icons in pictographs.",
+    "Reference Canadian provinces for example data."
+  ]
+}

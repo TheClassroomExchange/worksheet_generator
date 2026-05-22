@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "batch": 3,
+  "row_number": null,
+  "runner": "claude-multi-unit",
+  "prompt_version": "2026-05-02",
+  "num_lessons": 5,
+  "created_at": "2026-05-03T19:39:51+00:00",
+  "updated_at": "2026-05-04T02:15:50+00:00",
+  "status": "done",
+  "stages": {
+    "blueprint": {
+      "label": "Blueprint (anchors, lesson titles, expectation map)",
+      "short": "BP",
+      "output_filename": "0_blueprint.json",
+      "depends_on": [],
+      "status": "done",
+      "attempts": 1,
+      "completed_at": "2026-05-04T00:06:14+00:00",
+      "output_path": "0_blueprint.json"
+    },
+    "lesson_01": {
+      "label": "Lesson 1 plan",
+      "short": "L1",
+      "output_filename": "1_lesson_01.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 2,
+      "started_at": "2026-05-04T00:08:29+00:00",
+      "failed_at": "2026-05-04T00:08:15+00:00",
+      "reset_after_failure_at": "2026-05-04T00:08:29+00:00",
+      "completed_at": "2026-05-04T00:08:29+00:00",
+      "output_path": "1_lesson_01.json"
+    },
+    "lesson_02": {
+      "label": "Lesson 2 plan",
+      "short": "L2",
+      "output_filename": "1_lesson_02.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:00:45+00:00",
+      "output_path": "1_lesson_02.json"
+    },
+    "lesson_03": {
+      "label": "Lesson 3 plan",
+      "short": "L3",
+      "output_filename": "1_lesson_03.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "failed_at": "2026-05-04T01:02:45+00:00",
+      "reset_after_failure_at": "2026-05-04T01:03:07+00:00",
+      "completed_at": "2026-05-04T01:03:07+00:00",
+      "output_path": "1_lesson_03.json"
+    },
+    "lesson_04": {
+      "label": "Lesson 4 plan",
+      "short": "L4",
+      "output_filename": "1_lesson_04.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:04:51+00:00",
+      "output_path": "1_lesson_04.json"
+    },
+    "lesson_05": {
+      "label": "Lesson 5 plan",
+      "short": "L5",
+      "output_filename": "1_lesson_05.json",
+      "depends_on": [
+        "blueprint"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:06:53+00:00",
+      "output_path": "1_lesson_05.json"
+    },
+    "worksheet_01": {
+      "label": "Lesson 1 student worksheet",
+      "short": "W1",
+      "output_filename": "2_worksheet_01.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:34:21+00:00",
+      "output_path": "2_worksheet_01.json"
+    },
+    "worksheet_02": {
+      "label": "Lesson 2 student worksheet",
+      "short": "W2",
+      "output_filename": "2_worksheet_02.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_02"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:35:43+00:00",
+      "output_path": "2_worksheet_02.json"
+    },
+    "worksheet_03": {
+      "label": "Lesson 3 student worksheet",
+      "short": "W3",
+      "output_filename": "2_worksheet_03.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_03"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:36:28+00:00",
+      "output_path": "2_worksheet_03.json"
+    },
+    "worksheet_04": {
+      "label": "Lesson 4 student worksheet",
+      "short": "W4",
+      "output_filename": "2_worksheet_04.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_04"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:37:06+00:00",
+      "output_path": "2_worksheet_04.json"
+    },
+    "worksheet_05": {
+      "label": "Lesson 5 student worksheet",
+      "short": "W5",
+      "output_filename": "2_worksheet_05.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_05"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:37:56+00:00",
+      "output_path": "2_worksheet_05.json"
+    },
+    "manipulatives": {
+      "label": "Teacher manipulatives & visual templates",
+      "short": "MN",
+      "output_filename": "3_manipulatives.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "failed_at": "2026-05-04T01:40:17+00:00",
+      "reset_after_failure_at": "2026-05-04T01:40:32+00:00",
+      "completed_at": "2026-05-04T01:40:32+00:00",
+      "output_path": "3_manipulatives.json"
+    },
+    "formative_reflection": {
+      "label": "Standalone formative + reflection sheets",
+      "short": "FR",
+      "output_filename": "4_formative_reflection.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:42:03+00:00",
+      "output_path": "4_formative_reflection.json"
+    },
+    "assessment_suite": {
+      "label": "Summative rubric, summative task, certificate",
+      "short": "AS",
+      "output_filename": "5_assessment_suite.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "failed_at": "2026-05-04T01:44:17+00:00",
+      "reset_after_failure_at": "2026-05-04T01:45:29+00:00",
+      "completed_at": "2026-05-04T01:45:50+00:00",
+      "output_path": "5_assessment_suite.json"
+    },
+    "marketplace": {
+      "label": "Marketplace listing block (derived)",
+      "short": "MK",
+      "output_filename": "6_marketplace.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05",
+        "worksheet_01",
+        "worksheet_02",
+        "worksheet_03",
+        "worksheet_04",
+        "worksheet_05",
+        "manipulatives",
+        "formative_reflection",
+        "assessment_suite"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T01:47:06+00:00",
+      "output_path": "6_marketplace.json"
+    },
+    "rubric_grade": {
+      "label": "Product-quality rubric grade (publication gate)",
+      "short": "RG",
+      "output_filename": "7_rubric_grade.json",
+      "depends_on": [
+        "blueprint",
+        "lesson_01",
+        "lesson_02",
+        "lesson_03",
+        "lesson_04",
+        "lesson_05",
+        "worksheet_01",
+        "worksheet_02",
+        "worksheet_03",
+        "worksheet_04",
+        "worksheet_05",
+        "manipulatives",
+        "formative_reflection",
+        "assessment_suite",
+        "marketplace"
+      ],
+      "status": "done",
+      "attempts": 0,
+      "completed_at": "2026-05-04T02:15:50+00:00",
+      "output_path": "7_rubric_grade.json"
+    }
+  },
+  "stage_order": [
+    "blueprint",
+    "lesson_01",
+    "lesson_02",
+    "lesson_03",
+    "lesson_04",
+    "lesson_05",
+    "worksheet_01",
+    "worksheet_02",
+    "worksheet_03",
+    "worksheet_04",
+    "worksheet_05",
+    "manipulatives",
+    "formative_reflection",
+    "assessment_suite",
+    "marketplace",
+    "rubric_grade"
+  ],
+  "errors": [
+    {
+      "stage": "lesson_01",
+      "attempt": 1,
+      "error": "schema validation failed: 1 validation error for LessonPlan\nsuccess_criteria\n  Value error, success criterion must start with 'I can': 'When my teacher gives me a starting number, I can count on by 1s up to 20.' [type=value_error, input_value=['I can write or say a sm...unt on by 1s up to 20.'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+      "timestamp": "2026-05-04T00:08:15+00:00"
+    },
+    {
+      "stage": "lesson_03",
+      "attempt": 0,
+      "error": "schema validation failed: 1 validation error for LessonPlan\naction.structure\n  Input should be 'whole_group', 'partner', 'small_group', 'centres', 'whole_group_then_partner', 'whole_group_then_centres' or 'individual' [type=literal_error, input_value='whole_group_then_stations', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error",
+      "timestamp": "2026-05-04T01:02:45+00:00"
+    },
+    {
+      "stage": "manipulatives",
+      "attempt": 0,
+      "error": "schema validation failed: 5 validation errors for Manipulatives\nassets.1.image_placeholders.0.approximate_size\n  Input should be 'thumbnail', 'small', 'medium', 'large' or 'full_width' [type=literal_error, input_value='full_page', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error\nassets.7.image_placeholders.0.approximate_size\n  Input should be 'thumbnail', 'small', 'medium', 'large' or 'full_width' [type=literal_error, input_value='full_page', input_type=str]\n    For furth",
+      "timestamp": "2026-05-04T01:40:04+00:00"
+    },
+    {
+      "stage": "manipulatives",
+      "attempt": 0,
+      "error": "schema validation failed: 1 validation error for Manipulatives\noverall_prep_notes\n  Field required [type=missing, input_value={'schema_version': 1, 'un...ons': [1, 2, 3, 4, 5]}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
+      "timestamp": "2026-05-04T01:40:17+00:00"
+    },
+    {
+      "stage": "assessment_suite",
+      "attempt": 0,
+      "error": "schema validation failed: 47 validation errors for AssessmentSuite\nsummative_rubric.purpose\n  Field required [type=missing, input_value={'rubric_id': 'summative_...ions are equivalent.'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nsummative_rubric.rows.0.levels\n  Field required [type=missing, input_value={'expectation_code': 'A6....added a couple more').\"}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nsummative_rubric.ro",
+      "timestamp": "2026-05-04T01:43:44+00:00"
+    },
+    {
+      "stage": "assessment_suite",
+      "attempt": 0,
+      "error": "schema validation failed: 14 validation errors for AssessmentSuite\nsummative_rubric.rubric_id\n  Extra inputs are not permitted [type=extra_forbidden, input_value='summative_rubric', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden\nsummative_rubric.expectation_focus\n  Extra inputs are not permitted [type=extra_forbidden, input_value=['A6.7', 'A6.8', 'A6.9', ...6.11', 'A6.12', 'A6.13'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/",
+      "timestamp": "2026-05-04T01:44:17+00:00"
+    }
+  ]
+}

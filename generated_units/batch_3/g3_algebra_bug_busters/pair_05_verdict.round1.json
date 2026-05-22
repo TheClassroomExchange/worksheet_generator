@@ -1,0 +1,34 @@
+{
+  "unit_id": "g3_algebra_bug_busters",
+  "pair_number": 5,
+  "status": "revise_lesson",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 4,
+  "lesson_worksheet_consistency": 4,
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the no-bug-plant trap with concrete recovery ('pick step, alter, document'), but the rationale gives no research citation and recovery_moves ['Use plant template.', 'Drill alter to plant.', 'Document expected outcome separately.'] do not branch by what the diagnostic told the teacher about the child.",
+      "required_fix": "Add a named research anchor for the no-bug-plant trap (e.g., reference Brennan & Resnick 2012 on computational thinking or Falkner/Vivian on K-3 debugging) in expanded_walkthrough.rationale, AND split recovery_moves into diagnostic-branched paths: (a) if the child can articulate 'expected vs actual' but didn't alter — give the plant template and force one alteration; (b) if the child cannot state the expected outcome at all — drop back to tracing one of yesterday's correct codes first, then introduce the alteration; (c) if the child plants two bugs that cancel out — show how alterations compose so partner sees ONE divergence.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials requires 'Per-child Bug Buster Capstone Template' and the action steps depend on capstone templates and robot tokens; differentiation.for_movement_learners says 'Build code physically with robot tokens' but tokens are still a required prepared material, and there is no explicit no-paper / no-purchase fallback path for a teacher who couldn't print on capstone day.",
+      "required_fix": "Add an explicit no-paper, no-purchase alternative inside differentiation (e.g., 'No-materials version: children draw their 2-lane code in chalk on the floor or sketch it on a half-sheet of lined paper folded into 2 lanes; robot tokens become 2 bottle caps or 2 erasers; the bug is whispered to a partner who walks the steps with their fingers'). State it in the same place as for_movement_learners so a substitute teacher with zero prep can still run the capstone.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ]
+}

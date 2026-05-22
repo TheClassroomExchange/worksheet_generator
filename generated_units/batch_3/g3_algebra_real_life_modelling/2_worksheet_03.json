@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 3,
+  "worksheet_title": "Coach Cara's Predictions",
+  "purpose": "Independent practice of C4 step 3.",
+  "student_learning_goal": "I can use a rule to predict a community outcome.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can use a rule to predict a community outcome.", "character_watermark": "Coach Cara in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Rink Predictions", "student_instructions": "Rule: 50 visitors per Saturday. Predict for 1, 4, 8, 12 weeks.", "visual_layout": "Top of page. Four prediction rows.",
+      "image_placeholders": [{"id": "WS03_P1_RINK", "description": "Four prediction rows in B&W, ~7in x 2.5in. Each: '___ weeks → ___ visitors'. Pre-filled weeks: 1, 4, 8, 12. Header 'Rink Predictions (50/Sat):'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["predictions"], "text_image_alignment_check": "Image WS03_P1_RINK: keywords (predictions) name the rows."}],
+      "student_response_type": "write", "answer_key": "50, 200, 400, 600."},
+    {"part_number": 2, "part_title": "Part 2: Community Rules", "student_instructions": "Use 4 community rules. Predict outcomes for 1 month.", "visual_layout": "Middle of page. Four rule rows.",
+      "image_placeholders": [{"id": "WS03_P2_COM", "description": "Four community-rule rows in B&W, ~7in x 3in. Pre-filled: '250 books/day x 20 days = ___', '80 pizzas/Sat x 4 = ___', '45 dogs/Sun x 4 = ___', '350 TTC/hr x 8 hrs = ___'. Header 'Community Rules (1 month):'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["community", "rules"], "text_image_alignment_check": "Image WS03_P2_COM: keywords (community, rules) name the rows."}],
+      "student_response_type": "write", "answer_key": "5000, 320, 180, 2800."},
+    {"part_number": 3, "part_title": "Part 3: My Community Rule", "student_instructions": "Pick your own community rule. Predict for 12 weeks.", "visual_layout": "Bottom of page. Blank rule and prediction box.",
+      "image_placeholders": [{"id": "WS03_P3_MY", "description": "A blank rule and prediction box in B&W, ~7in x 2.5in. 'My rule: ___'. 'For 12 weeks: ___'. Header 'My Community Rule:'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["my", "rule"], "text_image_alignment_check": "Image WS03_P3_MY: keywords (my, rule) name the box."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, invent a 2-rule prediction.",
+  "teacher_notes": "Lesson 3 worksheet. Watch for small-scale-only trap."
+}

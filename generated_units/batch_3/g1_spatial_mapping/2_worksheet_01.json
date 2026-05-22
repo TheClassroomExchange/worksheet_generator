@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 1,
+  "worksheet_title": "Tig's Sort Sheet",
+  "purpose": "Independent practice of E1.1 — sorting shapes by attribute. Used as Lesson 1 consolidation artifact.",
+  "student_learning_goal": "I can sort shapes by one rule and name the rule.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can sort shapes by one rule and name the rule.",
+    "character_watermark": "Trekker Tig the Tiger Cub in the top-right corner with a backpack. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [{"page_number": 1, "parts": [
+    {
+      "part_number": 1,
+      "part_title": "Part 1: Sort by COLOUR.",
+      "student_instructions": "Look at the pile. Sort by COLOUR. Draw 2 piles.",
+      "visual_layout": "Top: a pile of 8 shapes (4 red, 4 blue, mix of squares + triangles + circles). Below: 2 empty bordered boxes labelled 'RED' and 'BLUE'.",
+      "image_placeholders": [
+        {
+          "id": "WS01_P1_PILE",
+          "description": "A scatter pile of 8 shapes for a Grade 1 worksheet, B&W line art. Mix of 2D shapes (squares, triangles, circles) — 4 with thick solid border representing red, 4 with thick dashed border representing blue. Each shape ~1in. Below the pile, two empty bordered sort boxes ~3in × 2in labelled 'RED' and 'BLUE'.",
+          "placement": "Centred horizontally; spans Part 1.",
+          "approximate_size": "full_width",
+          "keywords": ["red", "blue", "sort"],
+          "text_image_alignment_check": "Image WS01_P1_PILE at Part 1: instructions ask the child to sort by colour. Keywords name the two colours and the activity (sort)."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "RED PILE: 4 red shapes (mix of squares/triangles/circles). BLUE PILE: 4 blue shapes (mix of shapes)."
+    },
+    {
+      "part_number": 2,
+      "part_title": "Part 2: Same shapes, NEW rule. Sort by SHAPE.",
+      "student_instructions": "Sort the same 8 shapes by SHAPE. Draw 3 piles.",
+      "visual_layout": "Three empty bordered boxes labelled 'SQUARES', 'TRIANGLES', 'CIRCLES'.",
+      "image_placeholders": [
+        {
+          "id": "WS01_P2_BOXES",
+          "description": "Three empty bordered sort boxes side by side for a Grade 1 worksheet. Each ~2in × 2in with thin solid border. Labels above: 'SQUARES', 'TRIANGLES', 'CIRCLES'.",
+          "placement": "Centred horizontally in Part 2.",
+          "approximate_size": "full_width",
+          "keywords": ["squares", "triangles", "circles"],
+          "text_image_alignment_check": "Image WS01_P2_BOXES at Part 2: instructions ask the child to sort by shape. Keywords name the three shape categories."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Distribute the 8 shapes across 3 columns by their shape (mix of red and blue in each column)."
+    },
+    {
+      "part_number": 3,
+      "part_title": "Part 3: Pick your OWN attribute.",
+      "student_instructions": "Pick an attribute (size, sides, etc.). Sort 6 shapes. Write the attribute.",
+      "visual_layout": "A blank workspace ~5in × 3in with 6 shape thumbnails. Above the workspace, a labelled line: 'My ATTRIBUTE is: ___'.",
+      "image_placeholders": [
+        {
+          "id": "WS01_P3_FRAME",
+          "description": "A blank workspace rectangle ~5in × 3in for a Grade 1 worksheet, with thin solid border. 6 shape thumbnails (~0.6in each) appear above the workspace for the child to sort. Above the workspace, a labelled line 'My ATTRIBUTE is: ___'.",
+          "placement": "Centred horizontally in Part 3.",
+          "approximate_size": "full_width",
+          "keywords": ["attribute", "sort"],
+          "text_image_alignment_check": "Image WS01_P3_FRAME at Part 3: instructions ask the child to pick their own attribute. Keywords name the activity."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any valid attribute and consistent sort. Common: size (big/small), sides (3/4 sides), etc."
+    }
+  ]}],
+  "early_finisher_prompt": "If you finish, sort the same 6 by a 3rd attribute.",
+  "teacher_notes": "Lesson 1 consolidation artifact. Use Part 1 + 2 as the diagnostic signal — children who re-sort the same pile by a NEW rule have grasped the 'rule decides' concept."
+}

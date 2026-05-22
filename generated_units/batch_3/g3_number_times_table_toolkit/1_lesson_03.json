@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 3,
+  "lesson_title": "Multiplication to 10×10",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.6"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Every multiplication fact up to 10×10 can be shown as an array.",
+  "learning_intention": "We are learning to represent any multiplication fact up to 10×10 as an array and find the related division facts.",
+  "student_learning_goal": "I can represent any multiplication fact up to 10×10 as an array and find the related division.",
+  "success_criteria": [
+    "I can build any multiplication up to 10×10 as an array of dots.",
+    "I can use a known fact (like 5×7=35) to solve a related fact (6×7).",
+    "I can write the division for any multiplication up to 100÷10."
+  ],
+  "vocabulary_introduced": [
+    "distributive property"
+  ],
+  "vocabulary_reinforced": [
+    "array",
+    "factor",
+    "product",
+    "fact family"
+  ],
+  "manipulatives_used": [
+    "M3_multiplication_chart",
+    "M4_array_grid",
+    "M5_two_colour_counters",
+    "M10_toolkit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Maya the Multiplication Maven — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Use What You Know' with example breakdown (6×7 = 5×7 + 1×7)",
+    "Multiplication chart 1-10 (one per pair)",
+    "Per-pair set of array grid + counters",
+    "Lesson 3 array tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Maya's Big Multiplication Move",
+    "hook": "Maya knows 5×7=35. How can she figure out 6×7? Maya opens: 'Big fact STUCK? Use a near fact!' Pixel cheers: 'Big facts? PRACTICE the near fact!'",
+    "teacher_script": "Bring children to the carpet. Maya puppet in hand. 'Friends — yesterday we mastered the 2s, 5s, 10s. Today we tackle ALL the multiplications up to 10×10. Even the tricky ones.'\n\n'Maya knows 5×7=35. But she doesn't remember 6×7. What can she do?'\n\nTake responses. Some children say 'count up by 7'. Some say 'add 7 to 35'. Affirm.\n\nBuild 5×7 array on the grid (5 rows × 7 columns of counters = 35). 'Maya knows this is 35. Now she adds ONE MORE ROW of 7.' Add the 6th row. Count: 35 + 7 = 42. So 6 × 7 = 42.\n\nWrite the rule: 6 × 7 = 5 × 7 + 1 × 7 = 35 + 7 = 42. 'This is the DISTRIBUTIVE PROPERTY. Break a hard fact into easy facts.'\n\nPractice: 7 × 8. 'Hmm — what do you know nearby?' Children: '5 × 8 = 40' (because of yesterday). 'And 7 × 8 = 5 × 8 + 2 × 8 = 40 + 16 = 56.' Build the array.\n\nNow division. '56 ÷ 8 = ?' '7' (from the fact family). '56 ÷ 7 = ?' '8'. 'Multiplication and division go TOGETHER.'\n\n'Today we'll build arrays for tricky facts AND practice the divisions.'",
+    "student_actions": [
+      "Watch Maya extend a 5×7 array to a 6×7 array.",
+      "Help apply the distributive property to find 7×8.",
+      "Echo new vocabulary: 'distributive property'.",
+      "Predict the related divisions for 6×7=42."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Multiplication Chart Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: practice the distributive property on 4 more tricky facts. (a) 8×7 = 5×7 + 3×7 = 35+21 = 56 (or use 8×8-8). (b) 9×6 = 10×6 - 1×6 = 60-6 = 54. (c) 7×6 = 5×6 + 2×6 = 30+12 = 42. (d) 9×8 = 10×8 - 1×8 = 80-8 = 72.",
+        "teacher_prompt": "Say to students: 'Use what you know to solve what you don't.' Walk through each, showing both build-and-extend AND break-down strategies."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Array Build for Tricky Facts — 8 cards with facts like 6×7, 8×9, 7×6; pair builds the array, writes the multiplication AND the related division. Station B: Multiplication Chart — pair fills in the 1-10 chart (10×10 grid), discussing patterns. Station C: Use What You Know — 8 cards each with a tricky fact + a hint (5×7=35); pair uses the hint to derive the answer.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include 4 facts WITHOUT hints. Children must derive what hint to use. (For 8×9: use 8×10-8 or 5×9+3×9.)",
+        "teacher_prompt": "Say to pairs: 'For these, decide WHICH known fact will help. Write the breakdown.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss patterns in the multiplication chart. (a) The diagonal contains squares: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100. (b) The chart is symmetric across the diagonal (4×6 = 6×4). (c) Multiples of 5 always end in 0 or 5; multiples of 10 always end in 0.",
+        "teacher_prompt": "Say to students: 'Look at the chart. What patterns do you see?' Lead to: diagonal, symmetry, ones-digit patterns."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the array tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Show me 7×6 with an array. What's the related division?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their derivation paths for 6×7 — Pair A '6×5 + 6×2'; Pair B '6×10 - 6×3'. Class compares which is faster. Cite Baroody (2006) derived-fact strategies.",
+        "teacher_prompt": "Maya: 'Different anchors, same fact. Pick the anchor your brain trusts.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Build only ×3 and ×4 facts to extend from yesterday's ×2 fluency.",
+      "for_extending": "Stretch to facts in the 11-12 range (11×7, 12×6). Discuss whether the chart pattern extends.",
+      "for_ell_or_iep": "Provide picture-supported fact cards. Pair with strong-recall peer for Station C.",
+      "for_movement_learners": "Skip-count by 6s, 7s, 8s, 9s as a class — body movement reinforces the multiplication-as-skip-count link."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: builds an array for any fact up to 10×10; uses distributive property to derive a tricky fact; writes the related division correctly.",
+      "how_to_record": "Tick the array tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Builds array for any fact up to 10×10",
+        "Uses distributive property",
+        "Writes related division",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Maya's 100 Squares Brag",
+    "discussion_prompts": [
+      "What's the distributive property? Show with an example.",
+      "If you know 5×7=35, how does that help with 6×7?",
+      "Where do you see PATTERNS in the multiplication chart?",
+      "Why does 4×6 equal 6×4?"
+    ],
+    "exit_routine": "Maya's derived-fact chant — 'Big fact STUCK? Use a near fact!' Class echoes. (3x). Each child writes one derived fact with the anchor named. Pixel's send-off: 'Derive, practice, REPEAT!'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Array building for any fact up to 10×10, distributive property application, related division accuracy.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures B2.6 mastery. Children at L4 fluently use the distributive property for any tricky fact and write all 4 facts of the family."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child knows 5×3 but freezes on 7×8 — repairing the derived-fact gap",
+    "rationale": "On 10×10 multiplication, the trap is derived-fact missing: child has memorised some facts but cannot DERIVE harder ones from known. Baroody (2006) on derived-fact strategies and Anghileri (2001) on multiplication learning frame this. Without derivation strategies, 7×8 stays stuck.\n\nYesterday Maya introduced 2s/5s/10s. Today: derive the rest (7×8 = 7×10 - 7×2 = 56). Lesson 4 numerator; Lesson 5 ratios.",
+    "setup": "Pair is at Station A. The card says 7×8. The child stares blankly. 'I don't know it.'",
+    "teacher_script": "Crouch beside the child. 'You don't know 7×8 directly — but you DO know other facts. Let's use them.'\n\n'What's 5×8?' '40' (from Lesson 2). 'Right. And what's 2×8?' '16'. 'So 5×8 + 2×8 = 40 + 16 = 56.' Show the array: 5 rows × 8 columns + 2 rows × 8 columns. 'That's 7×8.'\n\n'OR — what's 10×8?' '80'. 'And what's 7 less than 10? 3. So 10×8 - 3×8 = 80 - 24 = 56.'\n\nTwo paths, same answer.\n\nNow the rule. 'Maya says — break the hard fact into easy facts. Use what you know.'\n\nHave the child derive 9×6. Wait. 'I know 10×6 = 60. So 9×6 = 60 - 1×6 = 54.' Affirm.\n\nIf the child STILL stalls on subsequent facts: build with arrays for every fact for the next 5 minutes. The visual evidence reinforces the breakdown.\n\nLong-term recovery: daily warm-up with a 'derive this fact' challenge. 5 facts per day. The reflex builds within 2 weeks.",
+    "expected_student_responses": [
+      "(Confused) Stalls or guesses on facts outside ×2/×5/×10. Most common at start of Lesson 3.",
+      "(Mid) Derives with prompts; doesn't yet auto-break the fact.",
+      "(Strong) Auto-applies distributive property: '9×6 = 10×6 - 6 = 54' without prompting.",
+      "(Stretched) Volunteers multiple breakdowns: '7×8 = 5×8+2×8 = 40+16 = 56, OR 8×8-8 = 64-8 = 56.' Sees alternatives."
+    ],
+    "common_misconceptions": [
+      "Multiplication facts are all separate things to memorise. (Repair: distributive property breaks them into smaller pieces.)",
+      "Bigger × harder. (Children avoid 8×9 thinking it's harder than 4×9. Repair: 8×9 can be 4×9 doubled — same difficulty.)",
+      "If I don't know it, I can't get it. (Repair: arrays make any fact derivable from smaller pieces.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child blanks on 7×8: drill 'use a NEAR fact — 7×10 = 70, minus 7×2 = 14, so 7×8 = 56'; chunk strategy.",
+      "DIAGNOSTIC B — child can derive but won't articulate: force the sentence frame 'I used ___ × ___ as my anchor; then I ___'.",
+      "DIAGNOSTIC C — child confuses multiplication with division: drill the inverse — '7×8 = 56, so 56÷7 = 8'; physical array demo."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Maya's Tricky Facts Workshop",
+    "purpose": "Independent practice of B2.6 (multiplication to 10×10 via arrays and distributive property).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Tricky Facts",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Use What You Know",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Multiplication Chart",
+        "response_type": "write"
+      },
+      {
+        "part_number": 4,
+        "task": "Inverse facts",
+        "response_type": "write"
+      }
+    ],
+    "expected_image_assets": [
+      "Maya in the worksheet header",
+      "Six tricky-fact array boxes for Part 1",
+      "Six hint-and-derive rows for Part 2",
+      "A partial 10×10 multiplication chart for Part 3"
+    ]
+  }
+}

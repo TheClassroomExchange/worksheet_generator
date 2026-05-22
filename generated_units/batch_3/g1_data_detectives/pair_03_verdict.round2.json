@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "pair_number": 3,
+  "graded_at": "2026-05-08T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "summary": "Solid D1.3 pictograph pair with a strong one-to-one trap walkthrough, optional puppet language, and a worksheet whose Part 3 home survey transfers practice. Three categories sit at Level 3: ped_depth lacks a named research anchor and diagnostic-branched recovery; clarity_voice has no memorable Detective Dot refrain; math_auth has no research framing or invent-and-compare moment. Three 3s exceeds the strict bar of one — lesson revisions needed to lift two of these to 4.",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the not-one-to-one trap with concrete moves ('Erase that big apple. Now draw 5 apples — one for each child. SAME size'), but rationale cites no named research and recovery_moves do not branch by diagnostic — the only fork ('if still drawing one big picture') escalates to stickers. No separate path for inconsistent-size vs collapsed-to-one-picture children.",
+      "required_fix": "Cite a named source in expanded_walkthrough.rationale (e.g., Friel, Curcio & Bright 2001 graph-comprehension hierarchy or NCTM data trajectories on iconic correspondence). Split recovery_moves into branches: (a) one-picture-for-many → sticker sheet; (b) one-to-one but inconsistent sizes → grid mat with one same-size token per cell; (c) reads back by counting pictures and comparing to tally total.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Detective Dot anchors minds_on, action, expanded_walkthrough, and consolidation; all success_criteria use 'I can'; vocabulary is child-friendly. But there is no quotable refrain children chant back. exit_routine is the sentence frame 'There were ___ ___,' which is a frame, not a memorable chant. The Detective Dot 'TITLE, PICTURES, LABELS' line is teacher-only narration, not call-and-response.",
+      "required_fix": "Add a Detective Dot call-and-response refrain that recurs at minds_on AND consolidation. Example: Detective Dot calls 'ONE picture —' and children answer 'ONE thing!' Or close every lesson with 'Title, pictures, labels — case CLOSED!' chanted together. Write the refrain into teacher_script and consolidation.exit_routine so children carry it across the unit arc.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit and vocabulary precise; the bigger-picture-equals-more misconception is named in common_misconceptions. But children never invent or compare strategies — every pair follows the same fixed 'one picture per tally, same size' procedure. expanded_walkthrough names the misconception in plain language only, with no research-grounded principle.",
+      "required_fix": "In Action step 2 or 3 add a strategy-compare: pairs at Station A display a tally of 5 two ways (5 same-size apples vs 1 apple labelled '5') and defend which is easier for another child to read. In expanded_walkthrough.rationale name the principle: iconic-to-numeric correspondence (Friel, Curcio & Bright 2001) — the picture functions as a unit of count, not an icon for the whole category.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

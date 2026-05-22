@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "lesson_number": 2,
+  "worksheet_title": "Roo's Tile Compare",
+  "purpose": "Independent practice of E2.7-E2.8.",
+  "student_learning_goal": "I can compare areas of shapes by matching or covering.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compare areas of shapes by matching or covering.",
+    "character_watermark": "Roo the Ruler Rabbit in the top-right with square tiles and a ruler. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Count tiles.",
+          "student_instructions": "Count tiles inside 4 shapes. Write the count.",
+          "visual_layout": "Four shapes pre-tiled with square tiles plus an answer line for each tile count.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_COUNT",
+              "description": "A Grade 3 tile-count layout for area worksheet, B&W line art. 4 pre-tiled shapes: rectangle (3x2=6 tiles), L-shape (5 tiles), square (4x4=16 tiles), staircase (10 tiles). Each with answer line.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "tiles",
+                "shapes"
+              ],
+              "text_image_alignment_check": "WS02_P1_COUNT at Part 1: keywords name the tiles inside shapes count task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Rectangle=6, L-shape=5, Square=16, Staircase=10."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Compare 2 pairs.",
+          "student_instructions": "For 2 shape pairs, circle BIGGER, SMALLER, or SAME area.",
+          "visual_layout": "Two pairs of shapes side by side with comparison choice circles for each pair.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_COMP",
+              "description": "A Grade 3 area comparison layout for area worksheet, B&W line art. 2 shape pairs side by side. Pair 1: 3x2 rectangle vs 2x4 rectangle. Pair 2: square vs L-shape (same total area). Below each: BIGGER / SMALLER / SAME circles.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "pairs",
+                "compare"
+              ],
+              "text_image_alignment_check": "WS02_P2_COMP at Part 2: keywords name the pairs of shapes for comparison."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pair 1: 8 vs 6, so left smaller, right bigger. Pair 2: SAME (both 4 tiles)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Find SAME area.",
+          "student_instructions": "Draw 2 DIFFERENT shapes that have the SAME area (each 6 tiles).",
+          "visual_layout": "Two empty grid workspaces side by side for drawing the matching shapes.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_SAME",
+              "description": "A Grade 3 same-area workspace for area worksheet, B&W line art. 2 empty grid workspaces side by side, each ~6cm x 4cm. Note: 'Both shapes have area = 6 tiles'.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "workspace",
+                "shapes"
+              ],
+              "text_image_alignment_check": "WS02_P3_SAME at Part 3: keywords name the workspace pair for drawing same-area shapes."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 2 different shapes with 6 tiles (e.g., rectangle 6x1 and L-shape 6 squares)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Find the area of a NEW rectangle (5 cm × 3 cm). Show your row × column working.",
+  "teacher_notes": "Lesson 2 consolidation. Formative — check careful tile counting."
+}

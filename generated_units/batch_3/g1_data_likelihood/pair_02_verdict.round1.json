@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "pair_number": 2,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the 'silly-not-impossible trap' and recovery_moves are concrete (reality-check card, 'in our real world?' drill, extreme examples), but the trap is not anchored to a named research source and recovery_moves are a single linear sequence rather than branching by what the diagnostic told you about the child.",
+      "required_fix": "Cite a named source in expanded_walkthrough.rationale (e.g., Fischbein 1975 on intuition of chance, or Jones, Langrall, Thornton 1997 levels of probabilistic thinking) and split recovery_moves into branches: (a) child accepts law-of-nature impossibles but mis-sorts weather; (b) child treats every silly thing as possible; (c) child overcorrects to 'all impossible'.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Mae anchors minds_on and consolidation and all success_criteria are 'I can' statements, but neither character has a distinctive quotable refrain in the lesson, and the exit_routine ('___ is ___') is a generic sentence frame rather than a memorable chant children carry between lessons.",
+      "required_fix": "Add a recurring call-and-response Mae uses every lesson — e.g., Mae chants 'Will it? Maybe!' and the class answers 'Impossible — Possible — Certain!' — and write it explicitly into consolidation.exit_routine and the open/close of minds_on teacher_script so children chant it back.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is sound (real-world possibility test, precise vocabulary, Part 3 lets children invent tricky events) but expanded_walkthrough names the misconception only colloquially and the lesson lacks a structured strategy-comparison move where two children's contrasting reasonings are compared.",
+      "required_fix": "Frame the misconception in research-grounded terms in expanded_walkthrough.rationale (Fischbein primary intuition of chance; Jones et al. 1997 Level-1-to-2 transition) and add a consolidation move where two children share contrasting 'because' reasons for one tricky event (e.g., 'snow in July') and the class compares which uses the real-world test.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong sorting lesson with everyday materials, optional puppets, realistic G1 timing, and a worksheet that varies practice format (label, table, generate-with-reason). Three categories sit at 3: the trap is real but uncited and recovery doesn't branch, Mae lacks a quotable refrain, and the misconception isn't framed in research terms. All fixes are lesson-side."
+}

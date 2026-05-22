@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "thematic_title": "Data Detectives Take the Case",
+  "descriptive_title": "Grade 1 Mathematics: Demonstrations — Surveys, Tally Charts, and Pictographs (D1.1-D1.5)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "D. Data",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-1",
+  "curriculum_codes": [
+    "D1.1",
+    "D1.2",
+    "D1.3",
+    "D1.4",
+    "D1.5"
+  ],
+  "curriculum_expectations": {
+    "D1.1": "sort sets of data about people or things according to one attribute, and describe rules used for sorting",
+    "D1.2": "collect data through observations, experiments, and interviews to answer questions of interest that focus on a single piece of information; record the data using methods of their choice; and organize the data in tally tables to answer questions of interest",
+    "D1.3": "display sets of data, using one-to-one correspondence, in concrete graphs and pictographs with proper sources, titles, and labels",
+    "D1.4": "order categories of data from greatest to least frequency for various data sets displayed in tally tables, concrete graphs, and pictographs",
+    "D1.5": "analyse different sets of data presented in various ways, including in tally tables, concrete graphs, and pictographs, by asking and answering questions about the data and drawing conclusions, then making convincing arguments and informed decisions"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on data (D1.1-D1.5) framed around 'Data Detectives Take the Case' — Detective Dot the Sorting Squirrel and Tally the Tally Cat. Day 1 sorts by attribute. Day 2 collects survey data with tally marks. Day 3 builds pictographs with one-to-one correspondence. Day 4 orders categories greatest to least. Day 5 closes with a Data Case Capstone where children analyse a class survey and write a conclusion. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will sort by attribute, collect and record data with tallies, display data in pictographs, order frequencies, and draw conclusions from data displays.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Sort by One Rule",
+      "primary_expectations": [
+        "D1.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Sorting groups things by ONE rule. The rule decides where each thing goes.",
+      "student_learning_goal": "I can sort things by one rule and say what the rule is.",
+      "one_line_summary": "Detective Dot teaches sorting by one attribute; children sort objects and name the rule."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Tally Marks Tell the Count",
+      "primary_expectations": [
+        "D1.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "We collect data by asking and counting. Tally marks group by FIVES so we can count fast.",
+      "student_learning_goal": "I can collect data and record it with tally marks.",
+      "one_line_summary": "Tally teaches the 4+1 tally rule; children survey classmates and tally results."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Pictograph Power",
+      "primary_expectations": [
+        "D1.3"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Pictographs show data with PICTURES. One picture = one thing. Title and labels make it readable.",
+      "student_learning_goal": "I can make a pictograph with pictures, a title, and labels.",
+      "one_line_summary": "Detective Dot builds a fruit pictograph; children build their own pictograph with one-to-one pictures."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Order Greatest to Least",
+      "primary_expectations": [
+        "D1.4"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "We can ORDER categories by HOW MANY. Greatest goes first, least goes last.",
+      "student_learning_goal": "I can order categories from greatest to least.",
+      "one_line_summary": "Tally orders pet pictograph by frequency; children order their own data."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "The Detective's Conclusion Capstone",
+      "primary_expectations": [
+        "D1.5"
+      ],
+      "secondary_expectations": [
+        "D1.1",
+        "D1.2",
+        "D1.3",
+        "D1.4"
+      ],
+      "big_idea": "Detectives ASK questions of the data and write a CONCLUSION. The data tells the story.",
+      "student_learning_goal": "I can ask and answer questions about a data display and write a conclusion.",
+      "one_line_summary": "Detective Dot leads a class survey case; children analyse the pictograph and write a conclusion."
+    }
+  ],
+  "expectation_lesson_map": {
+    "D1.1": [
+      1,
+      5
+    ],
+    "D1.2": [
+      2,
+      5
+    ],
+    "D1.3": [
+      3,
+      5
+    ],
+    "D1.4": [
+      4,
+      5
+    ],
+    "D1.5": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Detective Dot the Sorting Squirrel",
+      "role": "Lead character. A friendly squirrel detective with magnifying glass and notebook. Anchors all 5 lessons.",
+      "visual_description": "A young squirrel with a tiny detective hat, magnifying glass in one paw and notebook in the other. Curious eager expression."
+    },
+    {
+      "name": "Tally the Tally Cat",
+      "role": "Detective Dot's partner. The 'count' character — keeps tally marks and adds them up. Cameo Lessons 2-5.",
+      "visual_description": "A young cat with a striped vest counting tally marks on a clipboard. Whiskers and bright eyes, holds a small pencil."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "data",
+      "child_friendly_definition": "Facts we collect — like 'how many like apples?'"
+    },
+    {
+      "term": "sort",
+      "child_friendly_definition": "Group things by a rule."
+    },
+    {
+      "term": "rule",
+      "child_friendly_definition": "How we decide what goes where."
+    },
+    {
+      "term": "tally",
+      "child_friendly_definition": "A line we draw to count one thing. Five tallies = a group."
+    },
+    {
+      "term": "pictograph",
+      "child_friendly_definition": "A graph that uses pictures to show data."
+    },
+    {
+      "term": "title",
+      "child_friendly_definition": "What the graph is about — at the top."
+    },
+    {
+      "term": "label",
+      "child_friendly_definition": "A name for each row or column."
+    },
+    {
+      "term": "greatest",
+      "child_friendly_definition": "The biggest number."
+    },
+    {
+      "term": "least",
+      "child_friendly_definition": "The smallest number."
+    },
+    {
+      "term": "conclusion",
+      "child_friendly_definition": "What the data tells us — a sentence we write."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_sort_objects",
+      "name": "Sortable Object Cards",
+      "description": "Set of 30 paper object tokens for sorting by attributes (colour, shape, type).",
+      "used_in_lessons": [
+        1,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_tally_chart",
+      "name": "Tally Chart Template",
+      "description": "Letter-size template for recording tally marks with category labels.",
+      "used_in_lessons": [
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_pictograph_grid",
+      "name": "Pictograph Grid Mat",
+      "description": "Letter-size grid mat for building pictographs with one-to-one correspondence.",
+      "used_in_lessons": [
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_picture_tokens",
+      "name": "Pictograph Picture Tokens",
+      "description": "Set of 60 small pictorial tokens (fruits, pets, sports) for placing on the pictograph grid.",
+      "used_in_lessons": [
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_question_cards",
+      "name": "Survey Question Cards",
+      "description": "Set of 12 pre-written survey question cards for collecting data.",
+      "used_in_lessons": [
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_capstone_template",
+      "name": "Detective Case Template",
+      "description": "Letter-size capstone template with sort area, tally chart, pictograph, ordering, and conclusion line.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_data_chart",
+      "name": "Data Vocabulary Chart",
+      "description": "Anchor chart of data vocabulary (sort, tally, pictograph, title, label, conclusion).",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_tally_chart",
+      "name": "Tally Marks Reference",
+      "description": "Anchor chart showing 1, 2, 3, 4, 5 (with cross-out) tally mark conventions.",
+      "used_in_lessons": [
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_attribute_cards",
+      "name": "Attribute Cards",
+      "description": "Set of 12 attribute cards (red, blue, big, small, round, square, etc.) for sorting rules.",
+      "used_in_lessons": [
+        1,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_detective_poster",
+      "name": "Data Detectives Poster",
+      "description": "Anchor poster of Detective Dot and Tally with the 5 detective steps: ask, sort, tally, graph, conclude.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Sortable Object Cards (30)",
+    "Tally Chart Template (per pair)",
+    "Pictograph Grid Mat (per pair)",
+    "Pictograph Picture Tokens (60)",
+    "Survey Question Cards (12)",
+    "Detective Case Template (per child)",
+    "Data Vocabulary Chart",
+    "Tally Marks Reference Chart",
+    "Attribute Cards (12)",
+    "Data Detectives Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 sort-by-one-rule snapshot.",
+    "formative": "Lesson 2 tally tracker; Lesson 3 pictograph tracker; Lesson 4 ordering tracker.",
+    "summative": "Lesson 5 detective case capstone."
+  },
+  "pedagogical_notes": [
+    "Grade 1 data work is hands-on — use real objects before paper.",
+    "Sorting precedes graphing — children must sort confidently before pictographs.",
+    "Tally marks group by 5 (4 verticals + 1 cross) — practice the cross-out before pictographs.",
+    "One-to-one correspondence is essential for pictographs; one picture = one thing.",
+    "Conclusions are simple at G1 — 'most children chose ___' or 'fewer chose ___' is enough."
+  ],
+  "canadian_context_notes": [
+    "Use Canadian survey topics: favourite Canadian sport (hockey, soccer), favourite Tim Hortons donut, favourite season.",
+    "Survey class about pets that are common in Canadian homes (dog, cat, fish, hamster).",
+    "Use maple-leaf tokens for one of the pictograph categories.",
+    "Reference Canadian children's books with data themes."
+  ]
+}

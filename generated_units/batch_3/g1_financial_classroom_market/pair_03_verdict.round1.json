@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "pair_number": 3,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 2,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 2,
+    "lesson_worksheet_consistency": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child confuses $5 and $10 by colour' with recovery_moves = ['Use chart.', 'Compare faces.', 'Drill colour names.'] — this names a perceptual colour-discrimination issue, not a research-grounded G1 money misconception, and the recovery moves are one-to-three-word generic prompts a substitute could not actually follow.",
+      "required_fix": "Replace the trap with a real G1 F1.1 misconception: child treats bill VALUE by front-digit or physical size (says $5 > $20 because '5 > 2'). Recovery should branch: digit-based — read the WHOLE numeral aloud ('twenty, not two'); size-based — lay bills end-to-end and say 'size does not tell value, the NUMBER does'. Anchor in value-vs-magnitude research.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "Lesson teaches identification almost entirely by COLOUR (blue=$5, purple=$10, green=$20) and 'Cassie says — colour first, value second!' Conceptual VALUE work is one throwaway line ('1 toonie + 1 fiver = $7') with no scaffolding, comparison, or composition. Money is treated as a colour-recognition task rather than a quantity/value concept.",
+      "required_fix": "Re-anchor the lesson on VALUE as the math object, with colour as a secondary cue. Define 'value' precisely. Add a composition move where children build the same dollar amount two ways (e.g., $10 = one $10 OR two $5s). Have pairs invent a way to make $15 or $20 with the bills, then compare strategies — meeting the L3 'manipulatives carry meaning' bar.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 3 is well-organized, child-friendly, and uses Cassie consistently, but it treats money as a colour-matching task rather than a value/quantity concept. The named trap is colour discrimination, not a real G1 money misconception, and recovery moves are vague. Worksheet does not need changes — fix the lesson's trap and re-anchor on VALUE so the existing parts read as transfer of taught content."
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 3,
+  "worksheet_title": "Tally's Pictograph",
+  "purpose": "Independent practice of A8.3 (picture graphs).",
+  "student_learning_goal": "I can make a picture graph.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can make a picture graph.", "character_watermark": "Tally in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Build a Pictograph", "student_instructions": "Use the counts to build a pictograph. 4 categories.", "visual_layout": "Top of page. 4-row pictograph template.",
+      "image_placeholders": [{"id": "WS03_P1_BUILD", "description": "A 4-row pictograph template in B&W, ~7in x 3.5in. Pre-filled counts: red 6, blue 4, yellow 7, green 3. Sticker spots in each row. Header 'Build a Pictograph:'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["pictograph"], "text_image_alignment_check": "Image WS03_P1_BUILD: keywords (pictograph) name the activity."}],
+      "student_response_type": "draw_or_write", "answer_key": "Sticker each row to count."},
+    {"part_number": 2, "part_title": "Part 2: From My Survey", "student_instructions": "Build a pictograph from your survey (Lesson 2).", "visual_layout": "Middle of page. Blank pictograph.",
+      "image_placeholders": [{"id": "WS03_P2_SURVEY", "description": "A blank 4-row pictograph in B&W, ~7in x 3in. Header 'My Survey Pictograph:'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["pictograph"], "text_image_alignment_check": "Image WS03_P2_SURVEY: keywords (pictograph) name the chart."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 3, "part_title": "Part 3: My Pictograph", "student_instructions": "Pick 4 things to count and graph.", "visual_layout": "Bottom of page. Blank pictograph.",
+      "image_placeholders": [{"id": "WS03_P3_MY", "description": "A blank 4-row pictograph in B&W, ~7in x 2.5in. Header 'My Pictograph:'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["my", "pictograph"], "text_image_alignment_check": "Image WS03_P3_MY: keywords (my, pictograph) name the chart."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, label each row of your pictograph.",
+  "teacher_notes": "Lesson 3 worksheet. Watch for unaligned graphs."
+}

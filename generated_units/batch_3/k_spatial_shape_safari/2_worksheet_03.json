@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "lesson_number": 3,
+  "worksheet_title": "Mira's Position Map",
+  "purpose": "Independent practice of A9.3 and A9.6 — using positional language to describe and place objects. Used as Lesson 3 consolidation artifact and as evidence for the formative tracker.",
+  "student_learning_goal": "I can describe location with positional words.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe location with positional words.",
+    "character_watermark": "Mira the Map-Making Monkey in the top-right corner of the header, holding a map. Small (~1.5in tall). References the shared 'Mira the Map-Making Monkey' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Pick the position word.",
+          "student_instructions": "Look at each picture. Write the correct position word: above, below, beside, or inside.",
+          "visual_layout": "Four small picture panels arranged in a 2×2 grid centred on the page, each panel ~2.5in × 1.8in. Each panel shows a simple safari scene with a clear positional relationship: (1) a lion ABOVE a rock, (2) a snake BELOW a tree, (3) an elephant BESIDE a giraffe, (4) a monkey INSIDE a tree hollow. Below each panel is a writing line for the position word.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_PANELS",
+              "description": "Four safari picture panels in B&W line art for a Kindergarten worksheet, arranged in a 2×2 grid. Panel 1: a lion standing on top of a rock (lion ABOVE the rock). Panel 2: a snake slithering at the base of a tree, under its lowest branches (snake BELOW the tree). Panel 3: an elephant and a giraffe standing next to each other on level ground (elephant BESIDE giraffe). Panel 4: a monkey peeking out from inside a hollow opening in a tree trunk (monkey INSIDE the tree). Each panel ~2.5in × 1.8in with a thin border, generous space for the writing line below.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["lion", "snake", "elephant", "monkey"],
+              "text_image_alignment_check": "Image WS03_P1_PANELS at Part 1: each panel illustrates a position word the child must write — the keywords (lion, snake, elephant, monkey) are the safari subjects shown, and the visual relationship (above, below, beside, inside) is what the child names."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Panel 1: above. Panel 2: below. Panel 3: beside. Panel 4: inside."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Place the safari animals!",
+          "student_instructions": "Read each clue. Draw the animal in the right place on the map.",
+          "visual_layout": "A large safari map (~5in × 4in) centred on the page. The map shows a baobab tree on the left, a river running across the middle, a rocky hill on the right, and a cave at the bottom-centre. Below the map are 4 numbered clue lines: '(1) Lion ABOVE the rocks. (2) Zebra BESIDE the tree. (3) Elephant BELOW the river. (4) Monkey INSIDE the cave.' The student draws each animal where the clue says.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_MAP",
+              "description": "A safari map in B&W line art for a Kindergarten worksheet. ~5in × 4in. Features: a baobab tree on the left side, a meandering river running horizontally across the middle, a rocky hill on the right, and a cave opening at the bottom-centre. Lots of empty space on the map for the child to draw in 4 animals based on positional clues. Thin solid border around the map.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["map", "tree", "river", "cave"],
+              "text_image_alignment_check": "Image WS03_P2_MAP at Part 2: instructions ask the child to place animals using position words. The map keywords (tree, river, cave) match the landmarks the child uses as references when reading clues like 'lion above the rocks' or 'monkey inside the cave'."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "(1) Lion drawn on top of the rocky hill on the right. (2) Zebra drawn next to the baobab tree on the left. (3) Elephant drawn below the river (at the bottom). (4) Monkey drawn inside the cave at the bottom-centre. Accept any reasonable placement that matches the position word."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Where is it?",
+          "student_instructions": "Look around your classroom. Pick 3 things. Write where each one is using a position word.",
+          "visual_layout": "Three response rows stacked vertically. Each row has a labelled line in the form 'The ___ is ___ the ___.' for the child to fill in. The three blanks (object — position word — reference object) are clearly bounded with thin underlines. To the right of the three rows is a small position-word reference box listing: above, below, beside, inside, outside, between.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_FRAME",
+              "description": "Three sentence-frame response rows stacked vertically for a Kindergarten worksheet. Each row reads 'The ___ is ___ the ___.' with three blanks. Generous height between rows. To the right is a small reference box listing 6 position words: above, below, beside, inside, outside, between.",
+              "placement": "Left two-thirds of Part 3.",
+              "approximate_size": "medium",
+              "keywords": ["position", "classroom"],
+              "text_image_alignment_check": "Image WS03_P3_FRAME at Part 3: instructions ask the child to describe 3 classroom items using position words. The sentence frames provide structured response slots; the position-word reference box gives the child the vocabulary to choose from."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 valid sentences. Examples: 'The clock is above the door.' 'The bag is beside the chair.' 'The shoes are below the desk.' Accept any sentence with a real classroom object and a correctly used position word."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw your bedroom. Use position words to describe where 3 things are.",
+  "teacher_notes": "Lesson 3 consolidation artifact. Hand out at the end of the Action phase. Most children should complete Parts 1 and 2 with one prompt. For Part 3, the sentence frame structure helps ELLs and emergent writers; for stronger writers, encourage 2 position words ('above and beside'). Use Part 1 as the primary formative-tracker signal — children who can't pick correct position words from a clear picture need re-loop with the position-word cards."
+}

@@ -1,0 +1,18 @@
+{"ts": "2026-05-04T12:51:24+00:00", "stage": "blueprint", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:55:12+00:00", "stage": "lesson_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:55:12+00:00", "stage": "lesson_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:55:12+00:00", "stage": "lesson_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:55:12+00:00", "stage": "lesson_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:55:12+00:00", "stage": "lesson_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:57:07+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:57:07+00:00", "stage": "worksheet_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:57:07+00:00", "stage": "worksheet_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:57:07+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T12:57:07+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:00:13+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:00:13+00:00", "stage": "formative_reflection", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:00:13+00:00", "stage": "assessment_suite", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 3 validation errors for AssessmentSuite\nformative_trackers.0.usage_notes\n  String should have at least 20 characters [type=string_too_short, input_value='Stop at each pair.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short\nformative_trackers.1.usage_notes\n  String should have at least 20 characters [type=string_too_short, input_value='Stop at each pair.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/str"}
+{"ts": "2026-05-04T13:00:13+00:00", "stage": "marketplace", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:00:50+00:00", "stage": "manipulatives", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:00:50+00:00", "stage": "assessment_suite", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:01:16+00:00", "stage": "rubric_grade", "transition": "pending→done", "attempt": 0, "error": null}

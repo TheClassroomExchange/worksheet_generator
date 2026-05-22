@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_spatial_map_it_move_it", "lesson_number": 4,
+  "worksheet_title": "Coco's Map Moves", "purpose": "Independent practice of E1.4.",
+  "student_learning_goal": "I can give and follow movement directions with turns.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can give and follow movement directions with turns.",
+    "character_watermark": "Compass Coco the Cat in the top-right with a treasure map and compass. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Follow 3 routes.", "student_instructions": "Start at A. Follow each direction. Mark where you END.",
+     "visual_layout": "A 6x6 map grid with start and end markers and three direction strips.",
+     "image_placeholders": [{"id": "WS04_P1_GRID", "description": "A Grade 3 map grid for geometry worksheet, B&W line art. 6x6 grid with A marked at top-left and 4 treasure spots scattered. Below: 3 direction strips like '3 right + quarter turn + 2 forward'.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["grid", "directions"], "text_image_alignment_check": "WS04_P1_GRID at Part 1: keywords name the grid map and directions strips."}],
+     "student_response_type": "draw_or_write", "answer_key": "Each route lands on the marked treasure spot."},
+    {"part_number": 2, "part_title": "Part 2: Quarter or half?", "student_instructions": "For 4 turn arrows, write QUARTER or HALF.",
+     "visual_layout": "Four arrow icons showing different turn amounts and a labelled answer line beside each.",
+     "image_placeholders": [{"id": "WS04_P2_TURNS", "description": "A Grade 3 turn identification layout for geometry worksheet, B&W line art. 4 arrow icons showing 90 degree right, 180 degree, 90 degree left, 180 degree turns. Each with a label line.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["arrow", "turns"], "text_image_alignment_check": "WS04_P2_TURNS at Part 2: keywords name the arrow icons and turn types."}],
+     "student_response_type": "draw_or_write", "answer_key": "Quarter, Half, Quarter, Half."},
+    {"part_number": 3, "part_title": "Part 3: Write a route.", "student_instructions": "Write a 4-step direction with at least 1 turn. Test it.",
+     "visual_layout": "Direction-writing lines and a small grid for testing the route.",
+     "image_placeholders": [{"id": "WS04_P3_WRITE", "description": "A Grade 3 route writing layout for geometry worksheet, B&W line art. 4 lines for direction steps. Below: small 4x4 grid for testing.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["write", "route"], "text_image_alignment_check": "WS04_P3_WRITE at Part 3: keywords name the route writing and testing space."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any valid 4-step direction with at least 1 turn."}
+  ]}],
+  "early_finisher_prompt": "If you finish, design a treasure-hunt route with 5 steps and 2 turns.",
+  "teacher_notes": "Lesson 4 consolidation. Formative — check turn type identification."
+}

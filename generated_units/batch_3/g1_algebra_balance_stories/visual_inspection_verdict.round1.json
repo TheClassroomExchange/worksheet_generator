@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "deck_url": "https://docs.google.com/presentation/d/1WgqV1FQIB9SqhgNoiB5FyRJxHHNOv8J64yrmn_HBoLI/edit",
+  "pdf_path": "generated_units/batch_3/g1_algebra_balance_stories/validation_export.pdf",
+  "pdf_size_kb": 803,
+  "slide_count": 27,
+  "inspected_at": "2026-05-09T00:00:00Z",
+  "inspected_by": "visual_inspector",
+  "status": "revise_assets",
+  "issues": [
+    {
+      "slide_number": 3,
+      "category": "text_overflow",
+      "description": "Lesson 1 Goal sentence is truncated: 'In real life, some quantities change (like how many children come to school today) and some always.' The sentence ends mid-thought; expected '...always stay the same.' This makes the lesson goal incomprehensible.",
+      "suggested_fix": "Edit the lesson 1 goal text in the unit JSON to complete the sentence: 'and some always stay the same.' Then rerun the deck composer.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 15,
+      "category": "missing_asset",
+      "description": "M3 Change vs Stay-the-Same Cards page renders 8 cards showing addition expressions ('3+4', '5+2', '6+1', '4+3', '2+5', '1+6', '7+0', '0+7') instead of picture cards depicting things that change vs stay the same (children on bus, leaves, chair legs, sides of square, etc.). Wrong asset entirely; cards do not match the manipulative purpose for Lesson 1 (C2.1).",
+      "suggested_fix": "Regenerate M3_change_constant_cards asset to render 24 picture/photo-style cards (12 'changes', 12 'stays the same') per the blueprint. Replace the addition-expression mockups currently shown.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 19,
+      "category": "missing_asset",
+      "description": "M7 Equivalent-Target Cards page shows target numbers 10, 20, 50, 100, 5, 25, 75, 200. Targets 75, 100, 200 exceed the C2.3 scope of whole numbers up to 50. Blueprint specifies targets such as 10, 15, 20, 25, 30, 40, 50.",
+      "suggested_fix": "Regenerate M7_equivalent_target_cards asset with targets all <= 50 (e.g., 10, 15, 20, 25, 30, 35, 40, 45, 50). Remove out-of-scope numbers.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 22,
+      "category": "missing_asset",
+      "description": "M10 Balance Stories Poster renders a Data Detectives infographic ('Data Detectives! ASK / COLLECT / SHOW / TELL' with circle/square/triangle/star icons) instead of the intended Balance Stories poster showing Bella and Bobby with a balance scale. This is a wrong-unit asset (looks like content from a Data Management unit).",
+      "suggested_fix": "Regenerate M10_balance_poster asset to depict Bella and Bobby with a two-pan balance scale and balance-story themed framing per blueprint description.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 23,
+      "category": "character_unrecognizable",
+      "description": "Bella character puppet renders as a black-and-white SPIDER WEB graphic with caption 'Bella the Balance Bear'. The asset is not a character at all — no head, eyes, blush, body, or feet — and the caption misnames Bella (blueprint says Balance Beam Scientist, a young Grade-1er in a lab coat with a balance scale, not a bear). Fails kawaii BLENDY/SOUNDER style entirely.",
+      "suggested_fix": "Regenerate char_bella_puppet via character_svg_designer skill: head-dominant kawaii Grade-1er in lab coat with balance-scale chest patch, oval eyes with sparkle, blush, rounded body, stubby feet, holding a small paper balance scale. Update caption to 'Bella the Balance Beam Scientist'.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 24,
+      "category": "character_unrecognizable",
+      "description": "Bobby character puppet renders TWO chef figures (chef hats; one holding bread, one holding a whisk and pot) with caption 'Bobby the Balance Boy'. Bobby should be a single Grade-1er in a striped shirt with a tool-belt holding a small toy balance scale. Wrong character entirely (chefs, not balance buddy) and two figures instead of one. Caption also inconsistent with blueprint ('Balance Beam Buddy').",
+      "suggested_fix": "Regenerate char_bobby_puppet via character_svg_designer skill: single kawaii Grade-1er with striped shirt, tool-belt, and small toy balance scale, matching BLENDY/SOUNDER proportions. Update caption to 'Bobby the Balance Beam Buddy'.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 8,
+      "category": "other",
+      "description": "Worksheet preview for Lesson 1 'Bella's Sorting Game' (a CHANGE vs STAY sort) shows a hero box titled 'Why?' with subtitle 'Why are these equal?'. The 'are these equal' framing belongs to an equivalence worksheet, not a Lesson 1 sort. Footer correctly reads '(3 parts on the printable worksheet)'.",
+      "suggested_fix": "Choose a different hero part for this worksheet preview that reflects the CHANGE vs STAY sorting task (e.g., the sorting columns part), or rename the part subtitle so it does not say 'Why are these equal?' on a Lesson 1 sort sheet.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 6,
+  "summary": "Deck has 6 blocking issues: Lesson 1 goal sentence is truncated; M3 sort-cards asset shows addition expressions instead of picture cards; M7 target cards exceed the up-to-50 scope (75/100/200); M10 poster renders a Data Detectives graphic from another unit; Bella puppet is a spider web (not a character); Bobby puppet is two chefs (wrong character). Status revise_assets — Phase B SVG/asset regeneration plus one content edit needed before publication."
+}

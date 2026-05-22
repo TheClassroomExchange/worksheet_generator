@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 1,
+  "worksheet_title": "Tony's Algorithm Tools",
+  "purpose": "Independent practice of B2.3, B2.4, B2.5.",
+  "student_learning_goal": "I can add and subtract numbers to 1000 using mental chunking and the standard algorithm.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can add and subtract numbers to 1000 using mental chunking and the standard algorithm.",
+    "character_watermark": "Tony the Toolkit Master in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Mental Chunking",
+          "student_instructions": "Solve each problem with mental chunking. Show your steps.",
+          "visual_layout": "Top of the page. Four chunking work-areas in a 2x2 grid, each with a problem at top: (C1) 276 + 458; (C2) 503 - 247; (C3) 624 + 189; (C4) 700 - 365. Each work-area has space for chunking notation.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_FOUR_CHUNKS",
+              "description": "2x2 grid of 4 chunking work-areas: C1 276+458, C2 503-247, C3 624+189, C4 700-365. Each cell shows the problem at top and blank space for chunked steps.",
+              "placement": "Top of the page; 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "276",
+                "458",
+                "503",
+                "247",
+                "624",
+                "189",
+                "700",
+                "365",
+                "chunking"
+              ],
+              "text_image_alignment_check": "Image shows 4 chunking problems matching the lesson's mental-math approach; instructions ask children to chunk each problem and show their steps."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "C1: 276+458=734 (chunk 276+400=676; +50=726; +8=734). C2: 503-247=256 (chunk 503-200=303; -40=263; -7=256). C3: 624+189=813 (chunk 624+100=724; +80=804; +9=813). C4: 700-365=335 (chunk 700-300=400; -60=340; -5=335)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Standard Algorithm",
+          "student_instructions": "Solve each problem with the standard algorithm. Show regrouping clearly.",
+          "visual_layout": "Middle of the page. Four column-stacks in a 2x2 grid: (A1) 376 + 248; (A2) 612 - 275; (A3) 459 + 186; (A4) 800 - 256. Each stack has cross-out + carry space.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_FOUR_ALGORITHMS",
+              "description": "2x2 grid of 4 column-stacks: A1 376+248, A2 612-275, A3 459+186, A4 800-256. Each stack has cross-out + carry space.",
+              "placement": "Middle; 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "376",
+                "248",
+                "612",
+                "275",
+                "459",
+                "186",
+                "800",
+                "256",
+                "algorithm"
+              ],
+              "text_image_alignment_check": "Image shows 4 algorithm column-stacks; instructions ask children to use the standard algorithm with explicit regrouping."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "A1: 376+248=624. A2: 612-275=337. A3: 459+186=645. A4: 800-256=544."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Story Problems",
+          "student_instructions": "Read each story. Choose chunking or algorithm. Show your work and write the answer.",
+          "visual_layout": "Bottom of the page. Three story problem boxes stacked.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_THREE_STORIES",
+              "description": "Three story-problem boxes in B&W line-art, stacked vertically, each ~7in × 1.5in. Pre-filled stories: S1 'Tony has 456 nails. He uses 178 today. How many left?' S2 'Maya sold 234 books. She wants to sell 1000 total. How many more?' S3 'Tony's hardware store earned $389 yesterday and $475 today. Total?'",
+              "placement": "Bottom of the page; three stories stacked.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "story",
+                "problem"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_THREE_STORIES: keywords (story, problem) name what the boxes show."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "S1: 456-178=278 left. S2: 1000-234=766 more. S3: 389+475=$864."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write your own story problem with totals to 1000. Solve it.",
+  "teacher_notes": "Lesson 1 consolidation. Use Part 2 #A2 and #A4 (subtraction with regrouping) as the strongest tests of the algorithm. Watch for silent-regroup errors."
+}

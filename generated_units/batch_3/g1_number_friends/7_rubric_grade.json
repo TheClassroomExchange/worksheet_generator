@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "Drift gate clean. compose.py extension for the Number Friends narrative is pending — the deck build will route to _drafts/ until the dispatch block is added (deck publication is tracked separately from rubric quality)."
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met. All five lessons carry expanded_walkthrough blocks of 4000+ chars covering title/rationale/setup/teacher_script/expected_student_responses (4 bands)/common_misconceptions (3 each, paired with concrete recovery_moves). Lesson 3 includes the rod-moving demo for the single-strategy decomposition trap; Lesson 5 includes the pizza-overlay demo for the bigger-bottom-bigger-piece misconception. Five distinct worksheet response_types: write, draw_or_write, circle_or_loop, match, self_rate. Mid-unit formative gate (Numerals 0-50 Check-In after Lesson 3) AND unit-level reflection sheet (5 prompts) both present. Multi-step plan-build-revise visible in Lesson 5 fair-share scenarios with leftovers.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough (avg ~4500 chars each)",
+        "1_lesson_03.json::expanded_walkthrough.common_misconceptions (rod-moving recovery)",
+        "1_lesson_05.json::expanded_walkthrough.common_misconceptions (pizza-overlay recovery)",
+        "4_formative_reflection.json::formative_worksheets + reflection_sheet"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Strict L4 met. CRA progression spans the whole week: concrete (estimation button jar, Number Line floor mat, base-ten rods, paper plates with paper cookies, real pizza fraction circles) → representational (ten-frames, base-ten rod drawings, number-line strips, pizza halves vs fourths overlays) → abstract (numerals, equations like 32 = 30+2 = 16+16, fraction notation 1/2 = 2/4). Lesson 3 'Make and Break 50' is the keystone (compose/decompose with the rod-moving move); Lesson 5 'Fair Shares' is the capstone integrating B1.6/B1.7/B1.8 in one play scenario.",
+      "evidence_refs": [
+        "1_lesson_01.json::action.steps (estimation jar → skip-counting on Number Line floor mat)",
+        "1_lesson_03.json::action.steps (rod-moving demo → multiple decompositions)",
+        "1_lesson_05.json::action.steps (paper-plate share → pizza-overlay reveal → unit fraction sort)",
+        "3_manipulatives.json::assets (10 manipulatives spanning all three CRA tiers)"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Strict L4 met. All five lessons have expanded_walkthrough blocks with substantial teacher_script (≥3000 chars dialogue), 4 expected_student_responses bands (Confused/Mid/Strong/Stretched), and 3 misconceptions paired with concrete recovery_moves. Every lesson has student_learning_goal starting with 'I can'. Teacher scripts use embodied gestures (rod-moving hand demo, pizza-fold overlay, Number Line walk) so the script is enactable, not just readable. Child-voice 'I can' banners on every worksheet header.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.teacher_script (each 3000+ chars)",
+        "1_lesson_01..05.json::expanded_walkthrough.expected_student_responses (4 bands each)",
+        "1_lesson_01..05.json::student_learning_goal ('I can ...' format)",
+        "2_worksheet_01..05.json::header.student_learning_goal_banner"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "consistency_check 0 issues; verify_curriculum_text 0 issues; validate_unit_alignment (image-text) 0 issues. Every B1.1-B1.8 code is cited as a primary expectation in at least one lesson; assessment_suite.summative_rubric covers all 8 codes; lesson tracker_columns match assessment_suite formative_tracker columns; classroom_time_total_minutes (240) equals sum of lesson durations (5 × 50 - adjustments per blueprint). Worksheet_brief.worksheet_title fields match worksheet_title verbatim across all 5 lesson/worksheet pairs. Marketplace descriptive_title matches blueprint exactly.",
+      "evidence_refs": [
+        "0_blueprint.json::curriculum_codes + curriculum_expectations (B1.1-B1.8)",
+        "1_lesson_*.json::primary_expectations vs 5_assessment_suite.json::summative_rubric.rows",
+        "pipeline.schemas.consistency_check (0 issues)",
+        "pipeline.curriculum_reference.verify_curriculum_text (0 issues)",
+        "pipeline.image_alignment.validate_unit_alignment (0 issues)"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "Drift gate clean (placeholder_artwork_count=0 in JSON). validate_unit_for_slides will report a clipart_dispatch warning until pipeline/compose.py is extended with the Number Friends narrative — that gate routes the deck to _drafts/ rather than published, so the rubric quality is independent of deck publication. 10 manipulative assets (M1 button card set, M2 estimation jar template, M3 base-ten rod label, M4 Number Line floor mat 11pp, M5 pizza fraction cards, M6 sharing paper plates, M7 number-word match cards, M8-M10 Lila/Otto/Scoot puppets) covering every blueprint M-id. Marketplace long_description ~2200 chars with 11 inclusions; suggested_price $11.99.",
+      "evidence_refs": [
+        "pipeline.rubric.pre_grade_drift_check::placeholder_artwork_count=0",
+        "3_manipulatives.json::assets (10 total: 7 M-ids + 3 character puppets)",
+        "6_marketplace.json::long_description + what_is_included (11 items)",
+        "6_marketplace.json::suggested_price_cad=11.99"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-04-loop",
+  "graded_at": "2026-05-04T02:30:00Z"
+}

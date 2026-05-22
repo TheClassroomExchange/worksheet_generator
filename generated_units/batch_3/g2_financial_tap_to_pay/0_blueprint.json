@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_financial_tap_to_pay",
+  "thematic_title": "Tap to Pay — Grade 2 Money",
+  "descriptive_title": "Grade 2 Mathematics: Demonstrations — Equivalent Money Combinations (F1.1)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "F. Financial Literacy",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-2",
+  "curriculum_codes": ["F1.1"],
+  "curriculum_expectations": {
+    "F1.1": "identify different ways of representing the same amount of money up to Canadian 200¢ using various combinations of coins, and up to $200 using various combinations of $1 and $2 coins and $5, $10, $20, $50, and $100 bills"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on equivalent money combinations (F1.1) framed around 'Tap to Pay' — Tappy the Toonie Frog and Loonie Lou the Mouse. Day 1 reviews coins and shows MULTIPLE WAYS to make 50¢. Day 2 makes 100¢ ($1) with different coin combinations. Day 3 makes $2-$50 amounts using bills and coins. Day 4 introduces the $100 bill and amounts up to $200. Day 5 closes with a Big Tap-to-Pay Capstone where children find equivalent ways to pay. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will represent the same amount of money in different ways using coin and bill combinations up to $200.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Three Ways to 50¢", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "Same AMOUNT, different COINS. 50¢ = 2 quarters = 5 dimes = 50 pennies (historical).", "student_learning_goal": "I can make 50¢ in 3 different ways.", "one_line_summary": "Tappy shows 3 ways; children find their own combinations."},
+    {"lesson_number": 2, "lesson_title": "Make a Loonie", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "100¢ = $1 = 1 LOONIE = many coin combos.", "student_learning_goal": "I can make $1 in 3 different ways.", "one_line_summary": "Loonie Lou shows; children find $1 combos."},
+    {"lesson_number": 3, "lesson_title": "Bills and Coins", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "BIG amounts use BILLS. $25 = 2 tens + 1 fiver = 1 twenty + 1 fiver = many ways.", "student_learning_goal": "I can mix bills and coins to make amounts up to $50.", "one_line_summary": "Tappy makes $25 three ways; children try $35."},
+    {"lesson_number": 4, "lesson_title": "The Hundred Dollar Bill", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "The $100 bill is BROWN. We make amounts up to $200 with bills and coins.", "student_learning_goal": "I can make amounts up to $200.", "one_line_summary": "Loonie Lou shows the $100; children make $150."},
+    {"lesson_number": 5, "lesson_title": "The Big Tap-to-Pay Capstone", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "Same AMOUNT, MANY WAYS. We pick the way that uses the FEWEST or RIGHT bills.", "student_learning_goal": "I can find different ways to pay an amount.", "one_line_summary": "Children find 3 ways to pay each of 4 amounts."}
+  ],
+  "expectation_lesson_map": {"F1.1": [1, 2, 3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Tappy the Toonie Frog", "role": "Lead character. Coin combo expert. Anchors all 5 lessons.", "visual_description": "A cheerful frog with a toonie around its neck and a tap-to-pay card."},
+    {"name": "Loonie Lou the Mouse", "role": "Tappy's partner. Bill expert. Cameo Lessons 3-5.", "visual_description": "A small mouse with a loonie pendant and a stack of bills."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "equivalent", "child_friendly_definition": "Same VALUE, different COINS or BILLS."},
+    {"term": "combination", "child_friendly_definition": "A MIX of coins and bills."},
+    {"term": "loonie", "child_friendly_definition": "A $1 coin."},
+    {"term": "toonie", "child_friendly_definition": "A $2 coin."},
+    {"term": "fewest", "child_friendly_definition": "The smallest NUMBER of coins or bills."},
+    {"term": "exact", "child_friendly_definition": "Exactly EQUAL — no more, no less."},
+    {"term": "tap to pay", "child_friendly_definition": "Modern way: tap a card, pay exactly."},
+    {"term": "Canadian dollar", "child_friendly_definition": "Our money. CAD."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_coin_set", "name": "Canadian Coin Cards", "description": "40 paper coin cards (variety of denominations).", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M2_bill_set", "name": "Canadian Bill Cards", "description": "25 paper bill cards ($5, $10, $20, $50, $100).", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M3_combo_chart", "name": "Combo Recording Chart", "description": "Anchor chart with example combos for 50¢, $1, $25.", "used_in_lessons": [1, 2, 3, 5], "clipart_files": []},
+    {"id": "M4_amount_cards", "name": "Target Amount Cards", "description": "16 cards with target amounts (50¢, $1, $5, $25, $100, etc.).", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M5_tap_card", "name": "Tap-to-Pay Card", "description": "Letter-size paper tap card with 3 combo slots.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Big Tap-to-Pay Template", "description": "Letter-size capstone with 4 amounts and 3 combo lines each.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_money_chart", "name": "G2 Money Vocabulary Chart", "description": "Anchor chart with 8 G2 money words.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_record_strip", "name": "Combo Record Strips", "description": "30 paper strips for recording combos.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M9_pricetag_set", "name": "Item Price Cards", "description": "20 cards with items and prices.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Tap to Pay Poster", "description": "Anchor poster of Tappy and Lou with money tools.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["Coin Cards (40)", "Bill Cards (25)", "Combo Chart", "Amount Cards (16)", "Tap-to-Pay Card (per pair)", "Big Tap Template (per child)", "Vocabulary Chart", "Record Strips (30)", "Item Price Cards (20)", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 50¢ snapshot.", "formative": "Lesson 2 loonie tracker; Lesson 3 mixed tracker; Lesson 4 hundred tracker.", "summative": "Lesson 5 Big Tap-to-Pay capstone."},
+  "pedagogical_notes": [
+    "Grade 2 expands G1 from identification to EQUIVALENCE.",
+    "Children must SEE that 2 quarters = 5 dimes (same amount, different coins).",
+    "Use real coin cards — make it tactile.",
+    "Up to $200 means children handle $100 bill — show its features.",
+    "Tap-to-pay frame brings money up to date — modern Canadian context."
+  ],
+  "canadian_context_notes": [
+    "$100 bill is BROWN with Robert Borden.",
+    "Tap-to-pay debit and credit cards used widely in Canada.",
+    "Tim Hortons combos used for amount examples.",
+    "Hockey ticket = $25 example.",
+    "School fundraiser totals up to $200."
+  ]
+}

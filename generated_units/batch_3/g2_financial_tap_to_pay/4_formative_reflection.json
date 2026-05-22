@@ -1,0 +1,59 @@
+{
+  "schema_version": 1, "unit_id": "g2_financial_tap_to_pay",
+  "formative_worksheets": [{
+    "title": "The Combo Check", "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 min).",
+    "purpose": "Standalone formative check confirming combo creation before $100.",
+    "expectations_assessed": ["F1.1"],
+    "student_learning_goal": "I can make amounts in different ways.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can make amounts in different ways.",
+      "character_watermark": "Tappy the Frog with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "Show 2 ways to make $1.",
+       "visual_layout": "Two blank workspaces with one dollar labels.",
+       "image_placeholders": [{"id": "FORM_Q1_DOLLAR", "description": "Two blank workspaces for Grade 2 formative check, B&W line art. Each labelled '$1 =' for coin combos.",
+         "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["dollar", "ways"], "text_image_alignment_check": "FORM_Q1_DOLLAR at Prompt 1: keywords name the dollar combo ways task."}],
+       "response_type": "draw_or_write", "answer_key": "Any 2 valid combos for $1."},
+      {"prompt_number": 2, "prompt": "Show 1 way to make thirty-five dollars ($35).",
+       "visual_layout": "A blank thirty-five dollar workspace with $35 label.",
+       "image_placeholders": [{"id": "FORM_Q2_35", "description": "A blank thirty-five dollar workspace for Grade 2 formative check, B&W line art. Labelled '$35 =' for bills and coins combo.",
+         "placement": "Centred in Prompt 2.", "approximate_size": "medium", "keywords": ["thirty-five", "combo"], "text_image_alignment_check": "FORM_Q2_35 at Prompt 2: keywords name the thirty-five combo task."}],
+       "response_type": "draw_or_write", "answer_key": "Any valid combo for $35 (e.g., $20 + $10 + $5)."},
+      {"prompt_number": 3, "prompt": "How are you feeling? Circle the face.",
+       "visual_layout": "Three faces in a row.",
+       "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for Grade 2 formative check, B&W line art.",
+         "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"], "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."}],
+       "response_type": "self_rate", "answer_key": "Open."}
+    ],
+    "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+  }],
+  "reflection_sheet": {
+    "title": "My Tap-to-Pay Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Tappy and Lou with a Junior Money Master certificate in the top-right. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for Grade 2 reflection.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "rating"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the star rating visual."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Money Master!"]},
+      {"prompt_number": 2, "prompt": "Did you do these? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for Grade 2 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name response options."}],
+       "response_type": "circle_yes_no", "options": ["I made 50¢ in 3 ways.", "I made $1 in 3 ways.", "I mixed bills and coins.", "I used the $100 bill."]},
+      {"prompt_number": 3, "prompt": "My favourite money activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle for Grade 2 reflection.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the favourite activity focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for Grade 2 reflection.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword names the trickiest part focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for Grade 2 reflection.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the next-time focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Money Master certificate."
+  }
+}

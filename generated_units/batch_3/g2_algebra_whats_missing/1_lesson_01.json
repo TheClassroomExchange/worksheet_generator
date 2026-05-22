@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 1,
+  "lesson_title": "Symbols Stand In",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "A box, a blank, or a letter can stand for an unknown number. We call it a VARIABLE.",
+  "learning_intention": "We are learning to recognise when a symbol stands for an unknown number.",
+  "student_learning_goal": "I can recognise when a symbol stands for an unknown number.",
+  "success_criteria": [
+    "I can name a symbol that stands for an unknown number.",
+    "I can read an equation with a variable and say what the variable means.",
+    "I can use my own symbol to write an equation with an unknown."
+  ],
+  "vocabulary_introduced": [
+    "variable",
+    "unknown"
+  ],
+  "vocabulary_reinforced": [
+    "equal",
+    "expression",
+    "equation"
+  ],
+  "manipulatives_used": [
+    "M1_magnifying_cards",
+    "M9_variable_chart",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dee and Mystery Mo — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'A Variable Holds the Place'",
+    "Magnifying Glass Variable Cards (24)",
+    "Per-pair magnifying glass props (paper)",
+    "Lesson 1 variable tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dee's First Case",
+    "hook": "Detective Dee found a clue: 5 + ? = 12. What does the question mark stand for? Detective Dee opens: 'Variable, variable, hold the place — the unknown number fills the space!' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Detective Dee + Mystery Mo puppets. 'Friends — Detective Dee just got a new case. Let me read it.'\n\nDee whispers: 'I found 5 cookies on the table. Then someone added more. Now there are 12 cookies. How many were added?'\n\nWrite on the chart: 5 + ? = 12.\n\n'See the question mark? That stands for the UNKNOWN — the number we don't know YET. We call it a VARIABLE. A variable HOLDS THE PLACE of a missing value.'\n\nIntroduce vocabulary. Write VARIABLE on the chart. 'A variable can be a question mark, a box, a blank, or even a letter like n. They all do the same job: they stand for a number we want to find.'\n\nShow examples on the chart:\n5 + ? = 12\n5 + ☐ = 12\n5 + ___ = 12\n5 + n = 12\n\n'All four equations say the SAME THING. The variable is just a placeholder for the unknown.'\n\nNow another case. Dee finds: ☐ - 4 = 6. 'What does the box stand for?' Take responses. Help children see that the box is the unknown — what we need to find.\n\n'Today's job: hunt for variables. When you see a symbol standing for a missing number, you've found a VARIABLE.'",
+    "student_actions": [
+      "Listen to Detective Dee's case.",
+      "Echo new vocabulary: 'variable' and 'unknown'.",
+      "Identify the variable in each equation.",
+      "Predict what each variable stands for."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Variable-Hunt Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: read 4 equations together. Identify the variable in each. (a) 8 + ☐ = 14. (b) ? - 5 = 3. (c) n + 6 = 10. (d) 12 = 7 + ___.",
+        "teacher_prompt": "Say to students: 'Find the variable. Point to it. What does it stand for?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Variable-Hunt — pair sorts 12 equation cards into 'has a variable' and 'no variable'. Station B: Match the Variable — pair matches 8 equations with their variable values (without solving — just identify what the variable represents). Station C: Make Your Own — pair writes 4 equations using their own variable symbol.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: use a letter as a variable (n, x, or first initial). Discuss whether the symbol matters. (No — any symbol works.)",
+        "teacher_prompt": "Say to pairs: 'Pick any symbol. Box, letter, smiley face — all variables work the same.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the big idea. 'A variable HOLDS THE PLACE. It doesn't equal the answer YET. The answer comes when we find what makes the equation balance.' Reinforce that the variable is the UNKNOWN, not the answer itself.",
+        "teacher_prompt": "Use the magnifying glass: 'Detective Dee uses the variable to MARK where the unknown lives. We find the unknown by solving.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the variable tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What does the variable in this equation stand for?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: Two pairs show their Station C equations. Class compares: 'Did Pair A and Pair B use different symbols for the same kind of unknown? What stayed the SAME?' Cite Knuth et al. (2006) — variable understanding is symbol-agnostic.",
+        "teacher_prompt": "Detective Dee: 'Different symbols, same JOB — they all hold the place of an unknown number.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only equations with boxes — visual placeholders are easier than letters.",
+      "for_extending": "Stretch at Station C: use TWO variables in one equation (n + m = 10). Discuss what each stands for.",
+      "for_ell_or_iep": "Provide a structured frame: 'The ___ stands for the unknown number in this equation.'",
+      "for_movement_learners": "Stand-and-point activity. Teacher reads an equation; child points to the variable in their card. NO-PREP VERSION: teacher writes equations on the board; children make a FIST (variable!) and OPEN HAND (known number) to identify variables. Body becomes the equation."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: identifies the variable; explains it stands for an unknown; uses their own symbol correctly.",
+      "how_to_record": "Tick the variable tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Identifies variable",
+        "Explains 'unknown'",
+        "Uses own symbol",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dee's Variable Brag",
+    "discussion_prompts": [
+      "What does VARIABLE mean?",
+      "Why do we use a variable instead of a question mark for everything?",
+      "Can a letter be a variable? Give an example.",
+      "What's the difference between the variable and the answer?"
+    ],
+    "exit_routine": "Detective Dee's refrain — class chants 3x: 'Variable, variable, hold the place — the unknown number fills the space!' Then Detective Dee's signature: 'Find it! Then CHECK it! That's the Detective way!' Each child writes one variable equation on a sticky and circles the variable."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Variable identification accuracy and explanation quality.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already grasp the variable concept versus those who still treat the symbol as the answer. Diagnostic information for the rest of the unit."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes 'box = 8' instead of 'box stands for the unknown number 8' — repairing the variable-as-answer confusion",
+    "rationale": "When Grade-2 children meet variables for the first time, the dominant trap is variable-as-placeholder confusion: child accepts ☐ in 5 + ☐ = 12 but cannot articulate that ☐ STANDS for an unknown number. Kieran (1981, 'Concepts Associated with the Equality Symbol') and Knuth, Alibali, McNeil et al. (2006, 'Does Understanding the Equal Sign Matter?') place variable + equality understanding as the algebra-readiness gateway.\n\nToday: name variables. Tomorrow Lesson 2 finds missing addends; Lesson 3 finds missing minuends; Lesson 4 multi-step; Lesson 5 capstones.",
+    "setup": "Pair is at Station B. The card shows '5 + ☐ = 12'. The child says 'the box is 7'.",
+    "teacher_script": "Crouch beside the child. 'You're right — the unknown number IS 7. Now let's say it the detective way. The box STANDS FOR the unknown. The unknown is 7. So the box is HOLDING THE PLACE of 7 in this equation.'\n\nPause to let the child re-state. 'Try saying it: the box stands for 7.' Wait. The child says 'the box stands for 7'. 'YES! That's the detective way to say it. The box is the placeholder. 7 is what the placeholder holds.'\n\nNow generalise. 'Detective Dee says: the variable is like a CHAIR. The chair holds a place at the table. Whoever sits there fills the chair. The chair isn't the person — the chair is the spot for the person. Same with the variable. The box isn't the answer — the box is the spot WHERE the answer goes.'\n\nIf the child STILL says 'box = 7': use the magnifying glass prop. 'Look CLOSELY at the box. Is the box itself a number? No, it's a SHAPE. The shape is HIDING a number. We use the equation to find the hidden number. The box just marks where to look.'\n\nLong-term recovery: practice the sentence frame 'the variable STANDS FOR the unknown.' Drill it daily. Build the variable-as-placeholder reflex.",
+    "expected_student_responses": [
+      "(Confused) Says 'the box is 7' as if the box itself is the number 7.",
+      "(Mid) Says 'the box equals 7' — closer but still missing the placeholder framing.",
+      "(Strong) Says 'the box stands for the unknown number, which is 7.'",
+      "(Stretched) Explains that the variable holds a place; the same equation could have used any symbol; describes the variable as a placeholder, not the answer."
+    ],
+    "common_misconceptions": [
+      "The variable IS the answer. (Repair: the variable STANDS FOR the answer; the answer fills the placeholder.)",
+      "Different symbols mean different things. (Repair: any symbol works the same — box, letter, smiley face.)",
+      "The variable is part of the equation always. (Repair: once we find the unknown, we can replace the variable with the number.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child treats ☐ as a fixed shape: drill 'the box STANDS FOR a number we don't know yet'; show 3 different equations with ☐ = different values to surface variability.",
+      "DIAGNOSTIC B — child uses different symbols for the same unknown in one equation: name the rule 'one equation, one box'; child rewrites with consistent symbol.",
+      "DIAGNOSTIC C — child can name variable but cannot find value: drop to balance scale — physically place 5 + ☐ = 12; child solves by adding cubes until balanced."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dee's First Case",
+    "purpose": "Independent practice of C2.1 (variables as placeholders).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Circle the variable in 6 equations.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Match 4 equations to what the variable stands for.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write 3 of your own equations using a variable symbol.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dee in the worksheet header",
+      "6 equations for Part 1",
+      "4 matching pairs for Part 2",
+      "3 blank equation slots for Part 3"
+    ]
+  }
+}

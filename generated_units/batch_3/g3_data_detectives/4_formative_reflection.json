@@ -1,0 +1,59 @@
+{
+  "schema_version": 1, "unit_id": "g3_data_detectives",
+  "formative_worksheets": [{
+    "title": "The Frequency and Scale Check", "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 min).",
+    "purpose": "Standalone formative check confirming frequency table and scaled bar before mean.",
+    "expectations_assessed": ["D1.2", "D1.3"],
+    "student_learning_goal": "I can build a frequency table and read a scaled bar.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can build a frequency table and read a scaled bar.",
+      "character_watermark": "Detective Dot with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "Build a frequency table from a tally chart.",
+       "visual_layout": "Tally + blank table.",
+       "image_placeholders": [{"id": "FORM_Q1_TABLE", "description": "Tally chart + blank frequency table for Grade 3 formative check, B&W line art.",
+         "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["tally", "frequency"], "text_image_alignment_check": "FORM_Q1_TABLE at Prompt 1: keywords name the activity."}],
+       "response_type": "draw_or_write", "answer_key": "Counts entered correctly."},
+      {"prompt_number": 2, "prompt": "Scale: 1 unit = 5. Bar at 4 units = ? children.",
+       "visual_layout": "Bar graph illustration + answer line.",
+       "image_placeholders": [{"id": "FORM_Q2_SCALE", "description": "A bar graph illustration with a bar at 4 units. Scale labelled 1 unit = 5. Below: '___ children' answer line.",
+         "placement": "Centred in Prompt 2.", "approximate_size": "medium", "keywords": ["scale", "bar"], "text_image_alignment_check": "FORM_Q2_SCALE at Prompt 2: keywords name the activity."}],
+       "response_type": "draw_or_write", "answer_key": "20 children (4 × 5)."},
+      {"prompt_number": 3, "prompt": "How are you feeling? Circle the face.",
+       "visual_layout": "Three faces in a row.",
+       "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for Grade 3 formative check.",
+         "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"], "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."}],
+       "response_type": "self_rate", "answer_key": "Open."}
+    ],
+    "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+  }],
+  "reflection_sheet": {
+    "title": "My G3 Data Detective Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Dot and Tally with a Junior Data Detective certificate in the top-right. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for Grade 3 reflection.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "rating"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the visual."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Detective!"]},
+      {"prompt_number": 2, "prompt": "Did you do these? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for Grade 3 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name response options."}],
+       "response_type": "circle_yes_no", "options": ["I built a tree diagram.", "I built a frequency table.", "I used a scaled bar graph.", "I found mean and mode."]},
+      {"prompt_number": 3, "prompt": "My favourite data activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle for Grade 3 reflection.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for Grade 3 reflection.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword matches the prompt."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for Grade 3 reflection.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Data Detective certificate."
+  }
+}

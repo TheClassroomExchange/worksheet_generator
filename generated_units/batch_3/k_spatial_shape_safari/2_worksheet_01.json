@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "lesson_number": 1,
+  "worksheet_title": "Sammy's Shape Hunt",
+  "purpose": "Independent practice of A9.1 — identifying and naming 2D shapes. Used as Lesson 1 consolidation artifact and as evidence for the diagnostic checklist.",
+  "student_learning_goal": "I can identify and describe 2D shapes.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can identify and describe 2D shapes.",
+    "character_watermark": "Sammy the Safari Sloth in the top-right corner of the header, smiling and holding binoculars. Small (~1.5in tall). References the shared 'Sammy the Safari Sloth' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Match the shape!",
+          "student_instructions": "Draw a line from each shape to its name.",
+          "visual_layout": "A two-column matching activity centred on the page. Left column shows 5 shape images in B&W line art (circle, triangle, square, rectangle, hexagon), each ~1.2in tall, stacked vertically. Right column shows 5 shape names ('circle', 'triangle', 'square', 'rectangle', 'hexagon') in scrambled order, also stacked vertically. A wide gap between columns invites the student to draw connecting lines.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_SHAPES",
+              "description": "Five 2D shape thumbnails arranged in a vertical column for a Kindergarten matching activity. From top to bottom: circle, triangle (equilateral, point up), square, rectangle (wider than tall), hexagon. Each shape is a clean B&W outline ~1.2in tall, with no fill, suitable for printing. Generous spacing between shapes for easy line-drawing.",
+              "placement": "Left column of Part 1, vertically centred.",
+              "approximate_size": "small",
+              "keywords": ["circle", "triangle", "square", "rectangle", "hexagon"],
+              "text_image_alignment_check": "Image WS01_P1_SHAPES at left column of Part 1: the shape names listed in the right-column word bank (circle, triangle, square, rectangle, hexagon) match exactly the visual shapes drawn. Each keyword names a shape that the student must see and identify."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Each line connects each shape to its correct name: circle→circle, triangle→triangle, square→square, rectangle→rectangle, hexagon→hexagon."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Round or Straight-sided?",
+          "student_instructions": "Look at each shape. Write R inside each ROUND shape. Write S inside each STRAIGHT-SIDED shape.",
+          "visual_layout": "A 2×4 grid of 8 shape thumbnails centred on the page, each cell ~1.4in square. Shapes shown: circle, triangle, oval, square, hexagon, rectangle, pentagon, semicircle. Each shape has a thin B&W outline with enough internal space for the child to write a single letter (R or S). Below the grid, two small legend boxes labelled 'R = round' (with a small circle icon) and 'S = straight-sided' (with a small triangle icon) remind the child of the code.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_GRID",
+              "description": "An eight-cell shape grid in B&W line art arranged in 2 rows of 4. Top row left to right: circle, triangle, oval, square. Bottom row left to right: hexagon, rectangle, pentagon, semicircle. Each shape is centred in a square cell ~1.4in, no fill, ready to be coloured. Light borders separate cells.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["circle", "triangle", "square", "hexagon", "rectangle"],
+              "text_image_alignment_check": "Image WS01_P2_GRID at Part 2: student_instructions tell the child to colour ROUND or STRAIGHT-SIDED shapes. Visual shows shape categories that include round (circle, oval, semicircle) and straight-sided (triangle, square, hexagon, rectangle, pentagon)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "ROUND shapes (write R): circle, oval, semicircle. STRAIGHT-SIDED shapes (write S): triangle, square, hexagon, rectangle, pentagon."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Find shapes in your classroom!",
+          "student_instructions": "Look around your classroom. Find 3 things that have a 2D shape. Draw each one. Write the shape name beside your drawing.",
+          "visual_layout": "Three rows of two-column workspaces stacked vertically. Each row has a left column for the drawing (a blank 2in × 1.5in box with a thin border) and a right column with a label line '____________ shape' for the child to write the name. To the right of all three rows is a small reference column with the 5 shape names stacked vertically (circle, triangle, square, rectangle, hexagon), so the child can copy the spelling.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_BOXES",
+              "description": "Three blank drawing boxes stacked vertically for a Kindergarten worksheet. Each box is ~2in wide × 1.5in tall, with a thin solid border, no fill or content. To the right of each box, a horizontal label line for writing the shape name. The full layout is suitable for a child to draw a classroom object then write its shape underneath.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": ["shape", "classroom"],
+              "text_image_alignment_check": "Image WS01_P3_BOXES at Part 3: student_instructions ask the child to find 3 things in their classroom and draw them. The blank boxes provide drawing workspace; the keywords 'shape' and 'classroom' name what the activity is about."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 valid examples. Common: clock=circle, book=rectangle, door=rectangle, triangle ruler=triangle, window=square or rectangle, plate=circle. Accept any reasonable answer where shape name matches the object's primary 2D outline."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw 1 more shape from outside the classroom. Where do you see it?",
+  "teacher_notes": "Lesson 1 consolidation artifact. Hand out at the end of the Action phase. Most children should complete Parts 1 and 2 independently. For Part 3, accept any valid match between drawing and shape name. Use Part 3 as evidence for the diagnostic checklist column 'Identifies shapes (independent)'. Children who can't complete Part 1 likely need a re-loop on shape names before moving to Lesson 2."
+}

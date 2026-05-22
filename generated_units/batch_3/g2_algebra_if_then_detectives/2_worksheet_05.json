@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 5,
+  "worksheet_title": "My IF-THEN Code",
+  "purpose": "Summative evidence for C3.1 + C3.2.",
+  "student_learning_goal": "I can write my own IF-THEN code for a math task.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can write my own IF-THEN code for a math task.", "character_watermark": "Inspector If and Then the Action Dog together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Code", "student_instructions": "Pick a math task. Write IF-THEN code with TWO branches.", "visual_layout": "Top of page. A code-writing area with 2-branch slots.",
+      "image_placeholders": [{"id": "WS05_P1_CODE", "description": "A code-writing area in B&W line-art, ~7in x 2in. Header 'Part 1: My Code'. 'Task: ___', 'IF ___, THEN ___.', 'IF NOT ___, THEN ___.'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["my", "code"], "text_image_alignment_check": "Image WS05_P1_CODE: keywords (my, code) name what the area asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Both branches must be present."},
+    {"part_number": 2, "part_title": "Part 2: Trace 3 Inputs", "student_instructions": "Pick 3 sample inputs. Trace your code. Predict outcomes.", "visual_layout": "Upper-middle. A trace table.",
+      "image_placeholders": [{"id": "WS05_P2_TRACE", "description": "A trace table in B&W line-art, ~7in x 2in. Header 'Part 2: Trace 3 Inputs'. 3 rows: 'Input ___ → Outcome ___'. Each row has space for input and outcome.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["trace"], "text_image_alignment_check": "Image WS05_P2_TRACE: keywords (trace) name what the table asks for."}],
+      "student_response_type": "write", "answer_key": "Open. All 3 outcomes must match the traces."},
+    {"part_number": 3, "part_title": "Part 3: Alter and Re-trace", "student_instructions": "Alter ONE part of your code. Re-trace the same 3 inputs. Predict new outcomes.", "visual_layout": "Lower-middle. An altered trace table.",
+      "image_placeholders": [{"id": "WS05_P3_ALTER", "description": "An altered trace table in B&W line-art, ~7in x 2.5in. Header 'Part 3: Alter and Re-trace'. 'Altered code: ___'. 3 rows: 'Input ___ → New outcome ___'.", "placement": "Lower-middle.", "approximate_size": "full_width", "keywords": ["alter", "outcome"], "text_image_alignment_check": "Image WS05_P3_ALTER: keywords (alter, outcome) name what the table asks for."}],
+      "student_response_type": "write", "answer_key": "Open. New outcomes must reflect the alteration."},
+    {"part_number": 4, "part_title": "Part 4: Reflection", "student_instructions": "Which alteration changed the most outcomes? Why?", "visual_layout": "Bottom. A reflection box.",
+      "image_placeholders": [{"id": "WS05_P4_REFLECT", "description": "A reflection box in B&W line-art, ~7in x 1.5in, with 2 lines. Header 'Part 4: Reflection'. Lines: 'Most outcomes changed because: ___'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["reflection"], "text_image_alignment_check": "Image WS05_P4_REFLECT: keywords (reflection) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Should articulate the connection between alteration type and outcome change."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and trace each other's code with new inputs.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use as integrated C3.1 + C3.2 evidence."
+}

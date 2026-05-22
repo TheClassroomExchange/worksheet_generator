@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "thematic_title": "If-Then Detectives",
+  "descriptive_title": "Grade 2 Mathematics: Algebra (Coding) — Conditional Statements and Code Reading Without Screens (C3.1-C3.2)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math",
+  "curriculum_codes": ["C3.1", "C3.2"],
+  "curriculum_expectations": {
+    "C3.1": "solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves conditional statements and other control structures",
+    "C3.2": "read and alter existing code, including code that involves conditional statements and other control structures, and describe how changes to the code affect the outcomes"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on coding without screens (C3.1-C3.2) framed around 'If-Then Detectives' — Inspector If the Conditional Cat and her partner Then the Action Dog. Day 1 introduces conditional statements: 'IF X happens, THEN do Y'. Day 2 writes IF-THEN code for math situations. Day 3 reads existing IF-THEN code and predicts outcomes. Day 4 alters IF-THEN code and describes effects. Day 5 closes with child-invented IF-THEN projects. Each lesson includes an expanded_walkthrough covering common Grade-2 misconceptions: the always-true trap, the missed branch trap, the alteration-doesn't-matter trap. The unit progresses concrete (physical IF-THEN sorting) → representational (code cards with IF-THEN) → abstract (multi-conditional code).",
+  "unit_learning_goal": "Children will write and execute code with conditional statements; read and alter existing IF-THEN code; and describe how changes to the conditions affect the outcomes.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "What's an IF-THEN?", "primary_expectations": ["C3.1"], "secondary_expectations": [], "big_idea": "An IF-THEN statement says: IF a condition is true, THEN do an action. Real-life examples: IF it rains, THEN take an umbrella.", "student_learning_goal": "I can read an IF-THEN statement and explain what it means.", "one_line_summary": "Inspector If sorts everyday IF-THEN statements; children create their own."},
+    {"lesson_number": 2, "lesson_title": "Writing IF-THEN Code", "primary_expectations": ["C3.1"], "secondary_expectations": [], "big_idea": "We can write IF-THEN code for math: IF the number is even, THEN clap. IF the number is odd, THEN stomp.", "student_learning_goal": "I can write IF-THEN code for a math situation.", "one_line_summary": "Children write IF-THEN code for sorting tasks (even/odd, big/small) using code cards."},
+    {"lesson_number": 3, "lesson_title": "Reading IF-THEN Code", "primary_expectations": ["C3.2"], "secondary_expectations": ["C3.1"], "big_idea": "Reading IF-THEN code means following the condition and predicting the action. We trace the code with example values.", "student_learning_goal": "I can read IF-THEN code and predict the outcome.", "one_line_summary": "Children trace existing IF-THEN code with sample inputs and predict outputs."},
+    {"lesson_number": 4, "lesson_title": "Altering IF-THEN Code", "primary_expectations": ["C3.2"], "secondary_expectations": [], "big_idea": "Changing the condition or the action changes the outcome. IF X, THEN Y becomes IF X, THEN Z — the action changes.", "student_learning_goal": "I can alter IF-THEN code and describe the effect.", "one_line_summary": "Children alter existing IF-THEN code (change condition, change action, swap branches) and predict the effect."},
+    {"lesson_number": 5, "lesson_title": "My IF-THEN Project Capstone", "primary_expectations": ["C3.1", "C3.2"], "secondary_expectations": [], "big_idea": "We can write our own IF-THEN code for a math task in our life. Sort, classify, decide, repeat.", "student_learning_goal": "I can write my own IF-THEN code for a math task.", "one_line_summary": "Children invent a math sorting task with IF-THEN code; gallery walk and share."}
+  ],
+  "expectation_lesson_map": {"C3.1": [1, 2, 3, 5], "C3.2": [3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Inspector If the Conditional Cat", "role": "Lead character. A friendly cat detective with a notebook for sorting IF cases. Anchors all 5 lessons.", "visual_description": "A friendly cat with a deerstalker cap, notebook, and a magnifying glass. Cheerful expression, striped tail, alert ears."},
+    {"name": "Then the Action Dog", "role": "Inspector If's action partner. The 'do-the-thing' character. Cameo Lessons 2-5.", "visual_description": "An eager dog with a tool belt and a bandana. Tongue out, tail wagging. Holds an action card."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "condition", "child_friendly_definition": "Something that is either TRUE or FALSE. The IF part of an IF-THEN."},
+    {"term": "action", "child_friendly_definition": "Something we DO. The THEN part of an IF-THEN."},
+    {"term": "IF-THEN", "child_friendly_definition": "A code statement. IF a condition is TRUE, THEN do the action."},
+    {"term": "true", "child_friendly_definition": "When something is the case. The condition is TRUE means it happened."},
+    {"term": "false", "child_friendly_definition": "When something is NOT the case. The condition is FALSE means it didn't happen."},
+    {"term": "outcome", "child_friendly_definition": "What HAPPENS as a result of the code. The outcome is the action that ran."},
+    {"term": "alter", "child_friendly_definition": "To CHANGE something. We alter code by changing a condition or an action."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_if_then_cards", "name": "IF-THEN Statement Cards", "description": "Set of 24 cards each showing an IF-THEN statement (everyday + math). Used Lessons 1-3.", "used_in_lessons": [1, 2, 3], "clipart_files": []},
+    {"id": "M2_condition_cards", "name": "Condition Cards", "description": "Set of 12 condition cards (e.g., 'IF the number is even', 'IF it is sunny', 'IF the count is more than 10').", "used_in_lessons": [1, 2, 3, 4], "clipart_files": []},
+    {"id": "M3_action_cards", "name": "Action Cards", "description": "Set of 12 action cards (e.g., 'THEN clap', 'THEN take an umbrella', 'THEN add 1 more').", "used_in_lessons": [1, 2, 3, 4], "clipart_files": []},
+    {"id": "M4_input_cards", "name": "Input Number Cards", "description": "Set of 20 input number cards (numbers 1-50) for tracing IF-THEN code.", "used_in_lessons": [3, 4], "clipart_files": []},
+    {"id": "M5_alteration_cards", "name": "Code Alteration Cards", "description": "Set of 8 cards each with an original IF-THEN and an alteration instruction (e.g., 'change THEN clap to THEN jump').", "used_in_lessons": [4], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Capstone IF-THEN Template", "description": "Letter-size template for Lesson 5 capstone.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_sorting_mat", "name": "IF-THEN Sorting Mat", "description": "Letter-size mat with TRUE column and FALSE column. Used to sort conditions.", "used_in_lessons": [1, 2, 3], "clipart_files": []},
+    {"id": "M8_two_colour_counters", "name": "Two-Colour Counters", "description": "20 per pair for IF-THEN tracing.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M9_truth_chart", "name": "TRUE / FALSE Anchor Chart", "description": "Large classroom anchor chart explaining TRUE and FALSE for conditions.", "used_in_lessons": [1, 2, 3, 4], "clipart_files": []},
+    {"id": "M10_if_then_poster", "name": "If-Then Detectives Anchor Poster", "description": "Large classroom anchor showing Inspector If and Then the Action Dog with a sample IF-THEN code.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "IF-THEN Statement Cards (24)",
+    "Condition Cards (12)",
+    "Action Cards (12)",
+    "Input Number Cards (20)",
+    "Code Alteration Cards (8)",
+    "Capstone IF-THEN Templates (one per child)",
+    "IF-THEN Sorting Mats (one per pair)",
+    "Two-colour counters (20 per pair)",
+    "TRUE / FALSE Anchor Chart",
+    "If-Then Detectives Anchor Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 IF-THEN snapshot: each child reads 4 IF-THEN statements and labels them TRUE or FALSE for given inputs. Tally accuracy.",
+    "formative": "Lesson 2 writing tracker; Lesson 3 reading tracker; Lesson 4 altering tracker.",
+    "summative": "Lesson 5 IF-THEN Project worksheet — children invent a math IF-THEN code. Captures C3.1 + C3.2 in one creative artifact."
+  },
+  "pedagogical_notes": [
+    "C3.1 with conditionals adds a new layer beyond Grade-1 sequencing. Children must check the condition before running the action.",
+    "C3.2 reading must include tracing — substitute an input value, check the condition, run the matching action.",
+    "The TRUE/FALSE distinction is foundational. Use the sorting mat throughout.",
+    "Avoid overly complex conditions in Grade 2. Stick to single conditions (even/odd, big/small, more-than-N).",
+    "Real-life IF-THENs (umbrella, traffic light) ground the abstract syntax."
+  ],
+  "canadian_context_notes": [
+    "Real-life examples: IF it snows, THEN wear boots. IF the Leafs win, THEN cheer. IF the Tim Hortons line is long, THEN order ahead.",
+    "Hockey rules as IF-THEN: IF a player scores, THEN add 1 to the team's score. IF the goalie catches it, THEN no goal.",
+    "Toonie/loonie examples: IF you have 2 toonies, THEN you have $4."
+  ]
+}

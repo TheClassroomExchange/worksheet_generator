@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "lesson_number": 2,
+  "worksheet_title": "Mira's 3D Hunt",
+  "purpose": "Independent practice of A9.2 — identifying 3D shapes and distinguishing them from 2D. Used as Lesson 2 consolidation artifact and as evidence for the formative tracker.",
+  "student_learning_goal": "I can identify and describe 3D shapes.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can identify and describe 3D shapes.",
+    "character_watermark": "Mira the Map-Making Monkey in the top-right corner of the header, holding a compass. Small (~1.5in tall). References the shared 'Mira the Map-Making Monkey' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Match the 3D shape!",
+          "student_instructions": "Draw a line from each 3D shape to its name.",
+          "visual_layout": "A two-column matching activity centred on the page. Left column shows 5 3D shape pictures rendered with light shading to suggest depth (sphere, cube, cylinder, cone, pyramid), each ~1.3in tall, stacked vertically. Right column shows 5 names ('sphere', 'cube', 'cylinder', 'cone', 'pyramid') in scrambled order, also stacked. A wide gap between columns invites the student to draw connecting lines.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_SHAPES",
+              "description": "Five 3D shape thumbnails arranged in a vertical column for a Kindergarten matching activity. From top to bottom: sphere (round ball with a single shading line), cube (showing 3 faces), cylinder (with curved top edge), cone (with a circular base), pyramid (square base, 4 triangular faces). Each shape ~1.3in tall, B&W with light shading to convey depth, generous spacing for line-drawing.",
+              "placement": "Left column of Part 1, vertically centred.",
+              "approximate_size": "small",
+              "keywords": ["sphere", "cube", "cylinder", "cone", "pyramid"],
+              "text_image_alignment_check": "Image WS02_P1_SHAPES at left column of Part 1: the 3D shape names listed in the right column (sphere, cube, cylinder, cone, pyramid) match the visual shapes. Each keyword names a shape that the student must see and identify."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "sphere→sphere, cube→cube, cylinder→cylinder, cone→cone, pyramid→pyramid."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: 2D or 3D?",
+          "student_instructions": "Look at each shape. Write 2D under the FLAT shapes. Write 3D under the SOLID shapes.",
+          "visual_layout": "A 2×4 grid of 8 shape thumbnails centred on the page, each cell ~1.5in square. Shapes shown alternate between 2D and 3D: circle, sphere, square, cube, triangle, pyramid, rectangle, cylinder. Below each shape is a label line for the child to write '2D' or '3D'. 3D shapes are drawn with light shading; 2D shapes are flat outlines.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_GRID",
+              "description": "An eight-cell shape grid in B&W line art arranged in 2 rows of 4. Top row left to right: circle (flat outline), sphere (shaded ball), square (flat outline), cube (3 faces visible). Bottom row left to right: triangle (flat outline), pyramid (3D, square base), rectangle (flat outline), cylinder (3D with curved edge). Each cell ~1.5in square; below each shape is a label line for the child to write '2D' or '3D'.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["circle", "sphere", "square", "cube", "triangle", "pyramid", "rectangle", "cylinder"],
+              "text_image_alignment_check": "Image WS02_P2_GRID at Part 2: instructions ask the child to identify FLAT (2D) vs SOLID (3D). Visual alternates 2D and 3D shapes; keywords name each shape so the child sees which is flat (circle, square, triangle, rectangle) vs solid (sphere, cube, pyramid, cylinder)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "2D (flat): circle, square, triangle, rectangle. 3D (solid): sphere, cube, pyramid, cylinder."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Find 3D shapes in your classroom!",
+          "student_instructions": "Look around your classroom. Find 3 things that are 3D. Draw each one. Write the 3D shape name beside your drawing.",
+          "visual_layout": "Three rows of two-column workspaces stacked vertically. Each row has a left column with a blank 2in × 1.5in drawing box (thin border) and a right column with a label line '__________ shape' for writing the 3D shape name. To the right of all three rows, a small reference column lists the 5 3D names stacked vertically: sphere, cube, cylinder, cone, pyramid.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_BOXES",
+              "description": "Three blank drawing boxes stacked vertically for a Kindergarten worksheet. Each box is ~2in wide × 1.5in tall, with a thin solid border. Beside each box, a horizontal line for writing the 3D shape name. Suitable for the child to draw a 3D classroom object (e.g., ball, can, dice) and label its 3D shape (sphere, cylinder, cube).",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": ["sphere", "cube", "cylinder", "cone", "pyramid"],
+              "text_image_alignment_check": "Image WS02_P3_BOXES at Part 3: instructions ask the child to find 3 3D things in their classroom and draw them. The blank boxes provide drawing workspace; the keywords name the 3D shapes the child must identify (ball=sphere, dice=cube, can=cylinder, etc.)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 valid examples. Common: ball=sphere, dice/Rubik's cube=cube, soup can=cylinder, party hat/pylon=cone, building block=cube or pyramid. Accept any reasonable answer where the 3D shape name matches the object's primary form."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, find 1 more 3D shape outside your classroom. Where do you see it?",
+  "teacher_notes": "Lesson 2 consolidation artifact. Hand out at the end of the Action phase. Most children should complete Parts 1 and 2 with one prompt. For Part 3, accept any valid match between drawing and 3D shape name. Use Part 2 as the formative evidence for distinguishing 2D vs 3D — this is the key signal for whether the child holds the flat-vs-solid distinction. Children who confuse 2D and 3D in Part 2 likely need a hands-on re-loop with real 3D models before moving to Lesson 3."
+}

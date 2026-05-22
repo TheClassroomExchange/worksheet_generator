@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "lesson_number": 3,
+  "worksheet_title": "Bills — Read the Value",
+  "purpose": "Practise reading the WHOLE numeral on $5/$10/$20 bills, building the same total two ways, and comparing values to surface the front-digit misconception (saying $5 > $20 because '5 > 2').",
+  "student_learning_goal": "I can identify bills up to $20.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can identify bills up to $20.",
+    "character_watermark": "Coin Cassie the Cashier in the top-right with bill stack and cash register. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Read the WHOLE number.",
+          "student_instructions": "Look at each bill. Write its VALUE in dollars. Read the WHOLE number, not just the front digit.",
+          "visual_layout": "Three bills shown ($5, $10, $20) with a blank line under each for the dollar value. Each bill has the numeral clearly visible. A small reminder at top: 'NUMBER says VALUE.'",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_COLOUR",
+              "description": "A Grade 1 bill-colour match for money worksheet, B&W line art. Left: $5, $10, $20 bills. Right: BLUE, PURPLE, GREEN colour labels.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "bills",
+                "colours"
+              ],
+              "text_image_alignment_check": "WS03_P1_COLOUR at Part 1: keywords name the bills colours match task."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "$5 → 5 dollars; $10 → 10 dollars; $20 → 20 dollars. Watch for front-digit error ($20 → 'two')."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Build the same VALUE two ways.",
+          "student_instructions": "Penny needs $10. Show TWO different ways to build $10 using bills. Draw or circle which bills.",
+          "visual_layout": "Two boxes labelled 'Way 1' and 'Way 2' with empty bill outlines. A bank of bill icons ($5, $10) at the bottom for reference. Penny says: 'Same VALUE, different ways!'",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_VALUES",
+              "description": "A Grade 1 bill-value match for money worksheet, B&W line art. Left: 3 bills. Right: $5, $10, $20.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "bills",
+                "values"
+              ],
+              "text_image_alignment_check": "WS03_P2_VALUES at Part 2: keywords name the bills values match task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Way 1: one $10 bill. Way 2: two $5 bills. Both make $10."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: TRANSFER — which is more?",
+          "student_instructions": "Look at each pair. Circle the bill (or set of bills) with the HIGHER value. Read the whole number first.",
+          "visual_layout": "Three rows: (a) $5 bill vs $20 bill, (b) two $5 bills vs one $20 bill, (c) three $5 bills vs one $10 bill. Each row has a YES/NO option for circling. Watch the front-digit trap: a child might choose $5 over $20 because '5 > 2'.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_SORT",
+              "description": "A Grade 1 bill sort for money worksheet, B&W line art. 6 mixed bills at top. 3 bins at bottom: BLUE, PURPLE, GREEN.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "bills",
+                "bins"
+              ],
+              "text_image_alignment_check": "WS03_P3_SORT at Part 3: keywords name the bills bins sort task."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "(a) $20 (twenty > five); (b) $20 ($10 vs $20); (c) $15 vs $10 — three $5s = $15 > $10."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw the $20 bill from memory.",
+  "teacher_notes": "Watch for the front-digit error in Part 3 — children choose $5 over $20 because '5 > 2'. Refer to expanded_walkthrough Diagnostic A for recovery: drill reading the WHOLE numeral aloud. Part 2 is the compose-two-ways task that anchors equivalent-value reasoning."
+}

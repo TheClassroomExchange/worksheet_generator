@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "lesson_number": 3,
+  "worksheet_title": "Detective Dee's Subtraction.",
+  "purpose": "Independent practice of C2.2 (find missing number in subtraction).",
+  "student_learning_goal": "I can find the missing number in a subtraction equation.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can find the missing number in a subtraction equation.",
+    "character_watermark": "Detective Dee in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Subtraction to 50 (Missing-Subtrahend)",
+          "student_instructions": "Find the missing number. The variable is what's REMOVED.",
+          "visual_layout": "Top of page. Six equation rows where the unknown is removed.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_MS",
+              "description": "Six equation rows in B&W line-art, ~7in x 3in. Pre-printed equations: 14 - ☐ = 6, 20 - ? = 12, 25 - ☐ = 10, 30 - ? = 18, 40 - ☐ = 25, 50 - ? = 35. Header 'Subtraction to 50:'.",
+              "placement": "Top of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "subtraction",
+                "removed"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_MS: keywords (subtraction, removed) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "8, 8, 15, 12, 15, 15."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Subtraction to 100 (Missing-Minuend)",
+          "student_instructions": "Find the missing number. The variable is the STARTING number — use the addition trick.",
+          "visual_layout": "Middle of page. Six equation rows where the unknown is the start.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_MM",
+              "description": "Six equation rows in B&W line-art, ~7in x 3in. Pre-printed equations: ☐ - 5 = 25, ? - 10 = 50, ☐ - 15 = 60, ? - 20 = 70, ☐ - 25 = 50, ? - 30 = 65. Header 'Subtraction to 100:'.",
+              "placement": "Middle of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "starting"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_MM: keywords (starting) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "30, 60, 75, 90, 75, 95."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Own Case",
+          "student_instructions": "Write your own subtraction missing-number case. Pick where the variable goes. Solve.",
+          "visual_layout": "Bottom of page. A blank case box.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_OWN",
+              "description": "A blank case-and-equation box in B&W line-art, ~7in x 2.5in. Top: case description lines. Middle: 'Equation: ___ - ___ = ___'. Bottom: 'Answer: ___'. Header 'My Case:'.",
+              "placement": "Bottom of page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "case"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_OWN: keywords (case) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Case must be a missing-number subtraction with a verified solution."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, swap with a partner and solve their case.",
+  "teacher_notes": "Lesson 3 worksheet practices C2.2 subtraction. Watch for position confusion — children who treat all subtraction the same."
+}

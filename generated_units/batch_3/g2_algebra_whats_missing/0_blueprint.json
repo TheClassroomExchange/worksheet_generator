@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "thematic_title": "What's Missing?",
+  "descriptive_title": "Grade 2 Mathematics: Algebra — Variables, Equivalent Expressions, and Missing-Value Equations for Numbers to 100 (C2.1-C2.3)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math",
+  "curriculum_codes": ["C2.1", "C2.2", "C2.3"],
+  "curriculum_expectations": {
+    "C2.1": "identify when symbols are being used as variables, and describe how they are being used",
+    "C2.2": "determine what needs to be added to or subtracted from addition and subtraction expressions to make them equivalent",
+    "C2.3": "identify and use equivalent relationships for whole numbers up to 100, in various contexts"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on Algebra framed around 'What's Missing?' — Detective Dee the Math Sleuth and her assistant Mystery Mo. Day 1 introduces symbols as variables (C2.1) — boxes, blanks, and letters that stand in for unknown numbers. Day 2 finds missing values in addition equations (C2.2) — what gets added to balance the two sides. Day 3 finds missing values in subtraction equations (C2.2). Day 4 hunts for equivalent expressions to whole numbers up to 100 (C2.3). Day 5 closes with child-created mystery cases that link variables, missing numbers, and equivalent expressions. The unit progresses concrete (counters on a balance) → representational (drawn balance scales with unknowns) → abstract (variable equations).",
+  "unit_learning_goal": "Children will identify symbols used as variables; determine what to add or subtract to make two expressions equivalent; and find equivalent relationships for whole numbers up to 100.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Symbols Stand In", "primary_expectations": ["C2.1"], "secondary_expectations": [], "big_idea": "A box, a blank, or a letter can stand for an unknown number. We call it a VARIABLE. The variable holds the place of a missing value.", "student_learning_goal": "I can recognise when a symbol stands for an unknown number.", "one_line_summary": "Detective Dee introduces the concept of a variable using a magnifying glass and missing-number cases."},
+    {"lesson_number": 2, "lesson_title": "Missing Number in Addition", "primary_expectations": ["C2.2"], "secondary_expectations": ["C2.1"], "big_idea": "If 5 + ? = 12, the missing number is 7. We find what makes the two sides EQUIVALENT.", "student_learning_goal": "I can find the missing number in an addition equation.", "one_line_summary": "Children solve missing-addend puzzles using counters, balance scales, and number lines."},
+    {"lesson_number": 3, "lesson_title": "Missing Number in Subtraction", "primary_expectations": ["C2.2"], "secondary_expectations": ["C2.1"], "big_idea": "If 12 - ? = 7, the missing number is 5. Subtraction works the same way — the variable is what we need to make the two sides equivalent.", "student_learning_goal": "I can find the missing number in a subtraction equation.", "one_line_summary": "Mystery Mo presents subtraction missing-number puzzles; children solve with counters and number lines."},
+    {"lesson_number": 4, "lesson_title": "Many Ways to Make 50 (and 100)", "primary_expectations": ["C2.3"], "secondary_expectations": [], "big_idea": "Many addition and subtraction expressions equal the same number. 50 = 25+25 = 40+10 = 60-10. They are EQUIVALENT.", "student_learning_goal": "I can find many equivalent expressions for the same whole number up to 100.", "one_line_summary": "Equivalent-expression hunt for target numbers (50, 75, 100); record on a chart; partner-share results."},
+    {"lesson_number": 5, "lesson_title": "Mystery Case Capstone", "primary_expectations": ["C2.1", "C2.2", "C2.3"], "secondary_expectations": [], "big_idea": "We can write a mystery case that uses a variable, a missing number, and an equivalent expression. Detective Dee solves cases with all three skills.", "student_learning_goal": "I can write a mystery case using a variable and solve it.", "one_line_summary": "Children invent a mystery case (e.g., 'Detective Dee found 25 cookies. ? more make 50.'); draw and write the equation."}
+  ],
+  "expectation_lesson_map": {"C2.1": [1, 2, 3, 5], "C2.2": [2, 3, 5], "C2.3": [4, 5]},
+  "recurring_characters": [
+    {"name": "Detective Dee the Math Sleuth", "role": "Lead character. A young detective in a trench coat with a magnifying glass. Anchors all 5 lessons. Loves missing-number cases.", "visual_description": "A young Grade-2er in a small detective trench coat, deerstalker cap, holding a magnifying glass. Eager smile, neat braided hair, mathematical detective badge."},
+    {"name": "Mystery Mo the Assistant", "role": "Detective Dee's partner. The 'check-it' character — when Dee proposes a missing number, Mo verifies. Cameo Lessons 2-5.", "visual_description": "A young Grade-2er in a striped shirt and bow-tie, carrying a small notebook and pencil. Curious expression, slight grin, cap turned sideways."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "variable", "child_friendly_definition": "A symbol that stands for an unknown number. The box, blank, or letter holds the place."},
+    {"term": "unknown", "child_friendly_definition": "A number we don't know yet. The variable stands for the unknown."},
+    {"term": "equivalent", "child_friendly_definition": "Equal in value. Two expressions are equivalent when they name the same number."},
+    {"term": "expression", "child_friendly_definition": "A math sentence with numbers and operations. 5 + 3 is an expression."},
+    {"term": "equation", "child_friendly_definition": "A math sentence that says two expressions are equal. 5 + 3 = 8 is an equation."},
+    {"term": "missing number", "child_friendly_definition": "The unknown number in an equation. Find what makes both sides equivalent."},
+    {"term": "balance", "child_friendly_definition": "When two amounts are the same, the balance scale stays level. We use balance to picture equations."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_magnifying_cards", "name": "Magnifying Glass Variable Cards", "description": "Set of 24 cards each showing an equation with a missing variable (box, blank, or letter). Used Lesson 1.", "used_in_lessons": [1], "clipart_files": []},
+    {"id": "M2_balance_mat", "name": "Balance Scale Drawing Mat", "description": "Letter-size mat with a drawn balance scale (two pans, central pivot). Children put numbers or counters on each pan.", "used_in_lessons": [2, 3, 4, 5], "clipart_files": []},
+    {"id": "M3_addition_puzzle_cards", "name": "Addition Missing-Number Cards", "description": "Set of 24 cards each with an addition equation and one number missing. Numbers up to 100.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M4_subtraction_puzzle_cards", "name": "Subtraction Missing-Number Cards", "description": "Set of 24 cards each with a subtraction equation and one number missing. Numbers up to 100.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M5_two_colour_counters", "name": "Two-Colour Counters", "description": "30 per pair for balance modelling and missing-number puzzles.", "used_in_lessons": [2, 3, 4, 5], "clipart_files": []},
+    {"id": "M6_target_cards", "name": "Equivalent-Target Cards", "description": "Set of 12 'target number' cards (10, 25, 40, 50, 60, 75, 80, 90, 100, etc.) for the equivalent-expression hunt.", "used_in_lessons": [4], "clipart_files": []},
+    {"id": "M7_mystery_case_template", "name": "Mystery Case Capstone Template", "description": "Letter-size template with space for a story drawing AND a missing-number equation.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M8_number_line", "name": "Number Line to 100", "description": "Letter-size number line marked 0 to 100 in 5s.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M9_variable_chart", "name": "Variable Anchor Chart", "description": "Large classroom anchor chart showing variable symbols (box, blank, letter) and what they mean.", "used_in_lessons": [1, 2, 3], "clipart_files": []},
+    {"id": "M10_detective_poster", "name": "Detective Dee Anchor Poster", "description": "Large classroom anchor showing Detective Dee and Mystery Mo with a missing-number case file.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Magnifying Glass Variable Cards (24)",
+    "Balance Scale Drawing Mats (one per pair)",
+    "Addition Missing-Number Cards (24)",
+    "Subtraction Missing-Number Cards (24)",
+    "Two-colour counters (30 per pair)",
+    "Equivalent-Target Cards (12)",
+    "Mystery Case Capstone Templates (one per child)",
+    "Number Lines to 100 (one per pair)",
+    "Variable Anchor Chart",
+    "Detective Dee Anchor Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 variable snapshot: each child reads 4 equations with variables and identifies the unknown. Tally accuracy.",
+    "formative": "Lesson 2 addition tracker; Lesson 3 subtraction tracker; Lesson 4 equivalent-expressions tracker.",
+    "summative": "Lesson 5 Mystery Case worksheet — children invent a case with a variable and solve it. Captures C2.1, C2.2, C2.3 in one creative artifact."
+  },
+  "pedagogical_notes": [
+    "C2.1 is conceptual — recognising symbols as variables is foundational. Use boxes and blanks before letters.",
+    "C2.2 builds on Grade 1 missing-number work. Extend to numbers up to 100.",
+    "C2.3 ties algebra to fluency. For any target up to 100, children should generate multiple equivalent expressions.",
+    "The equal sign (=) means SAME AMOUNT — not 'gives you the answer'. Emphasis matters in Grade 2.",
+    "Balance scales remain useful even at Grade 2. Combine with number lines for missing-number work."
+  ],
+  "canadian_context_notes": [
+    "Real-life examples: number of provinces (10 stays the same), number of toonies needed for a $20 toy (variable depends on price changes), Tim Hortons coffee orders (varies daily).",
+    "Hockey: missing-number examples like 'Leafs scored 4, Habs scored ?, Habs won by 1, so ? = 5'.",
+    "Toonie/loonie missing-number: '? loonies + 1 toonie = $5' (so ? = 3)."
+  ]
+}

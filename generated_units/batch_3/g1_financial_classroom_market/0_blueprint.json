@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "thematic_title": "Our Classroom Market — Grade 1 Money",
+  "descriptive_title": "Grade 1 Mathematics: Demonstrations — Canadian Coins and Bills (F1.1)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "F. Financial Literacy",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-1",
+  "curriculum_codes": ["F1.1"],
+  "curriculum_expectations": {
+    "F1.1": "identify the various Canadian coins up to 50¢ and coins and bills up to $50, and compare their values"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on Canadian money (F1.1) framed around 'Our Classroom Market' — Penny the Penguin Shopkeeper and Coin Cassie the Cashier. Day 1 introduces COINS UP TO 50¢ (penny historical, nickel, dime, quarter, 50¢). Day 2 adds the LOONIE ($1) and TOONIE ($2). Day 3 introduces BILLS up to $20. Day 4 introduces $50 bill and compares values. Day 5 closes with a Big Market Capstone where children buy and sell. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will identify Canadian coins up to 50¢ and coins/bills up to $50 and compare their values.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Meet the Coins", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "Canadian coins up to 50¢: nickel, dime, quarter, 50¢. They have DIFFERENT VALUES.", "student_learning_goal": "I can name coins up to 50¢ and their values.", "one_line_summary": "Penny shows 4 coins; children sort and name them."},
+    {"lesson_number": 2, "lesson_title": "Loonie and Toonie", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "The LOONIE = $1. The TOONIE = $2. They are CANADIAN coins.", "student_learning_goal": "I can identify the loonie and toonie.", "one_line_summary": "Penny adds loonie + toonie; children sort 6 coins."},
+    {"lesson_number": 3, "lesson_title": "Canadian Bills", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "Canadian BILLS: $5, $10, $20. Each has a different COLOUR and PERSON.", "student_learning_goal": "I can identify bills up to $20.", "one_line_summary": "Cassie shows bills; children identify by colour."},
+    {"lesson_number": 4, "lesson_title": "Compare Values", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "We COMPARE money values: more, less, equal. $50 is MORE than $20.", "student_learning_goal": "I can compare money values.", "one_line_summary": "Penny and Cassie compare; children rank 6 amounts."},
+    {"lesson_number": 5, "lesson_title": "The Big Market Capstone", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "Shoppers IDENTIFY money and COMPARE values to buy and sell.", "student_learning_goal": "I can identify and compare Canadian money.", "one_line_summary": "Children rotate 4 stations: coins, bills, compare, buy."}
+  ],
+  "expectation_lesson_map": {"F1.1": [1, 2, 3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Penny the Penguin Shopkeeper", "role": "Lead character. Coin expert. Anchors all 5 lessons.", "visual_description": "A friendly penguin in an apron with a coin pouch and a price-tag sticker."},
+    {"name": "Coin Cassie the Cashier", "role": "Penny's partner. Bill expert. Cameo Lessons 3-5.", "visual_description": "A young person at a cash register with a bill stack and a smile."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "nickel", "child_friendly_definition": "A 5¢ coin. Silver. Beaver on the back."},
+    {"term": "dime", "child_friendly_definition": "A 10¢ coin. Smallest. Boat on the back."},
+    {"term": "quarter", "child_friendly_definition": "A 25¢ coin. Silver. Caribou on the back."},
+    {"term": "loonie", "child_friendly_definition": "A $1 coin. Gold. Loon bird on the back."},
+    {"term": "toonie", "child_friendly_definition": "A $2 coin. Two-tone. Polar bear on the back."},
+    {"term": "bill", "child_friendly_definition": "Paper money. $5, $10, $20, $50."},
+    {"term": "value", "child_friendly_definition": "How much money is worth."},
+    {"term": "more", "child_friendly_definition": "Bigger value."},
+    {"term": "less", "child_friendly_definition": "Smaller value."},
+    {"term": "equal", "child_friendly_definition": "Same value."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_coin_set", "name": "Canadian Coin Cards", "description": "30 paper coin cards (5 each of nickel, dime, quarter, 50¢, loonie, toonie).", "used_in_lessons": [1, 2, 4, 5], "clipart_files": []},
+    {"id": "M2_bill_set", "name": "Canadian Bill Cards", "description": "20 paper bill cards (5 each of $5, $10, $20, $50).", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M3_value_chart", "name": "Coin and Bill Values Chart", "description": "Anchor chart with coin/bill values labeled.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M4_compare_chart", "name": "More-Less-Equal Chart", "description": "Anchor chart with more/less/equal symbols and examples.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M5_market_mat", "name": "Classroom Market Mat", "description": "Letter-size mat showing 6 store items with price tags.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Big Market Template", "description": "Letter-size capstone with 4 station response areas.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_money_chart", "name": "G1 Money Vocabulary Chart", "description": "Anchor chart with 10 G1 money words.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_pricetag_set", "name": "Price Tag Cards", "description": "20 paper price tag cards with amounts up to $50.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M9_pouch_set", "name": "Coin Pouches", "description": "12 paper coin pouches with mixed coins inside.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Classroom Market Poster", "description": "Anchor poster of Penny and Cassie at a market with money tools.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["Coin Cards (30)", "Bill Cards (20)", "Values Chart", "More-Less-Equal Chart", "Market Mat", "Big Market Template (per child)", "Money Vocabulary Chart", "Price Tag Cards (20)", "Coin Pouches (12)", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 coin snapshot.", "formative": "Lesson 2 loonie tracker; Lesson 3 bill tracker; Lesson 4 compare tracker.", "summative": "Lesson 5 Big Market capstone."},
+  "pedagogical_notes": [
+    "Grade 1 introduces Canadian coins up to 50¢ and bills up to $50.",
+    "Skip the ¢ vs $ symbol confusion until Grade 2.",
+    "Use REAL Canadian context: loonie and toonie are unique to Canada.",
+    "Compare values with words first (more/less/equal), numbers second.",
+    "End with a market simulation — buying makes money real."
+  ],
+  "canadian_context_notes": [
+    "Loonie ($1) features a loon — Canadian symbol.",
+    "Toonie ($2) features a polar bear — Canadian Arctic.",
+    "Nickel features a beaver — Canadian symbol.",
+    "Quarter has a caribou — Canadian wildlife.",
+    "Bills feature historical Canadian figures."
+  ]
+}

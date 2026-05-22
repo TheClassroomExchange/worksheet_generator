@@ -1,0 +1,47 @@
+{
+  "unit_id": "k_coding_little_programmers",
+  "pair_number": 2,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Stack books demo.', 'Drill over vs under.', 'Compare with body position.'] — concrete but does NOT branch by what the diagnostic told you about the child, and the trap is not anchored to a named research source (e.g., Clements & Sarama on spatial language acquisition, or Levinson on frame-of-reference).",
+      "required_fix": "Rewrite expanded_walkthrough.recovery_moves to BRANCH on the diagnostic: e.g., 'IF the child can point UP correctly but says ABOVE for under: contrast pairs (over/under) with two stacked books and have child label both. IF the child cannot point UP/DOWN reliably: drop back to body gestures (hands on head = ABOVE; hands on floor = BELOW) before reintroducing the words.' Cite Clements & Sarama 2009 (Learning Trajectories) for the spatial-language progression in the rationale.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials requires 'Coding Floor Mat (1 per pair)', 'Object Cards (12)', 'Anchor chart Position Words', 'Lesson 2 formative tracker' — all everyday/printable, but the differentiation block ('for_movement_learners': 'Body-position with friend pairs.') is not surfaced as an explicit no-paper, no-purchase alternative path runnable on a day prep wasn't possible.",
+      "required_fix": "Add an explicit NO-PAPER alternative in differentiation: 'No-materials version — children pair up; one child is Bot, the partner is the object. Partner stands still and Bot moves ABOVE (jump), BELOW (crouch), BESIDE (step next to), BETWEEN (stand between two friends). Body becomes the mat — runnable with zero prep on any day.' This unlocks Level 4.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale = 'Common K trap on B11.1: child says above for under and vice versa. They miss that ABOVE = OVER, BELOW = UNDER.' — names the trap but does NOT let children invent/refine/compare strategies, and does not name the misconception in research-grounded terms (Battista on spatial reasoning, or Clements & Sarama spatial-relations trajectory).",
+      "required_fix": "Add a strategy-comparison move in action.steps: e.g., 'Step 6: After 4 spots, ask two pairs to share how they decided ABOVE vs BELOW — one pair likely uses gravity (falls down = below); another uses body reference (hands up = above). Class discusses which works for any object.' In expanded_walkthrough.rationale, name the principle: 'Children at this stage are constructing an absolute frame of reference (Clements & Sarama 2009 spatial-relations trajectory; cf. Levinson 2003 on egocentric vs allocentric frames).'",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "Solid Day-2 lesson with strong character anchoring, optional-puppet materials, and an aligned 3-part worksheet that varies the practice format (match, circle, draw — Part 3 is a transfer task). Three categories sit at 3 because the trap recovery does not branch by diagnostic, the differentiation lacks an explicit no-paper alternative path, and the math authenticity does not yet invite strategy comparison or cite the spatial-reasoning research base. All three fixes are lesson-side; the worksheet is in good shape."
+}

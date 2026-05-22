@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_financial_plan_your_party", "lesson_number": 4,
+  "worksheet_title": "Mixed Money Math", "purpose": "Independent practice of F1.1 mixed.",
+  "student_learning_goal": "I can calculate change for mixed transactions.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can calculate change for mixed transactions.",
+    "character_watermark": "Bea the Bear in the top-right with a calculator and money. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Mixed change.", "student_instructions": "Calculate change for 4 mixed transactions.",
+     "visual_layout": "Four mixed transaction boxes with subtraction.",
+     "image_placeholders": [{"id": "WS04_P1_MIXED", "description": "A Grade 3 mixed-change layout for money worksheet, B&W line art. 4 transactions: 1) $1.50 pay $5, 2) $3.25 pay $5, 3) $4.75 pay $5, 4) $7.50 pay $10. Each with subtraction and answer slot.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["transactions", "mixed"], "text_image_alignment_check": "WS04_P1_MIXED at Part 1: keywords name the mixed transactions calc task."}],
+     "student_response_type": "draw_or_write", "answer_key": "$3.50, $1.75, $0.25, $2.50."},
+    {"part_number": 2, "part_title": "Part 2: Mixed change in coins/bills.", "student_instructions": "For 2 changes, show the coin + bill mix.",
+     "visual_layout": "Two workspaces with change amounts.",
+     "image_placeholders": [{"id": "WS04_P2_SHOW", "description": "A Grade 3 coin-bill change layout for money worksheet, B&W line art. 2 workspaces: 1) Show $3.50 in coins/bills, 2) Show $0.25 in coins.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["coin-bill", "show"], "text_image_alignment_check": "WS04_P2_SHOW at Part 2: keywords name the coin-bill show change task."}],
+     "student_response_type": "draw_or_write", "answer_key": "$3.50 = 1 toonie + 1 loonie + 2 quarters (or 3 loonies + 2 quarters); $0.25 = 1 quarter."},
+    {"part_number": 3, "part_title": "Part 3: Single mixed.", "student_instructions": "Item $7.25, pay $10. Calculate change.",
+     "visual_layout": "Single mixed transaction with subtraction.",
+     "image_placeholders": [{"id": "WS04_P3_ONE", "description": "A Grade 3 single-mixed layout for money worksheet, B&W line art. 'Item $7.25, pay $10.' Below: subtraction workspace and answer line.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["mixed", "change"], "text_image_alignment_check": "WS04_P3_ONE at Part 3: keywords name the mixed change single task."}],
+     "student_response_type": "draw_or_write", "answer_key": "$2.75."}
+  ]}],
+  "early_finisher_prompt": "If you finish, calculate change for $14.95 paid $20.",
+  "teacher_notes": "Lesson 4 consolidation. Formative — check borrowing across $/¢."
+}

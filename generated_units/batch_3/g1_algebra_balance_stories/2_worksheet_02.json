@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "lesson_number": 2,
+  "worksheet_title": "Bella's Balance Test",
+  "purpose": "Independent practice of C2.2 (testing equivalence of expression pairs).",
+  "student_learning_goal": "I can decide if two addition or subtraction expressions are equal.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can decide if two addition or subtraction expressions are equal.",
+    "character_watermark": "Bella in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Equal or Not?",
+          "student_instructions": "Write = or \u2260 between each pair.",
+          "visual_layout": "Top of the page. Six expression-pair rows.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_SIX_PAIRS",
+              "description": "Six expression-pair rows in B&W line-art, stacked vertically. Each ~7in \u00d7 0.7in. Format: expression on left, blank middle (= / \u2260 bubbles), expression on right. Pairs: 5+3 vs 4+4, 6+3 vs 5+4, 8-2 vs 4+1, 7+1 vs 9-1, 10-3 vs 5+2, 4+4 vs 4+5.",
+              "placement": "Top of the page; six rows.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "equal",
+                "pair"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_SIX_PAIRS: keywords (equal, pair) name what the rows ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "5+3=4+4 (both 8). 6+3=5+4 (both 9). 8-2\u22604+1 (6 \u2260 5). 7+1=9-1 (both 8). 10-3=5+2 (both 7). 4+4\u22604+5 (8 \u2260 9)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Balance Drawings",
+          "student_instructions": "Each balance shows expressions on each pan. Write = or \u2260 AND draw whether the balance is level or tipped.",
+          "visual_layout": "Middle. Four balance scale drawings in 2x2 grid.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_FOUR_BALANCES",
+              "description": "Four balance scale drawings in B&W line-art, 2-row \u00d7 2-column grid. Each ~3in \u00d7 2in. Pre-fills: B1 left=5+3, right=4+4; B2 left=6+1, right=5+3; B3 left=10-2, right=4+4; B4 left=7-3, right=2+3. Each balance has empty pivot \u2014 child draws level/tipped.",
+              "placement": "Middle; 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "balance",
+                "scale"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_FOUR_BALANCES: keywords (balance, scale) name what the drawings ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "B1: =, level (both 8). B2: \u2260, tipped right (7 \u2260 8). B3: =, level (both 8). B4: \u2260, tipped right (4 \u2260 5)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Own",
+          "student_instructions": "Write your own pair of expressions that are EQUAL. Then write your own pair that are NOT EQUAL.",
+          "visual_layout": "Bottom of the page. Two writing slots.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_MY_OWN",
+              "description": "Two writing slots in B&W line-art, stacked. Each ~7in \u00d7 1in. Top: 'EQUAL: ___ ___ ___'. Bottom: 'NOT EQUAL: ___ ___ ___'. Bella thinking-bubble icon top-right.",
+              "placement": "Bottom of the page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "equal",
+                "not-equal"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_MY_OWN: keywords (equal, not-equal) name what the slots ask for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any pair that's correctly equal/not equal."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, find 3 more expression pairs in the classroom that ARE equal. Write them on the back.",
+  "teacher_notes": "Lesson 2 consolidation. Watch Part 1 children who reject 5+3=4+4 \u2014 flag for the operator-misconception reteach."
+}

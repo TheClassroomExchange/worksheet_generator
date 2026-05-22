@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "lesson_number": 1,
+  "lesson_title": "2D Shape Hunt",
+  "duration_minutes": 35,
+  "primary_expectations": [
+    "A9.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "2D shapes are FLAT. Circle, triangle, square, rectangle, hexagon. Each has a name and properties.",
+  "learning_intention": "We are learning to identify and describe 2D shapes.",
+  "student_learning_goal": "I can identify and describe 2D shapes.",
+  "success_criteria": [
+    "I can name 5 common 2D shapes.",
+    "I can describe a shape (round, sides, corners).",
+    "I can find 2D shapes in my classroom."
+  ],
+  "vocabulary_introduced": [
+    "2D"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_2d_shape_set",
+    "M7_shape_chart",
+    "M10_safari_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Sammy \u2014 if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Shape Names'",
+    "2D Shape Cards (30)",
+    "Lesson 1 shape tracker \u2014 provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 7,
+    "activity_name": "Sammy's 2D Hunt",
+    "hook": "Sammy spots a CIRCLE in the safari! What other 2D shapes can we find?",
+    "teacher_script": "Bring children to the carpet. Sammy puppet. 'Friends \u2014 I'm Sammy the Safari Sloth. Today we hunt 2D shapes.'\n\nIntroduce vocabulary. Write 2D on chart. '2D shapes are FLAT \u2014 like paper.'\n\nShow each shape one at a time. 'CIRCLE \u2014 round, no corners.' Hold up a circle card.\n'TRIANGLE \u2014 3 sides, 3 corners.' Triangle card.\n'SQUARE \u2014 4 equal sides, 4 corners.' Square.\n'RECTANGLE \u2014 4 sides, 2 long 2 short.' Rectangle.\n'HEXAGON \u2014 6 sides, 6 corners (like a snowflake).' Hexagon.\n\nDescribe each: rounded vs straight, sides, corners (vertices).\n\n'Sammy hunts for these shapes everywhere. Window: rectangle. Plate: circle. Roof: triangle. Stop sign: hexagon (well, octagon really).'\n\nSammy's RULE: 'NAME IT \u2014 count SIDES \u2014 count CORNERS!' That's how Sammy hunts.\n\nClass refrain. Class chants 3x with claps: 'NAME IT \u2014 count SIDES \u2014 count CORNERS! That's how Sammy hunts!'\n\n'Today we identify and describe 2D shapes.'",
+    "student_actions": [
+      "Listen to Sammy name shapes.",
+      "Echo new vocabulary: '2D'.",
+      "Identify shapes by their properties.",
+      "Suggest classroom shapes."
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Shape Hunt Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: identify 5 shapes by properties. Match name to card.",
+        "teacher_prompt": "Say: 'Round = circle. 3 corners = triangle.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Match shape to name. Station B: Sort shapes (round vs straight-sided). Station C: Find shapes in classroom (5+ each).",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: name a shape and find 3 examples.",
+        "teacher_prompt": "Say: 'Stretch: 3 examples per shape.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss properties. 'Sides, corners (vertices), straight or round.'",
+        "teacher_prompt": "Show shape anchor chart with names and counts."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the shape tracker.",
+        "teacher_prompt": "Stop at each pair. Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. 3 shapes only (circle, triangle, square).",
+      "for_extending": "Stretch at Station C: 3 examples per shape AND describe each by its property (sides + corners).",
+      "for_ell_or_iep": "Sentence frame: 'A ___ has ___ sides and ___ corners.' Pre-teach each shape word with the matching hand gesture (circle = round hands; triangle = 3 fingers; square = box).",
+      "for_movement_learners": "NO-PAPER, NO-PURCHASE PATH: skip the 30 shape cards and the printed shape chart entirely. Children make shapes with their bodies \u2014 arms in a circle for CIRCLE; one child triangle (3 children hold hands in triangle); 4 children for SQUARE/RECTANGLE; 6 children for HEXAGON. Then they walk the classroom and POINT at things in the room (windows, doors, plates, books, clock face) and call out the shape name. Whole lesson runs on bodies + the existing classroom \u2014 no purchased shape cards needed."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: names 5 shapes; describes properties; finds classroom examples.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names 5 shapes",
+        "Describes properties",
+        "Finds classroom examples",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Sammy's Shape Brag",
+    "discussion_prompts": [
+      "What does 2D mean?",
+      "How do you tell a circle from a square?",
+      "Where did you find shapes?",
+      "What's a hexagon?"
+    ],
+    "exit_routine": "Refrain chant 3x. Then each child names ONE shape and ONE property: 'My ___ has ___ sides and ___ corners.' Sticky-note one shape and post on the Shape Safari poster."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "2D shape identification.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already grasp shape names vs those who confuse them."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child confuses square and rectangle \u2014 repairing the equal-sides distinction at K (van Hiele, 1986; Clements & Sarama, 2009; Clements, Wilson & Sarama, 2004)",
+    "rationale": "On A9.1 2D shape identification, the most-documented K trap is the square-rectangle confusion: child calls a rectangle a 'square' or vice versa. They have not yet differentiated shape names by PROPERTIES (sides, equal/unequal, corners) and instead operate on overall visual gestalt.\n\nVan Hiele's (1986) levels of geometric thinking place K children at Level 0 (Visualization): shapes are recognised by overall appearance, not by attributes. Level 1 (Analysis) \u2014 recognising that a square has 4 EQUAL sides while a rectangle has 2 long and 2 short \u2014 is a developmental ACHIEVEMENT, not a starting state. The K target is to begin moving from Level 0 to Level 1: children identify by gestalt initially, then learn to verify by counting sides and checking equality.\n\nClements & Sarama (2009) trace this transition empirically: K children's most common error pattern is treating 'square' as a prototype label for any 4-sided shape (the prototype-effect). Showing tilted squares and elongated rectangles together is what dislodges the prototype. The 'shapes change when rotated' misconception below is a direct consequence of Level-0 visualization without Level-1 attribute analysis.\n\nClements, Wilson & Sarama (2004) on shape composition show that K children who can verbalise side-and-corner counts compose shapes more flexibly in later grades \u2014 making property-based identification a foundation skill, not a memorisation task.\n\nWhy this matters: a K child who exits with prototype-label-only shape identification will struggle through Grade 1-2 geometry, where rotational and class-inclusion reasoning becomes central. The repair is property-counting: every shape ID checks SIDES and CORNERS.\n\nThe walkthrough covers when child calls a rectangle a square.",
+    "setup": "Pair is at Station A. Shape card: rectangle. Child says 'square'.",
+    "teacher_script": "Crouch. 'Let's check the sides. Are they all equal?' Run finger along sides. 'No \u2014 2 long and 2 short. So it's a RECTANGLE.'\n\nWalk through. 'A square has 4 EQUAL sides \u2014 all the same length. A rectangle has 2 long and 2 short.'\n\nThe child re-identifies. Generalise. 'Sammy says \u2014 count the sides AND check if they're equal. Square: equal. Rectangle: not equal.'\n\nIf still confused: provide ruler-strip. 'Measure each side. Equal? Square. Not equal? Rectangle.' Force the equal-side check.\n\nLong-term recovery: every shape ID checks side equality.",
+    "expected_student_responses": [
+      "(Confused) Calls all 4-sided shapes 'squares'.",
+      "(Mid) Distinguishes with prompts.",
+      "(Strong) Names square and rectangle correctly.",
+      "(Stretched) Notices special properties (square is also a rectangle)."
+    ],
+    "common_misconceptions": [
+      "All 4-sided = square. (Repair: square has equal sides.)",
+      "Rectangle has only round corners. (Repair: 90\u00b0 corners, like a square.)",
+      "Shapes change when rotated. (Repair: a square turned is still a square.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A \u2014 child uses 'square' as a prototype label for any 4-sided shape (Clements & Sarama 2009 prototype-effect): use ruler-strip to check equality of every side. Make the side-count + side-length-check explicit \u2014 'Step 1: count sides. Step 2: are they EQUAL?' Repeat for the next 3 four-sided shapes. Tick 'describes properties' only when child applies both steps unprompted.",
+      "DIAGNOSTIC B \u2014 child says 'shapes change when rotated' (van Hiele Level-0 visualization, not yet Level-1 attribute analysis): rotate a paper square 45\u00b0 to a 'diamond' position; ask 'is this STILL a square?'; physically count sides and corners with the child to show 4 equal sides and 4 right corners are unchanged. Generalise: 'turning doesn't change the SIDES or the CORNERS \u2014 those are the SAME.'",
+      "DIAGNOSTIC C \u2014 child names rectangles as 'long squares' (early class-inclusion confusion): show the side-equality check as a yes/no test: 'all 4 sides equal? YES = square. NO = rectangle.' Don't introduce class-inclusion ('a square is a special rectangle') at K \u2014 that's a Grade 2-3 move. K target: clean property-based labels."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Sammy's Shape Hunt",
+    "purpose": "Independent practice of A9.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Match shape pictures to names (5 shapes).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Sort 8 shapes into round vs straight-sided.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Find and draw 3 shapes from your classroom.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Sammy in worksheet header",
+      "5 match pairs for Part 1",
+      "8 sort items for Part 2",
+      "Blank classroom area for Part 3"
+    ]
+  }
+}

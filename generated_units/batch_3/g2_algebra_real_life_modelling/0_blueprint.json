@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "thematic_title": "Math in My Town",
+  "descriptive_title": "Grade 2 Mathematics: Algebra (Modelling) — Mathematical Modelling for Real-Life Town Situations (C4)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math",
+  "curriculum_codes": ["C4"],
+  "curriculum_expectations": {
+    "C4": "apply the process of mathematical modelling to represent, analyse, make predictions, and provide insight into real-life situations"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on mathematical modelling (C4) framed around 'Math in My Town' — Mayor Mira the Math Mayor and her assistant Town Tom. Day 1 introduces the modelling cycle for town situations: SITUATION → QUESTION → DATA → PREDICT → REFLECT. Day 2 collects town data (visitors, library books, recess minutes). Day 3 predicts town outcomes using simple rules. Day 4 reflects and refines models with real numbers. Day 5 closes with child-chosen capstone projects modelling situations from their own town life. Each lesson includes an expanded_walkthrough covering Grade-2 misconceptions in modelling.",
+  "unit_learning_goal": "Children will apply the 5-step modelling cycle to a real-life town situation: pick a situation, ask a math question, collect data, predict, reflect.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Math Lives in My Town", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "Math is everywhere in our town: at the library, the park, the school, the rink. Modelling means asking math questions about real-life situations.", "student_learning_goal": "I can describe a town situation and ask a math question about it.", "one_line_summary": "Mayor Mira tours the town pointing out math; children identify situations and ask questions."},
+    {"lesson_number": 2, "lesson_title": "Town Data Day", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We answer math questions by collecting DATA. Counts, measurements, observations.", "student_learning_goal": "I can collect data to answer a math question about my town.", "one_line_summary": "Children collect data on town situations (visitors, books borrowed, recess minutes) and record on a chart."},
+    {"lesson_number": 3, "lesson_title": "Town Predictions", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We use rules + data to PREDICT future town outcomes. If 5 buses arrive each morning, predict 25 buses in 5 days.", "student_learning_goal": "I can use a rule to predict a town outcome.", "one_line_summary": "Children use simple rules and town data to predict outcomes for the next day or week."},
+    {"lesson_number": 4, "lesson_title": "Town Reflections", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We check our predictions against what really happened. Sometimes the model needs refining.", "student_learning_goal": "I can compare a prediction to actual data and refine my model.", "one_line_summary": "Children compare predictions to actual data; suggest refinements to make the model better."},
+    {"lesson_number": 5, "lesson_title": "My Town Modelling Capstone", "primary_expectations": ["C4"], "secondary_expectations": [], "big_idea": "We can model ANY town situation. Pick a topic from your life, ask a question, build a model.", "student_learning_goal": "I can model a real-life town situation from my own life.", "one_line_summary": "Children invent a town modelling project — situation, question, data, predict, reflect — and share."}
+  ],
+  "expectation_lesson_map": {"C4": [1, 2, 3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Mayor Mira the Math Mayor", "role": "Lead character. A friendly mayor in a sash who shows children the math in their town. Anchors all 5 lessons.", "visual_description": "A friendly young mayor wearing a town sash, holding a small notebook and pencil. Cheerful smile, big glasses, hat with a town badge."},
+    {"name": "Town Tom the Town Helper", "role": "Mayor Mira's assistant. The 'count it' character — gathers data with Mira. Cameo Lessons 2-5.", "visual_description": "A young helper with a clipboard and tape measure, wearing a vest with town-mayor logo. Eager expression, taking notes."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "model", "child_friendly_definition": "A math representation of a real-life situation. The model helps us predict and reflect."},
+    {"term": "data", "child_friendly_definition": "Numbers we collect by counting or measuring."},
+    {"term": "predict", "child_friendly_definition": "To say what we think will happen using the data."},
+    {"term": "reflect", "child_friendly_definition": "To look back and check whether our prediction matched reality."},
+    {"term": "refine", "child_friendly_definition": "To make our model better based on what we learned."},
+    {"term": "real-life situation", "child_friendly_definition": "Something that happens in our day. We model real-life things."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_town_map", "name": "Paper Town Map", "description": "Letter-size map showing town locations (library, park, school, rink, store).", "used_in_lessons": [1, 2, 3, 5], "clipart_files": []},
+    {"id": "M2_data_charts", "name": "Town Data Collection Charts", "description": "Set of 6 chart templates for recording counts (buses, books, visitors, etc.).", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M3_modelling_chart", "name": "Modelling Cycle Chart", "description": "Letter-size chart showing the 5 modelling steps with looping arrows.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M4_situation_cards", "name": "Town Situation Cards", "description": "Set of 12 town situation cards (library, recess, bus, store, park, weather).", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M5_prediction_chart", "name": "Prediction Chart", "description": "Letter-size chart with PREDICT, ACTUAL, and GAP columns.", "used_in_lessons": [3, 4], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Capstone Modelling Template", "description": "Letter-size template for Lesson 5.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_two_colour_counters", "name": "Two-Colour Counters", "description": "30 per pair for modelling.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M8_number_line", "name": "Town Number Line to 100", "description": "Letter-size number line marked 0 to 100 with town landmarks at intervals.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M9_mayor_chart", "name": "Mayor's Modelling Anchor Chart", "description": "Large classroom anchor showing the modelling cycle with town examples.", "used_in_lessons": [1, 2, 3, 4], "clipart_files": []},
+    {"id": "M10_town_poster", "name": "Math in My Town Anchor Poster", "description": "Large classroom anchor showing Mayor Mira and Town Tom in front of a town map.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Paper Town Maps (one per pair)",
+    "Town Data Collection Charts (6)",
+    "Modelling Cycle Charts (one per pair)",
+    "Town Situation Cards (12)",
+    "Prediction Charts (one per pair)",
+    "Capstone Modelling Templates (one per child)",
+    "Two-colour counters (30 per pair)",
+    "Number Lines to 100 (one per pair)",
+    "Mayor's Modelling Anchor Chart",
+    "Math in My Town Anchor Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 town-question snapshot: each child reads 4 town situations and writes 1 math question for each.",
+    "formative": "Lesson 2 data tracker; Lesson 3 prediction tracker; Lesson 4 reflection tracker.",
+    "summative": "Lesson 5 capstone — children invent a town modelling project. Captures C4 in one creative artifact."
+  },
+  "pedagogical_notes": [
+    "C4 in Grade 2 extends modelling to richer numbers and town-scale situations (counts to 100).",
+    "The 5-step modelling cycle (situation, question, data, predict, reflect) anchors every lesson.",
+    "Real Canadian town examples ground the work: bus arrivals, hockey games, public library books.",
+    "Differentiation: emerging children stay with simple counts; extending children build multi-step rules.",
+    "The 'refine' step matters even at Grade 2 — children must understand that models improve with data."
+  ],
+  "canadian_context_notes": [
+    "Real-life examples: number of TTC bus stops in a route, books borrowed from the public library, kids on the playground at recess, hockey rink visitors on a Saturday.",
+    "Tim Hortons line counts at lunch; Canadian Tire customer arrivals.",
+    "Town events: weekend farmers' market, summer fair counts."
+  ]
+}

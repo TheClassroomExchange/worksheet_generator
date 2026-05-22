@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "formative_worksheets": [
+    {"title": "Mid-Unit Code Check-In", "when_to_use": "After Lesson 3, before Lesson 4. A 10-minute check on C3.1 + C3.2.", "purpose": "Standalone formative assessment.", "expectations_assessed": ["C3.1", "C3.2"], "student_learning_goal": "I can write code with a loop and predict what it does.",
+      "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can write code with a loop and predict what it does.", "character_watermark": "Coda in the top-right corner. Small (~1.5in tall)."},
+      "prompts": [
+        {"prompt_number": 1, "prompt": "Write a loop to make Coda do 5 forward steps.", "visual_layout": "Top half. A blank code line.",
+          "image_placeholders": [{"id": "FORM_Q1_LOOP", "description": "A blank code-writing line in B&W, ~7in × 0.7in. Format: 'Repeat ___: ___'.", "placement": "Top half.", "approximate_size": "full_width", "keywords": ["loop", "code"], "text_image_alignment_check": "Image FORM_Q1_LOOP: keywords (loop, code) name what the line asks for."}],
+          "response_type": "write", "answer_key": "Repeat 5: forward."},
+        {"prompt_number": 2, "prompt": "Read this code and predict where Coda ends. Code: 'Repeat 3: right'. Coda starts at (0,0).", "visual_layout": "Middle. A blank grid for marking.",
+          "image_placeholders": [{"id": "FORM_Q2_PREDICT_GRID", "description": "A 5x5 grid in B&W on a portrait letter page. Coda's starting position (0,0) marked with a small dot.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["grid", "predict"], "text_image_alignment_check": "Image FORM_Q2_PREDICT_GRID: keywords (grid, predict) name what the grid asks for."}],
+          "response_type": "draw_or_write", "answer_key": "Coda ends at (3, 0)."},
+        {"prompt_number": 3, "prompt": "How are you feeling? Circle the face.", "visual_layout": "Bottom of the page. Three faces in a row. Below each: 'GOT IT!', 'ALMOST!', 'TRY AGAIN!'.",
+          "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons in a row. Smile, neutral, frown.", "placement": "Bottom; centred.", "approximate_size": "full_width", "keywords": ["got", "almost", "try"], "text_image_alignment_check": "Image FORM_Q3_FACES: keywords (got, almost, try) name the labels."}],
+          "response_type": "self_rate", "answer_key": "Open."}
+      ],
+      "teacher_notes": "Score: loop correct + position correct = ready for Lesson 4."}
+  ],
+  "reflection_sheet": {"title": "My Coding Reflection", "purpose": "End-of-unit metacognition.", "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.", "character_watermark": "Coda with a Junior Coder certificate. Small (~1.5in tall)."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel about being a Junior Coder? Circle one.", "visual_layout": "Three star-rating ovals.",
+        "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals in B&W. 1 star, 2 stars, 3 stars. Labels.", "placement": "Centred at top.", "approximate_size": "full_width", "keywords": ["stars"], "text_image_alignment_check": "Image REF_STARS: keywords (stars) name the rating ovals."}],
+        "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Coder!"]},
+      {"prompt_number": 2, "prompt": "Did you do these things? Circle YES or NO.", "visual_layout": "A 4-row YES/NO table.",
+        "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table in B&W.", "placement": "Centred, full-width.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "Image REF_YN_TABLE: keywords (yes, no) name the response bubbles."}],
+        "response_type": "circle_yes_no", "options": ["I wrote step-by-step code", "I used a loop", "I predicted code outcomes", "I altered code"]},
+      {"prompt_number": 3, "prompt": "Which was your FAVOURITE coding task?", "visual_layout": "Four icon options.",
+        "image_placeholders": [{"id": "REF_FAV_BOX", "description": "Four icons in B&W: sequential code, loop code, prediction, alter code. Each ~1in × 1in with selection bubble.", "placement": "Centred top.", "approximate_size": "full_width", "keywords": ["icons"], "text_image_alignment_check": "Image REF_FAV_BOX: keywords (icons) name the four options."}],
+        "response_type": "circle_or_loop"},
+      {"prompt_number": 4, "prompt": "Which was the TRICKIEST part?", "visual_layout": "Three tricky-moment cards in a row.",
+        "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "Three tricky-moment cards in a row in B&W. Each ~1.5in × 1.5in.", "placement": "Centred top.", "approximate_size": "full_width", "keywords": ["cards"], "text_image_alignment_check": "Image REF_TRICKY_BOX: keywords (cards) name the three cards."}],
+        "response_type": "circle_or_loop"},
+      {"prompt_number": 5, "prompt": "What do you want to learn NEXT?", "visual_layout": "Three forward-goal cards.",
+        "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "Three forward-goal cards in a row in B&W. Each ~1.5in × 1.5in.", "placement": "Centred top.", "approximate_size": "full_width", "keywords": ["cards"], "text_image_alignment_check": "Image REF_NEXT_BOX: keywords (cards) name the three cards."}],
+        "response_type": "circle_or_loop"}
+    ],
+    "teacher_notes": "Hand out at end of Lesson 5."}
+}

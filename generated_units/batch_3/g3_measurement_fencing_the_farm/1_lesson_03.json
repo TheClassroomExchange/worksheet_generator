@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "lesson_number": 3,
+  "lesson_title": "Square Centimetres",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E2.9"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "AREA is measured in SQUARE UNITS — cm² for small, m² for big.",
+  "learning_intention": "We are learning to measure area in square centimetres and square metres.",
+  "student_learning_goal": "I can measure area in square centimetres and square metres.",
+  "success_criteria": [
+    "I can SAY what cm² means.",
+    "I can COUNT cm² inside a shape.",
+    "I can PICK cm² or m² for the size.",
+    "I can ESTIMATE before counting."
+  ],
+  "vocabulary_introduced": [
+    "square centimetre",
+    "square metre"
+  ],
+  "vocabulary_reinforced": [
+    "perimeter",
+    "area",
+    "millimetre",
+    "kilometre"
+  ],
+  "manipulatives_used": [
+    "M3_tile_set",
+    "M9_grid_paper",
+    "M7_measurement_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Roo the Ruler Rabbit — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Square Units'",
+    "Cm² Grid Paper (1 per pair)",
+    "Square Tiles (60 per pair)",
+    "Lesson 3 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Roo's Square Centimetres",
+    "hook": "Roo: AREA needs a UNIT. We use SQUARE CENTIMETRES (cm²). Count them inside! Roo opens: 'cm² is a TILE — count the TILES!'",
+    "teacher_script": "Bring children to the carpet. Roo the Ruler Rabbit puppet with grid paper. 'Measurement friends — yesterday we covered with tiles. Today our tile is OFFICIAL: 1 cm × 1 cm = 1 SQUARE CENTIMETRE = cm².'\n\nDefine. 'cm² (square cm) = a square that's 1 cm on each side. Use for small areas like a sticky note.'\n\nDemo. 'Sticky note: 8 cm × 8 cm = 64 cm². Cover with 64 grid squares.'\n\nThen m². 'For big areas like the classroom floor: square metre = 1 m × 1 m. Classroom floor might be 50 m².'\n\n'Roo says — pick the right square unit! cm² for small. m² for big.'\n\nNow estimate. 'Before counting, ESTIMATE.'\n\nDemo. 'Notebook cover. About... 600 cm²? Let's count grid: 26 cm × 21 cm = 546 cm². Close!'\n\n'Roo says — estimate gives a check on your count.'\n\nNow show curved shapes. 'A circle on the grid? Count whole squares + half-squares. About!' Demo a circle covering ~28 squares.\n\n'Roo says — for curved shapes, estimate by counting whole + half squares!'\n\nNow each pair gets cm² grid paper + 4 shape outlines. They count cm² for each.\n\n'Roo says — careful count gives accurate area!'",
+    "student_actions": [
+      "Watch Roo demo",
+      "Echo cm² definition",
+      "Estimate notebook area",
+      "Practice counting on grid"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Count cm² for 4 Shapes",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out grid paper + shapes. Pairs estimate first, then count cm² for 4 shapes.",
+        "teacher_prompt": "Say: 'Estimate then count.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "For 2 shapes pick cm² or m².",
+        "teacher_prompt": "Say: 'cm² or m²?'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: count cm² for 1 curved shape (whole + half squares).",
+        "teacher_prompt": "Say: 'Stretch: curved.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with grid alignment.",
+        "teacher_prompt": "Show: align corner."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share L-shape area — one decomposes into two rectangles, one counts tiles. Class compares accuracy. Cite Battista (2007) array structuring vs cell-counting.",
+        "teacher_prompt": "Roo: 'Same L, two ways. Decompose for SPEED, count for SAFETY.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Count whole squares only.",
+      "for_extending": "Find area in cm² AND mm² for one shape.",
+      "for_ell_or_iep": "Pre-counted reference squares.",
+      "for_movement_learners": "Walk a 1m² square on the floor. NO-PREP PATH: use masking-tape squares on the floor as cm² tiles; children walk the area boundary. Body becomes the tile-counter."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: estimates; counts; picks unit; handles curves; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Estimates",
+        "Counts cm2",
+        "Picks unit",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Roo's Square Brag",
+    "discussion_prompts": [
+      "What's a SQUARE CENTIMETRE?",
+      "When use m² instead of cm²?",
+      "How count for a CIRCLE?",
+      "Why ESTIMATE first?"
+    ],
+    "exit_routine": "Roo's cm² chant — 'Roo says: cm² is a TILE — count the TILES!' (3x). Each child reports one shape's area in cm² with the decomposition shown."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "cm² area tracker.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures E2.9."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child uses cm² for a HUGE area or m² for a tiny one — repairing the unit-size mismatch trap at Grade 3",
+    "rationale": "On square centimetres + L-shapes, the trap is unit-structuring failure: child applies cm² formula linearly OR fails on L-shape decomposition. Battista (2007) array structuring + Outhred & Mitchelmore (2000) on rectangle-area learning frame this as the Grade-3 area-unit gateway.\n\nYesterday Lesson 2 introduced rows × columns. Today: standard unit (cm²) and L-shape decomposition. Lesson 4 capacity/mass; Lesson 5 capstones.",
+    "setup": "Estimate activity. Child writes 'classroom floor = 5 cm²'.",
+    "teacher_script": "Crouch. 'Roo asks — does 5 cm² fit a CLASSROOM?'\n\nProbe. 'Hold up 1 cm². It's tiny. The floor is HUGE. So pick m² — bigger unit for bigger area.'\n\nGeneralise. 'Roo says — match the UNIT to the SIZE. cm² for small. m² for big.'\n\nIf still mismatched: physical comparison. '1 cm² (fingernail) vs 1 m² (square on floor).'",
+    "expected_student_responses": [
+      "(Confused) Wrong unit.",
+      "(Mid) Right unit with prompts.",
+      "(Strong) Right unit independently.",
+      "(Stretched) Articulates 'small unit, small area'."
+    ],
+    "common_misconceptions": [
+      "Always cm². (Repair: m² for big.)",
+      "Bigger number = bigger area. (Repair: depends on unit.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child treats cm² as a length: drill 'square cm = 1 cm × 1 cm = an AREA tile'; physical demo with 1 cm² square.",
+      "DIAGNOSTIC B — child can do rectangles but stalls on L-shape: drill 'DECOMPOSE the L into two rectangles; add their areas.'",
+      "DIAGNOSTIC C — child decomposes wrong (overlapping): physical cut/paper demo to show non-overlapping rectangle pieces."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Roo's Square Cm Hunt",
+    "purpose": "Independent practice of E2.9.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Count cm² in shapes",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "cm² or m²?",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Estimate a circle",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 4,
+        "task": "Draw your own",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Roo the Ruler Rabbit in worksheet header",
+      "4 grid shapes for Part 1",
+      "4 object icons for Part 2"
+    ]
+  }
+}

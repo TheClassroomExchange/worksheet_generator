@@ -1,0 +1,12 @@
+{
+  "unit_id": "g1_algebra_balance_stories",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch1",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 3, "description": "L1 'Bring children to the carpet...' paragraph runs tight against '2. Action (25 mins)' heading — close spacing but not overlapping."},
+    {"page": 21, "description": "M7 Equivalent-Target Cards include 75/100/200 — above the C2.3 curriculum range (whole numbers to 50). Content note."}
+  ],
+  "summary": "Unit passes. All 5 worksheets now use the new hero layout — NO debug stubs, no mid-word truncation. Ws03 Part 3 prompt 'Balance Mysteries' renders cleanly. Rubric trims cleanly. Characters (Bella, Bobby) recognizable."
+}

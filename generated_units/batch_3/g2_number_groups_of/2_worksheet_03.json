@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "lesson_number": 3,
+  "worksheet_title": "Mae's Equal Groups Workshop",
+  "purpose": "Independent practice of B2.5 (multiplication as repeated equal groups). Captures formative evidence on group-building and equation writing.",
+  "student_learning_goal": "I can show a multiplication problem as repeated equal groups, draw the groups, and write the multiplication equation.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can show a multiplication problem as repeated equal groups, draw the groups, and write the multiplication equation.",
+    "character_watermark": "Mae the Multiplier in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Basket Scenes",
+          "student_instructions": "Each scene shows N baskets with M kittens each. Write the repeated addition AND the multiplication equation.",
+          "visual_layout": "Top of the page. Six basket scenes in a 2x3 grid.",
+          "image_placeholders": [
+            {"id": "WS03_P1_SIX_BASKETS", "description": "Six basket scenes in B&W line-art, 2-row × 3-column grid. Each scene ~2.2in × 1.5in. Pre-fills: B1 — 4 baskets of 3 kittens; B2 — 5 baskets of 2 kittens; B3 — 3 baskets of 4 kittens; B4 — 6 baskets of 2 kittens; B5 — 4 baskets of 4 kittens; B6 — 5 baskets of 3 kittens. Below each scene, two equation lines: 'Repeated addition: ___' and 'Multiplication: ___ × ___ = ___'.", "placement": "Top of the page; six baskets in 2x3 grid.", "approximate_size": "full_width", "keywords": ["baskets", "kittens"], "text_image_alignment_check": "Image WS03_P1_SIX_BASKETS: keywords (baskets, kittens) name what the scenes show."}
+          ],
+          "student_response_type": "write",
+          "answer_key": "B1: 3+3+3+3=12, 4×3=12. B2: 2+2+2+2+2=10, 5×2=10. B3: 4+4+4=12, 3×4=12. B4: 2+2+2+2+2+2=12, 6×2=12. B5: 4+4+4+4=16, 4×4=16. B6: 3+3+3+3+3=15, 5×3=15."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Array Grids",
+          "student_instructions": "Each array shows R rows and C columns of dots. Write the multiplication equation.",
+          "visual_layout": "Middle. Four array grids in a 2x2 grid.",
+          "image_placeholders": [
+            {"id": "WS03_P2_FOUR_ARRAYS", "description": "Four array grids in B&W line-art, 2-row × 2-column grid. Each array ~2.5in × 2in. Pre-fills: A1 — 3 rows × 4 columns of dots (3×4=12); A2 — 4 rows × 5 columns (4×5=20); A3 — 6 rows × 2 columns (6×2=12); A4 — 5 rows × 3 columns (5×3=15). Below each array, the multiplication equation line.", "placement": "Middle; four arrays in 2x2 grid.", "approximate_size": "full_width", "keywords": ["array", "rows"], "text_image_alignment_check": "Image WS03_P2_FOUR_ARRAYS: keywords (array, rows) name what the grids show."}
+          ],
+          "student_response_type": "write",
+          "answer_key": "A1: 3×4=12. A2: 4×5=20. A3: 6×2=12. A4: 5×3=15."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Build It",
+          "student_instructions": "For each multiplication problem, draw the equal groups OR the array.",
+          "visual_layout": "Lower-middle. Three blank-box drawing areas.",
+          "image_placeholders": [
+            {"id": "WS03_P3_THREE_BUILDS", "description": "Three blank rectangular drawing boxes in B&W line-art, stacked vertically, each ~7in × 1.5in with light-grey solid outline. Above each box, a multiplication problem: 5 × 4, 3 × 6, 4 × 5. The child draws either equal groups or an array.", "placement": "Lower-middle; three boxes stacked.", "approximate_size": "full_width", "keywords": ["build", "draw"], "text_image_alignment_check": "Image WS03_P3_THREE_BUILDS: keywords (build, draw) name what the boxes ask for."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "5×4=20: 5 groups of 4 OR 5 rows × 4 columns. 3×6=18: 3 groups of 6 OR 3 rows × 6 columns. 4×5=20: 4 groups of 5 OR 4 rows × 5 columns."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Equal Groups Around Me",
+          "student_instructions": "Where do you see equal groups in real life? Draw and write 1-2 examples.",
+          "visual_layout": "Bottom of the page. A blank box for drawing and writing real-life examples.",
+          "image_placeholders": [
+            {"id": "WS03_P4_REAL_LIFE_BOX", "description": "A blank rectangular drawing box in B&W line-art, ~7in × 2.5in, with light-grey solid outline. Mae thinking-bubble icon in the top-right corner of the box (~1in tall).", "placement": "Bottom of the page; spans full width.", "approximate_size": "full_width", "keywords": ["real-life", "groups"], "text_image_alignment_check": "Image WS03_P4_REAL_LIFE_BOX: keywords (real-life, groups) name what the box is for."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible real-life equal-group: '6 packs of 4 juice boxes = 24', '3 rows of 5 chairs = 15', '4 boxes of 6 crayons = 24'."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw a multiplication problem of your own — 7 × 3 — using either equal groups or an array.",
+  "teacher_notes": "Lesson 3 consolidation. Hand out at the end of the Action phase. Use Part 1 as evidence of B2.5 group-building flexibility — children who write both forms are at L4. Watch for Part 2 children who reverse rows-and-columns (writing 4×3 for a 3-row × 4-column array) — flag for the row-vs-column reteach."
+}

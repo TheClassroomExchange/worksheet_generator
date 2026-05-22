@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "pair_number": 1,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 2,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "Lesson Station B says pairs match equations to variable values 'without solving — just identify what the variable represents', but Worksheet Part 2 says 'Match each equation to the unknown number it stands for' with answer key 5+?=12 → 7, etc. The worksheet practises solving while the lesson defers it.",
+      "required_fix": "Either rewrite Worksheet Part 2 so children match each equation to a description of the unknown ('the number that with 5 makes 12') without computing the value, OR revise lesson Station B step 2 to explicitly include solving. Align lesson activity, success criteria, and worksheet answer key.",
+      "affected_stages": ["lesson_01", "worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names the variable-as-answer trap and recovery branches by what the child says ('If the child STILL says box = 7') but no named research citation appears. Rubric Level 4 example cites 'Ehri 2005 Phase 2' to ground the trap.",
+      "required_fix": "Cite research grounding for variable-as-placeholder confusion in expanded_walkthrough.rationale — e.g., Kieran 1981 on the equal sign and variable misconception, or Knuth, Alibali, McNeil et al. 2006 on operational vs relational equal-sign understanding. One sentence linking the trap to the named source.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Magnifying Glass Variable Cards (24)' and 'Per-pair magnifying glass props (paper)' as required, and differentiation lacks a no-paper / no-purchase fallback path. Rubric Level 4 requires an explicit no-paper alternative usable on a zero-prep day.",
+      "required_fix": "Add a no-materials version to differentiation: e.g., 'No-prep version — teacher writes equations on the board and children make a fist (variable!) and an open hand (known number) to identify variables; no cards, no paper props needed.' Makes Lesson 1 runnable on any day.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Detective Dee anchors minds_on, action, and consolidation, and the chair metaphor is memorable, but consolidation.exit_routine is a sticky-note write task with no distinctive quotable refrain or sentence frame for children to carry between lessons. Rubric Level 4 wants a chant kids remember months later.",
+      "required_fix": "Give Detective Dee a quotable closing chant tied to C2.1 — e.g., 'Variable, variable, hold the place — the unknown number fills the space!' Add it to consolidation.exit_routine as a class call-and-response that recurs in Lessons 2–5; reference it in the Lesson 1 teacher_script first.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson treats equal sign as same-value-on-both-sides and frames variable as placeholder (Level 3 conceptual progression), but children only identify variables — they do not invent or compare strategies, and expanded_walkthrough does not name the misconception in research-grounded terms (Kieran on relational equality; Knuth et al. on operational vs relational).",
+      "required_fix": "In action step 4 add an invent-and-compare beat: ask two pairs to show their Station C equations; class compares 'Did Pair A and Pair B use different symbols for the same kind of unknown? What stayed the same?' Then in expanded_walkthrough name the relational vs operational equal-sign distinction (Kieran 1981; Knuth et al. 2006).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 has strong alignment (C2.1 covered faithfully, expectation text byte-identical) but blocks on lesson_worksheet_consistency: Worksheet Part 2 asks for solved values while lesson Station B explicitly defers solving. Four other categories sit at 3 (no research citation, no no-paper fallback, no quotable refrain, no invent/compare beat). Revise both stages to align Part 2 with Station B and lift Lesson 1 to Level 4 on the named gaps."
+}

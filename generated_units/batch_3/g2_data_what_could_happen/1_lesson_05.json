@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "lesson_number": 5,
+  "lesson_title": "Mode Prediction Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1",
+    "D2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Detectives predict the MODE for one group, then test in ANOTHER group. Same mode? Different?",
+  "learning_intention": "We are learning to predict mode and test across groups.",
+  "student_learning_goal": "I can predict mode and test it across groups.",
+  "success_criteria": [
+    "I can SURVEY 5 children in one group.",
+    "I can FIND the mode.",
+    "I can TEST the same survey in a different group."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "impossible",
+    "possible",
+    "certain",
+    "predict",
+    "complementary event",
+    "spinner",
+    "mode"
+  ],
+  "manipulatives_used": [
+    "M1_likelihood_chart",
+    "M2_complement_cards",
+    "M3_spinner_set",
+    "M4_dice_set",
+    "M5_prediction_mat",
+    "M6_capstone_template",
+    "M7_event_cards",
+    "M8_complement_chart",
+    "M9_outcome_cards",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Mode Prediction'",
+    "Mode Prediction Templates (1 per child)",
+    "All previous manipulatives at 5 stations",
+    "Lesson 5 capstone rubric"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Lucky and Mae Plan the Capstone",
+    "hook": "Lucky: Today's CASE — predict the MODE in one group, then TEST in another. Same? Different? Lucky+Mae open: 'Same die, different ROLLS! Different MODES! PREDICTION uses the DATA!'",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets in lab coats. 'Friends — today our CAPSTONE. We use ALL we know: likelihood, complementary, spinner, dice, MODE prediction.'\n\nReview: 'Step 1 — pick a question. Step 2 — survey 5 in our class. Step 3 — find mode. Step 4 — predict mode in another group. Step 5 — test if right.'\n\nDemo. Class data: 'Favourite snack: apple 2, cookie 3, sandwich 0. Mode = COOKIE.'\n\n'Predict another class — will MODE be cookie too? Maybe. Maybe not. Different group, different favourites.'\n\nNow show the 5 stations:\n- Station 1: LIKELIHOOD — sort 6 events I/P/C.\n- Station 2: COMPLEMENT — match 4 complement pairs.\n- Station 3: SPINNER — predict + test 5 spins.\n- Station 4: DICE MODE — roll 12 times, find mode.\n- Station 5: SURVEY — survey 5 classmates, find mode, predict for another group.\n\nEach child rotates and records on TEMPLATE.\n\n'Lucky says — every detective uses ALL these skills.'",
+    "student_actions": [
+      "Watch Lucky and Mae",
+      "Echo all unit vocabulary",
+      "Plan station order",
+      "Practice each skill briefly"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "The Mode Prediction Lab",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out templates. 5 stations rotation (~5 min each).",
+        "teacher_prompt": "Say: '5 stations. Record each.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Station 1 (LIKELIHOOD): sort 6 events I/P/C.",
+        "teacher_prompt": "Say: 'I, P, or C?'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Station 2 (COMPLEMENT): match 4 pairs.",
+        "teacher_prompt": "Say: 'Either-or pairs.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stations 3-4 (SPINNER + DICE): predict + test.",
+        "teacher_prompt": "Say: 'Predict, then test.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Station 5 (SURVEY): predict mode + test.",
+        "teacher_prompt": "Say: 'Survey, find mode, predict.'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "COMPARE TWO PREDICTIONS: Present 'Lin says SAME mode because both classes used the same die'; 'Sam says DIFFERENT mode because each set is fresh.' Class debates with data — both can be right depending on sample size. Cite Konold (2002) — process vs realised data distinction.",
+        "teacher_prompt": "Mae: 'Sometimes both children are right. Long-run mode = same. Short-run mode = could differ.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "3 stations only.",
+      "for_extending": "After all 5, write a 'big idea' conclusion.",
+      "for_ell_or_iep": "Pre-printed sentence frames.",
+      "for_movement_learners": "Walk between 5 station tables physically. NO-PAPER VERSION: 5 corners of the room as stations (Likelihood corner, Complement corner, Spinner corner, Dice corner, Mode-Prediction corner). Children rotate through corners, class records on chart paper."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: likelihood; complement; spinner; dice mode; survey + predict.",
+      "how_to_record": "Score on capstone rubric.",
+      "tracker_columns": [
+        "Student name",
+        "Likelihood",
+        "Complement + spinner",
+        "Dice + survey + predict",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lucky's Mode Brag",
+    "discussion_prompts": [
+      "What's COMPLEMENTARY?",
+      "What was your dice mode?",
+      "Did your prediction match the test?",
+      "Why might mode differ between groups?"
+    ],
+    "exit_routine": "Closing capstone refrain — Lucky+Mae call-and-response: Lucky: 'Same die, different ROLLS!' Mae: 'Different MODES!' Class: 'PREDICTION uses the DATA!' (3x). Each child reads one mode prediction with the data citation."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Capstone template across 5 stations.",
+    "tracker_reference": "summative_capstone_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures D2.1 + D2.2 in one lab."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child predicts SAME mode for new group — repairing the same-mode-different-group trap at Grade 2",
+    "rationale": "On mode prediction across two populations (Day 5 capstone), the trap is mode-as-property-of-the-DATA vs mode-as-property-of-the-GROUP-PROCESS confusion (Konold 2002, 'Teaching Concepts Fundamentally', and Lehrer & Schauble 2002 'Investigating Real Data'): child says 'same fair die produces SAME MODE in both classes' (true on average over thousands of rolls; false in small samples). The fix: distinguish the underlying process from the realised data.\n\nToday integrates Lessons 1-4: likelihood (L1), complement (L2), spinner-proportion (L3), dice-fairness (L4) into a mode-prediction capstone.",
+    "setup": "Capstone Station 5. Child surveyed own class: cookie mode. Predicts another class will ALSO have cookie mode.",
+    "teacher_script": "Crouch. 'Your class mode was cookie. But Lucky asks — could ANOTHER class have a different mode?'\n\nGuide. 'Different groups = different favourites. Maybe Ms. B's class loves apples. Maybe Mr. C's loves sandwich.'\n\nGenerlise. 'Mode is GROUP-specific. Predict THIS group, test THAT group, accept differences.'\n\nIf still rigidly predicting same: provide a 3-group comparison sample.",
+    "expected_student_responses": [
+      "(Confused) Same mode = always.",
+      "(Mid) Accepts variation with prompts.",
+      "(Strong) Predicts and accepts variability.",
+      "(Stretched) Reasons about why groups differ."
+    ],
+    "common_misconceptions": [
+      "Mode is universal. (Repair: GROUP-specific.)",
+      "Different groups won't differ. (Repair: they often do.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child says SAME MODE because 'same die': name the variability — 'same die, different ROLLS, different MODES in small samples.'",
+      "DIAGNOSTIC B — child knows variability but can't articulate: force the sentence frame 'Class A's mode and Class B's mode MIGHT be the same OR different because each set of 20 rolls is FRESH.'",
+      "DIAGNOSTIC C — child makes a prediction but won't justify with data citation: highlight the data table, ask 'show me the ROW your prediction comes from.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lucky and Mae's Mode Lab",
+    "purpose": "Summative artifact applying D2.1 + D2.2.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Sort 4 events I/P/C and identify a complement.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Predict + test a spinner. Roll dice 10 times, find mode.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Survey 5 classmates. Find mode. Predict mode for ANOTHER group.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky and Mae in worksheet header",
+      "Sort + complement for Part 1",
+      "Spinner + dice tables for Part 2",
+      "Survey table + prediction line for Part 3"
+    ]
+  }
+}

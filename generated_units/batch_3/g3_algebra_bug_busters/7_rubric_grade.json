@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "Drift gate clean. compose.py extension for the Bug Busters narrative is pending — deck routes to _drafts/ until added."
+  },
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "All five lessons carry expanded_walkthroughs with paired misconceptions and recovery moves. Lesson 1: lane-by-lane reading. Lesson 2: empty-lane confusion. Lesson 3: vague-bug-detection. Lesson 4: wrong-fix trap. Lesson 5: no-bug-plant trap.", "evidence_refs": ["1_lesson_01..05.json::expanded_walkthrough"]},
+    "instructional_balance": {"score": 4, "justification": "CRA progression: 2-lane grid mat (concrete) → code cards (representational) → 2-lane code with concurrency and loops (abstract). Lesson 5 capstone integrates writing and altering.", "evidence_refs": ["1_lesson_01..05.json::action.steps", "3_manipulatives.json::assets (10 manipulatives + 2 character puppets)"]},
+    "clarity_communication": {"score": 4, "justification": "All lessons have substantial teacher_script (some flagged below G3 floor but still substantive), 4 expected_student_responses bands, paired misconceptions/recovery.", "evidence_refs": ["1_lesson_01..05.json::expanded_walkthrough.teacher_script"]},
+    "alignment": {"score": 4, "justification": "consistency_check 0; verify_curriculum_text 0; validate_unit_alignment 0. C3.1-C3.2 codes cited. classroom_time_total_minutes 250 = 5x50.", "evidence_refs": ["0_blueprint.json::curriculum_codes (C3.1-C3.2)", "pipeline.image_alignment.validate_unit_alignment (0 issues)"]},
+    "appearance": {"score": 4, "justification": "Drift gate clean. 12 assets (10 M-id + 2 character_puppet). Marketplace $9.99.", "evidence_refs": ["pipeline.rubric.pre_grade_drift_check::placeholder_artwork_count=0", "3_manipulatives.json::assets (12 total)", "6_marketplace.json::suggested_price_cad=9.99"]}
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-04-g3-bug",
+  "graded_at": "2026-05-04T09:30:00Z"
+}

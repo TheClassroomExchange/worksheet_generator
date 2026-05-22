@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "deck_url": "https://docs.google.com/presentation/d/1ridJA3jbOfCGR2VcudHKs5XPG6LgcCR3L4CtQB0vGxY/edit",
+  "pdf_path": "/Users/aria/Documents/TheClassroomExchange/claude_code_handoff/worksheet_generator/generated_units/batch_3/g1_spatial_mapping/validation_export.pdf",
+  "pdf_size_kb": 767,
+  "slide_count": 27,
+  "inspected_at": "2026-05-10T12:14:02Z",
+  "inspected_by": "claude-visual-inspector-batch3",
+  "status": "revise_assets",
+  "issues": [
+    {
+      "slide_number": 24,
+      "category": "character_unrecognizable",
+      "description": "The Compass Coco Puppet slide shows a line-art BIRD (with feathers, beak, tail, and standing on bird legs) labelled 'Compass Coco the Cat'. This is clearly the wrong art — Coco is supposed to be a cat with a small compass on a chain and a tiny map. The image does not match the BLENDY/SOUNDER kawaii style at all (line-arty, not head-dominant, no oval pupils with sparkles, no blush).",
+      "suggested_fix": "Regenerate char_coco_puppet via the character_svg_designer skill to produce a kawaii-style young cat with a compass on a chain and a tiny map under one paw, matching the head-dominant proportions, oval pupils, blush, and rounded body of the reference characters.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 1,
+      "category": "image_misplacement",
+      "description": "The Title slide includes a stray small line-art bird drawing at the bottom of the slide, below the subtitle 'Map It, Move It!'. This is the same wrong-art bird used as Compass Coco — it should not appear on the title slide and clashes with the unit branding.",
+      "suggested_fix": "Remove the stray bird image from the title slide template, or replace with the correct Trekker Tig + Compass Coco kawaii puppets once Coco is regenerated.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 7,
+      "category": "image_misplacement",
+      "description": "Lesson 5 (Treasure Trail Capstone) Action section text overlaps the Consolidation heading — the Action bullets including 'STRATEGY COMPARE after Station 5: two children share their direction…' run into the dark heading bar of '3. Consolidation (13 mins): Tig's Capstone Brag', producing visible text overlap and an unreadable transition between sections.",
+      "suggested_fix": "Shorten the Lesson 5 Action bullets in the lesson JSON or increase the slide template's section spacing so the Action paragraph ends cleanly before the Consolidation heading begins.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 14,
+      "category": "missing_asset",
+      "description": "Paper 3D Blocks (M2_3d_blocks) is described as '12 paper-fold 3D blocks (cubes, cones, cylinders, pyramids, prisms),' but the hero shows 2D pattern blocks (hexagon, trapezoid, rhombus, square, triangle, parallelogram). The asset is the wrong type — children need 3D foldables, not flat 2D shapes.",
+      "suggested_fix": "Re-run the manipulative composer for M2_3d_blocks to render 3D net templates (cube, cone, cylinder, pyramid, prism) that fold into solids, instead of 2D pattern blocks.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 17,
+      "category": "missing_asset",
+      "description": "Treasure Tokens (M5_treasure_tokens) description says '12 small treasure tokens (gold, silver, gem, key) for hiding on the map,' but the hero shows 8 generic 2D shapes (square, circle, triangle, rectangle, pentagon, hexagon, trapezoid, rhombus). Treasure-themed tokens are not rendered.",
+      "suggested_fix": "Re-run the manipulative composer for M5_treasure_tokens to draw actual gold coin, silver coin, gem, and key tokens (3 of each) instead of generic 2D shapes.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 18,
+      "category": "missing_asset",
+      "description": "Treasure Trail Template (M6_capstone_template) shows an empty pale-yellow rectangle labelled 'M6 CAPSTONE' inside a 'Manipulative' box. There is no actual capstone template (map, direction lines, reflection) rendered, only a placeholder.",
+      "suggested_fix": "Re-run the manipulative composer for M6_capstone_template to draw the actual capstone layout: a map area, direction-writing lines, and a reflection prompt.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 22,
+      "category": "missing_asset",
+      "description": "Map It Move It Poster (M10_unit_poster) slide shows an empty pale-yellow landscape rectangle with caption 'Anchor chart'. The unit anchor poster of Tig and Coco with sample shapes and directions is not rendered.",
+      "suggested_fix": "Re-run the manipulative composer for M10_unit_poster to draw Trekker Tig and Compass Coco with sample shape sort, 3D structure, symmetric shape, position-word example, and direction trail.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 8,
+      "category": "missing_asset",
+      "description": "Tig's Sort Sheet worksheet preview hero shows an empty bordered rectangle labelled 'WS01 P2 BOXES' with caption 'Worksheet area'. The actual sort-by-attribute hero artwork is not rendered.",
+      "suggested_fix": "Re-run the worksheet composer for WS01 P2 so the hero shows the actual sorting boxes/bins ready for student responses, not a blank composer placeholder.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 10,
+      "category": "missing_asset",
+      "description": "Coco's Symmetry Page worksheet preview hero shows an empty bordered rectangle labelled 'WS03 P3 BLANK' with caption 'Worksheet area'. The matching-halves artwork is not rendered.",
+      "suggested_fix": "Re-run the worksheet composer for WS03 P3 so the hero shows shapes with and without lines of symmetry, ready for the student to circle and draw.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 3,
+      "category": "text_overflow",
+      "description": "Lesson 1 Exit prompt ends 'Exit: Tig's three-step refrain — class chants 3x: 'Pick ONE!' with the closing quote and the rest of the chant truncated. Teacher cannot see the full Pick ONE / Say it / Sort it refrain.",
+      "suggested_fix": "Edit the lesson 1 consolidation_exit field to complete the chant ('Pick ONE! Say it! Sort it!') and close quotation, so the slide displays the full refrain.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 4,
+      "category": "text_overflow",
+      "description": "Lesson 2 Action ends with 'Class debates…' truncated, leaving an unfinished sentence at the end of a teacher-direction bullet.",
+      "suggested_fix": "Complete or remove the trailing 'Class debates…' fragment in the Lesson 2 action bullet so no ellipsis dangles on the slide.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 25,
+      "category": "title_clipping",
+      "description": "Summative Rubric Expectation column shows every row truncated with '…' (E1.1 through E1.5) and most Level 3 'Achieving' descriptors also end with '…'. Achievement-level criteria are partially hidden.",
+      "suggested_fix": "Widen the rubric Expectation column or shrink the cell font so all five expectations and the Level 3 achievement descriptors fit without ellipsis.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 8,
+  "summary": "Eight blocking issues: Compass Coco puppet renders as a wrong-art bird instead of a kawaii cat; Lesson 5 Action text overlaps the Consolidation heading (layout); four manipulative slides (3D blocks, treasure tokens, capstone, unit poster) and two worksheet heroes (sort, symmetry) are placeholder rectangles or wrong asset types. Phase B character regen plus composer re-runs needed; status revise_assets dominates."
+}

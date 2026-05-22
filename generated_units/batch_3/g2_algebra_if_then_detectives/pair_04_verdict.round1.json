@@ -1,0 +1,57 @@
+{
+  "unit_id": "g2_algebra_if_then_detectives",
+  "pair_number": 4,
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a real trap ('alteration-doesn't-matter trap: the child changes the code but predicts the same outcome as the original') and includes a side-by-side re-trace recovery, but the rationale never cites named research, and recovery_moves is a flat list ('Use a side-by-side template.', 'Drill the re-trace reflex.', 'Identify boundary inputs explicitly.') rather than branching by what the diagnostic told you about the child.",
+      "required_fix": "Anchor the trap in named research (e.g., reference the computational-thinking 'tracing' literature — Lister 2011 on tracing-before-writing, or Sherin et al. on debugging as predict-test-revise) AND restructure recovery_moves to branch by diagnostic: if the child re-trace produced the right answer but they still wrote the old outcome, drill the 'new code = new trace' reflex with side-by-side templates; if the child cannot trace the altered condition correctly at all, drop back to single-input tracing on the altered code only before re-introducing the comparison; if the child traces correctly but says 'same outcome' for boundary inputs, do a directed boundary sweep (try inputs 9, 10, 11, 19, 20, 21).",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Inspector If anchors the lesson and 'I can' criteria are consistent, but the consolidation ('Inspector If's Alter Brag') and exit_routine ('Each child writes ONE altered code on a sticky note: \"Original: ___. Altered: ___. New outcome: ___.\"') do not give the children a memorable chant or sentence-frame refrain in Inspector If's voice that they carry between lessons. The closest line, 'every alteration must be RE-TRACED. The new code is a NEW code,' is teacher-script narration, not a child chant.",
+      "required_fix": "Add a quotable Inspector-If refrain that children chant back at consolidation and reuse on Day 5 — for example, give Inspector If the catchphrase 'NEW code, NEW trace!' and have the consolidation end with the teacher saying 'Inspector If says...' and the class chanting 'NEW code, NEW trace!' three times. Embed the same refrain in the worksheet header banner so children encounter it during independent practice.",
+      "affected_stages": ["lesson_04", "worksheet_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson teaches alteration as deliberate change with re-tracing and boundary-input reasoning ('Inputs between 11 and 20 — they used to be BIG, now they're SMALL. Inputs ≤10 stayed SMALL. Inputs >20 stayed BIG.'), and the stretch chains two alterations, but children are not asked to invent and compare alternative alterations of their own, and the expanded_walkthrough never names the misconception in research-grounded terms (no reference to Carpenter & Moser CGI, Empson, Battista, or computational-thinking research such as Lister's tracing/Brennan-Resnick CT framework).",
+      "required_fix": "In the action stage, add a final step where each pair writes TWO different alterations of the same original code that produce the SAME altered outcome for a chosen input, then explains why both work — this is invent-and-compare. In expanded_walkthrough.rationale, name the trap explicitly as a tracing-vs-writing asymmetry (cite Lister 2011 'Concrete and other neo-Piagetian forms of reasoning in the novice programmer' or the Brennan & Resnick 2012 CT framework) and tie the re-trace reflex to the broader 'new code is a new artefact' principle.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet parts 1-3 mirror the lesson's three stations exactly (alter condition / alter action / swap branches), and the early_finisher_prompt ('If you finish, chain TWO alterations on the same code and predict the cumulative effect.') matches the lesson's Stretch challenge — but the worksheet does not deliberately VARY the practice format from the lesson as a transfer task, and there is no justification for why any part introduces a novel item to verify generalization.",
+      "required_fix": "Make Part 3 a deliberate transfer task: instead of swapping branches on an isolated code, give children an UNFAMILIAR multi-conditional code (one they did not see at any station — e.g., 'IF >10 THEN BIG; ELSE IF =10 THEN MID; ELSE SMALL') and ask them to predict outcomes for 3 boundary inputs (9, 10, 11) before AND after the swap. Add a teacher_notes line stating: 'Part 3 introduces a 3-branch code not seen in stations to verify generalization beyond two-branch IF-THEN.' Document the transfer rationale.",
+      "affected_stages": ["worksheet_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "overall_summary": "Strong pair on materials and arc-bridging — the Day-3 callback is explicit, puppets are properly optional, and the 50-minute timing fits Grade 2. Four categories sit at 3 because the trap lacks named research, Inspector If has no chantable refrain, children don't invent-and-compare alterations, and the worksheet repeats the station format rather than transferring to a novel code. Targeted fixes in lesson_04 and worksheet_04 (research citation + branched recovery, an Inspector-If chant, an invent-and-compare step, and a multi-branch transfer item in Part 3) lift this pair to passing."
+}

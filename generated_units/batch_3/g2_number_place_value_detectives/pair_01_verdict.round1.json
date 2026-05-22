@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title names a real grade-2 trap (1H+3O+2T mis-placement of 132) and recovery branches to two-digit anchor if reversal persists, BUT no named research is cited anywhere in rationale or recovery_moves — Level 4 requires the trap to align with named research.",
+      "required_fix": "Add a research citation to expanded_walkthrough.rationale: name Fuson 1990's 'concatenated single-digit conception' and Ross 1989's place-value developmental sequence (stage 2: digit-by-digit reading without positional value), and explicitly tag each recovery branch with the diagnostic signal that triggers it.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "manipulatives_used requires M1 base-ten blocks (4 hundred-flats + 20 ten-rods + 30 unit-cubes per pair), M2 place-value mat, M3 0-200 number line, M7 hundreds chart. Puppet is correctly OPTIONAL. But there is NO no-paper / no-purchase fallback path for a day with no prep or no base-ten kit.",
+      "required_fix": "Add to differentiation a 'No-materials version': students stand in three carpet lines (HUNDREDS=100 each, TENS=10 each, ONES=1 each); the class composes target numbers by sending the right count of bodies to each line. Or substitute books-as-flats, single-books-as-rods, paperclips-as-ones on a chart-paper mat. Makes Lesson 1 runnable any day.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Blueprint gives Hugo the catchphrase 'Look at the hundreds first!' but the lesson's teacher_script never quotes it, and consolidation.exit_routine is the generic 'My favourite number today was ___ because ___' — no Hugo-specific chant or sentence frame children carry between lessons.",
+      "required_fix": "Quote 'Look at the hundreds first!' twice in teacher_script (132 build + consolidation), and add a Hugo call-and-response chant to exit_routine: Teacher 'HUNDREDS' — children 'FIRST!'; Teacher 'TENS' — children 'NEXT!'; Teacher 'ONES' — children 'LAST!'. Carries forward to Days 2-5 as a portable refrain.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is solid (place value as position; 132 = 100+30+2; 203 stretch invites overflow recognition), but children are NOT asked to invent or compare strategies — every pair builds the same canonical way following digit-order. expanded_walkthrough also names the misconception in plain language only, not in research-grounded terms.",
+      "required_fix": "In action.steps Step 3 add a strategy-compare moment at Station A: 'Pairs who finish find a SECOND build for 132 (e.g., 13 ten-rods + 2 ones, no flat). Consolidation: which build is easier to read at a glance? Why?' Previews Lesson 2 decomposition. Also name the trap as Fuson's 'concatenated single-digit conception' in expanded_walkthrough.rationale.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 1 hits the curriculum codes faithfully (alignment=4) and the worksheet practises the same skills with a transfer-task variation (consistency=4). Four other categories sit at Level 3: the trap is grade-real but not research-cited; base-ten blocks are required with no body/voice fallback; Hugo's catchphrase isn't actually quoted in-lesson and the exit chant is generic; children don't invent or compare strategies. All fixes are in lesson_01 — worksheet is fine. Revise lesson only."
+}

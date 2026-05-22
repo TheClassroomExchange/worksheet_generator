@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "assets": [
+    {
+      "asset_id": "M1_sort_objects",
+      "name": "Sortable Object Cards",
+      "category": "manipulative",
+      "purpose": "A set of 30 paper object tokens for sorting by attributes (colour, shape, type) across Lessons 1 and 5. Foundational for the rule-based sorting concept.",
+      "page_layout": "Two letter pages, portrait orientation. Each page holds 15 object tokens in a 3x5 grid. Objects: 5 red shapes, 5 blue shapes, 5 yellow shapes (squares + circles + triangles in each colour).",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 2, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M1_OBJECTS",
+          "description": "Two letter portrait pages of sortable object tokens for a Grade 1 manipulative, B&W line art. Each page holds 15 tokens in a 3x5 grid. Tokens are mixed shapes (squares, circles, triangles) with size variation indicating colour categories: solid black border = red, dashed border = blue, dotted border = yellow. Each token ~1.5in across with thin solid cut-lines.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": ["objects", "sort"],
+          "text_image_alignment_check": "Image M1_OBJECTS: instructions describe a 30-token sort set used in lessons 1 and 5. Keywords name the visual elements (objects) and primary activity (sort)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets total (1 set per pair). Each set is 2 pages = 30 tokens.",
+        "Laminate before cutting for repeated use.",
+        "Cut along the grid lines into 30 individual tokens per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [1, 5]
+    },
+    {
+      "asset_id": "M2_tally_chart",
+      "name": "Tally Chart Template",
+      "category": "manipulative",
+      "purpose": "A letter-size template for recording tally marks with category labels. Used by pairs in Lessons 2 and 5 for survey collection.",
+      "page_layout": "One letter page, portrait orientation. Top: blank question line. Below: 4 category rows, each with a label box, wide tally area, and total box.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M2_TALLY_CHART",
+          "description": "A portrait tally chart template for a Grade 1 manipulative, B&W line art. Top: a labelled line 'Question: ___' for the survey question. Below: 4 category rows stacked, each ~1.2in tall. Each row has a label box (~1.5in wide), a tally area (~4in wide for drawing tally marks), and a total box (~0.8in square). Thin row dividers.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["tally", "chart"],
+          "text_image_alignment_check": "Image M2_TALLY_CHART: instructions describe a tally chart template for lessons 2 and 5. Keywords name the visual artifact (tally, chart)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 templates (1 per pair plus 2 extras). Single page each.",
+        "Laminate for dry-erase use across lessons 2 and 5.",
+        "Distribute one template per pair."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "10-12 templates.",
+      "used_in_lessons": [2, 5]
+    },
+    {
+      "asset_id": "M3_pictograph_grid",
+      "name": "Pictograph Grid Mat",
+      "category": "manipulative",
+      "purpose": "A letter-size grid mat for building pictographs with one-to-one correspondence in Lessons 3, 4, and 5.",
+      "page_layout": "One letter page, landscape orientation. Top: blank title line. Body: 4 horizontal rows of grid cells (~6 cells per row, each cell ~1in × 1in). Beside each row, a label box.",
+      "print_specifications": {"page_size": "letter", "orientation": "landscape", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M3_GRID",
+          "description": "A landscape pictograph grid mat for a Grade 1 manipulative, B&W line art. Top: a labelled line 'Title: ___'. Body: 4 horizontal rows of empty grid cells. Each row has a label box on the left (~1.5in wide) and 6 grid cells (~1in × 1in each) where pictures will be placed one-to-one. Total grid ~7in × 4in. Thin grid dividers.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["pictograph", "grid"],
+          "text_image_alignment_check": "Image M3_GRID: instructions describe a pictograph grid for lessons 3, 4, 5. Keywords name the format (pictograph) and structure (grid)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 mats (1 per pair plus 2 extras). Single page each.",
+        "Laminate for dry-erase use across lessons 3, 4, 5.",
+        "Distribute one mat per pair."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "10-12 mats.",
+      "used_in_lessons": [3, 4, 5]
+    },
+    {
+      "asset_id": "M4_picture_tokens",
+      "name": "Pictograph Picture Tokens",
+      "category": "manipulative",
+      "purpose": "A set of 60 small pictorial tokens (fruits, pets, sports) for placing on the pictograph grid with one-to-one correspondence.",
+      "page_layout": "Two letter pages, portrait orientation. Each page holds 30 tokens in a 5x6 grid. Categories: fruits (apples, bananas, grapes), pets (dogs, cats, fish), sports (hockey sticks, soccer balls).",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 2, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M4_TOKENS",
+          "description": "Two letter portrait pages of pictograph picture tokens for a Grade 1 manipulative, B&W line art. Each page holds 30 small tokens in a 5x6 grid. Categories include: 8 apples, 8 bananas, 8 grapes (page 1); 8 dogs, 8 cats, 8 fish, 6 hockey sticks (page 2). Each token ~0.8in × 0.8in with thin solid cut-lines, sized to fit the M3 pictograph grid cells.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": ["tokens", "pictures"],
+          "text_image_alignment_check": "Image M4_TOKENS: instructions describe a 60-token pictograph set for lessons 3, 4, 5. Keywords name the visual elements (tokens, pictures)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Each set is 2 pages = 60 tokens.",
+        "Laminate before cutting for repeated use.",
+        "Cut along the grid lines into 60 individual tokens per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 30,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [3, 4, 5]
+    },
+    {
+      "asset_id": "M5_question_cards",
+      "name": "Survey Question Cards",
+      "category": "manipulative",
+      "purpose": "A set of 12 pre-written survey question cards for collecting data. Used in Lessons 2 and 5.",
+      "page_layout": "One letter page, portrait orientation. 12 cards in a 3x4 grid. Each card has a question prompt and 3 example category options.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M5_QUESTIONS",
+          "description": "A 3x4 grid of 12 survey question cards for a Grade 1 manipulative, B&W line art. Each card ~2in × 2in with a question and 3 small icons of category options. Sample questions: 'Favourite fruit?' (apple/banana/grape icons), 'Favourite pet?' (dog/cat/fish), 'Favourite sport?' (hockey/soccer/baseball), 'Favourite weather?' (sunny/rainy/snowy), 'Favourite season?' (spring/summer/winter), 'Favourite snack?' (cookie/apple/cracker), 'Favourite recess game?' (tag/soccer/hopscotch), 'Walked or driven to school?' (walked/driven/bus), 'Number of siblings?' (0/1/2+), 'Hair colour?' (brown/blonde/red/black), 'Favourite colour?' (red/blue/yellow), 'Birthday season?' (spring/summer/fall/winter). Thin solid cut-lines between cards.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["questions", "survey"],
+          "text_image_alignment_check": "Image M5_QUESTIONS: instructions describe 12 survey question cards used in lessons 2 and 5. Keywords name the content (questions) and activity (survey)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Single page each.",
+        "Laminate before cutting.",
+        "Cut along the grid lines into 12 individual question cards per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [2, 5]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Detective Case Template",
+      "category": "manipulative",
+      "purpose": "A letter-size template for the Lesson 5 capstone with sort area, tally chart, pictograph, ordering, and conclusion line.",
+      "page_layout": "One letter page, portrait orientation. Five vertical sections: question line, tally chart (3 rows), pictograph grid (3 rows), ordering boxes (3), conclusion sentence box.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false},
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE",
+          "description": "A portrait detective case template for a Grade 1 capstone worksheet, B&W line art. Five vertical sections from top to bottom: (1) question line 'My question: ___'; (2) tally chart with 3 category rows including label, tally area, total; (3) pictograph grid with 3 rows of 6 cells each + label boxes; (4) 3 ordering number boxes labelled 1-3; (5) conclusion writing box ~5in × 1in with sentence-frame reminders below.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["capstone", "detective"],
+          "text_image_alignment_check": "Image M6_CAPSTONE: instructions describe a 5-section capstone template for Lesson 5. Keywords name the activity (capstone) and the unit theme (detective)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 25 templates (1 per child plus 5 extras).",
+        "Stack near the teacher table for distribution at the start of Lesson 5 Action.",
+        "No lamination needed — these are single-use summative artifacts."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "25 templates.",
+      "used_in_lessons": [5]
+    },
+    {
+      "asset_id": "M7_data_chart",
+      "name": "Data Vocabulary Chart",
+      "category": "manipulative",
+      "purpose": "A teacher-display anchor chart of data vocabulary (sort, tally, pictograph, title, label, conclusion). Stays posted across all 5 lessons.",
+      "page_layout": "One letter page, portrait orientation. Header: 'Data Words'. Six rows, each with a vocabulary word and a tiny example icon.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M7_VOCAB",
+          "description": "A portrait data vocabulary anchor chart for a Grade 1 classroom, B&W line art. Header: 'Data Words' in bold. Six rows stacked vertically, each with a vocabulary word in bold and a tiny example icon: SORT (with two piles icon), TALLY (with ||||CROSS icon), PICTOGRAPH (with mini pictograph icon), TITLE (with line at top icon), LABEL (with row label icon), CONCLUSION (with sentence icon). Generous row spacing.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["data", "vocabulary"],
+          "text_image_alignment_check": "Image M7_VOCAB: instructions describe a data vocabulary anchor chart for all 5 lessons. Keywords name the chart's content (data, vocabulary)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on standard letter paper.",
+        "Laminate for repeated reference across the unit.",
+        "Tape to the front classroom wall before Lesson 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "M8_tally_chart",
+      "name": "Tally Marks Reference",
+      "category": "manipulative",
+      "purpose": "A teacher-display anchor chart showing 1, 2, 3, 4, 5 (with cross-out) tally mark conventions. Posted in Lessons 2 and 5.",
+      "page_layout": "One letter page, landscape orientation. Five columns showing the progression from | to ||||CROSS, each labelled with the count.",
+      "print_specifications": {"page_size": "letter", "orientation": "landscape", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M8_TALLY_REF",
+          "description": "A landscape tally marks reference chart for a Grade 1 classroom, B&W line art. Five columns showing the tally progression: column 1 = | (1), column 2 = || (2), column 3 = ||| (3), column 4 = |||| (4), column 5 = ||||CROSS with the diagonal stroke (5). Each tally is large (~2in tall) with the count number printed below in bold. Header: 'Tally Marks!'.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["tally", "marks"],
+          "text_image_alignment_check": "Image M8_TALLY_REF: instructions describe a tally marks reference chart for lessons 2 and 5. Keywords name the visual element (tally, marks)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on standard letter paper.",
+        "Laminate for repeated reference.",
+        "Tape next to the Data Vocabulary Chart."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [2, 5]
+    },
+    {
+      "asset_id": "M9_attribute_cards",
+      "name": "Attribute Cards",
+      "category": "manipulative",
+      "purpose": "A set of 12 attribute cards (red, blue, big, small, round, square, etc.) for sorting rules. Used in Lessons 1 and 5.",
+      "page_layout": "One letter page, portrait orientation. 12 cards in a 3x4 grid. Each card has the attribute word and a small icon.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M9_ATTRIBUTES",
+          "description": "A 3x4 grid of 12 attribute cards for a Grade 1 manipulative, B&W line art. Each card ~2in × 2in with an attribute word in bold and a small icon. Cards: red (with circle), blue (with circle), yellow (with circle), big (large circle), small (small circle), round (circle outline), square (square outline), triangle (triangle outline), animal (paw print), plant (leaf), food (apple), tool (hammer). Thin solid cut-lines.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["attributes", "sort"],
+          "text_image_alignment_check": "Image M9_ATTRIBUTES: instructions describe 12 attribute cards used in lessons 1 and 5. Keywords name the cards' content (attributes, sort)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Single page each.",
+        "Laminate before cutting.",
+        "Cut along the grid lines into 12 individual cards per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [1, 5]
+    },
+    {
+      "asset_id": "M10_detective_poster",
+      "name": "Data Detectives Poster",
+      "category": "manipulative",
+      "purpose": "A unit anchor poster of Detective Dot and Tally with the 5 detective steps: ASK, SORT, TALLY, GRAPH, CONCLUDE. Posted at the front for the entire unit.",
+      "page_layout": "One letter page, landscape orientation. Header: 'Data Detectives!' Centre-left: Detective Dot with magnifying glass. Centre-right: Tally with tally chart. Around them: 5 numbered detective-step badges arranged in an arc.",
+      "print_specifications": {"page_size": "letter", "orientation": "landscape", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "A landscape unit anchor poster for a Grade 1 Data Detectives classroom, B&W line art. Header: 'Data Detectives!' in big bubble letters. Centre-left: Detective Dot the Sorting Squirrel with magnifying glass and notebook. Centre-right: Tally the Tally Cat holding a clipboard. Around them, 5 numbered detective-step badges arranged in an arc: 1. ASK, 2. SORT, 3. TALLY, 4. GRAPH, 5. CONCLUDE. Each badge has a small icon (question mark, two piles, ||||CROSS, mini pictograph, sentence). Cheerful detective tone.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["detective", "data"],
+          "text_image_alignment_check": "Image M10_POSTER: instructions describe a unit anchor poster posted for all 5 lessons. Keywords name the unit theme (detective, data)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on letter or 11x17 paper.",
+        "Laminate the poster for the full unit duration.",
+        "Tape to the front classroom wall on Day 1 before Lesson 1 begins."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "char_dot_puppet",
+      "name": "Detective Dot Puppet",
+      "category": "character_puppet",
+      "purpose": "A paper puppet of Detective Dot the Sorting Squirrel used by the teacher in the Minds-On phase of every lesson.",
+      "page_layout": "One letter page, portrait orientation. A single full-body cutout of Detective Dot (~7in tall) with magnifying glass and notebook, plus a tab at the bottom.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "CHAR_DOT_FRONT",
+          "description": "A full-body cutout of Detective Dot the Sorting Squirrel in B&W line art for a Grade 1 teacher puppet, ~7in tall. Dot is a young squirrel wearing a tiny detective hat (deerstalker style), holding a magnifying glass in one paw and a notebook in the other. Bushy tail curls behind. Curious eager expression. Rectangular tab at the bottom (~2in wide) for popsicle stick attachment.",
+          "placement": "Centred, fills the page vertically.",
+          "approximate_size": "large",
+          "keywords": ["dot", "squirrel"],
+          "text_image_alignment_check": "Image CHAR_DOT_FRONT: instructions describe a Detective Dot puppet for all 5 lessons. Keywords name the character (dot) and species (squirrel)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy of Detective Dot on cardstock if possible.",
+        "Cut around the outside of Dot's silhouette including the bottom tab.",
+        "Laminate before assembly for durability.",
+        "Glue or tape a popsicle stick behind the bottom tab so Dot can be held up."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "char_tally_puppet",
+      "name": "Tally Puppet",
+      "category": "character_puppet",
+      "purpose": "A paper puppet of Tally the Tally Cat used by the teacher in Lessons 2-5 to demonstrate counting.",
+      "page_layout": "One letter page, portrait orientation. A single full-body cutout of Tally (~6in tall) with a clipboard of tally marks, plus a tab.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "CHAR_TALLY_FRONT",
+          "description": "A full-body cutout of Tally the Tally Cat in B&W line art for a Grade 1 teacher puppet, ~6in tall. Tally is a young cat wearing a striped vest, holding a small clipboard with visible tally marks (||||CROSS) in one paw and a pencil in the other. Whiskers, bright eyes, smiling. Tail curls. Rectangular tab at the bottom (~2in wide) for popsicle stick attachment.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": ["tally", "cat"],
+          "text_image_alignment_check": "Image CHAR_TALLY_FRONT: instructions describe a Tally puppet for lessons 2-5. Keywords name the character (tally) and species (cat)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy of Tally on cardstock if possible.",
+        "Cut around the outside of Tally's silhouette including the bottom tab.",
+        "Laminate before assembly for durability.",
+        "Glue or tape a popsicle stick behind the bottom tab so Tally can be held up."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [2, 3, 4, 5]
+    }
+  ],
+  "overall_prep_notes": "Total prep time ~3 hours one-time before unit launch (laminating + cutting). Storage: keep all pair sets in labelled zip-top bags. Set up all anchor charts and the unit poster on Day 1. The picture tokens (M4) are the most labour-intensive prep — start there."
+}

@@ -1,0 +1,17 @@
+{"ts": "2026-05-04T05:54:03+00:00", "stage": "blueprint", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T05:56:20+00:00", "stage": "lesson_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T05:58:23+00:00", "stage": "lesson_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:00:19+00:00", "stage": "lesson_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:02:15+00:00", "stage": "lesson_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:03:29+00:00", "stage": "lesson_05", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for LessonPlan\naction.structure\n  Input should be 'whole_group', 'partner', 'small_group', 'centres', 'whole_group_then_partner', 'whole_group_then_centres' or 'individual' [type=literal_error, input_value='individual_then_whole_group', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error"}
+{"ts": "2026-05-04T06:03:37+00:00", "stage": "lesson_05", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:06:03+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:06:03+00:00", "stage": "worksheet_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:06:03+00:00", "stage": "worksheet_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:06:03+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:06:03+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:10:06+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:10:06+00:00", "stage": "formative_reflection", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:10:06+00:00", "stage": "assessment_suite", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:10:06+00:00", "stage": "marketplace", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T06:10:39+00:00", "stage": "rubric_grade", "transition": "pending→done", "attempt": 0, "error": null}

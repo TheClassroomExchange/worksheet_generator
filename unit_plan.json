@@ -1,49 +1,140 @@
 {
   "schema_version": 1,
   "total_units": 40,
-  "complete": 4,
-  "in_progress": 1,
-  "planned": 35,
+  "complete": 8,
+  "in_progress": 32,
+  "planned": 0,
   "statuses": {
-    "k_number_counting_crew": "in_progress",
-    "k_number_coin_counters": "planned",
-    "g1_number_friends": "planned",
-    "g1_number_adding_machine": "planned",
-    "g2_number_place_value_detectives": "planned",
-    "g2_number_groups_of": "planned",
-    "g3_number_fraction_street": "planned",
-    "g3_number_times_table_toolkit": "planned",
+    "k_number_counting_crew": "complete",
+    "k_number_coin_counters": "complete",
+    "g1_number_friends": "in_progress",
+    "g1_number_adding_machine": "in_progress",
+    "g2_number_place_value_detectives": "in_progress",
+    "g2_number_groups_of": "in_progress",
+    "g3_number_fraction_street": "in_progress",
+    "g3_number_times_table_toolkit": "in_progress",
     "k_patterns_pattern_parade": "complete",
     "g1_patterns_pattern_parade": "complete",
-    "g1_algebra_balance_stories": "planned",
-    "g1_algebra_loop_the_loop": "planned",
-    "g1_algebra_real_life_modelling": "planned",
+    "g1_algebra_balance_stories": "in_progress",
+    "g1_algebra_loop_the_loop": "in_progress",
+    "g1_algebra_real_life_modelling": "in_progress",
     "g2_patterns_pattern_parade": "complete",
-    "g2_algebra_whats_missing": "planned",
-    "g2_algebra_if_then_detectives": "planned",
-    "g2_algebra_real_life_modelling": "planned",
+    "g2_algebra_whats_missing": "in_progress",
+    "g2_algebra_if_then_detectives": "in_progress",
+    "g2_algebra_real_life_modelling": "in_progress",
     "g3_patterns_pattern_parade": "complete",
-    "g3_algebra_balanced_equations": "planned",
-    "g3_algebra_bug_busters": "planned",
-    "g3_algebra_real_life_modelling": "planned",
-    "k_data_detectives": "planned",
-    "k_spatial_shape_safari": "planned",
-    "k_measurement_bigger_smaller": "planned",
-    "g1_data_detectives": "planned",
-    "g1_data_likelihood": "planned",
-    "g1_spatial_mapping": "planned",
-    "g1_measurement_how_long": "planned",
-    "g2_data_detectives": "planned",
-    "g2_data_what_could_happen": "planned",
-    "g2_spatial_mirror_mirror": "planned",
-    "g2_measurement_how_heavy_how_tall": "planned",
-    "g3_data_detectives": "planned",
-    "g3_data_likely_unlikely": "planned",
-    "g3_spatial_map_it_move_it": "planned",
-    "g3_measurement_fencing_the_farm": "planned",
-    "k_coding_little_programmers": "planned",
-    "g1_financial_classroom_market": "planned",
-    "g2_financial_tap_to_pay": "planned",
-    "g3_financial_plan_your_party": "planned"
+    "g3_algebra_balanced_equations": "in_progress",
+    "g3_algebra_bug_busters": "in_progress",
+    "g3_algebra_real_life_modelling": "in_progress",
+    "k_data_detectives": "in_progress",
+    "k_spatial_shape_safari": "complete",
+    "k_measurement_bigger_smaller": "complete",
+    "g1_data_detectives": "in_progress",
+    "g1_data_likelihood": "in_progress",
+    "g1_spatial_mapping": "in_progress",
+    "g1_measurement_how_long": "in_progress",
+    "g2_data_detectives": "in_progress",
+    "g2_data_what_could_happen": "in_progress",
+    "g2_spatial_mirror_mirror": "in_progress",
+    "g2_measurement_how_heavy_how_tall": "in_progress",
+    "g3_data_detectives": "in_progress",
+    "g3_data_likely_unlikely": "in_progress",
+    "g3_spatial_map_it_move_it": "in_progress",
+    "g3_measurement_fencing_the_farm": "in_progress",
+    "k_coding_little_programmers": "in_progress",
+    "g1_financial_classroom_market": "in_progress",
+    "g2_financial_tap_to_pay": "in_progress",
+    "g3_financial_plan_your_party": "in_progress"
+  },
+  "audits": {
+    "k_patterns_pattern_parade": {
+      "last_audited_at": "2026-05-15T23:39:14+00:00",
+      "last_audit_status": "fail",
+      "last_audit_issues": [
+        "image_alignment: manipulatives.M1_animal_cards.M1_BEA_CARD: image M1_BEA_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M1_animal_cards.M1_FINN_CARD: image M1_FINN_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M1_animal_cards.M1_BIBI_CARD: image M1_BIBI_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M1_animal_cards.M1_MOSS_CARD: image M1_MOSS_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M2_parade_strip.M2_PARADE_STRIP: image M2_PARADE_STRIP has empty `keywords` (drift gate requires \u22651 entity/object that must be",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_CLAP: image M3_CLAP has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_STOMP: image M3_STOMP has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_JUMP: image M3_JUMP has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_FREEZE: image M3_FREEZE has empty `keywords` (drift gate requires \u22651 entity/object that must be vis",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_HUM: image M3_HUM has empty `keywords` (drift gate requires \u22651 entity/object that must be visible A"
+      ]
+    },
+    "g1_patterns_pattern_parade": {
+      "last_audited_at": "2026-05-15T23:39:14+00:00",
+      "last_audit_status": "fail",
+      "last_audit_issues": [
+        "image_alignment: manipulatives.M1_animal_cards.M1_BEA_CARD: image M1_BEA_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M1_animal_cards.M1_FINN_CARD: image M1_FINN_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M1_animal_cards.M1_BIBI_CARD: image M1_BIBI_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M1_animal_cards.M1_MOSS_CARD: image M1_MOSS_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M2_parade_strip.M2_PARADE_STRIP: image M2_PARADE_STRIP has empty `keywords` (drift gate requires \u22651 entity/object that must be",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_CLAP: image M3_CLAP has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_STOMP: image M3_STOMP has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_JUMP: image M3_JUMP has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_FREEZE: image M3_FREEZE has empty `keywords` (drift gate requires \u22651 entity/object that must be vis",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_HUM: image M3_HUM has empty `keywords` (drift gate requires \u22651 entity/object that must be visible A"
+      ]
+    },
+    "g2_patterns_pattern_parade": {
+      "last_audited_at": "2026-05-15T23:39:14+00:00",
+      "last_audit_status": "fail",
+      "last_audit_issues": [
+        "image_alignment: manipulatives.M1_animal_cards.M1_BEA_CARD: image M1_BEA_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M1_animal_cards.M1_FINN_CARD: image M1_FINN_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M1_animal_cards.M1_BIBI_CARD: image M1_BIBI_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M1_animal_cards.M1_MOSS_CARD: image M1_MOSS_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M2_parade_strip.M2_PARADE_STRIP: image M2_PARADE_STRIP has empty `keywords` (drift gate requires \u22651 entity/object that must be",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_CLAP: image M3_CLAP has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_STOMP: image M3_STOMP has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_JUMP: image M3_JUMP has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_FREEZE: image M3_FREEZE has empty `keywords` (drift gate requires \u22651 entity/object that must be vis",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_HUM: image M3_HUM has empty `keywords` (drift gate requires \u22651 entity/object that must be visible A"
+      ]
+    },
+    "g3_patterns_pattern_parade": {
+      "last_audited_at": "2026-05-15T23:39:14+00:00",
+      "last_audit_status": "fail",
+      "last_audit_issues": [
+        "image_alignment: manipulatives.M1_animal_cards.M1_BEA_CARD: image M1_BEA_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M1_animal_cards.M1_FINN_CARD: image M1_FINN_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M1_animal_cards.M1_BIBI_CARD: image M1_BIBI_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M1_animal_cards.M1_MOSS_CARD: image M1_MOSS_CARD has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M2_parade_strip.M2_PARADE_STRIP: image M2_PARADE_STRIP has empty `keywords` (drift gate requires \u22651 entity/object that must be",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_CLAP: image M3_CLAP has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_STOMP: image M3_STOMP has empty `keywords` (drift gate requires \u22651 entity/object that must be visib",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_JUMP: image M3_JUMP has empty `keywords` (drift gate requires \u22651 entity/object that must be visible",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_FREEZE: image M3_FREEZE has empty `keywords` (drift gate requires \u22651 entity/object that must be vis",
+        "image_alignment: manipulatives.M3_sound_movement_cards.M3_HUM: image M3_HUM has empty `keywords` (drift gate requires \u22651 entity/object that must be visible A"
+      ]
+    },
+    "k_number_counting_crew": {
+      "last_audited_at": "2026-05-15T23:39:14+00:00",
+      "last_audit_status": "pass",
+      "last_audit_issues": []
+    },
+    "k_number_coin_counters": {
+      "last_audited_at": "2026-05-15T23:39:14+00:00",
+      "last_audit_status": "fail",
+      "last_audit_issues": [
+        "consistency: L5: student_learning_goal differs from blueprint",
+        "consistency: WS5: student_learning_goal differs from lesson_05"
+      ]
+    },
+    "k_spatial_shape_safari": {
+      "last_audited_at": "2026-05-15T23:42:41+00:00",
+      "last_audit_status": "fail",
+      "last_audit_issues": [
+        "visual: slide-08 worksheet sub-instruction appears truncated mid-sentence (\"Write the shape name beside your\") \u2014 text overflows the centered hero label area"
+      ]
+    },
+    "k_measurement_bigger_smaller": {
+      "last_audited_at": "2026-05-15T23:39:14+00:00",
+      "last_audit_status": "pass",
+      "last_audit_issues": []
+    }
   }
 }

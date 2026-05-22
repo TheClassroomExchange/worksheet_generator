@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "pair_number": 5,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 2,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "Lesson promises a 5-station capstone (SORT, BUILD, MATCH, LOCATE, MOVE) where each child completes ONE task per station on the CAPSTONE TEMPLATE, but worksheet has only 3 parts (SORT, MATCH, MOVE). Worksheet teacher_notes admits: 'E1.2 and E1.4 captured in the lesson activities (build + locate)' — no summative artefact for two stations.",
+      "required_fix": "Add a Part 4 (BUILD: list/sketch 2D shapes inside a 3-block structure, mapping E1.2) and Part 5 (LOCATE: write 3 position-word sentences about a small map, mapping E1.4) so all 5 lesson stations land on the summative template. Update parts_outline and image_assets to match.",
+      "affected_stages": ["lesson_05", "worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the 'imprecise-direction trap' with concrete recovery (verb + number, direction cards) but cites no research. recovery_moves is a flat list ('Use direction cards', 'Drill verb + number', 'Have children blindfolded follow each other's directions') — not branched by what the diagnostic told you about the child.",
+      "required_fix": "Cite Clements & Sarama spatial-orientation learning trajectories (or Battista) for direction-giving and branch recovery_moves: if child gestures only, force partner to face away; if child uses verbs without numbers, drill verb+number pairs; if route fails, walk it together step by step.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Materials are everyday and Tig/Coco are explicitly OPTIONAL ('OPTIONAL: Tig and Coco — if available; otherwise teacher voices both characters in two distinct voices'). Time 12/25/13 is realistic for Grade 1. But differentiation lists emerging/extending/ELL/movement variants and offers no NO-PAPER, NO-PURCHASE alternative.",
+      "required_fix": "Add a no-materials variant to differentiation: 'No-paper version — child gives 3 verbal directions to walk a partner from carpet edge to door; teacher records on a clipboard checklist instead of the capstone template.' Makes the capstone runnable on a no-prep day.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Tig and Coco anchor minds_on and consolidation, all 3 success_criteria start with 'I can', and 'direction' has a child-friendly definition. But there is no distinctive quotable refrain. exit_routine is 'Each child shares ONE direction: To find ___, go ___' — a sentence frame, not a unit-spanning chant.",
+      "required_fix": "Add a Tig/Coco refrain to consolidation/exit_routine — e.g., Coco's call 'Verb plus NUMBER!' with children echoing 'every TIME!' Or Tig's closing 'Map it, MOVE it!' that ties to the unit thematic title. Make it choral and memorable across the unit.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    },
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Every primary/secondary expectation (E1.1-E1.5) has a named station and curriculum_expectations text matches input_row.json. But expanded_walkthrough does not cross-reference Days 1-4 by activity. Teacher_script intro says 'we use ALL we know: SORT, BUILD, MATCH, LOCATE, MOVE!' but no explicit callback to a prior day's character moment.",
+      "required_fix": "Add explicit cross-references in teacher_script: tie each station to the prior lesson — 'On Day 4, Tig hid the treasure BETWEEN the maple and the cabin. Today we tell HOW to walk there.' Bridge the unit arc rather than just compiling stations.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Vocabulary is precise (direction = verb + number), manipulatives carry meaning (direction cards force precision), the imprecise-direction trap is named conceptually. But the lesson does not invite children to invent or compare strategies, and the misconception is not framed in research-grounded terms (no Battista, Clements & Sarama trajectories, or Piagetian egocentric-reference language).",
+      "required_fix": "Add a strategy-comparison moment after Station 5: two children share their direction sequences for the same start/end and class compares which is shorter or clearer. Frame the trap in expanded_walkthrough rationale as 'egocentric spatial reference (Piagetian)' or cite Clements & Sarama spatial-orientation trajectories.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    }
+  ],
+  "summary": "Strong capstone concept with character anchoring and realistic everyday materials, but the worksheet only practises 3 of the 5 lesson stations — E1.2 (BUILD) and E1.4 (LOCATE) have no summative artefact despite teacher_notes claiming the lesson captures them. Fix lesson/worksheet alignment first; lifts on research-grounded trap, branched recovery, no-materials path, memorable refrain, and arc cross-references would carry the pair to pass."
+}

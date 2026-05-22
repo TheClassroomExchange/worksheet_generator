@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "lesson_number": 2,
+  "lesson_title": "Counting Trees and Taps",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We collect data — counts and measurements — so our model can answer the question.",
+  "learning_intention": "We are learning to collect data to answer a math question about a real-life situation.",
+  "student_learning_goal": "I can collect data to answer a math question about a real-life situation.",
+  "success_criteria": [
+    "I can count trees in the sugar bush.",
+    "I can record my count on a data table.",
+    "I can use my data to answer a math question."
+  ],
+  "vocabulary_introduced": [
+    "data"
+  ],
+  "vocabulary_reinforced": [
+    "model",
+    "real-life situation"
+  ],
+  "manipulatives_used": [
+    "M1_paper_trees",
+    "M4_data_table",
+    "M8_two_colour_counters",
+    "M3_modelling_chart",
+    "M10_sugar_bush_poster"
+  ],
+  "lesson_specific_materials": [
+    "Maple the Maple Tree",
+    "Sap Sam the Collector",
+    "Per-pair set of paper maple trees",
+    "Per-pair data collection table",
+    "Per-pair set of two-colour counters",
+    "Lesson 2 data tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Sap Sam Counts the Trees",
+    "hook": "Sap Sam needs to know how many trees are in the sugar bush. How does he find out? Sap Sam opens: 'COUNT IT, WRITE IT, USE IT!' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Reveal Sap Sam. 'Friends — yesterday Maple welcomed us and we asked questions. Today Sap Sam needs ANSWERS. He needs to know how many trees are in the sugar bush.'\n\n'How does Sap Sam find out?' Children: 'Count them!' 'Right. We COLLECT DATA. Data is information we collect by counting, measuring, or observing.'\n\nWrite DATA on the chart. 'Watch Sap Sam count.'\n\nLay out 8 paper maple trees on the floor. 'How many?' Children chorally count: 8. 'That's our DATA. 8 trees in the sugar bush.'\n\nNow ask a question that uses the data. 'If Sap Sam taps EVERY tree, how many taps?' '8.' 'Right. The data (8 trees) helps us answer the question (8 taps).'\n\nNow harder. 'What if some trees are too small to tap? Sap Sam only taps trees taller than 2 metres.' Lay out 8 trees but mark 3 as 'too small'. 'How many taps now?' Count tappable trees. '5.' 'See — DATA helps us answer SPECIFIC questions.'\n\nIntroduce the data table. 'When we have lots of data, we use a TABLE to organize it.' Show: Tree 1 — tappable yes/no. Tree 2 — yes/no. etc.\n\n'Today we'll collect data about the sugar bush and use it to answer questions.'",
+    "student_actions": [
+      "Watch Sap Sam count 8 trees.",
+      "Help count.",
+      "Echo new vocabulary: 'data'.",
+      "Predict the tap count when only some trees are tappable."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Data Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: count more sets together. (a) 12 trees, all tappable. (b) 15 trees, 4 too small. (c) 20 trees, 7 too small. Record on the data table.",
+        "teacher_prompt": "Say to students: 'Three more counts. Record on the table.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Count Trees — pair has 15 paper trees; count and sort by size. Station B: Data Table — pair fills in a table of 10 rows recording tree size and tappability. Station C: Real-Life Data — pair counts something in the classroom (chairs, books, pencils) and records.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: count and ALSO predict — 'If the class doubles, how many chairs?'",
+        "teacher_prompt": "Say to pairs: 'Use your count to predict.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the value of data tables. 'Why use a table?' Lead to: 'Because it ORGANIZES data. We can find answers faster.'",
+        "teacher_prompt": "Show a messy list vs a clean table — visual difference."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the data tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's your data? What does it tell you?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: Pairs first record their Station A count however they choose (drawing, tally, number). Then post two methods side-by-side. Class debates: 'which helps Sap Sam answer FASTER tomorrow when he asks how many?' Cite English (2010) on early modelling — recording strategies trade off speed-of-creation vs speed-of-reuse, and children must explicitly weigh both.",
+        "teacher_prompt": "Sap Sam: 'Same count, different writing. Some are fun to make. Some are fast to read. Real-life math means picking the writing that helps you USE the count later.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Count under 10 trees only.",
+      "for_extending": "Stretch at Station C: collect data for 5 different items, organize into one table.",
+      "for_ell_or_iep": "Provide picture-supported tally cards. Sentence frame: 'I counted ___ ___s.'",
+      "for_movement_learners": "Walk around the school counting things — outdoor field counting."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: counts accurately; records data on a table; uses data to answer a question.",
+      "how_to_record": "Tick the data tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Counts accurately",
+        "Records data on table",
+        "Uses data to answer",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Sap Sam's Data Brag",
+    "discussion_prompts": [
+      "What is data?",
+      "How does data help us answer questions?",
+      "Why use a table?",
+      "What data did you collect today?"
+    ],
+    "exit_routine": "Sap Sam's refrain — class chants together 3x: \"Sap Sam says: COUNT IT, WRITE IT, USE IT!\" Each child reads their tally row aloud and uses the count in one sentence ('today I counted ___ ___, so ___')."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Data collection accuracy and use.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures the DATA step of the modelling cycle. Children at L4 organize data into tables and use it to answer questions."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child counts but DOESN'T record — repairing the data-without-table error",
+    "rationale": "When children move from counting to RECORDING counts on a real sugar-bush data sheet, the most common Grade-1 trap is the count-without-record gap: child counts 7 trees aloud accurately, but when asked to use the count later cannot reproduce it. CGI research (Carpenter, Fennema & Franke 1996) names this the unrehearsed-addition trap; English (2010, 'Engaging Young Children with Mathematical Modeling') frames recording as the prerequisite for any reuse downstream.\n\nToday's record-as-you-count discipline primes Lesson 3's prediction (needs reusable data) and the modelling capstone (Lesson 5).",
+    "setup": "Pair is at Station A. Child has counted 12 trees but didn't record. Asked 'how many?', they're not sure.",
+    "teacher_script": "Crouch beside the child. 'You counted. Where's your count?' The child shrugs. 'Data only helps us if we WRITE IT DOWN.' Show the data table. 'Write the count here.'\n\nThe child writes 12. 'Now if I ask in 5 minutes, you have your data.'\n\nLong-term recovery: every count, write the count immediately on the table.",
+    "expected_student_responses": [
+      "(Confused) Counts but doesn't record.",
+      "(Mid) Records with prompts.",
+      "(Strong) Auto-records every count.",
+      "(Stretched) Records counts AND organizes by category."
+    ],
+    "common_misconceptions": [
+      "Counting is enough; recording is extra. (Repair: data only helps if recorded.)",
+      "Tables are formal; we don't need them. (Repair: tables organize.)",
+      "Memory works fine. (Repair: write it down — memory is unreliable.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child counts accurately but doesn't record: provide pre-printed tally rows; child SAYS-and-MARKS (one tally per said number) without the option to skip recording.",
+      "DIAGNOSTIC B — child loses count mid-record: drill the COUNT-AND-WRITE chant — count one item, write one tally, count next, write next. No counting ahead.",
+      "DIAGNOSTIC C — child records but cannot reuse data: point-and-read drill. Teacher asks 'how many trees?' Child points at the tally row, counts the tallies, says the total — then USES the total in the next sentence ('so 7 trees give 7 buckets')."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Sap Sam's Tree Count",
+    "purpose": "Independent practice of C4 step 2 (data collection).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Count trees in 4 different bushes; record on the table.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Use your data to answer 3 questions.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick a real-life thing. Count and record. Write 1 question your data answers.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Sap Sam in the worksheet header",
+      "4 tree-counting pictures with tally areas for Part 1",
+      "3 question slots for Part 2",
+      "A blank box for Part 3"
+    ]
+  }
+}

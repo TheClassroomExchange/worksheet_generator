@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_likely_unlikely",
+  "lesson_number": 4,
+  "worksheet_title": "Maybe Mae's Mean and Mode",
+  "purpose": "Independent practice of D2.2 mean+mode prediction.",
+  "student_learning_goal": "I can predict if mean and mode stay the same across two populations.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can predict if mean and mode stay the same across two populations.",
+    "character_watermark": "Maybe Mae the Cat in the top-right with a calculator and a question-mark hat. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Predict same or different.",
+          "student_instructions": "For 4 paired data sets, predict if MEAN will be same/different and MODE will be same/different.",
+          "visual_layout": "Four scenario boxes with two predict rows (mean and mode) and same/different circles each.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_PREDICT",
+              "description": "A Grade 3 mean/mode prediction layout for likelihood worksheet, B&W line art. 4 scenarios with paired class data. Each scenario: 'Mean: SAME / DIFFERENT' and 'Mode: SAME / DIFFERENT' rows.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "mean",
+                "mode"
+              ],
+              "text_image_alignment_check": "WS04_P1_PREDICT at Part 1: keywords name the mean/mode prediction task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Sample predictions per data set; varies."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Calculate.",
+          "student_instructions": "For 2 of the data sets, calculate the MEAN and MODE for each class.",
+          "visual_layout": "Two compute panels with rows for total, count, mean, and mode for each population.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_CALC",
+              "description": "A Grade 3 mean+mode compute layout for likelihood worksheet, B&W line art. 2 panels. Each panel has Class A and Class B columns. Each column has rows: total, count, mean, mode. Calculator icon at top.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "calculate",
+                "total"
+              ],
+              "text_image_alignment_check": "WS04_P2_CALC at Part 2: keywords name the calculate-total-and-count step for mean and mode."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Sample: Class A 1,1,2,3,5 → total 12, count 5, mean 2.4, mode 1."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Was your prediction right?",
+          "student_instructions": "Compare prediction to result. Explain ONE.",
+          "visual_layout": "Sentence frame with a comparison line and an explanation block.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_RESULT",
+              "description": "A Grade 3 result-comparison layout for likelihood worksheet. Sentence frame: 'I predicted MEAN would be ___ and MODE would be ___. The data showed MEAN ___ and MODE ___. My prediction was right or wrong because ___.' 4 lines.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "right",
+                "wrong"
+              ],
+              "text_image_alignment_check": "WS04_P3_RESULT at Part 3: keywords name the right-or-wrong comparison."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid linkage."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write what 'similar' populations look like.",
+  "teacher_notes": "Lesson 4 consolidation. Formative — check mean+mode calculation accuracy."
+}

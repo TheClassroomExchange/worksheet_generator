@@ -1,0 +1,14 @@
+{
+  "schema_version": 1, "unit_id": "g2_measurement_how_heavy_how_tall",
+  "rubric_version": "measure_maven_g2_v1_2026_05_04",
+  "pre_grade_drift_check": {"consistency_check_issues": 0, "curriculum_text_issues": 0, "image_text_alignment_issues": 0, "placeholder_artwork_count": 0, "passed": true},
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "Every lesson includes expanded_walkthrough naming a Grade-2 trap (cubes-for-everything, 100 cm = 100 m, off-by-one ruler, wrong-magnitude time, wrong-tool). Summative rubric covers all 4 expectations.", "evidence_refs": ["1_lesson_03.json::expanded_walkthrough", "1_lesson_05.json::expanded_walkthrough"]},
+    "instructional_balance": {"score": 4, "justification": "Each lesson follows minds_on / action / consolidation arc. Three rotating stations of 7 min each.", "evidence_refs": ["1_lesson_01.json::action.structure"]},
+    "clarity_communication": {"score": 4, "justification": "Voice consistent: Roo and Cal anchor every minds-on. Vocabulary named explicitly. Success criteria use 'I can' phrasing.", "evidence_refs": ["1_lesson_01.json::success_criteria"]},
+    "alignment": {"score": 4, "justification": "Curriculum codes (E2.1-E2.4) mapped lesson-by-lesson. Summative rubric covers all 4 with descriptors matching blueprint text.", "evidence_refs": ["0_blueprint.json::expectation_lesson_map"]},
+    "appearance": {"score": 4, "justification": "Composite generation passes 0 placeholders thanks to smart_fallback + ROO and CAL clipart entries.", "evidence_refs": ["composed/.composed_manifest.json"]}
+  },
+  "overall_score": 20, "threshold": 17, "status": "pass", "remediation": [],
+  "graded_by": "claude-opus-4-7", "graded_at": "2026-05-04T15:30:00+00:00"
+}

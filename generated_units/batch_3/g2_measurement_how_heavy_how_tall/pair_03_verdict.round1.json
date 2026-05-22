@@ -1,0 +1,36 @@
+{
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "pair_number": 3,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names the off-by-one start-at-1 trap and recovery_moves lists 'Use START HERE sticker on 0', 'Drill always start at zero', 'Practice with 3 measurements' — but the trap has no research citation and the recovery moves do not branch by what the child's response told you. A Level 4 walkthrough on ruler measurement should cite Lehrer (2003) or Stephan & Cobb on the origin/iteration confusion and branch recovery: child who counts marks vs child who counts intervals needs different remediation.",
+      "required_fix": "Rewrite expanded_walkthrough.rationale to cite Lehrer (2003) measurement learning trajectory or Stephan & Cobb on the 'counting marks vs counting intervals/iterations' confusion that underlies the start-at-1 error. Then split recovery_moves into branches: (a) if child can re-place pencil at 0 once prompted, drill the START-HERE sticker on 3 objects; (b) if child still records '11' after sliding, the underlying misconception is counting tick-marks rather than unit intervals — switch to centimetre-strip iteration to rebuild what a 'cm' measures before returning to the ruler.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson teaches one canonical procedure ('start at 0, read the end, draw from 0 to N') with a non-example, but children never invent or compare strategies. The walkthrough names the trap procedurally ('Start at 1, off by 1') without grounding it in the research-named misconception (origin/zero-point as iteration starting point, intervals vs marks). This is solid Achieving but not Exceeding because there is no strategy comparison and no research-named framing.",
+      "required_fix": "Add a brief 'compare strategies' moment in action.steps or consolidation: have two children share how they measured the same crayon (e.g., 'I started at 0 and read 8' vs 'I started at 1 and read 9 — then subtracted 1') and have the class discuss why both can be correct but starting at 0 is more reliable. Also add one sentence in expanded_walkthrough.rationale that names the misconception in research terms — e.g., 'Lehrer (2003) calls this the origin/iteration confusion: children treat the ruler's numerals as labels of marks rather than counts of unit intervals from zero.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

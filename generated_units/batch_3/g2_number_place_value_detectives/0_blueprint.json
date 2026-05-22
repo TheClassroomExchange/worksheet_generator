@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "thematic_title": "Place Value Detectives",
+  "descriptive_title": "Grade 2 Mathematics: Numbers — Reading, Composing, Comparing, Estimating, and Fair-Sharing Numbers to 200, plus Even/Odd and Halves/Thirds/Sixths (B1.1–B1.7)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "B. Numbers",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g2-math",
+  "curriculum_codes": [
+    "B1.1",
+    "B1.2",
+    "B1.3",
+    "B1.4",
+    "B1.5",
+    "B1.6",
+    "B1.7"
+  ],
+  "curriculum_expectations": {
+    "B1.1": "read, represent, compose, and decompose whole numbers up to and including 200, using a variety of tools and strategies, and describe various ways they are used in everyday life",
+    "B1.2": "compare and order whole numbers up to and including 200, in various contexts",
+    "B1.3": "estimate the number of objects in collections of up to 200 and verify their estimates by counting",
+    "B1.4": "count to 200, including by 20s, 25s, and 50s, using a variety of tools and strategies",
+    "B1.5": "describe what makes a number even or odd",
+    "B1.6": "use drawings to represent, solve, and compare the results of fair-share problems that involve sharing up to 10 items among 2, 3, 4, 5, 6, 8, and 10 sharers",
+    "B1.7": "recognize that one third and two sixths of the same whole are equal, in fair-sharing contexts"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on Numbers framed around the 'Place Value Detective Agency' — Detective Hugo Hundreds (a sharp-eyed sleuth with a 'HUNDREDS' top hat), Detective Tina Tens (his energetic partner with a magnifying glass), and Detective Ona Ones (the tiny but mighty rookie). Day 1 'Hundreds Hideouts' opens the agency and introduces three-digit place value with base-ten blocks, plus skip-counting by 20s, 25s, and 50s on a 0-200 number line (B1.1, B1.4). Day 2 'Compose, Decompose, Compare' is the keystone for B1.1 + B1.2: children break apart and rebuild numbers to 200 in flexible ways and compare same-hundreds and different-hundreds numbers using place-value reasoning. Day 3 'The Even/Odd Investigation' tackles B1.5 with the pair-up test (can you make pairs?) and connects to skip-counting by 2s as the 'even number generator' (B1.4 reinforced). Day 4 'Estimation Stake-Out' uses the chunk-of-10 → chunk-of-100 strategy lift from Grade 1 to estimate collections of up to 200 (B1.3). Day 5 'Fair Shares with Thirds and Sixths' is the capstone: fair-sharing collections of 6, 9, and 12 between 2/3/4/6 sharers (B1.6) and the third-on-sixths reveal showing 1/3 = 2/6 (B1.7). The unit progresses concrete (real base-ten blocks, hundreds chart, paper cookies) → representational (place-value mats, number-line jumps, fraction circles) → abstract (numerical comparison, fraction notation, equation writing).",
+  "unit_learning_goal": "Children will read, represent, compose, decompose, compare, order, estimate, and count whole numbers to 200; describe what makes a number even or odd; share collections fairly between 2-10 sharers; and recognise that one third equals two sixths of the same whole.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Hundreds Hideouts",
+      "primary_expectations": [
+        "B1.1",
+        "B1.4"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Numbers to 200 are made of hundreds, tens, and ones. We can count to 200 by 20s, 25s, and 50s.",
+      "student_learning_goal": "I can read and represent numbers to 200 with base-ten blocks and count to 200 by 20s, 25s, and 50s.",
+      "one_line_summary": "Detective Hugo introduces the Place Value Detective Agency; whole-class base-ten block builds for numbers 100-200; 0-200 number line skip-counting by 20s, 25s, 50s."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Compose, Decompose, Compare",
+      "primary_expectations": [
+        "B1.1",
+        "B1.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Numbers can be split apart and rebuilt in many ways. To compare numbers, look at the hundreds first, then the tens, then the ones.",
+      "student_learning_goal": "I can compose and decompose numbers to 200 in different ways, and compare numbers using place-value reasoning.",
+      "one_line_summary": "Decomposition mats with multiple flexible splits (e.g., 147 = 100+40+7 = 130+17 = 50+97); compare-the-jar with same-hundreds pairs (147 vs 174) and different-hundreds pairs (89 vs 102)."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "The Even/Odd Investigation",
+      "primary_expectations": [
+        "B1.5"
+      ],
+      "secondary_expectations": [
+        "B1.4"
+      ],
+      "big_idea": "Even numbers can pair up with no leftover. Odd numbers always have one left over. Counting by 2s only lands on even numbers.",
+      "student_learning_goal": "I can describe what makes a number even or odd, and use the pair-up test to check.",
+      "one_line_summary": "Pair-up test with cubes for numbers 1-30; even/odd sort with 100 sticky notes 1-100; connection between skip-counting by 2s and the even numbers."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Estimation Stake-Out",
+      "primary_expectations": [
+        "B1.3"
+      ],
+      "secondary_expectations": [
+        "B1.4"
+      ],
+      "big_idea": "Smart estimates use a chunk strategy. For collections to 200, we chunk by 10 first then count the chunks, or chunk by 100 if the collection is huge.",
+      "student_learning_goal": "I can estimate the number of objects in a collection up to 200 using a chunk strategy and verify by counting.",
+      "one_line_summary": "Detective Tina's chunk-strategy upgrade — from chunk-of-10 (Grade 1) to chunk-of-100 for big collections; estimation jars at three scales (50, 100, 175) with the per-pair verification routine."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Fair Shares with Thirds and Sixths",
+      "primary_expectations": [
+        "B1.6",
+        "B1.7"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Sharing fairly between 3 friends gives thirds. Between 6 friends gives sixths. One third equals two sixths of the same thing.",
+      "student_learning_goal": "I can share a small collection fairly between 2, 3, 4, or 6 friends, and tell that one third equals two sixths.",
+      "one_line_summary": "Fair-share rounds with 6, 9, and 12 cookies between 2/3/4/6 sharers; the pizza-overlay reveal showing 1/3 = 2/6; fraction-strip comparison of unit fractions 1/2, 1/3, 1/4, 1/6, 1/8."
+    }
+  ],
+  "expectation_lesson_map": {
+    "B1.1": [1, 2],
+    "B1.2": [2],
+    "B1.3": [4],
+    "B1.4": [1, 3, 4],
+    "B1.5": [3],
+    "B1.6": [5],
+    "B1.7": [5]
+  },
+  "recurring_characters": [
+    {
+      "name": "Detective Hugo Hundreds",
+      "role": "Lead character of the Place Value Detective Agency. Anchors Lesson 1 and reappears throughout. Loves big numbers and place-value mysteries. Catchphrase: 'Look at the hundreds first!'",
+      "visual_description": "A clever-looking detective with a tall top hat marked 'HUNDREDS' (with a small '100' badge). Wears a long brown coat with magnifying glass in the pocket, sharp eyes, friendly smile. Carries a notebook for recording case findings."
+    },
+    {
+      "name": "Detective Tina Tens",
+      "role": "Hugo's partner. Anchors the place-value composition work in Lesson 2 and the estimation work in Lesson 4. Specialises in the 'tens' part of the number — counting by 10s and 20s.",
+      "visual_description": "An energetic detective wearing a striped vest with '10' patches, a cap, and holding a magnifying glass. Eager expression, slightly shorter than Hugo. Often jotting numbers in a small detective pad."
+    },
+    {
+      "name": "Detective Ona Ones",
+      "role": "The tiny but mighty rookie detective. Anchors the even/odd investigation in Lesson 3. Specialises in the 'ones' place — checking which numbers can pair up and which always have one leftover.",
+      "visual_description": "A small detective with a single '1' badge on her shirt and a tiny bowtie. Holds a paper-clip 'evidence bag' for collecting one-by-one items. Determined expression."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "place value",
+      "child_friendly_definition": "What a digit is worth depending on where it sits. In 147, the 1 is worth 100, the 4 is worth 40, and the 7 is worth 7."
+    },
+    {
+      "term": "hundreds",
+      "child_friendly_definition": "Groups of 100. In 147, there is 1 hundred."
+    },
+    {
+      "term": "tens",
+      "child_friendly_definition": "Groups of 10. In 147, there are 4 tens (which is 40)."
+    },
+    {
+      "term": "ones",
+      "child_friendly_definition": "Single units. In 147, there are 7 ones."
+    },
+    {
+      "term": "compose",
+      "child_friendly_definition": "Put parts together to make a number. 100 + 40 + 7 composes 147."
+    },
+    {
+      "term": "decompose",
+      "child_friendly_definition": "Split a number into parts. 147 decomposes to 100 + 40 + 7 (or 130 + 17, or many others)."
+    },
+    {
+      "term": "even",
+      "child_friendly_definition": "A number that can pair up with no leftover. 8 is even because 4 pairs of 2 fit perfectly."
+    },
+    {
+      "term": "odd",
+      "child_friendly_definition": "A number that always has one leftover when you try to pair up. 9 is odd because 4 pairs and 1 left over."
+    },
+    {
+      "term": "third",
+      "child_friendly_definition": "One of three equal parts of a whole. If 3 friends share a pizza fairly, each gets one third."
+    },
+    {
+      "term": "sixth",
+      "child_friendly_definition": "One of six equal parts of a whole. If 6 friends share a pizza fairly, each gets one sixth."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_base_ten_blocks",
+      "name": "Base-Ten Blocks",
+      "description": "Per-pair set: 4 hundred-flats + 20 ten-rods + 30 unit-cubes. Used for Lesson 1 representation, Lesson 2 composition.",
+      "used_in_lessons": [1, 2],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_place_value_mat",
+      "name": "Place-Value Mat",
+      "description": "Letter-size mat with three labeled columns: HUNDREDS, TENS, ONES. Used in Lessons 1 and 2 for organising base-ten representations.",
+      "used_in_lessons": [1, 2],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_number_line_200",
+      "name": "0-200 Number Line",
+      "description": "Long printable strip showing numbers 0 to 200 with cells ~2.5in each. Used in Lesson 1 for skip-counting and Lesson 2 for ordering.",
+      "used_in_lessons": [1, 2],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_decomposition_cards",
+      "name": "Number Decomposition Cards",
+      "description": "Set of 30 cards. Each shows a target number (47, 89, 132, 178, etc.) and three blank slots for the child to write three different decompositions.",
+      "used_in_lessons": [2],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_compare_cards",
+      "name": "Compare-Two-Numbers Cards",
+      "description": "Set of 24 number-pair cards (e.g., 147 vs 174, 89 vs 102, 134 vs 143). Used in Lesson 2 partner game.",
+      "used_in_lessons": [2],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_pair_up_cubes",
+      "name": "Pair-Up Cubes",
+      "description": "Per-pair set of 30 connecting cubes. Used in Lesson 3 even/odd investigation — children try to pair up the cubes.",
+      "used_in_lessons": [3],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_hundreds_chart",
+      "name": "Hundreds Chart 1-100",
+      "description": "Letter-size hundreds chart used in Lesson 3 for the even/odd sort and Lesson 1 skip-counting reference.",
+      "used_in_lessons": [1, 3],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_estimation_jars",
+      "name": "Estimation Jars",
+      "description": "Three clear jars of different sizes for Lesson 4 estimation: small (~50 items), medium (~100 items), large (~175 items). Items can be buttons, marbles, beans, or cubes.",
+      "used_in_lessons": [4],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_third_sixth_pizzas",
+      "name": "Third/Sixth Pizza Cards",
+      "description": "Printable letter-size cards showing whole pizzas, thirds, and sixths. Used in Lesson 5 to reveal that 1/3 = 2/6 visually.",
+      "used_in_lessons": [5],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_share_plates",
+      "name": "Sharing Paper Plates",
+      "description": "Set of 6 paper plates per group. Children deal collections fairly between 2, 3, 4, or 6 sharers in Lesson 5.",
+      "used_in_lessons": [5],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "Base-Ten Blocks: ~4 hundred-flats + 20 tens + 30 ones per pair (or one classroom set)",
+    "Place-Value Mats: one per child",
+    "0-200 Number Line: one classroom strip (assembled from 11 letter pages)",
+    "Number Decomposition Cards: 30 cards per class",
+    "Compare-Two-Numbers Cards: 24 cards per class",
+    "Pair-Up Cubes (snap cubes): 30 per pair",
+    "Hundreds Chart 1-100: one per pair",
+    "Estimation Jars: three clear glass jars (small, medium, large)",
+    "Third/Sixth Pizza Cards: one set per group",
+    "Sharing Paper Plates: 6 per group of 4 children",
+    "Anchor chart 'Hundreds, Tens, Ones' with example representations",
+    "Sticky notes 1-100 (for the Lesson 3 even/odd sort)"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 place-value snapshot: each child reads three numbers (47, 132, 189) and represents them with base-ten blocks. Tally per-child accuracy on (a) reading the numeral, (b) building with the correct number of hundreds-tens-ones, and (c) counting the total of the build. Children who struggle with reading 132 vs 312 (digit-order confusion) need explicit place-value reteach during Lesson 2.",
+    "formative": "Lesson 2 decomposition tracker: per-child evidence on whether the child can produce 3+ different decompositions for a given number (e.g., 147 = 100+40+7 = 130+17 = 50+97). Lesson 3 even/odd tracker: can the child explain WHY a number is even or odd (pair-up test)? Lesson 4 estimation tracker: does the child use a chunk strategy and explain it?",
+    "summative": "Lesson 5 Fair-Share + Fraction Equivalence worksheet — three priced share scenarios (with sharers including 2, 3, 4, 6) + the 1/3 = 2/6 equation prompt. Captures B1.6 and B1.7 explicitly. Combined with the formative trackers, the teacher has evidence for all 7 expectations B1.1-B1.7."
+  },
+  "pedagogical_notes": [
+    "B1.1 (numbers to 200) extends Grade 1's B1.2 (numbers to 50) by adding the HUNDREDS place. The most common misconception is digit-order confusion: children read 132 as 'one-three-two' or '132' but sometimes write 312 by mistake. The place-value mat is the explicit fix — labels HUNDREDS, TENS, ONES enforce position.",
+    "B1.2 (compare numbers to 200) requires the place-value rule: look at hundreds first, then tens, then ones. Children who default to ones-first reasoning (looking at the rightmost digit) get same-hundreds pairs wrong (147 vs 174 — they pick 147 because it has 7 ones).",
+    "B1.4 (count by 20s, 25s, 50s) is harder than Grade 1's count by 5s and 10s because the multiples are bigger and irregular. 25s are particularly tricky — 25, 50, 75, 100, 125, 150, 175, 200 — children sometimes default to 25, 30, 35 (count-by-5s habit). The 0-200 number line is the embodied repair.",
+    "B1.5 (even/odd) is where Grade 2 introduces the pair-up rule explicitly. Children should be able to take a small collection and physically pair the items — leftover means odd. Connection to skip-counting by 2s reinforces: counting by 2s lands ONLY on even numbers.",
+    "B1.6 (fair-share with 2-10 sharers) extends Grade 1's B1.6 (2 and 4 sharers) by adding 3, 5, 6, 8 sharers. The harder cases are sharing 6 between 4 (1½ each) or 9 between 6 (1½ each) — half-shares from non-trivial dividends. Pre-cut paper cookies remain the canonical scaffold.",
+    "B1.7 (1/3 = 2/6) is the equivalence reveal — analogous to Grade 1's 1/2 = 2/4 but with thirds and sixths. The pizza-overlay demo (overlay one third on top of two sixths) is the visual proof. Children who saw 1/2 = 2/4 in Grade 1 generalise quickly; children new to fraction equivalence need the overlay step."
+  ],
+  "canadian_context_notes": [
+    "Numbers up to 200 align with Canadian children's everyday experience: 167 hockey players in the league, 132 students in the school, 189 days of school per year. Canadian context puts numbers in places kids already see them.",
+    "Hundreds chart shows numbers 1-100 in a 10x10 grid — a Canadian classroom standard from K onward. Detective Hugo's notebook in the artwork can be visualised as a small Canadian-style spiral notebook.",
+    "Pizza fair-shares can swap to butter tarts (cut into thirds) or tourtière slices for cultural variation in Quebec or French-language classrooms.",
+    "Lesson 4 estimation jars can be filled with seasonal items: Halloween candy in October, hockey-puck stickers in November, Valentine's hearts in February — keeps the estimation task contextually fresh."
+  ]
+}

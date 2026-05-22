@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "lesson_number": 1,
+  "lesson_title": "Meet the Coins",
+  "duration_minutes": 45,
+  "primary_expectations": [
+    "F1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Canadian coins up to 50¢: nickel, dime, quarter, 50¢. They have DIFFERENT VALUES.",
+  "learning_intention": "We are learning to name coins up to 50¢ and their values.",
+  "student_learning_goal": "I can name coins up to 50¢ and their values.",
+  "success_criteria": [
+    "I can NAME 4 coins.",
+    "I can SAY each coin's VALUE.",
+    "I can SORT coins by value.",
+    "I can FIND a coin by value."
+  ],
+  "vocabulary_introduced": [
+    "nickel",
+    "dime",
+    "quarter",
+    "value"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_coin_set",
+    "M3_value_chart",
+    "M7_money_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Penny the Penguin — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Coin Values'",
+    "Coin Cards (1 set per pair)",
+    "Sorting hoops or labels",
+    "Lesson 1 diagnostic checklist"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Penny's Coin Show",
+    "hook": "Penny the Penguin: Friends, welcome to my market! Today I'll show you 4 Canadian COINS — nickel, dime, quarter, 50¢.",
+    "teacher_script": "Bring children to the carpet. Penny the Penguin Shopkeeper puppet (felt penguin in apron). 'Shoppers — I'm Penny! In my market we use COINS. Today we meet 4 coins!'\n\nDefine VALUE first. 'VALUE = how much money is worth.'\n\nReveal each coin one by one with the chart:\n\nNICKEL: 5¢. Silver. BEAVER on the back. 'Nickel = 5 cents!'\nDIME: 10¢. Silver but SMALLER. BOAT on the back. 'Dime = 10 cents! It's the SMALLEST coin even though it's worth MORE than nickel!'\nQUARTER: 25¢. Silver. CARIBOU on the back. 'Quarter = 25 cents!'\n50¢: 50¢. Silver. Coat of arms on the back. 'Half-dollar = 50 cents!'\n\n'Penny says — every coin has its own VALUE. The PICTURE on the back tells you which coin!'\n\nDemo. 'I'll hold up a coin. You name it!' Hold up nickel. Class: 'NICKEL!' Hold up dime. Class: 'DIME!'\n\nNow show the trick. 'The DIME is SMALLER than the nickel but worth MORE. Be careful — size doesn't tell value!'\n\nShow sorting. 'Sort coins by VALUE: nickel (5¢) → dime (10¢) → quarter (25¢) → 50¢.'\n\nNow each pair gets the Coin Cards. They sort all 20 coin cards into 4 piles by name.\n\n'Penny says — coin name = coin VALUE!'",
+    "student_actions": [
+      "Watch Penny demo",
+      "Echo 4 coin names",
+      "Identify each coin held up",
+      "Sort 20 cards into 4 piles"
+    ]
+  },
+  "action": {
+    "duration_minutes": 22,
+    "activity_name": "Sort 20 Coins",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Coin Cards. Pairs sort by NAME (4 piles).",
+        "teacher_prompt": "Say: 'Sort by name.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Resort by VALUE — smallest to largest.",
+        "teacher_prompt": "Say: 'Now by value.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: pick 3 coins to make 30¢.",
+        "teacher_prompt": "Say: 'Stretch: make 30¢.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help by pointing to chart for size vs value.",
+        "teacher_prompt": "Show: chart values."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Sort only nickel and dime.",
+      "for_extending": "Make 50¢ in 3 ways.",
+      "for_ell_or_iep": "Picture cards alongside names.",
+      "for_movement_learners": "Walk to 4 stations, one per coin."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: names; values; sorts; size-vs-value; consistency.",
+      "how_to_record": "Diagnostic — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names 4 coins",
+        "Says values",
+        "Sorts correctly",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 11,
+    "activity_name": "Penny's Coin Brag",
+    "discussion_prompts": [
+      "Name 4 coins.",
+      "Which is BIGGEST: nickel or dime?",
+      "Which is WORTH MORE: nickel or dime?",
+      "What's the value of a quarter?"
+    ],
+    "exit_routine": "Each child shares ONE: 'A ___ is worth ___ cents.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Tracker of coin naming and values.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 sets the baseline for coin identification."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says NICKEL is worth more than DIME because it's bigger — repairing the size-vs-value trap at Grade 1",
+    "rationale": "Most common Grade-1 trap on F1.1: child uses physical size to judge value. Nickel is BIGGER than dime but worth LESS.",
+    "setup": "Coin sort. Child says nickel is worth more because it's bigger.",
+    "teacher_script": "Crouch. 'Penny asks — let's check the chart. Nickel = ___. Dime = ___.'\n\nProbe. 'Nickel = 5¢. Dime = 10¢. So dime is WORTH MORE even though it's SMALLER.'\n\nGeneralise. 'Penny says — SIZE doesn't tell VALUE. The number tells value!'\n\nIf still confused: stack 2 nickels = 10¢. 'Dime by itself = 10¢. So 1 dime = 2 nickels.'",
+    "expected_student_responses": [
+      "(Confused) Bigger = more.",
+      "(Mid) 'Dime more' with prompts.",
+      "(Strong) States values directly.",
+      "(Stretched) Articulates 'size lies'."
+    ],
+    "common_misconceptions": [
+      "Bigger coin = more value. (Repair: check chart.)",
+      "Smallest coin = least value. (Repair: dime is exception.)"
+    ],
+    "recovery_moves": [
+      "Use chart to verify.",
+      "Stack nickels to compare.",
+      "Drill 'check the value, not the size'."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Penny's Coin Match",
+    "purpose": "Independent practice of F1.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Name 4 coins shown.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Match each coin to its value.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Circle the coin worth MORE in 3 pairs.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Penny the Penguin in worksheet header",
+      "4 coin icons for Part 1",
+      "Coin-value match for Part 2"
+    ]
+  }
+}

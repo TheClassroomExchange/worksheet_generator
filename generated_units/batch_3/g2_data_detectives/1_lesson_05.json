@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "lesson_number": 5,
+  "lesson_title": "The Bar Graph Case Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.5"
+  ],
+  "secondary_expectations": [
+    "D1.1",
+    "D1.2",
+    "D1.3",
+    "D1.4"
+  ],
+  "big_idea": "Detectives ANALYSE bar graphs and write CONCLUSIONS. The MODE tells what's most popular.",
+  "learning_intention": "We are learning to analyse a bar graph and write a conclusion using mode.",
+  "student_learning_goal": "I can analyse a bar graph and write a conclusion using mode.",
+  "success_criteria": [
+    "I can SURVEY classmates.",
+    "I can BUILD a bar graph.",
+    "I can FIND the mode.",
+    "I can WRITE a conclusion."
+  ],
+  "vocabulary_introduced": [
+    "conclusion"
+  ],
+  "vocabulary_reinforced": [
+    "Venn diagram",
+    "Carroll diagram",
+    "two-way tally",
+    "bar graph",
+    "mode"
+  ],
+  "manipulatives_used": [
+    "M1_venn_mat",
+    "M2_carroll_mat",
+    "M3_two_way_table",
+    "M4_bar_graph",
+    "M5_data_cards",
+    "M6_capstone_template",
+    "M7_data_chart",
+    "M8_mode_chart",
+    "M9_question_cards",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Detective Steps'",
+    "Detective Case Templates (1 per child)",
+    "All previous manipulatives at 5 stations",
+    "Lesson 5 capstone rubric"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dot Solves the Case",
+    "hook": "Detective Dot: 5 detective steps! ASK + SURVEY + GRAPH + MODE + CONCLUDE!",
+    "teacher_script": "Bring children to the carpet. Detective Dot and Tally puppets in detective hats. 'Friends — today is our CAPSTONE. We use ALL 5 detective skills.'\n\nReview: 'Step 1 — ASK. Step 2 — SURVEY (with 2-way tally). Step 3 — BAR GRAPH. Step 4 — find MODE. Step 5 — CONCLUDE.'\n\nIntroduce vocabulary. Write CONCLUSION on chart. 'Conclusion = a sentence using MODE.'\n\nDemo. Show class data: hockey 8, soccer 5, baseball 4. Build bar. Mode = HOCKEY. Conclusion: 'In our class, hockey is the most popular sport. The mode is hockey.'\n\nMore conclusion examples:\n- 'Most children chose ___'\n- 'The mode is ___'\n- 'Fewer children chose ___ than ___'\n\n'Detective Dot says — every CASE ends with a CONCLUSION using mode.'\n\n'Today YOU run a full detective case.'",
+    "student_actions": [
+      "Watch Dot solve the case",
+      "Echo 'conclusion'",
+      "Practice the 5 steps",
+      "Practice writing one conclusion"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "The Detective Case",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out templates. 5 steps with teacher pacing.",
+        "teacher_prompt": "Say: 'Step 1 — your QUESTION.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Step 1-2 (5 min): Pick question + tally 8 classmates.",
+        "teacher_prompt": "Say: 'Survey 8.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Step 3 (8 min): Build a bar graph.",
+        "teacher_prompt": "Say: 'Bar graph with title and labels.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Step 4 (5 min): Find the mode.",
+        "teacher_prompt": "Say: 'Mode = most.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Step 5 (5 min): Conclude.",
+        "teacher_prompt": "Say: 'Sentence with mode.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Pre-written question + 5 classmates only.",
+      "for_extending": "Survey 12+ classmates and write 2 conclusions.",
+      "for_ell_or_iep": "Pre-printed conclusion frames.",
+      "for_movement_learners": "Walk to survey; physically gather data."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: asks question; tallies; graphs; finds mode; concludes.",
+      "how_to_record": "Score on capstone rubric.",
+      "tracker_columns": [
+        "Student name",
+        "Asks + tallies",
+        "Graphs + mode",
+        "Concludes",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dot's Case Brag",
+    "discussion_prompts": [
+      "What's the mode of your data?",
+      "What's a CONCLUSION?",
+      "How does the data tell the story?",
+      "What was your favourite step?"
+    ],
+    "exit_routine": "Each child shares ONE conclusion: 'My mode was ___. So most children chose ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Capstone case with all 5 steps.",
+    "tracker_reference": "summative_capstone_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures D1.5 + reinforces D1.1-D1.4."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes 'I LIKE hockey' instead of group conclusion — repairing the personal-not-data trap at Grade 2",
+    "rationale": "The most common Grade-2 trap on D1.5 is the personal-not-data trap: the child writes 'I like hockey' instead of a data-based conclusion about the GROUP. They miss that conclusions report what the DATA shows.",
+    "setup": "Capstone session. Child surveyed 8 classmates: hockey 5, soccer 2, basketball 1. Mode = hockey. Their conclusion: 'I like hockey.'",
+    "teacher_script": "Crouch. 'You like hockey — true! But Detective Dot says — what does the DATA show? Look at the mode.'\n\nGuide. 'Mode = hockey. So most CHILDREN chose hockey.' Help rewrite: 'Most children in our class chose hockey. The mode is hockey.'\n\nGeneralise. 'Conclusion = about the GROUP, not yourself. Use MODE in your sentence.'\n\nNow practice. Provide a sentence frame: 'The mode is ___. Most children chose ___.'\n\nIf still personal: provide a 'data tells me' frame.\n\nLong-term recovery: every conclusion uses group + mode.",
+    "expected_student_responses": [
+      "(Confused) Personal preference.",
+      "(Mid) Group conclusion with frame.",
+      "(Strong) Group + mode conclusion.",
+      "(Stretched) Comparison conclusion ('more chose hockey than soccer')."
+    ],
+    "common_misconceptions": [
+      "My favourite = mode. (Repair: mode is from the GROUP'S data.)",
+      "Conclusion = my opinion. (Repair: conclusion = data summary.)",
+      "Mode and average are the same. (Repair: mode = most common; G2 doesn't do average.)"
+    ],
+    "recovery_moves": [
+      "Use 'data tells me' frame.",
+      "Drill 'group + mode'.",
+      "Read conclusion aloud, check against the bar graph."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dot's Final Case",
+    "purpose": "Summative artifact applying D1.1-D1.5.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Pick a question. Tally 6 classmates in a 2-way table.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Build a bar graph from your tallies. Find the mode.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write a conclusion using the mode.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dot and Tally in worksheet header",
+      "Tally template",
+      "Bar graph grid",
+      "Conclusion sentence frame"
+    ]
+  }
+}

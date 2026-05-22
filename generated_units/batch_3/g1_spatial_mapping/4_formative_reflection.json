@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "formative_worksheets": [
+    {
+      "title": "The Build and Match Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 min) to confirm E1.2 (build) and E1.3 (matching halves) before extending into position language.",
+      "purpose": "Standalone formative check that probes 3D building and symmetry recognition.",
+      "expectations_assessed": ["E1.2", "E1.3"],
+      "student_learning_goal": "I can build and find matching halves.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can build and find matching halves.",
+        "character_watermark": "Trekker Tig in the top-right corner with a clipboard. Small (~1.5in tall). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Look at the structure. Name the 2D shapes you can see.",
+          "visual_layout": "A 3D structure (cube + pyramid). Below: writing lines for shapes.",
+          "image_placeholders": [
+            {"id": "FORM_Q1_STRUCTURE", "description": "A 3D structure illustration for a Grade 1 formative check. Cube on the bottom with pyramid on top — a simple cabin-like shape, ~3in × 3in. B&W with light shading. Below the structure, blank writing lines for the child to list shapes.",
+             "placement": "Centred in Prompt 1.", "approximate_size": "medium",
+             "keywords": ["structure", "shapes"],
+             "text_image_alignment_check": "Image FORM_Q1_STRUCTURE at Prompt 1: instructions ask the child to find 2D shapes. Keywords name the visual elements."}
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Squares (cube faces) + triangles (pyramid faces). Ideally 4-5 of each visible from the front."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Circle the shapes that have MATCHING HALVES.",
+          "visual_layout": "6 shapes in a 2x3 grid. Some symmetric (heart, square, butterfly), some not (F, asymmetric blob, comma).",
+          "image_placeholders": [
+            {"id": "FORM_Q2_SHAPES", "description": "A 2x3 grid of 6 shapes for a Grade 1 formative check, B&W line art. Top row: heart, square, F. Bottom row: butterfly, asymmetric blob, comma. Each shape ~1.5in. Suitable for circling.",
+             "placement": "Centred in Prompt 2.", "approximate_size": "medium",
+             "keywords": ["matching", "halves"],
+             "text_image_alignment_check": "Image FORM_Q2_SHAPES at Prompt 2: instructions ask the child to circle matching halves. Keywords name the criteria."}
+          ],
+          "response_type": "circle_or_loop",
+          "answer_key": "CIRCLED: heart, square, butterfly. NOT CIRCLED: F, asymmetric blob, comma."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling about building and matching? Circle the face.",
+          "visual_layout": "Three faces in a row.",
+          "image_placeholders": [
+            {"id": "FORM_Q3_FACES", "description": "Three round face icons for a Grade 1 formative check. Smile, neutral, frown. Each ~1.5in.",
+             "placement": "Centred in Prompt 3.", "approximate_size": "full_width",
+             "keywords": ["faces", "feeling"],
+             "text_image_alignment_check": "Image FORM_Q3_FACES at Prompt 3: instructions ask the child to circle a face. Keywords name the visual."}
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open. Use alongside Q1 and Q2."
+        }
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Map It, Move It! Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Tig and Coco in the top-right corner with a Junior Spatial Detective certificate. References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel about being a Spatial Detective? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for a Grade 1 reflection. 1, 2, 3 stars with labels.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "detective"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the rating and role."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Detective!"]},
+      {"prompt_number": 2, "prompt": "Did you do these things? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for a Grade 1 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name the response options."}],
+       "response_type": "circle_yes_no", "options": ["I sorted shapes by attribute.", "I built a 3D structure.", "I made matching halves.", "I gave directions."]},
+      {"prompt_number": 3, "prompt": "My favourite spatial activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle ~5in × 1.8in for a Grade 1 reflection sheet. Above: 'My favourite spatial activity was...'.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for a Grade 1 reflection. Above: 'The trickiest part for me was...'.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword matches the prompt."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for a Grade 1 reflection. Above: 'Next time, I want to try...'.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5. Children may need scribe support for prompts 3-5."
+  }
+}

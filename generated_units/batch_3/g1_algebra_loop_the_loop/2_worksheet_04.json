@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 4,
+  "worksheet_title": "Coda's Alter Workshop",
+  "purpose": "Independent practice of C3.2 (alter code).",
+  "student_learning_goal": "I can change code and predict the new outcome.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can change code and predict the new outcome.", "character_watermark": "Coda in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Number Changes", "student_instructions": "Each code is altered by changing a number. Predict the new outcome.", "visual_layout": "Top. Six alteration rows.",
+      "image_placeholders": [{"id": "WS04_P1_SIX_ALTERS", "description": "Six alteration rows in B&W line-art, stacked. Each ~7in × 0.7in. Format: original code on left, change instruction in middle, predicted outcome on right.", "placement": "Top of the page.", "approximate_size": "full_width", "keywords": ["alter", "number"], "text_image_alignment_check": "Image WS04_P1_SIX_ALTERS: keywords (alter, number) name what the rows ask for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Predictions depend on specific alterations."},
+    {"part_number": 2, "part_title": "Part 2: Step Changes", "student_instructions": "Each code is altered by changing a step. Predict the new outcome.", "visual_layout": "Middle. Four alteration rows.",
+      "image_placeholders": [{"id": "WS04_P2_FOUR_STEPS", "description": "Four step-alteration rows in B&W line-art, stacked. Each ~7in × 1in. Format: original code, change instruction, prediction.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["alter", "step"], "text_image_alignment_check": "Image WS04_P2_FOUR_STEPS: keywords (alter, step) name what the rows ask for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Predictions depend on specific alterations."},
+    {"part_number": 3, "part_title": "Part 3: Invariant Alteration", "student_instructions": "Find an alteration that DOESN'T change the outcome. Write it.", "visual_layout": "Bottom. A blank box.",
+      "image_placeholders": [{"id": "WS04_P3_INVARIANT", "description": "A blank box in B&W line-art, ~7in × 2in. Top: 'Original code: ___'. Middle: 'My change: ___'. Bottom: 'Why outcome stays same: ___'. Coda thinking-bubble icon top-right.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["alter", "invariant"], "text_image_alignment_check": "Image WS04_P3_INVARIANT: keywords (alter, invariant) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Examples: 'Swap two right steps' (commutative), 'Replace 2 ups with Repeat 2: up' (compress)."}
+  ]}],
+  "early_finisher_prompt": "If you finish, write 3 more alterations of your own.",
+  "teacher_notes": "Lesson 4 consolidation. Watch for persistence errors (predicting old outcome despite change) — flag for the change-effect reteach."
+}

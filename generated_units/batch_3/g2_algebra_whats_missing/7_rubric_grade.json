@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_whats_missing",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "Drift gate clean. compose.py extension for the What's Missing narrative is pending — deck routes to _drafts/ until added (independent of rubric quality)."
+  },
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "All five lessons carry expanded_walkthroughs with paired misconceptions and recovery moves. Lesson 1: variable-as-answer. Lesson 2: no-strategy guess. Lesson 3: role-of-variable confusion. Lesson 4: same-numbers-different-order. Lesson 5: no-unknown trap on capstone day.", "evidence_refs": ["1_lesson_01..05.json::expanded_walkthrough", "4_formative_reflection.json"]},
+    "instructional_balance": {"score": 4, "justification": "CRA progression: balance scale and counters (concrete) → number line and equation cards (representational) → variable equations (abstract). Lesson 5 capstone integrates all three expectations.", "evidence_refs": ["1_lesson_01..05.json::action.steps", "3_manipulatives.json::assets (10 manipulatives + 2 character puppets)"]},
+    "clarity_communication": {"score": 4, "justification": "All lessons have substantial teacher_script, 4 expected_student_responses bands, paired misconceptions/recovery. Every lesson has 'I can' student_learning_goal aligned to a specific algebraic skill.", "evidence_refs": ["1_lesson_01..05.json::expanded_walkthrough.teacher_script"]},
+    "alignment": {"score": 4, "justification": "consistency_check 0 issues; verify_curriculum_text 0 issues; validate_unit_alignment 0 issues. All C2.1-C2.3 codes cited. classroom_time_total_minutes 250 = 5x50.", "evidence_refs": ["0_blueprint.json::curriculum_codes (C2.1-C2.3)", "pipeline.image_alignment.validate_unit_alignment (0 issues)"]},
+    "appearance": {"score": 4, "justification": "Drift gate clean. 12 assets (10 M-id manipulatives + 2 character_puppet variants). Marketplace $9.99.", "evidence_refs": ["pipeline.rubric.pre_grade_drift_check::placeholder_artwork_count=0", "3_manipulatives.json::assets (12 total)", "6_marketplace.json::suggested_price_cad=9.99"]}
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-04-whats-missing",
+  "graded_at": "2026-05-04T07:30:00Z"
+}

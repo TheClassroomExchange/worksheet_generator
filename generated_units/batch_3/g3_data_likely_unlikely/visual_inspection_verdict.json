@@ -1,0 +1,13 @@
+{
+  "unit_id": "g3_data_likely_unlikely",
+  "status": "pass",
+  "inspected_at": "2026-05-10T20:05:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch5",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 19, "description": "M6 Big Predict Template shows 4 numbered sections (description claims 5 — Conclusion section missing; R20 carry-over)."},
+    {"page": 22, "description": "M9 Paper Calculator Cards show fragmented placeholder labels (R20 carry-over)."},
+    {"page": 21, "description": "M7 vocab chart: 'Impossible' header above non-impossible bullets, 'Certain' header above unrelated bullets (R20 carry-over)."}
+  ],
+  "summary": "PASS. Worksheets now hero layout with no debug stubs. 2-row rubric (D2.1, D2.2) full descriptors visible. Lucky Lou and Maybe Mae puppet art, lesson plans, certificate all render clean. Pre-existing R20 content gaps on M6/M7/M9 remain as minor notes only."
+}

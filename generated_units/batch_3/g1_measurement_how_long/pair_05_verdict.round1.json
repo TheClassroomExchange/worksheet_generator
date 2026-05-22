@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "pair_number": 5,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 2,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "mathematical_authenticity": 2,
+    "sor_alignment": null,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "expanded_walkthrough.title is 'When the child rushes through stations and skips reasoning'; rationale says 'the child runs through all 4 stations quickly to finish first'. recovery_moves = ['Pair with slower partner.', 'Drill slow and careful.', 'Set min-time per station.'] — speed is a behaviour issue, not a Grade 1 measurement misconception.",
+      "required_fix": "Replace with a real G1 measurement trap: e.g. transitivity gap (child compares A>B, B>C but cannot infer A>C without rechecking — Sarama & Clements 2009) or attribute confusion (orders by length when asked about mass). Recovery should branch by diagnostic: model transitive reasoning, or return to balance heft test.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "Action steps reduce to bare commands: 'Say: Name 2 attributes.' / 'Say: Order shortest to longest.' / 'Say: Balance, order.' / 'Say: Find date. Name holiday.' Discussion prompt 'What's the difference between mass and capacity?' has no scaffold. No transitivity reasoning, no precise vocabulary scaffold, no strategy comparison.",
+      "required_fix": "Add conceptual prompts at Stations 2 and 3: 'How do you KNOW C is longer than D? Did you line up the ends?' so children articulate direct comparison and transitivity. Replace mass/capacity prompt with sense-making: 'Water bottle vs brick — which has more MASS? More CAPACITY? How do you know?' with expected child language bank.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Puppets are explicitly OPTIONAL with substitutes and timing 12/25/13 is realistic for G1. However, no no-paper / no-purchase fallback is offered for the 4 stations — Station 2 needs pre-cut strips, Station 3 needs a balance mat, with no body/voice alternative for a no-prep day.",
+      "required_fix": "Add a no-materials station path in differentiation: 'No-prep — Station 2: order any 4 classroom objects by length using the baseboard as alignment line. Station 3: order 4 objects by mass using two-handed heft test when no balance is available.' Makes the capstone runnable on a no-prep day.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Roo and Cal anchor minds_on and consolidation; all three success_criteria use 'I can'. But there is no distinctive quotable refrain or memorable chant the children carry: exit_routine 'I measured ___ and it had ___' is a generic frame, and 'Roo and Cal say — every measurement detective uses ALL these skills' is a one-off teacher line.",
+      "required_fix": "Add a Roo/Cal capstone refrain children chant back, e.g. Roo: 'Measure it!' / Children: 'Match it!' / Cal: 'Mark the day!' tied to the three skills (name attribute, order, calendar). Place it at end of minds_on AND consolidation so it brackets the lesson and children carry it home.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "minor"
+    }
+  ],
+  "summary": "Capstone structure is sound — 4 stations cleanly cover E2.1, E2.2, E2.3 and the worksheet mirrors the lesson part-for-part. Blocking issues: the expanded_walkthrough trap is rushing/behaviour rather than a G1 measurement misconception, and action steps + discussion lack mathematical scaffolding. Fix the trap to transitivity or attribute confusion and add sense-making prompts to clear the bar."
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "pair_number": 5,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves are terse and ungrounded: 'Match money to price.', 'Drill pay equal.', 'Compare price vs money.' — no branching by what the diagnostic told you, no named research.",
+      "required_fix": "Branch recovery_moves by diagnostic: (a) child grabs ANY money — line up price card next to one matching coin so quantity is salient; (b) child knows price>pay but picks wrong coin — drop to value chart; (c) child defaults to bills — drill loonie-for-$1 refrain. Cite one-to-one value matching as cardinal-quantity comparison.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Children identify, compare pairs, and pay, but never INVENT or COMPARE multiple pay-strategies. for_extending hints 'Find 2 ways to pay $10' but main lesson and worksheet do not let children compare or justify alternatives (e.g., 1 toonie vs 2 loonies for $2).",
+      "required_fix": "In consolidation or Station 4, add a compare-strategies moment: 'Penny used 1 toonie, Cassie used 2 loonies — both paid $2. Are both right? Why?' Have children fill 'Both are EQUAL because ___' sentence frame. Reference Empson/CGI strategy-comparison framing in rationale to name the move in research-grounded terms.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "success_criteria says 'I can NAME 6 coins' but worksheet Part 1 only shows 4 coins (nickel, quarter, loonie, toonie) — dime and 50¢ are dropped. Lesson minds_on lists 4 stations but worksheet collapses Stations 1+2 into one Part. Exit_routine 'I bought ___ for ___' has no place on the worksheet.",
+      "required_fix": "Either (a) align worksheet Part 1 to all 6 coins (add dime and 50¢) and add a fourth Part for the exit-routine sentence frame so each success criterion maps to a worksheet artefact; OR (b) revise success_criteria to 'NAME 4 coins' and document station-to-part mapping in worksheet teacher_notes.",
+      "affected_stages": ["lesson_05", "worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong capstone framing (Penny + Cassie, OPTIONAL puppets, realistic 12/22/11 timing) earns 4s on balance and voice. Three blockers: recovery_moves too thin for Level 4, no strategy-invention/comparison so authenticity caps at applying, and worksheet drops 2 of 6 coins named in success criteria. Small surgery — scaffold already there."
+}

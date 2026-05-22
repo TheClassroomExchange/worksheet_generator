@@ -1,0 +1,11 @@
+{
+  "unit_id": "k_data_detectives",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch1",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 7, "description": "Lesson 5 exit chant text appears slightly truncated ('SORT it!') but is intentionally brief."}
+  ],
+  "summary": "Unit passes. All 5 worksheets use new hero layout with student instructions and real content (dot sort, tally chart, pictograph, ALWAYS/SOMETIMES/NEVER, capstone). No debug stubs. Rubric trims cleanly. Character art (Dot, Tally) recognizable."
+}

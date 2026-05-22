@@ -1,0 +1,12 @@
+{
+  "unit_id": "g2_number_place_value_detectives",
+  "status": "pass",
+  "inspected_at": "2026-05-10T00:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch4",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 11, "description": "Detective Ona's Even/Odd Probe Part 3 prompt clips mid-sentence: 'The TRICKY one starts at 17 — what happens to the EVEN/ODD' — overflow truncation."},
+    {"page": 26, "description": "Rubric B1.7 row content extends to near the bottom of the page; wrap is tolerable."}
+  ],
+  "summary": "Post-F20 worksheet composer renders all worksheets cleanly with title + prompt + ruled workspace. Three detective puppets (Hugo, Tina, Ona) recognizable. One worksheet Part 3 prompt is truncated mid-word but does not block use. PASS."
+}

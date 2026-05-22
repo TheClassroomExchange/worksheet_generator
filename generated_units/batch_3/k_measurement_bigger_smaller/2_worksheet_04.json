@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 4,
+  "worksheet_title": "Max's Cube Counting",
+  "purpose": "Independent practice of A10.1 — measuring with non-standard units. Used as Lesson 4 consolidation artifact.",
+  "student_learning_goal": "I can measure with cubes, hands, or footsteps.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can measure with cubes, hands, or footsteps.",
+    "character_watermark": "Max the Measure Moose in the top-right corner of the header, holding linking cubes. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Count the cubes!",
+          "student_instructions": "Each picture shows an object with cubes lined up beside it. Count the cubes. Write the number.",
+          "visual_layout": "Four object-and-cubes rows stacked vertically. Each row shows an object on the left with a row of small cubes lined up beneath/beside it: (1) pencil + 5 cubes, (2) crayon + 3 cubes, (3) book + 7 cubes, (4) eraser + 2 cubes. Beside each row, a label line ' = ___ cubes long'.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_CUBES",
+              "description": "Four measurement rows in B&W line art for a Kindergarten worksheet. Each row shows an object aligned with linking cubes: Row 1: a pencil with exactly 5 small cubes lined up tightly beneath it (no gaps). Row 2: a crayon with 3 cubes. Row 3: a book with 7 cubes. Row 4: an eraser with 2 cubes. Each row ~3in × 1in. Beside each row, a label line ' = ___ cubes long' with an empty number box.",
+              "placement": "Centred horizontally in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["cubes", "pencil", "book"],
+              "text_image_alignment_check": "Image WS04_P1_CUBES at Part 1: instructions ask the child to count cubes. Keywords name the visual unit (cubes) and example objects (pencil, book) that have cubes lined up beside them."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pencil = 5 cubes. Crayon = 3 cubes. Book = 7 cubes. Eraser = 2 cubes."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Pick the right unit!",
+          "student_instructions": "Look at each object. Draw a line from the object to the BEST unit to measure it.",
+          "visual_layout": "Two-column matching activity. Left column has 4 objects stacked vertically: pencil (small), book (small), table (medium), classroom (large). Right column has 3 unit options stacked: cubes, hand-spans, footsteps. Generous gap between columns for line-drawing.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_MATCH",
+              "description": "A two-column matching layout for a Kindergarten worksheet, B&W line art. Left column shows 4 objects stacked vertically: pencil (~1in tall), book (~1.5in tall), classroom desk (~2in tall), full classroom outline (~2.5in tall). Right column shows 3 unit options stacked: a small cube icon labelled 'cubes', a hand-span icon labelled 'hand-spans', a footprint icon labelled 'footsteps'. Wide gap between columns for line-drawing.",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["cubes", "hand-spans", "footsteps"],
+              "text_image_alignment_check": "Image WS04_P2_MATCH at Part 2: instructions ask the child to match objects to the best measurement unit. Keywords name the three unit options shown in the right column."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pencil → cubes. Book → cubes (or hand-spans). Desk → hand-spans. Classroom → footsteps. Accept reasonable matches; the sense is: small=cubes, medium=hands, large=footsteps."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Measure 3 things at home!",
+          "student_instructions": "Pick 3 things at home. Measure each with cubes (or any same-size objects you have, like Legos!). Draw and write the count.",
+          "visual_layout": "Three response rows stacked vertically. Each row has a left column with a blank drawing box (~2.5in × 1.5in) and a right column with a label line ' = ___ cubes long'.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_TABLE",
+              "description": "Three measurement rows in B&W line art for a Kindergarten worksheet. Each row has a blank drawing box on the left (~2.5in × 1.5in, thin border) and a label line on the right reading ' = ___ cubes long' with an empty number box. Designed for the child to draw home objects and record cube counts.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": ["measure", "home"],
+              "text_image_alignment_check": "Image WS04_P3_TABLE at Part 3: instructions ask the child to measure 3 home objects with cubes. Keywords name the activity (measure) and location (home)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 home objects with reasonable cube counts. Common: spoon ≈ 4 cubes, book ≈ 8 cubes, shoe ≈ 5 cubes."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, count how many footsteps from your bed to your kitchen. Write the number.",
+  "teacher_notes": "Lesson 4 consolidation artifact. Use Part 1 as the formative signal for the gap-counting trap — children who get the count wrong even with images showing tightly-aligned cubes need the 'no gaps' re-loop."
+}

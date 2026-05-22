@@ -1,0 +1,67 @@
+{
+  "unit_id": "g2_algebra_real_life_modelling",
+  "pair_number": 5,
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child can't pick a topic and freezes — repairing the choice paralysis on capstone day at Grade 2'. The named trap is choice paralysis (a generic affective/executive-function issue), not a research-grounded Grade 2 mathematical-modelling misconception, and recovery_moves do not branch by diagnostic.",
+      "required_fix": "Replace the trap with a research-grounded G2 modelling misconception (e.g., the 'data-as-decoration' trap where children record numbers but treat the prediction as unrelated to the data — see Lehrer & Schauble on early data modelling; or the 'one-data-point-equals-rule' trap where children generalize from a single observation). Cite the source by name in the rationale and branch recovery_moves: if child collected data but ignored it when predicting, prompt 'what does your data tell you about tomorrow?'; if child predicted from a single count, prompt 'would you bet on this if you only saw it once?'.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Per-child Capstone Modelling Template' and 'Town Situation Cards (12) for inspiration' as required, and differentiation has no NO-PAPER, NO-PURCHASE alternative path for days when prep wasn't possible.",
+      "required_fix": "Add a no-materials version to differentiation: e.g., 'No-paper version — children fold a single sheet into 5 sections and label SITUATION/QUESTION/DATA/PREDICT/REFLECT, OR turn it into an oral capstone where the child tells their cycle aloud to a partner using fingers (1=situation, 2=question, ..., 5=reflect) as a counting cue, and the partner records the 5 steps on chart paper.' Make explicit that situation cards are OPTIONAL ('any place the child names works').",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = 'Each child receives a Junior Town Modeller certificate. Quick whisper: \"My model was about ___\". Mayor Mira and Town Tom say goodbye with a final modelling demo using class stories.' There is no distinctive quotable refrain or memorable chant for Mayor Mira/Town Tom that children carry between lessons across the unit.",
+      "required_fix": "Give Mayor Mira a recurring quotable refrain children chant back in every consolidation, and use it explicitly here. Example: Mira says 'Math lives in our town —' and children respond 'and WE are the modellers!' Embed it in teacher_script for minds_on AND as the closing chant in exit_routine so the unit closes on the same refrain it has used since Lesson 1.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale frames the trap as 'choice paralysis' and common_misconceptions list non-mathematical items ('I need a perfect topic.', 'Modelling is hard.', 'Other people will judge my topic.'). No research-grounded misconception in modelling is named (e.g., Lehrer & Schauble on data modelling, Carpenter & Moser CGI types, English & Watters on early modelling).",
+      "required_fix": "Reframe the expanded_walkthrough around a research-grounded modelling misconception and cite it by name. Example: 'The G2 trap in modelling is treating PREDICT as a guess disconnected from DATA — what Lehrer & Schauble (2007) call the data-prediction gap. Repair: explicitly bridge from a tally back to the prediction (\"your data says about 6 books a day — so 5 days?\"). Compare two children's strategies (one who used the data, one who guessed) so the class sees why data-driven prediction beats a guess.'",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The worksheet is the capstone template the lesson uses — Parts 1-5 mirror the lesson's 5-step cycle one-to-one with no transfer/variation. parts_outline and worksheet pages match the lesson activity exactly without a deliberate format shift to verify generalization.",
+      "required_fix": "Add one variation to the worksheet so it functions as transfer rather than a rote repeat. For example, add a Part 6 'Modeller's Switch' that gives the child a NEW pre-built town situation (different from their own) and asks them to write only the QUESTION + PREDICTION for it — verifying they can apply the cycle to a situation they didn't pick. Justify the variation in teacher_notes ('Part 6 verifies generalization beyond child-chosen topics').",
+      "affected_stages": ["worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "The lesson and worksheet are structurally complete and faithfully cover C4's modelling cycle, with strong alignment to blueprint and prior days. The pair falls short of the high bar in five categories: the trap is affective ('choice paralysis') rather than a research-grounded G2 modelling misconception; no no-materials alternative path exists for unprepped days; Mayor Mira lacks a quotable refrain to carry across the unit; the math authenticity work doesn't cite a misconception by name (Lehrer & Schauble on data modelling would be a strong fit); and the worksheet is a one-to-one template of the lesson rather than a transfer task. Fixes are small but needed before pass."
+}

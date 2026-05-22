@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "pair_number": 3,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names a real trap ('child sees bar at height 4 on a scaled graph (1 unit = 5) and says 4 children instead of 20') and recovery_moves are concrete ('Use scale check card', 'Drill scale x bar = count', 'Compare scaled vs 1-to-1'), but no research is cited and recovery does not branch by what the diagnostic told you about the child.",
+      "required_fix": "Anchor the scale-blind trap to research on graph comprehension (e.g., Friel, Curcio & Bright 2001 'elementary/intermediate/overall' levels of graph reading; Shaughnessy on data analysis). Then BRANCH recovery_moves: if child reads y-axis numbers fluently but ignores them, drill 'point-to-axis-first' before reading any bar; if child cannot decode the y-axis labels at all (e.g., misreads 0,5,10,15 as 1,2,3,4), drop back to skip-counting by 5s on a number line before returning to the graph; if child reads scale correctly but multiplies wrong, isolate the multiplication fact (4 x 5) on a separate card. State each branch with the diagnostic signal that triggers it.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.activity_name = 'Detective Dot's Scale Brag' and exit_routine = \"Each child writes one scale: 'My scale is 1 unit = ___.'\" Detective Dot anchors minds_on/action/consolidation and success_criteria all use 'I can', but there is no distinctive quotable refrain or chant carrying between lessons — 'Detective Dot says — pick scale to FIT the grid' is teacher narration, not a child-chantable refrain.",
+      "required_fix": "Give Detective Dot a memorable scale-themed chant that the class echoes back at the close of every minds_on AND consolidation, e.g., 'Read the SCALE first, then read the BAR — bar times scale shows how MANY there are!' Add it to teacher_script (children echo on cue) and to consolidation.exit_routine so children carry it into Lessons 4 and 5. Quote the chant verbatim in at least two places in the lesson so the recurring character has a refrain children remember two months later.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (one-to-one would need bars 30/15/10/5 -> too tall; many-to-one with 1 unit = 5 -> 6/3/2/1) and 'scale x bar = count' is named precisely, but children do not invent or compare strategies — scales are handed to them ('Pick scale: 1 unit = 5 children', Station B 'scale = 5'). No research-grounded misconception framing (Friel/Curcio/Bright on graph comprehension, or Shaughnessy on data sense).",
+      "required_fix": "In action.steps, restructure Station C so children INVENT and COMPARE scales for the same data set (e.g., 50-student data: have one pair try scale=2, another scale=5, another scale=10) and then debrief which fits the grid best and WHY — making the 'fits-the-grid' criterion the children's discovery rather than the teacher's rule. Then in expanded_walkthrough.rationale, name the misconception in research-grounded terms (cite Friel, Curcio & Bright 2001 levels of graph reading, or Shaughnessy on transnumeration) so the trap is anchored to the literature.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

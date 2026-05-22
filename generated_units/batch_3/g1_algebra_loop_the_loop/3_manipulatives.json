@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "overall_prep_notes": "Total prep ~1.5 hours. The two character puppets (Coda, Looper) print on cardstock. Card decks (M2, M3, M5, M8) are laminated. Grid mat is the centerpiece.",
+  "assets": [
+    {
+      "asset_id": "M1_grid_mat",
+      "name": "Coding Grid Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size 5×5 grid mat for code execution.",
+      "page_layout": "Single letter page, landscape with 5×5 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_GRID_MAT",
+          "description": "A 5×5 grid mat in B&W on a landscape letter page. Each cell ~1.5in × 1.5in. Coordinates labeled (0-4 on x and y axes). A small starting position dot at (0,0).",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "grid",
+            "mat"
+          ],
+          "text_image_alignment_check": "Image M1_GRID_MAT: keywords (grid, mat) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per pair.",
+        "Laminate.",
+        "Hand out at start of Lesson 1.",
+        "Use through Lesson 5.",
+        "Optional: extras."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 mat per pair = 10+ for class of 20.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_code_cards",
+      "name": "Code Step Cards",
+      "category": "manipulative",
+      "purpose": "30 cards: step left/right/up/down, repeat N, etc.",
+      "page_layout": "5 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 5,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_CODE_CARD",
+          "description": "A code step card in B&W line-art, ~3in × 4in. Each shows a single step: arrow (right/left/up/down), 'forward', 'turn', etc. 30 cards total. Cut lines.",
+          "placement": "30 cards across 5 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "code",
+            "step"
+          ],
+          "text_image_alignment_check": "Image M2_CODE_CARD: keywords (code, step) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 5 pages on cardstock.",
+        "Laminate.",
+        "Cut into 30 cards.",
+        "Sort by type.",
+        "Distribute Lessons 1-5."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "30 cards.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_existing_code_cards",
+      "name": "Existing Code Sample Cards",
+      "category": "manipulative",
+      "purpose": "12 pre-written code samples for reading and predicting.",
+      "page_layout": "2 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_SAMPLE_CARD",
+          "description": "A code sample card in B&W line-art, ~3in × 4in. Each shows pre-written code (3-6 steps with optional loop). Cut lines.",
+          "placement": "12 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "sample",
+            "code"
+          ],
+          "text_image_alignment_check": "Image M3_SAMPLE_CARD: keywords (sample, code) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 12 cards.",
+        "Sort by difficulty.",
+        "Distribute Lessons 3-4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "12 cards.",
+      "used_in_lessons": [
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M4_robot_marker",
+      "name": "Robot Marker",
+      "category": "manipulative",
+      "purpose": "Small token (paper robot or dice) that moves on the grid.",
+      "page_layout": "Not printable — physical token. Page is a paper-robot template.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_ROBOT_TOKEN",
+          "description": "A paper-robot template in B&W line-art, ~2in × 2in. Square robot face with antenna. Cut to make 10 small tokens.",
+          "placement": "Centred.",
+          "approximate_size": "small",
+          "keywords": [
+            "robot",
+            "marker"
+          ],
+          "text_image_alignment_check": "Image M4_ROBOT_TOKEN: keywords (robot, marker) name what the template shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page.",
+        "Cut into 10 tokens.",
+        "Sort into pair sets.",
+        "Have ready Lessons 1-5.",
+        "Optional: dice instead."
+      ],
+      "estimated_prep_minutes": 8,
+      "quantity_per_class": "10 tokens (1 per pair).",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_loop_card",
+      "name": "Loop Cards",
+      "category": "manipulative",
+      "purpose": "8 cards with loop counts: Repeat 2, 3, 4, 5.",
+      "page_layout": "Single letter page, portrait. 8 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_LOOP_CARD",
+          "description": "A loop card in B&W line-art, ~2.5in × 1.5in. Each shows 'Repeat N:' with N values 2, 3, 4, 5 (2 cards each).",
+          "placement": "8 cards on 1 page.",
+          "approximate_size": "small",
+          "keywords": [
+            "loop",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M5_LOOP_CARD: keywords (loop, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Laminate.",
+        "Cut into 8 cards.",
+        "Distribute Lessons 2 and 5.",
+        "Optional: extras."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "8 cards.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_code_template",
+      "name": "Code Writing Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template for writing custom code.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_TEMPLATE",
+          "description": "A code-writing template in B&W on a portrait letter page. Header 'My Code' with 8 numbered code lines and a small grid for testing. Bottom: 'My prediction' area.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "template",
+            "code"
+          ],
+          "text_image_alignment_check": "Image M6_TEMPLATE: keywords (template, code) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out Lesson 5.",
+        "Children fill in.",
+        "Collect for assessment.",
+        "Display gallery."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_predict_chart",
+      "name": "Predict-and-Check Chart",
+      "category": "manipulative",
+      "purpose": "Letter-size chart with PREDICT and CHECK columns.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_PREDICT_CHART",
+          "description": "A predict-check chart in B&W on a landscape letter page. Two columns: PREDICT (left) and CHECK (right). 6 rows for entries.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "predict",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M7_PREDICT_CHART: keywords (predict, chart) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 chart per pair.",
+        "Laminate.",
+        "Hand out Lessons 3-4.",
+        "Use dry-erase.",
+        "Reuse."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M8_alter_cards",
+      "name": "Code Alteration Cards",
+      "category": "manipulative",
+      "purpose": "8 cards each with original code + a change.",
+      "page_layout": "Single letter page, portrait. 8 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_ALTER_CARD",
+          "description": "An alter card in B&W line-art, ~2.5in × 2in. Each shows original code on top and a change instruction on bottom (e.g., 'Change Repeat 3 to Repeat 5'). Cut lines.",
+          "placement": "8 cards on 1 page.",
+          "approximate_size": "small",
+          "keywords": [
+            "card"
+          ],
+          "text_image_alignment_check": "Image M8_ALTER_CARD: keywords (card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock.",
+        "Laminate.",
+        "Cut into 8 cards.",
+        "Distribute Lesson 4.",
+        "Optional: extras."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "8 cards.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M9_capstone_template",
+      "name": "Capstone Code Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template for Lesson 5 capstone.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_CAPSTONE_TEMPLATE",
+          "description": "A capstone template in B&W on a portrait letter page. Sections: project name, code (8 lines), prediction drawing area, run-and-check verification.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "capstone",
+            "template"
+          ],
+          "text_image_alignment_check": "Image M9_CAPSTONE_TEMPLATE: keywords (capstone, template) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out Lesson 5.",
+        "Children fill in.",
+        "Collect for assessment.",
+        "Display gallery."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_loop_poster",
+      "name": "Loop the Loop Anchor Poster",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor showing Coda and Looper with sample code.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "Loop the Loop anchor poster in B&W, ~17in × 22in. Centre: Coda (square robot) and Looper (round robot) with sample sequential code on left and loop code on right. Code symbols labeled.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "poster",
+            "code"
+          ],
+          "text_image_alignment_check": "Image M10_POSTER: keywords (poster, code) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_coda_puppet",
+      "name": "Coda the Coding Robot",
+      "category": "character_puppet",
+      "purpose": "Printable Coda illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_CODA_FRONT",
+          "description": "Coda the Coding Robot illustration in B&W: a small square robot with a screen face, two extending arms, treads for feet. Yellow body with antenna. Friendly emoticon eyes. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "coda"
+          ],
+          "text_image_alignment_check": "Image CHAR_CODA_FRONT: keywords (coda) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_looper_puppet",
+      "name": "Looper the Loop Helper",
+      "category": "character_puppet",
+      "purpose": "Printable Looper illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_LOOPER_FRONT",
+          "description": "Looper the Loop Helper illustration in B&W: a round robot with a circular spinning antenna, loop-shaped body design, three small wheels. Encouraging expression. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "looper"
+          ],
+          "text_image_alignment_check": "Image CHAR_LOOPER_FRONT: keywords (looper) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    }
+  ]
+}

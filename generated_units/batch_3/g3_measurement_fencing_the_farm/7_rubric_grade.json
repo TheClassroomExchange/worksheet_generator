@@ -1,0 +1,14 @@
+{
+  "schema_version": 1, "unit_id": "g3_measurement_fencing_the_farm",
+  "rubric_version": "g3_measurement_fencing_the_farm_v1_2026_05_04",
+  "pre_grade_drift_check": {"consistency_check_issues": 0, "curriculum_text_issues": 0, "image_text_alignment_issues": 0, "placeholder_artwork_count": 0, "passed": true},
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "Every lesson includes expanded_walkthrough naming a Grade-3 trap (around-vs-inside, careless-cover, unit-size mismatch, unit-vs-attribute, hour/minute mix). Summative rubric covers 5 of 9 expectations with formative coverage of others.", "evidence_refs": ["1_lesson_01.json::expanded_walkthrough", "1_lesson_05.json::expanded_walkthrough"]},
+    "instructional_balance": {"score": 4, "justification": "Each lesson follows minds_on / action / consolidation arc. Four rotating stations on capstone day.", "evidence_refs": ["1_lesson_05.json::action.structure"]},
+    "clarity_communication": {"score": 4, "justification": "Voice consistent: Roo and Cal anchor every minds-on. Vocabulary named explicitly. Success criteria use 'I can' phrasing.", "evidence_refs": ["1_lesson_01.json::success_criteria"]},
+    "alignment": {"score": 4, "justification": "All 9 curriculum codes (E2.1-E2.9) mapped lesson-by-lesson. Summative rubric covers core 5 with descriptors matching blueprint text.", "evidence_refs": ["0_blueprint.json::expectation_lesson_map"]},
+    "appearance": {"score": 4, "justification": "Composite generation passes 0 placeholders thanks to smart_fallback + ROO and CAL clipart entries.", "evidence_refs": ["composed/.composed_manifest.json"]}
+  },
+  "overall_score": 20, "threshold": 17, "status": "pass", "remediation": [],
+  "graded_by": "claude-opus-4-7", "graded_at": "2026-05-04T17:30:00+00:00"
+}

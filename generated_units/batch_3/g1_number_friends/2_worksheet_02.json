@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "lesson_number": 2,
+  "worksheet_title": "Number Friends Five Ways",
+  "purpose": "Independent practice of B1.1 — reading and representing numbers to 50 in five forms.",
+  "student_learning_goal": "I can read and represent numbers to 50 in many ways and tell where I see numbers in everyday life.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can read and represent numbers to 50 in many ways and tell where I see numbers in everyday life.",
+    "character_watermark": "Otto in the top-right corner, holding two jars of marbles. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Match the Form",
+          "student_instructions": "Each row shows the same number in two ways. Draw a line to match the numeral on the left to the picture on the right.",
+          "visual_layout": "Top third of the page. A 5-row matching grid. Left column: numerals 12, 25, 38, 47, 30 in random order. Right column: matching representations (ten-frames for 12, base-ten rods for 25, tally marks for 38, base-ten rods for 47, ten-frames for 30) in random order. The child draws lines.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_MATCH_GRID",
+              "description": "A 5-row matching grid in B&W line-art. Left column: numerals 12, 25, 38, 47, 30 (random order). Right column: a ten-frame visual showing 12, base-ten rods showing 25, tally marks for 38, base-ten rods for 47, ten-frames for 30 (random order, NOT aligned to left column). Each row ~1in tall. Connector dots between columns for the child's lines.",
+              "placement": "Top third of the page; full-width matching grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "match",
+                "numerals",
+                "ten-frame",
+                "rods"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_MATCH_GRID: keywords (match, numerals, ten-frame, rods) name what the grid shows."
+            }
+          ],
+          "student_response_type": "match",
+          "answer_key": "12 → ten-frame 12. 25 → base-ten rods 25. 38 → tally marks 38. 47 → base-ten rods 47. 30 → ten-frame 30."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Numerals to Words",
+          "student_instructions": "Match each numeral to its word. Draw lines.",
+          "visual_layout": "Middle of the page. A 6-row table. Left column: numerals 5, 12, 25, 38, 50, 47 (in order). Right column: words 'twelve', 'forty-seven', 'fifty', 'five', 'twenty-five', 'thirty-eight' (random order). Child draws lines.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_NUMERAL_WORD_MATCH",
+              "description": "A 6-row matching table in B&W line-art. Left column: numerals 5, 12, 25, 38, 50, 47 each in a small box. Right column: number-words 'twelve', 'forty-seven', 'fifty', 'five', 'twenty-five', 'thirty-eight' in random order each in a small box. Connector dots between columns.",
+              "placement": "Middle of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "numerals",
+                "words",
+                "match"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_NUMERAL_WORD_MATCH: keywords (numerals, words, match) name what the table shows."
+            }
+          ],
+          "student_response_type": "match",
+          "answer_key": "5 → five. 12 → twelve. 25 → twenty-five. 38 → thirty-eight. 50 → fifty. 47 → forty-seven."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Show It Five Ways",
+          "student_instructions": "Pick a number between 10 and 50. Show it FIVE ways: numeral, word, ten-frames, base-ten rods, tally marks.",
+          "visual_layout": "Bottom of the page. Five labelled boxes in a 2-row layout: NUMERAL (top-left small box), WORD (top-middle box), TEN-FRAMES (top-right box), BASE-TEN RODS (bottom-left box), TALLY MARKS (bottom-right box). Each ~2in × 1.8in for drawing.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_FIVE_WAYS_BOXES",
+              "description": "Five labelled blank boxes in a 2-row layout in B&W line-art. Top row: NUMERAL (~1.5in), WORD (~2.5in), TEN-FRAMES (~2.5in). Bottom row: BASE-TEN RODS (~3in), TALLY MARKS (~3in). Each box has a thin grey outline and a header label.",
+              "placement": "Bottom of the page; spans full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "numerals",
+                "words",
+                "rods",
+                "tally"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_FIVE_WAYS_BOXES: keywords (numerals, words, rods, tally) name the five forms shown."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any number 10-50 shown correctly in all 5 forms. Common pick: 25 = twenty-five = 2.5 ten-frames = 2 rods + 5 ones = 5 groups of 5 tally marks."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and pick a HARDER number (40-50). Show it five ways!",
+  "teacher_notes": "Lesson 2 consolidation. Hand out at the end of the gallery walk. Watch for: (a) Part 1 children who match by guessing rather than reading the representations; (b) Part 3 children who skip the harder forms (base-ten rods, tally marks) — flag for re-loop. Use Part 3 as evidence for the formative tracker columns 'reads ten-frame' and 'reads base-ten rod' (children who can SHOW the form can also read it)."
+}

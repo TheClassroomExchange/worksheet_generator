@@ -1,0 +1,12 @@
+{
+  "unit_id": "g1_spatial_mapping",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch3",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 11, "description": "Worksheet 'Tig's Treasure Trail' instructions step 2 reads 'Draw a line of symmetry on each shape' which is mis-scoped (looks copied from L3 symmetry worksheet). Cosmetic, not blocking."},
+    {"page": 7, "description": "L5 Action STATIONS bullet ends with 'sketch 2D shapes inside a...' (mid-sentence trail-off) but does not overflow into next-section header."}
+  ],
+  "summary": "PASS. Worksheets now use new format (title + Learning Goal box + Instructions + workspace) on all 5 worksheet pages. Previous R21 'Read prompt / Try it' debug stubs are fully resolved. Rubric multi-line wrap clean. Character art (Tig, Coco) renders correctly."
+}

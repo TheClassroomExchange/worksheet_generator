@@ -1,0 +1,37 @@
+{
+  "unit_id": "g2_data_detectives",
+  "pair_number": 4,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = [\"Use 3 example cases.\", \"Drill 'count all values'.\", \"Practice with ties.\"] — these are concrete but generic and do not branch by what the diagnostic told you about the child. There is no named research citation for the mode-mistake trap, and the misconception list (\"Mode = tallest bar always\", \"Mode = unique answer\", \"Mode = average\") is named in everyday terms only.",
+      "required_fix": "Add a research citation to expanded_walkthrough.rationale (e.g., reference Konold & Higgins 2003 on children's data and statistical reasoning, or Friel, Curcio & Bright 2001 on graph comprehension levels — children at the 'read the data' level treat 'most' as 'tallest' and miss ties). Then BRANCH recovery_moves by diagnostic: (a) if child can count each category but still picks tallest only — drill the 'compare-all-pairs' routine; (b) if child cannot reliably count the categories — drop back to one-to-one matching of bars first; (c) if child says 'red AND blue' but writes only one — co-construct a bimodal sentence frame 'The modes are ___ and ___'.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.common_misconceptions and recovery_moves describe the mode-mistake trap in plain terms (\"Mode = tallest bar always\", \"Drill 'count all values'\") without naming the misconception in research-grounded terms (Friel/Curcio/Bright graph-comprehension levels, Konold's 'data as individual cases vs. aggregate', or Watson on informal inferential reasoning). The action steps also do not let children INVENT or COMPARE strategies for finding mode — Step 4 simply says \"Discuss bimodal and no-mode cases\" with the teacher showing the answer (\"Show: 3-3-3 = no mode. 4-4-3 = bimodal\").",
+      "required_fix": "In expanded_walkthrough.rationale, name the misconception in research terms — e.g., 'This sits at Friel, Curcio & Bright (2001) Level 1 (read the data) where children identify the largest visual element rather than reasoning about frequency. Konold & Higgins (2003) call this the case-vs-aggregate gap.' Then add an action step where pairs INVENT a strategy: 'Pairs make their own rule for finding mode. Share 2 strategies. Class compares: which works for ties? which works for all-tied? Refine to a class rule.' This satisfies Level 4's strategy-invention-and-comparison requirement.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "reviewer_notes": "Strong pair overall. Materials are exemplary (puppets explicitly optional, body-based no-paper alternative in differentiation). Tally's refrain and the exit sentence frame anchor voice well. Worksheet Part 3 is a genuine transfer task. The two gaps are both in the expanded_walkthrough: the trap is real but un-cited, and the recovery is concrete but doesn't branch by diagnostic. Adding one research citation and a strategy-invention step in the action would lift both pedagogical_depth and mathematical_authenticity to 4."
+}

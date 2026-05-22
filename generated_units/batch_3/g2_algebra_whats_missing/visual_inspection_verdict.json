@@ -1,0 +1,13 @@
+{
+  "unit_id": "g2_algebra_whats_missing",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch3",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 9, "description": "Worksheet Ws02 instructions 1 and 2 nearly duplicate ('Find the missing number in each addition equation.' / 'Find the missing number.')."},
+    {"page": 10, "description": "Worksheet Ws03 title 'Detective Dee's Subtraction.' has stray trailing period; instructions 1 and 2 duplicate ('Find the missing number.')."},
+    {"page": 19, "description": "M8 Number Line to 100 manipulative renders as 4 generic zone boxes instead of an actual 0-100 tick line."}
+  ],
+  "summary": "PASS. All 5 worksheet pages now use new format. Previous R21 'Read prompt / Try it' stubs and truncated 'Part 1: Subtraction to 50 (Mis...' title fully resolved. Worksheet Ws03 box now reads 'Part 2: Subtraction to 100 (Missing-Minuend)' fully. Minor duplicate-instruction copy issues noted."
+}

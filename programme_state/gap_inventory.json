@@ -1,0 +1,2041 @@
+{
+  "schema_version": 1,
+  "description": "Tracks composer + SVG gaps to batch-fix after all units complete content phase",
+  "characters_needed": {
+    "g1_algebra_loop_the_loop": [
+      {
+        "key": "CODA",
+        "name": "Coda the Coding Robot",
+        "svg_status": "done"
+      },
+      {
+        "key": "LOOPER",
+        "name": "Looper the Loop Helper",
+        "svg_status": "done"
+      }
+    ],
+    "g1_algebra_balance_stories": [
+      {
+        "key": "BELLA",
+        "name": "Bella the Balance Beam Scientist",
+        "svg_status": "done"
+      },
+      {
+        "key": "BOBBY",
+        "name": "Bobby the Balance Beam Buddy",
+        "svg_status": "done"
+      }
+    ],
+    "g1_algebra_real_life_modelling": [
+      {
+        "key": "MAPLE",
+        "name": "Maple the Maple Tree",
+        "svg_status": "done"
+      },
+      {
+        "key": "SAP_SAM",
+        "name": "Sap Sam the Collector",
+        "svg_status": "done"
+      }
+    ],
+    "g1_data_likelihood": [
+      {
+        "key": "LUCKY",
+        "name": "Lucky Lou the Loon",
+        "svg_status": "done"
+      },
+      {
+        "key": "MAYBE",
+        "name": "Maybe Mae the Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g1_financial_classroom_market": [
+      {
+        "key": "PENNY",
+        "name": "Penny the Penguin Shopkeeper",
+        "svg_status": "done"
+      },
+      {
+        "key": "CASSIE",
+        "name": "Coin Cassie the Cashier",
+        "svg_status": "done"
+      }
+    ],
+    "g1_measurement_how_long": [
+      {
+        "key": "ROO",
+        "name": "Roo the Ruler Rabbit",
+        "svg_status": "done"
+      },
+      {
+        "key": "CAL",
+        "name": "Cal the Calendar Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g1_number_adding_machine": [
+      {
+        "key": "PLUS",
+        "name": "Plus the Adding Pup",
+        "svg_status": "done"
+      },
+      {
+        "key": "MINNIE",
+        "name": "Minnie the Minus Mouse",
+        "svg_status": "done"
+      },
+      {
+        "key": "DOUBLES",
+        "name": "Doubles the Robot",
+        "svg_status": "done"
+      }
+    ],
+    "g1_number_friends": [
+      {
+        "key": "LILA",
+        "name": "Lila",
+        "svg_status": "done"
+      },
+      {
+        "key": "OTTO",
+        "name": "Otto",
+        "svg_status": "done"
+      },
+      {
+        "key": "SCOOT",
+        "name": "Scoot",
+        "svg_status": "done"
+      }
+    ],
+    "g1_spatial_mapping": [
+      {
+        "key": "TIG",
+        "name": "Trekker Tig the Tiger Cub",
+        "svg_status": "done"
+      },
+      {
+        "key": "COCO",
+        "name": "Compass Coco the Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g2_algebra_if_then_detectives": [
+      {
+        "key": "IF",
+        "name": "Inspector If the Conditional Cat",
+        "svg_status": "done"
+      },
+      {
+        "key": "THEN",
+        "name": "Then the Action Dog",
+        "svg_status": "done"
+      }
+    ],
+    "g2_algebra_real_life_modelling": [
+      {
+        "key": "MIRA",
+        "name": "Mayor Mira the Math Mayor",
+        "svg_status": "done"
+      },
+      {
+        "key": "TOM",
+        "name": "Town Tom the Town Helper",
+        "svg_status": "done"
+      }
+    ],
+    "g2_algebra_whats_missing": [
+      {
+        "key": "DEE",
+        "name": "Detective Dee the Math Sleuth",
+        "svg_status": "done"
+      },
+      {
+        "key": "MO",
+        "name": "Mystery Mo the Assistant",
+        "svg_status": "done"
+      }
+    ],
+    "g2_data_detectives": [
+      {
+        "key": "DOT",
+        "name": "Detective Dot the Sorting Squirrel",
+        "svg_status": "done"
+      },
+      {
+        "key": "TALLY",
+        "name": "Tally the Tally Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g2_data_what_could_happen": [
+      {
+        "key": "LUCKY",
+        "name": "Lucky Lou the Loon",
+        "svg_status": "done"
+      },
+      {
+        "key": "MAYBE",
+        "name": "Maybe Mae the Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g2_financial_tap_to_pay": [
+      {
+        "key": "TAPPY",
+        "name": "Tappy the Toonie Frog",
+        "svg_status": "done"
+      },
+      {
+        "key": "LOONIE",
+        "name": "Loonie Lou the Mouse",
+        "svg_status": "done"
+      }
+    ],
+    "g2_measurement_how_heavy_how_tall": [
+      {
+        "key": "ROO",
+        "name": "Roo the Ruler Rabbit",
+        "svg_status": "done"
+      },
+      {
+        "key": "CAL",
+        "name": "Cal the Calendar Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g2_number_groups_of": [
+      {
+        "key": "MAE",
+        "name": "Mae the Multiplier",
+        "svg_status": "done"
+      },
+      {
+        "key": "DAN",
+        "name": "Dan the Divider",
+        "svg_status": "done"
+      },
+      {
+        "key": "BUDDY",
+        "name": "Buddy the Workshop Helper",
+        "svg_status": "done"
+      }
+    ],
+    "g2_number_place_value_detectives": [
+      {
+        "key": "HUGO",
+        "name": "Detective Hugo Hundreds",
+        "svg_status": "done"
+      },
+      {
+        "key": "TINA",
+        "name": "Detective Tina Tens",
+        "svg_status": "done"
+      },
+      {
+        "key": "ONA",
+        "name": "Detective Ona Ones",
+        "svg_status": "done"
+      }
+    ],
+    "g2_spatial_mirror_mirror": [
+      {
+        "key": "SYMMY",
+        "name": "Symmy the Symmetry Squirrel",
+        "svg_status": "done"
+      },
+      {
+        "key": "FLIPPY",
+        "name": "Flippy the Folding Frog",
+        "svg_status": "done"
+      }
+    ],
+    "g3_algebra_balanced_equations": [
+      {
+        "key": "EDDY",
+        "name": "Eddy the Equation Engineer",
+        "svg_status": "done"
+      },
+      {
+        "key": "VEX",
+        "name": "Vex the Variable Vet",
+        "svg_status": "done"
+      }
+    ],
+    "g3_algebra_bug_busters": [
+      {
+        "key": "BUZZ",
+        "name": "Buzz the Bug-Buster Beetle",
+        "svg_status": "done"
+      },
+      {
+        "key": "PATCH",
+        "name": "Patch the Repair Pup",
+        "svg_status": "done"
+      }
+    ],
+    "g3_algebra_real_life_modelling": [
+      {
+        "key": "CARA",
+        "name": "Coach Cara the Community Captain",
+        "svg_status": "done"
+      },
+      {
+        "key": "SAM",
+        "name": "Sport Sam the Sports Reporter",
+        "svg_status": "done"
+      }
+    ],
+    "g3_data_detectives": [
+      {
+        "key": "DOT",
+        "name": "Detective Dot the Sorting Squirrel",
+        "svg_status": "done"
+      },
+      {
+        "key": "TALLY",
+        "name": "Tally the Tally Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g3_data_likely_unlikely": [
+      {
+        "key": "LUCKY",
+        "name": "Lucky Lou the Loon",
+        "svg_status": "done"
+      },
+      {
+        "key": "MAYBE",
+        "name": "Maybe Mae the Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g3_financial_plan_your_party": [
+      {
+        "key": "PAT",
+        "name": "Pat the Party Planner Pup",
+        "svg_status": "done"
+      },
+      {
+        "key": "BUDGET",
+        "name": "Budget Bea the Bear",
+        "svg_status": "done"
+      }
+    ],
+    "g3_measurement_fencing_the_farm": [
+      {
+        "key": "ROO",
+        "name": "Roo the Ruler Rabbit",
+        "svg_status": "done"
+      },
+      {
+        "key": "CAL",
+        "name": "Cal the Calendar Cat",
+        "svg_status": "done"
+      }
+    ],
+    "g3_number_fraction_street": [
+      {
+        "key": "FRANKIE",
+        "name": "Frankie the Fraction Friend",
+        "svg_status": "done"
+      },
+      {
+        "key": "PENNY",
+        "name": "Penny the Place Value Pal",
+        "svg_status": "done"
+      },
+      {
+        "key": "SAMMY",
+        "name": "Sammy the Sharer",
+        "svg_status": "done"
+      }
+    ],
+    "g3_number_times_table_toolkit": [
+      {
+        "key": "TONY",
+        "name": "Tony the Toolkit Master",
+        "svg_status": "done"
+      },
+      {
+        "key": "MAYA",
+        "name": "Maya the Multiplication Maven",
+        "svg_status": "done"
+      },
+      {
+        "key": "PIXEL",
+        "name": "Pixel the Practice Pal",
+        "svg_status": "done"
+      }
+    ],
+    "g3_spatial_map_it_move_it": [
+      {
+        "key": "TIG",
+        "name": "Trekker Tig the Tiger Cub",
+        "svg_status": "done"
+      },
+      {
+        "key": "COCO",
+        "name": "Compass Coco the Cat",
+        "svg_status": "done"
+      }
+    ],
+    "k_coding_little_programmers": [
+      {
+        "key": "BOT",
+        "name": "Bot the Robot Programmer",
+        "svg_status": "done"
+      },
+      {
+        "key": "BUGGY",
+        "name": "Buggy the Debug Beetle",
+        "svg_status": "done"
+      }
+    ],
+    "k_data_detectives": [
+      {
+        "key": "DOT",
+        "name": "Detective Dot",
+        "svg_status": "done"
+      },
+      {
+        "key": "TALLY",
+        "name": "Tally the Tally Mark",
+        "svg_status": "done"
+      }
+    ],
+    "k_measurement_bigger_smaller": [
+      {
+        "key": "MAX",
+        "name": "Max the Measure Moose",
+        "svg_status": "done"
+      },
+      {
+        "key": "TESS",
+        "name": "Tess the Tiny Mouse",
+        "svg_status": "done"
+      }
+    ],
+    "k_number_coin_counters": [
+      {
+        "key": "PENNY",
+        "name": "Penny the Penny",
+        "svg_status": "done"
+      },
+      {
+        "key": "NICK",
+        "name": "Nick the Nickel",
+        "svg_status": "done"
+      },
+      {
+        "key": "QUINCY",
+        "name": "Quincy the Piggy Bank",
+        "svg_status": "done"
+      }
+    ],
+    "k_number_counting_crew": [
+      {
+        "key": "MAE",
+        "name": "Mae the Counting Crew Chef",
+        "svg_status": "done"
+      },
+      {
+        "key": "THEO",
+        "name": "Theo the Counting Crew Chef",
+        "svg_status": "done"
+      },
+      {
+        "key": "BUDDY",
+        "name": "Buddy the Puppy",
+        "svg_status": "done"
+      }
+    ],
+    "k_spatial_shape_safari": [
+      {
+        "key": "SAMMY",
+        "name": "Sammy the Safari Sloth",
+        "svg_status": "done"
+      },
+      {
+        "key": "MIRA",
+        "name": "Mira the Map Maker",
+        "svg_status": "done"
+      }
+    ]
+  },
+  "composer_gaps": {
+    "g1_algebra_loop_the_loop": [],
+    "g1_algebra_balance_stories": [
+      {
+        "image_id": "M3_SORT_CARD",
+        "theme": "algebra",
+        "suggested_template": "compose_sorting_boxes"
+      },
+      {
+        "image_id": "M10_POSTER",
+        "theme": "algebra",
+        "suggested_template": "compose_anchor_poster (need to author)"
+      },
+      {
+        "image_id": "M7_TARGET_CARD",
+        "theme": "algebra",
+        "needs": "content trim (numbers >50)"
+      }
+    ],
+    "k_data_detectives": [],
+    "k_measurement_bigger_smaller": [],
+    "k_number_coin_counters": [],
+    "k_number_counting_crew": [],
+    "k_spatial_shape_safari": []
+  },
+  "lesson_lifts_applied": {
+    "g1_algebra_loop_the_loop": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "bers_nrc_citation",
+          "branched_recovery_3way",
+          "coda_refrain",
+          "strategy_compare",
+          "worksheet_transfer_note"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "sorva_pea_citation",
+          "branched_recovery_3way",
+          "looper_refrain",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "battista_clements_citation",
+          "branched_recovery_3way",
+          "coda_refrain_continued",
+          "day_callback",
+          "strategy_compare",
+          "worksheet_transfer_note"
+        ]
+      }
+    ],
+    "g1_algebra_balance_stories": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "carpenter_levi_citation",
+          "branched_recovery_3way",
+          "bella_refrain",
+          "strategy_compare",
+          "worksheet_transfer_note"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "falkner_levi_carpenter_citation",
+          "branched_recovery_3way",
+          "bella_refrain",
+          "duration_tighten",
+          "no_materials_path",
+          "day_callback",
+          "strategy_compare",
+          "cgi_citation"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "falkner_carpenter_franke_citation",
+          "branched_recovery_3way",
+          "bella_refrain",
+          "no_prep_finger",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "kieran_carpenter_franke_citation",
+          "branched_recovery_3way",
+          "bella_bobby_refrain",
+          "duration_tighten",
+          "no_paper_oral",
+          "worksheet_part5_transfer"
+        ]
+      }
+    ],
+    "g1_algebra_real_life_modelling": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "english_lesh_doerr_citation",
+          "branched_recovery_3way",
+          "maple_refrain",
+          "no_materials_path",
+          "strategy_compare",
+          "day_2_bridge"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "english_cgi_citation",
+          "branched_recovery_3way",
+          "sap_sam_refrain",
+          "invent_compare"
+        ]
+      }
+    ],
+    "g1_data_likelihood": [
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "fischbein_jones_citation",
+          "branched_recovery_3way",
+          "mae_call_response_refrain",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "konold_fischbein_citation",
+          "branched_recovery_3way",
+          "lucky_mae_refrain",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "konold_pollatsek_citation",
+          "branched_recovery_3way",
+          "mae_variability_refrain",
+          "strategy_compare"
+        ]
+      }
+    ],
+    "g1_financial_classroom_market": [
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "mix_levine_cgi_citation",
+          "branched_recovery_3way",
+          "penny_cassie_refrain",
+          "invent_compare_3ways"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "DEEP_REWRITE_value_pivot",
+          "mix_sandhofer_resnick_citation",
+          "front_digit_misconception_named",
+          "compose_two_ways",
+          "value_first_action_steps",
+          "penny_refrain",
+          "day4_bridge"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "steffe_cobb_sowder_citation",
+          "branched_recovery_3way",
+          "penny_cassie_refrain",
+          "strategy_share_out",
+          "worksheet_transfer_flag"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "empson_cgi_citation",
+          "branched_recovery_3way",
+          "penny_cassie_refrain",
+          "strategy_compare_equivalent_value",
+          "worksheet_station_part_mapping"
+        ]
+      },
+      {
+        "worksheet_n": 3,
+        "lifts": [
+          "DEEP_REWRITE_value_anchored",
+          "read_whole_numeral",
+          "compose_two_ways",
+          "transfer_compare_probe"
+        ]
+      }
+    ],
+    "g1_measurement_how_long": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "sarama_clements_citation",
+          "branched_recovery_3way",
+          "roo_unit_refrain",
+          "strategy_compare_attribute_naming",
+          "day2_bridge"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "DEEP_REWRITE_transitivity_gap",
+          "sarama_clements_piaget_citation",
+          "attribute_confusion_named",
+          "conceptual_action_steps",
+          "roo_cal_refrain",
+          "no_prep_path"
+        ]
+      }
+    ],
+    "g1_number_adding_machine": [],
+    "g1_number_friends": [
+      {
+        "unit_level": true,
+        "lifts": [
+          "scoot_threaded_5_lessons",
+          "capstone_4_stations_d1_d4_recap",
+          "cert_trim_to_6_skills",
+          "manipulative_prep_step_polish"
+        ]
+      }
+    ],
+    "g1_spatial_mapping": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "sarama_clements_piaget_citation",
+          "branched_recovery_3way",
+          "tig_three_step_refrain",
+          "invent_compare",
+          "day2_bridge"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "battista_clements_sarama_citation",
+          "branched_recovery_3way",
+          "tig_refrain",
+          "no_materials_fist_cubes",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "DEEP_REWRITE_egocentric_spatial",
+          "clements_sarama_piaget_citation",
+          "branched_recovery_3way",
+          "tig_coco_refrain",
+          "d1_d4_station_recap_step1",
+          "no_paper_path",
+          "strategy_compare",
+          "arc_bridges"
+        ]
+      },
+      {
+        "worksheet_n": 5,
+        "lifts": [
+          "WORKSHEET_EXTEND_parts4_5",
+          "build_2d_shapes_inside",
+          "locate_position_sentences"
+        ]
+      }
+    ],
+    "g2_algebra_if_then_detectives": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "bers_kazakoff_citation",
+          "branched_recovery_3way",
+          "inspector_if_refrain",
+          "strategy_compare",
+          "day2_bridge",
+          "ws1_transfer_flag"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "lister_2011_citation",
+          "branched_recovery_3way",
+          "day4_refrain",
+          "invent_compare_two_alterations",
+          "ws4_transfer_flag"
+        ]
+      }
+    ],
+    "g2_algebra_real_life_modelling": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "english_lesh_doerr_citation",
+          "branched_recovery_3way",
+          "mira_refrain",
+          "compare_refine",
+          "ws1_transfer_probe"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "cgi_lehrer_schauble_citation",
+          "branched_recovery_3way",
+          "mira_data_refrain",
+          "no_materials_path",
+          "strategy_compare",
+          "ws2_visual_cluster"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "thompson_saldanha_cgi_citation",
+          "branched_recovery_3way",
+          "mira_per_refrain"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "DEEP_REWRITE_data_decoration",
+          "lehrer_schauble_2002_citation",
+          "branched_recovery_3way",
+          "mira_capstone_refrain",
+          "no_paper_path",
+          "ws5_modellers_switch_transfer"
+        ]
+      }
+    ],
+    "g2_algebra_whats_missing": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "kieran_knuth_citation",
+          "branched_recovery_3way",
+          "dee_refrain",
+          "no_prep_fist_path",
+          "invent_compare",
+          "ws1_match_without_solve"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "behr_carpenter_citation",
+          "day1_callback",
+          "dee_signature",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "cgi_citation",
+          "branched_recovery_3way",
+          "dee_refrain",
+          "no_materials_finger",
+          "invent_compare",
+          "ws3_title_trim"
+        ]
+      }
+    ],
+    "g2_data_detectives": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "inhelder_piaget_english_citation",
+          "branched_recovery_3way",
+          "dot_4_zone_refrain",
+          "strategy_compare",
+          "day2_bridge"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "inhelder_piaget_english_citation",
+          "branched_recovery_3way",
+          "dot_tally_table_refrain",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "friel_curcio_bright_citation",
+          "branched_recovery_3way",
+          "dot_bar_graph_refrain",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "konold_higgins_citation",
+          "branched_recovery_3way",
+          "dot_mode_refrain",
+          "strategy_compare"
+        ]
+      }
+    ],
+    "g2_data_what_could_happen": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "fischbein_jones_citation",
+          "branched_recovery_3way",
+          "lucky_refrain",
+          "strategy_compare",
+          "ws1_disagree_transfer"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "konold_citation",
+          "branched_recovery_3way",
+          "mae_complement_refrain",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "fischbein_bryant_nunes_citation",
+          "branched_recovery_3way",
+          "lucky_spinner_refrain",
+          "no_paper_clock_spin",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "kahneman_tversky_konold_citation",
+          "branched_recovery_3way",
+          "mae_fresh_die_refrain",
+          "no_paper_finger_dice",
+          "strategy_compare",
+          "day5_bridge"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "konold_2002_lehrer_schauble_citation",
+          "branched_recovery_3way",
+          "lucky_mae_capstone_refrain",
+          "no_paper_5_corners",
+          "compare_two_predictions"
+        ]
+      }
+    ],
+    "g2_financial_tap_to_pay": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "sowder_cgi_citation",
+          "branched_recovery_3way",
+          "tappy_lou_refrain",
+          "no_materials_fingers",
+          "invent_compare",
+          "day2_bridge"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "cgi_join_result_unknown_citation",
+          "branched_recovery_3way",
+          "lou_loonie_cheer",
+          "no_materials_dimes",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "nctm_cgi_citation",
+          "branched_recovery_3way",
+          "tappy_bills_coins_refrain",
+          "no_materials_fingers_bills",
+          "strategy_compare_prompt"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "carraher_sowder_unitizing_citation",
+          "branched_recovery_3way",
+          "tappy_hundred_refrain",
+          "no_materials_fingers_bills",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "sowder_cgi_unitizing_citation",
+          "branched_recovery_3way",
+          "tappy_lou_capstone_refrain",
+          "no_materials_finger_bills",
+          "ws5_part4_100_three_ways"
+        ]
+      }
+    ],
+    "g2_measurement_how_heavy_how_tall": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery_3way",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery_3way",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery_3way",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery_3way",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery_3way",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      }
+    ],
+    "g2_number_groups_of": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "cgi_fuson_citation",
+          "branched_recovery_3way",
+          "mae_chunk_refrain",
+          "no_paper_body",
+          "invent_compare_step1",
+          "ws1_part5_transfer"
+        ]
+      },
+      {
+        "unit_polish": true,
+        "lifts": [
+          "ws4_title_trim",
+          "cert_bullet_trim",
+          "manip_prep_step_polish"
+        ]
+      }
+    ],
+    "g2_number_place_value_detectives": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "unit_polish": true,
+        "lifts": [
+          "ws_titles_trim",
+          "cert_bullet_trim",
+          "manip_prep_polish"
+        ]
+      }
+    ],
+    "g2_spatial_mirror_mirror": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "unit_polish": true,
+        "lifts": [
+          "manip_name_trim",
+          "L1_big_idea_trim",
+          "ws5_extension"
+        ]
+      }
+    ],
+    "g3_algebra_balanced_equations": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "kuchemann_knuth_citation",
+          "branched_recovery_3way",
+          "eddy_refrain",
+          "strategy_compare",
+          "day2_bridge",
+          "ws1_transfer"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "carpenter_franke_levi_citation",
+          "branched_recovery_3way",
+          "eddy_balance_refrain",
+          "no_prep_human_balance",
+          "strategy_compare",
+          "ws2_answer_key_fix"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "kieran_citation",
+          "branched_recovery_3way",
+          "eddy_many_ways_refrain",
+          "strategy_compare",
+          "ws4_transfer"
+        ]
+      }
+    ],
+    "g3_algebra_bug_busters": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "buzz_refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "buzz_refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "buzz_refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "buzz_refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "buzz_refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      }
+    ],
+    "g3_algebra_real_life_modelling": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "english_watters_lesh_citation",
+          "branched_recovery_3way",
+          "cara_refrain",
+          "strategy_compare",
+          "ws1_title_trim"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "sarama_clements_cgi_citation",
+          "branched_recovery_3way",
+          "cara_data_refrain",
+          "no_paper_finger",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "carpenter_moser_thompson_saldanha_citation",
+          "branched_recovery_3way",
+          "cara_prediction_refrain",
+          "invent_compare"
+        ]
+      }
+    ],
+    "g3_data_detectives": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "unit_polish": true,
+        "lifts": [
+          "L5_big_idea_trim"
+        ]
+      }
+    ],
+    "g3_data_likely_unlikely": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      }
+    ],
+    "g3_financial_plan_your_party": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      }
+    ],
+    "g3_measurement_fencing_the_farm": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "unit_polish": true,
+        "lifts": [
+          "WS2_typo_fixes",
+          "WS3_part4_transfer",
+          "WS5_part4_pick_tool"
+        ]
+      }
+    ],
+    "g3_number_fraction_street": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "unit_polish": true,
+        "lifts": [
+          "unit_learning_goal_trim",
+          "cert_bullet_trim"
+        ]
+      }
+    ],
+    "g3_number_times_table_toolkit": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "unit_polish": true,
+        "lifts": [
+          "pixel_threaded_l1_l4",
+          "L5_4_station_recap",
+          "ws1_synced",
+          "ws3_part4_division"
+        ]
+      }
+    ],
+    "g3_spatial_map_it_move_it": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      }
+    ],
+    "k_coding_little_programmers": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "research_citation",
+          "branched_recovery",
+          "refrain",
+          "no_materials_path",
+          "strategy_compare"
+        ]
+      }
+    ],
+    "k_data_detectives": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "fischbein_kuchemann_grounded_sort_research",
+          "branched_recovery_3way",
+          "dot_refrain",
+          "strategy_compare",
+          "no_paper_path"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "fuson_counting_research",
+          "branched_recovery_3way",
+          "dot_refrain",
+          "strategy_compare",
+          "no_paper_path"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "friel_curcio_pictograph_research",
+          "branched_recovery_3way",
+          "dot_refrain",
+          "strategy_compare",
+          "no_paper_path"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "fischbein_konold_sarama_clements_likelihood_research",
+          "sometimes_catchall_trap",
+          "branched_recovery_3way",
+          "dot_refrain",
+          "every_day_no_day_test",
+          "no_paper_path"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "capstone_d4_likelihood_station_mirror",
+          "branched_recovery_3way",
+          "dot_refrain",
+          "strategy_compare",
+          "no_paper_path"
+        ]
+      }
+    ],
+    "k_measurement_bigger_smaller": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "piaget_1960_conservation_length_research",
+          "sarama_clements_2009",
+          "branched_recovery_3way",
+          "max_refrain",
+          "no_paper_path",
+          "duration_trim_to_35"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "smith_carey_wiser_1985_size_mass_research",
+          "sarama_clements_2009",
+          "branched_recovery_3way",
+          "max_refrain",
+          "no_paper_path",
+          "human_balance_path",
+          "duration_trim_to_35"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "piaget_1969_conservation_liquid_research",
+          "sarama_clements_2009",
+          "branched_recovery_3way",
+          "max_refrain",
+          "no_paper_path",
+          "two_way_pour",
+          "duration_trim_to_35"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "lehrer_2003_unit_iteration_research",
+          "stephan_cobb_2003",
+          "battista_2007",
+          "branched_recovery_3way",
+          "max_refrain",
+          "no_cube_no_paper_path",
+          "duration_trim_to_35"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "sarama_clements_2009_capstone_research",
+          "lehrer_2003_tool_bound",
+          "branched_recovery_3way",
+          "max_refrain",
+          "no_paper_path",
+          "attribute_first_naming",
+          "capstone_d1_d4_mirror",
+          "duration_trim_to_35"
+        ]
+      }
+    ],
+    "k_number_coin_counters": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "gelman_gallistel_1978",
+          "sarama_clements_2009",
+          "baroody_2006",
+          "branched_recovery_3way",
+          "quincy_refrain",
+          "no_paper_path",
+          "l1_minds_on_split"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "carpenter_moser_cgi_1983",
+          "resnick_1983_commutativity",
+          "baroody_2006",
+          "fuson_1992",
+          "branched_recovery_3way",
+          "penny_refrain_partners_of_5",
+          "no_paper_no_cube_finger_path",
+          "strategy_compare"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "carpenter_moser_cgi_1983_join_separate",
+          "riley_greeno_1988_schema",
+          "fuson_1992",
+          "branched_recovery_3way",
+          "penny_refrain_story_sign_count",
+          "no_paper_corner_path",
+          "strategy_compare",
+          "duration_trim_to_40"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "davis_pitkethly_1990",
+          "mulligan_mitchelmore_1997",
+          "empson_levi_2011",
+          "branched_recovery_3way"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "size_value_research",
+          "capstone_d1_d4_mirror",
+          "duration_trim_to_40"
+        ]
+      }
+    ],
+    "k_number_counting_crew": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "gelman_gallistel_1978",
+          "sarama_clements_2009",
+          "fuson_1988_cardinal_dominance",
+          "branched_recovery_3way",
+          "counting_crew_refrain",
+          "no_paper_path"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "fuson_1988_nws_levels",
+          "sarama_clements_2009",
+          "branched_recovery_3way",
+          "counting_crew_refrain",
+          "no_paper_path"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "sarama_clements_2009",
+          "fuson_1988",
+          "clay_1991",
+          "branched_recovery_3way",
+          "counting_crew_refrain",
+          "no_paper_path"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "clements_1999",
+          "sarama_clements_2009",
+          "kaufman_1949",
+          "baroody_2006",
+          "branched_recovery_3way",
+          "counting_crew_refrain",
+          "no_paper_path"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "carpenter_moser_cgi_1983",
+          "resnick_1983",
+          "sarama_clements_2009",
+          "mix_2002",
+          "no_paper_path",
+          "duration_trim_to_40"
+        ]
+      }
+    ],
+    "k_spatial_shape_safari": [
+      {
+        "lesson_n": 1,
+        "lifts": [
+          "van_hiele_1986",
+          "clements_sarama_2009",
+          "cws_2004",
+          "branched_recovery_3way",
+          "sammy_refrain",
+          "no_paper_path",
+          "duration_trim_to_35"
+        ]
+      },
+      {
+        "lesson_n": 2,
+        "lifts": [
+          "van_hiele_1986",
+          "clements_sarama_2009",
+          "lehrer_1998",
+          "branched_recovery_3way",
+          "sammy_refrain",
+          "no_paper_path",
+          "duration_trim_to_35"
+        ]
+      },
+      {
+        "lesson_n": 3,
+        "lifts": [
+          "clements_sarama_2009",
+          "levine_2012",
+          "pruden_levine_huttenlocher_2011",
+          "branched_recovery_3way",
+          "sammy_refrain",
+          "no_paper_path",
+          "duration_trim_to_35"
+        ]
+      },
+      {
+        "lesson_n": 4,
+        "lifts": [
+          "cws_2004_5level_composition",
+          "clements_sarama_2009",
+          "mulligan_mitchelmore_2009",
+          "branched_recovery_3way",
+          "sammy_refrain",
+          "no_paper_path",
+          "duration_trim_to_35"
+        ]
+      },
+      {
+        "lesson_n": 5,
+        "lifts": [
+          "cws_2004_picture_to_shape_composer",
+          "clements_sarama_2009",
+          "van_hiele_1986",
+          "branched_recovery_3way",
+          "sammy_refrain",
+          "no_paper_path",
+          "capstone_d1_d4_integration",
+          "duration_trim_to_35"
+        ]
+      }
+    ]
+  },
+  "content_phase_complete": [
+    "g1_algebra_loop_the_loop",
+    "g1_algebra_real_life_modelling",
+    "g1_data_likelihood",
+    "g1_financial_classroom_market",
+    "g1_measurement_how_long",
+    "g1_number_adding_machine",
+    "g1_number_friends",
+    "g1_spatial_mapping",
+    "g2_algebra_if_then_detectives",
+    "g2_algebra_real_life_modelling",
+    "g2_algebra_whats_missing",
+    "g2_data_detectives",
+    "g2_data_what_could_happen",
+    "g2_financial_tap_to_pay",
+    "g2_measurement_how_heavy_how_tall",
+    "g2_number_groups_of",
+    "g2_number_place_value_detectives",
+    "g2_spatial_mirror_mirror",
+    "g3_algebra_balanced_equations",
+    "g3_algebra_bug_busters",
+    "g3_algebra_real_life_modelling",
+    "g3_data_detectives",
+    "g3_data_likely_unlikely",
+    "g3_financial_plan_your_party",
+    "g3_measurement_fencing_the_farm",
+    "g3_number_fraction_street",
+    "g3_number_times_table_toolkit",
+    "g3_spatial_map_it_move_it",
+    "k_coding_little_programmers"
+  ],
+  "phase_c_blocked": [],
+  "units_complete_content_phase": [
+    "k_data_detectives",
+    "k_measurement_bigger_smaller",
+    "k_number_coin_counters",
+    "k_number_counting_crew",
+    "k_spatial_shape_safari"
+  ]
+}

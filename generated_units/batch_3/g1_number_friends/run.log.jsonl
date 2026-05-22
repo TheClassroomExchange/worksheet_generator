@@ -1,0 +1,27 @@
+{"ts": "2026-05-04T02:20:35+00:00", "stage": "blueprint", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T02:46:00+00:00", "stage": "lesson_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T02:47:42+00:00", "stage": "lesson_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T02:50:19+00:00", "stage": "lesson_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T02:51:57+00:00", "stage": "lesson_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:16:05+00:00", "stage": "lesson_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:16:58+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:18:59+00:00", "stage": "worksheet_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:19:33+00:00", "stage": "worksheet_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:20:10+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:20:52+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:44:39+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:45:45+00:00", "stage": "manipulatives", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:45:45+00:00", "stage": "formative_reflection", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:48:48+00:00", "stage": "assessment_suite", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for AssessmentSuite\ncertificate.print_specifications\n  Field required [type=missing, input_value={'title': 'Junior Number ... illustration shows.'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing"}
+{"ts": "2026-05-04T03:49:03+00:00", "stage": "assessment_suite", "transition": "failed→pending", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:49:03+00:00", "stage": "assessment_suite", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:49:46+00:00", "stage": "marketplace", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:50:14+00:00", "stage": "marketplace", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T03:53:44+00:00", "stage": "rubric_grade", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for RubricGrade\nremediation.0\n  Input should be a valid dictionary or instance of RemediationItem [type=model_type, input_value='Extend pipeline/compose....will route to _drafts/.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type"}
+{"ts": "2026-05-04T03:53:46+00:00", "stage": "rubric_grade", "transition": "failed→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for RubricGrade\nremediation.0\n  Input should be a valid dictionary or instance of RemediationItem [type=model_type, input_value='Extend pipeline/compose....will route to _drafts/.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/model_type"}
+{"ts": "2026-05-04T03:53:58+00:00", "stage": "rubric_grade", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-11T17:53:51+00:00", "stage": "pair_01_gate", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-15T23:41:41+00:00", "stage": "pair_01_gate", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-15T23:43:08+00:00", "stage": "pair_01_gate", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-15T23:44:05+00:00", "stage": "pair_02_gate", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-15T23:44:32+00:00", "stage": "pair_02_gate", "transition": "in_progress→done", "attempt": 1, "error": null}

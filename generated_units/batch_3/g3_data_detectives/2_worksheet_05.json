@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "lesson_number": 5,
+  "worksheet_title": "Detective Dot's Big Case",
+  "purpose": "Summative artifact applying D1.1-D1.5.",
+  "student_learning_goal": "I can analyse data and write a conclusion using mean and mode.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can analyse data and write a conclusion using mean and mode.",
+    "character_watermark": "Detective Dot and Tally with detective hats in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Frequency table.",
+          "student_instructions": "Build a frequency table from the survey data.",
+          "visual_layout": "Survey data + blank table.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_TABLE",
+              "description": "Survey data + blank frequency table for Grade 3 capstone. Data: 8 student responses to 'favourite recess activity' (e.g., 3 hockey, 2 soccer, 2 tag, 1 hopscotch).",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "frequency",
+                "table"
+              ],
+              "text_image_alignment_check": "WS05_P1_TABLE at Part 1: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Table: hockey 3, soccer 2, tag 2, hopscotch 1."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Scaled bar + mean + mode.",
+          "student_instructions": "Build a bar graph (1 unit = 2). Calculate mean and mode of the data.",
+          "visual_layout": "Blank scaled grid + mean and mode lines.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_GRAPH",
+              "description": "Blank scaled bar grid + mean/mode lines for Grade 3 capstone. Y-axis 0, 2, 4, 6 (scale 2). Below: 'Mean: ___' and 'Mode: ___' lines.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "bar",
+                "mean",
+                "mode"
+              ],
+              "text_image_alignment_check": "WS05_P2_GRAPH at Part 2: keywords name the activities."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Bars at 1.5, 1, 1, 0.5 units (× 2 = 3, 2, 2, 1). Mean: 8÷4 = 2. Mode: hockey OR none."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Conclusion.",
+          "student_instructions": "Write a conclusion using BOTH mean and mode.",
+          "visual_layout": "A bordered writing box ~5in × 1.5in.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_CONCLUSION",
+              "description": "A bordered writing box for Grade 3 capstone, ~5in × 1.5in. Above: 'My conclusion (use mean AND mode):'. Below: sentence-frame reminder 'The mode is ___. The mean is ___.'",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "conclusion",
+                "mean",
+                "mode"
+              ],
+              "text_image_alignment_check": "WS05_P3_CONCLUSION at Part 3: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Conclusion using both mean and mode. Sample: 'The mode is hockey. The mean is 2 children per category.'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a comparison: 'X is greater than Y by ___.'",
+  "teacher_notes": "Lesson 5 capstone. Score against rubric. Look for: frequency table (D1.2), scaled graph (D1.3), correct mean and mode (D1.4), conclusion using both (D1.5). Worksheet Parts mirror the 5-station capstone (sort tree, frequency table, bar graph, mean/mode, conclusion). Tune Part 2 data so each bar lands on a whole many-to-one mark (counts 4, 6, 2, 4 with scale 1 unit = 2)."
+}

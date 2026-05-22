@@ -1,0 +1,481 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "assets": [
+    {
+      "asset_id": "M1_likelihood_chart",
+      "name": "Likelihood Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart of impossible/possible/certain. Used in Lessons 1, 2, 5.",
+      "page_layout": "One letter page, portrait. Three vertical sections.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_LIKELIHOOD",
+          "description": "A portrait likelihood anchor chart for a Grade 2 classroom, B&W line art. Three sections: IMPOSSIBLE (red border, examples: pig fly, snow July), POSSIBLE (yellow border, examples: rain, smile), CERTAIN (green border, examples: sun rises, lunch).",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "likelihood",
+            "chart"
+          ],
+          "text_image_alignment_check": "M1_LIKELIHOOD: keywords name the artifact."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape to front wall before Lesson 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_complement_cards",
+      "name": "Complement Cards",
+      "category": "manipulative",
+      "purpose": "Set of 12 paired cards showing complementary events. Used in Lessons 2 and 5.",
+      "page_layout": "One letter page, portrait. 12 cards in 3x4 grid (6 pairs).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_COMPLEMENTS",
+          "description": "A 3x4 grid of 12 complement cards for a Grade 2 manipulative, B&W line art. 6 paired complements: Heads-Tails, Rain-No Rain, Win-Lose, Even-Odd, Day-Night, Sunny-Cloudy. Each card ~2in × 2in with a small icon.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "complement",
+            "cards"
+          ],
+          "text_image_alignment_check": "M2_COMPLEMENTS: keywords name the cards."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 12 cards per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_spinner_set",
+      "name": "Paper Spinner Set",
+      "category": "manipulative",
+      "purpose": "Set of 6 paper spinners with varied section sizes. Used in Lessons 3 and 5.",
+      "page_layout": "One letter page, portrait. 6 spinners in a 2x3 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_SPINNERS",
+          "description": "A 2x3 grid of 6 paper spinners for a Grade 2 manipulative, B&W line art. Each spinner ~3in diameter with sections drawn. Spinner 1: 3/4 red + 1/4 blue. Spinner 2: 4 equal quadrants. Spinner 3: 1/2-1/2. Spinner 4: 1/4-3/4. Spinner 5: 3 unequal sections. Spinner 6: 5 equal sections. Each has an arrow/pointer slot in the middle.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "spinner",
+            "sections"
+          ],
+          "text_image_alignment_check": "M3_SPINNERS: keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut out spinners.",
+        "Attach paper-clip pointers with brads."
+      ],
+      "estimated_prep_minutes": 30,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M4_dice_set",
+      "name": "Paper Dice Set",
+      "category": "manipulative",
+      "purpose": "Set of 6 foldable paper dice. Used in Lessons 4 and 5.",
+      "page_layout": "Two letter pages, portrait. Each holds 3 die nets.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_DICE",
+          "description": "Two pages of paper die nets for a Grade 2 manipulative, B&W line art. Each page has 3 die nets in cross pattern with 1-6 dot faces and fold lines.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "dice",
+            "nets"
+          ],
+          "text_image_alignment_check": "M4_DICE: keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 6 sets.",
+        "Cut and fold each die.",
+        "Tape tabs to assemble.",
+        "Store in labelled box per pair."
+      ],
+      "estimated_prep_minutes": 45,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_prediction_mat",
+      "name": "Prediction Recording Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat for recording predictions and outcomes. Used in Lessons 3, 4, 5.",
+      "page_layout": "One letter page, portrait. Title + 2-column 6-row table.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_PRED_MAT",
+          "description": "A portrait prediction recording mat for a Grade 2 manipulative. Title at top. 2-column 6-row table for tracking predictions and outcomes. Each cell ~2.5in × 1in.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "recording",
+            "mat"
+          ],
+          "text_image_alignment_check": "M5_PRED_MAT: instructions describe a prediction recording mat with predict and result columns for use across lessons."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 mats.",
+        "Laminate for dry-erase.",
+        "Distribute one per pair."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "10-12 mats.",
+      "used_in_lessons": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Mode Prediction Template",
+      "category": "manipulative",
+      "purpose": "Letter-size capstone template. Used in Lesson 5.",
+      "page_layout": "One letter page, portrait. 5 station sections.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE",
+          "description": "A portrait capstone template for Lesson 5, B&W line art. 5 station sections: LIKELIHOOD (4 events I/P/C), COMPLEMENT (1 pair line), SPINNER (5-row predict/result), DICE (tally + mode), SURVEY (tally + mode + cross-group prediction).",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "capstone",
+            "stations"
+          ],
+          "text_image_alignment_check": "M6_CAPSTONE: keywords name the activity."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 25 templates.",
+        "Stack near teacher table.",
+        "No lamination."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "25 templates.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_event_cards",
+      "name": "Event Cards",
+      "category": "manipulative",
+      "purpose": "Set of 16 event cards for likelihood review. Used in Lessons 1, 2, 5.",
+      "page_layout": "One letter page, portrait. 16 cards in 4x4 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_EVENT_CARDS",
+          "description": "A 4x4 grid of 16 event cards for a Grade 2 manipulative, B&W line art. Mix of impossible (pigs fly, snow in July), possible (rain, friend smile), and certain (sun rises, lunch) events with small icons. Each card ~2in × 1.5in.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "events",
+            "likelihood"
+          ],
+          "text_image_alignment_check": "M7_EVENT_CARDS: keywords name the cards."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 16 cards per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_complement_chart",
+      "name": "Complementary Events Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart explaining complementary events. Posted in Lessons 2 and 5.",
+      "page_layout": "One letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_COMPLEMENTS",
+          "description": "A portrait complementary events chart for a Grade 2 classroom. Title 'Complementary Events'. Definition: 'When ONE happens, the OTHER doesn't.' 4 example pairs with icons.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "complementary",
+            "events"
+          ],
+          "text_image_alignment_check": "M8_COMPLEMENTS: keywords name the chart's content."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape next to likelihood chart."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_outcome_cards",
+      "name": "Outcome Cards",
+      "category": "manipulative",
+      "purpose": "Set of 12 outcome icons (heads/tails, sun/rain). Used in Lessons 3, 4, 5.",
+      "page_layout": "One letter page, portrait. 12 cards in 3x4 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_OUTCOMES",
+          "description": "A 3x4 grid of 12 outcome cards for a Grade 2 manipulative, B&W line art. Each card ~2in × 2in with an icon. Cards: HEADS, TAILS, RED, BLUE, GREEN, YELLOW, SUN, RAIN, NUMBER 1, NUMBER 2, NUMBER 3, NUMBER 4.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "outcomes",
+            "cards"
+          ],
+          "text_image_alignment_check": "M9_OUTCOMES: instructions describe 12 outcome cards used in lessons 3, 4, 5. Keywords name the visual elements (outcomes, cards)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 12 cards per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_unit_poster",
+      "name": "What Could Happen? Poster",
+      "category": "manipulative",
+      "purpose": "Anchor poster of Lucky and Mae. Posted for the entire unit.",
+      "page_layout": "One letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "A landscape unit anchor poster for a Grade 2 likelihood classroom, B&W line art. Header: 'What Could Happen?' Centre-left: Lucky Lou the Loon. Centre-right: Maybe Mae the Cat. Around them: small icons for likelihood, complement pair, spinner, dice, mode.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "lucky",
+            "mae",
+            "poster"
+          ],
+          "text_image_alignment_check": "M10_POSTER: keywords name the characters and artifact."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on letter or 11x17.",
+        "Laminate.",
+        "Tape to front wall on Day 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_lucky_puppet",
+      "name": "Lucky Lou Puppet",
+      "category": "character_puppet",
+      "purpose": "Paper puppet of Lucky for teacher use in all 5 lessons.",
+      "page_layout": "One letter page, portrait. ~7in tall.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_LUCKY_FRONT",
+          "description": "A full-body cutout of Lucky Lou the Loon for a Grade 2 teacher puppet, B&W line art, ~7in tall. Lucky has a tiny detective hat, holding magnifying glass over a coin or die. Tab at the bottom for popsicle stick.",
+          "placement": "Centred, fills the page vertically.",
+          "approximate_size": "large",
+          "keywords": [
+            "lucky"
+          ],
+          "text_image_alignment_check": "CHAR_LUCKY_FRONT: keyword names the character."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Cut around silhouette + tab.",
+        "Laminate.",
+        "Glue popsicle stick."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_maybe_puppet",
+      "name": "Maybe Mae Puppet",
+      "category": "character_puppet",
+      "purpose": "Paper puppet of Mae for teacher use in Lessons 2-5.",
+      "page_layout": "One letter page, portrait. ~6in tall.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_MAYBE_FRONT",
+          "description": "A full-body cutout of Maybe Mae the Cat for a Grade 2 teacher puppet, B&W line art, ~6in tall. Mae has a question-mark patch on her vest, holding a clipboard. Tab at the bottom.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "mae",
+            "maybe"
+          ],
+          "text_image_alignment_check": "CHAR_MAYBE_FRONT: keywords name the character."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Cut around silhouette + tab.",
+        "Laminate.",
+        "Glue popsicle stick."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "overall_prep_notes": "Total prep time ~3 hours one-time before unit launch (laminating + cutting + assembling spinners and dice). Storage: keep all pair sets in labelled zip-top bags. Set up all anchor charts and the unit poster on Day 1."
+}

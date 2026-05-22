@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title='When the child confuses PERIMETER with AREA — repairing the around-vs-inside trap at Grade 3' references area but never explicitly bridges to Lesson 2 (Compare Areas) which begins immediately after; no 'tomorrow Roo will...' or back-reference forward in lesson_01.",
+      "required_fix": "Add a one-line forward bridge near the end of consolidation or in expanded_walkthrough that explicitly tees up Lesson 2: e.g., 'Roo says: TOMORROW we measure AREA — the SPACE INSIDE. Today the FENCE went AROUND. Tomorrow the FIELD fills IN.' Make the perimeter↔area contrast across days an explicit teacher line.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves=['Trace edge with finger.', 'Drill around the edge.', 'Compare with area definition.'] — concrete but flat; no diagnostic-driven branching, and no named research grounding the perimeter-vs-area confusion as a documented G3 misconception.",
+      "required_fix": "Cite Lehrer (2003) or Battista's spatial-reasoning work on length-vs-area confusion, then branch recovery_moves: if the child counts inside squares, route to edge-tracing + 'fence-walk' kinesthetic; if the child counts SIDES (not lengths), route to ruler measurement of one side and additive sum. Two diagnostic-conditioned branches, named in the walkthrough.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine='Each child shares ONE: I measured ___ with perimeter ___ cm.' — a fill-in frame, not a memorable chant; Roo's 'Roo says — pick the right unit!' appears multiple times but is not a distinctive quotable refrain children would carry between lessons.",
+      "required_fix": "Give Roo a short signature chant tied to perimeter that the class echoes at consolidation and that returns in Lessons 2-5 — e.g., 'AROUND, AROUND, add it all UP! That's perimeter — fill the cup!' or 'Hop the edge, hop the edge, ADD them up — Roo's perimeter pledge!' Drop it into minds_on once and consolidation as the closer; children chant back.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "action.steps[4]='Help with addition strategy — column or in-pairs. Show: add pairs first.' — teacher hands the strategy to children; no invitation for children to invent or compare addition strategies for summing 3-4 sides, and no research-grounded naming of the misconception (perimeter-as-area or count-of-sides rather than sum-of-lengths).",
+      "required_fix": "Add an invent-and-compare moment to action: 'Pairs find perimeter of the hexagon (6 sides of 2 cm) ANY way. Share two ways.' Elicit at least 2: repeated addition, doubles, or 6x2. Name in expanded_walkthrough that this is Carpenter & Moser's count-all to count-on to known-fact progression.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 is solidly Achieving but does not clear the strict bar (4 categories at 3). Lesson is well-structured with optional puppet, realistic timing, faithful worksheet mapping, and a real perimeter-vs-area trap. To pass: add an explicit Lesson 2 bridge, cite research and branch recovery_moves on the perimeter-vs-area trap, give Roo a signature chant for the exit, and let children invent/compare addition strategies for summing sides."
+}

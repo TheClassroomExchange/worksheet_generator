@@ -1,0 +1,46 @@
+{
+  "pair_number": 2,
+  "unit_id": "g2_number_place_value_detectives",
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names the ones-first/biggest-digit comparison fallacy as the trap and gives concrete branching recovery (build with blocks, then if entrenched drop back to two-digit pairs 47 vs 49 / 47 vs 92), but no research citation is attached. The text says 'The most common Grade-2 trap on B1.2 (compare to 200) is the child who applies a ones-first or biggest digit comparison strategy' without naming the cognitive-science source.",
+      "required_fix": "Add a named research anchor to expanded_walkthrough.rationale for the ones-first comparison fallacy — e.g., cite Nunes & Bryant on multidigit numerical magnitude, Fuson's UDSSI place-value framework, or Resnick on positional value misconceptions. One sentence such as 'This ones-first reasoning is the canonical Grade 2 multidigit-magnitude error documented by Fuson (1990) and Nunes & Bryant — the child has not yet mapped digit POSITION to quantity VALUE.' That single citation lifts the trap from Level 3 to Level 4 without changing the activity.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials and differentiation describe an OPTIONAL puppet substitute and a movement-learner option ('Allow movement learners to physically WALK the number line, placing each card at its position'), but neither the action steps nor the differentiation block offers an explicit NO-PAPER, NO-PURCHASE alternative path that runs the lesson with only voice/body/gesture for days when base-ten blocks, decomposition cards, and compare cards aren't pre-prepped.",
+      "required_fix": "Add a 'no-materials version' to differentiation (alongside for_movement_learners) that runs the whole lesson with body-and-voice only — e.g., 'No-materials version: children form HUNDREDS, TENS, ONES with their bodies. Hundreds = arms wide overhead in a circle, tens = arms straight out, ones = fingers up. To decompose 147, the class shows 1 wide circle, 4 stretched arms, 7 fingers — then trades one arm-stretch for 10 finger-flashes to show 1 wide circle, 3 arms, 17 fingers. To compare 89 vs 102, two children embody each number; the one with the wide-arm circle wins.' That single addition makes Lesson 2 runnable on a no-prep day and clears Level 4.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is clean (compose/decompose as same-value, three flexible splits of 147, hundreds-first comparison grounded in base-ten quantity), and children invent multiple decompositions (which approaches the 'invent or refine a strategy' criterion). However the expanded_walkthrough describes the ones-first misconception in plain language only — no named research-grounded framework. The Level 4 descriptor specifically asks for 'the misconception in research-grounded terms (Carpenter & Moser CGI types, Empson on fractions, Battista on spatial reasoning, etc.)'.",
+      "required_fix": "In expanded_walkthrough.rationale (or common_misconceptions), name the misconception in formal terms — e.g., 'This is Fuson's UDSSI Stage 2 (concatenated single-digit conception): the child treats 102 as the digits 1-0-2 read separately rather than as one hundred plus two ones. Children at this stage compare by digit-magnitude rather than position-value. Repair pulls them to UDSSI Stage 3 (sequence-tens-and-ones) by making the hundred-flat physically larger than 89 ones-cubes.' The same citation can serve both pedagogical_depth and mathematical_authenticity if it names Fuson's framework explicitly.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Strong pair overall — alignment, clarity_voice, and lesson_worksheet_consistency are clear Level 4. Worksheet is excellent: Part 1 mirrors Station A targets exactly (89/132/178), Part 2 includes the canonical 89-vs-102 trap row plus two transfer pairs (99 vs 100, 156 vs 165), Part 3 reuses the exact Station C set (67, 134, 89, 178, 145), and the early-finisher stretches to FIVE decompositions (transfer not rote repeat). The blocking issues are all in the lesson and are surgical: (1) name the research framework for the ones-first comparison misconception (Fuson UDSSI or Nunes & Bryant); (2) add an explicit no-materials body-and-voice variant to differentiation. Both fixes are additive to a single file (1_lesson_02.json) and should not require worksheet regeneration. The worksheet itself is pass-quality and should not be touched."
+}

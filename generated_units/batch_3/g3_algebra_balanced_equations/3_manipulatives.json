@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "overall_prep_notes": "Total prep ~1.5 hours. Character puppets (Eddy, Vex) print on cardstock. Card decks (M3, M4, M5) laminated. Engineer poster (M10) is the visual centerpiece.",
+  "assets": [
+    {
+      "asset_id": "M1_variable_chart",
+      "name": "Variable in Real Life Chart",
+      "category": "manipulative",
+      "purpose": "Letter-size chart with everyday variable examples.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_VAR_CHART",
+          "description": "A variable chart in B&W on landscape letter page. Examples: T=temperature, S=score, A=age, P=price, D=days. Each with sample values. Header 'Variables in Real Life'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "variable",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M1_VAR_CHART: keywords (variable, chart) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 chart per pair.",
+        "Laminate.",
+        "Hand out Lesson 1.",
+        "Reuse later.",
+        "Reference."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 per pair plus 1 anchor.",
+      "used_in_lessons": [
+        1
+      ]
+    },
+    {
+      "asset_id": "M2_balance_mat",
+      "name": "Big Balance Scale Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size balance mat for numbers up to 1000.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_BALANCE_MAT",
+          "description": "A balance mat in B&W on landscape letter page. Two big pans, central pivot, baseplate. Pans large enough for 3-digit numbers. Header 'Balance Mat'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "balance",
+            "mat"
+          ],
+          "text_image_alignment_check": "Image M2_BALANCE_MAT: keywords (balance, mat) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per pair.",
+        "Laminate.",
+        "Hand out Lesson 2.",
+        "Use dry-erase.",
+        "Reuse Lessons 3-5."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_addition_cards",
+      "name": "Addition/Subtraction",
+      "category": "manipulative",
+      "purpose": "24 cards for sorting equivalent vs not.",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_ADD_CARD",
+          "description": "An add/sub card in B&W line-art, ~3in x 4in. Each shows a pair of expressions to compare. Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "addition",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M3_ADD_CARD: keywords (addition, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort by difficulty.",
+        "Distribute Lesson 2."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M4_multiplication_cards",
+      "name": "Multiplication/Division",
+      "category": "manipulative",
+      "purpose": "24 cards for sorting equivalent vs not.",
+      "page_layout": "4 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_MULT_CARD",
+          "description": "A mult/div card in B&W line-art, ~3in x 4in. Each shows a pair of expressions across operations. Cut lines.",
+          "placement": "24 cards across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "multiplication",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M4_MULT_CARD: keywords (multiplication, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate.",
+        "Cut into 24 cards.",
+        "Sort by difficulty.",
+        "Distribute Lesson 3."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "24 cards.",
+      "used_in_lessons": [
+        3
+      ]
+    },
+    {
+      "asset_id": "M5_target_cards",
+      "name": "Equivalent-Target Cards",
+      "category": "manipulative",
+      "purpose": "12 target cards for the equivalent-expression hunt.",
+      "page_layout": "2 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_TARGET_CARD",
+          "description": "A target card in B&W line-art, ~3in x 4in. Each shows a target number (100, 250, 500, 750, 1000, etc.). Cut lines.",
+          "placement": "12 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "target",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M5_TARGET_CARD: keywords (target, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 12 cards.",
+        "Sort by size.",
+        "Distribute Lesson 4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "12 cards.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Balance Puzzle Capstone",
+      "category": "manipulative",
+      "purpose": "Letter-size capstone template.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE_TEMPLATE",
+          "description": "A capstone template in B&W on portrait letter page. Sections: PUZZLE, SOLUTION, EQUIVALENT, REFLECTION. Each with lines or a small box.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "capstone",
+            "template"
+          ],
+          "text_image_alignment_check": "Image M6_CAPSTONE_TEMPLATE: keywords (capstone, template) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out Lesson 5.",
+        "Children fill in.",
+        "Collect for assessment.",
+        "Display."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "category": "manipulative",
+      "purpose": "30 counters per pair.",
+      "page_layout": "Single letter page, portrait. 30 circles.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_COUNTER_SHEET",
+          "description": "A counter sheet in B&W line-art, ~7in x 9in. 30 circles arranged in 5 rows of 6. Cut lines.",
+          "placement": "Centred grid.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "counter",
+            "sheet"
+          ],
+          "text_image_alignment_check": "Image M7_COUNTER_SHEET: keywords (counter, sheet) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 sheet per pair.",
+        "Laminate.",
+        "Cut into 30 counters.",
+        "Sort into pair bags.",
+        "Distribute Lessons 2-5."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "30 per pair = 300 for class of 20.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_number_line",
+      "name": "Number Line to 1000",
+      "category": "manipulative",
+      "purpose": "Letter-size number line marked 0 to 1000 in 50s.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_NUMBER_LINE",
+          "description": "A number line in B&W on landscape letter page. Marked 0-1000 with major ticks at every 50. Header 'Number Line to 1000'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "number",
+            "line"
+          ],
+          "text_image_alignment_check": "Image M8_NUMBER_LINE: keywords (number, line) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 line per pair.",
+        "Laminate.",
+        "Hand out Lesson 2.",
+        "Reuse Lessons 3-4."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M9_equation_chart",
+      "name": "Equation Anchor Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart showing 4 operations and equivalence.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_EQUATION_CHART",
+          "description": "Equation anchor chart in B&W, ~17in x 22in. 4 quadrants: +, -, x, \u00f7. Each with an equivalence example. Header 'Equivalence Across Operations'.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "equation",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M9_EQUATION_CHART: keywords (equation, chart) name what the chart shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M10_engineer_poster",
+      "name": "Eddy the Equation Engineer",
+      "category": "manipulative",
+      "purpose": "Anchor poster of Eddy and Vex.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_ENGINEER_POSTER",
+          "description": "Engineer anchor poster in B&W, ~17in x 22in. Centre: Eddy (hard hat) and Vex (lab coat) with a balance scale and equations.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "engineer",
+            "poster"
+          ],
+          "text_image_alignment_check": "Image M10_ENGINEER_POSTER: keywords (engineer, poster) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_eddy_puppet",
+      "name": "Eddy the Equation Engineer",
+      "category": "character_puppet",
+      "purpose": "Printable Eddy illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_EDDY_FRONT",
+          "description": "Eddy illustration in B&W: a young engineer in hard hat with balance-scale clipboard and blueprints. Confident pose. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "eddy"
+          ],
+          "text_image_alignment_check": "Image CHAR_EDDY_FRONT: keywords (eddy) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_vex_puppet",
+      "name": "Vex the Variable Vet",
+      "category": "character_puppet",
+      "purpose": "Printable Vex illustration on a popsicle stick.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_VEX_FRONT",
+          "description": "Vex illustration in B&W: a young vet in lab coat with stethoscope and equation-band aid. Caring expression. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "vex"
+          ],
+          "text_image_alignment_check": "Image CHAR_VEX_FRONT: keywords (vex) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

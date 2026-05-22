@@ -1,0 +1,479 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "assets": [
+    {
+      "asset_id": "M1_venn_mat",
+      "name": "Venn Diagram Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat with 2 overlapping circles for 2-attribute sorting. Used in Lessons 1 and 5.",
+      "page_layout": "One letter page, landscape. 2 large overlapping circles centred.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_VENN",
+          "description": "A landscape Venn diagram mat for a Grade 2 manipulative, B&W line art. 2 large overlapping circles centred on the page, each ~4in diameter. Generous overlap zone in the middle. Header labels above each circle ('ATTRIBUTE 1: ___' and 'ATTRIBUTE 2: ___' for dry-erase).",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "venn",
+            "diagram"
+          ],
+          "text_image_alignment_check": "M1_VENN: instructions describe a Venn mat for lessons 1 and 5. Keywords name the visual element."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 mats.",
+        "Laminate for dry-erase.",
+        "Distribute one per pair."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10-12 mats.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_carroll_mat",
+      "name": "Carroll Diagram Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size 2x2 mat with yes/no headers. Used in Lessons 1 and 5.",
+      "page_layout": "One letter page, landscape. 2x2 grid centred.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_CARROLL",
+          "description": "A landscape Carroll diagram mat for a Grade 2 manipulative, B&W line art. 2x2 grid centred on the page. Header lines above the columns and beside the rows for dry-erase attribute labels. Each cell ~3.5in × 3in.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "carroll",
+            "diagram"
+          ],
+          "text_image_alignment_check": "M2_CARROLL: instructions describe a Carroll mat for lessons 1 and 5. Keywords name the visual element."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 mats.",
+        "Laminate.",
+        "Distribute one per pair."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10-12 mats.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_two_way_table",
+      "name": "Two-Way Tally Template",
+      "category": "manipulative",
+      "purpose": "Letter-size 2-way tally chart template. Used in Lessons 2 and 5.",
+      "page_layout": "One letter page, portrait. 2x2 table with question lines.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_TWO_WAY",
+          "description": "A portrait two-way tally template for a Grade 2 manipulative, B&W line art. Top: 'Question 1: ___' line. Below: 2x2 cells with row + column total areas. Each cell ~3in × 2in for tallying.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tally",
+            "table"
+          ],
+          "text_image_alignment_check": "M3_TWO_WAY: instructions describe a 2-way tally template for lessons 2 and 5. Keywords name the visual element."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 templates.",
+        "Laminate.",
+        "Distribute one per pair."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10-12 templates.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M4_bar_graph",
+      "name": "Bar Graph Grid",
+      "category": "manipulative",
+      "purpose": "Letter-size bar graph grid with axes. Used in Lessons 3, 4, and 5.",
+      "page_layout": "One letter page, landscape. Grid centred with axes.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_BAR_GRID",
+          "description": "A landscape bar graph grid for a Grade 2 manipulative, B&W line art. Grid centred ~7in × 5in. Y-axis with 0-10 numbered. X-axis with 5 category slots. Title line above the grid; axis labels for child to write.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "bar",
+            "graph",
+            "grid"
+          ],
+          "text_image_alignment_check": "M4_BAR_GRID: instructions describe a bar graph grid for lessons 3, 4, 5. Keywords name the visual element."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 grids.",
+        "Laminate.",
+        "Distribute one per pair."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10-12 grids.",
+      "used_in_lessons": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_data_cards",
+      "name": "Survey Data Cards",
+      "category": "manipulative",
+      "purpose": "Set of 30 paper data cards with 2 attributes each (e.g., colour + shape). Used in Lessons 1, 2, and 5.",
+      "page_layout": "Two letter pages, portrait. Each holds 15 cards in a 3x5 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_DATA_CARDS",
+          "description": "Two letter portrait pages of survey data cards for a Grade 2 manipulative, B&W line art. Each page has 15 cards in a 3x5 grid. Each card shows a small icon with 2 attributes (e.g., red square, blue triangle, etc.). 30 cards total span the colour×shape combinations. Each card ~1.5in × 1.5in.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "data",
+            "cards"
+          ],
+          "text_image_alignment_check": "M5_DATA_CARDS: instructions describe 30 data cards for lessons 1, 2, 5. Keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 30 cards per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Detective Case Template",
+      "category": "manipulative",
+      "purpose": "Letter-size capstone template with all 5 detective steps. Used in Lesson 5.",
+      "page_layout": "One letter page, portrait. 5 sections.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE",
+          "description": "A portrait capstone template for a Grade 2 worksheet, B&W line art. 5 sections stacked: ASK (question line), TALLY (2-way table 2x2), GRAPH (bar graph grid), MODE (line for mode), CONCLUDE (writing box).",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "capstone",
+            "detective"
+          ],
+          "text_image_alignment_check": "M6_CAPSTONE: instructions describe a 5-section capstone template for Lesson 5. Keywords name the activity."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 25 templates.",
+        "Stack near teacher table.",
+        "No lamination."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "25 templates.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_data_chart",
+      "name": "Data Vocabulary Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart of new G2 data vocabulary. Posted for the entire unit.",
+      "page_layout": "One letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_VOCAB",
+          "description": "A portrait data vocabulary anchor chart for a Grade 2 classroom, B&W line art. Header: 'Data Words G2'. Six rows: VENN (with 2-circle icon), CARROLL (with 2x2 grid), TWO-WAY TALLY (with table), BAR GRAPH (with bars), MODE (with star), CONCLUSION (with sentence).",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "data",
+            "vocabulary"
+          ],
+          "text_image_alignment_check": "M7_VOCAB: instructions describe a data vocab chart for all 5 lessons. Keywords name the chart's content."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape to front wall before Lesson 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_mode_chart",
+      "name": "What is Mode? Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart explaining mode with examples. Posted in Lessons 4 and 5.",
+      "page_layout": "One letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_MODE",
+          "description": "A portrait mode anchor chart for a Grade 2 classroom, B&W line art. Title: 'What is Mode?' Three example boxes: SINGLE MODE (one tallest bar), BIMODAL (two tied tallest), NO MODE (all tied). Each example has a mini bar graph.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "mode",
+            "examples"
+          ],
+          "text_image_alignment_check": "M8_MODE: instructions describe a mode chart for lessons 4 and 5. Keywords name the chart's content."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape next to vocab chart."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_question_cards",
+      "name": "Two-Question Survey Cards",
+      "category": "manipulative",
+      "purpose": "Set of 12 survey cards each with 2 questions. Used in Lessons 2 and 5.",
+      "page_layout": "One letter page, portrait. 12 cards in a 3x4 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_QUESTIONS",
+          "description": "A 3x4 grid of 12 two-question survey cards for a Grade 2 manipulative, B&W line art. Each card ~2in × 2in with two short questions and small icons. Sample pairs: 'Snack? Drink?', 'Sport? Hand?', 'Pet? Yard?', 'Hair? Eyes?', etc.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "questions",
+            "survey"
+          ],
+          "text_image_alignment_check": "M9_QUESTIONS: instructions describe 12 survey cards for lessons 2 and 5. Keywords name the cards' content."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 12 cards per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_unit_poster",
+      "name": "Data Detectives Return Poster",
+      "category": "manipulative",
+      "purpose": "Unit anchor poster of Dot and Tally with G2 detective steps. Posted for the entire unit.",
+      "page_layout": "One letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "A landscape unit anchor poster for a Grade 2 data classroom, B&W line art. Header: 'Data Detectives Return!' Centre-left: Detective Dot the Sorting Squirrel. Centre-right: Tally the Tally Cat. Around them: 5 numbered detective-step badges: 1. ASK, 2. TALLY (2-way), 3. GRAPH (bar), 4. MODE, 5. CONCLUDE.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "detective",
+            "data"
+          ],
+          "text_image_alignment_check": "M10_POSTER: instructions describe a unit anchor poster for all 5 lessons. Keywords name the unit theme."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on letter or 11x17.",
+        "Laminate.",
+        "Tape to front wall on Day 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_dot_puppet",
+      "name": "Detective Dot Puppet",
+      "category": "character_puppet",
+      "purpose": "Paper puppet of Detective Dot for teacher use in all 5 lessons.",
+      "page_layout": "One letter page, portrait. ~7in tall cutout.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_DOT_FRONT",
+          "description": "A full-body cutout of Detective Dot the Sorting Squirrel in B&W line art for a Grade 2 teacher puppet, ~7in tall. Dot is a young squirrel with a tiny detective hat, holding a magnifying glass over a 2-attribute notebook. Bushy tail. Tab at the bottom for popsicle stick.",
+          "placement": "Centred, fills the page vertically.",
+          "approximate_size": "large",
+          "keywords": [
+            "dot",
+            "detective"
+          ],
+          "text_image_alignment_check": "CHAR_DOT_FRONT: instructions describe a Detective Dot puppet. Keywords name the character (dot) and role (detective)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Cut around silhouette + tab.",
+        "Laminate.",
+        "Glue popsicle stick."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_tally_puppet",
+      "name": "Tally Puppet",
+      "category": "character_puppet",
+      "purpose": "Paper puppet of Tally for teacher use in Lessons 2-5.",
+      "page_layout": "One letter page, portrait. ~6in tall cutout.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_TALLY_FRONT",
+          "description": "A full-body cutout of Tally the Tally Cat in B&W line art for a Grade 2 teacher puppet, ~6in tall. Tally is a young cat in a striped vest, holding a 2-column tally clipboard with visible tally marks. Whiskers, bright eyes. Tab at the bottom.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "tally"
+          ],
+          "text_image_alignment_check": "CHAR_TALLY_FRONT: instructions describe a Tally puppet. Keyword names the character."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Cut around silhouette + tab.",
+        "Laminate.",
+        "Glue popsicle stick."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "overall_prep_notes": "Total prep time ~3 hours one-time before unit launch (laminating + cutting). Storage: keep all pair sets in labelled zip-top bags. Set up all anchor charts and the unit poster on Day 1."
+}

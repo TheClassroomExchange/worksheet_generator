@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "thematic_title": "Fencing the Farm — Grade 3 Measurement",
+  "descriptive_title": "Grade 3 Mathematics: Demonstrations — Perimeter, Area, Capacity, Mass, and Time (E2.1-E2.9)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "E. Spatial Sense",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-3",
+  "curriculum_codes": ["E2.1", "E2.2", "E2.3", "E2.4", "E2.5", "E2.6", "E2.7", "E2.8", "E2.9"],
+  "curriculum_expectations": {
+    "E2.1": "use appropriate units of length to estimate, measure, and compare the perimeters of polygons and curved shapes, and construct polygons with a given perimeter",
+    "E2.2": "explain the relationships between millimetres, centimetres, metres, and kilometres as metric units of length, and use benchmarks for these units to estimate lengths",
+    "E2.3": "use non-standard units appropriately to estimate, measure, and compare capacity, and explain the effect that overfilling or underfilling, and gaps between units, have on accuracy",
+    "E2.4": "compare, estimate, and measure the mass of various objects, using a pan balance and non-standard units",
+    "E2.5": "use various units of different sizes to measure the same attribute of a given item, and demonstrate that even though using different-sized units produces a different count, the size of the attribute remains the same",
+    "E2.6": "use analog and digital clocks and timers to tell time in hours, minutes, and seconds",
+    "E2.7": "compare the areas of two-dimensional shapes by matching, covering, or decomposing and recomposing the shapes, and demonstrate that different shapes can have the same area",
+    "E2.8": "use appropriate non-standard units to measure area, and explain the effect that gaps and overlaps have on accuracy",
+    "E2.9": "use square centimetres (cm2) and square metres (m2) to estimate, measure, and compare the areas of various two-dimensional shapes, including those with curved sides"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on measurement (E2.1-E2.9) framed around 'Fencing the Farm' — Roo the Ruler Rabbit and Cal the Calendar Cat help Farmer Phil. Day 1 measures PERIMETER with mm, cm, m, km benchmarks. Day 2 compares AREAS by matching and covering. Day 3 introduces SQUARE CM and SQUARE M for area. Day 4 measures CAPACITY and MASS with non-standard units, showing same-attribute different-counts. Day 5 closes with TIME (analog + digital) and a Big Farm Capstone. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will measure perimeter, area, capacity, mass, and time using appropriate units and tools.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Fence the Farm (Perimeter)", "primary_expectations": ["E2.1", "E2.2"], "secondary_expectations": [], "big_idea": "PERIMETER is the distance AROUND a shape. Measure with mm, cm, m, or km depending on size.", "student_learning_goal": "I can measure perimeter and pick the right metric unit.", "one_line_summary": "Roo fences 4 polygons; children measure perimeter and pick units."},
+    {"lesson_number": 2, "lesson_title": "Compare Areas", "primary_expectations": ["E2.7", "E2.8"], "secondary_expectations": [], "big_idea": "AREA is the SPACE INSIDE a shape. Compare by MATCHING, COVERING, or DECOMPOSING.", "student_learning_goal": "I can compare areas of shapes by matching or covering.", "one_line_summary": "Roo covers shapes with tiles; children compare 4 shape pairs."},
+    {"lesson_number": 3, "lesson_title": "Square Centimetres", "primary_expectations": ["E2.9"], "secondary_expectations": [], "big_idea": "AREA is measured in SQUARE UNITS — cm² for small, m² for big.", "student_learning_goal": "I can measure area in square centimetres and square metres.", "one_line_summary": "Roo counts cm² grids; children measure 6 shapes in cm² or m²."},
+    {"lesson_number": 4, "lesson_title": "Capacity and Mass", "primary_expectations": ["E2.3", "E2.4", "E2.5"], "secondary_expectations": [], "big_idea": "CAPACITY is HOW MUCH it holds. MASS is HOW HEAVY. Different unit sizes = different counts, same attribute.", "student_learning_goal": "I can measure capacity and mass with non-standard units.", "one_line_summary": "Cal pours and weighs; children compare cups vs scoops, big rocks vs small."},
+    {"lesson_number": 5, "lesson_title": "Time and Big Farm Capstone", "primary_expectations": ["E2.6"], "secondary_expectations": ["E2.1", "E2.2", "E2.3", "E2.4", "E2.5", "E2.7", "E2.8", "E2.9"], "big_idea": "TELL TIME in hours, minutes, seconds. Use the right TOOL for each job.", "student_learning_goal": "I can tell time and pick the right measurement tool.", "one_line_summary": "Children rotate 4 stations: perimeter, area, capacity/mass, time."}
+  ],
+  "expectation_lesson_map": {"E2.1": [1, 5], "E2.2": [1, 5], "E2.3": [4, 5], "E2.4": [4, 5], "E2.5": [4, 5], "E2.6": [5], "E2.7": [2, 5], "E2.8": [2, 5], "E2.9": [3, 5]},
+  "recurring_characters": [
+    {"name": "Roo the Ruler Rabbit", "role": "Lead character. Same Roo from G1/G2 measurement; now adds perimeter and area. Anchors all 5 lessons.", "visual_description": "A young rabbit with long ears, holding a colourful ruler and measuring tape."},
+    {"name": "Cal the Calendar Cat", "role": "Roo's partner. Time + capacity character. Cameo Lessons 4-5.", "visual_description": "A small striped cat with a wall calendar over its shoulder, holding a stopwatch."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "perimeter", "child_friendly_definition": "The distance AROUND a shape. Add up all sides."},
+    {"term": "area", "child_friendly_definition": "The SPACE INSIDE a shape. Cover it with squares."},
+    {"term": "millimetre", "child_friendly_definition": "Tiny unit. 1 mm = a pinhead. 10 mm = 1 cm."},
+    {"term": "kilometre", "child_friendly_definition": "Big unit. 1 km = 1000 m. About 12 minutes walking."},
+    {"term": "capacity", "child_friendly_definition": "How much a container HOLDS."},
+    {"term": "mass", "child_friendly_definition": "How HEAVY something is."},
+    {"term": "square centimetre", "child_friendly_definition": "1 cm × 1 cm square. Used for small areas."},
+    {"term": "square metre", "child_friendly_definition": "1 m × 1 m square. Used for big areas."},
+    {"term": "second", "child_friendly_definition": "A very short time. 1 second = 'one Mississippi'."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_polygon_set", "name": "Polygon Cards Set", "description": "12 paper polygons (rectangles, triangles, hexagons) with side lengths.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M2_unit_chart", "name": "Metric Unit Chart", "description": "Anchor chart with mm, cm, m, km benchmarks.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M3_tile_set", "name": "Square Tiles Set", "description": "60 paper square tiles (1 cm² each).", "used_in_lessons": [2, 3, 5], "clipart_files": []},
+    {"id": "M4_balance_card", "name": "Pan Balance Cards", "description": "12 paper pan balance cards with weighable items.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M5_clock_set", "name": "Analog and Digital Clock Cards", "description": "16 clock cards mixing analog and digital displays.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Big Farm Template", "description": "Letter-size capstone with 4 station response areas.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_measurement_chart", "name": "G3 Measurement Vocabulary Chart", "description": "Anchor chart with 9 G3 measurement words.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_capacity_set", "name": "Capacity Cup Cards", "description": "20 paper container cards with cup/scoop unit counts.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M9_grid_paper", "name": "Cm2 Grid Paper", "description": "Letter-size grid paper with 1 cm × 1 cm squares.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Fencing the Farm Poster", "description": "Anchor poster of Roo and Cal at a farm with measurement tools.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["Polygon Cards (12)", "Metric Unit Chart", "Square Tiles (60)", "Pan Balance Cards (12)", "Clock Cards (16)", "Big Farm Template (per child)", "Measurement Vocabulary Chart", "Capacity Cup Cards (20)", "Cm2 Grid Paper", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 perimeter snapshot.", "formative": "Lesson 2 area tracker; Lesson 3 cm² tracker; Lesson 4 capacity/mass tracker.", "summative": "Lesson 5 Big Farm capstone."},
+  "pedagogical_notes": [
+    "Grade 3 expands G2 measurement to perimeter, area, capacity, mass, and time.",
+    "9 expectations packed into 5 days — focus on big ideas, not mastery of all.",
+    "Perimeter = around. Area = inside. Use both terms explicitly.",
+    "Same-attribute different-counts is core to E2.5 — drive it home with cup vs scoop.",
+    "Time uses BOTH analog and digital — show both forms."
+  ],
+  "canadian_context_notes": [
+    "Canadian farm context: Ontario dairy farm.",
+    "Hockey rink area as ~1500 m² benchmark.",
+    "Tim Hortons cup volume for capacity.",
+    "Loonie mass (~7 g) as benchmark.",
+    "School yard perimeter for km estimation."
+  ]
+}

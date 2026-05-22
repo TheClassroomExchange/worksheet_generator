@@ -1,0 +1,48 @@
+{
+  "pair_number": 2,
+  "unit_id": "g3_number_times_table_toolkit",
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale identifies a real Grade-3 trap ('knows 5 × 8 = 40 but cannot solve 40 ÷ 5') and recovery_moves do branch ('If the child STILL separates the operations: practice with smaller fact triangles first'), but no named research is cited. Level 4 requires the trap to align with named research (e.g., Carpenter & Moser CGI partition vs. measurement division types, Anghileri 2001 on division-as-inverse, or Baroody 1999 on fact-family relational understanding).",
+      "required_fix": "In expanded_walkthrough.rationale (or common_misconceptions), name the research that grounds the trap. For example: 'This is the partition-vs-measurement-division separation documented in Carpenter, Fennema & Franke (Cognitively Guided Instruction, 1996) — children who treat 40 ÷ 5 as a fresh problem are operating in measurement mode without the multiplicative-inverse insight that Baroody (1999) calls relational fact knowledge.' Then explicitly tag each recovery_move to the diagnostic ('If the child re-counts by 5s → measurement mode → use the array to flip to partition; if the child says I don't know → no inverse retrieval → drill known-fact-pair pairing daily').",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Materials are everyday/optional (puppet flagged OPTIONAL with substitutes; counters, array grid, fact triangle deck of 30 cards, multiplication chart). Time 12/25/13 = 50 min is realistic for G3. The for_movement_learners differentiation gestures at body-skip-counting but the lesson does not offer a full no-paper, no-purchase alternative path. Level 4 requires an explicit voice/body/gesture-only version a teacher can run on a no-prep day.",
+      "required_fix": "Add a NO-MATERIALS alternative to the action.differentiation (or a new lesson_specific_materials note): e.g., 'No-paper version — the teacher calls a fact triangle aloud (e.g., 4, 5, 20). Children form a human array on the carpet (4 children stand in a row of 5). Partner pairs chant all 4 facts in unison: 4 × 5 = 20, 5 × 4 = 20, 20 ÷ 5 = 4, 20 ÷ 4 = 5. Voice and body replace counters, grids, and triangle cards entirely.' Make explicit that the lesson is runnable without prep.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (array → commutativity via rotation → inverse via 'go BACKWARDS in the array') and manipulatives carry meaning. Vocabulary (factor, product, fact family) is precise. Children compare strategies somewhat (Station C pattern hunt; Step-4 'Why does 5 × 4 = 4 × 5?'). However, the expanded_walkthrough does NOT name the misconception in research-grounded terms — Level 4 explicitly asks for named frames like Carpenter & Moser CGI types, Anghileri on division strategies, or Empson on multiplicative reasoning. Strategy invention is also thin — children mostly receive the inverse insight rather than constructing it.",
+      "required_fix": "Two additions. (1) In common_misconceptions, name the research frame: 'The multiplication-division separation is what Carpenter, Fennema & Franke (CGI, 1999) classify as failing to coordinate measurement and partitive division models — the array makes both visible at once.' (2) In action.steps, add a strategy-invention beat: 'Step 2.5: Pose 35 ÷ 5 to a pair WITHOUT prior multiplication. Pair must invent a strategy (skip-count by 5, repeated subtraction, or recall 5 × 7 = 35). Compare strategies on the board and label which is fastest.' This satisfies the L4 invent-and-compare requirement and grounds the misconception in named research.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Worksheet 02 is strong (Level 4 on consistency — Part 3 deliberately reverses direction division→multiplication as a transfer task; doubles edge-case 5×5=25 mirrors the lesson's expanded_walkthrough common_misconceptions). Maya's refrain 'if you know ONE, you know FOUR' is a memorable quotable hook (Level 4 on clarity_voice). Alignment is excellent — both B2.2 and B2.1 are surfaced explicitly with named activities and the worksheet practises every success criterion. The three blocking issues all sit in the lesson stage: (a) pedagogical_depth needs a named research citation for the inverse-separation trap plus diagnostic-driven branching tags, (b) instructional_balance needs an explicit no-paper voice/body alternative for prep-less days, (c) mathematical_authenticity needs both a named research frame and a strategy-invention beat where children compare approaches rather than receive them. Worksheet does not need changes."
+}

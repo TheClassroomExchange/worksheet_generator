@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 5,
+  "lesson_title": "My Community Modelling Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": ["C4"],
+  "secondary_expectations": [],
+  "big_idea": "We can model ANY community situation. Pick a topic, ask a question, build a model.",
+  "learning_intention": "We are learning to model a real-life community situation from our own life.",
+  "student_learning_goal": "I can model a real-life community situation from my own life.",
+  "success_criteria": [
+    "I can pick a community situation that interests me.",
+    "I can walk through the modelling cycle.",
+    "I can share my model with the class."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": ["model", "data", "predict", "reflect", "refine", "real-life situation"],
+  "manipulatives_used": ["M1_community_map", "M4_situation_cards", "M6_capstone_template", "M3_modelling_chart", "M10_community_poster"],
+  "lesson_specific_materials": [
+    "Coach Cara and Sport Sam together",
+    "Per-child Capstone Modelling Template",
+    "Community Situation Cards (12)",
+    "Lesson 5 capstone tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coach Cara's Final Showcase",
+    "hook": "Now you model YOUR community. Pick a situation. Walk through all 5 steps.",
+    "teacher_script": "Bring children to the carpet. Coach Cara + Sport Sam together. 'Friends — today you become MATHEMATICAL MODELLERS. Pick a community situation. Walk through the cycle: SITUATION, QUESTION, DATA, PREDICT, REFLECT.'\n\nShow modelling cycle chart. 'You've practiced each step. Today you do them ALL together at COMMUNITY scale.'\n\nShow examples:\n- 'Hockey rink: how many goals scored in a season? Data → predict → reflect.'\n- 'Library: how many books returned per month? Big numbers, big predictions.'\n- 'Restaurant: how many pizzas per Saturday? Predict for a year.'\n- 'School bus: how many trips per term? Data over weeks.'\n- 'Park: how many dog walkers? Trends across seasons.'\n\n'Coach Cara says — pick something from YOUR community. Walk through the 5 steps. Use big numbers. We share at the end.'",
+    "student_actions": [
+      "Look at example cases.",
+      "Brainstorm community topics.",
+      "Pick a topic.",
+      "Plan the cycle."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Capstone Modelling",
+    "structure": "individual",
+    "steps": [
+      {"step_number": 1, "instruction": "Hand out capstone templates. Children pick a community topic and walk through the modelling cycle.", "teacher_prompt": "Say: 'Use the template. Walk through ALL 5 steps. Big-scale numbers.'"},
+      {"step_number": 2, "instruction": "Children work for 12-15 minutes individually. Teacher circulates.", "teacher_prompt": "Stop at each child. Check completeness."},
+      {"step_number": 3, "instruction": "Stretch challenge: include a refinement based on data.", "teacher_prompt": "Say: 'Add a refinement step.'"},
+      {"step_number": 4, "instruction": "Gallery walk: children swap and read each other's models.", "teacher_prompt": "Say: 'Swap. Read. Tell them ONE thing you liked.'"},
+      {"step_number": 5, "instruction": "Whole-class share: 5-6 children share aloud.", "teacher_prompt": "Pick variety: rink, library, restaurant, bus, park."}
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a starter situation card.",
+      "for_extending": "Stretch: 2 refinements with multi-step rules.",
+      "for_ell_or_iep": "Provide picture-supported templates with sentence frames.",
+      "for_movement_learners": "Allow them to act out their model with classmates."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks coherent topic; walks through all 5 steps; shares with class.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Coherent topic",
+        "All 5 steps complete",
+        "Shares with class",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coach Cara's Closing Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most surprising community model you saw today?",
+      "Why do we use the modelling CYCLE?",
+      "What community situation will you model after this unit?",
+      "What's the difference between data and prediction?"
+    ],
+    "exit_routine": "Each child receives a Junior Community Modeller certificate. Whisper: 'My model was about ___'."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Full modelling cycle from a child-chosen community topic.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures C4 summative integration at community scale."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child picks a too-small topic for community scale — repairing the wrong-scale trap at Grade 3 capstone",
+    "rationale": "The most common Grade-3 trap on the capstone is the wrong-scale trap: child picks a single-day, single-classroom topic instead of a community-scale one. The model lacks the multiplication-by-time depth.\n\nThis matters because Grade-3 modelling expects scaling.\n\nThe walkthrough covers when child picks 'how many lunches in my class today'.",
+    "setup": "Child writes 'how many lunches in my class today: 24'. Teacher reads.",
+    "teacher_script": "Crouch. 'Great topic, but small scale. Coach Cara wants COMMUNITY scale. Try: how many lunches in MY SCHOOL all week? 24 kids x 5 days = 120. Or in my COMMUNITY all month? Bigger numbers.'\n\nThe child rewrites. Generalise. 'Coach Cara says — community scale means hundreds or thousands. Multiply your local count by time and population.'\n\nIf still too small: provide scaling prompts. 'My class x 5 days = ___. My school x 1 month = ___. My community x 1 season = ___.' Force the scaling.\n\nLong-term recovery: every capstone uses community-scale numbers.",
+    "expected_student_responses": [
+      "(Confused) Picks single-day, single-classroom topic.",
+      "(Mid) Scales with prompts.",
+      "(Strong) Picks community-scale topic with multi-time-span data.",
+      "(Stretched) Includes seasonal refinements."
+    ],
+    "common_misconceptions": [
+      "Small topics are easier. (Repair: scaling demonstrates Grade-3 depth.)",
+      "Big numbers are scary. (Repair: multiplication handles scale.)",
+      "I can't think of community examples. (Repair: rink, library, restaurant, park.)"
+    ],
+    "recovery_moves": [
+      "Use community situation cards.",
+      "Drill 'multiply by time and population'.",
+      "Praise community-scale ambition."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My Community Model",
+    "purpose": "Summative evidence for C4.",
+    "parts_outline": [
+      {"part_number": 1, "task": "Topic + 1-sentence community situation description.", "response_type": "draw_or_write"},
+      {"part_number": 2, "task": "Math question about the situation.", "response_type": "write"},
+      {"part_number": 3, "task": "Data collected (counts, measurements).", "response_type": "draw_or_write"},
+      {"part_number": 4, "task": "Prediction based on data (with multiplication).", "response_type": "write"},
+      {"part_number": 5, "task": "Reflection — would my model need refining?", "response_type": "draw_or_write"}
+    ],
+    "expected_image_assets": [
+      "Coach Cara and Sport Sam together in the worksheet header (final unit appearance)",
+      "Topic and situation slot for Part 1",
+      "Question slot for Part 2",
+      "Data area with table for Part 3",
+      "Prediction line for Part 4",
+      "Reflection area for Part 5"
+    ]
+  }
+}

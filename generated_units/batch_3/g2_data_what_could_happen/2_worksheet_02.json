@@ -1,0 +1,27 @@
+{
+  "schema_version": 1, "unit_id": "g2_data_what_could_happen", "lesson_number": 2,
+  "worksheet_title": "Mae's Complement Match",
+  "purpose": "Independent practice of D2.1 complementary events.",
+  "student_learning_goal": "I can name complementary events.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can name complementary events.",
+    "character_watermark": "Maybe Mae the Cat in the top-right corner with a clipboard. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Match the complement.", "student_instructions": "Draw a line from each event to its complement.",
+     "visual_layout": "Two-column matching: 5 events on left, 5 complements on right (scrambled).",
+     "image_placeholders": [{"id": "WS02_P1_MATCH", "description": "A two-column matching layout for a Grade 2 worksheet, B&W line art. Left: 5 events (HEADS, RAIN, WIN, EVEN, DAY). Right: 5 complements scrambled (NIGHT, ODD, NO RAIN, LOSE, TAILS). Wide gap for line-drawing.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["complement", "match"], "text_image_alignment_check": "WS02_P1_MATCH at Part 1: keywords name the activity."}],
+     "student_response_type": "draw_or_write", "answer_key": "Heads-Tails, Rain-No Rain, Win-Lose, Even-Odd, Day-Night."},
+    {"part_number": 2, "part_title": "Part 2: Complementary or not?", "student_instructions": "Sort 6 pairs as COMPLEMENTARY or NOT.",
+     "visual_layout": "6 pair rows with checkboxes for COMP / NOT.",
+     "image_placeholders": [{"id": "WS02_P2_SORT", "description": "Six pair rows for a Grade 2 worksheet, B&W line art. Each row has a pair (e.g., 'Hot or Cold', 'Heads or Tails', 'Big or Small', 'Even or Odd', 'Happy or Sad', 'Pass or Fail') and two checkboxes COMP / NOT.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["complementary", "sort"], "text_image_alignment_check": "WS02_P2_SORT at Part 2: keywords name the activity."}],
+     "student_response_type": "draw_or_write", "answer_key": "Hot/Cold = NOT (warm in between). Heads/Tails = COMP. Big/Small = NOT (medium in between). Even/Odd = COMP. Happy/Sad = NOT (neutral in between). Pass/Fail = COMP."},
+    {"part_number": 3, "part_title": "Part 3: Make your own.", "student_instructions": "Write 3 of your own complement pairs.",
+     "visual_layout": "Three lines: 'Either ___ or ___'.",
+     "image_placeholders": [{"id": "WS02_P3_LINES", "description": "Three lines for a Grade 2 worksheet. Each: 'Either ___ or ___'.",
+       "placement": "Centred in Part 3.", "approximate_size": "medium", "keywords": ["complement", "pairs"], "text_image_alignment_check": "WS02_P3_LINES at Part 3: keywords name the activity."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any 3 valid complement pairs."}
+  ]}],
+  "early_finisher_prompt": "If you finish, find a NOT-strictly-complementary pair and explain.",
+  "teacher_notes": "Lesson 2 consolidation. Use Part 2 for formative — children spotting non-complement pairs (warm in between)."
+}

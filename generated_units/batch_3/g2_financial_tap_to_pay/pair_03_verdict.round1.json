@@ -1,0 +1,47 @@
+{
+  "unit_id": "g2_financial_tap_to_pay",
+  "pair_number": 3,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child uses 35 LOONIES for $35 — repairing the all-coins trap at Grade 2'. Trap is concrete and recovery_moves list 3 actions, but no named research is cited and recovery_moves do NOT branch by what the diagnostic told you about the child — they are a flat list (compare 35 loonies vs $20+$10+$5; drill biggest bill first; time the count).",
+      "required_fix": "Cite the research grounding (e.g., NCTM Principles to Actions on equivalent representations, or CGI/Carpenter on part-whole composition with money) in the rationale, AND restructure recovery_moves to BRANCH by diagnostic: 'IF child can name a $20 bill on its own → drill biggest-bill-first decomposition; IF child cannot identify bill values → drop back to bill-recognition matching before reintroducing the mix; IF child mixes but loses track of total → use a running-sum number line on the record strip.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Coin + Bill Cards (1 set per pair)', 'Item Price Cards (20)', 'Lesson 3 formative tracker'. Puppets are explicitly OPTIONAL and time is 12/25/13 = 50 min, which is fine for Grade 2 — but the differentiation block ('for_emerging: Find 1 way only.', 'for_movement_learners: Walk between bill stations.') does NOT include a no-paper, no-purchase alternative path that uses only voice, body, or gesture for days when prep wasn't possible.",
+      "required_fix": "Add a no-materials variant inside differentiation, e.g.: 'No-paper version — children use FINGERS as bills (whole hand = $20 bill, one finger = $5; thumb = $10) and call out totals as a partner verifies by skip-counting aloud. Body becomes the wallet — works on any day with zero prep.' Make sure this variant still hits the same success criteria (mix bills + coins, find 3 ways, verify totals).",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.common_misconceptions = ['Coins always = simpler. (Repair: bills for big amounts.)', 'Bills only for $50+. (Repair: any big amount.)']. The conceptual progression on equivalence is clean and manipulatives carry meaning, but the lesson does NOT explicitly let children INVENT or REFINE a strategy and COMPARE strategies, and the misconception is not named in research-grounded terms (no reference to part-whole composition, additive composition, or named work like Carpenter & Moser CGI part-part-whole, Fuson on multi-unit numeration, or NCTM equivalent-representations literature).",
+      "required_fix": "In consolidation.discussion_prompts, add an explicit strategy-comparison move: 'Two pairs share their $35 combos. Which used FEWER pieces? Which started with the BIGGEST bill? Which counted-on from a bill? Are both valid? Why?' Then in expanded_walkthrough.rationale, name the misconception in research-grounded terms (e.g., 'This is a part-whole composition gap — Carpenter & Moser; children treat money as a unitary count rather than as composed values') so a substitute teacher knows the conceptual lever.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Pair 3 is close — alignment, voice, and lesson-worksheet consistency all clear at 4. The three blocking 3s all sit in the LESSON (not the worksheet): the trap recovery doesn't branch by diagnostic, there's no no-materials alternative path, and the math-authenticity bar wants children to compare strategies AND a research-grounded name for the misconception. Worksheet Part 3 (fewest pieces) is a strong transfer task — keep it. Fixes are surgical edits to expanded_walkthrough, differentiation, and consolidation.discussion_prompts in lesson_03 only."
+}

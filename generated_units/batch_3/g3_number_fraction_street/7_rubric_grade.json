@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "Drift gate clean. compose.py extension for the Fraction Street narrative is pending — deck routes to _drafts/ until added (independent of rubric quality)."
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met. All five lessons carry 4000+ char expanded_walkthrough blocks with paired misconceptions and recovery moves. Lesson 1 includes the zero-placeholder repair; Lesson 2 the cross-thousand comparison repair; Lesson 3 the wrong-place rounding repair; Lesson 4 the leftover-fraction calculation repair; Lesson 5 the additive equivalence misconception repair. Five distinct worksheet response_types. Mid-unit and end-of-unit assessments both present.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough (avg ~4500 chars each)",
+        "1_lesson_05.json::expanded_walkthrough.common_misconceptions (additive equivalence repair)",
+        "4_formative_reflection.json::formative_worksheets + reflection_sheet"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "CRA progression spans the week: concrete (base-ten blocks with thousand-cubes, paper treats, fraction strips, equivalence pizzas) → representational (place-value mats, number-line jumps, tape diagrams) → abstract (numerical comparison, mixed numbers, equivalence equations). Lesson 5 is the fractions capstone integrating B1.7 with the multiplication pattern.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::action.steps",
+        "3_manipulatives.json::assets (13 manipulatives + 3 character puppets)"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "All five lessons have substantial teacher_script (≥3000 chars), 4-band expected_student_responses, and 3 paired misconceptions. Every lesson has 'I can' student_learning_goal. Teacher scripts use embodied gestures (place-value mat anchor, number-line jump, fair-share dealing, fraction-strip stacking).",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.teacher_script",
+        "2_worksheet_01..05.json::header.student_learning_goal_banner"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "consistency_check 0 issues; verify_curriculum_text 0 issues; validate_unit_alignment 0 issues. Every B1.1-B1.7 code is cited as a primary expectation in at least one lesson; assessment_suite.summative_rubric covers all 7 codes. classroom_time_total_minutes (250) equals 5 × 50.",
+      "evidence_refs": [
+        "0_blueprint.json::curriculum_codes (B1.1-B1.7)",
+        "pipeline.image_alignment.validate_unit_alignment (0 issues)"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "Drift gate clean (placeholder_artwork_count=0). 16 assets (13 M-id manipulatives + 3 character_puppet stick-puppet variants). Marketplace long_description with 11 inclusions; suggested_price $11.99.",
+      "evidence_refs": [
+        "pipeline.rubric.pre_grade_drift_check::placeholder_artwork_count=0",
+        "3_manipulatives.json::assets (16 total)",
+        "6_marketplace.json::suggested_price_cad=11.99"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-04-loop",
+  "graded_at": "2026-05-04T05:00:00Z"
+}

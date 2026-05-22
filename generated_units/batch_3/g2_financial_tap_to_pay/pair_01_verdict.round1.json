@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_financial_tap_to_pay",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson 1 expanded_walkthrough and teacher_script never cross-reference Day 2 ('Make a Loonie') or position 50¢ as a stepping-stone to 100¢/$1. Day 1 reads as standalone — no forward bridge in consolidation or exit_routine.",
+      "required_fix": "Add an explicit forward-bridge in consolidation, e.g. teacher line: 'Tappy says — tomorrow Loonie Lou shows us 100¢, which is TWO 50¢ stacks. Hold onto your dime combos!' Also reference G1 coin-naming in minds_on so the prior-knowledge link is named, not assumed.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "minor"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a real G2 trap (more-coins-equals-more-value) and gives concrete recovery, but recovery_moves are a flat list ('Skip-count by 25s, 10s.', 'Use chart to verify.', 'Drill count value, not coins.') with no diagnostic branching and no research citation.",
+      "required_fix": "Branch recovery on diagnostic: (a) child names coin values but adds wrong — scaffold skip-counting by 25s/10s/5s; (b) child can't name a coin's value — drop back to single-coin value drill; (c) child wrote total without adding — model finger-track addition. Cite Fuson (1990) on unitizing or Carpenter & Moser CGI in the rationale.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials and the action steps assume printed Coin Cards + Record Strips. There is no explicit no-paper, no-purchase alternative path in differentiation; OPTIONAL puppet line covers character substitution but not the manipulative.",
+      "required_fix": "Add a no-paper variant under differentiation: 'No-materials version — children show 50¢ with fingers: each open hand = 25¢ (a quarter), each finger held up = 10¢ (a dime). Two open hands = 2 quarters = 50¢; five fingers = 5 dimes = 50¢. Voice + fingers replace coin cards.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson teaches equivalence conceptually but Tappy GIVES three ways before partner work, and expanded_walkthrough does not name the misconception in research-grounded terms. Level 4 wants children to invent/compare strategies and the trap framed in named research (Fuson, Carpenter & Moser).",
+      "required_fix": "After Tappy demos ONE way, ask pairs to invent their own combinations FIRST, then class compares: 'Whose combo uses the FEWEST coins? Whose uses the MOST? All 50¢?' This swaps demo-then-mimic for invent-then-compare. In rationale, name the principle (Fuson 1990 on unitizing — child has not yet treated each coin as a composed unit of value).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong character voice and tight lesson-worksheet mapping (both 4). Three blocking gaps prevent pass: depth needs branched recovery + research anchor, balance needs an explicit no-materials path, and math authenticity needs an invent-and-compare move with named research. One minor: add a forward bridge to Day 2's loonie. Fix all four in lesson_01; worksheet is fine as-is."
+}

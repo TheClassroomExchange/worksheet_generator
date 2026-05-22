@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 5,
+  "worksheet_title": "My Bug Buster Project",
+  "purpose": "Summative evidence for C3.1+C3.2.",
+  "student_learning_goal": "I can write code, plant a bug, and check my partner's fix.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can write code, plant a bug, and check my partner's fix.", "character_watermark": "Buzz and Patch together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Code", "student_instructions": "Write a 2-lane concurrent code (4-6 time-steps).", "visual_layout": "Top of page. 2-lane code area.",
+      "image_placeholders": [{"id": "WS05_P1_CODE", "description": "A 2-lane code area in B&W line-art, ~7in x 2in. Header 'Part 1: My Code'. 6-row 2-lane template.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["my", "code"], "text_image_alignment_check": "Image WS05_P1_CODE: keywords (my, code) name the area."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Must have 2 lanes and at least 4 time-steps."},
+    {"part_number": 2, "part_title": "Part 2: Plant a Bug", "student_instructions": "Plant ONE bug. Mark the expected outcome.", "visual_layout": "Upper-middle. Bug-and-expected slot.",
+      "image_placeholders": [{"id": "WS05_P2_BUG", "description": "A bug slot in B&W line-art, ~7in x 1.5in. 'My bug at step ___'. 'Expected outcome: ___'. Header 'Part 2: Plant a Bug'.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["bug"], "text_image_alignment_check": "Image WS05_P2_BUG: keywords (bug) name the slot."}],
+      "student_response_type": "write", "answer_key": "Open."},
+    {"part_number": 3, "part_title": "Part 3: Partner Fix", "student_instructions": "Swap with a partner. Find their bug. Fix it. Verify.", "visual_layout": "Lower-middle. Partner fix area.",
+      "image_placeholders": [{"id": "WS05_P3_PARTNER", "description": "A partner fix area in B&W line-art, ~7in x 1.5in. 'Partner's bug: ___'. 'My fix: ___'. 'Verified: ___'. Header 'Part 3: Partner Fix'.", "placement": "Lower-middle.", "approximate_size": "full_width", "keywords": ["partner"], "text_image_alignment_check": "Image WS05_P3_PARTNER: keywords (partner) name the area."}],
+      "student_response_type": "write", "answer_key": "Open."},
+    {"part_number": 4, "part_title": "Part 4: Reflection", "student_instructions": "Which bug type was easiest to find?", "visual_layout": "Bottom. Reflection box.",
+      "image_placeholders": [{"id": "WS05_P4_REFLECT", "description": "A reflection box in B&W line-art, ~7in x 1.5in. 'Easiest bug type: ___'. 'Why: ___'. Header 'Part 4: Reflection'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["reflection"], "text_image_alignment_check": "Image WS05_P4_REFLECT: keywords (reflection) name the box."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, plant a SECOND bug for your partner.",
+  "teacher_notes": "Lesson 5 capstone. Watch for no-bug-plant trap."
+}

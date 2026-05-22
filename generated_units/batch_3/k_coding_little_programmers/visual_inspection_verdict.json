@@ -1,0 +1,12 @@
+{
+  "unit_id": "k_coding_little_programmers",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch1",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 22, "description": "M10 unit poster shows only 2 of 5 character cells populated (Bot, Buggy); Arrows/Mat/Code Strip cells empty but labeled."},
+    {"page": 19, "description": "M7 coding vocabulary chart shows only subset of vocabulary items, but structure is clean."}
+  ],
+  "summary": "Clean rebuild. All 5 worksheets (pp.8-12) now use the new hero layout with real student instructions and ruled workspace - NO debug stubs ('Read prompt', 'Try it', etc.) visible. Rubric trims cleanly. Character art recognizable. All sections legible."
+}

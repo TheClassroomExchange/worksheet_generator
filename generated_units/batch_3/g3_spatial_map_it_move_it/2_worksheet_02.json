@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_spatial_map_it_move_it", "lesson_number": 2,
+  "worksheet_title": "Tig's Build and Break", "purpose": "Independent practice of E1.2.",
+  "student_learning_goal": "I can compose and decompose a structure into its parts.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can compose and decompose a structure into its parts.",
+    "character_watermark": "Trekker Tig the Tiger Cub in the top-right with a 3D solid basket. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Decompose 4 structures.", "student_instructions": "For 4 structure pictures, list the 3D parts you see.",
+     "visual_layout": "Four structure illustrations with a list area beside each for the named parts.",
+     "image_placeholders": [{"id": "WS02_P1_DECOMP", "description": "A Grade 3 decompose layout for geometry worksheet, B&W line art. 4 structures: tower (cube + prism + pyramid), house (rectangular prism + pyramid roof), tent (triangular prism), can (cylinder). Each with a list area for parts.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["structures", "parts"], "text_image_alignment_check": "WS02_P1_DECOMP at Part 1: keywords name the structures and parts list."}],
+     "student_response_type": "draw_or_write", "answer_key": "Tower: cube, prism, pyramid. House: prism, pyramid. Tent: prism. Can: cylinder."},
+    {"part_number": 2, "part_title": "Part 2: Compose 2 structures.", "student_instructions": "Build (or draw) 2 structures using 3 parts each. List the parts.",
+     "visual_layout": "Two empty workspace boxes and a labelled parts list ready to use.",
+     "image_placeholders": [{"id": "WS02_P2_COMP", "description": "A Grade 3 compose layout for geometry worksheet, B&W line art. 2 empty workspace boxes labelled 'My Structure 1' and 'My Structure 2'. Parts list at top: cube, prism, pyramid, cylinder, cone.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["workspace", "parts"], "text_image_alignment_check": "WS02_P2_COMP at Part 2: keywords name the workspace boxes and parts list for composing."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any valid 3-part structure with named parts."},
+    {"part_number": 3, "part_title": "Part 3: 2D inside 3D.", "student_instructions": "What 2D shapes are INSIDE one named 3D solid?",
+     "visual_layout": "A 3D shape illustration with arrows pointing to its component 2D faces.",
+     "image_placeholders": [{"id": "WS02_P3_INSIDE", "description": "A Grade 3 2D-inside-3D layout for geometry worksheet, B&W line art. 1 cube illustration with arrows pointing to a single square face. Below: 'I see ___ squares inside a cube.' Below: similar for cylinder ('___ circles + ___ rectangle').",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["faces", "shapes"], "text_image_alignment_check": "WS02_P3_INSIDE at Part 3: keywords name the 2D shapes and faces inside the 3D solid."}],
+     "student_response_type": "draw_or_write", "answer_key": "Cube = 6 squares. Cylinder = 2 circles + 1 rectangle (when unrolled)."}
+  ]}],
+  "early_finisher_prompt": "If you finish, decompose your favourite toy into 3D shapes.",
+  "teacher_notes": "Lesson 2 consolidation. Formative — check decompose naming."
+}

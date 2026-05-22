@@ -1,0 +1,48 @@
+{
+  "pair_number": 4,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Pour cups into scoops.', 'Drill same water.', 'Compare different-unit counts.'] — concrete but no diagnostic branching, and no named research citation in the walkthrough. The trap (unit-vs-attribute confusion on E2.5) is real and grade-level-specific, but the rationale text does not cite the inverse-relation/compensation research (Lehrer 2003 measurement, or Carpenter/Stigler & Hiebert on unit iteration).",
+      "required_fix": "In expanded_walkthrough.rationale, name the misconception in research-grounded terms — Lehrer's (2003) work on length/measurement units shows children treat a smaller unit count as 'more attribute' (compensation failure). Then BRANCH recovery_moves by what the diagnostic told you: (a) if child says 'more scoops = more capacity', pour the 6 cups INTO 12 scoops in front of them and re-ask; (b) if child accepts 'same water' but can't articulate why, scaffold the inverse — 'smaller unit, MORE needed; bigger unit, FEWER needed'; (c) if child can articulate it, stretch with predict-then-pour using a third unit (e.g., teaspoons).",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Pan Balance Cards (1 set per pair)', 'Capacity Cup Cards (1 set per pair)', 'Lesson 4 formative tracker' — all paper-based and runnable. Puppet is correctly OPTIONAL. BUT the differentiation block does NOT offer a no-paper, voice/body alternative path for the core capacity/mass activity; 'for_movement_learners: Pour real cups in sink area' adds materials, it doesn't remove them.",
+      "required_fix": "Add a no-paper, no-purchase alternative to differentiation (e.g., 'No-materials version: teacher voices container scenarios — \"my pail holds 6 cups OR 12 scoops, which is bigger as a unit?\" Children show with hands: BIG hands = bigger unit/fewer count, small fingers = smaller unit/more count. For mass: arms become a pan balance — left arm dips = heavier on left.'). This makes Lesson 4 runnable on a day when card sets weren't prepped.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The walkthrough explains same-attribute/different-counts conceptually ('Cup is BIGGER unit so fewer needed. Scoop is SMALLER unit so more needed. CAPACITY is the same.') but does not let children INVENT or COMPARE strategies — the action steps are 'Compare 4', 'Read 4', 'Stretch: 2 units' (procedural). expanded_walkthrough.common_misconceptions names the error but doesn't cite measurement research by name (Lehrer, Stephan & Clements on unit iteration, or Sarama & Clements learning trajectories).",
+      "required_fix": "In action.steps, add a strategy-comparison move: pairs predict the cup-to-scoop count for a NEW pail BEFORE pouring, then share their reasoning ('I doubled because scoops are half as big' vs 'I counted 2 scoops in 1 cup × 6 cups'). In expanded_walkthrough.rationale, cite Lehrer (2003) on measurement units OR Sarama & Clements (2009) on the unit-attribute compensation principle so a substitute teacher knows the research grounding.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Pair 4 hits Level 4 on alignment (E2.3/E2.4/E2.5 covered with explicit cross-reference to area's gaps-and-overlaps from Days 2-3), clarity_voice (Cal anchors throughout, 'Cal says —' refrain, 'I measured ___ in ___ units' exit frame), and lesson_worksheet_consistency (worksheet Part 3 transfers the cup-to-scoop reasoning into a multiplicative computation — a justified format variation from the lesson's qualitative comparison). Three categories sit at 3: pedagogical_depth and mathematical_authenticity both lack named research citations and the lesson stops short of letting children invent/compare strategies; instructional_balance is solid paper-based but missing the explicit no-materials path. Worksheet itself is strong — fixes are all in the lesson."
+}

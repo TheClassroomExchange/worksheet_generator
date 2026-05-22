@@ -1,0 +1,54 @@
+{
+  "unit_id": "g2_spatial_mirror_mirror",
+  "pair_number": 3,
+  "status": "revise_lesson",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use pre-rotated shapes.', 'Drill rotate then match.', 'Demonstrate physically.'] — these are concrete but do not branch by what the diagnostic told you about the child, and the trap is not anchored to a named researcher (Battista on spatial reasoning, or van Hiele levels for G2 geometry).",
+      "required_fix": "Anchor the rotation-not-allowed trap to named research (e.g., 'van Hiele Level 1: children judge shapes by appearance, not properties' or 'Battista 2007 on spatial reasoning') in expanded_walkthrough.rationale, AND branch recovery_moves by diagnostic: (a) if child rotates physically but still says 'not congruent' → drill rotate-then-match with verbal naming; (b) if child refuses to rotate at all → use a transparent overlay so they SEE the match before rotating; (c) if child accepts rotation but rejects reflection → defer reflection to G3.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Congruent Pair Cards (16 per pair)' and 'Anchor chart Congruent Shapes' as required, with no NO-PAPER, NO-PURCHASE alternative path offered in differentiation. The for_movement_learners entry (children pair up by clothing colour) is a concept-warm-up, not a runnable substitute for the card activity.",
+      "required_fix": "Add a no-materials path in differentiation: e.g., 'No-materials version — teacher draws pairs of shapes on the board with chalk/marker; children use thumbs-up (congruent) / thumbs-down (not). For Station C, children find a classroom object congruent to the teacher's reference (two same-size books, two same hexagonal pencil ends).' This makes the lesson runnable on a day when prep wasn't possible.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Symmy anchors minds_on and consolidation ('Symmy's Congruent Brag'), and all success_criteria start with 'I can'. However, there is no distinctive quotable refrain or chant tied to the congruence concept that children carry between lessons — the consolidation discussion_prompts are plain questions, and exit_routine is a sentence frame with no character voice.",
+      "required_fix": "Give Symmy a quotable refrain for congruence that children chant back, e.g., 'Same SIDE, same ANGLE — CONGRUENT!' or 'SIT one on TOP — does it FIT? Then it's congruent!' Have the teacher_script open and close the lesson with the chant, and reference it in consolidation so children carry it forward to Lessons 4-5.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Congruence is taught conceptually (overlap test, rotation preserves) and vocabulary is precise. However, children do not invent or compare strategies — overlap is the single taught method, and the expanded_walkthrough does not name the misconception in research-grounded terms. action.steps[3] only states 'Discuss rotation OK, size matters' as a teacher show, not a child-strategy comparison.",
+      "required_fix": "Let children compare TWO strategies before settling on overlap: (a) eyeballing (looks the same), (b) overlap matching, (c) measuring sides with a paper strip. Have a brief share-out in consolidation: 'Which test was MOST sure? Why?' Cite Battista 2007 (or van Hiele Level 1 → Level 2 transition: from appearance-based to property-based judgement) in expanded_walkthrough.rationale to ground the trap.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "unit_id": "k_data_detectives",
+  "pair_number": 3,
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child stacks pictures unevenly — repairing the unaligned graph trap at K' with recovery_moves = ['Use a grid template.', 'Drill straight line per row.', 'Compare row lengths visually.'] — the trap is real but no named research is cited and recovery does not branch by diagnostic.",
+      "required_fix": "Cite the research lineage for the alignment/comparison trap (e.g., Friel, Curcio & Bright 2001 on graph comprehension levels; or Clements & Sarama 2009 on K-1 data representation) and split recovery_moves into branched paths: (a) child can count rows but cannot compare → drill straight-line alignment with grid; (b) child aligns but cannot articulate 'longer = more' → use side-by-side row comparison with finger-tracing; (c) child cannot do one-to-one mapping yet → drop back to physical token placement before pictures.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "duration_minutes = 50 with minds_on 12 / action 25 / consolidation 13 — rubric specifies K timing of 30-40 minutes; this lesson is 10+ minutes over the K ceiling and will not fit a typical Kindergarten block.",
+      "required_fix": "Trim total to 35-40 minutes for Kindergarten: minds_on 8-10 min (cut the eye-colour and lunch-box examples to one demonstration), action 20 min (two stations of 8 min each, not three of 7 min), consolidation 7-8 min. Also explicitly elevate the no-paper 'human pictograph' (children stand in lines by attribute) from differentiation to a stated alternative path so the lesson runs without any prep.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The action steps (Stations A/B/C) have children build pictographs but never invite them to invent or compare different graph arrangements; expanded_walkthrough.rationale names the trap in plain language ('the unaligned graph') without research-grounded framing such as Friel/Curcio/Bright graph comprehension or Battista on spatial reasoning.",
+      "required_fix": "Add a 'compare two pictographs' moment in action or consolidation: show two pretend pictographs of the same data — one aligned, one scattered — and ask children which one helps us see 'most/fewest' faster and why. Name the underlying principle in expanded_walkthrough using research-grounded language (e.g., 'Friel, Curcio & Bright 2001: graph comprehension begins with reading the data, then reading between the data — alignment is what makes the second possible at K').",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

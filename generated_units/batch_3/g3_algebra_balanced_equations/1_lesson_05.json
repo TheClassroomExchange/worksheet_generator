@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 5,
+  "lesson_title": "Balance Puzzle Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": ["C2.1", "C2.2", "C2.3"],
+  "secondary_expectations": [],
+  "big_idea": "We can create balance puzzles using variables, equivalent expressions, and big numbers.",
+  "learning_intention": "We are learning to create and solve a balance puzzle using a variable.",
+  "student_learning_goal": "I can create and solve a balance puzzle using a variable.",
+  "success_criteria": [
+    "I can write a balance puzzle with a variable.",
+    "I can use an equivalent expression in the puzzle.",
+    "I can solve and check the puzzle."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": ["variable", "equivalent", "expression", "equation", "balance"],
+  "manipulatives_used": ["M2_balance_mat", "M5_target_cards", "M6_capstone_template", "M7_two_colour_counters", "M10_engineer_poster"],
+  "lesson_specific_materials": [
+    "Eddy and Vex together",
+    "Per-child Balance Puzzle Capstone Template",
+    "Lesson 5 capstone tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Eddy's Final Balance Puzzles",
+    "hook": "Now you create your own balance puzzles. Pick a target. Add a variable. Use 4 operations.",
+    "teacher_script": "Bring children to the carpet. Eddy + Vex together. 'Friends — today you become EQUATION ENGINEERS. Create a balance puzzle that uses a VARIABLE, EQUIVALENT EXPRESSIONS, and a TARGET number.'\n\nShow examples:\n- 'Target 250: 100 + n = 250. Solve: n = 150. Equivalent: 250 = 100+150 = 200+50 = 50x5.'\n- 'Target 500: 100 x n = 500. Solve: n = 5. Equivalent: 500 = 100x5 = 250x2 = 250+250.'\n- 'Target 100: 200 - n = 100. Solve: n = 100. Equivalent: 100 = 50+50 = 200-100 = 25x4.'\n\n'Eddy says — your puzzle has 3 parts: (1) a balance equation with variable, (2) the solution, (3) at least 1 equivalent expression for the target.'\n\nShow capstone template. 'Three sections: PUZZLE, SOLUTION, EQUIVALENT.'",
+    "student_actions": [
+      "Look at example balance puzzles.",
+      "Brainstorm targets.",
+      "Pick variables.",
+      "Plan equivalent expressions."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Balance Puzzle Capstone",
+    "structure": "individual",
+    "steps": [
+      {"step_number": 1, "instruction": "Hand out capstone templates. Children pick a target and write a balance puzzle.", "teacher_prompt": "Say: 'Target + variable + equation. Both sides balance.'"},
+      {"step_number": 2, "instruction": "Children solve their puzzle and write 2 equivalent expressions for the target.", "teacher_prompt": "Stop at each child. Check: variable, solution, equivalents."},
+      {"step_number": 3, "instruction": "Stretch challenge: include all 4 operations in the equivalents.", "teacher_prompt": "Say: 'Stretch: 4 operations.'"},
+      {"step_number": 4, "instruction": "Gallery walk: children swap and solve each other's puzzles.", "teacher_prompt": "Say: 'Swap. Solve. Verify.'"},
+      {"step_number": 5, "instruction": "Whole-class share: 5-6 children share aloud.", "teacher_prompt": "Pick variety: small targets, big targets, mixed operations."}
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a starter target and operation.",
+      "for_extending": "Stretch: 2-variable puzzle.",
+      "for_ell_or_iep": "Provide picture-supported templates.",
+      "for_movement_learners": "Build the puzzle physically on the balance scale."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: writes balance puzzle with variable; solves; provides equivalent.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Writes balance puzzle with variable",
+        "Solves correctly",
+        "Provides equivalent",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Eddy's Final Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most surprising puzzle you saw today?",
+      "What does the variable stand for in your puzzle?",
+      "What's an equivalent for your target?",
+      "What's something in your life you'd model with a balance puzzle?"
+    ],
+    "exit_routine": "Each child receives a Junior Equation Engineer certificate. Quick whisper: 'My target was ___'. Eddy and Vex say goodbye with a final puzzle."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Full balance puzzle from a child-chosen target.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures C2.1+C2.2+C2.3 summative integration."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes a puzzle without a variable — repairing the no-variable trap on capstone day at Grade 3",
+    "rationale": "The most common Grade-3 trap on the capstone is the no-variable trap: the child writes 'Target 250 = 100 + 150' (true but no unknown). They miss that the puzzle needs a VARIABLE for someone to solve.\n\nThis matters because puzzles need an unknown. The Grade-3 foundation is: every puzzle has at least 1 variable.\n\nThe walkthrough covers the precise moment when a child writes a no-variable puzzle.",
+    "setup": "Child has written: 'Target 250 = 100 + 150'. Teacher reads.",
+    "teacher_script": "Crouch beside the child. 'Great equation — but Eddy needs a PUZZLE. A puzzle has a hidden number. Pick ONE number to hide.'\n\nThe child looks. 'Hide 150. Replace it with n. Now: 250 = 100 + n. Someone can solve for n.'\n\nThe child rewrites. 'Now solve. n = 150. Now write equivalents for 250.'\n\nGeneralise. 'Eddy says — every puzzle hides ONE number with a variable. The variable is what makes it a puzzle.'\n\nIf the child STILL writes complete equations: provide a sentence frame. 'Target = ___ + n. n = ___.' Force the variable.\n\nLong-term recovery: every puzzle starts with 'pick the variable position'.",
+    "expected_student_responses": [
+      "(Confused) Writes complete equations.",
+      "(Mid) Adds variable with prompts.",
+      "(Strong) Writes balance puzzle with variable; solves and verifies.",
+      "(Stretched) Writes 2-variable puzzles."
+    ],
+    "common_misconceptions": [
+      "A puzzle is a fact. (Repair: a puzzle hides a number.)",
+      "Variables are optional. (Repair: variables are required.)",
+      "I solve before writing. (Repair: write first, then solve.)"
+    ],
+    "recovery_moves": [
+      "Use the sentence frame.",
+      "Drill 'every puzzle hides a number'.",
+      "Praise variable choice."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My Balance Puzzle",
+    "purpose": "Summative evidence for C2.1+C2.2+C2.3.",
+    "parts_outline": [
+      {"part_number": 1, "task": "Write a balance puzzle with a variable.", "response_type": "draw_or_write"},
+      {"part_number": 2, "task": "Solve the puzzle and check.", "response_type": "write"},
+      {"part_number": 3, "task": "Write 2 equivalent expressions for the target.", "response_type": "write"},
+      {"part_number": 4, "task": "Reflection: what does your variable stand for?", "response_type": "draw_or_write"}
+    ],
+    "expected_image_assets": [
+      "Eddy and Vex together in worksheet header",
+      "Puzzle slot for Part 1",
+      "Solve and check area for Part 2",
+      "2 equivalent slots for Part 3",
+      "Reflection box for Part 4"
+    ]
+  }
+}

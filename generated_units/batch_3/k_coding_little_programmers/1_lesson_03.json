@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_coding_little_programmers",
+  "lesson_number": 3,
+  "lesson_title": "Code with Pictures",
+  "duration_minutes": 40,
+  "primary_expectations": [
+    "B11.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We RECORD steps with arrows and pictures so anyone can follow.",
+  "learning_intention": "We are learning to record steps with pictures.",
+  "student_learning_goal": "I can record steps with pictures.",
+  "success_criteria": [
+    "I can DRAW arrows for steps.",
+    "I can ORDER 4 steps.",
+    "I can READ another's code.",
+    "I can FOLLOW a picture code."
+  ],
+  "vocabulary_introduced": [
+    "code"
+  ],
+  "vocabulary_reinforced": [
+    "forward",
+    "back",
+    "left",
+    "right",
+    "above",
+    "below",
+    "beside",
+    "between"
+  ],
+  "manipulatives_used": [
+    "M1_floor_mat",
+    "M2_arrow_cards",
+    "M4_object_cards",
+    "M5_code_strips",
+    "M7_coding_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Bot the Robot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Code = Steps Recorded'",
+    "Code Strips (1 per pair)",
+    "Arrow Cards",
+    "Lesson 3 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 10,
+    "activity_name": "Bot's Picture Recipe",
+    "hook": "Bot the Robot: To MOVE me, you need a CODE. Like a recipe — pictures of each step! Bot opens: 'WRITE the arrows, BOT will GO!' Day 1 we MOVED, Day 2 we FOUND, today we WRITE.",
+    "teacher_script": "Bring children to the carpet. Bot the Robot puppet. 'Coder friends — yesterday I MOVED with words. But what if my friend isn't here? I need to RECORD my code!'\n\nDefine. 'CODE = step-by-step instructions, recorded with arrows or pictures.'\n\nDemo. Place Bot at corner A on mat with apple at B3. 'I want Bot to reach the apple. My code:'\n\nDraw on board:\n→ → ↑ ↑\n(2 right, 2 up)\n\n'Bot says — anyone can follow this code!'\n\nNow show how recipes work. 'Same idea. Pancake recipe: 1) Mix flour. 2) Add milk. 3) Pour. 4) Cook. STEP BY STEP!'\n\nDemo a 4-step code:\n1. → (forward)\n2. → (forward)\n3. ↑ (turn up/right) — actually let's say: → (forward), → (forward), ⬆ (forward up), ⬆ (forward up).\n\nClass reads code together. 'Forward, forward, up, up!'\n\n'Bot says — codes are READ left to right!'\n\nNow each pair gets a Code Strip + Arrow Cards. They place an apple, plan a route, and RECORD the code on the strip.\n\n'Bot says — drawing code is FUN! It's like a treasure map.'",
+    "student_actions": [
+      "Watch Bot demo",
+      "Echo code definition",
+      "Read sample code together",
+      "Plan a 4-step route"
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Record 2 Codes",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Code Strips. Pairs place an apple on the mat.",
+        "teacher_prompt": "Say: 'Place apple.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Plan and record a 4-step code to reach apple.",
+        "teacher_prompt": "Say: 'Record 4 steps.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Trade with another pair. Read their code and check.",
+        "teacher_prompt": "Say: 'Trade and check.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with arrow direction (always read left-to-right).",
+        "teacher_prompt": "Show: read left-to-right."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Record only 2 steps.",
+      "for_extending": "Record 6+ steps.",
+      "for_ell_or_iep": "Sticker-arrow palette.",
+      "for_movement_learners": "Walk the route while recording. NO-MATERIALS VERSION: children walk the 4 steps on a real floor grid; body becomes the code."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: draws; orders; reads; follows; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Draws arrows",
+        "Orders steps",
+        "Reads codes",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 10,
+    "activity_name": "Bot's Code Brag",
+    "discussion_prompts": [
+      "What's a CODE?",
+      "Why RECORD steps?",
+      "How do you READ a code?",
+      "How is code like a recipe?"
+    ],
+    "exit_routine": "Bot's coding refrain — 'WRITE the arrows, BOT will GO!' (3x). Each child shows one code sequence + Bot's destination."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Code recording tracker.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures B11.3."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child draws arrows in WRONG ORDER — repairing the order trap at Kindergarten",
+    "rationale": "On writing pictograph code, the K trap is sequencing fragility (Bers 2018; Clements & Sarama 2014 on early CT): child orders arrows but skips steps mid-sequence. Without sequencing fluency, Lesson 4 debugging cannot ground.\n\nYesterday Lesson 1 moved Bot, Lesson 2 found Bot's position. Today: write the code with arrows. Lesson 4 debugs; Lesson 5 capstones.",
+    "setup": "Code activity. Child draws → ↑ → → but wants Bot to go ↑ → → →.",
+    "teacher_script": "Crouch. 'Bot asks — what's STEP ONE?'\n\nProbe. 'First step in code is FIRST arrow on left. Read left-to-right!'\n\nGeneralise. 'Bot says — order matters in CODE. STEP 1 first, then STEP 2.'\n\nIf still random: number the steps. '1, 2, 3, 4 — in order.'",
+    "expected_student_responses": [
+      "(Confused) Random order.",
+      "(Mid) Some order.",
+      "(Strong) Left-to-right.",
+      "(Stretched) Articulates step numbering."
+    ],
+    "common_misconceptions": [
+      "Order doesn't matter. (Repair: order is critical.)",
+      "Read right-to-left. (Repair: left-to-right.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child sequences but skips a step: drill 'every step gets ONE arrow'; child re-counts arrows vs squares moved.",
+      "DIAGNOSTIC B — child writes sequence but wrong order: drill 'first action is the FIRST arrow'.",
+      "DIAGNOSTIC C — child can sequence but can't articulate: force 'My code is ___ ___ ___; Bot will go to ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Bot's Picture Code",
+    "purpose": "Independent practice of B11.3.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Read 3 codes; circle the one that reaches the apple.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Draw a 4-step code on a Code Strip.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Order 4 scrambled arrows.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Bot the Robot in worksheet header",
+      "3 sample codes for Part 1",
+      "Code Strip workspace for Part 2"
+    ]
+  }
+}

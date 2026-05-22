@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 1,
+  "lesson_title": "Step-by-Step Code",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Code is a list of instructions in ORDER.",
+  "learning_intention": "We are learning to write step-by-step code for a simple task and follow it in order.",
+  "student_learning_goal": "I can write step-by-step code for a simple task and follow it in order.",
+  "success_criteria": [
+    "I can list 3 steps for a simple task in the correct order.",
+    "I can follow code instructions to move a robot on the grid.",
+    "I can write code that gets a robot from start to finish."
+  ],
+  "vocabulary_introduced": [
+    "code",
+    "sequence",
+    "execute"
+  ],
+  "vocabulary_reinforced": [
+    "step",
+    "order"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M2_code_cards",
+    "M4_robot_marker",
+    "M10_loop_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coda the Coding Robot/illustration — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Code = Steps in Order'",
+    "Per-pair coding grid mat (5×5)",
+    "Per-pair set of code step cards",
+    "Per-pair robot marker (paper or dice)",
+    "Lesson 1 sequence tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coda's Sandwich Code",
+    "hook": "How do you make a peanut-butter sandwich? Tell Coda STEP BY STEP. Coda opens with the unit refrain: 'STEP, by STEP, by STEP — that's CODE!' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Reveal Coda the Coding Robot. 'Friends — meet Coda. Coda is a CODING ROBOT. Coda only does what we tell it — STEP by STEP. Today we'll write CODE for Coda.'\n\n'Coda wants to make a peanut-butter sandwich. How does Coda do that?'\n\nTake responses. Children might say: 'put peanut butter on bread'. 'OK — but Coda is VERY literal. What's the FIRST step?'\n\nLead them through:\nStep 1: Get bread.\nStep 2: Get peanut butter.\nStep 3: Open peanut butter jar.\nStep 4: Spread peanut butter on bread.\nStep 5: Eat sandwich.\n\nWrite each step. 'This list is CODE. Each step is in ORDER. The first step is FIRST. The last step is LAST.'\n\n'Now what happens if I CHANGE THE ORDER? What if step 4 came before step 3 — spread the peanut butter BEFORE opening the jar?' Children laugh. 'Doesn't work! The order MATTERS.'\n\nNow grid mat. 'Coda also lives on a grid. We tell Coda to MOVE step by step.' Show the grid mat with Coda starting on the left edge. 'Code: Step 1 — move right. Step 2 — move right. Step 3 — move right. Where does Coda end up?' On the right side. 'Right. Now what if Step 2 was move UP instead?' Different ending position.\n\n'Today we'll write code to move Coda around the grid.'",
+    "student_actions": [
+      "List the steps to make a peanut-butter sandwich.",
+      "Discuss what happens when the order changes.",
+      "Echo new vocabulary: 'code', 'sequence', 'execute'.",
+      "Predict where Coda lands after 3 'move right' steps."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Code-and-Execute Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: code Coda's path on the grid. Start at (0,0). Code: right, right, up, up, right. Where does Coda end? (3, 2). Then change one step: replace the 5th 'right' with 'down'. Now where? (2, 1). Discuss how one change shifts the outcome.",
+        "teacher_prompt": "Say to students: 'Watch Coda follow the code. Predict the ending square BEFORE I move.' Slow down on each step."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Code Coda's Path — pair has the grid mat, robot marker, and 5 step cards; they execute the code and find the ending square. Station B: Write the Path — pair has a starting and ending square; they write code (step cards) to get there. Station C: Real-Life Code — pair lists the steps for an everyday task (brushing teeth, walking to the bus stop) in 5+ steps.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station B: include a path that requires turning (e.g., from (0,0) to (3,3)). Multiple correct codes — discuss alternative paths.",
+        "teacher_prompt": "Say to pairs: 'Some paths can be coded MANY ways. Find at least 2 different codes for the same start-to-end.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss order matters. 'Right, then up vs up, then right — same ending square. So order doesn't ALWAYS matter for movement.' But contrast: 'Spread peanut butter, then open jar' vs 'open jar, then spread' — order matters for sandwich making.",
+        "teacher_prompt": "Use both examples. Movement code is sometimes commutative; real-life code usually isn't."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the sequence tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's the first step? Last step?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: 2 pairs share their step-by-step solutions for the same path. Pair A used 'forward, forward, turn, forward'; Pair B used 'forward 3 steps, turn, forward'. Class compares: which is more atomic? Which would Coda follow without confusion? Bers (2018) frames this as the discreteness principle — every command is one executable action.",
+        "teacher_prompt": "Coda: 'Same destination, different code. The MORE atomic the steps, the FEWER mistakes Coda makes.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only 3-step codes with single direction (all rights, all ups).",
+      "for_extending": "Stretch at Station B: include diagonal paths (right then up alternating). Discuss whether code can include diagonals.",
+      "for_ell_or_iep": "Provide step cards with picture arrows. Sentence frame: 'First, ___. Then, ___.'",
+      "for_movement_learners": "Allow them to BE Coda — physically move on a large grid drawn on the floor."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: writes 3+ ordered steps for a task; executes code correctly on the grid; recognises that order matters.",
+      "how_to_record": "Tick the sequence tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Lists 3+ ordered steps",
+        "Executes code on grid",
+        "Recognises order matters",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coda's Sandwich Brag",
+    "discussion_prompts": [
+      "What is CODE?",
+      "Why does the ORDER of steps matter?",
+      "What happens if you swap two steps?",
+      "Can you give an example of code from your day?",
+      "Coda's preview: tomorrow Looper will show us how to SHORTEN our code with LOOPS (Lesson 2 — C3.1). What step-pattern in your code today REPEATED — that's the perfect candidate for tomorrow's loops."
+    ],
+    "exit_routine": "Coda's refrain — class chants three times together: \"Coda says: STEP, by STEP, by STEP — that's CODE!\" Each child writes ONE Coda command on a sticky and tags it with an action verb."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Sequence-writing accuracy and grid execution.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 is the diagnostic. Children at L4 articulate sequence as ORDERED steps."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes a 'jumble' of steps with no clear order — repairing the unordered-list error",
+    "rationale": "Grade-1 children entering computational sequencing tasks frequently write narrative descriptions ('then he goes to the door') instead of discrete actions a robot can follow ('move 1 step, turn right, move 1 step'). The narrative-vs-action gap is well documented in early-CS research — Bers (2018) ScratchJr studies and the NRC (2011) Computational Thinking framework both place explicit, ordered, executable steps as the foundation of computational sequencing. Today we drill that explicitness so Lesson 2 (loops) can compress what they sequenced today, Lesson 3 (reading code) can decode it, and Lesson 4 (altering) can manipulate it.",
+    "setup": "Pair is at Station C. The child writes the sandwich code as 'spread, get bread, open jar, eat'. Out of order.",
+    "teacher_script": "Crouch beside the child. 'Read your code aloud.' The child reads. 'Hmm — try doing it in that order. Spread BEFORE you have bread? Where does the peanut butter go?' The child laughs. 'Right — there's no bread yet.'\n\n'Code MUST be in order. The first step has to be DOABLE first. What's the first thing Coda needs to make a sandwich?' 'Get bread.' 'Right. Number it 1.'\n\nWalk through the order: 1. Get bread. 2. Get peanut butter. 3. Open jar. 4. Spread on bread. 5. Eat. 'See — each step BUILDS on the one before. That's SEQUENCE.'\n\nIf the child STILL writes unordered: physically act out the steps as the child reads. The mismatch between actions and order makes the issue visible.\n\nLong-term recovery: every code-writing task uses NUMBERED steps. Trains the reflex.",
+    "expected_student_responses": [
+      "(Confused) Lists steps unordered.",
+      "(Mid) Numbers with prompts.",
+      "(Strong) Numbers steps independently and explains why each comes when it does.",
+      "(Stretched) Writes code for harder tasks (cooking, building)."
+    ],
+    "common_misconceptions": [
+      "Order doesn't matter for code. (Repair: act out unordered code; the failure is visible.)",
+      "Code is just a description. (Children write narrative instead of steps. Repair: focus on EXECUTABLE actions.)",
+      "Code can skip steps. (Children leave out 'open jar'. Repair: every step needed must be in the code.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child writes narrative-not-actions ('he goes to the kitchen'): drop to physical 'finger-act each step' on a grid mat — child names ONE move per finger-tap, no narrative.",
+      "DIAGNOSTIC B — child writes complete actions but skips a step (jumps two squares): replay each step out loud as the child points; use a sentence frame 'first I ___, next I ___, next I ___'.",
+      "DIAGNOSTIC C — child includes turns inside moves ('walk and turn right'): explicitly separate by recasting on a card 'move 1 step. TURN right.' Drill turn-as-its-own-step until 5 commands are atomic."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coda's Step-by-Step Code",
+    "purpose": "Independent practice of C3.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Write 5 steps in order for a simple task (brush teeth, get dressed, walk to school).",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Execute 4 grid codes — write the ending coordinate.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: invent your own simple task. Write the code in 4-5 steps.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coda in the worksheet header",
+      "Numbered step boxes for Part 1",
+      "Four grid maps for Part 2",
+      "A blank box for Part 3"
+    ]
+  }
+}

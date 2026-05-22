@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "pair_number": 1,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough never references the unit arc; lesson 1 closes with 'Step 1 of modelling: math QUESTION' but does not bridge forward to Lesson 2 (Town Data Day) or signal which step children will own next. The arc is set up in the blueprint but not wired into Lesson 1's text.",
+      "required_fix": "Add an explicit bridge in consolidation or expanded_walkthrough naming Lesson 2: e.g., 'Tomorrow Town Tom helps us COLLECT DATA — we'll count the things our HOW MANY questions point at.' The cross-reference must use Lesson 2's title and the next step name (DATA) so children carry the arc forward.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use HOW frames as a sentence starter.', 'Show math vs descriptive side by side.', 'Connect to everyday counting.'] — three flat moves with no diagnostic branching, and the trap cites no research. Grade 2 modelling research (Lesh & Doerr; English on early modelling) is not named.",
+      "required_fix": "Branch recovery by what the diagnostic told you: if the child writes ONLY descriptive (colour/feeling), drill HOW-frame sentence starters; if the child writes a HOW question that has no countable referent ('How many fun?'), redirect to a NOUN ('How many BOOKS?'); if the child freezes, model two HOW questions aloud first. Cite English (2010) or Lesh-Doerr modelling cycle by name in the rationale.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = 'Each child writes ONE math question on a sticky note...' — there is no quotable refrain or chant for Mayor Mira. Across the 5-day unit, children need a Mayor-Mira signature line they carry between lessons; lesson 1 sets none.",
+      "required_fix": "Add a Mayor-Mira signature refrain to consolidation that children chant back, e.g., 'Mayor Mira's promise: HOW MANY, HOW MUCH, HOW LONG, HOW TALL — math questions count them ALL!' Lock it into the consolidation discussion_prompts and the exit_routine so Lessons 2-5 can echo it.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson lets children invent questions at Station C but never asks pairs to COMPARE strategies or refine each other's questions; the expanded_walkthrough names the descriptive-vs-math confusion but does not ground it in research-named terms (e.g., Lesh & Doerr modelling cycle, English's question-posing research, or Greer's situation-vs-model distinction).",
+      "required_fix": "Add a 5-minute 'compare-and-refine' move at the end of action: pair-shares one question, partner asks 'what number would answer that?' and they refine together. Then in the expanded_walkthrough rationale, name the principle: 'This is the question-posing step in the Lesh-Doerr modelling cycle; English (2010) shows Grade 2 children can pose model-eliciting questions when given concrete situations.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 3 sort chart ('How many books?', 'What colour is the library?', 'How long is recess?', 'Is the park fun?', 'How many buses arrive?', 'Does the rink smell like snow?') is a near-rote repeat of Station B in the lesson (sort 12 question cards into MATH and NOT MATH). Same task type, same response format — no transfer or generalization variation is built in.",
+      "required_fix": "Vary Part 3 to a transfer task: instead of sorting 6 ready-made questions, give children 3 descriptive starter prompts ('It is sunny. There are buses. Recess is fun.') and ask them to TURN each into a math question. State the justification in teacher_notes: 'Part 3 transfers the sort skill into question-conversion to verify generalization beyond Station B's recognition task.'",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Solid Day-1 opener with optional puppets, realistic 12/25/13 timing, and clean C4 alignment, but the pair sits at the achieving bar across four categories: no forward bridge to Lesson 2's data step, flat non-branching recovery moves with no research citation, a missing Mayor-Mira refrain to carry across the 5-day arc, no compare-strategies move, and a worksheet Part 3 that repeats Station B's sort rather than transferring the skill. Fix the named items in lesson_01 and worksheet_01 to clear the pass bar."
+}

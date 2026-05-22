@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "deck_url": "https://docs.google.com/presentation/d/1b86e1Xi9e8-B4oKHx6uzYKp3a3Lhi8OKKEArntn6XC4/edit",
+  "pdf_path": "/Users/aria/Documents/TheClassroomExchange/claude_code_handoff/worksheet_generator/generated_units/batch_3/g1_data_detectives/validation_export.pdf",
+  "pdf_size_kb": 1005,
+  "slide_count": 27,
+  "inspected_at": "2026-05-08T00:00:00Z",
+  "inspected_by": "visual_inspector_round_2",
+  "status": "revise_content",
+  "issues": [
+    {
+      "slide_number": 3,
+      "category": "text_overflow",
+      "description": "Lesson 1 consolidation discussion list still ends mid-quote: 'ask why did you get different...' with ellipsis cutting off the bullet. Round-1 fix attempted to collapse 6 prompts to 5, but the final bullet in the rendered slide is still truncated mid-sentence.",
+      "suggested_fix": "Shorten the STRATEGY COMPARE bullet so it terminates cleanly within the slide text frame, or split the long bullet into a short phrase that fits without ellipsis. Verify the consolidation paragraph has at most 4-5 short bullets, each under ~110 chars.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 12,
+      "category": "missing_asset",
+      "description": "Capstone worksheet preview (Detective Dot's Final Case) shows only the My Capstone Tally chart. The blueprint capstone template (M6) requires sort area, tally chart, pictograph grid, ordering area, and conclusion line. Pictograph grid, ordering area, and conclusion line are not visible on this preview slide.",
+      "suggested_fix": "Compose the capstone worksheet preview slide so all 4 expected components render (tally + pictograph + ordering + conclusion). If the slide is space-limited, render a compact composite layout or add a (3 parts) note that names every component.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 25,
+      "category": "text_overflow",
+      "description": "Summative Rubric Level 3 and Level 4 descriptors are truncated with ellipsis in multiple cells. D1.1 L3 ends 'names...', D1.1 L4 ends 'rule changes...', D1.2 L4 ends 'articulates why...', D1.4 L3 ends 'categories...', D1.5 L4 ends 'and...'. Teachers cannot read the full criteria for top-level performance.",
+      "suggested_fix": "Trim each rubric descriptor to fit the cell at the current font size (target ~50-60 chars) or shrink the cell text font by 1pt and widen Level 3/4 columns. Verify all 20 rubric cells render their full text without ellipsis.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 2,
+      "category": "text_overflow",
+      "description": "Unit Overview slide title 'Unit Overview: Data Detectives Take the Case' wraps to two lines. Not cut off but consumes vertical space and pushes the lesson table down. Minor cosmetic issue.",
+      "suggested_fix": "Either shorten the title to a single line ('Unit Overview') and place the thematic title in a subtitle, or shrink the title font slightly so it fits one line.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 3,
+  "summary": "Round 2 inspection of g1_data_detectives 27-slide deck. Round-1 phonics-image dispatcher fix is CONFIRMED RESOLVED on slide 8 (now shows correct shape sort, not Sound Boxes). Three new or persisting blocking issues remain: slide 3 consolidation still truncates mid-quote, slide 12 capstone preview is missing pictograph/ordering/conclusion components, and slide 25 rubric Level 3-4 descriptors are truncated with ellipsis. Status revise_content."
+}

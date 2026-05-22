@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "thematic_title": "Map It, Move It — Grade 3 Geometry",
+  "descriptive_title": "Grade 3 Mathematics: Demonstrations — Geometry in 2D and 3D (E1.1-E1.4)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "E. Spatial Sense",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-3",
+  "curriculum_codes": ["E1.1", "E1.2", "E1.3", "E1.4"],
+  "curriculum_expectations": {
+    "E1.1": "sort, construct, and identify cubes, prisms, pyramids, cylinders, and cones by comparing their faces, edges, vertices, and angles",
+    "E1.2": "compose and decompose various structures, and identify the two-dimensional shapes and three-dimensional objects that these structures contain",
+    "E1.3": "identify congruent lengths, angles, and faces of three-dimensional objects by mentally and physically matching them, and determine if the objects are congruent",
+    "E1.4": "give and follow multistep instructions involving movement from one location to another, including distances and half- and quarter-turns"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on geometry (E1.1-E1.4) framed around 'Map It, Move It' — Trekker Tig the Tiger Cub and Compass Coco the Cat. Day 1 sorts 5 named 3D solids by faces, edges, and vertices. Day 2 composes and decomposes structures from 3D objects. Day 3 identifies congruent faces, lengths, and angles. Day 4 gives and follows multistep movement directions with quarter and half turns. Day 5 closes with a Big Map Capstone integrating all 4 expectations. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will sort 3D solids by attributes, compose and decompose structures, identify congruent parts, and give and follow movement directions with turns.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Sort the 3D Solids", "primary_expectations": ["E1.1"], "secondary_expectations": [], "big_idea": "5 named solids: cubes, prisms, pyramids, cylinders, cones. Sort by FACES, EDGES, VERTICES.", "student_learning_goal": "I can sort 5 named solids by faces, edges, and vertices.", "one_line_summary": "Trekker Tig sorts 15 solids; children identify all 5 types."},
+    {"lesson_number": 2, "lesson_title": "Compose and Decompose", "primary_expectations": ["E1.2"], "secondary_expectations": [], "big_idea": "Bigger structures are MADE OF smaller 2D shapes and 3D objects.", "student_learning_goal": "I can compose and decompose a structure into its parts.", "one_line_summary": "Tig builds a tower from cubes and prisms; children decompose 4 structures."},
+    {"lesson_number": 3, "lesson_title": "Congruent Faces", "primary_expectations": ["E1.3"], "secondary_expectations": [], "big_idea": "CONGRUENT means SAME SIZE and SAME SHAPE. We match faces, lengths, and angles.", "student_learning_goal": "I can identify congruent faces, lengths, and angles.", "one_line_summary": "Compass Coco matches 6 face pairs; children check for congruence."},
+    {"lesson_number": 4, "lesson_title": "Map It, Move It", "primary_expectations": ["E1.4"], "secondary_expectations": [], "big_idea": "MULTISTEP MOVEMENT uses STEPS plus QUARTER (90°) or HALF (180°) turns.", "student_learning_goal": "I can give and follow movement directions with turns.", "one_line_summary": "Coco navigates a 5-step map; children give and follow 4-step routes."},
+    {"lesson_number": 5, "lesson_title": "The Big Map Capstone", "primary_expectations": ["E1.1", "E1.2", "E1.3", "E1.4"], "secondary_expectations": [], "big_idea": "Geometers SORT solids, BUILD structures, MATCH congruent parts, and FOLLOW maps.", "student_learning_goal": "I can sort, build, match, and follow movement directions.", "one_line_summary": "Children rotate through 4 stations: sort, build, match, follow."}
+  ],
+  "expectation_lesson_map": {"E1.1": [1, 5], "E1.2": [2, 5], "E1.3": [3, 5], "E1.4": [4, 5]},
+  "recurring_characters": [
+    {"name": "Trekker Tig the Tiger Cub", "role": "Lead character. Geometry guide. Anchors all 5 lessons.", "visual_description": "A young tiger cub with a backpack and a 3D-shape sorting basket, holding a measuring tape."},
+    {"name": "Compass Coco the Cat", "role": "Tig's partner. Map+turn character. Cameo Lessons 3-5.", "visual_description": "A small cat with a compass around its neck and a treasure-map clipboard."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "face", "child_friendly_definition": "A FLAT side of a 3D shape."},
+    {"term": "edge", "child_friendly_definition": "A LINE where two faces meet."},
+    {"term": "vertex", "child_friendly_definition": "A CORNER (point where edges meet)."},
+    {"term": "prism", "child_friendly_definition": "A 3D shape with 2 same ends and rectangle sides."},
+    {"term": "pyramid", "child_friendly_definition": "A 3D shape with a flat base and triangle sides meeting at the top."},
+    {"term": "compose", "child_friendly_definition": "Put together — build a structure from parts."},
+    {"term": "decompose", "child_friendly_definition": "Take apart — break a structure into parts."},
+    {"term": "congruent", "child_friendly_definition": "Same size and same shape."},
+    {"term": "quarter turn", "child_friendly_definition": "Turn 90 degrees — a quarter of a full circle."},
+    {"term": "half turn", "child_friendly_definition": "Turn 180 degrees — a half of a full circle."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_solids_set", "name": "3D Solids Card Set", "description": "Set of 15 paper 3D solid cards (cubes, prisms, pyramids, cylinders, cones).", "used_in_lessons": [1, 2, 5], "clipart_files": []},
+    {"id": "M2_attribute_chart", "name": "Faces-Edges-Vertices Chart", "description": "Anchor chart with 5 solids and counts for faces/edges/vertices.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M3_structure_set", "name": "Structure Build Cards", "description": "12 structure cards showing combined 3D objects.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M4_congruent_set", "name": "Congruent Face Match Cards", "description": "20 face cards in 10 congruent pairs.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M5_map_grid", "name": "Movement Map Grid", "description": "Letter-size 6x6 grid map with start and end markers.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Big Map Template", "description": "Letter-size capstone with 4 station response areas.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_geometry_chart", "name": "G3 Geometry Vocabulary Chart", "description": "Anchor chart with 10 G3 geometry words.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_turn_chart", "name": "Quarter and Half Turn Chart", "description": "Anchor chart showing 90 and 180 degree turns.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M9_robot_cards", "name": "Robot Movement Cards", "description": "24 cards with arrows, step counts, and turn directions.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Map It Move It Poster", "description": "Anchor poster of Tig and Coco with geometry tools.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["3D Solids Card Set (15)", "Faces-Edges-Vertices Chart", "Structure Build Cards (12)", "Congruent Face Match Cards (20)", "Movement Map Grid (per pair)", "Big Map Template (per child)", "Geometry Vocabulary Chart", "Turn Chart", "Robot Movement Cards (24)", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 sort snapshot.", "formative": "Lesson 2 compose tracker; Lesson 3 congruent tracker; Lesson 4 movement tracker.", "summative": "Lesson 5 Big Map capstone."},
+  "pedagogical_notes": [
+    "Grade 3 names 5 solids by attribute (cubes, prisms, pyramids, cylinders, cones).",
+    "E1.2 introduces compose/decompose explicitly.",
+    "E1.3 introduces CONGRUENT — same size AND same shape.",
+    "E1.4 adds quarter and half turns to multistep movement.",
+    "Hands-on with paper solids preferred; physical manipulation builds spatial sense."
+  ],
+  "canadian_context_notes": [
+    "Tim Hortons cup as a cylinder.",
+    "Hockey puck as a (short) cylinder.",
+    "Maple syrup tin as a cylinder.",
+    "CN Tower top section as a cone.",
+    "Provincial flag pyramid as triangular pyramid example."
+  ]
+}

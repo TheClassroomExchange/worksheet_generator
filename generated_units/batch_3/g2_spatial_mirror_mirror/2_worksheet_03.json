@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "lesson_number": 3,
+  "worksheet_title": "Symmy's Congruent Match",
+  "purpose": "Independent practice of E1.3.",
+  "student_learning_goal": "I can identify congruent shapes.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can identify congruent shapes.",
+    "character_watermark": "Symmy matching shapes in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Congruent or NOT.",
+          "student_instructions": "Look at 5 pairs. Mark CONGRUENT or NOT.",
+          "visual_layout": "5 pair rows with checkboxes.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_PAIRS",
+              "description": "5 pair rows for Grade 2 worksheet, B&W line art. Each row: 2 shapes side by side + checkboxes 'CONGRUENT' / 'NOT'. Pairs: same triangles, different sized squares, same hexagons (one rotated), triangle + square, same circles.",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "congruent",
+                "pairs"
+              ],
+              "text_image_alignment_check": "WS03_P1_PAIRS at Part 1: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Same triangles: CONGRUENT. Different squares: NOT. Same hexagons: CONGRUENT (rotation OK). Triangle vs square: NOT. Same circles: CONGRUENT."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Find the partner.",
+          "student_instructions": "For each shape, find the CONGRUENT partner from a row of 5.",
+          "visual_layout": "A find-the-partner layout with 4 reference shapes on the left and 5 candidate partners on the right (4 congruent + 1 wrong size).",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_FIND",
+              "description": "A find-the-match layout for Grade 2 worksheet, B&W line art. Left: 4 reference shapes. Right: 5 candidate partners (4 congruent + 1 different-size). Wide gap for line-drawing matches.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "shapes",
+                "partner"
+              ],
+              "text_image_alignment_check": "WS03_P2_FIND at Part 2: instructions ask the child to find a congruent partner among shapes. Keywords name the visual elements."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Each reference shape matches one of 4 same-size partners; the 5th candidate is the wrong size."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Draw congruent.",
+          "student_instructions": "Draw a shape CONGRUENT to the given one.",
+          "visual_layout": "A reference shape + blank space for drawing.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_DRAW",
+              "description": "A reference shape (medium triangle) on the left + a blank space on the right for the child to draw a congruent partner. Optional grid background to help.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "congruent",
+                "draw"
+              ],
+              "text_image_alignment_check": "WS03_P3_DRAW at Part 3: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Drawing of triangle same dimensions as reference (rotation allowed)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw 2 different non-congruent triangles.",
+  "teacher_notes": "Lesson 3 consolidation. Use Part 1 as formative — children testing rotation properly."
+}

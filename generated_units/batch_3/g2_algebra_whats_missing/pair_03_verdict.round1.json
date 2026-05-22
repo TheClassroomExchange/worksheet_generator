@@ -1,0 +1,47 @@
+{
+  "unit_id": "g2_algebra_whats_missing",
+  "pair_number": 3,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a real Grade-2 misconception (missing-minuend vs missing-subtrahend role-of-variable confusion) but cites no research, and recovery_moves are a flat list ('Use coloured highlighters to mark variable positions', 'Drill read position first, then strategy', 'Always check by substituting back') with no branching by what the diagnostic told you about the child.",
+      "required_fix": "Cite Carpenter & Moser CGI taxonomy by name — this is Separate Start Unknown (☐ - 5 = 9) vs Separate Change Unknown (15 - ? = 9), see Carpenter, Fennema, Franke, Levi & Empson 'Children's Mathematics' (2nd ed., 2014). Then branch recovery: (a) if the child can read the position but picks the wrong operation, drill the 2-rule contrast with paired cards; (b) if the child cannot reliably identify the variable's position, drop back to highlighting + reading aloud 'the unknown is the START / the unknown is what was REMOVED' before any computation; (c) if the child applies subtract-from-the-larger as a default, use the impossibility check (4 - 5 = ?) to disrupt the buggy rule.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials still requires printed Subtraction Missing-Number Cards (24), per-pair number lines, balance mats, and ~30 counters per pair; differentiation.for_movement_learners gives a floor-mat option but no NO-PAPER, NO-PURCHASE alternative path for a teacher who walks in with no prep is offered anywhere in the lesson.",
+      "required_fix": "Add an explicit no-paper alternative in differentiation: 'No-materials version — teacher calls a subtraction equation aloud (e.g. 15 minus what equals 8?). Children show the missing number on FINGERS, then check by counting back on fingers. For missing-minuend, children TURN AROUND so their back is the start, take 5 steps forward, and count steps back to see the start.' Make sure minds_on can run with just voice + chart paper if the cards weren't printed.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "action.steps[2] hands children three pre-named strategies (counter solve / number line solve / addition trick) at fixed stations rather than letting pairs invent and compare strategies; expanded_walkthrough.common_misconceptions uses informal labels ('Subtraction always means subtract', 'Position doesn't matter') instead of research-grounded CGI categories, and no named source anchors the trap.",
+      "required_fix": "Restructure step 2 so pairs first solve one missing-minuend card with NO assigned strategy, then a brief share-out lets the class compare invented strategies (count-back, count-up, addition-as-inverse, balance-restoration) and name which is most efficient for missing-minuend vs missing-subtrahend — a CGI strategy-comparison move per Carpenter et al. Re-label the walkthrough's misconceptions: 'Separate Start Unknown vs Separate Change Unknown confusion' (Carpenter & Moser 1984; Carpenter, Fennema, Franke, Levi & Empson 2014).",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Strong Grade-2 subtraction pair: the missing-minuend/missing-subtrahend role-of-variable contrast is a genuine Grade-2 trap, the inverse-operations move in action step 4 is well-pitched, Detective Dee anchors all three lesson chunks with a quotable rule ('READ THE POSITION'), and the worksheet's Part 1/Part 2/Part 3 split mirrors the lesson's two cases plus a transfer task (Level 4 consistency). Three categories sit at 3 because (1) the trap is real but uncited and recovery doesn't branch by diagnostic, (2) the lesson assumes printed cards and per-pair counters with no no-paper fallback path, and (3) strategies are pre-assigned at stations rather than invented and compared. All blocking fixes are in the lesson — worksheet is solid as-is."
+}

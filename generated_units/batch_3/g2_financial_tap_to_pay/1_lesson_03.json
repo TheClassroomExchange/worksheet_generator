@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_financial_tap_to_pay",
+  "lesson_number": 3,
+  "lesson_title": "Bills and Coins",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "F1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "BIG amounts use BILLS. $25 has many combinations.",
+  "learning_intention": "We are learning to mix bills and coins to make amounts up to $50.",
+  "student_learning_goal": "I can mix bills and coins to make amounts up to $50.",
+  "success_criteria": [
+    "I can MAKE $25 with bills.",
+    "I can MAKE $25 with bills + coins.",
+    "I can FIND 3 ways for an amount.",
+    "I can EXPLAIN equivalent."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "equivalent",
+    "combination",
+    "loonie"
+  ],
+  "manipulatives_used": [
+    "M1_coin_set",
+    "M2_bill_set",
+    "M3_combo_chart",
+    "M4_amount_cards",
+    "M9_pricetag_set",
+    "M7_money_chart",
+    "M8_record_strip",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Tappy + Lou — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Bills and Coins'",
+    "Coin + Bill Cards (1 set per pair)",
+    "Item Price Cards (20)",
+    "Lesson 3 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tappy's $25 Mix",
+    "hook": "Tappy: BIG amounts use BILLS. $25 has many ways! Tappy opens: 'BILLS for tens, COINS for cents!'",
+    "teacher_script": "Bring children to the carpet. Tappy and Lou puppets. 'Money friends — yesterday was $1. Today: $25 — bigger amount, more ways!'\n\nDemo 3 ways for $25:\n- WAY 1: 1 TWENTY + 1 FIVER (20 + 5 = $25).\n- WAY 2: 2 TENS + 1 FIVER (10 + 10 + 5 = $25).\n- WAY 3: 1 TWENTY + 5 LOONIES (20 + 5 = $25).\n\nClass verifies each total.\n\n'Tappy says — bills + coins MIX. Same amount, MANY combos.'\n\nDemo 4th way. '12 toonies + 1 loonie = $24 + $1 = $25!'\n\nNow show wrong combo. '1 ten + 1 fiver + 1 fiver = $20. NOT $25!'\n\n'Tappy says — verify the TOTAL!'\n\nNow each pair gets Bill + Coin Cards + Record Strip. Target: $35 (NEW for them). Find 3 ways.\n\n'Tappy says — bills FIRST, then coins to fill in!'",
+    "student_actions": [
+      "Watch Tappy demo",
+      "Verify $25 combos",
+      "Plan first $35 combo",
+      "Skip-count by 5s, 10s"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Find 3 Ways to $35",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Bill + Coin Cards. Target: $35. Find 3 ways.",
+        "teacher_prompt": "Say: 'Find 3 ways.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Record each combo on strip.",
+        "teacher_prompt": "Say: 'Write combos.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: $35 using only TENS and LOONIES.",
+        "teacher_prompt": "Say: 'Stretch: tens + loonies.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help by starting with biggest bill first.",
+        "teacher_prompt": "Show: $20 first."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Find 1 way only.",
+      "for_extending": "Find 5 ways for $50.",
+      "for_ell_or_iep": "Pre-printed bill + coin templates.",
+      "for_movement_learners": "Walk between bill stations. NO-MATERIALS PATH: children use FINGERS as bills (whole hand = $20 bill, one finger = $5, thumb = $10). Body becomes the wallet."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: makes $35; verifies; records; mixes bills and coins; finds 3.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Makes $35",
+        "Records combos",
+        "Mixes bills + coins",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tappy's Mix Brag",
+    "discussion_prompts": [
+      "What bills make $35?",
+      "What COINS could fill in?",
+      "How many ways for $25?",
+      "Why mix bills + coins?",
+      "STRATEGY COMPARE: Two pairs share their $35 combos. Which used FEWER pieces? Which started with the BIGGEST bill? Cite NCTM equivalent-representation principle."
+    ],
+    "exit_routine": "Tappy's bills-and-coins refrain — 'BILLS for tens, COINS for cents — together they MAKE the AMOUNT!' Class chants. Each child writes one $35 combo with mixed bill+coin pieces."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Mix tracker.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures F1.1 mixed combos."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child uses 35 LOONIES for $35 — repairing the all-coins trap at Grade 2",
+    "rationale": "On bills + coins composition (e.g., $35 = $20 + $10 + $5 OR $25 + $10 + 4 quarters OR many alternatives), the trap is single-strategy fixation — child finds ONE combo and stops. NCTM Principles to Actions on equivalent representations and Carpenter & Moser CGI part-whole composition place flexibility as the gateway to multi-step money fluency.\n\nYesterday Lou built $1 many ways. Today extends to bills + mixed denominations. Lesson 4 hundreds; Lesson 5 capstones.",
+    "setup": "$35 activity. Child writes '35 loonies'.",
+    "teacher_script": "Crouch. 'Tappy asks — that's a LOT of coins. What about a BILL?'\n\nProbe. '$20 bill = 20 loonies in 1 piece. Faster!'\n\nGeneralise. 'Tappy says — for big amounts, USE BILLS first, coins to fill.'\n\nIf still all coins: 'Try the $20 bill. + $10 + $5 = $35. Just 3 pieces!'",
+    "expected_student_responses": [
+      "(Confused) All coins.",
+      "(Mid) Mixes with prompts.",
+      "(Strong) Uses bills first.",
+      "(Stretched) Finds fewest pieces."
+    ],
+    "common_misconceptions": [
+      "Coins always = simpler. (Repair: bills for big amounts.)",
+      "Bills only for $50+. (Repair: any big amount.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child finds $35 with one $20 + one $10 + one $5 and stops: hide the $20; force a non-$20 route.",
+      "DIAGNOSTIC B — child can't compose $35 at all: drop to round values ($30, $40); add $5 increments.",
+      "DIAGNOSTIC C — child uses bills only OR coins only: require MIXED — at least one bill AND at least one coin per combo."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Bills and Coins Mix",
+    "purpose": "Independent practice of F1.1 mix.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Show 3 ways to make $25 (mix bills + coins).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "For 3 combos, mark TRUE if total = $35.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "What's the FEWEST bills + coins to make $50?",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tappy + Lou in worksheet header",
+      "3 mix workspaces for Part 1",
+      "3 combos for Part 2"
+    ]
+  }
+}

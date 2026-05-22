@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "lesson_number": 2,
+  "worksheet_title": "Roo's cm/m Estimator",
+  "purpose": "Independent practice of E2.2.",
+  "student_learning_goal": "I can use cm and m and estimate with benchmarks.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can use cm and m and estimate with benchmarks.",
+    "character_watermark": "Roo with a metre stick in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Estimate.",
+          "student_instructions": "Estimate 5 lengths using benchmarks. Write cm or m.",
+          "visual_layout": "5 object rows with estimate lines.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_EST",
+              "description": "5 object rows for Grade 2 worksheet. Objects: paperclip, finger, book, doorway, school hallway. Each row has estimate line and unit choice (cm/m).",
+              "placement": "Centred in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "estimate",
+                "cm",
+                "m"
+              ],
+              "text_image_alignment_check": "WS02_P1_EST at Part 1: keywords name the activity and units."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Paperclip ~3 cm. Finger ~7 cm. Book ~25 cm. Doorway ~2 m. Hallway ~10 m."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Convert.",
+          "student_instructions": "Convert: 100 cm = ? m. 200 cm = ? m. 1 m = ? cm. 2 m = ? cm. 50 cm = ? m.",
+          "visual_layout": "5 conversion problems.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_CONVERT",
+              "description": "5 conversion problem rows for Grade 2 worksheet. Each row: '___ cm = ___ m' or '___ m = ___ cm'.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "convert",
+                "cm",
+                "m"
+              ],
+              "text_image_alignment_check": "WS02_P2_CONVERT at Part 2: keywords name the activity and units."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "100=1, 200=2, 1=100, 2=200, 50=0.5 (or 1/2)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: At home.",
+          "student_instructions": "Find 3 things at home: 1 about 1 cm, 1 about 50 cm, 1 about 1 m.",
+          "visual_layout": "Three labelled lines for finding home objects of different lengths (1 cm, 50 cm, 1 m).",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_HOME",
+              "description": "3 lines for Grade 2 worksheet. 'About 1 cm: ___', 'About 50 cm: ___', 'About 1 m: ___'.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "home",
+                "lengths"
+              ],
+              "text_image_alignment_check": "WS02_P3_HOME at Part 3: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 valid home objects."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, estimate the school hallway in cm AND m.",
+  "teacher_notes": "Lesson 2 consolidation. Use Part 2 as formative — conversion 100 cm = 1 m."
+}

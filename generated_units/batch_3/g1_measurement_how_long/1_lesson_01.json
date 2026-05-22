@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "lesson_number": 1,
+  "lesson_title": "Name the Attribute",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Every object has MEASURABLE ATTRIBUTES: length, area, mass, capacity.",
+  "learning_intention": "We are learning to name measurable attributes.",
+  "student_learning_goal": "I can name measurable attributes of objects.",
+  "success_criteria": [
+    "I can name LENGTH, AREA, MASS, CAPACITY.",
+    "I can pick the right attribute for an object.",
+    "I can explain why I chose that attribute."
+  ],
+  "vocabulary_introduced": [
+    "attribute",
+    "length",
+    "area",
+    "mass",
+    "capacity"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_attribute_cards",
+    "M7_attribute_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Roo and Cal — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Measurable Attributes'",
+    "Attribute Cards (16 per pair)",
+    "Lesson 1 attribute tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Roo Names the Attributes",
+    "hook": "Roo: This pencil has LENGTH. This book has AREA. This rock has MASS. This cup has CAPACITY! Roo opens: 'Measure it!' Class: 'Match it!' Cal: 'Mark the day!'",
+    "teacher_script": "Bring children to the carpet. Roo and Cal puppets. 'Friends — I'm Roo the Ruler Rabbit. Today we name MEASURABLE ATTRIBUTES of objects.'\n\nIntroduce vocabulary. Write ATTRIBUTE, LENGTH, AREA, MASS, CAPACITY on chart. 'Attribute = a way to describe an object. Length = how long. Area = how much flat space. Mass = how heavy. Capacity = how much it holds.'\n\nDemonstrate. Hold up a pencil. 'What attribute? LENGTH — we measure how long.' Hold up a book. 'AREA — we measure the cover space.' Hold up a rock. 'MASS — we measure how heavy.' Hold up a cup. 'CAPACITY — we measure how much it holds.'\n\nMore examples:\n- Ruler: length\n- Carpet: area\n- Backpack: mass + capacity\n- Door: length (height) + area\n\n'Roo says — most objects have MORE THAN ONE attribute.'\n\n'Today we name attributes for lots of objects.'",
+    "student_actions": [
+      "Listen to Roo",
+      "Echo new vocabulary",
+      "Identify attributes for common objects",
+      "Practice the 4 attribute names"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Attribute Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: name attributes for 6 classroom objects.",
+        "teacher_prompt": "Say: 'What attribute? Why?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Sort 16 attribute cards into the 4 categories. Station B: Pick an object and list its attributes. Station C: Multi-attribute hunt — find 5 objects with 2+ attributes.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: name 5 attributes for one object (length, area, mass, capacity, plus colour or shape).",
+        "teacher_prompt": "Say: 'Stretch: 5 attributes.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss attribute choice. 'Some attributes apply to all objects (length). Some only to specific (capacity = container only).'",
+        "teacher_prompt": "Show: a rock has mass but not capacity."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic evidence on the attribute tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's the attribute?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE at Station C: two pairs share how they decided which attribute to name for an AMBIGUOUS object (backpack — mass? capacity? both?). Class compares reasoning. Cite Sarama & Clements 2009 attribute trajectory: precise naming is the prerequisite for comparison and ordering.",
+        "teacher_prompt": "Roo: 'A backpack has MASS (it's heavy when full) AND CAPACITY (it holds your books). The math word matters — pick the one you can MEASURE.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just sort 8 cards into 2 categories.",
+      "for_extending": "Stretch at Station C: 5 attributes per object.",
+      "for_ell_or_iep": "Provide a sentence frame: 'This ___ has ___.'",
+      "for_movement_learners": "Children carry objects around the room and name attributes aloud."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: names 4 attributes; picks the right one; explains why.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names 4 attributes",
+        "Picks the right one",
+        "Explains why",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Roo's Attribute Brag",
+    "discussion_prompts": [
+      "What is an ATTRIBUTE?",
+      "What are the 4 measurable attributes?",
+      "Can one object have many attributes?",
+      "When do we use CAPACITY?",
+      "Roo's preview: tomorrow we'll COMPARE lengths and areas (Lesson 2 — E2.1). Look at your sticky — would TWO of those things compare by the same attribute, or different ones?"
+    ],
+    "exit_routine": "Roo's unit refrain — Roo calls 'Measure it!' Class chants 'Match it!' Cal echoes 'Mark the day!' Repeat 3x. Each child writes one object + the attribute they would measure on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Attribute identification accuracy.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already use measurement vocabulary."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child confuses MASS and CAPACITY — repairing the mass-capacity mix-up at Grade 1",
+    "rationale": "When children pick up a measurable object and are asked 'what can you measure?', the dominant Grade-1 trap is attribute confusion: child says 'big' (vague), or names mass for a hollow container when they meant capacity, or names capacity for solids. Sarama & Clements (2009, 'Early Childhood Mathematics Education Research: Learning Trajectories for Young Children') place attribute discrimination as the foundation of all later measurement reasoning — without it, comparison (Lesson 2-3) and ordering (Lesson 4-5) have nothing to compare or order.\n\nToday's task is precise attribute naming: LENGTH, AREA, MASS, CAPACITY. Tomorrow Lesson 2 compares lengths and areas; Day 3 compares mass and capacity; Day 4 introduces calendar; Day 5 integrates.",
+    "setup": "Pair is at Station B. Child holds a cup. Says 'this cup's attribute is MASS' when asked about how much it can hold.",
+    "teacher_script": "Crouch. 'You said MASS. Roo asks — when you HOLD water in this cup, what attribute is that?'\n\nWalk through. 'CAPACITY = how much it HOLDS. MASS = how HEAVY it is. They're different.'\n\nGeneralise. 'Roo says — when in doubt, ASK \"is this about HOLDING (capacity) or WEIGHT (mass)?\"'\n\nNow practice. 'A rock — has it got CAPACITY?' (No.) 'A cup of water — has it got CAPACITY?' (Yes.)\n\nIf still mixed: provide a sorting card. 'CAPACITY only applies to CONTAINERS.'\n\nLong-term recovery: every attribute identification names the test.",
+    "expected_student_responses": [
+      "(Confused) Confuses mass and capacity.",
+      "(Mid) Distinguishes with prompts.",
+      "(Strong) Names attributes independently.",
+      "(Stretched) Identifies multiple attributes per object."
+    ],
+    "common_misconceptions": [
+      "Capacity = mass. (Repair: capacity is about HOLDING, mass is about WEIGHT.)",
+      "All objects have all 4 attributes. (Repair: capacity only for containers.)",
+      "Length and area are the same. (Repair: length is 1D, area is 2D.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names mass for ANY container (full or empty): contrast a full cup vs empty cup. Same container, different mass; child says 'mass changes when you fill it; capacity stays the same.'",
+      "DIAGNOSTIC B — child applies capacity to solids (a brick has 'capacity'): sort objects into two trays — CONTAINERS (have capacity) vs SOLIDS (no inside, no capacity). Child re-categorises.",
+      "DIAGNOSTIC C — child cannot articulate any attribute: model 4 questions on one object — How LONG? How much AREA? How heavy (MASS)? How much fits inside (CAPACITY)? Child repeats with a second object."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Roo's Attribute Hunt",
+    "purpose": "Independent practice of E2.1.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Match 6 objects to their attribute (length / area / mass / capacity).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Pick one object. List 2 attributes it has.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Find 3 objects in your home. Name an attribute for each.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Roo in worksheet header",
+      "6 objects for matching in Part 1",
+      "Object + attribute lines for Part 2",
+      "Blank for Part 3"
+    ]
+  }
+}

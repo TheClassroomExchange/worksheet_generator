@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "thematic_title": "Balanced Equations",
+  "descriptive_title": "Grade 3 Mathematics: Algebra — Variables, Equivalent Expressions, and Equivalent Relationships for Whole Numbers to 1000 (C2.1-C2.3)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "C. Algebra",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+  "curriculum_codes": ["C2.1", "C2.2", "C2.3"],
+  "curriculum_expectations": {
+    "C2.1": "describe how variables are used, and use them in various contexts as appropriate",
+    "C2.2": "determine whether given pairs of addition, subtraction, multiplication, and division expressions are equivalent or not",
+    "C2.3": "identify and use equivalent relationships for whole numbers up to 1000, in various contexts"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on Algebra framed around 'Balanced Equations' — Eddy the Equation Engineer and Vex the Variable Vet. Day 1 introduces variables in real contexts (C2.1). Day 2 tests whether addition/subtraction expressions are equivalent (C2.2). Day 3 tests multiplication and division equivalence (C2.2). Day 4 hunts equivalent relationships for whole numbers up to 1000 (C2.3). Day 5 closes with child-created balance puzzles. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will describe and use variables; determine whether expressions across all four operations are equivalent; and find equivalent relationships for whole numbers up to 1000.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Variables in Real Life", "primary_expectations": ["C2.1"], "secondary_expectations": [], "big_idea": "A variable stands for an unknown OR a quantity that varies. We use variables everywhere — temperature, score, age — when the value can change.", "student_learning_goal": "I can describe how variables are used in real-life contexts.", "one_line_summary": "Eddy introduces variables in temperature, sports scores, ages, prices; children identify variables in real-life examples."},
+    {"lesson_number": 2, "lesson_title": "Equivalent in Addition and Subtraction", "primary_expectations": ["C2.2"], "secondary_expectations": [], "big_idea": "Two addition or subtraction expressions are EQUIVALENT when they have the SAME total. 50+25 = 75 = 100-25.", "student_learning_goal": "I can determine whether addition and subtraction expressions are equivalent.", "one_line_summary": "Children compare addition and subtraction expressions; sort EQUIVALENT vs NOT EQUIVALENT."},
+    {"lesson_number": 3, "lesson_title": "Equivalent in Multiplication and Division", "primary_expectations": ["C2.2"], "secondary_expectations": [], "big_idea": "Two multiplication or division expressions are EQUIVALENT when they have the same product or quotient. 4x6 = 24 = 8x3 = 48÷2.", "student_learning_goal": "I can determine whether multiplication and division expressions are equivalent.", "one_line_summary": "Children compare multiplication and division expressions; sort EQUIVALENT vs NOT EQUIVALENT."},
+    {"lesson_number": 4, "lesson_title": "Many Ways to Make 100, 250, 500", "primary_expectations": ["C2.3"], "secondary_expectations": [], "big_idea": "There are MANY ways to make any whole number up to 1000. Mix all four operations.", "student_learning_goal": "I can find many equivalent expressions for whole numbers up to 1000.", "one_line_summary": "Equivalent-expression hunt across all four operations for target numbers (100, 250, 500, 750, 1000)."},
+    {"lesson_number": 5, "lesson_title": "Balance Puzzle Capstone", "primary_expectations": ["C2.1", "C2.2", "C2.3"], "secondary_expectations": [], "big_idea": "We can create balance puzzles using variables, equivalent expressions, and big numbers.", "student_learning_goal": "I can create and solve a balance puzzle using a variable.", "one_line_summary": "Children invent a balance puzzle (e.g., 250 = 100 + ?); gallery share."}
+  ],
+  "expectation_lesson_map": {"C2.1": [1, 5], "C2.2": [2, 3, 5], "C2.3": [4, 5]},
+  "recurring_characters": [
+    {"name": "Eddy the Equation Engineer", "role": "Lead character. A young engineer with hard hat, holding a balance scale and blueprint. Anchors all 5 lessons.", "visual_description": "A young engineer in a hard hat with a balance-scale clipboard, blueprints in hand, friendly smile. Confident pose."},
+    {"name": "Vex the Variable Vet", "role": "Eddy's partner. The 'vet' for sick or broken equations. Cameo Lessons 2-5.", "visual_description": "A young vet in a lab coat with a stethoscope and an equation-band aid. Caring expression."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "variable", "child_friendly_definition": "A symbol that stands for an unknown OR a value that can change."},
+    {"term": "equivalent", "child_friendly_definition": "Equal in value. Two expressions name the same number."},
+    {"term": "expression", "child_friendly_definition": "A math sentence with numbers and operations."},
+    {"term": "equation", "child_friendly_definition": "A math sentence saying two expressions are equal."},
+    {"term": "balance", "child_friendly_definition": "When two expressions have the same value, they balance."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_variable_chart", "name": "Variable in Real Life Chart", "description": "Letter-size chart with everyday variable examples.", "used_in_lessons": [1], "clipart_files": []},
+    {"id": "M2_balance_mat", "name": "Big Balance Scale Mat", "description": "Letter-size balance mat for numbers up to 1000.", "used_in_lessons": [2, 3, 4, 5], "clipart_files": []},
+    {"id": "M3_addition_cards", "name": "Addition/Subtraction Equivalence Cards", "description": "24 cards for sorting equivalent vs not equivalent.", "used_in_lessons": [2], "clipart_files": []},
+    {"id": "M4_multiplication_cards", "name": "Multiplication/Division Equivalence Cards", "description": "24 cards for sorting equivalent vs not equivalent.", "used_in_lessons": [3], "clipart_files": []},
+    {"id": "M5_target_cards", "name": "Equivalent-Target Cards", "description": "12 target cards (100, 250, 500, 750, 1000, etc.).", "used_in_lessons": [4], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Balance Puzzle Capstone Template", "description": "Letter-size capstone template.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_two_colour_counters", "name": "Two-Colour Counters", "description": "30 counters per pair.", "used_in_lessons": [2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_number_line", "name": "Number Line to 1000", "description": "Letter-size number line marked 0 to 1000 in 50s.", "used_in_lessons": [2, 3, 4], "clipart_files": []},
+    {"id": "M9_equation_chart", "name": "Equation Anchor Chart", "description": "Anchor chart showing the 4 operations and equivalence.", "used_in_lessons": [1, 2, 3, 4], "clipart_files": []},
+    {"id": "M10_engineer_poster", "name": "Eddy the Equation Engineer Poster", "description": "Anchor poster of Eddy and Vex.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Variable in Real Life Chart",
+    "Big Balance Scale Mats (one per pair)",
+    "Addition/Subtraction Cards (24)",
+    "Multiplication/Division Cards (24)",
+    "Equivalent-Target Cards (12)",
+    "Balance Puzzle Capstone Templates (one per child)",
+    "Two-colour counters (30 per pair)",
+    "Number Lines to 1000 (one per pair)",
+    "Equation Anchor Chart",
+    "Eddy the Equation Engineer Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 variable snapshot.",
+    "formative": "Lesson 2 add/sub tracker; Lesson 3 mult/div tracker; Lesson 4 equivalent-relationships tracker.",
+    "summative": "Lesson 5 Balance Puzzle worksheet."
+  },
+  "pedagogical_notes": [
+    "C2.1 expands variables to include 'value that can change' (temperature, score) — not just unknown.",
+    "C2.2 across all 4 operations is the Grade-3 expansion. Use the balance scale to test each operation.",
+    "C2.3 to 1000 needs multiplication and division to be efficient. 100 = 25x4 = 50x2 = 200÷2.",
+    "The equal sign ALWAYS means SAME AMOUNT — across all operations.",
+    "Mix operations in equivalent expressions. Don't keep them in separate buckets."
+  ],
+  "canadian_context_notes": [
+    "Real-life variables: temperature in Celsius (-30 to +30), Leafs score in a season, snowfall in cm per day, hockey goals scored.",
+    "Dollar amounts: $100 = $50+$50 = $25x4 = $200÷2.",
+    "Population: town populations up to 1000; equivalent expressions for population counts."
+  ]
+}

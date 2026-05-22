@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "deck_url": "https://docs.google.com/presentation/d/15ZYBJ2WgFZdzUXh-O-7Fy5j-5vgLrWJWR6p14LCuaBI/edit",
+  "pdf_path": "/Users/aria/Documents/TheClassroomExchange/claude_code_handoff/worksheet_generator/generated_units/batch_3/g1_number_adding_machine/validation_export.pdf",
+  "pdf_size_kb": 779,
+  "slide_count": 28,
+  "inspected_at": "2026-05-10T12:14:02Z",
+  "inspected_by": "claude-visual-inspector-batch3",
+  "status": "revise_assets",
+  "issues": [
+    {
+      "slide_number": 13,
+      "category": "missing_asset",
+      "description": "The Plus the Pup paper-bag puppet manipulative slide (M1_plus_puppet) shows an empty bordered lined-paper rectangle with the caption 'Plus the Adder puppet template'. There is no actual puppet template artwork rendered, just a blank writing area.",
+      "suggested_fix": "Re-run the manipulative composer for M1_plus_puppet so the slide shows the actual paper-bag puppet template with Plus the Adding Pup line art (front and back faces) ready to be cut and glued onto a paper bag.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 14,
+      "category": "missing_asset",
+      "description": "The Minnie the Mouse paper-bag puppet manipulative slide (M2_minnie_puppet) is an empty bordered lined rectangle with caption 'Minnie the Minus puppet template'. No actual puppet template is shown.",
+      "suggested_fix": "Re-run the manipulative composer for M2_minnie_puppet so the slide shows the paper-bag puppet template with Minnie the Minus Mouse art (a tiny detective with a magnifier).",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 16,
+      "category": "missing_asset",
+      "description": "M4_two_colour_counters is described as 'Round counters, red on one side and yellow on the other,' but the hero shows a blank ten-frame with 5 black dots labelled 'Ten Frame' — the wrong asset. Teachers cannot see the two-colour counter that lessons 1-4 reference.",
+      "suggested_fix": "Re-run the manipulative composer for M4_two_colour_counters to render actual round counters showing the red/dark and yellow/light sides side-by-side, instead of a generic ten-frame.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 17,
+      "category": "missing_asset",
+      "description": "M5_fact_triangles is described as 'Set of 30 laminated triangle cards,' but the hero shows a 3x3 array of black dots labelled 'Array — 3 × 3'. There are no triangle fact-family cards visible — teachers and students cannot preview the manipulative used in lessons 1 and 3.",
+      "suggested_fix": "Re-run the manipulative composer for M5_fact_triangles to draw a sample triangle fact-family card (e.g., 4-3-7 with sum at the top and addends at the bottom), instead of an unrelated dot array.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 18,
+      "category": "missing_asset",
+      "description": "M6_doubles_dice slide shows a blank ten-frame as the hero with caption 'Ten Frame', but the description says 'Pair of large foam 1-10 dice'. Wrong asset rendered: dice are not shown at all.",
+      "suggested_fix": "Re-run the manipulative composer for M6_doubles_dice to render a pair of 1-10 dice (e.g., two cube faces showing pip arrangements or numerals 1-10) instead of a ten-frame.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 20,
+      "category": "missing_asset",
+      "description": "M8_paper_cookies should show '~30 printable paper cookie tokens (chocolate chip, oatmeal, sugar)' but the hero shows a 4x5 dot array labelled 'Array — 4 × 5'. No cookie shapes are visible. Teachers cannot preview the lesson 5 fair-share manipulative.",
+      "suggested_fix": "Re-run the manipulative composer for M8_paper_cookies to draw actual paper cookie tokens with chocolate chip / oatmeal / sugar styling and the half-line for the half-cookie demonstration.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 21,
+      "category": "missing_asset",
+      "description": "M9_share_plates description says 'Set of 5 paper plates per group' but the hero shows a blank ten-frame with caption 'Ten Frame'. Wrong asset rendered — paper plates are not visible.",
+      "suggested_fix": "Re-run the manipulative composer for M9_share_plates to draw actual paper plate circles ready for fair-share rounds instead of a generic ten-frame placeholder.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 8,
+      "category": "missing_asset",
+      "description": "Worksheet preview for Lesson 1 (Plus the Pup's Adding Machine) shows the hero as a blank lined writing area labelled 'Ws01 P3 Plus Two Paws' with caption 'Show your work below.' No actual ten-frame/treats/equations artwork is rendered as the printable worksheet hero.",
+      "suggested_fix": "Re-run the worksheet composer for Ws01 P3 so the hero panel shows actual content (e.g., Plus's two paws with treats and the addition equation) rather than an empty lined rectangle.",
+      "severity": "blocking"
+    },
+    {
+      "slide_number": 11,
+      "category": "other",
+      "description": "Lesson 4 worksheet (Build It, Solve It) shows three identical instructions: '1. Read each story. 2. Read each story. 3. Read each story.' This is clearly a deduplication or composer error — there should be three distinct steps for the act-out / draw / equation pipeline.",
+      "suggested_fix": "Edit the worksheet JSON for Lesson 4 so the three student instructions are distinct (e.g., '1. Read each story. 2. Draw a tape diagram. 3. Write the equation.').",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 6,
+      "category": "text_overflow",
+      "description": "Lesson 4 Action section bullet 'change-take-from (something is TAKEN AWAY from a…' is truncated mid-sentence with an ellipsis. The teacher cannot read the rest of the change-take-from definition without flipping to the lesson plan file.",
+      "suggested_fix": "Shorten the Action bullet text in the Lesson 4 lesson JSON or split across lines so the full 'something is TAKEN AWAY from a starting amount' definition fits on the slide.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 26,
+      "category": "title_clipping",
+      "description": "Summative rubric Expectation column truncates every B2.1-B2.5 cell with '…' (e.g., 'B2.1 use the properties of addition and subtraction,…') and several Level 1-4 descriptor cells also end with '…'. The achievement-level descriptors are partially hidden.",
+      "suggested_fix": "Widen the rubric columns or shrink the cell font so B2.1-B2.5 expectation text and Level 1-4 descriptors fit without ellipsis truncation.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 8,
+  "summary": "Eight blocking missing-asset issues dominate this deck: both character puppet templates (Plus, Minnie) render as blank lined rectangles, five manipulative slides (counters, fact triangles, doubles dice, paper cookies, share plates) show generic ten-frames or dot arrays instead of the asset described, and Lesson 1 worksheet hero is blank. Manipulative composer needs re-run; status revise_assets."
+}

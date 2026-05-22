@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "pair_number": 2,
+  "graded_at": "2026-05-08T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 2,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "instructional_balance",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "lesson_specific_materials lists 'Detective Dot and Tally puppets' as a required item, with no optional/no-puppet alternative. The rubric explicitly flags REQUIRED puppets as a Level 2 disqualifier because most Canadian K-3 classrooms do not have puppets on hand.",
+      "required_fix": "Make the puppets explicitly OPTIONAL in lesson_specific_materials (e.g., 'OPTIONAL: Detective Dot and Tally puppets — if no puppets, use two stuffed animals, paper-bag puppets, or just point to the Data Detectives Poster while voicing the characters'). Mirror this in the minds_on teacher_script so a teacher with zero prep can run the hook with voice-and-poster only.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 2 teaches the 4+1 tally cross convention well — real G1 no-cross trap, concrete recovery, child-friendly voice, and the worksheet practises the same three success criteria (read tallies, survey, total by 5s). Blocking issue: lesson_specific_materials REQUIRES Detective Dot and Tally puppets, which the rubric flags as Level 2. Mark puppets OPTIONAL with a no-puppet alternative path (stuffed animal or pointing to the poster) and this pair passes."
+}

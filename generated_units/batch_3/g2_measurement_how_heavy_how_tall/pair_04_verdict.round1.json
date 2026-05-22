@@ -1,0 +1,57 @@
+{
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "pair_number": 4,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "recovery_moves are generic and non-branching: 'Use time-benchmarks chart.', 'Drill with stopwatch.', 'Practice estimation before timing.' — none branches by what the diagnostic told you about the child, and no named research is cited in expanded_walkthrough.",
+      "required_fix": "Rewrite expanded_walkthrough.recovery_moves to BRANCH by diagnostic: (a) if child says brushing = 2 seconds because they think 'seconds = anything fast', physically time them brushing and graph the gap (~118s); (b) if child cannot order events by duration at all, drop back to a 3-card sort (blink/song/sleep) before re-attempting magnitude; (c) if child knows order but not unit names, drill the 'blink/snap = SECOND, song = MINUTE, school day = HOUR' anchor chant. Cite research e.g. Friedman (1986) on children's time-magnitude estimation OR Ontario Math Curriculum 2020 Grade 2 E2.4 progression notes.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Materials are everyday and puppets are OPTIONAL ('OPTIONAL: Roo and Cal — if available; otherwise teacher voices both characters...'), but the lesson does NOT include a NO-PAPER, NO-PURCHASE alternative path using only voice/body/gesture. The differentiation block lacks a no-materials variant.",
+      "required_fix": "Add to action.differentiation a 'no_materials_version' key, e.g. 'No-paper version — children stand for HOURS (big stretch up), sit for MINUTES (medium pose), and snap fingers for SECONDS. Teacher calls events; whole class shows the body pose for the matching unit. No cards, stopwatch, or chart needed.' This makes the lesson runnable on any prep-less day.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "primary_expectations E2.4 is named-and-addressed and curriculum text matches source, but expanded_walkthrough does NOT cross-reference neighbouring days. The arc connection ('yesterday rulers. Today TIME UNITS') in teacher_script is one-direction-only and does not bridge forward to Day 5 capstone.",
+      "required_fix": "Add an explicit bridge in expanded_walkthrough or teacher_script: 'Remember on Day 3 we said the ruler tells us LENGTH in cm? Today the stopwatch tells us TIME in seconds. Tomorrow at the Measure Marathon you'll pick BOTH the right tool AND the right unit at every station.' This anchors Lesson 4 between Lesson 3 (ruler tool) and Lesson 5 (capstone integration).",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual scaffolding is solid (60-rule, magnitude examples, non-example) but the lesson does not let children invent or compare strategies for estimating duration, and expanded_walkthrough names the trap only in everyday terms ('wrong-time-unit trap') without research grounding (Friedman, Levin, or Ontario progression).",
+      "required_fix": "In action.steps add a 'compare strategies' moment: after Station B timing, two pairs share HOW they estimated before timing (one Mississippi-counting, one body-rhythm-tapping, one 'song length'). In expanded_walkthrough.rationale add: 'Friedman (1986, 1990) shows Grade 2 children acquire conventional time-unit magnitudes unevenly — they often map seconds to any short event before learning 60-second boundary. The repair is direct comparison to a felt 60-count, not just told.'",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "summary_note": "Pair 4 is solid in voice and lesson-worksheet consistency (Roo/Cal anchored, Part 3 transfer task, all I-can criteria), but four categories sit at Level 3. Lift pedagogical_depth (branched recovery + research citation), instructional_balance (no-paper variant), alignment (explicit Day-3-to-Day-5 bridge), and mathematical_authenticity (strategy compare + Friedman citation) to clear the bar. All edits are in lesson_04; worksheet_04 is fine."
+}

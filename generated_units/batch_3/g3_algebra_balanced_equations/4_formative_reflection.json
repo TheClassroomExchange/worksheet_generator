@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "formative_worksheets": [
+    {"title": "Mid-Unit Equation Check-In", "when_to_use": "After Lesson 3, before Lesson 4. A 10-minute check on C2.1 and C2.2.", "purpose": "Standalone formative assessment.", "expectations_assessed": ["C2.1", "C2.2"], "student_learning_goal": "I can describe variables and test equivalence.",
+      "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can describe variables and test equivalence.", "character_watermark": "Eddy in the top-right corner. Small (~1.5in tall)."},
+      "prompts": [
+        {"prompt_number": 1, "prompt": "Describe what the variable T stands for in T = today's temperature.", "visual_layout": "Top of page. A description slot.",
+          "image_placeholders": [{"id": "FORM_Q1_VAR", "description": "A description slot in B&W, ~6in x 1in. 'T stands for: ___'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["variable"], "text_image_alignment_check": "Image FORM_Q1_VAR: keywords (variable) name what the slot asks for."}],
+          "response_type": "write", "answer_key": "T stands for the temperature value (varies)."},
+        {"prompt_number": 2, "prompt": "Test: 50 + 25 vs 100 - 25. EQUIVALENT or NOT?", "visual_layout": "Upper-middle. A single test row with EQ/NOT bubbles.",
+          "image_placeholders": [{"id": "FORM_Q2_ADD", "description": "A test row in B&W, ~6in x 1in. '50+25 vs 100-25'. With EQ/NOT bubbles.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["test"], "text_image_alignment_check": "Image FORM_Q2_ADD: keywords (test) name the row."}],
+          "response_type": "write", "answer_key": "EQUIVALENT (both 75)."},
+        {"prompt_number": 3, "prompt": "Test: 24 ÷ 4 vs 30 ÷ 5. EQUIVALENT or NOT?", "visual_layout": "Middle of page. A single test row with EQ/NOT bubbles.",
+          "image_placeholders": [{"id": "FORM_Q3_DIV", "description": "A test row in B&W, ~6in x 1in. '24÷4 vs 30÷5'. With EQ/NOT bubbles.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["test"], "text_image_alignment_check": "Image FORM_Q3_DIV: keywords (test) name the row."}],
+          "response_type": "write", "answer_key": "EQUIVALENT (both 6)."},
+        {"prompt_number": 4, "prompt": "How are you feeling? Circle the face labelled GOT IT, ALMOST, or TRY AGAIN.", "visual_layout": "Bottom of page. Three faces in a row labelled GOT IT, ALMOST, and TRY AGAIN.",
+          "image_placeholders": [{"id": "FORM_Q4_FACES", "description": "Three round face icons in a row in B&W. Smile labelled GOT IT, neutral labelled ALMOST, frown labelled TRY AGAIN.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["got", "almost", "try"], "text_image_alignment_check": "Image FORM_Q4_FACES: keywords (got, almost, try) name the labels."}],
+          "response_type": "self_rate", "answer_key": "Open."}
+      ],
+      "teacher_notes": "Score: variable + add/sub + mult/div = ready for Lesson 4."}
+  ],
+  "reflection_sheet": {"title": "My Engineer Reflection", "purpose": "End-of-unit metacognition.", "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.", "character_watermark": "Eddy holding a Junior Equation Engineer certificate. Small (~1.5in tall)."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel about being a Junior Equation Engineer? Circle one.", "visual_layout": "Top of page. Three star-rating ovals.",
+        "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals in B&W. 1 star, 2 stars, 3 stars. Labels: 'Just starting', 'Mostly got it', 'I am an Engineer!'.", "placement": "Centred at top.", "approximate_size": "full_width", "keywords": ["stars"], "text_image_alignment_check": "Image REF_STARS: keywords (stars) name the rating ovals."}],
+        "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am an Engineer!"]},
+      {"prompt_number": 2, "prompt": "Did you do these things? Circle YES or NO.", "visual_layout": "Upper-middle. A 5-row YES/NO table.",
+        "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 5-row YES/NO table in B&W. Rows: 'I described variables', 'I tested add/sub equivalence', 'I tested mult/div equivalence', 'I found many ways for big numbers', 'I made a balance puzzle'.", "placement": "Centred, full-width.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "Image REF_YN_TABLE: keywords (yes, no) name the response bubbles."}],
+        "response_type": "circle_yes_no", "options": ["I described variables", "I tested add/sub equivalence", "I tested mult/div equivalence", "I found many ways for big numbers", "I made a balance puzzle"]},
+      {"prompt_number": 3, "prompt": "Which was your FAVOURITE engineer task?", "visual_layout": "Middle. Five icon options.",
+        "image_placeholders": [{"id": "REF_FAV_BOX", "description": "Five icons in B&W: variable, add/sub equivalence, mult/div equivalence, many-ways hunt, balance puzzle. Each ~1in x 1in with selection bubble.", "placement": "Centred.", "approximate_size": "full_width", "keywords": ["icons"], "text_image_alignment_check": "Image REF_FAV_BOX: keywords (icons) name the five options."}],
+        "response_type": "circle_or_loop"},
+      {"prompt_number": 4, "prompt": "Which was the TRICKIEST part?", "visual_layout": "Lower-middle. Three tricky-moment cards in a row.",
+        "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "Three tricky-moment cards in a row in B&W. Each ~1.5in x 1.5in. Labels: 'Variables', 'Mult/div equivalence', 'Many ways'.", "placement": "Centred.", "approximate_size": "full_width", "keywords": ["cards"], "text_image_alignment_check": "Image REF_TRICKY_BOX: keywords (cards) name the three cards."}],
+        "response_type": "circle_or_loop"},
+      {"prompt_number": 5, "prompt": "What do you want to learn NEXT?", "visual_layout": "Bottom. Three forward-goal cards.",
+        "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "Three forward-goal cards in a row in B&W. Each ~1.5in x 1.5in. Labels: 'Bigger numbers', 'Two variables', 'Real-world equations'.", "placement": "Centred.", "approximate_size": "full_width", "keywords": ["cards"], "text_image_alignment_check": "Image REF_NEXT_BOX: keywords (cards) name the three cards."}],
+        "response_type": "circle_or_loop"}
+    ],
+    "teacher_notes": "Hand out at end of Lesson 5 after the certificate ceremony."}
+}

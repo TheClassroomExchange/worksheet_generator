@@ -1,0 +1,11 @@
+{
+  "unit_id": "g1_algebra_loop_the_loop",
+  "status": "pass",
+  "inspected_at": "2026-05-10T18:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch2",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 13, "description": "Coda's Predict Workshop shows duplicate instruction line '1. Read each code. 2. Read each code.' - content/data drift carried over from prior rounds, not a visual rendering issue."}
+  ],
+  "summary": "PASS. All 27 pages render cleanly. Worksheets (pages 8-13) now show proper title, learning-goal box, student instructions, and ruled workspace - no more 'Read prompt / Try it / Show your work' debug stubs. 2-row C3.1/C3.2 rubric is fully readable. Character art (Coda, Looper) renders cleanly."
+}

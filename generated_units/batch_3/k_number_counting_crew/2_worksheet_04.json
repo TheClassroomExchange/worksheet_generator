@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "lesson_number": 4,
+  "worksheet_title": "Subitize: How Many at a Glance",
+  "purpose": "End-of-Lesson-4 consolidation. Children practise subitizing 1-5 on paper using printed dot cards and tally what they 'just saw' versus what they had to count. Captures formative-level evidence for A6.4 — every child produces a written record of which quantities they subitize fluently.",
+  "student_learning_goal": "I can look at a small group and say how many without counting.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can look at a small group and say how many without counting.",
+    "character_watermark": "Buddy the puppy sits in the top-right corner of the header with a row of 5 paw prints trailing across to the page edge — visually anchoring the subitize-the-paw-prints theme."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Quick Look — Write the Number",
+          "student_instructions": "Look at each dot card for a moment. Write the number you saw without counting. There are five cards.",
+          "visual_layout": "Top third of the page. Five dot-pattern cards arranged horizontally, each ~1.5in square with a thick black border. Cards show: dice-1 (single centred dot), dice-2 (two opposite-corner dots), dice-3 (three dots on a diagonal), dice-4 (four corner dots), dice-5 (four corners + centre). Below each card sits a small empty box (~1in square) with a faint baseline guide for the child to write the matching numeral.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_DICE_PATTERN_DOT_CARDS",
+              "description": "A horizontal row of five dot-pattern cards, each 1.5in × 1.5in with a thick black border. Card 1: a single dot centred. Card 2: two dots in opposite corners (top-right, bottom-left). Card 3: three dots on a diagonal (top-left, centre, bottom-right). Card 4: four dots, one in each corner. Card 5: four corner dots plus a centre dot. All dots are filled black circles, ~0.4in diameter. Below each card, a small empty answer box ~1in square with a faint horizontal baseline.",
+              "placement": "spans the upper third of the page, full width",
+              "approximate_size": "full_width",
+              "keywords": [
+                "dot",
+                "card",
+                "dice",
+                "pattern",
+                "subitize",
+                "number"
+              ],
+              "text_image_alignment_check": "Student instructions say 'Look at each dot card for a moment. Write the number you saw without counting. There are five cards.' The image shows exactly five dot-pattern cards (dice-1 through dice-5), each with an empty answer box below. The dot-card and number-writing references in the instructions match the visual elements one-to-one."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "1, 2, 3, 4, 5 (in order). Children who write the digits without counting on the page (no tally marks beside the cards) are securely subitizing dice patterns. Children who count visibly are still developing — flag for next-day quick-flash practice."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Sort — I See It vs. I Count It",
+          "student_instructions": "Cut out the cards at the bottom. Sort them: 'I see it!' for cards with 1 to 5 dots, and 'I count it' for cards with 6 or more dots.",
+          "visual_layout": "Middle third of the page. Two large sort circles labelled 'I SEE IT!' (left, blue) and 'I COUNT IT' (right, orange), each ~3in diameter with thick coloured borders. Below the circles, along the bottom edge of Part 2, a row of 8 cut-out cards: dot patterns for 2 (dice-2), 7 (random scatter), 4 (dice-4), 8 (random scatter), 3 (dice-3), 5 (dice-5), 6 (random scatter), and 1 (single dot). Cards are separated by a perforated cut line.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_SORT_MAT_SUBITIZE_COUNT",
+              "description": "Two large circle sort-zones side by side, each 3in diameter. LEFT circle labelled 'I SEE IT!' with a thick blue border and a small 'eye' icon. RIGHT circle labelled 'I COUNT IT' with a thick orange border and a small 'finger pointing' icon. Below the circles, a horizontal strip of eight 1.5in dot-pattern cards along a perforated cut line: 2 dots (dice-2), 7 dots (random scatter), 4 dots (dice-4), 8 dots (random scatter), 3 dots (dice-3), 5 dots (dice-5), 6 dots (random scatter), 1 dot (single).",
+              "placement": "spans the middle third of the page, full width",
+              "approximate_size": "full_width",
+              "keywords": [
+                "sort",
+                "circle",
+                "see",
+                "count",
+                "dot",
+                "card"
+              ],
+              "text_image_alignment_check": "Student instructions say 'Cut out the cards at the bottom. Sort them: I see it! for cards with 1 to 5 dots, and I count it for cards with 6 or more dots.' The image shows two labelled sort circles ('I SEE IT!' and 'I COUNT IT') and a row of eight dot-pattern cut-out cards spanning quantities 1 through 8 — exactly matching the sort task described in the instructions."
+            }
+          ],
+          "student_response_type": "cut_and_sort",
+          "answer_key": "I SEE IT! (subitize) cards: 1, 2, 3, 4, 5 dots. I COUNT IT cards: 6, 7, 8 dots. Children who place the dice-5 card in 'I count it' may be using a strict no-glance rule — accept and discuss; the boundary between subitize and count is real but flexible."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Buddy's Paw-Print Trails",
+          "student_instructions": "Buddy left some paw prints in different places. Circle the groups your eyes can JUST KNOW (subitize). Cross out the groups you have to count.",
+          "visual_layout": "Bottom third of the page. Six small framed scenes stacked in a 2×3 grid, each ~2in × 1.5in. Each scene shows a snippet of classroom floor with a different number of Buddy's paw prints scattered (1, 4, 7, 3, 8, 2). Each scene has a thick brown border with a small Buddy-icon in the corner. Below each scene, the child either circles the scene (if it's subitizable) or draws a big X over the prints (if it's count-only).",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_PAW_PRINT_GROUPS_1_TO_8",
+              "description": "A 2×3 grid of six small framed scenes. Each scene shows a section of classroom floor (a faint wood-grain texture) with paw prints scattered in different quantities: scene 1 has 1 paw print; scene 2 has 4 paw prints (in a roughly square arrangement); scene 3 has 7 paw prints (random scatter); scene 4 has 3 paw prints (in a triangle); scene 5 has 8 paw prints (random scatter); scene 6 has 2 paw prints (side by side). Each scene has a thick brown border with a small Buddy-puppy icon in the top-left corner. Each paw print is the same shape: four toe-pads above a larger heel-pad.",
+              "placement": "spans the bottom third of the page, full width, in a 2×3 grid",
+              "approximate_size": "full_width",
+              "keywords": [
+                "Buddy",
+                "paw print",
+                "subitize",
+                "count",
+                "group"
+              ],
+              "text_image_alignment_check": "Student instructions name 'Buddy', 'paw prints', 'groups', and the subitize-vs-count action — every keyword (Buddy, paw print, subitize, count, group) appears verbatim in the Part 3 instructions or visual_layout. Buddy is the unit's puppy character but the keyword 'puppy' is intentionally omitted because the student-facing text uses 'Buddy' rather than 'puppy'."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "CIRCLE (subitize): scene 1 (1 paw), scene 2 (4 paws), scene 4 (3 paws), scene 6 (2 paws). CROSS OUT (count): scene 3 (7 paws), scene 5 (8 paws). Children who circle 7 or 8 may be guessing — re-flash a 7-paw card on the spot and ask 'did your eyes JUST KNOW or did you guess?' to recalibrate."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Turn the page over. Draw your own dot-card with EXACTLY 4 dots arranged in a way that is EASY to subitize, and another with 4 dots arranged in a way that is HARD to subitize. Show your partner and see if they can guess the quantity for each.",
+  "teacher_notes": "Give this worksheet at the end of Lesson 4 (last 8 minutes). It captures formative evidence for A6.4 directly. Common pitfalls: (a) Part 1 — child counts on the page (puts a tiny mark beside each dot) before writing the number. They got the right answer but did not subitize; mark the cell with a sticky-flag for next-day quick-flash practice. (b) Part 2 — child sorts purely by 'how big the card looks' instead of counting the dots. Recovery: at glue-down time, ask them to count one card from each pile to confirm the boundary. (c) Part 3 — child circles ALL six scenes because they enjoyed the paw-print theme. Re-prompt: 'circle ONLY the ones your eyes JUST KNEW — the others get a cross.' Keep these worksheets for the unit portfolio; they are the cleanest single-page snapshot of A6.4 progress."
+}

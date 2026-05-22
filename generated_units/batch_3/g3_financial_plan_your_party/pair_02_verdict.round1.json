@@ -1,0 +1,47 @@
+{
+  "unit_id": "g3_financial_plan_your_party",
+  "pair_number": 2,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title is 'When the child borrows WRONG in subtraction — repairing the regroup trap at Grade 3' and recovery_moves are ['Use $10 bills to physically split.', 'Drill borrow + reduce.', 'Compare with addition check.'] — the trap is real but no research is cited (e.g., Carpenter & Moser CGI separate-result-unknown, Fuson on regrouping/decomposition errors), and recovery does not branch by what the diagnostic told you about the child.",
+      "required_fix": "Cite the misconception by research name (e.g., Fuson's 'borrow without decrement' or Carpenter & Moser CGI separate-result-unknown) in expanded_walkthrough.rationale, and rewrite recovery_moves to BRANCH: if the child can subtract single-digit but freezes at regroup, drill 10-as-ten-ones with $10 bill split; if the child writes the smaller-from-larger error (e.g., reads 0-3 as 3-0=3), use the $10 + $10 - $13 physical decomposition first; if the child borrows but forgets to decrement tens, run a paired addition-check immediately to expose the inflated answer.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Anchor chart Subtract for Change', 'Money + Price Cards (1 set per pair)', 'Calculator Cards (1 per pair)', 'Lesson 2 formative tracker' — all everyday, and puppets are OPTIONAL. But differentiation entries are 'Use only single-digit changes', '3-digit subtractions', 'Pre-printed subtraction grid', 'Walk to compute station' — there is no explicit no-paper, no-purchase alternative path that lets the lesson run with voice/body/gesture only.",
+      "required_fix": "Add a no-materials alternative under action.differentiation: e.g., 'No-paper version — children show the subtraction by holding up fingers for tens and ones, calling out the regroup chant (\"borrow one ten, ten ones now!\"); partner whispers the answer back. Bea-voice the script if no Money/Price Cards prepped.' This makes Lesson 2 runnable on a day prep was impossible and lifts the category to Level 4.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "teacher_script demonstrates one column-subtraction strategy (standard borrow): '0 - 3? Borrow from 2: 10 - 3 = 7. Then 1 - 1 = 0. So $7!' — children echo and apply the same procedure. There is no opportunity for children to INVENT or COMPARE strategies (e.g., counting up from $13 to $20, decomposing $20 as $10 + $10, or using the addition-check direction first), and the misconception isn't named in research-grounded terms.",
+      "required_fix": "Insert a 'Show me YOUR way' beat in minds_on or action where pairs solve $20 - $13 by any strategy (count up from 13 to 20, take a $10 + give back $3, standard borrow), then share two strategies on the anchor chart. Name the underlying misconception in expanded_walkthrough using research language — e.g., Fuson (1990) 'concatenated single-digit' borrow error, or Carpenter & Moser separate-result-unknown — so a substitute teacher knows WHY the error appears.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong alignment, voice, and lesson-worksheet consistency (all Level 4), but three lesson-side categories sit at Level 3: the borrow trap needs a research citation and branched recovery; instructional balance needs an explicit no-paper alternative path; mathematical authenticity needs space for children to invent/compare strategies plus research-grounded misconception naming. All three fixes live inside lesson_02 — worksheet_02 is solid and does not need changes."
+}

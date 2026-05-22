@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 2,
+  "worksheet_title": "Tess's Mass Match",
+  "purpose": "Independent practice of A10.2 — comparing mass. Used as Lesson 2 consolidation artifact.",
+  "student_learning_goal": "I can compare how heavy things are.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compare how heavy things are.",
+    "character_watermark": "Tess the Tiny Mouse in the top-right corner of the header, holding a tiny tape measure. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Circle the heavier one!",
+          "student_instructions": "Look at each pair. Circle the HEAVIER object.",
+          "visual_layout": "Five paired-object rows stacked vertically. Each row shows two objects: (1) book vs feather, (2) brick vs balloon, (3) shoe vs paper, (4) backpack vs eraser, (5) two same-size blocks. Each pair ~3in × 1.5in.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_PAIRS",
+              "description": "Five paired-object rows in B&W line art for a Kindergarten worksheet, each row ~3in × 1.5in. Each row shows two contrasting objects for mass comparison. Row 1: book + feather. Row 2: brick + balloon. Row 3: shoe + sheet of paper. Row 4: backpack + eraser. Row 5: two same-size identical blocks. Generous spacing for circling.",
+              "placement": "Centred horizontally in Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["book", "brick", "shoe", "backpack"],
+              "text_image_alignment_check": "Image WS02_P1_PAIRS at Part 1: instructions ask the child to circle the heavier object. Keywords name objects shown that are clearly heavier than their partners."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "Row 1: book. Row 2: brick. Row 3: shoe. Row 4: backpack. Row 5: SAME — accept circling either or both."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Which side goes down?",
+          "student_instructions": "Look at each balance. Write H next to the HEAVIER side. Write L next to the LIGHTER side.",
+          "visual_layout": "Three balance pictures stacked vertically. Each balance shows two pans, with a different object on each side: (1) apple vs grape, (2) book vs pencil, (3) two same-weight cubes. The pan on the heavier side is drawn lower. Each balance ~3in × 2in. Beside each pan is a small box for the child to write H or L.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_BALANCES",
+              "description": "Three balance pictures in B&W line art for a Kindergarten worksheet, stacked vertically. Each balance has a triangular fulcrum and two horizontal pans. Balance 1: apple on left (lower) + grape on right (higher). Balance 2: book on left (lower) + pencil on right (higher). Balance 3: two same-weight cubes, balance level (both pans equal height). Each balance ~3in × 2in. Beside each pan, a small empty label box (~0.5in × 0.5in) for the child to write H or L.",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["balance", "heavier", "lighter"],
+              "text_image_alignment_check": "Image WS02_P2_BALANCES at Part 2: instructions ask the child to label which side is heavier (H) or lighter (L). Keywords name the visual artifact (balance) and the response options (heavier, lighter)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Balance 1: apple = H, grape = L. Balance 2: book = H, pencil = L. Balance 3: both cubes = SAME (accept both H, both L, or both 'same')."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Find heavier in your classroom!",
+          "student_instructions": "Look around your classroom. Pick 2 things. Draw them. Circle the HEAVIER one.",
+          "visual_layout": "Two blank drawing boxes side by side, each ~3in × 2in with thin solid border. Below each box, a label line for the object's name.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_BOXES",
+              "description": "Two blank drawing boxes side by side for a Kindergarten worksheet. Each box is ~3in × 2in with a thin solid border. Below each box, a horizontal line for writing the object's name. Designed for the child to draw two classroom items and circle the heavier.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": ["heavier", "classroom"],
+              "text_image_alignment_check": "Image WS02_P3_BOXES at Part 3: instructions ask the child to find and draw two classroom items, circling the heavier. Keywords name the prompt focus (heavier, classroom)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 2 classroom objects with one clearly heavier. Common: book vs pencil, backpack vs eraser, scissors vs paper."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, find 1 thing LIGHTER than a feather (good luck!).",
+  "teacher_notes": "Lesson 2 consolidation artifact. Use Part 1 as the formative signal for size-mass conflation — children who circle the bigger but lighter object (e.g., feather over book if feather is drawn larger) need the 'feel, don't guess' re-loop."
+}

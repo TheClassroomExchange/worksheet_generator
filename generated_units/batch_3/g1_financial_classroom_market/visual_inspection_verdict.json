@@ -1,0 +1,14 @@
+{
+  "unit_id": "g1_financial_classroom_market",
+  "status": "pass",
+  "inspected_at": "2026-05-10T18:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch2",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 11, "description": "Lesson 2 worksheet 'Loonie and Toonie' uses 'Mission' header (variant) instead of 'Instructions for the Student:'. Same on Lesson 4 'More, Less, or Equal' and Lesson 5 'Big Market Day'. Stylistic variant."},
+    {"page": 19, "description": "M7 G1 Money Vocabulary Chart shows column headers 'Nickel' over Dime/Quarter/Loonie and 'Toonie' over Bill/Value/More - column headers don't align with bullet contents. Content/data drift, not visual."},
+    {"page": 23, "description": "Penny puppet asset card title shows 'Penny the Penny' (truncated from 'Penny the Penguin'). Cosmetic content bug."},
+    {"page": 25, "description": "M10 Classroom Market Poster top-left and top-middle cells show Penny + Cassie character art; other 4 cells (Coins/Bills/Price Tags/Market Stand) are text-label only. Acceptable."}
+  ],
+  "summary": "PASS. All 27 pages render cleanly. Worksheets (pages 8-12) use real titles + learning-goal + instructions + ruled workspace; no debug stubs. 1-row F1.1 rubric fully readable. Characters (Penny, Cassie) render correctly."
+}

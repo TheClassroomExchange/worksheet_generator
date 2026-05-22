@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "Drift gate clean. compose.py extension for the Adding Machine narrative is pending — the deck build will route to _drafts/ until the dispatch block is added (deck publication is tracked separately from rubric quality)."
+  },
+  "scores": {
+    "pedagogical_depth": {
+      "score": 4,
+      "justification": "Strict L4 met. All five lessons carry expanded_walkthrough blocks of 4000+ chars covering title/rationale/setup/teacher_script/expected_student_responses (4 bands)/common_misconceptions (3 each, paired with concrete recovery_moves). Lesson 1 includes the chant-the-fact-three-times move for transitioning from count-on to recall; Lesson 2 includes the swap-then-make-ten move for the order-dependence misconception; Lesson 3 includes the cup-hide game for transitioning from count-back to fact-family-recall; Lesson 4 includes the require-the-tape-diagram-before-the-equation move; Lesson 5 includes the pre-cut paper cookie move for the fair-share-with-half. Five distinct worksheet response_types: write, draw_or_write, circle_or_loop, match, self_rate. Mid-unit formative gate (Mid-Unit Strategy Check-In after Lesson 3) AND unit-level reflection sheet (5 prompts) both present.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough (avg ~4500 chars each)",
+        "1_lesson_02.json::expanded_walkthrough.common_misconceptions (swap-then-make-ten recovery)",
+        "1_lesson_03.json::expanded_walkthrough.common_misconceptions (cup-hide recovery)",
+        "1_lesson_05.json::expanded_walkthrough.common_misconceptions (paper cookie recovery)",
+        "4_formative_reflection.json::formative_worksheets + reflection_sheet"
+      ]
+    },
+    "instructional_balance": {
+      "score": 4,
+      "justification": "Strict L4 met. CRA progression spans the whole week: concrete (real two-colour counters, real treats, paper cookies, real coins-as-counters) → representational (double ten-frame drawings, fact-family triangle diagrams, tape diagrams) → abstract (equations, fact-family notation, mental-strategy verbalisation). Lesson 2 'Doubles, Near-Doubles, Make-Ten' is the strategy keystone; Lesson 4 'Build It, Solve It' is the modelling capstone integrating B2.1-B2.4 in one play scenario; Lesson 5 closes with B2.5 + B2.4 reinforcement.",
+      "evidence_refs": [
+        "1_lesson_01.json::action.steps (double ten-frame demos → fact-family triangles)",
+        "1_lesson_02.json::action.steps (doubles dice → make-ten on ten-frame)",
+        "1_lesson_04.json::action.steps (build with counters → tape diagram → equation)",
+        "1_lesson_05.json::action.steps (paper plates → half-cut cookie → 2½ notation)",
+        "3_manipulatives.json::assets (10 manipulatives + 3 character puppets spanning all three CRA tiers)"
+      ]
+    },
+    "clarity_communication": {
+      "score": 4,
+      "justification": "Strict L4 met. All five lessons have expanded_walkthrough blocks with substantial teacher_script (≥3000 chars dialogue), 4 expected_student_responses bands (Confused/Mid/Strong/Stretched), and 3 misconceptions paired with concrete recovery_moves. Every lesson has student_learning_goal starting with 'I can'. Teacher scripts use embodied gestures (the chant, the cup-hide reveal, the body-clap analogy for halves) so the script is enactable, not just readable. Child-voice 'I can' banners on every worksheet header.",
+      "evidence_refs": [
+        "1_lesson_01..05.json::expanded_walkthrough.teacher_script (each 3000+ chars)",
+        "1_lesson_01..05.json::expanded_walkthrough.expected_student_responses (4 bands each)",
+        "1_lesson_01..05.json::student_learning_goal ('I can ...' format)",
+        "2_worksheet_01..05.json::header.student_learning_goal_banner"
+      ]
+    },
+    "alignment": {
+      "score": 4,
+      "justification": "consistency_check 0 issues; verify_curriculum_text 0 issues; validate_unit_alignment (image-text) 0 issues. Every B2.1-B2.5 code is cited as a primary expectation in at least one lesson; assessment_suite.summative_rubric covers all 5 codes; lesson tracker_columns match assessment_suite formative_tracker columns; classroom_time_total_minutes (250) equals sum of lesson durations (5 × 50). Worksheet_brief.worksheet_title fields match worksheet_title verbatim across all 5 lesson/worksheet pairs. Marketplace descriptive_title matches blueprint exactly.",
+      "evidence_refs": [
+        "0_blueprint.json::curriculum_codes + curriculum_expectations (B2.1-B2.5)",
+        "1_lesson_*.json::primary_expectations vs 5_assessment_suite.json::summative_rubric.rows",
+        "pipeline.schemas.consistency_check (0 issues)",
+        "pipeline.curriculum_reference.verify_curriculum_text (0 issues)",
+        "pipeline.image_alignment.validate_unit_alignment (0 issues)"
+      ]
+    },
+    "appearance": {
+      "score": 4,
+      "justification": "Drift gate clean (placeholder_artwork_count=0 in JSON). validate_unit_for_slides will report a clipart_dispatch warning until pipeline/compose.py is extended with the Adding Machine narrative — that gate routes the deck to _drafts/ rather than published, so the rubric quality is independent of deck publication. 13 assets (10 M-id manipulatives + 3 character_puppet stick-puppet variants) covering every blueprint M-id and every recurring character. Marketplace long_description ~1700 chars with 11 inclusions; suggested_price $11.99.",
+      "evidence_refs": [
+        "pipeline.rubric.pre_grade_drift_check::placeholder_artwork_count=0",
+        "3_manipulatives.json::assets (13 total: 10 M-ids + 3 character puppets)",
+        "6_marketplace.json::long_description + what_is_included (11 items)",
+        "6_marketplace.json::suggested_price_cad=11.99"
+      ]
+    }
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-04-loop",
+  "graded_at": "2026-05-04T03:30:00Z"
+}

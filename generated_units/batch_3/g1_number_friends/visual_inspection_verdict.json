@@ -1,0 +1,14 @@
+{
+  "unit_id": "g1_number_friends",
+  "status": "pass",
+  "inspected_at": "2026-05-10T18:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch2",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 4, "description": "Lesson 2 exit truncates: 'Teacher writes a number (e.g.' (carryover cosmetic)."},
+    {"page": 5, "description": "Lesson 3 consolidation truncates: 'in your everyday life that you could decompose? (e.g.' (cosmetic)."},
+    {"page": 7, "description": "Lesson 5 truncations: 'line up at the...' / 'Round 4:...' / 'class counts on by 10s...' (cosmetic)."},
+    {"page": 23, "description": "Special check PASS: 8-row rubric (B1.1-B1.8) renders all 8 rows visible on one page at adaptive compact font. Full descriptor text wraps within each cell, no ellipsis. Adaptive trim activates correctly."}
+  ],
+  "summary": "PASS. All 25 pages render cleanly. Worksheets (pages 8-12) NOW correctly render with real titles + learning-goal box + 'Instructions for the Student' + ruled workspace - no more 'Read prompt / Try it / Show your work' debug stubs. Special check: 8-row B1.1-B1.8 rubric all rows visible on page 23. Characters (Lila, Otto, Scoot) render correctly."
+}

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "lesson_number": 3,
+  "lesson_title": "Congruent Shapes",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "CONGRUENT shapes are EXACTLY the same — same sides, same angles. We MATCH to test.",
+  "learning_intention": "We are learning to identify congruent shapes.",
+  "student_learning_goal": "I can identify congruent shapes.",
+  "success_criteria": [
+    "I can MATCH 2 shapes by overlap.",
+    "I can name them CONGRUENT or NOT.",
+    "I can compare sides and angles."
+  ],
+  "vocabulary_introduced": [
+    "congruent"
+  ],
+  "vocabulary_reinforced": [
+    "side",
+    "angle"
+  ],
+  "manipulatives_used": [
+    "M3_congruent_cards",
+    "M7_attribute_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Symmy and Flippy — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Congruent Shapes'",
+    "Congruent Pair Cards (16 per pair)",
+    "Lesson 3 congruent tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Symmy Matches Pairs",
+    "hook": "Symmy: I have TWO triangles. Are they CONGRUENT? Let's MATCH them — sit one ON TOP. If they fit perfectly, YES! Symmy opens: 'Same SIDE, same ANGLE — CONGRUENT!'",
+    "teacher_script": "Bring children to the carpet. Symmy and Flippy puppets. 'Friends — yesterday compose/decompose. Today CONGRUENT shapes.'\n\nIntroduce vocabulary. Write CONGRUENT on chart. 'Congruent = EXACTLY the same. Same sides. Same angles. Same shape.'\n\nDemonstrate. Hold up 2 cut-out triangles. Place one ON TOP of the other. 'Match? YES. They're CONGRUENT.'\n\nNon-example. 2 different-sized triangles. 'Sit one on top. DOESN'T match. NOT congruent.'\n\nMore examples:\n- 2 squares of same size: CONGRUENT.\n- 2 squares of different size: NOT congruent.\n- 2 rectangles different orientation, same dims: CONGRUENT (rotation OK).\n- 2 hexagons same size: CONGRUENT.\n- A triangle and a square: NOT congruent (different shape).\n- A rotated shape vs the same shape: CONGRUENT.\n\n'Symmy says — to test, MATCH them. Place one on top. Do they fit? CONGRUENT. Doesn't fit? NOT.'\n\n'Today we MATCH 16 cards into 8 congruent pairs.'",
+    "student_actions": [
+      "Watch Symmy match",
+      "Echo 'congruent'",
+      "Match shape pairs",
+      "Practice the overlap test"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Congruent Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: match 4 pairs.",
+        "teacher_prompt": "Say: 'Sit one on top. Congruent?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Match 16 cards into 8 pairs. B: Sort: congruent or not (10 pairs). C: Find a congruent partner for an unknown shape.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: include rotated shapes.",
+        "teacher_prompt": "Say: 'Stretch: rotated.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss rotation OK, size matters.",
+        "teacher_prompt": "Show: rotated square = still square; bigger square ≠ congruent."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two children test congruence three ways — (a) eyeball, (b) overlap, (c) measure sides. Class debates which is most reliable. Cite van Hiele (1986) Level 1 → Level 2 transition: from appearance to property-based reasoning.",
+        "teacher_prompt": "Symmy: 'Eyes can fool. Overlap and measure tell the truth.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A.",
+      "for_extending": "Stretch at C: rotated.",
+      "for_ell_or_iep": "Sentence frame: 'These shapes ___ congruent because ___.' (are/are not)",
+      "for_movement_learners": "Children pair up by clothing colour to demonstrate 'matching' concept. NO-MATERIALS PATH: teacher draws pairs of shapes on the board; child uses fingers to 'pick up' one shape and 'lay on' the other to test congruence visually."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: matches by overlap; names congruent; tests sides and angles.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Matches by overlap",
+        "Names congruent",
+        "Compares sides and angles",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Symmy's Congruent Brag",
+    "discussion_prompts": [
+      "What does CONGRUENT mean?",
+      "How do we test?",
+      "Does rotation matter?",
+      "Does size matter?"
+    ],
+    "exit_routine": "Symmy's congruence refrain — 'SIT one on TOP — does it MATCH? Same SIDE, same ANGLE — CONGRUENT!' Class chants 3x. Each child tests one shape pair."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Congruence identification.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures E1.3 mastery."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says ROTATED shapes are NOT congruent — repairing the rotation-not-allowed trap at Grade 2",
+    "rationale": "On congruence, the trap is van Hiele Level 1 fixation (van Hiele 1986; Battista 2007): children judge shapes by appearance, not properties — they reject a rotated congruent shape as 'different.' Without rotation/reflection invariance, congruence work cannot ground.\n\nYesterday's area conservation primed the framing. Today: congruent = same SHAPE + same SIZE, regardless of orientation. Lesson 4 maps; Lesson 5 capstones.",
+    "setup": "Pair at B. Two squares: one normal orientation, one rotated 45° (looks like a diamond). Same size. Child says NOT congruent.",
+    "teacher_script": "Crouch. 'Both squares are SAME SIZE. Symmy asks — what if you ROTATE one? Try sitting one on top after turning.'\n\nGuide. Take the 'diamond' and rotate back to square. 'Now SIT one on top.' Match.\n\nGenerlise. 'Symmy says — congruent allows ROTATION. Same shape, different angle = STILL congruent. Test by rotating before matching.'\n\nIf still confused: provide pre-rotated shapes for matching.\n\nLong-term: every congruence test includes rotation.",
+    "expected_student_responses": [
+      "(Confused) Rotated = different.",
+      "(Mid) Rotates with prompts.",
+      "(Strong) Tests with rotation.",
+      "(Stretched) Identifies congruent shapes regardless of orientation."
+    ],
+    "common_misconceptions": [
+      "Rotation = different shape. (Repair: rotation preserves shape.)",
+      "Different orientation = not congruent. (Repair: orientation doesn't matter.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child rejects rotated congruent shape: drill 'rotation doesn't change SIZE or SHAPE'; rotate physical cutouts until child accepts.",
+      "DIAGNOSTIC B — child accepts rotation but won't accept reflection: introduce mirror flip — 'flip is also OK.'",
+      "DIAGNOSTIC C — child can name congruent but cannot test: drill the overlap method — 'pick up shape A, place on shape B; if edges match exactly = CONGRUENT.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Symmy's Congruent Match",
+    "purpose": "Independent practice of E1.3.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Match 5 pairs as congruent or NOT.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "For 4 shapes, find the congruent partner from a row.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Draw a shape congruent to a given one.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Symmy in worksheet header",
+      "5 pair rows for Part 1",
+      "4 shapes + row of options for Part 2",
+      "Reference shape for Part 3"
+    ]
+  }
+}

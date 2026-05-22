@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "thematic_title": "How Long? How Big?",
+  "descriptive_title": "Grade 1 Mathematics: Demonstrations — Non-Standard Measurement (E2.1-E2.3)",
+  "grade": "Grade 1",
+  "subject": "Mathematics",
+  "strand": "E. Spatial Sense",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-1",
+  "curriculum_codes": ["E2.1", "E2.2", "E2.3"],
+  "curriculum_expectations": {
+    "E2.1": "identify measurable attributes of two-dimensional shapes and three-dimensional objects, including length, area, mass, capacity, and angle",
+    "E2.2": "compare several everyday objects and order them according to length, area, mass, and capacity",
+    "E2.3": "read the date on a calendar, and use a calendar to identify days, weeks, months, holidays, and seasons"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 1 unit on non-standard measurement (E2.1-E2.3) framed around 'How Long? How Big?' — Roo the Ruler Rabbit and Cal the Calendar Cat. Day 1 names measurable attributes (length, area, mass, capacity). Day 2 compares objects by length and area. Day 3 compares by mass and capacity, ordering 4+ objects. Day 4 reads a calendar (days, weeks, months). Day 5 closes with a Measurement Day Capstone integrating all 3 expectations. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will identify measurable attributes, compare and order objects by attributes, and read a calendar.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Name the Attribute", "primary_expectations": ["E2.1"], "secondary_expectations": [], "big_idea": "Every object has MEASURABLE ATTRIBUTES: length, area, mass, capacity.", "student_learning_goal": "I can name measurable attributes of objects.", "one_line_summary": "Roo introduces 4 attributes; children name attributes for everyday objects."},
+    {"lesson_number": 2, "lesson_title": "Compare by Length and Area", "primary_expectations": ["E2.2"], "secondary_expectations": ["E2.1"], "big_idea": "We line up to compare LENGTH. We cover to compare AREA.", "student_learning_goal": "I can compare and order objects by length and area.", "one_line_summary": "Roo lines up ribbons; children order by length and cover-compare area."},
+    {"lesson_number": 3, "lesson_title": "Compare by Mass and Capacity", "primary_expectations": ["E2.2"], "secondary_expectations": [], "big_idea": "We use a balance for MASS. We pour for CAPACITY.", "student_learning_goal": "I can compare and order objects by mass and capacity.", "one_line_summary": "Children use a balance and pour to compare 4 objects by each attribute."},
+    {"lesson_number": 4, "lesson_title": "Read the Calendar", "primary_expectations": ["E2.3"], "secondary_expectations": [], "big_idea": "A CALENDAR shows DAYS, WEEKS, MONTHS, HOLIDAYS, and SEASONS.", "student_learning_goal": "I can read the date and find days, weeks, months on a calendar.", "one_line_summary": "Cal teaches calendar parts; children find dates, holidays, and seasons."},
+    {"lesson_number": 5, "lesson_title": "Measurement Day Capstone", "primary_expectations": ["E2.1", "E2.2", "E2.3"], "secondary_expectations": [], "big_idea": "We name attributes, compare and order objects, and use a calendar to mark our measurement day.", "student_learning_goal": "I can use measurement and the calendar together.", "one_line_summary": "Children rotate through 4 stations: identify, compare, order, and calendar."}
+  ],
+  "expectation_lesson_map": {
+    "E2.1": [1, 2, 5],
+    "E2.2": [2, 3, 5],
+    "E2.3": [4, 5]
+  },
+  "recurring_characters": [
+    {"name": "Roo the Ruler Rabbit", "role": "Lead character. A friendly rabbit who measures everything with a ruler. Anchors all 5 lessons.", "visual_description": "A young rabbit holding a colourful ruler in one paw and a measuring tape in the other. Long ears, bright eyes."},
+    {"name": "Cal the Calendar Cat", "role": "Roo's partner. The 'time' character — keeps the calendar. Cameo Lessons 4-5.", "visual_description": "A small striped cat with a tiny wall calendar slung over its shoulder. Holds a marker for crossing off dates."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "attribute", "child_friendly_definition": "A way to describe an object — length, mass, etc."},
+    {"term": "length", "child_friendly_definition": "How long something is."},
+    {"term": "area", "child_friendly_definition": "How much space the FLAT shape covers."},
+    {"term": "mass", "child_friendly_definition": "How heavy something is."},
+    {"term": "capacity", "child_friendly_definition": "How much something can HOLD."},
+    {"term": "calendar", "child_friendly_definition": "A grid that shows days, weeks, and months."},
+    {"term": "season", "child_friendly_definition": "A part of the year — spring, summer, fall, winter."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_attribute_cards", "name": "Attribute Cards", "description": "Set of 16 cards with attributes (length, area, mass, capacity) and example objects.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M2_length_strips", "name": "Length Strips", "description": "Set of 24 paper strips of varied lengths.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M3_area_tiles", "name": "Area Tiles", "description": "Set of 60 paper unit tiles for covering areas.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M4_balance_mat", "name": "Paper Balance Mat", "description": "Letter-size mat with a balance for mass comparison.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M5_cup_cards", "name": "Capacity Cup Cards", "description": "Set of 12 paper cup cards in 3 sizes.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M6_calendar_mat", "name": "Calendar Mat", "description": "Letter-size monthly calendar template.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M7_attribute_chart", "name": "Measurable Attributes Chart", "description": "Anchor chart of 5 measurable attributes with examples.", "used_in_lessons": [1, 2, 3, 5], "clipart_files": []},
+    {"id": "M8_calendar_chart", "name": "Calendar Reference Chart", "description": "Anchor chart with days, weeks, months, seasons, and Canadian holidays.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M9_capstone_template", "name": "Measurement Day Template", "description": "Letter-size capstone template with 4 station response areas.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "How Long? How Big? Poster", "description": "Anchor poster of Roo and Cal with sample measurements.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Attribute Cards (16)",
+    "Length Strips (24)",
+    "Area Tiles (60)",
+    "Paper Balance Mat (per pair)",
+    "Capacity Cup Cards (12)",
+    "Calendar Mat (per pair)",
+    "Measurable Attributes Chart",
+    "Calendar Reference Chart",
+    "Measurement Day Template (per child)",
+    "How Long? How Big? Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 attribute identification snapshot.",
+    "formative": "Lesson 2 length/area tracker; Lesson 3 mass/capacity tracker; Lesson 4 calendar tracker.",
+    "summative": "Lesson 5 measurement day capstone."
+  },
+  "pedagogical_notes": [
+    "Grade 1 measurement is concrete — handle real objects.",
+    "All 5 attributes must be NAMED, but only 4 are physically compared (angle is intro-only at G1).",
+    "Calendar reading uses TODAY'S date as anchor.",
+    "Order 4+ objects to develop sequencing.",
+    "Connect calendar to weather (season) and Canadian holidays."
+  ],
+  "canadian_context_notes": [
+    "Use Canadian holidays for calendar: Canada Day (July 1), Family Day (February), Thanksgiving (October).",
+    "Maple syrup season for spring discussion.",
+    "Hockey skate length for length comparison.",
+    "Tim Hortons cup sizes for capacity."
+  ]
+}

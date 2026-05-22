@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 2,
+  "lesson_title": "Equivalent in Addition and Subtraction",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Two addition or subtraction expressions are EQUIVALENT when they have the SAME total.",
+  "learning_intention": "We are learning to determine whether addition and subtraction expressions are equivalent.",
+  "student_learning_goal": "I can determine whether addition and subtraction expressions are equivalent.",
+  "success_criteria": [
+    "I can compute totals for two expressions.",
+    "I can decide if two expressions are EQUIVALENT or NOT.",
+    "I can use the balance scale to verify equivalence."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "variable",
+    "equivalent",
+    "expression",
+    "equation",
+    "balance"
+  ],
+  "manipulatives_used": [
+    "M2_balance_mat",
+    "M3_addition_cards",
+    "M7_two_colour_counters",
+    "M8_number_line",
+    "M9_equation_chart",
+    "M10_engineer_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Eddy and Vex — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Equivalent Expressions: + and -'",
+    "Big Balance Scale Mats (per pair)",
+    "Addition/Subtraction Equivalence Cards (24)",
+    "Per-pair counters and number line",
+    "Lesson 2 add/sub tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Eddy and Vex Diagnose Equations",
+    "hook": "Eddy: 50 + 25 = 75. Vex: 100 - 25 = 75. Are these equivalent? Eddy opens: 'COMPUTE BOTH, then COMPARE!' Yesterday's variables are now on the balance scale.",
+    "teacher_script": "Bring children to the carpet. Eddy + Vex puppets. 'Friends — Eddy and Vex disagree. Eddy says 50 + 25 makes 75. Vex says 100 - 25 makes 75. Who's right?'\n\nTake responses. 'Both! Both expressions equal 75. They're EQUIVALENT — equal in value.'\n\nWrite on chart:\n50 + 25 = 75\n100 - 25 = 75\nSo: 50 + 25 = 100 - 25 (both equivalent expressions for 75).\n\nReinforce vocabulary. 'Equivalent means EQUAL VALUE. Two expressions can use DIFFERENT operations — addition or subtraction — and still be equivalent.'\n\nMore examples:\n- 200 + 50 vs 300 - 50: both = 250. EQUIVALENT.\n- 75 + 25 vs 80 + 25: 100 vs 105. NOT equivalent.\n- 500 - 100 vs 400 + 0: both = 400. EQUIVALENT.\n- 150 + 150 vs 200 + 100: both = 300. EQUIVALENT.\n\nIntroduce the balance metaphor. 'When two expressions are equivalent, they BALANCE on the scale. When they're NOT equivalent, the scale tips toward the larger one.'\n\nDemonstrate physically with the balance mat. Place 50 counters + 25 counters on left. 100 - 25 = 75 counters on right. They balance!\n\n'Today we test pairs of expressions for equivalence. Use the balance scale, number line, or compute and compare.'",
+    "student_actions": [
+      "Watch Eddy and Vex diagnose pairs.",
+      "Predict equivalent or not.",
+      "Compute totals and compare.",
+      "Verify on the balance scale."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Add/Sub Equivalence Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: test 4 pairs together. (a) 100+50 vs 200-50. (b) 75+25 vs 80+25. (c) 500-100 vs 400+0. (d) 150+150 vs 200+100.",
+        "teacher_prompt": "Say: 'Compute both. Decide EQUIVALENT or NOT.' Verify on the balance."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations (~7 min each). Station A: Compute and Compare — pair tests 6 pairs by computing. Station B: Balance Scale Verify — pair uses counters on the balance to verify 6 pairs. Station C: Make Your Own — pair writes 4 of their own equivalent pairs.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write a 3-term equivalent pair (50+25+25 vs 100).",
+        "teacher_prompt": "Say: 'Stretch: 3-term expressions.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss patterns. (a) Compensating: 50+25 = 49+26. (b) Inverse: 100-25 = 75 (because 75+25 = 100). (c) Identity: 0 doesn't change the value.",
+        "teacher_prompt": "Show patterns on the chart."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the add/sub tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Are these equivalent? How do you know?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share the same equivalent pair (50+25 = 100-25). Pair A explains by computing both sides; Pair B explains relationally ('25 less on left, 25 more on right — they cancel'). Class debates which is faster. Cite Carpenter, Franke & Levi (2003) relational view.",
+        "teacher_prompt": "Eddy: 'Two paths to BALANCED. Computing is safe; relational is FAST.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only sums under 100.",
+      "for_extending": "Stretch at Station C: 3-term expressions and mixed operations.",
+      "for_ell_or_iep": "Provide a structured frame: '___ = ___, so ___ and ___ are equivalent.'",
+      "for_movement_learners": "Use the balance physically — put counters on each side. NO-PREP VERSION: children stand with arms out as a human balance scale; left palm holds left expression value, right palm right value. Tilt arms when out of balance."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: computes both expressions; decides equivalent/not; explains how.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Computes both",
+        "Decides equivalent or not",
+        "Explains reasoning",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Eddy's Equivalence Brag",
+    "discussion_prompts": [
+      "What does EQUIVALENT mean?",
+      "Can a + and a - expression be equivalent? Example?",
+      "What's compensation?",
+      "How do you check on the balance?"
+    ],
+    "exit_routine": "Eddy's balance refrain — class chants: 'Eddy's rule — COMPUTE BOTH, then COMPARE. Same total? BALANCED!' (3x). Each child writes one equivalent pair on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Add/sub equivalence accuracy.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures C2.2 mastery for add/sub. Children at L4 cross operations (use both + and -)."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says expressions are equivalent because they LOOK SIMILAR — repairing the surface-similarity trap at Grade 3",
+    "rationale": "On equivalent expressions, the dominant Grade-3 trap is computational thinking on equality: child views = as 'compute the answer' rather than 'same on both sides.' Carpenter, Franke & Levi (2003, 'Thinking Mathematically: Integrating Arithmetic and Algebra') name this the relational-vs-computational view of equality. Without the relational view, Lesson 3-5 work cannot ground.\n\nYesterday Eddy introduced variables. Today expressions on the balance scale — same total = balanced. Lesson 3 multiplicative; Lesson 4 multi-target; Lesson 5 capstone.",
+    "setup": "Pair is at Station A. Pair: 50+25 (=75) vs 50+30 (=80). Child says 'equivalent because both have 50'.",
+    "teacher_script": "Crouch beside the child. 'Both have 50, true. But equivalence is about TOTAL value. Let's COMPUTE both.'\n\nWalk through. '50+25 = 75. 50+30 = 80. 75 is NOT equal to 80. So NOT equivalent.'\n\nGeneralise. 'Eddy says — always COMPUTE both, then compare. Same numbers don't mean same total.'\n\nNow contrast. Show 50+25 vs 100-25. Compute. 75 = 75. Equivalent. Show that 'looks different' doesn't mean 'not equivalent'.\n\nIf the child still uses appearance: provide a checklist. '1. Compute left. 2. Compute right. 3. Same? Equivalent. Different? Not.' Force the computation reflex.\n\nLong-term recovery: every comparison starts with computation.",
+    "expected_student_responses": [
+      "(Confused) Compares appearance only.",
+      "(Mid) Computes one side; assumes other is similar.",
+      "(Strong) Computes both and compares.",
+      "(Stretched) Uses inverse operations to verify equivalence."
+    ],
+    "common_misconceptions": [
+      "Same numbers = equivalent. (Repair: COMPUTE both.)",
+      "Different operations = not equivalent. (Repair: + and - can give same total.)",
+      "Same shape = equivalent. (Repair: shape doesn't matter; value does.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child computes left side and writes the answer: drill 'check the RIGHT side too. Same total?'; child re-solves.",
+      "DIAGNOSTIC B — child computes both sides but writes inequality anyway: side-by-side equation; child verbalises 'left = ___, right = ___, same? Yes/No.'",
+      "DIAGNOSTIC C — child accepts 50+25 = 100-25 but rejects 100-25 = 50+25: name commutativity of equality — '= works both ways.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Eddy's Add/Sub Test",
+    "purpose": "Independent practice of C2.2 (addition/subtraction equivalence).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Test 8 pairs of add/sub expressions for equivalence.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Find a partner expression that's equivalent to a given one (4 questions).",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write 3 of your own equivalent pairs using both + and -.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Eddy in the worksheet header",
+      "8 pair rows for Part 1",
+      "4 partner-finding rows for Part 2",
+      "3 blank slots for Part 3"
+    ]
+  }
+}

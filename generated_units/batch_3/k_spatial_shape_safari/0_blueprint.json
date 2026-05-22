@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "thematic_title": "Shape Safari",
+  "descriptive_title": "Kindergarten Mathematics: Demonstrations — Spatial Sense and 2D/3D Shapes (A9.1-A9.7)",
+  "grade": "Kindergarten",
+  "subject": "Mathematics",
+  "strand": "A. Mathematical Learning",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-kindergarten",
+  "curriculum_codes": ["A9.1", "A9.2", "A9.3", "A9.4", "A9.5", "A9.6", "A9.7"],
+  "curriculum_expectations": {
+    "A9.1": "identify, describe, and compare 2D shapes",
+    "A9.2": "identify, describe, and compare 3D shapes",
+    "A9.3": "use positional language (above, below, beside, inside, outside)",
+    "A9.4": "compose and decompose 2D shapes",
+    "A9.5": "build with 3D shapes",
+    "A9.6": "describe location with positional language",
+    "A9.7": "use shapes in art and patterns"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Kindergarten unit on spatial sense (A9.1-A9.7) framed around 'Shape Safari' — Sammy the Safari Sloth and Mira the Map-Making Monkey. Day 1 explores 2D shapes. Day 2 explores 3D shapes. Day 3 introduces positional language. Day 4 composes and decomposes. Day 5 closes with a shape art capstone. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will identify, describe, and compose 2D and 3D shapes; use positional language; and apply shapes in art.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "2D Shape Hunt", "primary_expectations": ["A9.1"], "secondary_expectations": [], "big_idea": "2D shapes are FLAT. Circle, triangle, square, rectangle, hexagon. Each has a name and properties.", "student_learning_goal": "I can identify and describe 2D shapes.", "one_line_summary": "Sammy hunts 2D shapes around the safari; children identify and name shapes."},
+    {"lesson_number": 2, "lesson_title": "3D Shape Hunt", "primary_expectations": ["A9.2"], "secondary_expectations": [], "big_idea": "3D shapes are SOLID. Sphere, cube, cylinder, cone, pyramid. They have faces, edges, vertices.", "student_learning_goal": "I can identify and describe 3D shapes.", "one_line_summary": "Sammy and Mira find 3D shapes; children compare to 2D shapes."},
+    {"lesson_number": 3, "lesson_title": "Where Is It?", "primary_expectations": ["A9.3", "A9.6"], "secondary_expectations": [], "big_idea": "Positional words describe LOCATION. Above, below, beside, inside, outside, between.", "student_learning_goal": "I can describe location with positional words.", "one_line_summary": "Mira makes a treasure map; children use positional words."},
+    {"lesson_number": 4, "lesson_title": "Build and Break", "primary_expectations": ["A9.4", "A9.5"], "secondary_expectations": [], "big_idea": "Bigger shapes can be made of smaller shapes. 2 triangles = a square. We build (compose) and break (decompose).", "student_learning_goal": "I can compose and decompose shapes.", "one_line_summary": "Children compose larger shapes from smaller ones; build 3D structures."},
+    {"lesson_number": 5, "lesson_title": "Shape Safari Art Capstone", "primary_expectations": ["A9.1", "A9.2", "A9.3", "A9.4", "A9.5", "A9.7"], "secondary_expectations": [], "big_idea": "Shapes are everywhere — in art, animals, buildings. We use shapes to make pictures.", "student_learning_goal": "I can use shapes to make a safari picture and describe it.", "one_line_summary": "Children create a safari picture using 2D shapes; describe it with positional language."}
+  ],
+  "expectation_lesson_map": {"A9.1": [1, 5], "A9.2": [2, 5], "A9.3": [3, 5], "A9.4": [4, 5], "A9.5": [4, 5], "A9.6": [3, 5], "A9.7": [5]},
+  "recurring_characters": [
+    {"name": "Sammy the Safari Sloth", "role": "Lead character. A friendly sloth wearing a safari hat. Anchors all 5 lessons.", "visual_description": "A young sloth in safari hat with binoculars and a backpack. Slow smile, hanging from a branch."},
+    {"name": "Mira the Map-Making Monkey", "role": "Sammy's partner. The 'positions' character — makes maps and gives directions. Cameo Lessons 3-5.", "visual_description": "A young monkey with a map, compass, and pencil. Eager expression, holding the map."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "2D", "child_friendly_definition": "Flat shapes — like a piece of paper."},
+    {"term": "3D", "child_friendly_definition": "Solid shapes — like a real ball or block."},
+    {"term": "above", "child_friendly_definition": "On top of, higher than."},
+    {"term": "below", "child_friendly_definition": "Under, lower than."},
+    {"term": "beside", "child_friendly_definition": "Next to, near."},
+    {"term": "compose", "child_friendly_definition": "To put together. 2 triangles compose a square."},
+    {"term": "decompose", "child_friendly_definition": "To break apart."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_2d_shape_set", "name": "2D Shape Cards", "description": "Set of 30 paper shape tokens: circles, triangles, squares, rectangles, hexagons.", "used_in_lessons": [1, 4, 5], "clipart_files": []},
+    {"id": "M2_3d_shape_set", "name": "3D Shape Models", "description": "Set of 5 paper-fold 3D shapes: sphere, cube, cylinder, cone, pyramid.", "used_in_lessons": [2, 4, 5], "clipart_files": []},
+    {"id": "M3_safari_map", "name": "Safari Map Mat", "description": "Letter-size safari scene with positional pockets.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M4_position_cards", "name": "Position Word Cards", "description": "Set of 12 cards with above/below/beside/inside/outside/between.", "used_in_lessons": [3], "clipart_files": []},
+    {"id": "M5_pattern_blocks", "name": "Paper Pattern Blocks", "description": "Set of 60 paper pattern blocks (triangles, squares, hexagons, trapezoids, rhombi).", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Safari Art Capstone Template", "description": "Letter-size template for shape art picture.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_shape_chart", "name": "Shape Anchor Chart", "description": "Anchor chart with 2D and 3D shape names and properties.", "used_in_lessons": [1, 2, 4], "clipart_files": []},
+    {"id": "M8_position_chart", "name": "Positional Language Chart", "description": "Anchor chart of positional words with picture examples.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M9_animal_set", "name": "Safari Animal Tokens", "description": "Set of 12 paper safari animals (lion, elephant, giraffe, zebra, etc.) for positioning.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M10_safari_poster", "name": "Shape Safari Anchor Poster", "description": "Anchor poster of Sammy and Mira with safari shapes.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "2D Shape Cards (30)",
+    "3D Shape Models (5)",
+    "Safari Map Mat (1 per pair)",
+    "Position Word Cards (12)",
+    "Paper Pattern Blocks (60)",
+    "Safari Art Capstone Templates (1 per child)",
+    "Shape Anchor Chart",
+    "Positional Language Chart",
+    "Safari Animal Tokens (12)",
+    "Shape Safari Anchor Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 2D shape snapshot.",
+    "formative": "Lesson 2 3D tracker; Lesson 3 positional tracker; Lesson 4 compose/decompose tracker.",
+    "summative": "Lesson 5 art capstone."
+  },
+  "pedagogical_notes": [
+    "Kindergarten spatial work is concrete and play-based.",
+    "2D and 3D distinction must be hands-on with real objects.",
+    "Positional language is foundational — use throughout the day.",
+    "Compose/decompose lays groundwork for fractions and area later.",
+    "Art integration makes shapes meaningful."
+  ],
+  "canadian_context_notes": [
+    "Canadian shape examples: maple leaf (irregular), Olympic rings (circles), hockey rink shape (rectangle), Canada coin shapes.",
+    "Safari animals popular in Canadian children's books.",
+    "Use snowflakes (hexagons) as a Canadian winter shape connection."
+  ]
+}

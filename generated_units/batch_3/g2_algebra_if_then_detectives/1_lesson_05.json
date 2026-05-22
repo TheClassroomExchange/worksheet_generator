@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 5,
+  "lesson_title": "My IF-THEN Project Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": ["C3.1", "C3.2"],
+  "secondary_expectations": [],
+  "big_idea": "We can write our own IF-THEN code for a math task in our life. Sort, classify, decide, repeat.",
+  "learning_intention": "We are learning to write our own IF-THEN code for a math task.",
+  "student_learning_goal": "I can write my own IF-THEN code for a math task.",
+  "success_criteria": [
+    "I can pick a math task that uses an IF-THEN.",
+    "I can write IF-THEN code with two branches.",
+    "I can trace my code and predict outcomes for sample inputs."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": ["condition", "action", "IF-THEN", "true", "false", "outcome", "alter"],
+  "manipulatives_used": ["M2_condition_cards", "M3_action_cards", "M4_input_cards", "M6_capstone_template", "M10_if_then_poster"],
+  "lesson_specific_materials": [
+    "Inspector If and Then the Action Dog together",
+    "Per-child Capstone IF-THEN Template",
+    "Lesson 5 capstone tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Inspector If's Final Showcase",
+    "hook": "Now you write YOUR IF-THEN code. Pick a math task. Write the code. Trace it.",
+    "teacher_script": "Bring children to the carpet. Inspector If + Then the Action Dog together. 'Friends — today you become CODERS. Pick a math task. Write IF-THEN code. Trace it.'\n\nShow examples:\n- 'Sort coins: IF the coin is a loonie, THEN say $1. IF NOT, THEN say less.'\n- 'Score check: IF score > 50, THEN say WIN. IF score ≤ 50, THEN say TRY AGAIN.'\n- 'Days check: IF day is weekend, THEN play. IF day is school day, THEN learn.'\n- 'Lunch sort: IF lunch is sandwich, THEN bite. IF lunch is soup, THEN slurp.'\n\n'Pick something from YOUR life. Math, sorting, classifying, deciding. Write the IF-THEN code. Trace with 3 inputs. Predict outcomes.'\n\nShow the capstone template. 'Three sections: WRITE the code, TRACE 3 inputs, ALTER one part and predict.'",
+    "student_actions": [
+      "Look at the example codes.",
+      "Brainstorm potential math tasks.",
+      "Pick a topic.",
+      "Plan the IF-THEN."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Capstone IF-THEN Project",
+    "structure": "individual",
+    "steps": [
+      {"step_number": 1, "instruction": "Hand out capstone templates. Children pick a topic and write 2-branch IF-THEN code.", "teacher_prompt": "Say to students: 'Use the template. Write IF and THEN. Both branches.'"},
+      {"step_number": 2, "instruction": "Children trace their code with 3 sample inputs and predict outcomes.", "teacher_prompt": "Stop at each child. Check: code has both branches; trace covers 3 inputs; outcomes match traces."},
+      {"step_number": 3, "instruction": "Stretch challenge: alter ONE part of the code (condition OR action) and predict the new outcome for the same 3 inputs.", "teacher_prompt": "Say to extending children: 'Now alter your code. Re-trace with the same inputs. Compare.'"},
+      {"step_number": 4, "instruction": "Gallery walk: children swap templates and trace each other's code with 1 new input.", "teacher_prompt": "Say to students: 'Swap with a partner. Trace their code. Predict an outcome.'"},
+      {"step_number": 5, "instruction": "Whole-class share: 5-6 children share their code aloud.", "teacher_prompt": "Pick variety: sorting tasks, classifying tasks, decisions."}
+    ],
+    "differentiation": {
+      "for_emerging": "Provide a starter condition card. Pick from the deck.",
+      "for_extending": "Stretch: write a 3-branch IF-THEN-ELSE-IF.",
+      "for_ell_or_iep": "Provide picture-supported templates with sentence frames.",
+      "for_movement_learners": "Allow them to act out their code with classmates."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: writes coherent IF-THEN code; traces 3 inputs correctly; (stretch) alters and re-traces.",
+      "how_to_record": "Tick the capstone tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Coherent IF-THEN code",
+        "Traces 3 inputs",
+        "Stretch: alters and re-traces",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Inspector If's Final Brag and Certificate Ceremony",
+    "discussion_prompts": [
+      "What's the most surprising IF-THEN you saw today?",
+      "Why do we write BOTH branches?",
+      "What did you alter in your code?",
+      "What's something in your life that uses IF-THEN logic?"
+    ],
+    "exit_routine": "Each child receives a Junior Conditional Coder certificate. Quick whisper: 'My IF-THEN was about ___'. Inspector If and Then the Action Dog say goodbye with a final IF-THEN demo using class stories."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Full IF-THEN code from a child-chosen topic, with traced outcomes.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures the C3.1 + C3.2 summative integration. Children at L4 write coherent code, trace correctly, and alter with predicted effects."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes a one-branch IF-THEN and can't trace half the inputs — repairing the missing-branch capstone trap",
+    "rationale": "The most common Grade-2 trap on the capstone is the missing-branch trap revisited: under capstone pressure, children may revert to writing only ONE branch (TRUE) and then struggle to trace inputs that produce FALSE. Their code is incomplete and the traces fail.\n\nThis distinction matters because the capstone demonstrates COMPLETE conditional code. The Grade-2 foundation is: every code covers EVERY input → every input produces a defined outcome.\n\nThe walkthrough covers the precise moment when a child writes 'IF coin is loonie, THEN say $1' and can't trace 'quarter' — they have no FALSE branch.",
+    "setup": "Child has written: 'IF coin is loonie, THEN say $1.' No FALSE branch. Tracing 'quarter'. Child stuck.",
+    "teacher_script": "Crouch beside the child. 'Your code only handles loonies. What about quarters? Your code doesn't tell us.'\n\nThe child looks confused. 'Inspector If's code needs BOTH branches. TRUE branch for the condition. FALSE branch for everything else.'\n\nWalk through. 'Add a second line: IF NOT a loonie, THEN say... pick an action.' The child writes 'less than $1'. 'Now your code handles quarters.'\n\nNow re-trace.\nInput loonie: condition TRUE → $1.\nInput quarter: condition FALSE → less than $1.\nInput dime: condition FALSE → less than $1.\n\n'See? Every input now has a defined outcome.'\n\nGeneralise. 'The capstone shows COMPLETE code. Both branches always.'\n\nIf the child STILL leaves out branches: provide a 2-branch template. 'IF ___, THEN ___. ELSE ___.' Force the structure.\n\nLong-term recovery: every capstone code starts with the 2-branch template. Build the cover-every-input reflex.",
+    "expected_student_responses": [
+      "(Confused) Writes one branch; can't trace FALSE inputs.",
+      "(Mid) Adds FALSE branch with prompts; traces both branches.",
+      "(Strong) Writes complete code; traces 3 inputs covering both branches.",
+      "(Stretched) Adds an alteration and re-traces; identifies which inputs changed."
+    ],
+    "common_misconceptions": [
+      "TRUE-only code is complete. (Repair: always include FALSE branch.)",
+      "FALSE inputs don't matter. (Repair: every input matters; code must cover all.)",
+      "Capstone is a story, not code. (Repair: capstone needs traceable, complete code.)"
+    ],
+    "recovery_moves": [
+      "Use the 2-branch template.",
+      "Always trace 3+ inputs covering both branches.",
+      "Praise complete coverage."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "My IF-THEN Code",
+    "purpose": "Summative evidence for C3.1 + C3.2.",
+    "parts_outline": [
+      {"part_number": 1, "task": "Pick a math task. Write IF-THEN code with two branches.", "response_type": "draw_or_write"},
+      {"part_number": 2, "task": "Trace your code with 3 sample inputs. Predict outcomes.", "response_type": "write"},
+      {"part_number": 3, "task": "Alter ONE part of your code. Predict the new outcome for the same 3 inputs.", "response_type": "write"},
+      {"part_number": 4, "task": "Reflect: which alteration changed the most outcomes?", "response_type": "draw_or_write"}
+    ],
+    "expected_image_assets": [
+      "Inspector If and Then the Action Dog together in the worksheet header",
+      "Code-writing area for Part 1",
+      "Trace table for Part 2",
+      "Alteration trace table for Part 3",
+      "Reflection box for Part 4"
+    ]
+  }
+}

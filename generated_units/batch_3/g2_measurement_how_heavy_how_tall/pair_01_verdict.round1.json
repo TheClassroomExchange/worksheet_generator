@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough and consolidation never bridge to or from neighbouring lessons; no teacher line like 'tomorrow Cal teaches us a STANDARD unit (centimetre) that fixes the count problem' anywhere in lesson_01.",
+      "required_fix": "In consolidation, add an explicit forward-bridge: e.g., 'Roo says — tomorrow we meet a STANDARD unit (centimetre) so EVERY classroom counts the same way.' Then mirror that in expanded_walkthrough.rationale to anchor the unit arc.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names a real trap (cubes-for-everything) but cites no research and recovery_moves = ['Use unit-choice chart.', 'Drill unit for size.', 'Show extreme cases'] is a flat list — no branching by what the diagnostic shows.",
+      "required_fix": "Cite Sarama & Clements (2009) Learning Trajectories for length measurement (unit-choice / iteration trap), and split recovery_moves by diagnostic: (a) child can iterate but won't switch unit -> show 200-cube hallway extreme; (b) child can't iterate cleanly (gaps/overlaps) -> drop back to careful cube alignment before unit choice.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists '60 cubes + 12 hand-span + 12 footprint per pair' and an 'Inverse Relationship' anchor chart — fine for prep days, but no NO-PAPER, NO-PURCHASE alternative is offered anywhere in differentiation or expanded_walkthrough.",
+      "required_fix": "Add to differentiation a 'No-materials version': use HANDSPAN, FOOTSTEP, and FINGER-WIDTH directly on classroom objects — child measures their desk in finger-widths vs hand-spans vs forearms; no cubes or printed cards required. Make it explicit so a substitute teacher can run lesson_01 with zero prep.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Roo anchors minds_on and consolidation and 'I can' criteria are present, but there is no distinctive quotable refrain or sentence frame children chant back — consolidation.exit_routine is just a fill-in: 'My ___ is ___ cubes OR ___ hand-spans long.'",
+      "required_fix": "Give Roo a memorable refrain that returns every lesson, e.g. 'SMALL unit, BIG count — BIG unit, small count!' as a call-and-response. Add it to consolidation.exit_routine and reference it in teacher_script so children chant it back. This must be reusable in lessons 2-5.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Inverse relationship is taught conceptually (cubes vs hand-spans, same pencil different counts) but children are never invited to INVENT or COMPARE strategies, and expanded_walkthrough names the trap in plain language only — no Sarama & Clements / Battista / Lehrer & Schauble framing.",
+      "required_fix": "In action.steps add a 'Predict-then-measure' move: child PREDICTS the count for a hand-span before measuring, then compares with a partner who used cubes; share strategies in consolidation. In expanded_walkthrough.rationale name the misconception in research terms (Lehrer 2003 / Sarama & Clements 2009 length-measurement trajectory: unit iteration before unit choice).",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 worksheet is solid (4) — three parts each map to a success criterion and Part 3 is a genuine transfer task. Lesson 1 clears Level 3 across the board but doesn't reach Level 4 on five categories: no forward-bridge to lesson 2, no research-cited trap with branched recovery, no no-materials alternative, no quotable Roo refrain, and no strategy-comparison or research-grounded framing of the inverse-relationship misconception. All blocking fixes are inside lesson_01."
+}

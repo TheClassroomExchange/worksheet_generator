@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_measurement_fencing_the_farm", "lesson_number": 4,
+  "worksheet_title": "Cal's Pour and Weigh", "purpose": "Independent practice of E2.3-E2.5.",
+  "student_learning_goal": "I can measure capacity and mass with non-standard units.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can measure capacity and mass with non-standard units.",
+    "character_watermark": "Cal the Calendar Cat in the top-right with a stopwatch and pan balance. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Compare capacity.", "student_instructions": "For 4 container pairs, circle which holds MORE.",
+     "visual_layout": "Four container pairs side by side with cup-count labels and a more circle for each.",
+     "image_placeholders": [{"id": "WS04_P1_CAP", "description": "A Grade 3 capacity compare layout for measurement worksheet, B&W line art. 4 container pairs: pail (6 cups) vs bowl (4 cups), bottle (3 cups) vs jug (8 cups), mug (1 cup) vs glass (2 cups), tank (10 cups) vs bucket (5 cups). Each with MORE circle.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["container", "compare"], "text_image_alignment_check": "WS04_P1_CAP at Part 1: keywords name the container pairs capacity comparison."}],
+     "student_response_type": "draw_or_write", "answer_key": "1=pail, 2=jug, 3=glass, 4=tank."},
+    {"part_number": 2, "part_title": "Part 2: Read pan balance.", "student_instructions": "For 4 pan balance images, write HEAVIER, LIGHTER, or EQUAL.",
+     "visual_layout": "Four pan balance images with answer lines for the heavier, lighter, or equal label.",
+     "image_placeholders": [{"id": "WS04_P2_BAL", "description": "A Grade 3 pan balance layout for measurement worksheet, B&W line art. 4 balance images: 1 apple vs 3 grapes (apple heavier), 1 pumpkin vs 1 squash (equal), 1 book vs 5 papers (book heavier), 1 pencil vs 1 eraser (about equal). Each with answer line.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["balance", "pan"], "text_image_alignment_check": "WS04_P2_BAL at Part 2: keywords name the pan balance images for mass reading."}],
+     "student_response_type": "draw_or_write", "answer_key": "1=apple heavier, 2=equal, 3=book heavier, 4=equal."},
+    {"part_number": 3, "part_title": "Part 3: Cups vs scoops.", "student_instructions": "If a pail = 6 cups and 1 cup = 2 scoops, how many SCOOPS?",
+     "visual_layout": "A pail icon with a cup-and-scoop conversion line and an answer line.",
+     "image_placeholders": [{"id": "WS04_P3_CONV", "description": "A Grade 3 unit-convert layout for measurement worksheet, B&W line art. Pail icon. Below: '6 cups × 2 scoops/cup = ___ scoops.' Convert from cups to scoops.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["scoops", "convert"], "text_image_alignment_check": "WS04_P3_CONV at Part 3: keywords name the cups to scoops convert task."}],
+     "student_response_type": "draw_or_write", "answer_key": "12 scoops."}
+  ]}],
+  "early_finisher_prompt": "If you finish, find an item in your bag with mass less than your pencil.",
+  "teacher_notes": "Lesson 4 consolidation. Formative — check unit-attribute reasoning."
+}

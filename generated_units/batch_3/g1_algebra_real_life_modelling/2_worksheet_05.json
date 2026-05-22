@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "lesson_number": 5,
+  "worksheet_title": "My Real-Life Model",
+  "purpose": "Summative evidence for C4.",
+  "student_learning_goal": "I can model a real-life situation from my own life.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can model a real-life situation from my own life.", "character_watermark": "Maple and Sap Sam together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Topic", "student_instructions": "Pick a real-life topic. Draw or write 1 sentence describing the situation.", "visual_layout": "Top of page. A topic title slot and description box.",
+      "image_placeholders": [{"id": "WS05_P1_TOPIC", "description": "A topic title slot 'My Topic: ___' with a 2-line description box and a small drawing area in B&W line-art, ~7in x 1.5in. Header 'Part 1: Situation'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["topic", "situation"], "text_image_alignment_check": "Image WS05_P1_TOPIC: keywords (topic, situation) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Should describe a real-life situation from the child's life."},
+    {"part_number": 2, "part_title": "Part 2: My Question", "student_instructions": "Write a math question about your situation. Use HOW MANY, HOW MUCH, HOW LONG, or HOW TALL.", "visual_layout": "Upper-middle. A question line.",
+      "image_placeholders": [{"id": "WS05_P2_QUESTION", "description": "A long question slot in B&W line-art, ~7in x 1in. Header 'Part 2: Math Question'. One long line: 'My question: ___'.", "placement": "Upper-middle of page.", "approximate_size": "full_width", "keywords": ["math", "question"], "text_image_alignment_check": "Image WS05_P2_QUESTION: keywords (math, question) name what the slot asks for."}],
+      "student_response_type": "write", "answer_key": "Open. Must be countable or measurable about the topic."},
+    {"part_number": 3, "part_title": "Part 3: My Data", "student_instructions": "Collect or imagine data. Draw a tally, table, or picture.", "visual_layout": "Middle of page. A data area with grid space.",
+      "image_placeholders": [{"id": "WS05_P3_DATA", "description": "A data collection area in B&W line-art, ~7in x 2in. Header 'Part 3: Data'. Includes a small tally box on the left and blank space for tables or drawings on the right.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["data", "tally"], "text_image_alignment_check": "Image WS05_P3_DATA: keywords (data, tally) name what the area asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Should show a tally, table, or counted data."},
+    {"part_number": 4, "part_title": "Part 4: My Prediction", "student_instructions": "Use your data to predict an answer to your question.", "visual_layout": "Lower-middle. A prediction line.",
+      "image_placeholders": [{"id": "WS05_P4_PREDICTION", "description": "A prediction slot in B&W line-art, ~7in x 1in. Header 'Part 4: Prediction'. One long line: 'My prediction: ___'.", "placement": "Lower-middle of page.", "approximate_size": "full_width", "keywords": ["my", "prediction"], "text_image_alignment_check": "Image WS05_P4_PREDICTION: keywords (my, prediction) name what the slot asks for."}],
+      "student_response_type": "write", "answer_key": "Open. Should be supported by the data from Part 3."},
+    {"part_number": 5, "part_title": "Part 5: My Reflection", "student_instructions": "Would your model need refining? Draw or write your reflection.", "visual_layout": "Bottom. A reflection box.",
+      "image_placeholders": [{"id": "WS05_P5_REFLECT", "description": "A reflection box in B&W line-art, ~7in x 1.5in, with 2 lines and a small drawing space. Header 'Part 5: Reflection'. Lines: 'My model needs refining because: ___'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["my", "reflection"], "text_image_alignment_check": "Image WS05_P5_REFLECT: keywords (my, reflection) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Should include a refinement or reasoning about model accuracy."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and read each other's models. Tell them ONE thing you liked.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use as integrated C4 evidence across all 5 modelling steps. Watch for choice paralysis — provide situation cards as starters."
+}

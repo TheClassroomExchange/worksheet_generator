@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_coin_counters",
+  "lesson_number": 1,
+  "worksheet_title": "Quincy's Penny Jars",
+  "purpose": "End-of-lesson consolidation. Children record an estimate-then-count for two pictured jars and then practise counting on from a teen number. Captures diagnostic-level evidence for A6.7 (was an estimate made, was it within 3?) and A6.8 (can the child write the next 5 numbers from a given start?).",
+  "student_learning_goal": "I can guess how many pennies are in a jar, then count to check, and I can count to 20 starting from any number.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can guess how many pennies are in a jar, count to check, and count to 20 starting from any number.",
+    "character_watermark": "Penny the Lead Coin Counter in the top-right corner of the header, smiling and holding a clear jar of pennies. Small (~1.5in tall). References the shared 'Penny' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: My Smart Guess",
+          "student_instructions": "Look at Quincy's first penny jar. Write or draw your smart guess for how many pennies are inside. Then count the pennies and write the actual number.",
+          "visual_layout": "Top-left quadrant of the page. A clear glass jar illustration (~3in tall) sits on the left, containing 8 pennies visible through the glass. To the right of the jar are two labelled boxes stacked vertically: a top box labelled 'My GUESS' (with a thought-bubble icon and a blank line for a number) and a bottom box labelled 'Actual COUNT' (with a checkmark icon and a blank line for a number). A small Quincy piggy-bank icon peeks from the bottom-right corner of the quadrant.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_PENNY_JAR_SMALL",
+              "description": "A clear glass jar drawn in B&W line-art style suitable for a Kindergarten worksheet. The jar is tall and clear with a screw-top lid. Inside, 8 pennies are visible — drawn as small circles each marked with a tiny '1¢' label. The pennies pile naturally at the bottom of the jar. The jar is ~3in tall × 2in wide. Beside it, a small Quincy piggy-bank icon (~0.8in tall) sits looking at the jar.",
+              "placement": "Top-left quadrant of the page, sized to fit alongside the GUESS / COUNT boxes.",
+              "approximate_size": "medium",
+              "keywords": [
+                "jar",
+                "pennies",
+                "guess",
+                "count"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_PENNY_JAR_SMALL at top-left quadrant: the student-facing words (jar, pennies, guess, count) name what the image shows. The drift gate verifies each keyword appears in surrounding student_instructions and visual_layout."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Smart guesses are accepted within 3 of the actual count of 8. Actual count: 8."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: A Bigger Jar",
+          "student_instructions": "Look at Quincy's second penny jar. There are more pennies this time. Write your guess for how many pennies are inside. Then count the pennies and write the actual number. Circle: was your guess CLOSE, LOW, or HIGH?",
+          "visual_layout": "Top-right quadrant of the page. A larger clear jar illustration (~3.5in tall) sits on the left, containing 15 pennies visible through the glass. To the right of the jar are two labelled boxes stacked vertically: 'My GUESS' (top) and 'Actual COUNT' (bottom). Below those boxes, three small circles in a row labelled CLOSE, LOW, HIGH — the child circles the right one. A small Penny puppet icon peeks from the top-left corner.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_PENNY_JAR_LARGE",
+              "description": "A larger clear glass jar in B&W line-art style. Same shape as Part 1's jar but ~25% bigger. Inside, 15 pennies are visible, piled with some overlap to suggest crowding. Each penny is marked with a small '1¢'. The jar is ~3.5in tall × 2.5in wide. Beside it, a small Penny puppet icon (~0.8in tall, child chef in apron holding a coin) is looking at the jar.",
+              "placement": "Top-right quadrant of the page, sized to fit alongside the GUESS / COUNT / CLOSE-LOW-HIGH layout.",
+              "approximate_size": "medium",
+              "keywords": [
+                "jar",
+                "pennies",
+                "guess",
+                "close"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_PENNY_JAR_LARGE at top-right quadrant: the student-facing words (jar, pennies, guess, close) name what the image shows."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Smart guesses within 3 of the actual count are CLOSE; more than 3 below is LOW; more than 3 above is HIGH. Actual count: 15."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Count On with Penny",
+          "student_instructions": "Penny is at the number 14 on the Coin Path. Write the next FIVE numbers as she counts on. Read them back to a friend.",
+          "visual_layout": "Bottom half of the page. A horizontal Coin Path strip ~6.5in wide runs across the page. The left-most cell shows the numeral 14 already filled in (with Penny standing on it). The next FIVE cells are blank with dotted outlines, ready for the child to write 15, 16, 17, 18, 19 in sequence. A coin (penny) icon decorates each cell beneath the writing space. Footprints between cells suggest forward movement.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_COIN_PATH_STARTING_AT_14",
+              "description": "A horizontal Coin Path strip in B&W line-art style, ~6.5in wide. Six cells across, each ~1in square. Cell 1 (left-most) is filled with the numeral '14' with Penny the chef standing on top. Cells 2–6 are blank with dotted outlines. Beneath each cell, a small penny icon (circle with '1¢'). Faint footprints between cells point right to suggest counting forward.",
+              "placement": "Spans the full width of the bottom half of the page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "penny",
+                "path",
+                "counting"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_COIN_PATH_STARTING_AT_14 at bottom half: the student-facing words (penny, path, counting) name what the image shows."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Cells 2–6: 15, 16, 17, 18, 19. Accept any reading direction as long as the numbers are in correct sequence. Children who write 1-2-3-4-5 instead are restarting from 1 — flag for re-loop on count-on."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and draw your OWN penny jar! Show how many pennies are inside, then write the count next to it.",
+  "teacher_notes": "This worksheet is a Lesson 1 consolidation artifact. Hand it out at the end of the Action phase, after the partner estimation activity. Most children should complete Parts 1 and 2 independently if they were successful at the partner work. For Part 3, look for: (a) the child started AT 15 (not at 1), and (b) wrote five numbers in correct sequence. Use Part 3 as evidence for the diagnostic checklist column 'Counts on from a given number'. Children who restart at 1 likely need a re-loop on count-on before moving to Lesson 2."
+}

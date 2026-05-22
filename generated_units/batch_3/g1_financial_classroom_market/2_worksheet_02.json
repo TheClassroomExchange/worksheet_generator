@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g1_financial_classroom_market", "lesson_number": 2,
+  "worksheet_title": "Loonie and Toonie", "purpose": "Independent practice of F1.1 dollar coins.",
+  "student_learning_goal": "I can identify the loonie and toonie.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can identify the loonie and toonie.",
+    "character_watermark": "Penny the Penguin Shopkeeper in the top-right with apron. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Find loonie and toonie.", "student_instructions": "Circle the LOONIE and the TOONIE among 6 coins.",
+     "visual_layout": "Six coin icons in a row with circles to mark the loonie and toonie.",
+     "image_placeholders": [{"id": "WS02_P1_FIND", "description": "A Grade 1 find-the-coin layout for money worksheet, B&W line art. 6 coin icons: nickel, dime, quarter, 50¢, loonie, toonie. Each circleable.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["coins", "circle"], "text_image_alignment_check": "WS02_P1_FIND at Part 1: keywords name the coins circle find task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Loonie and toonie circled."},
+    {"part_number": 2, "part_title": "Part 2: Match value.", "student_instructions": "Match each of 6 coins to its value.",
+     "visual_layout": "Six coins on the left and six values on the right.",
+     "image_placeholders": [{"id": "WS02_P2_VALUES", "description": "A Grade 1 coin-value match for money worksheet, B&W line art. Left: 6 coins. Right: 5¢, 10¢, 25¢, 50¢, $1, $2.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["coins", "values"], "text_image_alignment_check": "WS02_P2_VALUES at Part 2: keywords name the coins values match task."}],
+     "student_response_type": "draw_or_write", "answer_key": "nickel=5¢, dime=10¢, quarter=25¢, 50¢=50¢, loonie=$1, toonie=$2."},
+    {"part_number": 3, "part_title": "Part 3: Loonies in toonie.", "student_instructions": "Draw how many LOONIES make 1 TOONIE.",
+     "visual_layout": "An empty workspace with a toonie picture and labelled blanks for the equivalent loonies.",
+     "image_placeholders": [{"id": "WS02_P3_LOONIES", "description": "A Grade 1 equivalence workspace for money worksheet, B&W line art. Left: 1 toonie. Right: empty space for loonies. Below: '___ loonies = 1 toonie.'",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["toonie", "loonies"], "text_image_alignment_check": "WS02_P3_LOONIES at Part 3: keywords name the toonie loonies equivalence task."}],
+     "student_response_type": "draw_or_write", "answer_key": "2 loonies = 1 toonie."}
+  ]}],
+  "early_finisher_prompt": "If you finish, find a loonie or toonie at home and tell its picture.",
+  "teacher_notes": "Lesson 2 consolidation. Formative — check loonie/toonie identification."
+}

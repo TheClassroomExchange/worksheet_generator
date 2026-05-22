@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 5,
+  "worksheet_title": "My Balance Puzzle",
+  "purpose": "Summative evidence for C2.1+C2.2+C2.3.",
+  "student_learning_goal": "I can create and solve a balance puzzle using a variable.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can create and solve a balance puzzle using a variable.", "character_watermark": "Eddy and Vex together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Puzzle", "student_instructions": "Pick a target. Write a balance puzzle using a variable.", "visual_layout": "Top of page. Puzzle slot.",
+      "image_placeholders": [{"id": "WS05_P1_PUZZLE", "description": "A puzzle box in B&W line-art, ~7in x 2in. 'Target: ___'. 'My puzzle: ___ = ___ + ___' or similar. Header 'Part 1: My Balance Puzzle'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["balance", "puzzle"], "text_image_alignment_check": "Image WS05_P1_PUZZLE: keywords (balance, puzzle) name the slots."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Must include a variable."},
+    {"part_number": 2, "part_title": "Part 2: Solve and Check", "student_instructions": "Solve the puzzle. Show your work. Check.", "visual_layout": "Upper-middle. Solve box.",
+      "image_placeholders": [{"id": "WS05_P2_SOLVE", "description": "A solve box in B&W line-art, ~7in x 1.5in. 'My answer: ___'. 'Check: ___'. Header 'Part 2: Solve and Check'.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["solve"], "text_image_alignment_check": "Image WS05_P2_SOLVE: keywords (solve) name the slots."}],
+      "student_response_type": "write", "answer_key": "Open. Answer must verify the puzzle."},
+    {"part_number": 3, "part_title": "Part 3: Equivalent Expressions", "student_instructions": "Write 2 equivalent expressions for your target.", "visual_layout": "Middle. Two equivalent slots.",
+      "image_placeholders": [{"id": "WS05_P3_EQUIV", "description": "Two equivalent slots in B&W line-art, ~7in x 1.5in. 'Equivalent 1: ___'. 'Equivalent 2: ___'. Header 'Part 3: Equivalent Expressions'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["equivalent"], "text_image_alignment_check": "Image WS05_P3_EQUIV: keywords (equivalent) name the slots."}],
+      "student_response_type": "write", "answer_key": "Open. Both must equal the target."},
+    {"part_number": 4, "part_title": "Part 4: Reflection", "student_instructions": "What does your variable stand for?", "visual_layout": "Bottom. Reflection box.",
+      "image_placeholders": [{"id": "WS05_P4_REFLECT", "description": "A reflection box in B&W line-art, ~7in x 1.5in. 'My variable stands for: ___'. Header 'Part 4: Reflection'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["reflection"], "text_image_alignment_check": "Image WS05_P4_REFLECT: keywords (reflection) name the slot."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and solve their puzzle.",
+  "teacher_notes": "Lesson 5 capstone. Watch for no-variable trap."
+}

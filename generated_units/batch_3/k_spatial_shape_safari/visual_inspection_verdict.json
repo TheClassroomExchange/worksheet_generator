@@ -1,0 +1,12 @@
+{
+  "unit_id": "k_spatial_shape_safari",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch1",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 17, "description": "M5 Paper Pattern Blocks: sixth shape labeled 'parallel' (truncated from 'parallelogram')."},
+    {"page": 21, "description": "M6 Safari Art Capstone Template box 4 label duplicates the template name 'Safari Art Capstone Template' (meta-text leak in zone 4)."}
+  ],
+  "summary": "Unit passes. All 5 worksheets use new hero layout — no debug stubs and full Part 3 prompts render ('Find shapes in your classroom!', 'Find 3D shapes in your classroom!'). Rubric clean, characters recognizable."
+}

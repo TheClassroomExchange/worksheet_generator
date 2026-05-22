@@ -1,0 +1,12 @@
+{
+  "unit_id": "g3_number_times_table_toolkit",
+  "status": "pass",
+  "inspected_at": "2026-05-10T20:25:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch5",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 17, "description": "M3 Multiplication Chart 1-10 renders as a 'Hundreds Chart' of integers 1-100, not a 10x10 multiplication products chart (R20-flagged; known deferred per R22 instructions)."},
+    {"page": 26, "description": "9-row rubric (B2.1-B2.9) all rows present with adaptive word-boundary trim in compact 7pt format — within R22 tolerance."}
+  ],
+  "summary": "PASS. Worksheet composer rewrite landed: pages 8-12 now hero layout (title + learning goal + instructions + content) with no debug stubs. 9-row rubric (B2.1-B2.9) all rows visible. Tony, Maya, and Pixel puppet art render correctly. M3 hundreds-chart-vs-multiplication-chart remains a known deferred minor note."
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_balance_stories",
+  "pair_number": 5,
+  "graded_at": "2026-05-08T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child writes a story but leaves the balance scale undrawn or unlabeled — repairing the story-without-structure submission'. This is a task-completion failure, not a research-grounded G1 algebra misconception. recovery_moves = ['READ THEIR STORY ALOUD', 'use 4-step structure', 'celebrate creativity'] are generic, not branched by diagnostic.",
+      "required_fix": "Replace trap with operator-reversion misconception (Kieran 1981; Carpenter, Franke & Levi 2003): under cognitive load of inventing a story, children revert to =-as-operator and refuse 7 = 4+3. Branch recovery: (a) total always on right -> show peer templates with total on left; (b) ≠ for equal piles -> return to physical scale; (c) no equation -> 4-step scaffold.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "duration_minutes = 50 (rubric Level 3 example specifies G1: 40-45). lesson_specific_materials makes Bella/Bobby OPTIONAL but no whole-lesson NO-PAPER, NO-PURCHASE alternative is named. differentiation.for_movement_learners ('act out their story') is framed as an accommodation, not the explicit no-materials version Level 4 requires.",
+      "required_fix": "Trim duration to 45 (minds_on=10, action=22, consolidation=13). Add explicit no-paper path to differentiation: 'No-materials version — oral storytelling circle. Two classmates stand for the two pans (step forward = tipped, level = balanced). Teacher records equation + one equivalent on chart paper as child speaks. No worksheet.' Name it as the no-prep-day version.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Bella/Bobby anchor minds_on and consolidation; success_criteria all 'I can'; vocabulary precise. But no distinctive quotable refrain ties the unit. consolidation.exit_routine = 'Junior Balance Beam Scientist certificate. Quick whisper: My favourite balance story today was ___' is sweet but not a memorable chant children carry between lessons (rubric example: 'HOO knows the sounds? YOU do!').",
+      "required_fix": "Add a Bella-and-Bobby signature refrain to consolidation.exit_routine: Bella calls 'Two sides — same amount?' and the whole class chants back 'THAT'S a balance!' Insert this as the closing chant after the certificate handoff on Day 5. Add one teacher_script line noting it's the unit's signature refrain so the class chants it together one final time, with Bella and Bobby leading.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Equality-as-same-amount is correctly modeled and the gallery walk lets children compare strategies, but expanded_walkthrough.rationale frames the issue as 'story-without-structure error' — a task failure, not the underlying mathematical misconception (operational vs relational view of =; Kieran 1981; Carpenter, Franke & Levi 2003 'Thinking Mathematically'; Behr, Erlwanger & Nichols 1980).",
+      "required_fix": "Rewrite expanded_walkthrough.rationale to name the misconception in research terms: on a generative capstone, children who held a relational view of = on Day 2 often revert to operational view (Kieran 1981; Carpenter, Franke & Levi 2003) because cognitive load of inventing the story consumes working memory. = becomes 'gives the answer' again. Tie recovery_moves to this framing.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "worksheet_05 parts 1-4 (story / balance drawing / equation / equivalent expression) map exactly to the lesson's success_criteria — solid Level 3. But the worksheet does not VARY the practice format from the lesson; it IS the template the lesson uses, unchanged. early_finisher_prompt ('write a SECOND equivalent expression') is a quantity extension, not a format-transfer probe.",
+      "required_fix": "Add a Part 5 transfer probe: pre-printed 'Bella's balance story' for the child to JUDGE — 'Bella has 4 and 5 stickers. Bobby has 8. Is Bella's balance correct? Circle YES/NO. If NO, write the equation that would balance.' This verifies generalization (judging another's balance story) distinct from generating their own. Note in worksheet teacher_notes.",
+      "affected_stages": ["worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Capstone integrates C2.1+C2.2+C2.3 cleanly and the four-part template-to-worksheet mapping is faithful, but five categories sit at Level 3: trap is task-completion not research-grounded misconception (no Kieran/Carpenter citation); G1 duration is 50 (rubric ceiling 45) with no no-paper path; no signature Bella-Bobby refrain; equal-sign rationale not named in operational-vs-relational terms; worksheet replicates the lesson template instead of adding a transfer probe. Routing revise_both."
+}

@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_spatial_mirror_mirror",
+  "thematic_title": "Mirror Mirror",
+  "descriptive_title": "Grade 2 Mathematics: Demonstrations — Lines of Symmetry, Congruence, and Maps (E1.1-E1.5)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "E. Spatial Sense",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-2",
+  "curriculum_codes": [
+    "E1.1",
+    "E1.2",
+    "E1.3",
+    "E1.4",
+    "E1.5"
+  ],
+  "curriculum_expectations": {
+    "E1.1": "sort and identify two-dimensional shapes by comparing number of sides, side lengths, angles, and number of lines of symmetry",
+    "E1.2": "compose and decompose two-dimensional shapes, and show that the area of a shape remains constant regardless of how its parts are rearranged",
+    "E1.3": "identify congruent lengths and angles in two-dimensional shapes by mentally and physically matching them, and determine if the shapes are congruent",
+    "E1.4": "create and interpret simple maps of familiar places",
+    "E1.5": "describe the relative positions of several objects and the movements needed to get from one object to another"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on spatial sense (E1.1-E1.5) framed around 'Mirror Mirror' — Symmy the Symmetry Squirrel and Flippy the Folding Frog. Day 1 sorts shapes by sides, angles, and symmetry lines. Day 2 composes/decomposes and explores area conservation. Day 3 finds congruent shapes. Day 4 creates simple maps. Day 5 closes with a Mirror Maze Capstone integrating all 5 expectations. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will sort by sides/angles/symmetry, compose/decompose with area conservation, identify congruent shapes, create maps, and describe positions and movements.",
+  "lesson_arc": [
+    {
+      "lesson_number": 1,
+      "lesson_title": "Sort by Sides and Symmetry",
+      "primary_expectations": [
+        "E1.1"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "Sort 2D shapes by SIDES + SYMMETRY: count edges, fold to test symmetry.",
+      "student_learning_goal": "I can sort shapes by sides, angles, and symmetry.",
+      "one_line_summary": "Symmy sorts shapes; children count sides, angles, symmetry lines."
+    },
+    {
+      "lesson_number": 2,
+      "lesson_title": "Compose, Decompose, Conserve Area",
+      "primary_expectations": [
+        "E1.2"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "When shapes are REARRANGED, the AREA stays the SAME. Decompose, rearrange, recompose.",
+      "student_learning_goal": "I can show area stays the same when parts are rearranged.",
+      "one_line_summary": "Flippy rearranges tiles; children explore area conservation."
+    },
+    {
+      "lesson_number": 3,
+      "lesson_title": "Congruent Shapes",
+      "primary_expectations": [
+        "E1.3"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "CONGRUENT shapes are EXACTLY the same — same sides, same angles. We MATCH to test.",
+      "student_learning_goal": "I can identify congruent shapes.",
+      "one_line_summary": "Symmy matches pairs; children test congruence by matching."
+    },
+    {
+      "lesson_number": 4,
+      "lesson_title": "Make a Map",
+      "primary_expectations": [
+        "E1.4"
+      ],
+      "secondary_expectations": [],
+      "big_idea": "A MAP shows places from above. We use SYMBOLS for objects.",
+      "student_learning_goal": "I can make a simple map of a familiar place.",
+      "one_line_summary": "Flippy maps the classroom; children draw their own maps."
+    },
+    {
+      "lesson_number": 5,
+      "lesson_title": "Mirror Maze Capstone",
+      "primary_expectations": [
+        "E1.5"
+      ],
+      "secondary_expectations": [
+        "E1.1",
+        "E1.2",
+        "E1.3",
+        "E1.4"
+      ],
+      "big_idea": "We DESCRIBE positions and MOVEMENTS to navigate a maze. Forward, turn, reach the goal.",
+      "student_learning_goal": "I can describe positions and movements on a map.",
+      "one_line_summary": "Children navigate Symmy's maze; describe positions and write directions."
+    }
+  ],
+  "expectation_lesson_map": {
+    "E1.1": [
+      1,
+      5
+    ],
+    "E1.2": [
+      2,
+      5
+    ],
+    "E1.3": [
+      3,
+      5
+    ],
+    "E1.4": [
+      4,
+      5
+    ],
+    "E1.5": [
+      5
+    ]
+  },
+  "recurring_characters": [
+    {
+      "name": "Symmy the Symmetry Squirrel",
+      "role": "Lead character. A friendly squirrel who finds symmetry in everything. Anchors all 5 lessons.",
+      "visual_description": "A young squirrel holding a small mirror. Bushy tail with symmetric stripes. Curious, eager expression."
+    },
+    {
+      "name": "Flippy the Folding Frog",
+      "role": "Symmy's partner. The 'folding' character — folds shapes to find symmetry. Cameo Lessons 2-5.",
+      "visual_description": "A small green frog holding folded paper. Round eyes, a slight smile. Webbed feet."
+    }
+  ],
+  "threaded_vocabulary": [
+    {
+      "term": "side",
+      "child_friendly_definition": "A straight edge of a shape."
+    },
+    {
+      "term": "angle",
+      "child_friendly_definition": "A corner where two sides meet."
+    },
+    {
+      "term": "symmetry line",
+      "child_friendly_definition": "A line that splits a shape into matching halves."
+    },
+    {
+      "term": "compose",
+      "child_friendly_definition": "Put together."
+    },
+    {
+      "term": "decompose",
+      "child_friendly_definition": "Break apart."
+    },
+    {
+      "term": "area",
+      "child_friendly_definition": "How much space the inside of a shape covers."
+    },
+    {
+      "term": "congruent",
+      "child_friendly_definition": "Two shapes that are EXACTLY the same."
+    },
+    {
+      "term": "map",
+      "child_friendly_definition": "A drawing of a place from above."
+    },
+    {
+      "term": "movement",
+      "child_friendly_definition": "Going from one place to another."
+    }
+  ],
+  "manipulatives_index": [
+    {
+      "id": "M1_shape_set",
+      "name": "Sortable 2D Shape Set",
+      "description": "Set of 30 paper 2D shapes for sorting by sides/angles/symmetry.",
+      "used_in_lessons": [
+        1,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M2_pattern_blocks",
+      "name": "Pattern Block Set",
+      "description": "Set of 60 paper pattern blocks for compose/decompose.",
+      "used_in_lessons": [
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M3_congruent_cards",
+      "name": "Congruent Pair Cards",
+      "description": "Set of 16 paper shape cards (8 congruent pairs).",
+      "used_in_lessons": [
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M4_map_template",
+      "name": "Map Template",
+      "description": "Letter-size map grid for drawing.",
+      "used_in_lessons": [
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M5_symbol_cards",
+      "name": "Map Symbol Cards",
+      "description": "Set of 12 map-symbol cards.",
+      "used_in_lessons": [
+        4,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M6_capstone_template",
+      "name": "Mirror Maze Template",
+      "description": "Letter-size capstone with maze, position lines, and direction lines.",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M7_attribute_chart",
+      "name": "Shape Attribute Chart",
+      "description": "Anchor chart of sides/angles/symmetry for common shapes.",
+      "used_in_lessons": [
+        1,
+        3,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M8_area_chart",
+      "name": "Area Conservation Chart",
+      "description": "Anchor chart showing area stays constant when rearranged.",
+      "used_in_lessons": [
+        2,
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M9_direction_cards",
+      "name": "Direction Cards",
+      "description": "Set of 12 cards (forward/back/left/right with numbers).",
+      "used_in_lessons": [
+        5
+      ],
+      "clipart_files": []
+    },
+    {
+      "id": "M10_unit_poster",
+      "name": "Mirror Mirror Poster",
+      "description": "Anchor poster of Symmy and Flippy with the 5 detective skills.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "clipart_files": []
+    }
+  ],
+  "materials_overview": [
+    "2D Shape Set (30)",
+    "Pattern Block Set (60)",
+    "Congruent Pair Cards (16)",
+    "Map Template (per pair)",
+    "Map Symbol Cards (12)",
+    "Mirror Maze Template (per child)",
+    "Attribute Chart",
+    "Area Conservation Chart",
+    "Direction Cards (12)",
+    "Unit Poster"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 sort snapshot.",
+    "formative": "Lesson 2 area tracker; Lesson 3 congruent tracker; Lesson 4 map tracker.",
+    "summative": "Lesson 5 maze capstone."
+  },
+  "pedagogical_notes": [
+    "Grade 2 spatial deepens K/G1 with symmetry counts, area conservation, congruence, and maps.",
+    "Symmetry lines: shapes can have 0, 1, 2, 3, 4, or more.",
+    "Area conservation is foundational for area concepts in G3.",
+    "Congruence is intuitive (matches when superimposed).",
+    "Maps introduce bird's-eye-view perspective."
+  ],
+  "canadian_context_notes": [
+    "Use Canadian flag for symmetry (1 line of symmetry).",
+    "Maple leaf has 1 line of symmetry.",
+    "Hockey rink layout for map-making.",
+    "Tim Hortons logo for shape recognition."
+  ]
+}

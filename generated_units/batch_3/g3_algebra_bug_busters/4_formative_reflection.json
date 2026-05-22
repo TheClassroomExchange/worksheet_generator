@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "formative_worksheets": [
+    {"title": "Mid-Unit Bug Check-In", "when_to_use": "After Lesson 3, before Lesson 4. A 10-minute check on C3.1 + C3.2.", "purpose": "Standalone formative assessment.", "expectations_assessed": ["C3.1", "C3.2"], "student_learning_goal": "I can write concurrent code and find bugs.",
+      "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can write concurrent code and find bugs.", "character_watermark": "Buzz in the top-right corner. Small (~1.5in tall)."},
+      "prompts": [
+        {"prompt_number": 1, "prompt": "Are these CONCURRENT or SEQUENTIAL? '2 robots moving forward at the same time'.", "visual_layout": "Top of page. A single C/S row with bubbles.",
+          "image_placeholders": [{"id": "FORM_Q1_CS", "description": "A single C/S row in B&W, ~6in x 1in. Pre-printed scenario. C/S bubbles.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["concurrent"], "text_image_alignment_check": "Image FORM_Q1_CS: keywords (concurrent) name the row."}],
+          "response_type": "write", "answer_key": "CONCURRENT."},
+        {"prompt_number": 2, "prompt": "Write a 2-lane code with 3 time-steps where both robots move forward.", "visual_layout": "Upper-middle. 2-lane template with 3 rows.",
+          "image_placeholders": [{"id": "FORM_Q2_WRITE", "description": "A 2-lane template with 3 rows in B&W, ~6in x 1.5in. Header 'Write 2-Lane Code:'.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["lane", "code"], "text_image_alignment_check": "Image FORM_Q2_WRITE: keywords (lane, code) name the template."}],
+          "response_type": "write", "answer_key": "Each row should have R1=fwd and R2=fwd or similar."},
+        {"prompt_number": 3, "prompt": "Find the bug: Repeat 5: fwd. Expected outcome: 4 forwards. What's wrong?", "visual_layout": "Middle. A find-bug slot.",
+          "image_placeholders": [{"id": "FORM_Q3_BUG", "description": "A find-bug slot in B&W, ~6in x 1in. 'The bug is: ___'. Header 'Find the Bug:'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["bug"], "text_image_alignment_check": "Image FORM_Q3_BUG: keywords (bug) name the slot."}],
+          "response_type": "write", "answer_key": "Repeat 5 should be Repeat 4 (number bug)."},
+        {"prompt_number": 4, "prompt": "How are you feeling? Circle the face labelled GOT IT, ALMOST, or TRY AGAIN.", "visual_layout": "Bottom of page. Three faces in a row labelled GOT IT, ALMOST, and TRY AGAIN.",
+          "image_placeholders": [{"id": "FORM_Q4_FACES", "description": "Three round face icons in a row in B&W. Smile labelled GOT IT, neutral labelled ALMOST, frown labelled TRY AGAIN.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["got", "almost", "try"], "text_image_alignment_check": "Image FORM_Q4_FACES: keywords (got, almost, try) name the labels."}],
+          "response_type": "self_rate", "answer_key": "Open."}
+      ],
+      "teacher_notes": "Score: concurrent + write + find = ready for Lesson 4."}
+  ],
+  "reflection_sheet": {"title": "My Bug Buster Reflection", "purpose": "End-of-unit metacognition.", "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.", "character_watermark": "Buzz holding a Junior Bug Buster certificate. Small (~1.5in tall)."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel about being a Junior Bug Buster? Circle one.", "visual_layout": "Top of page. Three star-rating ovals.",
+        "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals in B&W. 1 star, 2 stars, 3 stars. Labels: 'Just starting', 'Mostly got it', 'I am a Bug Buster!'.", "placement": "Centred at top.", "approximate_size": "full_width", "keywords": ["stars"], "text_image_alignment_check": "Image REF_STARS: keywords (stars) name the rating ovals."}],
+        "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Bug Buster!"]},
+      {"prompt_number": 2, "prompt": "Did you do these things? Circle YES or NO.", "visual_layout": "Upper-middle. A 5-row YES/NO table.",
+        "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 5-row YES/NO table in B&W. Rows: 'Identified concurrent events', 'Wrote 2-lane code', 'Found bugs', 'Fixed bugs', 'Made a capstone bug-busting project'.", "placement": "Centred, full-width.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "Image REF_YN_TABLE: keywords (yes, no) name the response bubbles."}],
+        "response_type": "circle_yes_no", "options": ["Identified concurrent events", "Wrote 2-lane code", "Found bugs", "Fixed bugs", "Made a capstone bug-busting project"]},
+      {"prompt_number": 3, "prompt": "Which was your FAVOURITE bug-busting task?", "visual_layout": "Middle. Five icon options.",
+        "image_placeholders": [{"id": "REF_FAV_BOX", "description": "Five icons in B&W: concurrent, 2-lane code, find bug, fix bug, capstone. Each ~1in x 1in with selection bubble.", "placement": "Centred.", "approximate_size": "full_width", "keywords": ["icons"], "text_image_alignment_check": "Image REF_FAV_BOX: keywords (icons) name the five options."}],
+        "response_type": "circle_or_loop"},
+      {"prompt_number": 4, "prompt": "Which was the TRICKIEST part?", "visual_layout": "Lower-middle. Three tricky-moment cards in a row.",
+        "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "Three tricky-moment cards in a row in B&W. Each ~1.5in x 1.5in. Labels: '2-lane reading', 'Finding bugs', 'Verifying fixes'.", "placement": "Centred.", "approximate_size": "full_width", "keywords": ["cards"], "text_image_alignment_check": "Image REF_TRICKY_BOX: keywords (cards) name the three cards."}],
+        "response_type": "circle_or_loop"},
+      {"prompt_number": 5, "prompt": "What do you want to learn NEXT?", "visual_layout": "Bottom. Three forward-goal cards.",
+        "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "Three forward-goal cards in a row in B&W. Each ~1.5in x 1.5in. Labels: '3-robot code', 'Real coding (computer)', 'Conditionals'.", "placement": "Centred.", "approximate_size": "full_width", "keywords": ["cards"], "text_image_alignment_check": "Image REF_NEXT_BOX: keywords (cards) name the three cards."}],
+        "response_type": "circle_or_loop"}
+    ],
+    "teacher_notes": "Hand out at end of Lesson 5 after the certificate ceremony."}
+}

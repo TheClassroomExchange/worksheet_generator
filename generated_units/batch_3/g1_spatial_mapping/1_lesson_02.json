@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 2,
+  "lesson_title": "Build and Find",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We can BUILD 3D structures. Inside every structure are 2D SHAPES.",
+  "learning_intention": "We are learning to build 3D structures and find 2D shapes inside.",
+  "student_learning_goal": "I can build a 3D structure and find 2D shapes inside it.",
+  "success_criteria": [
+    "I can BUILD a 3D structure with 3+ blocks.",
+    "I can FIND 2D shapes on the faces of my structure.",
+    "I can NAME the 2D shapes I find."
+  ],
+  "vocabulary_introduced": [
+    "structure"
+  ],
+  "vocabulary_reinforced": [
+    "attribute"
+  ],
+  "manipulatives_used": [
+    "M2_3d_blocks",
+    "M7_attribute_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Tig and Coco — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Build and Find 2D Shapes'",
+    "Paper 3D Blocks (12 per pair)",
+    "Lesson 2 build tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tig Builds a Cabin",
+    "hook": "Tig: I built a CABIN out of 3D blocks. Look — I see SQUARES on the walls and a TRIANGLE on the roof! Tig opens: 'Turn it! Find it! Name it!'",
+    "teacher_script": "Bring children to the carpet. Tig and Coco puppets. 'Friends — yesterday we sorted shapes. Today we BUILD with 3D blocks AND find 2D shapes inside.'\n\nIntroduce vocabulary. Write STRUCTURE on chart. 'Structure = a 3D thing we built — a tower, a cabin, a bridge.'\n\nDemonstrate. Show a paper cube. 'A cube has 6 FACES. Each face is a SQUARE.' Hold up cube. Show all 6 squares.\n\nNow stack 2 cubes. 'A 2-cube tower. The faces are still squares — 2 cubes = 12 squares total.'\n\nAdd a triangular pyramid on top. 'Pyramid has a SQUARE base and 4 TRIANGLE faces.' Now the structure has squares + triangles.\n\nMore examples:\n- Cabin: cube + pyramid (squares + triangles).\n- Bridge: 2 cylinders + 1 cube (circles + rectangles + squares).\n- Tower: 5 cubes stacked (squares only).\n\n'Tig says — every 3D structure is made of 2D SHAPES on its faces. Find them!'\n\n'Today we BUILD and FIND.'",
+    "student_actions": [
+      "Watch Tig build the cabin.",
+      "Echo new vocabulary: 'structure'.",
+      "Identify 2D shapes on 3D faces.",
+      "Practice naming shapes."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Build Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: build a 3-block tower. Find ALL the 2D shapes on its surface.",
+        "teacher_prompt": "Say: 'How many squares? Triangles?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Tower — build a 4-block tower. Find shapes. Station B: Bridge — build a bridge with cylinders and cubes. Find shapes. Station C: Free Build — build any structure. List shapes you find.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: build with 5 different 3D shapes. Find at least 4 different 2D shapes inside.",
+        "teacher_prompt": "Say: 'Stretch: 5 different 3D shapes.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the face-counting rule. 'A cube has 6 faces. Each is a square. Count them!'",
+        "teacher_prompt": "Hold up a cube. Demonstrate counting faces."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the build tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Show me a square on your structure.' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share HOW they made sure they counted every face — Pair A 'I turned 4 times then flipped'; Pair B 'I marked each face with a finger.' Class debates which is more reliable for an 8-face structure. Cite Battista (2007): mental-rotation strategies are at the core of spatial-visualisation literacy.",
+        "teacher_prompt": "Tig: 'Different brains find faces different ways. The math says: count ALL six.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just find squares on cubes.",
+      "for_extending": "Stretch at Station C: 5 different 3D shapes.",
+      "for_ell_or_iep": "Provide a sentence frame: 'I see a ___ on this face.'",
+      "for_movement_learners": "Children walk around the structure to find shapes from all sides. NO-MATERIALS VERSION: children stack two closed fists as a cube and tap each face naming the square; for a tower, stack three fist-cubes. Body becomes the structure. Or use household substitutions (cereal boxes, soup cans)."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: builds 3+ block structure; finds 2D shapes; names them.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Builds structure",
+        "Finds 2D shapes",
+        "Names 2D shapes",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tig's Build Brag",
+    "discussion_prompts": [
+      "What is a STRUCTURE?",
+      "What 2D shapes are on a CUBE?",
+      "What 2D shapes are on a CYLINDER?",
+      "Did you find any surprising shapes?"
+    ],
+    "exit_routine": "Tig + Coco refrain — class chants: 'Turn it! Find it! Name it!' Each child stacks 2 cubes and reports ONE face's shape they had to MENTALLY ROTATE to see."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Build accuracy and 2D shape identification on 3D faces.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures E1.2 mastery for building + finding 2D shapes."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says ALL FACES of a CUBE are 'squares' but the cube is rotated and they don't recognize sides — repairing the perspective trap at Grade 1",
+    "rationale": "When Grade-1 children look at a 3D structure, their dominant trap is the front-face fixation — they name only the face they SEE and lose the other 5 faces of a cube. Battista (2007, 'The Development of Geometric and Spatial Thinking') and Clements & Sarama (2009) place this as the central spatial-visualisation challenge: hidden faces must be MENTALLY ROTATED into view.\n\nYesterday Lesson 1 named shape attributes; today we apply them to 3D faces. Lesson 3 will find matching halves; Lesson 4 maps position; Lesson 5 integrates into the treasure trail.",
+    "setup": "Pair is at Station A. Child has a cube, says 'a square'. Doesn't realize the back, top, bottom, sides are also squares.",
+    "teacher_script": "Crouch. 'You found ONE square — front. But Tig says — turn the cube. What do you see?'\n\nRotate the cube. 'Top face — also a square. Side — square. Back — square. Bottom — square. Total: 6 squares.'\n\nWalk through. 'A cube has 6 FACES. Each is a square. Same shape, but on different sides.'\n\nGeneralise. 'Tig says — turn the structure. Look at every face. Count.'\n\nNow practice. 'Pyramid? 1 square base + 4 triangles = 5 faces.'\n\nIf still missing faces: provide a checklist with 6 boxes for the cube. 'Tick a box each time you find a face.'\n\nLong-term recovery: every structure activity turns and counts.",
+    "expected_student_responses": [
+      "(Confused) Names only the front face.",
+      "(Mid) Turns the structure with prompts to find more faces.",
+      "(Strong) Independently turns and lists all faces.",
+      "(Stretched) Counts faces by category and identifies edges/vertices."
+    ],
+    "common_misconceptions": [
+      "Only the visible face counts. (Repair: turn and find all faces.)",
+      "Different sides are different shapes. (Repair: same 3D shape has same face shapes per side.)",
+      "Cubes have 4 faces. (Repair: 6 faces — count by turning.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names the front face only: prompt 'turn and PREDICT' before rotating — child says what's on the back BEFORE the cube turns.",
+      "DIAGNOSTIC B — child can predict but loses count: give a 6-box checklist (one box per cube face); child checks each face as they name it.",
+      "DIAGNOSTIC C — child claims faces are 'different shapes': same-cube two-views compare — point at face 1 and face 4 of the SAME cube; child confirms 'same square, different angle.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tig's Build Sheet",
+    "purpose": "Independent practice of E1.2 building and finding 2D shapes.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Look at 3 structures. Count and name the 2D shapes you can see on each.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Build a tower in your mind (or with blocks). Draw it. List shapes.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Build any structure. Draw it. Find at least 3 different 2D shapes.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tig in worksheet header",
+      "3 structure diagrams for Part 1",
+      "Blank drawing space + list for Part 2",
+      "Larger blank drawing space for Part 3"
+    ]
+  }
+}

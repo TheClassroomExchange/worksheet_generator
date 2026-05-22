@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "lesson_number": 4,
+  "worksheet_title": "Compare and Order",
+  "purpose": "Independent practice of B1.3 — comparing two-digit numbers up to 50 and ordering small sets.",
+  "student_learning_goal": "I can compare two numbers up to 50 and order a small set from smallest to biggest.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compare two numbers up to 50 and order a small set from smallest to biggest.",
+    "character_watermark": "Lila in the top-right corner, holding a jar of buttons. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Compare Two Numbers",
+          "student_instructions": "Compare each pair. Write > for greater than, < for less than, or = if equal.",
+          "visual_layout": "Top third of the page. Six comparison rows. Each row shows two numbers with a blank in the middle for the symbol. Pairs: 12 vs 21, 35 vs 38, 47 vs 23, 30 vs 30, 41 vs 38, 25 vs 50.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_SIX_COMPARES",
+              "description": "Six comparison rows in B&W line-art, stacked vertically. Each row: number on left in a box, blank circle in middle for the symbol, number on right in a box. Pairs: 12 vs 21, 35 vs 38, 47 vs 23, 30 vs 30, 41 vs 38, 25 vs 50.",
+              "placement": "Top third of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "compare",
+                "greater",
+                "less"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_SIX_COMPARES: keywords (compare, greater, less) name what the symbols indicate."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "12 < 21. 35 < 38. 47 > 23. 30 = 30. 41 > 38. 25 < 50."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Order The Number Friends",
+          "student_instructions": "Two ordering tasks. Task A: order from SMALLEST to BIGGEST. Task B: order from BIGGEST to SMALLEST.",
+          "visual_layout": "Middle of the page. Two ordering tasks. Task A: 4 number cards (15, 32, 8, 25) at top with blank arrows pointing right; child writes the order. Task B: 5 number cards (47, 30, 41, 35, 50) at top with blank arrows pointing right; child writes the order.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_ORDER_TASKS",
+              "description": "Two ordering tasks in B&W line-art, stacked vertically. Task A header: 'Smallest to Biggest'. Below the header, 4 number cards (15, 32, 8, 25) in a row. Below the cards, 4 ordered blank slots with right-arrows. Task B header: 'Biggest to Smallest'. Below: 5 number cards (47, 30, 41, 35, 50). Below: 5 ordered blank slots.",
+              "placement": "Middle of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "order",
+                "smallest",
+                "biggest"
+              ],
+              "text_image_alignment_check": "Image WS04_P2_ORDER_TASKS: keywords (order, smallest, biggest) name what the tasks ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Task A: 8, 15, 25, 32. Task B: 50, 47, 41, 35, 30."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Three Numbers",
+          "student_instructions": "Pick THREE numbers between 20 and 50. Order them. Write a sentence explaining HOW you decided which was biggest.",
+          "visual_layout": "Bottom of the page. Three blank number-boxes at the top. Below: a 'smallest to biggest' line with three blank slots. Below that: a sentence-starter line: 'I knew ___ was biggest because ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_MY_NUMBERS",
+              "description": "An open three-number ordering area in B&W line-art. Top: three blank number boxes (each ~1.5in × 1.5in). Middle: a horizontal line with three blank slots and right-arrows. Bottom: a sentence-starter line.",
+              "placement": "Bottom of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "numbers",
+                "biggest",
+                "order"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_MY_NUMBERS: keywords (numbers, biggest, order) name what the area asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any 3 numbers 20-50 ordered correctly. Look for the explanation: ideal answer cites 'tens-first reasoning' (e.g. 'I knew 47 was biggest because it had 4 tens and the others had 3').'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, pick FIVE numbers between 30 and 50. Order them from biggest to smallest!",
+  "teacher_notes": "Lesson 4 consolidation. Hand out at the end of partner stations. Watch for: (a) Part 1 children who flip > and < — they may know the relationship but not the symbols; (b) Part 3 children who explain by saying 'it just looks bigger' rather than citing tens — flag for re-loop on tens-first reasoning. Use Part 3 as evidence for the formative tracker column 'uses tens-first reasoning'."
+}

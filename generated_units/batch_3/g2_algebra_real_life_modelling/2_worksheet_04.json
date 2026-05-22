@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "lesson_number": 4,
+  "worksheet_title": "Mayor Mira's Reflections",
+  "purpose": "Independent practice of C4 step 4 (reflect/refine).",
+  "student_learning_goal": "I can compare a prediction to actual data and refine my model.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can compare a prediction to actual data and refine my model.", "character_watermark": "Mayor Mira in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Compare Predict and Actual", "student_instructions": "Compare 5 predict-vs-actual scenarios. Find each gap.", "visual_layout": "Top of page. Five comparison rows.",
+      "image_placeholders": [{"id": "WS04_P1_COMPARE", "description": "Five comparison rows in B&W line-art, ~7in x 3.5in. Columns: 'Predict | Actual | Gap'. Pre-filled: row 1 (25, 23, ___), row 2 (300, 285, ___), row 3 (72, 80, ___), row 4 (50, 50, ___), row 5 (60, 65, ___). Header 'Predict vs Actual:'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["predict", "actual"], "text_image_alignment_check": "Image WS04_P1_COMPARE: keywords (predict, actual) name what the rows ask for."}],
+      "student_response_type": "write", "answer_key": "Row 1 gap: 2 less. Row 2 gap: 15 less. Row 3 gap: 8 more. Row 4 gap: 0 (matched). Row 5 gap: 5 more."},
+    {"part_number": 2, "part_title": "Part 2: Refine the Rule", "student_instructions": "Each rule below was a bit off. Refine the rule based on actual data.", "visual_layout": "Middle of page. Three rule-refining boxes.",
+      "image_placeholders": [{"id": "WS04_P2_REFINE", "description": "Three refining boxes in B&W line-art, ~7in x 2.5in. Each box: 'Old rule: ___' and 'Refined rule: ___'. Pre-filled old rules: '5 buses/day (actual avg 4.6)', '60 sandwiches/lunch (actual avg 57)', '72 books/week (actual 80)'. Header 'Refine the Rule:'.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["refine", "rule"], "text_image_alignment_check": "Image WS04_P2_REFINE: keywords (refine, rule) name what the boxes ask for."}],
+      "student_response_type": "write", "answer_key": "Open. Each refined rule should be closer to the actual data."},
+    {"part_number": 3, "part_title": "Part 3: My Real-Life Refinement", "student_instructions": "Think of a real-life prediction you made. Did it match? How would you refine?", "visual_layout": "Bottom of page. A drawing or writing box with reflection lines.",
+      "image_placeholders": [{"id": "WS04_P3_MY", "description": "A blank reflection area in B&W line-art, ~7in x 2.5in. 'I predicted: ___'. 'Actual: ___'. 'I would refine to: ___'. Header 'My Real-Life Refinement:'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["my", "refinement"], "text_image_alignment_check": "Image WS04_P3_MY: keywords (my, refinement) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Should include a refined rule."}
+  ]}],
+  "early_finisher_prompt": "If you finish, refine TWO rules for the same situation.",
+  "teacher_notes": "Lesson 4 worksheet practices C4 step 4 reflect/refine. Watch for wrong-vs-imperfect framing."
+}

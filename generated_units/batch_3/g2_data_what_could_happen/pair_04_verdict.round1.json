@@ -1,0 +1,66 @@
+{
+  "pair_number": 4,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "primary_expectations = ['D2.2'] and D2.2 reads 'make and test predictions about the likelihood that the mode(s) of a data set from one population will be the same for data collected from a different population' — but the lesson activities (Stations A/B/C and worksheet Parts 1-3) compare modes across SUCCESSIVE TRIALS of the SAME die, not across DIFFERENT POPULATIONS. The cross-population idea (the heart of D2.2) is deferred to Lesson 5 with no explicit bridge here.",
+      "required_fix": "Bridge D2.2's population idea explicitly: in expanded_walkthrough or consolidation, name that 'today we tested mode across TRIALS of the same die — tomorrow [Lesson 5] we test mode across two CLASSES of children, two POPULATIONS'. Then add at least one station task that frames the dice as 'two different rollers' (e.g., Station C — your pair rolls 12, then a different pair rolls 12; same mode? Different rollers = different population sample). Also add an explicit back-reference to Lesson 3's spinner predictions ('remember when bigger section = more likely? Today every face is equal, so MODE is the surprise').",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child predicts SAME MODE will repeat — repairing the same-mode-always trap at Grade 2'; recovery_moves = ['Multiple trial journal.', 'Drill each trial is fresh.', 'Show variation across rolls.'] — trap is plausible (representativeness / no-memory) but is not grounded in named research, and recovery_moves are flat rather than branched by what the diagnostic shows about the child.",
+      "required_fix": "Anchor the trap in named research — e.g., Kahneman & Tversky's representativeness heuristic, Fischbein's primary intuitions about chance, or Konold's outcome approach (children predict the single 'right' outcome rather than a distribution). Then BRANCH recovery_moves: (a) if child says 'mode is 4 because the die likes 4', drop back to inspecting the die (all faces, all equal) before re-rolling; (b) if child accepts 'each face equal' but still predicts repeat mode, run a paired-pair compare — your 12 vs partner's 12 — so they see two trials side-by-side; (c) if child predicts variability but can't articulate why, give the sentence frame 'each roll is a fresh test because ___' and prompt them to fill it.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Paper Dice Set (6)', 'Prediction Recording Mat (1 per pair)', 'Lesson 4 dice tracker' and an anchor chart as required prep; differentiation.for_movement_learners = 'Roll with whole-body action; tally on a giant floor chart' — there is no explicit no-paper, no-purchase fallback for a teacher who couldn't prep paper dice today.",
+      "required_fix": "Add a NO-PAPER alternative to differentiation: e.g., 'No-materials version — finger-dice: child holds up 1-6 fingers behind their back, partner says STOP, child shows the number; or hand-clap dice: clap to a number 1-6 chosen secretly. Tally on the carpet with bottle caps or dry beans (one per roll, into 6 cups labelled 1-6). Body and voice become the die; the cup with the most caps shows the mode. Same prediction logic, zero prep.' This makes the lesson runnable on any day, including days when the paper dice set isn't built.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.activity_name = 'Mae's Dice Brag'; exit_routine = 'Each child writes their mode: My mode after 12 rolls was ___.' — Mae anchors minds_on and consolidation but there is no distinctive quotable refrain children CHANT back, and vocabulary_introduced = [] meaning no new term gets a child-friendly definition (the lesson reinforces 'mode' but doesn't elevate the new D2.2 idea — randomness / fresh trial — into a chantable line).",
+      "required_fix": "Give Mae a distinctive, repeatable refrain tied to the day's big idea — e.g., 'Each roll is FRESH — the die forgets!' with a hand gesture (open palm wipe). Have children chant it back at the close of minds_on, after each station rotation, and at consolidation; carry it forward into Lesson 5's capstone. Update teacher_script and consolidation.discussion_prompts so the refrain appears verbatim. Also add 'random' or 'trial' to vocabulary_introduced with a child-friendly definition (e.g., 'random — we can't tell which face will come up; each roll is a fresh test').",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "action.steps have children roll, tally, find mode at three stations and discuss 'every roll is a fresh test'; expanded_walkthrough.common_misconceptions = ['Same mode every time. (Repair: random — varies.)', 'Mode = die's preferred number. (Repair: dice have no preference.)'] — children are not asked to INVENT or COMPARE strategies for predicting mode, and the misconceptions are named in plain language without grounding in named research on early probabilistic thinking.",
+      "required_fix": "Add a strategy-comparison move in action: after Station A, two pairs share HOW they predicted (or could have predicted) the mode — 'guess my favourite number', 'pick the middle 3 or 4', 'all six are equal so any is fine'. Teacher names the strategies and asks which holds up across many trials. In expanded_walkthrough.rationale, name the misconception in research terms — e.g., Konold's 'outcome approach' (children predict THE answer rather than a distribution), Kahneman & Tversky's representativeness heuristic, or Fischbein's primary intuitions on chance — so a substitute reading the lesson knows why the trap is grade-typical.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "overall_notes": "Lesson 4 is solid Achieving on most axes but five of six categories sit at Level 3. The biggest concern is alignment: D2.2 is fundamentally about modes across DIFFERENT POPULATIONS, but this lesson tests modes across SUCCESSIVE TRIALS of the same die — the population frame is missing and only deferred to Lesson 5. All blocking issues are in the lesson stage; the worksheet maps cleanly to success criteria and is the strongest part of the pair. Fixes: (1) reframe at least one station/discussion to invoke 'two populations / two rollers'; (2) anchor the same-mode-always trap in named research with branched recovery; (3) add a no-paper finger-dice fallback; (4) give Mae a quotable refrain and add 'random' to vocabulary_introduced; (5) let children invent and compare prediction strategies."
+}

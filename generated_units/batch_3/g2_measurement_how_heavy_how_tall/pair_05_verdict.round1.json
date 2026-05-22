@@ -1,0 +1,47 @@
+{
+  "pair_number": 5,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 3
+  },
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names tool-attribute mismatch trap with recovery 'Tool-attribute pairing chart. Drill tool for attribute. Show wrong-tool examples.' but does not cite or align with named research, and recovery_moves do not branch by what the diagnostic told you about the child (e.g., if child names ruler but measures from 1, vs. if child confuses time/length attributes entirely).",
+      "required_fix": "Add a research citation (e.g., Lehrer 2003 on measurement as attribute-tool matching, or Stephan & Clements on measurement length progressions) and split recovery_moves into branches: (a) if child grabs a stopwatch for length, drill 'attribute first, then tool' with picture-sort; (b) if child uses a ruler but starts at 1 cm, drop back to zero-point anchor chart; (c) if child cannot name the attribute, body-gesture the attribute (stretch arms = length, finger-tap = time) before re-introducing the tool.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson teaches procedural rules ('Smaller unit, more units needed.', '100 cm = 1 m.', 'Ruler starts at ZERO.', '60 seconds = 1 minute.') but does not let children invent or refine a strategy, nor compare strategies. expanded_walkthrough does not name the misconception in research-grounded terms (e.g., Lehrer's measurement-as-attribute research, Stephan & Clements length-iteration progression, or Battista on spatial reasoning).",
+      "required_fix": "In action.steps, add a strategy-comparison move at one station: e.g., at Station 3 (RULER), have two children measure the same pencil — one starting at 0, one starting at 1 — and compare answers; ask the class 'Why are they different? Which is right and why?' Then in expanded_walkthrough.rationale, name the misconception using research vocabulary (e.g., 'tool-attribute matching, per Lehrer 2003; zero-point error reflects a length-as-endpoint vs. length-as-iterated-units misconception, Stephan & Clements 2003').",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 2 says 'Measure 3 objects with a ruler. Draw a 6-cm line.' which is a near-rote repeat of Lesson Station 3 ('measure 4 objects in cm. Draw a 7-cm line.'). Worksheet does not deliberately VARY the practice format from the lesson as a transfer task, and there is no justified difference (e.g., introducing 2 unfamiliar items to verify generalization).",
+      "required_fix": "Vary at least one worksheet part as a transfer task with a justification note. Example: in Part 2, add one object that requires a non-zero starting point (a picture of a pencil placed at the 2-cm mark on a printed ruler) so children must apply the zero-point concept rather than rote-measure; OR in Part 3, add 1-2 unfamiliar duration events (e.g., 'eat a snack', 'tie a shoe') and add teacher_notes: 'Part 3 includes 2 events not practised in lesson to verify generalization.'",
+      "affected_stages": ["worksheet_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ]
+}

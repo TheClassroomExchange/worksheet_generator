@@ -1,0 +1,57 @@
+{
+  "pair_number": 4,
+  "unit_id": "g3_algebra_balanced_equations",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 3
+  },
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names the 'operation-stuck trap' (child finds 8 addition equivalents for 100 and stops) and recovery_moves are concrete (operation checklist, inverse-pair practice), but the trap is not anchored to named research. Level 4 requires a citation aligning the misconception with a research source.",
+      "required_fix": "Cite the misconception in research-grounded terms. The operation-stuck pattern aligns with Kieran (1981) on the procedural-vs-relational view of equality, or Carpenter, Franke & Levi (2003) 'Thinking Mathematically' on relational thinking. Add the citation in expanded_walkthrough.rationale and have recovery_moves branch by diagnostic: if child can produce subtraction equivalents when prompted, drill operation-mix prompts; if child cannot generate any subtraction equivalent, drop back to inverse-pair scaffolding (200-100 because 100+100=200) before re-asking for variety.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Eddy and Vex appear in minds_on, action, and consolidation, and all success_criteria start with 'I can'. However, consolidation.exit_routine is 'Each child writes ONE 4-operation equivalent for a target on a sticky note' — there is no quotable refrain or memorable chant for Eddy/Vex. Discussion prompts are bare questions ('How many ways to make 100?'), not a sentence frame children carry between lessons.",
+      "required_fix": "Give Eddy a distinctive refrain that closes the consolidation and the exit_routine — something like 'Eddy says: MORE WAYS, MORE OPERATIONS, MORE EDDY-APPROVED!' chanted back by the class, or a sentence frame 'I made ___ in ___ ways using ___ operations' that children fill in aloud before writing. Add the refrain to consolidation.exit_routine and quote it at the end of minds_on.teacher_script so children hear it twice in the lesson.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson lets children invent equivalents and the action.steps[3] discusses patterns (doubling/halving, compensation, inverse) — strong Level 3. But common_misconceptions ('One operation is enough', 'Division is hard', '3-term expressions are too complex') are stated in plain language without grounding in named research. Level 4 requires the misconception named in research-grounded terms (Carpenter & Moser CGI types, Empson on fractions, Battista on spatial reasoning, etc.).",
+      "required_fix": "Re-frame the operation-stuck trap in expanded_walkthrough.rationale using Carpenter, Franke & Levi (2003) on relational thinking, or Kaput's algebraic-reasoning framework on generalised arithmetic. State explicitly that variety-across-operations is what builds the relational view of the equal sign (vs. the operational view that fixates on a single procedure). Add a teacher-facing line: 'This is what Carpenter calls relational thinking — children who only stay in addition are still operating on the equation rather than reasoning about its structure.'",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson Station A asks for 8+ equivalents for 100; worksheet Part 1 asks for 8 for 100. Lesson Station B asks for 6+ for 500; worksheet Part 2 asks for 6 for 500. Lesson Station C asks for 5+ for a target between 250 and 1000; worksheet Part 3 is identical. The worksheet is a rote repeat of the lesson stations with the same numbers, not a transfer task. Level 4 requires the worksheet to deliberately VARY the practice format (e.g., introduce a new target the lesson didn't use, or flip the task to 'given these 6 expressions, which equal 500?' to verify generalization).",
+      "required_fix": "Modify Part 3 to be a transfer task: introduce a target the lesson did NOT use (e.g., 750 or 825) AND require at least 1 expression with a 3-term form and 1 with division — verifying that variety transfers beyond the rehearsed numbers. Add a sentence to teacher_notes explaining: 'Part 3 uses an unrehearsed target on purpose — it tests whether children generalise the operation-mix habit, not whether they can copy from the chart.' Update worksheet_brief.parts_outline in the lesson to match.",
+      "affected_stages": ["lesson_04", "worksheet_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "summary_note": "Strong Level 3 pair across the board with one Level 4 (alignment) and one Level 4 (instructional_balance — optional puppets, realistic 50-min G3 timing, everyday materials). Four categories sit at 3 because of missing research citations, no Eddy refrain in consolidation, and a worksheet that mirrors rather than transfers. All four fixes are surgical edits to lesson_04 and one Part-3 change in worksheet_04."
+}

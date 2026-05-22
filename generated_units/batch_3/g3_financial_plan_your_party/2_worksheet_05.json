@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_financial_plan_your_party", "lesson_number": 5,
+  "worksheet_title": "The Big Party Plan", "purpose": "Summative artifact applying F1.1.",
+  "student_learning_goal": "I can plan a budget and calculate change.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can plan a budget and calculate change.",
+    "character_watermark": "Pat and Bea in the top-right at a party. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Pick + total.", "student_instructions": "Pick 4 items from a list of 8. Total their prices.",
+     "visual_layout": "List of 8 items with prices and 4 pick lines plus a total line.",
+     "image_placeholders": [{"id": "WS05_P1_PICK", "description": "A Grade 3 capstone pick-and-total layout for money worksheet, B&W line art. 8 items with prices: maple cookies $4, balloons $5, donuts $7, drinks $3, hat $2, plates $1, banner $4, candle $3. Below: 4 pick lines + total line.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["items", "total"], "text_image_alignment_check": "WS05_P1_PICK at Part 1: keywords name the items pick total task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any 4 items totalling under $20 (e.g., $4 + $5 + $7 + $3 = $19)."},
+    {"part_number": 2, "part_title": "Part 2: Pay and change.", "student_instructions": "Pay $20. Calculate exact change.",
+     "visual_layout": "Pay box ($20) and change calculation workspace.",
+     "image_placeholders": [{"id": "WS05_P2_PAY", "description": "A Grade 3 capstone pay-and-change layout for money worksheet, B&W line art. 'Paid $20.' Below: subtraction workspace ($20 - total). Answer slot for change.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["pay", "change"], "text_image_alignment_check": "WS05_P2_PAY at Part 2: keywords name the pay change calc task."}],
+     "student_response_type": "draw_or_write", "answer_key": "$20 - your total = your change."},
+    {"part_number": 3, "part_title": "Part 3: Over budget? Swap.", "student_instructions": "If your total is over $20, swap an item to stay under $20.",
+     "visual_layout": "Swap workspace with new total line.",
+     "image_placeholders": [{"id": "WS05_P3_SWAP", "description": "A Grade 3 capstone swap layout for money worksheet, B&W line art. 'Over budget? Swap an item.' Below: 'Removed: ___', 'Added: ___', 'New total: ___'.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["swap", "budget"], "text_image_alignment_check": "WS05_P3_SWAP at Part 3: keywords name the swap budget task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any valid swap that brings total under $20."}
+  ]}],
+  "early_finisher_prompt": "If you finish, plan a $30 budget party with 5 items.",
+  "teacher_notes": "Lesson 5 capstone. Summative artifact — score on rubric."
+}

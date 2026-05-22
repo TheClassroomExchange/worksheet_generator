@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 4,
+  "lesson_title": "Altering Code",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "When we change code, the outcome changes.",
+  "learning_intention": "We are learning to change code and predict the new outcome.",
+  "student_learning_goal": "I can change code and predict the new outcome.",
+  "success_criteria": [
+    "I can change a number in a loop and predict the new outcome.",
+    "I can swap two steps and predict the new outcome.",
+    "I can describe how my change affects the result."
+  ],
+  "vocabulary_introduced": [
+    "alter"
+  ],
+  "vocabulary_reinforced": [
+    "code",
+    "loop",
+    "predict"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M3_existing_code_cards",
+    "M4_robot_marker",
+    "M7_predict_chart",
+    "M8_alter_cards",
+    "M10_loop_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Coda the Coding Robot — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "OPTIONAL: Looper the Loop Helper — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Alter the Code, Change the Outcome'",
+    "Per-pair grid mat",
+    "Per-pair existing code sample cards",
+    "Per-pair code alteration cards (8)",
+    "Per-pair predict-and-check chart",
+    "Per-pair robot marker",
+    "Lesson 4 alteration tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Coda's Code Edit",
+    "hook": "Original code: Repeat 3 right. Now we change 3 to 5. What happens?",
+    "teacher_script": "Bring children to the carpet. Coda + Looper. 'Friends — yesterday we PREDICTED what code does. Today we CHANGE code and predict the NEW outcome.'\n\nShow original code: 'Repeat 3: right.' Coda starts at (0,0). Predict: ends at (3,0). Run. Check.\n\n'Now we ALTER. Change 3 to 5.' Cross out 3, write 5. New code: 'Repeat 5: right.' 'Predict the new ending?' Children: '(5, 0).' Reset Coda to (0,0). Run. Land at (5,0). 'Correct! Changing 3 to 5 made Coda go 2 squares further.'\n\nNow swap two steps. Original: 'right, up, right.' Predict: (2,1). Swap step 1 and step 2: 'up, right, right.' Predict: (2,1) again — same! Run. Confirm. 'Some swaps don't change the outcome (when steps commute). Other swaps DO change the outcome — like spreading peanut butter before getting bread.'\n\nNow alter a loop body. Original: 'Repeat 3: right.' Alter to 'Repeat 3: up.' Predict: (0,3) instead of (3,0). 'Same number of steps, different DIRECTION.' Run.\n\n'Today we'll ALTER lots of code. PREDICT first, then RUN.'",
+    "student_actions": [
+      "Watch the original 3-right code execute.",
+      "Watch the altered 5-right code; predict change.",
+      "Echo new vocabulary: 'alter'.",
+      "Predict for the swap and direction-change cases."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Alteration Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: alter 4 more codes. (a) Change 'Repeat 4: right' to 'Repeat 6: right'. (b) Change 'right, up, right' to 'right, up, up'. (c) Change loop body 'Repeat 3: right' to 'Repeat 3: up, right'. (d) Swap order in 'right, up, right, up' to 'up, right, up, right'.",
+        "teacher_prompt": "Say to students: 'Four alterations. Predict the change.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Number Changes — pair has 6 cards each with original code + an instruction to change a number; they predict and check. Station B: Step Changes — pair has 6 cards each with code + an instruction to change a step; they predict and check. Station C: My Alteration — pair takes a piece of code and INVENTS an alteration; predicts; runs.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: invent an alteration that DOESN'T change the outcome. (Swap commutative steps; double the loop count and halve the iterations of an inner step.) Discuss why some changes are 'invisible'.",
+        "teacher_prompt": "Say to pairs: 'Some changes don't change the outcome. Find ONE.' Discuss commutative ops."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the alteration framework. 'When we alter code, ask: WHAT did I change? HOW does it affect the outcome? Then PREDICT.'",
+        "teacher_prompt": "Use a 3-question rubric: 'What changed? How does it affect outcome? What's the prediction?'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the alteration tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What did you change? What's the new outcome?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only number changes (Repeat 3 → Repeat 5) — no step swaps yet.",
+      "for_extending": "Stretch at Station C: change loop body to a multi-step sequence.",
+      "for_ell_or_iep": "Provide alteration cards with picture before/after. Sentence frame: 'I changed ___ to ___. The new outcome is ___.'",
+      "for_movement_learners": "Walk both versions on the floor — body comparison."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: alters a number and predicts; alters a step and predicts; explains why the change matters.",
+      "how_to_record": "Tick the alteration tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Predicts after number change",
+        "Predicts after step change",
+        "Explains effect",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coda's Edit Brag",
+    "discussion_prompts": [
+      "What does ALTER mean?",
+      "How does changing a number in a loop affect the outcome?",
+      "How does swapping steps affect the outcome?",
+      "Are there changes that DON'T affect the outcome?"
+    ],
+    "exit_routine": "Each child writes ONE alteration on a sticky note: 'Original: ___. Change: ___. New outcome: ___.' Notes go on the chart."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Alteration prediction accuracy and reasoning.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures C3.2 alteration mastery. Children at L4 predict effects and explain why."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child alters code but predicts the SAME outcome — repairing the alteration-doesn't-matter error",
+    "rationale": "The most common Grade-1 trap on alteration is the persistence error: the child changes code but predicts the OLD outcome, treating the alteration as if it didn't matter. They've read the alteration but failed to UPDATE their mental model.\n\nThe walkthrough covers the precise moment when a child says 'Coda still ends at (3,0)' even after changing the loop count from 3 to 5.",
+    "setup": "Pair is at Station A. Original: Repeat 3: right. Alteration: change 3 to 5. Child predicts: ending (3,0).",
+    "teacher_script": "Crouch beside the child. 'You changed the 3 to 5. So now Coda repeats how many times?' '5.' 'Right. So Coda moves right HOW MANY squares?' '5.' 'And ends at?' '(5, 0).' 'YES! The change MATTERS. New code = new outcome.'\n\nIf the child STILL predicts the old outcome: highlight the change explicitly. 'Cross out 3. Write 5. NEW code is Repeat 5. NEW prediction is 5 rights = (5, 0).'\n\nLong-term recovery: every alteration uses the 3-step rubric: (1) what changed, (2) how does it affect outcome, (3) new prediction. Sequential structure.",
+    "expected_student_responses": [
+      "(Confused) Predicts old outcome despite alteration.",
+      "(Mid) Updates with prompts.",
+      "(Strong) Auto-updates: 'New count means new prediction.'",
+      "(Stretched) Articulates the change-effect rule unprompted."
+    ],
+    "common_misconceptions": [
+      "Alterations don't matter for prediction. (Repair: every change MATTERS.)",
+      "Code is fixed once written. (Repair: code can be edited and re-run.)",
+      "Same loop, same outcome. (Wrong — loop count and body both matter. Repair: explicit highlight.)"
+    ],
+    "recovery_moves": [
+      "Always cross out the old, write the new. Visual marker.",
+      "Always say 'new code, new prediction'. Trains the update reflex.",
+      "Compare old and new outcomes side-by-side. Difference is concrete."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Coda's Alter Workshop",
+    "purpose": "Independent practice of C3.2 (alter code).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "6 number-change alterations. Predict the new outcome.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "4 step-change alterations. Predict the new outcome.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: invent an alteration that DOESN'T change the outcome.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Coda in the worksheet header",
+      "6 number-change rows for Part 1",
+      "4 step-change rows for Part 2",
+      "1 invent-an-invariant-alteration box for Part 3"
+    ]
+  }
+}

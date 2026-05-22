@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "thematic_title": "Measure Maven",
+  "descriptive_title": "Grade 2 Mathematics: Demonstrations — Standard Units of Measurement (E2.1-E2.4)",
+  "grade": "Grade 2",
+  "subject": "Mathematics",
+  "strand": "E. Spatial Sense",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-2",
+  "curriculum_codes": ["E2.1", "E2.2", "E2.3", "E2.4"],
+  "curriculum_expectations": {
+    "E2.1": "choose and use non-standard units appropriately to measure lengths, and describe the inverse relationship between the size of a unit and the number of units needed",
+    "E2.2": "explain the relationship between centimetres and metres as units of length, and use benchmarks for these units to estimate lengths",
+    "E2.3": "measure and draw lengths in centimetres and metres, using a measuring tool, and recognize the impact of starting at points other than zero",
+    "E2.4": "use units of time, including seconds, minutes, hours, and non-standard units, to describe the duration of various events"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 2 unit on standard measurement (E2.1-E2.4) framed around 'Measure Maven' — Roo the Ruler Rabbit and Cal the Calendar Cat. Day 1 explores non-standard units and inverse relationship. Day 2 introduces centimetres + metres + benchmarks. Day 3 measures and draws with rulers (zero-point matters). Day 4 introduces time units (seconds, minutes, hours). Day 5 closes with a Measure Marathon Capstone integrating all 4 expectations. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will choose units, use centimetres/metres + benchmarks, measure with rulers, recognize zero-point, and describe duration using time units.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Pick Your Unit", "primary_expectations": ["E2.1"], "secondary_expectations": [], "big_idea": "Smaller units = more units needed. Bigger units = fewer units. INVERSE relationship.", "student_learning_goal": "I can pick a non-standard unit and explain the inverse relationship.", "one_line_summary": "Roo measures with cubes vs hands; children explore unit-size inverse."},
+    {"lesson_number": 2, "lesson_title": "Centimetres and Metres", "primary_expectations": ["E2.2"], "secondary_expectations": [], "big_idea": "100 cm = 1 m. Use BENCHMARKS — fingernail = 1 cm, hockey stick = 1 m.", "student_learning_goal": "I can use cm and m and estimate with benchmarks.", "one_line_summary": "Cal teaches benchmarks; children estimate object lengths."},
+    {"lesson_number": 3, "lesson_title": "Measure with Rulers", "primary_expectations": ["E2.3"], "secondary_expectations": [], "big_idea": "Always START at ZERO on the ruler. Read the number at the END of the object.", "student_learning_goal": "I can measure and draw lengths with a ruler.", "one_line_summary": "Roo measures pencils; children measure 6 objects with rulers."},
+    {"lesson_number": 4, "lesson_title": "How Long Did That Take?", "primary_expectations": ["E2.4"], "secondary_expectations": [], "big_idea": "TIME = SECONDS, MINUTES, HOURS. We pick the right unit for the duration.", "student_learning_goal": "I can describe duration using the right time unit.", "one_line_summary": "Cal times events; children pick s/min/hour for everyday activities."},
+    {"lesson_number": 5, "lesson_title": "Measure Marathon Capstone", "primary_expectations": ["E2.1", "E2.2", "E2.3", "E2.4"], "secondary_expectations": [], "big_idea": "We measure LENGTH and TIME with the right TOOLS and UNITS.", "student_learning_goal": "I can measure length and time using the right tool.", "one_line_summary": "Children rotate through 4 stations: pick unit, use cm/m, ruler, time."}
+  ],
+  "expectation_lesson_map": {"E2.1": [1, 5], "E2.2": [2, 5], "E2.3": [3, 5], "E2.4": [4, 5]},
+  "recurring_characters": [
+    {"name": "Roo the Ruler Rabbit", "role": "Lead character. Measure expert from G1, now using standard units. Anchors all 5 lessons.", "visual_description": "A young rabbit with long ears, holding a colourful ruler and measuring tape."},
+    {"name": "Cal the Calendar Cat", "role": "Roo's partner. Time character. Cameo Lessons 4-5.", "visual_description": "A small striped cat with a wall calendar over its shoulder, holding a stopwatch."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "non-standard unit", "child_friendly_definition": "A unit that isn't standard — like cubes or hand-spans."},
+    {"term": "centimetre", "child_friendly_definition": "A small standard unit. 1 cm = a fingernail width."},
+    {"term": "metre", "child_friendly_definition": "A bigger standard unit. 1 m = a hockey stick length."},
+    {"term": "benchmark", "child_friendly_definition": "A common thing we use to estimate a measurement."},
+    {"term": "ruler", "child_friendly_definition": "A measuring tool with cm marks."},
+    {"term": "duration", "child_friendly_definition": "How long an event takes."},
+    {"term": "second", "child_friendly_definition": "A very short time. 1 second = 'one Mississippi'."},
+    {"term": "minute", "child_friendly_definition": "60 seconds. About the time to brush teeth."},
+    {"term": "hour", "child_friendly_definition": "60 minutes. About the time of a math class."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_unit_set", "name": "Non-Standard Unit Set", "description": "Set of 60 paper cubes + 12 hand-spans + 12 footprint cards.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M2_cm_strips", "name": "Centimetre Strips", "description": "Set of 24 paper strips with cm markings.", "used_in_lessons": [2, 3, 5], "clipart_files": []},
+    {"id": "M3_metre_strip", "name": "Metre Strip", "description": "Letter-size 1-metre strip with 100 cm markings.", "used_in_lessons": [2, 3, 5], "clipart_files": []},
+    {"id": "M4_ruler_set", "name": "Paper Ruler Set", "description": "Set of 12 paper rulers (15 cm each).", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M5_time_chart", "name": "Time Chart", "description": "Letter-size chart of seconds/minutes/hours examples.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Measure Marathon Template", "description": "Letter-size capstone with 4 station response areas.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_benchmark_chart", "name": "Benchmark Chart", "description": "Anchor chart of cm/m benchmarks (fingernail, hockey stick).", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M8_zero_chart", "name": "Start at Zero Chart", "description": "Anchor chart explaining ruler zero-point.", "used_in_lessons": [3, 5], "clipart_files": []},
+    {"id": "M9_event_cards", "name": "Time Event Cards", "description": "Set of 16 cards with everyday events (brush teeth, school day, blink).", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Measure Maven Poster", "description": "Anchor poster of Roo and Cal with measurement tools.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["Non-Standard Unit Set (60+24)", "Centimetre Strips (24)", "Metre Strip (per pair)", "Paper Ruler Set (12)", "Time Chart", "Measure Marathon Template (per child)", "Benchmark Chart", "Start at Zero Chart", "Time Event Cards (16)", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 unit-pick snapshot.", "formative": "Lesson 2 cm/m tracker; Lesson 3 ruler tracker; Lesson 4 time tracker.", "summative": "Lesson 5 measure marathon."},
+  "pedagogical_notes": [
+    "Grade 2 measurement transitions from non-standard to standard (cm/m).",
+    "Inverse relationship: smaller unit → more units needed. Foundational for proportion.",
+    "Benchmarks help estimation without tools.",
+    "Zero-point on ruler matters — common pitfall to start at 1.",
+    "Time vocabulary builds on Grade 1 calendar work."
+  ],
+  "canadian_context_notes": [
+    "Hockey stick as 1-metre benchmark.",
+    "Loonie as 2-cm benchmark.",
+    "Tim Hortons cup heights for estimation.",
+    "School bell schedules for hour/minute practice."
+  ]
+}

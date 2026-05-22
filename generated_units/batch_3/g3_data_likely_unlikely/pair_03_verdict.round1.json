@@ -1,0 +1,64 @@
+{
+  "unit_id": "g3_data_likely_unlikely",
+  "pair_number": 3,
+  "status": "revise_both",
+  "alignment": 3,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.teacher_script and rationale reference D2.2 in isolation; there is no cross-reference to Lesson 2's prediction work ('remember when Maybe Mae predicted dice on Day 2?') nor a forward bridge into Lesson 4's mean+mode prediction across populations.",
+      "required_fix": "Add explicit teacher language in minds_on or consolidation that bridges to neighbouring days, e.g., 'Yesterday Maybe Mae predicted ONE event with the 5-word scale; today we predict whether TWO populations agree. Tomorrow we'll predict whether their MEAN and MODE match.' Cite Lesson 2 and Lesson 4 by name.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Cover one column.', 'Drill \"A then B\".', 'Compare side-by-side.'] — three terse moves with no branching by diagnostic and no research citation. The trap (single-group comparison) is real but the rationale lacks a named source.",
+      "required_fix": "Branch recovery moves by diagnostic and cite research. Example: 'If child can name Class A favourite but freezes at Class B → cover-one-column scaffold. If child reads both columns but says they are the same → side-by-side highlighter pass on the count differences. Reference: Watson & Moritz (2000) on children's emergent comparison of distributions; Konold & Pollatsek on aggregate vs case-value reasoning.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Two-Population Compare Charts (1 per pair)', 'Class A and Class B fake data sets', 'Tracker for Lesson 3' — all paper. differentiation has no NO-PAPER, NO-PURCHASE alternative path; the closest item is 'Walk between two stations' for movement learners, which still requires the printed sets.",
+      "required_fix": "Add an explicit no-materials/no-paper variant in differentiation, e.g., 'No-paper version — teacher reads two class tallies aloud (Class A: hockey 8, soccer 4, basketball 3 vs Class B: soccer 6, hockey 5, basketball 4). Children show SAME with two thumbs up, DIFFERENT with thumbs apart. No printing required.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The action steps have children predict and compare but never invite children to INVENT or REFINE a comparison strategy or compare strategies. expanded_walkthrough.common_misconceptions names the trap in plain English ('One population = test') without research-grounded framing (e.g., aggregate vs case-value reasoning, Konold & Pollatsek 2002).",
+      "required_fix": "In action.steps add a strategy-invention step: 'Pairs decide HOW they will compare — by favourite only, by top 2, or by total counts? Share two strategies on the carpet and discuss which is fairest.' Then in expanded_walkthrough.rationale name the research: 'This is the aggregate-vs-case-value trap (Konold & Pollatsek, 2002): children read individual rows instead of treating each population as a distribution.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 1 asks for 4 scenarios (sport, snack, pet, bedtime) and Part 2 reads ONE paired data set (hockey/soccer/basketball). The worksheet broadly mirrors the lesson but does not deliberately VARY format with a justified transfer task — Part 3 simply asks 'right or wrong?' with no novel item or generalization probe.",
+      "required_fix": "Make Part 3 an explicit transfer task with justification in teacher_notes, e.g., 'Part 3 introduces ONE unfamiliar comparison (Class C vs Class D bedtimes) not seen in the lesson, to verify the child generalizes the two-population test beyond hockey/soccer. Justification: transfer probe per blueprint pedagogical_notes.'",
+      "affected_stages": ["worksheet_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

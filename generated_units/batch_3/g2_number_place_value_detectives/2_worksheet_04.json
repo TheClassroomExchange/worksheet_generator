@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "lesson_number": 4,
+  "worksheet_title": "Tina Estimates Tens",
+  "purpose": "Independent practice of B1.3 (estimation to 200) with reinforcement of B1.4 (skip-counting). Captures formative evidence on strategy use and accuracy.",
+  "student_learning_goal": "I can estimate the number of objects in a collection up to 200 using a chunk strategy and verify by counting.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can estimate the number of objects in a collection up to 200 using a chunk strategy and verify by counting.",
+    "character_watermark": "Detective Tina Tens in the top-right corner with a striped vest and magnifying glass. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Three Mystery Jars",
+          "student_instructions": "For each jar, write your estimate. Circle the chunk strategy you would use.",
+          "visual_layout": "Top of the page. Three jar scenes stacked vertically. Each ~7in \u00d7 1.5in. Each shows a jar illustration with items inside, plus an estimate line and two strategy bubbles (chunk-of-10 / chunk-of-100).",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_THREE_JARS",
+              "description": "Three jar scenes in B&W line-art, stacked vertically. Each scene ~7in \u00d7 1.5in. Jar 1 (small, ~40 buttons), Jar 2 (medium, ~100 marbles), Jar 3 (large, ~170 cubes). Each jar is partially transparent so the items are visible. Beside each jar: 'My estimate: ___' and two strategy bubbles 'chunk-of-10' / 'chunk-of-100'.",
+              "placement": "Top of the page; three jars stacked.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "jar",
+                "estimate",
+                "chunk"
+              ],
+              "text_image_alignment_check": "Image WS04_P1_THREE_JARS: keywords (jar, estimate, chunk) name what the scenes show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Jar 1: estimate ~40-50 (chunk-of-10). Jar 2: estimate ~100 (either strategy works; chunk-of-100 is faster). Jar 3: estimate ~170-180 (chunk-of-100 strongly preferred)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Skip-Count to 200",
+          "student_instructions": "Three skip-count tasks. Fill in the missing numbers.",
+          "visual_layout": "Middle of the page. Three Number Line strips stacked. Strip 1: by 20s starting at 0. Strip 2: by 25s starting at 50. Strip 3: by 50s starting at 0.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_SKIP_LINES",
+              "description": "Three horizontal Number Line strips in B&W line-art, stacked vertically. Each ~7in \u00d7 0.8in. Strip 1: cell 1 shows '0', label 'by 20s'. Strip 2: cell 1 shows '50', label 'by 25s'. Strip 3: cell 1 shows '0', label 'by 50s'. End cells pre-filled with 200.",
+              "placement": "Middle of the page; three strips.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "number-line",
+                "skip-count"
+              ],
+              "text_image_alignment_check": "Image WS04_P2_SKIP_LINES: keywords (number-line, skip-count) name what the lines show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Strip 1 (0 by 20s): 0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200. Strip 2 (50 by 25s): 50, 75, 100, 125, 150, 175, 200. Strip 3 (0 by 50s): 0, 50, 100, 150, 200."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Hockey Game Estimate",
+          "student_instructions": "Tina is at a hockey game with about 175 fans. How would you estimate? Draw and write your strategy.",
+          "visual_layout": "Bottom of the page. A blank box (~7in \u00d7 3in) for the child to draw the hockey-arena scene and write their estimation strategy. Tina thinking-bubble icon in the top-right corner of the box.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_HOCKEY_BOX",
+              "description": "A blank rectangular drawing box in B&W line-art, ~7in \u00d7 3in, with light-grey solid outline. Tina thinking-bubble icon in the top-right corner of the box (~1in tall). Below the box, a 'My strategy:' line.",
+              "placement": "Bottom of the page; full-width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "hockey",
+                "estimate"
+              ],
+              "text_image_alignment_check": "Image WS04_P3_HOCKEY_BOX: keywords (hockey, estimate) name what the box is for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible chunk-strategy explanation: 'I would count 1 row of seats then count how many rows there are about'; 'I would chunk 100 fans then add about 75 more'; 'I would look at 10 sections of 17 each = 170, close to 175'. Look for the child to ARTICULATE the strategy, not just guess."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw a school assembly with about 200 students. How would you estimate WITHOUT counting each student?",
+  "teacher_notes": "Lesson 4 consolidation. Hand out at the end of the Action phase. Watch for: (a) Part 1 Jar 3 children who circle chunk-of-10 (would take forever) \u2014 flag for chunk-of-100 reteach; (b) Part 2 Strip 2 children who count by 5s instead of 25s after starting at 50 \u2014 flag for the awkward-multiples practice; (c) Part 3 children who can't articulate a strategy and just write a number \u2014 coaching opportunity for strategy-language scaffolding."
+}

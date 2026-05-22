@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 4,
+  "lesson_title": "Many Ways to Make 100, 250, 500",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C2.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "There are MANY ways to make any whole number up to 1000. Mix all four operations.",
+  "learning_intention": "We are learning to find many equivalent expressions for whole numbers up to 1000.",
+  "student_learning_goal": "I can find many equivalent expressions for whole numbers up to 1000.",
+  "success_criteria": [
+    "I can list 8+ equivalent expressions for a target up to 1000.",
+    "I can mix all four operations.",
+    "I can use 3-term expressions."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "equivalent",
+    "expression",
+    "equation"
+  ],
+  "manipulatives_used": [
+    "M2_balance_mat",
+    "M5_target_cards",
+    "M7_two_colour_counters",
+    "M8_number_line",
+    "M9_equation_chart",
+    "M10_engineer_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Eddy and Vex — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Many Ways to Make 100, 250, 500'",
+    "Big Balance Scale Mats",
+    "Equivalent-Target Cards (12)",
+    "Per-pair counters and number line",
+    "Lesson 4 equivalent-relationships tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Eddy's Many-Ways Hunt",
+    "hook": "Eddy: How many ways to make 100? Vex: SO many. Let's find them all. Eddy opens: 'MORE WAYS, MORE OPERATIONS, MORE math!'",
+    "teacher_script": "Bring children to the carpet. Eddy + Vex puppets. 'Friends — yesterday we tested pairs. Today we hunt MANY ways to make a number.'\n\nEddy starts. 'Let's make 100. Easy: 50+50. Then: 75+25. Then: 60+40.'\n\nWrite on chart:\n100 = 50+50 = 75+25 = 60+40\n\nMore (mixing operations):\n100 = 200-100 = 150-50 = 1000÷10 = 25x4 = 50x2 = 10x10\n100 = 25+25+25+25 (3+ terms)\n100 = 99+1 = 50+30+20 = 250-150\n\n'Eddy says — 100 has dozens of equivalents.'\n\nNow target 250.\n250 = 100+150 = 200+50 = 300-50 = 500-250 = 25x10 = 125x2 = 50x5 = 1000÷4\n\nNow target 500.\n500 = 250+250 = 100+400 = 1000-500 = 100x5 = 250x2 = 50x10 = 1000÷2\n\n'Eddy uses ALL four operations and 2-term, 3-term, even 4-term expressions. Variety is the goal.'\n\nReinforce. 'Equivalent expressions name the same number. The MORE different ways we find, the better we understand the number.'\n\n'Today we hunt for equivalent expressions for big targets — 100, 250, 500, 750, 1000.'",
+    "student_actions": [
+      "Watch Eddy hunt equivalents.",
+      "Suggest more equivalents.",
+      "Predict for new targets.",
+      "Use all 4 operations."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Many-Ways Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: find 6+ equivalents for 200. Use mixed operations. Examples: 100+100, 250-50, 50x4, 1000÷5, 50+50+50+50, 100x2.",
+        "teacher_prompt": "Say: 'Many ways to make 200. Take turns.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Make 100 (8+ equivalents). Station B: Make 500 (6+). Station C: Pick a target between 250 and 1000 (5+).",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include a division and a 3-term expression.",
+        "teacher_prompt": "Say: 'Stretch: include ÷ and 3-term.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss patterns. (a) Doubling/halving: 100x5 vs 50x10. (b) Compensation: 250+50 vs 200+100. (c) Inverse: 500÷5 = 100, so 100x5 = 500.",
+        "teacher_prompt": "Show patterns on the chart."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the equivalent-relationships tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'How many ways for ___?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their 5-expression paths to 250. Class compares: 'Whose used MORE operations? Whose was FASTEST to compute?' Cite Carpenter et al. (2003) relational thinking — operation flexibility is the algebraic habit.",
+        "teacher_prompt": "Eddy: 'Same target, different paths, different operations. The MATH stays the same.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only 2-term expressions and addition.",
+      "for_extending": "Stretch at Station C: include 4-term expressions and mixed ops.",
+      "for_ell_or_iep": "Provide a structured chart with 8 blank slots per target.",
+      "for_movement_learners": "Use the balance physically — build expressions on the scale."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: lists 8+ for 100; lists 5+ for a target; uses all 4 operations.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Lists 8+ ways for 100",
+        "Lists 5+ ways for chosen target",
+        "Uses 4 operations",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Eddy's Many-Ways Brag",
+    "discussion_prompts": [
+      "How many ways to make 100?",
+      "Can a division equal a multiplication for the same target?",
+      "What's a 3-term equivalent expression for 250?",
+      "Why are there so many ways?"
+    ],
+    "exit_routine": "Eddy's many-ways refrain — class chants: 'Eddy says: MORE WAYS, MORE OPERATIONS, MORE math!' (3x). Each child writes one path to the target with each operation labeled."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Equivalent-expression generation count, variety, and operation mix.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures C2.3 mastery for whole numbers up to 1000."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child stays in one operation (only addition) — repairing the operation-stuck trap at Grade 3",
+    "rationale": "On 'many ways to make 100, 250, 500', the trap is operation-stuck thinking: child uses ONLY addition all the way (Kieran 1981 procedural-vs-relational view; Carpenter, Franke & Levi 2003 relational thinking). Without operation flexibility, decomposition cannot ground.\n\nYesterday Lesson 3 multiplicative equivalence. Today multi-operation paths to the same target. Lesson 5 capstones.",
+    "setup": "Pair is at Station A. List for 100: 50+50, 60+40, 70+30, 80+20, 90+10, 99+1. All addition. Child says 'done'.",
+    "teacher_script": "Crouch beside the child. 'Six great addition ways. Now Eddy challenges you — find 2 SUBTRACTION ways and 2 MULTIPLICATION ways.'\n\nThe child looks. 'Subtraction. What gives you 100? 200-100. 150-50. 110-10.' The child writes some.\n\n'Now multiplication. 100 = 25x4 = 50x2 = 10x10. Write some.' The child adds.\n\nGeneralise. 'Eddy says — variety means OPERATIONS too, not just numbers. 4 operations, more variety.'\n\nIf the child STILL stays in one operation: provide an operation checklist. 'List 2 from each: +, -, x, ÷.' Force the variety.\n\nLong-term recovery: every equivalent-list task starts with 'use all 4 operations'. Build the operation-mix reflex.",
+    "expected_student_responses": [
+      "(Confused) Stays in one operation.",
+      "(Mid) Mixes 2 operations with prompts.",
+      "(Strong) Uses 3-4 operations independently.",
+      "(Stretched) Includes 3-term expressions and divisions."
+    ],
+    "common_misconceptions": [
+      "One operation is enough. (Repair: variety across operations is the goal.)",
+      "Division is hard. (Repair: division equivalents come from inverse multiplication.)",
+      "3-term expressions are too complex. (Repair: 3-term is great variety.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child uses only addition: prompt 'show me a subtraction path' for the same target; child rewrites.",
+      "DIAGNOSTIC B — child can use mult/div but ignores subtraction: force the constraint 'use at LEAST one of each operation in your 5 expressions.'",
+      "DIAGNOSTIC C — child stalls: drop to one operation at a time; drill addition paths first, then layer."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Eddy's Many Ways",
+    "purpose": "Independent practice of C2.3 (equivalent for whole numbers to 1000).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "List 8 different expressions for 100, mixing all 4 operations.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "List 6 expressions for 500.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick a target between 250 and 1000. List 5 expressions.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Eddy in the worksheet header",
+      "8 slots for Part 1",
+      "6 slots for Part 2",
+      "Target+5 slots for Part 3"
+    ]
+  }
+}

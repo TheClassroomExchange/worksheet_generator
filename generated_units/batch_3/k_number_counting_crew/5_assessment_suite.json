@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Counting Crew — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1, while children are walking the classroom on the number-hunt and sharing what they found at the carpet meeting.",
+    "expectation_focus": ["A6.1"],
+    "columns": ["identifies_non_counting", "articulates_job", "partner_collaboration"],
+    "usage_notes": "Walk between children and pairs during the number-hunt. For each child, tick the columns where you see clear evidence; leave blank if not yet observed (rather than marking 'no'). The 'identifies_non_counting' column captures whether the child finds a number that is NOT used to count (a label number like a clock, room number, or weight) — the strongest A6.1 signal. The 'articulates_job' column tracks whether the child can name what the number is doing (counting, labelling, measuring, telling time). Children with blanks across all three columns may need a small-group re-loop on Lesson 1 before continuing to Lesson 2.",
+    "layout_description": "One letter page, portrait orientation. Title at the top, expectation focus (A6.1) in a small box below. Date and class fields in the header row. The body is a table with one column for student names (~1.5in wide), three tick columns (~1.4in each) labelled with the column names, and a Notes column on the right (~1.8in wide). Approximately 24 blank student rows so the page accommodates a typical Ontario K class.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page in B&W line-art. Title at top: 'Counting Crew — Day 1 Diagnostic Checklist'. A small box below the title with text 'Expectation: A6.1 — explore what numbers are used for'. Two header fields: 'Date: ____' and 'Class: ____'. A grid table with five columns (student name, three tick columns matching the columns list, and Notes) and 24 blank student rows. Thin grey row dividers, slightly thicker column dividers. Full page, portrait.",
+        "placement": "Full page — the tracker IS the page.",
+        "approximate_size": "full_width",
+        "keywords": ["checklist", "tracker", "tick", "column"],
+        "text_image_alignment_check": "Layout_description names every keyword: a checklist tracker with tick columns for each child. The image description matches: a printable class checklist with tick columns and a notes column. The keyword 'tick' appears in usage_notes ('tick the columns where you see clear evidence') and 'column'/'columns' appears throughout layout_description and usage_notes."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Counting Crew — Lesson 2 Formative Tracker (Forward and Backward)",
+      "when_used": "During Lesson 2, while children take turns stepping forward and backward on the Counting Path floor mat and narrating the count.",
+      "expectation_focus": ["A6.2"],
+      "columns": ["narrates_each_number", "matches_direction_to_arrow", "uses_bigger_smaller_correctly"],
+      "usage_notes": "Stand near the Counting Path mat with the clipboard. The 'narrates_each_number' column tracks whether the child says each number aloud as they step (one-to-one correspondence between step and number-name) — without skipping or doubling. The 'matches_direction_to_arrow' column captures whether the child correctly steps forward when the arrow points up the path and backward when it reverses — this is the embodied A6.2 evidence. The 'uses_bigger_smaller_correctly' column requires the child to say something like 'the number got bigger' when they stepped forward, OR 'smaller' when they stepped backward; if they cannot articulate this, the conceptual frame has not yet locked in. Children blank on this third column but solid on the first two often consolidate during Lesson 4 — flag for re-check, not for re-teach.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 2 column names. Title and expectation box updated to reflect A6.2 focus.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Counting Crew — Lesson 2 Formative Tracker (Forward and Backward)' and three tick columns matching the Lesson 2 tracker_columns. Expectation box reads 'Expectation: A6.2 — understand when counting forward, the quantity gets bigger and when counting backward, the quantity gets smaller'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["checklist", "tracker", "tick", "column"],
+          "text_image_alignment_check": "Layout_description and usage_notes name every keyword: a class checklist tracker with tick columns. Usage_notes specifically uses 'column' multiple times and 'tick' in the diagnostic tracker pattern that this layout duplicates."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Counting Crew — Lesson 3 Formative Tracker (Reading and Writing 0–20)",
+      "when_used": "During Lesson 3, while children rotate through the Match, Order, and Trace stations.",
+      "expectation_focus": ["A6.3"],
+      "columns": ["matches_numeral_to_quantity_0_10", "orders_teens_correctly", "forms_digits_with_correct_stroke"],
+      "usage_notes": "Tick when you see clear evidence at each station. The 'matches_numeral_to_quantity_0_10' column captures whether the child can pair a number card with the correct quantity bowl in the 0–10 range (the base A6.3 expectation). The 'orders_teens_correctly' column requires the child to clip cards 11–20 in order without flipping a teen — this is the most common stumbling block. The 'forms_digits_with_correct_stroke' column captures stroke direction at the trace station: a child who 'draws' the digit shape rather than forming it left-to-right and top-to-bottom is at risk for reversed digits. Children with blanks across all three columns need the Lesson 3 expanded walkthrough re-loop in a small group before moving on.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 3 column names. Title and expectation box updated to reflect A6.3 focus.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Counting Crew — Lesson 3 Formative Tracker (Reading and Writing 0–20)' and three tick columns matching the Lesson 3 tracker_columns. Expectation box reads 'Expectation: A6.3 — identify and write numbers to 20'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["checklist", "tracker", "tick", "column"],
+          "text_image_alignment_check": "Layout_description and usage_notes name every keyword: a class checklist tracker with tick columns. Usage_notes uses 'tick' and 'column' multiple times to describe the recording protocol."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Counting Crew — Lesson 4 Formative Tracker (Subitizing to 5)",
+      "when_used": "During Lesson 4, while children play the dot-card flash-and-tell game and the subitize-and-build partner game.",
+      "expectation_focus": ["A6.4"],
+      "columns": ["subitize_score_out_of_5", "narrates_how_seen", "builds_correct_on_first_try"],
+      "usage_notes": "Sit beside each child briefly during the partner game. The 'subitize_score_out_of_5' column records how many of 5 dot-card flashes the child names without counting — write the score (e.g., '4/5') rather than a tick. A score of 4–5 is secure A6.4. The 'narrates_how_seen' column captures whether the child can describe HOW they saw the quantity ('I saw two and two more', 'I saw the dice pattern for 5') — this articulation is the deepest signal. The 'builds_correct_on_first_try' column tracks whether the partner who is BUILDING the dot pattern from cubes does so correctly on the first try (no recount, no re-arrange). Children with subitize scores below 3 need the dot-card flash routine re-looped during morning meeting before moving to Lesson 5.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 4 column names. Title and expectation box updated to reflect A6.4 focus.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Counting Crew — Lesson 4 Formative Tracker (Subitizing to 5)' and three tick columns matching the Lesson 4 tracker_columns. Expectation box reads 'Expectation: A6.4 — subitize quantities to 5'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["checklist", "tracker", "tick", "column"],
+          "text_image_alignment_check": "Layout_description and usage_notes name every keyword: a class checklist tracker with tick columns. Usage_notes uses 'tick' (implicitly via 'write the score' and the parallel diagnostic-tracker layout) and 'column' multiple times."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Counting Crew — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 (Building Numbers) to score each child against all six expectations on a 4-level scale. Aligned with Ontario Kindergarten Communication of Learning conventions: descriptive, observational, growth-oriented.",
+    "rows": [
+      {
+        "expectation_code": "A6.1",
+        "expectation_text": "explore what numbers are used for",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "With significant adult prompting, names one place where a number appears in the room. Cannot yet describe what the number is doing."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Names two or three numbers in the classroom and pairs each with the right job (count, label, measure, time) when prompted by the anchor chart."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently finds at least three numbers around the room and explains the job of each in child language (e.g., 'this one labels the room')."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Notices numbers spontaneously beyond the lesson (on lunch boxes, at home, on the way to recess) and articulates that numbers are used for many different jobs."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.2",
+        "expectation_text": "understand when counting forward, the quantity gets bigger and when counting backward, the quantity gets smaller",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Counts forward to 5 or 10 by rote but cannot count backward. Treats 'counting' as one direction only and may invert the bigger/smaller language."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Counts forward and backward with adult support. Articulates 'bigger' or 'smaller' when prompted but mixes them up some of the time."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Counts forward and backward independently across the 0–20 range and correctly says 'the number got bigger' or 'smaller' as the direction changes."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Counts backward from any starting point inside 0–20, applies bigger/smaller language unprompted, and notices the same pattern in real-life moments (countdown to recess, taking away cubes)."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.3",
+        "expectation_text": "identify and write numbers to 20",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Recognises a few digits 0–10 and may write them with reversals. Confuses teens with decades (e.g., reads 13 as 30) consistently."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Reads and writes 0–10 with occasional reversals. Reads teens correctly with anchor-chart support but may still flip 13/14/15 in writing."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Reads and writes 0–20 independently. Uses the tens-stick model to disambiguate teens from decades when needed (e.g., points to the 1 and says 'one ten-stick')."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Reads, writes, and orders 0–20 fluently. Begins to write 21–30 unsupported and recognises the place-value pattern that each decade is a count of tens-sticks."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.4",
+        "expectation_text": "subitize quantities to 5",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Recounts every dot-card from one each time. Cannot yet recognise small quantities (1–3) without counting."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Subitizes 1, 2, and 3 in standard arrangements but resorts to counting for 4 and 5 or for non-standard arrangements."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Subitizes 1–5 in standard (dice) arrangements without counting. Begins to articulate how they saw it (e.g., 'I saw two and two more')."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Subitizes 1–5 in random arrangements and starts to subitize small groups beyond 5 by part-part-whole reasoning ('I saw a 3 and a 3 so it must be 6')."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.5",
+        "expectation_text": "compose and decompose quantities to 10",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Builds a target quantity in only one way and cannot yet break it into smaller parts. May rebuild the target from scratch each time the teacher asks for a new way."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Composes a target quantity in two different ways (e.g., 7 = 5+2 and 7 = 4+3) with adult prompting and the help of the two-colour cube split."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently composes a target quantity to 10 in at least two different ways and decomposes a given group into two smaller groups using the two-colour cube split."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Composes a quantity to 10 in three or more different ways and articulates a part-part-whole rule ('seven is six and one, OR five and two, OR four and three — all the same total')."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A6.6",
+        "expectation_text": "understand the concept of more than, the same (equal), or less than",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Compares two groups by appearance only ('the long one has more'). Does not yet line objects up to compare or count to verify."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Compares two groups by lining them up on the comparison strip with adult prompting. Uses 'more' and 'less' but may swap the words."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Lines up two groups on the comparison strip independently and correctly says which group has MORE, LESS, or whether they are EQUAL. Verifies by counting when uncertain."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Compares two groups without needing to line them up — uses subitizing or counting to determine more/less/equal. Articulates the difference (e.g., 'the plate of 8 has 3 MORE than the plate of 5')."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Score during the Lesson 5 partner-build and comparison activity, using the worksheet as primary evidence. Level 3 is the grade-level expectation; aim for most children to land at Level 2 or 3 by end-of-unit. Level 1 is a signal for additional support; Level 4 is a signal for enrichment in Grade 1. Communicate scores to families using the Communication of Learning narrative format ('demonstrates a developing understanding of...') rather than letter grades.",
+    "layout_description": "One letter page, landscape orientation, with a 6×4 grid table (6 expectation rows × 4 level columns) plus a left-most column for the expectation code and text. Each cell contains the level descriptor in K-readable type. Title at the top of the page; usage notes printed below the table. Total table approximately 10in wide × 7in tall.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable rubric table page in landscape orientation. Title at top: 'Counting Crew — Summative Rubric'. Below the title, a 5-column table: leftmost column 'Expectation' (~2.5in wide), and four level columns (~2in each) labelled 'Level 1 (Beginning)', 'Level 2 (Developing)', 'Level 3 (Achieving — the goal)', 'Level 4 (Exceeding)'. Six rows of expectations (A6.1 through A6.6), each cell containing the descriptor. Light-grey shading on the Level 3 column to highlight that it is the goal level. Below the table, the usage notes printed in smaller type. B&W line art only.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": ["rubric", "table", "level", "expectation"],
+        "text_image_alignment_check": "Layout_description names every keyword: a rubric table with level columns and an expectation column. Usage_notes uses 'Level 3' and 'Level 4' explicitly. The image description matches: a rubric table page with level columns and expectation rows."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Building Numbers — Summative Administration Guide",
+    "purpose": "Ties the Lesson 5 worksheet, the lesson plan's three phases (Compose-Decompose-Compare), and the rubric together. Tells the teacher exactly what evidence to look for during each phase and which expectations each phase's evidence maps to. Designed so the teacher can score every child on all six expectations from a single lesson plus the worksheet artefact.",
+    "administration_steps": [
+      "Before the lesson: photocopy one Lesson 5 worksheet ('Building Numbers') per child. Print one rubric per child or maintain a single class rubric on a clipboard with student-name rows pre-filled. Have the Junior Counting Crew certificates printed and ready for the closing ceremony — do not show them to children before they have earned them. Prepare the comparison-strip mats and a basket of mixed counting cubes per pair.",
+      "Phase 1 (Compose, 12 min): Children build the target number 7 in two different ways using counting cubes, then record each split on the worksheet's two-colour cube row. This produces visible evidence for A6.3 (recognising and writing 7), A6.5 (composing 7 in two ways), and indirectly A6.4 (subitizing parts of the split). Walk the room and check each child's two splits — score A6.5 on the spot.",
+      "Phase 2 (Decompose, 8 min): Children take a target group of 8 cubes and break it into two smaller groups, recording each break on a tens-frame mat. This produces visible evidence for A6.5 (decomposing 8) and A6.2 (counting forward/backward across the split). Begin one-on-one conferences during this phase — ask each child 'what two smaller groups did you make?' to confirm they can articulate the part-part-whole.",
+      "Phase 3 (Compare, 10 min): Pairs receive two plates of timbits (e.g., 6 and 9) and use the comparison strip to line them up and decide MORE / LESS / EQUAL. The child writes the answer on the worksheet. This produces visible evidence for A6.6 (comparing groups). Listen during the partner conversation for which child can articulate 'this plate has 3 MORE than that one' (Level 4 territory).",
+      "After the lesson: review the rubric with the worksheet artefact in front of you. Cross-reference with the formative-tracker rows (L2, L3, L4) for any child you are uncertain about — the Lesson 1 diagnostic plus three formative trackers plus the Lesson 5 evidence together cover all six expectations. For any child below Level 3 on any expectation, note what evidence (or absence) drove that decision. Use this for the Communication of Learning narrative and the morning-meeting small-group plan for next week."
+    ],
+    "scoring_guidance": "Use the worksheet as primary evidence for A6.3, A6.5, and A6.6. Use the formative trackers (L2, L3, L4) as confirming evidence for A6.1, A6.2, and A6.4 — these expectations are best evidenced during their own lesson, not during the Lesson 5 summative. Level 3 is the grade-level goal — aim for most children to land at Level 2 or 3. Children who are Level 4 across all six expectations are ready for Grade 1 number sense work; document this for the receiving teacher. Children at Level 1 on multiple expectations need targeted small-group work; do not retain them in K number sense — instead build the bridge through concrete play (cube splits, comparison plates) and revisit during the next math block.",
+    "evidence_per_expectation": {
+      "A6.1": "Use the Lesson 1 diagnostic tracker as primary evidence — children who identified at least three numbers around the room and articulated the job of each are at Level 3 minimum. Confirm during Lesson 5 by asking 'where else did we see numbers this week?' during the closing circle.",
+      "A6.2": "Use the Lesson 2 formative tracker as primary evidence — children who narrated the count forward AND backward AND used 'bigger/smaller' correctly are at Level 3. Confirm during Lesson 5 Phase 2 by asking the child to count the cubes back into the basket and articulate 'the pile is getting smaller'.",
+      "A6.3": "Look at the worksheet's recorded splits in Phase 1 and the tens-frame in Phase 2. A child who writes the numerals 7, 4, 3, 5, 2, 8, 6, 2 cleanly (no reversals) across the worksheet is at Level 3 on A6.3. Cross-reference with the Lesson 3 formative tracker for teen-number evidence (the worksheet only requires writing 0–10).",
+      "A6.4": "Use the Lesson 4 formative tracker subitize-score column as primary evidence. A child with 4/5 or 5/5 is at Level 3. During Lesson 5 Phase 1, listen for whether the child subitizes the small parts of their cube split (e.g., looks at 4 cubes and says 'that's four' without counting one-by-one) — this is Level 4 evidence.",
+      "A6.5": "Look at Phase 1 of the worksheet — did the child build 7 in two genuinely different ways (not just rearranged in space)? Two splits with different colour counts (e.g., 5 red + 2 blue, AND 4 red + 3 blue) is Level 3. Three or more different splits is Level 4. Use Phase 2's tens-frame split as confirming evidence.",
+      "A6.6": "Look at Phase 3 of the worksheet — did the child correctly circle MORE, LESS, or EQUAL for the two timbit plates? Level 3 requires correctly lining up the plates on the comparison strip and choosing the right word. Level 4 requires articulating the size of the difference ('3 more')."
+    }
+  },
+  "certificate": {
+    "title": "Junior Counting Crew Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Counting Crew unit and demonstrating the skills of a Counting Crew chef. Mae and Theo, and Buddy the puppy, congratulate the student and welcome them to the next adventure in numbers.",
+    "skills_demonstrated": [
+      "Spotting numbers around the classroom and naming what each number is for",
+      "Counting forward to 20 and backward from 20",
+      "Reading and writing the numbers 0 to 20 — including the tricky teens",
+      "Subitizing groups of 1 to 5 without counting",
+      "Building a number in different ways with cubes and comparing groups using more, less, or equal"
+    ],
+    "layout_description": "One letter page, portrait orientation. Decorative ornamental border around the entire page (~0.5in margin). Title 'Junior Counting Crew Certificate' at the top in large ornate font (~1in tall). Below: the recipient label and a wide blank line for the child's name. Below: the achievement text describing the unit and naming Mae, Theo, and Buddy. Below: a bullet list of the five skills demonstrated. Toward the bottom: two side-by-side signature lines labelled 'Teacher Signature' and 'Date'. At the bottom-centre, a small illustration of Mae and Theo in their chef aprons standing beside Buddy the puppy, all smiling. Designed to feel celebratory and ceremonial — not utilitarian.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative ornamental border framing the certificate page, approximately 0.5in inset from each edge. Style: gentle scrollwork suitable for a child's certificate — repeating curls, small star motifs at the corners, small chef-hat motifs along the top edge to echo the Counting Crew theme. B&W line art with thin elegant strokes. Suitable for a Kindergarten celebration without feeling baby-ish.",
+        "placement": "Frames the entire page.",
+        "approximate_size": "full_width",
+        "keywords": ["certificate", "border"],
+        "text_image_alignment_check": "Layout_description names 'decorative ornamental border around the entire page' — both 'certificate' (the document being decorated, named in title and recipient_field_label) and 'border' (the visual element) appear in the surrounding text. The image description matches: a decorative border framing the certificate."
+      },
+      {
+        "id": "AS_CERT_CHEFS",
+        "description": "A small illustration at the bottom-centre of the certificate, approximately 1.8in tall. Mae stands on the left in her white chef apron and chef hat, holding a small loaf of bread. Theo stands on the right in his white chef apron and chef hat, holding a wooden spoon. Buddy the golden-retriever puppy sits between them on his hind legs with one paw raised in a celebratory wave. All three are smiling broadly. B&W line art consistent with the recurring-character illustrations elsewhere in the unit. References blueprint.recurring_characters.",
+        "placement": "Bottom-centre of the page, below the signature lines.",
+        "approximate_size": "small",
+        "keywords": ["mae", "theo", "buddy", "chef", "puppy"],
+        "text_image_alignment_check": "Layout_description and achievement_text both name the keywords: Mae and Theo (named in achievement_text and layout_description, both in chef aprons), Buddy the puppy (named in achievement_text and layout_description), and chef (the apron/hat costume named in both). Every keyword is present in surrounding student-and-teacher-facing text."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

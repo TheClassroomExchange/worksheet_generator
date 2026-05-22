@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_financial_classroom_market",
+  "pair_number": 4,
+  "graded_at": "2026-05-09",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "recovery_moves is terse three-item list: 'Count by 5s.', 'Use chart.', 'Compare values directly.' No branching by what the diagnostic showed and no research citation. Trap is real but Level 4 needs branched recovery and named research.",
+      "required_fix": "Branch recovery_moves: (a) if child skip-counts but doesn't connect to value, line 5 nickels under 1 quarter and match physically; (b) if can't skip-count, drop to one-cent counting; (c) if reverts on next pair, do 3 paired examples. Cite Sowder unit-coordination or Carpenter & Moser CGI grouping research.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Penny is quoted twice but no distinctive quotable refrain reused in consolidation. exit_routine is a generic frame '___ is ___ than ___' with no character chant. Cassie appears only in hook with no consistent voice across lesson segments.",
+      "required_fix": "Add a memorable Penny refrain children chant at consolidation, e.g. 'COUNT the VALUE, not the COINS!' repeated across Lessons 4-5. Have Cassie echo with a complementary line. Use the refrain in worksheet header so the chant carries between lesson and independent practice.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression solid and count-vs-value trap is named, but children don't compare strategies (teacher scripts only skip-count by 5s), and common_misconceptions is plain-language ('Count = value. Repair: count value.') with no research-grounded framing.",
+      "required_fix": "Add a 60-second 'how did you figure it out?' share-out where 2-3 pairs name different strategies (skip-count by 5s; group as quarters; one-for-one match). Name the misconception in expanded_walkthrough.rationale as 'unit-coordination failure' citing Steffe & Cobb on units or Sowder on number sense.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet parts each map to a success criterion and image_assets reference Penny+Cassie. But the worksheet doesn't deliberately introduce a transfer item flagged as a generalization probe; it mirrors the lesson's compare format directly without varying the practice format.",
+      "required_fix": "Flag the Part 1 item '5 nickels vs 1 quarter' explicitly in teacher_notes as a count-vs-value transfer probe so teachers watch for that misconception. Add a Part 4 mini-challenge '4 quarters vs 1 loonie' (equal) to test transfer of equivalence. Document transfer rationale in teacher_notes.",
+      "affected_stages": ["worksheet_04"],
+      "affected_pairs": [4],
+      "severity": "minor"
+    }
+  ],
+  "summary": "Strong G1 F1.1 compare-values lesson with the count-vs-value trap correctly identified. Falls short of the high bar with four categories at 3 (ped_depth, voice, math_auth, consistency). Lesson-side fixes (branched recovery + research citation + Penny refrain + strategy share-out) lift three categories together; worksheet needs only a minor transfer-task tweak."
+}

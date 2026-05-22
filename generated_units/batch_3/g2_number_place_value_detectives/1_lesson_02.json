@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "lesson_number": 2,
+  "lesson_title": "Compose, Decompose, Compare",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B1.1",
+    "B1.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Numbers can be split apart and rebuilt in many ways.",
+  "learning_intention": "We are learning to compose and decompose numbers to 200 in different ways and to compare numbers using place-value reasoning.",
+  "student_learning_goal": "I can compose and decompose numbers to 200 in different ways, and compare numbers using place-value reasoning.",
+  "success_criteria": [
+    "I can split any number to 200 into hundreds, tens, and ones.",
+    "I can show the same number in three different splits (e.g., 147 = 100+40+7 = 130+17 = 50+97).",
+    "I can compare two numbers to 200 using place-value reasoning, starting with hundreds."
+  ],
+  "vocabulary_introduced": [
+    "compose",
+    "decompose",
+    "greater than",
+    "less than"
+  ],
+  "vocabulary_reinforced": [
+    "place value",
+    "hundreds",
+    "tens",
+    "ones"
+  ],
+  "manipulatives_used": [
+    "M1_base_ten_blocks",
+    "M2_place_value_mat",
+    "M3_number_line_200",
+    "M4_decomposition_cards",
+    "M5_compare_cards"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart 'Compose and Decompose' with three columns: target, splits, comparison",
+    "OPTIONAL: Detective Tina Tens (striped vest with '10' patches) — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "0-200 Number Line floor strip ready for ordering activities",
+    "Lesson 2 decomposition tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tina's Many-Ways Move",
+    "hook": "Detective Tina says — '147 isn't just 100+40+7. Watch what else it can be!' Hugo+Tina open: 'HUNDREDS first, TENS second, ONES last!'",
+    "teacher_script": "Bring children to the carpet. Reveal Detective Tina Tens puppet. 'Friends — meet Detective Tina. Tina is Hugo's partner. She specialises in TENS.' Wiggle Tina with her magnifying glass.\n\n'Tina says — every number to 200 can be split apart in MANY ways. Watch.' Place 1 hundred-flat, 4 ten-rods, 7 unit-cubes on the place-value mat. 'Together this is 147. The standard split: 100+40+7.' Write on the chart.\n\n'But Tina says — we can REGROUP.' Take one ten-rod from the tens column and trade it for 10 unit-cubes. Now there are 1 hundred-flat, 3 ten-rods, 17 unit-cubes. Count to verify: still 147. Write: 147 = 100+30+17. 'Same number, different split.'\n\n'Now Tina says — let's go FURTHER.' Trade the 1 hundred-flat for 10 ten-rods. Now there are 0 hundred-flats, 13 ten-rods, 17 unit-cubes. Count: still 147. Write: 147 = 130+17. 'Same number — three different splits!'\n\nWrite all three on the chart:\n147 = 100 + 40 + 7\n147 = 100 + 30 + 17\n147 = 130 + 17\n\nNow the comparison move. 'Tina also helps us COMPARE.' Show two cards: 147 and 174. 'Which is bigger?' Wait. Some children say 147 (because 47 > 74 by ones-first reasoning); some say 174 (correct). 'Tina says — LOOK AT THE HUNDREDS FIRST. Both have 1 hundred. So we go to TENS. 4 tens vs 7 tens. 7 tens is more. So 174 > 147.' Write: 174 > 147.\n\nNow a different-hundreds case. 'Compare 89 and 102.' Some children say 89 (because 89 has more digits than 102? wait 102 has more digits — yes; or 89 has bigger ones digit). 'Tina says — LOOK AT THE HUNDREDS FIRST. 89 has 0 hundreds; 102 has 1 hundred. So 102 > 89.' Write: 102 > 89.\n\n'Today we'll practice composing, decomposing, and comparing numbers all the way to 200.'",
+    "student_actions": [
+      "Watch Tina build 147 with base-ten blocks.",
+      "Watch the regrouping move that produces three different splits.",
+      "Predict the bigger number in 147 vs 174 BEFORE Tina explains.",
+      "Echo the new vocabulary: 'compose', 'decompose', 'greater than', 'less than'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Decomposition and Comparison Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: practice 2 more decompositions together. Number 1: 89 (= 80+9 = 70+19 = 50+39). Number 2: 156 (= 100+50+6 = 150+6 = 100+40+16). For each, regroup with base-ten blocks while saying the equation aloud.",
+        "teacher_prompt": "Say to students: 'Two more numbers together. Number 1 — 89. Standard split?' '80+9.' 'Now regroup the tens. What if we trade 1 ten for 10 ones?' Children: '70+19.' 'Trade another ten?' '60+29.' Continue. 'Number 2 — 156.' Same routine."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Introduce the compare-pair drill. Show 4 pairs on the board: (a) 147 vs 174, (b) 89 vs 102, (c) 134 vs 143, (d) 178 vs 187. Children chorally apply the rule: hundreds first, tens, ones. Use < and > symbols with arrow notation.",
+        "teacher_prompt": "Say to students: 'Pair (a) — 147 vs 174. Hundreds first.' Children say '1 vs 1, same.' 'Tens?' '4 vs 7 — 7 wins.' 'So…' '174 > 147.' Continue with (b), (c), (d). The (b) pair (89 vs 102) explicitly tests the more-digits-bigger insight."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Decomposition Cards — pair draws a card with a target number and writes 3 different decompositions for that number. Station B: Compare-the-Pair — pair draws compare cards (24 in the deck) and applies the place-value rule to write the comparison with > or <. Station C: Number Line Order — pair has 5 number cards (e.g., 67, 134, 89, 178, 145) and orders them from smallest to biggest on the 0-200 number line.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Station A — write THREE different splits. Station B — apply the place-value rule. Station C — order the cards smallest to biggest. Listen for the chime to switch.' Set the rotation."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record formative evidence on the decomposition tracker. Watch for: (a) does the child write 3 different decompositions (vs only the standard 100+T+O split)? (b) does the child apply the hundreds-first comparison rule? (c) does the child correctly handle the 89 vs 102 case (more digits = bigger when leading digit > 0)?",
+        "teacher_prompt": "Stop at each pair. Hand them a number and ask 'Give me three different ways to decompose this.' Mark the tracker. For Station B, ask 'Which is bigger? Why?' to test the place-value rule."
+      },
+      {
+        "step_number": 5,
+        "instruction": "STRATEGY COMPARE: Two pairs share their compose/decompose for the SAME 3-digit number. Class debates: 'whose is more concise? Who used the fewest chunks?' Cite Fuson UDSSI Stage 3 — same value, multiple decompositions.",
+        "teacher_prompt": "Tina: 'Same value, different chunks. The MATH stays the same.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose Lesson 1 place-value snapshot was emerging stay at Station A (Decomposition Cards) for both rotations. Use only target numbers under 100 (47, 89, 76) to anchor tens-and-ones decomposition before three-digit decomposition.",
+      "for_extending": "Stretch decomposition cards: 4 different decompositions per number, including some with negative-looking moves like '199 = 200-1' (preview of subtraction-from-the-next-hundred strategy). Stretch compare cards: 3-way comparisons like 'order 134, 143, 314'.",
+      "for_ell_or_iep": "Provide a sentence frame: '___ is greater than ___ because ___.' Provide picture-supported decomposition cards. Pair with a strong-counter peer for Station C (the Number Line ordering).",
+      "for_movement_learners": "Number Line Order at Station C is naturally kinesthetic. Allow movement learners to physically WALK the number line, placing each card at its position. The body-on-floor placement is the embodied form of ordering. NO-MATERIALS PATH: body-and-voice only — three claps for hundreds, two claps for tens, one clap for ones. Compare two numbers by clapping each in order; the bigger number sounds 'bigger' first."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: (1) does the child produce 3+ different decompositions for a target number? (2) does the child apply the place-value rule (hundreds first) to compare? (3) does the child correctly order numbers including same-hundreds-different-tens pairs?",
+      "how_to_record": "Tick the decomposition tracker per child as you observe.",
+      "tracker_columns": [
+        "Student name",
+        "Writes 3+ decompositions of one target",
+        "Compares using hundreds-first rule",
+        "Orders 4+ numbers correctly",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tina and Hugo's Comparison Brag",
+    "discussion_prompts": [
+      "What's the rule for comparing two numbers? Why does it work?",
+      "Why does 89 < 102 even though 89 has bigger ones?",
+      "When would a non-standard decomposition like 130+17 be more useful than 100+30+17?",
+      "Which station today felt the easiest? Which felt the trickiest?"
+    ],
+    "exit_routine": "Hugo+Tina compare refrain — class chants: 'HUNDREDS first, TENS second, ONES last!' (3x). Each child writes one 3-digit comparison with the column-order working."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Decomposition flexibility (3+ different splits), comparison reasoning (hundreds-first rule), and ordering accuracy across 3-5 problems per child observed during station rotations.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 is the integration point for B1.1 (composing) + B1.2 (comparing). Children who can flex between multiple decompositions of the same number are at L4 for B1.1; children who default to only the standard 100+T+O split are at L3. The comparison evidence (especially the 89 vs 102 case) catches children who are still using ones-first reasoning."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child compares 89 and 102 by saying 89 is bigger because 89 has bigger ones — repairing the digit-counting comparison fallacy",
+    "rationale": "On comparing 3-digit numbers, the trap is the ones-first comparison fallacy — child says 247 < 92 because '7 < 92.' Nunes & Bryant (1996, 'Children Doing Mathematics') and Fuson UDSSI Stage 2 frame this as ones-priority error. The fix: HUNDREDS first.\n\nYesterday Hugo introduced hundreds. Today we COMPOSE/DECOMPOSE and COMPARE. Lesson 3 even/odd; Lesson 4 estimation; Lesson 5 fair shares.",
+    "setup": "Pair is at Station B (Compare-the-Pair). The child has drawn the card 89 vs 102. They say '89 is bigger because 9 is more than 2.' They write 89 > 102. The teacher steps in.",
+    "teacher_script": "Crouch beside the child. 'Tell me how you compared these.' The child says '89 has 9 ones and 102 has 2 ones. 9 is bigger than 2. So 89 is bigger.' Pause. 'OK — let's check that with our base-ten blocks.' Pull out the base-ten blocks. 'Build 89.' Child places 8 ten-rods, 9 unit-cubes. 'Build 102.' Child places 1 hundred-flat, 0 ten-rods, 2 unit-cubes.\n\n'Now look at both builds. Which one has MORE total stuff?' Wait. The child looks at the two builds. The 102 build has a LOT of stuff in the hundred-flat — visibly more. 'Hmm — 102 has more.' 'Right. Because that hundred-flat is worth 100. 100 alone is more than 89. So 102 > 89, even though 89 has bigger ones.'\n\nNow the teaching move. 'Tina says — when comparing, look at the HUNDREDS FIRST. Always. 89 has ZERO hundreds. 102 has ONE hundred. One hundred wins. We don't even NEED to look at the tens or the ones if the hundreds are different.'\n\nHave the child rewrite the comparison. 'Try again.' '89 < 102.' 'Right. Now write WHY.' '102 has 1 hundred and 89 has 0 hundreds.' Tick 'compares using hundreds-first rule' on the tracker.\n\nNow set up the practice. 'Try one more.' Hand the next card: 178 vs 187. The child looks at hundreds: 1 vs 1, same. Tens: 7 vs 8 — 8 wins. '187 > 178.' Affirm.\n\nIf the child STILL defaults to ones-first reasoning: the 'biggest digit' strategy is too entrenched. Repair by going back to two-digit numbers first. 'Compare 47 vs 49.' (47 < 49 — same tens, ones decide.) 'Now compare 47 vs 92.' (47 < 92 — different tens, tens decide.) Build the 'tens first' habit on two-digit pairs before extending to three-digit pairs.\n\nLong-term recovery: include a place-value reminder card at the comparison station for the rest of the unit: 'HUNDREDS first → TENS → ONES.' The card is the explicit anchor against the ones-first habit.",
+    "expected_student_responses": [
+      "(Confused) Defaults to ones-first or biggest-digit reasoning. Gets same-tens cases (e.g., 47 vs 49) right by accident; misses different-hundreds cases (89 vs 102). Most common at the start of Grade 2 for transition learners.",
+      "(Mid) Applies hundreds-first rule when prompted but reverts to ones-first when the tens or ones look 'bigger'. Strategy is situational, not yet automatic.",
+      "(Strong) Auto-applies hundreds-first rule. Says 'hundreds first' before solving any comparison. Has internalised place-value as comparison structure.",
+      "(Stretched) Volunteers that the rule extends naturally to thousands and beyond — 1234 < 2345 because 1 < 2 in the thousands. Sees the rule as a structural property of base-ten."
+    ],
+    "common_misconceptions": [
+      "More digits = always bigger, no matter what. (Children compare 99 vs 102 by counting digits and saying 102 because 102 has 3 digits — accidentally correct here, but for the wrong reason. Repair: explicit hundreds-first rule, with 99 having 0 hundreds in the comparison.)",
+      "Bigger ones digit = bigger number. (89 > 102 by ones-first reasoning. Repair: build both with base-ten blocks and visually compare the hundreds.)",
+      "Comparison only works for numbers in the same hundred. (Children freeze on cross-hundred pairs like 99 vs 102 because 'they're in different hundreds'. Repair: the rule WORKS BEST across hundreds — that's where it's most decisive.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child compares ones first: drill 'HUNDREDS first, TENS second, ONES last'; child re-says before any comparison.",
+      "DIAGNOSTIC B — child knows hundreds-first but stalls on ties: drop to side-by-side place-value chart; child checks each column in order.",
+      "DIAGNOSTIC C — child decomposes but recombines wrong: drill 100+30+2 = 132 as a known fact; combine with rod-stack visual."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Compose, Decompose, Compare",
+    "purpose": "Independent practice of B1.1 (decomposition) and B1.2 (comparison). Captures formative evidence on flexibility and place-value reasoning.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Three target numbers (89, 132, 178). For each, the child writes THREE different decompositions in the format '___ + ___ + ___' or '___ + ___'.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Six comparison pairs. For each, the child writes < or > and a one-line reason citing the place-value rule.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Order Five Numbers: child receives 5 numbers (e.g., 67, 134, 89, 178, 145) and writes them in order from smallest to biggest.",
+        "response_type": "write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Tina Tens in the worksheet header",
+      "Three target-number boxes for Part 1",
+      "Six comparison-pair rows with < / > selection bubbles for Part 2",
+      "Five number cards plus a blank ordering line for Part 3"
+    ]
+  }
+}

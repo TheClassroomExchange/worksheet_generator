@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "lesson_number": 1,
+  "lesson_title": "Sort by One Rule",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Sorting groups things by ONE rule. The rule decides where each thing goes.",
+  "learning_intention": "We are learning to sort by one rule and name the rule.",
+  "student_learning_goal": "I can sort things by one rule and say what the rule is.",
+  "success_criteria": [
+    "I can pick ONE rule for sorting.",
+    "I can put each thing into the right group.",
+    "I can name the rule I used."
+  ],
+  "vocabulary_introduced": [
+    "data",
+    "sort",
+    "rule"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_sort_objects",
+    "M7_data_chart",
+    "M9_attribute_cards",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally puppets — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Data, Sort, Rule'",
+    "Sortable Object Cards (30 per pair)",
+    "Attribute Cards (12)",
+    "Lesson 1 sorting tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dot Sorts the Pile",
+    "hook": "Detective Dot: I have a PILE of stuff. Help me SORT it. What ONE rule can we use?",
+    "teacher_script": "Bring children to the carpet. Detective Dot + Tally puppets. 'Friends — I'm Detective Dot the Sorting Squirrel, and this is my partner Tally the Tally Cat. Today we learn the FIRST detective skill: SORTING.'\n\nIntroduce vocabulary. Write DATA, SORT, RULE on chart. 'Data = facts we collect. Sort = group things by a rule. Rule = how we decide what goes where.'\n\nDemonstrate. Show a pile of mixed objects: red blocks, blue blocks, red balls, blue balls. 'How can we sort these? With ONE rule.'\n\nOption 1 — sort by COLOUR: red pile, blue pile.\nOption 2 — sort by SHAPE: blocks pile, balls pile.\n\n'Detective Dot says — same pile, DIFFERENT rules. Pick ONE. Stick with it.'\n\nMore examples:\n- Pile of crayons. Rule = colour, OR rule = sharp/dull.\n- Pile of shoes. Rule = colour, OR rule = laces/no laces.\n- Class of children. Rule = wearing red, OR rule = girls/boys.\n\n'Today we sort lots of things by ONE rule each time. We name the rule.'",
+    "student_actions": [
+      "Listen to Detective Dot's sort.",
+      "Echo new vocabulary.",
+      "Suggest sorting rules for a pile.",
+      "Practice naming the rule out loud."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Sorting Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: sort 4 piles. (a) crayons by colour. (b) shoes by laces. (c) toys by hard/soft. (d) animals by legs.",
+        "teacher_prompt": "Say: 'What's the rule? Where does this go?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Object Sort — pair sorts 30 objects by colour. Station B: Re-sort — pair sorts the SAME objects by shape (different rule!). Station C: Make a Rule — pair picks an attribute card and sorts.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: sort by 2 rules at once (red AND big).",
+        "teacher_prompt": "Say: 'Stretch: 2 rules.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss naming the rule. 'Always SAY the rule out loud. Then sort.'",
+        "teacher_prompt": "Show: object pile, point and say 'rule = ___'."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic evidence on the sorting tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's your rule?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just colour sorts.",
+      "for_extending": "Stretch at Station C: 2-rule sorting.",
+      "for_ell_or_iep": "Provide a sentence frame: 'My rule is ___.'",
+      "for_movement_learners": "Children sort themselves into groups by attribute (shoe colour, etc.)."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks ONE rule; sorts correctly; names the rule.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Picks one rule",
+        "Sorts correctly",
+        "Names the rule",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dot's Sort Brag",
+    "discussion_prompts": [
+      "What is a RULE?",
+      "Can the same pile be sorted in DIFFERENT ways?",
+      "How do you SAY your rule?",
+      "What happens if you change the rule mid-sort?",
+      "STRATEGY COMPARE + LOOK AHEAD: Two pairs share different rules on the same pile — surface that the rule (not the objects) decides the sort. Then preview: Tally counts tomorrow (D1.2), pictograph next (D1.3)."
+    ],
+    "exit_routine": "Whole class chants Detective Dot's refrain: \"Pick the rule, SAY the rule, SORT the rule — case CLOSED!\" Then each child writes ONE sort on a sticky: 'I sorted ___ by ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Sorting accuracy and rule articulation.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already sort by attribute from those who sort randomly."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child changes the rule mid-sort — repairing the rule-drift trap at Grade 1",
+    "rationale": "The most common Grade-1 trap on D1.1 is the rule-drift trap: the child starts sorting by colour, then partway through switches to shape without realising it. They miss that ONE rule means the SAME rule for ALL objects. This is classification by global similarity rather than by a single named criterion (Inhelder & Piaget, 1964, *The Early Growth of Logic in the Child*) — the early-childhood data-trajectory work of Sarama & Clements (2009) places explicit rule-naming as the gateway to one-to-one correspondence in tally and pictograph work that follows.\n\nThis matters because consistent sorting is the foundation of data display. Without it, the resulting tally count (Lesson 2) and pictograph (Lesson 3) misrepresent the data.",
+    "setup": "Pair is at Station A. Child starts with red+blue colour sort. After 5 objects, switches to sorting by shape (puts a blue ball in the 'red' pile because it's a 'ball').",
+    "teacher_script": "Crouch. 'You started with a COLOUR rule. But this blue ball ended up in the red pile. The rule changed!'\n\nWalk through. 'When we sort, we pick ONE rule and stick with it. If the rule is COLOUR, then blue goes with blue. If the rule changes mid-way, the sort is broken.'\n\nGeneralise. 'Detective Dot says — pick ONE rule. SAY it. Then sort EVERY object by that rule. No drifting.'\n\nNow re-sort. 'What's our rule?' Child says 'colour'. 'OK — every object goes by colour.'\n\nIf still drifting: provide a rule card on the table. 'RULE = COLOUR' written big. Force the rule visibility.\n\nLong-term recovery: every sort starts with a written/spoken rule.",
+    "expected_student_responses": [
+      "(Confused) Drifts mid-sort without noticing.",
+      "(Mid) Sticks to one rule with a written reminder.",
+      "(Strong) States rule first, sorts consistently.",
+      "(Stretched) Re-sorts the same pile with a different rule on request."
+    ],
+    "common_misconceptions": [
+      "Sort means 'organize neatly'. (Repair: sorting requires a rule.)",
+      "I can switch rules to make it work. (Repair: ONE rule per sort.)",
+      "All sorts give the same result. (Repair: different rules give different sorts.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child cannot name a rule: place a 'RULE = ___' card on the table, model two rules out loud (colour, shape), let the child pick ONE and write it on the card before any object is moved.",
+      "DIAGNOSTIC B — child names the rule then drifts: ask after each object, 'Does this fit the rule?' Pause, child re-states the rule, then places. Drill until 5 consecutive matches without prompting.",
+      "DIAGNOSTIC C — child uses two rules at once (e.g., 'red AND big'): split into TWO sorts on the same pile — first by colour only, then re-sort by size — to make explicit that different rules give different groupings."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dot's First Case",
+    "purpose": "Independent practice of D1.1 sorting by one rule.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Look at the pile. Sort by colour. Draw 2 piles.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Same pile, NEW rule. Sort by shape. Draw 2 piles.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick your own rule. Sort 6 objects. Write the rule.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dot in worksheet header",
+      "Pile of mixed objects for Part 1",
+      "Same pile shown again for Part 2",
+      "6 objects + blank rule line for Part 3"
+    ]
+  }
+}

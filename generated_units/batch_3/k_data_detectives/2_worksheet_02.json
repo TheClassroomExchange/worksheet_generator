@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 2,
+  "worksheet_title": "Tally's Counting",
+  "purpose": "Independent practice of A8.2 (counting and tallying).",
+  "student_learning_goal": "I can collect data by counting things in groups.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can collect data by counting things in groups.", "character_watermark": "Tally in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Count Sorted Groups", "student_instructions": "Count each sorted group. Tally each.", "visual_layout": "Top of page. Four sorted groups with tally areas.",
+      "image_placeholders": [{"id": "WS02_P1_COUNT", "description": "Four group boxes in B&W, ~7in x 3in. Each has objects pre-drawn (4 items, 6 items, 3 items, 8 items). Tally area below each. Header 'Count and Tally:'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["count", "tally"], "text_image_alignment_check": "Image WS02_P1_COUNT: keywords (count, tally) name the activity."}],
+      "student_response_type": "draw_or_write", "answer_key": "4, 6, 3, 8."},
+    {"part_number": 2, "part_title": "Part 2: Classroom Count", "student_instructions": "Count things in your classroom by colour. Tally each.", "visual_layout": "Middle of page. Tally chart.",
+      "image_placeholders": [{"id": "WS02_P2_CLASS", "description": "A tally chart in B&W, ~7in x 2.5in. 4 rows: red, blue, yellow, green. Tally areas. Header 'Classroom Count:'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["classroom"], "text_image_alignment_check": "Image WS02_P2_CLASS: keywords (classroom) name the chart."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 3, "part_title": "Part 3: My Survey", "student_instructions": "Survey 6 classmates. Tally favourite colour.", "visual_layout": "Bottom of page. Survey chart.",
+      "image_placeholders": [{"id": "WS02_P3_SURVEY", "description": "A survey chart in B&W, ~7in x 2.5in. 4 colour rows with tally areas. Header 'My Survey (6 classmates):'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["my", "survey"], "text_image_alignment_check": "Image WS02_P3_SURVEY: keywords (my, survey) name the chart."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, survey 6 more classmates and tally.",
+  "teacher_notes": "Lesson 2 worksheet. Watch for double-counting."
+}

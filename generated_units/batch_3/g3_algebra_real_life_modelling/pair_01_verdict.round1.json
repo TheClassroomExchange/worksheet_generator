@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the descriptive-vs-math trap and gives recovery_moves ['Use HOW frames.', 'Show math vs opinion side by side.', 'Connect to community counting.'] but cites no research and the recovery does not branch by what the diagnostic told you about the child.",
+      "required_fix": "Cite a named source (e.g., English & Watters on G2-3 modelling, or Lesh's model-eliciting activities) and BRANCH recovery_moves: (a) opinion question -> drill HOW-frame substitution; (b) math-shaped but no countable referent -> rebuild around a counted noun; (c) cannot generate any question -> point at one object on the map and ask 'how many of THIS?'.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson treats step 1 of the modelling cycle conceptually (math-question vs opinion, HOW frames, child-friendly 'model'/'real-life situation') but never lets children INVENT or COMPARE strategies, and the expanded_walkthrough does not name the misconception in research-grounded terms (no English, no Lesh, no CGI).",
+      "required_fix": "Add a strategy-comparison move to action or consolidation: two pairs share math questions about the same location (e.g., the rink) and compare which question yields a clearer NUMBER (count vs measure vs estimate). In expanded_walkthrough.rationale, name the principle (e.g., English's emergent-modelling or Lesh's model-eliciting activities) so the trap is research-anchored.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong pair overall: clean C4 alignment, Coach Cara is consistent across minds_on/action/consolidation with a 'math questions start with HOW' refrain and sticky-note exit frame, materials are everyday with puppet OPTIONAL, and worksheet parts each map to a success criterion while varying format from the lesson. Two lesson-side categories sit at 3: the trap lacks research citation and branching recovery, and mathematical_authenticity stays at conceptual exposure without a strategy invent/compare move. Worksheet is solid; revise lesson only."
+}

@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 4,
+  "lesson_title": "Likelihood: Always, Sometimes, Never",
+  "duration_minutes": 34,
+  "primary_expectations": [
+    "A8.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Some events ALWAYS happen, some SOMETIMES happen, some NEVER happen — that's LIKELIHOOD.",
+  "learning_intention": "We are learning to describe how likely familiar events are to happen.",
+  "student_learning_goal": "I can tell if events ALWAYS, SOMETIMES, or NEVER happen.",
+  "success_criteria": [
+    "I can name an event that ALWAYS happens.",
+    "I can name an event that SOMETIMES happens.",
+    "I can name an event that NEVER happens."
+  ],
+  "vocabulary_introduced": [
+    "always",
+    "sometimes",
+    "never",
+    "likelihood"
+  ],
+  "vocabulary_reinforced": [
+    "data",
+    "graph",
+    "category"
+  ],
+  "manipulatives_used": [
+    "M3_tally_charts",
+    "M4_pictograph_template",
+    "M8_class_chart",
+    "M9_data_chart",
+    "M10_detective_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'ALWAYS / SOMETIMES / NEVER'",
+    "Three corner labels (ALWAYS, SOMETIMES, NEVER) — paper signs on classroom walls",
+    "Event picture cards (8-10 simple events: sun rises, fish flies, it rains, etc.)",
+    "Class Wall Chart",
+    "Lesson 4 likelihood tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 8,
+    "activity_name": "Likelihood word warm-up",
+    "hook": "Detective Dot says: 'Does the sun rise EVERY day? Does a fish FLY every day? Does it rain EVERY day?' Three different answers — that's LIKELIHOOD!",
+    "teacher_script": "Bring children to the carpet. Detective Dot + Tally puppets. 'Friends — Detective Dot has THREE new words today. Listen for the difference.'\n\nIntroduce vocabulary. Write ALWAYS, SOMETIMES, and NEVER on chart in big letters. 'ALWAYS = every single day. SOMETIMES = some days, not every day. NEVER = no day.'\n\nDemonstrate with three benchmark events:\n- 'The sun rises in the morning.' Children think. 'EVERY day? YES — ALWAYS.' Stick to the ALWAYS column.\n- 'A fish swims in lava.' Children think. 'EVER? NO — NEVER.' Stick to the NEVER column.\n- 'It rains today.' Children think. 'Every day? No. No day? No. SOMETIMES.' Stick to the SOMETIMES column.\n\nMore events:\n- 'We breathe air.' (ALWAYS — we have to.)\n- 'A tree dances.' (NEVER — trees can't dance.)\n- 'Lunch is sandwiches.' (SOMETIMES — depends on the day.)\n- 'The sky is green.' (NEVER — sky is blue.)\n- 'Friday is after Thursday.' (ALWAYS — calendar order.)\n\nClass refrain: 'ALWAYS — SOMETIMES — NEVER — that's LIKELIHOOD!' Chant 3x clapping each word.\n\nDetective Dot's test: 'EVERY day or NO day? If you can't say either, it's SOMETIMES.'\n\n'Today we sort events into ALWAYS, SOMETIMES, or NEVER and write our own.'",
+    "student_actions": [
+      "Listen to Detective Dot's events and call out 'ALWAYS', 'SOMETIMES', or 'NEVER'.",
+      "Stand in the matching corner of the room (3 corners labelled)."
+    ]
+  },
+  "action": {
+    "duration_minutes": 18,
+    "activity_name": "Likelihood corners",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "WHOLE-GROUP MINI-LESSON (5 min): Detective Dot defines ALWAYS / SOMETIMES / NEVER with three benchmark events: 'we breathe air' (ALWAYS), 'it snows on Tuesday' (SOMETIMES), 'a fish swims in lava' (NEVER). Class chants the refrain.",
+        "teacher_prompt": "Detective Dot: 'ALWAYS — SOMETIMES — NEVER — that's LIKELIHOOD!'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "STATION A — ALWAYS HAPPENS: 4 children rotate to the ALWAYS corner. Each child names one event that ALWAYS happens (e.g., 'the sun rises'). Teacher records on chart.",
+        "teacher_prompt": "Detective Dot: 'If it ALWAYS happens, it's CERTAIN.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "STATION B — SOMETIMES HAPPENS: 4 children rotate to the SOMETIMES corner. Each child names one event that SOMETIMES happens (e.g., 'it rains on Friday').",
+        "teacher_prompt": "Detective Dot: 'SOMETIMES means it COULD or COULDN'T.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "STATION C — NEVER HAPPENS: 4 children rotate to the NEVER corner. Each child names one event that NEVER happens (e.g., 'a tree dances').",
+        "teacher_prompt": "Detective Dot: 'If it NEVER happens, it's IMPOSSIBLE.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "STRATEGY COMPARE: Two children share their SOMETIMES events. Class debates: which is more likely? Which is less likely? Cite Fischbein (1975) — likelihood lives on a continuum.",
+        "teacher_prompt": "Detective Dot: 'SOMETIMES has a SCALE — more likely, less likely.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A (ALWAYS only). Pick from 2-3 sample events instead of generating their own.",
+      "for_extending": "Stretch at Station B: rank two SOMETIMES events as more/less likely and explain.",
+      "for_ell_or_iep": "Sentence frame: 'It ___ happens. It is ___.' (filling in always/sometimes/never).",
+      "for_movement_learners": "NO-PAPER PATH: children stand in three corners — ALWAYS corner, SOMETIMES corner, NEVER corner; teacher calls events; children walk to the matching corner and explain why."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: correctly assigns ALWAYS events; correctly assigns NEVER events; correctly assigns SOMETIMES events (not just as catchall).",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Assigns ALWAYS",
+        "Assigns NEVER",
+        "Assigns SOMETIMES",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Detective Dot's Likelihood Brag",
+    "discussion_prompts": [
+      "What does ALWAYS mean? (Every day.)",
+      "What does NEVER mean? (No day.)",
+      "What does SOMETIMES mean? (Some days, not every day.)",
+      "What is the test? (EVERY day or NO day? If neither — SOMETIMES.)"
+    ],
+    "exit_routine": "Detective Dot's refrain — class chants 3x: 'ALWAYS — SOMETIMES — NEVER — that's LIKELIHOOD!' Each child writes one ALWAYS or NEVER event on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Likelihood-word use: child correctly assigns ALWAYS, SOMETIMES, NEVER to events and justifies SOMETIMES as 'some days but not every day'.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures A8.4 — describing how likely familiar events are to happen."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child uses SOMETIMES as a catchall — repairing the uncertainty-collapse trap at K (Fischbein, 1975; Konold, 1989)",
+    "rationale": "On likelihood (A8.4), the most-documented K trap is uncertainty collapse: children commit to neither extreme and assign SOMETIMES to virtually every event, including events that are actually CERTAIN (ALWAYS) or IMPOSSIBLE (NEVER). Fischbein's (1975) intuitive-probability work showed K children resist commitment to 'every day' or 'no day' because they confuse probability with personal uncertainty — 'I don't know if I'll see the sun tomorrow' becomes 'the sun rising is SOMETIMES'. Konold (1989) calls this the 'outcome approach': the child reasons about a single trial, not the long-run pattern.\n\nWhy this matters: SOMETIMES is the gateway to Grade 1-3 probability language ('likely', 'unlikely', 'impossible', 'certain'). If K children leave with SOMETIMES = catchall, they lose the contrast that makes the scale meaningful. Sarama & Clements (2009) trajectories place the ALWAYS/NEVER boundary case BEFORE introducing graded uncertainty — secure the absolutes first.\n\nThe walkthrough covers when a child says SOMETIMES for an obvious ALWAYS or NEVER event.",
+    "setup": "Pair is at Station C (NEVER). Detective Dot reads: 'A fish swims in lava.' Child says 'SOMETIMES — maybe a fish could swim in lava sometimes.'",
+    "teacher_script": "Crouch. 'Detective Dot has a TEST for SOMETIMES. Ready?'\n\nThe test. 'Detective Dot asks two questions. Listen. ONE — does it happen EVERY day? TWO — does it happen on NO day?'\n\nApply. 'A fish in lava — does that happen EVERY day? No. Does it happen NO day? YES — fish CAN'T swim in lava, lava is hot lava melts fish.'\n\nGeneralise. 'NO day = NEVER. The fish in lava is NEVER. Stick it on NEVER.'\n\nThe child re-checks. 'Yeah — NEVER.'\n\nNow flip. 'Sun rises tomorrow — does that happen EVERY day? YES. EVERY day = ALWAYS. Stick it on ALWAYS.'\n\nNow contrast. 'It rains tomorrow — does it rain EVERY day? No. NO day? No, it rains some days. SOMETIMES is for IN-BETWEEN. ONLY in-between gets SOMETIMES.'\n\nLong-term recovery: every event MUST pass the EVERY day or NO day test BEFORE being assigned SOMETIMES. Repeat the two-question test for the next 3 events the child meets.",
+    "expected_student_responses": [
+      "(Confused) Says SOMETIMES for every event including obvious ALWAYS or NEVER.",
+      "(Mid) Sorts ALWAYS and NEVER correctly when prompted with 'EVERY day or NO day?' but defaults to SOMETIMES without the prompt.",
+      "(Strong) Self-applies the EVERY day / NO day test and assigns ALWAYS, SOMETIMES, NEVER consistently.",
+      "(Stretched) Justifies a SOMETIMES choice by ruling out both extremes ('not every day, not no day, so SOMETIMES')."
+    ],
+    "common_misconceptions": [
+      "SOMETIMES means 'I'm not sure'. (Repair: SOMETIMES means 'on some days but not every day' — it is about the world, not your knowledge.)",
+      "If I have never seen it, it is NEVER. (Repair: NEVER means it CANNOT happen — fish can't fly. Other things you haven't seen, like it snowing in summer somewhere, are SOMETIMES.)",
+      "Magical events go in SOMETIMES. (Repair: a tree dancing or pigs flying is NEVER — impossible — not SOMETIMES. Use the 'CAN it happen?' test for NEVER candidates.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child says SOMETIMES for everything: anchor with obvious ALWAYS ('we breathe') and NEVER ('fish flies') examples first; force the 'EVERY day or NO day?' two-question test before any SOMETIMES is allowed.",
+      "DIAGNOSTIC B — child swaps ALWAYS and NEVER: drill 'ALWAYS = EVERY day; NEVER = NO day'; act it out — point at calendar (every square = ALWAYS) vs no square = NEVER.",
+      "DIAGNOSTIC C — child names but cannot justify: force the sentence frame 'It is ___ because it happens ___' (always / on some days but not every / on no days)."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Always Sometimes Never",
+    "purpose": "Children sort 8 events into ALWAYS/SOMETIMES/NEVER columns and write one event of their own.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Sort 6 events into ALWAYS/SOMETIMES/NEVER",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Write your own ALWAYS event",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Justify a SOMETIMES event",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "WS04_P1_LIKELIHOOD_TABLE",
+      "WS04_P2_OWN",
+      "WS04_P3_JUSTIFY"
+    ]
+  }
+}

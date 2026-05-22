@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 5,
+  "lesson_title": "Likelihood Lab Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1",
+    "D2.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Detectives use LIKELIHOOD to predict and TEST. The data tells us if our prediction was right.",
+  "learning_intention": "We are learning to predict, test, and report what the data showed.",
+  "student_learning_goal": "I can predict, test, and tell if my prediction was right.",
+  "success_criteria": [
+    "I can use a likelihood word to make a prediction.",
+    "I can test the prediction by collecting outcomes.",
+    "I can write whether my prediction was right or wrong."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "impossible",
+    "possible",
+    "certain",
+    "predict",
+    "test",
+    "likelihood"
+  ],
+  "manipulatives_used": [
+    "M1_event_cards",
+    "M2_likelihood_mat",
+    "M3_coin_set",
+    "M4_dice_set",
+    "M5_prediction_mat",
+    "M6_capstone_template",
+    "M7_likelihood_chart",
+    "M8_predict_chart",
+    "M9_outcome_cards",
+    "M10_likelihood_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'The Likelihood Lab Cycle'",
+    "Likelihood Lab Templates (1 per child)",
+    "All previous manipulatives at 5 capstone stations",
+    "Lesson 5 capstone rubric — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Welcome to the Likelihood Lab",
+    "hook": "Lucky: Welcome to LUCKY'S LIKELIHOOD LAB! Five stations. Each one — predict, test, report.",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets in lab coats. 'Friends — today is our CAPSTONE. We use ALL we know about likelihood: IMPOSSIBLE, POSSIBLE, CERTAIN, PREDICT, TEST.'\n\nReview the cycle: 'Step 1 — pick the LIKELIHOOD (impossible, possible, certain). Step 2 — make a PREDICTION. Step 3 — TEST it. Step 4 — REPORT what happened.'\n\nDemo. 'I will flip a coin. Likelihood: POSSIBLE (heads or tails). Prediction: heads. Test: flip. Report: ___ landed.' Flip and fill in.\n\nNow show the 5 stations:\n- Station 1: COIN — predict + test 5 flips.\n- Station 2: DICE — predict + test 5 rolls.\n- Station 3: MARBLES — predict + test 5 pulls (4 red + 1 blue).\n- Station 4: WEATHER — predict tomorrow's weather.\n- Station 5: SORT — sort 6 events as I/P/C.\n\nEach station: child predicts, tests, records on their LAB TEMPLATE.\n\n'Lucky says — every station is a MINI EXPERIMENT. Predict. Test. Report.'\n\n'Today YOU run the Likelihood Lab.'",
+    "student_actions": [
+      "Watch Lucky's coin demo.",
+      "Echo all unit vocabulary.",
+      "Plan which station to start at.",
+      "Practice the predict-test-report cycle."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "The Likelihood Lab",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Lab templates. Each child rotates through 5 stations (~5 min each).",
+        "teacher_prompt": "Say: '5 stations, 5 minutes each. Predict. Test. Record.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Station 1 (COIN): predict + test 5 flips. Record results.",
+        "teacher_prompt": "Say: 'Predict: heads or tails. Flip 5 times.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Station 2 (DICE): predict + test 5 rolls.",
+        "teacher_prompt": "Say: 'Predict 1-6. Roll 5 times.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stations 3-5 follow the same pattern: predict + test + record.",
+        "teacher_prompt": "Say: 'Predict. Test. Record. Repeat.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record summative evidence on the capstone rubric.",
+        "teacher_prompt": "Stop at each child. Ask 'Show me your predictions and results.' Mark the rubric."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Visit Station 1 only. Predict 3 flips, test, record.",
+      "for_extending": "After all 5 stations, write a 'big conclusion' about what you learned.",
+      "for_ell_or_iep": "Provide a sentence frame on the template: 'I predicted ___. The result was ___.'",
+      "for_movement_learners": "Walk between 5 station tables, physically gather data at each."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: predicts at each station; tests at each; records at each; uses likelihood word; reflects on right/wrong.",
+      "how_to_record": "Score on the capstone rubric.",
+      "tracker_columns": [
+        "Student name",
+        "Predicts",
+        "Tests",
+        "Records",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lucky's Lab Brag",
+    "discussion_prompts": [
+      "Which station was your favourite?",
+      "Were any predictions wrong? That's OK!",
+      "What likelihood words did you use?",
+      "What's the difference between PREDICT and TEST?"
+    ],
+    "exit_routine": "Each child shows their template and finishes: 'My favourite likelihood lab was ___ because ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Capstone template with predictions, tests, and reports across 5 stations.",
+    "tracker_reference": "summative_capstone_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures D2.1 + D2.2 in one integrated lab."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child fills in predictions AFTER seeing results — repairing the post-hoc prediction trap at Grade 1",
+    "rationale": "The most common Grade-1 trap on the capstone is the post-hoc trap: the child flips the coin first, sees tails, then writes 'tails' as their prediction. They miss that prediction MUST come BEFORE the test.\n\nThis matters because prediction's whole value is its before-ness. A retrofit prediction is meaningless.\n\nThe walkthrough covers when a child predicts after testing.",
+    "setup": "Capstone session. Child is at Station 1. Flips the coin first, sees tails, then writes 'tails' in the prediction column.",
+    "teacher_script": "Crouch. 'I see you wrote tails. But I noticed you flipped FIRST. Lucky says — predict BEFORE you test.'\n\nWalk through. 'Cover the coin with your hand. Now WRITE your prediction. THEN flip and check.'\n\nGeneralise. 'Lucky says — prediction is what you GUESS will happen. Test is what ACTUALLY happens. They must be in that ORDER.'\n\nNow restart. 'Hide the next flip. Write your prediction. Flip. Compare.'\n\nIf still post-hoc: provide a fold-over template — child writes prediction in the LEFT column then folds over to flip and test the RIGHT column. Force the order.\n\nLong-term recovery: every prediction activity has a 'predict zone' separate from a 'test zone'.",
+    "expected_student_responses": [
+      "(Confused) Predicts after testing.",
+      "(Mid) Predicts before with prompts.",
+      "(Strong) Predicts before independently; reflects on accuracy.",
+      "(Stretched) Predicts AND uses likelihood reasoning before testing."
+    ],
+    "common_misconceptions": [
+      "Prediction = recording the result. (Repair: prediction comes before result.)",
+      "I should always be right. (Repair: predictions can be wrong; test honestly.)",
+      "Prediction order doesn't matter. (Repair: order matters — predict, then test, then report.)"
+    ],
+    "recovery_moves": [
+      "Use a fold-over template separating predict from test.",
+      "Drill 'predict first, test second'.",
+      "Cover the coin/die before writing prediction."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lucky's Likelihood Lab",
+    "purpose": "Summative artifact applying D2.1 and D2.2 across 5 mini-experiments.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Coin flip: predict + test 5 times. Record.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Marble pull (4 red + 1 blue): predict + test 5 times. Record.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Sort 6 events as IMPOSSIBLE, POSSIBLE, or CERTAIN. Then write a sentence: 'I predicted ___ and the result was ___.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky and Mae in worksheet header",
+      "Coin prediction-test table for Part 1",
+      "Marble prediction-test table for Part 2",
+      "Event sort + summary sentence box for Part 3"
+    ]
+  }
+}

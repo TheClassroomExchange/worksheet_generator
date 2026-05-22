@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "formative_worksheets": [
+    {
+      "title": "The Spinner and Mode Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 min).",
+      "purpose": "Standalone formative check confirming spinner predictions and complementary pairs.",
+      "expectations_assessed": [
+        "D2.1"
+      ],
+      "student_learning_goal": "I can predict spinner outcomes and name complement pairs.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can predict spinner outcomes and name complement pairs.",
+        "character_watermark": "Lucky in the top-right with a clipboard. Small (~1.5in). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Predict the spinner. Write the most likely outcome.",
+          "visual_layout": "1 spinner illustration with 'Most likely: ___' line.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_SPINNER",
+              "description": "A spinner illustration for a Grade 2 formative check. Spinner has 3/4 red + 1/4 blue. Below: 'Most likely: ___'.",
+              "placement": "Centred in Prompt 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "spinner",
+                "likely"
+              ],
+              "text_image_alignment_check": "FORM_Q1_SPINNER at Prompt 1: keywords name the visual element and criterion."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Red (biggest section)."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "Name the complement of HEADS.",
+          "visual_layout": "A single writing line below a question prompt asking the child to name the complement of HEADS.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_COMPLEMENT",
+              "description": "A single complement answer line for a Grade 2 formative check. Above: 'Heads — complement?'. Below: writing line.",
+              "placement": "Centred in Prompt 2.",
+              "approximate_size": "small",
+              "keywords": [
+                "complement",
+                "heads"
+              ],
+              "text_image_alignment_check": "FORM_Q2_COMPLEMENT at Prompt 2: keywords name the activity and target."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "Tails."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling? Circle the face.",
+          "visual_layout": "Three faces in a row.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons for a Grade 2 formative check.",
+              "placement": "Centred in Prompt 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "faces",
+                "feeling"
+              ],
+              "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open."
+        }
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My What Could Happen? Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Lucky and Mae with a Junior Likelihood Detective certificate in the top-right. References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel? Circle one.",
+        "visual_layout": "Three star-rating ovals.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three rating ovals for a Grade 2 reflection.",
+            "placement": "Centred in Prompt 1.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "stars",
+              "rating"
+            ],
+            "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the visual."
+          }
+        ],
+        "response_type": "self_rate",
+        "options": [
+          "Just starting",
+          "Mostly got it",
+          "I am a Detective!"
+        ]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these? Circle YES or NO.",
+        "visual_layout": "A 4-row YES/NO table.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A 4-row YES/NO table for a Grade 2 reflection.",
+            "placement": "Centred in Prompt 2.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "yes",
+              "no"
+            ],
+            "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name response options."
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": [
+          "I named events impossible/possible/certain.",
+          "I named complement pairs.",
+          "I predicted spinners.",
+          "I rolled dice and found mode."
+        ]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite likelihood activity was...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle for a Grade 2 reflection.",
+            "placement": "Centred in Prompt 3.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "favourite",
+              "activity"
+            ],
+            "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle for a Grade 2 reflection.",
+            "placement": "Centred in Prompt 4.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "trickiest"
+            ],
+            "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword matches the prompt."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle for a Grade 2 reflection.",
+            "placement": "Centred in Prompt 5.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "next",
+              "try"
+            ],
+            "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Likelihood Detective certificate."
+  }
+}

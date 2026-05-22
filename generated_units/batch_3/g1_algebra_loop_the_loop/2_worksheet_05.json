@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 5,
+  "worksheet_title": "My Code Project",
+  "purpose": "Summative evidence integrating C3.1 + C3.2.",
+  "student_learning_goal": "I can write my own code to do a task with sequence and loop.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can write my own code to do a task with sequence and loop.", "character_watermark": "Coda and Looper together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Project", "student_instructions": "Project name and 1-sentence description.", "visual_layout": "Top. Title slot and description line.",
+      "image_placeholders": [{"id": "WS05_P1_PROJECT_BOX", "description": "A title slot 'My Project: ___' with a 1-line description below in B&W line-art. ~7in × 1in.", "placement": "Top of the page.", "approximate_size": "full_width", "keywords": ["project", "title"], "text_image_alignment_check": "Image WS05_P1_PROJECT_BOX: keywords (project, title) name what the box asks for."}],
+      "student_response_type": "write", "answer_key": "Open."},
+    {"part_number": 2, "part_title": "Part 2: My Code", "student_instructions": "Write 4-8 steps of code. Use AT LEAST one loop.", "visual_layout": "Upper-middle. Numbered code-writing area.",
+      "image_placeholders": [{"id": "WS05_P2_CODE_AREA", "description": "A code-writing area in B&W line-art, ~7in × 3in. 8 numbered code lines pre-printed. Header 'My Code:'.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["code"], "text_image_alignment_check": "Image WS05_P2_CODE_AREA: keywords (code) name what the area asks for."}],
+      "student_response_type": "write", "answer_key": "Open. Must include at least 1 loop."},
+    {"part_number": 3, "part_title": "Part 3: My Prediction", "student_instructions": "Draw or describe what your code does.", "visual_layout": "Lower-middle. A drawing area.",
+      "image_placeholders": [{"id": "WS05_P3_PREDICTION", "description": "A blank drawing area in B&W line-art, ~7in × 2in. Pre-drawn 5x5 grid for movement codes OR blank space for shape/path codes. Header 'My Prediction:'.", "placement": "Lower-middle.", "approximate_size": "full_width", "keywords": ["prediction"], "text_image_alignment_check": "Image WS05_P3_PREDICTION: keywords (prediction) name what the area asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Should match the code."},
+    {"part_number": 4, "part_title": "Part 4: Did It Match?", "student_instructions": "After running your code with a partner, did it match your prediction? Yes or No. Why?", "visual_layout": "Bottom. Yes/No bubble plus reasoning lines.",
+      "image_placeholders": [{"id": "WS05_P4_VERIFY", "description": "A verification box in B&W line-art, ~7in × 1.5in. YES/NO oval bubbles plus 3 reasoning lines.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["match"], "text_image_alignment_check": "Image WS05_P4_VERIFY: keywords (match) name what the box asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Children reflect on whether code matched."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and execute their code on the grid.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use as integrated C3.1 + C3.2 evidence. Watch for loop-omission — flag for reteach if needed."
+}

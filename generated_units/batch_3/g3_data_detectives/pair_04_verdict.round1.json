@@ -1,0 +1,65 @@
+{
+  "unit_id": "g3_data_detectives",
+  "pair_number": 4,
+  "subject": "Mathematics",
+  "alignment": 3,
+  "pedagogical_depth": 3,
+  "instructional_balance": 4,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title 'When the child DIVIDES by SUM instead of COUNT' and the teacher_script never reference Day 3's many-to-one scaled bar graphs or Day 2's frequency tables — the lesson stands alone with no arc cross-reference. Big_idea repeats 'fair share' but no callback like 'remember Day 3 when 1 unit = 5 children — today we find the average per child'.",
+      "required_fix": "Add explicit bridge language in minds_on teacher_script: 'Detectives — yesterday we used SCALE on bar graphs (1 unit = 5 children). Today Tally finds the AVERAGE: if all 5 children had the SAME number, what would each get?' Also forward-bridge in consolidation: 'Tomorrow you use mean and mode together in the Big Case.'",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use count check card.', 'Drill count = how many.', 'Practice with 5 sets.'] — recovery is flat, not branched by diagnostic. No research citation. The trap (divide-by-sum) is real Grade-3, but no Empson/Carpenter/Cai citation framing the wrong-divisor as a distributive-justice misconception of mean.",
+      "required_fix": "Branch recovery_moves by diagnostic: 'IF child can count values aloud but still divides by sum — the issue is the WORD count being overloaded; relabel as number-of-friends, not count. IF child cannot identify count at all — drop back to physical fair-share with snack cubes (3 cubes among 3 friends = 1 each) before symbolic.' Cite Cai 1998 or Mokros & Russell 1995 on mean-as-fair-share misconceptions.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Consolidation activity_name = 'Tally's Mean Brag' but exit_routine = 'Each child writes one calculation: My data: ___. Mean = ___.' — no quotable refrain, no memorable chant. Tally's lines in teacher_script ('Tally says — divide TOTAL by COUNT') are exposition, not a refrain children chant back.",
+      "required_fix": "Give Tally a signature catchphrase children chant in every consolidation, e.g. 'Tally's Two-Step: ADD 'em up, SHARE 'em out!' (with a hand-clap on ADD and a sweep gesture on SHARE). Add to consolidation: 'Children chant Tally's Two-Step three times before the exit ticket.' This memorable chant carries between Lesson 4 and the Lesson 5 capstone.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Mean introduced as 'add all, divide by count' with fair-share metaphor — solid Level 3 — but children don't INVENT or COMPARE strategies. Steps 1-5 are teacher-led calculation drills; the only strategy comparison is teacher-prompted ('explain when mean tells more than mode') as a stretch task, not a whole-class strategy debate. No Empson/Mokros framing of mean as leveling/fair-share vs algorithmic.",
+      "required_fix": "Add an invent-a-strategy moment in action step 1: 'Before I show you the formula, here are 4 children with 2, 4, 6, 8 cookies. How would YOU make it fair? Try with cube towers.' Children physically equalize towers (leveling strategy), then teacher names this as MEAN and connects to add-divide. Reference Mokros & Russell 1995 leveling representation in expanded_walkthrough.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet pages[0].parts mirror lesson action stations 1:1 (Part 1 = Station A mean, Part 2 = Station B mode, Part 3 = Station C both). Image_placeholders descriptions ('5 mean problems', '6 mode problems', '3 sets both') are rote repeats of lesson station data, not a transfer format. No justification for variation.",
+      "required_fix": "Vary Part 3 to a transfer task: instead of repeating 'calculate both for 3 sets', present a real-world Canadian context (e.g., 'Hockey jersey numbers from your team: 7, 7, 12, 21, 4. Coach asks for mean AND mode — which tells the goalie more about the lineup?'). Add justification in worksheet teacher_notes: 'Part 3 introduces a context the lesson did not, to verify children transfer mean+mode interpretation beyond drill.'",
+      "affected_stages": ["worksheet_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ]
+}

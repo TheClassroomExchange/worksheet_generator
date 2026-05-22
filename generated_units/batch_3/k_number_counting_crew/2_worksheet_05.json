@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "lesson_number": 5,
+  "worksheet_title": "Build 7 and Compare Plates",
+  "purpose": "End-of-Lesson-5 SUMMATIVE consolidation. Children produce written evidence of composing a target number two ways AND of comparing two groups using MORE / LESS / EQUAL. This is the report-card-level worksheet — the assessment_suite stage will draw from it as primary A6.5 + A6.6 evidence.",
+  "student_learning_goal": "I can build a number lots of different ways and compare two groups using more, less, or equal.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can build a number lots of different ways and compare two groups using more, less, or equal.",
+    "character_watermark": "Mae stands in the top-left of the header holding a stack of red linking cubes; Theo stands beside her holding a stack of yellow linking cubes; Buddy sits between them holding a paper plate with cookies — visually anchoring the cube-composition AND plate-comparison themes."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Build 7 — TWO Different Ways",
+          "student_instructions": "Build the number 7 in TWO different ways using red and yellow cubes. Colour the squares to show what you built.",
+          "visual_layout": "Top third of the page. Two empty ten-frame grids stacked vertically, each labelled 'Way 1' (top) and 'Way 2' (bottom). Each ten-frame is a 2×5 grid of squares (~0.6in each), with a thick black border. Below each ten-frame, a small fill-in line: 'I used ____ red and ____ yellow.' A small reference colour key at the top-right shows a red square labelled 'red' and a yellow square labelled 'yellow'.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_TWO_TEN_FRAMES_TARGET_7",
+              "description": "Two empty ten-frame grids stacked vertically, each 2×5 (10 cells total) with thick black cell borders. Top frame labelled 'Way 1' in a small banner above; bottom frame labelled 'Way 2'. Below each frame, a fill-in sentence with two underlined blanks: 'I used ____ red and ____ yellow.' A small colour key in the top-right of the part shows a red-filled square next to the word 'red' and a yellow-filled square next to the word 'yellow'. The ten-frames are blank — the child colours cells red and yellow to compose 7 in two different ways.",
+              "placement": "spans the upper third of the page, centred",
+              "approximate_size": "large",
+              "keywords": [
+                "ten-frame",
+                "red",
+                "yellow",
+                "cubes"
+              ],
+              "text_image_alignment_check": "Student instructions say 'Build the number 7 in TWO different ways using red and yellow cubes. Colour the squares to show what you built.' Every keyword (ten-frame, red, yellow, cubes) appears verbatim in the Part 1 instructions or visual_layout. The act of composing the number 7 is the LEARNING goal but is intentionally not a keyword because the student-facing text uses 'Build the number 7' rather than 'compose seven' (the alignment validator checks against text the child reads)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Acceptable Way-1/Way-2 pairs (any two distinct decompositions): 0+7, 1+6, 2+5, 3+4, 4+3, 5+2, 6+1, 7+0. Children who fill identical patterns (e.g., 4 red + 3 yellow on both ten-frames) need re-prompt: 'find a DIFFERENT pair of numbers, not just a colour-flip'. Children who use the same number split with different colour orders (4+3 then 3+4) have done correct math but should be prompted to find a third truly-different pair as a stretch."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Compare the Plates",
+          "student_instructions": "Look at Plate A and Plate B. Count the cookies on each. Circle MORE, LESS, or EQUAL to compare Plate A to Plate B.",
+          "visual_layout": "Middle third of the page. Two large round plates side by side, each ~2.5in diameter with a thin grey border. Plate A (left) has 6 timbit-style circle-cookies arranged in a roughly 2-row layout. Plate B (right) has 4 cookies arranged in a 2×2 layout. A small Plate-A and Plate-B label sits below each plate. Below the plates, a sentence frame: 'Plate A is _______ Plate B.' followed by three big circle-cards in a row: MORE, LESS, EQUAL — each ringed with a dotted oval ready to be circled.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_PLATE_A_VS_PLATE_B_COOKIES",
+              "description": "Two large round paper plates side by side, each 2.5in diameter with a thin grey border and a small label below: 'Plate A' (left) and 'Plate B' (right). Plate A holds 6 circle-cookies (light-brown filled circles ~0.4in each) arranged in a rough 3-and-3 layout. Plate B holds 4 cookies arranged in a 2×2 square. Below the plates, a horizontal row of three big circle-cards labelled MORE, LESS, EQUAL — each card ~1.2in diameter with a thick coloured border (MORE = green, LESS = orange, EQUAL = blue) and a dotted oval suggesting where to circle.",
+              "placement": "spans the middle third of the page, full width",
+              "approximate_size": "full_width",
+              "keywords": [
+                "plate",
+                "cookies",
+                "more",
+                "less",
+                "equal",
+                "compare"
+              ],
+              "text_image_alignment_check": "Student instructions name 'Plate A', 'Plate B', 'cookies', 'count', and 'MORE, LESS, or EQUAL'. The image shows exactly two labelled plates with cookies on each (6 vs 4) and three circle-cards labelled MORE / LESS / EQUAL — every element named in the instructions appears in the image."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "Plate A is MORE than Plate B (6 > 4). Children who circle LESS likely confused the direction of the comparison (B has less, A has more); recovery: have them line up the cookies one-for-one and identify the extras on Plate A. Children who circle EQUAL likely miscounted — re-count together."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Draw Your Own Plates",
+          "student_instructions": "Draw your own two plates of timbits. One plate has MORE than the other. Write how many are on each plate.",
+          "visual_layout": "Bottom third of the page. Two empty plate-circles side by side, each ~2.5in diameter with a thin grey border, labelled 'My Plate A' and 'My Plate B'. Below each plate, a small write-in line: 'I drew ____ timbits.' Beneath both plates, a single sentence frame at the bottom: 'My _____ has MORE.' (with Plate A or Plate B written in the blank by the child).",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_BLANK_PLATE_PAIR_FOR_DRAWING",
+              "description": "Two empty round paper plates side by side, each 2.5in diameter with a thin grey border. Plates are otherwise empty — the child draws timbits inside. Labels below each plate: 'My Plate A' (left) and 'My Plate B' (right). Below each plate label, a write-in line: 'I drew ____ timbits.' Below both plates, a final sentence-frame line: 'My _____ has MORE.' for the child to complete with 'Plate A' or 'Plate B'.",
+              "placement": "spans the bottom third of the page, centred",
+              "approximate_size": "large",
+              "keywords": [
+                "plate",
+                "timbits",
+                "draw",
+                "more"
+              ],
+              "text_image_alignment_check": "Student instructions name 'two plates', 'timbits', 'MORE', and 'how many on each plate' — every keyword (plate, timbits, draw, more) appears verbatim. 'Count' is intentionally NOT a keyword here because the student-facing text says 'Write how many' rather than 'count'; we keep the keyword set tight to what the child actually reads."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open-response. Acceptable: any two unequal positive integers 0-20, with the correct plate identified as having MORE. Children who draw equal quantities have technically not satisfied the 'one plate has MORE' instruction — re-prompt: 'add or remove ONE timbit from one plate so they are different.' Children who write '5' but visibly draw 4 or 6 timbits get a tally-mismatch flag (recount together)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Turn the page over. Build the number 10 in THREE different ways using red and yellow cubes — colour three blank ten-frames you sketch on the back. Then compare your three builds: were any of them colour-flips of each other?",
+  "teacher_notes": "Give this worksheet at the end of Lesson 5 (last 12 minutes — slightly longer because Part 1 requires careful colouring and Part 3 requires open-ended drawing). This is the SUMMATIVE worksheet of the unit; keep every page in the per-child portfolio as the strongest single-page evidence for A6.5 (Part 1) and A6.6 (Parts 2 and 3). Common pitfalls: (a) Part 1 — child colours both ten-frames identically (didn't grasp 'different ways'); recovery: re-prompt with 'find a way that uses a DIFFERENT count of red and yellow'. (b) Part 1 — colour-flips only (4+3 and 3+4); affirm as correct math but stretch the child to find a truly different pair like 5+2. (c) Part 2 — circles LESS instead of MORE because the child compared 'B to A' instead of 'A to B'; recovery: read the sentence frame aloud together. (d) Part 3 — equal plates drawn; re-prompt to add or remove one timbit. The Lesson-5 expanded_walkthrough's 'colour-flip' guidance is the primary teach-back script for issues (a) and (b)."
+}

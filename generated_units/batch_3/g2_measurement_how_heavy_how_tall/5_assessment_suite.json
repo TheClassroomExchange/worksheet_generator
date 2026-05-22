@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Measure Maven — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1.",
+    "expectation_focus": [
+      "E2.1"
+    ],
+    "columns": [
+      "Student name",
+      "Picks right unit",
+      "Measures correctly",
+      "Explains inverse",
+      "Notes"
+    ],
+    "usage_notes": "Walk between pairs to observe unit-choice and inverse explanation. Tick where evidence is clear.",
+    "layout_description": "One letter page, portrait, 5-column tick table with 24 rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "Diagnostic tracker for Grade 2 teacher. Title: 'Measure Maven — Day 1'. E2.1.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "tracker",
+          "unit"
+        ],
+        "text_image_alignment_check": "AS_DIAG_TRACKER: keywords name the artifact and focus."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Measure Maven — Lesson 2 Formative (cm/m)",
+      "when_used": "During Lesson 2.",
+      "expectation_focus": [
+        "E2.2"
+      ],
+      "columns": [
+        "Student name",
+        "Knows 100 cm = 1 m",
+        "Uses benchmarks",
+        "Estimates correctly",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair. Ask 'how many cm in a metre?' Tick where evidence is clear.",
+      "layout_description": "Identical layout to diagnostic tracker, Lesson 2 columns.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with the Measure Maven — Lesson 2 Formative (cm/m) title and 5 columns matching the lesson.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "centimetre"
+          ],
+          "text_image_alignment_check": "AS_FORM_TRACKER_L2: keywords name the artifact."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Measure Maven — Lesson 3 Formative (Ruler)",
+      "when_used": "During Lesson 3.",
+      "expectation_focus": [
+        "E2.3"
+      ],
+      "columns": [
+        "Student name",
+        "Starts at zero",
+        "Reads end correctly",
+        "Draws lengths",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair. Watch for zero-point. Tick where evidence is clear.",
+      "layout_description": "Identical layout, Lesson 3 columns.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with the Measure Maven — Lesson 3 Formative (Ruler) title and 5 columns matching the lesson.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "ruler"
+          ],
+          "text_image_alignment_check": "AS_FORM_TRACKER_L3: keywords name the artifact."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Measure Maven — Lesson 4 Formative (Time)",
+      "when_used": "During Lesson 4.",
+      "expectation_focus": [
+        "E2.4"
+      ],
+      "columns": [
+        "Student name",
+        "Names time units",
+        "Picks right unit",
+        "Uses 60 rule",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair. Ask 'how many seconds in a minute?' Tick where evidence is clear.",
+      "layout_description": "Identical layout, Lesson 4 columns.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with the Measure Maven — Lesson 4 Formative (Time) title and 5 columns matching the lesson.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "time"
+          ],
+          "text_image_alignment_check": "AS_FORM_TRACKER_L4: keywords name the artifact."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Measure Maven — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 to score against all 4 expectations.",
+    "rows": [
+      {
+        "expectation_code": "E2.1",
+        "expectation_text": "choose and use non-standard units appropriately to measure lengths, and describe the inverse relationship between the size of a unit and the number of units needed",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Uses cubes for everything. Cannot articulate inverse."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Picks unit with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently picks the right unit and articulates inverse relationship."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Predicts count from unit choice, demonstrates inverse with multiple units."
+          }
+        ]
+      },
+      {
+        "expectation_code": "E2.2",
+        "expectation_text": "explain the relationship between centimetres and metres as units of length, and use benchmarks for these units to estimate lengths",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Doesn't know 100 cm = 1 m."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Recalls relationship with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently uses cm/m + benchmarks for estimation."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Estimates within 10% accuracy and converts mixed mm/cm/m."
+          }
+        ]
+      },
+      {
+        "expectation_code": "E2.3",
+        "expectation_text": "measure and draw lengths in centimetres and metres, using a measuring tool, and recognize the impact of starting at points other than zero",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Off-by-one (starts at 1)."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Starts at zero with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently starts at zero and draws lengths accurately."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Recognizes and corrects zero-errors in others' work."
+          }
+        ]
+      },
+      {
+        "expectation_code": "E2.4",
+        "expectation_text": "use units of time, including seconds, minutes, hours, and non-standard units, to describe the duration of various events",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Wrong magnitude (brushing teeth = seconds)."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Picks right unit with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently picks right unit and uses 60 rule."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Estimates duration accurately and reasons about magnitude."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Score during Lesson 5 capstone. Level 3 = grade-level.",
+    "layout_description": "One letter page, landscape, 4-row × 4-level grid.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "Summative rubric for Grade 2 Measure Maven unit. 4-row × 4-level table.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "measure"
+        ],
+        "text_image_alignment_check": "AS_RUBRIC: keywords name the artifact and focus."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Measure Marathon Capstone — Summative Administration Guide",
+    "purpose": "Ties Lesson 5 capstone, the 4 stations, and the rubric together.",
+    "administration_steps": [
+      "Before: photocopy templates, print rubric, ready Junior Measure Maven certificates.",
+      "Stations 1-4 (6 min each): UNIT, cm/m, RULER, TIME.",
+      "Station 1 UNIT: pick + measure 3 objects. Evidence E2.1.",
+      "Station 2 cm/m: estimate 4 lengths. Evidence E2.2.",
+      "Station 3 RULER: measure + draw. Evidence E2.3.",
+      "Station 4 TIME: pick units for 4 events. Evidence E2.4.",
+      "After: review with each child."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence. Level 3 = grade-level.",
+    "evidence_per_expectation": {
+      "E2.1": "Station 1 — unit choice and measurement.",
+      "E2.2": "Station 2 — cm/m estimation with benchmarks.",
+      "E2.3": "Station 3 — ruler use, zero-point.",
+      "E2.4": "Station 4 — time unit choice."
+    }
+  },
+  "certificate": {
+    "title": "Junior Measure Maven Certificate (G2)",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Measure Maven unit and demonstrating the skills of a G2 Junior Measure Maven. Roo the Ruler Rabbit congratulates the student.",
+    "skills_demonstrated": [
+      "Picking the right non-standard unit",
+      "Using cm/m with benchmarks",
+      "Measuring with a ruler from zero",
+      "Picking time units for events"
+    ],
+    "layout_description": "One letter page, portrait, decorative border, title, recipient line, achievement text, skill bullets, signature lines, small Roo illustration.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "Decorative border for Grade 2 certificate, ~0.5in inset. Scrollwork with ruler + clock motifs at corners. B&W line art.",
+        "placement": "Frames the entire page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate"
+        ],
+        "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keyword names the artifact."
+      },
+      {
+        "id": "AS_CERT_ROO",
+        "description": "Small Roo at bottom-centre, ~1.5in tall, holding ruler.",
+        "placement": "Bottom-centre.",
+        "approximate_size": "small",
+        "keywords": [
+          "roo",
+          "certificate"
+        ],
+        "text_image_alignment_check": "AS_CERT_ROO at Bottom-centre: keywords name the character and artifact."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

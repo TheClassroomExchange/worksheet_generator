@@ -1,0 +1,59 @@
+{
+  "schema_version": 1, "unit_id": "g2_spatial_mirror_mirror",
+  "formative_worksheets": [{
+    "title": "The Symmetry and Area Check", "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 min).",
+    "purpose": "Standalone formative check confirming symmetry counting and area conservation before maps.",
+    "expectations_assessed": ["E1.1", "E1.2"],
+    "student_learning_goal": "I can count symmetry lines and conserve area.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can count symmetry lines and conserve area.",
+      "character_watermark": "Symmy with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "Count symmetry lines on 3 shapes.",
+       "visual_layout": "3 shapes (square, triangle, F-letter) with answer lines.",
+       "image_placeholders": [{"id": "FORM_Q1_SYM", "description": "3 shapes for Grade 2 formative check, B&W line art. Square, equilateral triangle, letter F. Each ~1.5in. Below each: 'Lines of symmetry: ___'.",
+         "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["symmetry", "lines"], "text_image_alignment_check": "FORM_Q1_SYM at Prompt 1: keywords name the activity."}],
+       "response_type": "draw_or_write", "answer_key": "Square: 4. Triangle: 3. F: 0."},
+      {"prompt_number": 2, "prompt": "Same 6 tiles in 2 shapes — which has more area?",
+       "visual_layout": "Two arrangements + question.",
+       "image_placeholders": [{"id": "FORM_Q2_AREA", "description": "Two tile arrangements for Grade 2 formative check, B&W line art. Same 6 tiles in: 2x3 rectangle (compact) + L-shape (spread). Below: 'Which has more area?' with options A / B / SAME.",
+         "placement": "Centred in Prompt 2.", "approximate_size": "medium", "keywords": ["tiles", "area"], "text_image_alignment_check": "FORM_Q2_AREA at Prompt 2: keywords name the visual elements."}],
+       "response_type": "circle_or_loop", "answer_key": "SAME — both have 6 tiles."},
+      {"prompt_number": 3, "prompt": "How are you feeling? Circle the face.",
+       "visual_layout": "Three faces in a row.",
+       "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for Grade 2 formative check.",
+         "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"], "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."}],
+       "response_type": "self_rate", "answer_key": "Open."}
+    ],
+    "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+  }],
+  "reflection_sheet": {
+    "title": "My Mirror Mirror Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Symmy and Flippy with a Junior Spatial Detective certificate in the top-right. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel about being a Mirror Detective? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for Grade 2 reflection.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "rating"], "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the visual."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Detective!"]},
+      {"prompt_number": 2, "prompt": "Did you do these? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for Grade 2 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"], "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name response options."}],
+       "response_type": "circle_yes_no", "options": ["I counted symmetry lines.", "I rearranged tiles and showed area is the same.", "I matched congruent shapes.", "I made a map."]},
+      {"prompt_number": 3, "prompt": "My favourite spatial activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle for Grade 2 reflection.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"], "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for Grade 2 reflection.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"], "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword matches the prompt."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for Grade 2 reflection.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"], "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Spatial Detective certificate."
+  }
+}

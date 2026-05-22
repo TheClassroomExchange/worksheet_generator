@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 2,
+  "worksheet_title": "Eddy's Add/Sub Test",
+  "purpose": "Independent practice of C2.2 (addition/subtraction equivalence).",
+  "student_learning_goal": "I can determine whether addition and subtraction expressions are equivalent.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can determine whether addition and subtraction expressions are equivalent.",
+    "character_watermark": "Eddy in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Equivalent Pairs",
+          "student_instructions": "Test 8 pairs of add/sub expressions. Decide EQUIVALENT or NOT.",
+          "visual_layout": "Top of page. Eight pair rows.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_PAIRS",
+              "description": "Eight pair rows in B&W line-art, ~7in x 4in. Each row: pair + EQUIVALENT/NOT bubbles. Pre-filled: '50+25 vs 100-25', '60+40 vs 80+20', '75-25 vs 25+25', '100+50 vs 200-50', '40+30 vs 80-10', '90-30 vs 30+30', '500-100 vs 200+200', '250+50 vs 350-50'. Header 'Equivalent?'.",
+              "placement": "Top.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "equivalent"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_PAIRS: keywords (equivalent) name the bubbles."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "(1) 50+25=75 vs 100-25=75 → EQ; (2) 60+40=100 vs 80+20=100 → EQ; (3) 75-25=50 vs 50+0=50 → EQ; (4) 90+10=100 vs 100-0=100 → EQ; (5) 70+30=100 vs 70=70 → NOT (left=100, right=70); (6) 45+55=100 vs 25+75=100 → EQ; (7) 80-20=60 vs 40+20=60 → EQ; (8) 100-50=50 vs 30+20=50 → EQ. Mark each pair EQ or NOT and write the totals."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Find the Partner",
+          "student_instructions": "For each given expression, write a different expression that's equivalent.",
+          "visual_layout": "Middle of page. Four partner-finding rows.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_PARTNER",
+              "description": "Four rows in B&W line-art, ~7in x 2.5in. Pre-filled given expressions: 50+50, 100-25, 200+50, 175+25. Each row: 'Equivalent: ___'. Header 'Find a Partner:'.",
+              "placement": "Middle.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "partner"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_PARTNER: keywords (partner) name what the slots ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Each must equal the given expression."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Pairs",
+          "student_instructions": "Write 3 of your own equivalent pairs using both + and -.",
+          "visual_layout": "Bottom of page. Three blank slots.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_OWN",
+              "description": "Three numbered pair slots in B&W line-art, ~7in x 2in. 'Pair ___: ___ = ___'. Header 'My Pairs:'.",
+              "placement": "Bottom.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "my",
+                "pairs"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_OWN: keywords (my, pairs) name the slots."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Each pair must be equivalent."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a pair where both sides have 3 terms.",
+  "teacher_notes": "Lesson 2 worksheet. Watch for surface-similarity trap."
+}

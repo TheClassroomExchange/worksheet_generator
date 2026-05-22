@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Data Detectives — Day 1 Sorting Tracker",
+    "when_used": "During Lesson 1 stations.",
+    "expectation_focus": [
+      "A8.1"
+    ],
+    "columns": [
+      "Student name",
+      "Picks an attribute",
+      "Sorts correctly",
+      "Names groups",
+      "Notes"
+    ],
+    "usage_notes": "Children at L4 distinguish ONE attribute at a time.",
+    "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page in B&W. Title: 'Data Detectives — Day 1 Sorting Tracker'. Expectation: A8.1. 5-column grid with 24 student rows.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "diagnostic",
+          "tracker"
+        ],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER: keywords (diagnostic, tracker) name the page."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Data Detectives — Lesson 2 Counting Tracker",
+      "when_used": "During Lesson 2 stations.",
+      "expectation_focus": [
+        "A8.2"
+      ],
+      "columns": [
+        "Student name",
+        "Counts each group",
+        "Tallies accurately",
+        "Collects 3+ groups",
+        "Notes"
+      ],
+      "usage_notes": "Children at L4 use bundled tallies.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class formative tracker in B&W. Title: 'Data Detectives — Lesson 2 Counting Tracker'. Expectation: A8.2. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "counting",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2: keywords (counting, tracker) name the page."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Data Detectives — Lesson 3 Graphing Tracker",
+      "when_used": "During Lesson 3 stations.",
+      "expectation_focus": [
+        "A8.3"
+      ],
+      "columns": [
+        "Student name",
+        "Makes pictograph",
+        "One picture per item",
+        "Labels groups",
+        "Notes"
+      ],
+      "usage_notes": "Children at L4 align rows for visual comparison.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class formative tracker in B&W. Title: 'Data Detectives — Lesson 3 Graphing Tracker'. Expectation: A8.3. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "graphing",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3: keywords (graphing, tracker) name the page."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Data Detectives — Lesson 4 Likelihood Tracker",
+      "when_used": "During Lesson 4 likelihood stations.",
+      "expectation_focus": [
+        "A8.4"
+      ],
+      "columns": [
+        "Student name",
+        "Assigns ALWAYS",
+        "Assigns NEVER",
+        "Assigns SOMETIMES",
+        "Notes"
+      ],
+      "usage_notes": "Children at L4 sort events by ALWAYS / SOMETIMES / NEVER. Watch for SOMETIMES catchall — children using SOMETIMES for everything they're not sure about. Drill the 'EVERY day or NO day?' two-question test.",
+      "layout_description": "One letter page, portrait. 5-column grid with 24 student rows.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class formative tracker in B&W. Title: 'Data Detectives — Lesson 4 Likelihood Tracker'. Expectation: A8.4. 5-column grid with 24 student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "likelihood",
+            "tracker"
+          ],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4: keywords (likelihood, tracker) name the page."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Data Detectives — Summative Rubric",
+    "purpose": "End-of-unit rubric covering A8.1-A8.4.",
+    "rows": [
+      {
+        "expectation_code": "A8.1",
+        "expectation_text": "sort objects or data using one attribute",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot sort objects into groups."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Sorts with prompts and supports."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Sorts independently by single attribute."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Re-sorts the same set by different attributes."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A8.2",
+        "expectation_text": "collect and record data to answer questions of interest, and display it in concrete graphs or picture graphs",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot count or tally."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Counts with prompts and supports."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Counts and tallies 3+ groups accurately."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Bundles tallies in groups of 5."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A8.3",
+        "expectation_text": "respond to data in concrete graphs and picture graphs by interpreting it and drawing conclusions",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot make a pictograph."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Makes pictograph with prompts and supports."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Makes pictograph with one picture per item."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Aligns rows for visual comparison; labels groups."
+          }
+        ]
+      },
+      {
+        "expectation_code": "A8.4",
+        "expectation_text": "describe how likely familiar events are to happen",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Uses SOMETIMES as a catchall for every event."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Sorts ALWAYS / NEVER / SOMETIMES with prompts."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently sorts events into ALWAYS / SOMETIMES / NEVER."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Justifies SOMETIMES with 'not every day, not no day' and gives own examples."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Apply this rubric to combined evidence from Lesson 5 capstone.",
+    "layout_description": "One letter page, landscape. 5-column grid with 4 rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable summative rubric grid in B&W on a landscape letter page. 5-column grid with 4 rows (A8.1-A8.4).",
+        "placement": "Full landscape page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "levels"
+        ],
+        "text_image_alignment_check": "Image AS_RUBRIC: keywords (rubric, levels) name the grid."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Lesson 5 Summative Task — My Detective Mission",
+    "purpose": "End-of-unit summative integrating A8.1-A8.4.",
+    "administration_steps": [
+      "Bring children to the carpet.",
+      "Walk through the Capstone Template.",
+      "Distribute, allow 25 min individual work.",
+      "Circulate; prompt unbounded questions.",
+      "Score: sort + tally + graph + describe = L3; plus reflection = L4."
+    ],
+    "scoring_guidance": "Question (out of 2) + survey (out of 2) + graph (out of 3) + describe (out of 3) = 10.",
+    "evidence_per_expectation": {
+      "A8.1": "Survey choices show categorization.",
+      "A8.2": "Tallies show counting.",
+      "A8.3": "Pictograph displays the data.",
+      "A8.4": "Description names most/fewest."
+    }
+  },
+  "certificate": {
+    "title": "Junior Data Detective Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Data Detectives unit and demonstrating the skills of a Junior Data Detective. Detective Dot and Tally congratulate the student.",
+    "skills_demonstrated": [
+      "Sorting objects into groups by attribute",
+      "Counting and tallying data",
+      "Making pictographs",
+      "Reading and describing graphs",
+      "Inventing a class data investigation"
+    ],
+    "layout_description": "Letter page, portrait. Decorative dashed-line double border. Title centred at top. Below: recipient_field_label and a horizontal line for the name. Detective Dot + Tally illustration top-centre, ~3in tall. Below achievement_text: sub-header 'By completing this unit, this student has demonstrated:' and the skills_demonstrated list as bullets.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "Decorative dashed-line certificate border in B&W, full letter page. Double border with corner magnifying glass and tally mark icons.",
+        "placement": "Full page border.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate",
+          "border"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_BORDER: keywords (certificate, border) name the page."
+      },
+      {
+        "id": "AS_CERT_FRIENDS",
+        "description": "Illustration of Detective Dot + Tally standing side by side, smiling. Detective Dot squirrel with magnifying glass; Tally cat with tally chart. ~3in x 4in.",
+        "placement": "Top-centre of certificate.",
+        "approximate_size": "medium",
+        "keywords": [
+          "dot",
+          "tally"
+        ],
+        "text_image_alignment_check": "Image AS_CERT_FRIENDS: keywords (dot, tally) name the illustration."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

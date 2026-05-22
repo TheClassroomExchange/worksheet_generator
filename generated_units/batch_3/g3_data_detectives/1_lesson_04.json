@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "lesson_number": 4,
+  "lesson_title": "Mean and Mode",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "MEAN = total ÷ count (the 'fair share'). MODE = most common.",
+  "learning_intention": "We are learning to find mean and mode.",
+  "student_learning_goal": "I can find the mean and mode of a data set.",
+  "success_criteria": [
+    "I can ADD all values.",
+    "I can DIVIDE total by count for MEAN.",
+    "I can find MODE."
+  ],
+  "vocabulary_introduced": [
+    "mean"
+  ],
+  "vocabulary_reinforced": [
+    "mode"
+  ],
+  "manipulatives_used": [
+    "M4_mean_chart",
+    "M9_calculator_set",
+    "M7_data_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Mean = Fair Share'",
+    "Mean Chart",
+    "Paper Calculator Cards (12)",
+    "Real numbers for whole-group practice",
+    "Lesson 4 mean tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tally Calculates Mean",
+    "hook": "Tally: 5 friends ate cookies: 2, 4, 3, 5, 6. Total = 20. Divide by 5 friends. MEAN = 4 cookies each! Tally opens: 'ADD 'em up, SHARE 'em out!'",
+    "teacher_script": "Detectives — yesterday we used SCALE on bar graphs (1 unit = 5). Today we COMPUTE the mean and find the mode. Both summarize a data set, but in different ways.\n\nBring children to the carpet. Detective Dot and Tally puppets. 'Friends — yesterday scaled bars. Today MEAN and MODE.'\n\nIntroduce vocabulary. Write MEAN on chart. 'Mean = the fair share. Add all values, divide by count.'\n\nDemonstrate. 'Five friends ate 2, 4, 3, 5, 6 cookies. Total = 20. Count = 5 friends. Mean = 20 ÷ 5 = 4 cookies.'\n\n'Tally says — if everyone got the SAME, they'd each get 4. That's the MEAN.'\n\nMore examples:\n- 4 students: 6, 2, 8, 4 books. Total 20. Count 4. Mean 5.\n- 5 students: 10, 10, 10, 10, 10. Mean 10. (When all same, mean = value.)\n- 3 students: 0, 0, 9. Total 9. Mean 3.\n\nNow MODE. 'Mode = most common.' Same data set: 2, 4, 3, 5, 6 — no mode (all different). Set 6, 2, 8, 4 — no mode. Set 10, 10, 10, 10, 10 — mode 10.\n\nMixed example. '7, 3, 7, 5, 2'. Mean = 24÷5 = 4.8 (round to 5 if needed). Mode = 7 (appears twice).\n\n'Detective Dot says — both MEAN and MODE describe data, but DIFFERENTLY. Mean = average. Mode = most common.'\n\n'Today YOU calculate mean and mode for 5 data sets.'",
+    "student_actions": [
+      "Watch Tally calculate",
+      "Echo 'mean'",
+      "Practice add-divide",
+      "Find mode"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Mean Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "INVENT-A-STRATEGY: Before showing the formula, give 4 children with 2, 4, 6, 8 counters. Class invents how to share fairly. Surface mean = fair share. Cite Konold & Pollatsek (2002) fair-share interpretation.",
+        "teacher_prompt": "Tally: 'Before I show you the formula, you tell me — how do we share these counters EQUALLY?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Whole group: calculate mean of 5 small data sets.",
+        "teacher_prompt": "Say: 'Add all. Divide by count.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Three stations. A: Calculate mean (5 sets, whole numbers). B: Find mode (6 sets). C: Both for 4 sets.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Stretch at C: explain when mean tells more than mode.",
+        "teacher_prompt": "Say: 'Stretch: explain.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Discuss when mean ≠ mode.",
+        "teacher_prompt": "Show: data 1, 2, 3, 4, 100. Mode? None. Mean = 22. Big difference!"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "A only. Easy mean (5 small numbers).",
+      "for_extending": "Stretch at C: explain.",
+      "for_ell_or_iep": "Sentence frame: 'Mean = ___ ÷ ___ = ___.'",
+      "for_movement_learners": "Use snack count 'fair share' physically."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: adds correctly; divides; finds mode.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Adds correctly",
+        "Divides",
+        "Finds mode",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tally's Mean Brag",
+    "discussion_prompts": [
+      "What's MEAN?",
+      "What's the formula?",
+      "When is mean DIFFERENT from mode?",
+      "Which is more useful?"
+    ],
+    "exit_routine": "Tally's two-step refrain — 'Tally's Two-Step: ADD 'em up, SHARE 'em out!' (3x). Each child computes mean for one data set with explicit ADD then SHARE working."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Mean calculation accuracy.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures D1.4."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child DIVIDES by SUM instead of COUNT — repairing the wrong-divisor trap at Grade 3",
+    "rationale": "On mean and mode, the Grade-3 trap is mean-as-mode confusion: child reports the most-frequent value when asked for the mean, or divides by sum instead of count. Konold & Pollatsek (2002, 'Data Analysis as the Search for Signals in Noisy Processes') frame mean as 'fair share' — equal redistribution. Without it, Lesson 5's analytical work cannot ground.\n\nYesterday Lesson 3 read scaled bar graphs. Today: mean = fair share, mode = most common. Lesson 5 capstones.",
+    "setup": "Pair at A. Data 2, 4, 6 (sum 12, count 3). Child computes 12 ÷ 12 = 1.",
+    "teacher_script": "Crouch. 'Tally asks — divide by what? You added all values to get 12. But COUNT = how many friends, not the total.'\n\nGuide. 'How many values? COUNT them: 2, 4, 6 — that's 3. Divide by 3.'\n\nCompute: 12 ÷ 3 = 4. 'Mean = 4.'\n\nGenerlise. 'Tally says — divide TOTAL by COUNT. Count = number of values, not sum.'\n\nIf still wrong: provide a 'count check' card.",
+    "expected_student_responses": [
+      "(Confused) Wrong divisor.",
+      "(Mid) Right divisor with prompts.",
+      "(Strong) Independent.",
+      "(Stretched) Predicts mean before calculating."
+    ],
+    "common_misconceptions": [
+      "Divide by sum. (Repair: divide by count.)",
+      "Mean = max. (Repair: mean = average.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names mode when asked for mean: drill 'mean = ADD then SHARE'; physical demo — pile counters, redistribute equally.",
+      "DIAGNOSTIC B — child can count values aloud but still divides by sum: name the issue — 'COUNT means HOW MANY children, not their total. Divide by COUNT, not SUM.'",
+      "DIAGNOSTIC C — child can compute mean but cannot articulate: force 'mean is FAIR SHARE' language."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tally's Mean Lab",
+    "purpose": "Independent practice of D1.4.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Calculate mean for 5 data sets.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Find mode for 6 data sets (some no-mode, some bimodal).",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Calculate BOTH mean and mode for 3 data sets.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tally in worksheet header",
+      "5 data sets for Part 1",
+      "6 data sets for Part 2",
+      "3 data sets for Part 3"
+    ]
+  }
+}

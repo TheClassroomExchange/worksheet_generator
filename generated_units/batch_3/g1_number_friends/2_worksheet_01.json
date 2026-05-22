@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "lesson_number": 1,
+  "worksheet_title": "Lila's Big Button Jar",
+  "purpose": "Independent practice of B1.4 (estimation at scale 50) and B1.5 (skip-counting). Captures diagnostic-level evidence for the unit.",
+  "student_learning_goal": "I can estimate how many in a collection up to 50, and count by 1s, 2s, 5s, and 10s to check.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can estimate how many in a collection up to 50, and count by 1s, 2s, 5s, and 10s to check.",
+    "character_watermark": "Lila the Button Collector in the top-right corner, holding a clear jar of buttons. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Estimate Then Count",
+          "student_instructions": "Look at each button jar. Make a smart guess using the chunk-of-10 strategy. Then count to check. Was your guess close?",
+          "visual_layout": "Top half of the page. Two jars stacked vertically. Jar A: smaller, ~22 buttons visible. Jar B: bigger, ~45 buttons visible. Beside each jar, two boxes: 'My GUESS' (top) and 'Actual COUNT' (bottom). Below each pair of boxes, three circles labelled CLOSE / LOW / HIGH for the child to circle.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_TWO_BUTTON_JARS",
+              "description": "Two clear glass jars in B&W line-art, stacked vertically on the page. Jar A is smaller (~3in tall) with ~22 small button circles inside. Jar B is bigger (~4in tall) with ~45 button circles inside. Each jar has a screw-top lid. To the right of each jar, GUESS and COUNT boxes.",
+              "placement": "Top half of the page, jars stacked vertically.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "jar",
+                "buttons",
+                "guess",
+                "count"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_TWO_BUTTON_JARS: keywords (jar, buttons, guess, count) name what the jars show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Jar A actual: 22. Jar B actual: 45. Smart guesses within 5 of actual = CLOSE. More than 5 below = LOW; more than 5 above = HIGH."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Skip-Count On The Number Line",
+          "student_instructions": "Three Number Lines. Fill in the missing numbers. The first one starts at 14 and counts by 2s. The second starts at 17 and counts by 5s. The third starts at 0 and counts by 10s.",
+          "visual_layout": "Middle of the page. Three horizontal Number Line strips stacked. Each ~6.5in wide. Strip 1: starts 14, blank, blank, blank, blank, blank (count by 2s). Strip 2: starts 17, blank, blank, blank, blank, blank (count by 5s). Strip 3: starts 0, blank, blank, blank, blank, blank (count by 10s, ending at 50).",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_THREE_NUMBER_LINES",
+              "description": "Three horizontal Number Line strips in B&W line-art, stacked vertically. Each ~6.5in wide × 1in tall, 6 cells across. Strip 1: cell 1 shows '14', cells 2-6 are blank with dotted outlines. Strip 2: cell 1 shows '17', cells 2-6 blank. Strip 3: cell 1 shows '0', cells 2-6 blank. A label beside each strip: 'by 2s', 'by 5s', 'by 10s'.",
+              "placement": "Middle of the page; three strips spanning full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "number-line",
+                "skip-count",
+                "missing"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_THREE_NUMBER_LINES: keywords (number-line, skip-count, missing) name what the lines show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Strip 1 (by 2s from 14): 16, 18, 20, 22, 24. Strip 2 (by 5s from 17): 22, 27, 32, 37, 42. Strip 3 (by 10s from 0): 10, 20, 30, 40, 50."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Counting Strategy",
+          "student_instructions": "How would YOU count 50 buttons fastest? Pick one strategy. Draw your grouping and write a sentence explaining why.",
+          "visual_layout": "Bottom of the page. A blank box (~5in × 3in) for the child to draw their grouping. Below the box, a sentence-starter line: 'I would count my 50 buttons by ___s, because ___.'",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_BLANK_STRATEGY_BOX",
+              "description": "A blank rectangular drawing box in B&W line-art, ~5in × 3in, with a light-grey solid outline. Decorative button icons in each corner (~0.5in). Below the box, a faint dotted line for the sentence starter.",
+              "placement": "Bottom of the page; spans full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "buttons",
+                "strategy",
+                "count"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_BLANK_STRATEGY_BOX: keywords (buttons, strategy, count) name what the box is for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible strategy: 'by 10s because it's fastest'; 'by 5s because I can spot 5s'; 'by 2s because I can count by 2s in my head'. Look for the child to ARTICULATE the reason, not just the strategy."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and try to count to 50 by 5s starting at 23. Write the numbers!",
+  "teacher_notes": "Lesson 1 consolidation. Hand out at the end of the Action phase. Most children should complete Parts 1 and 2 with minimal prompting. Watch for: (a) Part 1 estimates that are wildly off — these children need a re-loop on the chunk-of-10 strategy; (b) Part 2 children who skip-count from 0 instead of from the given start — flag for count-on practice in Lesson 2 small groups. Use Part 3 as evidence for the diagnostic checklist column 'Articulates a counting strategy'."
+}

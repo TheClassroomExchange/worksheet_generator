@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_detectives",
+  "lesson_number": 3,
+  "lesson_title": "Many-to-One Bar Graphs",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D1.3"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "On bigger data, ONE bar height = TWO or FIVE or TEN units. SCALE matters!",
+  "learning_intention": "We are learning to use many-to-one scale on a bar graph.",
+  "student_learning_goal": "I can use many-to-one scale on a bar graph.",
+  "success_criteria": [
+    "I can pick a SCALE.",
+    "I can read SCALED bars.",
+    "I can BUILD scaled bars."
+  ],
+  "vocabulary_introduced": [
+    "scale"
+  ],
+  "vocabulary_reinforced": [
+    "frequency table"
+  ],
+  "manipulatives_used": [
+    "M3_bar_grid",
+    "M8_scale_chart",
+    "M7_data_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Detective Dot and Tally — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Many-to-One Scale'",
+    "Scaled Bar Graph Grid (1 per pair)",
+    "Lesson 3 scale tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Detective Dot Picks a Scale",
+    "hook": "Detective Dot: 30 students like hockey. The bar would be HUGE! Let's use SCALE — 1 unit = 5 students. Bar = 6 units! Dot opens: 'CHECK the scale, MULTIPLY the height — that's the COUNT!'",
+    "teacher_script": "Bring children to the carpet. Detective Dot and Tally puppets. 'Friends — yesterday frequency tables. Today MANY-TO-ONE SCALE.'\n\nIntroduce vocabulary. Write SCALE on chart. 'Scale = how much each bar unit shows. 1 unit = 1 child (one-to-one), or 1 unit = 5 children (many-to-one).'\n\nDemonstrate. Show data: 30 hockey, 15 soccer, 10 basketball, 5 baseball.\n\n'One-to-one would need bars 30, 15, 10, 5 units high — too tall!'\n\nNow many-to-one. 'Pick scale: 1 unit = 5 children.' Recompute: 6, 3, 2, 1. 'Bars now fit on a normal grid.'\n\nDraw the y-axis: 0, 5, 10, 15, 20, 25, 30. Bars at the right heights.\n\n'Detective Dot says — when data is BIG, pick a scale. 1 unit = 5 (or 10, or 2). LABEL the scale on the y-axis.'\n\nMore scale examples (Canadian flavour):\n- 100 students surveyed. Scale: 1 unit = 10. Bars 1-10.\n- 50 students. Scale: 1 unit = 5. Bars 1-10.\n- 12 students. Scale: 1 unit = 2. Bars 1-6.\n\n'Detective Dot says — pick scale to FIT the grid. Mark scale on y-axis.'\n\nRead a scaled graph. 'Bar at 4 units. Scale 1=5. So 4 × 5 = 20 children.'\n\n'Today YOU build scaled bar graphs.'",
+    "student_actions": [
+      "Watch Detective Dot scale",
+      "Echo 'scale'",
+      "Practice 1 unit = 5",
+      "Read scaled bars"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Scale Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: scale a 30-student data set.",
+        "teacher_prompt": "Say: 'Pick scale. Build bars.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Read scaled bar (1 unit = 5). B: Build from frequency table (50 students, scale = 5). C: Pick scale for new data set.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: explain why scale matters.",
+        "teacher_prompt": "Say: 'Stretch: explain.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss why scale matters.",
+        "teacher_prompt": "Show: too small scale → giant bars. Too big → tiny bars."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "INVENT-AND-COMPARE: At Station C, pairs design TWO different scales for the same 50-student data (1 unit = 5 vs 1 unit = 10). Class compares: which is more readable? Cite Friel, Curcio & Bright (2001) intermediate level — scale choice matters.",
+        "teacher_prompt": "Dot: 'Different scale, same data, different graph. Pick the scale that fits your biggest count.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "A only. Read with scale = 5.",
+      "for_extending": "Stretch at C.",
+      "for_ell_or_iep": "Sentence frame: 'My scale is 1 unit = ___.'",
+      "for_movement_learners": "Children form bar graph lines using their bodies; teacher labels."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: picks scale; reads scaled bars; builds scaled bars.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Picks scale",
+        "Reads scaled bars",
+        "Builds scaled bars",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Detective Dot's Scale Brag",
+    "discussion_prompts": [
+      "What's MANY-TO-ONE?",
+      "Why pick a scale?",
+      "How do we read a scaled bar?",
+      "Where do we mark scale?"
+    ],
+    "exit_routine": "Detective Dot's scale refrain — 'CHECK the scale, MULTIPLY the height — that's the COUNT!' (3x). Each child reads one bar with scale-aware total."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Scale use accuracy.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures D1.3."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child reads SCALED bar as 1-to-1 — repairing the scale-blind trap at Grade 3",
+    "rationale": "On many-to-one bar graphs, the trap is the scale-blind error: child reads bar height as count when 1 unit = 5 students. Friel, Curcio & Bright (2001) graph-comprehension hierarchy (elementary/intermediate/advanced) places scale-aware reading at intermediate level — Grade-3 children must transition there.\n\nYesterday Tally tabulated frequencies. Today scale converts table rows to graph bars. Lesson 4 mean/mode; Lesson 5 capstones.",
+    "setup": "Pair at A. Bar graph with scale 1 unit = 5. Bar at 4 units. Child reports '4 children'.",
+    "teacher_script": "Crouch. 'You said 4. Detective Dot asks — what does the SCALE say?'\n\nGuide. 'Look at y-axis: 0, 5, 10, 15, 20. So 4 units = 4 × 5 = 20 children.'\n\nGenerlise. 'Detective Dot says — always READ the scale first. Bar height × scale = real count.'\n\nIf still scale-blind: provide a 'scale check' card to read first.",
+    "expected_student_responses": [
+      "(Confused) Reads as 1-to-1.",
+      "(Mid) Reads scale with prompts.",
+      "(Strong) Reads scaled bars independently.",
+      "(Stretched) Uses different scales for different data sets."
+    ],
+    "common_misconceptions": [
+      "Bar height = count. (Repair: bar height × scale = count.)",
+      "Scale doesn't matter. (Repair: always check scale.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child reads bar height literally (height = count): drill 'CHECK the scale — 1 unit = ___'; child re-reads with scale multiplier.",
+      "DIAGNOSTIC B — child uses scale but multiplies wrong: physical demo — count grid units, multiply by scale factor.",
+      "DIAGNOSTIC C — child can read but cannot construct: drill 'pick scale FIRST based on biggest count, then plot.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Detective Dot's Scale Lab",
+    "purpose": "Independent practice of D1.3.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Read a scaled bar graph (1 unit = 5). Find counts for 4 categories.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Build a scaled bar graph from a frequency table.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Pick scale for 3 different data sets.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Detective Dot in worksheet header",
+      "Scaled bar graph for Part 1",
+      "Frequency table + grid for Part 2",
+      "3 data sets for Part 3"
+    ]
+  }
+}

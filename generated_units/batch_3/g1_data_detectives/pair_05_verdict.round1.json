@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "pair_number": 5,
+  "graded_at": "2026-05-08T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 2,
+    "clarity_voice": 4,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "instructional_balance",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "lesson_specific_materials lists 'Detective Dot and Tally puppets' as a required item with no optional alternative — the rubric flags REQUIRED puppets as Level 2 ('puppets are great when a teacher has them but most don't').",
+      "required_fix": "Mark the puppets explicitly OPTIONAL, e.g. 'OPTIONAL: Detective Dot and Tally puppets — if not available, use any classroom stuffed animals, paper-bag puppets, or just point to the Data Detectives anchor poster while voicing the characters.' Update minds_on script so it works prop-free.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong capstone: Detective Dot + Tally anchor an integrated D1.1-D1.5 case where children run all 5 detective steps and write a group-language conclusion. The personal-not-data misconception in expanded_walkthrough is a real G1 trap with concrete sentence-frame recovery, and the worksheet mirrors the lesson's three core moves cleanly. Blocker: lesson_specific_materials lists Detective Dot and Tally puppets as required. Make them OPTIONAL with a no-prop fallback (gesture, stuffed animal, or pointing at the anchor poster) and the pair clears."
+}

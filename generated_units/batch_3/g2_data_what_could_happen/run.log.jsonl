@@ -1,0 +1,20 @@
+{"ts": "2026-05-04T13:24:05+00:00", "stage": "blueprint", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:27:34+00:00", "stage": "lesson_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:27:34+00:00", "stage": "lesson_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:27:34+00:00", "stage": "lesson_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:27:34+00:00", "stage": "lesson_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:27:34+00:00", "stage": "lesson_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:29:23+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:29:23+00:00", "stage": "worksheet_02", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:29:23+00:00", "stage": "worksheet_03", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:29:23+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:29:23+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:29:29+00:00", "stage": "worksheet_03", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:32:21+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:32:21+00:00", "stage": "formative_reflection", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for FormativeReflection\nformative_worksheets.0.prompts.1.visual_layout\n  String should have at least 20 characters [type=string_too_short, input_value='Single answer line.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short"}
+{"ts": "2026-05-04T13:32:21+00:00", "stage": "assessment_suite", "transition": "pending→failed", "attempt": 0, "error": "schema validation failed: 2 validation errors for AssessmentSuite\nformative_trackers.1.layout_description\n  String should have at least 20 characters [type=string_too_short, input_value='Identical layout.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/string_too_short\nformative_trackers.2.layout_description\n  String should have at least 20 characters [type=string_too_short, input_value='Identical layout.', input_type=str]\n    For further information visit https://errors.pydantic.de"}
+{"ts": "2026-05-04T13:32:21+00:00", "stage": "marketplace", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:32:36+00:00", "stage": "manipulatives", "transition": "done→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:32:36+00:00", "stage": "formative_reflection", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:32:36+00:00", "stage": "assessment_suite", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-04T13:32:59+00:00", "stage": "rubric_grade", "transition": "pending→done", "attempt": 0, "error": null}

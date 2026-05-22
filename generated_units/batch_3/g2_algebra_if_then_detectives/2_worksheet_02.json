@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 2,
+  "worksheet_title": "Inspector If's Writing",
+  "purpose": "Independent practice of C3.1 (write IF-THEN code).",
+  "student_learning_goal": "I can write IF-THEN code for a math situation.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can write IF-THEN code for a math situation.", "character_watermark": "Inspector If in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Match Conditions and Actions", "student_instructions": "Match each condition with an action that fits. Draw a line.", "visual_layout": "Top of page. Six condition-action match pairs.",
+      "image_placeholders": [{"id": "WS02_P1_MATCH", "description": "Six match pairs in B&W line-art, ~7in x 3in. Left column conditions: 'IF >10', 'IF even', 'IF rains', 'IF =5', 'IF Monday', 'IF score >50'. Right column actions: 'THEN say BIG', 'THEN clap', 'THEN umbrella', 'THEN star', 'THEN math class', 'THEN cheer'. Header 'Match:'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["match"], "text_image_alignment_check": "Image WS02_P1_MATCH: keywords (match) name what the pairs ask for."}],
+      "student_response_type": "write", "answer_key": "Standard pairings: >10/BIG, even/clap, rains/umbrella, =5/star, Monday/math, >50/cheer."},
+    {"part_number": 2, "part_title": "Part 2: Write Two Branches", "student_instructions": "Write IF-THEN code with TWO branches for each sorting task.", "visual_layout": "Middle of page. Four two-branch slot pairs.",
+      "image_placeholders": [{"id": "WS02_P2_TWO", "description": "Four two-branch slot pairs in B&W line-art, ~7in x 3in. Each pair: 'Sort: ___', 'IF ___, THEN ___.', 'IF NOT ___, THEN ___.'. Pre-filled tasks: even/odd, big/small, multiple of 5/not, school day/weekend. Header 'Two Branches:'.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["branches"], "text_image_alignment_check": "Image WS02_P2_TWO: keywords (branches) name what the slots ask for."}],
+      "student_response_type": "write", "answer_key": "Open. Both branches must have a condition and action."},
+    {"part_number": 3, "part_title": "Part 3: Make Your Own", "student_instructions": "Write 2 of your own two-branch IF-THENs.", "visual_layout": "Bottom of page. Two two-branch slot pairs.",
+      "image_placeholders": [{"id": "WS02_P3_OWN", "description": "Two two-branch slot pairs in B&W line-art, ~7in x 2in. Each pair: 'IF ___, THEN ___. IF NOT ___, THEN ___.'. Header 'My Code:'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["code"], "text_image_alignment_check": "Image WS02_P3_OWN: keywords (code) name what the slots ask for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. Both branches must be present."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and trace their code with 3 sample inputs.",
+  "teacher_notes": "Lesson 2 worksheet practices C3.1 writing. Watch for missing-branch trap — children who write only one branch."
+}

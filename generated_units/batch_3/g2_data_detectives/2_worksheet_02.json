@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "lesson_number": 2,
+  "worksheet_title": "Tally's Two-Way Survey",
+  "purpose": "Independent practice of D1.2.",
+  "student_learning_goal": "I can make a two-way tally table.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can make a two-way tally table.",
+    "character_watermark": "Tally with a clipboard in the top-right corner. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Read a 2-way table.",
+          "student_instructions": "Read the table. Find row totals and column totals.",
+          "visual_layout": "Pre-built 2x2 table with tally marks. Headers show APPLE / COOKIE columns. Below: 4 questions about the apple totals.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_TABLE",
+              "description": "A pre-built 2-way tally table for a Grade 2 worksheet, B&W line art. Headers: top columns 'APPLE' / 'COOKIE'; left rows 'MILK' / 'WATER'. Cells filled with tally marks: apple+milk = ||||CROSS, apple+water = |||, cookie+milk = ||, cookie+water = ||||. Below the table, 4 questions: 'How many chose apple+milk?' '... cookie+milk?' '... apple total?' '... milk total?'",
+              "placement": "Centred; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "table",
+                "tally",
+                "apple"
+              ],
+              "text_image_alignment_check": "WS02_P1_TABLE at Part 1: instructions ask the child to read totals. Keywords name the visual elements."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Apple+Milk = 5. Cookie+Milk = 2. Apple total = 5+3 = 8. Milk total = 5+2 = 7."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Build a 2-way table.",
+          "student_instructions": "Survey 6 classmates with 2 questions. Tally in the table.",
+          "visual_layout": "Blank 2x2 table with question-line headers.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_BLANK",
+              "description": "A blank 2x2 tally table for a Grade 2 worksheet, B&W line art. Top: 'Question 1: ___' line. Left side: 'Question 2: ___' line. 4 cells with thin borders, each ~2in × 1.5in. Total area below for row + column totals.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "table",
+                "tally",
+                "survey"
+              ],
+              "text_image_alignment_check": "WS02_P2_BLANK at Part 2: instructions ask the child to build a 2-way table. Keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid 2-question survey of 6 classmates with consistent tallies."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Home survey.",
+          "student_instructions": "Make your own 2-way survey at home (3 family members).",
+          "visual_layout": "A blank 2-way tally table for home survey, with question lines for the two questions and 4 cells for tallying answers.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_HOME",
+              "description": "A blank 2-way tally table for a Grade 2 worksheet, similar to Part 2 but smaller (~3 row total). Designed for home use with 3 family members.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "table",
+                "home"
+              ],
+              "text_image_alignment_check": "WS02_P3_HOME at Part 3: instructions ask for home survey. Keywords name the focus."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid home survey."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write 2 questions about your 2-way table.",
+  "teacher_notes": "Lesson 2 consolidation. Use Part 2 for formative — single-tally per child in correct cell."
+}

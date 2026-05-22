@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "lesson_number": 1,
+  "worksheet_title": "Trekker Tig's 3D Sort",
+  "purpose": "Independent practice of E1.1.",
+  "student_learning_goal": "I can sort 5 named solids by faces, edges, and vertices.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can sort 5 named solids by faces, edges, and vertices.",
+    "character_watermark": "Trekker Tig the Tiger Cub in the top-right with a backpack and 3D solid basket. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Name the 5 solids.",
+          "student_instructions": "Look at 5 solid icons. Write the name under each.",
+          "visual_layout": "A row of 5 solid icons with a name line under each.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_NAMES",
+              "description": "A Grade 3 solid identification row for geometry worksheet, B&W line art. 5 solid icons in a row: cube, rectangular prism, square pyramid, cylinder, cone. Each with a name line below.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "solid",
+                "icons"
+              ],
+              "text_image_alignment_check": "WS01_P1_NAMES at Part 1: keywords name the solid icons row for identification."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "cube, prism, pyramid, cylinder, cone."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Count attributes.",
+          "student_instructions": "For 3 solids, count FACES, EDGES, and VERTICES.",
+          "visual_layout": "A 3-row attribute count chart with three solid icons and three count columns.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_COUNTS",
+              "description": "A Grade 3 attribute count chart for geometry worksheet, B&W line art. 3 rows: cube, square pyramid, cone. 3 columns: Faces, Edges, Vertices. Empty count cells.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "chart",
+                "count"
+              ],
+              "text_image_alignment_check": "WS01_P2_COUNTS at Part 2: keywords name the chart count cells for attribute counting."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Cube: 6 faces, 12 edges, 8 vertices. Pyramid: 5 faces, 8 edges, 5 vertices. Cone: 2 (or 1 flat + 1 curved), 1 edge, 1 vertex."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Sort 8 solids.",
+          "student_instructions": "Sort 8 mixed solid icons into 5 named piles.",
+          "visual_layout": "Eight solid icons at the top and five named bins at the bottom for sorting.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_SORT",
+              "description": "A Grade 3 sort grid for geometry worksheet, B&W line art. 8 mixed solid icons at top. 5 named bins at bottom: cube, prism, pyramid, cylinder, cone. Lines or arrows to draw.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "sort",
+                "bins"
+              ],
+              "text_image_alignment_check": "WS01_P3_SORT at Part 3: keywords name the sort grid bins for sorting solids."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Each solid placed in the correct named bin."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw 1 NEW solid you can think of and name it.",
+  "teacher_notes": "Lesson 1 consolidation. Diagnostic — check naming and counting accuracy. Part 3 transfer: 3 REAL-WORLD Canadian-context objects (e.g., Tim Hortons cup = cylinder, hockey puck = cylinder, soup can = cylinder; or maple-syrup tin = rectangular prism, etc.). Verifies attribute-based sorting beyond geometric shapes."
+}

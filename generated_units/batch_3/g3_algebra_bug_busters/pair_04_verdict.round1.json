@@ -1,0 +1,57 @@
+{
+  "pair_number": 4,
+  "unit_id": "g3_algebra_bug_busters",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale names the 'wrong-fix trap' (child alters A bug step but not THE bug step; outcome stays wrong) and recovery_moves are concrete: 'Use verification template.', 'Drill find-fix-verify.', 'Re-trace after every alteration.' These are solid Level 3 moves but they do NOT branch by what the diagnostic told you about the child, and the trap is not anchored to a named research source. Level 4 requires (a) a citation/alignment to research (e.g., Pea 1986 on superbug/conceptual bugs in novice programming, Brennan & Resnick 2012 on systematic-vs-tinker debugging strategies, or Spohrer & Soloway on bug taxonomies) AND (b) recovery that branches by the child's diagnostic state.",
+      "required_fix": "In expanded_walkthrough.rationale, anchor the wrong-fix trap to named research — e.g., 'This trap aligns with Pea (1986) on the superbug (treating the program as intentional rather than literal) and with Brennan & Resnick (2012) on the difference between systematic debugging and tinkering: a tinkerer alters something visible without verifying.' Then convert recovery_moves into a branched diagnostic with three branches: (a) if the child can articulate the expected outcome but altered the wrong step, hand them the written trace template and have them mark the FIRST divergent step before altering; (b) if the child cannot state the expected outcome, drop back to predicting the expected trace before any alteration; (c) if the child alters then claims 'fixed' without re-tracing, force the verify reflex by hiding the new code and asking the child to predict the new outcome aloud before re-tracing.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials handles puppets correctly as OPTIONAL ('OPTIONAL: Buzz and Patch — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster'). Time allocation 12/25/13 = 50 min is in range for G3. BUT Level 4 requires an explicit NO-PAPER, NO-PURCHASE alternative path using only voice, body, or gesture. The differentiation entry 'for_movement_learners: Walk through fixes physically with robot tokens' still requires the tokens and grid mat. There is no version of the lesson that runs with zero prep on a day the teacher could not get cards/mats ready.",
+      "required_fix": "Add a no-materials path to differentiation, e.g., 'NO-MATERIALS VERSION — children become the robots. Two children stand side-by-side as the two lanes; the rest of the class chants the buggy code (\"forward, forward, turn-left, forward\"). The two child-robots act it out. When the outcome is wrong, the class calls \"BUG\" at the divergent step. The class then chants the altered code, and the child-robots re-act to verify. Code, alteration, and verification all happen in voice and body — no cards, no mat, no markers required.' Reference this alternative in minds_on or action so a teacher seeing 'no prep today' can pivot to it.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Buzz appears in every block (minds_on hook, teacher_script, action, consolidation 'Buzz's Fixing Brag') and 'alter' is defined child-friendly on a chart. ALL success_criteria start with 'I can'. The find-alter-verify pattern is on a chart. BUT there is no distinctive quotable Buzz refrain that travels between lessons. exit_routine = 'Bug: ___. Fix: ___. Verified.' is a sentence frame, not a Buzz catchphrase. Level 4 requires a memorable chant or refrain children carry between lessons (compare the example: 'HOO knows the sounds? YOU do!').",
+      "required_fix": "Give Buzz a quotable fixing chant and use it in minds_on and consolidation, with cross-lesson echoes. For example: 'FIND it, ALTER it, VERIFY it!' (three claps, three actions). Have teacher_script open and close minds_on with the chant; have children chant it back during the action-step-4 'fix-and-verify pattern' moment; rebuild exit_routine so children must SAY the chant before writing the sticky: 'Buzz says FIND-ALTER-VERIFY. My bug was ___, my fix was ___, verified ___.' Make sure the same chant is referenced in lessons 3 and 5 so it anchors bug-busting across the unit.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson teaches one fixing pathway (find first divergent step, alter the wrong number/step/order, re-trace to verify) and uses the 2-Lane Coding Grid Mat as a meaningful representation, not decoration. Vocabulary 'alter', 'bug', 'outcome' used precisely. BUT children are not invited to invent or refine a fixing strategy or to compare strategies, and the expanded_walkthrough does not name the misconception in research-grounded computational-thinking terms. Level 4 requires both: child-invented/compared strategies AND named research grounding (Brennan & Resnick CT framework, Pea 1986 bug taxonomies, Wing 2008 on abstraction).",
+      "required_fix": "Add a strategy-comparison move in action.steps. For example, after Step 2 (stations), insert a step where each pair shares HOW they decided which step to alter — 'I altered the first wrong number I saw' vs 'I traced from start until the outcome diverged' vs 'I worked backward from the wrong outcome'. Pairs vote on which strategy they think is most reliable for which bug type (number / step / order). Then in expanded_walkthrough.rationale, name the misconception in research terms — e.g., reference Pea (1986) on bug taxonomies in novice programming and Brennan & Resnick (2012) distinguishing systematic debugging (trace + verify) from tinkering (random alteration), and tie the verify reflex to Wing (2008) on CT abstraction (each step is the unit of analysis; the alteration is the smallest meaningful change).",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ],
+  "summary_note": "Worksheet is strong: Part 3 (partner bug) is a genuine transfer task and parts map cleanly to the find-alter-verify success criteria. Lesson alignment is solid (back-bridge 'Yesterday we FOUND bugs. Today we FIX them' is explicit) and lesson_worksheet_consistency is at Level 4. Four blocking gaps to clear Level 4 in the lesson: (1) anchor the wrong-fix trap to Pea 1986 / Brennan & Resnick and branch the recovery by diagnostic state; (2) add an explicit no-materials body-and-voice alternative path; (3) give Buzz a quotable cross-lesson chant ('FIND it, ALTER it, VERIFY it!') and rebuild exit_routine to use it; (4) let pairs compare fixing strategies, not just apply the one taught, and name the trap in research-grounded CT terms. All four blocking issues live in lesson_04; worksheet_04 needs no changes."
+}

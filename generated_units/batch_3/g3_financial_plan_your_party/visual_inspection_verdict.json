@@ -1,0 +1,12 @@
+{
+  "unit_id": "g3_financial_plan_your_party",
+  "status": "pass",
+  "inspected_at": "2026-05-10T20:10:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch5",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 21, "description": "M9 Party Item Cards preview reuses Budget Worksheet table layout instead of party-themed cards (R20 carry-over)."},
+    {"page": 22, "description": "M8 Paper Calculator Cards render as plain '+' strips (R20 carry-over)."}
+  ],
+  "summary": "PASS. Worksheets now hero layout with no debug stubs. 1-row rubric (F1.1) fits cleanly with full descriptors. Pat the Party Planner Pup and Budget Bea puppet art clear; lesson plans, certificate all render correctly. Pre-existing R20 manipulative gaps remain deferred."
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_detectives",
+  "pair_number": 1,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "minds_on opens with 'last year you sorted by ONE rule' (a backward bridge to G1) but neither lesson_01 nor expanded_walkthrough cross-references Day 2's two-way tally tables. There is no forward bridge inside the unit's arc.",
+      "required_fix": "Add a 1-2 sentence forward bridge in consolidation or exit_routine, e.g.: 'Tomorrow Tally turns this same two-attribute thinking into a two-way tally TABLE — rows are one attribute, columns the other, just like the Carroll diagram.' Tie Carroll directly to Day 2.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a real all-or-none-overlap trap with one conditional ('If still confused: provide a 4-zone label sticker'), but rationale and recovery_moves do not cite named research and recovery does not branch by what the diagnostic shows about the child.",
+      "required_fix": "Cite Inhelder & Piaget 1964 on classification (pre-stage-III children resist intersection). Branch recovery: if child puts ALL in overlap, drill 'neither' and 'only-one' zones with non-examples; if NONE in overlap, drill 'both' with red-AND-square cards before mixing.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Detective Dot anchors minds_on and consolidation; all success_criteria begin with 'I can'; vocabulary is child-friendly. But exit_routine ('I sorted by ___ and ___') has no distinctive Detective Dot refrain or chant children carry into Lessons 2-5.",
+      "required_fix": "Give Detective Dot a recurring 2-attribute refrain children chant back at consolidation, e.g. 'BOTH? Only one? Or NEITHER?' as a 4-zone sing-song. Add it to consolidation.exit_routine and cue its reuse in lessons 2-5 so it travels across the unit.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is solid (overlap = BOTH, Carroll yes/no) and Station C invites own-attribute invention, but expanded_walkthrough.rationale does not name the misconception in research-grounded terms (no Inhelder & Piaget, English, or Battista on classification/spatial reasoning).",
+      "required_fix": "In expanded_walkthrough.rationale name the frame: 'This is the class-inclusion / multiple-classification difficulty (Inhelder & Piaget 1964; English 1993).' In action step 4 add explicit strategy comparison: 'Some pairs found Venn easier; some Carroll. Why?' Record both on the anchor chart.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong pair: the all-or-none-overlap trap is genuine, the worksheet's own-toy Part 3 is a real transfer task, and the hula-hoop variant supplies a no-materials path. Four categories sit at Level 3 because lesson_01 lacks (a) a forward bridge to Day 2's two-way tally, (b) research-named framing with diagnostic-branched recovery, (c) a memorable Dot refrain that travels across lessons, and (d) explicit strategy comparison naming Inhelder & Piaget. All fixes live in lesson_01; the worksheet is solid as written."
+}

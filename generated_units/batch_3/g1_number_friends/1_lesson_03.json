@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_friends",
+  "lesson_number": 3,
+  "lesson_title": "Make and Break 50",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B1.2"
+  ],
+  "secondary_expectations": [
+    "B1.1"
+  ],
+  "big_idea": "Numbers split into tens and ones. Different splits help with different problems.",
+  "learning_intention": "We are learning to compose and decompose numbers to 50 in many ways using tens, ones, and partner pairs.",
+  "student_learning_goal": "I can compose and decompose any number to 50 using tens, ones, and partner pairs in different ways.",
+  "success_criteria": [
+    "I can show any number 0-50 as tens and ones.",
+    "I can find at least two different ways to break a number apart.",
+    "I can put two parts back together to compose a target number."
+  ],
+  "vocabulary_introduced": [
+    "compose",
+    "decompose",
+    "partner pair"
+  ],
+  "vocabulary_reinforced": [
+    "tens and ones",
+    "represent"
+  ],
+  "manipulatives_used": [
+    "M3_base_ten_rods",
+    "M1_button_set"
+  ],
+  "lesson_specific_materials": [
+    "Anchor chart 'Break Apart 32' showing 4 different decompositions side-by-side",
+    "OPTIONAL: Lila and Otto — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Whole-class set of base-ten rods (visible to all)",
+    "Lesson 3 formative tracker (Decompositions) — provided in assessment_suite stage",
+    "Mid-unit Numerals 0-50 Check-In worksheet (provided in formative_reflection stage)"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Otto's Marble Riddle",
+    "hook": "Otto has 32 marbles. He wants to put them in 2 jars. How many ways can he split them? Scoot brings out a rod stack: 'Make 50 your way — Scoot's curious!'",
+    "teacher_script": "Bring children to the carpet. Hold up Otto and 3 base-ten rods + 2 ones (= 32).\n\n'Friends — Otto has 32 marbles. He wants to share them between two jars. But he wants to know — how many DIFFERENT ways can he split them?' Pause. Take responses. Most children will offer one or two splits.\n\nDemonstrate: 'Watch.' Place all 32 base-ten pieces into Jar A. 'Way 1: 32 in Jar A, 0 in Jar B.' Move 1 ten-rod across. 'Way 2: 22 in Jar A, 10 in Jar B.' Move another ten. 'Way 3: 12 + 20.' Continue: '2 + 30. 32 + 0 reversed = 0 + 32.'\n\nPause and reframe: 'Each of these is a way to BREAK 32 APART. We call this DECOMPOSING. The opposite — putting two parts together to make 32 — is COMPOSING. Today we are going to do BOTH. We'll find all the partner pairs of 32, and then we'll use that flexibility to solve problems faster.'\n\nWrite on the chart: '32 = 30 + 2'. 'Now — what's another way? Anyone?' Take responses. Add: '32 = 25 + 7' (ten + ten + ten - 3 + 7? No, harder.) '32 = 16 + 16'. The key insight: ten-and-ones is just ONE way; many partner pairs work.",
+    "student_actions": [
+      "Listen as Otto's marbles are split.",
+      "Predict the next split before the teacher demonstrates.",
+      "Help count each split aloud as a class.",
+      "Repeat the words 'compose' and 'decompose'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Make-the-Number Game",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: lead a structured decomposition of 32. The class fills the chart together with 4-5 different partner pairs (10+22, 20+12, 5+27, 16+16, 25+7, 30+2). Read each aloud.",
+        "teacher_prompt": "Say to students: 'Let's fill this chart together. We've already got 30 + 2. What's another partner pair that adds to 32? Hmm — what if I take some ones from the 2 and add them to the 30?' Take responses. Discuss what works and what doesn't (any pair that adds to 32 works)."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Introduce the Make-the-Number game. Each pair gets base-ten rods (M3) and a target number card (e.g. 27, 35, 42). Player A builds the target with rods. Player B says one decomposition: '20 + 7' or '10 + 17' or '15 + 12'. Switch.",
+        "teacher_prompt": "Say to students: 'You and your partner are going to play Make-the-Number. Player A — build the target number with base-ten rods. Player B — say one way to break it apart. Then switch.' Demonstrate with one pair."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch round: each pair gets a target ≥ 30 and is challenged to find FOUR different decompositions. Use the Decomposition Worksheet sheet to record them.",
+        "teacher_prompt": "Say to students: 'Now you'll find FOUR ways. Use your worksheet to record each one. The catch — they all have to be DIFFERENT.' Walk around. Watch for pairs who keep using ten-and-ones decompositions; nudge them toward partner-pair decomp (e.g. 17 + 13 instead of 30 + 0)."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Mid-unit Numerals 0-50 Check-In: hand out the 4-prompt worksheet. Children complete it independently while the teacher circulates with the formative tracker.",
+        "teacher_prompt": "Say to students: 'You're going to do a quick check on your own — four prompts. Take your time. Use base-ten rods if you need to.' Walk around. For each child, record on the tracker whether they (a) decomposed in tens+ones, (b) found a non-tens+ones partner pair, (c) recomposed correctly, (d) wrote the equation."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Class debrief and chart-build. Bring children back. Display the Decomposition Worksheet with the most creative decompositions. Discuss which decompositions help with which problems.",
+        "teacher_prompt": "Say to students: 'Look at all the ways we broke apart 32. Which would be FASTEST for a problem like 32 - 12?' Lead them to '20 + 12' (subtract the 12 directly, leaves 20). 'Which would be fastest for adding 32 + 8?' Lead them to '30 + 2' (add 8 to the 2 = 10, then 30 + 10 = 40). The point: different decompositions serve different problems."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "These children focus on tens-and-ones decomposition only. Target numbers stay in 10-20 range. The goal is to see that 17 = 10 + 7 and to recompose. Multi-decomposition stretch comes once that's solid.",
+      "for_extending": "Stretch cards: 'Decompose 47 in FIVE different ways' or 'What's a decomposition of 50 that DOESN'T use 25 + 25?' Stays inside B1.2 with stretch into Grade 2 territory.",
+      "for_ell_or_iep": "Provide a base-ten rod reference card showing the structure of each rod. Allow physical demonstration over verbal explanation. Pair with a strong-decomposer peer.",
+      "for_movement_learners": "Stand-up version: pairs use a giant ten-rod (printed letter-size) and giant ones. The act of moving the rods between jars (yarn circles on the floor) physicalises the decomposition."
+    },
+    "formative_check": {
+      "what_to_look_for": "Can the child find tens-and-ones decomposition? Can they find at least one partner pair that ISN'T tens-and-ones (e.g. 17 + 5 instead of 20 + 2 for 22)? Can they recompose? The non-tens-and-ones partner pair is the B1.2 mastery signal — it shows flexibility.",
+      "how_to_record": "Tick the tracker per child as you observe. The 'finds non-tens-ones partner pair' column captures B1.2 mastery.",
+      "tracker_columns": [
+        "Student name",
+        "Decomposes in tens-and-ones",
+        "Finds a non-tens-ones partner pair",
+        "Recomposes two parts back to target",
+        "Mid-unit worksheet score (out of 4)",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Otto's Best Decomposition",
+    "discussion_prompts": [
+      "What was your favourite decomposition you found today?",
+      "When is breaking a number into tens-and-ones useful? When isn't it?",
+      "If I had 47 and wanted to add 3, how would I decompose? Why?",
+      "Can you tell me ONE thing in your everyday life that you could decompose? (e.g. 24 cookies in 4 boxes, 32 minutes split between two activities.)"
+    ],
+    "exit_routine": "Each child whispers to a partner: 'I broke 35 into ___ + ___.' Partner says back what they would do differently. Then each pair packs up base-ten rods, and the class lines up at the door. Scoot scoots to the next group: 'Make-and-break is BRAIN-power!'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Decompositions tracker for B1.2 (per-child per-decomp). Mid-unit Numerals 0-50 Check-In worksheet score.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "B1.2 says 'compose and decompose using a variety of tools and strategies' — the keyword is VARIETY. Single-strategy decomposition (always tens-and-ones) misses the point. The tracker's 'non-tens-ones partner pair' column is the mastery signal. Children who can ONLY do tens-and-ones are emerging."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child does only tens-and-ones — repairing single-strategy decomposition for B1.2",
+    "rationale": "The most common Grade-1 trap on B1.2 is the child who learns 'every number splits into tens and ones' and treats THAT as the whole answer. They write 32 = 30 + 2 every time. The lesson asks for four different decompositions, and they freeze. This isn't a strategy failure — it's a 'the textbook said so' rigidity. The repair is to physicalise the strategies with base-ten rods so the child SEES that other splits also work.",
+    "setup": "Pair is at Step 3 (find 4 different decompositions of 32). The child has written '30 + 2' on their worksheet and stopped. They're staring at the page. The teacher walks up.",
+    "teacher_script": "Crouch beside the child. 'You've got 30 + 2. That's a decomposition. Now I want THREE MORE. Different ones.' The child looks confused. 'How can you have more than one?'\n\nPick up base-ten rods. Build 32 (3 rods + 2 ones). 'Watch what I do.' Take 5 ones from the pile and add them to the rods, then take 5 from the rods... no, simpler: 'Move ONE rod over here.' Move a rod to the left side. 'How many here?' (10.) 'How many there?' (22 — 2 rods + 2 ones.) 'So 32 = 10 + 22. That's another decomposition.' Write it.\n\n'Now move a rod back, but take it apart into ones first. So this side has 2 rods and 5 ones (= 25), other side has 1 rod and... 7? Yes — 25 + 7.' Write it.\n\n'See — every time I move some pieces around, I get a NEW decomposition. The total is still 32. I just split it differently.' Go through 2-3 more: '15 + 17' (1 rod + 5 ones, 1 rod + 7 ones), '16 + 16', '20 + 12'.\n\nLet the child try one. They'll usually break the rigidity at this point. If they still default to 30+2, send them back to the rods for 1:1 with you for the next 5 minutes. The decomposition flexibility comes from physical play, not verbal instruction.\n\nThe long-term recovery move: every Friday, have a 'decomposition challenge' where the class gives ONE target number (chosen by a child) and the class collectively finds as many decompositions as possible. The flexibility is built through repeated play, not a single lesson.",
+    "expected_student_responses": [
+      "(Confused) Writes only 30 + 2 and stops. Hasn't yet seen that decomposition has multiple answers. Most common Grade-1 starting point.",
+      "(Mid) After the rod-moving demo, can find a few more decompositions but defaults to 'easy' splits (10+22, 20+12). Misses creative pairs (17 + 15).",
+      "(Strong) Finds 4+ decompositions independently, including non-tens splits. Uses partner-pair logic (e.g. 'I bet 25+7 works because they look like a partner pair to me').",
+      "(Stretched) Volunteers: 'I bet I could find 10 different decompositions if I had more time. Each one moves stuff around differently.' Has internalised that decomposition has many valid answers."
+    ],
+    "common_misconceptions": [
+      "Decomposition has one answer. (Most common Grade-1 trap. Repair: show the rod-moving demo on the carpet so the child SEES that any split totals the same.)",
+      "Decomposition only works in tens and ones. (True for one strategy, but partner pairs like 17 + 15 = 32 also work. Repair: encourage non-tens splits in Step 3.)",
+      "The bigger part of a decomposition is always 'right'. (Some children think decomposition means 'split into mostly-the-target plus a little'. Repair: show 16 + 16 as an even split — equally valid.)"
+    ],
+    "recovery_moves": [
+      "Always physicalise the decomposition with base-ten rods. The act of moving rods between two sides shows that the total stays the same.",
+      "Use both even-split (16 + 16) and lopsided-split (5 + 27) as model examples. Children who only see lopsided splits miss that decomposition can be balanced too.",
+      "Connect to addition strategies. '20 + 12' is the easy way to compute 12 + 8 + 12 (decomposing 12 as 10 + 2 first, then adding 10 to 12). The decomposition serves the computation, not just the worksheet."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Make and Break 50",
+    "purpose": "Independent practice of B1.2 — composing and decomposing numbers to 50 in multiple ways.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Three target numbers (15, 27, 42). For each, the child writes ONE tens-and-ones decomposition and ONE non-tens decomposition.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Two compose tasks. Task A: '___ + ___ = 32'. Task B: '___ + ___ = 47'. The child fills in three different partner pairs for each (six pairs total).",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: 'Pick a number between 25 and 50. Find AS MANY decompositions as you can.' The child writes their target and lists at least 4.",
+        "response_type": "write"
+      }
+    ],
+    "expected_image_assets": [
+      "Otto puppet thumbnail in the worksheet header",
+      "Base-ten rod illustration for each target number",
+      "Two empty jar illustrations for the compose tasks",
+      "Scoot the puppy mascot icon in a corner"
+    ]
+  }
+}

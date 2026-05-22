@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "lesson_number": 5,
+  "worksheet_title": "Sammy's Safari Capstone",
+  "purpose": "Summative artwork applying A9.1, A9.2, A9.3, A9.4, A9.5, A9.7. Used as Lesson 5 capstone evidence.",
+  "student_learning_goal": "I can use shapes to make a safari picture and describe it.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can use shapes to make a safari picture and describe it.",
+    "character_watermark": "Sammy and Mira together in the top-right corner of the header, smiling at each other. Small (~1.5in tall combined). References both 'Sammy the Safari Sloth' and 'Mira the Map-Making Monkey' assets from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Plan your picture!",
+          "student_instructions": "Pick 5 shapes you will use in your safari picture. Write or draw them.",
+          "visual_layout": "A vertical plan list with 5 numbered slots stacked centred on the page. Each slot is wide enough (~3in) for the child to either write a shape name or sketch a small thumbnail. To the right of the list is a reference column showing all 10 shapes the child has learned: 5 2D outlines (circle, triangle, square, rectangle, hexagon) and 5 3D shaded shapes (sphere, cube, cylinder, cone, pyramid).",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_REFERENCE",
+              "description": "A small two-column shape reference for a Kindergarten worksheet. Left column: 5 2D shape outlines stacked vertically (circle, triangle, square, rectangle, hexagon), each ~0.8in tall, B&W line art. Right column: 5 3D shaded shapes stacked vertically (sphere, cube, cylinder, cone, pyramid), each ~0.8in tall, with light shading. Names printed underneath each thumbnail. Suitable as an at-a-glance vocabulary reference.",
+              "placement": "Right side of Part 1.",
+              "approximate_size": "small",
+              "keywords": ["circle", "triangle", "square", "sphere", "cube"],
+              "text_image_alignment_check": "Image WS05_P1_REFERENCE at Part 1: instructions ask the child to pick 5 shapes for their picture. The reference shows all learned shapes; keywords name examples of both 2D (circle, triangle, square) and 3D (sphere, cube) so the child can choose from a mix."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 5 shape names or thumbnails. Accept any combination of 2D and 3D shapes from the reference. Strongest plans mix 2D and 3D and include at least one of each category."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Build your safari picture!",
+          "student_instructions": "Use your plan to draw a safari picture. Compose at least 1 bigger shape from smaller shapes.",
+          "visual_layout": "A large blank picture frame centred on the page (~6in × 5in) with a thin border. Below the frame, a small instruction reminder strip: 'Use 5+ shapes. Compose at least 1 bigger shape.' To the right of the frame, a small Sammy thumbnail giving a thumbs-up.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_FRAME",
+              "description": "A large blank picture frame ~6in × 5in for a Kindergarten safari capstone artwork. Thin solid border, no fill or content inside. To the right of the frame, a small thumbnail of Sammy the Safari Sloth giving a thumbs-up (~1in tall). Generous workspace for the child's creative artwork using shapes.",
+              "placement": "Centred horizontally; dominates Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["safari", "shapes"],
+              "text_image_alignment_check": "Image WS05_P2_FRAME at Part 2: instructions ask the child to build a safari picture using 5+ shapes including 1 composed shape. The frame provides the workspace; the keywords 'safari' and 'shapes' name the artwork's purpose. Sammy thumbnail reinforces the unit's anchor character."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any safari-themed picture using 5+ shapes (2D or 3D) with at least one composed bigger shape (e.g., 2 triangles compose a giraffe head, 6 triangles compose a hexagonal sun). Strong responses mix 2D and 3D and use clear shape outlines that match the names from Part 1."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Describe your picture!",
+          "student_instructions": "Write 3 sentences about your picture using position words.",
+          "visual_layout": "Three sentence-frame rows stacked vertically. Each row reads 'The ___ is ___ the ___.' with three blanks (object — position word — reference object). To the right is a small position-word reference box listing: above, below, beside, inside, outside, between.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_FRAMES",
+              "description": "Three sentence-frame response rows stacked vertically for a Kindergarten worksheet. Each row reads 'The ___ is ___ the ___.' with three clearly underlined blanks. Generous height between rows. To the right, a small reference box listing 6 position words in a vertical list: above, below, beside, inside, outside, between.",
+              "placement": "Left two-thirds of Part 3.",
+              "approximate_size": "medium",
+              "keywords": ["position", "describe"],
+              "text_image_alignment_check": "Image WS05_P3_FRAMES at Part 3: instructions ask the child to describe their picture using position words. The sentence frames give structured response slots; the position-word reference provides the vocabulary."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 valid sentences referencing the child's own picture. Examples: 'The sun is above the tree.' 'The lion is beside the rock.' 'The monkey is inside the cave.' Accept any sentence that uses a real picture element and a position word correctly."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, share your picture with a partner. Tell them what shapes you used and where everything is.",
+  "teacher_notes": "Lesson 5 capstone — summative evidence for the unit. Score against the capstone rubric (provided in assessment_suite). Look for: 5+ different shapes used (A9.1, A9.2); at least 1 composed shape (A9.4); position-word descriptions (A9.3, A9.6); shape art application (A9.7). Children who completed all 3 parts independently demonstrate full unit mastery."
+}

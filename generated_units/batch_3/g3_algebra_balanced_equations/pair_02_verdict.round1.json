@@ -1,0 +1,76 @@
+{
+  "pair_number": 2,
+  "unit_id": "g3_algebra_balanced_equations",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 2
+  },
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough does not cross-reference Day 1 (variables) or Day 3 (mult/div equivalence). The lesson stays self-contained — there is no teacher language like 'remember yesterday when Eddy met Vex with variables — today we test equations with KNOWN numbers first, tomorrow we'll test multiplication.'",
+      "required_fix": "Add an explicit bridge in minds_on or expanded_walkthrough that names Day 1's variable work and previews Day 3's multiplication-equivalence sort. Example teacher line: 'Yesterday Eddy showed how a temperature variable can change. Today the numbers stay fixed, but we ask: do two expressions name the SAME number? Tomorrow we'll do the same test with x and divide.'",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "minor"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title names the surface-similarity trap and recovery_moves are concrete, but no research is cited (no Carpenter & Levi on relational thinking, no Kieran on equivalence). recovery_moves does NOT branch by what the diagnostic told you about the child — it gives the same 3-step checklist regardless of whether the child computed one side correctly or compared appearance only.",
+      "required_fix": "Cite Carpenter, Franke & Levi (2003) 'Thinking Mathematically' on relational vs computational thinking — students who view '=' as 'compute the answer' default to surface comparison. Branch recovery: (a) if child computed one side correctly but assumed the other matched, the issue is verification habit — drill 'compute BOTH then compare'; (b) if child only compared digits ('both have 50'), the issue is operational view of '=' — use the balance scale FIRST, with counters, before any numerals; (c) if child rejects different operations as ever-equivalent, contrast 50+25 with 100-25 on the balance.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists puppets as OPTIONAL (good) and uses chart paper, counters, cards (good). But there is no explicit NO-PAPER, NO-PURCHASE alternative path. differentiation.for_movement_learners says 'use the balance physically — put counters on each side' but still requires the printed balance mat and counters. A teacher with no prep time has no fallback.",
+      "required_fix": "Add to differentiation a no-materials variant: 'No-prep version — children stand with arms out as a human balance scale. Left palm holds left expression, right palm holds right. Teacher calls a pair (e.g., 50+25 vs 100-25); children compute both totals on fingers, then tip toward the larger or stay level if equivalent. No counters, no mats, no cards needed.'",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "minor"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Eddy anchors minds_on and the worksheet, success_criteria all begin 'I can', and the consolidation activity_name is 'Eddy's Equivalence Brag.' But there is NO distinctive quotable refrain children carry between lessons. The exit_routine sentence frame '___ = ___ because ___ = ___' is functional but not memorable, and Eddy has no signature line.",
+      "required_fix": "Give Eddy a memorable refrain that consolidates the key habit. Example: 'Eddy's rule — COMPUTE BOTH, then COMPARE. Same total? BALANCED!' Have children chant it after each pair in minds_on and in the exit routine. Add to consolidation.exit_routine so the chant carries into Lesson 3.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "minor"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson handles equivalence as same-value-on-both-sides correctly and previews compensation, inverse, and identity in step 4 of action — strong Level 3 work. But children are not asked to INVENT a strategy and COMPARE it with another pair's strategy. Step 4 has the teacher 'show patterns on the chart' rather than children producing and contrasting strategies. No research-grounded misconception name appears (no Kieran on operational vs relational equal-sign, no Carpenter & Levi on relational thinking).",
+      "required_fix": "Add a strategy-comparison move to action step 4: 'Two pairs share the same equivalent pair (e.g., 50+25 = 100-25). Pair A explains by computing both. Pair B explains by saying 50+25 and 100-25 both end at 75 on the number line. Class votes — same answer, different strategies. Both valid.' Then in expanded_walkthrough cite Kieran (1981) or Carpenter, Franke & Levi (2003) on the operational-vs-relational view of the equal sign.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "minor"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "Part 1 answer_key is internally contradictory and incorrect: 'EQ, EQ, EQ, EQ, NOT (70 vs 70 — actually EQ), EQ, EQ, EQ. (Most are equivalent; check with student.)' The 5th pair is '40+30 vs 80-10' which is 70 vs 70 — equivalent — yet the key marks it NOT and then admits it is actually EQ. Also pair 8 in the description is '250+50 vs 350-50' (300 vs 300 = EQ) which is fine, but the apologetic 'check with student' and the embedded contradiction makes the worksheet unusable for a substitute. This is a substantive lesson-worksheet quality break: the lesson teaches 'COMPUTE BOTH then COMPARE' but the answer key cannot reliably model that habit.",
+      "required_fix": "Rewrite Part 1 answer_key cleanly. Verify each of the 8 pairs: (1) 50+25=75 vs 100-25=75 EQ; (2) 60+40=100 vs 80+20=100 EQ; (3) 75-25=50 vs 25+25=50 EQ; (4) 100+50=150 vs 200-50=150 EQ; (5) 40+30=70 vs 80-10=70 EQ; (6) 90-30=60 vs 30+30=60 EQ; (7) 500-100=400 vs 200+200=400 EQ; (8) 250+50=300 vs 350-50=300 EQ. All eight pairs are equivalent — that is a problem in itself: replace at least 3 of them with NOT-equivalent pairs (e.g., '75+25 vs 80+25' = 100 vs 105 NOT; '150+150 vs 200+50' = 300 vs 250 NOT; '500-200 vs 200+100' = 300 vs 300 EQ — pick mixes) so the worksheet actually exercises the discrimination the lesson teaches. Then write a clean answer_key list.",
+      "affected_stages": ["worksheet_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ]
+}

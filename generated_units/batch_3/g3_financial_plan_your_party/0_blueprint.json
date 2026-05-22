@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_financial_plan_your_party",
+  "thematic_title": "Plan Your Party — Grade 3 Budgeting",
+  "descriptive_title": "Grade 3 Mathematics: Demonstrations — Estimating and Calculating Change (F1.1)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "F. Financial Literacy",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/grade-3",
+  "curriculum_codes": ["F1.1"],
+  "curriculum_expectations": {
+    "F1.1": "estimate and calculate the change required for various simple cash transactions involving whole-dollar amounts and amounts of less than one dollar"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on cash transactions and change (F1.1) framed around 'Plan Your Party' — Pat the Party Planner Pup and Budget Bea the Bear. Day 1 introduces ESTIMATION of change for whole-dollar amounts. Day 2 calculates EXACT change for whole-dollar amounts. Day 3 handles AMOUNTS LESS THAN $1 (cents). Day 4 mixes whole-dollar AND cents transactions. Day 5 closes with a Big Party Capstone — children plan a party budget and calculate change. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will estimate and calculate change for cash transactions in whole-dollar amounts and amounts under $1.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Estimate the Change", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "ESTIMATE first! Round prices to NEAREST DOLLAR, subtract from money paid.", "student_learning_goal": "I can estimate change for whole-dollar transactions.", "one_line_summary": "Pat estimates 4 transactions; children round and subtract."},
+    {"lesson_number": 2, "lesson_title": "Calculate Exact Change", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "EXACT change = MONEY PAID minus PRICE. Use subtraction.", "student_learning_goal": "I can calculate exact change for whole-dollar transactions.", "one_line_summary": "Bea calculates 4 transactions; children subtract carefully."},
+    {"lesson_number": 3, "lesson_title": "Cents Change", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "AMOUNTS UNDER $1 use CENTS (¢). Change is also in CENTS.", "student_learning_goal": "I can calculate change in cents.", "one_line_summary": "Pat calculates change for ¢ transactions; children try 4."},
+    {"lesson_number": 4, "lesson_title": "Mixed Amounts", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "MIXED amounts: $1.50, $3.25. Calculate change carefully.", "student_learning_goal": "I can calculate change for mixed transactions.", "one_line_summary": "Bea handles $X.YY transactions; children practice."},
+    {"lesson_number": 5, "lesson_title": "The Big Party Capstone", "primary_expectations": ["F1.1"], "secondary_expectations": [], "big_idea": "Plan a PARTY: pick items, total cost, pay, calculate change!", "student_learning_goal": "I can plan a budget and calculate change.", "one_line_summary": "Children plan a party with $20 budget and calculate change for 4 items."}
+  ],
+  "expectation_lesson_map": {"F1.1": [1, 2, 3, 4, 5]},
+  "recurring_characters": [
+    {"name": "Pat the Party Planner Pup", "role": "Lead character. Estimation expert. Anchors all 5 lessons.", "visual_description": "A friendly pup with a party hat and a clipboard with party plans."},
+    {"name": "Budget Bea the Bear", "role": "Pat's partner. Exact-change expert. Cameo Lessons 2-5.", "visual_description": "A small bear with a calculator and a money pouch."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "change", "child_friendly_definition": "Money you get BACK after paying."},
+    {"term": "estimate", "child_friendly_definition": "A close GUESS, not exact."},
+    {"term": "calculate", "child_friendly_definition": "Find the EXACT answer."},
+    {"term": "round", "child_friendly_definition": "Make a number CLOSER to a tidy number."},
+    {"term": "transaction", "child_friendly_definition": "A trade — money for an item."},
+    {"term": "budget", "child_friendly_definition": "A PLAN for spending money."},
+    {"term": "subtract", "child_friendly_definition": "Take AWAY one number from another."},
+    {"term": "total", "child_friendly_definition": "ADD all together."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_money_set", "name": "Mixed Money Cards", "description": "30 paper cards (coins + bills) for transaction practice.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M2_pricetag_set", "name": "Item Price Cards", "description": "20 cards with party items and prices.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M3_estimate_chart", "name": "Estimate Strategy Chart", "description": "Anchor chart showing rounding to nearest dollar.", "used_in_lessons": [1, 5], "clipart_files": []},
+    {"id": "M4_subtract_chart", "name": "Subtract for Change Chart", "description": "Anchor chart showing change calculation.", "used_in_lessons": [2, 3, 4, 5], "clipart_files": []},
+    {"id": "M5_budget_template", "name": "Party Budget Template", "description": "Letter-size template with item rows and total.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Big Party Template", "description": "Letter-size capstone with budget plus 4 transactions.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_money_chart", "name": "G3 Money Vocabulary Chart", "description": "Anchor chart with 8 G3 money words.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_calculator_set", "name": "Paper Calculator Cards", "description": "12 paper calculator cards for change calculation.", "used_in_lessons": [2, 3, 4, 5], "clipart_files": []},
+    {"id": "M9_party_cards", "name": "Party Item Cards", "description": "16 party-themed item cards with prices.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Plan Your Party Poster", "description": "Anchor poster of Pat and Bea at a party with money tools.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["Mixed Money Cards (30)", "Price Cards (20)", "Estimate Chart", "Subtract Chart", "Party Budget Template (per pair)", "Big Party Template (per child)", "Vocabulary Chart", "Calculator Cards (12)", "Party Item Cards (16)", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 estimate snapshot.", "formative": "Lesson 2 calc tracker; Lesson 3 cents tracker; Lesson 4 mixed tracker.", "summative": "Lesson 5 Big Party capstone."},
+  "pedagogical_notes": [
+    "Grade 3 expands G2 from equivalence to TRANSACTIONS — paying and getting CHANGE.",
+    "Always ESTIMATE first — gives a check on the exact answer.",
+    "Subtraction is the core skill: Money Paid - Price = Change.",
+    "Cents transactions are tricky — keep clear notation.",
+    "Capstone budget makes it real: planning a party!"
+  ],
+  "canadian_context_notes": [
+    "Party items: maple cookies, hockey-stick balloons, Tim Hortons donuts.",
+    "Pay with $5, $10, $20 bills (most common).",
+    "No pennies in change (Canadian penny removed) — round to nearest 5¢.",
+    "Treat as EXACT amounts in classroom (no rounding for cash anymore in real life).",
+    "Hockey ticket = $20 budget example."
+  ]
+}

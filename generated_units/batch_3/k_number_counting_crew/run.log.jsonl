@@ -4,3 +4,48 @@
 {"ts": "2026-05-02T13:43:52+00:00", "stage": "lesson_01", "transition": "pending→pending", "attempt": 0, "error": "K Counting Crew lesson_01: What Are Numbers For? (A6.1)"}
 {"ts": "2026-05-02T13:43:52+00:00", "stage": "lesson_01", "transition": "pending→in_progress", "attempt": 1, "error": null}
 {"ts": "2026-05-02T13:43:52+00:00", "stage": "lesson_01", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:26:44+00:00", "stage": "lesson_02", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:28:25+00:00", "stage": "lesson_02", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:36:24+00:00", "stage": "lesson_03", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:38:45+00:00", "stage": "lesson_03", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:38:53+00:00", "stage": "lesson_04", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:40:57+00:00", "stage": "lesson_04", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:45:01+00:00", "stage": "lesson_05", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:47:25+00:00", "stage": "lesson_05", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:47:59+00:00", "stage": "worksheet_01", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:49:21+00:00", "stage": "worksheet_01", "transition": "in_progress→failed", "attempt": 1, "error": "schema validation failed: 1 validation error for Worksheet\npages.0.parts.1.image_placeholders.1.approximate_size\n  Input should be 'thumbnail', 'small', 'medium', 'large' or 'full_width' [type=literal_error, input_value='wide', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/literal_error"}
+{"ts": "2026-05-03T00:49:40+00:00", "stage": "worksheet_01", "transition": "failed→pending", "attempt": 1, "error": null}
+{"ts": "2026-05-03T00:49:40+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T01:09:15+00:00", "stage": "worksheet_02", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T01:56:59+00:00", "stage": "worksheet_02", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T02:15:53+00:00", "stage": "worksheet_03", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T03:51:06+00:00", "stage": "worksheet_03", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T04:08:04+00:00", "stage": "worksheet_04", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T10:39:06+00:00", "stage": "worksheet_04", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T10:43:12+00:00", "stage": "worksheet_05", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T10:44:19+00:00", "stage": "worksheet_05", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T11:14:25+00:00", "stage": "manipulatives", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T13:08:00+00:00", "stage": "manipulatives", "transition": "pending→in_progress", "attempt": 2, "error": null}
+{"ts": "2026-05-03T13:11:32+00:00", "stage": "manipulatives", "transition": "in_progress→done", "attempt": 2, "error": null}
+{"ts": "2026-05-03T13:25:26+00:00", "stage": "worksheet_01", "transition": "done→pending", "attempt": 1, "error": "keyword/text drift fix per alignment validator"}
+{"ts": "2026-05-03T13:25:26+00:00", "stage": "worksheet_03", "transition": "done→pending", "attempt": 1, "error": "keyword/text drift fix per alignment validator"}
+{"ts": "2026-05-03T13:25:26+00:00", "stage": "worksheet_04", "transition": "done→pending", "attempt": 1, "error": "keyword/text drift fix per alignment validator"}
+{"ts": "2026-05-03T13:25:26+00:00", "stage": "worksheet_05", "transition": "done→pending", "attempt": 1, "error": "keyword/text drift fix per alignment validator"}
+{"ts": "2026-05-03T13:28:02+00:00", "stage": "worksheet_01", "transition": "pending→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T13:28:02+00:00", "stage": "worksheet_03", "transition": "pending→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T13:28:02+00:00", "stage": "worksheet_04", "transition": "pending→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T13:28:02+00:00", "stage": "worksheet_05", "transition": "pending→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T13:54:07+00:00", "stage": "manipulatives", "transition": "done→pending", "attempt": 2, "error": "post-walker-fix keyword realignment"}
+{"ts": "2026-05-03T13:55:01+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 2, "error": null}
+{"ts": "2026-05-03T13:55:22+00:00", "stage": "manipulatives", "transition": "done→pending", "attempt": 2, "error": "final keyword + clipart-caption alignment"}
+{"ts": "2026-05-03T13:55:55+00:00", "stage": "manipulatives", "transition": "pending→done", "attempt": 2, "error": null}
+{"ts": "2026-05-03T14:38:31+00:00", "stage": "formative_reflection", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T14:40:11+00:00", "stage": "formative_reflection", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T14:41:34+00:00", "stage": "assessment_suite", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T14:44:04+00:00", "stage": "assessment_suite", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T14:44:23+00:00", "stage": "marketplace", "transition": "pending→in_progress", "attempt": 1, "error": null}
+{"ts": "2026-05-03T14:45:15+00:00", "stage": "marketplace", "transition": "in_progress→done", "attempt": 1, "error": null}
+{"ts": "2026-05-03T15:41:57+00:00", "stage": "rubric_grade", "transition": "pending→done", "attempt": 0, "error": null}
+{"ts": "2026-05-03T19:50:07+00:00", "stage": "rubric_grade", "transition": "done→failed", "attempt": 0, "error": "schema validation failed: 1 validation error for RubricGrade\n  Value error, overall_score=13 but sum(scores)=17 [type=value_error, input_value={'schema_version': 1, 'un... '2026-05-03T19:50:00Z'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"}
+{"ts": "2026-05-03T19:50:53+00:00", "stage": "rubric_grade", "transition": "failed→done", "attempt": 0, "error": null}
+{"ts": "2026-05-03T20:35:52+00:00", "stage": "rubric_grade", "transition": "done→done", "attempt": 0, "error": null}

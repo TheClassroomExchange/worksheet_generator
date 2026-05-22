@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_data_likely_unlikely", "lesson_number": 2,
+  "worksheet_title": "Maybe Mae's Predict and Decide", "purpose": "Independent practice of D2.1 prediction.",
+  "student_learning_goal": "I can use likelihood words to make a prediction.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can use likelihood words to make a prediction.",
+    "character_watermark": "Maybe Mae the Cat in the top-right with a question-mark hat and a clipboard. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Coin and dice predictions.", "student_instructions": "Predict 4 coin/dice outcomes using a likelihood word.",
+     "visual_layout": "Four prediction prompts with coin and dice icons and a blank line for the likelihood word.",
+     "image_placeholders": [{"id": "WS02_P1_COINDICE", "description": "A Grade 3 prediction layout for likelihood worksheet, B&W line art. 4 boxes: '10 coin flips, get 5 heads', '10 dice rolls, get a 6', 'flip 1 coin and get tails', 'roll 1 die and get a 7'. Each box has a blank line for the likelihood word.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["coin", "dice"], "text_image_alignment_check": "WS02_P1_COINDICE at Part 1: keywords name the coin and dice prediction prompts."}],
+     "student_response_type": "draw_or_write", "answer_key": "5 heads=equally likely, 6 on dice=unlikely, tails=equally likely, 7 on die=impossible."},
+    {"part_number": 2, "part_title": "Part 2: Predict + decide.", "student_instructions": "For 4 weather/school scenarios, write a prediction word AND a decision.",
+     "visual_layout": "Four scenario boxes with two response lines each: prediction word and decision.",
+     "image_placeholders": [{"id": "WS02_P2_DECIDE", "description": "A Grade 3 prediction-and-decision layout for likelihood worksheet, B&W line art. 4 scenario boxes: 'Snow tomorrow', 'Math test Friday', 'Treat at lunch', 'Sun rises'. Each box has 2 response lines.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["prediction", "decision"], "text_image_alignment_check": "WS02_P2_DECIDE at Part 2: keywords name the prediction-decision linkage."}],
+     "student_response_type": "draw_or_write", "answer_key": "Sample: snow likely → wear boots; test certain → study tonight; treat unlikely → don't expect; sun rises certain → no decision needed."},
+    {"part_number": 3, "part_title": "Part 3: Revise!", "student_instructions": "ONE of your predictions changes. New info: 'It just snowed!' Revise.",
+     "visual_layout": "Sentence frame with a revision box for the updated likelihood word and a short explanation line.",
+     "image_placeholders": [{"id": "WS02_P3_REVISE", "description": "A Grade 3 revision layout for likelihood worksheet. Sentence frame: 'I first predicted ___. New info: ___. I revise to ___.' Below: 3 lines for student.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["revise", "info"], "text_image_alignment_check": "WS02_P3_REVISE at Part 3: keywords name the revise-with-new-info task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Sample: predicted unlikely snow; new info snowed; revise to certain."}
+  ]}],
+  "early_finisher_prompt": "If you finish, predict 2 more events from your day.",
+  "teacher_notes": "Lesson 2 consolidation. Formative — check word use and decision linkage."
+}

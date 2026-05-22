@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Will It? Maybe! — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1, while children are at the likelihood-naming stations.",
+    "expectation_focus": ["D2.1"],
+    "columns": ["Student name", "Names impossible", "Names possible", "Names certain", "Notes"],
+    "usage_notes": "Walk between pairs. Tick where you see clear evidence. The 'Names impossible' and 'Names certain' columns are the easier signals; 'Names possible' is harder because it requires recognizing uncertainty.",
+    "layout_description": "One letter page, portrait orientation. Title at top, expectation focus (D2.1) box. Date and class fields. 5-column table: Student name (~1.5in), three tick columns (~0.9in), Notes (~2in). 24 student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page for a Grade 1 teacher. Title: 'Will It? Maybe! — Day 1 Diagnostic Checklist'. Below: 'Expectation: D2.1 — use mathematical language including impossible, possible, and certain'. Date and Class fields. 5-column tick table with 24 rows. B&W line art.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": ["tracker", "likelihood"],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER fills the page as the diagnostic tracker for Lesson 1. Keywords name the artifact and lesson focus."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Will It? Maybe! — Lesson 2 Formative Tracker (Sort)",
+      "when_used": "During Lesson 2, while pairs are at the sort-mat stations.",
+      "expectation_focus": ["D2.1"],
+      "columns": ["Student name", "Sorts impossible", "Sorts possible", "Sorts certain", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'why is this in IMPOSSIBLE?' to elicit reasoning.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 2 column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but titled 'Will It? Maybe! — Lesson 2 Formative Tracker (Sort)' with 5 columns matching Lesson 2. Expectation box reads 'Expectation: D2.1 — use mathematical language including impossible, possible, and certain'. 24 rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "sort"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2 fills the page as the Lesson 2 sort tracker. Keywords name the artifact and focus."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Will It? Maybe! — Lesson 3 Formative Tracker (Prediction)",
+      "when_used": "During Lesson 3, while pairs are at the prediction stations.",
+      "expectation_focus": ["D2.1", "D2.2"],
+      "columns": ["Student name", "Makes a prediction", "Uses likelihood word", "Compares to outcome", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'what was your prediction? What happened?'",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 3 column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but titled 'Will It? Maybe! — Lesson 3 Formative Tracker (Prediction)' with 5 columns matching Lesson 3. Expectation box reads 'Expectations: D2.1 + D2.2 — use likelihood to predict; make and test predictions'. 24 rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "prediction"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3 fills the page as the Lesson 3 prediction tracker. Keywords name the artifact and focus."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Will It? Maybe! — Lesson 4 Formative Tracker (Test)",
+      "when_used": "During Lesson 4, while pairs are at the predict-and-test stations.",
+      "expectation_focus": ["D2.2"],
+      "columns": ["Student name", "Makes prediction", "Tests in new group", "Compares results", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'was the prediction right in this group?'",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 4 column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but titled 'Will It? Maybe! — Lesson 4 Formative Tracker (Test)' with 5 columns matching Lesson 4. Expectation box reads 'Expectation: D2.2 — make and test predictions about likelihood across populations'. 24 rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "test"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4 fills the page as the Lesson 4 test tracker. Keywords name the artifact and focus."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Will It? Maybe! — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 (Likelihood Lab Capstone) to score each child against both expectations on a 4-level scale. Aligned with Ontario Grade 1 Communication of Learning conventions.",
+    "rows": [
+      {
+        "expectation_code": "D2.1",
+        "expectation_text": "use mathematical language, including the terms “impossible”, “possible”, and “certain”, to describe the likelihood of events happening, and use that likelihood to make predictions and informed decisions",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot consistently distinguish the 3 likelihood terms. Defaults to 'possible' or 'maybe' for everything."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Names IMPOSSIBLE and CERTAIN with prompts. Uses POSSIBLE for genuinely uncertain events."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently uses all 3 likelihood terms appropriately. Makes predictions using likelihood reasoning."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Justifies likelihood assignments with real-world reasoning. Predicts the MORE LIKELY outcome and explains why."}
+        ]
+      },
+      {
+        "expectation_code": "D2.2",
+        "expectation_text": "make and test predictions about the likelihood that the categories in a data set from one population will have the same frequencies in data collected from a different population of the same size",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Predicts but does not yet TEST in another group. Insists original prediction is right despite different test results."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Tests in a second group with adult prompts. Sometimes accepts that results differ."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently makes a prediction, tests it in a different group, and accepts that results may differ across groups."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Predicts for two groups separately and reasons about WHY results may differ ('different families, different favourites')."}
+        ]
+      }
+    ],
+    "usage_notes": "Score during the Lesson 5 capstone (visible from the Lab Template) and confirm during the share. Level 3 is the grade-level expectation. Communicate scores to families using Communication of Learning narrative.",
+    "layout_description": "One letter page, landscape orientation, with a 2-row × 4-level grid table plus a left-most column for expectation code and text. Title at top; usage notes below.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable rubric table page for a Grade 1 Will It? Maybe! summative. Title at top: 'Will It? Maybe! — Summative Rubric'. Below: 5-column table with leftmost column 'Expectation' (~2.5in) and four level columns (~2in each). Two rows for D2.1 and D2.2. Light-grey shading on Level 3. Below the table, the usage notes. Landscape, B&W.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": ["rubric", "likelihood"],
+        "text_image_alignment_check": "Image AS_RUBRIC: keywords name the artifact (rubric) and unit focus (likelihood)."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Likelihood Lab Capstone — Summative Administration Guide",
+    "purpose": "Ties the Lesson 5 Lab Template, the 4-step predict-test-record cycle, and the rubric together. Tells the teacher exactly what evidence to look for at each station.",
+    "administration_steps": [
+      "Before the lesson: photocopy one Lab Template per child plus 5 extras. Print rubric or maintain class-wide rubric on a clipboard. Have Junior Likelihood Detective certificates ready.",
+      "Station 1 (COIN, 5 min): predict + test 5 flips. Evidence for D2.1 (likelihood word: possible).",
+      "Station 2 (DICE, 5 min): predict + test 5 rolls. Evidence for D2.1.",
+      "Station 3 (MARBLES, 5 min): predict + test 5 pulls (4 red + 1 blue). Evidence for D2.1 (more likely = red) + D2.2 (test in different colour ratio).",
+      "Station 4 (WEATHER, 5 min): predict tomorrow's weather. Evidence for D2.1.",
+      "Station 5 (SORT, 5 min): sort 6 events. Evidence for D2.1 categorization.",
+      "After: review the Lab Template with each child. For below-Level-3, note evidence and use for Communication of Learning."
+    ],
+    "scoring_guidance": "Use the Lab Template as primary evidence. Level 3 = grade-level. L4 children ready for Grade 2 likelihood. L1 children need targeted small-group work in the next math block.",
+    "evidence_per_expectation": {
+      "D2.1": "Look at Stations 1-2-3-4 (predictions). Did the child predict using likelihood reasoning (e.g., 'more likely red because more red marbles')? Combined with Station 5 (sort). A child who predicts before testing AND sorts correctly is at Level 3.",
+      "D2.2": "Look at Station 3 (marbles). Did the child predict and accept actual test results, even if they differed from prediction? A child who reports honestly (regardless of right/wrong) is at Level 3."
+    }
+  },
+  "certificate": {
+    "title": "Junior Likelihood Detective Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Will It? Maybe! unit and demonstrating the skills of a Junior Likelihood Detective. A likelihood certificate. Lucky Lou the Loon congratulates the student.",
+    "skills_demonstrated": [
+      "Naming events as impossible, possible, or certain",
+      "Sorting events by likelihood",
+      "Making predictions using likelihood",
+      "Testing predictions in a new group"
+    ],
+    "layout_description": "One letter page, portrait orientation. Decorative ornamental border. Title at top. Below: recipient label and blank line. Below: achievement statement. Below: bullet list of 4 skills. Bottom: signature lines. Bottom-centre: small Lucky illustration.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative ornamental border framing the certificate page (~0.5in inset). Style: gentle scrollwork with small coin and dice motifs at the corners. B&W line art.",
+        "placement": "Frames the entire page.",
+        "approximate_size": "full_width",
+        "keywords": ["certificate"],
+        "text_image_alignment_check": "Image AS_CERT_BORDER at Frames the entire page: keyword names the artifact (certificate)."
+      },
+      {
+        "id": "AS_CERT_LUCKY",
+        "description": "A small Lucky Lou the Loon illustration at the bottom-centre of the certificate, ~1.5in tall. Lucky smiling broadly with magnifying glass raised in celebration. B&W line art consistent with CHAR_LUCKY_FRONT.",
+        "placement": "Bottom-centre.",
+        "approximate_size": "small",
+        "keywords": ["lucky", "certificate"],
+        "text_image_alignment_check": "Image AS_CERT_LUCKY at Bottom-centre: keywords name the character (lucky) and artifact (certificate)."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

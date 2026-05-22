@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "assets": [
+    {
+      "asset_id": "M1_2d_shape_set",
+      "name": "2D Shape Cards",
+      "category": "manipulative",
+      "purpose": "A set of 30 paper shape tokens used by pairs to identify, sort, compose, and place 2D shapes throughout the unit. Foundational manipulative for Lessons 1, 4, and 5.",
+      "page_layout": "Two letter pages, portrait orientation. Page 1 holds 16 shapes in a 4x4 grid: 4 circles, 4 triangles, 4 squares, 4 rectangles. Page 2 holds 14 shapes including 4 hexagons, 4 ovals, 3 pentagons, 3 semicircles. Each shape ~1.5in across with thin solid cut-lines.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_2D_SHAPES",
+          "description": "A 4x4 grid of 2D shape tokens for a Kindergarten manipulative set, B&W line art. Shapes: 4 circles, 4 triangles, 4 squares, 4 rectangles arranged in rows. Each token ~1.5in across with a thin solid border for cutting. Page is letter portrait. The set is designed to be cut apart by the teacher for pair use.",
+          "placement": "Spans both pages of the asset.",
+          "approximate_size": "full_width",
+          "keywords": ["circle", "triangle", "square", "rectangle"],
+          "text_image_alignment_check": "Image M1_2D_SHAPES at the manipulative asset: instructions describe a 30-token 2D shape set used in Lessons 1, 4, 5. Keywords name the primary shapes the child sorts and composes."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets total (1 set per pair for a class of 20). Each set is 2 pages.",
+        "Laminate before cutting for durability across multiple lessons.",
+        "Cut along the thin solid lines into 30 individual shape tokens per set.",
+        "Store each set in a labelled zip-top bag ('2D Shape Set — Pair 1', etc.)."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "10 sets (1 per pair) for a class of 20.",
+      "used_in_lessons": [1, 4, 5]
+    },
+    {
+      "asset_id": "M2_3d_shape_set",
+      "name": "3D Shape Models",
+      "category": "manipulative",
+      "purpose": "A set of 5 paper-fold 3D shapes (sphere/round-disc, cube, cylinder, cone, pyramid) for hands-on 3D shape exploration. Used in Lessons 2, 4, and 5.",
+      "page_layout": "Three letter pages of paper-fold templates. Page 1: cube net + cone net. Page 2: cylinder net + pyramid net. Page 3: sphere proxy (a flat circular disc with hatching to suggest roundness — true sphere can't be paper-folded but the proxy lets children identify the round shape category). Each net has fold lines (dashed) and tab cuts (solid).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 3,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_3D_NETS",
+          "description": "Paper-fold templates for 5 3D shapes laid out across 3 letter pages, B&W line art for a Kindergarten manipulative. Page 1: cube net (6 connected squares in a cross pattern with fold lines as dashed) and cone net (a circle with a wedge cut out to be folded into a cone). Page 2: cylinder net (a rectangle that rolls into a tube + 2 circles for top and bottom) and pyramid net (a square base with 4 triangles attached). Page 3: a flat circular disc with diagonal hatching pattern to represent a sphere proxy. All fold lines dashed, all cut lines solid, with tabs marked for gluing.",
+          "placement": "Spans all 3 pages of the asset.",
+          "approximate_size": "full_width",
+          "keywords": ["cube", "cone", "cylinder", "pyramid", "sphere"],
+          "text_image_alignment_check": "Image M2_3D_NETS: instructions describe a 5-shape 3D model set for Lessons 2, 4, 5. Keywords name each 3D shape the children fold and identify."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 6 sets (1 per pair plus 2 extras). Each set is 3 pages.",
+        "Cut along solid lines and fold along dashed lines for each net.",
+        "Tape or glue tabs to assemble cube, cone, cylinder, pyramid (~5 min per set).",
+        "Store assembled shapes in a labelled box per pair."
+      ],
+      "estimated_prep_minutes": 45,
+      "quantity_per_class": "10 sets (1 per pair).",
+      "used_in_lessons": [2, 4, 5]
+    },
+    {
+      "asset_id": "M3_safari_map",
+      "name": "Safari Map Mat",
+      "category": "manipulative",
+      "purpose": "A letter-size safari scene with positional pockets used for placing safari animals according to position-word clues. Anchors Lesson 3 and reappears in Lesson 5.",
+      "page_layout": "One letter page, landscape orientation. The scene shows a baobab tree on the left, a meandering river running horizontally across the middle, a rocky hill on the right, and a cave opening at the bottom-centre. Each landmark has a thin pocket outline where a small animal token can be placed (above, below, beside, inside).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_SAFARI_SCENE",
+          "description": "A letter landscape safari map for a Kindergarten manipulative, B&W line art. Features: a baobab tree on the left side with thick trunk and rounded canopy, a meandering river drawn as wavy parallel lines running horizontally across the middle, a rocky hill made of stacked stones on the right, and a cave opening (semicircle outline) at the bottom-centre. Each landmark has thin pocket outlines suggesting placement zones (above the rocks, beside the tree, inside the cave). Generous open landscape between landmarks.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["map", "tree", "river", "cave"],
+          "text_image_alignment_check": "Image M3_SAFARI_SCENE: instructions describe a safari map mat used for placing animals via position words. Keywords name the landmarks (tree, river, cave) the child references when placing animal tokens."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 mats (1 per pair plus 2 extras). Single page each.",
+        "Laminate every mat for repeated dry-erase use across lessons 3 and 5.",
+        "Distribute one mat per pair; keep extras at the teacher table."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10-12 mats (1 per pair).",
+      "used_in_lessons": [3, 5]
+    },
+    {
+      "asset_id": "M4_position_cards",
+      "name": "Position Word Cards",
+      "category": "manipulative",
+      "purpose": "Set of 12 cards with position words (above, below, beside, inside, outside, between) and matching arrow/diagram icons. Used in Lesson 3 to scaffold position-word selection.",
+      "page_layout": "One letter page, portrait orientation. 12 cards in a 3x4 grid. Each card ~2in × 2in with the position word printed prominently and a small arrow/diagram icon showing the relationship visually.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_POSITION_CARDS",
+          "description": "A 3x4 grid of 12 position-word cards for a Kindergarten manipulative, B&W line art. Each card ~2in × 2in with the position word in large bold print at the top: above, below, beside, inside, outside, between. Below each word is a small icon showing the relationship: an upward arrow for ABOVE, downward arrow for BELOW, two boxes side-by-side for BESIDE, a small box inside a bigger box for INSIDE, a small box outside a bigger box for OUTSIDE, a small box between two larger boxes for BETWEEN. Words and icons together help emergent readers.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["position", "above", "below", "beside"],
+          "text_image_alignment_check": "Image M4_POSITION_CARDS: instructions describe 12 position-word cards used by pairs to select position vocabulary in Lesson 3. Keywords name the core position words shown on the cards."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Single page each.",
+        "Laminate before cutting for durability.",
+        "Cut along the grid lines into 12 individual cards per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "10 sets (1 per pair).",
+      "used_in_lessons": [3]
+    },
+    {
+      "asset_id": "M5_pattern_blocks",
+      "name": "Paper Pattern Blocks",
+      "category": "manipulative",
+      "purpose": "A set of 60 paper pattern blocks (triangles, squares, hexagons, trapezoids, rhombi) used by pairs to compose and decompose shapes. Foundational for Lessons 4 and 5.",
+      "page_layout": "Two letter pages, portrait orientation. Each page holds 30 pattern blocks in a tight grid: ~12 triangles, ~6 squares, ~4 hexagons, ~4 trapezoids, ~4 rhombi. Each block is ~1.2in across with thin solid cut-lines.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_PATTERN_BLOCKS",
+          "description": "Two letter portrait pages of paper pattern blocks for a Kindergarten manipulative, B&W line art. Each page holds 30 blocks in a tight grid: roughly 12 equilateral triangles, 6 squares, 4 regular hexagons, 4 trapezoids, 4 rhombi. Each block ~1.2in across with thin solid cut-lines. Standard pattern-block proportions so that 6 triangles compose a hexagon, 2 triangles compose a rhombus, etc.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": ["triangle", "square", "hexagon", "trapezoid"],
+          "text_image_alignment_check": "Image M5_PATTERN_BLOCKS: instructions describe a 60-block compose/decompose set for Lessons 4 and 5. Keywords name the geometric forms used in shape composition."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Each set is 2 pages = 60 blocks.",
+        "Laminate before cutting for repeated use.",
+        "Cut apart along the thin solid lines into 60 individual blocks per set.",
+        "Store each set in a labelled zip-top bag with a small label of the contents."
+      ],
+      "estimated_prep_minutes": 35,
+      "quantity_per_class": "10 sets (1 per pair).",
+      "used_in_lessons": [4, 5]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Safari Art Capstone Template",
+      "category": "manipulative",
+      "purpose": "A letter-size template for the Lesson 5 safari shape-art capstone. Provides a structured frame and labelled response slots for the summative artwork.",
+      "page_layout": "One letter page, portrait orientation. Top half: a large blank picture frame (~6in × 5in) with thin border. Bottom half: 3 sentence-frame rows for position-word descriptions and a 5-shape plan list to the side.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE",
+          "description": "A letter portrait capstone template for a Kindergarten safari shape-art summative, B&W line art. Top half: a large blank picture frame ~6in × 5in with a thin solid border, no fill or content. Bottom half: 3 sentence-frame rows reading 'The ___ is ___ the ___.' stacked vertically on the left, with a 5-slot vertical plan list on the right (numbered 1-5). All response slots clearly bounded with thin underlines.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["capstone", "frame", "shapes"],
+          "text_image_alignment_check": "Image M6_CAPSTONE: instructions describe a capstone template for the Lesson 5 summative artwork. Keywords name the activity (capstone), workspace (frame), and content focus (shapes)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 25 templates (1 per child plus 5 extras for revisions).",
+        "Stack near the teacher table for distribution at the start of Lesson 5 Action.",
+        "No lamination needed — these are single-use summative artifacts."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "25 templates (1 per child plus 5 extras).",
+      "used_in_lessons": [5]
+    },
+    {
+      "asset_id": "M7_shape_chart",
+      "name": "Shape Anchor Chart",
+      "category": "manipulative",
+      "purpose": "A teacher-display anchor chart showing 2D and 3D shape names with visual examples and properties. Stays posted across Lessons 1, 2, and 4.",
+      "page_layout": "One letter page, landscape orientation. Top row: 5 2D shapes (circle, triangle, square, rectangle, hexagon) with names. Bottom row: 5 3D shapes (sphere, cube, cylinder, cone, pyramid) with shaded illustrations and names. A header bar labelled '2D Flat Shapes' on top and '3D Solid Shapes' on bottom separates the two rows.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_ANCHOR",
+          "description": "A landscape anchor chart for a Kindergarten classroom, B&W line art. Two horizontal rows. Top row labelled '2D Flat Shapes' shows 5 shapes left to right: circle, triangle, square, rectangle, hexagon. Each ~1.2in tall with the shape name printed below. Bottom row labelled '3D Solid Shapes' shows 5 shapes with light shading: sphere, cube, cylinder, cone, pyramid. Header bars separate the two rows. Page-wide layout, suitable for teacher display.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["circle", "triangle", "sphere", "cube"],
+          "text_image_alignment_check": "Image M7_ANCHOR: instructions describe an anchor chart used in lessons 1, 2, 4 to remind children of shape names and 2D/3D distinction. Keywords name representative shapes from each row."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on standard letter paper (or scale to 11x17 if available).",
+        "Laminate for repeated reference across the unit.",
+        "Tape to the front classroom wall before Lesson 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart for the classroom.",
+      "used_in_lessons": [1, 2, 4]
+    },
+    {
+      "asset_id": "M8_position_chart",
+      "name": "Positional Language Chart",
+      "category": "manipulative",
+      "purpose": "A teacher-display anchor chart of position words with picture examples. Stays posted across Lessons 3 and 5.",
+      "page_layout": "One letter page, portrait orientation. Six rows, each row showing one position word in large print on the left and a small picture example on the right. Words: above, below, beside, inside, outside, between. Each row ~1.5in tall.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_POSITIONS",
+          "description": "A portrait anchor chart for a Kindergarten classroom showing 6 position words, B&W line art. Six rows stacked vertically, each ~1.5in tall. Each row has the position word on the left in bold print (above, below, beside, inside, outside, between) and a small picture example on the right showing the relationship: a ball above a box, a ball below a box, two balls beside each other, a ball inside a box, a ball outside a box, a ball between two boxes. Generous spacing between rows.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["above", "below", "beside", "inside"],
+          "text_image_alignment_check": "Image M8_POSITIONS: instructions describe a position-word anchor chart for lessons 3 and 5. Keywords name the core position words shown."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on standard letter paper.",
+        "Laminate for repeated use across Lessons 3 and 5.",
+        "Tape next to the Shape Anchor Chart on the front classroom wall."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart for the classroom.",
+      "used_in_lessons": [3, 5]
+    },
+    {
+      "asset_id": "M9_animal_set",
+      "name": "Safari Animal Tokens",
+      "category": "manipulative",
+      "purpose": "A set of 12 small paper safari animal tokens (lion, elephant, giraffe, zebra, monkey, snake) used to place on the Safari Map Mat for position-word activities. Used in Lessons 3 and 5.",
+      "page_layout": "One letter page, portrait orientation. 12 tokens in a 3x4 grid. Each token ~1.5in across with a thin solid cut-line. Two of each animal: 2 lions, 2 elephants, 2 giraffes, 2 zebras, 2 monkeys, 2 snakes.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_ANIMALS",
+          "description": "A 3x4 grid of 12 safari animal tokens for a Kindergarten manipulative, B&W line art. Each token ~1.5in across with a thin solid cut-line. The grid contains 2 of each animal: lions (with mane), elephants (with trunk), giraffes (with long neck and spots), zebras (with stripes), monkeys (sitting), snakes (coiled). All in cartoon style with bold outlines suitable for a Kindergarten cut-and-place activity.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["lion", "elephant", "giraffe", "zebra"],
+          "text_image_alignment_check": "Image M9_ANIMALS: instructions describe a 12-token safari animal set used with the map mat in lessons 3 and 5. Keywords name 4 of the 6 animals included."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Single page each.",
+        "Laminate before cutting for durability across lessons 3 and 5.",
+        "Cut apart into 12 individual tokens per set.",
+        "Store each set in a labelled zip-top bag together with the Safari Map Mat."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "10 sets (1 per pair).",
+      "used_in_lessons": [3, 5]
+    },
+    {
+      "asset_id": "M10_safari_poster",
+      "name": "Shape Safari Poster",
+      "category": "manipulative",
+      "purpose": "A unit anchor poster featuring Sammy and Mira surrounded by safari shapes. Posted at the front of the classroom for the entire unit.",
+      "page_layout": "One letter page, landscape orientation. Centre: Sammy the Safari Sloth on the left and Mira the Map-Making Monkey on the right, both in cartoon style. Around them: a sun (circle), a tree (triangle + rectangle), a hut (square + triangle), a sphere ball, a cube block. Header text: 'Shape Safari!'",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "A landscape unit anchor poster for a Kindergarten Shape Safari classroom, B&W line art. Header: 'Shape Safari!' in big bubble letters at the top. Centre-left: Sammy the Safari Sloth in safari hat with binoculars. Centre-right: Mira the Map-Making Monkey holding a map. Around them, scattered: a sun (circle) in the top-left, a tree (triangle on top of a rectangle) on the right, a hut (square with triangle roof), a 3D sphere ball, a 3D cube block. Cheerful safari atmosphere.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["safari", "shapes", "sammy", "mira"],
+          "text_image_alignment_check": "Image M10_POSTER: instructions describe a Shape Safari unit anchor poster posted for all 5 lessons. Keywords name the unit theme (safari, shapes) and the two anchor characters (Sammy, Mira)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on standard letter paper (or scale to 11x17 if available).",
+        "Laminate the poster for the full unit duration.",
+        "Tape to the front classroom wall on Day 1 before Lesson 1 begins."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 poster for the classroom.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "char_sammy_puppet",
+      "name": "Sammy Puppet",
+      "category": "character_puppet",
+      "purpose": "A paper puppet of Sammy the Safari Sloth used by the teacher in the Minds-On phase of every lesson to introduce concepts in child voice.",
+      "page_layout": "One letter page, portrait orientation. A single full-body cutout of Sammy the Safari Sloth (~7in tall) with a tab at the bottom for attaching to a popsicle stick or tongue depressor.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_SAMMY_FRONT",
+          "description": "A full-body cutout of Sammy the Safari Sloth in B&W line art for a Kindergarten teacher puppet, ~7in tall. Sammy is a young sloth wearing a safari hat with brim, holding binoculars in his front paws, with a small backpack on his back. Soft fur indicated by light hatching, friendly slow smile, large round eyes. Hangs from a small branch at the top. A rectangular tab at the bottom (~2in wide) for attaching to a popsicle stick. Page-tall layout.",
+          "placement": "Centred, fills the page vertically.",
+          "approximate_size": "large",
+          "keywords": ["sammy", "sloth", "safari"],
+          "text_image_alignment_check": "Image CHAR_SAMMY_FRONT: instructions describe a Sammy the Safari Sloth puppet used by teacher across all 5 lessons. Keywords name the character (sammy), species (sloth), and unit theme (safari)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy of Sammy on cardstock if possible.",
+        "Cut around the outside of Sammy's silhouette including the bottom tab.",
+        "Laminate before assembly for durability.",
+        "Add a stick handle. Glue or tape a popsicle stick or tongue depressor behind the bottom tab so Sammy can be held up."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet for teacher use.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "char_mira_puppet",
+      "name": "Mira Puppet",
+      "category": "character_puppet",
+      "purpose": "A paper puppet of Mira the Map-Making Monkey used by the teacher in Lessons 3, 4, and 5 to introduce position words and capstone instructions.",
+      "page_layout": "One letter page, portrait orientation. A single full-body cutout of Mira the Map-Making Monkey (~7in tall) holding a map and compass, with a tab at the bottom for attaching to a popsicle stick.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_MIRA_FRONT",
+          "description": "A full-body cutout of Mira the Map-Making Monkey in B&W line art for a Kindergarten teacher puppet, ~7in tall. Mira is a young monkey holding an unfolded map in one paw and a compass in the other. She wears a small adventurer's vest. Long tail curls behind her, eager expression with bright eyes and a smile. A rectangular tab at the bottom (~2in wide) for attaching to a popsicle stick. Page-tall layout.",
+          "placement": "Centred, fills the page vertically.",
+          "approximate_size": "large",
+          "keywords": ["mira", "monkey", "map"],
+          "text_image_alignment_check": "Image CHAR_MIRA_FRONT: instructions describe a Mira the Map-Making Monkey puppet used by teacher in lessons 3, 4, 5. Keywords name the character (mira), species (monkey), and her signature object (map)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy of Mira on cardstock if possible.",
+        "Cut around the outside of Mira's silhouette including the bottom tab.",
+        "Laminate before assembly for durability.",
+        "Add a stick handle. Glue or tape a popsicle stick or tongue depressor behind the bottom tab so Mira can be held up."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet for teacher use.",
+      "used_in_lessons": [3, 4, 5]
+    }
+  ],
+  "overall_prep_notes": "Total prep time ~3.5 hours one-time before unit launch (laminating + cutting). Storage: keep all pair sets in labelled zip-top bags in a single bin. The Safari Map Mat + Animal Tokens travel together. The Pattern Blocks set is the longest single prep — print and laminate first. Set up all anchor charts on the wall on Day 1 before Lesson 1 begins."
+}

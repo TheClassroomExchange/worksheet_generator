@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_groups_of",
+  "lesson_number": 3,
+  "lesson_title": "Equal Groups — Mae's Multiplication Move",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.5"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Multiplication is repeated equal groups. 4 groups of 3 means 3 + 3 + 3 + 3 = 12.",
+  "learning_intention": "We are learning to show a multiplication problem as repeated equal groups, draw the groups, and write the multiplication equation.",
+  "student_learning_goal": "I can show a multiplication problem as repeated equal groups, draw the groups, and write the multiplication equation.",
+  "success_criteria": [
+    "I can build N equal groups of M items.",
+    "I can write 4 × 3 = 12 to show 4 groups of 3.",
+    "I can show the same multiplication as an array (rows × columns)."
+  ],
+  "vocabulary_introduced": [
+    "multiplication",
+    "array",
+    "factor",
+    "product"
+  ],
+  "vocabulary_reinforced": [
+    "equal groups"
+  ],
+  "manipulatives_used": [
+    "M2_two_colour_counters",
+    "M3_paper_kittens",
+    "M4_baskets_template",
+    "M6_array_grid",
+    "M10_workshop_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Mae the Multiplier — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Multiplication is Equal Groups' with examples",
+    "Paper kittens (~20 per group)",
+    "Baskets template (one per pair, with 6 basket outlines)",
+    "Per-pair set of two-colour counters (~30)",
+    "Array grid mat (one per pair)",
+    "Lesson 3 multiplication tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Mae's Pet Shop Delivery",
+    "hook": "Buddy delivered 4 baskets of kittens to Mae's pet shop. Each basket has 3 kittens. How many kittens altogether?",
+    "teacher_script": "Bring children to the carpet. Mae the Multiplier puppet in hand. Spread the baskets template on the floor with 4 baskets visible.\n\n'Friends — Buddy just delivered KITTENS to Mae's pet shop! 4 baskets, 3 kittens each. How many altogether?'\n\nPlace 3 paper kittens in each of 4 baskets. 'Watch — basket 1: 3 kittens. Basket 2: 3 kittens. Basket 3: 3 kittens. Basket 4: 3 kittens.' Count: 'Three, six, nine, twelve.'\n\nWrite on the board: 3 + 3 + 3 + 3 = 12. 'See — that's the same number written four times. We CAN add it like that. But Mae says — there's a FASTER way.'\n\nWrite 4 × 3 = 12. 'Mae uses a NEW symbol. The × means GROUPS OF. So 4 × 3 means FOUR GROUPS OF THREE. The answer is 12 — same total.'\n\n'4 × 3 = 12 means the same as 3 + 3 + 3 + 3 = 12. But the new way uses MULTIPLICATION.' Add to the chart: 'multiplication = repeated equal groups'.\n\nNow the array reveal. 'Mae has another way to show 4 × 3.' Take an array grid mat. Place 4 rows of 3 counters. 'See — 4 ROWS, 3 COLUMNS. That's an ARRAY. The array shows 4 × 3 = 12 with the SAME counters arranged differently.'\n\nWrite vocabulary: 'In 4 × 3 = 12, the FACTORS are 4 and 3. The PRODUCT is 12.'\n\n'Today we'll practice multiplication as equal groups AND as arrays.'",
+    "student_actions": [
+      "Watch Mae fill 4 baskets with 3 kittens each.",
+      "Help count by 3s: 3, 6, 9, 12.",
+      "Watch the new multiplication symbol × being introduced.",
+      "Echo the new vocabulary: 'multiplication', 'array', 'factor', 'product'."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Equal-Groups Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: practice 3 more multiplication problems. Problem 1: 5 baskets of 2 kittens. (Repeated addition: 2+2+2+2+2 = 10. Multiplication: 5 × 2 = 10.) Problem 2: 3 baskets of 4 kittens. (4+4+4 = 12; 3 × 4 = 12.) Problem 3: 6 baskets of 2 kittens. (2+2+2+2+2+2 = 12; 6 × 2 = 12.)",
+        "teacher_prompt": "Say to students: 'Three more together. Build the groups, write the repeated addition AND the multiplication equation.' For each, slow down on the connection between the addition and multiplication forms."
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 minutes each). Station A: Build the Equal Groups — pair has paper kittens and the baskets template; teacher writes a multiplication problem (e.g., 4 × 3); pair builds and writes both the repeated addition and multiplication forms. Station B: Build the Array — pair has the array grid mat; teacher writes a problem; pair places counters in rows × columns and writes both forms. Station C: Match Form to Form — pair has 12 cards: 6 multiplication equations (4×3, 5×2, 3×4, 6×2, 4×4, 5×3) and 6 repeated-addition expressions matching them. Match.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each. Listen for the chime to switch.' Set the rotation."
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: include 2 trick cards where the multiplication looks similar but the answer is different (4 × 3 vs 3 × 4 — both = 12; 4 × 4 vs 4 × 5 — different products). Discuss how 4 × 3 and 3 × 4 are commutative.",
+        "teacher_prompt": "Say to pairs at Station C: 'You'll find pairs that look almost the same — like 4 × 3 and 3 × 4. Are these the same? Why?' Lead pairs to recognise commutativity for multiplication: same product, different group structure (4 groups of 3 vs 3 groups of 4)."
+      },
+      {
+        "step_number": 4,
+        "instruction": "Circulate to record formative evidence on the multiplication tracker. Watch for: (a) does the child build the correct number of groups? (b) does the child see the connection between repeated addition and multiplication? (c) can the child write 4×3=12 from a basket arrangement?",
+        "teacher_prompt": "Stop at each pair. Hand them a multiplication problem and ask 'Show me with the kittens AND write the equation.' Mark the tracker for build accuracy AND equation writing."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Children whose Lesson 1-2 work was emerging stay at Station A (Build the Equal Groups) for both rotations. Use only small problems (2 × 3, 3 × 2, 2 × 4) to anchor the equal-groups concept before formal multiplication notation.",
+      "for_extending": "Stretch problems: 6 × 5 = 30, 4 × 7 = 28. Discuss patterns in multiplication facts (e.g., counting by 5s gives 5, 10, 15, 20, 25, 30 — same as 1×5, 2×5, ..., 6×5).",
+      "for_ell_or_iep": "Provide a sentence frame: '___ groups of ___ is ___ in total. ___ × ___ = ___.' Provide picture-supported problem cards. Pair with a strong-counter peer for Station B (the array build).",
+      "for_movement_learners": "Build the Equal Groups at Station A is naturally kinesthetic (placing kittens). For movement learners, allow them to physically jump between basket positions on the floor while counting by 3s. Body-on-floor jumping reinforces skip-counting."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: (1) does the child build the correct number of equal groups? (2) does the child see and write both the repeated-addition and multiplication forms? (3) can the child build the same multiplication as an array?",
+      "how_to_record": "Tick the multiplication tracker per child as you observe.",
+      "tracker_columns": [
+        "Student name",
+        "Builds correct number of equal groups",
+        "Writes repeated addition AND multiplication",
+        "Builds same problem as array",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Mae's Multiplication Brag",
+    "discussion_prompts": [
+      "What does multiplication MEAN? How do you say 4 × 3 in words?",
+      "Why is 4 × 3 the same as 3 × 4?",
+      "How is an array different from a basket of equal groups?",
+      "When is multiplication FASTER than repeated addition?"
+    ],
+    "exit_routine": "Each child writes one multiplication equation from today on a sticky note: '___ × ___ = ___ (___ groups of ___).' Notes go onto the anchor chart on the way to the door."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Equal-groups building, repeated-addition AND multiplication equation writing, AND array construction across 3-5 problems per child.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 is the B2.5 conceptual gateway. Children who can flex between the GROUPS form (4 × 3) and the ARRAY form (4 rows × 3 columns) are at L4. Children who only see ONE form may need explicit array practice before Grade 3 multiplication."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes 4 × 3 = 12 correctly but cannot explain WHY 4 × 3 means '4 groups of 3' — repairing the multiplication-as-grouping understanding",
+    "rationale": "The most common Grade-2 trap on B2.5 is a notation-without-understanding error: the child memorises the multiplication symbol × and the fact 4 × 3 = 12, but cannot explain that 4 × 3 means '4 GROUPS OF 3'. When asked to show 4 × 3 with kittens, they might place 4 kittens in each of 3 baskets (which would be 3 × 4) or scatter 12 kittens in no particular grouping.\n\nThe distinction matters because B2.5 explicitly requires multiplication as REPEATED EQUAL GROUPS — the conceptual structure is the curriculum target, not just the answer 12. A child who can recite 4 × 3 = 12 without understanding 'GROUPS OF' will struggle when groups change to halves or fourths in Lesson 4 (e.g., 4 × 1/2 makes no sense without the grouping interpretation).\n\nThe expanded walkthrough covers the precise moment when a child has written 4 × 3 = 12 but cannot demonstrate it correctly with kittens.",
+    "setup": "Pair is at Station A (Build the Equal Groups). The teacher has written 4 × 3 on the card. The child has scattered 12 kittens randomly on the table and written 4 × 3 = 12. Asked to show with baskets, they put 4 kittens in 3 of the baskets (=12 kittens but 3 groups of 4, which is 3 × 4).",
+    "teacher_script": "Crouch beside the child. 'Show me 4 × 3 with the baskets.' The child puts 4 kittens in each of 3 baskets. Total: 12. 'OK — you got 12 total. But look at the basket arrangement. How many baskets do you see?' '3.' 'And how many kittens IN EACH basket?' '4.' 'Right — that's 3 baskets of 4. We write that as 3 × 4. But the card says 4 × 3. The order matters for HOW we set it up.'\n\nNow the rule. 'Mae says — when we write A × B, the FIRST number tells us HOW MANY GROUPS, and the SECOND number tells us HOW MANY IN EACH GROUP. So 4 × 3 means 4 GROUPS of 3.'\n\nHave the child rebuild. 'Try again. 4 × 3 = ?' The child rearranges: 4 baskets, each with 3 kittens. Total: 12. 'Yes! 4 groups of 3 = 12. Same answer, different setup.'\n\nNow the connection to commutativity. 'Both 4 × 3 and 3 × 4 give 12, but they tell DIFFERENT stories. 4 × 3 is the kitten basket story (4 baskets, 3 each). 3 × 4 is a different story (3 baskets, 4 each). Multiplication is COMMUTATIVE — same product, but the GROUP STRUCTURE is different.'\n\nIf the child STILL can't distinguish 4 × 3 from 3 × 4: focus on real-world stories. 'Mae sells kittens in baskets of 3. She has 4 baskets. How many kittens?' Use the story-context to anchor groups-vs-each.\n\nLong-term recovery: every multiplication problem this week, ask the question 'how many GROUPS, and how many in EACH GROUP?' before writing the equation. Trains the structural reading of the × symbol.",
+    "expected_student_responses": [
+      "(Confused) Writes 4 × 3 = 12 from memory but builds 3 baskets of 4 (or scatter). Most common at the start of Lesson 3 for transition learners.",
+      "(Mid) Builds correctly when prompted with 'how many baskets'; doesn't yet auto-translate × to groups-of structure.",
+      "(Strong) Reads 4 × 3 as '4 groups of 3' before building. Has internalised the structural meaning.",
+      "(Stretched) Volunteers commutativity: 'I could also build 3 × 4 with 3 baskets of 4. Same total. Different story.' Sees both as valid but distinct."
+    ],
+    "common_misconceptions": [
+      "× means 'and' or 'plus'. (Children read 4 × 3 as 'four and three' = 7. Repair: × is a NEW symbol that means 'groups of'.)",
+      "The order of factors doesn't matter for the structure. (Repair: 4 × 3 and 3 × 4 give the same PRODUCT but different GROUP STRUCTURE — same total, different story.)",
+      "Multiplication is repeated counting. (Children compute 4 × 3 by counting 1, 2, 3, 4, ..., 12 instead of seeing 4 groups of 3. Repair: the GROUPS structure is the goal — counting is just how we verify.)"
+    ],
+    "recovery_moves": [
+      "Always say the multiplication aloud as 'A groups of B'. '4 × 3 means 4 groups of 3.' Trains the structural reading.",
+      "Build BEFORE writing the equation. Children who write first treat the build as decoration; children who build first internalise the structure.",
+      "Use real-world contexts: kittens in baskets, eggs in cartons, cookies on plates. The story makes the GROUPS concrete."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Mae's Equal Groups Workshop",
+    "purpose": "Independent practice of B2.5 (multiplication as repeated equal groups). Captures formative evidence on group-building and equation writing.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Six basket scenes. Each shows N baskets with M items each. Child writes the repeated addition AND the multiplication equation.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Four array grids. Each shows R rows × C columns of dots. Child writes the multiplication equation for each.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Build-it: child receives 3 multiplication problems (e.g., 5 × 4) and draws the equal groups OR the array on a blank box.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 4,
+        "task": "Open prompt: 'In what real-life situations do you see equal groups? Draw and write 1-2 examples.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Mae the Multiplier in the worksheet header",
+      "Six basket scenes for Part 1",
+      "Four array grids for Part 2",
+      "Three blank-box drawing areas for Part 3",
+      "A blank lined area for Part 4"
+    ]
+  }
+}

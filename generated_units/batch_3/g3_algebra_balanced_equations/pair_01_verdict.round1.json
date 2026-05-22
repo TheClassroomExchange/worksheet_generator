@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_01 covers C2.1 only; the expanded_walkthrough and consolidation never reference what is coming on Day 2 (C2.2 equivalence) or wire 'variable' into the upcoming balance-scale work, so the pair does not bridge to neighbouring days in the unit's arc as Level 4 requires.",
+      "required_fix": "Add an explicit forward-bridge in consolidation or expanded_walkthrough: e.g., 'Tomorrow Eddy will put expressions on Vex's balance scale — the variable n in 5 + n = 12 will become a number that makes both sides equal.' Cross-reference Day 2 by name so the arc is visible to the teacher.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the letter-as-label trap and gives concrete recovery moves, but it cites no research and recovery_moves do not branch by what the diagnostic told the teacher about the child (Level 4 requires 'recovery_moves branches by what the diagnostic told you').",
+      "required_fix": "Cite the research grounding (e.g., Kuchemann 1981 / Knuth et al. 2006 on letter-as-label and letter-as-object misconceptions) and split recovery_moves into a branch: if the child can read T as a number with the frame, drill varying-value examples; if the child still says 'Toronto', drop back to a single concrete value (T = 5) before reintroducing variation.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Eddy anchors minds_on and consolidation and the success_criteria all start with 'I can', but there is no quotable refrain or memorable chant — consolidation.exit_routine is just a sentence frame ('___ is a variable because ___'), nothing children carry between lessons as Level 4 requires.",
+      "required_fix": "Give Eddy a distinctive refrain children chant back at consolidation, e.g. 'Letters in math STAND for NUMBERS!' with a matching gesture, and reuse it as the closing line in lessons 2-5 so the character has continuity across the unit.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Each worksheet part maps to a success criterion and parts mirror parts_outline, but Parts 1-3 essentially rote-repeat the lesson's three station tasks (identify, sort U/V, write own) — there is no deliberate transfer task or 2 unfamiliar items to verify generalization as Level 4 requires.",
+      "required_fix": "Add a transfer item to Part 2 or a fourth mini-section: include 1-2 unfamiliar variable contexts not seen in lesson stations (e.g., gas-tank level G, bus-stop wait time W) and explicitly justify in teacher_notes that these verify the child generalizes letter-as-number beyond the four classroom examples.",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Variables are conceptually distinguished as unknown-vs-varying and vocabulary is precise, but the lesson does not let children invent or compare strategies, and the expanded_walkthrough does not name the misconception in research-grounded terms (Kuchemann's 'letter as object', Knuth on equivalence) as Level 4 requires.",
+      "required_fix": "In step 3 or consolidation, ask pairs to compare TWO of their own variable choices and decide whose better fits 'unknown' vs 'varying' and why, and rename the trap in expanded_walkthrough as 'letter-as-object misconception (Kuchemann 1981)' so the research grounding is explicit.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 is solid foundation work — Eddy is consistent, materials are everyday with optional puppet, time is realistic, and the letter-as-label trap is concrete. But four categories sit at 3: no forward-bridge to Day 2, no research citation or branching recovery, no memorable chant, no transfer items on the worksheet, and no invent-and-compare moment. Lift these to 4 and the pair will pass."
+}

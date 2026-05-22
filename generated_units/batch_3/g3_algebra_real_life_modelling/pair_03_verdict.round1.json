@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "pair_number": 3,
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 4,
+  "clarity_voice": 4,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 4,
+  "status": "revise_lesson",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use scaling chart.', 'Drill \\'rule x time\\'.', 'Practice with multiple spans.'] — these are concrete but do not branch by what the diagnostic showed, and the trap ('small-scale-only trap') is not anchored to named research on Grade-3 multiplicative reasoning.",
+      "required_fix": "Rewrite recovery_moves so they branch by diagnostic: (a) if child gives daily count for a weekly question but can multiply when prompted, drill 'rule x span' with a span-labelled scaling chart (1 day → 1 week → 1 month); (b) if child cannot multiply 250 x 5, drop back to repeated-addition with counters on the number line, then re-bridge to multiplication; (c) if child multiplies but applies the wrong span (e.g., 50 x 4 weeks instead of 50 x 4 Saturdays in the month), require them to label the unit and the span before computing. Cite the research base in the rationale — this is the multiplicative-reasoning unit-coordination trap (Steffe & Cobb 1988; Confrey on splitting; Smith & Thompson on quantitative reasoning), distinct from additive-only thinking that persists into G3.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale and common_misconceptions name the 'small-scale-only trap' generically and never cite a research frame (Carpenter & Moser CGI multiplicative types, Steffe units-coordination, Empson, Battista). Station C lets pairs invent a rule, but the action steps and consolidation never have children COMPARE strategies — there is no moment where two pairs share different rules or different ways of scaling and the class discusses which is more efficient.",
+      "required_fix": "Add an explicit invent-and-compare moment: in action.steps step 4 or in consolidation, have two pairs share their Station C rules and how they scaled (e.g., one pair did 80 x 4 by skip-counting, another by doubling 80 then doubling again; one pair predicted weekly then x4, another predicted monthly directly). Teacher prompts: 'Which way got us to the same prediction? Which way is faster? Which way handles bigger spans?' Then in expanded_walkthrough.rationale, name the underlying construct in research terms — community-scale prediction at Grade 3 is a units-coordination task in the sense of Steffe & Cobb (1988) / Confrey's splitting, where the child must hold the per-unit rule (per Saturday) and the span (number of Saturdays) as composite units simultaneously. This lifts the lesson from procedural multiplication to conceptual multiplicative reasoning.",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

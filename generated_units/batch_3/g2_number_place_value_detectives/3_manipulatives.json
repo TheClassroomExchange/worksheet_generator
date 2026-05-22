@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "overall_prep_notes": "Total prep time across all 13 assets is approximately 2.5 hours. The bulk is M3 0-200 Number Line (11 letter pages tiled), M4 Decomposition Cards (30 cards laminated), M5 Compare Cards (24 cards), and M9 Third/Sixth Pizza Cards. Base-ten blocks (M1) and snap cubes (M6) are standard math-kit items. The three character puppets (Hugo, Tina, Ona) should be printed on cardstock for years of reuse.",
+  "assets": [
+    {
+      "asset_id": "M1_base_ten_blocks",
+      "name": "Base-Ten Blocks",
+      "category": "manipulative",
+      "purpose": "Per-pair set: 4 hundred-flats + 20 ten-rods + 30 unit-cubes. Used for Lesson 1 representation and Lesson 2 composition.",
+      "page_layout": "Not printable — physical blocks from the classroom math kit. Page is a storage-bag label.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_BASE_TEN_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows a hundred-flat, a ten-rod, and a unit-cube stacked, with the header 'BASE-TEN BLOCKS — 4 flats + 20 tens + 30 ones per pair'.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "base-ten",
+            "blocks"
+          ],
+          "text_image_alignment_check": "Image M1_BASE_TEN_LABEL: keywords (base-ten, blocks) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Prep this step carefully. Confirm you have a class set of base-ten blocks (4 flats + 20 tens + 30 ones per pair = ~40 flats + 200 tens + 300 ones for a class of 20).",
+        "Print storage labels; tape to zip-top bags.",
+        "Sort into per-pair bags before Lesson 1.",
+        "Have bags ready at the start of Lessons 1 and 2.",
+        "Optional: use printable base-ten cards if physical blocks are unavailable."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "4 flats + 20 tens + 30 ones per pair = ~40+200+300 for a class of 20.",
+      "used_in_lessons": [
+        1,
+        2
+      ]
+    },
+    {
+      "asset_id": "M2_place_value_mat",
+      "name": "Place-Value Mat",
+      "category": "manipulative",
+      "purpose": "Letter-size mat with three labeled columns: HUNDREDS, TENS, ONES. Used in Lessons 1 and 2 for organising base-ten representations.",
+      "page_layout": "Single letter page, landscape. Three labeled columns; thin borders between.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_PLACE_VALUE_MAT",
+          "description": "A place-value mat in B&W line-art on a landscape letter page. Three columns from left to right: HUNDREDS (with a hundred-flat icon), TENS (with a ten-rod icon), ONES (with a unit-cube icon). Each column ~3.5in wide and 7in tall. Thin black borders between columns.",
+          "placement": "Centred on the page, full-width landscape.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "mat",
+            "columns"
+          ],
+          "text_image_alignment_check": "Image M2_PLACE_VALUE_MAT: keywords (mat, columns) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 mat per child (20+ pages for a class of 20).",
+        "Laminate every page.",
+        "Hand out at the start of Lesson 1; collect at the end of Lesson 2.",
+        "Store mats in a labelled folder between lessons.",
+        "Optional: print extras for emerging-learner small group review."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "1 mat per child = 20+ for a class of 20.",
+      "used_in_lessons": [
+        1,
+        2
+      ]
+    },
+    {
+      "asset_id": "M3_number_line_200",
+      "name": "0-200 Number Line",
+      "category": "manipulative",
+      "purpose": "Long printable strip showing numbers 0 to 200 with cells ~2.5in each. Used in Lesson 1 skip-counting and Lesson 2 ordering.",
+      "page_layout": "11 letter pages, landscape. Each page holds 20 cells of the Number Line; 11 pages tile to 220 cells (0 to 200 plus margin).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 11,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_NUMBER_LINE_PAGE",
+          "description": "A 20-cell horizontal Number Line tile in B&W line-art on a landscape letter page. Each cell ~1.3in wide × 1.2in tall with the numeral printed in the centre. Cells border each other with thin cut-lines so multiple pages tile seamlessly.",
+          "placement": "Repeated 11 times to cover 0-200.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "number-line",
+            "cells"
+          ],
+          "text_image_alignment_check": "Image M3_NUMBER_LINE_PAGE: keywords (number-line, cells) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print all 11 pages on cardstock if available; otherwise paper + laminate.",
+        "Laminate each page before assembly.",
+        "Prep this step carefully. Tape pages together (or use removable painter's tape) to make a continuous strip ~25ft long.",
+        "Lay the strip on the carpet for Lessons 1 and 2; roll up after each lesson.",
+        "Optional: use a long roll of paper instead of tiled letter pages."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "1 strip for the whole class.",
+      "used_in_lessons": [
+        1,
+        2
+      ]
+    },
+    {
+      "asset_id": "M4_decomposition_cards",
+      "name": "Number Decomposition Cards",
+      "category": "manipulative",
+      "purpose": "Set of 30 cards. Each shows a target number (47, 89, 132, 178, etc.) and three blank slots for the child to write three different decompositions.",
+      "page_layout": "5 letter pages, portrait. Each page holds 6 decomposition cards in a 2x3 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 5,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_DECOMP_CARD",
+          "description": "A decomposition card in B&W line-art, ~3in × 4in. Top half shows the target number in a large circle (e.g., 132) with the label 'TARGET'. Bottom half has three blank decomposition lines '___+___+___'. Cut lines around each card.",
+          "placement": "Repeated 30 times across 5 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "decomposition",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M4_DECOMP_CARD: keywords (decomposition, card) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 5 pages on cardstock.",
+        "Laminate every page before cutting.",
+        "Cut along cut lines into 30 individual cards.",
+        "Sort by difficulty (under 100, 100-150, 150-200). Colour-code the corner with a sticker if desired.",
+        "Distribute 10 cards per pair for Lesson 2 Station A."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "30 cards per class set.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M5_compare_cards",
+      "name": "Compare-Two-Numbers Cards",
+      "category": "manipulative",
+      "purpose": "Set of 24 number-pair cards. Used in Lesson 2 partner game for compare-and-explain practice.",
+      "page_layout": "4 letter pages, portrait. Each page holds 6 compare cards in a 2x3 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_COMPARE_CARD",
+          "description": "A compare card in B&W line-art, ~3in × 4in. Two number boxes side by side (e.g., '147' and '174') with a '?' bubble between them. Below: 'Which is bigger? Why?'. Cut lines around each card.",
+          "placement": "Repeated 24 times across 4 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "compare",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M5_COMPARE_CARD: keywords (compare, card) name what the card shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages on cardstock.",
+        "Laminate every page before cutting.",
+        "Cut along cut lines into 24 individual cards.",
+        "Sort by type (same-hundreds pairs, different-hundreds pairs, edge cases like 99 vs 100).",
+        "Distribute 8 cards per pair for Lesson 2 Station B."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "24 cards per class set.",
+      "used_in_lessons": [
+        2
+      ]
+    },
+    {
+      "asset_id": "M6_pair_up_cubes",
+      "name": "Pair-Up Cubes",
+      "category": "manipulative",
+      "purpose": "Per-pair set of 30 connecting cubes. Used in Lesson 3 even/odd investigation — children try to pair up the cubes.",
+      "page_layout": "Not printable — physical snap cubes from the classroom math kit. Page is a storage-bag label.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CUBES_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows two connected cubes with a header 'PAIR-UP CUBES — 30 per pair'.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "cubes",
+            "pair-up"
+          ],
+          "text_image_alignment_check": "Image M6_CUBES_LABEL: keywords (cubes, pair-up) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Confirm you have a class set of snap cubes (30 per pair = 300 for a class of 20).",
+        "Print storage labels; tape to zip-top bags.",
+        "Sort into per-pair bags before Lesson 3.",
+        "Have bags ready at the start of Lesson 3.",
+        "Optional: use any small countable items (e.g., LEGO bricks) if snap cubes are unavailable."
+      ],
+      "estimated_prep_minutes": 8,
+      "quantity_per_class": "30 cubes per pair = 300 for a class of 20.",
+      "used_in_lessons": [
+        3
+      ]
+    },
+    {
+      "asset_id": "M7_hundreds_chart",
+      "name": "Hundreds Chart 1-100",
+      "category": "manipulative",
+      "purpose": "Letter-size hundreds chart in a 10x10 grid. Used in Lesson 3 even/odd sort and Lesson 1 skip-counting reference.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_HUNDREDS_CHART",
+          "description": "A 10x10 hundreds chart in B&W line-art on a portrait letter page. Numbers 1-100 in a 10-row × 10-column grid. Each cell ~0.7in × 0.7in with the numeral centred. Thin black borders.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "hundreds",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M7_HUNDREDS_CHART: keywords (hundreds, chart) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 chart per pair (10+ pages for a class of 20).",
+        "Laminate every page so children can use dry-erase markers.",
+        "Hand out at the start of Lesson 3.",
+        "Store in a labelled folder.",
+        "Optional: have a large classroom poster version for whole-class demos."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 chart per pair = 10+ for a class of 20.",
+      "used_in_lessons": [
+        1,
+        3
+      ]
+    },
+    {
+      "asset_id": "M8_estimation_jars",
+      "name": "Estimation Jars",
+      "category": "manipulative",
+      "purpose": "Three clear jars of different sizes for Lesson 4 estimation: small (~50 items), medium (~100 items), large (~175 items). Items can be buttons, marbles, beans, or cubes.",
+      "page_layout": "Not printable — physical jars. Page is a label/instructions sheet.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_JARS_LABEL",
+          "description": "A label and instructions sheet, ~7in × 9in, in B&W line-art. Shows three jar illustrations (small, medium, large) with capacity labels '~50, ~100, ~175'. Below the illustrations, a list of suitable items.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "jars",
+            "estimation"
+          ],
+          "text_image_alignment_check": "Image M8_JARS_LABEL: keywords (jars, estimation) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Source 3 clear glass or plastic jars (small ~250mL, medium ~500mL, large ~1L).",
+        "Fill jar 1 with ~45-55 small items (buttons, marbles, beans).",
+        "Fill jar 2 with ~95-105 items.",
+        "Fill jar 3 with ~165-180 items.",
+        "Print the labels sheet and tape to a wall as a station reference."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "3 jars for the classroom.",
+      "used_in_lessons": [
+        4
+      ]
+    },
+    {
+      "asset_id": "M9_third_sixth_pizzas",
+      "name": "Third/Sixth Pizza Cards",
+      "category": "manipulative",
+      "purpose": "Printable letter-size cards showing whole pizzas, thirds, and sixths. Used in Lesson 5 to reveal that 1/3 = 2/6 visually.",
+      "page_layout": "3 letter pages, portrait. Each page holds 2 pizza cards (whole, thirds, sixths) plus blank pizza outline cards for shading practice.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 3,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_PIZZA_CARD",
+          "description": "Pizza fraction cards in B&W line-art, ~5in diameter each. Card 1: whole pizza (no divisions). Card 2: divided into 3 equal thirds. Card 3: divided into 6 equal sixths. Card 4: blank pizza outline for shading practice. Each card has a thin black border.",
+          "placement": "2 cards per letter page.",
+          "approximate_size": "large",
+          "keywords": [
+            "pizza",
+            "thirds",
+            "sixths"
+          ],
+          "text_image_alignment_check": "Image M9_PIZZA_CARD: keywords (pizza, thirds, sixths) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 3 pages on cardstock.",
+        "Laminate every page before cutting.",
+        "Cut into individual pizza cards.",
+        "Sort: whole, thirds, sixths, blanks.",
+        "Distribute one set per group of 4 children for Lesson 5."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 set per group = ~5 sets for a class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_share_plates",
+      "name": "Sharing Paper Plates",
+      "category": "manipulative",
+      "purpose": "Set of 6 paper plates per group. Children deal collections fairly between 2, 3, 4, or 6 sharers in Lesson 5.",
+      "page_layout": "Not printable — real disposable paper plates.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_PLATES_LABEL",
+          "description": "A storage-bag label, ~3in × 4in, in B&W line-art. Shows a stack of 4 paper plates with a header 'SHARING PLATES — 6 per group'. Decorative cookie icons around the border.",
+          "placement": "Top-centre of the page.",
+          "approximate_size": "small",
+          "keywords": [
+            "plates",
+            "share"
+          ],
+          "text_image_alignment_check": "Image M10_PLATES_LABEL: keywords (plates, share) name what the label shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Prep this step carefully. Buy a pack of small disposable paper plates (6 per group = ~30 for a class of 20 in groups of 4).",
+        "Print storage labels; tape to plate stacks if desired.",
+        "Sort into per-group sets before Lesson 5.",
+        "Have plates ready at the start of Lesson 5.",
+        "Reuse plates across the week if they stay clean."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "6 plates per group = ~30 for a class of 20.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "char_hugo_puppet",
+      "name": "Detective Hugo Hundreds",
+      "category": "character_puppet",
+      "purpose": "Printable Detective Hugo Hundreds illustration on a popsicle stick — the unit's lead character.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_HUGO_FRONT",
+          "description": "Detective Hugo Hundreds illustration in B&W line-art: a clever-looking detective with a tall top hat marked 'HUNDREDS' (with a small '100' badge), long brown coat, magnifying glass in pocket, sharp eyes, friendly smile, holding a notebook. ~6in tall on a letter page with a 1in attachment tab below.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "hugo",
+            "detective"
+          ],
+          "text_image_alignment_check": "Image CHAR_HUGO_FRONT: keywords (hugo, detective) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible.",
+        "Cut around Hugo's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_tina_puppet",
+      "name": "Detective Tina Tens",
+      "category": "character_puppet",
+      "purpose": "Printable Detective Tina Tens illustration on a popsicle stick — Hugo's partner.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_TINA_FRONT",
+          "description": "Detective Tina Tens illustration in B&W line-art: an energetic detective wearing a striped vest with '10' patches, a cap, and holding a magnifying glass. Eager expression, slightly shorter than Hugo, with a small detective pad. ~6in tall with attachment tab below.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "tina",
+            "detective"
+          ],
+          "text_image_alignment_check": "Image CHAR_TINA_FRONT: keywords (tina, detective) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible.",
+        "Cut around Tina's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_ona_puppet",
+      "name": "Detective Ona Ones",
+      "category": "character_puppet",
+      "purpose": "Printable Detective Ona Ones illustration on a popsicle stick — the rookie detective who anchors Lesson 3.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_ONA_FRONT",
+          "description": "Detective Ona Ones illustration in B&W line-art: a small detective with a single '1' badge on her shirt, a tiny bowtie, holding a paper-clip evidence bag. Determined expression. ~6in tall with attachment tab below.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "ona",
+            "detective"
+          ],
+          "text_image_alignment_check": "Image CHAR_ONA_FRONT: keywords (ona, detective) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 page on cardstock if possible.",
+        "Cut around Ona's silhouette including the tab.",
+        "Glue or tape a popsicle stick behind the tab.",
+        "Optional: laminate before cutting.",
+        "Store flat in a folder."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet for the teacher.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    }
+  ]
+}

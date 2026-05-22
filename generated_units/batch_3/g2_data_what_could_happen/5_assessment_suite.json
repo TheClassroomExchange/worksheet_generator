@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "What Could Happen? — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1.",
+    "expectation_focus": [
+      "D2.1"
+    ],
+    "columns": [
+      "Student name",
+      "Names impossible",
+      "Names possible",
+      "Names certain",
+      "Notes"
+    ],
+    "usage_notes": "Walk between pairs to observe likelihood vocabulary use. Tick where evidence is clear.",
+    "layout_description": "One letter page, portrait, 5-column tick table with 24 rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "Diagnostic tracker for a Grade 2 teacher. Title: 'What Could Happen? — Day 1'. D2.1. 5-column tick table.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "tracker",
+          "likelihood"
+        ],
+        "text_image_alignment_check": "AS_DIAG_TRACKER: keywords name the artifact and focus."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "What Could Happen? — Lesson 2 Formative (Complement)",
+      "when_used": "During Lesson 2.",
+      "expectation_focus": [
+        "D2.1"
+      ],
+      "columns": [
+        "Student name",
+        "Names complement",
+        "Matches pairs",
+        "Uses either-or",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair to observe complement identification. Tick where evidence is clear.",
+      "layout_description": "Identical layout to diagnostic tracker.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "Lesson 2 formative tracker.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "complement"
+          ],
+          "text_image_alignment_check": "AS_FORM_TRACKER_L2: keywords name the artifact."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "What Could Happen? — Lesson 3 Formative (Spinner)",
+      "when_used": "During Lesson 3.",
+      "expectation_focus": [
+        "D2.1"
+      ],
+      "columns": [
+        "Student name",
+        "Reads spinner",
+        "Predicts most likely",
+        "Records results",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair to observe spinner predictions. Tick where evidence is clear.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the appropriate lesson column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "Lesson 3 formative tracker.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "spinner"
+          ],
+          "text_image_alignment_check": "AS_FORM_TRACKER_L3: keywords name the artifact."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "What Could Happen? — Lesson 4 Formative (Dice/Mode)",
+      "when_used": "During Lesson 4.",
+      "expectation_focus": [
+        "D2.2"
+      ],
+      "columns": [
+        "Student name",
+        "Rolls and records",
+        "Finds mode",
+        "Compares modes",
+        "Notes"
+      ],
+      "usage_notes": "Stop at each pair to observe dice rolling and mode identification. Tick where evidence is clear.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the appropriate lesson column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "Lesson 4 formative tracker.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tracker",
+            "dice"
+          ],
+          "text_image_alignment_check": "AS_FORM_TRACKER_L4: keywords name the artifact."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "What Could Happen? — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 to score against both expectations on a 4-level scale.",
+    "rows": [
+      {
+        "expectation_code": "D2.1",
+        "expectation_text": "use mathematical language, including the terms “impossible”, “possible”, and “certain”, to describe the likelihood of complementary events happening, and use that likelihood to make predictions and informed decisions",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Defaults to POSSIBLE for everything. Cannot identify complement pairs."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Names I/P/C with prompts. Identifies complement pairs in obvious cases."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently uses likelihood vocabulary AND identifies complementary events. Predicts spinner outcomes correctly."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Distinguishes strict complements from non-complements (e.g., hot/cold has warm in between)."
+          }
+        ]
+      },
+      {
+        "expectation_code": "D2.2",
+        "expectation_text": "make and test predictions about the likelihood that the mode(s) of a data set from one population will be the same for data collected from a different population",
+        "levels": [
+          {
+            "level_number": 1,
+            "level_name": "Beginning",
+            "descriptor": "Cannot predict mode. Predicts same mode regardless of group."
+          },
+          {
+            "level_number": 2,
+            "level_name": "Developing",
+            "descriptor": "Predicts mode for one group with prompts. Tests in second group."
+          },
+          {
+            "level_number": 3,
+            "level_name": "Achieving",
+            "descriptor": "Independently predicts mode in one group and accepts that another group's mode may differ."
+          },
+          {
+            "level_number": 4,
+            "level_name": "Exceeding",
+            "descriptor": "Reasons about WHY modes differ across groups (different favourites)."
+          }
+        ]
+      }
+    ],
+    "usage_notes": "Score during Lesson 5 capstone. Level 3 is grade-level.",
+    "layout_description": "One letter page, landscape, 2-row × 4-level grid.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "Summative rubric for Grade 2 What Could Happen? unit. 5-column table with 2 rows for D2.1 and D2.2.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "rubric",
+          "likelihood"
+        ],
+        "text_image_alignment_check": "AS_RUBRIC: keywords name the artifact and focus."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Mode Prediction Capstone — Summative Administration Guide",
+    "purpose": "Ties the Lesson 5 capstone, the 5 stations, and the rubric together.",
+    "administration_steps": [
+      "Before: photocopy templates, print rubric, ready Junior Likelihood Detective certificates.",
+      "Stations 1-5 (5 min each): each child rotates through LIKELIHOOD, COMPLEMENT, SPINNER, DICE MODE, SURVEY+PREDICT.",
+      "Station 1: 4 events I/P/C (D2.1).",
+      "Station 2: complement pairs (D2.1).",
+      "Station 3: spinner predict + test (D2.1, D2.2).",
+      "Station 4: dice mode (D2.2).",
+      "Station 5: survey 5 + predict another group's mode (D2.2).",
+      "After: review with each child."
+    ],
+    "scoring_guidance": "Use the Capstone Template as primary evidence. Level 3 = grade-level.",
+    "evidence_per_expectation": {
+      "D2.1": "Stations 1-3. Likelihood and complement identification + spinner prediction.",
+      "D2.2": "Stations 4-5. Dice mode + survey mode + cross-group prediction."
+    }
+  },
+  "certificate": {
+    "title": "Junior Likelihood Detective Certificate (G2)",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day What Could Happen? unit and demonstrating the skills of a G2 Junior Likelihood Detective. Lucky Lou the Loon congratulates the student.",
+    "skills_demonstrated": [
+      "Using likelihood vocabulary",
+      "Naming complementary events",
+      "Predicting spinner outcomes",
+      "Finding mode and predicting across groups"
+    ],
+    "layout_description": "One letter page, portrait, decorative border, title, recipient line, achievement text, skill bullets, signature lines, small Lucky illustration.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "Decorative border for Grade 2 certificate, ~0.5in inset. Scrollwork with coin + dice motifs at corners. B&W line art.",
+        "placement": "Frames the entire page.",
+        "approximate_size": "full_width",
+        "keywords": [
+          "certificate"
+        ],
+        "text_image_alignment_check": "AS_CERT_BORDER at Frames the entire page: keyword names the artifact."
+      },
+      {
+        "id": "AS_CERT_LUCKY",
+        "description": "Small Lucky Lou the Loon at bottom-centre, ~1.5in tall, holding magnifying glass.",
+        "placement": "Bottom-centre.",
+        "approximate_size": "small",
+        "keywords": [
+          "lucky",
+          "certificate"
+        ],
+        "text_image_alignment_check": "AS_CERT_LUCKY at Bottom-centre: keywords name the character and artifact."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

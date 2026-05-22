@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "formative_worksheets": [
+    {
+      "title": "The Compare and Calendar Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check.",
+      "purpose": "Standalone formative check confirming attribute identification and length/mass comparison before introducing calendar.",
+      "expectations_assessed": ["E2.1", "E2.2"],
+      "student_learning_goal": "I can name attributes and compare objects.",
+      "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can name attributes and compare objects.",
+        "character_watermark": "Roo the Ruler Rabbit in the top-right corner with a clipboard. Small (~1.5in tall). References blueprint.recurring_characters."},
+      "prompts": [
+        {"prompt_number": 1, "prompt": "Name the attribute (length / area / mass / capacity) for each object.",
+         "visual_layout": "4 object icons with writing lines below each.",
+         "image_placeholders": [{"id": "FORM_Q1_OBJECTS", "description": "4 object icons in a row for a Grade 1 formative check, B&W line art. From left: pencil, book, rock, cup. Each ~1.2in. Beside each, a writing line for the attribute.",
+           "placement": "Centred in Prompt 1.", "approximate_size": "medium", "keywords": ["objects", "attribute"],
+           "text_image_alignment_check": "FORM_Q1_OBJECTS at Prompt 1: instructions ask the child to name attributes. Keywords name the activity."}],
+         "response_type": "draw_or_write", "answer_key": "Pencil: length. Book: area. Rock: mass. Cup: capacity."},
+        {"prompt_number": 2, "prompt": "Order 3 strips from shortest (1) to longest (3).",
+         "visual_layout": "3 strips of varied length aligned at left edge.",
+         "image_placeholders": [{"id": "FORM_Q2_STRIPS", "description": "3 horizontal strips for a Grade 1 formative check, B&W line art. Lengths in mixed order: 2in, 4in, 1in. Aligned at left edge with number boxes.",
+           "placement": "Centred in Prompt 2.", "approximate_size": "medium", "keywords": ["strips", "order"],
+           "text_image_alignment_check": "FORM_Q2_STRIPS at Prompt 2: instructions ask the child to order strips. Keywords name the elements."}],
+         "response_type": "draw_or_write", "answer_key": "1in→1, 2in→2, 4in→3."},
+        {"prompt_number": 3, "prompt": "How are you feeling about measurement? Circle the face.",
+         "visual_layout": "Three faces in a row.",
+         "image_placeholders": [{"id": "FORM_Q3_FACES", "description": "Three round face icons for a Grade 1 formative check. Smile, neutral, frown. Each ~1.5in.",
+           "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["faces", "feeling"],
+           "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: instructions ask the child to circle a face. Keywords name the visual."}],
+         "response_type": "self_rate", "answer_key": "Open."}
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Measurement Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Roo and Cal in the top-right corner with a Junior Measure-Master certificate. References blueprint.recurring_characters."},
+    "prompts": [
+      {"prompt_number": 1, "prompt": "How do you feel about being a Measure-Master? Circle one.",
+       "visual_layout": "Three star-rating ovals.",
+       "image_placeholders": [{"id": "REF_STARS", "description": "Three rating ovals for a Grade 1 reflection. 1, 2, 3 stars with labels.", "placement": "Centred in Prompt 1.", "approximate_size": "full_width", "keywords": ["stars", "master"],
+         "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the rating and role."}],
+       "response_type": "self_rate", "options": ["Just starting", "Mostly got it", "I am a Master!"]},
+      {"prompt_number": 2, "prompt": "Did you do these things? Circle YES or NO.",
+       "visual_layout": "A 4-row YES/NO table.",
+       "image_placeholders": [{"id": "REF_YN_TABLE", "description": "A 4-row YES/NO table for a Grade 1 reflection.", "placement": "Centred in Prompt 2.", "approximate_size": "full_width", "keywords": ["yes", "no"],
+         "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name the response options."}],
+       "response_type": "circle_yes_no", "options": ["I named attributes.", "I ordered by length.", "I used a balance.", "I read a calendar."]},
+      {"prompt_number": 3, "prompt": "My favourite measurement activity was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_FAV_BOX", "description": "A bordered rectangle for a Grade 1 reflection. Above: 'My favourite measurement activity was...'.", "placement": "Centred in Prompt 3.", "approximate_size": "full_width", "keywords": ["favourite", "activity"],
+         "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the focus."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 4, "prompt": "The trickiest part for me was...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_TRICKY_BOX", "description": "A bordered rectangle for a Grade 1 reflection. Above: 'The trickiest part for me was...'.", "placement": "Centred in Prompt 4.", "approximate_size": "full_width", "keywords": ["trickiest"],
+         "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword matches the prompt."}],
+       "response_type": "draw_or_write"},
+      {"prompt_number": 5, "prompt": "Next time, I want to try...",
+       "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+       "image_placeholders": [{"id": "REF_NEXT_BOX", "description": "A bordered rectangle for a Grade 1 reflection. Above: 'Next time, I want to try...'.", "placement": "Centred in Prompt 5.", "approximate_size": "full_width", "keywords": ["next", "try"],
+         "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the focus."}],
+       "response_type": "draw_or_write"}
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5. Children may need scribe support."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "lesson_number": 3,
+  "worksheet_title": "Roo's Square Cm Hunt",
+  "purpose": "Independent practice of E2.9.",
+  "student_learning_goal": "I can measure area in square centimetres and square metres.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can measure area in square centimetres and square metres.",
+    "character_watermark": "Roo the Ruler Rabbit in the top-right with cm² grid paper. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Count cm² in shapes.",
+          "student_instructions": "Count cm² inside 4 shapes on a grid. Write the area.",
+          "visual_layout": "Four shapes drawn on a cm² grid with an area-in-cm² answer line under each.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_GRID",
+              "description": "A Grade 3 cm² grid layout for area worksheet, B&W line art. 4 shapes on 1cm grid: rectangle (4x3=12), pentagon (15), L-shape (10), staircase (8). Each with area answer line.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "grid",
+                "shapes"
+              ],
+              "text_image_alignment_check": "WS03_P1_GRID at Part 1: keywords name the grid shapes area count task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Rectangle=12 cm², Pentagon=15 cm², L=10 cm², Staircase=8 cm²."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: cm² or m²?",
+          "student_instructions": "For 4 objects, circle the right area unit: cm² or m².",
+          "visual_layout": "Four object icons with cm² and m² circles for each.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_PICK",
+              "description": "A Grade 3 unit picker for area worksheet, B&W line art. 4 objects: sticky note (cm²), book cover (cm²), classroom floor (m²), playground (m²). Each with cm² / m² circles.",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "objects",
+                "units"
+              ],
+              "text_image_alignment_check": "WS03_P2_PICK at Part 2: keywords name the objects and area units."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "sticky=cm², book=cm², floor=m², playground=m²."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Estimate a circle.",
+          "student_instructions": "Estimate the area of the circle on the grid by counting whole + half squares.",
+          "visual_layout": "A circle drawn on a cm² grid with an estimate answer line.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_CIRCLE",
+              "description": "A Grade 3 curved-shape estimation layout for area worksheet, B&W line art. A circle (~5cm diameter) drawn on a cm² grid (8x8). Below: 'My estimate: ___ cm².'",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "circle",
+                "estimate"
+              ],
+              "text_image_alignment_check": "WS03_P3_CIRCLE at Part 3: keywords name the circle estimate task."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "About 19-20 cm² (πr² with r=2.5)."
+        },
+        {
+          "part_number": 4,
+          "part_title": "Part 4: Draw your own.",
+          "student_instructions": "Draw your OWN shape on the grid that has an area of exactly 12 cm². It can be a rectangle OR an L-shape.",
+          "visual_layout": "A 5x5 cm² grid with the prompt; below, a sentence frame 'My shape has area = 12 cm² because ___'.",
+          "image_placeholders": [],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Many valid shapes (3×4 rectangle, 2×6 rectangle, L-shape that decomposes to 12 cm² total)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, find a 1 m² spot in the classroom.",
+  "teacher_notes": "Lesson 3 consolidation. Formative — check unit choice and counting. Part 4 added as TRANSFER: child draws their OWN 12 cm² shape (rectangle or L). Verifies area construction beyond the lesson examples."
+}

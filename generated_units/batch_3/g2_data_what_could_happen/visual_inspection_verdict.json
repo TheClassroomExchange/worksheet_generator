@@ -1,0 +1,15 @@
+{
+  "unit_id": "g2_data_what_could_happen",
+  "status": "pass",
+  "inspected_at": "2026-05-10T12:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch3",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 4, "description": "Lesson 2 (Complementary Events) uses Grade-2 plain-English ('Heads OR tails. Rain OR no rain.') — complies with R22 special check."},
+    {"page": 14, "description": "M2 Complement Cards uses plain English ('Heads ↔ Tails. Rain ↔ No Rain. Win ↔ Lose. Day ↔ Night.') — R22 special check PASS, no P(A), no fractions."},
+    {"page": 20, "description": "M8 Complement Chart matches M2 plain-English content — R22 special check PASS."},
+    {"page": 16, "description": "M4 Paper Dice Set description says 'Set of 6 foldable paper dice' but only 2 die-face icons render."},
+    {"page": 21, "description": "M9 Outcome Cards show labels (Heads/Tails/Red/Blue) but the card body boxes above are empty (no pictographic icons)."}
+  ],
+  "summary": "PASS. All 5 worksheet pages now use new format. Previous R21 'Read prompt / Try it' stubs on Ws03 fully resolved. CRITICAL complement check VERIFIED PASS: both M2 Complement Cards and M8 Complement Chart use plain-English Heads↔Tails / Rain↔No Rain wording with no P(A) notation and no 1/4-3/4 fractions (the 0-1/4-1/2-3/4-1 fractions appear only on the M1 Likelihood Scale, which is expected)."
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": 1, "unit_id": "g3_spatial_map_it_move_it", "lesson_number": 3,
+  "worksheet_title": "Coco's Congruent Match", "purpose": "Independent practice of E1.3.",
+  "student_learning_goal": "I can identify congruent faces, lengths, and angles.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can identify congruent faces, lengths, and angles.",
+    "character_watermark": "Compass Coco the Cat in the top-right with a compass and treasure map. Small (~1.5in). References blueprint.recurring_characters."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Match 5 pairs.", "student_instructions": "Draw lines from each shape on the left to its CONGRUENT match on the right.",
+     "visual_layout": "Two columns of 5 shapes each with line-drawing space between them for matching.",
+     "image_placeholders": [{"id": "WS03_P1_MATCH", "description": "A Grade 3 congruent match layout for geometry worksheet, B&W line art. Left column: 5 shapes (small square, big triangle, small circle, oval, hexagon). Right column: 5 shapes scrambled with 5 congruent partners.",
+       "placement": "Centred horizontally; spans Part 1.", "approximate_size": "full_width", "keywords": ["shapes", "match"], "text_image_alignment_check": "WS03_P1_MATCH at Part 1: keywords name the shapes match task in two columns."}],
+     "student_response_type": "draw_or_write", "answer_key": "Each left shape connected to its same-size same-shape match."},
+    {"part_number": 2, "part_title": "Part 2: Yes or no?", "student_instructions": "For 4 shape pairs, circle YES if congruent, NO if not.",
+     "visual_layout": "Four shape pair boxes each with a YES and NO option to circle.",
+     "image_placeholders": [{"id": "WS03_P2_YN", "description": "A Grade 3 yes-or-no decision layout for congruent worksheet, B&W line art. 4 pair boxes: same-size squares, different-size triangles, square+rectangle, congruent hexagons. Each pair: YES / NO circles.",
+       "placement": "Centred in Part 2.", "approximate_size": "full_width", "keywords": ["pairs", "yes"], "text_image_alignment_check": "WS03_P2_YN at Part 2: keywords name the pairs decision boxes with yes-or-no choices."}],
+     "student_response_type": "draw_or_write", "answer_key": "1=YES (same-size squares), 2=NO (different size), 3=NO (different shape), 4=YES (congruent hexagons)."},
+    {"part_number": 3, "part_title": "Part 3: Why not?", "student_instructions": "Pick ONE pair you said was NOT congruent. Write WHY.",
+     "visual_layout": "Sentence frame with a fill-in for the pair number and an explanation block.",
+     "image_placeholders": [{"id": "WS03_P3_WHY", "description": "A Grade 3 explanation layout for congruent worksheet. Sentence frame: 'Pair ___ is NOT congruent because ___.' Below: 4 lines for student to explain.",
+       "placement": "Centred in Part 3.", "approximate_size": "full_width", "keywords": ["explain", "pair"], "text_image_alignment_check": "WS03_P3_WHY at Part 3: keywords name the explain-the-pair writing task."}],
+     "student_response_type": "draw_or_write", "answer_key": "Any valid reason linking shape or size difference."}
+  ]}],
+  "early_finisher_prompt": "If you finish, find ONE congruent pair in your classroom (e.g., two windows).",
+  "teacher_notes": "Lesson 3 consolidation. Formative — check both-criteria reasoning."
+}

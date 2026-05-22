@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Blueprint A8.1 text reads 'demonstrate an understanding of categorizing objects and information' but input_row.json A8.1 reads 'sort objects or data using one attribute' — the lesson references the blueprint version and never bridges forward to Lesson 2's counting arc; expanded_walkthrough does not cross-reference Day 2.",
+      "required_fix": "Update curriculum_expectations text to byte-match input_row.json ('sort objects or data using one attribute'), and add an explicit forward bridge in the consolidation teacher_script — e.g., 'Tomorrow Tally the Tally Cat will help us COUNT each group we sorted today; remember your sort attribute, you'll need it.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title names a real K trap (multi-attribute confusion: child puts a red big button in BOTH 'red' and 'big' piles) but cites no research and recovery_moves do not branch by what the diagnostic tells you about the child — recovery is a single linear sequence (today's-attribute card, drill, show same-set different-sorts).",
+      "required_fix": "Cite research grounding (Inhelder & Piaget 1964 class-inclusion, or Sarama & Clements 2009 sorting trajectories) in expanded_walkthrough.rationale. Split recovery_moves into a branched diagnostic: if child can name an attribute but misapplies it, use the today's-attribute card; if child cannot name any attribute, drop back to same/different matching with two objects before re-introducing sorting.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "duration_minutes is 50 (12 minds_on + 25 action + 13 consolidation) but the rubric specifies K lessons should be 30–40 minutes — 50 min is a Grade 2/3 budget and will not fit a Kindergarten block; the no-materials body-sort is buried inside differentiation.for_movement_learners rather than offered as an explicit primary alternative.",
+      "required_fix": "Trim total to 35–40 min: cut action from three 7-min rotations to two 8-min, shorten consolidation to 8 min. Promote the body-sort into an explicit no-paper alternative in lesson_specific_materials: 'No-materials version: sort the CHILDREN themselves by eye colour, shoe type, or shirt colour — bodies become the buttons.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Detective Dot anchors minds_on and consolidation and success_criteria all start with 'I can', but there is no quotable refrain or memorable chant the children carry between lessons — exit_routine is 'I sorted by ___' which is a sentence frame, not a Detective Dot signature line.",
+      "required_fix": "Add a Detective Dot signature refrain children chant back at the close of every lesson, e.g., 'ONE attribute — ONE sort — ONE detective on the case!' Insert it into the consolidation.exit_routine and the teacher_script so children rehearse it; threaded_vocabulary or pedagogical_notes should flag this as the recurring chant for Lessons 2-5.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (one attribute at a time, same-set/different-sorts) but expanded_walkthrough.rationale describes the misconception only as 'multi-attribute confusion' without naming the research-grounded construct (class-inclusion); children execute teacher-picked attributes rather than inventing or comparing strategies.",
+      "required_fix": "In expanded_walkthrough.rationale, name the construct (Piaget & Inhelder 1964 class-inclusion: child cannot yet hold a superordinate and subcategory simultaneously, which is why a red-big button looks like it belongs in two piles). Add a strategy-compare step in action.steps where two pairs share Station C sorts and the class votes which gives 'more groups' or 'easier-to-count groups'.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Parts 1, 2, 3 (sort by colour, sort by size, pick own attribute) are a near-exact rote repeat of Stations A, B, C in the lesson action — there is no transfer task or deliberate variation to verify generalization, and image_assets do not include the M9 data anchor chart or M10 Detective Dot poster manipulatives used in the lesson.",
+      "required_fix": "Convert Part 3 from 'pick your own attribute' (mirrors Station C) into a transfer task: show a pre-sorted set with one item placed in the WRONG group; ask the child to circle the misplaced item and write the attribute being used. This verifies they can read someone else's sort. Add a justification in worksheet_brief noting Part 3 is a transfer task with 1–2 trick items.",
+      "affected_stages": ["worksheet_01", "lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 1 is solid Achieving across the board but does not clear the Exceeding bar in any category — six 3s, zero 4s. Lesson is over-budget for K (50 min vs 30–40), trap lacks research citation and branched recovery, character has no quotable refrain, and the worksheet rote-repeats lesson stations instead of transferring. Fixes are concrete and span both lesson and worksheet, hence revise_both."
+}

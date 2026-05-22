@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "lesson_number": 4,
+  "lesson_title": "How Long Did That Take?",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E2.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "TIME = SECONDS, MINUTES, HOURS. We pick the right unit for the duration.",
+  "learning_intention": "We are learning to describe duration using the right time unit.",
+  "student_learning_goal": "I can describe duration using the right time unit.",
+  "success_criteria": [
+    "I can name SECONDS, MINUTES, HOURS.",
+    "I can pick the right unit for an event.",
+    "I can say that 60 seconds = 1 minute, 60 minutes = 1 hour."
+  ],
+  "vocabulary_introduced": [
+    "duration",
+    "second",
+    "minute",
+    "hour"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M5_time_chart",
+    "M9_event_cards",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Roo and Cal \u2014 if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Time Units'",
+    "Time Chart",
+    "Time Event Cards (16)",
+    "Stopwatch (real or app)",
+    "Lesson 4 time tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Cal Times Events",
+    "hook": "Cal: A BLINK = 1 SECOND. Brushing teeth = 2 MINUTES. School day = 6 HOURS! Cal opens: 'SECONDS for the FAST, MINUTES for the MEDIUM, HOURS for the LONG!'",
+    "teacher_script": "Remember Day 3: the ruler told us LENGTH in cm.",
+    "student_actions": [
+      "Watch Cal time",
+      "Echo 'second', 'minute', 'hour'",
+      "Practice the 60 rule",
+      "Pick units for examples"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Time Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: pick units for 4 events.",
+        "teacher_prompt": "Say: 'Seconds, minutes, or hours?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. A: Sort 16 event cards by unit. B: Time real events with stopwatch. C: Make own event cards.",
+        "teacher_prompt": "Say: '7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch at C: estimate before timing.",
+        "teacher_prompt": "Say: 'Stretch: estimate.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the 60 rule.",
+        "teacher_prompt": "Show: 60s = 1 min. 60 min = 1 hour."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After Station B, two pairs share HOW they ESTIMATED before timing \u2014 Pair A 'Mississippi-counting'; Pair B 'body-pose method'. Class debates which is closer to actual on average. Cite Lehrer (2003) attribute-tool matching.",
+        "teacher_prompt": "Cal: 'Different paths to estimate. The MATH cares about getting CLOSE to the actual.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at A. Sort obvious cards.",
+      "for_extending": "Stretch at C: estimate.",
+      "for_ell_or_iep": "Sentence frame: 'This event takes about ___ ___.'",
+      "for_movement_learners": "Time physical activities \u2014 jumping jacks, running. NO-MATERIALS VERSION: children stand for HOURS (big stretch up), sit for MINUTES (medium pose), and clap for SECONDS (quick). Body becomes the time-unit display."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: names time units; picks right unit; uses 60 rule.",
+      "how_to_record": "Tick per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names time units",
+        "Picks right unit",
+        "Uses 60 rule",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Cal's Time Brag",
+    "discussion_prompts": [
+      "What's a SECOND? MINUTE? HOUR?",
+      "How many seconds in a minute?",
+      "How long is recess?",
+      "How long is a day?",
+      "Cal's preview: tomorrow Roo + Cal join forces \u2014 measure ALL attributes (length, mass, capacity, time) at the capstone stations (Lesson 5)."
+    ],
+    "exit_routine": "Cal's time refrain \u2014 'SECONDS for the FAST, MINUTES for the MEDIUM, HOURS for the LONG!' (3x). Then unit close: 'SMALL unit, BIG count \u2014 BIG unit, small count!' Each child records one event timed in the right unit."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Time unit identification.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures E2.4."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says BRUSHING TEETH = 2 SECONDS \u2014 repairing the wrong-time-unit trap at Grade 2",
+    "rationale": "On time-elapsed work, the trap is unit-of-time confusion: child thinks 'seconds = ANY fast event' or 'minutes = ANY medium event' without anchoring to standard durations. Lehrer (2003) frames this as attribute-tool matching for time. Without anchored time benchmarks, capstone integration cannot ground.\n\nYesterday Lesson 3 used the ruler for cm. Today the stopwatch reads time in seconds and minutes. Lesson 5 capstones with all 4 measurement attributes.",
+    "setup": "Pair at A. Card 'brushing teeth'. Child picks SECONDS bucket.",
+    "teacher_script": "Crouch. 'Cal asks \u2014 try brushing your teeth as fast as 2 seconds. Let's count: one Mississippi, two Mississippi. DONE!'\n\nChild laughs. 'Right, you couldn't brush in 2 seconds. Brushing takes about 2 MINUTES.'\n\nGuide. 'Cal says \u2014 SECONDS = blink, snap. MINUTES = brushing, song. HOURS = school day, sleep.'\n\nIf still off: provide a 'time benchmarks' chart with examples per unit.",
+    "expected_student_responses": [
+      "(Confused) Wrong unit magnitude.",
+      "(Mid) Adjusts with prompts.",
+      "(Strong) Picks right unit.",
+      "(Stretched) Compares times across events."
+    ],
+    "common_misconceptions": [
+      "Seconds = anything fast. (Repair: seconds = under 60.)",
+      "Minutes = long time. (Repair: minutes < hours.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A \u2014 child says brushing teeth = 2 seconds: drill physical benchmarks \u2014 count '1 Mississippi' = 1 second; '60 Mississippis' = 1 minute; child re-says brushing = ~2 minutes.",
+      "DIAGNOSTIC B \u2014 child can't estimate before timing: model 'I PREDICT this will take ___ seconds' before each timed event; compare prediction vs actual.",
+      "DIAGNOSTIC C \u2014 child reads stopwatch wrong (minutes:seconds format): drill the colon \u2014 'minutes BEFORE the colon, seconds AFTER.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Cal's Time Test",
+    "purpose": "Independent practice of E2.4.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Pick unit (seconds/minutes/hours) for 6 events.",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Convert: 60s = ? min, 2 hours = ? min.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "List 3 events you do at home and pick units.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Cal in worksheet header",
+      "6 events with unit options for Part 1",
+      "Conversion problems for Part 2",
+      "3 lines for Part 3"
+    ]
+  }
+}

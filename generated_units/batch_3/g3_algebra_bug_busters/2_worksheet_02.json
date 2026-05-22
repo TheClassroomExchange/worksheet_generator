@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 2,
+  "worksheet_title": "Buzz's Concurrent Writing",
+  "purpose": "Independent practice of C3.1 (write concurrent code).",
+  "student_learning_goal": "I can write code with concurrent events.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can write code with concurrent events.",
+    "character_watermark": "Buzz in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Synchronised Code",
+          "student_instructions": "Write a 4-step 2-lane code where both robots are synchronised.",
+          "visual_layout": "Top of page. 2-lane template with 4 rows.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_SYNC",
+              "description": "A 2-lane template with 4 rows in B&W line-art, ~7in x 2in. Header 'Synchronised Code (4 steps):'.",
+              "placement": "Top.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "synchronised"
+              ],
+              "text_image_alignment_check": "Image WS02_P1_SYNC: keywords (synchronised) name the template."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Each row should have same actions in both lanes."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: With a Loop",
+          "student_instructions": "Write a 2-lane code where one lane has a loop. Predict where each robot ends.",
+          "visual_layout": "Middle of page. 2-lane template with loop slot.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_LOOP",
+              "description": "A 2-lane template with 4 rows and a loop indicator in B&W line-art, ~7in x 3in. 'R1 ends at ___'. 'R2 ends at ___'. Header 'Code with Loop:'.",
+              "placement": "Middle.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "loop"
+              ],
+              "text_image_alignment_check": "Image WS02_P2_LOOP: keywords (loop) name the template."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Loop must be in one lane."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Code",
+          "student_instructions": "Write your own 2-lane code (4-6 time-steps). Predict ending positions.",
+          "visual_layout": "Bottom of page. Blank template.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_MY",
+              "description": "A blank 2-lane template in B&W line-art, ~7in x 2.5in. Header 'My Code:'. 'Predicted positions: ___'.",
+              "placement": "Bottom.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "my",
+                "code"
+              ],
+              "text_image_alignment_check": "Image WS02_P3_MY: keywords (my, code) name the template."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a 3-lane code.",
+  "teacher_notes": "Lesson 2 worksheet. Watch for empty-lane confusion. Part 3 transfer: 'Both robots must END on the same square. Write a 2-lane code that achieves this.' Verifies coordination."
+}

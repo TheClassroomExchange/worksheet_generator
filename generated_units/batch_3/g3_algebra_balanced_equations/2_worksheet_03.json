@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_balanced_equations",
+  "lesson_number": 3,
+  "worksheet_title": "Eddy's Mult/Div Test",
+  "purpose": "Independent practice of C2.2 (mult/div equivalence).",
+  "student_learning_goal": "I can determine whether multiplication and division expressions are equivalent.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can determine whether multiplication and division expressions are equivalent.", "character_watermark": "Eddy in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Equivalent Pairs", "student_instructions": "Test 8 pairs of mult/div expressions. Decide EQUIVALENT or NOT.", "visual_layout": "Top of page. Eight pair rows.",
+      "image_placeholders": [{"id": "WS03_P1_PAIRS", "description": "Eight pair rows in B&W line-art, ~7in x 4in. Pre-filled pairs: '4x6 vs 8x3', '6x7 vs 6x8', '24÷4 vs 30÷5', '100÷4 vs 50÷2', '5x8 vs 10x4', '8x10 vs 100-20', '60÷6 vs 5x2', '36÷3 vs 4x3'. Each with EQ/NOT bubbles. Header 'Equivalent?'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["equivalent"], "text_image_alignment_check": "Image WS03_P1_PAIRS: keywords (equivalent) name the bubbles."}],
+      "student_response_type": "write", "answer_key": "EQ, NOT, EQ, EQ, EQ, EQ, EQ, EQ."},
+    {"part_number": 2, "part_title": "Part 2: Find the Partner", "student_instructions": "Find an equivalent expression using a DIFFERENT operation.", "visual_layout": "Middle of page. Four partner rows.",
+      "image_placeholders": [{"id": "WS03_P2_PARTNER", "description": "Four rows in B&W line-art, ~7in x 2.5in. Pre-filled: '5x6 = ___÷ ___', '24÷4 = ___ x ___', '8x4 = ___ ÷ ___', '100÷10 = ___ x ___'. Header 'Cross-Operation Partner:'.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["partner"], "text_image_alignment_check": "Image WS03_P2_PARTNER: keywords (partner) name the slots."}],
+      "student_response_type": "write", "answer_key": "5x6=30 → 60÷2 (or any). 24÷4=6 → 2x3 etc."},
+    {"part_number": 3, "part_title": "Part 3: My Cross-Op Pairs", "student_instructions": "Write 3 cross-operation equivalent pairs (multiplication = division).", "visual_layout": "Bottom of page. Three blank slots.",
+      "image_placeholders": [{"id": "WS03_P3_OWN", "description": "Three slots in B&W line-art, ~7in x 2in. '___ x ___ = ___ ÷ ___'. Header 'Cross-Op Pairs:'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["cross-op"], "text_image_alignment_check": "Image WS03_P3_OWN: keywords (cross-op) name the slots."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, list 4 equivalent expressions for 24 using all 4 operations.",
+  "teacher_notes": "Lesson 3 worksheet. Watch for cross-operation block."
+}

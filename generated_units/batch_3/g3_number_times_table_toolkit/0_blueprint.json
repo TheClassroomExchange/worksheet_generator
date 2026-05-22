@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "thematic_title": "The Times Table Toolkit",
+  "descriptive_title": "Grade 3 Mathematics: Numbers — Mental Math and Algorithms to 1000, Multiplication and Division to 10×10, Fractions as Repeated Addition, and Ratios 1:2 / 1:5 / 1:10 (B2.1–B2.9)",
+  "grade": "Grade 3",
+  "subject": "Mathematics",
+  "strand": "B. Numbers",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/g3-math",
+  "curriculum_codes": ["B2.1", "B2.2", "B2.3", "B2.4", "B2.5", "B2.6", "B2.7", "B2.8", "B2.9"],
+  "curriculum_expectations": {
+    "B2.1": "use the properties of operations, and the relationships between multiplication and division, to solve problems and check calculations",
+    "B2.2": "recall and demonstrate multiplication facts of 2, 5, and 10, and related division facts",
+    "B2.3": "use mental math strategies, including estimation, to add and subtract whole numbers that add up to no more than 1000, and explain the strategies used",
+    "B2.4": "demonstrate an understanding of algorithms for adding and subtracting whole numbers by making connections to and describing the way other tools and strategies are used to add and subtract",
+    "B2.5": "represent and solve problems involving the addition and subtraction of whole numbers that add up to no more than 1000, using various tools and algorithms",
+    "B2.6": "represent multiplication of numbers up to 10 × 10 and division up to 100 ÷ 10, using a variety of tools and drawings, including arrays",
+    "B2.7": "represent and solve problems involving multiplication and division, including problems that involve groups of one half, one fourth, and one third, using tools and drawings",
+    "B2.8": "represent the connection between the numerator of a fraction and the repeated addition of the unit fraction with the same denominator using tools, drawings, and standard fractional notation",
+    "B2.9": "use the ratios of 1 to 2, 1 to 5, and 1 to 10 to scale up numbers and to solve problems"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Grade 3 unit on operations framed around 'The Times Table Toolkit' — Tony the Toolkit Master and Maya the Multiplication Maven. Day 1 'Mental Math and Algorithms to 1000' covers B2.3, B2.4, B2.5 — chunking, the standard algorithm, and story-problem modelling. Day 2 'The 2s, 5s, 10s Toolkit' anchors the multiplication facts of 2, 5, 10 with arrays and the related division facts (B2.2, B2.1). Day 3 'Multiplication to 10×10' extends to all multiplication facts and division to 100÷10 using arrays and skip-counting (B2.6). Day 4 'Numerator as Repeated Addition' connects fractions to multiplication: 3/4 = 1/4 + 1/4 + 1/4, and groups of fractional sizes (B2.8, B2.7). Day 5 'Ratios — Scale It Up' closes with ratios 1:2, 1:5, 1:10 in real-world contexts (B2.9). The unit progresses concrete (arrays, fraction strips, ratio tables) → representational (multiplication tables, tape diagrams) → abstract (algorithms, ratio notation).",
+  "unit_learning_goal": "Children will use mental math and algorithms to add and subtract to 1000, recall multiplication facts of 2, 5, 10 (with related division), represent multiplication to 10×10 and division to 100÷10, see numerators as repeated addition of unit fractions, and use ratios 1:2, 1:5, 1:10 to scale.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Mental Math and Algorithms to 1000", "primary_expectations": ["B2.3", "B2.4", "B2.5"], "secondary_expectations": [], "big_idea": "We can add and subtract numbers to 1000 using mental chunking OR the standard algorithm. Both give the same answer.", "student_learning_goal": "I can add and subtract numbers to 1000 using mental chunking and the standard algorithm.", "one_line_summary": "Tony's mental-chunking warm-up; introduce the standard algorithm with regrouping; story problems to 1000."},
+    {"lesson_number": 2, "lesson_title": "The 2s, 5s, 10s Toolkit", "primary_expectations": ["B2.2", "B2.1"], "secondary_expectations": [], "big_idea": "The 2s, 5s, and 10s multiplication facts are anchors — and each fact triangle has 4 facts (2 multiplications + 2 divisions).", "student_learning_goal": "I can recall multiplication facts of 2, 5, and 10 and write the related division facts.", "one_line_summary": "Maya's array warm-up; fact-family triangle work; rapid-recall stations for ×2, ×5, ×10 and ÷2, ÷5, ÷10."},
+    {"lesson_number": 3, "lesson_title": "Multiplication to 10×10", "primary_expectations": ["B2.6"], "secondary_expectations": [], "big_idea": "Every multiplication fact up to 10×10 can be shown as an array. Division up to 100÷10 is the inverse.", "student_learning_goal": "I can represent any multiplication fact up to 10×10 as an array and find the related division.", "one_line_summary": "Multiplication chart 1-10; array building for 6×7, 8×9, 7×8; division as inverse (49÷7=7)."},
+    {"lesson_number": 4, "lesson_title": "Numerator as Repeated Addition", "primary_expectations": ["B2.8"], "secondary_expectations": ["B2.7"], "big_idea": "The numerator of a fraction tells us how many copies of the unit fraction. 3/4 = 1/4 + 1/4 + 1/4. We can also see groups of 1/2 or 1/4 as multiplication.", "student_learning_goal": "I can show that 3/4 = 1/4 + 1/4 + 1/4 and 4 × 1/2 = 2 wholes using fraction strips.", "one_line_summary": "Tony's fraction-strip stacking; 3/4 = three 1/4s; 4 × 1/2 = 2 wholes; group-of-fraction multiplication."},
+    {"lesson_number": 5, "lesson_title": "Ratios — Scale It Up", "primary_expectations": ["B2.9"], "secondary_expectations": ["B2.7"], "big_idea": "A ratio compares two amounts. 1:2 means 'for every 1, there are 2'. We can scale up to find new amounts.", "student_learning_goal": "I can use ratios 1:2, 1:5, and 1:10 to scale up amounts and solve real-life problems.", "one_line_summary": "Maya's ratio table — '1 cup of flour to 2 cups of milk' scaled up to 5 cups of flour; 1:5 and 1:10 ratios in recipes and money."}
+  ],
+  "expectation_lesson_map": {"B2.1": [2], "B2.2": [2], "B2.3": [1], "B2.4": [1], "B2.5": [1], "B2.6": [3], "B2.7": [4, 5], "B2.8": [4], "B2.9": [5]},
+  "recurring_characters": [
+    {"name": "Tony the Toolkit Master", "role": "Lead character. Anchors Lessons 1, 4, 5 — the operations and fractions/ratios work. Loves tools and tools-as-metaphor for math strategies.", "visual_description": "A maker-style character with a tool belt holding rulers, calculators, and fraction strips. Wears a striped apron with a × symbol patch. Short hair, smart eyes, friendly smile."},
+    {"name": "Maya the Multiplication Maven", "role": "Tony's partner. Anchors Lessons 2 and 3 — the multiplication facts work. Specialises in array thinking and skip-counting.", "visual_description": "A creative-looking character with a sketch pad covered in arrays and fact triangles. Wears a vest with multiplication-table patches, eyeglasses, eager smile."},
+    {"name": "Pixel the Practice Pal", "role": "A small helper character who appears at every station. Carries a flash card with the fact of the moment. Cameo across all 5 lessons.", "visual_description": "A tiny robot-like character with a screen for a face displaying the current math fact. Bouncy walk, encouraging beeps."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "algorithm", "child_friendly_definition": "A step-by-step recipe for solving a problem. The standard algorithm for adding numbers stacks them in columns and adds digit by digit."},
+    {"term": "regroup", "child_friendly_definition": "To trade — like trading 10 ones for 1 ten when adding. Sometimes called carrying."},
+    {"term": "array", "child_friendly_definition": "Equal groups arranged in rows and columns. 4 rows of 3 dots is an array showing 4 × 3 = 12."},
+    {"term": "factor", "child_friendly_definition": "A number being multiplied. In 4 × 3 = 12, the factors are 4 and 3."},
+    {"term": "product", "child_friendly_definition": "The total when you multiply. In 4 × 3 = 12, the product is 12."},
+    {"term": "unit fraction", "child_friendly_definition": "A fraction with 1 on the top: 1/2, 1/3, 1/4. The numerator is always 1."},
+    {"term": "ratio", "child_friendly_definition": "A way to compare two amounts. 1:2 means 'for every 1 of one thing, there are 2 of another'."},
+    {"term": "scale up", "child_friendly_definition": "To multiply both parts of a ratio by the same number. 1:2 scaled up by 5 is 5:10."}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_base_ten_blocks_1000", "name": "Base-Ten Blocks", "description": "Per-pair set with thousand-cubes for adding/subtracting to 1000.", "used_in_lessons": [1], "clipart_files": []},
+    {"id": "M2_double_ten_frame", "name": "Double Ten-Frame Mat", "description": "Letter-size mat for fact warm-ups in Lesson 2.", "used_in_lessons": [2], "clipart_files": []},
+    {"id": "M3_multiplication_chart", "name": "Multiplication Chart 1-10", "description": "10×10 multiplication chart printed on cardstock.", "used_in_lessons": [2, 3], "clipart_files": []},
+    {"id": "M4_array_grid", "name": "Array Grid Mat", "description": "Letter-size grid for building arrays.", "used_in_lessons": [2, 3], "clipart_files": []},
+    {"id": "M5_two_colour_counters", "name": "Two-Colour Counters", "description": "30 per pair for arrays and fact families.", "used_in_lessons": [2, 3], "clipart_files": []},
+    {"id": "M6_fact_triangles_md", "name": "Multiplication/Division Fact Triangles", "description": "30 fact-family triangle cards for the 2s, 5s, 10s.", "used_in_lessons": [2], "clipart_files": []},
+    {"id": "M7_fraction_strips", "name": "Fraction Strips", "description": "Per-pair set: whole, 1/2, 1/3, 1/4, 1/5, 1/6, 1/8, 1/10.", "used_in_lessons": [4], "clipart_files": []},
+    {"id": "M8_ratio_table_template", "name": "Ratio Table Template", "description": "Letter-size template with empty 2-column ratio tables.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M9_story_cards_1000", "name": "Story Problem Cards (to 1000)", "description": "18 cards for Lesson 1 modelling.", "used_in_lessons": [1], "clipart_files": []},
+    {"id": "M10_toolkit_poster", "name": "Times Table Toolkit Anchor Poster", "description": "Large classroom anchor showing all four operations and the fact-family triangle structure.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": [
+    "Base-ten blocks (with thousand-cubes) per pair",
+    "Double ten-frame mats",
+    "Multiplication chart 1-10",
+    "Array grid mats",
+    "Two-colour counters",
+    "Fact triangles for ×2, ×5, ×10",
+    "Fraction strips (8 per pair)",
+    "Ratio table templates",
+    "Story problem cards (18)",
+    "Times Table Toolkit anchor poster",
+    "Whiteboards and markers per child"
+  ],
+  "assessment_strategy": {
+    "diagnostic": "Lesson 1 mental math snapshot: each child solves 5 sums and 5 differences in the 100-1000 range. Tally chunking-vs-algorithm strategies and accuracy.",
+    "formative": "Lesson 2 fact-recall tracker for ×2, ×5, ×10. Lesson 3 array tracker for ×6, ×7, ×8, ×9. Lesson 4 fraction-as-addition tracker.",
+    "summative": "Lesson 5 Ratios worksheet — 3 ratio scaling problems (1:2, 1:5, 1:10) plus a real-life context. Captures B2.9 and pulls in B2.7."
+  },
+  "pedagogical_notes": [
+    "B2.2 (facts of 2, 5, 10) are the gateway facts. Skip-counting by 2s, 5s, 10s gives the multiplication directly.",
+    "B2.3 + B2.4 + B2.5 are integrated in Lesson 1: mental chunking is the strategy; the standard algorithm is the formal version; story problems contextualise both.",
+    "B2.6 (multiplication to 10×10) is the conceptual peak. Children should see multiplication as both equal groups AND arrays.",
+    "B2.7 'groups of one half, one fourth, one third' is the fractional multiplication extension. 4 × 1/2 = 2 wholes is the key example.",
+    "B2.8 (numerator as repeated addition) is the fraction-as-multiplication insight. 3/4 = 1/4 + 1/4 + 1/4 = 3 × 1/4.",
+    "B2.9 (ratios 1:2, 1:5, 1:10) introduces ratio notation and scaling. Children should see ratios as 'for every X there are Y' and scale by multiplication."
+  ],
+  "canadian_context_notes": [
+    "Recipe ratios are a real-life Canadian context (1 cup flour to 2 cups milk for pancakes).",
+    "Money ratios connect to currency (1 toonie = 2 dollars; 1 quarter = 5 nickels; 1 dime = 10 pennies historically).",
+    "Sports stats: ratios in hockey scoring (1:2 wins to losses, etc.)",
+    "Multiplication is foundational for all later math, so anchor it strongly here."
+  ]
+}

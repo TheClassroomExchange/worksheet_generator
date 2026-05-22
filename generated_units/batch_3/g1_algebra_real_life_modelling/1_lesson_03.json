@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "lesson_number": 3,
+  "lesson_title": "Predicting Sap Buckets",
+  "duration_minutes": 50,
+  "primary_expectations": ["C4"],
+  "secondary_expectations": [],
+  "big_idea": "We use the data to make PREDICTIONS. If 1 tap fills 1 bucket, then 5 taps fill 5 buckets.",
+  "learning_intention": "We are learning to use data to predict an outcome.",
+  "student_learning_goal": "I can use data to predict an outcome.",
+  "success_criteria": [
+    "I can use a 1-to-1 rule (1 tap = 1 bucket) to predict.",
+    "I can predict for 5, 10, even 20 trees.",
+    "I can explain how I made my prediction."
+  ],
+  "vocabulary_introduced": ["predict"],
+  "vocabulary_reinforced": ["model", "data"],
+  "manipulatives_used": ["M1_paper_trees", "M2_sap_buckets", "M5_prediction_chart", "M3_modelling_chart", "M10_sugar_bush_poster"],
+  "lesson_specific_materials": [
+    "Sap Sam the Collector",
+    "Per-pair set of paper trees and paper buckets",
+    "Per-pair prediction chart",
+    "Lesson 3 prediction tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Sap Sam Predicts Buckets",
+    "hook": "If 1 tree fills 1 bucket of sap, how many buckets for 5 trees? 10 trees?",
+    "teacher_script": "Bring children to the carpet. Sap Sam in hand. 'Friends — yesterday we collected DATA. Today we use the data to PREDICT.'\n\n'Sap Sam knows: 1 tree fills 1 bucket. That's our DATA. Now predict — how many buckets for 5 trees?' Children: '5!' 'Right. We use the rule (1 tree = 1 bucket) to predict.'\n\nWrite on the chart: '5 trees × 1 bucket each = 5 buckets.'\n\n'Predict for 10 trees. 10 buckets. For 20? 20 buckets. The rule scales.'\n\nNow harder. 'What if some trees give MORE? Big trees give 2 buckets. Small trees give 1.' Build with paper: 5 big trees + 5 small trees. Predict: 5×2 + 5×1 = 10 + 5 = 15 buckets.\n\n'Predicting helps us plan. Sap Sam knows how many buckets to bring to the bush.'",
+    "student_actions": [
+      "Predict 5 buckets for 5 trees.",
+      "Predict for 10 and 20.",
+      "Echo new vocabulary: 'predict'.",
+      "Predict for the mixed-size scenario."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Prediction Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {"step_number": 1, "instruction": "Whole group: predict for 4 more scenarios. (a) 8 trees, 1 bucket each. (b) 6 trees, 2 buckets each. (c) 10 trees, half big half small. (d) 15 trees, 1 bucket each.", "teacher_prompt": "Say to students: 'Use the rule. Predict the buckets.'"},
+      {"step_number": 2, "instruction": "Send pairs to three stations (~7 min each). Station A: Tree-to-Bucket — pair predicts buckets for 5, 10, 15 trees with 1-bucket-each rule. Station B: Mixed Sizes — pair predicts for groups of big and small trees. Station C: Real-Life Predict — pair counts something then predicts (e.g., 'I have 5 friends. If each gets 2 stickers, how many stickers?').", "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"},
+      {"step_number": 3, "instruction": "Stretch challenge at Station C: include problems where predictions might be wrong (variability — some trees give MORE than 1 bucket, some give LESS).", "teacher_prompt": "Say to pairs: 'Sometimes predictions need a range, not a single number.'"},
+      {"step_number": 4, "instruction": "Discuss the rule. 'A model is a RULE that says how things relate. 1 tree = 1 bucket is a rule. Different rules give different predictions.'", "teacher_prompt": "Highlight: rules ARE models."},
+      {"step_number": 5, "instruction": "Circulate to record formative evidence on the prediction tracker.", "teacher_prompt": "Stop at each pair. Ask 'What's your rule? What's your prediction?' Mark the tracker."}
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only 1-bucket-each rule.",
+      "for_extending": "Stretch at Station B: predict for 50 trees with mixed sizes.",
+      "for_ell_or_iep": "Provide picture-supported tree-bucket cards. Sentence frame: 'For ___ trees, I predict ___ buckets.'",
+      "for_movement_learners": "Walk-and-count: pretend each step is a tree, each foot's bucket prediction is the count."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: applies a rule to predict; predicts for varying counts; explains the rule.",
+      "how_to_record": "Tick the prediction tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Applies 1-to-1 rule",
+        "Predicts for 5, 10, 20",
+        "Explains the rule",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Sam's Predict Brag",
+    "discussion_prompts": [
+      "How did you make your prediction?",
+      "What's a rule?",
+      "Can a rule be wrong sometimes?",
+      "What's one prediction you made today?"
+    ],
+    "exit_routine": "Each child writes ONE prediction on a sticky note: 'For ___, I predict ___.' Notes go on the chart."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Prediction accuracy and rule articulation.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures the PREDICT step of the modelling cycle."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child predicts a single number when reality has variability — repairing the over-confident prediction error",
+    "rationale": "The most common Grade-1 trap on prediction is the over-confident error: the child predicts exactly 5 buckets for 5 trees without considering that some trees might give more or less. They miss that real-life predictions often need a RANGE.\n\nThe walkthrough covers the precise moment when a child predicts 5 buckets and is surprised when reality gives 4.",
+    "setup": "Pair is at Station C. The child predicts 5 buckets for 5 trees. Reality: 4 buckets (one tree was dry).",
+    "teacher_script": "'Your prediction was 5. Reality was 4. What happened?' The child shrugs. 'Sometimes real life is DIFFERENT from our rules. Trees aren't all identical.'\n\n'Sap Sam says — predict a RANGE. Maybe 4-6 buckets. Then your prediction includes uncertainty.'\n\nLong-term recovery: every prediction includes a 'maybe range'.",
+    "expected_student_responses": [
+      "(Confused) Predicts a single number always.",
+      "(Mid) Recognizes uncertainty with prompts.",
+      "(Strong) Predicts ranges (4-6 buckets).",
+      "(Stretched) Volunteers reasons for variability."
+    ],
+    "common_misconceptions": [
+      "Predictions are always exact. (Repair: real life has variability.)",
+      "Rules always work. (Repair: rules are estimates.)",
+      "If reality differs from prediction, the prediction was 'wrong'. (Repair: predictions are estimates — close is good.)"
+    ],
+    "recovery_moves": [
+      "Predict a RANGE. 'Between 4 and 6 buckets.'",
+      "Acknowledge uncertainty. 'Sometimes more, sometimes less.'",
+      "Refine the rule with experience."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Sap Sam's Predictions",
+    "purpose": "Independent practice of C4 step 3 (predict).",
+    "parts_outline": [
+      {"part_number": 1, "task": "Use the rule '1 tree = 1 bucket' to predict for 4 different tree counts.", "response_type": "write"},
+      {"part_number": 2, "task": "Use a different rule (e.g., 1 tree = 2 buckets) and predict.", "response_type": "write"},
+      {"part_number": 3, "task": "Pick a real-life rule from your day. Predict for one situation.", "response_type": "draw_or_write"}
+    ],
+    "expected_image_assets": [
+      "Sap Sam in the worksheet header",
+      "4 tree-count rows for Part 1",
+      "4 tree-count rows with new rule for Part 2",
+      "A blank box for Part 3"
+    ]
+  }
+}

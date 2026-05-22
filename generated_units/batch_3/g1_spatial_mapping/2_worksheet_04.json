@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 4,
+  "worksheet_title": "Tig's Treasure Locator",
+  "purpose": "Independent practice of E1.4 — describing locations with position words.",
+  "student_learning_goal": "I can describe where something is using position words.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can describe where something is using position words.",
+    "character_watermark": "Trekker Tig in the top-right corner with a treasure map. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [{"page_number": 1, "parts": [
+    {
+      "part_number": 1,
+      "part_title": "Part 1: Pick the position word.",
+      "student_instructions": "Look at each map. Write the position word: above, below, beside, between, in front, or behind.",
+      "visual_layout": "Four small map pictures stacked vertically. Each shows a treasure in a specific position relative to a landmark.",
+      "image_placeholders": [
+        {
+          "id": "WS04_P1_MAPS",
+          "description": "Four small map pictures for a Grade 1 worksheet, B&W line art. Each ~3in × 1.5in. Map 1: gold token ABOVE a cabin. Map 2: gem BELOW a tree. Map 3: key BESIDE a lake. Map 4: chest BETWEEN two trees. Each panel has a writing line for the position word below.",
+          "placement": "Centred vertically in Part 1.",
+          "approximate_size": "full_width",
+          "keywords": ["above", "below", "beside", "between"],
+          "text_image_alignment_check": "Image WS04_P1_MAPS at Part 1: instructions ask the child to write the position word for each map. Keywords name the position categories."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Map 1: above. Map 2: below. Map 3: beside. Map 4: between."
+    },
+    {
+      "part_number": 2,
+      "part_title": "Part 2: Place the treasures.",
+      "student_instructions": "Read each clue. Draw the treasure in the right place on the map.",
+      "visual_layout": "A treasure map (~5in × 4in) with cabin, tree, lake, and 4 numbered location clues below.",
+      "image_placeholders": [
+        {
+          "id": "WS04_P2_MAP",
+          "description": "A treasure map for a Grade 1 worksheet, B&W line art. ~5in × 4in. Features: cabin on the left, maple tree on the right, lake at the bottom-centre, snow-covered hill at top-right. Below the map, 4 numbered clues: '(1) Gold ABOVE the cabin. (2) Gem BESIDE the tree. (3) Key BELOW the lake. (4) Chest BETWEEN the cabin and the tree.'",
+          "placement": "Centred horizontally; spans Part 2.",
+          "approximate_size": "full_width",
+          "keywords": ["map", "treasures"],
+          "text_image_alignment_check": "Image WS04_P2_MAP at Part 2: instructions ask the child to place treasures on the map. Keywords name the visual elements."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "(1) Gold drawn above the cabin. (2) Gem drawn beside the tree. (3) Key drawn below the lake. (4) Chest drawn between the cabin and the tree."
+    },
+    {
+      "part_number": 3,
+      "part_title": "Part 3: Describe your bedroom.",
+      "student_instructions": "Pick 3 things in your bedroom. Describe where each is using position words.",
+      "visual_layout": "Three sentence-frame lines stacked vertically.",
+      "image_placeholders": [
+        {
+          "id": "WS04_P3_FRAMES",
+          "description": "Three sentence-frame lines for a Grade 1 worksheet. Each line reads 'The ___ is ___ the ___.' with three blanks. Generous spacing for handwriting.",
+          "placement": "Centred horizontally in Part 3.",
+          "approximate_size": "medium",
+          "keywords": ["position", "bedroom"],
+          "text_image_alignment_check": "Image WS04_P3_FRAMES at Part 3: instructions ask the child to describe bedroom items. Keywords name the prompt focus."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any 3 valid sentences. Common: 'The bed is beside the window.' 'The lamp is above the desk.' 'The toy is in front of the closet.'"
+    }
+  ]}],
+  "early_finisher_prompt": "If you finish, describe a 4th item using TWO position words.",
+  "teacher_notes": "Lesson 4 consolidation artifact. Use Part 1 as the formative signal — children who correctly identify all 4 position words have grasped specificity."
+}

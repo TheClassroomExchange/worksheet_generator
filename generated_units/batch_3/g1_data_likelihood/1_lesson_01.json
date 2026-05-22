@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 1,
+  "lesson_title": "Impossible, Possible, Certain",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Some events CAN'T happen (impossible). Some MIGHT (possible). Some MUST (certain).",
+  "learning_intention": "We are learning to name events as impossible, possible, or certain.",
+  "student_learning_goal": "I can name events as impossible, possible, or certain.",
+  "success_criteria": [
+    "I can name an event as IMPOSSIBLE.",
+    "I can name an event as POSSIBLE.",
+    "I can name an event as CERTAIN."
+  ],
+  "vocabulary_introduced": [
+    "impossible",
+    "possible",
+    "certain",
+    "likelihood"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_event_cards",
+    "M7_likelihood_chart",
+    "M10_likelihood_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky and Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Impossible, Possible, Certain'",
+    "Event Cards (24 per pair)",
+    "Lesson 1 likelihood tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Lucky's Silly Predictions",
+    "hook": "Lucky: WILL the sun fly to the moon today? IMPOSSIBLE! WILL it rain at recess? POSSIBLE! WILL the day end? CERTAIN!",
+    "teacher_script": "Bring children to the carpet. Lucky and Mae puppets. 'Friends — I'm Lucky Lou the Loon, and this is Maybe Mae the Cat. Today we learn 3 BIG words about LIKELIHOOD: IMPOSSIBLE, POSSIBLE, CERTAIN.'\n\nIntroduce vocabulary. Write IMPOSSIBLE, POSSIBLE, CERTAIN on chart. 'Impossible = it CANNOT happen. Possible = it MIGHT happen. Certain = it WILL happen for sure.'\n\nDemonstrate. Hold up event cards one at a time:\n- 'A pig will fly today.' (IMPOSSIBLE — pigs cannot fly.)\n- 'It will snow in July in Toronto.' (IMPOSSIBLE.)\n- 'It will rain at recess.' (POSSIBLE — might or might not.)\n- 'I will eat lunch today.' (CERTAIN — yes.)\n- 'The sun will rise tomorrow.' (CERTAIN.)\n- 'I will see a unicorn at recess.' (IMPOSSIBLE.)\n- 'A friend will smile at me today.' (POSSIBLE — likely!)\n\nMore Canadian-flavour examples:\n- 'Maple leaves fall in fall.' (CERTAIN.)\n- 'Snow in July.' (IMPOSSIBLE.)\n- 'Rain at recess.' (POSSIBLE.)\n- 'A coin lands on heads.' (POSSIBLE.)\n\n'Lucky says — every event fits ONE of these three. Decide impossible / possible / certain.'\n\n'Today YOU sort lots of events.'",
+    "student_actions": [
+      "Listen to Lucky's silly predictions.",
+      "Echo new vocabulary.",
+      "Decide events as impossible / possible / certain.",
+      "Practice the 3 terms aloud."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Likelihood Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: name 6 events as I/P/C. Use Canadian examples (snow in July, rain in spring, maple leaves fall, etc.).",
+        "teacher_prompt": "Say: 'Impossible, possible, or certain?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Sort 8 'impossible' event cards. Station B: Sort 8 'possible' event cards. Station C: Sort 8 'certain' event cards.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write your own EVENT CARD and decide its likelihood.",
+        "teacher_prompt": "Say: 'Stretch: invent your own event.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the 3 categories. 'Impossible has NO chance. Certain has ALL chance. Possible is in between.'",
+        "teacher_prompt": "Show with hand gestures: closed fist (no), open palm (yes), middle hand (maybe)."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record diagnostic evidence on the likelihood tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Why is this impossible?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only obvious 'impossible' events.",
+      "for_extending": "Stretch at Station C: invent 3 events for each category.",
+      "for_ell_or_iep": "Use a sentence frame: 'This is ___ because ___.'",
+      "for_movement_learners": "Children physically move to one of 3 corners (impossible / possible / certain) when teacher names an event."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: names IMPOSSIBLE; names POSSIBLE; names CERTAIN.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Names impossible",
+        "Names possible",
+        "Names certain",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Lucky's Likelihood Brag",
+    "discussion_prompts": [
+      "What does IMPOSSIBLE mean?",
+      "What does POSSIBLE mean?",
+      "What does CERTAIN mean?",
+      "Give an example of each."
+    ],
+    "exit_routine": "Each child names ONE example of each: 'Impossible: ___. Possible: ___. Certain: ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "Likelihood term identification.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already use likelihood vocabulary from those who only know 'maybe'."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says POSSIBLE for everything — repairing the all-possible default at Grade 1",
+    "rationale": "The most common Grade-1 trap on D2.1 is the all-possible default: the child assigns POSSIBLE to almost every event because 'it could happen, right?'. They miss that some events are TRULY impossible (pigs flying) and some are TRULY certain (sun rising tomorrow).\n\nThis matters because likelihood requires distinguishing between three real categories. The default 'possible' collapses the distinction.\n\nThe walkthrough covers when a child labels everything possible.",
+    "setup": "Pair is at Station A. Card: 'A horse will sit on my chair.' Child says 'POSSIBLE'. Card: 'Sun rises tomorrow.' Child says 'POSSIBLE'.",
+    "teacher_script": "Crouch. 'You said both POSSIBLE. But Lucky says — there are 3 different words.'\n\nWalk through. 'Card 1: A horse sits on your chair. Could that REALLY happen here today? No — a horse won't fit, won't be brought to school. That's IMPOSSIBLE.'\n\n'Card 2: Sun rises tomorrow. Has it ALWAYS risen? Yes. Will it tomorrow? Yes — that's CERTAIN.'\n\nGeneralise. 'Lucky says — IMPOSSIBLE means NEVER. CERTAIN means ALWAYS. POSSIBLE is the middle — sometimes yes, sometimes no.'\n\nNow practice. 'A snowman will be in our classroom this afternoon.' Impossible (won't be brought in). 'Lunch will happen today.' Certain. 'It will rain.' Possible.\n\nIf still always-possible: provide the 3-term mat. 'Place each card on the right zone.' Force category use.\n\nLong-term recovery: every event activity asks 'never, always, or sometimes?'",
+    "expected_student_responses": [
+      "(Confused) Says POSSIBLE for everything.",
+      "(Mid) Distinguishes with prompts; uses 'never/always' as bridge.",
+      "(Strong) Independently uses all 3 terms.",
+      "(Stretched) Gives reasons: 'impossible because pigs cannot fly'."
+    ],
+    "common_misconceptions": [
+      "Possible covers everything. (Repair: 3 distinct categories.)",
+      "Impossible only means 'silly'. (Repair: impossible means NEVER.)",
+      "Certain only means 'today'. (Repair: certain means ALWAYS.)"
+    ],
+    "recovery_moves": [
+      "Use the 3-zone sort mat.",
+      "Drill 'never, always, or sometimes?'",
+      "Provide many obvious-impossible and obvious-certain cards before mixing in possible."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Lucky's Likelihood Hunt",
+    "purpose": "Independent practice of D2.1 likelihood term identification.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Read 6 events. Circle I (impossible), P (possible), or C (certain).",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Sort 6 events into 3 columns: Impossible, Possible, Certain.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write your own event for each likelihood. 3 events total.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky in worksheet header",
+      "6 event cards for Part 1",
+      "Sort columns for Part 2",
+      "3 blank event lines for Part 3"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "lesson_number": 2,
+  "lesson_title": "Compare Areas",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E2.7",
+    "E2.8"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "AREA is the SPACE INSIDE a shape. Compare by MATCHING, COVERING, or DECOMPOSING.",
+  "learning_intention": "We are learning to compare areas of shapes by matching or covering.",
+  "student_learning_goal": "I can compare areas of shapes by matching or covering.",
+  "success_criteria": [
+    "I can SAY what area means.",
+    "I can COVER a shape with tiles.",
+    "I can COMPARE 2 shapes by area.",
+    "I can EXPLAIN gaps and overlaps."
+  ],
+  "vocabulary_introduced": [
+    "area"
+  ],
+  "vocabulary_reinforced": [
+    "perimeter",
+    "millimetre",
+    "kilometre"
+  ],
+  "manipulatives_used": [
+    "M3_tile_set",
+    "M7_measurement_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Roo the Ruler Rabbit — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Area = Inside Space'",
+    "Square Tiles (60 per pair set)",
+    "Shape outlines (4 per pair)",
+    "Lesson 2 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Roo's Tile Cover",
+    "hook": "Roo: AREA is HOW MUCH space is INSIDE. Cover the field with tiles to compare! Roo opens: 'ROWS times COLUMNS — that's AREA!' Yesterday Roo did the BOUNDARY. Today we cover the INSIDE.",
+    "teacher_script": "Bring children to the carpet. Roo the Ruler Rabbit puppet. 'Measurement friends — yesterday we measured AROUND. Today we measure INSIDE — that's AREA!'\n\nDefine. 'AREA = space INSIDE a shape. We COVER with tiles to measure.'\n\nDemo. 'Two fields. Field A: 6 tiles. Field B: 8 tiles. B has MORE area!'\n\n3 ways to compare:\n1. MATCH (place one shape on top of other — bigger sticks out).\n2. COVER (count tiles inside each).\n3. DECOMPOSE (cut and rearrange — same total area).\n\nDemo each:\n- MATCH: Two same-size squares match perfectly = same area.\n- COVER: Rectangle 3×2 = 6 tiles. Square 2×2 = 4 tiles. Rectangle bigger.\n- DECOMPOSE: Cut a rectangle into 2 triangles, rearrange. Same area!\n\n'Roo says — different shapes can have the SAME area!'\n\nNow gaps and overlaps. 'When we cover, tiles must NOT overlap (count too many) and NOT have gaps (count too few). Tile EDGE-TO-EDGE.'\n\nDemo bad covering. 'Look — 4 tiles with overlaps says 4 but really 3.5. Or 4 tiles with gaps says 4 but really 5.'\n\n'Roo says — accurate covering means tiles TOUCH but don't OVERLAP.'\n\nNow each pair gets 4 shape outlines + 30 square tiles. They cover and count.\n\n'Roo says — count carefully!'",
+    "student_actions": [
+      "Watch Roo demo",
+      "Echo area definition",
+      "Practice covering 1 shape",
+      "Compare 2 shapes by tile count"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Cover and Compare 4 Shapes",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out shape outlines + 30 tiles. Pairs cover each shape.",
+        "teacher_prompt": "Say: 'Cover 4.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Compare 2 pairs of shapes — which has bigger area?",
+        "teacher_prompt": "Say: 'Compare 2.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: decompose 1 shape into smaller parts and recompose.",
+        "teacher_prompt": "Say: 'Stretch: cut and rearrange.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with edge-to-edge tile placement.",
+        "teacher_prompt": "Show: tiles touch."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their area methods — Pair A counts one-by-one; Pair B uses rows × columns. Class compares which is faster + more reliable for a 6×4 rectangle. Cite Battista (1999) spatial structuring.",
+        "teacher_prompt": "Roo: 'Counting works for small. ROWS × COLUMNS works for ANY size.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Compare 2 shapes only.",
+      "for_extending": "Find 2 different shapes with same area.",
+      "for_ell_or_iep": "Pre-printed grid backgrounds.",
+      "for_movement_learners": "Cover floor tiles in classroom."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: covers; counts; compares; explains gaps; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Covers carefully",
+        "Counts tiles",
+        "Compares areas",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Roo's Cover Brag",
+    "discussion_prompts": [
+      "What's AREA?",
+      "How is area DIFFERENT from perimeter?",
+      "What if tiles OVERLAP?",
+      "Can 2 shapes have the same area?"
+    ],
+    "exit_routine": "Roo's area chant — 'Roo says: ROWS times COLUMNS — that's AREA!' (3x). Each child computes one area using array structure."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Area cover tracker.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures E2.7-E2.8."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child loses the array structure — repairing the spatial structuring trap",
+    "rationale": "On comparing areas, the dominant Grade-3 trap is the SPATIAL STRUCTURING failure (Battista 1999, 'Spatial Structuring in Geometric Reasoning'; Outhred & Mitchelmore 2000 on rectangle area): child counts cells one-by-one without seeing the array (rows × columns) structure. Without it, area comparison cannot be done efficiently.\n\nYesterday Roo did perimeter (boundary). Today we compare AREAS (interior coverage). Lesson 3 introduces square cm; Lesson 4 capacity/mass; Lesson 5 capstones.",
+    "setup": "Cover activity. Child has tiles overlapping by 1 tile width.",
+    "teacher_script": "Crouch. 'Roo asks — are your tiles TOUCHING? Any GAPS?'\n\nProbe. 'Find an overlap. Fix it. Find a gap. Fill it.'\n\nGeneralise. 'Roo says — accurate AREA means tiles fit edge-to-edge. No gaps, no overlaps.'\n\nIf still careless: trace tile boundaries with finger. 'Each tile in its own SPOT.'",
+    "expected_student_responses": [
+      "(Confused) Random covering.",
+      "(Mid) Some gaps.",
+      "(Strong) Edge-to-edge.",
+      "(Stretched) Articulates gaps cause undercount."
+    ],
+    "common_misconceptions": [
+      "Tile gaps = small effect. (Repair: every gap = under-count.)",
+      "Overlap = double count. (Repair: yes — also wrong.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child counts cells one-by-one: drill 'find ROWS and COLUMNS first; multiply'; child re-counts using array structure.",
+      "DIAGNOSTIC B — child uses array but loses count: chunk in 5s or 10s; row × column visualization.",
+      "DIAGNOSTIC C — child applies array correctly but cannot articulate: force 'area = ROWS × COLUMNS = ___ × ___ = ___ square units.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Roo's Tile Compare",
+    "purpose": "Independent practice of E2.7-E2.8.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Count tiles inside 4 shapes.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Compare 2 shape pairs: bigger or smaller area.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Find 2 different shapes with the SAME area.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Roo the Ruler Rabbit in worksheet header",
+      "4 tiled shapes for Part 1",
+      "2 shape pairs for Part 2"
+    ]
+  }
+}

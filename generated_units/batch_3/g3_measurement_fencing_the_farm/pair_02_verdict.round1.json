@@ -1,0 +1,35 @@
+{
+  "unit_id": "g3_measurement_fencing_the_farm",
+  "pair_number": 2,
+  "subject": "Mathematics",
+  "alignment": 3,
+  "pedagogical_depth": 2,
+  "instructional_balance": 3,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 2,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "expanded_walkthrough.title is 'When the child counts tiles with GAPS or OVERLAPS — repairing the careless-cover trap at Grade 3' and recovery_moves are ['Trace each tile.', 'Drill edge-to-edge.', 'Compare careful vs careless.'] — this frames the issue as 'careless' rushing rather than naming a real Grade 3 spatial-structuring misconception. Recovery is generic drilling, not diagnostic-branched.",
+      "required_fix": "Reframe the trap as the well-documented Grade 3 'spatial structuring' misconception (Battista 1999; Outhred & Mitchelmore 2000): children who have not yet structured area as a row-and-column array tile randomly because they see area as 'space to fill' rather than as a structured iteration of equal units. Add concrete recovery moves that branch by what circulation reveals: (a) if child tiles randomly with gaps and overlaps, model row-by-row iteration starting from one corner; (b) if child tiles edge-to-edge but recounts each tile individually, prompt 'how many in one row? how many rows?' to surface composite units; (c) if child already structures rows, push to predict before counting. Cite Battista in rationale.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 2,
+      "target_score": 3,
+      "specific_evidence": "Worksheet Part 3 image_placeholder id 'WS02_P3_SAME' but its text_image_alignment_check reads 'WS03_P3_SAME at Part 3' (wrong unit/lesson reference — refers to WS03 not WS02). Also early_finisher_prompt 'find area of a square that has perimeter 12' was never taught in lesson_02 (perimeter→area conversion is not a lesson 2 success criterion; lesson 2 teaches matching/covering/decomposing, not deriving area from perimeter). Part 2 answer key text 'Pair 1: 8 vs 6, so left smaller, right bigger' contradicts the Pair 1 image description which has 3x2=6 on the left and 2x4=8 on the right (left should be smaller, but the wording 'left smaller, right bigger' is consistent only with this layout — confirm which left/right is which; the prose conflicts with the canonical 3x2 listed first).",
+      "required_fix": "Fix three concrete items: (1) correct the text_image_alignment_check string in Part 3 from 'WS03_P3_SAME' to 'WS02_P3_SAME'; (2) replace the early_finisher_prompt with a transfer task that practises lesson 2 success criteria — e.g. 'Draw a 3rd shape with the SAME area as your two shapes in Part 3' or 'Decompose your Part 1 L-shape into two rectangles and prove the area is still 5 tiles'; (3) clarify the Part 2 Pair 1 answer key so the order matches the image (state explicitly: 'left = 3x2 = 6 tiles SMALLER; right = 2x4 = 8 tiles BIGGER').",
+      "affected_stages": ["worksheet_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ]
+}

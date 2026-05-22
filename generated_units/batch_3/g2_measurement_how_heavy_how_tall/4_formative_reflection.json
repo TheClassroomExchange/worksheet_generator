@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "formative_worksheets": [
+    {
+      "title": "The Ruler and Time Check",
+      "when_to_use": "After Lesson 3, before Lesson 4. Quick mid-unit check (10 min).",
+      "purpose": "Standalone formative check confirming ruler use and cm/m before time.",
+      "expectations_assessed": [
+        "E2.2",
+        "E2.3"
+      ],
+      "student_learning_goal": "I can use a ruler and convert cm/m.",
+      "header": {
+        "student_name_field": true,
+        "date_field": true,
+        "student_learning_goal_banner": "I can use a ruler and convert cm/m.",
+        "character_watermark": "Roo with a clipboard in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+      },
+      "prompts": [
+        {
+          "prompt_number": 1,
+          "prompt": "Measure the line in cm.",
+          "visual_layout": "A 7-cm line + cm answer line.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q1_LINE",
+              "description": "A 7-cm horizontal line for Grade 2 formative check, B&W line art. Below: '___ cm' answer line.",
+              "placement": "Centred in Prompt 1.",
+              "approximate_size": "medium",
+              "keywords": [
+                "line",
+                "cm"
+              ],
+              "text_image_alignment_check": "FORM_Q1_LINE: instructions ask the child to measure in cm. Keywords name the visual and unit."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "7 cm."
+        },
+        {
+          "prompt_number": 2,
+          "prompt": "100 cm = ? m. 2 m = ? cm.",
+          "visual_layout": "Two conversion problems with answer lines.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q2_CONVERT",
+              "description": "Two conversion problems for Grade 2 formative check. '100 cm = ___ m' and '2 m = ___ cm' with answer lines.",
+              "placement": "Centred in Prompt 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "convert",
+                "cm"
+              ],
+              "text_image_alignment_check": "FORM_Q2_CONVERT: instructions ask the child to convert cm and m. Keywords name the activity."
+            }
+          ],
+          "response_type": "draw_or_write",
+          "answer_key": "100 cm = 1 m. 2 m = 200 cm."
+        },
+        {
+          "prompt_number": 3,
+          "prompt": "How are you feeling? Circle the face.",
+          "visual_layout": "Three faces in a row.",
+          "image_placeholders": [
+            {
+              "id": "FORM_Q3_FACES",
+              "description": "Three round face icons for Grade 2 formative check.",
+              "placement": "Centred in Prompt 3.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "faces",
+                "feeling"
+              ],
+              "text_image_alignment_check": "FORM_Q3_FACES at Prompt 3: keywords name the visual."
+            }
+          ],
+          "response_type": "self_rate",
+          "answer_key": "Open."
+        }
+      ],
+      "teacher_notes": "Administer between Lesson 3 and Lesson 4. Print one per child."
+    }
+  ],
+  "reflection_sheet": {
+    "title": "My Measure Maven Reflection",
+    "purpose": "End-of-unit metacognition.",
+    "student_learning_goal": "I can think about what I learned this week.",
+    "header": {
+      "student_name_field": true,
+      "date_field": true,
+      "student_learning_goal_banner": "I can think about what I learned this week.",
+      "character_watermark": "Roo and Cal with a Junior Measure Maven certificate in the top-right. References blueprint.recurring_characters."
+    },
+    "prompts": [
+      {
+        "prompt_number": 1,
+        "prompt": "How do you feel? Circle one.",
+        "visual_layout": "Three star-rating ovals.",
+        "image_placeholders": [
+          {
+            "id": "REF_STARS",
+            "description": "Three rating ovals for Grade 2 reflection.",
+            "placement": "Centred in Prompt 1.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "stars",
+              "rating"
+            ],
+            "text_image_alignment_check": "REF_STARS at Prompt 1: keywords name the visual."
+          }
+        ],
+        "response_type": "self_rate",
+        "options": [
+          "Just starting",
+          "Mostly got it",
+          "I am a Maven!"
+        ]
+      },
+      {
+        "prompt_number": 2,
+        "prompt": "Did you do these? Circle YES or NO.",
+        "visual_layout": "A 4-row YES/NO table.",
+        "image_placeholders": [
+          {
+            "id": "REF_YN_TABLE",
+            "description": "A 4-row YES/NO table for Grade 2 reflection.",
+            "placement": "Centred in Prompt 2.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "yes",
+              "no"
+            ],
+            "text_image_alignment_check": "REF_YN_TABLE at Prompt 2: keywords name the response options."
+          }
+        ],
+        "response_type": "circle_yes_no",
+        "options": [
+          "I picked the right unit.",
+          "I used cm and m.",
+          "I started at zero on the ruler.",
+          "I picked time units."
+        ]
+      },
+      {
+        "prompt_number": 3,
+        "prompt": "My favourite measurement was...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_FAV_BOX",
+            "description": "A bordered rectangle for Grade 2 reflection.",
+            "placement": "Centred in Prompt 3.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "favourite",
+              "measurement"
+            ],
+            "text_image_alignment_check": "REF_FAV_BOX at Prompt 3: keywords name the focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 4,
+        "prompt": "The trickiest part for me was...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_TRICKY_BOX",
+            "description": "A bordered rectangle for Grade 2 reflection.",
+            "placement": "Centred in Prompt 4.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "trickiest"
+            ],
+            "text_image_alignment_check": "REF_TRICKY_BOX at Prompt 4: keyword matches the prompt."
+          }
+        ],
+        "response_type": "draw_or_write"
+      },
+      {
+        "prompt_number": 5,
+        "prompt": "Next time, I want to try...",
+        "visual_layout": "A bordered rectangle ~5in × 1.8in.",
+        "image_placeholders": [
+          {
+            "id": "REF_NEXT_BOX",
+            "description": "A bordered rectangle for Grade 2 reflection.",
+            "placement": "Centred in Prompt 5.",
+            "approximate_size": "full_width",
+            "keywords": [
+              "next",
+              "try"
+            ],
+            "text_image_alignment_check": "REF_NEXT_BOX at Prompt 5: keywords name the focus."
+          }
+        ],
+        "response_type": "draw_or_write"
+      }
+    ],
+    "teacher_notes": "Hand out at the end of Lesson 5 alongside Junior Measure Maven certificate."
+  }
+}

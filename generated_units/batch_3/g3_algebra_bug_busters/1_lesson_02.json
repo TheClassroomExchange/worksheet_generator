@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_bug_busters",
+  "lesson_number": 2,
+  "lesson_title": "Writing Concurrent Code",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Concurrent code uses parallel lanes. Two actions in the same time-step run together.",
+  "learning_intention": "We are learning to write code with concurrent events.",
+  "student_learning_goal": "I can write code with concurrent events.",
+  "success_criteria": [
+    "I can write 2-lane code with at least 4 time-steps.",
+    "I can include a loop in my code.",
+    "I can predict where both robots end."
+  ],
+  "vocabulary_introduced": [
+    "repeating"
+  ],
+  "vocabulary_reinforced": [
+    "concurrent",
+    "sequential"
+  ],
+  "manipulatives_used": [
+    "M1_grid_mat",
+    "M2_code_cards",
+    "M4_robot_markers",
+    "M5_concurrent_chart",
+    "M7_loop_cards",
+    "M10_buster_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Buzz and Patch — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Writing Concurrent Code'",
+    "2-Lane Coding Grid Mats",
+    "Code Step Cards (30) and Loop Cards (8)",
+    "Robot Markers (10)",
+    "Lesson 2 writing tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Buzz Writes 2-Lane Code",
+    "hook": "Buzz writes code: Robot 1 forward + Robot 2 forward at the SAME time. Buzz adds a loop. Buzz opens: 'every LANE, every STEP, gets an ACTION!'",
+    "teacher_script": "Bring children to the carpet. Buzz + Patch puppets. 'Yesterday we IDENTIFIED concurrent. Today we WRITE 2-lane code with a loop.'\n\nIntroduce vocabulary. Write REPEATING on chart. 'Repeating means doing the same action many times — a LOOP. Loops can be in concurrent code too.'\n\nDemonstrate. Write on chart:\nStep | Robot 1     | Robot 2\n  1  | fwd         | fwd\n  2  | turn right  | fwd\n  3  | Repeat 3: fwd | fwd\n\n'Step 3: Robot 1 has Repeat 3: forward — that means R1 forwards 3 times. While that happens, R2 forwards ONCE (or 3 times if synchronised).'\n\nDiscuss synchronisation. 'When R1 has a loop and R2 has a single step, they may finish at different times. That's OK. Code says what each robot does.'\n\nMore examples:\n- R1: Repeat 4: fwd. R2: Repeat 4: fwd. Both forward 4 — synchronised.\n- R1: Repeat 5: fwd. R2: turn turn turn. R1 finishes 5 steps; R2 turns 3 times.\n\n'Buzz says — concurrent code can have loops in either lane. Each lane's code runs simultaneously with the other.'\n\n'Today you WRITE 2-lane code with at least 4 time-steps and 1 loop.'",
+    "student_actions": [
+      "Watch Buzz write 2-lane code with a loop.",
+      "Echo new vocabulary: 'repeating'.",
+      "Predict outcomes for sample 2-lane codes.",
+      "Plan their own code."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Concurrent Writing Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: write 2 codes together. (a) Both robots forward 5. (b) R1 forward 3, R2 turn turn turn fwd.",
+        "teacher_prompt": "Say: 'Use 2-lane format. Predict outcomes.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Synchronised — pair writes 3 codes where both robots do the same. Station B: Different — pair writes 3 codes where R1 and R2 do different actions. Station C: With Loops — pair writes 2 codes with at least 1 loop in each.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write code where R1 has 6 steps and R2 has 3 steps. Predict ending positions.",
+        "teacher_prompt": "Say: 'Stretch: different-length lanes.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the time-step model. 'Each row is one moment. Both lanes' actions happen in that moment.'",
+        "teacher_prompt": "Demonstrate on the grid mat with both robots."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the writing tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Show me where both robots end.' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two pairs share their concurrent code that produces the same outcome. Class compares: same time-steps? Same length? Cite Grover & Pea (2013) on CT abstraction — many concurrent solutions can produce the same outcome.",
+        "teacher_prompt": "Buzz: 'Different code, same outcome — concurrency lets you choose the path.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Synchronised actions only.",
+      "for_extending": "Stretch at Station C: 3-lane code.",
+      "for_ell_or_iep": "Provide a structured 2-lane template.",
+      "for_movement_learners": "Act out as 2 robots. NO-MATERIALS PATH: use floor tape or two parallel rows of desks as the 2-lane mat; children walk the lanes."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: writes 2-lane code; includes loop; predicts ending positions.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Writes 2-lane code",
+        "Includes a loop",
+        "Predicts ending positions",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Buzz's Writing Brag",
+    "discussion_prompts": [
+      "What does CONCURRENT mean in code?",
+      "How does a loop work in concurrent code?",
+      "What if R1 and R2 finish at different times?",
+      "Show me your code's ending positions."
+    ],
+    "exit_routine": "Buzz's writing refrain — 'every LANE, every STEP, gets an ACTION!' (3x). Each child writes one complete 2-lane code with no empty cells."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Concurrent writing accuracy.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures C3.1 mastery for concurrent writing."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child writes 2-lane code where R2's lane is empty for some steps — repairing the empty-lane confusion at Grade 3",
+    "rationale": "On writing concurrent code, the trap is the empty-lane error: child fills lane 1 with all moves and leaves lane 2 empty for some rows (Bers 2019; Grover & Pea 2013). Without per-row, per-lane completion, debugging downstream cannot ground.\n\nYesterday Buzz read concurrent code; today we WRITE it. Lesson 3 finds bugs; Lesson 4 fixes; Lesson 5 capstones.",
+    "setup": "Pair is at Station B. R1: fwd, fwd, turn, fwd. R2: fwd, [blank], turn, [blank]. Child says 'done'.",
+    "teacher_script": "Crouch. 'You filled R1 but R2 has empty rows. What does R2 do in step 2 and step 4?'\n\nThe child looks. 'I forgot.' 'OK. Each robot needs an action every step. Either an action OR write WAIT to mean stay still.'\n\nWalk through. 'Row 2: R2 ___. Maybe wait. Or fwd. Pick.' Child writes 'wait'. 'Row 4: ___. Pick.' Child writes 'wait'.\n\nGeneralise. 'Buzz says — every lane, every step, has an action. WAIT is a valid action for staying still. No empty cells.'\n\nIf still leaves empty: provide a 'wait' card. 'When R2 has nothing to do, write WAIT.' Force the no-empty rule.\n\nLong-term recovery: every 2-lane code has an action in every cell.",
+    "expected_student_responses": [
+      "(Confused) Leaves cells empty.",
+      "(Mid) Fills cells with WAIT when prompted.",
+      "(Strong) Fills every cell independently.",
+      "(Stretched) Uses WAIT strategically (e.g., R2 waits for R1 to catch up)."
+    ],
+    "common_misconceptions": [
+      "Empty cell means nothing. (Repair: every cell needs an action, even WAIT.)",
+      "WAIT is not a real action. (Repair: WAIT is intentional staying still.)",
+      "I can leave R2 blank. (Repair: each robot has a column; every row has an action.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child writes lane 1 only: drill 'every LANE, every STEP, gets an ACTION (or WAIT)'; child fills empty cells with WAIT.",
+      "DIAGNOSTIC B — child uses different actions per lane but skips rows: row-by-row checklist; child checks each row before advancing.",
+      "DIAGNOSTIC C — child writes correct concurrent but doesn't match outcome: trace the code on the lane mat; child physically walks the result."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Buzz's Concurrent Writing",
+    "purpose": "Independent practice of C3.1 (write concurrent code).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Write a 2-lane code with 4 time-steps where both robots are synchronised.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Write a 2-lane code with a loop in one lane.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write your own 2-lane code (4-6 time-steps) and predict the ending positions.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Buzz in worksheet header",
+      "2-lane template for Part 1",
+      "2-lane template with loop slot for Part 2",
+      "Blank 2-lane template for Part 3"
+    ]
+  }
+}

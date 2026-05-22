@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 3,
+  "worksheet_title": "Inspector If's Reading",
+  "purpose": "Independent practice of C3.2 (read IF-THEN code).",
+  "student_learning_goal": "I can read IF-THEN code and predict the outcome.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can read IF-THEN code and predict the outcome.", "character_watermark": "Inspector If in the top-right corner. Small (~1.5in tall)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: Trace and Predict", "student_instructions": "Trace each IF-THEN code with the given input. Write the outcome.", "visual_layout": "Top of page. Four trace tables.",
+      "image_placeholders": [{"id": "WS03_P1_TRACE", "description": "Four trace tables in B&W line-art, ~7in x 3in. Each table: code on top, input cell, outcome cell. Pre-filled codes: 'IF >10 THEN BIG; ELSE SMALL', 'IF even THEN clap; ELSE stomp', 'IF =5 THEN star; ELSE plain', 'IF >20 THEN HIGH; ELSE LOW'. Inputs: 7, 4, 5, 25. Header 'Trace:'.", "placement": "Top of page.", "approximate_size": "full_width", "keywords": ["trace"], "text_image_alignment_check": "Image WS03_P1_TRACE: keywords (trace) name what the tables ask for."}],
+      "student_response_type": "write", "answer_key": "SMALL, clap, star, HIGH."},
+    {"part_number": 2, "part_title": "Part 2: TRUE and FALSE Inputs", "student_instructions": "For each IF-THEN code, list 2 inputs that give TRUE outcomes and 2 inputs that give FALSE outcomes.", "visual_layout": "Middle of page. Three input-output tables.",
+      "image_placeholders": [{"id": "WS03_P2_INPUTS", "description": "Three input-output tables in B&W line-art, ~7in x 2.5in. Each table: code on top, 'TRUE inputs: ___, ___' and 'FALSE inputs: ___, ___'. Codes: 'IF even THEN clap', 'IF >10 THEN BIG', 'IF multiple of 5 THEN star'. Header 'Find Inputs:'.", "placement": "Middle of page.", "approximate_size": "full_width", "keywords": ["inputs"], "text_image_alignment_check": "Image WS03_P2_INPUTS: keywords (inputs) name what the tables ask for."}],
+      "student_response_type": "write", "answer_key": "Open. Sample: TRUE inputs (even/2,4,8), FALSE inputs (odd/3,5,7)."},
+    {"part_number": 3, "part_title": "Part 3: Verify Your Predictions", "student_instructions": "Pick a code from above. Predict outcomes for 4 of your own inputs. Verify by re-tracing.", "visual_layout": "Bottom of page. A blank verification table.",
+      "image_placeholders": [{"id": "WS03_P3_VERIFY", "description": "A blank verification table in B&W line-art, ~7in x 2in. 'My code: ___'. 4 input-prediction-verified rows. Header 'Verify:'.", "placement": "Bottom of page.", "approximate_size": "full_width", "keywords": ["verify"], "text_image_alignment_check": "Image WS03_P3_VERIFY: keywords (verify) name what the table asks for."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open. All predictions must match traces."}
+  ]}],
+  "early_finisher_prompt": "If you finish, pick a 3-branch code and trace 5 inputs.",
+  "teacher_notes": "Lesson 3 worksheet practices C3.2 reading. Watch for input-doesn't-matter trap — children who predict the same outcome for every input."
+}

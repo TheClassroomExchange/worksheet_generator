@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "pair_number": 2,
+  "graded_at": "2026-05-09T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names a 'perspective trap' but does not cite research (Battista, van Hiele). recovery_moves are flat: 'Use a face-counting checklist.', 'Drill turn and find.', 'Demonstrate by rotating the structure.' — no branching by what the diagnostic told the teacher.",
+      "required_fix": "Branch recovery_moves by diagnostic: (a) names front face only — prompt 'turn and predict' before rotating; (b) can predict but loses count — give 6-box checklist; (c) claims sides are 'different shapes' — same-cube two-views compare. Cite van Hiele Level 0 to 1 or Battista (2007) spatial structuring in the rationale.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials require '12 Paper 3D Blocks per pair' (substantial fold-prep). differentiation lists movement/sentence-frame supports but offers no NO-PAPER, NO-PURCHASE alternative path using only voice/body/gesture for days when prep wasn't possible.",
+      "required_fix": "Add a no-prep version to differentiation, e.g., 'No-materials version — children stack two closed fists as a cube; tap each face and name the square; for a tower, stack three fist-cubes. Body becomes the structure.' Or list household substitutes (cereal/tissue boxes) with a one-line setup.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Tig anchors minds_on and the exit_routine, but there is no distinctive quotable refrain children carry between lessons. exit_routine is a sentence frame ('I built a ___. I found a ___ and a ___.'), not a memorable chant. Coco is referenced as 'puppets' in teacher_script though blueprint says she is a Lesson 3-5 cameo.",
+      "required_fix": "Give Tig a quotable refrain children chant back, e.g., 'Turn it, find it, name it!' used in minds_on demo, station signage, and exit routine. Either remove the Coco puppet reference from teacher_script or use her with one defined line of dialogue to keep the blueprint cameo plan consistent.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (3D structures composed of 2D faces; pyramid = 1 square + 4 triangles = 5 faces). But the lesson does not let children invent or compare strategies for finding all faces, and the trap is named only descriptively without research-grounded terms.",
+      "required_fix": "Add a 'compare strategies' moment in action step 4 or consolidation: ask two pairs HOW they made sure they counted every face (e.g., 'I turned 4 times then flipped' vs 'I marked each face with a finger'). Anchor the trap in named research: van Hiele Level 0-to-1 transition or Battista (2007) spatial structuring.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Strong alignment to E1.2 and tight lesson-worksheet mapping. Blocking gaps cluster in the lesson: walkthrough lacks branched recovery and named research (Battista/van Hiele), no no-materials path, no quotable Tig refrain, and no strategy-comparison move. Worksheet itself is solid; lesson revision required."
+}

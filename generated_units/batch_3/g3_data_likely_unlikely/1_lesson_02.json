@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_likely_unlikely",
+  "lesson_number": 2,
+  "lesson_title": "Predict and Decide",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "D2.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We use likelihood words to PREDICT and make INFORMED DECISIONS.",
+  "learning_intention": "We are learning to use likelihood words to make a prediction.",
+  "student_learning_goal": "I can use likelihood words to make a prediction.",
+  "success_criteria": [
+    "I can MAKE a prediction with a likelihood word.",
+    "I can EXPLAIN my prediction.",
+    "I can DECIDE using a likelihood word.",
+    "I can REVISE if data changes."
+  ],
+  "vocabulary_introduced": [
+    "prediction"
+  ],
+  "vocabulary_reinforced": [
+    "impossible",
+    "unlikely",
+    "equally likely",
+    "likely",
+    "certain"
+  ],
+  "manipulatives_used": [
+    "M1_scale_strip",
+    "M3_coin_dice_set",
+    "M7_vocab_chart",
+    "M8_prediction_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Lucky Lou and Maybe Mae — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Predict and Decide'",
+    "Coin and Dice Cards (1 set per pair)",
+    "Decision scenario cards (12)",
+    "Prediction Tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Maybe Mae's Coin Flip Predict",
+    "hook": "Maybe Mae: I'll flip a coin 10 times. PREDICT — how many heads? Use the SCALE! Mae opens: 'PREDICT, then TEST, then TELL!'",
+    "teacher_script": "Bring children to the carpet. Maybe Mae the Cat puppet in striped shirt. 'Detective friends — yesterday we placed events on the scale. Today we PREDICT.'\n\nDefine. 'A PREDICTION is what we THINK will happen — BEFORE we test.'\n\nDemo. 'I'll flip a coin 10 times. PREDICT how many heads.'\n\nShow choices: 0 (impossible-zone), 1-2 (unlikely), 5 (equally likely), 8-9 (likely), 10 (certain).\n\nMost children pick 5. 'Why 5? Because heads is EQUALLY LIKELY each flip.'\n\nFlip 10 times. Tally on board. Suppose result: 6 heads. 'Was my prediction good? Close — 5 was equally likely, we got 6.'\n\n'Maybe Mae says — predictions use the SCALE. We DECIDE based on the prediction.'\n\nDemo decision. 'If snow is LIKELY tomorrow, we DECIDE to wear boots.'\n\nShow 4 decision scenarios:\n- Snow likely → wear boots ✓\n- Rain unlikely → leave umbrella?\n- Test certain on Friday → study now ✓\n- Treat is impossible at school → don't expect it\n\n'Maybe Mae says — every prediction leads to a DECISION.'\n\nNow each pair gets a Coin Card and Dice Card. Round 1 (3 min): pair predicts heads/tails (10 flips) and dice rolls (10 rolls of getting a 6).\n\n'Maybe Mae says — predictions are GUESSES based on likelihood. They can be wrong!'",
+    "student_actions": [
+      "Watch Maybe Mae demo",
+      "Echo prediction definition",
+      "Predict 10 coin flips",
+      "Predict 10 dice rolls (rolling 6)"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Predict 6 Events",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out 6 prediction scenarios. Pairs predict each.",
+        "teacher_prompt": "Say: 'Predict 6.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "For each, write likelihood word + decision.",
+        "teacher_prompt": "Say: 'Word + decision.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: revise prediction with new info.",
+        "teacher_prompt": "Say: 'Stretch: revise.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with decision links — likely → do, unlikely → don't.",
+        "teacher_prompt": "Show: word leads to action."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: After pairs predict 2-3 scenarios, pause for share-out. Two pairs explain HOW they decided. Class compares: which uses data more explicitly? Cite Konold (1989).",
+        "teacher_prompt": "Mae: 'Same data, two predictions — what made each one strong?'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "3-word predictions only.",
+      "for_extending": "Predict probability fractions.",
+      "for_ell_or_iep": "Sentence frames 'It is ___ that ___.'",
+      "for_movement_learners": "Stand-up vote per scenario."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: word; explanation; decision; revision; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Word use",
+        "Decision link",
+        "Revises with data",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Maybe Mae's Predict Brag",
+    "discussion_prompts": [
+      "What's a PREDICTION?",
+      "Name a LIKELY event for tomorrow.",
+      "What decision follows 'rain is LIKELY'?",
+      "When do we REVISE a prediction?"
+    ],
+    "exit_routine": "Mae's prediction refrain — 'Maybe Mae says — PREDICT, then TEST, then TELL!' (3x). Each child writes one prediction with data citation."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Prediction tracker across 6 scenarios.",
+    "tracker_reference": "formative_prediction_tracker (assembled in formative_reflection stage)",
+    "rationale": "Lesson 2 captures D2.1 prediction skill."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child predicts WITHOUT a likelihood word — repairing the bare-guess trap at Grade 3",
+    "rationale": "On predict-and-decide, the trap is bare-guess prediction: child predicts without referencing data. Konold (1989) 'outcome approach' frames this — predictions must be data-grounded.\n\nYesterday Lucky introduced the 5-word scale. Today predictions from data. Lesson 3 two populations; Lesson 4 mean/mode; Lesson 5 capstones.",
+    "setup": "Prediction activity. Child writes 'Yes' for 'Will it rain tomorrow?' (no word).",
+    "teacher_script": "Crouch. 'Maybe Mae asks — which WORD? Likely? Unlikely?'\n\nGuide. 'Look at the sky. Look at the forecast. Pick ONE word — likely, unlikely, certain, equally likely.'\n\nGeneralise. 'Maybe Mae says — predictions use the SCALE word, not just yes/no.'\n\nIf still bare: provide the frame. 'It is ___ that ___ will happen.'",
+    "expected_student_responses": [
+      "(Confused) 'Yes/no.'",
+      "(Mid) Word with prompt.",
+      "(Strong) Word + explanation.",
+      "(Stretched) Word + decision."
+    ],
+    "common_misconceptions": [
+      "Prediction = yes/no. (Repair: predictions use SCALE.)",
+      "All predictions are 50/50. (Repair: scale has 5 zones.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child predicts without citing data: drill 'use the DATA card — what does it say?'; child re-predicts citing the row.",
+      "DIAGNOSTIC B — child cites data but ignores ratio: drill 'BIG section, BIG chance — small section, small chance.'",
+      "DIAGNOSTIC C — child predicts but cannot articulate: force sentence frame 'I predict ___ because the data shows ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Maybe Mae's Predict and Decide",
+    "purpose": "Predict and decide for 6 scenarios.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Predict 4 coin/dice scenarios with likelihood words.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "For 4 weather/school scenarios, write a prediction + decision.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Revise ONE prediction with new info.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Lucky Lou and Maybe Mae in worksheet header",
+      "Coin/dice icons for Part 1",
+      "Weather icons for Part 2"
+    ]
+  }
+}

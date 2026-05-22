@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "assets": [
+    {
+      "asset_id": "M1_attribute_cards",
+      "name": "Attribute Cards",
+      "category": "manipulative",
+      "purpose": "A set of 16 cards with attributes (length, area, mass, capacity) and example objects. Used in Lessons 1 and 5.",
+      "page_layout": "One letter page, portrait orientation. 16 cards in a 4x4 grid. Each card shows an attribute name and an example object.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_ATTRIBUTES",
+          "description": "A 4x4 grid of 16 attribute cards for a Grade 1 manipulative, B&W line art. Each card ~2in × 2in with an attribute word (LENGTH, AREA, MASS, CAPACITY) in bold and a small example icon. 4 cards per attribute. Thin solid cut-lines.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "attributes",
+            "cards"
+          ],
+          "text_image_alignment_check": "M1_ATTRIBUTES: instructions describe 16 attribute cards for lessons 1 and 5. Keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair).",
+        "Laminate before cutting.",
+        "Cut into 16 cards per set.",
+        "Store each set in a labelled bag."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "asset_id": "M2_length_strips",
+      "name": "Length Strips",
+      "category": "manipulative",
+      "purpose": "A set of 24 paper strips of varied lengths for length comparison. Used in Lessons 2 and 5.",
+      "page_layout": "Two letter pages, portrait orientation. Each holds 12 strips stacked.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_STRIPS",
+          "description": "Two letter portrait pages of paper length strips for a Grade 1 manipulative. Each page holds 12 strips of varied lengths from 1in to 8in, stacked vertically and aligned at the left edge. Each strip ~0.4in tall with thin solid cut-lines.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "strips",
+            "length"
+          ],
+          "text_image_alignment_check": "M2_STRIPS: instructions describe 24 length strips for lessons 2 and 5. Keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate before cutting.",
+        "Cut into 24 strips per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M3_area_tiles",
+      "name": "Area Tiles",
+      "category": "manipulative",
+      "purpose": "A set of 60 paper unit tiles for covering areas. Used in Lessons 2 and 5.",
+      "page_layout": "Two letter pages, portrait orientation. Each holds 30 tiles in a 5x6 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_TILES",
+          "description": "Two letter portrait pages of paper unit tiles for a Grade 1 manipulative. Each page holds 30 square tiles in a 5x6 grid. Each tile ~1in × 1in with thin solid cut-lines.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "tiles",
+            "area"
+          ],
+          "text_image_alignment_check": "M3_TILES: instructions describe 60 area tiles for lessons 2 and 5. Keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 60 tiles per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 30,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        2,
+        5
+      ]
+    },
+    {
+      "asset_id": "M4_balance_mat",
+      "name": "Paper Balance Mat",
+      "category": "manipulative",
+      "purpose": "A letter-size mat with a balance for mass comparison. Used in Lessons 3 and 5.",
+      "page_layout": "One letter page, landscape. Balance with two pans centred.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_BALANCE",
+          "description": "A landscape paper balance mat for a Grade 1 manipulative, B&W line art. A triangular fulcrum supports a horizontal beam with two rectangular pans. Each pan ~3in × 1in with label boxes 'LEFT' and 'RIGHT' below.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "balance",
+            "pans"
+          ],
+          "text_image_alignment_check": "M4_BALANCE: instructions describe a balance mat for lessons 3 and 5. Keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 mats.",
+        "Laminate.",
+        "Distribute one per pair."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10-12 mats.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M5_cup_cards",
+      "name": "Capacity Cup Cards",
+      "category": "manipulative",
+      "purpose": "A set of 12 paper cup cards in 3 sizes for capacity activities. Used in Lessons 3 and 5.",
+      "page_layout": "One letter page, portrait. 12 cups in a 3x4 grid.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_CUPS",
+          "description": "A 3x4 grid of 12 cup cards for a Grade 1 manipulative, B&W line art. 4 small (~0.8in tall), 4 medium (~1.5in), 4 large (~2in). Each ~1.5in wide with cut-lines.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "cups",
+            "capacity"
+          ],
+          "text_image_alignment_check": "M5_CUPS: instructions describe 12 cup cards for lessons 3 and 5. Keywords name the visual elements."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets.",
+        "Laminate.",
+        "Cut into 12 cups per set.",
+        "Store in labelled bag."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M6_calendar_mat",
+      "name": "Calendar Mat",
+      "category": "manipulative",
+      "purpose": "A letter-size monthly calendar template. Used in Lessons 4 and 5.",
+      "page_layout": "One letter page, landscape. Monthly grid with day-of-week header.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CALENDAR",
+          "description": "A landscape monthly calendar mat for a Grade 1 manipulative, B&W line art. Top: month name banner. Below: day-of-week header (Sun-Sat). Below: 5 rows of 7 cells each (35 cells), each ~1in × 1in. Designed for dry-erase use.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "calendar",
+            "monthly"
+          ],
+          "text_image_alignment_check": "M6_CALENDAR: instructions describe a calendar mat for lessons 4 and 5. Keywords name the visual element."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 mats.",
+        "Laminate for dry-erase.",
+        "Distribute one per pair."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10-12 mats.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_attribute_chart",
+      "name": "Measurable Attributes Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart of 5 attributes. Used in Lessons 1, 2, 3, 5.",
+      "page_layout": "One letter page, portrait. Five attribute rows.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_CHART",
+          "description": "A portrait attribute anchor chart for a Grade 1 classroom, B&W line art. Five rows: LENGTH (with ruler icon), AREA (with grid), MASS (with balance), CAPACITY (with cup), ANGLE (with corner — intro only). Each row has the term and a small icon.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "attributes",
+            "chart"
+          ],
+          "text_image_alignment_check": "M7_CHART: instructions describe an attribute chart for lessons 1-3, 5. Keywords name the chart's content."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape to front wall before Lesson 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_calendar_chart",
+      "name": "Calendar Reference Chart",
+      "category": "manipulative",
+      "purpose": "Anchor chart with days, weeks, months, seasons, and Canadian holidays. Posted in Lessons 4 and 5.",
+      "page_layout": "One letter page, portrait. Reference info.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_CALENDAR_REF",
+          "description": "A portrait calendar reference chart for a Grade 1 classroom, B&W line art. Sections: 7 DAYS OF THE WEEK (Sun-Sat), 12 MONTHS (January-December in a list), 4 SEASONS (with small icons), CANADIAN HOLIDAYS (Canada Day, Family Day, Thanksgiving, Christmas).",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "calendar",
+            "seasons"
+          ],
+          "text_image_alignment_check": "M8_CALENDAR_REF: instructions describe a calendar reference chart for lessons 4 and 5. Keywords name the chart's content."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape to front wall."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M9_capstone_template",
+      "name": "Measurement Day Template",
+      "category": "manipulative",
+      "purpose": "Letter-size capstone template with 4 station response areas. Used in Lesson 5.",
+      "page_layout": "One letter page, portrait. 4 sections stacked.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_CAPSTONE",
+          "description": "A portrait capstone template for a Grade 1 worksheet, B&W line art. Four sections stacked: NAME (object + 2 attribute lines), LENGTH (4 strips with number boxes), MASS (4 objects with number boxes), CALENDAR (mini calendar grid + holiday/season lines).",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "capstone",
+            "measurement"
+          ],
+          "text_image_alignment_check": "M9_CAPSTONE: instructions describe a 4-section capstone template for Lesson 5. Keywords name the activity."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 25 templates.",
+        "Stack near teacher table.",
+        "No lamination."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "25 templates.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_unit_poster",
+      "name": "How Long? How Big? Poster",
+      "category": "manipulative",
+      "purpose": "Unit anchor poster of Roo and Cal. Posted for the entire unit.",
+      "page_layout": "One letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "A landscape unit anchor poster for a Grade 1 measurement classroom, B&W line art. Header: 'How Long? How Big?' in big bubble letters. Centre-left: Roo the Ruler Rabbit with a colourful ruler. Centre-right: Cal the Calendar Cat with a wall calendar. Around them: small icons for length (ruler), area (grid), mass (balance), capacity (cup), calendar.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "roo",
+            "cal",
+            "poster"
+          ],
+          "text_image_alignment_check": "M10_POSTER: instructions describe a unit anchor poster for all 5 lessons. Keywords name the two anchor characters and the artifact (poster)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Laminate.",
+        "Tape to front wall on Day 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_roo_puppet",
+      "name": "Roo the Ruler Rabbit Puppet",
+      "category": "character_puppet",
+      "purpose": "Paper puppet of Roo for teacher use in all 5 lessons.",
+      "page_layout": "One letter page, portrait. ~7in tall cutout.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_ROO_FRONT",
+          "description": "A full-body cutout of Roo the Ruler Rabbit in B&W line art for a Grade 1 teacher puppet, ~7in tall. Roo is a young rabbit with long ears, holding a colourful ruler in one paw and a measuring tape in the other. Bright eyes. Rectangular tab at the bottom for popsicle stick.",
+          "placement": "Centred, fills the page vertically.",
+          "approximate_size": "large",
+          "keywords": [
+            "roo",
+            "rabbit"
+          ],
+          "text_image_alignment_check": "CHAR_ROO_FRONT: instructions describe a Roo puppet for all 5 lessons. Keywords name the character and species."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Cut around silhouette + tab.",
+        "Laminate.",
+        "Glue popsicle stick to tab."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_cal_puppet",
+      "name": "Cal the Calendar Cat Puppet",
+      "category": "character_puppet",
+      "purpose": "Paper puppet of Cal for teacher use in Lessons 4-5.",
+      "page_layout": "One letter page, portrait. ~6in tall cutout.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_CAL_FRONT",
+          "description": "A full-body cutout of Cal the Calendar Cat in B&W line art for a Grade 1 teacher puppet, ~6in tall. Cal is a small striped cat with a tiny wall calendar slung over its shoulder, holding a marker. Whiskers, bright eyes. Rectangular tab at the bottom for popsicle stick.",
+          "placement": "Centred on the page.",
+          "approximate_size": "large",
+          "keywords": [
+            "cal",
+            "cat"
+          ],
+          "text_image_alignment_check": "CHAR_CAL_FRONT: instructions describe a Cal puppet for lessons 4-5. Keywords name the character and species."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy.",
+        "Cut around silhouette + tab.",
+        "Laminate.",
+        "Glue popsicle stick to tab."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        4,
+        5
+      ]
+    }
+  ],
+  "overall_prep_notes": "Total prep time ~3 hours one-time before unit launch (laminating + cutting). Storage: keep all pair sets in labelled zip-top bags. Set up all anchor charts and the unit poster on Day 1."
+}

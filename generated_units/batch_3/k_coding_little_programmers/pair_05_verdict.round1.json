@@ -1,0 +1,57 @@
+{
+  "unit_id": "k_coding_little_programmers",
+  "pair_number": 5,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child rushes a station and skips testing — repairing the no-test trap at Kindergarten' and recovery_moves = ['Walk each step.', 'Drill always test.', 'Compare tested vs untested.'] — the no-test trap is plausible but not anchored to a named research tradition, and recovery_moves do not branch by what the diagnostic tells you (e.g., child wrote a code but stopped vs child has no plan vs child tests once and assumes done).",
+      "required_fix": "Anchor the trap in K coding/computational-thinking research (e.g., Bers 2018 'Coding as a Playground' on debugging stance, or Clements & Sarama 2011 on K spatial/sequencing) and split recovery_moves into branches: (a) if child wrote code but did not move Bot — model finger-walk through the grid; (b) if child moved Bot but didn't compare to goal — overlay goal card and ask 'did Bot land on the apple?'; (c) if child says 'done' after one try — show the bug-find chant 'TEST, FIND, FIX'.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Big Programmer Templates (1 per child)' and 'All previous manipulatives at 4 stations' as required, and differentiation has no no-paper alternative — for_movement_learners only says 'Walk between 4 stations physically.' which still depends on the printed stations.",
+      "required_fix": "Add an explicit NO-PAPER, NO-PURCHASE alternative path to differentiation: e.g., 'No-materials capstone — 4 corners of the carpet become the 4 stations; child claps a 4-step code, walks it on the carpet grid (tape lines), describes Bot's spot with body gestures (above = arm up; between = palms together), and tests by re-walking. Teacher tally on a sticky note replaces the template.' This makes the capstone runnable on a day prep wasn't possible.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine = \"Each child shares ONE: 'Today I learned ___.'\" — generic frame; no distinctive quotable refrain Bot or Buggy carries between lessons. teacher_script has 'Bot says — programmers do all 4!' but it isn't a chant children echo, and no recurring catchphrase appears in the unit.",
+      "required_fix": "Give Bot and Buggy a memorable capstone chant the children echo every day, e.g., Bot's call-and-response 'MOVE it, RECORD it' / kids: 'TEST it, FIX it!' Embed it in minds_on (introduce), action (transition between stations), and consolidation/exit_routine (children chant it back as they leave the carpet). Add the chant verbatim to teacher_script and exit_routine.",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.common_misconceptions = ['Code = correct. (Repair: always verify.)', 'Test = optional. (Repair: required.)'] and recovery_moves are concrete but the lesson does not invite children to invent or compare strategies, and the trap is not framed in research-grounded terms (no Bers, no Clements & Sarama, no Papert debugging stance).",
+      "required_fix": "Add a strategy-comparison move at Station 3 or in consolidation: e.g., 'Two children share their 4-step code to the apple; class compares — did both reach? Which used fewer turns?' AND name the misconception in research terms in expanded_walkthrough.rationale (e.g., 'Bers (2018) calls this the debugging-stance gap — K children treat code as a static answer rather than a hypothesis to be tested. Building debugging-stance is the K computational-thinking goal.').",
+      "affected_stages": ["lesson_05"],
+      "affected_pairs": [5],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Pair 5 (capstone) has strong alignment and lesson-worksheet consistency but four categories sit at Level 3: the trap and math authenticity lack research grounding and strategy comparison; instructional balance lacks a no-paper alternative for the capstone; and the unit's recurring characters never crystallize into a memorable chant kids carry between days. All four fixes land in lesson_05 only — worksheet is fine."
+}

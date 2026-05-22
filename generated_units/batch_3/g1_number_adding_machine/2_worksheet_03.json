@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_number_adding_machine",
+  "lesson_number": 3,
+  "worksheet_title": "Plus and Minnie's Fact Families",
+  "purpose": "Independent practice of B2.1 (relationship between add/sub) and B2.2 (subtraction facts to 10). Captures formative evidence on fact-family completion.",
+  "student_learning_goal": "I can recall subtraction facts up to 10, and write the four-fact family for any addition fact.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can recall subtraction facts up to 10, and write the four-fact family for any addition fact.",
+    "character_watermark": "Minnie the Minus Mouse in the top-right corner with a magnifying glass and a red '-' kerchief. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Fact-Family Triangles",
+          "student_instructions": "Each triangle holds a fact family. Write all four facts (or three, if it is a doubles triangle).",
+          "visual_layout": "Top half of the page. Six fact-family triangles arranged in a 2x3 grid. Each triangle has all three numbers shown (sum at top, two addends at bottom). Below each triangle: 4 equation lines (or 3 for doubles).",
+          "image_placeholders": [
+            {
+              "id": "WS03_P1_SIX_TRIANGLES",
+              "description": "Six fact-family triangles in B&W line-art, 2-row × 3-column grid. Each triangle ~1.6in tall. All three numbers shown on each triangle: T1 (3,5,8), T2 (4,4,8 — doubles), T3 (6,3,9), T4 (5,5,10 — doubles), T5 (7,2,9), T6 (6,4,10). Below each triangle, 4 equation lines (3 for doubles). Doubles triangles get an extra label: 'Doubles — only 3 facts!'",
+              "placement": "Top half; six triangles in 2x3 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "triangles",
+                "facts"
+              ],
+              "text_image_alignment_check": "Image WS03_P1_SIX_TRIANGLES: keywords (triangles, facts) name what the triangles show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "T1: 3+5=8, 5+3=8, 8-3=5, 8-5=3. T2: 4+4=8, 8-4=4 (doubles, 3 facts only — can list 4+4=8 once or twice). T3: 6+3=9, 3+6=9, 9-3=6, 9-6=3. T4: 5+5=10, 10-5=5 (doubles, 3 facts). T5: 7+2=9, 2+7=9, 9-2=7, 9-7=2. T6: 6+4=10, 4+6=10, 10-4=6, 10-6=4."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Cup Hide",
+          "student_instructions": "Each scene shows the total counters in a ten-frame, with some hidden under a cup. Write the subtraction equation (total - visible = hidden). Then write the related addition fact.",
+          "visual_layout": "Middle of the page. Four cup-hide scenes in a 2x2 grid. Each scene shows a ten-frame with some counters visible and a small cup illustration covering the rest. Below each scene: 'Subtraction: ___ - ___ = ___' and 'Addition: ___ + ___ = ___'.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P2_FOUR_CUPS",
+              "description": "Four cup-hide scenes in B&W line-art, 2-row × 2-column grid. Each scene ~3in × 1.8in. Each shows a single ten-frame with some cells filled (counters visible) and a small overturned-cup illustration covering the remaining cells. Pre-fills: C1 — total 7, visible 4 (cup covers 3); C2 — total 9, visible 5 (cup covers 4); C3 — total 8, visible 6 (cup covers 2); C4 — total 10, visible 3 (cup covers 7). Below each scene, two equation lines.",
+              "placement": "Middle of the page; four scenes in 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "cup",
+                "ten-frame",
+                "hidden"
+              ],
+              "text_image_alignment_check": "Image WS03_P2_FOUR_CUPS: keywords (cup, ten-frame, hidden) name what the scenes show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "C1: 7-4=3, 4+3=7. C2: 9-5=4, 5+4=9. C3: 8-6=2, 6+2=8. C4: 10-3=7, 3+7=10."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Subtraction Match",
+          "student_instructions": "Draw a line from each subtraction fact on the left to its related addition fact on the right.",
+          "visual_layout": "Bottom of the page. Two columns. Left column: 6 subtraction facts. Right column: 6 addition facts (in scrambled order). The child draws lines connecting each subtraction to its addition partner.",
+          "image_placeholders": [
+            {
+              "id": "WS03_P3_TWO_COLUMNS",
+              "description": "Two-column matching layout in B&W line-art. Each column has 6 fact boxes. Left column subtractions (top to bottom): 8-5, 9-4, 7-2, 10-6, 8-3, 9-7. Right column additions (top to bottom, scrambled): 5+2, 4+5, 6+4, 5+3, 2+7, 3+5. Boxes have light-grey outlines.",
+              "placement": "Bottom of the page; full-width two-column layout.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "match",
+                "subtraction",
+                "addition"
+              ],
+              "text_image_alignment_check": "Image WS03_P3_TWO_COLUMNS: keywords (match, subtraction, addition) name what the columns ask for."
+            }
+          ],
+          "student_response_type": "match",
+          "answer_key": "8-5 → 5+3=8. 9-4 → 4+5=9. 7-2 → 5+2=7. 10-6 → 6+4=10. 8-3 → 3+5=8 (also matches). 9-7 → 2+7=9. (Note: 8-5 and 8-3 both relate to the family (3,5,8); both can match 5+3.)"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and write THREE fact-family triangles of your own. Pick any three sums between 6 and 10. Write all four facts for each triangle (or three for doubles).",
+  "teacher_notes": "Lesson 3 consolidation. Hand out at the end of the Action phase. Watch for: (a) Part 1 children who write only TWO facts (the additions) and miss the subtractions — flag for cup-hide reteach; (b) Part 1 children who write 4 facts on a doubles triangle — flag for the doubles-special discussion; (c) Part 2 children who get the subtraction but not the related addition — flag for the addition-as-tool reteach; (d) Part 3 children who use trial-and-error for matching rather than fact-family logic — flag for explicit fact-family practice."
+}

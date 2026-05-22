@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "diagnostic_tracker": {
+    "tracker_id": "diagnostic_tracker",
+    "title": "Bigger Smaller Same — Day 1 Diagnostic Checklist",
+    "when_used": "During Lesson 1, while children are at the length sorting stations.",
+    "expectation_focus": ["A10.2"],
+    "columns": ["Student name", "Lines up at one end", "Names longer/shorter", "Recognizes 'same'", "Notes"],
+    "usage_notes": "Walk between pairs during the strip-sort and animal line-up. Tick the columns where you see clear evidence; leave blank if not yet observed. The 'Lines up at one end' column is the foundational technique signal — children who don't yet line up can be coached individually before Lesson 2.",
+    "layout_description": "One letter page, portrait orientation. Title at the top, expectation focus (A10.2) in a small box below. Date and class header. Body is a 5-column table: Student name (~1.5in), three tick columns (~0.9in each), Notes (~2in). 24 student rows.",
+    "image_placeholders": [
+      {
+        "id": "AS_DIAG_TRACKER",
+        "description": "A printable class checklist page for a Kindergarten teacher. Title at top: 'Bigger Smaller Same — Day 1 Diagnostic Checklist'. Below: a small box reading 'Expectation: A10.2 — compare the length, area, mass, and capacity of objects using concrete materials'. Date and Class fields. A grid table with 5 columns (matching the columns list) and 24 blank student rows. Thin grey row dividers, slightly thicker column dividers. B&W line art only.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": ["tracker", "length"],
+        "text_image_alignment_check": "Image AS_DIAG_TRACKER fills the page as the diagnostic tracker for Lesson 1. Keywords name the artifact (tracker) and lesson focus (length)."
+      }
+    ]
+  },
+  "formative_trackers": [
+    {
+      "tracker_id": "formative_tracker_lesson_02",
+      "title": "Bigger Smaller Same — Lesson 2 Formative Tracker (Mass)",
+      "when_used": "During Lesson 2, while children are at the hand-feel and balance stations.",
+      "expectation_focus": ["A10.2"],
+      "columns": ["Student name", "Feels weight by hand", "Uses balance correctly", "Recognizes same weight", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'Which is heavier? Show me on the balance.' The 'Feels weight by hand' column captures whether the child has internalized the FEEL-FIRST rule from the size-mass conflation walkthrough. Children who only judge by sight need the 'feel, don't guess' re-loop.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 2 column names and an updated expectation/title.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L2",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Bigger Smaller Same — Lesson 2 Formative Tracker (Mass)' and 5 columns matching the Lesson 2 tracker_columns. Expectation box reads 'Expectation: A10.2 — compare the length, area, mass, and capacity of objects'. 24 blank student rows. B&W line art, full page.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "mass"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L2 fills the page as the Lesson 2 mass formative tracker. Keywords name the artifact and lesson focus."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_03",
+      "title": "Bigger Smaller Same — Lesson 3 Formative Tracker (Capacity)",
+      "when_used": "During Lesson 3, while pairs are at the cup-pour and cup-sort stations.",
+      "expectation_focus": ["A10.2"],
+      "columns": ["Student name", "Pours carefully", "Says holds more/less", "Recognizes same capacity", "Notes"],
+      "usage_notes": "Stop at each pair. Ask 'Which holds more? Show me by pouring.' The 'Pours carefully' column captures fine-motor practice; the 'Recognizes same capacity' column is the deepest signal — children who only see inequality need the 'same' re-loop.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 3 column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L3",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Bigger Smaller Same — Lesson 3 Formative Tracker (Capacity)' and 5 columns matching the Lesson 3 tracker_columns. Expectation box reads 'Expectation: A10.2 — compare the length, area, mass, and capacity of objects'. 24 blank student rows. B&W line art.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "capacity"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L3 fills the page as the Lesson 3 capacity formative tracker. Keywords name the artifact and lesson focus."
+        }
+      ]
+    },
+    {
+      "tracker_id": "formative_tracker_lesson_04",
+      "title": "Bigger Smaller Same — Lesson 4 Formative Tracker (Non-Standard Units)",
+      "when_used": "During Lesson 4, while pairs are at the cube/hand-span/footstep stations.",
+      "expectation_focus": ["A10.1"],
+      "columns": ["Student name", "Lines up cubes", "Counts accurately", "Picks right unit", "Notes"],
+      "usage_notes": "Stop at each pair. The 'Lines up cubes' column captures the foundational gap-management technique. The 'Picks right unit' column captures attribute-tool reasoning — children who use cubes for everything need the 'right tool for the job' coaching.",
+      "layout_description": "Identical layout to the diagnostic tracker but with the Lesson 4 column names.",
+      "image_placeholders": [
+        {
+          "id": "AS_FORM_TRACKER_L4",
+          "description": "A printable class checklist page identical in layout to AS_DIAG_TRACKER but with title 'Bigger Smaller Same — Lesson 4 Formative Tracker (Non-Standard Units)' and 5 columns matching the Lesson 4 tracker_columns. Expectation box reads 'Expectation: A10.1 — describe different ways that objects can be measured'. 24 blank student rows.",
+          "placement": "Full page.",
+          "approximate_size": "full_width",
+          "keywords": ["tracker", "units"],
+          "text_image_alignment_check": "Image AS_FORM_TRACKER_L4 fills the page as the Lesson 4 non-standard units tracker. Keywords name the artifact and lesson focus."
+        }
+      ]
+    }
+  ],
+  "summative_rubric": {
+    "title": "Bigger Smaller Same — Summative Rubric",
+    "purpose": "Used during and after Lesson 5 (Measurement Carnival Capstone) to score each child against both expectations on a 4-level scale. Aligned with Ontario Kindergarten Communication of Learning conventions.",
+    "rows": [
+      {
+        "expectation_code": "A10.1",
+        "expectation_text": "describe different ways that objects can be measured",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Cannot yet describe a way to measure. Says 'I don't know' or 'big' without a unit reference."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Names one way to measure (cubes) when prompted. Counts cubes with adult help."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently names cubes, hand-spans, and footsteps as ways to measure. Picks an appropriate unit for an object's size."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Names multiple non-standard units AND can describe length using two different units to verify (e.g., '5 cubes OR 1 hand-span')."}
+        ]
+      },
+      {
+        "expectation_code": "A10.2",
+        "expectation_text": "compare the length, area, mass, and capacity of objects using concrete materials",
+        "levels": [
+          {"level_number": 1, "level_name": "Beginning", "descriptor": "Compares only by sight; struggles with one of the three attributes (length, mass, or capacity). Cannot use a tool (balance, pour) consistently."},
+          {"level_number": 2, "level_name": "Developing", "descriptor": "Compares length and one other attribute with prompts. Uses the balance or pours with adult support."},
+          {"level_number": 3, "level_name": "Achieving", "descriptor": "Independently compares all three attributes (length, mass, capacity) using appropriate techniques: line up for length, balance for mass, pour for capacity. Recognizes 'same' as a valid result."},
+          {"level_number": 4, "level_name": "Exceeding", "descriptor": "Orders 4+ objects across all three attributes AND verifies using a second technique (e.g., compares two cups by both pouring AND counting cubes that fit)."}
+        ]
+      }
+    ],
+    "usage_notes": "Score during the Lesson 5 Carnival rotations (mostly visible from the carnival template artifact) and confirm during the consolidation share. Level 3 is the grade-level expectation. Communicate scores to families using the Communication of Learning narrative format.",
+    "layout_description": "One letter page, landscape orientation, with a 2-row × 4-level grid table plus a left-most column for the expectation code and text. Each cell contains the level descriptor in K-readable type. Title at top; usage notes below.",
+    "image_placeholders": [
+      {
+        "id": "AS_RUBRIC",
+        "description": "A printable rubric table page for a Kindergarten Bigger Smaller Same summative. Title at top: 'Bigger Smaller Same — Summative Rubric'. Below: a 5-column table: leftmost column 'Expectation' (~2.5in), and four level columns (~2in each) labelled 'Level 1 (Beginning)', 'Level 2 (Developing)', 'Level 3 (Achieving — the goal)', 'Level 4 (Exceeding)'. Two rows of expectations (A10.1, A10.2), each cell containing the descriptor. Light-grey shading on the Level 3 column. Below the table, the usage notes. Landscape orientation. B&W line art.",
+        "placement": "Full page.",
+        "approximate_size": "full_width",
+        "keywords": ["rubric", "measurement"],
+        "text_image_alignment_check": "Image AS_RUBRIC at the summative rubric: keywords name the artifact (rubric) and the unit focus (measurement)."
+      }
+    ]
+  },
+  "summative_task_script": {
+    "title": "Measurement Carnival Capstone — Summative Administration Guide",
+    "purpose": "Ties the Lesson 5 capstone template, the rotation phases (length / mass / capacity), and the rubric together. Tells the teacher exactly what evidence to look for at each station.",
+    "administration_steps": [
+      "Before the lesson: photocopy one Carnival Capstone template per child plus 5 extras. Print the rubric or maintain a class-wide rubric on a clipboard. Have Junior Measure Captain certificates printed and ready (do not show before earned).",
+      "Phase 1 (LENGTH station, 7 min): Children order 4 strips by length, then measure their favourite with cubes. Evidence for A10.1 (cubes) and A10.2 (length comparison). Score the 'Lines up' technique and the cube count accuracy.",
+      "Phase 2 (MASS station, 7 min): Children use the balance to find heavier and identify a same-weight pair. Evidence for A10.2 (mass). Score balance use and recognition of 'same'.",
+      "Phase 3 (CAPACITY station, 7 min): Children pour to find which cup holds more and identify a same-capacity pair. Evidence for A10.2 (capacity). Score pour technique and recognition of 'same'.",
+      "Phase 4 (Share, 5 min): Children share their template with a partner and describe their findings. Listen for unit vocabulary (longer, heavier, holds more, cubes). Use this phase to confirm scores and upgrade Level 4 thinking.",
+      "After the lesson: review the rubric with each template. For any child below Level 3, note what evidence drove the decision. Use this for the Communication of Learning narrative."
+    ],
+    "scoring_guidance": "Use the carnival template as primary evidence and the partner-share as confirming evidence. Level 3 is the grade-level goal. Children who are L4 on both expectations are ready for Grade 1 measurement work. Children L1 on multiple expectations need targeted small-group work — do not retain in K measurement; build the bridge in concrete play.",
+    "evidence_per_expectation": {
+      "A10.1": "Look at Part 1 of the carnival template (cube count). Did the child measure their favourite strip with cubes, lining them up tightly? Combined with the partner-share. A child who reports a sensible cube count for a 3in strip (~9 cubes) is at Level 3.",
+      "A10.2": "Look at Parts 2 (mass) and 3 (capacity). Did the child correctly label H/L/S on the 3 balance pictures and circle the holds-more cup in 3 pairs? AND did they identify a same pair? A child who scores all 6 questions correctly across mass and capacity is at Level 3 on A10.2."
+    }
+  },
+  "certificate": {
+    "title": "Junior Measure Captain Certificate",
+    "recipient_field_label": "This certificate is proudly presented to:",
+    "achievement_text": "For successfully completing the 5-Day Bigger Smaller Same unit and demonstrating the skills of a Measure Captain. A measurement certificate. Max the Measure Moose congratulates the student.",
+    "skills_demonstrated": [
+      "Comparing lengths by lining up",
+      "Comparing mass with hand-feel and balance",
+      "Comparing capacity by pouring",
+      "Measuring with cubes, hands, and footsteps"
+    ],
+    "layout_description": "One letter page, portrait orientation. Decorative ornamental border around the entire page (~0.5in margin). Title 'Junior Measure Captain Certificate' at the top in large ornate font (~1in tall). Below: recipient label and a wide blank line for the child's name. Below: 'For successfully completing the 5-Day Bigger Smaller Same unit and demonstrating the skills of a Measure Captain.' Below: a bullet list of the four skills demonstrated. Toward the bottom: two side-by-side signature lines. At the bottom-centre, a small Max the Measure Moose illustration.",
+    "image_placeholders": [
+      {
+        "id": "AS_CERT_BORDER",
+        "description": "A decorative ornamental border framing the certificate page, approximately 0.5in inset from each edge. Style: gentle scrollwork suitable for a child's certificate — repeating curls, small ruler/measure motifs at the corners. B&W line art with thin elegant strokes.",
+        "placement": "Frames the entire page.",
+        "approximate_size": "full_width",
+        "keywords": ["certificate"],
+        "text_image_alignment_check": "Image AS_CERT_BORDER at Frames the entire page: keywords name the artifact (certificate)."
+      },
+      {
+        "id": "AS_CERT_MAX",
+        "description": "A small Max the Measure Moose illustration at the bottom-centre of the certificate, approximately 1.5in tall. Max is smiling broadly and holding up his measuring stick in a celebratory pose. B&W line art consistent with the CHAR_MAX_FRONT puppet.",
+        "placement": "Bottom-centre of the page.",
+        "approximate_size": "small",
+        "keywords": ["max", "certificate"],
+        "text_image_alignment_check": "Image AS_CERT_MAX at Bottom-centre: keywords name the character (max) and artifact (certificate)."
+      }
+    ],
+    "print_specifications": {
+      "page_size": "letter",
+      "orientation": "portrait",
+      "color": "bw",
+      "pages_per_set": 1,
+      "laminate_recommended": false
+    }
+  }
+}

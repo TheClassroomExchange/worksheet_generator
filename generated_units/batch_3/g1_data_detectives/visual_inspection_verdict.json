@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "deck_url": "https://docs.google.com/presentation/d/1JzpqBIVB_pvvqcA4oM8h4CmfPnt9Gb7iSOmtl2VfsnQ/edit",
+  "pdf_path": "/Users/aria/Documents/TheClassroomExchange/claude_code_handoff/worksheet_generator/generated_units/batch_3/g1_data_detectives/validation_export.pdf",
+  "pdf_size_kb": 1011,
+  "slide_count": 27,
+  "inspected_at": "2026-05-08T00:00:00Z",
+  "inspected_by": "visual_inspector_round4",
+  "status": "pass",
+  "issues": [
+    {
+      "slide_number": 23,
+      "category": "character_unrecognizable",
+      "description": "Detective Dot puppet now matches kawaii proportions (round head dominant, rounded body, stubby feet, magnifying glass scaled small as signature accessory). Eyes read as small marks rather than the prominent oval pupils with sparkle highlights seen on BLENDY/SOUNDER, and blush ovals on cheeks are not clearly visible. Recognizable as a squirrel and not stick-figure, so non-blocking.",
+      "suggested_fix": "Optional polish in next character SVG pass: enlarge eye pupils to clear ovals (~5-6px) and add small white sparkle highlight; add two visible blush ovals on the cheeks to fully match BLENDY/SOUNDER kawaii detail level.",
+      "severity": "minor"
+    },
+    {
+      "slide_number": 25,
+      "category": "text_overflow",
+      "description": "Several rubric cells (D1.1 Level 4, D1.2 Level 4, D1.3 Level 4, D1.5 Level 1) truncate with ellipsis. Truncations appear to fall at word boundaries (e.g., 'how the rule changes…', 'why size =…', 'I like…') rather than mid-word, so not strictly blocking, but a teacher reading the rubric loses descriptor specificity for Level 4 exceeding behavior.",
+      "suggested_fix": "Tighten level descriptors in pipeline assessment rubric generator so Level 4 cells fit within the column without ellipsis, or widen the Level 4 column slightly relative to Level 1-3.",
+      "severity": "minor"
+    }
+  ],
+  "blocking_count": 0,
+  "summary": "All 27 slides reviewed. Round-3 fixes verified: puppet SVGs (23-24) now head-dominant with rounded body, stubby feet, small accessories (not stick-figure). Slide 21 attribute icons fit inside cells with padding. Slides 20 and 22 landscape templates render M8 tally chart and M10 poster at full horizontal width. Worksheet previews carry the '(N parts)' footer by design. Two minor non-blocking notes: subtle puppet eye/blush detail on 23, word-boundary rubric truncation on 25. Status: pass."
+}

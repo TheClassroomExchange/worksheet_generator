@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_coding_little_programmers",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title='When the child confuses LEFT and RIGHT' and the lesson body do not bridge to or from neighbouring days; there is no explicit cross-reference to Lesson 2's positional words or to the recording arc in Lesson 3.",
+      "required_fix": "Add a one-sentence forward-bridge in consolidation/teacher_script that names what's coming next (e.g., 'Tomorrow Bot HIDES — we'll use ABOVE, BELOW, BESIDE, BETWEEN to find him; today's direction words still tell us how to MOVE there'). Have Bot reference the unit arc explicitly so children carry the thread.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "minor"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough trap = 'left/right hand-side mix-up' with recovery_moves=['Use L stickers.', 'Drill L for left.', 'Compare with body.']. The trap is real for K but is not cited to research and the recovery does NOT branch by what the diagnostic told you about the child.",
+      "required_fix": "Reframe trap as egocentric frame-of-reference (Clements & Sarama 2009): child treats left/right as fixed in the room, not relative to body — when Bot turns, child's 'left' no longer matches Bot's. BRANCH recovery: (a) knows own left but mis-applies — rotate child to face Bot first; (b) can't identify own left — L-sticker hand-check; (c) correct with sticker not without — fade stickers.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Coding Floor Mat (1 per pair)' and 'Arrow Cards (20)' as required, and differentiation.for_movement_learners='Walk a tape grid on classroom floor' is offered only as a learner-style option, not as a no-paper, no-purchase fallback for the whole class.",
+      "required_fix": "Add an explicit no-paper, no-purchase pathway in the lesson body (not just differentiation). In action steps write: 'NO-MATERIALS VERSION: skip mat and arrow cards — masking-tape a 4x4 grid on the carpet (or 16 sticky notes); children BECOME Bot, stepping square to square as caller says forward/back/left/right. Teacher's pointing arm replaces arrow cards; whole lesson runs on voice and body.'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "consolidation.exit_routine='Each child names ONE direction: \"Forward!\"' — there is no distinctive carry-between-lessons chant or sentence frame; Bot's 'BEEP BOOP' is in the hook only and the closing has no memorable refrain children would still chant on Day 5.",
+      "required_fix": "Give Bot a distinctive quotable refrain that closes EVERY lesson and is introduced here in Lesson 1. Concrete: Bot's call-and-response 'BEEP BOOP — who moves the bot? YOU DO!' with children chanting back 'YOU DO!' Add this verbatim to consolidation.exit_routine and teacher_script so Lessons 2-5 can reuse it. The chant must appear in the lesson text, not only inferred.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the trap as a hand-side mix-up rather than a research-grounded spatial-reasoning misconception, and the action steps do not let children invent or compare alternative routes — every step is teacher-called ('Move 4', 'Stretch: include turns'). No moment where two pairs compare different sequences that arrive at the same square.",
+      "required_fix": "Add an invent-and-compare beat in action: after step 3, two pairs share 4-step routes to the SAME target and notice 'we got there a different way!' Cite the principle in expanded_walkthrough.rationale by name — egocentric-vs-allocentric spatial reasoning (Clements & Sarama 2009; Battista 2007). One rationale sentence plus the compare-routes move lifts this to exceeding.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 1 is solidly built — Bot is consistent, success criteria are 'I can' style, materials are mostly everyday, and the worksheet maps cleanly to the lesson's success criteria with a transfer task in Part 3. But four categories sit at 3: the trap is real-but-thin and recovery doesn't branch, there is no all-class no-paper fallback, no carry-between-lessons chant, and the math reasoning lacks an invent-or-compare moment with research-grounded framing. Worksheet is fine — fixes belong in lesson_01."
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "lesson_number": 5,
+  "worksheet_title": "Detective Dot's Final Case",
+  "purpose": "Summative artifact applying D1.1-D1.5 in one detective case. Used as Lesson 5 capstone evidence.",
+  "student_learning_goal": "I can ask and answer questions about a data display and write a conclusion.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can ask and answer questions about a data display and write a conclusion.",
+    "character_watermark": "Detective Dot and Tally together in the top-right corner with detective hats. Small (~1.5in tall combined). References both characters.",
+    "student_name_field": true
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: ASK + TALLY.",
+          "student_instructions": "Pick a question. Survey 5 classmates. Tally each answer.",
+          "visual_layout": "Top: a question line 'My question: ___'. Below: a tally chart with 3 category rows, each with a label box, tally area, and total box.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P1_TALLY",
+              "description": "A simple tally chart for a Grade 1 capstone worksheet, B&W line art. At the top, a labelled line 'My question: ___' for the child to write their survey question. Below: 3 category rows, each ~3.5in × 0.8in. Each row has a label box on the left, a wide tally area in the middle, and a total box on the right.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["tally", "survey"],
+              "text_image_alignment_check": "Image WS05_P1_TALLY at Part 1: instructions ask the child to survey and tally. Keywords name the visual element (tally) and activity (survey)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid 5-classmate survey with consistent tally marks across 3 categories. Total tallies must equal 5."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: GRAPH the data.",
+          "student_instructions": "Use your tally to build a pictograph. Add a TITLE and LABELS.",
+          "visual_layout": "A blank pictograph grid (~5in × 3in) with 3 rows. Above: title line. Beside each row: label line.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P2_GRID",
+              "description": "A blank pictograph grid for a Grade 1 capstone worksheet, B&W line art. ~5in × 3in with 3 empty rows. Each row has a blank label line on the left and ~6 grid cells in the middle (for one-to-one pictures). Above the grid, a thin title line. Suitable for the child to convert their tally chart into a pictograph display.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["pictograph", "title", "labels"],
+              "text_image_alignment_check": "Image WS05_P2_GRID at Part 2: instructions ask the child to build a pictograph from their tally. Keywords name the format (pictograph) and required components (title, labels)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pictograph with: a clear title (matching the question), 3 labels (matching tally categories), and pictures one-to-one matching tally counts. Total pictures = 5."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: WRITE your CONCLUSION.",
+          "student_instructions": "Look at your pictograph. Write ONE sentence about what the data shows.",
+          "visual_layout": "A bordered rectangle (~5in × 1.5in) for writing. Above the rectangle: 'My conclusion: ___'. Inside, the child writes their conclusion sentence. Below the rectangle, a small reminder strip with sentence-frame options: 'Most children chose ___', 'The least chosen was ___'.",
+          "image_placeholders": [
+            {
+              "id": "WS05_P3_CONCLUSION",
+              "description": "A bordered rectangular writing box for a Grade 1 capstone worksheet, ~5in × 1.5in with thin solid border. Above the box: 'My conclusion: ___'. Inside, faint guide-lines for writing. Below the box, a small reminder strip listing two sentence-frame options: 'Most children chose ___' and 'The least chosen was ___'.",
+              "placement": "Centred horizontally; spans Part 3.",
+              "approximate_size": "full_width",
+              "keywords": ["conclusion", "sentence"],
+              "text_image_alignment_check": "Image WS05_P3_CONCLUSION at Part 3: instructions ask the child to write a conclusion sentence. Keywords name the response type (conclusion, sentence)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any sentence that uses GROUP language (most, least, more than, fewer than) and accurately describes the pictograph. Common: 'Most children chose apples.' 'The least chosen fruit was grapes.' Strong: 'More children chose dogs than fish.'"
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, write a SECOND conclusion sentence. Use a different word (more than, fewer than).",
+  "teacher_notes": "Lesson 5 capstone — summative evidence for the unit. Score against the capstone rubric. Look for: question articulated (D1.2); tally accuracy (D1.2); pictograph with title and labels and one-to-one (D1.3); ordering implied by the conclusion language (D1.4); group-language conclusion (D1.5). Children who complete all 3 parts independently demonstrate full unit mastery."
+}

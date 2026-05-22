@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_spatial_map_it_move_it",
+  "lesson_number": 5,
+  "lesson_title": "The Big Map Capstone",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.1",
+    "E1.2",
+    "E1.3",
+    "E1.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "Geometers SORT solids, BUILD structures, MATCH congruent parts, and FOLLOW maps.",
+  "learning_intention": "We are learning to sort, build, match, and follow movement directions.",
+  "student_learning_goal": "I can sort, build, match, and follow movement directions.",
+  "success_criteria": [
+    "I can SORT 4 solids by attribute.",
+    "I can COMPOSE a 3-part structure.",
+    "I can MATCH 2 congruent faces.",
+    "I can FOLLOW a multistep direction."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "face",
+    "edge",
+    "vertex",
+    "prism",
+    "pyramid",
+    "compose",
+    "decompose",
+    "congruent",
+    "quarter turn",
+    "half turn"
+  ],
+  "manipulatives_used": [
+    "M1_solids_set",
+    "M2_attribute_chart",
+    "M3_structure_set",
+    "M4_congruent_set",
+    "M5_map_grid",
+    "M6_capstone_template",
+    "M8_turn_chart",
+    "M9_robot_cards",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Trekker Tig and Compass Coco — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Big Map Steps'",
+    "Big Map Templates (1 per child)",
+    "All previous manipulatives at 4 stations",
+    "Lesson 5 capstone rubric"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Trekker Tig's Big Map",
+    "hook": "Trekker Tig: Today's BIG case — sort, build, match, follow. The 4 detective tools of geometry! Tig + Coco open: 'SORT, COMPOSE, CONGRUENT, MAP — that's GEOMETRY!'",
+    "teacher_script": "Bring children to the carpet. Trekker Tig and Compass Coco puppets in capes. 'Geometer friends — today is our CAPSTONE. We use ALL we know: 5 solids, compose-decompose, congruent, and movement.'\n\nReview the 4 detective steps: 'Step 1 — SORT 5 solids. Step 2 — COMPOSE/DECOMPOSE structures. Step 3 — MATCH congruent faces. Step 4 — FOLLOW movement directions.'\n\nDemo each briefly:\n- 'Sort: which solids have 6 faces? Cube, prism.'\n- 'Compose: stack 3 = tower.'\n- 'Match: 2 same squares = congruent.'\n- 'Move: 3 steps + quarter turn = treasure.'\n\nNow show the 4 stations:\n- Station 1: SORT — name and count attributes for 4 solids.\n- Station 2: BUILD — compose a 3-part structure.\n- Station 3: MATCH — identify 3 congruent pairs.\n- Station 4: FOLLOW — execute 2 multistep directions.\n\nEach child rotates and records on TEMPLATE.\n\n'Trekker Tig says — every BIG case uses all 4 tools!'",
+    "student_actions": [
+      "Watch Tig and Coco demo",
+      "Echo all unit vocabulary",
+      "Plan station order",
+      "Practice each skill briefly"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "The Big Map",
+    "structure": "individual",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out templates. 4 stations rotation (~6 min each).",
+        "teacher_prompt": "Say: '4 stations.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Stations 1-4: sort, build, match, follow.",
+        "teacher_prompt": "Say: 'Complete each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: write a 'geometer's brag': 1 sentence per station.",
+        "teacher_prompt": "Say: 'Stretch: 4 sentences.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with quarter/half turn at Station 4.",
+        "teacher_prompt": "Show: body turn."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record summative evidence.",
+        "teacher_prompt": "Stop at each child. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE at Station 2 (BUILD) or Station 3 (MATCH): Two geometers use different congruence-checking approaches — overlay vs measure. Class compares accuracy. Cite Battista (2007) levels of geometric reasoning.",
+        "teacher_prompt": "Tig: 'Different methods, same answer. Pick the method your brain trusts.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Visit 2 stations.",
+      "for_extending": "Add Station 5: design a map.",
+      "for_ell_or_iep": "Pre-printed sentence frames.",
+      "for_movement_learners": "Walk between 4 stations physically. NO-PREP VERSION: children rotate to 4 corners of the room — Sort corner, Compose corner, Congruent corner, Map corner. Body becomes the geometry workshop."
+    },
+    "formative_check": {
+      "what_to_look_for": "Four signals: sort; build; match; follow.",
+      "how_to_record": "Score on capstone rubric.",
+      "tracker_columns": [
+        "Student name",
+        "Sort + build",
+        "Match",
+        "Follow",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Tig and Coco's Big Map Brag",
+    "discussion_prompts": [
+      "What are the 5 solids?",
+      "What's COMPOSE?",
+      "What's CONGRUENT?",
+      "What's a QUARTER TURN?"
+    ],
+    "exit_routine": "Capstone refrain — Tig + Coco: 'SORT, COMPOSE, CONGRUENT, MAP — that's GEOMETRY!' Class chants 3x. Each child shares their case + the tool used at each step."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Capstone template across 4 stations.",
+    "tracker_reference": "summative_capstone_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures all 4 expectations."
+  },
+  "expanded_walkthrough": {
+    "title": "When the geometer doesn't check their work — repairing the no-verify trap",
+    "rationale": "On the geometry capstone, the trap is single-skill fixation (uses only sort or only map) AND no-verify (doesn't check after solving). Battista's levels of geometric reasoning place verification as the L2→L3 transition target.\n\nToday integrates Lessons 1-4: sort solids (L1), compose (L2), congruent (L3), map+move (L4) into a peer geometry case.",
+    "setup": "Capstone Station 1. Child writes 'cone has 5 vertices' without counting.",
+    "teacher_script": "Crouch. 'Trekker Tig asks — show me where each VERTEX is. Point.'\n\nGuide. 'Apex — that's 1. Any others on a cone? No. So: 1 vertex.'\n\nGeneralise. 'Trekker Tig says — at G3, geometers always CHECK by counting or matching.'\n\nIf still rushed: pencil-touch each. 'Touch the vertex. Count out loud.'",
+    "expected_student_responses": [
+      "(Confused) Guesses.",
+      "(Mid) Counts with prompts.",
+      "(Strong) Counts independently.",
+      "(Stretched) Articulates 'check by counting'."
+    ],
+    "common_misconceptions": [
+      "Looking = counting. (Repair: pencil-touch each.)",
+      "Memorize numbers. (Repair: count to verify.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child uses only one prior-day skill: explicit checklist (sort, compose, congruent, map); child checks all four before final answer.",
+      "DIAGNOSTIC B — child solves but doesn't verify: force the verify step — 'check by overlaying / by recounting'.",
+      "DIAGNOSTIC C — child can verify but doesn't articulate: force 'I checked by ___ and confirmed ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tig and Coco's Big Map",
+    "purpose": "Summative artifact applying E1.1-E1.4.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Sort 4 solids by attribute and name them.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Decompose 1 structure into its 3D parts and find 1 congruent pair.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Follow a 4-step direction on a map grid.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Trekker Tig and Compass Coco in worksheet header",
+      "4 solid icons for Part 1",
+      "Structure icon for Part 2",
+      "Map grid for Part 3"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_measurement_how_long",
+  "rubric_version": "measurement_g1_v1_2026_05_04",
+  "pre_grade_drift_check": {"consistency_check_issues": 0, "curriculum_text_issues": 0, "image_text_alignment_issues": 0, "placeholder_artwork_count": 0, "passed": true},
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "Every lesson includes expanded_walkthrough naming a Grade-1 trap (mass-capacity mix-up, gap-cover, eyeball-mass, static-date, speed-trap), with teacher_script + recovery_moves. Summative rubric covers all 3 expectations.", "evidence_refs": ["1_lesson_01.json::expanded_walkthrough", "1_lesson_05.json::expanded_walkthrough"]},
+    "instructional_balance": {"score": 4, "justification": "Each lesson follows minds_on / action / consolidation arc (12 + 25 + 13 = 50 min). Three rotating stations of 7 min each. Differentiation tiers explicit.", "evidence_refs": ["1_lesson_01.json::action.structure"]},
+    "clarity_communication": {"score": 4, "justification": "Voice consistent: Roo and Cal anchor every minds-on. Vocabulary named explicitly. Success criteria use 'I can' phrasing.", "evidence_refs": ["1_lesson_01.json::success_criteria"]},
+    "alignment": {"score": 4, "justification": "Curriculum codes (E2.1-E2.3) mapped lesson-by-lesson. Summative rubric covers all 3 with descriptors matching blueprint text. Image-text alignment passes.", "evidence_refs": ["0_blueprint.json::expectation_lesson_map"]},
+    "appearance": {"score": 4, "justification": "Composite generation passes 0 placeholders thanks to smart_fallback + ROO and CAL entries. Pre-grade drift check passes.", "evidence_refs": ["composed/.composed_manifest.json"]}
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7",
+  "graded_at": "2026-05-04T13:30:00+00:00"
+}

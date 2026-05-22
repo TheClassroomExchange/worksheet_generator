@@ -1,0 +1,47 @@
+{
+  "unit_id": "g3_number_fraction_street",
+  "pair_number": 2,
+  "subject": "Mathematics",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 3
+  },
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title names the digit-count comparison fallacy at the cross-thousand boundary and recovery_moves include base-ten block building, the 'biggest place first' mantra, and money/distance contexts — but no named research is cited and the recovery moves do not branch by what the diagnostic told you about the child (e.g., 'if child can build 999 correctly with blocks but still says 999>1000, drill thousands-place specifically; if child cannot build 999 accurately, drop back to hundreds-flats composition before reintroducing the thousand-cube').",
+      "required_fix": "Cite a named research source for the digit-count/place-value comparison misconception (e.g., Fuson 1990 on multidigit number sense, or Ross 1989 on place-value stages) in expanded_walkthrough.rationale, and rewrite recovery_moves as branching actions keyed to diagnostic signals (build-accuracy, verbal explanation type, transfer to 9999 vs 10000) so a substitute teacher knows which branch to take based on what the child actually showed.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "The lesson treats place value precisely (base-ten blocks carry quantity meaning, expanded form, thousands-first comparison rule) and is solidly conceptual, but children are GIVEN the place-value rule rather than INVITED to invent or compare strategies. The teacher_script in minds_on says 'Penny says — LOOK AT THE PLACE VALUES. Hundreds first.' before children have a chance to propose their own comparison strategy. No research framework is named in the expanded_walkthrough (no Fuson, Ross, Carpenter & Moser, etc.) — Level 4 explicitly requires the misconception be named in research-grounded terms.",
+      "required_fix": "Add a strategy-invention move in step 1 of the action: have pairs propose at least two different comparison strategies for 562 vs 526 (e.g., digit-by-digit, expanded form, base-ten block visualisation) and compare which is most efficient before introducing the thousands-first rule. Then add a named research reference in expanded_walkthrough.rationale (e.g., 'Fuson (1990) describes this as the unitary multidigit conception, where children read multidigit numbers as concatenated single digits rather than as composed place-value quantities.').",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Worksheet Part 3 uses the EXACT five numbers from action.steps[3] Station C — '234, 567, 89, 800, 142' — verbatim from the lesson. Worksheet Part 2 skip-count strips also mirror the lesson walk (50s 0-500, 100s 0-1000, 200s 0-1000) without a transfer twist. Level 4 requires that the worksheet deliberately VARY the practice format from the lesson (transfer task, not rote repeat) AND justify the difference. Currently the worksheet is a near-rote repeat of the action stations.",
+      "required_fix": "Swap Part 3's five numbers to a fresh set the children have not seen (e.g., 405, 67, 999, 250, 712) and add a teacher_notes justification that Part 3 verifies generalisation beyond the Station C set. In Part 2, replace one strip with a 'count by 200s starting at 100' or 'count by 50s ending at 750' twist to test transfer of the skip-count rule rather than rote recall, and note this transfer purpose in worksheet teacher_notes.",
+      "affected_stages": ["lesson_02", "worksheet_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ]
+}

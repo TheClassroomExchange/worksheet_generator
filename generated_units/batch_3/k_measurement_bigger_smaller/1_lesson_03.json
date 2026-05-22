@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "lesson_number": 3,
+  "lesson_title": "Holds More, Holds Less",
+  "duration_minutes": 35,
+  "primary_expectations": [
+    "A10.2"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We compare CAPACITY by pouring. Holds more, holds less, or same.",
+  "learning_intention": "We are learning to compare how much things hold.",
+  "student_learning_goal": "I can compare how much things hold.",
+  "success_criteria": [
+    "I can pour from one container to another to compare.",
+    "I can say which holds more or holds less.",
+    "I can say when two containers hold the SAME amount."
+  ],
+  "vocabulary_introduced": [],
+  "vocabulary_reinforced": [
+    "more",
+    "less",
+    "same"
+  ],
+  "manipulatives_used": [
+    "M3_object_set",
+    "M4_cup_cards",
+    "M7_measure_chart",
+    "M10_measurement_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Max and Tess \u2014 if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Holds More / Holds Less / Same'",
+    "Capacity Cup Cards (12)",
+    "3 real cups of different sizes (small, medium, large)",
+    "A bag of dried beans or rice for pouring",
+    "Lesson 3 capacity tracker \u2014 provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 7,
+    "activity_name": "Max Pours Between Cups",
+    "hook": "Max: This big cup is full of beans. Will all the beans fit in this small cup? Let's see!",
+    "teacher_script": "Bring children to the carpet. Max + Tess puppets. 'Yesterday we compared MASS. Today we compare CAPACITY \u2014 HOW MUCH it HOLDS.'\n\nWrite HOLDS MORE, HOLDS LESS, SAME on chart. 'More = bigger amount. Less = smaller amount. Same = equal.'\n\nDemonstrate pouring. Big cup full of beans. 'Pour into this small cup. Watch \u2014 OVERFLOWS! Small cup holds LESS. Big cup holds MORE.'\n\nSame: two same-size cups. Pour one into the other. 'Fit perfectly. SAME capacity.'\n\nThe SURPRISE: tall thin tube vs wide short bowl. 'Which holds more? Pour to find out.' Bowl wins! 'TALLER is NOT always MORE. POUR is the test.'\n\nMax's RULE: 'LINE IT UP \u2014 COMPARE \u2014 NAME IT!' For capacity: line them up by pouring, compare which overflows, name HOLDS MORE or HOLDS LESS.\n\nClass refrain. Class chants 3x with claps: 'LINE IT UP \u2014 COMPARE \u2014 NAME IT! That's how Max measures!'\n\n'Today we POUR and COMPARE cups.'",
+    "student_actions": [
+      "Watch Max pour beans between cups.",
+      "Echo vocabulary: 'holds more', 'holds less'.",
+      "Predict before pouring.",
+      "Practice pouring carefully."
+    ]
+  },
+  "action": {
+    "duration_minutes": 20,
+    "activity_name": "Capacity Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: pour and compare 4 pairs of containers. (a) bowl vs thimble. (b) juice box vs mug. (c) two same-size cups. (d) water bottle vs juice box.",
+        "teacher_prompt": "Say: 'Predict first. Then pour. Which holds more?'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Cup Sort \u2014 sort 12 cup cards by size into 3 piles (small / medium / large). Station B: Pour and Compare \u2014 pair pours beans between 4 real cups and records more/less. Station C: Find Same \u2014 pair finds 3 pairs of same-capacity containers.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station B: order 5 cups from smallest to largest capacity by pouring.",
+        "teacher_prompt": "Say: 'Stretch: order 5 from smallest capacity to largest.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the pour rule. 'POUR from one to the other. Watch \u2014 does it overflow, fit perfectly, or leave room?'",
+        "teacher_prompt": "Demonstrate again with two cups, one bigger."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the capacity tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Which holds more? Show me by pouring.' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Just sort by visible size (no pouring).",
+      "for_extending": "Stretch at Station B: order 5 cups by capacity using pour-tests only.",
+      "for_ell_or_iep": "Provide a sentence frame: 'This holds ___ than that.'",
+      "for_movement_learners": "NO-PAPER, NO-WATER PATH: pour DRY rice or beans (or paper-clip / pebble counts as a stand-in 'unit'). No sand/water table required. Children kneel on the floor with two paper plates as 'pans'; pour from cup A onto plate then into cup B; if the pile overflows cup B, cup B holds LESS. Whole lesson can run with only classroom cups, beans, and bodies \u2014 no purchased materials."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: pours carefully; says holds more/less correctly; recognizes 'same capacity'.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Pours carefully",
+        "Says holds more/less",
+        "Recognizes same capacity",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 8,
+    "activity_name": "Max's Capacity Brag",
+    "discussion_prompts": [
+      "What does HOLDS MORE mean?",
+      "What does HOLDS LESS mean?",
+      "How do you compare two cups? (POUR \u2014 don't eyeball.)",
+      "Tall and thin vs short and wide \u2014 which always wins? (Neither \u2014 POUR is the test.)"
+    ],
+    "exit_routine": "Refrain chant 3x. Then each child completes the sentence frame: 'My ___ HOLDS MORE than my ___' (or HOLDS LESS / SAME). Sticky-note one capacity comparison and post."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Capacity comparison accuracy with pouring.",
+    "tracker_reference": "formative_tracker_lesson_03 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 3 captures A10.2 mastery for capacity."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says TALLER means HOLDS MORE \u2014 repairing the height-capacity conflation at K (Piaget, 1969 conservation-of-liquid; Sarama & Clements, 2009)",
+    "rationale": "On A10.2 capacity comparison, the most-documented K trap is the height-capacity conflation: child says the TALLER container must hold more. This is the classic Piagetian conservation-of-liquid trap: poured into a tall thin tube, water now 'holds more' than it did in the wide short cup it came from.\n\nPiaget (1969) showed that pre-conservation children attend to a single salient dimension \u2014 usually height \u2014 and ignore the compensating reduction in width. The K child watches water rise in the thin tube and concludes the amount itself increased. Conservation of liquid is a Grade 1-2 achievement; the K target is more modest: establish that POURING is the empirical test for capacity, regardless of which container 'looks bigger'. Sarama & Clements (2009) place this perceptual-to-empirical handoff at the start of the K capacity trajectory: physical pour with surprise pairs (wide-short vs tall-thin) generates the cognitive friction that begins to dislodge the height = amount fusion.\n\nWhy this matters: capacity depends on VOLUME, not just height. Without the surprise pair, children leave K with their height-capacity fusion intact and arrive in Grade 1 still mis-reading liquid measure.\n\nThe walkthrough covers when a child equates height with capacity.",
+    "setup": "Pair is at Station B. Child has a tall thin tube and a wide short bowl. Says 'tube holds more, it's taller'.",
+    "teacher_script": "Crouch. 'You said the tube holds more. Let's POUR and check.'\n\nFill the tube with beans. Pour into the bowl. The tube empties but the bowl is only half-full. 'See \u2014 the bowl can take MORE. So the BOWL holds more.'\n\nWalk through. 'Max says \u2014 LINE IT UP by pouring. COMPARE which overflows. NAME IT.'\n\nGeneralise. 'Wide short bowls can hold a lot. Tall thin tubes can hold less than they look. POUR is the test.'\n\nNow verify in reverse: fill the bowl, pour into the tube. The tube overflows.\n\nIf still judging by height: provide surprise pairs (wide bowl + tall tube). Force the POUR behaviour.\n\nLong-term recovery: every capacity comparison pours first, judges second.",
+    "expected_student_responses": [
+      "(Confused) Says taller = holds more without pouring; height-amount fused.",
+      "(Mid) Pours with prompts, surprised by results.",
+      "(Strong) Pours first, names which holds more independently.",
+      "(Stretched) Predicts capacity before pouring AND can rank 4 containers; can articulate 'thin and tall can hold less than wide and short'."
+    ],
+    "common_misconceptions": [
+      "Taller = holds more. (Repair: pour to compare, height alone doesn't decide capacity.)",
+      "Wider = holds more. (Repair: width alone doesn't either; only POURING settles it.)",
+      "Same shape = same capacity. (Repair: shape and capacity are different \u2014 verify by pour in BOTH directions.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A \u2014 child still uses height after one surprise pair: line up FOUR pre-staged surprise pairs (wide bowl vs tall tube, mug vs measuring cylinder, ramekin vs tall glass, bowl vs juice box); make the child predict, then pour, then mark the result; accumulating counter-evidence pries the height-capacity fusion apart.",
+      "DIAGNOSTIC B \u2014 child pours one direction only and asserts the result is final ('overflowed, so the FIRST one holds more'): drill the TWO-WAY pour: 'now reverse \u2014 fill the OTHER one and pour back'; only when both directions agree does the answer count.",
+      "DIAGNOSTIC C \u2014 child pours from a WIDE container into a NARROW one and panics at the rising column ('it grew!'): mark the bean line on the outside of the wide container before pouring; show that the bean COUNT didn't change, only the COLUMN shape changed; end-of-pour: 'same beans, different look \u2014 same capacity'."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Max's Capacity Pour",
+    "purpose": "Independent practice of A10.2 capacity comparison.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Circle the container that holds more in 5 pairs.",
+        "response_type": "circle_or_loop"
+      },
+      {
+        "part_number": 2,
+        "task": "Order 4 cups from smallest to largest capacity.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Draw 2 things in your kitchen. Circle the one that holds more.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Max in worksheet header",
+      "5 pair rows for Part 1",
+      "4 cups for Part 2",
+      "Blank drawing area for Part 3"
+    ]
+  }
+}

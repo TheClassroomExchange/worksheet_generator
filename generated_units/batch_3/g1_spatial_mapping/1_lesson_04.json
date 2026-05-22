@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_spatial_mapping",
+  "lesson_number": 4,
+  "lesson_title": "Where Is It?",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "E1.4"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "We describe LOCATION with position words: above, below, beside, between, in front, behind.",
+  "learning_intention": "We are learning to describe location with position words.",
+  "student_learning_goal": "I can describe where something is using position words.",
+  "success_criteria": [
+    "I can use 5+ position words.",
+    "I can describe WHERE an object is.",
+    "I can use the frame 'The ___ is ___ the ___'."
+  ],
+  "vocabulary_introduced": [
+    "location"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M4_treasure_map",
+    "M5_treasure_tokens",
+    "M8_position_chart",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Tig and Coco — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Position Words'",
+    "Treasure Map Mat (1 per pair)",
+    "Treasure Tokens (12 per pair)",
+    "Lesson 4 position tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Tig Hides the Treasures",
+    "hook": "Tig: I HID treasures on the map! Use position words to tell me WHERE they are. Above the cabin? Beside the lake?",
+    "teacher_script": "Bring children to the carpet. Tig and Coco puppets. 'Friends — yesterday matching halves. Today we describe LOCATION with position words.'\n\nIntroduce vocabulary. Write LOCATION on chart. 'Location = where something is.'\n\nReview position words. Write: ABOVE, BELOW, BESIDE, BETWEEN, IN FRONT, BEHIND. 'Six position words.'\n\nDemonstrate. Show a treasure map mat with cabin, tree, lake. Place a gold token on top of the cabin. 'The gold is ABOVE the cabin.'\n\nPlace a key beside the lake. 'The key is BESIDE the lake.'\n\nPlace a gem between the cabin and the tree. 'The gem is BETWEEN the cabin and the tree.'\n\nMore examples (Canadian flavour):\n- Token on the maple tree: 'ABOVE the tree.'\n- Token at the lake's edge: 'BESIDE the lake.'\n- Token between two cabins: 'BETWEEN the cabins.'\n- Token in front of the cabin: 'IN FRONT of the cabin.'\n- Token behind the tree: 'BEHIND the tree.'\n- Token below the hill: 'BELOW the hill.'\n\n'Tig says — use the FRAME: \"The ___ is ___ the ___.\"'\n\n'Today we describe lots of locations.'",
+    "student_actions": [
+      "Watch Tig hide treasures.",
+      "Echo new vocabulary: 'location'.",
+      "Practice the position-word frame.",
+      "Identify positions on maps."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Position Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: describe 6 hidden treasures on the class map.",
+        "teacher_prompt": "Say: 'Where is the ___? Use a position word.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Three stations. Station A: Hide and Describe — pair hides 4 treasures, partner describes locations. Station B: Map Reading — pair reads 6 location clues, finds the treasures. Station C: Make a Map — pair draws their own map and writes 4 location sentences.",
+        "teacher_prompt": "Say: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write a clue using TWO position words ('above and beside').",
+        "teacher_prompt": "Say: 'Stretch: 2 position words.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the frame. 'The ___ is ___ the ___.' Practice with classroom items.",
+        "teacher_prompt": "Demonstrate: 'The clock is ABOVE the door.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the position tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Where is the ___?' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only above/below/beside (3 words).",
+      "for_extending": "Stretch at Station C: 2-word combinations.",
+      "for_ell_or_iep": "Provide sentence frames pre-printed on cards.",
+      "for_movement_learners": "Children physically position objects according to teacher's spoken directions."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: uses 5+ position words; describes locations; uses the frame.",
+      "how_to_record": "Tick the tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Uses 5+ position words",
+        "Describes locations",
+        "Uses the frame",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Coco's Position Brag",
+    "discussion_prompts": [
+      "What does LOCATION mean?",
+      "What's the difference between BESIDE and BETWEEN?",
+      "What position word do you use for 'on top'?",
+      "Where is your bag right now?"
+    ],
+    "exit_routine": "Each child describes ONE classroom item: 'The ___ is ___ the ___.'"
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Position vocabulary use and description accuracy.",
+    "tracker_reference": "formative_tracker_lesson_04 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 4 captures E1.4 mastery for position language."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child uses 'over' for everything — repairing the over-overuse trap at Grade 1",
+    "rationale": "The most common Grade-1 trap on E1.4 is the over-overuse trap: the child says 'OVER' for above, beside, in front of, on top of — collapsing 5 distinct words into one. They miss that EACH position word means something specific.\n\nThis matters because precise language matters in spatial reasoning. Without distinct words, children can't follow specific directions later.\n\nThe walkthrough covers when a child overuses 'over'.",
+    "setup": "Pair is at Station A. Child has placed a token. Says 'token is OVER the cabin' but the token is BESIDE the cabin.",
+    "teacher_script": "Crouch. 'Look at the token. Is it ABOVE the cabin (higher up) or BESIDE the cabin (next to)?'\n\nChild looks. 'Beside!' Right. 'Beside means NEXT TO. Same level.'\n\nWalk through. 'Six position words: above (higher), below (lower), beside (next to, same level), between (in the middle of two), in front (in the front), behind (on the back side).'\n\nGeneralise. 'Tig says — pick the RIGHT word. \"Over\" is not always above. Match the SPECIFIC word to the position.'\n\nNow practice. Move the token. 'Now where? Above? Beside? Between?'\n\nIf still using 'over': provide position-word cards. 'Pick from these.' Force diverse use.\n\nLong-term recovery: every position description checks the precise word.",
+    "expected_student_responses": [
+      "(Confused) Uses 'over' for all positions.",
+      "(Mid) Uses 2-3 distinct words with prompts.",
+      "(Strong) Uses 5+ position words appropriately.",
+      "(Stretched) Combines words ('above and beside')."
+    ],
+    "common_misconceptions": [
+      "Over = anywhere up high. (Repair: above means directly higher.)",
+      "Beside means in front. (Repair: beside means at the same level, next to.)",
+      "Between needs only one reference. (Repair: between requires TWO things to be in the middle of.)"
+    ],
+    "recovery_moves": [
+      "Use position-word cards.",
+      "Drill 'pick the SPECIFIC word'.",
+      "Demonstrate physically with the teacher's body."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Tig's Treasure Locator",
+    "purpose": "Independent practice of E1.4 location description.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Look at 4 map pictures. Write the position word.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Read 4 location clues. Place the treasures on the map.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Describe 3 things in your bedroom: 'The ___ is ___ the ___.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tig in worksheet header",
+      "4 map panels for Part 1",
+      "Map with 4 placement cues for Part 2",
+      "3 sentence-frame lines for Part 3"
+    ]
+  }
+}

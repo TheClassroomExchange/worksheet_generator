@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_loop_the_loop",
+  "lesson_number": 1,
+  "worksheet_title": "Coda's Step-by-Step Code",
+  "purpose": "Independent practice of C3.1 (sequential code).",
+  "student_learning_goal": "I can write step-by-step code for a simple task and follow it in order.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can write step-by-step code for a simple task and follow it in order.",
+    "character_watermark": "Coda the Coding Robot in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: My Code Steps",
+          "student_instructions": "Write 5 steps in order for a simple task (brush teeth, walk to school, get dressed). Number them 1-5.",
+          "visual_layout": "Top of the page. Five numbered step boxes stacked.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_FIVE_STEPS",
+              "description": "Five numbered step boxes in B&W line-art, stacked. Each ~7in × 0.7in. Labels: 1, 2, 3, 4, 5 with writing lines.",
+              "placement": "Top of the page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "steps",
+                "code"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_FIVE_STEPS: keywords (steps, code) name what the boxes ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Open. Accept any 5 ordered steps for a simple task."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Execute the Code",
+          "student_instructions": "Each grid shows Coda starting at the bottom-left. Follow the code and write where Coda ends.",
+          "visual_layout": "Middle. Four grid maps in a 2x2 grid.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_FOUR_GRIDS",
+              "description": "Four 5x5 grid maps in B&W line-art, 2-row × 2-column. Each ~3in × 3in. Pre-fills: G1 — Coda starts (0,0), code 'right, right, up, up'. G2 — code 'right, right, right, up'. G3 — code 'up, right, up, right'. G4 — code 'right, up, right, up, right'.",
+              "placement": "Middle; 2x2 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "grid",
+                "code"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_FOUR_GRIDS: keywords (grid, code) name what the maps ask for."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "G1: (2,2). G2: (3,1). G3: (2,2). G4: (3,2)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: My Task Code",
+          "student_instructions": "Invent your own simple task. Write the code in 4-5 ordered steps.",
+          "visual_layout": "Bottom. A blank box with thinking-bubble icon.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_TASK_BOX",
+              "description": "A blank box in B&W line-art, ~7in × 2.5in. Top: 'My Task: ___'. Below: 5 numbered code lines. Coda thinking-bubble icon top-right.",
+              "placement": "Bottom of the page.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "task",
+                "code"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_TASK_BOX: keywords (task, code) name what the box asks for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any task with 4-5 ordered steps."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw a SECOND grid path of your own and write the code.",
+  "teacher_notes": "Lesson 1 consolidation. Watch for unordered-list errors in Part 1 — flag for sequence reteach. Part 3 is a TRANSFER probe: 'write code for someone else to follow' — child writes a 4-step code, partner executes; if Coda gets to wrong destination the writer revises. This verifies generalisation beyond tracing the lesson examples."
+}

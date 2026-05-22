@@ -1,0 +1,37 @@
+{
+  "pair_number": 2,
+  "unit_id": "g2_data_what_could_happen",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale: 'Most common Grade-2 trap: child names two events but they aren't strictly complementary (e.g., \"hot or cold\" — could be warm in between).' The trap is real and grade-appropriate, and recovery moves are concrete ('no in-between' checklist), but recovery does NOT branch by what the diagnostic told you about the child, and there is no named research citation (Konold's outcome approach, Shaughnessy on probability misconceptions, Jones et al. 1999 framework for probabilistic thinking).",
+      "required_fix": "Cite a named research source for the misconception (e.g., 'Konold 1989 outcome approach' or 'Jones, Langrall, Thornton & Mogill 1997 framework for probabilistic thinking in young children — children at the subjective level treat any binary as complementary'). Then make recovery_moves BRANCH by diagnostic: (a) IF child names a true binary but with a third option (hot/cold) → use the 'is there an in-between?' checklist with three contrasted pairs; (b) IF child treats opposites as automatically complementary → drill the 'only 2 outcomes total' rule with even/odd vs big/small contrast; (c) IF child cannot generate any pair → drop back to closed-set picture cards (heads/tails coin only) before opening to language.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson defines complement conceptually ('Complementary = two events. When ONE happens, the OTHER doesn't') and uses the hot/cold non-example to anchor the 'no in-between' principle, which is solid Level 3. But Level 4 requires children to INVENT or REFINE a strategy and COMPARE strategies, AND for the expanded_walkthrough to name the misconception in research-grounded terms. Station C ('Make own complement pair') asks children to produce pairs but does not have them compare competing definitions or refine their own rule for what counts as complementary.",
+      "required_fix": "Add a strategy-comparison move in action.steps: after Station C, bring 2-3 child-generated pairs to the carpet and have children VOTE 'complement or not' and JUSTIFY using their own rule, then refine the class rule together (e.g., child A's rule 'opposites' fails on hot/cold, child B's rule 'no in-between' passes). Also rewrite expanded_walkthrough.rationale to name the research-grounded term — Konold (1989) 'outcome approach' or Jones et al. 'subjective level of probabilistic thinking' — so the trap is anchored in the literature, not just classroom folk wisdom.",
+      "affected_stages": ["lesson_02"],
+      "affected_pairs": [2],
+      "severity": "blocking"
+    }
+  ],
+  "grader_notes": "Strong pair overall — alignment, materials, voice, and lesson-worksheet consistency all clear Level 4. Two categories sit at Level 3 (pedagogical_depth and mathematical_authenticity), both for the same root reason: the trap and the conceptual move are real but not yet research-anchored, and children don't yet invent/compare strategies. Both fixes are in lesson_02 (worksheet is fine), so revise_lesson is the right status. Once the expanded_walkthrough cites Konold or Jones et al. and recovery branches by diagnostic, AND action adds a strategy-comparison move, this pair will hit pass."
+}

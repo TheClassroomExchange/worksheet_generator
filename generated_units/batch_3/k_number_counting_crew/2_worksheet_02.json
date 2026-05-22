@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_number_counting_crew",
+  "lesson_number": 2,
+  "worksheet_title": "My Counting Path: Big or Small",
+  "purpose": "End-of-Lesson-2 consolidation. Children draw and label a short Counting Path of their own, then circle whether the amount got BIGGER or SMALLER for each direction. Captures formative-level evidence for A6.2 and reinforces the direction-to-size pairing established on the floor mat.",
+  "student_learning_goal": "I can count forward and backward and tell what happens to the amount.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can count forward and backward and tell what happens to the amount.",
+    "character_watermark": "Mae stands in the top-left corner of the header holding a green FORWARD arrow. Theo stands in the top-right corner holding a red BACKWARD arrow."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Forward — Counting Up Makes It BIGGER",
+          "student_instructions": "Trace the green arrow. Count forward: 0, 1, 2, 3, 4, 5. The cube tower grows on each step. Circle: did the amount get BIGGER or SMALLER?",
+          "visual_layout": "Top half of the page. A horizontal Counting Path strip from 0 to 5, with each footprint labelled and a dotted green FORWARD arrow above the path running left to right. Above each footprint is a tiny cube tower that grows by one cube per step (1 cube on footprint 1, 2 cubes on footprint 2, etc., culminating in 5 cubes on footprint 5). Below the path, a child-sized circle-the-answer pair: BIGGER and SMALLER, each ringed with a dotted oval ready to be circled.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P1_PATH_GREEN_ARROW",
+              "description": "A horizontal Counting Path strip showing footprints labelled 0, 1, 2, 3, 4, 5 from left to right. Above the path, a thick green FORWARD arrow stretches from left edge to right edge. Above each numbered footprint, a small stack of red linking cubes builds up: 0 cubes above footprint 0, 1 cube above footprint 1, climbing to 5 cubes above footprint 5. Style: clean, kindergarten-friendly, line-drawing with simple colour fills (green arrow, red cubes, black footprints).",
+              "placement": "spans the upper half of the page, anchored at the top of Part 1",
+              "approximate_size": "full_width",
+              "keywords": [
+                "counting path",
+                "forward",
+                "arrow",
+                "footprints",
+                "cubes",
+                "bigger"
+              ],
+              "text_image_alignment_check": "Student instructions say 'Trace the green arrow', 'count forward: 0, 1, 2, 3, 4, 5', and 'the cube tower grows'. The image depicts a green FORWARD arrow above a 0-5 footprint path, with a cube tower that visibly grows from 0 to 5 cubes — every named element in the instructions appears in the image."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "BIGGER. The cube tower visibly grew from 0 cubes to 5 cubes as the child counted forward."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Backward — Counting Down Makes It SMALLER",
+          "student_instructions": "Trace the red arrow. Count backward: 5, 4, 3, 2, 1, 0. The cube tower shrinks on each step. Circle: did the amount get BIGGER or SMALLER?",
+          "visual_layout": "Middle of the page. A horizontal Counting Path strip from 5 to 0 (right-to-left labelling), with each footprint labelled and a dotted red BACKWARD arrow above the path running right to left. Above each footprint is a tiny cube tower that shrinks by one cube per step (5 cubes on footprint 5, descending to 0 cubes on footprint 0). Below the path, a circle-the-answer pair: BIGGER and SMALLER, each ringed with a dotted oval.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P2_PATH_RED_ARROW",
+              "description": "A horizontal Counting Path strip showing footprints labelled 5, 4, 3, 2, 1, 0 from left to right. Above the path, a thick red BACKWARD arrow stretches from right edge to left edge with the arrowhead pointing left. Above each numbered footprint, a small stack of yellow linking cubes shrinks: 5 cubes above footprint 5, descending to 0 cubes above footprint 0. Style matches Part 1's image — clean line-drawing with simple colour fills (red arrow, yellow cubes, black footprints).",
+              "placement": "spans the middle band of the page, anchored at the top of Part 2",
+              "approximate_size": "full_width",
+              "keywords": [
+                "counting path",
+                "backward",
+                "arrow",
+                "footprints",
+                "cubes",
+                "smaller"
+              ],
+              "text_image_alignment_check": "Student instructions say 'Trace the red arrow', 'count backward: 5, 4, 3, 2, 1, 0', and 'the cube tower shrinks'. The image shows a red BACKWARD arrow above a 5-to-0 footprint path with a cube tower that visibly shrinks from 5 to 0 cubes — every named element in the instructions appears in the image."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "SMALLER. The cube tower visibly shrank from 5 cubes to 0 cubes as the child counted backward."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Mae's Muffin Tray",
+          "student_instructions": "Draw three muffins on the tray. Then draw the tray after Mae takes one muffin away. Was that counting forward or backward? Circle your answer.",
+          "visual_layout": "Bottom of the page. Two empty rectangular muffin trays (drawing boxes) side by side, labelled BEFORE (left) and AFTER (right). The BEFORE tray has a small label '3 muffins to start' below it; the AFTER tray has a label '— 1 muffin = ?' below it. Beneath both trays, a circle-the-answer pair: FORWARD and BACKWARD. Mae's chef-character image is in the bottom-right corner, holding a baking sheet.",
+          "image_placeholders": [
+            {
+              "id": "WS02_P3_MUFFIN_TRAY_BEFORE_AFTER",
+              "description": "Two side-by-side rectangular muffin tray outlines, each ~3in wide × 1.5in tall, with three empty muffin cup circles inside (drawing space for the child to add muffins). The left tray is labelled BEFORE in small caps below, the right tray AFTER. Between them, a small minus sign (–) and a single drawn muffin (representing the muffin Mae took away). To the bottom-right, a half-body illustration of Mae the chef character (white apron, chef hat, holding a small loaf of bread) smiling at the trays.",
+              "placement": "spans the bottom third of the page, with Mae's character on the right",
+              "approximate_size": "large",
+              "keywords": [
+                "muffin",
+                "tray",
+                "Mae",
+                "chef",
+                "before",
+                "after",
+                "backward"
+              ],
+              "text_image_alignment_check": "Student instructions name 'three muffins', 'the tray', 'Mae', and 'one muffin away'. The image shows two muffin trays (BEFORE and AFTER) with three muffin-cup outlines for the child to fill, plus Mae the chef character. Taking one muffin away models the backward-counting story (3 → 2), matching the FORWARD / BACKWARD circle-choice below."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "BEFORE tray: 3 muffins drawn. AFTER tray: 2 muffins drawn (one removed). Counting direction: BACKWARD — the amount got smaller, from 3 to 2. Children who draw 3 in BEFORE but 4 in AFTER (forward) have either misunderstood 'takes away' or confused the direction. Use this as a re-teach trigger for tomorrow's morning meeting."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "Turn the page over. Draw your own Counting Path from 0 to 10. Pick TWO numbers and show — with a green or red arrow — whether you would count forward or backward to get from one to the other.",
+  "teacher_notes": "Give this worksheet at the end of Lesson 2 (last 8-10 minutes). It captures formative evidence for A6.2 directly — Parts 1 and 2 verify the direction-to-size pairing (forward = bigger, backward = smaller); Part 3 transfers the pairing to a real-world situation (taking muffins away). Common pitfalls: (a) child circles BIGGER on Part 2 because they associate 'counting' with 'growing' — the 30/13 confusion analogue from Lesson 3 looms here. Recovery: walk them through the cube tower in the image with their finger (5, 4, 3, 2, 1, 0). (b) child draws 4 muffins on the AFTER tray on Part 3 because they read 'takes away' as 'adds more' — language confusion, not math confusion. Recovery: gesture the take-away physically with a real cube. (c) child leaves Part 3 blank because of the open-drawing demand — pair with a stronger visual partner during the exit routine."
+}

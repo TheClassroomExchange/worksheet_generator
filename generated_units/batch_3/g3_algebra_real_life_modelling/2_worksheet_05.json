@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_algebra_real_life_modelling",
+  "lesson_number": 5,
+  "worksheet_title": "My Community Model",
+  "purpose": "Summative evidence for C4.",
+  "student_learning_goal": "I can model a real-life community situation from my own life.",
+  "header": {"student_name_field": true, "date_field": true, "student_learning_goal_banner": "I can model a real-life community situation from my own life.", "character_watermark": "Coach Cara and Sport Sam together in the top-right corner. Small (~1.5in tall combined)."},
+  "pages": [{"page_number": 1, "parts": [
+    {"part_number": 1, "part_title": "Part 1: My Topic", "student_instructions": "Pick a community topic. Draw or write 1 sentence describing the situation.", "visual_layout": "Top of page. Topic title slot and description box.",
+      "image_placeholders": [{"id": "WS05_P1_TOPIC", "description": "A topic title slot 'My Topic: ___' with description box and small drawing area in B&W, ~7in x 1.5in. Header 'Part 1: Situation'.", "placement": "Top.", "approximate_size": "full_width", "keywords": ["topic", "situation"], "text_image_alignment_check": "Image WS05_P1_TOPIC: keywords (topic, situation) name the box."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 2, "part_title": "Part 2: My Question", "student_instructions": "Write a math question about your situation.", "visual_layout": "Upper-middle. A question line.",
+      "image_placeholders": [{"id": "WS05_P2_Q", "description": "A long question slot in B&W, ~7in x 1in. Header 'Part 2: Math Question'. 'My question: ___'.", "placement": "Upper-middle.", "approximate_size": "full_width", "keywords": ["math", "question"], "text_image_alignment_check": "Image WS05_P2_Q: keywords (math, question) name the slot."}],
+      "student_response_type": "write", "answer_key": "Open."},
+    {"part_number": 3, "part_title": "Part 3: My Data", "student_instructions": "Collect or imagine data. Use big numbers.", "visual_layout": "Middle. A data area with grid.",
+      "image_placeholders": [{"id": "WS05_P3_DATA", "description": "A data area in B&W, ~7in x 2in. Header 'Part 3: Data'. Tally box and table space.", "placement": "Middle.", "approximate_size": "full_width", "keywords": ["data"], "text_image_alignment_check": "Image WS05_P3_DATA: keywords (data, tally) name the area."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."},
+    {"part_number": 4, "part_title": "Part 4: My Prediction", "student_instructions": "Predict for a big community-scale time span (4 weeks, 1 season).", "visual_layout": "Lower-middle. Prediction line.",
+      "image_placeholders": [{"id": "WS05_P4_PREDICTION", "description": "A prediction slot in B&W, ~7in x 1in. Header 'Part 4: Prediction'. 'My prediction: ___'.", "placement": "Lower-middle.", "approximate_size": "full_width", "keywords": ["my", "prediction"], "text_image_alignment_check": "Image WS05_P4_PREDICTION: keywords (my, prediction) name the slot."}],
+      "student_response_type": "write", "answer_key": "Open."},
+    {"part_number": 5, "part_title": "Part 5: My Reflection", "student_instructions": "Would your model need refining? Why?", "visual_layout": "Bottom. Reflection box.",
+      "image_placeholders": [{"id": "WS05_P5_REFLECT", "description": "A reflection box in B&W, ~7in x 1.5in. 'My model needs refining because: ___'. Header 'Part 5: Reflection'.", "placement": "Bottom.", "approximate_size": "full_width", "keywords": ["my", "reflection"], "text_image_alignment_check": "Image WS05_P5_REFLECT: keywords (my, reflection) name the box."}],
+      "student_response_type": "draw_or_write", "answer_key": "Open."}
+  ]}],
+  "early_finisher_prompt": "If you finish, swap with a partner and read each other's models.",
+  "teacher_notes": "Lesson 5 capstone summative worksheet. Use as integrated C4 evidence."
+}

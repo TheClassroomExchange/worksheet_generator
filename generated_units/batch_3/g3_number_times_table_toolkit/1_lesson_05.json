@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "lesson_number": 5,
+  "lesson_title": "Ratios — Scale It Up",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "B2.9"
+  ],
+  "secondary_expectations": [
+    "B2.7"
+  ],
+  "big_idea": "A ratio compares two amounts. 1:2 means 'for every 1, there are 2'.",
+  "learning_intention": "We are learning to use ratios 1:2, 1:5, and 1:10 to scale up amounts and solve real-life problems.",
+  "student_learning_goal": "I can use ratios 1:2, 1:5, and 1:10 to scale up amounts and solve real-life problems.",
+  "success_criteria": [
+    "I can write a ratio as 1:2, 1:5, or 1:10.",
+    "I can scale up a 1:2 ratio to 5:10 by multiplying both parts by 5.",
+    "I can solve a real-life ratio problem (recipes, money, distances)."
+  ],
+  "vocabulary_introduced": [
+    "ratio",
+    "scale up"
+  ],
+  "vocabulary_reinforced": [
+    "multiplication",
+    "factor"
+  ],
+  "manipulatives_used": [
+    "M8_ratio_table_template",
+    "M5_two_colour_counters",
+    "M10_toolkit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Maya the Multiplication Maven — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Ratios and Scale Up' with 1:2, 1:5, 1:10 examples",
+    "Ratio table templates (one per pair)",
+    "Per-pair set of two-colour counters for ratio modelling",
+    "Lesson 5 ratio summative tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Maya's Recipe Ratio",
+    "hook": "Maya's pancake recipe: 1 cup of flour to 2 cups of milk. If she uses 5 cups of flour, how much milk? Maya opens: 'MULTIPLY both parts — the ratio stays SMART!'",
+    "teacher_script": "Bring children to the carpet. Maya the Multiplication Maven puppet in hand. 'Friends — Maya's pancake recipe uses 1 cup of flour to 2 cups of milk. We say the RATIO is 1 to 2, written 1:2.'\n\nWrite on the board: 1 : 2 (flour : milk). 'For every 1 cup of flour, there are 2 cups of milk.'\n\n'Maya wants to make a BIG batch — 5 cups of flour. How much milk?'\n\nUse the ratio table:\nFlour | Milk\n1     | 2\n5     | ?\n\n'Maya scales UP. We multiplied 1 by 5 to get 5. So we multiply 2 by 5 too.' Fill: 10. 'Five cups of flour, 10 cups of milk.'\n\nWrite the rule. 'Maya says — to scale a ratio, multiply BOTH PARTS by the same number. The ratio stays the same.'\n\nNow practice 1:5. 'Money: 1 toonie = 5 toonie-equivalents... wait, let's do something simpler. 1 nickel = 5 pennies (historically — pennies were retired in 2013). If you have 4 nickels, how many penny-equivalents?' Use the table:\nNickels | Pennies\n1       | 5\n4       | ?\n\nMultiply by 4. '4 nickels = 20 pennies.'\n\nNow 1:10. '1 dime = 10 pennies. 6 dimes = ?' '60 pennies.'\n\n'Today we'll practice scaling 1:2, 1:5, and 1:10 ratios with real-life problems.'",
+    "student_actions": [
+      "Watch Maya scale the 1:2 recipe ratio.",
+      "Help fill the ratio table.",
+      "Echo new vocabulary: 'ratio', 'scale up'.",
+      "Predict the milk needed for 5 cups of flour."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Ratio Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "WHOLE GROUP RECAP — 5 min — four mini-stations on the carpet, each mirroring one prior day's skill:\n  Station 1 (D1 — Algorithms): Tony shows 'Trade ten for one'; class chants regrouping rule.\n  Station 2 (D2 — Toolkit): Maya holds up 4×5; class skip-counts 5,10,15,20 in unison.\n  Station 3 (D3 — Derive): Maya asks 7×8; class chants 'Big fact STUCK? Use a near fact!' (7×10 - 7×2 = 56).\n  Station 4 (D4 — Numerator): Maya holds 3/4 strip; class names the numerator as repeated unit count.\nEach named-skill recall sets up today's ratio scaling work. Pixel cheers each station: 'Practice makes it automatic!'",
+        "teacher_prompt": "Maya + Tony: 'You've trained the toolkit. Today ratios SCALE all four skills.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Whole group: scale up 4 more ratios. (a) 1:2 with 8 of the first amount → 16. (b) 1:5 with 7 of the first → 35. (c) 1:10 with 12 of the first → 120. (d) 1:2 with 25 of the first → 50.",
+        "teacher_prompt": "Say to students: 'Four more ratios to scale up. Use the table.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "STRATEGY INVENT: Pose 1:2 scaling to 5 cups flour with NO method shown. Ask pairs to figure it out and share. Class discusses additive vs multiplicative. Cite Lamon (2007) additive scaling error.",
+        "teacher_prompt": "Maya: 'Ratios scale by MULTIPLYING — adding the same number breaks the ratio.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: Recipe Ratios — 6 recipe scenarios with 1:2, 1:5, 1:10 ratios; pair scales up. Station B: Money Ratios — 6 money scenarios (toonies, dimes, nickels). Station C: Distance Ratios — 6 distance scenarios (1 km = 1000 metres, etc.).",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 5,
+        "instruction": "Stretch challenge at all stations: include 2 'reverse' problems where you have the SECOND amount and need to find the FIRST. (E.g., 'Maya used 30 cups of milk in a 1:2 recipe. How much flour?')",
+        "teacher_prompt": "Say to pairs: 'Sometimes you go BACKWARDS — divide instead of multiply.'"
+      },
+      {
+        "step_number": 6,
+        "instruction": "Discuss the connection to multiplication and division. Scaling up = multiplication; scaling down = division. The ratio is preserved.",
+        "teacher_prompt": "Use the recipe: 'If 1:2 scales up by 5 to 5:10, then 5:10 scales DOWN by 5 to 1:2. Same ratio.'"
+      },
+      {
+        "step_number": 7,
+        "instruction": "Circulate to record summative-style evidence on the ratio tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'Show me how you scaled up.' Mark the tracker."
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only 1:2 ratios (the most familiar).",
+      "for_extending": "Stretch to other ratios (1:3, 1:4) — discuss whether the rule extends.",
+      "for_ell_or_iep": "Provide picture-supported recipe cards. Use a sentence frame.",
+      "for_movement_learners": "Use real measuring cups for the recipe ratios. Tactile reinforcement. NO-PAPER VERSION: children stand in a line. For 1:2 ratio, 1 child holds 1 cube, 1 holds 2 cubes; for 3:6, 3 children each hold 2 cubes (total 6). Body becomes the ratio."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: scales up 1:2, 1:5, 1:10 by multiplication; uses ratio table correctly; solves real-life problems.",
+      "how_to_record": "Tick the ratio tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Scales up 1:2 correctly",
+        "Scales up 1:5 correctly",
+        "Scales up 1:10 correctly",
+        "Solves real-life ratio problems",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Maya's Closing Ratio Brag",
+    "discussion_prompts": [
+      "What's a ratio?",
+      "How do you scale up a 1:2 ratio?",
+      "Where do you see ratios in real life?",
+      "If you have 30 of the second amount in a 1:5 ratio, how many of the first?"
+    ],
+    "exit_routine": "Maya's ratio chant — 'MULTIPLY both parts — the ratio stays SMART!' (3x). Each child writes one scaling problem with multiplier shown."
+  },
+  "assessment_in_this_lesson": {
+    "type": "summative",
+    "evidence_collected": "Ratio scaling for 1:2, 1:5, 1:10; ratio table completion; real-life problem solving.",
+    "tracker_reference": "summative_rubric (assembled in assessment_suite stage)",
+    "rationale": "Lesson 5 captures B2.9 summative evidence. Combined with prior formatives, the unit covers all 9 expectations B2.1-B2.9."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child scales 1:2 up by 5 by adding (1+5=6, 2+5=7) instead of multiplying — repairing the additive scale-up error",
+    "rationale": "On ratios, the trap is additive-scaling error: child scales 1:2 to '2:3' by adding 1 to each side instead of multiplying. Lamon (2007) on ratio + proportional reasoning identifies the additive shift as the central Grade-3 misconception. Without multiplicative scaling, ratio capstone fails.\n\nToday integrates Lessons 1-4: regrouping (L1), tools (L2), to 10×10 (L3), numerator (L4) into ratio scaling.",
+    "setup": "Pair is at Station A. The card says 'Maya's recipe: 1:2 flour to milk. Scale up to 5 cups of flour.' The child writes 5:7 (added 4 to both parts).",
+    "teacher_script": "Crouch beside the child. 'Tell me how you got 5:7.' The child says 'I added 4 to both — 1+4=5, 2+4= no wait, 2+5=7? Hmm.' They got confused. 'Let me show you the rule.'\n\nUse counters. Place 1 red and 2 yellow. 'Ratio 1:2.' Now place 5 reds. 'How many yellows for the same RATIO?' Lay out: for every 1 red, 2 yellows. So 5 reds → 10 yellows. Place 10 yellows.\n\n'See — 5 reds and 10 yellows is the SAME ratio as 1 red and 2 yellows. We multiplied BOTH by 5.'\n\nWrite on the table:\nFlour | Milk\n1     | 2\n5     | 10\n\n'Maya says — multiply BOTH parts of the ratio by the SAME factor. The ratio stays the same.'\n\nIf the child STILL adds: try a smaller scale. 'Scale 1:2 by 3.' Multiply: 3:6. 'Scale 1:2 by 2.' Multiply: 2:4. 'See the pattern? Multiply, don't add.'\n\nLong-term recovery: daily ratio table fill-ins. The reflex builds.",
+    "expected_student_responses": [
+      "(Confused) Adds the same number to both parts. Most common at start of Lesson 5.",
+      "(Mid) Multiplies with prompts; doesn't yet auto-multiply.",
+      "(Strong) Auto-multiplies: '1:2 scaled by 5 is 5:10'.",
+      "(Stretched) Volunteers reverse: '5:10 scaled DOWN by 5 is 1:2'. Sees scaling as bidirectional."
+    ],
+    "common_misconceptions": [
+      "Same change to both parts = same ratio. (Wrong — multiplication is the right operation.)",
+      "Ratios are like fractions. (True structurally — 1:2 = 1/2 — but children sometimes confuse them. Repair: ratios COMPARE; fractions are PARTS of a whole.)",
+      "Scaling can only go up. (Repair: scale up via multiplication; scale down via division.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child scales 1:2 to 2:3 by addition: drill 'multiply BOTH SIDES by the same number'; physical demo with doubling cubes.",
+      "DIAGNOSTIC B — child uses multiplication but forgets one side: drill 'BOTH parts of the ratio scale together'; visual model.",
+      "DIAGNOSTIC C — child scales correctly but cannot articulate: force the sentence frame '1:2 scaled by ___ becomes ___:___'."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Maya's Ratio Workshop",
+    "purpose": "Summative evidence for B2.9 (scale up ratios 1:2, 1:5, 1:10).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Three ratio tables: 1:2, 1:5, 1:10. Child fills in 5 scaled-up rows for each.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "Six real-life scenarios (recipe, money, distance). Child solves each using the appropriate ratio.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Open prompt: 'Pick a 1:2, 1:5, or 1:10 ratio from real life. Write 3 scaled-up examples.'",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Tony, Maya, and Pixel together in the worksheet header (final unit appearance)",
+      "Three ratio tables for Part 1",
+      "Six scenario boxes for Part 2",
+      "A blank lined area with thinking-bubble icon for Part 3"
+    ]
+  }
+}

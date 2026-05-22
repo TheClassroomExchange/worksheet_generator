@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_likelihood",
+  "lesson_number": 4,
+  "worksheet_title": "Mae's Test Sheet",
+  "purpose": "Independent practice of D2.2 — testing predictions in different groups.",
+  "student_learning_goal": "I can test a prediction in a new group.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can test a prediction in a new group.",
+    "character_watermark": "Maybe Mae the Cat in the top-right corner with a clipboard. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [{"page_number": 1, "parts": [
+    {
+      "part_number": 1,
+      "part_title": "Part 1: Predict for another class.",
+      "student_instructions": "Look at our class data. Predict for ANOTHER class. Then look at the other class data. Was your prediction right?",
+      "visual_layout": "Top: our class data table (Pets — 12 dogs, 6 cats, 2 fish). Middle: a prediction line for the other class. Bottom: another class data (different counts) for comparison.",
+      "image_placeholders": [
+        {
+          "id": "WS04_P1_CLASSES",
+          "description": "A two-class comparison layout for a Grade 1 worksheet, B&W line art. Top: a small data table titled 'Our Class' with rows: dogs (12), cats (6), fish (2). Middle: a prediction line 'I predict for the OTHER class: ___'. Bottom: a second data table titled 'Ms. B's Class' with rows: dogs (8), cats (9), fish (3) for the child to read and compare.",
+          "placement": "Centred horizontally; spans Part 1.",
+          "approximate_size": "full_width",
+          "keywords": ["class", "data", "predict"],
+          "text_image_alignment_check": "Image WS04_P1_CLASSES at Part 1: instructions ask the child to predict for and test against another class. Keywords name the visual elements (class, data) and activity (predict)."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any prediction. Comparison should note: in our class, dogs were greatest. In Ms. B's class, cats were greatest. So a 'dogs' prediction would be wrong; a 'cats' prediction would be right."
+    },
+    {
+      "part_number": 2,
+      "part_title": "Part 2: Test 2 predictions.",
+      "student_instructions": "Predict pet preferences at HOME and at SCHOOL. Then test (ask 2 people each).",
+      "visual_layout": "A 2-column table. Columns: 'HOME' and 'SCHOOL'. Each column has a prediction line and a result line.",
+      "image_placeholders": [
+        {
+          "id": "WS04_P2_TABLE",
+          "description": "A 2-column comparison table for a Grade 1 worksheet, B&W line art. Columns labelled 'HOME' (left) and 'SCHOOL' (right), each ~3in × 3in. Each column has 2 rows: a 'My prediction: ___' line and a 'What I found: ___' line, with generous writing space.",
+          "placement": "Centred horizontally; spans Part 2.",
+          "approximate_size": "full_width",
+          "keywords": ["home", "school", "test"],
+          "text_image_alignment_check": "Image WS04_P2_TABLE at Part 2: instructions ask the child to predict and test in 2 settings. Keywords name the two groups."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any predictions and results. Common: home prediction = 'dog' (predicted from family pets), school prediction = 'dog' or 'cat'. Results vary by household and class."
+    },
+    {
+      "part_number": 3,
+      "part_title": "Part 3: Why are groups different?",
+      "student_instructions": "Write WHY predictions can be different in different groups.",
+      "visual_layout": "A bordered writing box ~5in × 1.8in. Above: 'Predictions can be different because...'.",
+      "image_placeholders": [
+        {
+          "id": "WS04_P3_BOX",
+          "description": "A bordered writing box for a Grade 1 worksheet. ~5in × 1.8in with thin solid border. Empty inside. Above the box, the printed prompt 'Predictions can be different because...'. Faint guide-lines at the bottom for handwriting.",
+          "placement": "Centred horizontally in Part 3.",
+          "approximate_size": "full_width",
+          "keywords": ["different", "groups"],
+          "text_image_alignment_check": "Image WS04_P3_BOX at Part 3: instructions ask the child to explain why groups differ. Keywords name the prompt focus."
+        }
+      ],
+      "student_response_type": "draw_or_write",
+      "answer_key": "Any sensible reason. Common: 'different people like different things', 'each group has different favourites', 'groups can be small or big'."
+    }
+  ]}],
+  "early_finisher_prompt": "If you finish, predict for a 3rd group. Test it.",
+  "teacher_notes": "Lesson 4 consolidation artifact. Use Part 3 as the formative signal — children who articulate 'different groups have different preferences' have grasped D2.2."
+}

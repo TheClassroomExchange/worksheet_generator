@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_coding_little_programmers",
+  "thematic_title": "Little Programmers — Kindergarten Coding",
+  "descriptive_title": "Kindergarten Mathematics: Demonstrations — Foundational Coding (B11.1-B11.3)",
+  "grade": "Kindergarten",
+  "subject": "Mathematics",
+  "strand": "B. Number / Coding",
+  "curriculum_source_url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-mathematics/grades/kindergarten-math",
+  "curriculum_codes": ["B11.1", "B11.2", "B11.3"],
+  "curriculum_expectations": {
+    "B11.1": "use directional and positional language to create and follow instructions involving movement",
+    "B11.2": "test and refine instructions",
+    "B11.3": "communicate and record step-by-step instructions using symbols, words, or pictures"
+  },
+  "duration_days": 5,
+  "unit_overview": "A 5-day Kindergarten unit on foundational coding (B11.1-B11.3) framed around 'Little Programmers' — Bot the Robot Programmer and Buggy the Debug Beetle. Day 1 introduces DIRECTIONAL words (forward, back, left, right). Day 2 adds POSITIONAL words (above, below, beside, between). Day 3 records step-by-step instructions with symbols and pictures. Day 4 TESTS instructions and finds bugs. Day 5 closes with a Big Programmer Capstone integrating all 3 expectations. Each lesson includes an expanded_walkthrough.",
+  "unit_learning_goal": "Children will use directional and positional words, record step-by-step instructions, and test/refine them.",
+  "lesson_arc": [
+    {"lesson_number": 1, "lesson_title": "Move with Bot", "primary_expectations": ["B11.1"], "secondary_expectations": [], "big_idea": "DIRECTIONAL words tell us HOW TO MOVE: forward, back, left, right.", "student_learning_goal": "I can use direction words to move.", "one_line_summary": "Bot moves on a mat; children practice 4 direction words."},
+    {"lesson_number": 2, "lesson_title": "Where is Bot?", "primary_expectations": ["B11.1"], "secondary_expectations": [], "big_idea": "POSITIONAL words tell us WHERE: above, below, beside, between.", "student_learning_goal": "I can use position words.", "one_line_summary": "Bot hides; children describe with position words."},
+    {"lesson_number": 3, "lesson_title": "Code with Pictures", "primary_expectations": ["B11.3"], "secondary_expectations": [], "big_idea": "We RECORD steps with arrows and pictures so anyone can follow.", "student_learning_goal": "I can record steps with pictures.", "one_line_summary": "Bot records routes with arrow cards; children build picture codes."},
+    {"lesson_number": 4, "lesson_title": "Find the Bug", "primary_expectations": ["B11.2"], "secondary_expectations": [], "big_idea": "TEST your code. If wrong, REFINE — find the BUG and fix it!", "student_learning_goal": "I can test and refine my steps.", "one_line_summary": "Buggy points to bugs; children fix 4 broken codes."},
+    {"lesson_number": 5, "lesson_title": "The Big Programmer Capstone", "primary_expectations": ["B11.1", "B11.2", "B11.3"], "secondary_expectations": [], "big_idea": "Programmers MOVE, RECORD, and TEST step by step.", "student_learning_goal": "I can move, record, and test instructions.", "one_line_summary": "Children rotate 4 stations: move, position, record, test."}
+  ],
+  "expectation_lesson_map": {"B11.1": [1, 2, 5], "B11.2": [4, 5], "B11.3": [3, 5]},
+  "recurring_characters": [
+    {"name": "Bot the Robot Programmer", "role": "Lead character. Coding helper. Anchors all 5 lessons.", "visual_description": "A friendly robot with a square body, arrow buttons on chest, and antennae shaped like question marks."},
+    {"name": "Buggy the Debug Beetle", "role": "Bot's partner. Bug-finder. Cameo Lessons 4-5.", "visual_description": "A small beetle with a magnifying glass and a 'BUG' badge."}
+  ],
+  "threaded_vocabulary": [
+    {"term": "forward", "child_friendly_definition": "Move TOWARDS the front."},
+    {"term": "back", "child_friendly_definition": "Move TOWARDS the back."},
+    {"term": "left", "child_friendly_definition": "Move TOWARDS your LEFT hand."},
+    {"term": "right", "child_friendly_definition": "Move TOWARDS your RIGHT hand."},
+    {"term": "above", "child_friendly_definition": "OVER the top of something."},
+    {"term": "below", "child_friendly_definition": "UNDER something."},
+    {"term": "beside", "child_friendly_definition": "NEXT TO something."},
+    {"term": "between", "child_friendly_definition": "IN THE MIDDLE of two things."},
+    {"term": "code", "child_friendly_definition": "Step-by-step instructions, like a recipe."},
+    {"term": "bug", "child_friendly_definition": "A MISTAKE in the code. We FIX bugs!"}
+  ],
+  "manipulatives_index": [
+    {"id": "M1_floor_mat", "name": "Coding Floor Mat", "description": "Letter-size 4x4 grid mat for Bot to move on.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M2_arrow_cards", "name": "Direction Arrow Cards", "description": "20 paper arrow cards (5 forward, 5 back, 5 left, 5 right).", "used_in_lessons": [1, 3, 5], "clipart_files": []},
+    {"id": "M3_position_chart", "name": "Position Words Chart", "description": "Anchor chart with above, below, beside, between icons.", "used_in_lessons": [2, 5], "clipart_files": []},
+    {"id": "M4_object_cards", "name": "Object Cards (Bot Targets)", "description": "12 paper objects to place on the mat (apple, ball, star, heart).", "used_in_lessons": [2, 3, 5], "clipart_files": []},
+    {"id": "M5_code_strips", "name": "Step-by-Step Code Strips", "description": "20 blank paper strips for recording 4-step routes.", "used_in_lessons": [3, 4, 5], "clipart_files": []},
+    {"id": "M6_capstone_template", "name": "Big Programmer Template", "description": "Letter-size capstone with 4 station response areas.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M7_coding_chart", "name": "K Coding Vocabulary Chart", "description": "Anchor chart with 10 K coding words.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []},
+    {"id": "M8_bug_cards", "name": "Bug Detection Cards", "description": "12 broken-code cards for debugging practice.", "used_in_lessons": [4, 5], "clipart_files": []},
+    {"id": "M9_sticker_set", "name": "Programmer Sticker Set", "description": "30 mini stickers (arrows, hearts, stars) for celebrations.", "used_in_lessons": [5], "clipart_files": []},
+    {"id": "M10_unit_poster", "name": "Little Programmers Poster", "description": "Anchor poster of Bot and Buggy with coding tools.", "used_in_lessons": [1, 2, 3, 4, 5], "clipart_files": []}
+  ],
+  "materials_overview": ["Coding Floor Mat (per pair)", "Arrow Cards (20)", "Position Words Chart", "Object Cards (12)", "Code Strips (20)", "Big Programmer Template (per child)", "Coding Vocabulary Chart", "Bug Cards (12)", "Sticker Set (30)", "Unit Poster"],
+  "assessment_strategy": {"diagnostic": "Lesson 1 direction snapshot.", "formative": "Lesson 2 position tracker; Lesson 3 record tracker; Lesson 4 test tracker.", "summative": "Lesson 5 Big Programmer capstone."},
+  "pedagogical_notes": [
+    "Kindergarten coding is hands-on and physical — body movement first, paper second.",
+    "Directional and positional words OVERLAP — both are about WHERE.",
+    "Recording with arrows + pictures bridges to symbolic coding.",
+    "TEST + REFINE introduces debugging — celebrate finding bugs!",
+    "Use whole-body learning: walk the route before drawing it."
+  ],
+  "canadian_context_notes": [
+    "Bot navigates a Canadian neighbourhood map.",
+    "Bug Cards include hockey puck targets.",
+    "Floor mat themes: Tim Hortons, library, park.",
+    "Object cards: maple leaf, beaver, hockey stick."
+  ]
+}

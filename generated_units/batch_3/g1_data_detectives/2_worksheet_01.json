@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_data_detectives",
+  "lesson_number": 1,
+  "worksheet_title": "Detective Dot's First Case",
+  "purpose": "Independent practice of D1.1 — sorting by one rule. Used as Lesson 1 consolidation artifact and as evidence for the diagnostic checklist.",
+  "student_learning_goal": "I can sort things by one rule and say what the rule is.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can sort things by one rule and say what the rule is.",
+    "character_watermark": "Detective Dot the Sorting Squirrel in the top-right corner of the header, holding a magnifying glass. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Sort by COLOUR.",
+          "student_instructions": "Look at the pile. Sort by COLOUR. Draw each object in the right pile.",
+          "visual_layout": "Top of the page shows a 'pile' of 8 objects scattered (4 red + 4 blue mix of shapes). Below the pile, two empty bordered boxes labelled 'RED PILE' and 'BLUE PILE' for the child to draw or place each object.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_PILE",
+              "description": "A scatter pile of 8 mixed objects in B&W line art for a Grade 1 worksheet. Objects: 2 red squares, 2 red circles, 2 blue squares, 2 blue circles. Each object ~1in across, scattered loosely in a ~5in × 2in pile area at the top. Below the pile, two empty bordered boxes side by side labelled 'RED PILE' and 'BLUE PILE', each ~3in × 2in, for sorting.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": ["pile", "red", "blue", "colour"],
+              "text_image_alignment_check": "Image WS01_P1_PILE at Part 1: instructions ask the child to sort by colour. Keywords name the visual (pile), the two colours (red, blue), and the sorting rule (colour)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "RED PILE: 4 red objects (2 squares + 2 circles). BLUE PILE: 4 blue objects (2 squares + 2 circles)."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Same pile, NEW rule. Sort by SHAPE.",
+          "student_instructions": "Same pile as Part 1. Now sort by SHAPE. Draw the squares and circles in the right pile.",
+          "visual_layout": "Two empty bordered boxes labelled 'SQUARES' and 'CIRCLES'. The child re-sorts the same 8 objects by shape this time.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_BOXES",
+              "description": "Two empty bordered boxes side by side for a Grade 1 worksheet. Each box ~3in × 2in with thin solid border. Labels above: 'SQUARES' (left) and 'CIRCLES' (right). Designed for the child to re-sort the same Part 1 pile by shape rule.",
+              "placement": "Centred horizontally in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": ["squares", "circles", "shape"],
+              "text_image_alignment_check": "Image WS01_P2_BOXES at Part 2: instructions ask the child to sort by shape. Keywords name the two shapes (squares, circles) and the sorting rule (shape)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "SQUARES: 4 squares (2 red + 2 blue). CIRCLES: 4 circles (2 red + 2 blue)."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Pick your OWN rule.",
+          "student_instructions": "Pick a rule. Sort 6 objects from your classroom. Draw and write your RULE.",
+          "visual_layout": "A blank rectangle (~5in × 3in) for drawing the sorted piles. Above the rectangle, a label line: 'My RULE is: ___'.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_FRAME",
+              "description": "A blank workspace rectangle ~5in × 3in for a Grade 1 worksheet, with thin solid border. Above the rectangle, a labelled line reading 'My RULE is: ___'. Designed for the child to write their rule and then draw their sorted piles inside the box.",
+              "placement": "Centred horizontally in Part 3.",
+              "approximate_size": "medium",
+              "keywords": ["rule", "sort"],
+              "text_image_alignment_check": "Image WS01_P3_FRAME at Part 3: instructions ask the child to pick their own rule and sort. Keywords name the activity (rule, sort)."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any valid rule and sorted piles. Common: rule = colour (sorts crayons), rule = laces (sorts shoes), rule = animal (sorts toys). Accept any sort that consistently follows the named rule."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, sort the SAME 6 objects by a DIFFERENT rule. What changes?",
+  "teacher_notes": "Lesson 1 consolidation artifact. Hand out at the end of the Action phase. Most children should complete Parts 1 and 2 with one prompt. For Part 3, accept any rule that the child can articulate. Use Part 1 + 2 as the primary diagnostic signal — children who succeed at re-sorting the same pile by a NEW rule have grasped the 'rule decides' concept."
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_real_life_modelling",
+  "pair_number": 3,
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 4,
+    "clarity_voice": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3,
+    "lesson_worksheet_consistency": 4
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title is 'When the child predicts the same number for any time span — repairing the time-doesn't-multiply trap at Grade 2' and rationale describes the trap concretely, but the walkthrough never cites or aligns with named research. recovery_moves are good ('Always show the formula: rule x time = prediction', 'Use repeated addition as a bridge', 'Practice with multiple time spans') but they don't BRANCH by what the diagnostic told you about the child — they're a single linear sequence.",
+      "required_fix": "Cite a specific research anchor for the time-doesn't-multiply / rate misconception (e.g., Carpenter & Moser CGI 'multiplicative compare' or 'measurement-rate' problem types, or Thompson & Saldanha on rate reasoning) by name in the rationale. Then split recovery_moves into branches keyed to the diagnostic: (a) if the child re-states the rule unchanged, build skip-counting on the number line first; (b) if the child adds but loses count, give the explicit 'Day 1: ___, Day 2: ___, Total: ___' chart; (c) if the child multiplies one span correctly but freezes on a longer one, scaffold doubling (5 days = 25, so 10 days = 25 + 25).",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale frames the trap conceptually ('PREDICTION = RULE x TIME', 'rule per unit x number of units = prediction') and the lesson does let children invent rules at Station C and stretch with 2-rule predictions, but the misconception is not named in research-grounded terms. common_misconceptions list ('Time doesn't matter', 'Repeated addition is wrong', 'I just say the rule') reads as classroom-observed rather than research-anchored — no reference to Carpenter & Moser CGI problem types, Thompson & Saldanha on rate, or Lamon on proportional reasoning.",
+      "required_fix": "In expanded_walkthrough.rationale, explicitly name the misconception in research terms — e.g., 'This is the rate-as-state confusion (Thompson & Saldanha, 2003): the child treats 5 buses/day as a static count rather than an iterable rate.' Add one sentence comparing strategies in step 4 of action — e.g., 'Some pairs will skip-count by 5s on the number line; others will write 5+5+5+5+5; a few will jump to 5x5. Lift up all three and name them as different paths to the same prediction so children see strategy choice as legitimate.'",
+      "affected_stages": ["lesson_03"],
+      "affected_pairs": [3],
+      "severity": "blocking"
+    }
+  ]
+}

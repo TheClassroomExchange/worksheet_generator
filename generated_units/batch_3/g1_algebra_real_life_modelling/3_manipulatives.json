@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "unit_id": "g1_algebra_real_life_modelling",
+  "overall_prep_notes": "Total prep ~1.5 hours. The two character puppets (Maple, Sap Sam) print on cardstock. Card decks (M7) are laminated. The modelling cycle chart (M3) and sugar bush poster (M10) are the visual centerpieces.",
+  "assets": [
+    {
+      "asset_id": "M1_paper_trees",
+      "name": "Paper Maple Trees",
+      "category": "manipulative",
+      "purpose": "20 paper tree tokens for the sugar bush counting and modelling.",
+      "page_layout": "2 letter pages, portrait. 10 trees per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M1_TREE_TOKEN",
+          "description": "A paper maple tree token in B&W line-art, ~2in x 2.5in. Trunk plus 5-point maple leaf canopy with a tap on the side. 20 tokens across 2 pages with cut lines.",
+          "placement": "10 tokens per page in a 2x5 grid.",
+          "approximate_size": "small",
+          "keywords": [
+            "paper",
+            "tree"
+          ],
+          "text_image_alignment_check": "Image M1_TREE_TOKEN: keywords (paper, tree) name what the tokens show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 20 tokens.",
+        "Sort into pair sets.",
+        "Distribute Lessons 1-3."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "20 trees (~2 per pair).",
+      "used_in_lessons": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "asset_id": "M2_sap_buckets",
+      "name": "Paper Sap Buckets",
+      "category": "manipulative",
+      "purpose": "20 paper bucket tokens for collecting sap and matching trees.",
+      "page_layout": "2 letter pages, portrait. 10 buckets per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M2_BUCKET_TOKEN",
+          "description": "A paper sap bucket token in B&W line-art, ~1.5in x 2in. Bucket with handle and sap drips. 20 tokens across 2 pages with cut lines.",
+          "placement": "10 tokens per page in a 2x5 grid.",
+          "approximate_size": "small",
+          "keywords": [
+            "sap",
+            "bucket"
+          ],
+          "text_image_alignment_check": "Image M2_BUCKET_TOKEN: keywords (sap, bucket) name what the tokens show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 20 tokens.",
+        "Sort into pair sets.",
+        "Distribute Lessons 2-4."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "20 buckets (~2 per pair).",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M3_modelling_chart",
+      "name": "Modelling Cycle Chart",
+      "category": "manipulative",
+      "purpose": "Letter-size chart showing the 5 modelling steps with looping arrows.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M3_CYCLE_CHART",
+          "description": "A modelling cycle chart in B&W on a landscape letter page. 5 boxes arranged in a circle with arrows: SITUATION, QUESTION, DATA, PREDICT, REFLECT. Arrows loop back from REFLECT to SITUATION. Header 'The Modelling Cycle'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "modelling",
+            "cycle"
+          ],
+          "text_image_alignment_check": "Image M3_CYCLE_CHART: keywords (modelling, cycle) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 chart per pair.",
+        "Laminate.",
+        "Hand out Lesson 1.",
+        "Use as reference all week.",
+        "Reuse."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair plus 1 anchor.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "M4_data_table",
+      "name": "Data Collection Table",
+      "category": "manipulative",
+      "purpose": "Letter-size table for recording counts and measurements.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M4_DATA_TABLE",
+          "description": "A data collection table in B&W on a portrait letter page. Two columns: ITEM (left) and COUNT (right). 8 blank rows. Header 'My Data Table'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "data",
+            "table"
+          ],
+          "text_image_alignment_check": "Image M4_DATA_TABLE: keywords (data, table) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 table per pair.",
+        "Laminate.",
+        "Hand out Lesson 2.",
+        "Use dry-erase.",
+        "Reuse Lessons 3-4."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M5_prediction_chart",
+      "name": "Prediction Chart",
+      "category": "manipulative",
+      "purpose": "Letter-size chart with PREDICT and ACTUAL columns plus a GAP column.",
+      "page_layout": "Single letter page, landscape.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "landscape",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M5_PREDICT_CHART",
+          "description": "A prediction chart in B&W on a landscape letter page. Three columns: PREDICT (left), ACTUAL (middle), GAP (right). 6 blank rows. Header 'Predict and Reflect'.",
+          "placement": "Centred.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "predict",
+            "chart"
+          ],
+          "text_image_alignment_check": "Image M5_PREDICT_CHART: keywords (predict, chart) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 chart per pair.",
+        "Laminate.",
+        "Hand out Lesson 3.",
+        "Use dry-erase.",
+        "Reuse Lesson 4."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per pair.",
+      "used_in_lessons": [
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M6_capstone_template",
+      "name": "Capstone Modelling Template",
+      "category": "manipulative",
+      "purpose": "Letter-size template for Lesson 5 capstone modelling project.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M6_CAPSTONE_TEMPLATE",
+          "description": "A capstone template in B&W on a portrait letter page. 5 sections labelled: SITUATION, QUESTION, DATA, PREDICT, REFLECT. Each section has 2-3 lines or a small box for drawing.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "capstone",
+            "template"
+          ],
+          "text_image_alignment_check": "Image M6_CAPSTONE_TEMPLATE: keywords (capstone, template) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out Lesson 5.",
+        "Children fill in.",
+        "Collect for assessment.",
+        "Display gallery."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M7_situation_cards",
+      "name": "Real-Life Situation Cards",
+      "category": "manipulative",
+      "purpose": "12 cards with everyday situations to model. Used as starters and stretch prompts.",
+      "page_layout": "2 letter pages, portrait. 6 cards per page.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 2,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M7_SITUATION_CARD",
+          "description": "A situation card in B&W line-art, ~3in x 4in. Each shows a small picture and 1-line situation: snack box, recess, library books, brushing teeth, school bus, lunch tray, classroom counts, shoes paired, water bottle fills, pet feeding, weather, family meals. 12 cards across 2 pages with cut lines.",
+          "placement": "12 cards across 2 pages.",
+          "approximate_size": "small",
+          "keywords": [
+            "situation",
+            "card"
+          ],
+          "text_image_alignment_check": "Image M7_SITUATION_CARD: keywords (situation, card) name what the cards show."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 2 pages on cardstock.",
+        "Laminate.",
+        "Cut into 12 cards.",
+        "Sort by topic.",
+        "Distribute Lessons 1 and 5."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "12 cards.",
+      "used_in_lessons": [
+        1,
+        5
+      ]
+    },
+    {
+      "asset_id": "M8_two_colour_counters",
+      "name": "Two-Colour Counters",
+      "category": "manipulative",
+      "purpose": "20 counters per pair for modelling sap collection and tree matching.",
+      "page_layout": "Single letter page, portrait. 20 counter circles.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M8_COUNTER_SHEET",
+          "description": "A counter sheet in B&W line-art, ~7in x 9in. 20 circles arranged in 4 rows of 5. Each circle has a thin border and a centre dot. Cut lines around each circle.",
+          "placement": "Centred grid.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "counter",
+            "sheet"
+          ],
+          "text_image_alignment_check": "Image M8_COUNTER_SHEET: keywords (counter, sheet) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 sheet per pair on cardstock.",
+        "Laminate.",
+        "Cut into 20 counters.",
+        "Sort into pair bags.",
+        "Distribute Lessons 2-4."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "20 per pair = 200 for class of 20.",
+      "used_in_lessons": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "asset_id": "M9_syrup_jar_template",
+      "name": "Syrup Jar Template",
+      "category": "manipulative",
+      "purpose": "Printable jar template for the Lesson 5 certificate ceremony.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": false
+      },
+      "image_placeholders": [
+        {
+          "id": "M9_SYRUP_JAR",
+          "description": "A syrup jar template in B&W on a portrait letter page. Large jar outline with label area in the middle for child name and project title. Decorative maple leaf border.",
+          "placement": "Centred.",
+          "approximate_size": "large",
+          "keywords": [
+            "syrup",
+            "jar"
+          ],
+          "text_image_alignment_check": "Image M9_SYRUP_JAR: keywords (syrup, jar) name what the page shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 per child.",
+        "Hand out at certificate ceremony.",
+        "Children write name and project.",
+        "Display.",
+        "Send home."
+      ],
+      "estimated_prep_minutes": 8,
+      "quantity_per_class": "1 per child.",
+      "used_in_lessons": [
+        5
+      ]
+    },
+    {
+      "asset_id": "M10_sugar_bush_poster",
+      "name": "Sugar Bush Anchor Poster",
+      "category": "manipulative",
+      "purpose": "Large classroom anchor showing Maple and Sap Sam at the sugar bush with the modelling cycle.",
+      "page_layout": "1 large-format page (4 letter pages tiled).",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 4,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "M10_BUSH_POSTER",
+          "description": "Sugar bush anchor poster in B&W, ~17in x 22in. Centre: Maple (maple tree character) and Sap Sam (collector) at the bush with taps, buckets, snow. Around the edges: 5 modelling cycle boxes (situation, question, data, predict, reflect) with arrows.",
+          "placement": "Centre.",
+          "approximate_size": "full_width",
+          "keywords": [
+            "sugar",
+            "bush"
+          ],
+          "text_image_alignment_check": "Image M10_BUSH_POSTER: keywords (sugar, bush) name what the poster shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 4 pages and tile.",
+        "Laminate.",
+        "Tape to wall Day 1.",
+        "Reference all week.",
+        "Roll for re-use."
+      ],
+      "estimated_prep_minutes": 18,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_maple_puppet",
+      "name": "Maple Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Maple illustration on a popsicle stick for storytelling.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_MAPLE_FRONT",
+          "description": "Maple the Maple Tree illustration in B&W: a friendly maple tree character with a smiling face on the trunk, vibrant maple leaf canopy, sugar tap on the side, syrup bucket below. Cheerful expression. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "maple"
+          ],
+          "text_image_alignment_check": "Image CHAR_MAPLE_FRONT: keywords (maple) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "asset_id": "char_sap_sam_puppet",
+      "name": "Sap Sam Puppet",
+      "category": "character_puppet",
+      "purpose": "Printable Sap Sam illustration on a popsicle stick for storytelling.",
+      "page_layout": "Single letter page, portrait.",
+      "print_specifications": {
+        "page_size": "letter",
+        "orientation": "portrait",
+        "color": "bw",
+        "pages_per_set": 1,
+        "laminate_recommended": true
+      },
+      "image_placeholders": [
+        {
+          "id": "CHAR_SAP_SAM_FRONT",
+          "description": "Sap Sam the Collector illustration in B&W: a young person in a plaid coat and toque, carrying a sap bucket and a wooden tap. Friendly Canadian smile. ~6in tall with attachment tab.",
+          "placement": "Centred with tab below.",
+          "approximate_size": "large",
+          "keywords": [
+            "sam"
+          ],
+          "text_image_alignment_check": "Image CHAR_SAP_SAM_FRONT: keywords (sam) name what the figure shows."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print on cardstock.",
+        "Cut.",
+        "Glue popsicle stick.",
+        "Optional: laminate.",
+        "Store flat."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [
+        2,
+        3,
+        5
+      ]
+    }
+  ]
+}

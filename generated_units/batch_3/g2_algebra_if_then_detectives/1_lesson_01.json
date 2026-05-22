@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_algebra_if_then_detectives",
+  "lesson_number": 1,
+  "lesson_title": "What's an IF-THEN?",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "C3.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "An IF-THEN statement says: IF a condition is true, THEN do an action.",
+  "learning_intention": "We are learning to read an IF-THEN statement and explain what it means.",
+  "student_learning_goal": "I can read an IF-THEN statement and explain what it means.",
+  "success_criteria": [
+    "I can identify the IF (condition) and the THEN (action) in a statement.",
+    "I can decide if a condition is TRUE or FALSE for a given case.",
+    "I can write my own IF-THEN statement."
+  ],
+  "vocabulary_introduced": [
+    "condition",
+    "action",
+    "IF-THEN",
+    "true",
+    "false"
+  ],
+  "vocabulary_reinforced": [],
+  "manipulatives_used": [
+    "M1_if_then_cards",
+    "M2_condition_cards",
+    "M3_action_cards",
+    "M7_sorting_mat",
+    "M9_truth_chart",
+    "M10_if_then_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Inspector If and Then the Action Dog — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'IF-THEN Code'",
+    "IF-THEN Statement Cards (24)",
+    "Per-pair IF-THEN sorting mat",
+    "TRUE/FALSE anchor chart",
+    "Lesson 1 IF-THEN tracker — provided in assessment_suite stage"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Inspector If's First Case",
+    "hook": "Inspector If says: IF it rains, THEN take an umbrella. What does that mean? Inspector If opens: 'CHECK the IF — THEN do the THEN!' (Class echoes.)",
+    "teacher_script": "Bring children to the carpet. Inspector If + Then the Action Dog puppets. 'Friends — Inspector If is a Conditional Cat. She lives by IF-THEN rules. Listen to her first rule.'\n\nIf whispers: 'IF it rains, THEN take an umbrella.'\n\nWrite on the chart: IF it rains, THEN take an umbrella.\n\n'See those two parts? IF and THEN. The IF part is the CONDITION — something that might be true or false. The THEN part is the ACTION — what we DO when the condition is true.'\n\nIntroduce vocabulary. Write CONDITION and ACTION on the chart. 'A condition can be TRUE or FALSE. If it IS raining, the condition is TRUE → we DO the action (take umbrella). If it's NOT raining, the condition is FALSE → we DON'T do the action.'\n\nMore examples:\nIF it is sunny, THEN wear a hat.\nIF the Leafs win, THEN cheer.\nIF the number is even, THEN clap.\nIF the count is more than 10, THEN say BIG.\n\n'Inspector If reads each rule. Then the Action Dog DOES the action when the condition is true.'\n\nNow a check. Show 'IF the number is even, THEN clap.' Read input: '4'. 'Is 4 even? YES — so condition is TRUE. We clap.' All clap. Read '7'. 'Is 7 even? NO — condition is FALSE. We don't clap.' Silence.\n\n'Today we read IF-THEN statements and decide TRUE or FALSE for each case.'",
+    "student_actions": [
+      "Listen to Inspector If's IF-THEN rules.",
+      "Echo new vocabulary: 'condition', 'action', 'IF-THEN'.",
+      "Decide TRUE or FALSE for sample inputs.",
+      "Predict the action that runs."
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "IF-THEN Sorting Stations",
+    "structure": "whole_group_then_centres",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Whole group: read 4 IF-THEN statements together. Identify condition and action in each. (a) IF it is sunny, THEN wear a hat. (b) IF the number is even, THEN clap. (c) IF the count is 5, THEN raise hand. (d) IF the score is more than 10, THEN say HIGH.",
+        "teacher_prompt": "Say to students: 'Find the IF and the THEN. Point to each part. Decide if the condition is TRUE or FALSE for the example.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Send pairs to three stations (~7 min each). Station A: IF-THEN Sort — pair sorts 12 statements into 'condition + action' (find which is which). Station B: TRUE/FALSE Sort — pair reads 12 IF-THEN statements with sample inputs and decides TRUE or FALSE. Station C: Make Your Own — pair writes 4 of their own IF-THEN statements.",
+        "teacher_prompt": "Say to students: 'Three stations, 7 minutes each.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch challenge at Station C: write an IF-THEN with a math condition (e.g., 'IF the number is greater than 5, THEN add 1').",
+        "teacher_prompt": "Say to extending pairs: 'Pick a math condition. Add a math action.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Discuss the big idea. 'IF-THEN code is everywhere. Computer code, real life, math. The condition is the QUESTION. The action is the RESPONSE.'",
+        "teacher_prompt": "Use the puppets to demonstrate: Inspector If reads condition; Then the Action Dog acts."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative evidence on the IF-THEN tracker.",
+        "teacher_prompt": "Stop at each pair. Ask 'What's the condition? What's the action?' Mark the tracker."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: Two children share their invented IF-THENs — one with a math condition (IF >5 THEN clap) and one with a real-life condition (IF wearing red THEN stand). Class traces both with the SAME input. Discuss: do both gates work the same way? Cite Bers (2018) computational thinking — the IF-THEN structure is condition-agnostic.",
+        "teacher_prompt": "Inspector If: 'Math conditions, real-life conditions — same gate. The IF decides; the THEN follows.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Stay at Station A. Use only everyday IF-THENs (rain/umbrella). Match condition to action.",
+      "for_extending": "Stretch at Station C: write IF-THEN with TWO conditions joined by AND.",
+      "for_ell_or_iep": "Provide a structured frame: 'IF ___, THEN ___.'",
+      "for_movement_learners": "Act out the actions. Teacher reads conditions; class acts when TRUE."
+    },
+    "formative_check": {
+      "what_to_look_for": "Three signals: identifies IF/THEN parts; decides TRUE/FALSE for inputs; writes their own IF-THEN.",
+      "how_to_record": "Tick the IF-THEN tracker per child.",
+      "tracker_columns": [
+        "Student name",
+        "Identifies IF and THEN",
+        "Decides TRUE or FALSE",
+        "Writes own IF-THEN",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Inspector If's IF-THEN Brag",
+    "discussion_prompts": [
+      "What is the IF part called?",
+      "What does TRUE mean? What does FALSE mean?",
+      "Can you give an IF-THEN example from your life?",
+      "What happens if the condition is FALSE?",
+      "Inspector If's preview: tomorrow Then the Action Dog helps us WRITE our own IF-THEN code (Lesson 2 — C3.1). What IF condition from today might you turn into your own code tomorrow?"
+    ],
+    "exit_routine": "Inspector If's refrain — class chants 3x: 'CHECK the IF — THEN do the THEN!' Each child writes ONE IF-THEN they used today on a sticky."
+  },
+  "assessment_in_this_lesson": {
+    "type": "diagnostic",
+    "evidence_collected": "IF-THEN identification accuracy and TRUE/FALSE decisions.",
+    "tracker_reference": "diagnostic_tracker (assembled in assessment_suite stage)",
+    "rationale": "Lesson 1 surfaces children who already grasp IF-THEN versus those who confuse condition with action. Diagnostic information for the rest of the unit."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child says the action runs every time, regardless of condition — repairing the always-true trap",
+    "rationale": "Grade-2 children encountering IF-THEN logic for the first time frequently apply both branches as if both were true (the 'always-true' misconception). Bers (2018, 'Coding as a Playground') and Kazakoff & Bers ScratchJr studies place conditional reasoning at the gateway of computational thinking — without IF-THEN gating, later loops, alterations, and project work cannot ground.\n\nToday we name the IF-THEN structure and trace simple inputs. Tomorrow Then the Action Dog helps us WRITE our own IF-THENs (Lesson 2 — C3.1). Lesson 3 reads more complex traces; Lesson 4 alters; Lesson 5 capstones the full project.",
+    "setup": "Pair is at Station B. Card: 'IF the number is even, THEN clap'. Teacher reads input: 7. Child claps.",
+    "teacher_script": "Crouch beside the child. 'Hold on. The input is 7. Let's CHECK the condition first. Is 7 even?' Pause. The child thinks. 'No — 7 is odd.' 'Right. The condition is FALSE. So the action does NOT run. We DON'T clap for 7.'\n\nGeneralise. 'Inspector If always CHECKS the condition first. TRUE — run the action. FALSE — skip it. The action only runs when the condition is true.'\n\nNow another. Read 'IF the number is even, THEN clap. Input: 4.' The child checks. 'Even? Yes.' 'TRUE — clap.' Clap. 'Input: 5.' 'Even? No.' 'FALSE — silent.' Silent.\n\nIf the child STILL claps for everything: provide a sentence frame. 'Step 1: Check condition. Step 2: TRUE → clap. FALSE → silent.' Drill the 2-step routine.\n\nLong-term recovery: every IF-THEN reading task starts with 'check the condition first'. Build the gate-the-action reflex.",
+    "expected_student_responses": [
+      "(Confused) Runs the action every time, regardless of condition.",
+      "(Mid) Checks condition with prompts; runs action only when TRUE.",
+      "(Strong) Always checks condition first; runs action only when TRUE.",
+      "(Stretched) Explains the gating behaviour; predicts which inputs trigger the action."
+    ],
+    "common_misconceptions": [
+      "The action always runs. (Repair: action runs ONLY when condition is TRUE.)",
+      "TRUE and FALSE are answers. (Repair: TRUE/FALSE describe the condition, not the answer.)",
+      "I don't need to check the condition. (Repair: every IF-THEN starts with checking the condition.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child names TRUE/FALSE but still acts on both: drill the gate — Inspector If asks 'CHECK the IF first. TRUE? Do the THEN. FALSE? Stop.' Child re-traces with the gate explicit.",
+      "DIAGNOSTIC B — child cannot decide TRUE/FALSE: drop to a two-input check ('IF input is a NUMBER, THEN add 1') with the input visibly numeric vs visibly a letter; child decides TRUE/FALSE before any action.",
+      "DIAGNOSTIC C — child applies THEN even when IF is false: physical demo with a STOP sign — Inspector If holds STOP up when IF is false; child must NOT touch the THEN action."
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Inspector If's Cases",
+    "purpose": "Independent practice of C3.1 (read IF-THEN statements).",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Underline the IF (condition) and circle the THEN (action) in 6 statements.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 2,
+        "task": "For 4 IF-THEN statements with sample inputs, decide TRUE or FALSE.",
+        "response_type": "write"
+      },
+      {
+        "part_number": 3,
+        "task": "Write 3 of your own IF-THEN statements.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Inspector If in the worksheet header",
+      "6 statements for Part 1",
+      "4 statements with TRUE/FALSE bubbles for Part 2",
+      "3 blank IF-THEN slots for Part 3"
+    ]
+  }
+}

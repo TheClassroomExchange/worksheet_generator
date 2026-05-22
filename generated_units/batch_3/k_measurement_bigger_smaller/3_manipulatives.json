@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_measurement_bigger_smaller",
+  "assets": [
+    {
+      "asset_id": "M1_length_strips",
+      "name": "Length Comparison Strips",
+      "category": "manipulative",
+      "purpose": "A set of 24 paper strips of varied lengths used by pairs to sort, compare, and order by length. Foundational for Lessons 1, 4, and 5.",
+      "page_layout": "Two letter pages, portrait orientation. Each page holds 12 strips in a vertical stack. Strip lengths range from 1in to 8in in 0.5in increments. Each strip is ~0.4in tall with thin solid cut-lines.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 2, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M1_STRIPS",
+          "description": "Two letter portrait pages of paper length strips for a Kindergarten manipulative, B&W line art. Each page holds 12 strips stacked vertically with varied lengths from 1in to 8in. All strips are aligned at the left edge of each page so cutting produces strips ready to be lined up. Thin solid cut-lines. Each strip is ~0.4in tall.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": ["strips", "length"],
+          "text_image_alignment_check": "Image M1_STRIPS: instructions describe a 24-strip set used for length comparison in lessons 1, 4, 5. Keywords name the visual elements (strips) and primary attribute (length)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets total (1 set per pair). Each set is 2 pages = 24 strips.",
+        "Laminate before cutting for repeated use.",
+        "Cut along the horizontal solid lines into 24 individual strips per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "10 sets (1 per pair).",
+      "used_in_lessons": [1, 4, 5]
+    },
+    {
+      "asset_id": "M2_paper_balance",
+      "name": "Paper Balance Mat",
+      "category": "manipulative",
+      "purpose": "A letter-size mat showing a balance with two pans for visualizing mass comparison. Used by pairs to record balance results in Lessons 2 and 5.",
+      "page_layout": "One letter page, landscape orientation. Centred on the page is a large balance illustration: triangular fulcrum in the middle, two horizontal pans (left and right) connected by a beam. Each pan is a wide rectangle (~3in × 1in) where the child places small objects or icons. Below the balance, two label boxes 'LEFT PAN' and 'RIGHT PAN' for recording.",
+      "print_specifications": {"page_size": "letter", "orientation": "landscape", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M2_BALANCE",
+          "description": "A landscape paper balance mat for a Kindergarten manipulative, B&W line art. Centred on the page: a triangular fulcrum (~2in tall) supports a horizontal beam (~6in long). Two rectangular pans hang from the beam ends — left pan and right pan, each ~3in × 1in. Below the balance, two label boxes 'LEFT PAN' and 'RIGHT PAN' for recording what was placed there. Thin solid borders.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["balance", "pans"],
+          "text_image_alignment_check": "Image M2_BALANCE: instructions describe a balance mat used for mass comparison in lessons 2 and 5. Keywords name the visual artifact (balance) and its key components (pans)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 12 mats (1 per pair plus 2 extras). Single page each.",
+        "Laminate every mat for dry-erase use.",
+        "Distribute one mat per pair; keep extras at the teacher table."
+      ],
+      "estimated_prep_minutes": 15,
+      "quantity_per_class": "10-12 mats.",
+      "used_in_lessons": [2, 5]
+    },
+    {
+      "asset_id": "M3_object_set",
+      "name": "Comparison Object Cards",
+      "category": "manipulative",
+      "purpose": "A set of 24 paper object tokens (heavy/light, big/small) for sorting activities across length, mass, and capacity comparisons.",
+      "page_layout": "Two letter pages, portrait orientation. Each page holds 12 object tokens in a 3x4 grid. Objects: book, pencil, brick, feather, eraser, scissors, balloon, cube, apple, marble, basketball, paperclip — each chosen to provide clear contrasts.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 2, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M3_OBJECTS",
+          "description": "Two letter portrait pages of comparison object tokens for a Kindergarten manipulative, B&W line art. Each page holds 12 tokens in a 3x4 grid. Tokens depict contrasting everyday objects: book, pencil, brick, feather, eraser, scissors, balloon, cube, apple, marble, basketball, paperclip. Each token ~1.5in across with thin solid cut-lines. Cartoon style with bold outlines.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": ["objects", "tokens"],
+          "text_image_alignment_check": "Image M3_OBJECTS: instructions describe a 24-token comparison set used in lessons 1, 2, 3, 5. Keywords name the visual elements (objects) and form (tokens)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Each set is 2 pages = 24 tokens.",
+        "Laminate before cutting.",
+        "Cut along the grid lines into 24 individual tokens per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 25,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [1, 2, 3, 5]
+    },
+    {
+      "asset_id": "M4_cup_cards",
+      "name": "Capacity Cup Cards",
+      "category": "manipulative",
+      "purpose": "A set of 12 paper cup cards in 3 sizes (small, medium, large) for capacity sorting activities. Used in Lessons 3 and 5.",
+      "page_layout": "One letter page, portrait orientation. 12 cups in a 3x4 grid: 4 small (~0.8in tall), 4 medium (~1.5in tall), 4 large (~2in tall). Each cup ~1.5in wide with thin solid cut-lines.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M4_CUPS",
+          "description": "A 3x4 grid of 12 cup cards for a Kindergarten manipulative, B&W line art. Cups vary in size: top row = 4 small cups (~0.8in tall), middle row = 4 medium cups (~1.5in tall), bottom row = 4 large cups (~2in tall). Each cup is ~1.5in wide with thin solid cut-lines. Standard mug-shape outlines.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["cups", "capacity"],
+          "text_image_alignment_check": "Image M4_CUPS: instructions describe a 12-cup capacity set used in lessons 3 and 5. Keywords name the visual elements (cups) and primary attribute (capacity)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Single page each.",
+        "Laminate before cutting.",
+        "Cut along the grid lines into 12 individual cups per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [3, 5]
+    },
+    {
+      "asset_id": "M5_linking_cubes",
+      "name": "Paper Linking Cubes",
+      "category": "manipulative",
+      "purpose": "A set of 60 paper cubes that link to measure length in non-standard units. Foundational for Lesson 4 and used in Lesson 5.",
+      "page_layout": "Two letter pages, portrait orientation. Each page holds 30 cubes in a 5x6 grid. Each cube is a ~1in × 1in square with a small connecting tab on one side (so the child can slide cubes together to measure).",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 2, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M5_CUBES",
+          "description": "Two letter portrait pages of paper linking cubes for a Kindergarten manipulative, B&W line art. Each page holds 30 cubes in a 5x6 grid. Each cube is ~1in × 1in square with thin solid cut-lines and a small connecting tab on one side suggesting linking. Standard B&W outline suitable for printing on cardstock.",
+          "placement": "Spans both pages.",
+          "approximate_size": "full_width",
+          "keywords": ["cubes", "linking"],
+          "text_image_alignment_check": "Image M5_CUBES: instructions describe a 60-cube measurement set for lessons 4 and 5. Keywords name the visual elements (cubes) and their function (linking)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Each set is 2 pages = 60 cubes.",
+        "Laminate before cutting for durability.",
+        "Cut along the grid lines into 60 individual cubes per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 30,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [4, 5]
+    },
+    {
+      "asset_id": "M6_carnival_template",
+      "name": "Carnival Capstone Template",
+      "category": "manipulative",
+      "purpose": "A letter-size template for the Lesson 5 Measurement Carnival capstone with 3 station response areas (length, mass, capacity).",
+      "page_layout": "One letter page, portrait orientation. Three sections stacked vertically, each ~3in tall. Section 1: LENGTH carnival — strip ordering and cube measure. Section 2: MASS carnival — balance H/L/S labels. Section 3: CAPACITY carnival — cup pair circling. Each section has a small icon header.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": false},
+      "image_placeholders": [
+        {
+          "id": "M6_CARNIVAL",
+          "description": "A letter portrait carnival capstone template for a Kindergarten unit, B&W line art. Three sections stacked vertically, each ~3in tall, with thin section dividers. Section 1 (LENGTH carnival): a small ruler icon at the top, followed by 4 horizontal strip outlines and number boxes, plus a sentence-frame line. Section 2 (MASS carnival): a balance icon, followed by 3 small balance pictures with H/L/S labelling boxes. Section 3 (CAPACITY carnival): a cup icon, followed by 3 cup pairs with circling space and a 'SAME capacity' label.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["carnival", "capstone"],
+          "text_image_alignment_check": "Image M6_CARNIVAL: instructions describe a 3-section carnival template for the Lesson 5 capstone. Keywords name the activity (carnival, capstone)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 25 templates (1 per child plus 5 extras).",
+        "Stack near the teacher table for distribution at the start of Lesson 5 Action.",
+        "No lamination needed — these are single-use summative artifacts."
+      ],
+      "estimated_prep_minutes": 5,
+      "quantity_per_class": "25 templates.",
+      "used_in_lessons": [5]
+    },
+    {
+      "asset_id": "M7_measure_chart",
+      "name": "Measurement Anchor Chart",
+      "category": "manipulative",
+      "purpose": "A teacher-display anchor chart showing length, mass, and capacity comparisons with examples. Stays posted across Lessons 1-4.",
+      "page_layout": "One letter page, landscape orientation. Three columns labelled 'LENGTH', 'MASS', 'CAPACITY'. Each column has an icon and a comparison example: LENGTH = pencil + marker (longer/shorter); MASS = balance with brick + feather; CAPACITY = bowl + thimble (more/less).",
+      "print_specifications": {"page_size": "letter", "orientation": "landscape", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M7_ANCHOR",
+          "description": "A landscape measurement anchor chart for a Kindergarten classroom, B&W line art. Three columns labelled 'LENGTH', 'MASS', 'CAPACITY' across the top. Column 1 (LENGTH): a small ruler icon, then a pair of objects (pencil + marker) with labels 'longer' and 'shorter'. Column 2 (MASS): a small balance icon, then a balance picture with brick on lower side, feather on higher side, labels 'heavier' and 'lighter'. Column 3 (CAPACITY): a small cup icon, then a bowl + thimble pair with labels 'holds more' and 'holds less'. Generous spacing between columns.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["length", "mass", "capacity"],
+          "text_image_alignment_check": "Image M7_ANCHOR: instructions describe a measurement anchor chart for lessons 1-4. Keywords name the three measurement attributes shown."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on standard letter paper (or scale to 11x17 if available).",
+        "Laminate for repeated reference across the unit.",
+        "Tape to the front classroom wall before Lesson 1."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [1, 2, 3, 4]
+    },
+    {
+      "asset_id": "M8_unit_chart",
+      "name": "Non-Standard Units Chart",
+      "category": "manipulative",
+      "purpose": "A teacher-display anchor chart of non-standard units (cubes, hand-spans, footsteps) with example uses. Posted in Lessons 4 and 5.",
+      "page_layout": "One letter page, portrait orientation. Three rows. Row 1: cube icon + 'cubes' label + 'use for SMALL things' note. Row 2: hand-span icon + 'hand-spans' + 'use for MEDIUM'. Row 3: footstep icon + 'footsteps' + 'use for LONG'.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M8_UNITS",
+          "description": "A portrait non-standard units anchor chart for a Kindergarten classroom, B&W line art. Three rows stacked vertically. Row 1: a small cube icon on the left, the label 'cubes' in bold, and a note 'use for SMALL things' on the right. Row 2: a hand-span icon (open hand), label 'hand-spans', note 'use for MEDIUM'. Row 3: a footprint icon, label 'footsteps', note 'use for LONG'. Generous row height for readability.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["cubes", "hand-spans", "footsteps"],
+          "text_image_alignment_check": "Image M8_UNITS: instructions describe a non-standard units anchor chart for lessons 4 and 5. Keywords name the three units shown."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on standard letter paper.",
+        "Laminate for repeated reference.",
+        "Tape next to the Measurement Anchor Chart on the front wall before Lesson 4."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 chart.",
+      "used_in_lessons": [4, 5]
+    },
+    {
+      "asset_id": "M9_animal_set",
+      "name": "Comparison Animal Tokens",
+      "category": "manipulative",
+      "purpose": "A set of 12 paper animal tokens (mouse, cat, dog, bear, elephant) of graded sizes for length comparison. Used in Lessons 1 and 5.",
+      "page_layout": "One letter page, portrait orientation. 12 tokens arranged: 4 mice (smallest), 4 cats (medium), 4 elephants (largest). Different size scales for size comparison. Each token sized to its animal: mice ~0.8in, cats ~1.2in, elephants ~2in.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M9_ANIMALS",
+          "description": "A page of 12 graded-size animal tokens for a Kindergarten manipulative, B&W line art. Tokens grouped by species and size: 4 small mice (~0.8in long, top row), 4 medium cats (~1.2in long, middle row), 4 large elephants (~2in long, bottom row). Each token has a thin solid cut-line. Cartoon-style outlines suitable for K hands.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["mice", "cats", "elephants"],
+          "text_image_alignment_check": "Image M9_ANIMALS: instructions describe a 12-token graded animal set for length comparison in lessons 1 and 5. Keywords name the three animal sizes shown."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 10 sets (1 per pair). Single page each.",
+        "Laminate before cutting.",
+        "Cut into 12 individual tokens per set.",
+        "Store each set in a labelled zip-top bag."
+      ],
+      "estimated_prep_minutes": 20,
+      "quantity_per_class": "10 sets.",
+      "used_in_lessons": [1, 5]
+    },
+    {
+      "asset_id": "M10_measurement_poster",
+      "name": "Bigger, Smaller, Same Poster",
+      "category": "manipulative",
+      "purpose": "A unit anchor poster featuring Max and Tess with examples of all three measurement attributes. Posted at the front of the classroom for the entire unit.",
+      "page_layout": "One letter page, landscape orientation. Header: 'Bigger, Smaller, Same!' Centre-left: Max the Measure Moose with a measuring stick. Centre-right: Tess the Tiny Mouse with a tiny tape measure. Around them: a long ribbon (length), a balance (mass), a tall cup beside a wide cup (capacity).",
+      "print_specifications": {"page_size": "letter", "orientation": "landscape", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "M10_POSTER",
+          "description": "A landscape unit anchor poster for a Kindergarten Bigger Smaller Same classroom, B&W line art. Header: 'Bigger, Smaller, Same!' in big bubble letters at the top. Centre-left: Max the Measure Moose holding a measuring stick. Centre-right: Tess the Tiny Mouse holding a tiny tape measure. Around them: a long ribbon trailing across the bottom (representing length), a small balance with two pans on the left side (representing mass), a tall cup + a wide short cup on the right (representing capacity). Cheerful playful tone.",
+          "placement": "Fills the page.",
+          "approximate_size": "full_width",
+          "keywords": ["max", "tess", "measurement"],
+          "text_image_alignment_check": "Image M10_POSTER: instructions describe a unit anchor poster posted for all 5 lessons. Keywords name the two anchor characters (max, tess) and the unit theme (measurement)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy on letter or 11x17 paper.",
+        "Laminate the poster for the full unit duration.",
+        "Tape to the front classroom wall on Day 1 before Lesson 1 begins."
+      ],
+      "estimated_prep_minutes": 10,
+      "quantity_per_class": "1 poster.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "char_max_puppet",
+      "name": "Max Puppet",
+      "category": "character_puppet",
+      "purpose": "A paper puppet of Max the Measure Moose used by the teacher in the Minds-On phase of every lesson to introduce concepts in child voice.",
+      "page_layout": "One letter page, portrait orientation. A single full-body cutout of Max the Measure Moose (~7in tall) holding a measuring stick, with a tab at the bottom for a popsicle stick.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "CHAR_MAX_FRONT",
+          "description": "A full-body cutout of Max the Measure Moose in B&W line art for a Kindergarten teacher puppet, ~7in tall. Max is a young moose with big antlers (small for K friendliness), holding a measuring stick in his front hooves, wearing a small explorer's vest with measurement tools poking out of the pockets. Cheerful curious expression. A rectangular tab at the bottom (~2in wide) for attaching to a popsicle stick.",
+          "placement": "Centred, fills the page vertically.",
+          "approximate_size": "large",
+          "keywords": ["max", "moose"],
+          "text_image_alignment_check": "Image CHAR_MAX_FRONT: instructions describe a Max the Measure Moose puppet used by teacher across all 5 lessons. Keywords name the character (max) and species (moose)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy of Max on cardstock if possible.",
+        "Cut around the outside of Max's silhouette including the bottom tab.",
+        "Laminate before assembly for durability.",
+        "Glue or tape a popsicle stick behind the bottom tab so Max can be held up."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    },
+    {
+      "asset_id": "char_tess_puppet",
+      "name": "Tess Puppet",
+      "category": "character_puppet",
+      "purpose": "A paper puppet of Tess the Tiny Mouse used by the teacher in all 5 lessons to embody the 'small' side of comparisons.",
+      "page_layout": "One letter page, portrait orientation. A single full-body cutout of Tess the Tiny Mouse (~5in tall — smaller than Max for visual contrast) with a tiny tape measure, plus a tab at the bottom.",
+      "print_specifications": {"page_size": "letter", "orientation": "portrait", "color": "bw", "pages_per_set": 1, "laminate_recommended": true},
+      "image_placeholders": [
+        {
+          "id": "CHAR_TESS_FRONT",
+          "description": "A full-body cutout of Tess the Tiny Mouse in B&W line art for a Kindergarten teacher puppet, ~5in tall (deliberately smaller than Max for visual size contrast). Tess is a small mouse with big eyes, holding a tiny tape measure, wearing a polka-dot bow tie. Adorable expression with whiskers. A rectangular tab at the bottom (~1.5in wide) for attaching to a popsicle stick.",
+          "placement": "Centred on the page.",
+          "approximate_size": "medium",
+          "keywords": ["tess", "mouse"],
+          "text_image_alignment_check": "Image CHAR_TESS_FRONT: instructions describe a Tess the Tiny Mouse puppet used by teacher across all 5 lessons. Keywords name the character (tess) and species (mouse)."
+        }
+      ],
+      "teacher_prep_steps": [
+        "Print 1 copy of Tess on cardstock if possible.",
+        "Cut around the outside of Tess's silhouette including the bottom tab.",
+        "Laminate before assembly for durability.",
+        "Glue or tape a popsicle stick behind the bottom tab so Tess can be held up."
+      ],
+      "estimated_prep_minutes": 12,
+      "quantity_per_class": "1 puppet.",
+      "used_in_lessons": [1, 2, 3, 4, 5]
+    }
+  ],
+  "overall_prep_notes": "Total prep time ~3 hours one-time before unit launch (laminating + cutting). Storage: keep all pair sets in labelled zip-top bags in a single bin. Set up all anchor charts and the unit poster on the wall on Day 1 before Lesson 1 begins."
+}

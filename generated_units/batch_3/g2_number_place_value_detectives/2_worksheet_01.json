@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_number_place_value_detectives",
+  "lesson_number": 1,
+  "worksheet_title": "Hundreds Hideouts",
+  "purpose": "Independent practice of B1.1 (numbers to 200) and B1.4 (skip-counting by 20s/25s/50s). Captures diagnostic-level evidence for the unit.",
+  "student_learning_goal": "I can read and represent numbers to 200 with base-ten blocks and count to 200 by 20s, 25s, and 50s.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can read and represent numbers to 200 with base-ten blocks and count to 200 by 20s, 25s, and 50s.",
+    "character_watermark": "Detective Hugo Hundreds in the top-right corner with his 'HUNDREDS' top hat and notebook. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Read the Build",
+          "student_instructions": "Each scene shows a base-ten block build. Write the number and the decomposition.",
+          "visual_layout": "Top half of the page. Six base-ten block scenes in a 2x3 grid. Each scene shows hundred-flats, ten-rods, and unit-cubes. Below each scene: 'Number: ___' and 'Decomposition: ___ + ___ + ___'.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_SIX_BUILDS",
+              "description": "Six base-ten block scenes in B&W line-art, 2-row × 3-column grid. Each scene ~2.2in × 1.8in. Pre-fills: B1 — 1 hundred-flat + 4 ten-rods + 7 cubes (147); B2 — 0 flats + 8 tens + 9 cubes (89); B3 — 1 flat + 3 tens + 2 cubes (132); B4 — 1 flat + 5 tens + 6 cubes (156); B5 — 1 flat + 7 tens + 4 cubes (174); B6 — 1 flat + 8 tens + 9 cubes (189).",
+              "placement": "Top half; six builds in 2x3 grid.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "build",
+                "blocks"
+              ],
+              "text_image_alignment_check": "Image WS01_P1_SIX_BUILDS: keywords (build, blocks) name what the scenes show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "B1: 147 = 100+40+7. B2: 89 = 80+9 (or 0+80+9). B3: 132 = 100+30+2. B4: 156 = 100+50+6. B5: 174 = 100+70+4. B6: 189 = 100+80+9."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Skip-Count Trails",
+          "student_instructions": "Three Number Lines. Fill in the missing numbers. The first counts by 20s, the second by 25s, and the third by 50s.",
+          "visual_layout": "Middle of the page. Three horizontal Number Line strips stacked. Each ~7in wide. Strip 1: starts 0, blanks across (count by 20s, ends at 200). Strip 2: starts 0, blanks across (count by 25s, ends at 200). Strip 3: starts 0, blanks across (count by 50s, ends at 200).",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_THREE_NUMBER_LINES",
+              "description": "Three horizontal Number Line strips in B&W line-art, stacked vertically. Each ~7in × 1in, with 6-9 cells across. Strip 1: cell 1 shows '0', remaining cells blank, label 'by 20s'. Strip 2: cell 1 shows '0', label 'by 25s'. Strip 3: cell 1 shows '0', label 'by 50s'. End-cell pre-filled with 200 on each.",
+              "placement": "Middle of the page; three strips spanning full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "number-line",
+                "skip-count"
+              ],
+              "text_image_alignment_check": "Image WS01_P2_THREE_NUMBER_LINES: keywords (number-line, skip-count) name what the lines show."
+            }
+          ],
+          "student_response_type": "write",
+          "answer_key": "Strip 1 (by 20s): 0, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200. Strip 2 (by 25s): 0, 25, 50, 75, 100, 125, 150, 175, 200. Strip 3 (by 50s): 0, 50, 100, 150, 200."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Numbers Around Me",
+          "student_instructions": "Where do you see numbers bigger than 100 in real life? Draw and write 1-2 examples.",
+          "visual_layout": "Bottom of the page. A blank box (~7in × 3in) for the child to draw and write 1-2 real-life examples. Detective Hugo thinking-bubble icon in the top-right corner.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_BLANK_REAL_LIFE_BOX",
+              "description": "A blank rectangular drawing box in B&W line-art, ~7in × 3in, with light-grey solid outline. Detective Hugo thinking-bubble icon in the top-right corner of the box (~1in tall).",
+              "placement": "Bottom of the page; spans full width.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "real-life",
+                "numbers"
+              ],
+              "text_image_alignment_check": "Image WS01_P3_BLANK_REAL_LIFE_BOX: keywords (real-life, numbers) name what the box is for."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Open. Accept any plausible real-life context: '167 days of school', '120 hockey players in our league', '189 pages in my chapter book', 'street numbers like 142 Oak Street'. Look for the child to ARTICULATE the number AND the context."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, flip the page over and write THREE numbers between 100 and 200, then decompose each one into hundreds, tens, and ones.",
+  "teacher_notes": "Lesson 1 consolidation. Hand out at the end of the Action phase. Watch for: (a) Part 1 children who write the digits in wrong order (e.g., 174 instead of 147 for the 1H+4T+7O build) — flag for place-value reteach; (b) Part 2 children who skip-count by 20s correctly but lose track at 25s — flag for the awkward-multiples practice in Lesson 4 warm-up; (c) Part 3 children who can't articulate a number-and-context — coaching opportunity for everyday-numbers vocabulary."
+}

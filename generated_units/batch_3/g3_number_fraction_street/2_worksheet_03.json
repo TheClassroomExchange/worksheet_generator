@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_fraction_street",
+  "lesson_number": 3,
+  "worksheet_title": "Penny's Rounding House",
+  "purpose": "Independent practice of B1.3 (round to nearest 10 or 100).",
+  "student_learning_goal": "I can round any number to 1000 to the nearest ten or hundred and explain my reasoning.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can round any number to 1000 to the nearest ten or hundred and explain my reasoning.",
+    "character_watermark": "Penny the Place Value Pal in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Round to Nearest 10",
+          "student_instructions": "Round each number to the nearest 10. Show on the number line, then write the rounded number.",
+          "visual_layout": "Top of the page. Eight rounding scenarios stacked.",
+          "image_placeholders": [
+            {"id": "WS03_P1_NEAREST_10", "description": "Eight rounding-to-nearest-10 scenarios in B&W line-art, stacked vertically. Each ~7in × 0.5in. Format: a small number-line scaffold (e.g., 40 — 41 — 42 — 43 — 44 — 45 — 46 — 47 — 48 — 49 — 50) with the number marked, plus an answer line. Numbers: 47, 23, 67, 84, 95, 38, 71, 56.", "placement": "Top of the page; eight scenarios.", "approximate_size": "full_width", "keywords": ["round", "nearest-10"], "text_image_alignment_check": "Image WS03_P1_NEAREST_10: keywords (round, nearest-10) name what the scenarios ask for."}
+          ],
+          "student_response_type": "write",
+          "answer_key": "47 → 50. 23 → 20. 67 → 70. 84 → 80. 95 → 100. 38 → 40. 71 → 70. 56 → 60."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Round to Nearest 100",
+          "student_instructions": "Round each number to the nearest 100. Show on the number line, then write the rounded number.",
+          "visual_layout": "Middle. Six rounding scenarios stacked.",
+          "image_placeholders": [
+            {"id": "WS03_P2_NEAREST_100", "description": "Six rounding-to-nearest-100 scenarios in B&W line-art, stacked vertically. Each ~7in × 0.5in. Format: a small number-line scaffold (e.g., 100 — 132 — 200) with the number marked, plus an answer line. Numbers: 132, 178, 250, 449, 567, 350.", "placement": "Middle of the page; six scenarios.", "approximate_size": "full_width", "keywords": ["round", "nearest-100"], "text_image_alignment_check": "Image WS03_P2_NEAREST_100: keywords (round, nearest-100) name what the scenarios ask for."}
+          ],
+          "student_response_type": "write",
+          "answer_key": "132 → 100. 178 → 200. 250 → 300. 449 → 400. 567 → 600. 350 → 400."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Real-Life Rounding",
+          "student_instructions": "For each scenario, round and explain in 1 sentence.",
+          "visual_layout": "Bottom of the page. Four scenario boxes in a 2x2 grid.",
+          "image_placeholders": [
+            {"id": "WS03_P3_FOUR_SCENARIOS", "description": "Four scenario boxes in B&W line-art, 2-row × 2-column grid. Each ~3.5in × 1.5in. Pre-filled scenarios: S1 'Penny counted 47 students in the cafeteria. About how many?' S2 'A movie ticket costs $12.99. About how much?' S3 'Frankie's book has 187 pages. About how many?' S4 'A school has 562 students. About how many to nearest 100?' Below each: an answer line and a 'Why?' line.", "placement": "Bottom of the page; four scenarios in 2x2 grid.", "approximate_size": "full_width", "keywords": ["scenario", "round"], "text_image_alignment_check": "Image WS03_P3_FOUR_SCENARIOS: keywords (scenario, round) name what the boxes show."}
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "S1: about 50 students (nearest 10). S2: about $13 (nearest dollar/10). S3: about 200 pages (nearest 100). S4: about 600 students (nearest 100)."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, pick three numbers between 100 and 1000 and round each to BOTH nearest 10 AND nearest 100.",
+  "teacher_notes": "Lesson 3 consolidation. Use Part 1 #95 and Part 2 #449 as the trickiest cases — each tests the 5-or-more rule on a boundary. Watch for Part 2 children who apply the rule to the ones digit (e.g., 178 → 180) — flag for the wrong-place reteach."
+}

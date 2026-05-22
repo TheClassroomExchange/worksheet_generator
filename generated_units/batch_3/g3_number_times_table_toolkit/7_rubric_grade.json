@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_number_times_table_toolkit",
+  "rubric_version": "concurrent_coders_v3_2026_05_01_strict_imgalign",
+  "pre_grade_drift_check": {
+    "consistency_check_issues": 0,
+    "curriculum_text_issues": 0,
+    "image_text_alignment_issues": 0,
+    "placeholder_artwork_count": 0,
+    "placeholder_image_ids": [],
+    "passed": true,
+    "consistency_check_details": [],
+    "curriculum_text_details": [],
+    "image_text_alignment_details": [],
+    "placeholder_artwork_details": "Drift gate clean. compose.py extension for the Times Table Toolkit narrative is pending — deck routes to _drafts/ until added (independent of rubric quality)."
+  },
+  "scores": {
+    "pedagogical_depth": {"score": 4, "justification": "All five lessons carry 4000+ char expanded_walkthroughs with paired misconceptions and recovery moves. Lesson 1: silent-regroup repair. Lesson 2: multiplication-division separation repair. Lesson 3: all-or-nothing recall repair (distributive property). Lesson 4: unit-fraction-collapse repair. Lesson 5: additive scale-up repair. Mid-unit and end-of-unit assessments present.", "evidence_refs": ["1_lesson_01..05.json::expanded_walkthrough", "4_formative_reflection.json"]},
+    "instructional_balance": {"score": 4, "justification": "CRA progression spans the week. Lesson 1 anchors operations to 1000; Lesson 2 builds gateway facts; Lesson 3 extends via distributive property; Lesson 4 connects fractions to multiplication; Lesson 5 closes with ratios.", "evidence_refs": ["1_lesson_01..05.json::action.steps", "3_manipulatives.json::assets (13 manipulatives + 3 character puppets)"]},
+    "clarity_communication": {"score": 4, "justification": "All lessons have substantial teacher_script, 4 expected_student_responses bands, paired misconceptions/recovery. Every lesson has 'I can' student_learning_goal.", "evidence_refs": ["1_lesson_01..05.json::expanded_walkthrough.teacher_script"]},
+    "alignment": {"score": 4, "justification": "consistency_check 0 issues; verify_curriculum_text 0 issues; validate_unit_alignment 0 issues. All B2.1-B2.9 codes cited. classroom_time_total_minutes 250 = 5×50.", "evidence_refs": ["0_blueprint.json::curriculum_codes (B2.1-B2.9)", "pipeline.image_alignment.validate_unit_alignment (0 issues)"]},
+    "appearance": {"score": 4, "justification": "Drift gate clean. 16 assets (13 M-id manipulatives + 3 character_puppet variants). Marketplace $12.99.", "evidence_refs": ["pipeline.rubric.pre_grade_drift_check::placeholder_artwork_count=0", "3_manipulatives.json::assets (16 total)", "6_marketplace.json::suggested_price_cad=12.99"]}
+  },
+  "overall_score": 20,
+  "threshold": 17,
+  "status": "pass",
+  "remediation": [],
+  "graded_by": "claude-opus-4-7-1m-session-2026-05-04-loop",
+  "graded_at": "2026-05-04T05:30:00Z"
+}

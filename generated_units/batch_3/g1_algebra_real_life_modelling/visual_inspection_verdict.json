@@ -1,0 +1,13 @@
+{
+  "unit_id": "g1_algebra_real_life_modelling",
+  "status": "pass",
+  "inspected_at": "2026-05-10T18:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch2",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 3, "description": "Lesson 1 exit refrain line truncates: 'class chants 3x: \"HOW MANY?' (cosmetic carryover)."},
+    {"page": 15, "description": "M3 Modelling Cycle Chart description says '5 modelling steps' but diagram renders 4 boxes; M6 Capstone Template likewise shows 4 sections. Content drift, not visual."},
+    {"page": 22, "description": "M10 Sugar Bush Anchor Poster description promises Maple + Sap Sam art; rendered poster shows only a 5-step bullet list, no character art."}
+  ],
+  "summary": "PASS. All 27 pages render cleanly. Worksheets (pages 8-12) use proper title + learning-goal + Instructions for the Student + ruled workspace. 1-row C4 rubric fully readable. Character puppets (Maple, Sap Sam) render fine."
+}

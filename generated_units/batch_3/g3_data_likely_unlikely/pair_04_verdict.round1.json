@@ -1,0 +1,65 @@
+{
+  "unit_id": "g3_data_likely_unlikely",
+  "pair_number": 4,
+  "subject": "Mathematics",
+  "alignment": 4,
+  "pedagogical_depth": 3,
+  "instructional_balance": 3,
+  "clarity_voice": 3,
+  "sor_alignment": null,
+  "mathematical_authenticity": 3,
+  "lesson_worksheet_consistency": 3,
+  "status": "revise_both",
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title = 'When the child predicts SAME/SAME without calculating — repairing the no-test trap at Grade 3' and recovery_moves = ['Use 4-blank frame.', 'Drill compute order.', 'Compare prediction vs result.'] — the trap is real and grade-appropriate, but recovery does not branch by what the diagnostic told you about the child, and no research is cited by name (e.g., Carpenter & Moser CGI types, or Konold's research on probabilistic reasoning and the 'outcome approach' where students treat prediction as a single right answer rather than a likelihood claim).",
+      "required_fix": "Cite the misconception by name — Konold (1989) 'outcome approach' to probability, where children treat a prediction as a single correct answer rather than a likelihood-with-test. Then BRANCH recovery_moves: (a) if child computes mean correctly but skips mode, drill mode-as-most-common with tally marks; (b) if child writes 'same' without any compute, force the 4-blank frame BEFORE allowing a same/different judgement; (c) if child computes both but cannot explain, give the 'similar populations → close mean/mode' sentence frame from the minds_on demo.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Anchor chart Same Mean? Same Mode?', 'Two-Population Charts (1 per pair)', 'Calculator Cards (1 per pair)', 'Sample data sets (8 pairs)' — all printed paper materials. The differentiation block has 'for_movement_learners: Walk between class A and class B stations' but no explicit no-paper, no-purchase alternative is offered for the core compute task on a day when prep was not possible.",
+      "required_fix": "Add a NO-PAPER alternative to differentiation: e.g., 'No-prep version — teacher reads two short data sets aloud (Class A: 3,4,2,4,5; Class B: 2,3,4,4,7). Children hold up fingers for the mode (most common count) and use mental fair-share for the mean (small whole numbers only). Compare with thumbs-up = same, thumbs-side = different. Chart the four answers on the whiteboard.' This makes the lesson runnable on any day.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Maybe Mae anchors hook, demo, and consolidation, and all success_criteria start with 'I can'. However, Maybe Mae has no distinctive quotable refrain children can chant back, and the exit_routine 'Each child shares ONE: I predicted ___ and got ___.' is a sentence frame but not a memorable character refrain. Compare to the Sounder Sam example: 'HOO knows the sounds? YOU do!'",
+      "required_fix": "Give Maybe Mae a signature refrain children chant at consolidation, e.g., 'Maybe Mae says — PREDICT, then TEST, then TELL!' Children echo it three times during the exit_routine. Repeat the refrain across lessons 2-5 so the chant accumulates. Add it explicitly to the consolidation.exit_routine field and to the teacher_script.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "minds_on teacher_script defines mean as 'total ÷ count' and mode as 'most common', which is precise. Children calculate but do not INVENT or COMPARE strategies — the lesson hands them total-then-divide and tally-most-common. expanded_walkthrough.common_misconceptions lists 'Prediction = answer.' and 'Same data shape = same numbers.' but does not name research-grounded framing (Konold's outcome approach, Cai & Moyer on average-as-fair-share, or Bakker & Gravemeijer on distribution).",
+      "required_fix": "In the action.steps, add a strategy-comparison move: 'Some pairs found the mean by adding all then dividing; some pairs guessed the middle then adjusted. Compare: which strategy worked when numbers were close together? Which worked when one number was much larger?' Then in expanded_walkthrough.rationale, cite Konold (1989) 'outcome approach' for the prediction-as-answer misconception and Cai & Moyer (2008) on mean-as-fair-share to ground the conceptual progression.",
+      "affected_stages": ["lesson_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lesson worksheet_brief.worksheet_title = 'Maybe Mae's Same Mean? Same Mode?' but actual worksheet_title = 'Maybe Mae's Mean and Mode' — title drift. Worksheet Part 2 says 'For 2 of the data sets, calculate the MEAN and MODE for each class' which mirrors the lesson but does not deliberately VARY the practice format as a transfer task; it is a near-rote repeat of the action steps. No justified transfer (e.g., 'Part 3 introduces 1 unfamiliar population type to verify generalization') is present.",
+      "required_fix": "Reconcile the worksheet_title with the lesson's worksheet_brief.worksheet_title (pick one and use it in both). Then add a justified transfer task to Part 3 or as a Part 4: e.g., 'Part 4 (Stretch): Here is a THIRD class (Class C: 4, 4, 4, 4, 4). Predict — would the mean and mode of A+C still be the same? Why? This tests whether children can apply the 'similar populations' rule to a NEW pairing not seen in the lesson.'",
+      "affected_stages": ["lesson_04", "worksheet_04"],
+      "affected_pairs": [4],
+      "severity": "blocking"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "unit_id": "g2_spatial_mirror_mirror",
+  "status": "pass",
+  "inspected_at": "2026-05-10T00:00:00Z",
+  "inspected_by": "claude-visual-inspector-r22-batch4",
+  "blocking_issues": [],
+  "minor_notes": [
+    {"page": 25, "description": "Rubric E1.3 and E1.5 descriptor text appears slightly clipped at row bottoms (multi-line wrap)."}
+  ],
+  "summary": "Post-F20 worksheet composer renders all worksheets cleanly (title + prompt + ruled workspace). Symmy and Flippy kawaii puppets recognizable. Mirror Maze capstone zones labeled cleanly (Shapes / Area / Congruent / Map). PASS."
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_financial_plan_your_party",
+  "lesson_number": 2,
+  "lesson_title": "Calculate Exact Change",
+  "duration_minutes": 50,
+  "primary_expectations": [
+    "F1.1"
+  ],
+  "secondary_expectations": [],
+  "big_idea": "EXACT change = MONEY PAID minus PRICE. Use careful subtraction.",
+  "learning_intention": "We are learning to calculate exact change for whole-dollar transactions.",
+  "student_learning_goal": "I can calculate exact change for whole-dollar transactions.",
+  "success_criteria": [
+    "I can WRITE the subtraction.",
+    "I can CALCULATE exactly.",
+    "I can CHECK with addition.",
+    "I can EXPLAIN my answer."
+  ],
+  "vocabulary_introduced": [
+    "calculate",
+    "subtract"
+  ],
+  "vocabulary_reinforced": [
+    "change",
+    "estimate",
+    "round",
+    "transaction"
+  ],
+  "manipulatives_used": [
+    "M1_money_set",
+    "M2_pricetag_set",
+    "M4_subtract_chart",
+    "M7_money_chart",
+    "M8_calculator_set",
+    "M10_unit_poster"
+  ],
+  "lesson_specific_materials": [
+    "OPTIONAL: Pat + Bea — if available; otherwise teacher voices both characters in two distinct voices, or substitutes two stuffed animals / paper-bag puppets / pictures on the anchor poster. Activity is unaffected.",
+    "Anchor chart 'Subtract for Change'",
+    "Money + Price Cards (1 set per pair)",
+    "Calculator Cards (1 per pair)",
+    "Lesson 2 formative tracker"
+  ],
+  "minds_on": {
+    "duration_minutes": 12,
+    "activity_name": "Bea's Exact Calculator",
+    "hook": "Budget Bea: Friends — yesterday we ESTIMATED. Today we CALCULATE EXACT change! Bea opens: 'LINE UP, BORROW, SUBTRACT — that's EXACT!'",
+    "teacher_script": "Bring children to the carpet. Bea the Bear puppet (small bear with calculator). 'Money friends — yesterday Pat showed us ESTIMATE. Today: EXACT calculation!'\n\nDefine. 'CALCULATE = find the EXACT answer. SUBTRACT = take AWAY one number from another.'\n\nDemo. 'Item $13. Pay $20. CHANGE?'\n\nWrite on board: $20 - $13 = ___.\n\n'Subtract column by column. 0 - 3? Borrow from 2: 10 - 3 = 7. Then 1 - 1 = 0. So $7!'\n\n'Bea says — careful column subtraction!'\n\nDemo 4 more:\n- $50 - $35 = $15.\n- $20 - $14 = $6.\n- $100 - $89 = $11.\n- $10 - $7 = $3.\n\n'Bea says — check by ADDING. $35 + $15 = $50. ✓'\n\nNow show ESTIMATE check from yesterday. 'Yesterday I estimated $20 - $13 ≈ $20 - $13 = $7. Same! Estimate matched exact!'\n\n'Bea says — estimate FIRST, calculate SECOND, check with addition!'\n\nNow each pair gets Money + Price Cards + Calculator Card. They calculate 4 transactions exactly.\n\n'Bea says — show the SUBTRACTION!'",
+    "student_actions": [
+      "Watch Bea demo",
+      "Echo calculate and subtract",
+      "Calculate 1 together",
+      "Plan first 4 calculations"
+    ]
+  },
+  "action": {
+    "duration_minutes": 25,
+    "activity_name": "Calculate 4 Exact Changes",
+    "structure": "partner",
+    "steps": [
+      {
+        "step_number": 1,
+        "instruction": "Hand out Money + Price Cards + Calculator. Pairs calculate 4 exact changes.",
+        "teacher_prompt": "Say: 'Calculate 4.'"
+      },
+      {
+        "step_number": 2,
+        "instruction": "Write each subtraction step.",
+        "teacher_prompt": "Say: 'Show subtraction.'"
+      },
+      {
+        "step_number": 3,
+        "instruction": "Stretch: check each by addition.",
+        "teacher_prompt": "Say: 'Stretch: check.'"
+      },
+      {
+        "step_number": 4,
+        "instruction": "Help with borrowing in subtraction.",
+        "teacher_prompt": "Show: borrow from tens."
+      },
+      {
+        "step_number": 5,
+        "instruction": "Circulate to record formative.",
+        "teacher_prompt": "Stop at each pair. Mark."
+      },
+      {
+        "step_number": 6,
+        "instruction": "STRATEGY COMPARE: 'Show me YOUR way' beat — pairs solve $20 - $13 by any strategy (count up from 13, take 7 from 20, regroup). Class compares which is fastest. Cite Carpenter & Moser CGI separate-result-unknown.",
+        "teacher_prompt": "Bea: 'Same exact change, different paths. Pick the one your brain trusts.'"
+      }
+    ],
+    "differentiation": {
+      "for_emerging": "Use only single-digit changes.",
+      "for_extending": "3-digit subtractions.",
+      "for_ell_or_iep": "Pre-printed subtraction grid.",
+      "for_movement_learners": "Walk to compute station. NO-PAPER VERSION: children show subtraction by physically moving cubes from one column to another to demonstrate borrow."
+    },
+    "formative_check": {
+      "what_to_look_for": "Five signals: writes; subtracts; calculates; checks; consistency.",
+      "how_to_record": "Tracker — yes/no per child.",
+      "tracker_columns": [
+        "Student name",
+        "Writes subtraction",
+        "Calculates",
+        "Checks",
+        "Notes"
+      ]
+    }
+  },
+  "consolidation": {
+    "duration_minutes": 13,
+    "activity_name": "Bea's Exact Brag",
+    "discussion_prompts": [
+      "What's CALCULATE?",
+      "What's SUBTRACT?",
+      "How check change with ADDITION?",
+      "$20 - $13 = ?"
+    ],
+    "exit_routine": "Bea's exact change refrain — 'Bea says: LINE UP, BORROW, SUBTRACT — that's EXACT!' (3x). Each child computes one exact change with regrouping shown."
+  },
+  "assessment_in_this_lesson": {
+    "type": "formative",
+    "evidence_collected": "Exact calculation tracker.",
+    "tracker_reference": "formative_tracker_lesson_02 (assembled in assessment_suite stage)",
+    "rationale": "Lesson 2 captures F1.1 exact calculation."
+  },
+  "expanded_walkthrough": {
+    "title": "When the child borrows WRONG in subtraction — repairing the regroup trap at Grade 3",
+    "rationale": "On exact change with regrouping, the trap is borrow-without-decrement (Fuson on multidigit subtraction) — child borrows across the dollar/cent boundary without decrementing the dollars. Carpenter & Moser CGI separate-result-unknown frames this.\n\nYesterday Pat estimated. Today Bea calculates exact. Lesson 3 cents-only; Lesson 4 mixed; Lesson 5 capstones.",
+    "setup": "Calculate $20 - $13. Child writes '17' or '7'.",
+    "teacher_script": "Crouch. 'Bea asks — let's redo. 0 - 3 — can we? NO. So borrow from 2.'\n\nProbe. '2 becomes 1. 0 becomes 10. Now 10 - 3 = 7. Then 1 - 1 = 0. So $07 = $7.'\n\nGeneralise. 'Bea says — when ones digit is too small, BORROW from tens. Reduce tens by 1.'\n\nIf still wrong: use $10 + $10 - $13. Take a $10 = $10. From $10 left, subtract $3 = $7. Total $7.",
+    "expected_student_responses": [
+      "(Confused) No borrow.",
+      "(Mid) Borrows with prompts.",
+      "(Strong) Borrows correctly.",
+      "(Stretched) Articulates regroup."
+    ],
+    "common_misconceptions": [
+      "Subtract bigger from smaller. (Repair: borrow.)",
+      "Borrow without reducing tens. (Repair: reduce tens by 1.)"
+    ],
+    "recovery_moves": [
+      "DIAGNOSTIC A — child borrows but doesn't decrement: drill 'when you borrow, the next column GOES DOWN'; child rewrites.",
+      "DIAGNOSTIC B — child can subtract but loses the decimal: drill 'line up the decimals BEFORE subtracting'.",
+      "DIAGNOSTIC C — child gets right answer but cannot articulate: force the sentence frame 'I borrowed ___ cents from ___ dollars; the change is ___.'"
+    ]
+  },
+  "worksheet_brief": {
+    "worksheet_title": "Bea's Change Calculator",
+    "purpose": "Independent practice of F1.1 exact change.",
+    "parts_outline": [
+      {
+        "part_number": 1,
+        "task": "Calculate exact change for 4 transactions.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 2,
+        "task": "Check each with addition.",
+        "response_type": "draw_or_write"
+      },
+      {
+        "part_number": 3,
+        "task": "Item $48, pay $50. Calculate change.",
+        "response_type": "draw_or_write"
+      }
+    ],
+    "expected_image_assets": [
+      "Pat + Bea in worksheet header",
+      "4 transactions for Part 1",
+      "Addition check workspace for Part 2"
+    ]
+  }
+}

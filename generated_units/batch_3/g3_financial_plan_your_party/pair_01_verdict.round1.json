@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_financial_plan_your_party",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_both",
+  "scores": {
+    "alignment": 3,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 3,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "alignment",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.title='When the child SUBTRACTS the WRONG WAY (price - money) — repairing the order trap at Grade 3' and rationale make no cross-reference to neighbouring days; lesson 1 never names how today's estimation feeds Day 2's exact calculation, even though the unit_overview lays out a clear arc.",
+      "required_fix": "Add an explicit bridge in expanded_walkthrough or consolidation: e.g., 'Today we ESTIMATED with rounding. Tomorrow with Bea we will CALCULATE the exact change — your estimate from today becomes the QUICK CHECK on tomorrow's exact answer.' Quote the bridge in teacher_script so the arc lands.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.recovery_moves = ['Use formula CHANGE = PAID - PRICE.', 'Drill paid first.', 'Compare correct vs wrong order.'] — concrete but flat. No research citation (e.g., Carpenter & Moser CGI Compare/Change-Unknown problem types) and no branching by what the diagnostic told you about the child.",
+      "required_fix": "Cite the misconception in research-grounded terms (Carpenter & Moser 1984 CGI Change-Unknown subtraction). Branch recovery: if child can model with money cards, scaffold to formula PAID-PRICE; if child cannot model, drop back to a 'put-the-cookie-down, count-up-to-paid' direct-modelling routine first.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials still leans on printed Money Cards + Price Cards as the only path; the differentiation block ('for_movement_learners: Walk to bill stations.') doesn't supply a no-paper, voice/body alternative for days when prep wasn't possible.",
+      "required_fix": "Add an explicit no-paper, no-purchase variant under differentiation, e.g., 'No-materials version — teacher calls a price aloud and a paid amount; partners SHOW the change on fingers (or whisper-count up from price to paid). Body-and-voice only, no cards needed.' Make sure consolidation can run from this version too.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Pat anchors minds_on and consolidation, vocabulary is defined, success_criteria all start with 'I can'. But there is no distinctive quotable refrain — 'Pat says — quick estimate every time!' is repeated but never set up as a children's chant carried between lessons.",
+      "required_fix": "Give Pat a quotable refrain children chant back, woven into exit_routine — e.g., 'Pat asks: PAID FIRST? Children: PAID FIRST! Pat: PRICE MINUS? Children: PRICE MINUS! Change!' Embed this call-and-response in the consolidation exit_routine and reuse it in lessons 2-5 so it travels.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough names the trap as 'subtracts wrong way' but does not frame it in research-grounded terms (Carpenter & Moser CGI subtraction subtypes; missing-addend / count-up-to strategy). The action step asks pairs to estimate 4 transactions but never invites them to compare their strategies (round-then-subtract vs count-up vs paid-first).",
+      "required_fix": "In expanded_walkthrough, name the misconception using CGI vocabulary (Change-Unknown / Compare missing-addend, Carpenter & Moser 1984). Add a strategy-share moment to consolidation: 'Two pairs share HOW they got to $7 change — one that rounded-and-subtracted, one that counted up from price. Which feels faster? Why?'",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "lesson_worksheet_consistency",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "worksheet Part 3 answer_key reads 'Rounded $5; estimate $0 (or $1 if rounded down to $4).' — Item $4.50 paid $5 should round to $5 (banker convention rounds .50 up at G3) yielding estimated change $0; the parenthetical alternative with $4 contradicts the lesson's 'round to NEAREST DOLLAR' rule, where $4.50 is exactly halfway and the unit teaches rounding up.",
+      "required_fix": "Rewrite Part 3 answer_key to a single, lesson-aligned answer: 'Rounded price $5; estimated change $0 (and $4.50 paid $5 = exactly $0.50 actual).' Add a teacher_note explaining $4.50 is the half-dollar edge case the unit treats as round-up, mirroring the minds_on script's $2.95→$3 example.",
+      "affected_stages": ["worksheet_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 1 is solid Achieving across the board but does not clear the Exceeding bar in any single category. Add an explicit arc bridge to Day 2, name the trap in CGI/Carpenter & Moser terms with a branching recovery, give Pat a chantable refrain, supply a no-materials voice/body variant, invite a strategy-compare moment, and tighten the worksheet's Part 3 answer key to align with the lesson's round-to-nearest-dollar rule."
+}

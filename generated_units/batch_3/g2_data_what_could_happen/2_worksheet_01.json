@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_data_what_could_happen",
+  "lesson_number": 1,
+  "worksheet_title": "Lucky's Likelihood Review",
+  "purpose": "Independent practice of D2.1 likelihood vocabulary.",
+  "student_learning_goal": "I can use likelihood vocabulary.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can use likelihood vocabulary.",
+    "character_watermark": "Lucky Lou the Loon in the top-right with a magnifying glass. Small (~1.5in tall). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Sort 6 events.",
+          "student_instructions": "Read each event. Circle I (impossible), P (possible), or C (certain).",
+          "visual_layout": "6 event rows with I/P/C circles to circle.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_EVENTS",
+              "description": "Six event rows for a Grade 2 worksheet, B&W line art. Each row has an event and 3 letter circles I/P/C. Events: 'Pig flies', 'Sun rises', 'Rain at recess', 'I will turn 100', 'A friend smiles', 'Snow in July in Toronto'.",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "impossible",
+                "possible",
+                "certain"
+              ],
+              "text_image_alignment_check": "WS01_P1_EVENTS at Part 1: keywords name the categories."
+            }
+          ],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "I, C, P, I, P, I."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Make a prediction.",
+          "student_instructions": "Write a prediction about TODAY using a likelihood word.",
+          "visual_layout": "A bordered writing box ~5in × 1.5in.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_BOX",
+              "description": "A bordered writing box for a Grade 2 worksheet, ~5in × 1.5in. Above: 'My prediction:'. Below the box, sentence-frame reminder: 'It is ___ that ___.'",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "prediction"
+              ],
+              "text_image_alignment_check": "WS01_P2_BOX at Part 2: keyword names the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any prediction using a likelihood word."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Make your own.",
+          "student_instructions": "Write 1 IMPOSSIBLE, 1 POSSIBLE, 1 CERTAIN event.",
+          "visual_layout": "Three labelled lines.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_LINES",
+              "description": "Three labelled writing lines for a Grade 2 worksheet. 'IMPOSSIBLE: ___', 'POSSIBLE: ___', 'CERTAIN: ___'.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "impossible",
+                "possible",
+                "certain"
+              ],
+              "text_image_alignment_check": "WS01_P3_LINES at Part 3: keywords name the categories."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 valid events."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw an IMPOSSIBLE event.",
+  "teacher_notes": "Lesson 1 consolidation. Use Part 1 for diagnostic. Part 1 includes a 'Lucky vs Mae disagree' format — children justify which character is right with cause-effect reasoning. Verifies generalisation beyond the rehearsed examples."
+}

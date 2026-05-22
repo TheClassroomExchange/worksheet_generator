@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_data_detectives",
+  "lesson_number": 4,
+  "worksheet_title": "Always Sometimes Never",
+  "purpose": "Children sort 8 events into ALWAYS/SOMETIMES/NEVER and write one event of their own.",
+  "student_learning_goal": "I can tell if events ALWAYS, SOMETIMES, or NEVER happen.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can tell if events ALWAYS, SOMETIMES, or NEVER happen.",
+    "character_watermark": "Detective Dot in the top-right corner. Small (~1.5in tall)."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Sort by Likelihood.",
+          "student_instructions": "Read each event. Circle ALWAYS, SOMETIMES, or NEVER.",
+          "visual_layout": "6 event icons in a column on the left, three circle options (ALWAYS / SOMETIMES / NEVER) on the right of each.",
+          "image_placeholders": [],
+          "student_response_type": "circle_or_loop",
+          "answer_key": "Sun rises = ALWAYS. Rain on Tuesday = SOMETIMES. Fish in lava = NEVER. Lunch is sandwich = SOMETIMES. School has a roof = ALWAYS. A tree dances = NEVER."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Write your own.",
+          "student_instructions": "Draw or write one event that ALWAYS happens at your school.",
+          "visual_layout": "Big blank box for drawing/writing; sentence frame 'ALWAYS: ___'.",
+          "image_placeholders": [],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Many valid (e.g., 'the bell rings', 'the sun rises')."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Justify a SOMETIMES.",
+          "student_instructions": "Write or draw an event that SOMETIMES happens. Tell why it is SOMETIMES, not ALWAYS or NEVER.",
+          "visual_layout": "Box with prompt 'SOMETIMES event: ___'; below, sentence frame 'It is SOMETIMES because ___'.",
+          "image_placeholders": [],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Many valid (e.g., 'it rains' — 'because it doesn't happen every day, but it does happen sometimes')."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw one event that NEVER happens at your school.",
+  "teacher_notes": "Watch for SOMETIMES catchall — children using SOMETIMES for everything they're not sure about. Drill the 'every day or no day?' test. Likelihood-language gateway to Grade 1 probability."
+}

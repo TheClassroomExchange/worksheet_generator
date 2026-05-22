@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_data_likely_unlikely",
+  "pair_number": 1,
+  "graded_at": "2026-05-10T00:00:00Z",
+  "graded_by": "pair_rubric_grader",
+  "status": "revise_lesson",
+  "scores": {
+    "alignment": 4,
+    "pedagogical_depth": 3,
+    "instructional_balance": 3,
+    "clarity_voice": 3,
+    "lesson_worksheet_consistency": 4,
+    "sor_alignment": null,
+    "mathematical_authenticity": 3
+  },
+  "category_feedback": [
+    {
+      "category": "pedagogical_depth",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "expanded_walkthrough.rationale says 'Most common Grade-3 trap on D2.1: child says \"impossible\" for any low-chance event' but no research is named, and recovery_moves = ['Use die demo.', 'Drill never vs could.', 'Compare event pairs.'] does not branch by what the diagnostic told you about the child.",
+      "required_fix": "Cite Fischbein (1975) on intuition of chance and name the misconception (binary chance schema). BRANCH recovery_moves: (a) if child can name UNLIKELY but misplaces it, contrast 'never vs could' with paired event cards; (b) if child cannot articulate any difference, drop back to physical probability — let them roll a die 6 times and tally outcomes before reintroducing the word.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "instructional_balance",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "lesson_specific_materials lists 'Anchor chart Five-Word Scale, Five-Word Scale Strips (1 per pair), Event Cards (24, mixed), Sticky note arrows' and differentiation has no NO-PAPER/NO-PURCHASE alternative path using only voice, body or gesture; standard run requires teacher prep of strips and 24 event cards.",
+      "required_fix": "Add a no-materials alternative under differentiation: 'No-paper version — use the carpet as a human scale: left wall = IMPOSSIBLE, right wall = CERTAIN. Children WALK to the zone for each event the teacher calls. Body-scale: arms up = certain, arms wide = equally likely, arms crossed = impossible.' State explicitly that no strips or cards are needed for this path.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "clarity_voice",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Lucky Lou anchors minds_on with 'Detective Lou says —' but the consolidation/exit_routine = 'Each child says ONE event + ONE word: Snow in July is IMPOSSIBLE.' lacks a memorable chant or sentence frame the children carry between lessons; no quotable refrain in consolidation.discussion_prompts.",
+      "required_fix": "Add a Lucky Lou refrain children chant back in every lesson — e.g., 'Lucky Lou asks: WHERE on the scale? I say: __!' or 'IMPOSSIBLE — UNLIKELY — EQUALLY LIKELY — LIKELY — CERTAIN. Five words, one scale, every time!' Insert the chant into consolidation.exit_routine and reference it in teacher_script so it carries forward to lessons 2-5.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    },
+    {
+      "category": "mathematical_authenticity",
+      "current_score": 3,
+      "target_score": 4,
+      "specific_evidence": "Conceptual progression is explicit (scale with values 0, 1/4, 1/2, 3/4, 1) and vocabulary precise, but the lesson does not let children INVENT or REFINE a strategy and compare strategies, and expanded_walkthrough.common_misconceptions = ['Impossible = unlikely. (Repair: never vs could.)', 'All low chance events are impossible.'] does not name the misconception in research-grounded terms.",
+      "required_fix": "(a) Name the misconception with research-grounded language — Konold (1989) 'outcome approach' (children predict a single outcome instead of reasoning about likelihood). (b) Add a strategy-comparison move in action: have two pairs who placed the same event in different zones defend their reasoning, then refine the placement using the 1/6 die argument.",
+      "affected_stages": ["lesson_01"],
+      "affected_pairs": [1],
+      "severity": "blocking"
+    }
+  ],
+  "summary": "Lesson 1 has strong alignment to D2.1 and tight lesson-worksheet consistency, but four categories sit at Level 3 instead of 4. The expanded_walkthrough names a real trap (UNLIKELY-as-IMPOSSIBLE) but cites no research and recovery does not branch by diagnostic; materials are everyday but lack a no-paper alternative; Lucky Lou has no memorable cross-lesson chant; and the math misconception is not named in research-grounded terms (Fischbein, Konold) and children are not asked to compare strategies. All four fixes land in lesson_01 only, so revise_lesson."
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "unit_id": "k_spatial_shape_safari",
+  "lesson_number": 4,
+  "worksheet_title": "Sammy's Build and Break",
+  "purpose": "Independent practice of A9.4 (compose/decompose 2D shapes) and A9.5 (build with 3D shapes). Used as Lesson 4 consolidation artifact.",
+  "student_learning_goal": "I can compose and decompose shapes.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can compose and decompose shapes.",
+    "character_watermark": "Sammy the Safari Sloth in the top-right corner of the header, holding two pattern blocks. Small (~1.5in tall). References the shared 'Sammy the Safari Sloth' asset from blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Compose the target!",
+          "student_instructions": "Look at each target shape. Draw the smaller shapes that compose it.",
+          "visual_layout": "Four target-shape rows stacked vertically. Each row has a target-shape outline on the left (~1.5in tall) and a workspace box (~2in × 1.5in) on the right with a thin border. The four targets, top to bottom: square, hexagon, rectangle, house (square + triangle on top). The student draws the smaller shapes that compose each target inside the right-side workspace box.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P1_TARGETS",
+              "description": "Four target-shape outlines stacked vertically for a Kindergarten compose activity. From top to bottom: square (~1.5in), hexagon (regular), rectangle (~2in × 1.2in), house shape (square base ~1.2in with an equilateral triangle roof on top). All B&W line art with thin solid borders, no fill, ready for the child to draw smaller shapes inside or beside.",
+              "placement": "Left column of Part 1, vertically stacked.",
+              "approximate_size": "small",
+              "keywords": ["square", "hexagon", "rectangle", "triangle"],
+              "text_image_alignment_check": "Image WS04_P1_TARGETS at Part 1: instructions ask the child to compose each target shape from smaller shapes. The keywords (square, hexagon, rectangle, triangle) name the geometric forms shown — the child must identify which smaller shapes (typically triangles, squares) compose each target."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Square: 2 triangles (or 4 small squares). Hexagon: 6 triangles (or 2 trapezoids, or 3 rhombi). Rectangle: 2 squares (or 4 small rectangles, or 2 triangles). House: 1 square + 1 triangle. Accept any valid decomposition into known pattern-block shapes."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Decompose the shape!",
+          "student_instructions": "Look at each big shape. Draw lines INSIDE it to break it into smaller shapes.",
+          "visual_layout": "Three large shapes stacked vertically, each ~2.5in across, centred on the page. The three shapes, top to bottom: rectangle (wide), hexagon (regular), and a parallelogram. Each is a clean B&W outline with a thin border, no internal lines yet. The child draws straight lines inside each big shape to decompose it into smaller named shapes.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P2_SHAPES",
+              "description": "Three large 2D shape outlines for a Kindergarten decompose activity. Top: a rectangle ~2.5in wide × 1.5in tall, plain B&W outline. Middle: a regular hexagon ~2.5in across. Bottom: a parallelogram ~2.5in × 1.5in. All B&W with thin solid borders, no fill or internal lines. The shapes are large enough for the child to draw 1-3 internal lines breaking them into smaller named shapes.",
+              "placement": "Centred horizontally; spans Part 2.",
+              "approximate_size": "medium",
+              "keywords": ["rectangle", "hexagon", "parallelogram"],
+              "text_image_alignment_check": "Image WS04_P2_SHAPES at Part 2: instructions ask the child to decompose each big shape into smaller ones by drawing internal lines. The keywords (rectangle, hexagon, parallelogram) name the bigger shapes the child decomposes into squares, triangles, etc."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Rectangle: 1 vertical line decomposes into 2 squares (or 1 diagonal makes 2 triangles). Hexagon: 3 lines from centre make 6 triangles (or 1 horizontal line makes 2 trapezoids). Parallelogram: 1 diagonal makes 2 triangles. Accept any valid decomposition with straight internal lines."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: Draw your 3D structure!",
+          "student_instructions": "Draw a 3D structure you built with blocks. Label the 3D shapes you used.",
+          "visual_layout": "A large drawing area centred on the page (~5in × 4in) with a thin border. Below the drawing area is a small label list with 5 bullet lines, each starting with a tiny 3D shape thumbnail (sphere, cube, cylinder, cone, pyramid) followed by an empty count box, so the student can record how many of each shape they used.",
+          "image_placeholders": [
+            {
+              "id": "WS04_P3_FRAME",
+              "description": "A blank drawing frame ~5in × 4in centred on the page for a Kindergarten worksheet. Below the frame, a vertical label list of 5 rows. Each row has a tiny 3D shape thumbnail on the left (sphere, cube, cylinder, cone, pyramid — same shading style as Worksheet 02) and an empty box on the right for the child to write a count number.",
+              "placement": "Centred horizontally; spans Part 3.",
+              "approximate_size": "full_width",
+              "keywords": ["sphere", "cube", "cylinder", "cone", "pyramid"],
+              "text_image_alignment_check": "Image WS04_P3_FRAME at Part 3: instructions ask the child to draw a 3D structure and label which 3D shapes they used. The keywords (sphere, cube, cylinder, cone, pyramid) appear as the thumbnail icons the child counts off."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3D structure drawing with at least 2 different 3D shapes labelled. Examples: tower (cubes stacked), bridge (rectangles + cylinders), dome (sphere on cube). Accept any drawing that pairs the structure with correct 3D shape labels and counts."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, draw a structure that uses ALL FIVE 3D shapes. What did you build?",
+  "teacher_notes": "Lesson 4 consolidation artifact. Use Part 1 as the formative signal for COMPOSE — children who can't decompose a square into 2 triangles are not yet ready for Lesson 5 capstone. Part 2 (decompose) is harder and may need a partner. Part 3 captures A9.5 (3D building) — accept any drawing that names 2+ 3D shapes."
+}

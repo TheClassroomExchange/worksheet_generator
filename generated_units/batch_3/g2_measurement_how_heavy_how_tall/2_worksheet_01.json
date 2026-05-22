@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "unit_id": "g2_measurement_how_heavy_how_tall",
+  "lesson_number": 1,
+  "worksheet_title": "Roo's Unit Picker",
+  "purpose": "Independent practice of E2.1.",
+  "student_learning_goal": "I can pick a non-standard unit and explain the inverse relationship.",
+  "header": {
+    "student_name_field": true,
+    "date_field": true,
+    "student_learning_goal_banner": "I can pick a non-standard unit and explain the inverse relationship.",
+    "character_watermark": "Roo with a ruler in the top-right. Small (~1.5in). References blueprint.recurring_characters."
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "parts": [
+        {
+          "part_number": 1,
+          "part_title": "Part 1: Match unit to object.",
+          "student_instructions": "Match each object to the BEST non-standard unit (cubes/hand-spans/footsteps).",
+          "visual_layout": "5 objects on left, 3 unit choices repeated; line-drawing match.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P1_MATCH",
+              "description": "A two-column match for Grade 2 worksheet, B&W line art. Left: 5 objects (pencil, book, desk, hallway, room). Right: 3 unit choices (cubes, hand-spans, footsteps).",
+              "placement": "Centred horizontally; spans Part 1.",
+              "approximate_size": "full_width",
+              "keywords": [
+                "unit",
+                "match"
+              ],
+              "text_image_alignment_check": "WS01_P1_MATCH at Part 1: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pencil → cubes. Book → cubes/hand-spans. Desk → hand-spans. Hallway → footsteps. Room → footsteps."
+        },
+        {
+          "part_number": 2,
+          "part_title": "Part 2: Two-way measure.",
+          "student_instructions": "Measure a pencil with cubes AND hand-spans. Note the inverse.",
+          "visual_layout": "Two columns: cubes column + hand-spans column.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P2_TWO",
+              "description": "Two-column table for Grade 2 worksheet. Left: 'Cubes: ___'. Right: 'Hand-spans: ___'. Below: 'Why are they different?'",
+              "placement": "Centred in Part 2.",
+              "approximate_size": "medium",
+              "keywords": [
+                "cubes",
+                "hand-spans"
+              ],
+              "text_image_alignment_check": "WS01_P2_TWO at Part 2: keywords name the units."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Pencil ≈ 18 cubes / 1 hand-span. Reasoning: smaller unit = more units."
+        },
+        {
+          "part_number": 3,
+          "part_title": "Part 3: At home.",
+          "student_instructions": "Pick 3 home objects. Choose unit and measure.",
+          "visual_layout": "Three numbered rows for the child to write objects, units, and counts at home.",
+          "image_placeholders": [
+            {
+              "id": "WS01_P3_HOME",
+              "description": "Three numbered rows for Grade 2 worksheet. Each: 'Object: ___ Unit: ___ Count: ___'.",
+              "placement": "Centred in Part 3.",
+              "approximate_size": "medium",
+              "keywords": [
+                "home",
+                "objects"
+              ],
+              "text_image_alignment_check": "WS01_P3_HOME at Part 3: keywords name the activity."
+            }
+          ],
+          "student_response_type": "draw_or_write",
+          "answer_key": "Any 3 valid home measurements."
+        }
+      ]
+    }
+  ],
+  "early_finisher_prompt": "If you finish, measure the same object 3 different ways.",
+  "teacher_notes": "Lesson 1 consolidation. Use Part 1 as diagnostic."
+}
