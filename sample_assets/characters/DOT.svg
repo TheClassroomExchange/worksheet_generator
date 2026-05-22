@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Round squirrel ears with tufts -->
+  <path d="M 184 118 Q 174 70 200 70 Q 222 80 218 116 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="200" y1="80" x2="196" y2="68" stroke="black" stroke-width="2"/>
+  <line x1="208" y1="78" x2="208" y2="66" stroke="black" stroke-width="2"/>
+  <path d="M 328 118 Q 338 70 312 70 Q 290 80 294 116 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="312" y1="80" x2="316" y2="68" stroke="black" stroke-width="2"/>
+  <line x1="304" y1="78" x2="304" y2="66" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Bushy tail curl on right side -->
+  <path d="M 410 330 Q 470 300 460 240 Q 450 200 420 220 Q 440 240 432 270 Q 422 295 400 305"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 432 250 Q 444 240 446 228" fill="none" stroke="black" stroke-width="2"/>
+  <path d="M 422 280 Q 436 274 442 260" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Tiny squirrel nose + grin -->
+  <ellipse cx="256" cy="306" rx="6" ry="4" fill="black"/>
+  <path d="M 240 322 Q 256 336 272 322"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Whiskers on cheeks -->
+  <line x1="180" y1="312" x2="156" y2="306" stroke="black" stroke-width="1.5"/>
+  <line x1="180" y1="320" x2="156" y2="322" stroke="black" stroke-width="1.5"/>
+  <line x1="332" y1="312" x2="356" y2="306" stroke="black" stroke-width="1.5"/>
+  <line x1="332" y1="320" x2="356" y2="322" stroke="black" stroke-width="1.5"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: magnifying glass with chart/data icon -->
+  <circle cx="234" cy="414" r="24" fill="white" stroke="black" stroke-width="3"/>
+  <rect x="222" y="418" width="4" height="8" fill="black"/>
+  <rect x="230" y="412" width="4" height="14" fill="black"/>
+  <rect x="238" y="406" width="4" height="20" fill="black"/>
+  <rect x="246" y="416" width="4" height="10" fill="black"/>
+  <line x1="254" y1="434" x2="280" y2="458" stroke="black" stroke-width="5" stroke-linecap="round"/>
+</svg>

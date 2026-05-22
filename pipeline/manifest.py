@@ -134,6 +134,40 @@ def migrate_manifest(unit_dir: Path) -> list[str]:
     return added
 
 
+def extend_manifest_with_gates(unit_dir: Path) -> list[str]:
+    """Append the new gate stages (5 pair gates + overall_unit_gate +
+    visual_inspection) to a unit's existing manifest WITHOUT touching the
+    16 original content stages. Idempotent — re-running on an already-extended
+    manifest is a no-op.
+
+    Used to retrofit shipped Math units with the Language-style pipeline gates.
+
+    Returns the list of stage keys that were added.
+    """
+    manifest = load(unit_dir)
+    num_lessons = manifest.get("num_lessons", 5)
+    canonical_with_gates = stages_for_unit(num_lessons=num_lessons, with_gates=True)
+    added: list[str] = []
+    for st in canonical_with_gates:
+        if st.key in manifest["stages"]:
+            continue
+        manifest["stages"][st.key] = {
+            "label": st.label,
+            "short": st.short,
+            "output_filename": st.output_filename,
+            "depends_on": list(st.depends_on),
+            "status": "pending",
+            "attempts": 0,
+            "added_by_extension_at": _utcnow(),
+        }
+        added.append(st.key)
+    # Refresh stage_order to canonical (with-gates) ordering.
+    manifest["stage_order"] = [st.key for st in canonical_with_gates]
+    if added:
+        save(unit_dir, manifest)
+    return added
+
+
 def save(unit_dir: Path, manifest: dict) -> None:
     manifest["updated_at"] = _utcnow()
     # Recompute top-level status from stage statuses.
@@ -264,6 +298,10 @@ def _print_advisory_warnings(unit_dir: Path, stage_key: str,
         step count, consolidation prompt count for the blueprint's grade).
       - For blueprint stage: curriculum-text check (input_row.json verbatim
         text vs the in-repo REFERENCE for the unit's grade).
+      - For worksheet_NN / manipulatives / formative_reflection / assessment_suite
+        stages: image-text alignment (every ImagePlaceholder.keywords entry
+        must appear in the surrounding student-facing text). Catches drift at
+        write-time instead of at the rubric publication gate three stages later.
 
     Add more advisory checks here as they're built — they should be cheap,
     idempotent, and non-blocking.
@@ -287,6 +325,49 @@ def _print_advisory_warnings(unit_dir: Path, stage_key: str,
                 print(f"  [curriculum] {i}")
         except Exception as e:
             print(f"  [curriculum] advisory check failed: {e}")
+
+    # Image-text alignment — fire on every stage that ships ImagePlaceholders.
+    # Worksheet/manipulative/formative/assessment stages are gated by the same
+    # rubric drift check at publication time; surfacing the same warnings now
+    # means failures get caught and fixed when context is fresh, rather than
+    # accumulated across multiple stages and dumped at the rubric gate.
+    if (
+        stage_key.startswith("worksheet_")
+        or stage_key in ("manipulatives", "formative_reflection", "assessment_suite")
+    ):
+        try:
+            from .image_alignment import validate_stage_alignment
+            issues = validate_stage_alignment(unit_dir, stage_key)
+            for i in issues:
+                print(f"  [alignment] {i}")
+            if issues:
+                print(
+                    f"  [alignment] ↑ {len(issues)} issue(s) — fix before the rubric "
+                    f"drift gate (which BLOCKS publication on any alignment error)."
+                )
+        except Exception as e:
+            print(f"  [alignment] advisory check failed: {e}")
+
+    # Cross-stage consistency — schemas.consistency_check verifies that every
+    # downstream stage references blueprint M-ids / curriculum codes / lesson
+    # numbers that actually exist, plus a handful of other drift checks. It
+    # was previously called only manually (per CLAUDE.md step 7) and at the
+    # rubric drift pre-gate — meaning a broken reference could silently sit
+    # in `done` state for several stages before surfacing. Firing it
+    # automatically here closes that gap. Only runs once the blueprint exists
+    # (no point checking consistency of a blueprint against itself).
+    if (unit_dir / "0_blueprint.json").exists() and stage_key != "blueprint":
+        try:
+            issues = consistency_check(unit_dir)
+            for i in issues:
+                print(f"  [consistency] {i}")
+            if issues:
+                print(
+                    f"  [consistency] ↑ {len(issues)} issue(s) — these BLOCK the rubric "
+                    f"drift gate; fix before the unit reaches the publication step."
+                )
+        except Exception as e:
+            print(f"  [consistency] advisory check failed: {e}")
 
 
 def complete_stage(unit_dir: Path, stage_key: str, *, extra: dict | None = None) -> dict:

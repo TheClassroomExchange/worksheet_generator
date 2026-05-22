@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Newsie cap (peaked rounded cap) -->
+  <path d="M 198 116 Q 200 76 256 72 Q 312 76 314 116 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Cap brim -->
+  <path d="M 188 116 Q 200 124 314 124 Q 326 116 314 116 L 198 116 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Top button -->
+  <circle cx="256" cy="80" r="4" fill="black"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Friendly grin (wider) -->
+  <path d="M 224 310 Q 256 340 288 310"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 234 322 Q 256 332 278 322"
+        fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cute oval blush -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: small house silhouette on body -->
+  <path d="M 220 432 L 220 400 L 256 376 L 292 400 L 292 432 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Door -->
+  <rect x="246" y="408" width="20" height="24" fill="white" stroke="black" stroke-width="2.5"/>
+  <circle cx="262" cy="420" r="1.5" fill="black"/>
+  <!-- Window -->
+  <rect x="228" y="406" width="12" height="12" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="234" y1="406" x2="234" y2="418" stroke="black" stroke-width="1.5"/>
+  <line x1="228" y1="412" x2="240" y2="412" stroke="black" stroke-width="1.5"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

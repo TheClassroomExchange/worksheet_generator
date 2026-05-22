@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Two beetle antennae bending forward -->
+  <path d="M 220 108 Q 200 70 188 50"
+        fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="186" cy="48" r="6" fill="white" stroke="black" stroke-width="3"/>
+  <path d="M 292 108 Q 312 70 324 50"
+        fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="326" cy="48" r="6" fill="white" stroke="black" stroke-width="3"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Oval back-shell line down body center -->
+  <line x1="256" y1="298" x2="256" y2="445" stroke="black" stroke-width="3"/>
+
+  <!-- Six small leg lines on body sides -->
+  <line x1="100" y1="270" x2="80" y2="258" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="100" y1="350" x2="80" y2="362" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="412" y1="270" x2="432" y2="258" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="412" y1="350" x2="432" y2="362" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Curved smile -->
+  <path d="M 240 312 Q 256 326 272 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: small magnifying glass on body -->
+  <circle cx="232" cy="412" r="22" fill="white" stroke="black" stroke-width="3"/>
+  <circle cx="232" cy="412" r="14" fill="none" stroke="black" stroke-width="1.5"/>
+  <line x1="250" y1="430" x2="276" y2="454" stroke="black" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

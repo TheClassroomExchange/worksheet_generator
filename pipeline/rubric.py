@@ -175,15 +175,35 @@ def pre_grade_drift_check(unit_dir: Path) -> dict:
     consistency_issues = _sc.consistency_check(unit_dir)
     curriculum_issues = _cr.verify_curriculum_text(unit_dir)
     image_text_issues = _ia.validate_unit_alignment(unit_dir)
+    # Placeholder-artwork check (added 2026-05-03). compose_for_unit writes
+    # composed/.composed_manifest.json listing every image_id that fell back
+    # to _placeholder() (a labelled gray rectangle). Any placeholder in a
+    # graded unit means hero images are missing artwork, which the schema
+    # rejects at write time — but the drift sweep uses THIS function for
+    # ongoing audits, so include placeholder_count here too. Without this,
+    # a stale rubric_grade with status='pass' but with newly-introduced
+    # placeholders would slip through the daily drift audit.
+    import json as _json
+    cm_path = unit_dir / "composed" / ".composed_manifest.json"
+    placeholder_image_ids: list[str] = []
+    if cm_path.exists():
+        try:
+            cm = _json.loads(cm_path.read_text(encoding="utf-8"))
+            placeholder_image_ids = list(cm.get("placeholder_image_ids") or [])
+        except Exception:
+            placeholder_image_ids = []
     passed = (not consistency_issues
               and not curriculum_issues
-              and not image_text_issues)
+              and not image_text_issues
+              and not placeholder_image_ids)
     return {
         "consistency_check_issues": len(consistency_issues),
         "curriculum_text_issues": len(curriculum_issues),
         "image_text_alignment_issues": len(image_text_issues),
+        "placeholder_artwork_count": len(placeholder_image_ids),
         "passed": passed,
         "consistency_check_details": consistency_issues[:20],
         "curriculum_text_details": curriculum_issues[:20],
         "image_text_alignment_details": image_text_issues[:20],
+        "placeholder_image_ids": placeholder_image_ids[:20],
     }

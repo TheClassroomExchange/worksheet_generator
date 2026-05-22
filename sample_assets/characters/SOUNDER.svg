@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Two tiny rounded ear tufts on top -->
+  <path d="M 196 105 Q 198 70 224 100 Q 218 112 208 116 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 316 105 Q 314 70 288 100 Q 294 112 304 116 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby wings on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Tiny diamond beak shaped like /o/ -->
+  <path d="M 247 308 L 256 326 L 265 308 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Heart-shaped sound-wave pendant (signature accessory) -->
+  <path d="M 256 358 C 238 344, 215 358, 218 378 C 222 398, 256 422, 256 422 C 256 422, 290 398, 294 378 C 297 358, 274 344, 256 358 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Tiny musical note inside heart -->
+  <circle cx="248" cy="385" r="4" fill="black"/>
+  <line x1="252" y1="385" x2="252" y2="370" stroke="black" stroke-width="2.5"/>
+  <line x1="252" y1="370" x2="262" y2="368" stroke="black" stroke-width="2.5"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

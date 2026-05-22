@@ -657,8 +657,12 @@ class RubricGrade(_Strict):
     pre_grade_drift_check: dict = Field(
         description="Snapshot of pre-grade integrity gate. Required: "
                     "{'consistency_check_issues': int, "
-                    "'curriculum_text_issues': int, 'passed': bool}. "
-                    "RubricGrade with passed=False is itself a fail.")
+                    "'curriculum_text_issues': int, "
+                    "'placeholder_artwork_count': int, 'passed': bool}. "
+                    "RubricGrade with passed=False is itself a fail. "
+                    "placeholder_artwork_count > 0 also forces a fail "
+                    "(added 2026-05-03 after Counting Crew shipped "
+                    "with placeholder hero images on every slide).")
     scores: dict[str, RubricCriterionScore] = Field(
         description="Keys must be the 5 rubric criteria.")
     overall_score: int = Field(ge=5, le=20)
@@ -692,10 +696,22 @@ class RubricGrade(_Strict):
         expected_status = "pass" if self.overall_score >= self.threshold else "fail"
         # Pre-grade drift makes a "pass" impossible.
         gate_passed = bool(self.pre_grade_drift_check.get("passed"))
+        # Placeholder artwork on hero slides also blocks pass — the
+        # appearance criterion cannot legitimately be at L4 if the deck
+        # is rendering labelled gray boxes where character art / scene
+        # illustrations / manipulative imagery should be.
+        ph_count = int(self.pre_grade_drift_check.get("placeholder_artwork_count", 0) or 0)
         if not gate_passed and self.status == "pass":
             raise ValueError(
                 "status='pass' but pre_grade_drift_check.passed=False — "
                 "drift in upstream stages blocks publishing"
+            )
+        if ph_count > 0 and self.status == "pass":
+            raise ValueError(
+                f"status='pass' but pre_grade_drift_check."
+                f"placeholder_artwork_count={ph_count} — hero images are "
+                f"labelled placeholder boxes; extend pipeline/compose.py "
+                f"with real composites before re-grading."
             )
         if gate_passed and self.status != expected_status:
             raise ValueError(
@@ -958,12 +974,20 @@ def consistency_check(unit_dir: Path) -> list[str]:
                             f"manipulatives.{asset.asset_id}: image id {ph.id!r} should start with {expected_prefix!r}"
                         )
 
-            # Every recurring character in blueprint must have a corresponding character_puppet asset
-            bp_char_names = {c.name.lower() for c in bp.recurring_characters}
+            # Every recurring character in the blueprint must have a corresponding
+            # character_puppet asset. Match by the character's FIRST NAME (lowercased)
+            # appearing anywhere in a puppet asset's name — handles both
+            # "Coco the Conductor" (parade) and "Mae" / "Theo" / "Buddy" (math K).
+            bp_char_first_names = [
+                c.name.split()[0].lower() for c in bp.recurring_characters if c.name.strip()
+            ]
             puppet_names = {a.name.lower() for a in mp.assets if a.category == "character_puppet"}
-            # Coco specifically must be covered (it's referenced in lesson plans by name)
-            if not any("coco" in n for n in puppet_names):
-                issues.append("manipulatives: no character_puppet asset for Coco the Conductor")
+            for first in bp_char_first_names:
+                if not any(first in n for n in puppet_names):
+                    issues.append(
+                        f"manipulatives: no character_puppet asset for blueprint "
+                        f"recurring character {first!r}"
+                    )
 
     # ── FormativeReflection: expectations subset, image-prefix conventions ──
     fr_path = unit_dir / "4_formative_reflection.json"
@@ -1115,3 +1139,228 @@ def consistency_check(unit_dir: Path) -> list[str]:
                 )
 
     return issues
+
+
+# ── Gate verdict schemas (added 2026-05-08 with the new pair-gate / overall-gate / visual-inspection design) ────────
+
+CategoryName = Literal[
+    "pedagogical_depth", "alignment", "instructional_balance",
+    "clarity_voice", "lesson_worksheet_consistency",
+    "arc_coherence", "code_coverage", "capstone_integration",
+    "vocabulary_progression", "character_continuity",
+    "sor_alignment",              # Language only
+    "mathematical_authenticity",  # Math only
+]
+
+
+class CategoryFeedback(_Strict):
+    """Structured feedback for one rubric category that didn't meet target.
+
+    Used by both PairRubricVerdict and OverallUnitVerdict — when status is
+    'revise' (or any 'revise_*' variant) every below-target category MUST
+    have a CategoryFeedback entry. Specific evidence + concrete required_fix
+    are mandatory; vague feedback fails the schema.
+    """
+    category: CategoryName
+    current_score: int = Field(ge=1, le=4)
+    target_score: int = Field(ge=2, le=4,
+        description="Lowest passing score for this category in this gate context")
+    specific_evidence: str = Field(min_length=40, max_length=400,
+        description="Exact field/line in the artefact that triggered the score")
+    required_fix: str = Field(min_length=40, max_length=400,
+        description="Concrete action the model must take to reach target_score")
+    affected_stages: list[str] = Field(default_factory=list,
+        description="Stage names that need rework, e.g. ['lesson_03', 'worksheet_03']")
+    affected_pairs: list[int] = Field(default_factory=list,
+        description="Pair numbers needing rework (overall gate only)")
+    severity: Literal["blocking", "minor"] = "blocking"
+
+
+# ── Pair rubric (per lesson + worksheet pair) ────────────────────────
+
+class PairRubricScores(_Strict):
+    """Six categories scored 1-4. sor_alignment XOR mathematical_authenticity
+    is set per subject (the other is None).
+    """
+    alignment: int = Field(ge=1, le=4)
+    pedagogical_depth: int = Field(ge=1, le=4)
+    instructional_balance: int = Field(ge=1, le=4)
+    clarity_voice: int = Field(ge=1, le=4)
+    lesson_worksheet_consistency: int = Field(ge=1, le=4)
+    sor_alignment: int | None = Field(default=None, ge=1, le=4)
+    mathematical_authenticity: int | None = Field(default=None, ge=1, le=4)
+
+
+class PairRubricVerdict(_Strict):
+    schema_version: int = 1
+    unit_id: str
+    pair_number: int = Field(ge=1, le=5)
+    graded_at: str
+    graded_by: str
+    status: Literal["pass", "revise_lesson", "revise_worksheet", "revise_both"]
+    scores: PairRubricScores
+    category_feedback: list[CategoryFeedback] = Field(default_factory=list)
+    summary: str = Field(min_length=80, max_length=600)
+
+    @model_validator(mode="after")
+    def enforce_pair_rule(self) -> "PairRubricVerdict":
+        scored = [self.scores.alignment, self.scores.pedagogical_depth,
+                  self.scores.instructional_balance, self.scores.clarity_voice,
+                  self.scores.lesson_worksheet_consistency]
+        if self.scores.sor_alignment is not None:
+            scored.append(self.scores.sor_alignment)
+        if self.scores.mathematical_authenticity is not None:
+            scored.append(self.scores.mathematical_authenticity)
+        any_below_3 = any(s < 3 for s in scored)
+        threes = sum(1 for s in scored if s == 3)
+        # Pass bar: zero categories < 3 AND at most ONE category = 3
+        # (rest must be 4). More than one ≤3 = revise.
+        should_pass = (not any_below_3) and threes <= 1
+        if should_pass and self.status != "pass":
+            raise ValueError(
+                f"Scores meet pair pass bar (no <3, threes={threes}) but "
+                f"status={self.status!r}. Status must be 'pass'."
+            )
+        if not should_pass and self.status == "pass":
+            reason = []
+            if any_below_3:
+                reason.append("at least one category < 3")
+            if threes > 1:
+                reason.append(f"{threes} categories = 3 (max 1 allowed)")
+            raise ValueError(
+                f"Pass not allowed: {'; '.join(reason)}. Scores: {scored}"
+            )
+        if self.status != "pass" and not self.category_feedback:
+            raise ValueError(
+                "Revise verdict must include at least one CategoryFeedback "
+                "explaining what to fix."
+            )
+        # Subject-XOR sanity
+        if (self.scores.sor_alignment is not None) and \
+           (self.scores.mathematical_authenticity is not None):
+            raise ValueError(
+                "Set exactly one of sor_alignment (Language) or "
+                "mathematical_authenticity (Math); not both."
+            )
+        return self
+
+
+# ── Overall unit grader (whole-unit, strict bar) ──────────────────────
+
+class OverallUnitScores(_Strict):
+    """Foundational four MUST be 4. Arc-level: at most ONE may be 3."""
+    # Foundational four — must all be 4
+    pedagogical_depth: int = Field(ge=1, le=4)
+    alignment: int = Field(ge=1, le=4)
+    instructional_balance: int = Field(ge=1, le=4)
+    clarity_voice: int = Field(ge=1, le=4)
+    # Arc-level — at most ONE may be 3
+    arc_coherence: int = Field(ge=1, le=4)
+    code_coverage: int = Field(ge=1, le=4)
+    capstone_integration: int = Field(ge=1, le=4)
+    vocabulary_progression: int = Field(ge=1, le=4)
+    character_continuity: int = Field(ge=1, le=4)
+    sor_alignment: int | None = Field(default=None, ge=1, le=4)
+    mathematical_authenticity: int | None = Field(default=None, ge=1, le=4)
+
+
+class OverallUnitVerdict(_Strict):
+    schema_version: int = 1
+    unit_id: str
+    graded_at: str
+    graded_by: str
+    status: Literal["pass", "revise"]
+    scores: OverallUnitScores
+    category_feedback: list[CategoryFeedback] = Field(default_factory=list)
+    pairs_to_revise: list[int] = Field(default_factory=list)
+    summary: str = Field(min_length=80, max_length=600)
+
+    @model_validator(mode="after")
+    def enforce_decision_rule(self) -> "OverallUnitVerdict":
+        s = self.scores
+        foundational = [s.pedagogical_depth, s.alignment,
+                        s.instructional_balance, s.clarity_voice]
+        arc_level = [s.arc_coherence, s.code_coverage, s.capstone_integration,
+                     s.vocabulary_progression, s.character_continuity]
+        if s.sor_alignment is not None:
+            arc_level.append(s.sor_alignment)
+        if s.mathematical_authenticity is not None:
+            arc_level.append(s.mathematical_authenticity)
+
+        foundational_all_4 = all(score == 4 for score in foundational)
+        arc_threes = sum(1 for score in arc_level if score == 3)
+        arc_below_3 = sum(1 for score in arc_level if score < 3)
+
+        should_pass = foundational_all_4 and arc_threes <= 1 and arc_below_3 == 0
+
+        if should_pass and self.status != "pass":
+            raise ValueError(
+                "Scores meet pass bar (all foundational=4, "
+                f"arc threes={arc_threes}, arc <3={arc_below_3}) but "
+                f"status={self.status!r}. Status must be 'pass'."
+            )
+        if not should_pass and self.status == "pass":
+            failures = []
+            if not foundational_all_4:
+                failures.append(f"foundational not all 4 ({foundational})")
+            if arc_threes > 1:
+                failures.append(f"arc has {arc_threes} threes (max 1)")
+            if arc_below_3 > 0:
+                failures.append(f"arc has {arc_below_3} scores below 3")
+            raise ValueError(f"Status='pass' but bar not met: {'; '.join(failures)}")
+        if self.status == "revise" and not self.category_feedback:
+            raise ValueError(
+                "Revise verdict must include at least one CategoryFeedback."
+            )
+        if (s.sor_alignment is not None) and (s.mathematical_authenticity is not None):
+            raise ValueError("Set exactly one subject-specific category, not both.")
+        return self
+
+
+# ── Visual inspection (Phase C, after deck build) ─────────────────────
+
+VisualIssueCategory = Literal[
+    "text_overflow", "image_misplacement", "character_unrecognizable",
+    "low_contrast", "missing_asset", "title_clipping", "other",
+]
+
+
+class VisualInspectionIssue(_Strict):
+    slide_number: int = Field(ge=1, le=27)
+    category: VisualIssueCategory
+    description: str = Field(min_length=20, max_length=400)
+    suggested_fix: str = Field(min_length=20, max_length=400)
+    severity: Literal["blocking", "minor"]
+
+
+class VisualInspectionVerdict(_Strict):
+    schema_version: int = 1
+    unit_id: str
+    deck_url: str
+    pdf_path: str
+    pdf_size_kb: int = Field(ge=0)
+    slide_count: int = Field(ge=1)
+    inspected_at: str
+    inspected_by: str
+    status: Literal["pass", "revise_assets", "revise_content", "revise_layout"]
+    issues: list[VisualInspectionIssue] = Field(default_factory=list)
+    blocking_count: int = Field(ge=0)
+    summary: str = Field(min_length=80, max_length=600)
+
+    @model_validator(mode="after")
+    def enforce_inspection_rule(self) -> "VisualInspectionVerdict":
+        actual_blocking = sum(1 for i in self.issues if i.severity == "blocking")
+        if actual_blocking != self.blocking_count:
+            raise ValueError(
+                f"blocking_count={self.blocking_count} disagrees with "
+                f"actual blocking issues={actual_blocking}"
+            )
+        if self.blocking_count == 0 and self.status != "pass":
+            raise ValueError(
+                f"Zero blocking issues but status={self.status!r}; must be 'pass'."
+            )
+        if self.blocking_count > 0 and self.status == "pass":
+            raise ValueError(
+                f"{self.blocking_count} blocking issues; status cannot be 'pass'."
+            )
+        return self

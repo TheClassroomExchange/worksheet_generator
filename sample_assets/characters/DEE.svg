@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Detective deerstalker cap: peak in front + side flaps -->
+  <path d="M 188 116 Q 200 76 256 70 Q 312 76 324 116 L 188 116 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Front peak -->
+  <path d="M 246 78 L 256 60 L 266 78 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Side flap left -->
+  <ellipse cx="180" cy="130" rx="20" ry="14" fill="white" stroke="black" stroke-width="3"/>
+  <!-- Side flap right -->
+  <ellipse cx="332" cy="130" rx="20" ry="14" fill="white" stroke="black" stroke-width="3"/>
+  <!-- Cap stripe -->
+  <line x1="200" y1="100" x2="312" y2="100" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Small mustache between eyes and grin -->
+  <path d="M 232 302 Q 244 308 256 304 Q 268 308 280 302"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Grin -->
+  <path d="M 236 322 Q 256 338 276 322"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: magnifying glass on body with '?' -->
+  <circle cx="238" cy="412" r="24" fill="white" stroke="black" stroke-width="3"/>
+  <circle cx="238" cy="412" r="16" fill="none" stroke="black" stroke-width="1.5"/>
+  <text x="238" y="420" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="black">?</text>
+  <line x1="258" y1="432" x2="282" y2="456" stroke="black" stroke-width="5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Hair top knot — two soft side puffs to evoke a young scientist look -->
+  <ellipse cx="200" cy="105" rx="22" ry="18"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="312" cy="105" rx="22" ry="18"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Lab coat collar V at the neckline -->
+  <path d="M 218 350 L 256 380 L 294 350"
+        fill="none" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Lab-coat pocket beaker patch (left side) -->
+  <rect x="170" y="370" width="42" height="32" rx="6"
+        fill="white" stroke="black" stroke-width="3"/>
+  <path d="M 184 380 L 184 392 L 178 396 L 200 396 L 194 392 L 194 380 Z"
+        fill="white" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Curved smile -->
+  <path d="M 240 312 Q 256 326 272 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: tiny BALANCE SCALE in front of body -->
+  <!-- Vertical post -->
+  <line x1="256" y1="408" x2="256" y2="448" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <!-- Horizontal beam -->
+  <line x1="216" y1="408" x2="296" y2="408" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <!-- Pivot triangle -->
+  <path d="M 248 408 L 256 396 L 264 408 Z"
+        fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Left pan -->
+  <path d="M 200 408 Q 216 422 232 408"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="216" y1="408" x2="216" y2="412" stroke="black" stroke-width="2"/>
+  <!-- Right pan -->
+  <path d="M 280 408 Q 296 422 312 408"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="296" y1="408" x2="296" y2="412" stroke="black" stroke-width="2"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

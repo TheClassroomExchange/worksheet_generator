@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Dog-ear flop (long droopy ears) -->
+  <path d="M 168 110 Q 150 170 174 220 Q 192 218 196 180 Q 200 140 192 108 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 344 110 Q 362 170 338 220 Q 320 218 316 180 Q 312 140 320 108 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Top dome between ears -->
+  <path d="M 192 108 Q 256 88 320 108"
+        fill="none" stroke="black" stroke-width="3"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Dog snout between eyes -->
+  <ellipse cx="256" cy="302" rx="22" ry="14" fill="white" stroke="black" stroke-width="3"/>
+  <!-- Nose -->
+  <ellipse cx="256" cy="296" rx="8" ry="6" fill="black"/>
+
+  <!-- Grin with tongue dot below -->
+  <path d="M 234 318 Q 256 334 278 318"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="256" cy="332" r="4" fill="black"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: wrench on body -->
+  <path d="M 200 410 Q 192 402 198 392 Q 206 388 212 396 L 246 422 Q 252 426 250 432 Q 248 440 240 440 Q 234 440 230 436 L 200 410 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Patch (square stitch) icon -->
+  <rect x="278" y="396" width="40" height="40" rx="4"
+        fill="white" stroke="black" stroke-width="3" stroke-dasharray="4,3"/>
+  <line x1="298" y1="396" x2="298" y2="436" stroke="black" stroke-width="1.5" stroke-dasharray="3,3"/>
+  <line x1="278" y1="416" x2="318" y2="416" stroke="black" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

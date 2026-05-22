@@ -39,7 +39,13 @@ _SAMPLE_ASSETS = _PROJECT_ROOT / "sample_assets"
 # plural/possessive/-ing endings. Good enough for keyword overlap without
 # pulling in NLTK. Order matters: longest matching suffix wins, and the
 # resulting stem must remain ≥ 4 characters (avoids "miss"→"mis").
-_TRIM_SUFFIXES = ("ies", "ing", "ed", "es", "'s", "s")
+#
+# The terminal "e" is included LAST so that "circle" and "circles" collapse
+# to the same stem ("circl"): "circles" is trimmed to "circl" via "es" first;
+# "circle" falls through every other suffix and finally trims "e" → "circl".
+# Without the "e" rule the validator would reject keyword "circle" against
+# a worksheet whose layout text uses "circles" (a real bug we hit in K math).
+_TRIM_SUFFIXES = ("ies", "ing", "ed", "es", "'s", "s", "e")
 
 
 def _stem(word: str) -> str:
@@ -163,6 +169,16 @@ def _walk_worksheet(ws_path: Path) -> list[str]:
 
 
 def _walk_manipulatives(unit_dir: Path) -> list[str]:
+    """Validate every ImagePlaceholder in 3_manipulatives.json.
+
+    Field names match the live ``Manipulatives`` Pydantic schema in
+    ``pipeline.schemas`` — ``assets`` (top-level), ``asset_id`` /
+    ``name`` / ``purpose`` / ``page_layout`` per asset. Older revisions
+    of this walker used parade-era field names (``manipulatives`` /
+    ``manipulative_id`` / ``how_to_use``) that no longer exist on the
+    schema, which silently no-op'd the entire walker — a real bug we
+    hit 2026-05-03 right after the K-math manipulatives stage shipped.
+    """
     issues: list[str] = []
     p = unit_dir / "3_manipulatives.json"
     if not p.exists():
@@ -171,12 +187,13 @@ def _walk_manipulatives(unit_dir: Path) -> list[str]:
         m = json.loads(p.read_text(encoding="utf-8"))
     except Exception as e:
         return [f"3_manipulatives.json: cannot parse JSON ({e})"]
-    for asset in m.get("manipulatives", []) or []:
-        a_id = asset.get("manipulative_id", "?")
+    for asset in m.get("assets", []) or []:
+        a_id = asset.get("asset_id", "?")
         surrounding = [
             asset.get("name", ""),
-            asset.get("description", ""),
-            asset.get("how_to_use", ""),
+            asset.get("purpose", ""),
+            asset.get("page_layout", ""),
+            " ".join(asset.get("teacher_prep_steps", []) or []),
         ]
         for ph in asset.get("image_placeholders", []) or []:
             label = f"manipulatives.{a_id}.{ph.get('id','?')}"
@@ -185,7 +202,19 @@ def _walk_manipulatives(unit_dir: Path) -> list[str]:
 
 
 def _walk_other_sheets(unit_dir: Path) -> list[str]:
-    """Reflection/formative + assessment_suite + marketplace certificate art."""
+    """Reflection/formative + assessment_suite + marketplace certificate art.
+
+    Schema shapes (live in ``pipeline.schemas``):
+      ``FormativeReflection.formative_worksheets: list[FormativeWorksheet]``
+      ``FormativeReflection.reflection_sheet: ReflectionSheet``
+      ``FormativeWorksheet.prompts: list[FormativePrompt]``
+      ``ReflectionSheet.prompts: list[ReflectionPrompt]``
+      ``FormativePrompt.image_placeholders: list[ImagePlaceholder]``
+      ``ReflectionPrompt.image_placeholders: list[ImagePlaceholder]``
+    Older revisions of this walker walked ``pages.parts.image_placeholders``
+    (a worksheet-shaped traversal that doesn't exist on these schemas),
+    which silently no-op'd the formative + reflection branch entirely.
+    """
     issues: list[str] = []
     fr_path = unit_dir / "4_formative_reflection.json"
     if fr_path.exists():
@@ -195,24 +224,28 @@ def _walk_other_sheets(unit_dir: Path) -> list[str]:
                 blocks = fr.get(sheet_name, [])
                 if isinstance(blocks, dict):
                     blocks = [blocks]
-                for sheet in blocks or []:
-                    surrounding = [
+                for sheet_idx, sheet in enumerate(blocks or []):
+                    header = sheet.get("header") or {}
+                    sheet_surrounding = [
                         sheet.get("purpose", ""),
                         sheet.get("student_learning_goal", ""),
                         sheet.get("title", ""),
+                        sheet.get("when_to_use", ""),
+                        header.get("student_learning_goal_banner", "") if isinstance(header, dict) else "",
+                        header.get("character_watermark", "") if isinstance(header, dict) else "",
                     ]
-                    for page in sheet.get("pages", []) or []:
-                        for ph in page.get("image_placeholders", []) or []:
-                            label = f"4_formative_reflection.{sheet_name}.{ph.get('id','?')}"
-                            issues += _validate_placeholder(label, ph, surrounding)
-                        for part in page.get("parts", []) or []:
-                            part_texts = surrounding + [
-                                part.get("student_instructions", ""),
-                                part.get("visual_layout", ""),
-                            ]
-                            for ph in part.get("image_placeholders", []) or []:
-                                label = f"4_formative_reflection.{sheet_name}.part.{ph.get('id','?')}"
-                                issues += _validate_placeholder(label, ph, part_texts)
+                    for prompt in sheet.get("prompts", []) or []:
+                        prompt_n = prompt.get("prompt_number", "?")
+                        prompt_texts = sheet_surrounding + [
+                            prompt.get("prompt", ""),
+                            prompt.get("visual_layout", ""),
+                        ]
+                        for ph in prompt.get("image_placeholders", []) or []:
+                            label = (
+                                f"4_formative_reflection.{sheet_name}"
+                                f"[{sheet_idx}].prompt{prompt_n}.{ph.get('id','?')}"
+                            )
+                            issues += _validate_placeholder(label, ph, prompt_texts)
         except Exception as e:
             issues.append(f"4_formative_reflection.json: cannot parse ({e})")
 
@@ -258,6 +291,34 @@ def validate_unit_alignment(unit_dir: Path) -> list[str]:
     return issues
 
 
+def validate_stage_alignment(unit_dir: Path, stage_key: str) -> list[str]:
+    """Per-stage alignment validation — used as the at-write-time advisory
+    guard inside ``manifest.complete_stage``. Walks ONLY the file owned by
+    ``stage_key`` so the warning fires the moment a misaligned image lands,
+    not three stages later when the full-unit drift gate runs.
+
+    Returns [] for stages that have no ImagePlaceholders (blueprint, lessons,
+    marketplace) — they are not the alignment validator's concern.
+    """
+    if stage_key.startswith("worksheet_"):
+        n = stage_key.split("_", 1)[1]
+        ws_path = unit_dir / f"2_worksheet_{n}.json"
+        return _walk_worksheet(ws_path) if ws_path.exists() else []
+
+    if stage_key == "manipulatives":
+        return _walk_manipulatives(unit_dir)
+
+    if stage_key in ("formative_reflection", "assessment_suite"):
+        # _walk_other_sheets handles both — but only return the issues whose
+        # label points to the stage we just completed.
+        all_issues = _walk_other_sheets(unit_dir)
+        prefix = "4_formative_reflection" if stage_key == "formative_reflection" else "5_assessment_suite"
+        return [i for i in all_issues if i.startswith(prefix)]
+
+    # blueprint, lesson_NN, marketplace, rubric_grade — no images to validate.
+    return []
+
+
 def report_for(unit_dir: Path) -> str:
     """Pretty-printed summary suitable for stdout / status checks."""
     issues = validate_unit_alignment(unit_dir)
@@ -267,3 +328,51 @@ def report_for(unit_dir: Path) -> str:
     for i in issues:
         out.append(f"  - {i}")
     return "\n".join(out)
+
+
+def report_alignment_status(units_root: Path | None = None) -> list[str]:
+    """Multi-unit summary intended for the session-start daily check block.
+
+    Walks every unit directory under ``generated_units/batch_*/`` (or the
+    given ``units_root``) that has at least one of the alignment-gated
+    stage outputs on disk and returns a one-line-per-unit status table.
+
+    Output mirrors the shape of ``curriculum_reference.report_reference_status``
+    so it can sit alongside it in the CLAUDE.md startup block.
+    """
+    if units_root is None:
+        units_root = _PROJECT_ROOT / "generated_units"
+    out: list[str] = []
+    if not units_root.exists():
+        return ["(no generated_units/ directory yet)"]
+    for batch_dir in sorted(units_root.iterdir()):
+        if not batch_dir.is_dir() or not batch_dir.name.startswith("batch_"):
+            continue
+        for unit_dir in sorted(batch_dir.iterdir()):
+            if not unit_dir.is_dir():
+                continue
+            # Only report on units that have at least one image-bearing stage.
+            has_images = any(
+                (unit_dir / f).exists()
+                for f in (
+                    "2_worksheet_01.json", "2_worksheet_02.json",
+                    "2_worksheet_03.json", "2_worksheet_04.json",
+                    "2_worksheet_05.json", "3_manipulatives.json",
+                    "4_formative_reflection.json", "5_assessment_suite.json",
+                )
+            )
+            if not has_images:
+                continue
+            issues = validate_unit_alignment(unit_dir)
+            label = f"{batch_dir.name}/{unit_dir.name}"
+            if not issues:
+                out.append(f"  ✓ {label}: clean")
+            else:
+                out.append(f"  ✗ {label}: {len(issues)} issue(s)")
+                for i in issues[:3]:  # cap detail per unit
+                    out.append(f"      - {i[:160]}")
+                if len(issues) > 3:
+                    out.append(f"      … and {len(issues) - 3} more (run report_for() for full list)")
+    if not out:
+        return ["(no image-bearing stages generated yet)"]
+    return out

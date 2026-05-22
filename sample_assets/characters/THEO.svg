@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Chef's toque (puffy hat with band) -->
+  <path d="M 200 110 Q 192 70 224 72 Q 240 50 260 72 Q 282 50 296 76 Q 326 72 316 112 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="200" y="108" width="116" height="14" rx="2"
+        fill="white" stroke="black" stroke-width="3"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Striped chef's apron band across waist -->
+  <rect x="138" y="392" width="236" height="22" rx="3"
+        fill="white" stroke="black" stroke-width="3"/>
+  <line x1="170" y1="392" x2="170" y2="414" stroke="black" stroke-width="2"/>
+  <line x1="200" y1="392" x2="200" y2="414" stroke="black" stroke-width="2"/>
+  <line x1="312" y1="392" x2="312" y2="414" stroke="black" stroke-width="2"/>
+  <line x1="342" y1="392" x2="342" y2="414" stroke="black" stroke-width="2"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Cheery smile -->
+  <path d="M 236 312 Q 256 332 276 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: a small whisk on body -->
+  <line x1="256" y1="356" x2="256" y2="380" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 240 380 Q 256 414 272 380 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 246 382 Q 256 406 266 382"
+        fill="none" stroke="black" stroke-width="2"/>
+  <line x1="252" y1="382" x2="252" y2="408" stroke="black" stroke-width="1.5"/>
+  <line x1="260" y1="382" x2="260" y2="408" stroke="black" stroke-width="1.5"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

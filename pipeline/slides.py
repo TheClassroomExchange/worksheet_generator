@@ -613,8 +613,13 @@ def build_overview_slide(idx: int, slide_id: str, bp: dict) -> list[dict]:
     })
     cur_y += 0.45
     lg_text = f"Learning Goal: {bp['unit_learning_goal']}"
-    lg_lines = _est_lines(lg_text, max_chars_per_line=80)
-    lg_h = max(0.55, lg_lines * 0.22)
+    # Recalibrated 2026-05-03 after Counting Crew slide 2: Lexend 13pt in
+    # 6.8" wraps closer to ~60 chars/line than the prior 80; line height
+    # ~0.26in not 0.22. Without these fixes a 200+ char learning goal
+    # underflowed its box and the wrapped 4th line overlapped the lesson
+    # arc table below.
+    lg_lines = _est_lines(lg_text, max_chars_per_line=60)
+    lg_h = max(0.55, lg_lines * 0.26)
     requests += _create_text_box(
         slide_id, _gen_id("lg", idx, 0),
         x_in=0.35, y_in=cur_y, w_in=6.8, h_in=lg_h,
@@ -628,11 +633,14 @@ def build_overview_slide(idx: int, slide_id: str, bp: dict) -> list[dict]:
             "textRange": {"type": "FIXED_RANGE", "startIndex": 0, "endIndex": 14},
         }
     })
-    table_y = cur_y + lg_h + 0.25
+    table_y = cur_y + lg_h + 0.30
     rows = len(bp["lesson_arc"]) + 1
     cols = 3  # PPTX has 3 cols: Lesson | Lesson Title | Learning Goal
     table_id = _gen_id("tbl", idx, 0)
-    table_h = max(3.0, SLIDE_HEIGHT_IN - table_y - 0.45)
+    # Bumped from -0.45 to -0.20 bottom margin so the Day 5 row doesn't get
+    # truncated when goals are long (R19 flagged g2_number_groups_of and
+    # g2_number_place_value_detectives).
+    table_h = max(3.0, SLIDE_HEIGHT_IN - table_y - 0.20)
     requests.append(_create_table(slide_id, table_id, x_in=0.35, y_in=table_y,
                                   w_in=6.8, h_in=table_h, rows=rows, cols=cols))
     return requests, table_id
@@ -828,15 +836,26 @@ def build_lesson_slide(idx: int, slide_id: str, lp: dict) -> list[dict]:
     ]
     section_y = y + len(metadata_lines) * line_h + 0.25  # ~3.05
     available = SLIDE_HEIGHT_IN - section_y - 0.30        # leave 0.30" bottom margin
-    HEADER_H = 0.40
+    HEADER_H_BASE = 0.40
     GAP_H = 0.18
     BODY_LINE_IN = 0.20  # ~12pt at line-height 1.4
     BODY_W_CHARS = 90    # at 12pt across 6.6" usable width
+    HEADER_W_CHARS = 65  # at 14pt bold across 6.8" — more conservative than body
 
-    # Pre-compute body text + estimated heights
+    # Pre-compute body text + estimated heights AND adaptive header height for
+    # each section. The section header reads "{label} ({duration} mins): {activity_name}"
+    # and at 14pt bold can wrap to 2+ lines when activity_name is long. Without
+    # the per-section HEADER_H, the body text crashes into the wrapped 2nd line
+    # (Counting Crew lessons 2-5 hit this — fixed 2026-05-03).
     body_metrics = []
     for key, label in sections:
         s = lp[key]
+        header_text = f"{label} ({s['duration_minutes']} mins): {s['activity_name']}"
+        n_header_lines = max(1, _est_lines(header_text, HEADER_W_CHARS))
+        # 14pt bold line height ≈ 0.30in; one-line header reserves ~0.40in of
+        # vertical space (with the title-bar slack). Each extra wrapped line
+        # bumps the reservation by 0.30in.
+        header_h = HEADER_H_BASE + (n_header_lines - 1) * 0.30
         body = _lesson_section_summary(lp, key)
         if s["activity_name"] in body:
             body = body.replace(s["activity_name"], "", 1).lstrip("\n")
@@ -845,10 +864,10 @@ def build_lesson_slide(idx: int, slide_id: str, lp: dict) -> list[dict]:
         natural_h = max(0.50, n_lines * BODY_LINE_IN)
         body_metrics.append({"key": key, "label": label, "body": body,
                              "duration": s["duration_minutes"], "activity": s["activity_name"],
-                             "natural_h": natural_h})
+                             "header_h": header_h, "natural_h": natural_h})
 
-    # Total natural height
-    total_natural = sum(HEADER_H + m["natural_h"] + GAP_H for m in body_metrics)
+    # Total natural height (per-section header heights, not a fixed HEADER_H)
+    total_natural = sum(m["header_h"] + m["natural_h"] + GAP_H for m in body_metrics)
     if total_natural > available:
         # Scale body heights proportionally so everything fits
         slack_needed = total_natural - available
@@ -875,21 +894,21 @@ def build_lesson_slide(idx: int, slide_id: str, lp: dict) -> list[dict]:
         for m in body_metrics:
             m["body_h"] = m["natural_h"] + extra * (m["natural_h"] / natural_total)
 
-    # Place sections sequentially
+    # Place sections sequentially using per-section header heights.
     sy = section_y
     for i, m in enumerate(body_metrics):
         header_text = f"{m['label']} ({m['duration']} mins): {m['activity']}"
         requests += _create_text_box(
             slide_id, _gen_id(f"shdr{i}", idx, 0),
-            x_in=0.35, y_in=sy, w_in=6.8, h_in=HEADER_H,
+            x_in=0.35, y_in=sy, w_in=6.8, h_in=m["header_h"],
             text=header_text, font_size_pt=14, bold=True, font_family=HEADING_FONT,
         )
         requests += _create_text_box(
             slide_id, _gen_id(f"sbod{i}", idx, 0),
-            x_in=0.55, y_in=sy + HEADER_H + 0.02, w_in=6.6, h_in=m["body_h"],
+            x_in=0.55, y_in=sy + m["header_h"] + 0.02, w_in=6.6, h_in=m["body_h"],
             text=m["body"], font_size_pt=12, font_family=BODY_FONT,
         )
-        sy += HEADER_H + m["body_h"] + GAP_H
+        sy += m["header_h"] + m["body_h"] + GAP_H
     return requests
 
 
@@ -1250,13 +1269,27 @@ def build_manipulative_slide(idx: int, slide_id: str, asset: dict,
         x_in=0.7, y_in=1.20, w_in=6.1, h_in=0.75,
         text=purpose_short, font_size_pt=13, font_family=BODY_FONT, align="CENTER",
     )
-    # Image — large, centered horizontally (image placement unchanged per user)
+    # Image — large, centered horizontally.
+    # Sizing rule: portrait-print manipulatives use the standard 3.50"-tall
+    # hero box. Landscape-print manipulatives (anchor charts, tally
+    # references, detective posters) need a wider+shorter rendering OR they
+    # appear as a tiny landscape strip on the slide; instead we widen the
+    # box AND drop the height proportionally so the chart enlarges
+    # horizontally to the full 6.8" usable width.
     if asset.get("image_placeholders"):
         ph = asset["image_placeholders"][0]
         png_path = composed_dir / f"{ph['id']}.png"
         if png_path.exists():
             file_id = uploader.upload(png_path, png_path.name)
-            tw, th = _fit_image(png_path, max_w_in=6.8, max_h_in=3.50)
+            ps = asset["print_specifications"]
+            is_landscape = ps.get("orientation") == "landscape"
+            if is_landscape:
+                # Landscape print spec: prefer width — use full 6.8" wide,
+                # taller box too (specs section gets ~2.95" instead of 3.70";
+                # specs/prep are short for chart-style assets so this fits).
+                tw, th = _fit_image(png_path, max_w_in=6.8, max_h_in=4.50)
+            else:
+                tw, th = _fit_image(png_path, max_w_in=6.8, max_h_in=3.50)
             ix = 0.35 + (6.8 - tw) / 2
             requests.append(_create_image(slide_id, _gen_id("img", idx, 0), file_id,
                                           x_in=ix, y_in=2.10, w_in=tw, h_in=th))
@@ -1283,9 +1316,14 @@ def build_manipulative_slide(idx: int, slide_id: str, asset: dict,
         f"   Lessons: {', '.join(map(str, asset['used_in_lessons']))}\n"
         f"   Prep: ~{asset['estimated_prep_minutes']} min"
     )
+    # Spec/prep block sits below the hero image. In landscape-print mode
+    # the image is taller (max 4.50" vs 3.50"), so the block starts lower.
+    spec_y = 6.95 if (asset.get("print_specifications", {}).get("orientation")
+                      == "landscape") else 5.95
+    spec_h = 9.65 - spec_y - 0.10  # leave a small bottom gutter on 10" slide
     requests += _create_text_box(
         slide_id, _gen_id("spec", idx, 0),
-        x_in=0.45, y_in=5.95, w_in=3.30, h_in=3.70,
+        x_in=0.45, y_in=spec_y, w_in=3.30, h_in=spec_h,
         text=left_text, font_size_pt=12, font_family=BODY_FONT,
     )
     # TEACHER PREP — keep first sentences short enough that 5 steps fit
@@ -1300,11 +1338,11 @@ def build_manipulative_slide(idx: int, slide_id: str, asset: dict,
     )
     if len(asset["teacher_prep_steps"]) > 5:
         prep += "\n   …"
-    PREP_H = 3.70
+    PREP_H = spec_h
     prep = _truncate_to_height(prep, PREP_H - 0.10, line_in=0.20, w_chars=42)
     requests += _create_text_box(
         slide_id, _gen_id("prep", idx, 0),
-        x_in=3.95, y_in=5.95, w_in=3.30, h_in=PREP_H,
+        x_in=3.95, y_in=spec_y, w_in=3.30, h_in=PREP_H,
         text=prep, font_size_pt=12, font_family=BODY_FONT,
     )
     return requests
@@ -1325,9 +1363,26 @@ def build_rubric_slide(idx: int, slide_id: str, rub: dict, bp: dict) -> list[dic
     n_rows = len(rub["rows"]) + 1
     n_cols = 5
     table_id = _gen_id("rub_tbl", idx, 0)
-    # Lots of vertical room in portrait
+    # Size the table to fit the actual row count — a 1-row rubric (e.g.
+    # single-expectation units like g1_financial F1.1) used to render with
+    # 7.50" of vertical space split across 2 rows = ~3.75"/row, leaving a
+    # huge empty middle. Compute height from real row count: header ~0.70",
+    # data rows ~1.30" each, capped at the prior 7.50" maximum.
+    HDR_H = 0.60
+    DATA_H = 1.30
+    n_data = len(rub["rows"])
+    # R22 found 5-row rubric (g1_number_adding_machine B2.5) still overflowed
+    # because Slides auto-expanded rows when cell text wrapped to many lines.
+    # Force ALL rubrics with n_data >= 3 to share BUDGET evenly so text wrap
+    # cannot push the table past the page; the adaptive char-limit + font
+    # ensure cells fit visually.
+    BUDGET = 7.20  # tighter; was 7.40
+    if n_data >= 3:
+        DATA_H = (BUDGET - HDR_H) / n_data
+    table_h = min(BUDGET, HDR_H + DATA_H * n_data)
     requests.append(_create_table(slide_id, table_id, x_in=0.30, y_in=2.05,
-                                  w_in=6.9, h_in=7.50, rows=n_rows, cols=n_cols))
+                                  w_in=6.9, h_in=table_h,
+                                  rows=n_rows, cols=n_cols))
     return requests, table_id
 
 
@@ -1701,17 +1756,83 @@ def validate_unit_for_slides(unit_dir: Path) -> list[str]:
                 f"certificate: {len(skills)} skills_demonstrated bullets; "
                 f"slide caps at ~6 before the Coco corner image overlap")
 
-    # 9. Manipulatives — teacher_prep_steps total length (slide budget 3.70" tall)
+    # 9. Manipulatives — teacher_prep_steps total length (slide budget 3.70" tall).
+    # Schema's top-level field is `assets`, NOT `manipulatives` — the older
+    # field name silently no-op'd this whole check.
     mn_path = unit_dir / "3_manipulatives.json"
     if mn_path.exists():
         mn = json.loads(mn_path.read_text(encoding="utf-8"))
-        for asset in mn.get("manipulatives", []) or []:
+        for asset in mn.get("assets", []) or []:
+            aid = asset.get("asset_id", "?")
+            # 9a. Total prep_steps budget (column truncates if too long overall)
             steps = asset.get("teacher_prep_steps", []) or []
             total_chars = sum(len(s) for s in steps[:5])
             if total_chars > 700:
                 warnings.append(
-                    f"manipulative {asset.get('asset_id','?')}: teacher_prep_steps "
+                    f"manipulative {aid}: teacher_prep_steps "
                     f"total {total_chars} chars; slide will truncate to fit")
+            # 9b. Per-step first-sentence rule. _first_sentence(s, 90) shows
+            # the first sentence-end before char 90, otherwise truncates with
+            # "...". Each step's first 90 chars MUST contain '.', '!', or '?'.
+            # Discovered 2026-05-03 in Counting Crew — 23/50 prep_steps had
+            # no early sentence end → mid-word truncation on every slide.
+            for i, s in enumerate(steps[:5]):
+                if not any(c in s[:90] for c in ".!?"):
+                    warnings.append(
+                        f"manipulative {aid}: teacher_prep_steps[{i+1}] "
+                        f"has no '.', '!', or '?' in first 90 chars — slide "
+                        f"will truncate mid-word with '...'. Add a tight first "
+                        f"sentence ending in a period.")
+            # 9c. Manipulative `name` length. Title slot is 6.8" wide at 24pt
+            # in a 0.55"-tall box — wrapping to 2 lines collides with the
+            # subtitle below. Discovered 2026-05-03 (M1 'Counting Cube
+            # Storage and Sorting Mat' = 37c overlapped its subtitle).
+            name = asset.get("name", "") or ""
+            if len(name) > 30:
+                warnings.append(
+                    f"manipulative {aid}: name is {len(name)} chars "
+                    f"({name!r}); will wrap to 2 lines and overlap the "
+                    f"asset_id subtitle — keep ≤30 chars.")
+
+    # 10. Lessons — big_idea length. The big_idea field renders as the "Goal:"
+    # header on each lesson slide; the metadata block reserves enough vertical
+    # space for ~2 wrapped lines. Big_ideas above ~100 chars wrap to 3+ lines
+    # and visibly collide with the Expectation line below. Discovered
+    # 2026-05-03: 4 of 5 lessons in Counting Crew shipped with 173-240 char
+    # big_ideas → "ExpectationTM6$.3rials:" type rendering artifacts on slides
+    # 4-7. The K Pattern Parade reference unit's big_ideas are 49-80 chars.
+    for lp_path in sorted(unit_dir.glob("1_lesson_*.json")):
+        lj = json.loads(lp_path.read_text(encoding="utf-8"))
+        bi = lj.get("big_idea", "") or ""
+        if len(bi) > 100:
+            ln = lj.get("lesson_number", "?")
+            warnings.append(
+                f"lesson_{ln:02d}: big_idea is {len(bi)} chars; will wrap "
+                f"and overlap the Expectation line on the lesson slide — "
+                f"keep ≤100 chars (reference units are 49-80).")
+
+    # 11. Composed-artwork placeholders. compose_for_unit writes
+    # `.composed_manifest.json` listing every image_id that fell back to
+    # _placeholder() (a labelled gray rectangle). Hero-image placeholders
+    # ship a deck where every worksheet/manipulative slide shows
+    # "M1_CUBE_SORTING_MAT" text-on-gray instead of artwork. Counting
+    # Crew (2026-05-03) shipped with 30+ placeholders before this gate
+    # existed. build_unit_deck checks this same field and refuses to
+    # publish to the shared folder when placeholders are present.
+    cm_path = unit_dir / "composed" / ".composed_manifest.json"
+    if cm_path.exists():
+        try:
+            cm = json.loads(cm_path.read_text(encoding="utf-8"))
+            ph = cm.get("placeholder_image_ids") or []
+            if ph:
+                warnings.append(
+                    f"composed: {len(ph)} placeholder hero image(s) — slide "
+                    f"will show labelled gray box instead of artwork. Extend "
+                    f"pipeline/compose.py with real composites for: "
+                    f"{', '.join(ph[:5])}{', …' if len(ph) > 5 else ''}. "
+                    f"build_unit_deck routes the unit to _drafts/ until cleared.")
+        except Exception:
+            pass
 
     return warnings
 
@@ -1764,7 +1885,31 @@ def build_unit_deck(unit_dir: Path, run_preflight: bool = True,
     else:
         grade_status = "missing"
     is_published = (grade_status == "pass")
-    print(f"Rubric grade: status={grade_status!r} overall={grade_overall!r} → "
+    # Placeholder-artwork gate. Even with a passing rubric, a deck whose
+    # hero images are labelled gray boxes is not shippable. This forces
+    # the deck to the _drafts/ subfolder and prints an explicit reason
+    # so the runner can extend compose.py before rebuilding. Added
+    # 2026-05-03 after Counting Crew shipped with 30+ placeholder images.
+    cm_path = unit_dir / "composed" / ".composed_manifest.json"
+    placeholder_count = 0
+    placeholder_ids: list[str] = []
+    if cm_path.exists():
+        try:
+            cm = json.loads(cm_path.read_text(encoding="utf-8"))
+            placeholder_ids = cm.get("placeholder_image_ids") or []
+            placeholder_count = len(placeholder_ids)
+        except Exception:
+            pass
+    if is_published and placeholder_count > 0:
+        is_published = False
+        print(f"Placeholder-artwork gate: {placeholder_count} hero image(s) "
+              f"are placeholder labelled boxes (no real composite in "
+              f"compose.py). Forcing route to _drafts. To publish: extend "
+              f"compose.py with real composites for "
+              f"{', '.join(placeholder_ids[:5])}{', …' if placeholder_count > 5 else ''} "
+              f"and rebuild.")
+    print(f"Rubric grade: status={grade_status!r} overall={grade_overall!r} "
+          f"placeholders={placeholder_count} → "
           f"{'PUBLISH to shared folder' if is_published else 'route to _drafts subfolder'}")
 
     # Resolve where the deck + assets land. A per-unit subfolder under the
@@ -1874,12 +2019,18 @@ def build_unit_deck(unit_dir: Path, run_preflight: bool = True,
     # Defer table cell-fill until after table creation
     def fill_overview(table_id):
         fills = []
+        # Adaptive font size — when learning goals average > 100 chars, drop
+        # to 11pt so the rows fit within their allocated height (R19 caught
+        # Day 5 truncation in g2_number_groups_of and place_value_detectives).
+        avg_goal_len = sum(len(e.get("student_learning_goal", ""))
+                            for e in bp["lesson_arc"]) // max(1, len(bp["lesson_arc"]))
+        body_pt = 11 if avg_goal_len > 100 else 12
         for col, label in enumerate(["Lesson", "Lesson Title", "Learning Goal"]):
             fills += _insert_table_text(table_id, 0, col, label, font_size_pt=12, bold=True)
         for r, entry in enumerate(bp["lesson_arc"], 1):
-            fills += _insert_table_text(table_id, r, 0, f"Day {entry['lesson_number']}", font_size_pt=12, bold=True)
-            fills += _insert_table_text(table_id, r, 1, entry["lesson_title"], font_size_pt=12, bold=True)
-            fills += _insert_table_text(table_id, r, 2, entry["student_learning_goal"], font_size_pt=12)
+            fills += _insert_table_text(table_id, r, 0, f"Day {entry['lesson_number']}", font_size_pt=body_pt, bold=True)
+            fills += _insert_table_text(table_id, r, 1, entry["lesson_title"], font_size_pt=body_pt, bold=True)
+            fills += _insert_table_text(table_id, r, 2, entry["student_learning_goal"], font_size_pt=body_pt)
         return fills
     table_fills.append((ov_table, fill_overview))
     idx += 1
@@ -2031,34 +2182,62 @@ def build_unit_deck(unit_dir: Path, run_preflight: bool = True,
             ("Grade 2", "C1.4", 4): "Uses larger rules; recognizes factors of 100; generalizes term-value relationship.",
         }
 
+        # Adaptive font + char-limits. R21 found that fully-removing the
+        # truncation caused 5+ row rubrics to row-expand past the page (the
+        # cells grew vertically to fit wrapped text). Reintroduce a char cap
+        # that scales with row count, BUT trim at clean word boundary (no
+        # "…" ellipsis). This keeps the table within budget while preserving
+        # the most content possible for the available rows.
+        n_data = len(rub["rows"])
+        if n_data >= 8:
+            font_pt, exp_chars, lvl_chars = 7, 90, 110
+        elif n_data == 7:
+            font_pt, exp_chars, lvl_chars = 8, 100, 130
+        elif n_data == 6:
+            font_pt, exp_chars, lvl_chars = 8, 110, 150
+        elif n_data == 5:
+            font_pt, exp_chars, lvl_chars = 8, 110, 130
+        elif n_data == 4:
+            font_pt, exp_chars, lvl_chars = 10, 160, 220
+        else:
+            font_pt, exp_chars, lvl_chars = 10, 300, 400
+
+        def _word_trim(text: str, max_c: int) -> str:
+            """Truncate at last whole word ≤ max_c, no ellipsis."""
+            if not text or len(text) <= max_c:
+                return text
+            cut = text[:max_c]
+            # If we'd be mid-word, back up to last space
+            if cut and cut[-1] != " " and " " in cut:
+                cut = cut.rsplit(" ", 1)[0]
+            return cut.rstrip(".,;: ").strip()
+
         def lookup_short_exp(code: str) -> str:
-            return (
-                SHORT_EXP.get((grade, code))
-                or SHORT_EXP.get(code)
-                or _first_sentence(
-                    next((row_["expectation_text"] for row_ in rub["rows"]
-                          if row_["expectation_code"] == code), code),
-                    max_chars=50,
-                )
-            )
+            short = SHORT_EXP.get((grade, code)) or SHORT_EXP.get(code)
+            if short:
+                return short
+            full = next((row_["expectation_text"] for row_ in rub["rows"]
+                          if row_["expectation_code"] == code), code)
+            return _word_trim(full, exp_chars)
 
         def lookup_short_level(code: str, level: int, level_descriptor: str) -> str:
-            return (
-                SHORT_LEVEL.get((grade, code, level))
-                or SHORT_LEVEL.get((code, level))
-                or _first_sentence(level_descriptor, max_chars=80)
-            )
+            short = (SHORT_LEVEL.get((grade, code, level))
+                     or SHORT_LEVEL.get((code, level)))
+            if short:
+                return short
+            return _word_trim(level_descriptor, lvl_chars)
 
         for r, row in enumerate(rub["rows"], 1):
             exp_short = lookup_short_exp(row["expectation_code"])
             fills += _insert_table_text(table_id, r, 0,
                                         f"{row['expectation_code']}\n{exp_short}",
-                                        font_size_pt=10, bold=True)
+                                        font_size_pt=font_pt, bold=True)
             for col_n in range(1, 5):
                 lvl_desc = next(l["descriptor"] for l in row["levels"]
                                 if l["level_number"] == col_n)
                 desc = lookup_short_level(row["expectation_code"], col_n, lvl_desc)
-                fills += _insert_table_text(table_id, r, col_n, desc, font_size_pt=10)
+                fills += _insert_table_text(table_id, r, col_n, desc,
+                                             font_size_pt=font_pt)
         return fills
     table_fills.append((rub_table, fill_rubric))
     idx += 1

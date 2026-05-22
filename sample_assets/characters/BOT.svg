@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Topper: square antenna with bolt on top -->
+  <line x1="256" y1="105" x2="256" y2="80" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <rect x="246" y="60" width="20" height="20" rx="2"
+        fill="white" stroke="black" stroke-width="4"/>
+  <!-- Bolt cross lines on the antenna head -->
+  <line x1="246" y1="70" x2="266" y2="70" stroke="black" stroke-width="2"/>
+  <line x1="256" y1="60" x2="256" y2="80" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Robot grin: small flat mouth with teeth grid -->
+  <rect x="236" y="308" width="40" height="14" rx="2"
+        fill="white" stroke="black" stroke-width="3"/>
+  <line x1="248" y1="308" x2="248" y2="322" stroke="black" stroke-width="2"/>
+  <line x1="260" y1="308" x2="260" y2="322" stroke="black" stroke-width="2"/>
+
+  <!-- Rectangular cheek lines for "robot face" -->
+  <rect x="132" y="290" width="32" height="16" rx="2"
+        fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <rect x="348" y="290" width="32" height="16" rx="2"
+        fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: small clipboard with checklist on body -->
+  <rect x="220" y="395" width="72" height="68" rx="4"
+        fill="white" stroke="black" stroke-width="3"/>
+  <!-- Clipboard clip at top -->
+  <rect x="244" y="388" width="24" height="12" rx="2"
+        fill="white" stroke="black" stroke-width="2.5"/>
+  <!-- Three checklist rows -->
+  <rect x="228" y="408" width="8" height="8"
+        fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 230 412 L 233 415 L 236 408"
+        fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="242" y1="413" x2="282" y2="413" stroke="black" stroke-width="2"/>
+  <rect x="228" y="424" width="8" height="8"
+        fill="white" stroke="black" stroke-width="2"/>
+  <path d="M 230 428 L 233 431 L 236 424"
+        fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="242" y1="429" x2="282" y2="429" stroke="black" stroke-width="2"/>
+  <rect x="228" y="440" width="8" height="8"
+        fill="white" stroke="black" stroke-width="2"/>
+  <line x1="242" y1="445" x2="282" y2="445" stroke="black" stroke-width="2"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

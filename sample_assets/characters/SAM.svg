@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Baseball cap topper with bill -->
+  <path d="M 208 110 Q 256 70 304 110 L 304 122 L 208 122 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Cap bill jutting forward/right -->
+  <path d="M 304 118 Q 332 118 336 128 L 304 128 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Cap button -->
+  <circle cx="256" cy="92" r="4" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Athletic jersey band across chest -->
+  <line x1="116" y1="350" x2="396" y2="350" stroke="black" stroke-width="3"/>
+  <line x1="116" y1="372" x2="396" y2="372" stroke="black" stroke-width="3"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Curved smile -->
+  <path d="M 236 312 Q 256 330 276 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Blush ovals with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: soccer ball with hex pattern -->
+  <circle cx="256" cy="420" r="28" fill="white" stroke="black" stroke-width="3"/>
+  <!-- Center pentagon -->
+  <path d="M 256 408 L 266 416 L 262 428 L 250 428 L 246 416 Z"
+        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Seam lines radiating to edge -->
+  <line x1="246" y1="416" x2="234" y2="412" stroke="black" stroke-width="2"/>
+  <line x1="266" y1="416" x2="278" y2="412" stroke="black" stroke-width="2"/>
+  <line x1="250" y1="428" x2="244" y2="442" stroke="black" stroke-width="2"/>
+  <line x1="262" y1="428" x2="268" y2="442" stroke="black" stroke-width="2"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

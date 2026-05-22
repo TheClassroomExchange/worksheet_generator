@@ -37,6 +37,21 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PLAN_STATE_PATH = PROJECT_ROOT / "unit_plan.json"
 
 
+def _atomic_write_json(path: Path, data: dict) -> None:
+    """Write JSON to ``path`` via a same-directory tmpfile + os.replace.
+
+    A crash mid-write can otherwise leave ``unit_plan.json`` half-formed —
+    next session can't parse it and refresh_state_from_disk silently
+    initialises a fresh state, dropping audits and statuses. The cost
+    of atomicity is two filesystem syscalls; well worth it for the
+    single source of truth that drives the entire programme runner.
+    """
+    import os
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(data, indent=2), encoding="utf-8")
+    os.replace(tmp, path)
+
+
 UnitStatus = Literal["complete", "in_progress", "planned"]
 
 
@@ -412,17 +427,32 @@ def load_state() -> dict:
 
 
 def save_state(statuses: dict[str, str]) -> None:
-    """Persist {unit_id: status} to unit_plan.json. Validates against PLAN."""
+    """Persist {unit_id: status} to unit_plan.json. Validates against PLAN.
+
+    Preserves any sibling keys already on disk (most importantly ``audits``,
+    written by ``record_audit``) — earlier revisions of this function did
+    a write-without-read and silently wiped audit history every time
+    ``refresh_state_from_disk`` ran at session start.
+    """
     valid_ids = {e.unit_id for e in PLAN}
     cleaned = {k: v for k, v in statuses.items() if k in valid_ids}
-    PLAN_STATE_PATH.write_text(json.dumps({
+    # Read-modify-write so we don't clobber `audits` (or future sibling keys).
+    if PLAN_STATE_PATH.exists():
+        try:
+            existing = json.loads(PLAN_STATE_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            existing = {}
+    else:
+        existing = {}
+    existing.update({
         "schema_version": 1,
         "total_units": len(PLAN),
         "complete": sum(1 for v in cleaned.values() if v == "complete"),
         "in_progress": sum(1 for v in cleaned.values() if v == "in_progress"),
         "planned": sum(1 for v in cleaned.values() if v == "planned"),
         "statuses": cleaned,
-    }, indent=2))
+    })
+    _atomic_write_json(PLAN_STATE_PATH, existing)
 
 
 def refresh_state_from_disk() -> dict[str, str]:
@@ -454,7 +484,20 @@ def refresh_state_from_disk() -> dict[str, str]:
             continue
         all_done = all(s.get("status") == "done" for s in m.get("stages", {}).values())
         deck_present = (ud / "validation_export.pdf").exists()
-        statuses[entry.unit_id] = "complete" if (all_done and deck_present) else "in_progress"
+        # Unit completion ALSO requires rubric_grade to have status='pass' inside
+        # the JSON. A schema-valid rubric_grade with status='fail' (e.g., due to
+        # placeholder hero artwork) keeps the unit in_progress — without this
+        # check, a "fail" rubric was being reported as complete because the
+        # stage itself was marked done. Added 2026-05-03.
+        rg_pass = False
+        if all_done:
+            rg_path = ud / "7_rubric_grade.json"
+            if rg_path.exists():
+                try:
+                    rg_pass = json.loads(rg_path.read_text(encoding="utf-8")).get("status") == "pass"
+                except Exception:
+                    rg_pass = False
+        statuses[entry.unit_id] = "complete" if (all_done and deck_present and rg_pass) else "in_progress"
     save_state(statuses)
     return statuses
 
@@ -507,7 +550,7 @@ def _save_audit_state(audits: dict[str, dict]) -> None:
     else:
         raw = {"schema_version": 1, "statuses": {}}
     raw["audits"] = audits
-    PLAN_STATE_PATH.write_text(json.dumps(raw, indent=2))
+    _atomic_write_json(PLAN_STATE_PATH, raw)
 
 
 def stalest_units(n: int = 10, only_complete: bool = True) -> list[UnitPlanEntry]:
@@ -537,13 +580,19 @@ def stalest_units(n: int = 10, only_complete: bool = True) -> list[UnitPlanEntry
 
 
 def record_audit(unit_id: str, *, status: str, issues: list[str]) -> None:
-    """Persist the result of one audit pass against this unit."""
+    """Persist the result of one audit pass against this unit.
+
+    Uses the same tz-aware ISO-8601 form as ``manifest._utcnow``, so all
+    timestamps in ``unit_plan.json`` and ``manifest.json`` files share a
+    single format that any downstream tooling can parse with
+    ``datetime.fromisoformat``.
+    """
     import datetime as _dt
     if status not in ("pass", "fail"):
         raise ValueError(f"audit status must be 'pass' or 'fail', got {status!r}")
     audits = _audit_state()
     audits[unit_id] = {
-        "last_audited_at": _dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "last_audited_at": _dt.datetime.now(_dt.timezone.utc).isoformat(timespec="seconds"),
         "last_audit_status": status,
         "last_audit_issues": (issues or [])[:10],
     }
@@ -634,10 +683,18 @@ def is_stage_generation_in_flight(threshold_minutes: int = 10) -> tuple[bool, st
             started = st.get("started_at")
             if not started:
                 continue
+            # manifest._utcnow emits the standard ISO-8601 form with a
+            # ``+00:00`` offset (e.g. "2026-05-02T13:11:14+00:00"); some
+            # older audit timestamps still use a trailing ``Z``. Accept
+            # both — the previous parser only accepted ``Z`` and silently
+            # skipped every real entry, breaking cron race protection.
+            normalised = started.replace("Z", "+00:00") if started.endswith("Z") else started
             try:
-                dt = _dt.strptime(started, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=_tz.utc)
+                dt = _dt.fromisoformat(normalised)
             except ValueError:
                 continue
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=_tz.utc)
             age_s = (now_utc - dt).total_seconds()
             if age_s < threshold_s:
                 return True, (

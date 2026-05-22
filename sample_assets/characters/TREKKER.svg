@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Triangular tiger ears -->
+  <path d="M 178 122 L 198 70 L 222 124 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 290 124 L 314 70 L 334 122 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 192 110 L 200 88 L 212 112 Z"
+        fill="black"/>
+  <path d="M 300 112 L 312 88 L 320 110 Z"
+        fill="black"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Tiger smile -->
+  <path d="M 240 314 Q 256 326 272 314"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Tiger stripes on cheeks (3 short curved lines per cheek) -->
+  <path d="M 140 290 Q 148 294 156 290" fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 138 302 Q 148 306 158 302" fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 142 314 Q 150 318 158 314" fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 356 290 Q 364 294 372 290" fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 354 302 Q 364 306 374 302" fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 354 314 Q 362 318 370 314" fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Signature: binoculars on body -->
+  <rect x="216" y="400" width="32" height="40" rx="6"
+        fill="white" stroke="black" stroke-width="3"/>
+  <rect x="264" y="400" width="32" height="40" rx="6"
+        fill="white" stroke="black" stroke-width="3"/>
+  <line x1="248" y1="412" x2="264" y2="412" stroke="black" stroke-width="3"/>
+  <line x1="248" y1="424" x2="264" y2="424" stroke="black" stroke-width="3"/>
+  <circle cx="232" cy="420" r="6" fill="none" stroke="black" stroke-width="2"/>
+  <circle cx="280" cy="420" r="6" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

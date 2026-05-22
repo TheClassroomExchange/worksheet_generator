@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Striped shopkeeper cap -->
+  <path d="M 214 110 Q 256 76 298 110 L 296 118 L 216 118 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Cap stripes -->
+  <line x1="222" y1="100" x2="290" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="226" y1="92" x2="286" y2="92" stroke="black" stroke-width="2"/>
+  <!-- Cap brim -->
+  <rect x="208" y="116" width="96" height="6" rx="2"
+        fill="white" stroke="black" stroke-width="3"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Penguin black-belly curved ellipse on lower body -->
+  <ellipse cx="256" cy="370" rx="92" ry="88" fill="black"/>
+
+  <!-- Tiny stubby arms (flippers) on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Tiny diamond beak -->
+  <path d="M 247 308 L 256 326 L 265 308 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Cute oval blush -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: "1¢" coin in circle on body (over black belly) -->
+  <circle cx="256" cy="400" r="28"
+          fill="white" stroke="black" stroke-width="3"/>
+  <path d="M 250 388 L 254 384 L 254 414"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="250" y1="414" x2="262" y2="414" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <text x="266" y="408" font-family="serif" font-size="18" font-weight="bold" fill="black">¢</text>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

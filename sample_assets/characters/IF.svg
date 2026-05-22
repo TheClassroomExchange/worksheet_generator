@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Triangular cat ears -->
+  <path d="M 184 118 L 196 70 L 224 110 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 328 118 L 316 70 L 288 110 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Detective deerstalker cap blended -->
+  <path d="M 200 110 Q 256 80 312 110 L 312 130 L 200 130 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Cap brim -->
+  <ellipse cx="256" cy="132" rx="70" ry="6"
+           fill="white" stroke="black" stroke-width="3"/>
+  <!-- Cap stitching -->
+  <line x1="256" y1="100" x2="256" y2="128" stroke="black" stroke-width="2" stroke-dasharray="3,3"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Tiny smile -->
+  <path d="M 240 314 Q 256 326 272 314"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cat whiskers on cheeks -->
+  <line x1="120" y1="290" x2="160" y2="294" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="120" y1="304" x2="160" y2="304" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="352" y1="294" x2="392" y2="290" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="352" y1="304" x2="392" y2="304" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: IF plaque with branching arrow -->
+  <rect x="216" y="392" width="80" height="38" rx="6"
+        fill="white" stroke="black" stroke-width="3"/>
+  <text x="256" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="black">IF</text>
+  <!-- Branching arrows below plaque -->
+  <line x1="240" y1="430" x2="226" y2="446" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="272" y1="430" x2="286" y2="446" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 220 442 L 226 446 L 224 440" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 292 442 L 286 446 L 288 440" fill="none" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Magnifying glass icon (small) -->
+  <circle cx="332" cy="372" r="10" fill="white" stroke="black" stroke-width="2.5"/>
+  <line x1="340" y1="380" x2="350" y2="390" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

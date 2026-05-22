@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Square pixel-ears (two square pixels on top) -->
+  <rect x="196" y="80" width="28" height="28"
+        fill="white" stroke="black" stroke-width="4"/>
+  <rect x="288" y="80" width="28" height="28"
+        fill="white" stroke="black" stroke-width="4"/>
+  <!-- Inner pixel detail -->
+  <rect x="206" y="90" width="8" height="8" fill="black"/>
+  <rect x="298" y="90" width="8" height="8" fill="black"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Square cheeky mouth -->
+  <rect x="240" y="312" width="32" height="18"
+        fill="white" stroke="black" stroke-width="3"/>
+  <line x1="248" y1="321" x2="264" y2="321" stroke="black" stroke-width="2"/>
+
+  <!-- Cute oval blush -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: 3x3 pixel grid icon on body -->
+  <rect x="220" y="380" width="72" height="72"
+        fill="white" stroke="black" stroke-width="3"/>
+  <!-- Vertical grid lines -->
+  <line x1="244" y1="380" x2="244" y2="452" stroke="black" stroke-width="1.5"/>
+  <line x1="268" y1="380" x2="268" y2="452" stroke="black" stroke-width="1.5"/>
+  <!-- Horizontal grid lines -->
+  <line x1="220" y1="404" x2="292" y2="404" stroke="black" stroke-width="1.5"/>
+  <line x1="220" y1="428" x2="292" y2="428" stroke="black" stroke-width="1.5"/>
+  <!-- Filled pixels in pattern -->
+  <rect x="220" y="380" width="24" height="24" fill="black"/>
+  <rect x="244" y="404" width="24" height="24" fill="black"/>
+  <rect x="268" y="428" width="24" height="24" fill="black"/>
+  <rect x="268" y="380" width="24" height="24" fill="black"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Graduation cap: square mortarboard on top -->
+  <rect x="208" y="92" width="96" height="10" rx="2"
+        fill="white" stroke="black" stroke-width="3"/>
+  <path d="M 230 102 L 230 116 Q 256 124 282 116 L 282 102 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Tassel -->
+  <line x1="296" y1="96" x2="316" y2="118" stroke="black" stroke-width="2.5"/>
+  <circle cx="318" cy="122" r="4" fill="white" stroke="black" stroke-width="2"/>
+  <!-- Cap button -->
+  <circle cx="256" cy="96" r="3" fill="black"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Curved smile -->
+  <path d="M 240 312 Q 256 328 272 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: × symbol in a circle on body -->
+  <circle cx="256" cy="410" r="32"
+          fill="white" stroke="black" stroke-width="3"/>
+  <line x1="240" y1="394" x2="272" y2="426" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <line x1="272" y1="394" x2="240" y2="426" stroke="black" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Star next to body -->
+  <path d="M 372 388 L 378 402 L 392 402 L 381 411 L 385 425 L 372 417 L 359 425 L 363 411 L 352 402 L 366 402 Z"
+        fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

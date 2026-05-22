@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Tool-belt cap with screwdriver icon -->
+  <path d="M 200 116 Q 196 80 256 76 Q 316 80 312 116 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="208" y1="106" x2="304" y2="106" stroke="black" stroke-width="2"/>
+  <!-- Tiny screwdriver icon on cap -->
+  <rect x="248" y="84" width="16" height="6" rx="1" fill="white" stroke="black" stroke-width="1.8"/>
+  <line x1="256" y1="90" x2="256" y2="100" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tool-belt band across waist -->
+  <rect x="138" y="384" width="236" height="18" rx="4"
+        fill="white" stroke="black" stroke-width="3"/>
+  <rect x="248" y="384" width="16" height="18" rx="2"
+        fill="white" stroke="black" stroke-width="2.5"/>
+  <!-- Belt loops -->
+  <rect x="170" y="386" width="8" height="14" rx="1" fill="white" stroke="black" stroke-width="1.8"/>
+  <rect x="334" y="386" width="8" height="14" rx="1" fill="white" stroke="black" stroke-width="1.8"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Curved smile -->
+  <path d="M 236 312 Q 256 330 276 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: small toolbox on body -->
+  <rect x="208" y="416" width="96" height="38" rx="3"
+        fill="white" stroke="black" stroke-width="3"/>
+  <!-- Toolbox handle -->
+  <path d="M 232 416 Q 232 402 256 402 Q 280 402 280 416"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <!-- Latch -->
+  <rect x="248" y="424" width="16" height="8" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

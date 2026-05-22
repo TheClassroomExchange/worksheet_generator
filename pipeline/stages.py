@@ -21,8 +21,14 @@ class Stage:
     short: str = ""               # 2-letter code for the dashboard column
 
 
-def stages_for_unit(num_lessons: int = 5) -> list[Stage]:
-    """Build the ordered stage list for a unit with `num_lessons` lessons."""
+def stages_for_unit(num_lessons: int = 5, with_gates: bool = False) -> list[Stage]:
+    """Build the ordered stage list for a unit with `num_lessons` lessons.
+
+    When ``with_gates=True``, includes the new pair_NN_gate, overall_unit_gate,
+    and visual_inspection stages introduced 2026-05-08 with the Language
+    programme design. Existing math units can be retrofitted via
+    ``manifest.extend_manifest_with_gates()``.
+    """
     s: list[Stage] = []
 
     s.append(Stage(
@@ -105,5 +111,38 @@ def stages_for_unit(num_lessons: int = 5) -> list[Stage]:
         depends_on=tuple(st.key for st in s),  # depends on every prior stage
         short="RG",
     ))
+
+    if with_gates:
+        # Pair gates — one after each (lesson_NN, worksheet_NN). Each gate
+        # spawns the pair_rubric_grader skill, which writes a typed verdict.
+        for i in range(1, num_lessons + 1):
+            s.append(Stage(
+                key=f"pair_{i:02d}_gate",
+                label=f"Pair {i} rubric gate",
+                output_filename=f"pair_{i:02d}_verdict.json",
+                prompt_template="",
+                depends_on=("blueprint", f"lesson_{i:02d}", f"worksheet_{i:02d}"),
+                short=f"P{i}",
+            ))
+
+        # Overall unit gate — strict bar. Spawns overall_unit_grader skill.
+        s.append(Stage(
+            key="overall_unit_gate",
+            label="Overall unit rubric gate (strict bar)",
+            output_filename="overall_unit_verdict.json",
+            prompt_template="",
+            depends_on=tuple(st.key for st in s if st.key != "rubric_grade") + ("rubric_grade",),
+            short="OU",
+        ))
+
+        # Visual inspection — Phase C, after deck is built.
+        s.append(Stage(
+            key="visual_inspection",
+            label="Visual inspection (Phase C, post-deck-build)",
+            output_filename="visual_inspection_verdict.json",
+            prompt_template="",
+            depends_on=("overall_unit_gate",),
+            short="VI",
+        ))
 
     return s

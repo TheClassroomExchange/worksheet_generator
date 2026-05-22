@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Topper: two tiny round bear ears -->
+  <ellipse cx="200" cy="108" rx="20" ry="18"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="312" cy="108" rx="20" ry="18"
+           fill="white" stroke="black" stroke-width="4"/>
+  <!-- Inner ear detail -->
+  <ellipse cx="200" cy="110" rx="9" ry="8"
+           fill="none" stroke="black" stroke-width="2"/>
+  <ellipse cx="312" cy="110" rx="9" ry="8"
+           fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Bear nose-snout below eyes (oval muzzle with little nose) -->
+  <ellipse cx="256" cy="312" rx="34" ry="22"
+           fill="white" stroke="black" stroke-width="3"/>
+  <!-- Tiny triangular nose -->
+  <path d="M 248 302 L 256 312 L 264 302 Z"
+        fill="black" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Small smile under nose -->
+  <path d="M 244 322 Q 256 332 268 322"
+        fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: piggy-bank-shape pocket on body with coin slit + dollar sign -->
+  <!-- Piggy bank body (rounded rectangle) -->
+  <ellipse cx="256" cy="420" rx="56" ry="32"
+           fill="white" stroke="black" stroke-width="3"/>
+  <!-- Coin slit on top -->
+  <rect x="246" y="394" width="20" height="5" rx="1"
+        fill="black"/>
+  <!-- Dollar sign in center -->
+  <text x="256" y="430" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="26" font-weight="bold" fill="black">$</text>
+  <!-- Tiny piggy snout circle -->
+  <circle cx="306" cy="420" r="6" fill="white" stroke="black" stroke-width="2"/>
+  <circle cx="304" cy="418" r="1.5" fill="black"/>
+  <circle cx="308" cy="418" r="1.5" fill="black"/>
+  <!-- Tiny piggy legs -->
+  <line x1="226" y1="450" x2="226" y2="456" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="286" y1="450" x2="286" y2="456" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 198 458 Q 195 478 210 478 Q 224 478 224 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 288 460 Q 288 478 302 478 Q 317 478 314 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

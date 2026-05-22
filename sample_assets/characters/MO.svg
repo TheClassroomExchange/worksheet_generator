@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Mystery-noir fedora silhouette -->
+  <path d="M 200 116 Q 256 80 312 116 L 308 124 L 204 124 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Fedora brim -->
+  <ellipse cx="256" cy="128" rx="78" ry="7"
+           fill="white" stroke="black" stroke-width="3"/>
+  <!-- Hat band -->
+  <line x1="208" y1="118" x2="304" y2="118" stroke="black" stroke-width="3"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Mustache between eyes (above grin) -->
+  <path d="M 230 298 Q 240 290 256 296 Q 272 290 282 298 Q 272 304 256 302 Q 240 304 230 298 Z"
+        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- Curved smile -->
+  <path d="M 240 318 Q 256 332 272 318"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: ? plaque on body -->
+  <rect x="220" y="390" width="72" height="48" rx="8"
+        fill="white" stroke="black" stroke-width="3"/>
+  <text x="256" y="426" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="black">?</text>
+
+  <!-- Mystery puzzle-piece icon -->
+  <path d="M 320 372 L 348 372 L 348 380 Q 354 380 354 386 Q 354 392 348 392 L 348 400 L 332 400 L 332 392 Q 326 392 326 386 Q 326 380 332 380 L 332 372 Z"
+        fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

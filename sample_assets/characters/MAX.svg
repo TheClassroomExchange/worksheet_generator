@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Small antlers — two horns each side -->
+  <path d="M 210 110 Q 196 78 188 60 M 210 110 Q 196 92 178 92"
+        fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 302 110 Q 316 78 324 60 M 302 110 Q 316 92 334 92"
+        fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Long moose snout between/below eyes -->
+  <ellipse cx="256" cy="320" rx="30" ry="22"
+           fill="white" stroke="black" stroke-width="3"/>
+  <ellipse cx="248" cy="316" rx="3" ry="2" fill="black"/>
+  <ellipse cx="264" cy="316" rx="3" ry="2" fill="black"/>
+  <path d="M 244 332 Q 256 340 268 332"
+        fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cute oval blush -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: vertical ruler with tick marks across body -->
+  <rect x="244" y="362" width="24" height="92" rx="3"
+        fill="white" stroke="black" stroke-width="3"/>
+  <line x1="244" y1="374" x2="256" y2="374" stroke="black" stroke-width="2"/>
+  <line x1="244" y1="386" x2="252" y2="386" stroke="black" stroke-width="2"/>
+  <line x1="244" y1="398" x2="256" y2="398" stroke="black" stroke-width="2"/>
+  <line x1="244" y1="410" x2="252" y2="410" stroke="black" stroke-width="2"/>
+  <line x1="244" y1="422" x2="256" y2="422" stroke="black" stroke-width="2"/>
+  <line x1="244" y1="434" x2="252" y2="434" stroke="black" stroke-width="2"/>
+  <line x1="244" y1="446" x2="256" y2="446" stroke="black" stroke-width="2"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 200 458 Q 197 478 212 478 Q 226 478 226 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 286 460 Q 286 478 300 478 Q 315 478 312 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

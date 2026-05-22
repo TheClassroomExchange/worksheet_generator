@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Coach cap with brim -->
+  <path d="M 196 110 Q 256 70 316 110 L 316 124 L 196 124 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="180" y="122" width="152" height="10" rx="3"
+        fill="white" stroke="black" stroke-width="3"/>
+  <!-- Small star on cap front -->
+  <path d="M 256 92 L 260 102 L 270 102 L 262 108 L 265 118 L 256 112 L 247 118 L 250 108 L 242 102 L 252 102 Z"
+        fill="white" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Whistle on a lanyard around neck -->
+  <path d="M 200 360 Q 256 388 312 360"
+        fill="none" stroke="black" stroke-width="2.5"/>
+  <ellipse cx="312" cy="372" rx="12" ry="8" fill="white" stroke="black" stroke-width="2.5"/>
+  <line x1="320" y1="370" x2="328" y2="368" stroke="black" stroke-width="2"/>
+
+  <!-- Coach's jersey band across waist -->
+  <rect x="120" y="392" width="272" height="14" rx="4"
+        fill="white" stroke="black" stroke-width="3"/>
+  <line x1="160" y1="399" x2="180" y2="399" stroke="black" stroke-width="2"/>
+  <line x1="332" y1="399" x2="352" y2="399" stroke="black" stroke-width="2"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Curved smile -->
+  <path d="M 238 312 Q 256 330 274 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: sports clipboard on body -->
+  <rect x="218" y="420" width="76" height="38" rx="3"
+        fill="white" stroke="black" stroke-width="3"/>
+  <rect x="244" y="414" width="24" height="10" rx="2"
+        fill="white" stroke="black" stroke-width="2.5"/>
+  <line x1="226" y1="432" x2="286" y2="432" stroke="black" stroke-width="1.5"/>
+  <line x1="226" y1="442" x2="286" y2="442" stroke="black" stroke-width="1.5"/>
+  <line x1="226" y1="452" x2="270" y2="452" stroke="black" stroke-width="1.5"/>
+</svg>

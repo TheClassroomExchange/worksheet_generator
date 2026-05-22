@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Antenna / hair-tuft on top -->
+  <line x1="256" y1="108" x2="256" y2="74" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="256" cy="68" r="8" fill="white" stroke="black" stroke-width="3"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Racing-stripe motif on body sides -->
+  <path d="M 110 260 Q 126 280 110 310" fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 96 270 Q 112 285 96 305" fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 402 260 Q 386 280 402 310" fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 416 270 Q 400 285 416 305" fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Excited grin -->
+  <path d="M 232 312 Q 256 332 280 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: "+2" skip-arrow on body (curved leaping arrow with +2 label) -->
+  <path d="M 200 420 Q 230 380 260 420"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 254 410 L 262 422 L 250 426 Z"
+        fill="black" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+  <text x="294" y="428" font-family="Arial, sans-serif" font-size="32"
+        font-weight="bold" text-anchor="start" fill="black">+2</text>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Triangular cat ears on top -->
+  <path d="M 196 110 L 210 70 L 232 112 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 280 112 L 302 70 L 316 110 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Inner ear lines -->
+  <line x1="212" y1="92" x2="218" y2="106" stroke="black" stroke-width="2"/>
+  <line x1="300" y1="92" x2="294" y2="106" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Tiny triangle cat nose -->
+  <path d="M 250 308 L 262 308 L 256 318 Z"
+        fill="black" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Cat smile -->
+  <path d="M 244 322 Q 256 332 268 322"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Whiskers on cheeks -->
+  <line x1="170" y1="318" x2="200" y2="320" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="170" y1="328" x2="200" y2="328" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="312" y1="320" x2="342" y2="318" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="312" y1="328" x2="342" y2="328" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: COMPASS on body -->
+  <circle cx="256" cy="425" r="30" fill="white" stroke="black" stroke-width="3"/>
+  <!-- N-S-E-W cross lines -->
+  <line x1="256" y1="400" x2="256" y2="450" stroke="black" stroke-width="2"/>
+  <line x1="231" y1="425" x2="281" y2="425" stroke="black" stroke-width="2"/>
+  <!-- Compass needle (N pointing up) -->
+  <path d="M 256 405 L 250 425 L 256 421 L 262 425 Z"
+        fill="black" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 256 445 L 250 425 L 262 425 Z"
+        fill="white" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Center pivot dot -->
+  <circle cx="256" cy="425" r="2.5" fill="black"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Topper: two triangular cat ears -->
+  <path d="M 184 118 L 198 70 L 226 116 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M 286 116 L 314 70 L 328 118 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Inner ear lines -->
+  <path d="M 200 90 L 208 110"
+        fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 312 90 L 304 110"
+        fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Tail curve at side (behind body, swooping out from right) -->
+  <path d="M 412 360 Q 460 360 456 300 Q 452 268 432 268"
+        fill="none" stroke="black" stroke-width="5" stroke-linecap="round"/>
+  <!-- Tail tip ring -->
+  <line x1="426" y1="270" x2="438" y2="270" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Tiny cat nose triangle -->
+  <path d="M 250 304 L 256 312 L 262 304 Z"
+        fill="black" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Cat smile w-mouth -->
+  <path d="M 256 312 Q 248 322 240 318"
+        fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 256 312 Q 264 322 272 318"
+        fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Whiskers on cheeks -->
+  <line x1="166" y1="312" x2="124" y2="306" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="166" y1="320" x2="124" y2="320" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="346" y1="312" x2="388" y2="306" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <line x1="346" y1="320" x2="388" y2="320" stroke="black" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: small calendar grid (3x3) on body with one date circled -->
+  <rect x="212" y="392" width="88" height="68" rx="4"
+        fill="white" stroke="black" stroke-width="3"/>
+  <!-- Calendar header bar -->
+  <rect x="212" y="392" width="88" height="14" rx="4"
+        fill="white" stroke="black" stroke-width="2.5"/>
+  <line x1="222" y1="399" x2="290" y2="399" stroke="black" stroke-width="1.5"/>
+  <!-- Vertical grid lines -->
+  <line x1="241" y1="406" x2="241" y2="460" stroke="black" stroke-width="1.5"/>
+  <line x1="270" y1="406" x2="270" y2="460" stroke="black" stroke-width="1.5"/>
+  <!-- Horizontal grid lines -->
+  <line x1="212" y1="424" x2="300" y2="424" stroke="black" stroke-width="1.5"/>
+  <line x1="212" y1="442" x2="300" y2="442" stroke="black" stroke-width="1.5"/>
+  <!-- Circled date in middle cell -->
+  <circle cx="256" cy="433" r="8" fill="none" stroke="black" stroke-width="2"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 462 Q 215 480 230 480 Q 244 480 244 462"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 462 Q 268 480 282 480 Q 297 480 294 462"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

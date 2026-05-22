@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Topper: two beetle antennae bending forward with little ball tips -->
+  <path d="M 220 108 Q 198 78 178 92"
+        fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="176" cy="92" r="6" fill="white" stroke="black" stroke-width="3"/>
+  <path d="M 292 108 Q 314 78 334 92"
+        fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="336" cy="92" r="6" fill="white" stroke="black" stroke-width="3"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Oval back-shell line down body center (beetle shell split) -->
+  <line x1="256" y1="180" x2="256" y2="460" stroke="black" stroke-width="3"/>
+  <!-- Shell rim curve at the top of body -->
+  <path d="M 130 200 Q 256 160 382 200"
+        fill="none" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Six small leg lines on body sides -->
+  <line x1="100" y1="280" x2="80" y2="270" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="100" y1="320" x2="78" y2="320" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="100" y1="360" x2="80" y2="372" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="412" y1="280" x2="432" y2="270" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="412" y1="320" x2="434" y2="320" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <line x1="412" y1="360" x2="432" y2="372" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Curious smile -->
+  <path d="M 240 314 Q 256 326 272 314"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: small magnifying glass on body -->
+  <!-- Glass circle (offset to right of center to not overlap shell line) -->
+  <circle cx="290" cy="408" r="22"
+          fill="white" stroke="black" stroke-width="3"/>
+  <!-- Inner reflection arc -->
+  <path d="M 278 398 Q 280 392 286 392"
+        fill="none" stroke="black" stroke-width="2" stroke-linecap="round"/>
+  <!-- Handle -->
+  <line x1="306" y1="424" x2="324" y2="442" stroke="black" stroke-width="6" stroke-linecap="round"/>
+  <line x1="306" y1="424" x2="324" y2="442" stroke="white" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

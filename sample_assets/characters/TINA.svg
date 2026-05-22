@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Detective deerstalker cap -->
+  <path d="M 188 118 Q 180 78 256 70 Q 332 78 324 118 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Side ear flaps -->
+  <ellipse cx="186" cy="108" rx="14" ry="10" fill="white" stroke="black" stroke-width="3"/>
+  <ellipse cx="326" cy="108" rx="14" ry="10" fill="white" stroke="black" stroke-width="3"/>
+  <!-- Top button -->
+  <circle cx="256" cy="78" r="5" fill="white" stroke="black" stroke-width="2.5"/>
+  <!-- Brim line -->
+  <line x1="190" y1="118" x2="322" y2="118" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Curved smile -->
+  <path d="M 240 312 Q 256 326 272 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature: "10" plaque on body -->
+  <rect x="200" y="384" width="76" height="40" rx="6"
+        fill="white" stroke="black" stroke-width="3"/>
+  <text x="238" y="414" font-family="sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="black">10</text>
+
+  <!-- Magnifying glass icon -->
+  <circle cx="306" cy="408" r="14" fill="none" stroke="black" stroke-width="3"/>
+  <line x1="316" y1="418" x2="332" y2="434" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

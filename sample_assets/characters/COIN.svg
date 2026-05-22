@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Topper: cashier-visor cap (curved brim with strap) -->
+  <!-- Visor brim curve -->
+  <path d="M 196 118 Q 256 92 316 118 Q 316 124 256 122 Q 196 124 196 118 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Visor strap loop -->
+  <path d="M 226 102 Q 256 90 286 102"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <!-- Tiny visor seam line -->
+  <line x1="216" y1="115" x2="296" y2="115" stroke="black" stroke-width="1.5"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Friendly cashier smile -->
+  <path d="M 232 312 Q 256 332 280 312"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: small register/till box with $ sign -->
+  <rect x="196" y="380" width="84" height="52" rx="4"
+        fill="white" stroke="black" stroke-width="3"/>
+  <!-- Register screen on top -->
+  <rect x="208" y="386" width="60" height="14" rx="2"
+        fill="white" stroke="black" stroke-width="2"/>
+  <text x="238" y="397" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="11" font-weight="bold" fill="black">$</text>
+  <!-- Register button grid -->
+  <line x1="220" y1="410" x2="220" y2="430" stroke="black" stroke-width="1.5"/>
+  <line x1="238" y1="410" x2="238" y2="430" stroke="black" stroke-width="1.5"/>
+  <line x1="256" y1="410" x2="256" y2="430" stroke="black" stroke-width="1.5"/>
+  <line x1="196" y1="420" x2="280" y2="420" stroke="black" stroke-width="1.5"/>
+
+  <!-- Apron pocket with stack of small circles (coins) on right side -->
+  <rect x="288" y="404" width="44" height="40" rx="3"
+        fill="white" stroke="black" stroke-width="2.5"/>
+  <!-- Coin stack inside pocket -->
+  <circle cx="310" cy="420" r="7" fill="white" stroke="black" stroke-width="2"/>
+  <text x="310" y="424" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="9" font-weight="bold" fill="black">$</text>
+  <circle cx="310" cy="434" r="7" fill="white" stroke="black" stroke-width="2"/>
+  <line x1="305" y1="434" x2="315" y2="434" stroke="black" stroke-width="1"/>
+
+  <!-- Stubby rounded feet -->
+  <path d="M 218 458 Q 215 478 230 478 Q 244 478 244 460"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 268 460 Q 268 478 282 478 Q 297 478 294 458"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>

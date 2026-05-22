@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Small leaf on head (flipping motif) -->
+  <path d="M 256 70 Q 232 86 244 110 Q 268 106 268 82 Q 264 74 256 70 Z"
+        fill="white" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <line x1="252" y1="78" x2="262" y2="106" stroke="black" stroke-width="2"/>
+
+  <!-- Unified egg-shaped body (head + body together, kawaii style) -->
+  <ellipse cx="256" cy="285" rx="160" ry="180"
+           fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Symmetry mirror line down center (subtle dashed) -->
+  <line x1="256" y1="365" x2="256" y2="385" stroke="black" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+  <!-- Tiny stubby arms on sides -->
+  <ellipse cx="112" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+  <ellipse cx="400" cy="310" rx="20" ry="44"
+           fill="white" stroke="black" stroke-width="4"/>
+
+  <!-- Big kawaii eyes (filled black ovals) -->
+  <ellipse cx="216" cy="245" rx="32" ry="42" fill="black"/>
+  <ellipse cx="296" cy="245" rx="32" ry="42" fill="black"/>
+
+  <!-- Eye sparkle highlights -->
+  <ellipse cx="224" cy="228" rx="10" ry="14" fill="white"/>
+  <ellipse cx="304" cy="228" rx="10" ry="14" fill="white"/>
+  <circle cx="208" cy="265" r="4" fill="white"/>
+  <circle cx="288" cy="265" r="4" fill="white"/>
+
+  <!-- Wide froggy grin -->
+  <path d="M 224 314 Q 256 336 288 314"
+        fill="none" stroke="black" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Cute oval blush with hatch lines -->
+  <ellipse cx="148" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="138" y1="298" x2="158" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="146" y1="293" x2="150" y2="303" stroke="black" stroke-width="1.5"/>
+  <ellipse cx="364" cy="298" rx="16" ry="9" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="354" y1="298" x2="374" y2="298" stroke="black" stroke-width="1.5"/>
+  <line x1="362" y1="293" x2="366" y2="303" stroke="black" stroke-width="1.5"/>
+
+  <!-- Signature accessory: paper folded triangle on body -->
+  <path d="M 220 410 L 292 410 L 256 460 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Fold crease line (dashed) -->
+  <line x1="256" y1="410" x2="256" y2="460" stroke="black" stroke-width="2" stroke-dasharray="4,3"/>
+  <!-- Small fold corner highlight -->
+  <path d="M 220 410 L 234 418 L 224 424 Z"
+        fill="white" stroke="black" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Webbed-foot feet -->
+  <path d="M 214 458 Q 208 478 222 480 Q 236 482 240 462 Q 232 472 224 472 Q 218 470 214 458 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 272 462 Q 276 482 290 480 Q 304 478 298 458 Q 294 470 288 472 Q 280 472 272 462 Z"
+        fill="white" stroke="black" stroke-width="3" stroke-linejoin="round"/>
+</svg>
