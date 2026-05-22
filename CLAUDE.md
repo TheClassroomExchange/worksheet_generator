@@ -66,6 +66,7 @@ if nxt: print(f'\\nNEXT UNIT: {nxt.unit_id} (anchor {nxt.anchor_code}, {nxt.grad
    from pipeline.curriculum_reference import report_reference_status
    from pipeline.density import report_cross_grade_density
    from pipeline.clipart import report_usage as report_clipart_usage
+   from pipeline.image_alignment import report_alignment_status
 
    for batch in ['batch_1', 'batch_2', 'batch_3']:
        bd = Path(f'generated_units/{batch}')
@@ -86,6 +87,15 @@ if nxt: print(f'\\nNEXT UNIT: {nxt.unit_id} (anchor {nxt.anchor_code}, {nxt.grad
    units = [u for u in units if (u/'0_blueprint.json').exists()]
    print('\n=== Cross-grade density ===')
    for line in report_cross_grade_density(units): print(line)
+
+   # Image-text alignment — every keyword in every ImagePlaceholder must
+   # appear in surrounding student-facing text. Drift here is the third
+   # rubric pre-gate component (alongside consistency_check + curriculum
+   # verification); a unit cannot record a passing rubric grade with any
+   # alignment issue. Surfaced at session-start so issues get fixed as
+   # they're introduced, not at the publication gate.
+   print('\n=== Image-text alignment ===')
+   for line in report_alignment_status(): print(line)
 
    # Clipart rotation status — what's fresh, what's been recycled.
    print('\n=== Clipart library ===')
@@ -151,7 +161,7 @@ For each pending stage:
    ```
 
 7a. **Advisory checks fire automatically** inside `complete_stage()` and
-    print warnings to stdout — they do NOT mark the stage failed. Two are
+    print warnings to stdout — they do NOT mark the stage failed. Three are
     wired in:
     - `pipeline.density.validate_lesson_density()` runs after every
       `lesson_NN` stage. It checks the minds_on `teacher_script` length,
@@ -162,11 +172,33 @@ For each pending stage:
       the `blueprint` stage. It diffs `input_row.json` against the in-repo
       `REFERENCE[grade]` and surfaces text drift plus the verification
       status of the reference itself (verified / best_effort / needs_human).
+    - `pipeline.image_alignment.validate_stage_alignment()` runs after
+      every stage that ships `ImagePlaceholder`s — `worksheet_NN`,
+      `manipulatives`, `formative_reflection`, `assessment_suite`. It
+      flags any keyword that is not present in the surrounding
+      student-facing text (and, when a clipart is referenced, any
+      keyword missing from the clipart's caption+tags). Same checker
+      runs as the third drift pre-gate at the rubric stage — surfacing
+      it per-stage means issues are caught when context is fresh, not
+      accumulated and dumped at the publication gate.
 
     Warnings are advisory — keep going. Don't ignore them silently though:
     if density says a lesson is out of band, ask whether you wrote too thin
     or too thick for the grade. If curriculum says `needs_human`, escalate
-    before shipping a paid unit.
+    before shipping a paid unit. **If alignment fires, fix it on the spot —
+    the rubric drift gate WILL fail with the same error and block
+    publication.** The fix is almost always one of: trim a keyword that
+    refers to something only in the image description (not in the
+    student-facing text), match the keyword spelling to the text token
+    form (`tens-frame` vs `ten-frame`), or add a brief mention to the
+    `student_instructions` / `visual_layout` if the keyword names something
+    load-bearing the child must read.
+
+    **Authoring rule for `ImagePlaceholder.keywords`:** write keywords
+    from the words your `student_instructions` and `visual_layout` actually
+    use, not from your description of the image. The image description
+    can mention apron/spoon/decorative-object detail; the keyword list is
+    the contract that "the child reads this word AND can see the thing".
 8. **If this was the last stage** (`marketplace`): render `unit.md` and update
    the spreadsheet status column to `generated`.
 
