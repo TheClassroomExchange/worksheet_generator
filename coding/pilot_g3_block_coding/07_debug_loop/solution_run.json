@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Ex 1 (find bug):   want 5 jumps, code says repeat 3 -> FIX repeat 5 ✓\nEx 2 (fix inside): inside is (red, red) -> FIX 2nd block to blue ✓\nEx 3 (fix count):  want 30 at 10 each, code repeat 2 -> FIX repeat 3 ✓\nEx 4 (challenge):  repeat 4 × 2 moves = 8; want 4 -> FIX to one move inside (=4) ✓\n\nALL CHECKS PASSED — every fix produces the correct result.\n",
+  "stderr": ""
+}

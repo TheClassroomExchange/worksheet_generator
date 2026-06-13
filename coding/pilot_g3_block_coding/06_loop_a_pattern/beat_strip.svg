@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diagram: a 3-action pattern (clap, clap, stomp) is the loop's inside; the
+     loop repeats the whole group. Original artwork. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 130" width="360" height="130">
+  <!-- one repeat group: 3 chips -->
+  <g font-family="Arial" font-size="11" text-anchor="middle">
+    <rect x="40" y="50" width="56" height="30" rx="8" fill="#4C8BF5"/><text x="68" y="69" fill="#fff">clap</text>
+    <rect x="100" y="50" width="56" height="30" rx="8" fill="#4C8BF5"/><text x="128" y="69" fill="#fff">clap</text>
+    <rect x="160" y="50" width="62" height="30" rx="8" fill="#9B6CF0"/><text x="191" y="69" fill="#fff">stomp</text>
+  </g>
+
+  <!-- bracket over the group -->
+  <path d="M36 42 L36 34 L226 34 L226 42" fill="none" stroke="#2BB293" stroke-width="2.5"/>
+  <text x="131" y="26" text-anchor="middle" font-family="Arial" font-size="12" fill="#2BB293" font-weight="bold">one repeat = 3 actions</text>
+
+  <!-- × 4 -->
+  <text x="270" y="70" font-family="Arial" font-size="20" fill="#243B53" font-weight="bold">× 4</text>
+  <text x="200" y="106" text-anchor="middle" font-family="Arial" font-size="12" fill="#486581">repeat 4 → 12 actions in all</text>
+
+  <!-- Bit small -->
+  <g transform="translate(322,64)">
+    <rect x="-15" y="-15" width="30" height="30" rx="9" fill="#6FE3C4" stroke="#2BB293" stroke-width="2"/>
+    <rect x="-10" y="-7" width="20" height="13" rx="5" fill="#102A43"/>
+    <circle cx="-4" cy="-1" r="2.2" fill="#7FFBE4"/><circle cx="4" cy="-1" r="2.2" fill="#7FFBE4"/>
+  </g>
+</svg>

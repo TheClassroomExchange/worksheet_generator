@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diagram: one green-flag event starts TWO scripts that loop at the same time
+     (concurrent). Original artwork. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 170" width="360" height="170">
+  <defs>
+    <marker id="a4" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 z" fill="#486581"/>
+    </marker>
+  </defs>
+
+  <!-- event -->
+  <rect x="120" y="12" width="120" height="34" rx="9" fill="#F2A23C" stroke="#D98828" stroke-width="2"/>
+  <polygon points="136,29 146,23 146,35" fill="#3FB66E"/>
+  <text x="188" y="33" text-anchor="middle" font-family="Arial" font-size="11" fill="#fff" font-weight="bold">when flag clicked</text>
+
+  <!-- two arrows splitting -->
+  <line x1="160" y1="48" x2="95" y2="74" stroke="#486581" stroke-width="3" marker-end="url(#a4)"/>
+  <line x1="220" y1="48" x2="285" y2="74" stroke="#486581" stroke-width="3" marker-end="url(#a4)"/>
+  <text x="180" y="66" text-anchor="middle" font-family="Arial" font-size="10" fill="#2BB293" font-weight="bold">both at once</text>
+
+  <!-- Script A loop box -->
+  <rect x="22" y="78" width="130" height="74" rx="10" fill="#EAF1FF" stroke="#4C8BF5" stroke-width="2.5"/>
+  <rect x="30" y="86" width="114" height="18" rx="6" fill="#F5A623"/>
+  <text x="87" y="99" text-anchor="middle" font-family="Arial" font-size="10" fill="#fff" font-weight="bold">repeat 4</text>
+  <rect x="40" y="110" width="94" height="15" rx="5" fill="#4C8BF5"/>
+  <text x="87" y="121" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">move 10</text>
+  <text x="87" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#3568C0" font-weight="bold">Script A</text>
+
+  <!-- Script B loop box -->
+  <rect x="208" y="78" width="130" height="74" rx="10" fill="#F3ECFD" stroke="#9B6CF0" stroke-width="2.5"/>
+  <rect x="216" y="86" width="114" height="18" rx="6" fill="#F5A623"/>
+  <text x="273" y="99" text-anchor="middle" font-family="Arial" font-size="10" fill="#fff" font-weight="bold">repeat 4</text>
+  <rect x="226" y="110" width="94" height="15" rx="5" fill="#9B6CF0"/>
+  <text x="273" y="121" text-anchor="middle" font-family="Arial" font-size="9" fill="#fff">play sound</text>
+  <text x="273" y="145" text-anchor="middle" font-family="Arial" font-size="10" fill="#7A4BD0" font-weight="bold">Script B</text>
+</svg>

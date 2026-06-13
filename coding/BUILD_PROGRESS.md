@@ -96,3 +96,15 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   pre-check passed, content_grade 20/20. NOTE: full Pydantic part-type schemas deferred —
   coding stages pass manifest's "no schema registered" check; gates enforced by the
   gate-result files (solution_run/content_grade/visual_grade) + `coding_rubric`. Next = Phase C (Sheet 2).
+- 2026-06-13: **Phase C DONE** — Sheet 2 "Loops That Make Patterns" through the full
+  checkpointed pipeline (run-gate, 20/20, drift passed, visual-inspected). Added
+  `build_to_render()` + `finalize_visual()` orchestration to coding_build.py. Revised
+  topics.json to a loop-centric G3 arc (sequential/concurrent-only sheets can't clear C1 for G3).
+- 2026-06-13: **Phase D DONE — full G3·Block Coding calibration batch (7 sheets) built.**
+  01 Loops · 02 Loops That Make Patterns · 03 Start It, Then Repeat · 04 Two Scripts Both
+  Repeating · 05 Read and Change a Loop · 06 Loop a Longer Pattern · 07 Find the Loop Bug.
+  EVERY sheet: run-gate PASS, content_grade **20/20** (C1–C5 all L4) + drift passed,
+  both PDFs rendered + visually inspected clean (each sheet has an original SVG diagram;
+  teacher guides tightened to 1 page). All at 5/6 stages — **`publish` pending = the human
+  `batch_verification` gate**. Per the goal, STOPPING here for user sign-off before publish
+  + before the next subject. Next (Phase E, after sign-off) = drive_publish.py + push 14 PDFs.
