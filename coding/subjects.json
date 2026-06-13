@@ -6,76 +6,160 @@
   "target_total": "~96 (8 subjects × 7 + 4 × 7-8)",
   "subjects": [
     {
-      "order": 1, "id": "g3_block_coding", "grade": "Grade 3", "subject": "Block Coding",
-      "rubric": "rubric_coding_G3.md", "dir": "pilot_g3_block_coding", "target_topics": 7,
+      "order": 1,
+      "id": "g3_block_coding",
+      "grade": "Grade 3",
+      "subject": "Block Coding",
+      "rubric": "rubric_coding_G3.md",
+      "dir": "pilot_g3_block_coding",
+      "target_topics": 7,
       "concept_ceiling": "sequential + concurrent + REPEATING (loops); blocks only, no typed code. Loop-centric arc.",
-      "status": "done", "built": 7, "published": true
+      "status": "done",
+      "built": 7,
+      "published": true
     },
     {
-      "order": 2, "id": "g3_python_turtle", "grade": "Grade 3", "subject": "Intro Python Turtle",
-      "rubric": "rubric_coding_G3.md", "dir": "g3_python_turtle", "target_topics": 7,
+      "order": 2,
+      "id": "g3_python_turtle",
+      "grade": "Grade 3",
+      "subject": "Intro Python Turtle",
+      "rubric": "rubric_coding_G3.md",
+      "dir": "g3_python_turtle",
+      "target_topics": 7,
       "concept_ceiling": "FIRST typed code: forward/left/right, for-loops, simple shapes. THIS is where the block→text bridge (C3-L4 path) belongs. solution.py MODELS the turtle path (no GUI) and asserts the figure — 'executes clean' via the model.",
-      "status": "planned", "built": 0, "published": false
+      "status": "done",
+      "built": 7,
+      "published": true
     },
     {
-      "order": 3, "id": "g3_debugging", "grade": "Grade 3", "subject": "Debugging",
-      "rubric": "rubric_coding_G3.md", "dir": "g3_debugging", "target_topics": 7,
+      "order": 3,
+      "id": "g3_debugging",
+      "grade": "Grade 3",
+      "subject": "Debugging",
+      "rubric": "rubric_coding_G3.md",
+      "dir": "g3_debugging",
+      "target_topics": 7,
       "concept_ceiling": "read/alter/fix block OR Turtle code involving repeating events; predict-then-correct. C3.2-heavy.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 4, "id": "k_unplugged_ct", "grade": "Kindergarten", "subject": "Unplugged Computational Thinking",
-      "rubric": "rubric_coding_K.md", "dir": "k_unplugged_ct", "target_topics": 8,
+      "order": 4,
+      "id": "k_unplugged_ct",
+      "grade": "Kindergarten",
+      "subject": "Unplugged Computational Thinking",
+      "rubric": "rubric_coding_K.md",
+      "dir": "k_unplugged_ct",
+      "target_topics": 8,
       "concept_ceiling": "unplugged + symbol/picture only, NO reading-dependent instructions, NO loops/text. Sorting, matching, 'what comes next', decomposition. K-frame (NOT C3).",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 5, "id": "k_sequencing", "grade": "Kindergarten", "subject": "Sequencing & Algorithms",
-      "rubric": "rubric_coding_K.md", "dir": "k_sequencing", "target_topics": 8,
+      "order": 5,
+      "id": "k_sequencing",
+      "grade": "Kindergarten",
+      "subject": "Sequencing & Algorithms",
+      "rubric": "rubric_coding_K.md",
+      "dir": "k_sequencing",
+      "target_topics": 8,
       "concept_ceiling": "daily-routine / directional sequencing, forward/turn arrows, ≤4 steps, picture-driven. K-frame.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 6, "id": "k_intro_block", "grade": "Kindergarten", "subject": "Intro Block Coding",
-      "rubric": "rubric_coding_K.md", "dir": "k_intro_block", "target_topics": 8,
+      "order": 6,
+      "id": "k_intro_block",
+      "grade": "Kindergarten",
+      "subject": "Intro Block Coding",
+      "rubric": "rubric_coding_K.md",
+      "dir": "k_intro_block",
+      "target_topics": 8,
       "concept_ceiling": "ScratchJr-style symbol-only blocks (arrows), single short sequence, no text. K-frame.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 7, "id": "g1_block_sequential", "grade": "Grade 1", "subject": "Block Coding (Sequential Events)",
-      "rubric": "rubric_coding_G1.md", "dir": "g1_block_sequential", "target_topics": 8,
+      "order": 7,
+      "id": "g1_block_sequential",
+      "grade": "Grade 1",
+      "subject": "Block Coding (Sequential Events)",
+      "rubric": "rubric_coding_G1.md",
+      "dir": "g1_block_sequential",
+      "target_topics": 8,
       "concept_ceiling": "SEQUENTIAL events only — order matters, one actor, ≤6 blocks. NO loops, NO concurrency. C3.1/C3.2 sequential.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 8, "id": "g1_unplugged_sequencing", "grade": "Grade 1", "subject": "Unplugged Sequencing & Algorithms",
-      "rubric": "rubric_coding_G1.md", "dir": "g1_unplugged_sequencing", "target_topics": 8,
+      "order": 8,
+      "id": "g1_unplugged_sequencing",
+      "grade": "Grade 1",
+      "subject": "Unplugged Sequencing & Algorithms",
+      "rubric": "rubric_coding_G1.md",
+      "dir": "g1_unplugged_sequencing",
+      "target_topics": 8,
       "concept_ceiling": "unplugged sequences/algorithms, light decodable reading + icons, ≤6 steps. NO loops.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 9, "id": "g1_intro_debugging", "grade": "Grade 1", "subject": "Intro Debugging",
-      "rubric": "rubric_coding_G1.md", "dir": "g1_intro_debugging", "target_topics": 8,
+      "order": 9,
+      "id": "g1_intro_debugging",
+      "grade": "Grade 1",
+      "subject": "Intro Debugging",
+      "rubric": "rubric_coding_G1.md",
+      "dir": "g1_intro_debugging",
+      "target_topics": 8,
       "concept_ceiling": "re-order a 3–5 block sequence to fix it (debugging = sequence repair). NO loops. C3.2.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 10, "id": "g2_block_concurrent", "grade": "Grade 2", "subject": "Block Coding (Concurrent Events)",
-      "rubric": "rubric_coding_G2.md", "dir": "g2_block_concurrent", "target_topics": 8,
+      "order": 10,
+      "id": "g2_block_concurrent",
+      "grade": "Grade 2",
+      "subject": "Block Coding (Concurrent Events)",
+      "rubric": "rubric_coding_G2.md",
+      "dir": "g2_block_concurrent",
+      "target_topics": 8,
       "concept_ceiling": "SEQUENTIAL + CONCURRENT — two scripts/sprites at once, parallel green-flag starts, ≤8 blocks. Loops still OUT (preview only). C3.1/C3.2.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 11, "id": "g2_events_parallel", "grade": "Grade 2", "subject": "Events & Parallel Scripts",
-      "rubric": "rubric_coding_G2.md", "dir": "g2_events_parallel", "target_topics": 8,
+      "order": 11,
+      "id": "g2_events_parallel",
+      "grade": "Grade 2",
+      "subject": "Events & Parallel Scripts",
+      "rubric": "rubric_coding_G2.md",
+      "dir": "g2_events_parallel",
+      "target_topics": 8,
       "concept_ceiling": "events + broadcasts + parallel scripts; two things triggered together. NO loops. C3.1.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     },
     {
-      "order": 12, "id": "g2_debugging_reading", "grade": "Grade 2", "subject": "Debugging & Reading Code",
-      "rubric": "rubric_coding_G2.md", "dir": "g2_debugging_reading", "target_topics": 8,
+      "order": 12,
+      "id": "g2_debugging_reading",
+      "grade": "Grade 2",
+      "subject": "Debugging & Reading Code",
+      "rubric": "rubric_coding_G2.md",
+      "dir": "g2_debugging_reading",
+      "target_topics": 8,
       "concept_ceiling": "read concurrent code; find which of two parallel scripts is wrong; predict combined behaviour. NO loops. C3.2.",
-      "status": "planned", "built": 0, "published": false
+      "status": "planned",
+      "built": 0,
+      "published": false
     }
   ]
 }

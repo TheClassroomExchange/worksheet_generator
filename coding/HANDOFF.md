@@ -8,9 +8,10 @@ PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner
 > **Process: `coding/AUTONOMOUS_BUILD.md`. Machine queue: `coding/subjects.json`.
 > Live state: `coding/BUILD_PROGRESS.md`.** Read those first; this handoff is stable context.
 >
-> **Status 2026-06-13:** G3·Block Coding subject SHIPPED (7 sheets, all 20/20, 14 PDFs in Drive).
-> **Batch gating REMOVED** — building the full catalogue autonomously, subject by subject, no
-> human sign-off between batches (quality gates remain).
+> **Status 2026-06-13:** 2/12 subjects SHIPPED — G3 Block Coding + G3 Intro Python Turtle
+> (14 sheets, all 20/20, 28 PDFs in Drive). **Batch gating REMOVED** — building the full
+> catalogue autonomously, subject by subject (subjects.json queue), no human sign-off between
+> batches (quality gates remain). Next: G3 Debugging (order 3).
 >
 > **Quality model:** every product, every grade, graded by `pipeline/coding_rubric.py`
 > (`select_rubric(grade)`) BEFORE render. Gate = **≥19/20 AND C2≥L3 (hard) AND C3=L4 AND C5=L4**.

@@ -124,3 +124,10 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   human gate) + §6 (update plan+handoff at EVERY checkpoint), HANDOFF updated. Quality gates remain
   (run-gate, ≥19/20, visual). **READY — awaiting user to set the goal to start the full build.**
   Next subject = G3 Intro Python Turtle (order 2 in subjects.json).
+- 2026-06-13: **G3 · Intro Python Turtle SHIPPED** (subject 2/12). 7 sheets, each run-gate
+  PASS + **20/20** + visually inspected; loop-centric (every sheet a for-loop so C1 hits G3);
+  solution.py MODELS the turtle path (no GUI). Sheets 1–2 keep the block→text bridge; 3–7 drop
+  the block stack (C3-L4 via cross-strand/challenge) to stay 2 pages. Durable renderer fix:
+  `compact` mode auto-applied to all teacher guides (1 page reliably). Published 14 PDFs to
+  `…/Generated Coding Worksheets/Grade 3/Intro Python Turtle/<N. Topic>/` (hygiene OK).
+  subjects.json: g3_python_turtle=done. **Next subject = G3 Debugging (order 3).**

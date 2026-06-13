@@ -3,30 +3,82 @@
   "grade": "Grade 3",
   "subject": "Intro Python Turtle",
   "rubric": "rubric_coding_G3.md",
-  "curriculum_codes": ["C3.1", "C3.2"],
+  "curriculum_codes": [
+    "C3.1",
+    "C3.2"
+  ],
   "locked": true,
   "arc_note": "Grade 3 FIRST typed code, BUT every sheet centres on a for-loop (repeating events) — the G3 rubric caps a no-loop sheet at C1-L2, so 'meet forward()' alone can't pass. Pedagogically fine: students just did loops in Block Coding; Turtle shows the SAME loop in TYPED code (the block→text bridge = the C3-L4 path reserved for this subject). Angles are GIVEN (copy-this), never derived. solution.py MODELS the turtle path (x,y,heading) and asserts the figure — 'executes clean' via the model, no GUI.",
   "topics": [
-    {"nn": "01", "slug": "meet-turtle", "dir": "01_meet_turtle",
-     "title": "Meet Python Turtle", "concept": "first typed code is a loop: for step in range(n): bit.forward() — repeat block → for-loop bridge",
-     "primary_code": "C3.1", "status": "planned"},
-    {"nn": "02", "slug": "turn-in-code", "dir": "02_turn_in_code",
-     "title": "Turning in Code", "concept": "a for-loop with forward + right(given angle) inside — repeated move+turn",
-     "primary_code": "C3.1", "status": "planned"},
-    {"nn": "03", "slug": "square-loop", "dir": "03_square_loop",
-     "title": "Draw a Square with a Loop", "concept": "for i in range(4): forward; right(90) draws a square — angle given",
-     "primary_code": "C3.1", "status": "planned"},
-    {"nn": "04", "slug": "change-shape", "dir": "04_change_shape",
-     "title": "Change the Shape", "concept": "change range() count + the given angle to draw a triangle/hexagon (read & alter, C3.2)",
-     "primary_code": "C3.2", "status": "planned"},
-    {"nn": "05", "slug": "loop-pattern", "dir": "05_loop_pattern",
-     "title": "Loop a Pattern in Code", "concept": "a for-loop that repeats steps to make a staircase/row pattern",
-     "primary_code": "C3.1", "status": "planned"},
-    {"nn": "06", "slug": "read-turtle", "dir": "06_read_turtle",
-     "title": "Read the Turtle Code", "concept": "read a for-loop and predict the drawing before running (C3.2)",
-     "primary_code": "C3.2", "status": "planned"},
-    {"nn": "07", "slug": "fix-turtle", "dir": "07_fix_turtle",
-     "title": "Fix the Turtle Code", "concept": "debug a typed loop — wrong range() count or angle — and fix it (C3.2)",
-     "primary_code": "C3.2", "status": "planned"}
+    {
+      "nn": "01",
+      "slug": "meet-turtle",
+      "dir": "01_meet_turtle",
+      "title": "Meet Python Turtle",
+      "concept": "first typed code is a loop: for step in range(n): bit.forward() — repeat block → for-loop bridge",
+      "primary_code": "C3.1",
+      "status": "built",
+      "grade_score": "20/20"
+    },
+    {
+      "nn": "02",
+      "slug": "turn-in-code",
+      "dir": "02_turn_in_code",
+      "title": "Turning in Code",
+      "concept": "a for-loop with forward + right(given angle) inside — repeated move+turn",
+      "primary_code": "C3.1",
+      "status": "built",
+      "grade_score": "20/20"
+    },
+    {
+      "nn": "03",
+      "slug": "square-loop",
+      "dir": "03_square_loop",
+      "title": "Draw a Square with a Loop",
+      "concept": "for i in range(4): forward; right(90) draws a square — angle given",
+      "primary_code": "C3.1",
+      "status": "built",
+      "grade_score": "20/20"
+    },
+    {
+      "nn": "04",
+      "slug": "change-shape",
+      "dir": "04_change_shape",
+      "title": "Change the Shape",
+      "concept": "change range() count + the given angle to draw a triangle/hexagon (read & alter, C3.2)",
+      "primary_code": "C3.2",
+      "status": "built",
+      "grade_score": "20/20"
+    },
+    {
+      "nn": "05",
+      "slug": "loop-pattern",
+      "dir": "05_loop_pattern",
+      "title": "Loop a Pattern in Code",
+      "concept": "a for-loop that repeats steps to make a staircase/row pattern",
+      "primary_code": "C3.1",
+      "status": "built",
+      "grade_score": "20/20"
+    },
+    {
+      "nn": "06",
+      "slug": "read-turtle",
+      "dir": "06_read_turtle",
+      "title": "Read the Turtle Code",
+      "concept": "read a for-loop and predict the drawing before running (C3.2)",
+      "primary_code": "C3.2",
+      "status": "built",
+      "grade_score": "20/20"
+    },
+    {
+      "nn": "07",
+      "slug": "fix-turtle",
+      "dir": "07_fix_turtle",
+      "title": "Fix the Turtle Code",
+      "concept": "debug a typed loop — wrong range() count or angle — and fix it (C3.2)",
+      "primary_code": "C3.2",
+      "status": "built",
+      "grade_score": "20/20"
+    }
   ]
 }

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diagram: a for-loop repeats forward+up to build a 3-step staircase.
+     Original artwork. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 170" width="220" height="170">
+  <!-- staircase path: right, up, right, up, right, up -->
+  <polyline points="30,150 80,150 80,110 130,110 130,70 180,70 180,30"
+            fill="none" stroke="#39C9A6" stroke-width="4"/>
+  <!-- one-step bracket on the first step -->
+  <path d="M30 158 L30 164 L80 164 L80 158" fill="none" stroke="#2BB293" stroke-width="2"/>
+  <text x="55" y="178" text-anchor="middle" font-family="Arial" font-size="10" fill="#2BB293" font-weight="bold">one step</text>
+  <!-- Bit at start -->
+  <g transform="translate(30,150)">
+    <circle r="12" fill="#6FE3C4" stroke="#2BB293" stroke-width="2.5"/>
+    <rect x="-8" y="-5" width="16" height="11" rx="4" fill="#102A43"/>
+    <circle cx="-3.5" cy="-1" r="1.8" fill="#7FFBE4"/><circle cx="3.5" cy="-1" r="1.8" fill="#7FFBE4"/>
+  </g>
+  <text x="120" y="18" text-anchor="middle" font-family="Arial" font-size="12" fill="#2BB293" font-weight="bold">range(3) → 3 steps up</text>
+</svg>

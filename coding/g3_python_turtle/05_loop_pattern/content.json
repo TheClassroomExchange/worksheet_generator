@@ -1,0 +1,130 @@
+{
+  "title": "Loop a Pattern in Code",
+  "file_title": "Loop a Pattern in Code",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Intro Python Turtle",
+    "title": "Loop a Pattern in Code",
+    "subtitle": "Ontario Math C3.1 — repeating events",
+    "footer_topic": "5. Loop a Pattern in Code",
+    "learning_goal": "I can loop a small pattern of moves to make a staircase.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Repeat a little pattern",
+        "text": [
+          "A staircase is the same step over and over. Bit's step is: go across, then go up. A loop repeats that step to build the whole staircase.",
+          "Read the code — range(3) repeats the across-then-up step three times."
+        ]
+      },
+      {
+        "type": "code",
+        "title": "Read this Python code",
+        "language": "python",
+        "code": "for step in range(3):\n    bit.forward(30)\n    bit.left(90)\n    bit.forward(30)\n    bit.right(90)",
+        "output": "Bit climbs a 3-step staircase."
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_python_turtle/05_loop_pattern/staircase.svg",
+        "caption": "Each repeat is one step: across, then up. range(3) makes 3 steps.",
+        "width": "40%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Read it",
+        "prompt": "How many steps does the staircase have? ______  Each step has 2 forward moves, so how many forward moves in TOTAL? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then run",
+        "prompt": "You change range(3) to range(5). PREDICT: how many steps, and how many forward moves in total? Then run it.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write your own",
+        "prompt": "Make Bit climb a 4-step staircase. Write the range number:  for step in range(______):",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Each step goes UP 30. If Bit climbs a 4-step staircase, how high does Bit go in total? Show your thinking.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A loop can repeat a little PATTERN of moves, not just one move. Repeat the across-then-up step and Bit builds a whole staircase."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Intro Python Turtle",
+    "title": "Loop a Pattern in Code",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "5. Loop a Pattern — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students see a for-loop repeat a multi-move PATTERN (across-then-up) to build a staircase, and count moves and total height by multiplying per-step amounts by the repeat count."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "Python Turtle projected (or a web playground); the printed worksheet + a pencil per student. Graph paper helps draw the staircase."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Walk a staircase as a class — across, up, across, up — name the repeating step.",
+          "2. Run the range(3) staircase; trace one step, then the repeat.",
+          "3. Students do Exercises 1–4 (Ex 4 multiplies the rise), solo or in pairs.",
+          "4. Share answers; land the big idea: a loop can repeat a pattern of moves."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — 3 steps; 6 forward moves (2 per step × 3).",
+          "Ex 2 — 5 steps; 10 forward moves.",
+          "Ex 3 — range(4).",
+          "Ex 4 (challenge) — 120 high (4 steps × 30 up)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: counting one forward per step instead of two.",
+          "Support: highlight the two forward lines inside the loop before counting.",
+          "Extend: ask the height of a 6-step staircase (180)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student counts steps and total forwards (Ex 1–2), writes the range for a 4-step staircase (Ex 3), and multiplies the rise to find the total height (Ex 4)."
+      }
+    ]
+  }
+}

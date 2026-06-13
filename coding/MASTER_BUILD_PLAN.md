@@ -21,9 +21,9 @@ Each worksheet ships **2 PDFs** (student Worksheet + Teacher Guide). Target ~7�
 non-loop sheets at C1-L2). G1 is sequential-centric, G2 concurrent-centric, K unplugged —
 each arc is designed against its own rubric + `concept_ceiling`. Never carry one grade's arc down/up.
 
-## Build order (from `subjects.json` `order`)
-1. G3 Block Coding ✅ **DONE/SHIPPED** → 2. G3 Intro Python Turtle → 3. G3 Debugging →
-4–6. Kindergarten (3) → 7–9. Grade 1 (3) → 10–12. Grade 2 (3).
+## Build order (from `subjects.json` `order`) — progress
+1. G3 Block Coding ✅ **SHIPPED** → 2. G3 Intro Python Turtle ✅ **SHIPPED** → **3. G3 Debugging ← NEXT** →
+4–6. Kindergarten (3) → 7–9. Grade 1 (3) → 10–12. Grade 2 (3).  *(2/12 subjects, 14 sheets shipped.)*
 (The runner picks the lowest-`order` subject with `status != done`. Reorder `subjects.json` to change priority.)
 
 ## Per-subject loop (autonomous, no human gate)

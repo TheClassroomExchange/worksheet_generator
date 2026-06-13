@@ -1,0 +1,130 @@
+{
+  "title": "Fix the Turtle Code",
+  "file_title": "Fix the Turtle Code",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Intro Python Turtle",
+    "title": "Fix the Turtle Code",
+    "subtitle": "Ontario Math C3.2 — find and fix code",
+    "footer_topic": "7. Fix the Turtle Code",
+    "learning_goal": "I can find the bug in turtle code and fix it.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Find it, then fix it",
+        "text": [
+          "Sometimes turtle code draws the wrong thing. A coder reads it, decides what it SHOULD draw, and finds the wrong number.",
+          "A turtle-loop bug is usually the wrong range number (too few/many sides) or the wrong turn. Help Bit fix them."
+        ]
+      },
+      {
+        "type": "code",
+        "title": "Bit should draw a SQUARE — but this is buggy",
+        "language": "python",
+        "code": "for i in range(3):\n    bit.forward(50)\n    bit.right(90)",
+        "output": "Only 3 sides — the square does not close."
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_python_turtle/07_fix_turtle/debug.svg",
+        "caption": "range(3) leaves the square open — fix it to range(4).",
+        "width": "72%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Find the bug",
+        "prompt": "Bit should draw a square, but the code says range(3). What range number fixes it? range(______)",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Fix the turn",
+        "prompt": "Bit should draw a TRIANGLE, but the code is:  for i in range(3): bit.forward(50); bit.right(90). The turn is wrong. What should right() be? (Hint: a triangle turns 120.)",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Fix the count",
+        "prompt": "Bit should draw a straight line 100 long, moving 20 each time. The code says range(3). What range number fixes it? range(______)",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Bit draws a square with range(4), forward(50). To make a BIGGER square, a student changed range(4) to range(8). That did NOT work. What should they change instead, and why?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "To debug turtle code: say what it SHOULD draw, then check the range (how many sides) and the turn. Change the one that is wrong — to resize, change forward, not the range."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Intro Python Turtle",
+    "title": "Fix the Turtle Code",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "7. Fix Code — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students debug turtle loops (C3.2): decide what the code should draw, then find and fix the wrong range count or turn angle. The challenge separates resizing (change forward) from changing the number of sides (range)."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "Python Turtle projected (or a web playground) to fix bugs live; the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Run the buggy range(3) square; the open shape makes the bug visible.",
+          "2. Ask 'what should it draw?' then find the wrong number together; fix and re-run.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: range = sides, turn = corner, forward = size."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — range(4).",
+          "Ex 2 — right(120).",
+          "Ex 3 — range(5) (5 × 20 = 100).",
+          "Ex 4 (challenge) — change forward to a bigger number (keep range(4)). range(8) just retraces the same square; forward sets the size."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: changing the range to resize (Ex 4) instead of changing forward.",
+          "Support: write the GOAL (square / triangle / line) before hunting the bug.",
+          "Extend: ask the fix for a pentagon drawn with right(90) (use right(72))."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student names what the code should draw, fixes the wrong range or turn (Ex 1–3), and explains that resizing means changing forward, not the range (Ex 4)."
+      }
+    ]
+  }
+}
