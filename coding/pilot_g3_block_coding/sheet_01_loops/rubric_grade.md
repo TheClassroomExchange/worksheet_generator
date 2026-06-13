@@ -1,54 +1,53 @@
-# Rubric Grade — G3 · Block Coding · Sheet 1 "Loops: Code That Repeats"
+# Rubric Grade — G3 · Block Coding · Sheet 1 "Loops: Code That Repeats" (rev. 2)
 
 Graded against `coding/rubrics/rubric_coding_G3.md`. Walk each L1→L4 checklist
 top-down, stop at the highest fully-met level. **Pass = total ≥ 15/20 AND C2 ≥ L3.**
-This is a self-assessment (the production pipeline runs this as an independent
-`rubric_grade` stage; flagged for an independent re-grade before mass publish).
+Self-assessment (production pipeline runs an independent `rubric_grade` stage).
+
+> **Rev. 2** simplified the sheet to be squarely Grade 3: exercises now focus on the
+> REPEAT COUNT (count it / change it / write it) instead of deriving turn angles, and
+> the first-time Python bridge was removed (text code belongs in the separate "Intro
+> Python Turtle" subject). This deliberately traded two L4 "extras" (the block→text
+> bridge in C3, the predict-then-run in C4) for grade-appropriate simplicity.
 
 | # | Criterion | Level | Pts |
 |---|---|---|---|
 | C1 | Ontario C3 Alignment | **L4** | 4 |
 | C2 | Coding-Concept Correctness *(hard gate)* | **L4** | 4 |
-| C3 | Grade-Appropriate Pedagogy & Cognitive Load | **L4** | 4 |
-| C4 | Clarity, Structure & Mascot/Visual Integration | **L4** | 4 |
-| C5 | Teacher Guide Completeness | **L4** | 4 |
-| | **Total** | | **20 / 20** |
+| C3 | Grade-Appropriate Pedagogy & Cognitive Load | **L3** | 3 |
+| C4 | Clarity, Structure & Mascot/Visual Integration | **L3** | 3 |
+| C5 | Teacher Guide Completeness | **L3** | 3 |
+| | **Total** | | **17 / 20** |
 
 **Status: PASS** (≥ 15 ✓; C2 ≥ L3 hard gate ✓).
 
 ## Justification (evidence)
 
-**C1 — L4.** Exercise 1 has the student *write* a repeat loop (C3.1); Exercise 2
-has them *alter* an existing loop and *describe/justify* the changed outcome
-(C3.2). Teacher guide cites C3.1 and C3.2 verbatim and maps each to its exercise.
-L4 requires "both writing a loop AND altering it to predict/justify" — both present.
+**C1 — L4.** Ex 3 has the student *write* a repeat loop (C3.1); Ex 2 has them
+*alter* the loop's count and *describe the effect* — "more or fewer than before"
+(C3.2). Teacher guide cites C3.1 + C3.2 verbatim. L4 needs both write + alter — met.
 
-**C2 — L4 (hard gate cleared).** Every loop on the sheet is modelled by
-`solution.py`, which executes clean with asserts (square=4 corners & closes,
-triangle=3 sides, hexagon=6 sides, total=120 steps) — the run-gate. The answer
-key explains the loop count/structure and what changing the count does
-(3×120=360; 6 repeats→6 sides; 3×(20+20)=120). L4 met.
+**C2 — L4 (hard gate cleared).** `solution.py` models every loop and runs clean
+with asserts (repeat 4 → 4 moves/4 turns/square; repeat 6 → 6 moves > 4; repeat 5
+→ 5 jumps). Answer key + "Big idea" explain what the repeat count controls. L4.
 
-**C3 — L4.** One new idea (the repeat loop); typed Python kept to 3 short lines
-with a copy-this model; single objective. Block→text bridge is explicit (the
-Scratch stack, then its Python equivalent side-by-side). Low floor (Ex 1 with a
-360 hint) + challenge (Ex 3 predict-then-run); differentiation simplifies to
-supplying only the count and extends to turn = 360 ÷ sides.
+**C3 — L3.** One new idea (the repeat count); single objective; very low cognitive
+load (no angle math, no syntax). *Not L4:* the block→text bridge was intentionally
+removed for grade fit, and L4 requires it — so L3 is the honest ceiling here.
 
-**C4 — L4.** Worked example → guided → independent flow. Code blocks are
-monospace with correct indentation. The mascot **Bit** is the actor — drawn
-mid-task in the square-path diagram. A "predict the drawing/output, then run"
-prompt is present (Ex 3, and the predict in Ex 2). Image keywords (Bit, square,
-move 10, turn 90) all appear in the surrounding text → alignment clean.
+**C4 — L3.** Worked example → guided (Count it) → independent (Write your own);
+blocks legible; mascot **Bit** is the actor in the square diagram; image keywords
+(Bit, move 10, turn 90, square) all appear in the text → alignment clean. *Not L4:*
+no explicit "predict the drawing, then run" task remains.
 
-**C5 — L4.** Teacher guide has objective, materials, step-by-step facilitation,
-answer key with runnable code, C3 expectations cited, and a common-error note
-(off-by-one / count-vs-angle / non-divisor turn). Plus differentiation
-(simplify-to-count / extend-to-parameterized-shape) and an explicit success
-indicator. L4 met.
+**C5 — L3.** Goal, materials, 4-step facilitation, answer key (run-gate checked),
+C3 cited, common-error note + support + an extend prompt. *Not L4:* no standalone
+"success indicator" line (dropped to keep the guide to one page).
 
-## Notes / honest caveats
-- Self-graded by the author model; a perfect score warrants an independent
-  re-grade in the production `rubric_grade` stage before mass publishing.
-- This is the *Block Coding* subject, so C2's "Turtle executes clean" clause is
-  satisfied via the block-model run-gate (`solution.py`), not a GUI Turtle run.
+## Notes
+- 17/20 is the honest score after simplifying; the lost points are L4 "extras"
+  (Python bridge, predict-then-run, success-indicator) traded for Grade-3 clarity.
+  If we want to lift them back to ~20 without over-complicating, the cheapest moves
+  are: add a one-line "predict, then run on a device" to Ex 2 (C4→L4) and a
+  one-line success indicator to the guide (C5→L4). Left out by choice for simplicity.
+- Self-graded; warrants an independent re-grade in the production stage before mass publish.

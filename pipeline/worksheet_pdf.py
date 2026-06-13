@@ -227,6 +227,10 @@ h1.title {{
 
 /* parts */
 .part {{ margin: 0 0 14px 0; }}
+/* keep self-contained boxes from splitting across a page break */
+.exercise, figure.image, .code-block, .code-output, .sb-stack {{
+    break-inside: avoid;
+}}
 .part-title {{
     font-size: 12.5pt; color: {NAVY}; margin: 0 0 5px 0;
     border-left: 4px solid {MINT}; padding-left: 8px;

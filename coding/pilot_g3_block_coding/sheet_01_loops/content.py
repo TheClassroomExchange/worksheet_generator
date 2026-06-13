@@ -3,8 +3,8 @@ content.py — Grade 3 · Block Coding · Sheet 1 "Loops: Code That Repeats".
 
 Authors the two PUBLISHED artifacts (student worksheet + teacher guide) as
 data-driven specs and renders them via pipeline.worksheet_pdf. Original,
-Ontario-aligned content (no source/MIT material reused). Answer key is the one
-proved correct by solution.py (the code-runs gate).
+Ontario-aligned content. The Grade-3 focus is the REPEAT COUNT (count it,
+change it, write it) — not angle geometry. Answer key proved by solution.py.
 
 Run:  DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib \
       ./venv/bin/python coding/pilot_g3_block_coding/sheet_01_loops/content.py
@@ -37,67 +37,64 @@ def worksheet_spec() -> dict:
         "title": "Loops: Code That Repeats",
         "subtitle": "Ontario Math C3.1 — repeating events",
         "footer_topic": "1. Loops: Code That Repeats",
-        "learning_goal": "I can write and change a repeat loop to make a sprite repeat actions.",
+        "learning_goal": "I can use a repeat loop to make Bit do something many times.",
         "parts": [
             {
                 "type": "prose",
                 "title": "What is a loop?",
                 "text": [
-                    "Sometimes you want your sprite to do the same thing again and again. "
-                    "You could drag the same block many times — but that makes a long, messy script.",
-                    "A repeat loop is a block that does the repeating for you. You put the actions "
-                    "inside it once, and tell it how many times to run them. Bit will show you how.",
+                    "A loop is a block that repeats. You put the actions inside it one time. "
+                    "The loop runs them again and again for you.",
+                    "So you do not have to add the same block over and over. Bit will show you how.",
                 ],
             },
             {
                 "type": "blocks",
-                "title": "Worked example — read this script",
+                "title": "Look at this loop",
                 "blocks": [
                     {"cat": "events", "label": "when green flag clicked"},
                     {"cat": "control", "label": "repeat 4"},
                     {"cat": "motion", "label": "move 10 steps", "indent": 1},
                     {"cat": "motion", "label": "turn 90 degrees", "indent": 1},
                 ],
-                "note": "The two blocks inside repeat run 4 times. Move, turn — four times — "
-                        "draws a square and brings Bit back to the start.",
+                "note": "The 2 blocks inside repeat run 4 times. Bit moves and turns, 4 times. "
+                        "That draws a square.",
             },
             {
                 "type": "image",
                 "src": SQUARE,
-                "caption": "Bit draws a square: move 10, turn 90, four times.",
-                "width": "52%",
-            },
-            {
-                "type": "code",
-                "title": "The same idea in Python",
-                "language": "python",
-                "code": "for side in range(4):\n    bit.forward(10)\n    bit.right(90)",
-                "output": "Bit draws a square — 4 sides, back to the start.",
+                "caption": "Bit repeats move and turn 4 times — and draws a square.",
+                "width": "50%",
             },
             {
                 "type": "exercise",
                 "number": 1,
-                "title": "Finish the loop (write)",
-                "prompt": "Make Bit draw a TRIANGLE (3 sides). Fill in the two missing numbers: "
-                          "repeat ___ , and turn ___ degrees. (Hint: a triangle's turns add up to 360.)",
-                "answer_lines": 2,
+                "title": "Count it",
+                "prompt": "Look at the loop above. It says repeat 4. "
+                          "How many times does Bit MOVE? ______   How many times does Bit TURN? ______",
+                "answer_lines": 1,
             },
             {
                 "type": "exercise",
                 "number": 2,
-                "title": "Change it, then predict (read & alter)",
-                "prompt": "Anya changes repeat 4 to repeat 6, and turn 90 to turn 60. "
-                          "What shape does Bit draw now, and how many sides does it have? "
-                          "Write your answer and explain how you know.",
-                "answer_lines": 3,
+                "title": "Change the number",
+                "prompt": "Now change repeat 4 to repeat 6. Bit runs the inside blocks 6 times. "
+                          "How many times does Bit move now? Is that MORE or FEWER than before?",
+                "answer_lines": 2,
             },
             {
                 "type": "exercise",
                 "number": 3,
-                "title": "Predict, then check",
-                "prompt": "This loop has TWO move blocks inside it:  repeat 3 { move 20 steps, move 20 steps }. "
-                          "How many steps does Bit move in total? Predict first, then run it to check.",
-                "answer_lines": 2,
+                "title": "Write your own",
+                "prompt": "Bit wants to JUMP 5 times. Write the number in the repeat block "
+                          "so the loop runs 5 times:   repeat ______ → jump",
+                "answer_lines": 1,
+            },
+            {
+                "type": "prose",
+                "title": "Big idea",
+                "text": "The number in the repeat block tells Bit how many times to run the blocks "
+                        "inside. A bigger number means more repeats.",
             },
         ],
     }
@@ -108,86 +105,57 @@ def teacher_guide_spec() -> dict:
         "mascot": MASCOT,
         "eyebrow": "Teacher Guide · Grade 3 · Block Coding",
         "title": "Loops: Code That Repeats",
-        "subtitle": "Facilitation notes, answer key & differentiation",
+        "subtitle": "Quick facilitation notes & answer key",
         "footer_topic": "1. Loops — Teacher Guide",
         "name_date": False,
         "parts": [
             {
                 "type": "prose",
-                "title": "Learning objective",
-                "text": "Students write and alter a repeat (count-controlled) loop in a block "
-                        "environment to make a sprite repeat a move/turn action, and describe how "
-                        "changing the repeat count or turn angle changes the figure Bit draws. "
-                        "This is students' first formal work with repeating events in Grade 3.",
+                "title": "Goal",
+                "text": "Students learn that a repeat loop runs the blocks inside it a set number "
+                        "of times. They count the repeats, change the number, and write their own.",
             },
             {
                 "type": "prose",
-                "title": "Ontario curriculum (Math 2020, Strand C3 — Coding)",
+                "title": "Curriculum (Ontario Math 2020, Strand C3)",
                 "text": [
                     f"C3.1 — {C31}.",
                     f"C3.2 — {C32}.",
-                    "This sheet exercises C3.1 (writing a repeat loop in Exercise 1) and C3.2 "
-                    "(altering an existing loop and describing the effect in Exercise 2).",
                 ],
             },
             {
                 "type": "prose",
-                "title": "Materials & setup",
+                "title": "Materials",
+                "text": "A block-coding app (Scratch-style) to project for the worked example; "
+                        "the printed worksheet and a pencil per student.",
+            },
+            {
+                "type": "prose",
+                "title": "Run it (about 30 min)",
                 "text": [
-                    "• A block-coding environment (Scratch-style) projected for the worked example.",
-                    "• Printed worksheet, one per student. Pencils; optional crayons for the path diagram.",
-                    "• Optional: a device per pair so students can run Exercise 3 to check their prediction.",
+                    "1. Hook: have the class clap 4 times. Say it as a loop — \"repeat 4: clap.\"",
+                    "2. Show the repeat-4 square loop. Count the runs out loud together.",
+                    "3. Students do Exercises 1–3 on their own or in pairs.",
+                    "4. Share answers. Land the big idea: the repeat number = how many times.",
                 ],
             },
             {
                 "type": "prose",
-                "title": "How to run the lesson (≈40 min)",
+                "title": "Answer key (checked by the run-gate)",
                 "text": [
-                    "1. Hook (5 min): Ask students to clap 4 times. Then say 'repeat 4: clap.' Same result, "
-                    "fewer instructions — that is a loop.",
-                    "2. Worked example (10 min): Project the repeat-4 square script. Trace it together: count "
-                    "the runs aloud, point to the move and turn each time, watch the square close.",
-                    "3. Bridge (5 min): Show the Python version side-by-side. Same idea, typed instead of dragged.",
-                    "4. Guided → independent (15 min): Students do Exercises 1–3. Circulate; ask 'how many "
-                    "times will the inside run?' to surface misconceptions.",
-                    "5. Consolidate (5 min): Share Exercise 2 answers. Land the big idea: more repeats = more "
-                    "sides; the turn angle decides the shape.",
+                    "Ex 1 — Bit moves 4 times and turns 4 times.",
+                    "Ex 2 — Bit moves 6 times. That is MORE than before.",
+                    "Ex 3 — repeat 5.",
                 ],
             },
             {
-                "type": "code",
-                "title": "Answer key (all verified by the run-gate)",
-                "language": "text",
-                "code": "Ex 1 (write):   repeat 3 , turn 120  →  triangle (3 sides; 3 × 120 = 360)\n"
-                        "Ex 2 (alter):   hexagon, 6 sides  →  6 repeats make 6 sides; turn 60 closes the shape\n"
-                        "Ex 3 (predict): 120 steps  →  3 repeats × (20 + 20) = 6 moves × 20 = 120",
-            },
-            {
                 "type": "prose",
-                "title": "Common errors to watch for",
+                "title": "Watch for & differentiate",
                 "text": [
-                    "• Counting the blocks once instead of once-per-repeat (Ex 3: forgetting to multiply by 3).",
-                    "• Confusing repeat count with turn angle — changing repeats changes the number of sides, "
-                    "not the angle.",
-                    "• In Ex 1, picking a turn that doesn't divide 360 (e.g. turn 100) so the shape never closes.",
+                    "Common slip: counting the blocks once instead of once per repeat.",
+                    "Support: read \"repeat 6\" as \"do it 6 times\" and tap each run on fingers.",
+                    "Extend: ask how many TOTAL moves if the loop had 2 move blocks and repeat 3.",
                 ],
-            },
-            {
-                "type": "prose",
-                "title": "Differentiation",
-                "text": [
-                    "• Simplify: give Exercise 1 with the turn (120) filled in, so students supply only the "
-                    "repeat count.",
-                    "• Extend: ask students to write a loop that draws any regular shape — they choose the number "
-                    "of sides and work out turn = 360 ÷ sides (a second loop / a 2nd parameter).",
-                ],
-            },
-            {
-                "type": "prose",
-                "title": "Success indicator",
-                "text": "A student meets the goal when they can both WRITE a repeat loop that draws a named "
-                        "shape (Ex 1) and EXPLAIN how changing the repeat count changes the figure (Ex 2) — "
-                        "the C3.1 + C3.2 pairing.",
             },
         ],
     }

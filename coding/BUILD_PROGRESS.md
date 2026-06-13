@@ -49,3 +49,10 @@ scale-up + publish**. So Sheet-1 content is authored directly as renderer specs
   `Loops — Teacher Guide.pdf` (2pp) — all visually inspected clean. Self-graded vs
   rubric_coding_G3 = **20/20 PASS** (C2 hard gate cleared), `rubric_grade.md`.
   AWAITING USER REVIEW of the 2 PDFs before scaling up.
+- 2026-06-13: **Sheet 1 rev. 2 per user feedback** ("is this really G3? simpler language,
+  more concise teacher guide"). Refocused exercises on the REPEAT COUNT (count/change/write)
+  not angle geometry; removed the Python bridge (text code → the separate Intro-Turtle
+  subject); simplified all language; teacher guide now 1 page. Added `break-inside:avoid`
+  to `worksheet_pdf.py` so exercise/figure/code boxes never split across page breaks.
+  Honest re-grade vs rubric_coding_G3 = **17/20 PASS** (C1/C2 L4, C3/C4/C5 L3 — traded
+  L4 extras for grade-3 simplicity; C2 hard gate cleared). run-gate still PASS.
