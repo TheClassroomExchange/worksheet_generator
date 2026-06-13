@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Ex 1: want (clap, stomp), code (clap, clap) -> FIX 2nd block to stomp ✓\nEx 2: square code has (forward, forward) -> a line; FIX 2nd block to right(90) ✓\nEx 3 (write): want (jump, spin), code (jump, jump) -> FIX 2nd block to spin ✓\nEx 4 (challenge): (forward, forward)×4 -> 8 forwards in a line, not a square -> turn is missing ✓\n\nALL CHECKS PASSED — every fix produces the correct result.\n",
+  "stderr": ""
+}
