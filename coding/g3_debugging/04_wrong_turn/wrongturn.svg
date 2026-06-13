@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diagram: wrong turn angle -> the triangle does not close; right angle (120)
+     closes it. Original artwork. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="320" height="120">
+  <defs>
+    <marker id="w1" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 z" fill="#486581"/>
+    </marker>
+  </defs>
+  <!-- buggy: right 90 on a triangle -> open, wrong path -->
+  <polyline points="30,90 90,90 60,45 30,90" fill="none" stroke="#F5A623" stroke-width="3.5"
+            transform="skewX(-12)"/>
+  <circle cx="120" cy="40" r="11" fill="#fff" stroke="#E04848" stroke-width="3"/>
+  <text x="120" y="45" text-anchor="middle" font-family="Arial" font-size="13" fill="#E04848" font-weight="bold">✗</text>
+  <text x="62" y="112" text-anchor="middle" font-family="Arial" font-size="11" fill="#E04848" font-weight="bold">right 90: won't close</text>
+  <!-- arrow -->
+  <line x1="142" y1="60" x2="190" y2="60" stroke="#486581" stroke-width="3" marker-end="url(#w1)"/>
+  <text x="166" y="50" text-anchor="middle" font-family="Arial" font-size="10" fill="#486581">use 120</text>
+  <!-- fixed: clean triangle -->
+  <polygon points="215,90 285,90 250,40" fill="none" stroke="#3FB66E" stroke-width="3.5"/>
+  <circle cx="300" cy="40" r="11" fill="#fff" stroke="#2BB293" stroke-width="3"/>
+  <text x="300" y="45" text-anchor="middle" font-family="Arial" font-size="12" fill="#2BB293" font-weight="bold">✓</text>
+  <text x="250" y="112" text-anchor="middle" font-family="Arial" font-size="11" fill="#2BB293" font-weight="bold">right 120: a triangle</text>
+</svg>
