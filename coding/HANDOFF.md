@@ -1,6 +1,10 @@
 # HANDOFF — Coding-Worksheet Pipeline (K–G3)
 
-**Date:** 2026-06-11 · **Status:** Planned (not yet built) · **Owner:** Anthonny
+**Date:** 2026-06-11 (planned) · **Build started:** 2026-06-13 · **Status:** BUILD IN
+PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner:** Anthonny
+
+> **Live build state lives in `coding/BUILD_PROGRESS.md`** (phase tracker P1–P7).
+> Read that first for current status; this handoff is the stable plan/context.
 
 One-line: adapt the `worksheet_generator` pipeline (today: K-3 Ontario **Math** →
 Google Slides) to generate **original, Ontario-aligned K–G3 coding worksheets**
@@ -42,19 +46,49 @@ footer = `N. Topic | site [page#]`. Solutions reuse the header with answer code.
 - **Build new:** `pipeline/worksheet_pdf.py` (WeasyPrint HTML→PDF), `assets/mascots/` (original kawaii SVG cast + INDEX), `pipeline/source_map.py` (source tree → worksheet queue), `pipeline/drive_publish.py` (push only the 2 PDFs; reuse `slides.py` Drive auth).
 - **New gate:** **code-runs** — every solution code block executed in sandbox (python/node/lint), must run clean; assert expected output where deterministic.
 
+## Build progress (as of 2026-06-13)
+Canonical working clone is now **`~/Desktop/TCE/worksheet_generator`** (fresh clone off
+origin/main `39266ce`, branch **`coding-worksheet-pilot`**, venv `./venv` with WeasyPrint
+69.0). User reordered to **content-first**: build a reviewable sheet → validate vs rubric
+→ sign-off → THEN mascot cast + scale + publish.
+
+- ✅ **P1 — PDF template (the gating risk).** `pipeline/worksheet_pdf.py` (data-driven
+  WeasyPrint renderer, house-style branded template: mascot-circle header, "I can" banner,
+  5 part types prose/blocks/code/exercise/image, footer w/ page numbers, break-inside:avoid)
+  + mascot **Bit** (`assets/mascots/bit_wave.svg`, original kawaii robot). Visually verified.
+- ✅ **Pilot Sheet 1 — G3 · Block Coding · "Loops: Code That Repeats"** in
+  `coding/pilot_g3_block_coding/sheet_01_loops/`: `content.py` (worksheet + teacher-guide
+  specs), `solution.py` (run-gate, all asserts PASS), `square_path.svg`, rendered both PDFs,
+  `rubric_grade.md` = **17/20 PASS** (rev. 2, simplified to true grade-3: repeat-count focus,
+  no angle math, no Python bridge). **Awaiting user sign-off on grade-fit.**
+
 ## Next steps (resume here)
 *(Scope RESOLVED: K–3 only; G3 = Block Coding · Intro Python Turtle · Debugging. K/G1/G2 subject lists still need sign-off before generating those grades.)*
-1. Branch `worksheet_generator`; scaffold the 4 new modules; `pip install weasyprint`.
-2. Draw mascot SVG cast; nail the PDF template on a throwaway sheet (**pilot gates here**).
-3. Cache Grade 3 C3 expectations; define the **Grade 3 · Block Coding** topic list (~6–9: sequencing → events → loops → conditionals → debugging mini).
-4. Generate sheet 1 end-to-end (worksheet → teacher guide → solution+run-gate → PDFs → visual inspect); then roll sheets 2–N.
-5. Publish 2 PDFs/topic to `Grade 3/Block Coding/<topic>/`; hygiene-check folders. Then repeat for Intro Python Turtle + Debugging.
+1. **On Sheet-1 sign-off:** lock the renderer + sheet shape as the template.
+2. Draw the rest of the original kawaii mascot cast (3–5 chars) + `assets/mascots/INDEX.json`.
+3. Define the full **Grade 3 · Block Coding** topic list (~6–9: sequencing → events → loops
+   → conditionals preview → debugging mini) and generate sheets 2–N through the proven loop
+   (content.py-style spec → run-gate → render → rubric ≥15/20 + C2 → visual inspect).
+4. Build `pipeline/drive_publish.py` (reuse `slides.py` Drive auth) → push ONLY the worksheet
+   + teacher-guide PDFs to `Product/Resources/Generated Coding Worksheets/Grade 3/Block Coding/
+   <topic>/`; hygiene-check folders. Then repeat for Intro Python Turtle + Debugging.
+5. *(Infra fold-in, optional)* migrate the content-first specs into formal `stages.py` +
+   `schemas.py` (code_block/exercise part types, CourseBlueprint, SolutionSheet) so the
+   manifest checkpoint/resume engine drives generation like the math pipeline.
 
 ## Gotchas / environment
-- **Google auth:** tokens were all expired; **re-auth'd this session** → fresh `token.json` at `~/Desktop/tce_migration_bundle_2026-05-03/worksheet_generator/token.json` (full Drive + Slides scope, refresh token present). `auth_only.py` **bug**: a dead refresh token makes it crash instead of re-prompting — delete/move `token.json` before re-running, or patch it to catch `RefreshError` and fall through to the browser flow.
-- **Working repo clone used:** `~/Desktop/tce_migration_bundle_2026-05-03/worksheet_generator` (origin/main fetched = `85555b0`). The canonical fresh clone should be re-cloned for real build work; this clone has untracked files.
-- **Security:** older local clones embed a **GitHub PAT in their git remote URL** → rotate/revoke (unrelated to this task).
-- System `python3` has `googleapiclient` + `weasyprint`? (verify — only google libs confirmed so far). No `venv` currently in the clone.
+- **WeasyPrint:** installed in `./venv` (v69.0). **Must run python with
+  `DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib`** or the native libs (pango/cairo/gdk-pixbuf,
+  all present via Homebrew) won't load and import fails. Example:
+  `DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib ./venv/bin/python coding/pilot_g3_block_coding/sheet_01_loops/content.py`.
+- **Render-to-inspect loop:** `pdftoppm -png -r 150 "<x>.pdf" /tmp/v_pages/x` then read the PNGs.
+- **Google auth:** live `token.json` copied into the new clone (full Drive + Slides scope).
+  `auth_only.py` **bug**: a dead refresh token makes it crash instead of re-prompting —
+  move `token.json` aside before re-running, or patch it to catch `RefreshError`.
+- **Working clone:** **`~/Desktop/TCE/worksheet_generator`** is now canonical for this build
+  (the old `~/Desktop/tce_migration_bundle_2026-05-03/...` clone is retired — cluttered + was
+  behind origin).
+- **Security:** older local clones embed a **GitHub PAT in their git remote URL** → rotate/revoke.
 
 ## IP / safety
 Source = two companies' copyrighted curriculum + MIT Scratch cards. **Never
