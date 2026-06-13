@@ -41,6 +41,20 @@ User wants **content first → validate vs rubric → approve → THEN mascot ca
 scale-up + publish**. So Sheet-1 content is authored directly as renderer specs
 (no full stage/manifest machinery yet — that's P2/P4, built after content sign-off).
 
+## APPROVED PLAN 2026-06-13 → `coding/PILOT_BUILD_PLAN.md` (supersedes the P1–P7 sketch above)
+Quality-first, checkpointed, batch-verified build. Key changes from the original sketch:
+- **Grade BEFORE render** — `content_grade` gate sits before the PDF is built.
+- **Higher bar, all grades** — every product graded by `pipeline/coding_rubric.py`
+  (`select_rubric(grade)`); publish gate = **≥19/20 AND C2≥L3 AND C3=L4 AND C5=L4**.
+- **Recalibrate all 4 rubrics** so grade-3 simplicity can still hit C3=L4 (no forced Python bridge).
+- **Reuse `manifest.py`** as the per-sheet checkpoint backbone (6 stages: solution → content
+  → content_grade → render → visual_grade → publish).
+- **Supervised autonomy** — human `batch_verification` gate per subject-batch (~7 sheets);
+  G3·Block Coding = calibration batch.
+- Process doc: `coding/AUTONOMOUS_BUILD.md`. Execution phases: 0 (land plan/push) → A
+  (rubrics + coding_rubric.py + lift Sheet 1 + docs) → B (stages+schemas+adapter) → C (Sheet 2)
+  → D (sheets 3–7, batch gate) → E (publish + next subject).
+
 ## Log
 - 2026-06-13: env set up (fresh clone, venv, WeasyPrint), branch created. P1 cleared.
 - 2026-06-13: **Sheet 1 content built + graded** — `coding/pilot_g3_block_coding/sheet_01_loops/`:
@@ -56,3 +70,6 @@ scale-up + publish**. So Sheet-1 content is authored directly as renderer specs
   to `worksheet_pdf.py` so exercise/figure/code boxes never split across page breaks.
   Honest re-grade vs rubric_coding_G3 = **17/20 PASS** (C1/C2 L4, C3/C4/C5 L3 — traded
   L4 extras for grade-3 simplicity; C2 hard gate cleared). run-gate still PASS.
+- 2026-06-13: **Plan approved + Step 0** — wrote `coding/PILOT_BUILD_PLAN.md`, updated
+  HANDOFF + this tracker, saved to memory, pushed branch. Under the NEW 19/20 bar Sheet 1's
+  17/20 no longer publishes → Phase A will lift it to ≥19 (C3/C4/C5 → L4). Next = Phase A.

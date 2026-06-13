@@ -3,8 +3,17 @@
 **Date:** 2026-06-11 (planned) · **Build started:** 2026-06-13 · **Status:** BUILD IN
 PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner:** Anthonny
 
-> **Live build state lives in `coding/BUILD_PROGRESS.md`** (phase tracker P1–P7).
-> Read that first for current status; this handoff is the stable plan/context.
+> **Approved execution plan: `coding/PILOT_BUILD_PLAN.md`** (quality-first,
+> checkpointed, batch-verified). **Process doc: `coding/AUTONOMOUS_BUILD.md`.**
+> **Live build state: `coding/BUILD_PROGRESS.md`.** Read those first; this handoff
+> is the stable plan/context.
+>
+> **Quality model (approved 2026-06-13):** every product, every grade, is graded by
+> `pipeline/coding_rubric.py` (`select_rubric(grade)`) BEFORE the PDF is rendered.
+> Publish gate = **≥19/20 AND C2≥L3 (hard) AND C3=L4 AND C5=L4**. Gate chain per sheet:
+> code-runs → content schema → content_grade → render → visual_grade. Autonomy is
+> **supervised by batch** — a human `batch_verification` gate ends each subject-batch
+> (~7 sheets) before publish + before the next batch; G3·Block Coding is the calibration batch.
 
 One-line: adapt the `worksheet_generator` pipeline (today: K-3 Ontario **Math** →
 Google Slides) to generate **original, Ontario-aligned K–G3 coding worksheets**
