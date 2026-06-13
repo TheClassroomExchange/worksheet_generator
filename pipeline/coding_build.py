@@ -89,3 +89,82 @@ def render_sheet(unit_dir: Path) -> dict:
     }
     (unit_dir / "render.json").write_text(json.dumps(render, indent=2, ensure_ascii=False))
     return render
+
+
+def build_to_render(unit_dir: Path, *, unit_id: str, input_row: dict,
+                    scores: dict, grade_label: str, rubric_file: str) -> dict:
+    """Walk a sheet's manifest from init through `render`, enforcing the gates:
+    code-runs (solution) → content schema → content_grade (≥19/20 + floors +
+    drift) → render. Stops BEFORE visual_grade (which needs human/visual
+    inspection of the rendered PDFs). Requires solution.py + content.json to
+    already exist in unit_dir. Returns a summary dict.
+
+    Raises RuntimeError if the run-gate or the content_grade gate fails — the
+    sheet does NOT render ungraded.
+    """
+    from pipeline import manifest, stages, coding_rubric
+
+    unit_dir = Path(unit_dir)
+    manifest.init_unit(unit_dir, unit_id=unit_id, batch=1, row_number=None,
+                       input_row=input_row,
+                       stage_objs=stages.coding_stages_for_sheet())
+
+    # stage 0 — solution (code-runs gate)
+    manifest.mark(unit_dir, "solution", "in_progress", skip_validation=True)
+    if not run_solution(unit_dir):
+        manifest.mark(unit_dir, "solution", "failed", error="run-gate failed")
+        raise RuntimeError(f"{unit_id}: solution run-gate FAILED — see solution_run.json")
+    manifest.complete_stage(unit_dir, "solution")
+
+    # stage 1 — content (content.json must exist; passes manifest no-schema check)
+    if not (unit_dir / "content.json").exists():
+        raise RuntimeError(f"{unit_id}: content.json missing")
+    manifest.mark(unit_dir, "content", "in_progress", skip_validation=True)
+    manifest.complete_stage(unit_dir, "content")
+
+    # stage 2 — content_grade (BEFORE render): rubric + floors + drift
+    total, status, reasons = coding_rubric.classify(scores)
+    drift = coding_rubric.pre_grade_drift_check(unit_dir)
+    grade_rec = {
+        "grade": grade_label, "rubric": rubric_file,
+        "scores": scores, "total": total, "status": status,
+        "gate_reasons": reasons, "drift": drift,
+        "rubric_version": coding_rubric.RUBRIC_VERSION,
+    }
+    (unit_dir / "content_grade.json").write_text(
+        json.dumps(grade_rec, indent=2, ensure_ascii=False))
+    if status != "pass" or not drift["passed"]:
+        manifest.mark(unit_dir, "content_grade", "failed",
+                      error=f"gate fail: {reasons}; drift={drift['passed']}")
+        for s in coding_rubric.stages_needing_regen(scores):
+            manifest.mark(unit_dir, s, "pending", skip_validation=True)
+        raise RuntimeError(f"{unit_id}: content_grade FAILED {total}/20 {reasons} "
+                           f"drift={drift['passed']} — render blocked")
+    manifest.mark(unit_dir, "content_grade", "in_progress", skip_validation=True)
+    manifest.complete_stage(unit_dir, "content_grade")
+
+    # stage 3 — render (only reached because content_grade passed)
+    manifest.mark(unit_dir, "render", "in_progress", skip_validation=True)
+    r = render_sheet(unit_dir)
+    manifest.complete_stage(unit_dir, "render")
+
+    return {"unit_id": unit_id, "content_grade": f"{total}/20 {status}",
+            "drift_passed": drift["passed"], "render": r}
+
+
+def finalize_visual(unit_dir: Path, *, status: str, notes: str,
+                    inspected_pages: list) -> dict:
+    """Record the visual_grade after PDF inspection and complete the stage.
+    The sheet is 'done' (publish stays pending until the batch gate)."""
+    from pipeline import manifest
+
+    unit_dir = Path(unit_dir)
+    vg = {"inspected_pages": inspected_pages, "c4_layout_ok": status == "pass",
+          "status": status, "notes": notes}
+    (unit_dir / "visual_grade.json").write_text(json.dumps(vg, indent=2, ensure_ascii=False))
+    if status != "pass":
+        manifest.mark(unit_dir, "visual_grade", "failed", error=notes)
+        raise RuntimeError(f"visual_grade FAILED: {notes}")
+    manifest.mark(unit_dir, "visual_grade", "in_progress", skip_validation=True)
+    manifest.complete_stage(unit_dir, "visual_grade")
+    return vg
