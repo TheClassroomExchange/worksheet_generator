@@ -73,3 +73,14 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
 - 2026-06-13: **Plan approved + Step 0** — wrote `coding/PILOT_BUILD_PLAN.md`, updated
   HANDOFF + this tracker, saved to memory, pushed branch. Under the NEW 19/20 bar Sheet 1's
   17/20 no longer publishes → Phase A will lift it to ≥19 (C3/C4/C5 → L4). Next = Phase A.
+- 2026-06-13: **Phase A DONE.** (1) Recalibrated all 4 rubrics — G3 C3-L4 no longer forces a
+  Python bridge (grade-appropriate excellence = low-floor + challenge + real-world hook);
+  consistent **PUBLISH GATE ≥19/20 AND C2≥L3 AND C3=L4 AND C5=L4** added to all four. (2) Wrote
+  `pipeline/coding_rubric.py` (`select_rubric(grade)`, THRESHOLD=19, floors C2≥3/C3=4/C5=4,
+  classify/required_lifts/stages_needing_regen/pre_grade_drift_check) — unit-tested: rejects 18,
+  rejects C3<L4/C5<L4, enforces C2 hard gate, accepts clean 19–20. (3) **Lifted Sheet 1 → 20/20**
+  (added real-world hook + Ex4 Challenge [run-gate models 3×2=6] → C3-L4; Ex2 predict-then-check
+  → C4-L4; teacher-guide success indicator → C5-L4); both PDFs re-rendered + visually inspected,
+  teacher guide kept to 1 page; `classify()` confirms 20/20 pass. (4) Wrote process docs:
+  `coding/AUTONOMOUS_BUILD.md`, `pilot_g3_block_coding/topics.json` (locked 7-topic arc),
+  `pilot_g3_block_coding/STYLE_SPEC.md`. Next = Phase B (stages + schemas + manifest migration).

@@ -18,6 +18,11 @@ top-down, stops at the highest fully-met level. **Pass = total ≥ 15/20 AND
 Criterion 2 ≥ L3 (hard gate).** For **Intro Python Turtle** sheets the
 `solution_NN` code MUST execute clean in the run-gate to earn C2 ≥ L3.
 
+> **PUBLISH GATE (this pipeline, all grades — enforced by `pipeline/coding_rubric.py`):
+> total ≥ 19/20 AND C2 ≥ L3 AND C3 = L4 AND C5 = L4.** The only droppable point is
+> C1 or C4 → L3. The ≥15 line above is the documented minimum-viable score; shipping
+> a paid product requires the stricter bar.
+
 ### C1 — Ontario C3 Alignment
 - **L1:** No C3 expectation cited or addressed.
 - **L2:** Addresses only sequential/concurrent (G2 level) — under-reaches G3 (no repetition).
@@ -34,7 +39,7 @@ Criterion 2 ≥ L3 (hard gate).** For **Intro Python Turtle** sheets the
 - **L1:** Introduces functions/variables/nested loops or dense syntax — beyond G3.
 - **L2:** Loop present but cognitive/syntax load (e.g. unexplained Python punctuation) is unmanaged.
 - **L3:** One new idea (loop OR a single Turtle command set); typed code kept short with a copy-this model; one objective.
-- **L4:** All of L3 **and** block→text bridge made explicit (show the block, then its Turtle equivalent) + low-floor + challenge.
+- **L4:** All of L3 **and** grade-appropriate excellence — an explicit **low-floor entry** every student can start, a genuine **challenge/stretch**, and the loop idea hooked to a concrete **real-world or cross-strand context** (no typed syntax required). *The block→text bridge is one valid L4 path, but **only** for **Intro Python Turtle** sheets — it is NOT required for Block Coding sheets to earn C3-L4.*
 
 ### C4 — Clarity, Structure & Mascot/Visual Integration
 - **L1:** Code shown inaccurately or task unclear.

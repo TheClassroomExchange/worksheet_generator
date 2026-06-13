@@ -68,6 +68,18 @@ def exercise_3_jump(repeats=5):
     return bit
 
 
+# ── Exercise 4 (CHALLENGE): repeat 3 { jump, jump } → 6 jumps total ─────────
+# Stretch: two actions inside the loop, so total = repeats × 2 (a genuine
+# step up from the single-action loops above — requires multiplying, not just
+# reading the repeat number).
+def exercise_4_challenge(repeats=3):
+    bit = Bit()
+    for _ in range(repeats):
+        bit.jump()
+        bit.jump()
+    return bit
+
+
 if __name__ == "__main__":
     # Worked example + Exercise 1 (count): repeat 4 → 4 moves, 4 turns, square.
     sq = worked_example(4)
@@ -87,5 +99,10 @@ if __name__ == "__main__":
     j = exercise_3_jump(5)
     assert j.jumps == 5, j.jumps
     print(f"Exercise 3 (write):            repeat 5 -> Bit jumps {j.jumps} times ✓")
+
+    # Exercise 4 (challenge): repeat 3 { jump, jump } -> 6 jumps (3 × 2).
+    ch = exercise_4_challenge(3)
+    assert ch.jumps == 6, ch.jumps
+    print(f"Exercise 4 (challenge):        repeat 3 × 2 jumps -> {ch.jumps} jumps total ✓")
 
     print("\nALL CHECKS PASSED — answer key is provably correct.")

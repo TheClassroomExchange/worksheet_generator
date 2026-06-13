@@ -1,0 +1,75 @@
+{
+  "batch_id": "pilot_g3_block_coding",
+  "grade": "Grade 3",
+  "subject": "Block Coding",
+  "rubric": "rubric_coding_G3.md",
+  "curriculum_codes": ["C3.1", "C3.2"],
+  "locked": true,
+  "note": "Locked learning arc for the G3 Block Coding calibration batch. Sheets do NOT self-invent topics (scope-drift guard). ~7 topics: sequential -> events -> loops -> conditionals preview -> debugging mini.",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "loops",
+      "dir": "sheet_01_loops",
+      "title": "Loops: Code That Repeats",
+      "concept": "count-controlled repeat loop (repeating events)",
+      "primary_code": "C3.1",
+      "status": "built",
+      "grade_score": "20/20"
+    },
+    {
+      "nn": "02",
+      "slug": "sequence",
+      "dir": "02_sequence",
+      "title": "Move in Order",
+      "concept": "sequential events — order of blocks changes the outcome",
+      "primary_code": "C3.1",
+      "status": "planned"
+    },
+    {
+      "nn": "03",
+      "slug": "events",
+      "dir": "03_events",
+      "title": "When the Flag is Clicked",
+      "concept": "events start a script (when green flag / when clicked)",
+      "primary_code": "C3.1",
+      "status": "planned"
+    },
+    {
+      "nn": "04",
+      "slug": "loops-count",
+      "dir": "04_loops_count",
+      "title": "Bigger Repeats",
+      "concept": "loops with a larger/changing count; repeat to stamp/draw",
+      "primary_code": "C3.1",
+      "status": "planned"
+    },
+    {
+      "nn": "05",
+      "slug": "concurrent",
+      "dir": "05_concurrent",
+      "title": "Two Things at Once",
+      "concept": "concurrent / parallel scripts (two sprites act together)",
+      "primary_code": "C3.1",
+      "status": "planned"
+    },
+    {
+      "nn": "06",
+      "slug": "read-predict",
+      "dir": "06_read_predict",
+      "title": "Read and Predict",
+      "concept": "read existing code and predict the outcome (C3.2)",
+      "primary_code": "C3.2",
+      "status": "planned"
+    },
+    {
+      "nn": "07",
+      "slug": "debug-mini",
+      "dir": "07_debug_mini",
+      "title": "Find the Bug",
+      "concept": "debugging mini — spot and fix a wrong block / order",
+      "primary_code": "C3.2",
+      "status": "planned"
+    }
+  ]
+}

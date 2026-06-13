@@ -43,9 +43,11 @@ def worksheet_spec() -> dict:
                 "type": "prose",
                 "title": "What is a loop?",
                 "text": [
-                    "A loop is a block that repeats. You put the actions inside it one time. "
-                    "The loop runs them again and again for you.",
-                    "So you do not have to add the same block over and over. Bit will show you how.",
+                    "Think about a song with a chorus you sing again and again, or doing 5 jumping "
+                    "jacks in gym. Lots of things in real life repeat. Code can repeat too — with a loop.",
+                    "A loop is a block that repeats. You put the actions inside it one time, and the "
+                    "loop runs them again and again for you — so you do not add the same block over and "
+                    "over. Bit will show you how.",
                 ],
             },
             {
@@ -77,9 +79,10 @@ def worksheet_spec() -> dict:
             {
                 "type": "exercise",
                 "number": 2,
-                "title": "Change the number",
-                "prompt": "Now change repeat 4 to repeat 6. Bit runs the inside blocks 6 times. "
-                          "How many times does Bit move now? Is that MORE or FEWER than before?",
+                "title": "Predict, then check",
+                "prompt": "Now change repeat 4 to repeat 6. PREDICT first: how many times will Bit "
+                          "move? Write your guess. Then CHECK by tapping the inside blocks once for "
+                          "each repeat. Was your prediction right? Is it MORE or FEWER than before?",
                 "answer_lines": 2,
             },
             {
@@ -91,10 +94,20 @@ def worksheet_spec() -> dict:
                 "answer_lines": 1,
             },
             {
+                "type": "exercise",
+                "number": 4,
+                "title": "Challenge",
+                "prompt": "This time there are TWO blocks inside:  repeat 3 → ( jump, jump ). "
+                          "Bit jumps twice each time the loop runs. How many jumps in total? "
+                          "Show how you worked it out.",
+                "answer_lines": 2,
+            },
+            {
                 "type": "prose",
                 "title": "Big idea",
                 "text": "The number in the repeat block tells Bit how many times to run the blocks "
-                        "inside. A bigger number means more repeats.",
+                        "inside. A bigger number means more repeats — and if there is more than one "
+                        "block inside, every block runs each time around.",
             },
         ],
     }
@@ -112,8 +125,8 @@ def teacher_guide_spec() -> dict:
             {
                 "type": "prose",
                 "title": "Goal",
-                "text": "Students learn that a repeat loop runs the blocks inside it a set number "
-                        "of times. They count the repeats, change the number, and write their own.",
+                "text": "Students count, change, and write a repeat loop — learning that the loop runs "
+                        "the blocks inside it a set number of times.",
             },
             {
                 "type": "prose",
@@ -126,17 +139,16 @@ def teacher_guide_spec() -> dict:
             {
                 "type": "prose",
                 "title": "Materials",
-                "text": "A block-coding app (Scratch-style) to project for the worked example; "
-                        "the printed worksheet and a pencil per student.",
+                "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student.",
             },
             {
                 "type": "prose",
                 "title": "Run it (about 30 min)",
                 "text": [
-                    "1. Hook: have the class clap 4 times. Say it as a loop — \"repeat 4: clap.\"",
-                    "2. Show the repeat-4 square loop. Count the runs out loud together.",
-                    "3. Students do Exercises 1–3 on their own or in pairs.",
-                    "4. Share answers. Land the big idea: the repeat number = how many times.",
+                    "1. Hook: class claps 4 times — say it as a loop, \"repeat 4: clap.\"",
+                    "2. Project the repeat-4 square loop; count the runs aloud together.",
+                    "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+                    "4. Share answers; land the big idea: the repeat number = how many times.",
                 ],
             },
             {
@@ -144,18 +156,26 @@ def teacher_guide_spec() -> dict:
                 "title": "Answer key (checked by the run-gate)",
                 "text": [
                     "Ex 1 — Bit moves 4 times and turns 4 times.",
-                    "Ex 2 — Bit moves 6 times. That is MORE than before.",
+                    "Ex 2 — Bit moves 6 times (predicted = 6). That is MORE than before.",
                     "Ex 3 — repeat 5.",
+                    "Ex 4 (challenge) — 6 jumps. 2 jumps each time × 3 repeats = 6.",
                 ],
             },
             {
                 "type": "prose",
                 "title": "Watch for & differentiate",
                 "text": [
-                    "Common slip: counting the blocks once instead of once per repeat.",
+                    "Common slip: counting the blocks once instead of once per repeat (esp. Ex 4).",
                     "Support: read \"repeat 6\" as \"do it 6 times\" and tap each run on fingers.",
-                    "Extend: ask how many TOTAL moves if the loop had 2 move blocks and repeat 3.",
+                    "Extend: in Ex 4, ask what repeat 4 × 2 jumps would give (8).",
                 ],
+            },
+            {
+                "type": "prose",
+                "title": "Success looks like",
+                "text": "The student reads a repeat block to say how many times the inside runs (Ex 1–2), "
+                        "writes a repeat number to hit a target count (Ex 3), and reasons that two inside "
+                        "blocks both run each pass (Ex 4).",
             },
         ],
     }
