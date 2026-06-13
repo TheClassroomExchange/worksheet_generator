@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bit — original kawaii robot mascot for TCE coding worksheets.
+     Original artwork (no source/MIT character reuse). Mint-green rounded
+     robot, single-eye-band kawaii face, friendly wave. Designed to read
+     well inside a circular header crop. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6FE3C4"/>
+      <stop offset="1" stop-color="#39C9A6"/>
+    </linearGradient>
+    <linearGradient id="faceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#243B53"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft ground shadow -->
+  <ellipse cx="120" cy="214" rx="58" ry="12" fill="#102A43" opacity="0.12"/>
+
+  <!-- antenna -->
+  <line x1="120" y1="44" x2="120" y2="22" stroke="#39C9A6" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="120" cy="18" r="9" fill="#FFC857"/>
+  <circle cx="120" cy="18" r="3.5" fill="#FFF3D6"/>
+
+  <!-- left arm (raised wave) -->
+  <path d="M52 120 Q26 104 30 78" fill="none" stroke="#39C9A6" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="30" cy="74" r="12" fill="#6FE3C4" stroke="#2BB293" stroke-width="3"/>
+
+  <!-- right arm -->
+  <path d="M188 122 Q212 132 210 156" fill="none" stroke="#39C9A6" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="210" cy="160" r="12" fill="#6FE3C4" stroke="#2BB293" stroke-width="3"/>
+
+  <!-- body -->
+  <rect x="50" y="58" width="140" height="130" rx="46" fill="url(#bodyGrad)" stroke="#2BB293" stroke-width="4"/>
+
+  <!-- face screen -->
+  <rect x="72" y="84" width="96" height="62" rx="26" fill="url(#faceGrad)"/>
+
+  <!-- eyes -->
+  <circle cx="100" cy="114" r="10" fill="#7FFBE4"/>
+  <circle cx="140" cy="114" r="10" fill="#7FFBE4"/>
+  <circle cx="103" cy="111" r="3.2" fill="#FFFFFF"/>
+  <circle cx="143" cy="111" r="3.2" fill="#FFFFFF"/>
+  <!-- smile -->
+  <path d="M104 130 Q120 142 136 130" fill="none" stroke="#7FFBE4" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <circle cx="84" cy="128" r="6" fill="#FF9AA2" opacity="0.55"/>
+  <circle cx="156" cy="128" r="6" fill="#FF9AA2" opacity="0.55"/>
+
+  <!-- chest button / power dot -->
+  <circle cx="120" cy="166" r="9" fill="#FFC857" stroke="#E0A93B" stroke-width="2.5"/>
+
+  <!-- feet -->
+  <rect x="78" y="184" width="30" height="16" rx="8" fill="#2BB293"/>
+  <rect x="132" y="184" width="30" height="16" rx="8" fill="#2BB293"/>
+</svg>
