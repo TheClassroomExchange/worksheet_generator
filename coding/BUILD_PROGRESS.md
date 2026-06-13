@@ -108,3 +108,12 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   teacher guides tightened to 1 page). All at 5/6 stages — **`publish` pending = the human
   `batch_verification` gate**. Per the goal, STOPPING here for user sign-off before publish
   + before the next subject. Next (Phase E, after sign-off) = drive_publish.py + push 14 PDFs.
+- 2026-06-13: **Phase E DONE — batch PUBLISHED + signed off.** User approved the loop-centric
+  arc + publish. `pipeline/drive_publish.py` pushed the **14 PDFs (2/topic)** to
+  `Product/Resources/Generated Coding Worksheets/Grade 3/Block Coding/<N. Topic>/` — numbered
+  folders for clear navigation; **only** the Worksheet + Teacher Guide per folder. Idempotent
+  (update-in-place). Hygiene check + independent Drive-API audit: **7 folders, 14 PDFs, 0 strays**.
+  All 7 manifests now 6/6 (publish=done). Block Coding Drive folder:
+  https://drive.google.com/drive/folders/13ANbhJATvAjMNGqTn911h1jVnk6uMn4M
+  **G3·Block Coding subject COMPLETE + SHIPPED.** Next (awaiting user go-ahead) = next subject
+  **Intro Python Turtle** (its own ~7-sheet batch + batch gate); then G3 Debugging; then K/G1/G2.
