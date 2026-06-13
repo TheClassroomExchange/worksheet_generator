@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Worked / Ex 1 (count): range(3) f50 r90 -> 3 moves, 3 turns (open) ✓\nEx 2 (alter):          range(4) f50 r90 -> 4 moves, closes into a square ✓\nEx 3 (write):          range(4) f50 r90 -> 4 moves, 4 turns ✓\nEx 4 (challenge):      range(4) right(90) -> total turning = 360° (a full turn) ✓\n\nALL CHECKS PASSED — answer key is provably correct.\n",
+  "stderr": ""
+}

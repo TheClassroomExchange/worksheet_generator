@@ -80,8 +80,12 @@ def render_sheet(unit_dir: Path) -> dict:
 
     ws_path = unit_dir / f"{fbase} — Worksheet.pdf"
     tg_path = unit_dir / f"{fbase} — Teacher Guide.pdf"
+    # Teacher guides render in compact mode so a full guide (incl. the two
+    # verbatim C3 citations) reliably fits one page — no per-sheet hand-trimming.
+    tg_spec = _resolve_paths(content["teacher_guide"])
+    tg_spec.setdefault("compact", True)
     render_pdf(_resolve_paths(content["worksheet"]), ws_path)
-    render_pdf(_resolve_paths(content["teacher_guide"]), tg_path)
+    render_pdf(tg_spec, tg_path)
 
     render = {
         "worksheet_pdf": ws_path.name,

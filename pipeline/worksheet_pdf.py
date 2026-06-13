@@ -160,6 +160,14 @@ _PART_RENDERERS = {
 # ── CSS (the house style) ───────────────────────────────────────────────────
 def _css(spec: dict) -> str:
     footer_topic = _esc(spec.get("footer_topic", spec.get("title", "")))
+    # Compact mode (used for teacher guides): tightens vertical rhythm so a
+    # full guide — including the two verbatim C3 citations — reliably fits one
+    # page without per-sheet hand-trimming.
+    compact = bool(spec.get("compact"))
+    body_pt = "10.3pt" if compact else "11pt"
+    line_h = "1.38" if compact else "1.5"
+    part_mb = "8px" if compact else "14px"
+    prose_mb = "4px" if compact else "6px"
     return f"""
 @page {{
     size: Letter;
@@ -183,7 +191,7 @@ def _css(spec: dict) -> str:
 * {{ box-sizing: border-box; }}
 body {{
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: {INK}; font-size: 11pt; line-height: 1.5; margin: 0;
+    color: {INK}; font-size: {body_pt}; line-height: {line_h}; margin: 0;
 }}
 
 /* ── header band ── */
@@ -226,7 +234,7 @@ h1.title {{
 .goal .star {{ color: {YELLOW}; margin-right: 6px; }}
 
 /* parts */
-.part {{ margin: 0 0 14px 0; }}
+.part {{ margin: 0 0 {part_mb} 0; }}
 /* keep self-contained boxes from splitting across a page break */
 .exercise, figure.image, .code-block, .code-output, .sb-stack {{
     break-inside: avoid;
@@ -235,7 +243,7 @@ h1.title {{
     font-size: 12.5pt; color: {NAVY}; margin: 0 0 5px 0;
     border-left: 4px solid {MINT}; padding-left: 8px;
 }}
-.prose p {{ margin: 0 0 6px 0; }}
+.prose p {{ margin: 0 0 {prose_mb} 0; }}
 
 /* Scratch-style blocks — stacked vertically, children indented */
 .sb-stack {{ margin: 4px 0; }}
