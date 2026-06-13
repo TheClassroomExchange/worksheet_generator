@@ -1,0 +1,123 @@
+{
+  "title": "Off by One",
+  "file_title": "Off by One",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Debugging",
+    "title": "Off by One",
+    "subtitle": "Ontario Math C3.2 — read, find, and fix code",
+    "footer_topic": "2. Off by One",
+    "learning_goal": "I can fix a loop whose repeat number is one too many or too few.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "One too many or one too few",
+        "text": [
+          "A very common bug is being OFF BY ONE — the repeat number is just one more or one less than it should be.",
+          "In a turtle shape, off by one is easy to see: a square needs range(4); range(3) leaves a side missing."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_debugging/02_off_by_one/offbyone.svg",
+        "caption": "range(3) leaves the square open; range(4) closes it.",
+        "width": "72%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Too many",
+        "prompt": "Bit should repeat 5 times, but the code says repeat 6. How many too many is that, and what should it be? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Too few",
+        "prompt": "Bit should repeat 6 times, but the code says repeat 5. Is it too many or too few? What should it be?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Fix the turtle",
+        "prompt": "This should draw a square:  for i in range(5): bit.forward(50); bit.right(90). The range is off by one. What should range() be?",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Bit's square code is  for i in range(3): bit.forward(50); bit.right(90). What does Bit draw now, and what one change fixes it? Explain why.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Off-by-one is a tiny bug with a big effect. Always check the repeat number against the goal — one more or one less changes the whole result."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Debugging",
+    "title": "Off by One",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "2. Off by One — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students find and fix off-by-one loop bugs (C3.2) in both block (count) and turtle (a square that does not close) contexts, and describe how the one-step change fixes the outcome."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block-coding app and/or Python Turtle projected; the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Run a turtle square with range(3) — the open shape makes off-by-one visible.",
+          "2. Add one to range — it closes. Name the bug: 'off by one.'",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: check the count against the goal every time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — one too many; repeat 5.",
+          "Ex 2 — too few; repeat 6.",
+          "Ex 3 — range(4).",
+          "Ex 4 (challenge) — only 3 sides (an open shape); change range(3) to range(4) to close the square."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: reading range(4) as 5 (counting the start) — it is exactly 4.",
+          "Support: count the sides on the drawing and compare to the range number.",
+          "Extend: ask the off-by-one fix for a triangle drawn with range(2) (range 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student identifies too-many vs too-few and corrects the count (Ex 1–3), and explains how adding one side closes the square (Ex 4)."
+      }
+    ]
+  }
+}

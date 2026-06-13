@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Ex 1: want 5, code repeat 6 (one too many) -> FIX repeat 5 ✓\nEx 2: want 6, code repeat 5 (one too few) -> FIX repeat 6 ✓\nEx 3 (turtle): square wants range(4), code range(5) -> FIX range(4) ✓\nEx 4 (challenge): range(3) leaves the square open (off by one) -> FIX range(4) ✓\n\nALL CHECKS PASSED — every fix produces the correct result.\n",
+  "stderr": ""
+}
