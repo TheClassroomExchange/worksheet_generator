@@ -36,5 +36,16 @@ Pilot = **Grade 3 · Block Coding** (then Intro Python Turtle, then Debugging).
 - IP: source = ultimatecoders.ca + MIT Scratch (copyrighted). Original prose/code/mascots ONLY.
 - Run python as: `DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib ./venv/bin/python ...` (for WeasyPrint).
 
+## Reorder (user direction, 2026-06-13)
+User wants **content first → validate vs rubric → approve → THEN mascot cast +
+scale-up + publish**. So Sheet-1 content is authored directly as renderer specs
+(no full stage/manifest machinery yet — that's P2/P4, built after content sign-off).
+
 ## Log
-- 2026-06-13: env set up (fresh clone, venv, WeasyPrint), branch created. Starting P1.
+- 2026-06-13: env set up (fresh clone, venv, WeasyPrint), branch created. P1 cleared.
+- 2026-06-13: **Sheet 1 content built + graded** — `coding/pilot_g3_block_coding/sheet_01_loops/`:
+  `solution.py` (code-runs gate, all asserts PASS), `content.py` (worksheet + teacher-guide
+  specs), `square_path.svg` (diagram), rendered `Loops — Worksheet.pdf` (2pp) +
+  `Loops — Teacher Guide.pdf` (2pp) — all visually inspected clean. Self-graded vs
+  rubric_coding_G3 = **20/20 PASS** (C2 hard gate cleared), `rubric_grade.md`.
+  AWAITING USER REVIEW of the 2 PDFs before scaling up.
