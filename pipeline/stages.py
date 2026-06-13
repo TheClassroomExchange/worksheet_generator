@@ -21,6 +21,39 @@ class Stage:
     short: str = ""               # 2-letter code for the dashboard column
 
 
+def coding_stages_for_sheet() -> list[Stage]:
+    """Ordered stage list for ONE coding worksheet (a 'sheet').
+
+    The coding pipeline is flatter than the math unit pipeline: each sheet is a
+    single topic that runs through a quality-first, grade-before-render chain.
+    See coding/PILOT_BUILD_PLAN.md + coding/AUTONOMOUS_BUILD.md.
+
+    Gates are enforced by the gate-result files each stage writes (solution_run,
+    content_grade, visual_grade) + pipeline.coding_rubric — not by Pydantic
+    schemas (those stages pass through manifest's schema check as 'no schema
+    registered', which is fine: the real gate is the result file's pass flag).
+    """
+    s: list[Stage] = []
+    s.append(Stage(key="solution", label="Runnable solution + code-runs gate",
+                   output_filename="solution_run.json", prompt_template="", short="SO"))
+    s.append(Stage(key="content", label="Worksheet + teacher-guide content (JSON)",
+                   output_filename="content.json", prompt_template="",
+                   depends_on=("solution",), short="CO"))
+    s.append(Stage(key="content_grade", label="Rubric grade (BEFORE render): ≥19/20 + floors",
+                   output_filename="content_grade.json", prompt_template="",
+                   depends_on=("content",), short="CG"))
+    s.append(Stage(key="render", label="Render worksheet + teacher-guide PDFs",
+                   output_filename="render.json", prompt_template="",
+                   depends_on=("content_grade",), short="RN"))
+    s.append(Stage(key="visual_grade", label="Final visual inspection (C4 layout)",
+                   output_filename="visual_grade.json", prompt_template="",
+                   depends_on=("render",), short="VG"))
+    s.append(Stage(key="publish", label="Publish 2 PDFs to Drive (batch-gated)",
+                   output_filename="publish.json", prompt_template="",
+                   depends_on=("visual_grade",), short="PB"))
+    return s
+
+
 def stages_for_unit(num_lessons: int = 5, with_gates: bool = False) -> list[Stage]:
     """Build the ordered stage list for a unit with `num_lessons` lessons.
 

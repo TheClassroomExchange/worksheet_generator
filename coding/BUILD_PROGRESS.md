@@ -84,3 +84,15 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   teacher guide kept to 1 page; `classify()` confirms 20/20 pass. (4) Wrote process docs:
   `coding/AUTONOMOUS_BUILD.md`, `pilot_g3_block_coding/topics.json` (locked 7-topic arc),
   `pilot_g3_block_coding/STYLE_SPEC.md`. Next = Phase B (stages + schemas + manifest migration).
+- 2026-06-13: **Phase B DONE.** Reused `manifest.py` as the checkpoint backbone:
+  added `stages.coding_stages_for_sheet()` (6 stages: solution → content → content_grade →
+  render → visual_grade → publish); gave `manifest.init_unit()` an optional `stage_objs`
+  param (backward-compatible). New `pipeline/coding_build.py` — `run_solution()` (code-runs
+  gate → `solution_run.json`) + `render_sheet()` (renders both PDFs from `content.json`, the
+  renderer spec; clean filenames via `file_title`). **Content is now authored as `content.json`**
+  (replaces the bootstrap `content.py`, which is kept git-tracked as reference; verified
+  faithful — content.json renders byte-identical PDFs). Migrated Sheet 1 into a manifest unit:
+  all 5 build stages `done`, `publish` pending (batch-gated), `next_pending → publish`, drift
+  pre-check passed, content_grade 20/20. NOTE: full Pydantic part-type schemas deferred —
+  coding stages pass manifest's "no schema registered" check; gates enforced by the
+  gate-result files (solution_run/content_grade/visual_grade) + `coding_rubric`. Next = Phase C (Sheet 2).
