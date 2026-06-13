@@ -89,26 +89,46 @@ code-runs (solution_run) → content schema → content_grade (≥19/20 + floors
 
 ---
 
-## 5. Supervised autonomy (the batch gate)
+## 5. Continuous autonomous build (NO human batch gate — updated 2026-06-13)
 
-- Autonomy is **bounded to one batch** at a time. Within a batch, sheets auto-advance through
-  stages 0–4.
-- A batch **stops** at a human **`batch_verification`** gate: every sheet (both PDFs + its
-  `content_grade`/`visual_grade`) is presented for the user's sign-off.
-- Only on sign-off do the batch's `publish` stages run and the **next** batch begin.
-- The **first** batch (G3 · Block Coding) is the **calibration batch**, reviewed in full before
-  autonomy widens to later subjects/grades.
-- **Non-negotiable:** no cross-batch unattended runs until the user explicitly widens the leash.
-  A `/loop` or Workflow may drive sheet-after-sheet *within* a batch, but always halts at the gate.
+The calibration batch (G3 · Block Coding) shipped and the user **removed batch gating**:
+build the full ~100-worksheet K–G3 catalogue autonomously, subject after subject, no human
+sign-off between batches.
+
+- **Drive the queue from `coding/subjects.json`.** The runner picks the lowest-`order` subject
+  whose `status != "done"`, designs its topic arc (its first step — against that grade's rubric
+  **and** `concept_ceiling`), locks it into the batch's `topics.json`, then builds every sheet.
+- **Within a subject**, sheets auto-advance through ALL six stages — including `publish`. When a
+  subject's sheets all pass their gates, **publish the batch to Drive automatically**
+  (`drive_publish.publish_batch`) and mark the subject `done` in `subjects.json`. Then start the
+  next subject. No stopping in between.
+- **The quality gates REMAIN — only the *human* gate is gone.** Every sheet still must clear the
+  code-runs gate, `content_grade` ≥19/20 (C2≥L3, C3=L4, C5=L4), and the model-driven
+  `visual_grade` (read every rendered page). Nothing publishes that fails a gate; a failed sheet
+  is parked (`failed`) and the runner moves on, converging later — never block the catalogue.
+- **Grade-correct arcs.** Each grade has its own `concept_ceiling` in `subjects.json` — do NOT
+  carry G3's loop-centric arc into G1/G2 (their rubrics score loops as out-of-grade). K = K-frame
+  (no C3 codes). Turtle solutions are MODELLED (no GUI) and asserted.
+- A `/loop` or Workflow may drive the whole catalogue unattended.
 
 ---
 
-## 6. Handoff & memory cadence
+## 6. Handoff & memory cadence — UPDATE THE PLAN + HANDOFF AT EVERY CHECKPOINT
 
-- **`BUILD_PROGRESS.md`** (live tracker) — updated whenever a sheet hits a terminal gate
-  (pass, or parked-failed) and at every session end.
-- **`HANDOFF.md`** (stable) — updated only when the process or scope changes.
-- **`PILOT_BUILD_PLAN.md`** (authoritative plan) — updated if the plan itself changes.
-- **Memory** (`project_coding_worksheet_pipeline.md` + the `MEMORY.md` hook) — updated at session
-  end and on each subject completed; always points at `BUILD_PROGRESS.md` as live truth.
-- Commit at every terminal gate; push at session end.
+A **checkpoint** = a completed sheet (minor) or a completed subject (major). The user's
+standing instruction: keep the plan and handoff current at each checkpoint, not just at session end.
+
+**At each completed SHEET (minor checkpoint):**
+- Finalize the manifest (visual_grade pass); append a one-line entry to `BUILD_PROGRESS.md`;
+  `git commit` the sheet.
+
+**At each completed SUBJECT (major checkpoint):**
+- Publish the batch to Drive; set the subject `done` (+ `built`/`published`) in `subjects.json`.
+- **Update `MASTER_BUILD_PLAN.md`** (catalogue progress table + what's next) **and `HANDOFF.md`**
+  (status line + next subject) — every subject, no exceptions.
+- Update `BUILD_PROGRESS.md` and **memory** (`project_coding_worksheet_pipeline.md` + the
+  `MEMORY.md` hook), then `git commit` + `git push`.
+
+Docs map: `MASTER_BUILD_PLAN.md` = authoritative full-build plan; `PILOT_BUILD_PLAN.md` = the
+proven-process record (G3 Block Coding); `HANDOFF.md` = stable context; `BUILD_PROGRESS.md` = live
+tracker; `subjects.json` = the machine queue. **All of plan + handoff stay current at every checkpoint.**

@@ -117,3 +117,10 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   https://drive.google.com/drive/folders/13ANbhJATvAjMNGqTn911h1jVnk6uMn4M
   **G3·Block Coding subject COMPLETE + SHIPPED.** Next (awaiting user go-ahead) = next subject
   **Intro Python Turtle** (its own ~7-sheet batch + batch gate); then G3 Debugging; then K/G1/G2.
+- 2026-06-13: **SCOPE → FULL CATALOGUE, batch gating REMOVED (user).** Prepared for autonomous
+  build of all ~96 worksheets: `coding/MASTER_BUILD_PLAN.md` (authoritative full-build plan),
+  `coding/subjects.json` (12-subject machine queue, build order, per-grade concept ceilings,
+  G3 Block Coding=done), `AUTONOMOUS_BUILD.md` §5 rewritten (continuous build + auto-publish, no
+  human gate) + §6 (update plan+handoff at EVERY checkpoint), HANDOFF updated. Quality gates remain
+  (run-gate, ≥19/20, visual). **READY — awaiting user to set the goal to start the full build.**
+  Next subject = G3 Intro Python Turtle (order 2 in subjects.json).
