@@ -1,0 +1,120 @@
+{
+  "title": "Same and Different",
+  "file_title": "Same and Different",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Unplugged Thinking",
+    "title": "Same and Different",
+    "subtitle": "Matching what is the same",
+    "footer_topic": "2. Same and Different",
+    "learning_goal": "I can find the card that is the same, and the one that is different.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Bit looks for a match",
+        "text": "Bit holds up a card. Help Bit find the card that is the SAME. Cards that look alike are a MATCH."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit — Bit's card is ●",
+        "size": "lg",
+        "items": [{ "sym": "●", "label": "Bit's card" }]
+      },
+      {
+        "type": "symbols",
+        "title": "Which one is the same as ●?",
+        "size": "lg",
+        "items": [{ "sym": "▲", "label": "no" }, { "sym": "●", "label": "yes!" }, { "sym": "■", "label": "no" }],
+        "note": "The circle ● is the same as Bit's card. Circle the match."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Find the same as  ★",
+        "prompt": "Circle the card that is the same as the star.   ●   ★   ▲",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Find the same as  ■",
+        "prompt": "Circle the card that is the same as the square.   ●   ▲   ■",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — which is different?",
+        "prompt": "Three are the same and one is different. Circle the one that is DIFFERENT.   ●   ●   ▲   ●",
+        "answer_lines": 0
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Matching means finding what is the same. Computers match too — like finding the same face in your photos!"
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Unplugged Thinking",
+    "title": "Same and Different",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "2. Same and Different — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children match a target to the card that is the SAME, then spot the one that is DIFFERENT. Comparing by attribute (same/different) is a core computational-thinking skill — recognizing equality is how computers find and group matching things."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children compare and match objects by attribute as they make sense of their world.",
+          "No reading required of the child: read each prompt aloud; the child responds by circling."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil/crayon. Optional: pairs of matching cards or objects to match by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: hold up a circle. 'Find the one that is the same.' Point to the ● — that is the match.",
+          "2. GUIDED: do Exercise 1 together — the star matches the star.",
+          "3. YOU TRY: children do Exercise 2, then Exercise 3 (the odd one out) on their own.",
+          "4. Connect: 'Computers match too — that is how a phone finds the same face in your photos.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — the ● matches Bit's ●.",
+          "Ex 1 — circle the ★ (the star). Ex 2 — circle the ■ (the square).",
+          "Ex 3 — circle the ▲; it is different because the other three are all circles."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: circling more than one — remind them there is exactly one match.",
+          "Simplify: match real identical objects by hand before using the page.",
+          "Extend: ask 'how is it different?' (shape, corners) to build describing language.",
+          "Movement option: hold up a card and have children point to or run to the matching card on the wall."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child circles the one matching card for the targets, and identifies the single different card in Exercise 3."
+      }
+    ]
+  }
+}

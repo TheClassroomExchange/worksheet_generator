@@ -1,0 +1,82 @@
+{
+  "batch_id": "k_unplugged_ct",
+  "grade": "Kindergarten",
+  "subject": "Unplugged Computational Thinking",
+  "rubric": "rubric_coding_K.md",
+  "locked": true,
+  "arc_note": "K-frame (Problem Solving & Innovating) — NO C3 codes, NO text code, NO loops. Symbol/picture-driven via the `symbols` renderer part (large geometric cards) + grids; the child draws/circles/matches, an adult reads the short prompt aloud (no required reading). Stays in the CT-thinking lane: classify, compare, pattern, abstract, decompose, debug — NOT routine sequencing (subject 5) and NOT arrow-blocks (subject 6). Each sheet's correct answer is MODELLED + asserted in solution.py (the code-runs gate stands in for an executable answer key). Bit mascot models the worked example, then the child repeats. C1 hook = 'this is how computers think' in every teacher guide.",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "sort-by-shape",
+      "dir": "01_sort_by_shape",
+      "title": "Sort by Shape",
+      "concept": "classification — group cards by one attribute (shape)",
+      "ct_skill": "sorting/classification",
+      "status": "built"
+    },
+    {
+      "nn": "02",
+      "slug": "same-and-different",
+      "dir": "02_same_and_different",
+      "title": "Same and Different",
+      "concept": "matching — find the card that is the same; spot different",
+      "ct_skill": "comparison/matching",
+      "status": "built"
+    },
+    {
+      "nn": "03",
+      "slug": "what-comes-next",
+      "dir": "03_what_comes_next",
+      "title": "What Comes Next?",
+      "concept": "AB pattern recognition — fill the dashed 'next' card",
+      "ct_skill": "pattern recognition",
+      "status": "built"
+    },
+    {
+      "nn": "04",
+      "slug": "growing-patterns",
+      "dir": "04_growing_patterns",
+      "title": "Growing Patterns",
+      "concept": "ABC / longer patterns — read and extend",
+      "ct_skill": "pattern extension",
+      "status": "built"
+    },
+    {
+      "nn": "05",
+      "slug": "which-does-not-belong",
+      "dir": "05_which_does_not_belong",
+      "title": "Which One Does Not Belong?",
+      "concept": "abstraction — find the odd one out in a group",
+      "ct_skill": "abstraction/classification",
+      "status": "built"
+    },
+    {
+      "nn": "06",
+      "slug": "break-it-into-parts",
+      "dir": "06_break_it_into_parts",
+      "title": "Break It Into Parts",
+      "concept": "decomposition — a whole is made of smaller parts",
+      "ct_skill": "decomposition",
+      "status": "built"
+    },
+    {
+      "nn": "07",
+      "slug": "sort-two-ways",
+      "dir": "07_sort_two_ways",
+      "title": "Sort Two Ways",
+      "concept": "multi-attribute classification — sort by size, then by shape",
+      "ct_skill": "classification (2 attributes)",
+      "status": "built"
+    },
+    {
+      "nn": "08",
+      "slug": "fix-the-mix-up",
+      "dir": "08_fix_the_mix_up",
+      "title": "Fix the Mix-Up",
+      "concept": "debugging — one card in a sort/pattern is wrong; find and fix it",
+      "ct_skill": "debugging",
+      "status": "built"
+    }
+  ]
+}

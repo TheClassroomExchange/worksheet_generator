@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Model: ● ▲ ● ▲ ■ ▲ -> bug at spot 5 (■), should be ● ✓\nEx 1: ● ● ▲ ● -> the ▲ does not belong, should be ● ✓\nEx 2: ★ ■ ★ ■ ★ ★ -> bug at spot 6 (★), should be ■ ✓\nEx 3: ▲ ● ▲ ● ▲ ▲ -> bug at spot 6 (▲), should be ● ✓\n\nALL CHECKS PASSED — every mix-up is found and fixed correctly.\n",
+  "stderr": ""
+}

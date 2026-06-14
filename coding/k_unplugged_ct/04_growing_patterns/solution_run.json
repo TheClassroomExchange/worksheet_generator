@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Model: ▲ ■ ● ▲ ■ ● -> next ▲ ✓\nEx 1: ● ■ ★ ● ■ ★ -> next ● ✓\nEx 2: ▲ ● ▲ ● ▲ -> next two are ● then ▲ ✓\nEx 3: any correct repeating pattern is accepted (example ★ ● ■ … -> ★) ✓\n\nALL CHECKS PASSED — every pattern answer is correct.\n",
+  "stderr": ""
+}

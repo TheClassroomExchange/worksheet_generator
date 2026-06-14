@@ -144,3 +144,18 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   subjects.json: g3_debugging=done. **G3 fully complete (3 subjects, 21 sheets, 42 PDFs).**
   **Next subject = K Unplugged CT (order 4)** — K-frame (no C3 codes), unplugged/symbol-only, no text/loops;
   arc must be designed against `rubric_coding_K.md` + the K `concept_ceiling`.
+- 2026-06-14: **K · Unplugged Computational Thinking SHIPPED** (subject 4/12, first Kindergarten subject).
+  8 sheets — 01 Sort by Shape · 02 Same and Different · 03 What Comes Next? · 04 Growing Patterns ·
+  05 Which One Does Not Belong? · 06 Break It Into Parts · 07 Sort Two Ways · 08 Fix the Mix-Up. CT-thinking
+  arc (classify→compare→pattern→pattern→abstract→decompose→multi-classify→debug); stays out of routine
+  sequencing (subj 5) and arrow-blocks (subj 6). Every sheet: run-gate PASS (solution.py MODELS the
+  answer — no executable text code at K) + **20/20** (C1–C5 all L4) + drift passed + visually inspected.
+  **NEW renderer primitive (additive, zero regression risk):** `symbols` part in `pipeline/worksheet_pdf.py`
+  — large geometric symbol cards (★ ● ▲ ■ ➡ ↻) + dashed 'what comes next' answer card; this is what makes
+  K genuinely picture/symbol-driven (tested: color emoji render too small/inconsistent → not used as backbone).
+  No reading required of the child (adult reads the short prompt; child draws/circles); Bit models each
+  worked example. Published 16 PDFs to `…/Generated Coding Worksheets/Kindergarten/Unplugged Computational
+  Thinking/<N. Topic>/` (8 folders, hygiene OK). Drive:
+  https://drive.google.com/drive/folders/1_yM25wZ-ix5EPvO-iUMy1eGAvJAA9Pv5  subjects.json: k_unplugged_ct=done.
+  **Catalogue now 4/12 subjects, 29 sheets, 58 PDFs.** **Next = K Sequencing & Algorithms (order 5)** —
+  directional/routine sequencing, ≤4 steps, picture-driven; reuse the `symbols`/`blocks` primitives.

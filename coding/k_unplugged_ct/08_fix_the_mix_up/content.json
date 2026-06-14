@@ -1,0 +1,128 @@
+{
+  "title": "Fix the Mix-Up",
+  "file_title": "Fix the Mix-Up",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Unplugged Thinking",
+    "title": "Fix the Mix-Up",
+    "subtitle": "Find the mistake and fix it",
+    "footer_topic": "8. Fix the Mix-Up",
+    "learning_goal": "I can find the one card that is wrong and fix it.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Bit made a mistake",
+        "text": "Bit was making a pattern, but one card is wrong. Finding and fixing a mistake is called DEBUGGING. Circle the wrong card, then say what it should be."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit — this should go ● ▲ ● ▲ …",
+        "size": "lg",
+        "items": ["●", "▲", "●", "▲", "■", "▲"],
+        "note": "The 5th card is a square ■, but the pattern needs a circle ●. That square is the mix-up."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Fix the group",
+        "prompt": "These should all be circles. Circle the one that does not belong, and say what it should be."
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["●", "●", "▲", "●"]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Fix the pattern",
+        "prompt": "This should go ★ ■ ★ ■ … . Circle the card that is wrong, and say what it should be."
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["★", "■", "★", "■", "★", "★"]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try",
+        "prompt": "This should go ▲ ● ▲ ● … . Circle the card that is wrong, and say what it should be.",
+        "answer_lines": 0
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["▲", "●", "▲", "●", "▲", "▲"]
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Finding a mistake and fixing it is called debugging. Every coder debugs — even the best ones make mix-ups and then fix them!"
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Unplugged Thinking",
+    "title": "Fix the Mix-Up",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "8. Fix the Mix-Up — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children find the one card that breaks a pattern or group and say what it should be. Spotting and correcting a mistake is debugging — a core computational-thinking skill, and the K-appropriate first taste of fixing code."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children detect and correct an error in a sequence or group.",
+          "No reading required of the child: read each prompt aloud; the child circles the wrong card and names the fix orally."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil/crayon. Optional: build a pattern with blocks, slip in a wrong one, and have children find it."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: read ● ▲ ● ▲ ■ ▲ aloud. 'It should be circle-triangle… but here is a square. That is the mix-up.' Circle it; it should be a circle.",
+          "2. GUIDED: do Exercise 1 together — the triangle does not belong in the circle group.",
+          "3. YOU TRY: children fix Exercise 2 (last star should be a square) and Exercise 3 (last triangle should be a circle).",
+          "4. Connect: 'Every coder debugs — they find a mix-up and fix it. Mistakes are okay; we just fix them.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — ● ▲ ● ▲ ■ ▲ → circle the 5th card (■); it should be a circle ●.",
+          "Ex 1 — ● ● ▲ ● → circle the ▲; it should be a circle ●.",
+          "Ex 2 — ★ ■ ★ ■ ★ ★ → circle the last ★ (6th card); it should be a square ■.",
+          "Ex 3 — ▲ ● ▲ ● ▲ ▲ → circle the last ▲ (6th card); it should be a circle ●."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: circling more than one — there is exactly one mix-up; have them read to the end first.",
+          "Simplify: use a short 4-card pattern with the mistake near the start.",
+          "Extend: have the child make a pattern with a mix-up for a partner to find and fix.",
+          "Movement option: clap–stomp–clap–stomp–STOMP — children call out where the mix-up was."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child circles the single wrong card in each item and names the correct shape it should be."
+      }
+    ]
+  }
+}

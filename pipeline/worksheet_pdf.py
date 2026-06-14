@@ -137,6 +137,44 @@ def _render_exercise(part: dict) -> str:
     )
 
 
+def _render_symbols(part: dict) -> str:
+    """A horizontal row of large symbol "cards" — the K visual primitive.
+
+    Each item is either a string (the symbol) or a dict {sym, label, blank}.
+    A symbol of "?" (or item with ``blank: true``) renders as a dashed
+    answer card the child fills in. ``size`` ("md"|"lg"|"xl", default "lg")
+    scales the glyph. Crisp geometric Unicode (★ ● ▲ ■ ◆ ➡ ⬆ ↻ …) renders
+    reliably and large; this is what makes K sheets genuinely picture/symbol
+    driven without per-sheet image assets. Optional ``note`` prints below.
+    """
+    title = part.get("title")
+    head = f'<h3 class="part-title">{_esc(title)}</h3>' if title else ""
+    size = part.get("size", "lg")
+    size_cls = {"md": "sym-md", "lg": "sym-lg", "xl": "sym-xl"}.get(size, "sym-lg")
+    cards = []
+    for it in part.get("items", []):
+        if isinstance(it, dict):
+            sym = it.get("sym", "")
+            label = it.get("label")
+            blank = bool(it.get("blank")) or sym == "?"
+        else:
+            sym = it
+            label = None
+            blank = sym == "?"
+        cls = "sym-card sym-blank" if blank else "sym-card"
+        glyph = "" if blank else _esc(sym)
+        cap = f'<span class="sym-cap">{_esc(label)}</span>' if label else ""
+        cards.append(
+            f'<div class="{cls}"><span class="sym {size_cls}">{glyph}</span>{cap}</div>'
+        )
+    note = part.get("note")
+    note_html = f'<p class="block-note">{_esc(note)}</p>' if note else ""
+    return (
+        f'<section class="part symbols">{head}'
+        f'<div class="sym-row">{"".join(cards)}</div>{note_html}</section>'
+    )
+
+
 def _render_image(part: dict) -> str:
     src = Path(part["src"]).resolve().as_uri()
     cap = part.get("caption", "")
@@ -153,6 +191,7 @@ _PART_RENDERERS = {
     "blocks": _render_blocks,
     "code": _render_code,
     "exercise": _render_exercise,
+    "symbols": _render_symbols,
     "image": _render_image,
 }
 
@@ -300,6 +339,23 @@ h1.title {{
 .ex-grid .grid-cell {{
     border: 1.5px solid {SLATE}; border-radius: 6px; height: 40px; background: {PAPER};
 }}
+
+/* symbol cards (K visual primitive) */
+.sym-row {{ display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 2px 0; }}
+.symbols {{ break-inside: avoid; }}
+.sym-card {{
+    flex: 0 0 auto; min-width: 56px; min-height: 56px;
+    border: 2px solid {MINT}; border-radius: 12px; background: {PAPER};
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 8px 12px;
+}}
+.sym-card.sym-blank {{ border-style: dashed; border-color: {SLATE}; background: #FBFFFE; }}
+.sym {{ color: {NAVY}; line-height: 1; }}
+.sym-md {{ font-size: 24pt; }}
+.sym-lg {{ font-size: 34pt; }}
+.sym-xl {{ font-size: 46pt; }}
+.sym-blank .sym {{ min-width: 0.7em; }}
+.sym-cap {{ font-size: 9pt; color: {SLATE}; margin-top: 5px; }}
 
 /* figure */
 figure.image {{ text-align: center; margin: 6px 0 14px 0; }}

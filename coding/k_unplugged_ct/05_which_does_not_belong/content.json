@@ -1,0 +1,127 @@
+{
+  "title": "Which One Does Not Belong?",
+  "file_title": "Which One Does Not Belong",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Unplugged Thinking",
+    "title": "Which One Does Not Belong?",
+    "subtitle": "Finding the odd one out",
+    "footer_topic": "5. Which One Does Not Belong?",
+    "learning_goal": "I can find the one that does not belong with the others.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "One does not belong",
+        "text": "Most of these are the same. One is different. Help Bit find the one that does NOT belong, and circle it."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit — three circles and one triangle",
+        "size": "lg",
+        "items": ["●", "●", "●", "▲"],
+        "note": "Three are circles. The triangle ▲ does not belong — it is the odd one out."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Circle the odd one out",
+        "prompt": "Three are the same. Circle the one that does not belong."
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["★", "★", "●", "★"]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Circle the odd one out",
+        "prompt": "Three are the same. Circle the one that does not belong."
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["■", "▲", "■", "■"]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try",
+        "prompt": "Find the one that does not belong and circle it."
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["●", "●", "★", "●", "●"]
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "To find the odd one out, you decide what matters — here it is the shape. Choosing what matters is called abstraction, and computers do it to spot things that are different."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Unplugged Thinking",
+    "title": "Which One Does Not Belong?",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "5. Which One Does Not Belong? — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children find the one object in a group that does not share the others' attribute. Deciding what matters (here, shape) and ignoring the rest is abstraction — a computational-thinking skill computers use to detect what is different."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children classify objects and notice which one does not belong.",
+          "No reading required of the child: read each prompt aloud; the child circles the odd one out."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil/crayon. Optional: a tray of objects where one does not belong, to find by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: point to ● ● ● ▲. 'Three are circles. Which one is different?' Circle the triangle.",
+          "2. GUIDED: do Exercise 1 together — three stars and one circle; circle the circle.",
+          "3. YOU TRY: children do Exercise 2 (the triangle), then Exercise 3 (the star) on their own.",
+          "4. Connect: 'Computers spot the odd one too — like finding the one photo that does not match.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — ● ● ● ▲ → circle the ▲.",
+          "Ex 1 — ★ ★ ● ★ → circle the ● (circle).",
+          "Ex 2 — ■ ▲ ■ ■ → circle the ▲ (triangle).",
+          "Ex 3 — ● ● ★ ● ● → circle the ★ (star)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: circling a shape just because it is at the end — ask 'how is it different?'",
+          "Simplify: start with two same + one different before four-card groups.",
+          "Extend: ask the child to say WHY it does not belong (it is a triangle, the rest are circles).",
+          "Movement option: stand three children doing the same action and one doing a different one — who is the odd one out?"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child circles the single odd item in each group and can say what makes the others the same."
+      }
+    ]
+  }
+}
