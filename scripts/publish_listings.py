@@ -62,6 +62,27 @@ UNIT_NAME = {
     ("6. Financial Literacy", "Grade 3"): "The Mega Market",
 }
 
+# Correct taxonomy override — the pipeline's strand detection is unreliable
+# (it tagged Coding-K as "Understanding Matter and Energy" etc.). All 15 are
+# Ontario Mathematics units; map (subject, grade) -> (strand_name, taxonomy_id)
+# from ontario_curriculum_taxonomy (verified rows).
+STRAND = {
+    "3C. Coding": "Algebra/Coding",
+    "5. Spatial Sense": "Geometry and Spatial Sense",
+    "4b. Probability": "Data Literacy",
+    "6. Financial Literacy": "Financial Literacy",
+}
+TAX_ID = {
+    ("3C. Coding", "Kindergarten"): 17, ("3C. Coding", "Grade 1"): 18,
+    ("3C. Coding", "Grade 2"): 52, ("3C. Coding", "Grade 3"): 53,
+    ("5. Spatial Sense", "Kindergarten"): 44, ("5. Spatial Sense", "Grade 1"): 45,
+    ("5. Spatial Sense", "Grade 2"): 46, ("5. Spatial Sense", "Grade 3"): 47,
+    ("4b. Probability", "Grade 1"): 37, ("4b. Probability", "Grade 2"): 38,
+    ("4b. Probability", "Grade 3"): 39,
+    ("6. Financial Literacy", "Kindergarten"): 19, ("6. Financial Literacy", "Grade 1"): 48,
+    ("6. Financial Literacy", "Grade 2"): 3, ("6. Financial Literacy", "Grade 3"): 49,
+}
+
 
 def make_title(r):
     g = r["grade"]
@@ -106,7 +127,9 @@ def main():
             print("skip (not analyzed):", r["subject"], r["grade"], "->", r.get("status")); continue
 
         title = make_title(r)
-        tax_id = taxonomy_id(r.get("detected_grade"), r.get("detected_subject"))
+        key = (r["subject"], r["grade"])
+        tax_id = TAX_ID[key]               # corrected, not the AI's guess
+        strand = STRAND[r["subject"]]
         previews = r.get("preview_urls", []) or []
 
         payload = {
@@ -117,9 +140,9 @@ def main():
             "price_cad": r.get("price_cad"),
             "resource_type": "Unit Plan",
             "taxonomy_id": tax_id,
-            "grade": r.get("detected_grade"),
-            "subject": r.get("detected_subject"),
-            "strand_name": r.get("detected_strand"),
+            "grade": r["grade"],            # known-correct (Kindergarten / Grade N)
+            "subject": "Mathematics",       # all 15 are Ontario math units
+            "strand_name": strand,          # corrected strand
             "preview_images": previews,
         }
         print(f"\n{'DRY ' if DRY else ''}PUBLISH: {title!r}  ${r.get('price_cad')}  tax_id={tax_id}")
