@@ -1,0 +1,128 @@
+{
+  "title": "Debug the Events",
+  "file_title": "Debug the Events",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Events & Parallel Scripts",
+    "title": "Debug the Events",
+    "subtitle": "One sprite never moves — fix the event",
+    "footer_topic": "8. Debug the Events",
+    "learning_goal": "I can find why a script never starts and fix its event so it runs.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Pixel is stuck!",
+        "text": "Both sprites are SUPPOSED to move. The green flag starts Bit, and Bit broadcasts a message to start Pixel. But when you run it, Pixel never moves! Something is wrong with the events. Read both scripts, find why Pixel never starts, and fix it."
+      },
+      {
+        "type": "symbols",
+        "title": "The number path",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 2" },
+          { "cat": "events", "label": "broadcast 'go'" }
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "when I receive 'jump'" },
+          { "cat": "motion", "label": "back 2" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run it — what goes wrong?",
+        "prompt": "Click the flag. Where does Bit land? Does Pixel move at all? Circle YES or NO. What number is Pixel on?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Find the bug",
+        "prompt": "Look at the messages. Bit broadcasts '____'. Pixel waits for '____'. Why does Pixel never start? Write the reason.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Fix it",
+        "prompt": "Change ONE message so they match. Write Pixel's fixed hat (or Bit's fixed broadcast). After the fix, where does Pixel land?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A 'when I receive' script only starts if the broadcast message is EXACTLY the one it waits for. Here Bit sent 'go' but Pixel waited for 'jump', so Pixel never started. Make the two messages match and Pixel runs."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Events & Parallel Scripts",
+    "title": "Debug the Events",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "8. Debug the Events — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "The challenge: students DEBUG an event bug (C3.2 read/alter + C3.1 write). Pixel never moves because its receive hat ('when I receive jump') does not match Bit's broadcast ('go'), so the event never fires. Students diagnose the message mismatch and fix it by making the two messages the same. Debugging a broken event link is the capstone of this subject."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: two 'message' cards reading 'go' and 'jump'; hold them up to show they do not match, then swap one so they do."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: run it — 'Bit goes 0 forward 2 → 2 and shouts go. But Pixel is waiting for jump, so it never hears its message.'",
+          "2. WE DO: compare the two message words — 'go' vs 'jump'. They are different, so Pixel's hat never fires.",
+          "3. YOU DO: students fix one message so both say the same word, then run Pixel: 5 back 2 → 3.",
+          "4. Connect: 'A receive hat needs the exact message it is waiting for — check the words match.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit: 0 → forward 2 → 2. Pixel does NOT move (circle NO); it stays on its home number 5.",
+          "Ex 2 — Bit broadcasts 'go'; Pixel waits for 'jump'. The messages do not match, so Pixel's receive event never fires and it never starts.",
+          "Ex 3 — fix: change Pixel's hat to 'when I receive go' (or change Bit's broadcast to 'jump'). With matching messages, Pixel runs: 5 → back 2 → 3.",
+          "Fix note: either edit works as long as BOTH messages end up the same word; then Bit 2 and Pixel 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: changing a move block instead of a message — the bug is the EVENT (the message), not Pixel's motion.",
+          "Simplify: tell students to circle the two message words and check if they are the same.",
+          "Extend: ask what happens if Bit's 'broadcast go' block is deleted entirely (Pixel never starts no matter what its hat says).",
+          "Success indicator: the child reports Pixel stuck at 5 before, names the message mismatch, and fixes one message so Pixel lands on 3."
+        ]
+      }
+    ]
+  }
+}

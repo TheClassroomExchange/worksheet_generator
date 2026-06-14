@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "BEFORE -> Pixel waits for 'go' -> order ['Bit', 'Pixel'] (Bit first, Pixel second) ✓\nAFTER  -> Pixel's hat is now the green flag -> both run at the SAME time (parallel) ✓\nLandings unchanged (Bit 4, Pixel 1); the EVENT change flipped sequential -> parallel ✓\n\nALL CHECKS PASSED — changing Pixel's event made it run with Bit instead of waiting for the message.\n",
+  "stderr": ""
+}

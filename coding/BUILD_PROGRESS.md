@@ -256,3 +256,23 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   https://drive.google.com/drive/folders/10Uejefrby6oatfuVU6ZNIOi-YgptSq_S  subjects.json: g2_block_concurrent=done.
   **Catalogue now 10/12 subjects, 77 sheets, 154 PDFs.** **Next = G2 · Events & Parallel Scripts (order 11)** —
   events + broadcasts + parallel scripts (two things triggered together), NO loops, C3.1; arc vs `rubric_coding_G2.md`.
+- 2026-06-14: **G2 · Events & Parallel Scripts SHIPPED** (subject 11/12 — **G2 2/3**). 8 sheets — 01 When the Flag
+  Is Clicked · 02 Two Scripts, One Event · 03 Send a Message · 04 When I Receive · 05 Match the Event · 06 Predict
+  With Events · 07 Change the Event · 08 Debug the Events. **NEW angle = EVENTS** (the orange hat block that
+  TRIGGERS a script) **+ PARALLEL SCRIPTS started by events.** Builds on the proven two-sprite number-path lane
+  (Bit green + Pixel purple, shared 0–5 clamped path) but the new idea is a script runs ONLY when its event
+  happens: (a) two scripts sharing 'when green flag clicked' start in PARALLEL from one click; (b) a script can
+  `broadcast 'msg'` and a `when I receive 'msg'` script starts in response (and ONLY if the message matches).
+  Arc: event hat = trigger → two scripts one event (parallel) → broadcast→receive → receive sets run ORDER →
+  match event/script (+message-match) → **predict the event chain** (C4-L4) → **change the event** (C3.2
+  alter+describe: receive→green-flag flips sequential→parallel, landings unchanged) → **debug a MESSAGE MISMATCH**
+  (Bit sends 'go', Pixel waits 'jump' → Pixel stuck; fix = match the messages). **New solution.py model = an
+  event-aware interpreter:** scripts = (trigger_event, home, moves); track fired events (green flag + broadcasts)
+  + sent messages; run only triggered scripts; assert both landings + the event behaviour (runs/order/match).
+  Event hats use the `events` (orange) block category; ⚑ glyph renders mono. Every sheet: run-gate PASS + **20/20**
+  + every page visually inspected. Sheet 07 TG trimmed from 2pp→1pp (overflowed by one line). Cite G2 C3.1/C3.2
+  verbatim. Published 16 PDFs to `…/Grade 2/Events & Parallel Scripts/<N. Topic>/` (8 folders, audited 0 strays):
+  https://drive.google.com/drive/folders/1T1vlAygogQnPONoERy2ab560lV9cHJXR  subjects.json: g2_events_parallel=done.
+  **Catalogue now 11/12 subjects, 85 sheets, 170 PDFs.** **Next = G2 · Debugging & Reading Code (order 12 — FINAL)**
+  — read concurrent code; find which of two parallel scripts is wrong; predict combined behaviour; NO loops, C3.2;
+  arc vs `rubric_coding_G2.md`. When 12/12 → final catalogue summary + final commit/push, STOP the loop.
