@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Program A: start 1, forward 3 -> 4 (reaches target, no bug) ✓\nProgram B: start 1, forward 1 -> 2 (misses target 4, has a bug) ✓\n\nALL CHECKS PASSED — a bug is code that lands Bit on the wrong number.\n",
+  "stderr": ""
+}
