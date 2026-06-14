@@ -1,0 +1,121 @@
+{
+  "title": "First, Next, Last",
+  "file_title": "First, Next, Last",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Sequencing & Algorithms",
+    "title": "First, Next, Last",
+    "subtitle": "Putting steps in the right order",
+    "footer_topic": "1. First, Next, Last",
+    "learning_goal": "I can put steps in order: first, next, last.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Steps happen in order",
+        "text": "When we do something, the steps happen in order: first, next, last. Bit is building a block tower — one block, then two, then three."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit build — in order",
+        "size": "lg",
+        "items": [{ "sym": "■", "label": "first" }, { "sym": "■ ■", "label": "next" }, { "sym": "■ ■ ■", "label": "last" }],
+        "note": "First 1 block, next 2 blocks, last 3 blocks. The tower grows in order."
+      },
+      {
+        "type": "symbols",
+        "title": "These steps are mixed up",
+        "size": "lg",
+        "items": [{ "sym": "● ● ●", "label": "?" }, { "sym": "●", "label": "?" }, { "sym": "● ●", "label": "?" }]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Which step is FIRST?",
+        "prompt": "The first step has the fewest dots. Circle the step that comes FIRST.",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Which step is LAST?",
+        "prompt": "The last step has the most dots. Circle the step that comes LAST.",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — write the order",
+        "prompt": "Write 1, 2, 3 under the mixed-up steps to put them in order (fewest to most).",
+        "grid": { "rows": 1, "cols": 3 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Doing steps in the right order — first, next, last — is how we follow a plan. A plan made of ordered steps is called an algorithm."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Sequencing & Algorithms",
+    "title": "First, Next, Last",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "1. First, Next, Last — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children put the steps of an action in order — first, next, last. Ordering steps is the foundation of sequencing and algorithms: a plan is a list of steps that must happen in the right order."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children order the steps of a familiar process.",
+          "No reading required of the child: read each prompt aloud; the child circles and writes 1-2-3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil. Optional: real blocks to build the 1-2-3 tower in order first."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: build the tower aloud — 'first one block, next two, last three.' The number of blocks grows.",
+          "2. GUIDED: Exercise 1 — the step with one dot comes first (fewest).",
+          "3. YOU TRY: children find the LAST step (Ex 2), then number all three in order (Ex 3).",
+          "4. Connect: 'A plan made of ordered steps is called an algorithm — computers follow algorithms.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — first 1 block, next 2 blocks, last 3 blocks.",
+          "Ex 1 — circle the single dot ● (fewest = first).",
+          "Ex 2 — circle the three dots ● ● ● (most = last).",
+          "Ex 3 — order is: ● = 1, ● ● = 2, ● ● ● = 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: ordering by position on the page instead of by count — have them count the dots aloud.",
+          "Simplify: order just two steps (1 then 2) before three.",
+          "Extend: add a fourth step (4 dots) and re-order, or order steps of a real routine.",
+          "Movement option: line up children shortest to tallest — that is putting things in order too."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child identifies the first and last steps by count and numbers the three steps 1-2-3 in order."
+      }
+    ]
+  }
+}

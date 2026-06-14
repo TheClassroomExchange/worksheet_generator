@@ -159,3 +159,14 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   https://drive.google.com/drive/folders/1_yM25wZ-ix5EPvO-iUMy1eGAvJAA9Pv5  subjects.json: k_unplugged_ct=done.
   **Catalogue now 4/12 subjects, 29 sheets, 58 PDFs.** **Next = K Sequencing & Algorithms (order 5)** —
   directional/routine sequencing, ≤4 steps, picture-driven; reuse the `symbols`/`blocks` primitives.
+- 2026-06-14: **K · Sequencing & Algorithms SHIPPED** (subject 5/12). 8 sheets — 01 First, Next, Last ·
+  02 What Comes First? · 03 Put It in Order · 04 Order Matters · 05 Follow the Arrows · 06 Which Way? ·
+  07 Give Bit the Steps · 08 Fix the Order. Arc = ORDER (algorithm = ordered steps): ordering growing-count
+  cards (1-4) + a 1D arrow-path board (boxes numbered L→R, ➡/⬅ moves, ★ goal) for follow/choose/compose/debug
+  (5-8). Distinct lane from Unplugged CT (classify/pattern) and Intro Block (coloured block stacks) — here
+  arrows are unplugged path directions, ≤4 steps, 1D. Every sheet: run-gate PASS (solution.py MODELS the
+  order/landing-box/program + asserts) + **20/20** + drift + visually inspected. Published 16 PDFs to
+  `…/Kindergarten/Sequencing & Algorithms/<N. Topic>/` (hygiene OK). Drive:
+  https://drive.google.com/drive/folders/158bMnSexks_0TPZ1PCwH38jRWFb8c8Ug  subjects.json: k_sequencing=done.
+  **Catalogue now 5/12 subjects, 37 sheets, 74 PDFs.** **Next = K Intro Block Coding (order 6)** — ScratchJr
+  symbol-only coloured BLOCK stacks (use the `blocks` part), single short sequence, no text; last K subject.

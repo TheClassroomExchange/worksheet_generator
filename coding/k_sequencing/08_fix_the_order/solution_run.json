@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Model: ➡ ⬅ ➡ lands box 2; the ⬅ is the bug -> fix to ➡ ➡ (box 3) ✓\nEx 1: ➡ ➡ lands box 3; missing a step -> add ➡ to reach box 4 ✓\nEx 2: ➡ ➡ lands box 3; one too many -> remove a ➡ to reach box 2 ✓\nEx 3: ⬅ ➡ ➡ lands box 2; first ⬅ is wrong -> ➡ ➡ reaches box 3 ✓\n\nALL CHECKS PASSED — every fix makes the program reach the star.\n",
+  "stderr": ""
+}
