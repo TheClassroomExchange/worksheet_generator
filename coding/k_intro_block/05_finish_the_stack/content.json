@@ -1,0 +1,150 @@
+{
+  "title": "Finish the Stack",
+  "file_title": "Finish the Stack",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Intro Block Coding",
+    "title": "Finish the Stack",
+    "subtitle": "Add the missing block to reach the star",
+    "footer_topic": "5. Finish the Stack",
+    "learning_goal": "I can choose the missing block that gets Bit to the star.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "One block is missing",
+        "text": "Each program has one empty block. Pick the move block that gets Bit to the star ★. Run the whole stack from the top to check where Bit lands."
+      },
+      {
+        "type": "symbols",
+        "title": "Stage 1 — star on box 4",
+        "size": "lg",
+        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "★" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Program A",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "⚑" },
+          { "cat": "motion", "label": "➡" },
+          { "cat": "motion", "label": "➡" },
+          { "blank": true }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Finish Program A",
+        "prompt": "Bit starts on box 1. After ➡ ➡ Bit is on box 3. Which block finishes the program so Bit lands on the star (box 4)? Circle ➡ or ⬅, then draw it in the empty block."
+      },
+      {
+        "type": "blocks",
+        "title": "Program B",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "⚑" },
+          { "cat": "motion", "label": "➡" },
+          { "blank": true },
+          { "cat": "motion", "label": "➡" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Finish Program B",
+        "prompt": "The empty block is in the MIDDLE this time. Which block makes Bit land on the star (box 4)? Circle ➡ or ⬅, then draw it in the empty block.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "symbols",
+        "title": "Stage 2 — Bit on box 4, star on box 2",
+        "size": "lg",
+        "items": [{ "sym": "1" }, { "sym": "2", "label": "★" }, { "sym": "3" }, { "sym": "4", "label": "Bit" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Program C",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "⚑" },
+          { "cat": "motion", "label": "⬅" },
+          { "blank": true }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — Program C",
+        "prompt": "Now Bit starts on box 4 and the star is on box 2, to the LEFT. After ⬅ Bit is on box 3. Which block finishes the program so Bit lands on the star? Circle ➡ or ⬅, then draw it in the empty block."
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "To finish a program, pick the block that makes it do the job. Always run the whole stack to check Bit lands where you want."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Intro Block Coding",
+    "title": "Finish the Stack",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "5. Finish the Stack — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children complete a partial block program by choosing the one move block that makes Bit reach the star, then run the whole stack to confirm. This is early program design: picking the instruction that produces the intended result, and testing it."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children select and test instructions to reach a goal.",
+          "No reading required of the child: read each prompt aloud; the child circles ➡ or ⬅ and draws the arrow in the empty block."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet, a pencil, and a blue crayon. Optional: floor boxes 1-5 with a movable star so the child can test the chosen block."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: on Program A, run ➡ ➡ together to box 3. 'Bit is on box 3 but the star is box 4 — one more step right. The missing block is ➡.'",
+          "2. GUIDED: Exercise 1 — children circle ➡ and draw it. Exercise 2 — the gap is in the middle, but the answer is still ➡; run the whole stack to confirm box 4.",
+          "3. YOU TRY: Exercise 3 — the star is now to the LEFT (box 2), so the missing block is ⬅.",
+          "4. Connect: 'Programmers add the block that finishes the job — then they run it to make sure.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Program A: missing block is ➡ (box 1 → 2 → 3 → 4, the star).",
+          "Ex 2 — Program B: missing block is ➡, in the middle (box 1 → 2 → 3 → 4).",
+          "Ex 3 — Program C: missing block is ⬅ (box 4 → 3 → 2, the star)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common trap: picking ⬅ in Ex 1-2 because it is offered — have the child run the stack and see Bit move away from the star.",
+          "Ex 3 reverses the direction; re-anchor 'the star is on the LEFT now, so Bit goes ⬅.'",
+          "Simplify: do Programs A and C only (clear right / clear left).",
+          "Extend: ask what the missing block would be if the star moved to box 5 in Stage 1 (still ➡, and Program A would need two more steps).",
+          "Movement option: walk the fixed blocks on the floor, then let the child choose the last step to land on the star."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child draws ➡ for Programs A and B and ⬅ for Program C, and can run each completed stack to show Bit landing on the star."
+      }
+    ]
+  }
+}
