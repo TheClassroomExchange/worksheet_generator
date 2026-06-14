@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "BUGGY -> Bit 2, Pixel 5 (goal 2) -> Pixel went the WRONG WAY ✗\nFIXED -> Pixel back 2 -> 2 -> both reach the goal 2 ✓\n\nALL CHECKS PASSED — the bug was the wrong direction; forward 2 -> back 2 lands Pixel on 2.\n",
+  "stderr": ""
+}

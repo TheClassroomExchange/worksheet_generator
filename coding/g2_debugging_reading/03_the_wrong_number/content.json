@@ -1,0 +1,128 @@
+{
+  "title": "The Wrong Number",
+  "file_title": "The Wrong Number",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Debugging & Reading Code",
+    "title": "The Wrong Number",
+    "subtitle": "A move has the wrong count — fix it",
+    "footer_topic": "3. The Wrong Number",
+    "learning_goal": "I can find a move with the wrong number and fix it so both scripts reach the goal.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "The goal: both reach 4",
+        "text": "Bit (green) and Pixel (purple) both start on the green flag. They should BOTH reach number 4. One script is correct, but the other has a move with the WRONG NUMBER, so it lands short. Read both, find the wrong number, and fix it."
+      },
+      {
+        "type": "symbols",
+        "title": "The goal: both reach 4",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Pixel" }, { "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "★ goal" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script (correct)",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 3" }
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script (has a bug)",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 3" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run both",
+        "prompt": "Where does each land? Bit (home 1, forward 3): ____  Pixel (home 0, forward 3): ____. Which one misses the goal 4?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Find the wrong number",
+        "prompt": "Pixel starts at 0 and needs to reach 4. Its move says 'forward 3'. What number SHOULD the move be?",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Fix it",
+        "prompt": "Write Pixel's fixed move: forward ____. After the fix, where does Pixel land? Do both reach the goal now?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Sometimes a script has the right blocks but the wrong NUMBER inside one of them. Find which move falls short of the goal, count how far it needs to go, and change the number. Here Pixel needed forward 4, not forward 3."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Debugging & Reading Code",
+    "title": "The Wrong Number",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. The Wrong Number — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students fix a wrong-VALUE bug in one of two parallel scripts (C3.2 alter + C3.1 write). The goal is 'both reach 4'; Bit is correct, but Pixel's 'forward 3' falls one short. Students locate the buggy script, work out the correct number (forward 4), and write the fix. Altering a value and re-checking the combined goal is the core debugging skill here."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a star on square 4; run Pixel from 0 and count the squares to the star to find the right number."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: state the goal — 'both reach 4.' Run Bit: 1 forward 3 → 4 (correct).",
+          "2. WE DO: run Pixel: 0 forward 3 → 3 (short by 1). 'Pixel is the bug — its number is too small.'",
+          "3. YOU DO: students count 0 to 4 (four squares), so the move should be forward 4; they write the fix and confirm Pixel reaches 4.",
+          "4. Connect: 'Right block, wrong number — count to the goal to fix the value.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit: 1 → forward 3 → 4 (reaches goal). Pixel: 0 → forward 3 → 3 (misses; Pixel is the buggy one).",
+          "Ex 2 — Pixel starts at 0 and needs 4, so the move should be forward 4.",
+          "Ex 3 — fixed move: forward 4 → Pixel lands on 4. Now BOTH reach the goal 4.",
+          "Fix note: only the number changes; the block type (forward) and Bit's script stay the same."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: changing Bit's script — Bit already reaches 4; the wrong number is in Pixel's move.",
+          "Common error: over-correcting to forward 5 (overshoots to 5) — count carefully from the home square.",
+          "Simplify: have students put a finger on Pixel's home (0) and hop to the star, counting the hops (4).",
+          "Extend: ask what Pixel's move would need to be if its home were 1 instead of 0 (forward 3).",
+          "Success indicator: the child fixes Pixel to forward 4 and confirms both sprites reach 4."
+        ]
+      }
+    ]
+  }
+}
