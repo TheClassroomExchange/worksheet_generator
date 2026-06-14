@@ -69,9 +69,18 @@ def _render_prose(part: dict) -> str:
 
 
 def _render_blocks(part: dict) -> str:
-    """Scratch-style stacked colour chips. Each block: {cat, label}."""
+    """Scratch-style stacked colour chips. Each block: {cat, label}.
+
+    Optional part-level ``size`` ("md"|"lg") scales the whole stack up — used
+    for K ScratchJr-style symbol-only blocks so a single arrow/flag glyph reads
+    large. Default (unset) is unchanged, so every existing sheet is unaffected.
+    A block with ``blank: true`` renders as a dashed empty block the child
+    fills in (the "draw the missing block" answer slot).
+    """
     title = part.get("title")
     head = f'<h3 class="part-title">{_esc(title)}</h3>' if title else ""
+    size = part.get("size")
+    stack_cls = "sb-stack" + ({"md": " sb-md", "lg": " sb-lg"}.get(size, ""))
     chips = []
     for b in part.get("blocks", []):
         cat = b.get("cat", "value")
@@ -79,16 +88,19 @@ def _render_blocks(part: dict) -> str:
         indent = int(b.get("indent", 0))
         # Each block sits on its own row (vertical stack); the row's left
         # margin shows nesting (children indented under repeat/if).
+        if b.get("blank"):
+            chip = '<span class="sb-block sb-blank"></span>'
+        else:
+            chip = (f'<span class="sb-block" style="background:{color}">'
+                    f'{_esc(b.get("label", ""))}</span>')
         chips.append(
-            f'<div class="sb-row" style="margin-left:{indent * 24}px">'
-            f'<span class="sb-block" style="background:{color}">'
-            f'{_esc(b.get("label", ""))}</span></div>'
+            f'<div class="sb-row" style="margin-left:{indent * 24}px">{chip}</div>'
         )
     note = part.get("note")
     note_html = f'<p class="block-note">{_esc(note)}</p>' if note else ""
     return (
         f'<section class="part blocks">{head}'
-        f'<div class="sb-stack">{"".join(chips)}</div>{note_html}</section>'
+        f'<div class="{stack_cls}">{"".join(chips)}</div>{note_html}</section>'
     )
 
 
@@ -292,6 +304,14 @@ h1.title {{
     padding: 7px 14px; border-radius: 7px;
     display: inline-block;
     box-shadow: 0 1.5px 0 rgba(0,0,0,0.18);
+}}
+/* K size variants — scale the whole stack so a single symbol/arrow reads large */
+.sb-md .sb-block {{ font-size: 15pt; padding: 9px 18px; border-radius: 8px; }}
+.sb-lg .sb-block {{ font-size: 20pt; padding: 11px 22px; border-radius: 9px; min-width: 30px; text-align: center; }}
+.sb-md .sb-row, .sb-lg .sb-row {{ margin: 0 0 6px 0; }}
+.sb-block.sb-blank {{
+    background: #FBFFFE; border: 2px dashed {SLATE}; box-shadow: none;
+    display: inline-block; min-width: 54px; min-height: 1.2em;
 }}
 .block-note {{ font-size: 9.5pt; color: {SLATE}; font-style: italic; margin: 4px 0 0 0; }}
 
