@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Code A: start 0, forward 2, forward 2 -> predict 4 ✓\nCode B: start 5, back 1, back 2 -> predict 2 ✓\nEx 3: change back 2 to back 1 -> predict 3 ✓\n\nALL CHECKS PASSED — predict by reading the blocks, then run to confirm.\n",
+  "stderr": ""
+}
