@@ -1,0 +1,128 @@
+{
+  "title": "Fix by Swapping",
+  "file_title": "Fix by Swapping",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Intro Debugging",
+    "title": "Fix by Swapping",
+    "subtitle": "A block points the wrong way",
+    "footer_topic": "3. Fix by Swapping",
+    "learning_goal": "I can fix a block that points the wrong way.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Wrong way!",
+        "text": "Sometimes a block points the WRONG way — a back block where it should be forward, or a forward block where it should be back. Run the code, find the wrong-way block, and SWAP it to fix the program."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's number path",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Program 1 — target is 4",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 1" },
+          { "cat": "motion", "label": "forward 2" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run it, find the wrong way",
+        "prompt": "Run Program 1 from 1. Where does Bit land? It misses 4. Circle the block that points the WRONG way (it moves Bit away from 4).",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Swap it",
+        "prompt": "Change the wrong-way block so Bit reaches 4. What should it be? Run the fixed code — what number now?",
+        "answer_lines": 2
+      },
+      {
+        "type": "blocks",
+        "title": "Program 2 — target is 1",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 3" },
+          { "cat": "motion", "label": "forward 1" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — swap to fix",
+        "prompt": "Run Program 2 from 3. It misses 1. Circle the wrong-way block, swap it, and run again. What should the block be, and where does Bit land?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "If a block sends Bit the wrong way, swap its direction. Forward becomes back, or back becomes forward — then run it again to check."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Intro Debugging",
+    "title": "Fix by Swapping",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. Fix by Swapping — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students fix a bug where one block points the wrong way by swapping its direction (forward ↔ back), then run the corrected code to confirm it reaches the target. Altering an existing block to correct the outcome, and describing the effect, is C3.2; the corrected block is a small C3.1 write."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 so students feel Bit move the wrong way, then re-walk the fix."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: run Program 1 — 'start 1, forward 2 to 3, back 1 to 2. Target is 4 — the back 1 sent Bit the wrong way.'",
+          "2. WE DO: Exercise 1 — circle 'back 1'. Exercise 2 — swap it to 'forward 1'; the code becomes 1 → 3 → 4.",
+          "3. YOU DO: Exercise 3 — Program 2 lands on 3; swap 'forward 1' to 'back 1' so 3 → 2 → 1.",
+          "4. Connect: 'A wrong-way block is fixed by swapping its direction — then run to check.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Program 1: 1 → forward 2 → 3 → back 1 → 2. The wrong-way block is back 1.",
+          "Ex 2 — swap back 1 to forward 1: 1 → 3 → 4. Bit reaches the target, 4.",
+          "Ex 3 — Program 2: 3 → forward 1 → 4 → back 1 → 3 (misses 1). Swap forward 1 to back 1: 3 → 2 → 1. Bit reaches the target, 1."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: changing the block's NUMBER instead of its direction — this bug is about which way it points, so swap forward/back and keep the number.",
+          "Simplify: walk Program 1 on the floor; the backward step toward the wrong end is easy to feel.",
+          "Extend: ask whether changing a different block could also reach the target, and test the idea.",
+          "Success indicator: the child circles the back/forward block that goes the wrong way, swaps it, and reaches the target in both programs."
+        ]
+      }
+    ]
+  }
+}
