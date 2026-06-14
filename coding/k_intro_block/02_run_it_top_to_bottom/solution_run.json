@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Bit's stack runs in order 1-2-3-4, top to bottom ✓\nEx 1: the first block Bit runs is the GO block on top ✓\nEx 2: order GO=1, ➡=2, ⬆=3, ⬅=4 ✓\nEx 3: second stack — last block is the bottom ➡; order 1-2-3 ✓\n\nALL CHECKS PASSED — a stack always runs top to bottom, in order.\n",
+  "stderr": ""
+}

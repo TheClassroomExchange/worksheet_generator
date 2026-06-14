@@ -1,0 +1,126 @@
+{
+  "title": "Run It Top to Bottom",
+  "file_title": "Run It Top to Bottom",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Intro Block Coding",
+    "title": "Run It Top to Bottom",
+    "subtitle": "Blocks run in order, from the top down",
+    "footer_topic": "2. Run It Top to Bottom",
+    "learning_goal": "I can tell the order the blocks in a stack run.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Top to bottom",
+        "text": "Bit runs a stack from the TOP block down. The top block runs first. Then the next block. Then the next — one block at a time, all the way to the bottom."
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's stack",
+        "size": "lg",
+        "blocks": [
+          { "cat": "operators", "label": "⚑" },
+          { "cat": "motion", "label": "➡" },
+          { "cat": "motion", "label": "⬆" },
+          { "cat": "motion", "label": "⬅" }
+        ],
+        "note": "Bit runs the top ⚑ block first, then works down: ➡, then ⬆, then ⬅ at the bottom."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Runs first",
+        "prompt": "Circle the block Bit runs FIRST. Remember: Bit always starts at the top."
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Number the order",
+        "prompt": "Bit runs the stack from top to bottom. Write 1, 2, 3, 4 on the blocks above to show the order Bit runs them. The top ⚑ block is 1."
+      },
+      {
+        "type": "blocks",
+        "title": "Another stack",
+        "size": "lg",
+        "blocks": [
+          { "cat": "operators", "label": "⚑" },
+          { "cat": "motion", "label": "⬅" },
+          { "cat": "motion", "label": "➡" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try",
+        "prompt": "Look at the new stack. Circle the block Bit runs LAST (the bottom one). Then write 1, 2, 3 on the blocks to show the run order."
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A program runs in order, from the top down, one block at a time. The order of the blocks is the algorithm — change the order and Bit does something different."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Intro Block Coding",
+    "title": "Run It Top to Bottom",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "2. Run It Top to Bottom — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children learn that a block program runs from the top block down, one block at a time, and that the position of a block decides when it runs. This builds the core idea of sequential execution: the order of the blocks IS the algorithm."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children determine and describe the order in which a set of instructions is carried out.",
+          "No reading required of the child: read each prompt aloud; the child circles a block and writes order numbers (1-4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: the 4 paper blocks from Sheet 1 plus an up ⬆ and left ⬅ block to physically point to in order."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: point to Bit's stack and tap each block in turn — '⚑ runs first… ➡ second… ⬆ third… ⬅ last.' One tap per block, top to bottom.",
+          "2. GUIDED: Exercise 1 — circle the top ⚑ block (runs first). Exercise 2 — children write 1, 2, 3, 4 down the stack.",
+          "3. YOU TRY: Exercise 3 — on the second stack, circle the bottom ➡ (runs last) and number 1, 2, 3.",
+          "4. Connect: 'A computer runs its blocks in order, top to bottom — it never skips around.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit runs the top ⚑ GO block first.",
+          "Ex 2 — order down the stack: ⚑ = 1, ➡ = 2, ⬆ = 3, ⬅ = 4.",
+          "Ex 3 — the last block is the bottom ➡; order down the second stack: ⚑ = 1, ⬅ = 2, ➡ = 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: numbering bottom-to-top. Re-anchor: 'We always start at the TOP, like reading starts at the top of the page.'",
+          "Simplify: cover all blocks but the top, reveal one at a time as you count.",
+          "Extend: ask 'if we swapped the ➡ and the ⬅, would Bit do the same thing?' (No — order matters.)",
+          "Movement option: stand 4 children in a line holding blocks; tap shoulders top-to-bottom so each acts in turn."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child numbers the blocks 1, 2, 3, 4 from the top down and names the first and last blocks correctly for both stacks."
+      }
+    ]
+  }
+}
