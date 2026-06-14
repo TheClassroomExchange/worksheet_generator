@@ -1,0 +1,82 @@
+{
+  "batch_id": "g2_block_concurrent",
+  "grade": "Grade 2",
+  "subject": "Block Coding (Concurrent Events)",
+  "rubric": "rubric_coding_G2.md",
+  "locked": true,
+  "arc_note": "Grade 2 · Ontario Math C3 (Coding), the NEW concept is CONCURRENT — two sprites run their own scripts AT THE SAME TIME, both launched by one green flag ▶. Loops/variables still OUT (preview only); ≤8 total blocks across the two scripts. Lane = TWO number-path sprites — Bit (green ●, mascot bit_wave) and Pixel (purple ▲, mascot pixel_wave) — each with its own short block script (green-flag start at N + forward/back motion blocks) on a shared 0–5 number path; both run together and the questions are about the COMBINED outcome (both landing numbers, who is ahead, do they MEET on the same number). That combined/parallel reasoning is what makes the concurrency GENUINE (not two sequential tasks) — the C2 hard gate. Reuses the proven clamped 0–5 interpreter; solution.py runs BOTH scripts and asserts both landings + the combined answer. Arc: meet the two sprites → read both scripts → who is ahead → do they meet → BUILD Pixel's script (write concurrent, C3.1) → predict BOTH then run (C4-L4 'predict what happens when both start') → change one script & describe the effect on the pair (C3.2 interaction) → debug which of two parallel scripts is wrong (challenge). Two mascots distinguish the two sprites (C4-L3); each sheet has the predict-both prompt; the TG answer key explains the timing/interaction of the parallel scripts (C2-L4) and the common error of mistaking sequential for concurrent. Scaffold introduces Pixel's 2nd script only after Bit's is understood (C3-L4). Cite Grade-2 C3.1 + C3.2 verbatim ('sequential and concurrent events').",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "two-sprites-at-once",
+      "dir": "01_two_sprites_at_once",
+      "title": "Two Sprites at Once",
+      "concept": "a green flag starts two sprites' scripts at the same time; read where each lands",
+      "ct_skill": "read two concurrent scripts (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "02",
+      "slug": "read-both-scripts",
+      "dir": "02_read_both_scripts",
+      "title": "Read Both Scripts",
+      "concept": "run both scripts and find both landing numbers",
+      "ct_skill": "trace two parallel scripts (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "03",
+      "slug": "who-is-ahead",
+      "dir": "03_who_is_ahead",
+      "title": "Who Is Ahead?",
+      "concept": "run both, compare the landings — which sprite is on the higher number",
+      "ct_skill": "compare combined outcomes (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "04",
+      "slug": "do-they-meet",
+      "dir": "04_do_they_meet",
+      "title": "Do They Meet?",
+      "concept": "run both — do the sprites land on the SAME number (meet) or not",
+      "ct_skill": "reason about the combined result (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "05",
+      "slug": "build-pixels-script",
+      "dir": "05_build_pixels_script",
+      "title": "Build Pixel's Script",
+      "concept": "Bit's script is given — write Pixel's script so the two sprites meet",
+      "ct_skill": "write a concurrent script (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "06",
+      "slug": "predict-both",
+      "dir": "06_predict_both",
+      "title": "Predict Both",
+      "concept": "predict where BOTH sprites land when the green flag starts them, then run",
+      "ct_skill": "predict combined behaviour (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "07",
+      "slug": "change-one-script",
+      "dir": "07_change_one_script",
+      "title": "Change One Script",
+      "concept": "alter one sprite's script and describe how it changes who's ahead / if they meet",
+      "ct_skill": "alter concurrent code & describe the effect (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "08",
+      "slug": "debug-the-pair",
+      "dir": "08_debug_the_pair",
+      "title": "Debug the Pair",
+      "concept": "challenge — one of the two parallel scripts is wrong; find which, fix it so they meet",
+      "ct_skill": "debug parallel scripts (C3.2 & C3.1)",
+      "status": "planned"
+    }
+  ]
+}
