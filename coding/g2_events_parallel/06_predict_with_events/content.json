@@ -1,0 +1,141 @@
+{
+  "title": "Predict With Events",
+  "file_title": "Predict With Events",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Events & Parallel Scripts",
+    "title": "Predict With Events",
+    "subtitle": "Guess both landings, then run to check",
+    "footer_topic": "6. Predict With Events",
+    "learning_goal": "I can predict where both sprites land by following the events that start them.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Predict the whole chain",
+        "text": "Good coders predict before they run. The green flag starts Bit, and Bit's last block broadcasts 'go'. Pixel starts 'when I receive go'. To predict where BOTH land, follow the events: green flag → Bit moves and sends 'go' → Pixel hears 'go' and moves. Predict both, then run to check."
+      },
+      {
+        "type": "symbols",
+        "title": "The number path",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/bit_wave.svg",
+        "caption": "Bit",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 3" },
+          { "cat": "events", "label": "broadcast 'go'" }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/pixel_wave.svg",
+        "caption": "Pixel",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "when I receive 'go'" },
+          { "cat": "motion", "label": "back 2" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Predict — before you run",
+        "prompt": "Follow the events in your head. PREDICT where each lands. Bit (home 1, forward 3) will land on: ____  Pixel (home 5, back 2) will land on: ____",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Run and check",
+        "prompt": "Now run it: click the flag, let Bit broadcast 'go', then run Pixel. Where did each really land? Bit: ____  Pixel: ____. Did your prediction match?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "What started Pixel?",
+        "prompt": "Pixel had no green-flag block. What event started Pixel's script? Write it.",
+        "answer_lines": 1
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Predicting with events means following the chain: which event starts the first script, what message it sends, and which script that message starts next. Then each sprite's moves tell you where it lands."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Events & Parallel Scripts",
+    "title": "Predict With Events",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "6. Predict With Events — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students PREDICT the combined outcome of an event chain before running it — the C3.2 'predict what happens when both start' skill applied to events. They must follow green flag → Bit moves + broadcasts 'go' → Pixel runs on the message, then state both landings. Predicting the whole chain (not just one script) is the target."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: students write their prediction on a sticky note before tracing the events with two counters on a 0-5 path."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: model predicting Bit — 'green flag, 1 forward 3 → 4, then broadcast go. I predict Bit on 4.'",
+          "2. WE DO: predict Pixel — 'it receives go, 5 back 2 → 3. I predict Pixel on 3.' Commit predictions before running.",
+          "3. YOU DO: students run the chain, compare to their prediction, and name the event that started Pixel (the message 'go').",
+          "4. Connect: 'A good prediction follows every event, not just the first one.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 (predict) — Bit: 1 → forward 3 → 4 (predict 4). Pixel: 5 → back 2 → 3 (predict 3).",
+          "Ex 2 (run) — the run confirms Bit on 4 and Pixel on 3; matching predictions.",
+          "Ex 3 — Pixel was started by the broadcast message 'go' (its 'when I receive go' hat).",
+          "Chain note: the green flag only directly starts Bit; Pixel's start depends on Bit's broadcast, so the prediction must include the message step."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: predicting only Bit — the prediction must cover both, including the message-triggered Pixel.",
+          "Common error: thinking Pixel starts on the green flag — it starts on the 'go' message Bit sends.",
+          "Simplify: predict Bit fully and run it, then predict Pixel and run it, before combining.",
+          "Extend: ask what Pixel would do if Bit's broadcast block were removed (Pixel never starts, stays on 5).",
+          "Success indicator: the child predicts Bit 4 and Pixel 3, confirms by running, and names the 'go' message as Pixel's trigger."
+        ]
+      }
+    ]
+  }
+}

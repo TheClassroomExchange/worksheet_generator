@@ -1,0 +1,141 @@
+{
+  "title": "Match the Event",
+  "file_title": "Match the Event",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Events & Parallel Scripts",
+    "title": "Match the Event",
+    "subtitle": "Which event starts each script?",
+    "footer_topic": "5. Match the Event",
+    "learning_goal": "I can match each script to the event that starts it.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Every script has an event",
+        "text": "Each script starts with an orange EVENT hat. Bit's hat is the green flag. Pixel's hat is 'when I receive jump'. Bit's script also has a 'broadcast jump' block. The message Bit sends must MATCH the message Pixel waits for, or Pixel will not start. Read carefully and match each script to its event."
+      },
+      {
+        "type": "symbols",
+        "title": "The number path",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "Pixel" }, { "sym": "5" }]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/bit_wave.svg",
+        "caption": "Bit",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 1" },
+          { "cat": "events", "label": "broadcast 'jump'" }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/pixel_wave.svg",
+        "caption": "Pixel",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "when I receive 'jump'" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Bit's event",
+        "prompt": "What event starts Bit's script? Write it.",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Pixel's event",
+        "prompt": "What event starts Pixel's script? Write it.",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Does the message match?",
+        "prompt": "Bit broadcasts 'jump'. Pixel waits for 'jump'. Do the messages MATCH? Circle YES or NO. So does Pixel run? Where does each land? Bit: ____  Pixel: ____",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "To know what starts a script, read its orange hat. A green-flag hat starts on the flag; a 'when I receive' hat starts on a message — but ONLY if the broadcast message matches the one it is waiting for."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Events & Parallel Scripts",
+    "title": "Match the Event",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "5. Match the Event — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students read each script's hat and match it to its starting event — green flag vs a received message — and check that a broadcast MATCHES the receive hat. Matching the trigger to the script (and the message to the receiver) is reading code with events, building toward debugging mismatched messages later. This is Grade-2 C3.2 reading of code that involves concurrent events."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: cards labelled 'green flag' and 'jump'; students place the right card on top of each script."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: point to Bit's hat — 'green flag starts Bit.' Then Pixel's hat — 'a message called jump starts Pixel.'",
+          "2. WE DO: check the messages — Bit broadcasts 'jump', Pixel waits for 'jump'. Same word → they MATCH → Pixel runs.",
+          "3. YOU DO: students write each script's event, answer that the messages match, and find both landings.",
+          "4. Connect: 'A receive hat only fires if the broadcast message is exactly the one it waits for.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit's event is 'when green flag clicked'.",
+          "Ex 2 — Pixel's event is 'when I receive jump' (the message 'jump').",
+          "Ex 3 — Bit broadcasts 'jump' and Pixel waits for 'jump' → YES, they match → Pixel runs. Bit: 0 → forward 1 → 1. Pixel: 4 → back 1 → 3. Bit 1, Pixel 3.",
+          "Match note: if Bit had broadcast a different word, Pixel's hat would not fire and Pixel would stay home — the messages must be the same."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: matching by sprite colour instead of by the hat — the EVENT is named in the orange hat, not by who is green or purple.",
+          "Common error: assuming any broadcast starts any receiver — only a matching message fires the receive hat.",
+          "Simplify: underline the message word in 'broadcast jump' and 'when I receive jump' and check they are the same.",
+          "Extend: change Pixel's hat to 'when I receive spin' and ask whether Bit's 'jump' broadcast still starts it (no).",
+          "Success indicator: the child names both events, confirms the messages match, and lands Bit on 1 and Pixel on 3."
+        ]
+      }
+    ]
+  }
+}
