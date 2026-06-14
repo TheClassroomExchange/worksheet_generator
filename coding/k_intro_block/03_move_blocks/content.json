@@ -1,0 +1,125 @@
+{
+  "title": "Move Blocks",
+  "file_title": "Move Blocks",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Intro Block Coding",
+    "title": "Move Blocks",
+    "subtitle": "Each block points the way Bit goes",
+    "footer_topic": "3. Move Blocks",
+    "learning_goal": "I can match a move block to the way it makes Bit go.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "One block, one way",
+        "text": "A move block tells Bit ONE way to go. ➡ moves Bit RIGHT. ⬅ moves Bit LEFT. ⬆ moves Bit UP. ⬇ moves Bit DOWN. One block makes one step in one direction."
+      },
+      {
+        "type": "blocks",
+        "title": "The move blocks",
+        "size": "lg",
+        "blocks": [
+          { "cat": "motion", "label": "➡" },
+          { "cat": "motion", "label": "⬅" },
+          { "cat": "motion", "label": "⬆" },
+          { "cat": "motion", "label": "⬇" }
+        ],
+        "note": "Four move blocks. Each arrow points the way Bit will travel."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Find UP",
+        "prompt": "Circle the move block that makes Bit go UP."
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Find LEFT",
+        "prompt": "Circle the move block that makes Bit go to the LEFT."
+      },
+      {
+        "type": "blocks",
+        "title": "An empty block",
+        "size": "lg",
+        "blocks": [
+          { "blank": true }
+        ],
+        "note": "This block has no arrow yet."
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try",
+        "prompt": "Bit wants to go DOWN. Draw the arrow in the empty block that tells Bit to go DOWN. It points ⬇."
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Each move block points the way Bit goes. To make Bit move a certain way, you pick the block with that arrow. That is how you tell a computer exactly what to do."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Intro Block Coding",
+    "title": "Move Blocks",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. Move Blocks — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children learn the move-block vocabulary of block coding: each arrow block makes the character travel in exactly one direction (➡ right, ⬅ left, ⬆ up, ⬇ down). Connecting a symbol to one precise action is the foundation for reading and writing programs in the next sheets."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children use directional language and symbols to describe movement.",
+          "No reading required of the child: read each prompt aloud; the child circles a block or draws one arrow."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a floor space to step the directions, or four arrow cards (➡ ⬅ ⬆ ⬇)."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: hold up each move block and act it out with your whole arm — '➡ right… ⬅ left… ⬆ up… ⬇ down.' One block, one way.",
+          "2. GUIDED: Exercise 1 — circle the ⬆ block (up). Exercise 2 — circle the ⬅ block (left).",
+          "3. YOU TRY: Exercise 3 — children draw a ⬇ arrow in the empty block to make Bit go down.",
+          "4. Connect: 'To tell a computer which way to go, you give it the block with that arrow.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — UP is the ⬆ block (the arrow points up).",
+          "Ex 2 — LEFT is the ⬅ block (the arrow points left).",
+          "Ex 3 — DOWN is the ⬇ block: the child draws an arrow pointing straight down in the empty block."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common mix-up: left ⬅ vs right ➡. Anchor to the child's own hands ('this is your LEFT hand') before they circle.",
+          "Simplify: do the arm movement together first, then point to the matching block.",
+          "Extend: call a direction and have the child point to the matching block as fast as they can.",
+          "Movement option: tape the four arrow cards to walls; call a direction, children walk that way."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child circles the up and left blocks correctly and draws a downward arrow for 'down', showing each block stands for one specific direction."
+      }
+    ]
+  }
+}
