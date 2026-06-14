@@ -1,0 +1,82 @@
+{
+  "batch_id": "g2_debugging_reading",
+  "grade": "Grade 2",
+  "subject": "Debugging & Reading Code",
+  "rubric": "rubric_coding_G2.md",
+  "locked": true,
+  "arc_note": "Grade 2 · Ontario Math C3 (Coding) — the FINAL subject of the K–G3 catalogue. Distinct angle = READING concurrent code carefully and DEBUGGING it: each sheet states the INTENDED combined outcome (a goal), the student READS BOTH parallel scripts, runs them, finds which ONE of the two is wrong, and fixes it. Reuses the proven two-sprite number-path lane (Bit green bit_wave + Pixel purple pixel_wave on a shared 0–5 clamped path) and, where useful, the event-aware triggers from subject 11 (green flag / broadcast / when I receive). C3.2-heavy (read & alter existing code that involves concurrent events; describe how changes affect outcomes) with C3.1 (write the corrected block). The defining move every sheet: TWO parallel scripts, exactly ONE is buggy — the student must compare each against the goal, since the correct sprite already meets it. Spans the bug types proven across the catalogue but in a 2-script concurrent context: careful reading (no bug) → identify-which-is-wrong → wrong move value → wrong direction → mismatched broadcast/receive message → missing block → predict-then-find → mixed challenge. solution.py models BOTH the BUGGY run (one sprite misses the goal) AND the FIXED run (both meet it) and asserts both. Two mascots = the two scripts (C4-L3); TG answer key names the bug, the fix, and the common error (changing the script that was already correct, or fixing the landing without re-checking the combined goal). Cite Grade-2 C3.1 + C3.2 verbatim ('sequential and concurrent events').",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "read-two-scripts-carefully",
+      "dir": "01_read_two_scripts_carefully",
+      "title": "Read Two Scripts Carefully",
+      "concept": "trace two correct parallel scripts move by move and confirm the combined outcome",
+      "ct_skill": "read concurrent code accurately (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "02",
+      "slug": "which-one-is-wrong",
+      "dir": "02_which_one_is_wrong",
+      "title": "Which One Is Wrong?",
+      "concept": "both should reach the goal but one misses — identify which sprite's script is buggy",
+      "ct_skill": "compare each script to the goal to locate the bug (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "03",
+      "slug": "the-wrong-number",
+      "dir": "03_the_wrong_number",
+      "title": "The Wrong Number",
+      "concept": "one move has the wrong count; find and fix the number so both meet the goal",
+      "ct_skill": "fix a wrong value in one of two scripts (C3.2 & C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "04",
+      "slug": "the-wrong-direction",
+      "dir": "04_the_wrong_direction",
+      "title": "The Wrong Direction",
+      "concept": "one move goes the wrong way (forward vs back); find and fix the direction",
+      "ct_skill": "fix a wrong direction in one of two scripts (C3.2 & C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "05",
+      "slug": "the-mismatched-message",
+      "dir": "05_the_mismatched_message",
+      "title": "The Mismatched Message",
+      "concept": "a broadcast and receive use different words so one script never runs; match them",
+      "ct_skill": "debug a broken event/message link (C3.2 & C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "06",
+      "slug": "the-missing-block",
+      "dir": "06_the_missing_block",
+      "title": "The Missing Block",
+      "concept": "one script is missing a move and lands short; add the missing block to reach the goal",
+      "ct_skill": "add a missing block to fix a script (C3.1 & C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "07",
+      "slug": "predict-then-find",
+      "dir": "07_predict_then_find",
+      "title": "Predict, Then Find",
+      "concept": "predict where both SHOULD land for the goal, run, then find the one script that is off",
+      "ct_skill": "predict the intended outcome and locate the bug (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "08",
+      "slug": "debug-detective",
+      "dir": "08_debug_detective",
+      "title": "Debug Detective",
+      "concept": "challenge — read two longer parallel scripts, name which is wrong and what kind of bug, fix it",
+      "ct_skill": "diagnose, fix and explain a bug in concurrent code (C3.2 & C3.1)",
+      "status": "planned"
+    }
+  ]
+}
