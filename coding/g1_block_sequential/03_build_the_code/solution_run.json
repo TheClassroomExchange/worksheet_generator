@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Build 1: start 0 -> 3 = forward 2, forward 1 ✓\nBuild 2: start 5 -> 2 = back 2, back 1 ✓\nBuild 3: start 1 -> 5 = forward 2, forward 2 ✓\nBuild 3 alt: forward 1, forward 3 also reaches 5 ✓\n\nALL CHECKS PASSED — each built program lands Bit on its target.\n",
+  "stderr": ""
+}
