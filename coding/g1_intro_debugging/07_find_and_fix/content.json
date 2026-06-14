@@ -1,0 +1,128 @@
+{
+  "title": "Find and Fix",
+  "file_title": "Find and Fix",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Intro Debugging",
+    "title": "Find and Fix",
+    "subtitle": "Different programs, different bugs",
+    "footer_topic": "7. Find and Fix",
+    "learning_goal": "I can find what kind of bug a program has and fix it.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Bugs come in different kinds",
+        "text": "A bug can be a wrong block, an extra block, a missing block, or the wrong order. Read each program, run it, figure out the kind of bug, and fix it so Bit reaches the target."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's number path",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Program A — target is 4",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 1" },
+          { "cat": "motion", "label": "forward 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Find and fix A",
+        "prompt": "Run Program A from 1. Where does Bit land? It misses 4. Fix the program so Bit reaches 4 — what did you change?",
+        "answer_lines": 2
+      },
+      {
+        "type": "blocks",
+        "title": "Program B — target is 3",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 0" },
+          { "cat": "motion", "label": "forward 2" },
+          { "cat": "motion", "label": "forward 1" },
+          { "cat": "motion", "label": "forward 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Find and fix B",
+        "prompt": "Run Program B from 0. Where does Bit land? It misses 3. Fix the program so Bit reaches 3 — what did you change?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — name the bug",
+        "prompt": "Each program had a different kind of bug. What kind of bug was in Program A? What kind was in Program B?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A good debugger figures out WHAT kind of bug it is — wrong, extra, missing, or out of order — and then fixes that kind. Run the code again to make sure."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Intro Debugging",
+    "title": "Find and Fix",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "7. Find and Fix — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students diagnose and fix two programs with DIFFERENT kinds of bugs (a wrong-value block and an extra block), then name each bug type. Reading code, identifying the kind of error, and altering the code to correct it is the heart of C3.2, and naming the bug type builds debugging vocabulary."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 to run each program before fixing."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: run Program A — 'start 1, forward 1 to 2. Target is 4 — the forward block's number is too small.'",
+          "2. WE DO: Exercise 1 — A has a wrong-value block; change forward 1 to forward 3 (1 → 4). Exercise 2 — B overshoots to 4; it has an extra block; remove one forward 1 (0 → 2 → 3).",
+          "3. YOU DO: Exercise 3 — name the bugs: A = a wrong block (wrong number); B = an extra block.",
+          "4. Connect: 'Naming the kind of bug helps you pick the right fix.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Program A: 1 → forward 1 → 2 (misses 4). Bug = wrong value; change forward 1 to forward 3 so 1 → 4.",
+          "Ex 2 — Program B: 0 → 2 → 3 → 4 (misses 3). Bug = an extra block; remove one forward 1 so 0 → 2 → 3.",
+          "Ex 3 — Program A had a WRONG block (wrong number); Program B had an EXTRA block."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: trying to fix B by changing a number — the quickest fix is removing the extra step; accept any correct fix that lands on 3.",
+          "Simplify: tell students the bug type for each program and have them apply the matching fix.",
+          "Extend: ask students to make Program A wrong in a different way (an extra or missing block) for a partner to fix.",
+          "Success indicator: the child fixes A to reach 4 and B to reach 3 and names the two bug types correctly."
+        ]
+      }
+    ]
+  }
+}
