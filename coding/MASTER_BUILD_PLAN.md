@@ -13,7 +13,7 @@ Each worksheet ships **2 PDFs** (student Worksheet + Teacher Guide). Target ~7�
 | Grade | Subjects | Rubric | Concept ceiling (grade-correct — do NOT exceed) |
 |-------|----------|--------|--------------------------------------------------|
 | **K** | Unplugged CT ✅ · Sequencing & Algorithms ✅ · Intro Block Coding ✅ | `rubric_coding_K.md` | unplugged/symbol-only, **no text, no loops**; K-frame (not C3) |
-| **G1** | Block Coding (Sequential) · Unplugged Sequencing · Intro Debugging | `rubric_coding_G1.md` | **sequential events only**; ≤6 blocks; no loops/concurrency |
+| **G1** | Block Coding (Sequential) ✅ · Unplugged Sequencing · Intro Debugging | `rubric_coding_G1.md` | **sequential events only**; ≤6 blocks; no loops/concurrency |
 | **G2** | Block Coding (Concurrent) · Events & Parallel Scripts · Debugging & Reading Code | `rubric_coding_G2.md` | sequential + **concurrent**; ≤8 blocks; **loops still out** |
 | **G3** | Block Coding ✅ · Intro Python Turtle ✅ · Debugging ✅ | `rubric_coding_G3.md` | + **repeating events (loops)**; Turtle = first typed code |
 
@@ -23,7 +23,7 @@ each arc is designed against its own rubric + `concept_ceiling`. Never carry one
 
 ## Build order (from `subjects.json` `order`) — progress
 1. G3 Block Coding ✅ **SHIPPED** → 2. G3 Intro Python Turtle ✅ **SHIPPED** → 3. G3 Debugging ✅ **SHIPPED** →
-4. K Unplugged CT ✅ **SHIPPED (8)** → 5. K Sequencing & Algorithms ✅ **SHIPPED (8)** → 6. K Intro Block Coding ✅ **SHIPPED (8)** → **7. G1 Block Coding (Sequential) ← NEXT** → 8–9. Grade 1 (2 more) → 10–12. Grade 2 (3).  *(6/12 subjects, 45 sheets shipped. K COMPLETE.)*
+4. K Unplugged CT ✅ **SHIPPED (8)** → 5. K Sequencing & Algorithms ✅ **SHIPPED (8)** → 6. K Intro Block Coding ✅ **SHIPPED (8)** → 7. G1 Block Coding (Sequential) ✅ **SHIPPED (8)** → **8. G1 Unplugged Sequencing ← NEXT** → 9. G1 Intro Debugging → 10–12. Grade 2 (3).  *(7/12 subjects, 53 sheets shipped. K COMPLETE; G1 1/3.)*
 
 **K visual primitives:** `worksheet_pdf.py` carries two additive K helpers — the `symbols` part (large geometric
 symbol cards (★ ● ▲ ■ ➡ ↻ …) + a dashed "what comes next" answer card; this is what makes K sheets

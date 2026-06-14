@@ -189,3 +189,20 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   k_intro_block=done. **Catalogue now 6/12 subjects, 45 sheets, 90 PDFs. K (3 subjects) COMPLETE.**
   **Next = G1 · Block Coding (Sequential Events) (order 7)** — G1 rubric, SEQUENTIAL only (order matters, one
   actor, ≤6 blocks, NO loops/concurrency); design arc vs `rubric_coding_G1.md` + the G1 `concept_ceiling`.
+- 2026-06-14: **G1 · Block Coding (Sequential Events) SHIPPED** (subject 7/12 — first Grade-1 subject). 8 sheets —
+  01 Start and Go · 02 Order Matters · 03 Build the Code · 04 Forward and Back · 05 Predict, Then Run ·
+  06 Change One Block · 07 Fix the Code · 08 Plan and Code. **Lane = a NUMBER-PATH (0–5) block program:**
+  Scratch-style coloured blocks with DECODABLE TEXT labels (orange `events` "start at N" + blue `motion`
+  "forward N"/"back N"), run top-to-bottom; result = the number Bit lands on — a computational representation of
+  a mathematical situation (counting / add & subtract within 10), which is where Ontario C3 lives. Arc covers
+  BOTH C3.1 (write & run) and C3.2 (order/predict/alter/describe/debug). **Order genuinely matters via the path
+  BOUNDARY** (Bit can't pass 5 or go below 0 — it stops at the edge), so the same blocks reordered land
+  differently — honest, not just value-changes. solution.py = a tiny clamped sequential interpreter; every
+  landing/alter/fix MODELLED + asserted. G1 uses real text labels (light decodable reading), unlike symbol-only
+  K. input_row cites **Grade-1 C3.1 + C3.2 verbatim** (drift check passes). Every sheet: I/we/you-do scaffold +
+  predict-before-run + answer-key explaining why order works → run-gate + **20/20** + visually inspected.
+  **Renderer: 0–5 path = clean single row** (7-card 0–6 wrapped → standardized to 0–5). Published 16 PDFs to
+  `…/Grade 1/Block Coding (Sequential Events)/<N. Topic>/` (8 folders, audited 0 strays):
+  https://drive.google.com/drive/folders/1uKyzrks5wERumo_cwWTOTqOwWJvCrI7U  subjects.json: g1_block_sequential=done.
+  **Catalogue now 7/12 subjects, 53 sheets, 106 PDFs.** **Next = G1 · Unplugged Sequencing & Algorithms (order 8)**
+  — unplugged sequences/algorithms, light decodable reading + icons, ≤6 steps, NO loops; arc vs `rubric_coding_G1.md`.

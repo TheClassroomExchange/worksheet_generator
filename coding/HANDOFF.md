@@ -8,14 +8,17 @@ PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner
 > **Process: `coding/AUTONOMOUS_BUILD.md`. Machine queue: `coding/subjects.json`.
 > Live state: `coding/BUILD_PROGRESS.md`.** Read those first; this handoff is stable context.
 >
-> **Status 2026-06-14:** 6/12 subjects SHIPPED — G3 Block Coding + G3 Intro Python Turtle +
-> G3 Debugging + K Unplugged CT + K Sequencing & Algorithms + K Intro Block Coding (45 sheets, all 20/20,
-> 90 PDFs in Drive). **Batch gating REMOVED** — building the full catalogue autonomously, subject by subject
-> (subjects.json queue), no human sign-off between batches (quality gates remain). **G3 COMPLETE; K COMPLETE
-> (3/3).** Next: **G1 Block Coding (Sequential Events) (order 7)** — `rubric_coding_G1.md`, SEQUENTIAL only
-> (order matters, one actor, ≤6 blocks, NO loops/concurrency); design the arc vs the G1 rubric + `concept_ceiling`.
-> K primitives in `worksheet_pdf.py`: additive `symbols` part + `blocks` part-level `size`/per-block `blank`.
-> Drive: K Intro Block https://drive.google.com/drive/folders/1cLIMiX8bsL__cwR-qiuMs_aBST3CsvmB ·
+> **Status 2026-06-14:** 7/12 subjects SHIPPED — G3 ×3 + K ×3 + G1 Block Coding (Sequential) (53 sheets,
+> all 20/20, 106 PDFs in Drive). **Batch gating REMOVED** — building the full catalogue autonomously, subject
+> by subject (subjects.json queue), no human sign-off between batches (quality gates remain). **G3 COMPLETE;
+> K COMPLETE (3/3); G1 1/3.** Next: **G1 Unplugged Sequencing & Algorithms (order 8)** — `rubric_coding_G1.md`,
+> unplugged sequences/algorithms, light decodable reading + icons, ≤6 steps, NO loops. Then G1 Intro Debugging
+> (9) → G2 ×3 (10–12, +concurrent, loops still OUT). **G1 pattern (proven):** number-path (0–5) block program,
+> Scratch-style text-label blocks (orange `events` start + blue `motion` forward/back), tiny clamped sequential
+> interpreter in solution.py, cite G1 C3.1+C3.2 verbatim, I/we/you-do + predict-before-run + answer-key explains
+> why-order/what-breaks. K primitives in `worksheet_pdf.py`: additive `symbols` part + `blocks` `size`/`blank`.
+> Drive: G1 Block (Seq) https://drive.google.com/drive/folders/1uKyzrks5wERumo_cwWTOTqOwWJvCrI7U ·
+> K Intro Block https://drive.google.com/drive/folders/1cLIMiX8bsL__cwR-qiuMs_aBST3CsvmB ·
 > K Sequencing https://drive.google.com/drive/folders/158bMnSexks_0TPZ1PCwH38jRWFb8c8Ug ·
 > K Unplugged CT https://drive.google.com/drive/folders/1_yM25wZ-ix5EPvO-iUMy1eGAvJAA9Pv5
 >

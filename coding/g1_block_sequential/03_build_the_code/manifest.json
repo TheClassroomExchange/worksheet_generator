@@ -7,8 +7,8 @@
   "prompt_version": "v1.0",
   "num_lessons": 5,
   "created_at": "2026-06-14T15:50:14+00:00",
-  "updated_at": "2026-06-14T15:50:37+00:00",
-  "status": "in_progress",
+  "updated_at": "2026-06-14T15:58:47+00:00",
+  "status": "done",
   "stages": {
     "solution": {
       "label": "Runnable solution + code-runs gate",
@@ -80,8 +80,11 @@
       "depends_on": [
         "visual_grade"
       ],
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "started_at": "2026-06-14T15:58:47+00:00",
+      "completed_at": "2026-06-14T15:58:47+00:00",
+      "output_path": "publish.json"
     }
   },
   "stage_order": [
