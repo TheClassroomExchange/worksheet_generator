@@ -1,0 +1,141 @@
+{
+  "title": "When I Receive",
+  "file_title": "When I Receive",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Events & Parallel Scripts",
+    "title": "When I Receive",
+    "subtitle": "The message sets the order",
+    "footer_topic": "4. When I Receive",
+    "learning_goal": "I can trace which script runs first and which runs when it receives a message.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Who goes first?",
+        "text": "Bit starts on the green flag and ends by broadcasting 'start'. Pixel has the hat 'when I receive start', so Pixel waits until that message comes. That sets the ORDER: Bit runs first, then Pixel runs when it hears the message. Read both scripts and find the order."
+      },
+      {
+        "type": "symbols",
+        "title": "The number path",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Pixel" }, { "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/bit_wave.svg",
+        "caption": "Bit",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 3" },
+          { "cat": "events", "label": "broadcast 'start'" }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/pixel_wave.svg",
+        "caption": "Pixel",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "when I receive 'start'" },
+          { "cat": "motion", "label": "forward 2" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Which script runs first?",
+        "prompt": "Which sprite's script runs FIRST — Bit or Pixel? Write it, and write what event starts it.",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Which runs second?",
+        "prompt": "Which sprite runs SECOND, and what makes it start? Write the sprite and the event.",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Where do they land?",
+        "prompt": "Bit runs from home 1: forward 3. Pixel runs from home 0: forward 2. Where does each land? Bit: ____  Pixel: ____",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A 'when I receive' script does not start until its message arrives. So a broadcast can set the ORDER of two scripts: the sender runs first, and the receiver runs when the message reaches it."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Events & Parallel Scripts",
+    "title": "When I Receive",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "4. When I Receive — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students trace the ORDER that event-triggered scripts run in. Bit (green flag) broadcasts 'start'; Pixel ('when I receive start') waits, so it runs second. This links the receive event to sequencing — the message decides who goes first and who goes next — which is exactly the 'sequential and concurrent events' language of Grade-2 C3.1/C3.2."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: two students; Bit moves and says 'start!', then Pixel may move. Ask the class 'who went first? who went second? why?'"
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: read Bit — 'green flag, 1 forward 3 → 4, then broadcast start.' Bit runs first.",
+          "2. WE DO: read Pixel — 'when I receive start'. 'Pixel waited; it runs second when start arrives: 0 forward 2 → 2.'",
+          "3. YOU DO: students name first (Bit/green flag), second (Pixel/receive start), and both landings.",
+          "4. Connect: 'The message sets the order — sender first, receiver next.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit runs first; its event is 'when green flag clicked'.",
+          "Ex 2 — Pixel runs second; it starts 'when I receive start' (the message Bit broadcast).",
+          "Ex 3 — Bit: 1 → forward 3 → 4. Pixel: 0 → forward 2 → 2. Bit lands on 4, Pixel on 2.",
+          "Order note: even though the green flag is one event, Pixel's start is delayed until the broadcast arrives, so the run order is Bit then Pixel."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: saying both start on the green flag — only Bit has the green-flag hat; Pixel waits for the message.",
+          "Common error: mixing up the homes — Bit starts at 1, Pixel at 0; read each hat's sprite carefully.",
+          "Simplify: number the two scripts 1 and 2 in run order before finding landings.",
+          "Extend: ask what the order would be if Pixel also broadcast a message at its end to a third script (sender → receiver → next receiver).",
+          "Success indicator: the child names Bit first / Pixel second and lands Bit on 4 and Pixel on 2."
+        ]
+      }
+    ]
+  }
+}
