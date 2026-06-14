@@ -1,0 +1,82 @@
+{
+  "batch_id": "g2_events_parallel",
+  "grade": "Grade 2",
+  "subject": "Events & Parallel Scripts",
+  "rubric": "rubric_coding_G2.md",
+  "locked": true,
+  "arc_note": "Grade 2 · Ontario Math C3 (Coding). This subject's distinct angle is EVENTS — the hat block that TRIGGERS a script (when green flag clicked, when I receive a message) — and PARALLEL SCRIPTS started by events. Builds on the proven two-sprite number-path lane (Bit green bit_wave + Pixel purple pixel_wave on a shared 0–5 clamped path) but the NEW idea is that a script only runs when its EVENT happens: (a) two scripts under the SAME 'when green flag' event run in PARALLEL (concurrent, started together); (b) a script can BROADCAST a message, and a 'when I receive <message>' script starts in response. Loops/variables OUT. ≤8 blocks across the two scripts. Every sheet's question is about the COMBINED outcome AND/OR which event made each script run (matching event→script, predicting, altering the event, debugging a broken event link). solution.py models BOTH scripts as (trigger_event, moves), tracks fired events (green flag + any broadcast), runs only triggered scripts, and asserts both landings + the event behaviour. The event layer (what triggers / in what order / does it run at all) is what distinguishes this subject from Block Coding (Concurrent), where one green flag simply started both. Two mascots = the two sprites/scripts (C4-L3); TG answer key explains the event timing + the common error (thinking a script with no matching event still runs, or that broadcast and receive messages must match). Scaffold introduces the receive/broadcast pair only after the same-event parallel case is understood (C3-L4). Cite Grade-2 C3.1 + C3.2 verbatim ('sequential and concurrent events').",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "when-the-flag-is-clicked",
+      "dir": "01_when_the_flag_is_clicked",
+      "title": "When the Flag Is Clicked",
+      "concept": "the green-flag event is the trigger; a script runs when its event happens",
+      "ct_skill": "read an event hat block that starts a script (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "02",
+      "slug": "two-scripts-one-event",
+      "dir": "02_two_scripts_one_event",
+      "title": "Two Scripts, One Event",
+      "concept": "both sprites have 'when green flag' so both start together — parallel scripts",
+      "ct_skill": "read two parallel scripts started by the same event (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "03",
+      "slug": "send-a-message",
+      "dir": "03_send_a_message",
+      "title": "Send a Message",
+      "concept": "one script broadcasts a message; a 'when I receive' script starts in response",
+      "ct_skill": "read a broadcast that triggers another script (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "04",
+      "slug": "when-i-receive",
+      "dir": "04_when_i_receive",
+      "title": "When I Receive",
+      "concept": "a script with a receive hat only runs after the message is sent; trace it",
+      "ct_skill": "trace an event-triggered (receive) script (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "05",
+      "slug": "match-the-event",
+      "dir": "05_match_the_event",
+      "title": "Match the Event",
+      "concept": "decide which event starts each script — green flag or a received message",
+      "ct_skill": "match each script to the event that triggers it (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "06",
+      "slug": "predict-with-events",
+      "dir": "06_predict_with_events",
+      "title": "Predict With Events",
+      "concept": "predict where both sprites land given the events that trigger them, then run",
+      "ct_skill": "predict combined behaviour from events (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "07",
+      "slug": "change-the-event",
+      "dir": "07_change_the_event",
+      "title": "Change the Event",
+      "concept": "change which event triggers a script and describe how the outcome changes",
+      "ct_skill": "alter an event and describe the effect (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "08",
+      "slug": "debug-the-events",
+      "dir": "08_debug_the_events",
+      "title": "Debug the Events",
+      "concept": "challenge — a sprite never moves because its event is wrong; fix the event link",
+      "ct_skill": "debug a broken event/broadcast link (C3.2 & C3.1)",
+      "status": "planned"
+    }
+  ]
+}
