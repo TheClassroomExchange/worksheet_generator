@@ -206,3 +206,18 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   https://drive.google.com/drive/folders/1uKyzrks5wERumo_cwWTOTqOwWJvCrI7U  subjects.json: g1_block_sequential=done.
   **Catalogue now 7/12 subjects, 53 sheets, 106 PDFs.** **Next = G1 · Unplugged Sequencing & Algorithms (order 8)**
   — unplugged sequences/algorithms, light decodable reading + icons, ≤6 steps, NO loops; arc vs `rubric_coding_G1.md`.
+- 2026-06-14: **G1 · Unplugged Sequencing & Algorithms SHIPPED** (subject 8/12). 8 sheets — 01 Put It in Order ·
+  02 First, Next, Then, Last · 03 Follow the Steps · 04 Write the Steps · 05 Does the Order Work? · 06 What Must
+  Come First? · 07 Match the Algorithm · 08 Plan Your Algorithm. **Lane = UNPLUGGED ordered STEP-CARDS** (an
+  algorithm = steps in order to do a job): lettered `blocks` chips (slate `value`) with short DECODABLE phrases;
+  the child orders / follows / writes / reasons. NO on-screen program (that's the Block-Coding subject), NO loops.
+  Covers C3.1 (order/follow/write algorithms) + C3.2 (sequence words, judge order, dependencies, abstraction).
+  Several tasks are mathematical (AB/ABB pattern via `symbols` blank boxes, count/build) for C1 tie; rest are
+  routines (plant seed, brush teeth, make tea). solution.py models canonical order + **precedence/dependency
+  checks** (works()/must_precede via permutations) and asserts every answer; open write-tasks have a modelled
+  sample. Distinct from next subject (Intro Debugging = dedicated sequence REPAIR). I/we/you-do + think/predict
+  + answer-key explains why-order. Cite G1 C3.1/C3.2 verbatim. Published 16 PDFs to `…/Grade 1/Unplugged
+  Sequencing & Algorithms/<N. Topic>/` (8 folders, audited 0 strays):
+  https://drive.google.com/drive/folders/11pddj1_n0w8CyxTmhDYD3LUMXeUzjEzx  subjects.json: g1_unplugged_sequencing=done.
+  **Catalogue now 8/12 subjects, 61 sheets, 122 PDFs. G1 2/3.** **Next = G1 · Intro Debugging (order 9)** —
+  debugging = sequence REPAIR (re-order a 3–5 step sequence to fix it), NO loops, C3.2; arc vs `rubric_coding_G1.md`.
