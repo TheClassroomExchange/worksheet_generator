@@ -49,9 +49,13 @@ def normalize_filename(name: str) -> str:
     name = re.sub(r"\.pdf$", "", name, flags=re.IGNORECASE)
     name = name.replace("_", " ")
     name = re.sub(r"[?:!]", "", name)                                  # strip ? : ! from filename
-    name = re.sub(r"\s+", " ", name).strip()
-    name = name.replace(" - ", " — ")
-    name = name.rstrip(" .-—")                                        # drop trailing space/dot/dash
+    # ASCII/storage-safe ONLY: Supabase storage object keys reject non-ASCII
+    # (an em-dash here caused "Storage upload failed"). Keep [A-Za-z0-9 _-].
+    name = name.replace("—", "-").replace("–", "-")                   # em/en dash -> hyphen
+    name = re.sub(r"[^A-Za-z0-9 _-]", "", name)                       # drop everything else
+    name = re.sub(r"\s+", " ", name).strip().rstrip(" .-_")
+    name = name.replace(" ", "-")                                     # spaces -> hyphen (safe key)
+    name = re.sub(r"-+", "-", name)
     return name + ".pdf"
 
 

@@ -1,0 +1,82 @@
+{
+  "batch_id": "g1_block_sequential",
+  "grade": "Grade 1",
+  "subject": "Block Coding (Sequential Events)",
+  "rubric": "rubric_coding_G1.md",
+  "locked": true,
+  "arc_note": "Grade 1 · Ontario Math C3 (Coding), SEQUENTIAL events only — one actor, order matters, ≤6 blocks, NO loops, NO concurrency, NO variables. Lane = a tiny block PROGRAM (ScratchJr/Scratch-style coloured blocks with short DECODABLE word labels + an icon, e.g. green 'start at 0', blue 'forward 2', blue 'back 1') that moves Bit along a NUMBER PATH 0–6 — a computational representation of a mathematical situation (counting / adding & subtracting within 10), which is exactly where Ontario C3 sits. The program runs top-to-bottom; the RESULT is the number Bit lands on. Arc covers BOTH C3.1 (write & run a sequence) and C3.2 (read, alter, predict, describe, debug): read→order-matters→build→forward&back→predict-then-run→change-one-block→debug→plan-and-code. Every sheet: I-do/we-do/you-do scaffold, a 'predict before you run' prompt (C4-L4), and the teacher answer key explains WHY the order works / what breaks if reordered (C2-L4). Each landing number / altered result / fix is MODELLED + asserted in solution.py (a tiny sequential interpreter). G1 uses real text labels (light decodable reading), unlike symbol-only K. Cite C3.1 + C3.2 verbatim from the Grade-1 cache.",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "start-and-go",
+      "dir": "01_start_and_go",
+      "title": "Start and Go",
+      "concept": "read a start + move sequence and find the number Bit lands on",
+      "ct_skill": "read & run a sequence (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "02",
+      "slug": "order-matters",
+      "dir": "02_order_matters",
+      "title": "Order Matters",
+      "concept": "the same blocks in a different order land Bit on a different number",
+      "ct_skill": "describe how order affects the outcome (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "03",
+      "slug": "build-the-code",
+      "dir": "03_build_the_code",
+      "title": "Build the Code",
+      "concept": "write the blocks to land Bit on a target number",
+      "ct_skill": "write a sequence (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "04",
+      "slug": "forward-and-back",
+      "dir": "04_forward_and_back",
+      "title": "Forward and Back",
+      "concept": "mix forward and back blocks to reach the target (add & subtract within 10)",
+      "ct_skill": "write & run a mixed sequence (C3.1)",
+      "status": "planned"
+    },
+    {
+      "nn": "05",
+      "slug": "predict-then-run",
+      "dir": "05_predict_then_run",
+      "title": "Predict, Then Run",
+      "concept": "predict the landing number before running, then run to check",
+      "ct_skill": "read & predict an outcome (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "06",
+      "slug": "change-one-block",
+      "dir": "06_change_one_block",
+      "title": "Change One Block",
+      "concept": "alter a single block and describe how the result changes",
+      "ct_skill": "alter code & describe the effect (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "07",
+      "slug": "fix-the-code",
+      "dir": "07_fix_the_code",
+      "title": "Fix the Code",
+      "concept": "debugging — a block is wrong or out of order; fix it so Bit hits the target",
+      "ct_skill": "read, find & fix a bug (C3.2)",
+      "status": "planned"
+    },
+    {
+      "nn": "08",
+      "slug": "plan-and-code",
+      "dir": "08_plan_and_code",
+      "title": "Plan and Code",
+      "concept": "challenge — plan and write the full sequence to a goal, predict it, then meet a second goal",
+      "ct_skill": "write + predict + alter (C3.1 & C3.2)",
+      "status": "planned"
+    }
+  ]
+}
