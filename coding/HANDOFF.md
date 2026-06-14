@@ -8,24 +8,27 @@ PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner
 > **Process: `coding/AUTONOMOUS_BUILD.md`. Machine queue: `coding/subjects.json`.
 > Live state: `coding/BUILD_PROGRESS.md`.** Read those first; this handoff is stable context.
 >
-> **Status 2026-06-14:** 9/12 subjects SHIPPED — G3 ×3 + K ×3 + G1 ×3 (69 sheets, all 20/20, 138 PDFs in Drive).
+> **Status 2026-06-14:** 10/12 subjects SHIPPED — G3 ×3 + K ×3 + G1 ×3 + G2 ×1 (77 sheets, all 20/20, 154 PDFs in Drive).
 > **Batch gating REMOVED** — building the full catalogue autonomously, subject by subject (subjects.json queue),
-> no human sign-off between batches (quality gates remain). **G3 COMPLETE; K COMPLETE; G1 COMPLETE.** Next:
-> **G2 Block Coding (Concurrent Events) (order 10)** — `rubric_coding_G2.md`. The NEW concept is CONCURRENT — two
-> scripts/sprites running at once, parallel green-flag starts, ≤8 blocks; loops still OUT (preview only). Cite
-> **Grade-2** C3.1/C3.2 verbatim (G2 C3 text = 'sequential and concurrent events'; pull via
-> `pipeline.curriculum.get('Grade 2','C3.1')['text']`). Then G2 Events & Parallel (11), G2 Debugging & Reading (12).
+> no human sign-off between batches (quality gates remain). **G3 COMPLETE; K COMPLETE; G1 COMPLETE; G2 1/3.** Next:
+> **G2 Events & Parallel Scripts (order 11)** — `rubric_coding_G2.md`. Events + broadcasts + parallel scripts (two
+> things triggered together), NO loops, C3.1; then G2 Debugging & Reading Code (12). Cite **Grade-2** C3.1/C3.2
+> verbatim (G2 C3 text = 'sequential and concurrent events'; pull via `pipeline.curriculum.get('Grade 2','C3.1')['text']`).
+> **G2 concurrency pattern (PROVEN, subject 10):** TWO number-path sprites — Bit (green `bit_wave`) + Pixel
+> (purple NEW `pixel_wave.svg`), each its own green-flag-started script on a shared 0–5 path; questions ask the
+> COMBINED outcome (both landings / who's ahead / do they meet) = genuine concurrency. blank-block write-slot for
+> build sheets; before/after stacks for alter sheets; ★ path goal-marker for debug.
 > **G1 patterns (proven):** Block-Coding = number-path (0–5) program w/ Scratch text-label blocks + clamped
 > interpreter; Unplugged = lettered step-cards + precedence model; Intro Debugging = debug the number-path
-> programs (one bug type/sheet, run→find→fix→recheck). G2 needs a NEW representation for two parallel scripts
-> (e.g. two number-path actors / two side-by-side block stacks both started by a green flag) — design its own arc.
+> programs (one bug type/sheet, run→find→fix→recheck).
 > K primitives in `worksheet_pdf.py`: additive `symbols` part + `blocks` `size`/`blank`.
 > Drive: G1 Intro Debugging https://drive.google.com/drive/folders/1Oa_aTV349ar5WyVyveW4AfA0b0l22Rsq ·
 > G1 Unplugged Seq https://drive.google.com/drive/folders/11pddj1_n0w8CyxTmhDYD3LUMXeUzjEzx ·
 > G1 Block (Seq) https://drive.google.com/drive/folders/1uKyzrks5wERumo_cwWTOTqOwWJvCrI7U ·
 > K Intro Block https://drive.google.com/drive/folders/1cLIMiX8bsL__cwR-qiuMs_aBST3CsvmB ·
 > K Sequencing https://drive.google.com/drive/folders/158bMnSexks_0TPZ1PCwH38jRWFb8c8Ug ·
-> K Unplugged CT https://drive.google.com/drive/folders/1_yM25wZ-ix5EPvO-iUMy1eGAvJAA9Pv5
+> K Unplugged CT https://drive.google.com/drive/folders/1_yM25wZ-ix5EPvO-iUMy1eGAvJAA9Pv5 ·
+> G2 Block Coding (Concurrent) https://drive.google.com/drive/folders/10Uejefrby6oatfuVU6ZNIOi-YgptSq_S
 >
 > **Quality model:** every product, every grade, graded by `pipeline/coding_rubric.py`
 > (`select_rubric(grade)`) BEFORE render. Gate = **≥19/20 AND C2≥L3 (hard) AND C3=L4 AND C5=L4**.

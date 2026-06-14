@@ -1,0 +1,140 @@
+{
+  "title": "Build Pixel's Script",
+  "file_title": "Build Pixels Script",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Block Coding",
+    "title": "Build Pixel's Script",
+    "subtitle": "Write Pixel's code so they meet",
+    "footer_topic": "5. Build Pixel's Script",
+    "learning_goal": "I can write a script for a second sprite so both sprites meet on the same number.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Your turn to write code",
+        "text": "Bit (green) already has a script. Pixel (purple) does NOT — that blank block is yours to fill. When the green flag ▶ starts BOTH at the same time, you want them to MEET (land on the SAME number). First find where Bit lands, then write Pixel's move so Pixel lands there too."
+      },
+      {
+        "type": "symbols",
+        "title": "The number path",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/bit_wave.svg",
+        "caption": "Bit",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script (given)",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 0" },
+          { "cat": "motion", "label": "forward 3" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Where does Bit land?",
+        "prompt": "Read Bit's script from 0: forward 3. What number does Bit land on?",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/pixel_wave.svg",
+        "caption": "Pixel",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script (you write the move)",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 5" },
+          { "blank": true }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Write Pixel's move",
+        "prompt": "Pixel starts at 5. Write a move (forward or back, and how many) so Pixel lands on the SAME number as Bit. Pixel's move: ______________",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Check — do they meet?",
+        "prompt": "The green flag starts BOTH scripts at once. Write where each lands now. Bit: ____  Pixel: ____. Do they meet? Circle YES or NO.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Writing code means choosing the moves that reach your goal. To make two sprites meet, first find one sprite's number, then write the other sprite's script to land on that same number."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Block Coding",
+    "title": "Build Pixel's Script",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "5. Build Pixel's Script — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students WRITE code for the first time in this subject (C3.1): Bit's script is given, and they author Pixel's script so the two sprites MEET when one green flag starts both. They must first read Bit's result, then create a script that produces a matching concurrent outcome. Writing a second script to coordinate with a running first script is the create-concurrent-code skill in C3.1."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a strip of move-blocks (forward 1/2/3, back 1/2/3) students can place in Pixel's blank slot before writing it down."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: read Bit's given script — 'start 0, forward 3 → 3.' Bit lands on 3. Write that target on the board.",
+          "2. WE DO: Pixel starts at 5 — ask 'what one move gets Pixel from 5 to 3?' Count back: back 2.",
+          "3. YOU DO: students write Pixel's move (back 2), then press the green flag and check both land on 3.",
+          "4. Connect: 'You wrote a script so two sprites running at once meet — that's writing concurrent code.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit: 0 → forward 3 → 3. Bit lands on 3.",
+          "Ex 2 — Pixel starts at 5 and must reach 3, so the move is back 2. (Any script that lands Pixel on 3 is correct; back 2 is the simplest.)",
+          "Ex 3 — with Pixel = back 2, the green flag sends both to 3 → SAME number → YES, they MEET.",
+          "Interaction note: the student's new script runs at the same time as Bit's; choosing back 2 makes the two concurrent results match."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: moving Pixel forward (away from 3) — remind students Pixel starts ABOVE the target (5 > 3), so it must go back.",
+          "Accept any correct script: a child who writes 'back 1, back 1' also lands on 3 — that is fully correct.",
+          "Simplify: count the gap on the number path (5 to 3 is 2 squares back).",
+          "Extend: ask for a DIFFERENT Pixel script that still meets Bit (e.g. forward 0 is not allowed, but back 1 then back 1 works).",
+          "Success indicator: the child writes a Pixel move landing on 3 and confirms both meet on 3 under the green flag."
+        ]
+      }
+    ]
+  }
+}

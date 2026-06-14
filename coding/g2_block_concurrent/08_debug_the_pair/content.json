@@ -1,0 +1,128 @@
+{
+  "title": "Debug the Pair",
+  "file_title": "Debug the Pair",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Block Coding",
+    "title": "Debug the Pair",
+    "subtitle": "One script is wrong — find it and fix it",
+    "footer_topic": "8. Debug the Pair",
+    "learning_goal": "I can find which of two scripts is wrong and fix it so the sprites meet.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "The goal — and the bug",
+        "text": "Bit (green) and Pixel (purple) are SUPPOSED to MEET on number 3 when the green flag ▶ starts both. But when you run them, they do NOT meet — one script has a bug! Read both scripts, find the wrong one, and fix it so they meet on 3."
+      },
+      {
+        "type": "symbols",
+        "title": "The goal: meet on 3",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3", "label": "★ meet" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 0" },
+          { "cat": "motion", "label": "forward 3" }
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 5" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run it — what goes wrong?",
+        "prompt": "Run both scripts. Bit: ____  Pixel: ____. Do they meet on 3? Circle YES or NO.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Find the bug",
+        "prompt": "Whose script is wrong — Bit's or Pixel's? (Hint: one sprite already lands on 3.) Write whose script has the bug.",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Fix it",
+        "prompt": "Write the fixed move for the wrong script so BOTH sprites meet on 3 when the green flag starts them. Fixed move: ______________",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Debugging two scripts means checking each one against the goal. Bit already lands on 3, so the bug is in Pixel's script: changing 'back 1' to 'back 2' moves Pixel to 3, and now the pair meets."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Block Coding",
+    "title": "Debug the Pair",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "8. Debug the Pair — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "The challenge sheet: students DEBUG a pair of concurrent scripts (C3.2 read/alter + C3.1 write). The two sprites are meant to meet on 3, but Pixel's script lands it on 4. Students check each script against the goal, identify Pixel's as the buggy one (because Bit already reaches 3), and write the fix (back 1 → back 2) so the pair meets."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: two counters on a 0-5 path and a star on square 3 (the meeting goal) so students can see which sprite misses the target."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: state the goal — 'both should meet on 3.' Run both: Bit → 3 (on target), Pixel → 4 (misses).",
+          "2. WE DO: reason about WHICH is wrong — since Bit already lands on 3, the bug must be in Pixel's script.",
+          "3. YOU DO: students write Pixel's fix (back 2), run again, and confirm both land on 3 — debugged!",
+          "4. Connect: 'To debug two scripts, check each one against the goal — the one that misses is the bug.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit: 0 → forward 3 → 3. Pixel: 5 → back 1 → 4. They do NOT meet on 3 (Pixel is on 4).",
+          "Ex 2 — Pixel's script is the wrong one. Bit already lands on the target 3, so the bug must be in Pixel's.",
+          "Ex 3 — fix Pixel to 'back 2': 5 → back 2 → 3. Now both land on 3 → they MEET. (Accept any Pixel script that lands on 3, e.g. 'back 1, back 1'.)",
+          "Interaction note: only the buggy script needs changing; once Pixel reaches 3, the two concurrent scripts meet on the target."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: changing Bit's script — Bit already lands on 3, so changing it breaks a correct script. Stress checking each against the goal first.",
+          "Common error: fixing the landing but not re-checking 'do they meet?' — have students confirm BOTH are on 3 after the fix.",
+          "Simplify: tell students Bit is correct and only Pixel needs fixing; have them just find Pixel's move to 3.",
+          "Extend: change the goal to 'meet on 2' and ask which script(s) need fixing now (both).",
+          "Success indicator: the child names Pixel's script as the bug and writes a fix that lands Pixel on 3 so the pair meets."
+        ]
+      }
+    ]
+  }
+}

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "unit_id": "g2_conc_01",
+  "unit_id": "g2_conc_07",
   "batch": 1,
   "row_number": null,
   "runner": "claude_code_max",
   "prompt_version": "v1.0",
   "num_lessons": 5,
-  "created_at": "2026-06-14T20:28:26+00:00",
-  "updated_at": "2026-06-14T23:15:29+00:00",
+  "created_at": "2026-06-14T23:13:03+00:00",
+  "updated_at": "2026-06-14T23:15:52+00:00",
   "status": "done",
   "stages": {
     "solution": {
@@ -17,8 +17,8 @@
       "depends_on": [],
       "status": "done",
       "attempts": 1,
-      "started_at": "2026-06-14T20:28:26+00:00",
-      "completed_at": "2026-06-14T20:28:27+00:00",
+      "started_at": "2026-06-14T23:13:03+00:00",
+      "completed_at": "2026-06-14T23:13:03+00:00",
       "output_path": "solution_run.json"
     },
     "content": {
@@ -30,8 +30,8 @@
       ],
       "status": "done",
       "attempts": 1,
-      "started_at": "2026-06-14T20:28:27+00:00",
-      "completed_at": "2026-06-14T20:28:27+00:00",
+      "started_at": "2026-06-14T23:13:03+00:00",
+      "completed_at": "2026-06-14T23:13:03+00:00",
       "output_path": "content.json"
     },
     "content_grade": {
@@ -43,8 +43,8 @@
       ],
       "status": "done",
       "attempts": 1,
-      "started_at": "2026-06-14T20:28:27+00:00",
-      "completed_at": "2026-06-14T20:28:27+00:00",
+      "started_at": "2026-06-14T23:13:03+00:00",
+      "completed_at": "2026-06-14T23:13:03+00:00",
       "output_path": "content_grade.json"
     },
     "render": {
@@ -56,8 +56,8 @@
       ],
       "status": "done",
       "attempts": 1,
-      "started_at": "2026-06-14T20:28:27+00:00",
-      "completed_at": "2026-06-14T20:28:28+00:00",
+      "started_at": "2026-06-14T23:13:03+00:00",
+      "completed_at": "2026-06-14T23:13:05+00:00",
       "output_path": "render.json"
     },
     "visual_grade": {
@@ -69,8 +69,8 @@
       ],
       "status": "done",
       "attempts": 1,
-      "started_at": "2026-06-14T20:30:47+00:00",
-      "completed_at": "2026-06-14T20:30:47+00:00",
+      "started_at": "2026-06-14T23:13:25+00:00",
+      "completed_at": "2026-06-14T23:13:25+00:00",
       "output_path": "visual_grade.json"
     },
     "publish": {
@@ -82,8 +82,8 @@
       ],
       "status": "done",
       "attempts": 1,
-      "started_at": "2026-06-14T23:15:29+00:00",
-      "completed_at": "2026-06-14T23:15:29+00:00",
+      "started_at": "2026-06-14T23:15:52+00:00",
+      "completed_at": "2026-06-14T23:15:52+00:00",
       "output_path": "publish.json"
     }
   },

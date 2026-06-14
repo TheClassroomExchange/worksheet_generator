@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "BEFORE -> Bit 3, Pixel 4 -> meet? False (Pixel is ahead) ✓\nAFTER  -> Bit 3, Pixel 3 -> meet? True (now they meet) ✓\nChanging one move (back 1 -> back 2) changed the outcome: they now MEET on 3 ✓\n\nALL CHECKS PASSED — altering one block changed who's ahead and made the sprites meet.\n",
+  "stderr": ""
+}

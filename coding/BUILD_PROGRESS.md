@@ -236,3 +236,23 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   (Concurrent Events) (order 10)** — G2 rubric; the NEW concept is CONCURRENT — two scripts/sprites running at
   once, parallel green-flag starts, ≤8 blocks; loops still OUT. Cite Grade-2 C3.1/C3.2 verbatim (G2 C3 text =
   'sequential and concurrent events').
+- 2026-06-14: **G2 · Block Coding (Concurrent Events) SHIPPED** (subject 10/12 — **G2 1/3**). 8 sheets — 01 Two
+  Sprites at Once · 02 Read Both Scripts · 03 Who Is Ahead? · 04 Do They Meet? · 05 Build Pixel's Script · 06
+  Predict Both · 07 Change One Script · 08 Debug the Pair. **NEW concept = CONCURRENT.** Lane = **TWO number-path
+  sprites — Bit (green, `bit_wave`) and Pixel (purple, NEW `assets/mascots/pixel_wave.svg`)** — each with its OWN
+  short block script (green-flag `▶ start at N` `operators` block + forward/back `motion` blocks) on a shared 0–5
+  path; **one green flag starts BOTH** and every question is about the COMBINED outcome (both landings / who's
+  ahead / do they MEET) — that combined reasoning is what makes the concurrency GENUINE (C2 hard gate), not two
+  sequential tasks. Reuses the proven clamped 0–5 interpreter; solution.py runs BOTH scripts and asserts both
+  landings + the combined answer. Arc: meet two sprites → read both 2-move scripts → compare (who's ahead) → do
+  they meet → **BUILD Pixel's script** (write concurrent, C3.1, blank-block write-slot) → **predict BOTH** then
+  run (C4-L4 'predict what happens when both start') → **change one script** & describe the effect (C3.2
+  alter+describe, before/after stacks) → **debug the pair** (challenge: which of two parallel scripts is wrong;
+  ★ goal-marker on path). Two mascots = the two sprites (C4-L3); TG answer key explains timing/interaction + the
+  common error of mistaking sequential for concurrent. Scaffold introduces Pixel's 2nd script only after Bit's
+  understood (C3-L4). Every sheet: run-gate PASS + **20/20** (C1–C5 all L4) + drift + every page visually
+  inspected. Cite G2 C3.1/C3.2 verbatim. Published 16 PDFs to `…/Grade 2/Block Coding (Concurrent Events)/<N.
+  Topic>/` (8 folders, audited 0 strays):
+  https://drive.google.com/drive/folders/10Uejefrby6oatfuVU6ZNIOi-YgptSq_S  subjects.json: g2_block_concurrent=done.
+  **Catalogue now 10/12 subjects, 77 sheets, 154 PDFs.** **Next = G2 · Events & Parallel Scripts (order 11)** —
+  events + broadcasts + parallel scripts (two things triggered together), NO loops, C3.1; arc vs `rubric_coding_G2.md`.
