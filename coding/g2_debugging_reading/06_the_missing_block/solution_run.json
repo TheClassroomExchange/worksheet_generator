@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "BUGGY -> Bit 3, Pixel 4 (goal 3) -> Pixel is missing a block ✗\nFIXED -> Pixel back 1, back 1 -> 3 -> both meet on the goal 3 ✓\n\nALL CHECKS PASSED — the bug was a missing block; adding back 1 lands Pixel on 3.\n",
+  "stderr": ""
+}
