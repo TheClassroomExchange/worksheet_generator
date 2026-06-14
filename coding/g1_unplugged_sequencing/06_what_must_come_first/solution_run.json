@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Ex 1: 'boil the water' (B) must come before 'pour the water' (D) ✓\nEx 2: 'add the milk' (A) cannot come before 'pour the water' (D) ✓\nEx 3: boil the water (B) and tea bag in cup (C) can swap order ✓\nA working order: B, C, D, A ✓\n\nALL CHECKS PASSED — dependencies decide what must come first.\n",
+  "stderr": ""
+}

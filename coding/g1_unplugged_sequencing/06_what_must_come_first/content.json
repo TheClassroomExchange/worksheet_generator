@@ -1,0 +1,113 @@
+{
+  "title": "What Must Come First?",
+  "file_title": "What Must Come First",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Unplugged Sequencing",
+    "title": "What Must Come First?",
+    "subtitle": "Some steps depend on other steps",
+    "footer_topic": "6. What Must Come First?",
+    "learning_goal": "I can find the step that must come before another step.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Steps that depend on steps",
+        "text": "In an algorithm, some steps MUST come before others. A step that needs another step has to come after it. Some steps can go in either order. Read the tea algorithm and answer the questions."
+      },
+      {
+        "type": "blocks",
+        "title": "Make a cup of tea — the steps",
+        "size": "md",
+        "blocks": [
+          { "cat": "value", "label": "A. add the milk" },
+          { "cat": "value", "label": "B. boil the water" },
+          { "cat": "value", "label": "C. put a tea bag in the cup" },
+          { "cat": "value", "label": "D. pour the water in the cup" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "What must come first?",
+        "prompt": "You can only pour the water (D) once it is hot. Which step makes the water hot and must come before D? Write the letter.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Can it go early?",
+        "prompt": "Can you add the milk (A) before you pour the water (D)? Circle YES or NO and tell why.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — order it",
+        "prompt": "Two steps can be done in either order. Which two letters? Then write the whole tea algorithm in an order that works.",
+        "answer_lines": 3
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "When one step depends on another, it must come after it. Some steps don't depend on each other, so they can go in any order. Finding what must come first helps you plan a good algorithm."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Unplugged Sequencing",
+    "title": "What Must Come First?",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "6. What Must Come First? — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students reason about dependencies in an algorithm: which step must come before another, which step cannot go early, and which steps are flexible — then write a working order. Describing how the order of steps affects whether the algorithm works is C3.2; writing a valid order is C3.1."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: act out the tea steps so the dependencies are felt (you cannot pour water that is not boiled yet)."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: 'To pour the water it has to be hot — so boiling the water must come before pouring.' That is a dependency.",
+          "2. WE DO: Exercise 1 — boil the water (B) must come before pour (D). Exercise 2 — you cannot add milk (A) before pouring (D); there is nothing in the cup yet.",
+          "3. YOU DO: Exercise 3 — boil the water (B) and put the tea bag in the cup (C) can go in either order; a working order is B, C, D, A.",
+          "4. Connect: 'Coders look for what must come first so the steps don't break each other.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — B (boil the water) must come before D (pour the water).",
+          "Ex 2 — NO: you cannot add the milk before pouring the water, because there is no tea in the cup to add milk to yet. A must come after D.",
+          "Ex 3 — B and C can be done in either order (neither depends on the other). A working order: B, C, D, A (or C, B, D, A)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common idea: students may think there is only one right order — point out the flexible pair (B and C) to show some steps don't depend on each other.",
+          "Simplify: focus on Exercise 1 and 2 only (one dependency at a time).",
+          "Extend: ask which step must always be LAST (add the milk) and why.",
+          "Success indicator: the child names B as must-come-first, explains why milk can't go early, finds the B/C flexible pair, and writes a working order."
+        ]
+      }
+    ]
+  }
+}
