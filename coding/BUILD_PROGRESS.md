@@ -221,3 +221,18 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   https://drive.google.com/drive/folders/11pddj1_n0w8CyxTmhDYD3LUMXeUzjEzx  subjects.json: g1_unplugged_sequencing=done.
   **Catalogue now 8/12 subjects, 61 sheets, 122 PDFs. G1 2/3.** **Next = G1 · Intro Debugging (order 9)** —
   debugging = sequence REPAIR (re-order a 3–5 step sequence to fix it), NO loops, C3.2; arc vs `rubric_coding_G1.md`.
+- 2026-06-14: **G1 · Intro Debugging SHIPPED** (subject 9/12 — **G1 COMPLETE**). 8 sheets — 01 What Is a Bug? ·
+  02 Spot the Wrong Block · 03 Fix by Swapping · 04 Put It Back in Order · 05 The Extra Block · 06 The Missing
+  Block · 07 Find and Fix · 08 Debug Detective. **Lane = DEBUGGING number-path block programs** (reuses the G1
+  Block-Coding number-path 0–5 + clamped interpreter so a bug = the program lands on the WRONG number). ONE bug
+  type per sheet, taught with the debug cycle (run → see it miss → find → fix → run again): identify-a-bug →
+  spot-wrong-value (compare PLAN vs CODE) → swap-wrong-direction → RE-ORDER (start-block-not-first + boundary
+  move-swap = the ceiling's sequence-repair) → remove-extra → add-missing (blank slot) → mixed find-and-fix →
+  challenge (longer mystery program + explain + make-your-own). solution.py models the buggy run, the located
+  bug, AND the fixed run + asserts all; C3.2-heavy w/ C3.1 (write corrected block). Cite G1 C3.1/C3.2 verbatim.
+  Published 16 PDFs to `…/Grade 1/Intro Debugging/<N. Topic>/` (8 folders, audited 0 strays):
+  https://drive.google.com/drive/folders/1Oa_aTV349ar5WyVyveW4AfA0b0l22Rsq  subjects.json: g1_intro_debugging=done.
+  **Catalogue now 9/12 subjects, 69 sheets, 138 PDFs. G3 + K + G1 ALL COMPLETE.** **Next = G2 · Block Coding
+  (Concurrent Events) (order 10)** — G2 rubric; the NEW concept is CONCURRENT — two scripts/sprites running at
+  once, parallel green-flag starts, ≤8 blocks; loops still OUT. Cite Grade-2 C3.1/C3.2 verbatim (G2 C3 text =
+  'sequential and concurrent events').

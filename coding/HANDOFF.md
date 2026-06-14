@@ -8,16 +8,20 @@ PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner
 > **Process: `coding/AUTONOMOUS_BUILD.md`. Machine queue: `coding/subjects.json`.
 > Live state: `coding/BUILD_PROGRESS.md`.** Read those first; this handoff is stable context.
 >
-> **Status 2026-06-14:** 8/12 subjects SHIPPED — G3 ×3 + K ×3 + G1 Block Coding (Seq) + G1 Unplugged Sequencing
-> (61 sheets, all 20/20, 122 PDFs in Drive). **Batch gating REMOVED** — building the full catalogue autonomously,
-> subject by subject (subjects.json queue), no human sign-off between batches (quality gates remain). **G3 COMPLETE;
-> K COMPLETE (3/3); G1 2/3.** Next: **G1 Intro Debugging (order 9)** — `rubric_coding_G1.md`, debugging = sequence
-> REPAIR (re-order a 3–5 step sequence to fix it), NO loops, C3.2-heavy. Then G2 ×3 (10–12, +concurrent, loops
-> still OUT). **G1 patterns (proven):** Block-Coding = number-path (0–5) program w/ Scratch text-label blocks +
-> clamped interpreter; Unplugged = lettered step-cards (`blocks` slate `value`) + precedence/dependency model in
-> solution.py. Cite G1 C3.1+C3.2 verbatim; I/we/you-do + predict + answer-key explains why-order. K primitives in
-> `worksheet_pdf.py`: additive `symbols` part + `blocks` `size`/`blank`.
-> Drive: G1 Unplugged Seq https://drive.google.com/drive/folders/11pddj1_n0w8CyxTmhDYD3LUMXeUzjEzx ·
+> **Status 2026-06-14:** 9/12 subjects SHIPPED — G3 ×3 + K ×3 + G1 ×3 (69 sheets, all 20/20, 138 PDFs in Drive).
+> **Batch gating REMOVED** — building the full catalogue autonomously, subject by subject (subjects.json queue),
+> no human sign-off between batches (quality gates remain). **G3 COMPLETE; K COMPLETE; G1 COMPLETE.** Next:
+> **G2 Block Coding (Concurrent Events) (order 10)** — `rubric_coding_G2.md`. The NEW concept is CONCURRENT — two
+> scripts/sprites running at once, parallel green-flag starts, ≤8 blocks; loops still OUT (preview only). Cite
+> **Grade-2** C3.1/C3.2 verbatim (G2 C3 text = 'sequential and concurrent events'; pull via
+> `pipeline.curriculum.get('Grade 2','C3.1')['text']`). Then G2 Events & Parallel (11), G2 Debugging & Reading (12).
+> **G1 patterns (proven):** Block-Coding = number-path (0–5) program w/ Scratch text-label blocks + clamped
+> interpreter; Unplugged = lettered step-cards + precedence model; Intro Debugging = debug the number-path
+> programs (one bug type/sheet, run→find→fix→recheck). G2 needs a NEW representation for two parallel scripts
+> (e.g. two number-path actors / two side-by-side block stacks both started by a green flag) — design its own arc.
+> K primitives in `worksheet_pdf.py`: additive `symbols` part + `blocks` `size`/`blank`.
+> Drive: G1 Intro Debugging https://drive.google.com/drive/folders/1Oa_aTV349ar5WyVyveW4AfA0b0l22Rsq ·
+> G1 Unplugged Seq https://drive.google.com/drive/folders/11pddj1_n0w8CyxTmhDYD3LUMXeUzjEzx ·
 > G1 Block (Seq) https://drive.google.com/drive/folders/1uKyzrks5wERumo_cwWTOTqOwWJvCrI7U ·
 > K Intro Block https://drive.google.com/drive/folders/1cLIMiX8bsL__cwR-qiuMs_aBST3CsvmB ·
 > K Sequencing https://drive.google.com/drive/folders/158bMnSexks_0TPZ1PCwH38jRWFb8c8Ug ·

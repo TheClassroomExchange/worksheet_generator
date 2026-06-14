@@ -1,0 +1,119 @@
+{
+  "title": "Debug Detective",
+  "file_title": "Debug Detective",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Intro Debugging",
+    "title": "Debug Detective",
+    "subtitle": "Find the bug, fix it, explain it",
+    "footer_topic": "8. Debug Detective",
+    "learning_goal": "I can find a bug in a longer program, fix it, and explain it.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "You are a debug detective",
+        "text": "This program is longer, and it has one bug. Run it, find the block that is wrong, fix it, and explain your fix. Then make your own buggy program for a partner to solve. The target is 4."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's number path (target is 4)",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "target" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "The mystery program",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 0" },
+          { "cat": "motion", "label": "forward 2" },
+          { "cat": "motion", "label": "back 1" },
+          { "cat": "motion", "label": "forward 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run it",
+        "prompt": "Run the program from 0, one block at a time. What number does Bit land on? Did it reach the target (4)?",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Find and fix the bug",
+        "prompt": "One block points the WRONG way. Circle it, swap it, and run again. What number does Bit land on now?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — explain and create",
+        "prompt": "Explain why your fix worked. Then write your OWN short program with one bug, and the target, for a partner to solve.",
+        "answer_lines": 4
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A debug detective runs the code, finds the bug, fixes it, and checks again. You can find wrong, extra, missing, and out-of-order bugs — you are a debugger!"
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Intro Debugging",
+    "title": "Debug Detective",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "8. Debug Detective — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "The unit finale: students debug a longer program (find the wrong-way block, fix it, explain why the fix works), then create their own buggy program for a partner. Reading and altering code and describing how the change fixes the outcome is C3.2; writing their own program (with a target) is C3.1."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 with a marker on 4 so students can run the mystery program and test their own."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20-25 min)",
+        "text": [
+          "1. I DO: run the mystery program — 'start 0, forward 2 to 2, back 1 to 1, forward 1 to 2. Target is 4 — the back 1 sent Bit the wrong way.'",
+          "2. WE DO: Exercise 1 — Bit lands on 2. Exercise 2 — circle 'back 1', swap it to 'forward 1'; the program reaches 4 (0 → 2 → 3 → 4).",
+          "3. YOU DO: Exercise 3 — students explain the fix (a back block was turning Bit around) and write their own one-bug program with a target.",
+          "4. Celebrate: 'You can find and fix every kind of bug — you are a debugger!'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — mystery program: 0 → forward 2 → 2 → back 1 → 1 → forward 1 → 2. Bit lands on 2, not the target 4.",
+          "Ex 2 — the wrong-way block is 'back 1'; swap it to 'forward 1': 0 → 2 → 3 → 4. Bit reaches the target, 4.",
+          "Ex 3 — explanation: the back 1 block moved Bit away from the target; changing it to forward 1 keeps Bit going toward 4. Make-your-own is open; a sample is start 0, forward 1, forward 1 with target 3 (a missing-block bug — add one more forward 1)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: changing more than one block — only one block is wrong; the smallest fix is to swap the back 1.",
+          "Simplify: tell students the bug is a wrong-way block and have them find which one.",
+          "Extend: have partners trade their make-your-own programs and time how fast they each debug.",
+          "Success indicator: the child lands the mystery program on 2, swaps back 1 to forward 1 to reach 4, explains the fix, and writes a solvable one-bug program."
+        ]
+      }
+    ]
+  }
+}

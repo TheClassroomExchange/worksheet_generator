@@ -13,7 +13,7 @@
       "title": "What Is a Bug?",
       "concept": "run a program and tell whether it has a bug (reaches the target or not)",
       "ct_skill": "identify that code is wrong (C3.2)",
-      "status": "planned"
+      "status": "built"
     },
     {
       "nn": "02",
@@ -22,7 +22,7 @@
       "title": "Spot the Wrong Block",
       "concept": "find the block with the wrong number that makes Bit miss the target",
       "ct_skill": "locate a bug (C3.2)",
-      "status": "planned"
+      "status": "built"
     },
     {
       "nn": "03",
@@ -31,7 +31,7 @@
       "title": "Fix by Swapping",
       "concept": "a block points the wrong way (forward/back) — swap it to reach the target",
       "ct_skill": "alter a block to fix the outcome (C3.2)",
-      "status": "planned"
+      "status": "built"
     },
     {
       "nn": "04",
@@ -40,7 +40,7 @@
       "title": "Put It Back in Order",
       "concept": "re-order the blocks to fix the program (start block first; swap two moves)",
       "ct_skill": "debug by re-ordering a sequence (C3.2)",
-      "status": "planned"
+      "status": "built"
     },
     {
       "nn": "05",
@@ -49,7 +49,7 @@
       "title": "The Extra Block",
       "concept": "the program overshoots — find and remove the one extra block",
       "ct_skill": "debug by removing a step (C3.2)",
-      "status": "planned"
+      "status": "built"
     },
     {
       "nn": "06",
@@ -58,7 +58,7 @@
       "title": "The Missing Block",
       "concept": "the program falls short — add the one missing block to reach the target",
       "ct_skill": "debug by adding a step (C3.2 + C3.1)",
-      "status": "planned"
+      "status": "built"
     },
     {
       "nn": "07",
@@ -67,7 +67,7 @@
       "title": "Find and Fix",
       "concept": "diagnose which kind of bug each program has, then fix it",
       "ct_skill": "diagnose & repair (C3.2 + C3.1)",
-      "status": "planned"
+      "status": "built"
     },
     {
       "nn": "08",
@@ -76,7 +76,7 @@
       "title": "Debug Detective",
       "concept": "challenge — find the bug in a longer program, fix it, explain it, then make your own",
       "ct_skill": "debug + explain + create (C3.2 & C3.1)",
-      "status": "planned"
+      "status": "built"
     }
   ]
 }
