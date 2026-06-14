@@ -170,3 +170,22 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   https://drive.google.com/drive/folders/158bMnSexks_0TPZ1PCwH38jRWFb8c8Ug  subjects.json: k_sequencing=done.
   **Catalogue now 5/12 subjects, 37 sheets, 74 PDFs.** **Next = K Intro Block Coding (order 6)** — ScratchJr
   symbol-only coloured BLOCK stacks (use the `blocks` part), single short sequence, no text; last K subject.
+- 2026-06-14: **K · Intro Block Coding SHIPPED** (subject 6/12 — **K COMPLETE**). 8 sheets — 01 Meet the Blocks ·
+  02 Run It Top to Bottom · 03 Move Blocks · 04 Read Bit's Stack · 05 Finish the Stack · 06 Match the Stack ·
+  07 Build Bit's Stack · 08 Fix the Stack. Distinct lane = the BLOCK-STACK metaphor (a program is a stack of
+  coloured ScratchJr-style blocks that snap together + run TOP-TO-BOTTOM): green GO ⚑ start block (cat
+  `operators`) + blue MOVE blocks (cat `motion`, single arrow glyph ➡⬅⬆⬇), vs Sequencing's loose arrow-path
+  board and Unplugged CT's classify/pattern. Arc weights block STRUCTURE (what a block is → start block → run
+  order → block vocab → trace → complete → match/abstraction → build → debug). Tracing uses the proven 1D
+  `symbols` stage (boxes 1-5, Bit + ★), ≤4 move blocks, 1D (➡/⬅). Every sheet: run-gate PASS (solution.py MODELS
+  the program/landing-box/bug-fix + asserts) + **20/20** (C1-C5 all L4) + drift + visually inspected.
+  **Additive renderer work (zero regression — default unchanged):** `blocks` part now takes part-level `size`
+  ("md"/"lg") so a single arrow/flag glyph reads large, plus a per-block `blank:true` dashed slot (the
+  draw-the-missing-block answer). **Renderer BUGFIX:** `footer_topic` is used in CSS `content:` where HTML
+  entities are NOT decoded — switched it from html.escape to a CSS-string escape so apostrophes render as `'`
+  not `&#x27;` (surfaced by "Bit's"; only sheets with an apostrophe in footer_topic were affected — none shipped
+  earlier had one). Published 16 PDFs to `…/Kindergarten/Intro Block Coding/<N. Topic>/` (8 folders, audited 0
+  strays). Drive: https://drive.google.com/drive/folders/1cLIMiX8bsL__cwR-qiuMs_aBST3CsvmB  subjects.json:
+  k_intro_block=done. **Catalogue now 6/12 subjects, 45 sheets, 90 PDFs. K (3 subjects) COMPLETE.**
+  **Next = G1 · Block Coding (Sequential Events) (order 7)** — G1 rubric, SEQUENTIAL only (order matters, one
+  actor, ≤6 blocks, NO loops/concurrency); design arc vs `rubric_coding_G1.md` + the G1 `concept_ceiling`.

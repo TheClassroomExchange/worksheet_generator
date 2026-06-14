@@ -8,13 +8,15 @@ PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner
 > **Process: `coding/AUTONOMOUS_BUILD.md`. Machine queue: `coding/subjects.json`.
 > Live state: `coding/BUILD_PROGRESS.md`.** Read those first; this handoff is stable context.
 >
-> **Status 2026-06-14:** 5/12 subjects SHIPPED — G3 Block Coding + G3 Intro Python Turtle +
-> G3 Debugging + K Unplugged CT + K Sequencing & Algorithms (37 sheets, all 20/20, 74 PDFs in Drive).
-> **Batch gating REMOVED** — building the full catalogue autonomously, subject by subject (subjects.json
-> queue), no human sign-off between batches (quality gates remain). **G3 COMPLETE; K 2/3 done.** Next:
-> K Intro Block Coding (order 6) — ScratchJr-style symbol-only blocks (use the `blocks` part for coloured
-> arrow-block stacks), single short sequence, no text. K primitive: additive `symbols` part in
-> `worksheet_pdf.py`. Drive: K Sequencing https://drive.google.com/drive/folders/158bMnSexks_0TPZ1PCwH38jRWFb8c8Ug ·
+> **Status 2026-06-14:** 6/12 subjects SHIPPED — G3 Block Coding + G3 Intro Python Turtle +
+> G3 Debugging + K Unplugged CT + K Sequencing & Algorithms + K Intro Block Coding (45 sheets, all 20/20,
+> 90 PDFs in Drive). **Batch gating REMOVED** — building the full catalogue autonomously, subject by subject
+> (subjects.json queue), no human sign-off between batches (quality gates remain). **G3 COMPLETE; K COMPLETE
+> (3/3).** Next: **G1 Block Coding (Sequential Events) (order 7)** — `rubric_coding_G1.md`, SEQUENTIAL only
+> (order matters, one actor, ≤6 blocks, NO loops/concurrency); design the arc vs the G1 rubric + `concept_ceiling`.
+> K primitives in `worksheet_pdf.py`: additive `symbols` part + `blocks` part-level `size`/per-block `blank`.
+> Drive: K Intro Block https://drive.google.com/drive/folders/1cLIMiX8bsL__cwR-qiuMs_aBST3CsvmB ·
+> K Sequencing https://drive.google.com/drive/folders/158bMnSexks_0TPZ1PCwH38jRWFb8c8Ug ·
 > K Unplugged CT https://drive.google.com/drive/folders/1_yM25wZ-ix5EPvO-iUMy1eGAvJAA9Pv5
 >
 > **Quality model:** every product, every grade, graded by `pipeline/coding_rubric.py`
