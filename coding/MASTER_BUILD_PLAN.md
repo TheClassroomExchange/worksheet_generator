@@ -15,15 +15,15 @@ Each worksheet ships **2 PDFs** (student Worksheet + Teacher Guide). Target ~7�
 | **K** | Unplugged CT · Sequencing & Algorithms · Intro Block Coding | `rubric_coding_K.md` | unplugged/symbol-only, **no text, no loops**; K-frame (not C3) |
 | **G1** | Block Coding (Sequential) · Unplugged Sequencing · Intro Debugging | `rubric_coding_G1.md` | **sequential events only**; ≤6 blocks; no loops/concurrency |
 | **G2** | Block Coding (Concurrent) · Events & Parallel Scripts · Debugging & Reading Code | `rubric_coding_G2.md` | sequential + **concurrent**; ≤8 blocks; **loops still out** |
-| **G3** | Block Coding ✅ · Intro Python Turtle · Debugging | `rubric_coding_G3.md` | + **repeating events (loops)**; Turtle = first typed code |
+| **G3** | Block Coding ✅ · Intro Python Turtle ✅ · Debugging ✅ | `rubric_coding_G3.md` | + **repeating events (loops)**; Turtle = first typed code |
 
 **Per-grade arcs differ.** The G3 "loop-centric" lesson is G3-specific (its rubric caps
 non-loop sheets at C1-L2). G1 is sequential-centric, G2 concurrent-centric, K unplugged —
 each arc is designed against its own rubric + `concept_ceiling`. Never carry one grade's arc down/up.
 
 ## Build order (from `subjects.json` `order`) — progress
-1. G3 Block Coding ✅ **SHIPPED** → 2. G3 Intro Python Turtle ✅ **SHIPPED** → **3. G3 Debugging ← NEXT** →
-4–6. Kindergarten (3) → 7–9. Grade 1 (3) → 10–12. Grade 2 (3).  *(2/12 subjects, 14 sheets shipped.)*
+1. G3 Block Coding ✅ **SHIPPED** → 2. G3 Intro Python Turtle ✅ **SHIPPED** → 3. G3 Debugging ✅ **SHIPPED** →
+**4. K Unplugged CT ← NEXT** → 4–6. Kindergarten (3) → 7–9. Grade 1 (3) → 10–12. Grade 2 (3).  *(3/12 subjects, 21 sheets shipped.)*
 (The runner picks the lowest-`order` subject with `status != done`. Reorder `subjects.json` to change priority.)
 
 ## Per-subject loop (autonomous, no human gate)

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Worked: want 4, code (clap,clap)×4 = 8 -> Fix A repeat 2, Fix B one clap inside (both = 4) ✓\nEx 1: want 6, code (clap,clap)×6 = 12 -> Fix A repeat 3, Fix B one clap (both = 6) ✓\nEx 2: want 10, code (hop,hop)×10 = 20 -> Fix A repeat 5, Fix B one hop (both = 10) ✓\nEx 3 (write): want 8, two valid fixes -> repeat 4 (2 each) OR repeat 8 (1 each) ✓\nEx 4 (challenge): want 12 -> repeat 4 with 3 inside, OR repeat 6 with 2 inside (both = 12) ✓\n\nALL CHECKS PASSED — both fixes reach the goal in every case.\n",
+  "stderr": ""
+}

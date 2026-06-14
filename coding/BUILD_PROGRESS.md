@@ -131,3 +131,16 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   `compact` mode auto-applied to all teacher guides (1 page reliably). Published 14 PDFs to
   `…/Generated Coding Worksheets/Grade 3/Intro Python Turtle/<N. Topic>/` (hygiene OK).
   subjects.json: g3_python_turtle=done. **Next subject = G3 Debugging (order 3).**
+- 2026-06-14: **G3 · Debugging SHIPPED** (subject 3/12). 7 sheets — 01 What Is a Bug? · 02 Off by
+  One · 03 The Wrong Block Inside · 04 The Wrong Turn · 05 Extra or Missing Block · 06 Trace the Bug
+  · 07 More Than One Fix. Every sheet: run-gate PASS + **20/20** (C1–C5 all L4) + drift passed +
+  visually inspected clean. C3.2-centric (read/alter/fix code that involves a loop, so C1 reaches G3);
+  mix of block + Turtle contexts; method on every sheet = say what it SHOULD do → spot the
+  wrong/missing/extra part → fix it. Each buggy case AND its fix MODELLED + asserted in solution.py.
+  Sheet 07 (the challenge) = a loop bug with TWO valid fixes (change repeat count OR change blocks
+  inside); cross-strand Number hook `total = repeat × blocks inside`; Ex 4 = choose-and-justify.
+  Published 14 PDFs to `…/Generated Coding Worksheets/Grade 3/Debugging/<N. Topic>/` (7 folders,
+  hygiene OK, 0 strays). Drive: https://drive.google.com/drive/folders/1TMujDTIFUaZPnf3t_MjDb47m3UlOanLF
+  subjects.json: g3_debugging=done. **G3 fully complete (3 subjects, 21 sheets, 42 PDFs).**
+  **Next subject = K Unplugged CT (order 4)** — K-frame (no C3 codes), unplugged/symbol-only, no text/loops;
+  arc must be designed against `rubric_coding_K.md` + the K `concept_ceiling`.
