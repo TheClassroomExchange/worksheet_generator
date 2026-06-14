@@ -209,8 +209,16 @@ _PART_RENDERERS = {
 
 
 # ── CSS (the house style) ───────────────────────────────────────────────────
+def _css_str(s: Any) -> str:
+    """Escape a string for use inside a CSS ``content: "..."`` value. Unlike
+    HTML escaping, CSS does NOT decode entities — so an apostrophe must stay a
+    literal ' (html.escape would turn it into &#x27;, which then prints
+    verbatim in the footer). Only backslash and double-quote need escaping."""
+    return str(s).replace("\\", "\\\\").replace('"', '\\"')
+
+
 def _css(spec: dict) -> str:
-    footer_topic = _esc(spec.get("footer_topic", spec.get("title", "")))
+    footer_topic = _css_str(spec.get("footer_topic", spec.get("title", "")))
     # Compact mode (used for teacher guides): tightens vertical rhythm so a
     # full guide — including the two verbatim C3 citations — reliably fits one
     # page without per-sheet hand-trimming.

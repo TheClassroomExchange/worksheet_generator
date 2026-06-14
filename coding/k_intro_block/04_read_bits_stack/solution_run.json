@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Stack 1: box 1, ➡ ➡ -> box 3 ✓\nStack 2: box 1, ➡ ➡ ➡ -> box 4 (the star) ✓\nStack 3: box 1, ➡ ➡ ⬅ -> box 2 ✓\n\nALL CHECKS PASSED — run each block in order to find the landing box.\n",
+  "stderr": ""
+}
