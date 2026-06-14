@@ -1,0 +1,113 @@
+{
+  "title": "Write the Steps",
+  "file_title": "Write the Steps",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Unplugged Sequencing",
+    "title": "Write the Steps",
+    "subtitle": "Write the algorithm in order",
+    "footer_topic": "4. Write the Steps",
+    "learning_goal": "I can write the steps of a task in the right order.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Write an algorithm",
+        "text": "Writing an algorithm means writing the steps in order. Use the step bank to write the steps for brushing your teeth in the right order. Then write your own algorithm."
+      },
+      {
+        "type": "blocks",
+        "title": "Brush your teeth — step bank (mixed up)",
+        "size": "md",
+        "blocks": [
+          { "cat": "value", "label": "A. brush your teeth" },
+          { "cat": "value", "label": "B. wet the brush" },
+          { "cat": "value", "label": "C. rinse your mouth" },
+          { "cat": "value", "label": "D. put on toothpaste" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Write the steps in order",
+        "prompt": "Write the four steps in the right order on the lines (you can use the letters). Step 1 first, down to step 4.",
+        "answer_lines": 4
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Why this order?",
+        "prompt": "Which step must be FIRST? Could you brush before you put on toothpaste? Tell why the order matters.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — write your own",
+        "prompt": "Write your own algorithm: how do you get ready for bed? Write 3 or 4 steps in order, one per line.",
+        "answer_lines": 4
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "When you write the steps of a task in the right order, you have written an algorithm. A good algorithm has each step where it needs to be."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Unplugged Sequencing",
+    "title": "Write the Steps",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "4. Write the Steps — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students write an algorithm: they order a step bank into the steps for brushing teeth, explain why that order is needed, then write their own bedtime algorithm. Writing the ordered steps of a task is creating a sequential algorithm (C3.1); explaining why the order matters is C3.2."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: cut the step bank apart so students can arrange the cards before copying them onto the lines."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: read the step bank. 'I write the FIRST step on line 1 — wet the brush — then keep going.'",
+          "2. WE DO: Exercise 1 — write wet the brush, put on toothpaste, brush your teeth, rinse your mouth (B, D, A, C). Exercise 2 — first is 'wet the brush'; toothpaste must come before brushing.",
+          "3. YOU DO: Exercise 3 — students write their own 3-4 step bedtime algorithm in order.",
+          "4. Connect: 'Writing the steps in order is writing code — coders plan the order so the job works.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Brush your teeth in order: wet the brush (B), put on toothpaste (D), brush your teeth (A), rinse your mouth (C).",
+          "Ex 2 — 'Wet the brush' must be first; you cannot brush before the toothpaste is on, so put on toothpaste comes before brush your teeth. Swapping them breaks the algorithm.",
+          "Ex 3 — open. A sample bedtime algorithm: put on pyjamas, brush your teeth, read a book, turn off the light. Accept any 3-4 steps in a sensible order (an action that depends on another comes after it)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip in Ex 3: steps with no clear order — ask 'which one has to happen before another?' to surface dependencies.",
+          "Simplify: give a starter step bank for the bedtime task instead of a blank write.",
+          "Extend: ask students to trade algorithms with a partner and follow each other's steps to test them.",
+          "Success indicator: the child writes B, D, A, C for brushing and a sensible, correctly-ordered bedtime algorithm."
+        ]
+      }
+    ]
+  }
+}
