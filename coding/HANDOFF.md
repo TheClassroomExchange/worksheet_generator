@@ -8,19 +8,19 @@ PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner
 > **Process: `coding/AUTONOMOUS_BUILD.md`. Machine queue: `coding/subjects.json`.
 > Live state: `coding/BUILD_PROGRESS.md`.** Read those first; this handoff is stable context.
 >
-> **Status 2026-06-14:** 11/12 subjects SHIPPED — G3 ×3 + K ×3 + G1 ×3 + G2 ×2 (85 sheets, all 20/20, 170 PDFs in Drive).
-> **Batch gating REMOVED** — building the full catalogue autonomously, subject by subject (subjects.json queue),
-> no human sign-off between batches (quality gates remain). **G3 COMPLETE; K COMPLETE; G1 COMPLETE; G2 2/3.** Next:
-> **G2 Debugging & Reading Code (order 12 — FINAL)** — `rubric_coding_G2.md`. Read concurrent code; find which of
-> two parallel scripts is wrong; predict combined behaviour; NO loops, C3.2. Cite **Grade-2** C3.1/C3.2 verbatim
-> (G2 C3 text = 'sequential and concurrent events'; pull via `pipeline.curriculum.get('Grade 2','C3.1')['text']`).
-> **When subjects.json hits 12/12 → final catalogue summary + final commit/push, STOP the loop (no reschedule).**
-> **G2 patterns (PROVEN):** Block-Concurrent (subj 10) = TWO number-path sprites (Bit green `bit_wave` + Pixel
-> purple `pixel_wave`) each its own green-flag script on a shared 0–5 path; COMBINED-outcome questions = genuine
-> concurrency. Events & Parallel (subj 11) = same two-sprite lane but the NEW layer is the EVENT that triggers a
-> script: same 'when green flag' on both → parallel; `broadcast 'msg'` + `when I receive 'msg'` → triggered start
-> (message must match). solution.py event-aware: scripts=(trigger_event, home, moves), run only if fired.
-> blank-block write-slot for build sheets; before/after stacks for alter sheets; ★ path goal-marker for debug.
+> **Status 2026-06-14 — ✅ CATALOGUE COMPLETE (12/12 subjects):** G3 ×3 + K ×3 + G1 ×3 + G2 ×3 = **93 worksheets,
+> all 20/20, 186 PDFs in Drive.** The full autonomous build is DONE and the /loop is stopped. Full breakdown +
+> per-grade Drive links = the **FINAL CATALOGUE SUMMARY** at the bottom of `coding/BUILD_PROGRESS.md`. Root Drive
+> folder: https://drive.google.com/drive/folders/1HkbqjbPjSiQbZeW7OCJl7eZuAF_mvw7j
+> **Per-grade lanes (proven):** K = K-frame symbol-only (no C3, no text/loops), solution.py MODELS+asserts. G1 =
+> SEQUENTIAL number-path (0–5) clamped interpreter + step-cards + sequence-repair debug (NO loops/concurrency).
+> G2 = + CONCURRENT (loops out): TWO sprites (Bit green `bit_wave` + Pixel purple `pixel_wave`) on a shared 0–5
+> path, COMBINED-outcome questions; events/broadcast/receive triggers (subj 11); read+debug two parallel scripts
+> (subj 12). G3 = + REPEATING (loops) + first typed code (Turtle path MODELLED). solution.py event-aware where
+> needed: scripts=(trigger_event, home, moves), run only if fired. Renderer affordances: `blocks` blank-block
+> write-slot, before/after stacks, `symbols` ★ path goal-marker, events=orange hats.
+> **If extending later:** add a new subject = new row in `coding/subjects.json` (status!=done) + its own
+> `topics.json` + per-sheet loop; the runner picks the lowest-order unfinished subject. Nothing else is pending.
 > **G1 patterns (proven):** Block-Coding = number-path (0–5) program w/ Scratch text-label blocks + clamped
 > interpreter; Unplugged = lettered step-cards + precedence model; Intro Debugging = debug the number-path
 > programs (one bug type/sheet, run→find→fix→recheck).
@@ -32,7 +32,8 @@ PROGRESS — pilot Sheet 1 content built, awaiting grade-fit sign-off · **Owner
 > K Sequencing https://drive.google.com/drive/folders/158bMnSexks_0TPZ1PCwH38jRWFb8c8Ug ·
 > K Unplugged CT https://drive.google.com/drive/folders/1_yM25wZ-ix5EPvO-iUMy1eGAvJAA9Pv5 ·
 > G2 Block Coding (Concurrent) https://drive.google.com/drive/folders/10Uejefrby6oatfuVU6ZNIOi-YgptSq_S ·
-> G2 Events & Parallel Scripts https://drive.google.com/drive/folders/1T1vlAygogQnPONoERy2ab560lV9cHJXR
+> G2 Events & Parallel Scripts https://drive.google.com/drive/folders/1T1vlAygogQnPONoERy2ab560lV9cHJXR ·
+> G2 Debugging & Reading Code https://drive.google.com/drive/folders/1QmdeKPebuLLJmqDuhtyVYRlAv-wfYHFU
 >
 > **Quality model:** every product, every grade, graded by `pipeline/coding_rubric.py`
 > (`select_rubric(grade)`) BEFORE render. Gate = **≥19/20 AND C2≥L3 (hard) AND C3=L4 AND C5=L4**.

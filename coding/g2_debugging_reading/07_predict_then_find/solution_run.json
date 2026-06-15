@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Predict -> for the goal, both sprites SHOULD land on 4 ✓\nRun -> Bit 4 (matches), Pixel 3 (off) -> Pixel's script is the bug ✗\nFix -> Pixel forward 3 -> 4 -> both match the prediction 4 ✓\n\nALL CHECKS PASSED — predict the goal (4), run to find the off script (Pixel), fix it (forward 3).\n",
+  "stderr": ""
+}

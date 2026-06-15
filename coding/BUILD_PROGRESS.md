@@ -276,3 +276,35 @@ Quality-first, checkpointed, batch-verified build. Key changes from the original
   **Catalogue now 11/12 subjects, 85 sheets, 170 PDFs.** **Next = G2 · Debugging & Reading Code (order 12 — FINAL)**
   — read concurrent code; find which of two parallel scripts is wrong; predict combined behaviour; NO loops, C3.2;
   arc vs `rubric_coding_G2.md`. When 12/12 → final catalogue summary + final commit/push, STOP the loop.
+- 2026-06-14: **G2 · Debugging & Reading Code SHIPPED** (subject 12/12 — **CATALOGUE COMPLETE 🎉**). 8 sheets —
+  01 Read Two Scripts Carefully · 02 Which One Is Wrong? · 03 The Wrong Number · 04 The Wrong Direction · 05 The
+  Mismatched Message · 06 The Missing Block · 07 Predict, Then Find · 08 Debug Detective. **Distinct angle = READING
+  + DEBUGGING concurrent code:** every sheet states the intended COMBINED outcome (a goal), the student reads BOTH
+  parallel scripts, runs them, finds which ONE of the two is buggy (the correct sprite already meets the goal), and
+  fixes it. Spans the catalogue's bug types in a 2-script concurrent context: careful reading (no bug) →
+  identify-which → wrong value → wrong direction → mismatched broadcast/receive message → missing block (dashed
+  write-slot) → predict-then-find → mixed challenge (name which + bug TYPE + fix + explain). solution.py models BOTH
+  the BUGGY run (one sprite misses the goal) AND the FIXED run + asserts both. ★ goal-marker on the path on every
+  debug sheet. Every sheet: run-gate PASS + **20/20** + every page visually inspected. Cite G2 C3.1/C3.2 verbatim.
+  Published 16 PDFs to `…/Grade 2/Debugging & Reading Code/<N. Topic>/` (8 folders, audited 0 strays):
+  https://drive.google.com/drive/folders/1QmdeKPebuLLJmqDuhtyVYRlAv-wfYHFU  subjects.json: g2_debugging_reading=done.
+
+---
+
+## 🎉 FINAL CATALOGUE SUMMARY — K–G3 Ontario Coding Worksheets COMPLETE (2026-06-14)
+
+**12 / 12 subjects shipped · 93 worksheets (each Worksheet + Teacher Guide) · 186 PDFs in Drive · every sheet 20/20 + run-gate PASS + every page visually inspected.**
+
+Root Drive folder (`Product/Resources/Generated Coding Worksheets`):
+https://drive.google.com/drive/folders/1HkbqjbPjSiQbZeW7OCJl7eZuAF_mvw7j
+
+| Grade | Subjects (3 each) | Sheets | Distinct lane / concept | Grade folder |
+|---|---|---|---|---|
+| **Kindergarten** | Unplugged Computational Thinking · Sequencing & Algorithms · Intro Block Coding | 24 (8×3) | K-frame (no C3), symbol-only, no text/loops; solution.py MODELS the answer + asserts. Lanes: classify/pattern · arrow-path board · ScratchJr colour BLOCK-STACK | https://drive.google.com/drive/folders/1srMaNYVkpO5ZrHOUN5WI94-uLxmsgyNf |
+| **Grade 1** | Block Coding (Sequential) · Unplugged Sequencing & Algorithms · Intro Debugging | 24 (8×3) | C3.1/C3.2 SEQUENTIAL only, NO loops/concurrency. Number-path (0–5) clamped interpreter w/ text-label blocks; lettered step-cards + precedence; debug = sequence repair | https://drive.google.com/drive/folders/1xglxNS0jqoN-uEX5f9OmKwunTAZ8TERo |
+| **Grade 2** | Block Coding (Concurrent) · Events & Parallel Scripts · Debugging & Reading Code | 24 (8×3) | C3.1/C3.2 + CONCURRENT, loops still OUT. TWO sprites (Bit green + Pixel purple) on a shared 0–5 path; combined-outcome questions; events/broadcast/receive triggers; read+debug two parallel scripts | https://drive.google.com/drive/folders/1QXbz6EirXp-iv32wahEvaSx_Gd16mLx2 |
+| **Grade 3** | Block Coding · Intro Python Turtle · Debugging | 21 (7×3) | C3.1/C3.2/C3.3 + REPEATING events (loops); Turtle = first typed code (path MODELLED, no GUI); loop-centric arc | https://drive.google.com/drive/folders/1KhkqtGe4ZSwZdhZGh6kxmOqBDhrEGkQJ |
+
+**Quality model (held on every one of the 93 sheets):** per-sheet manifest chain solution(run-gate) → content.json → content_grade (≥19/20 AND C2≥L3 AND C3=L4 AND C5=L4, BEFORE render) → render → visual_grade (every page Read) → publish (only the 2 PDFs/topic, hygiene-checked). Per-grade rubric via `pipeline/coding_rubric.py`. Original kawaii mascots (Bit + Pixel), data-driven WeasyPrint renderer (`pipeline/worksheet_pdf.py`), idempotent Drive publish (`pipeline/drive_publish.py`). All curriculum codes cited verbatim from the Ontario cache (drift-checked).
+
+**Build is COMPLETE — the /loop is stopped (no further reschedule).**
