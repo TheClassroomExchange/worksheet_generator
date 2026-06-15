@@ -52,10 +52,15 @@ def init_unit(
     num_lessons: int = 5,
     runner: str = "claude_code_max",
     prompt_version: str = "v1.0",
+    stage_objs: list[Stage] | None = None,
 ) -> dict:
     """
     Create a unit folder + manifest + frozen input_row.json.
     Idempotent: if the manifest already exists, returns it untouched.
+
+    By default the unit gets the math ``stages_for_unit(num_lessons)`` stage
+    list. Pass ``stage_objs`` (e.g. ``stages.coding_stages_for_sheet()``) to
+    build a unit with a different pipeline — used by the coding pipeline.
     """
     unit_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = unit_dir / "manifest.json"
@@ -64,7 +69,8 @@ def init_unit(
     if manifest_path.exists():
         return load(unit_dir)
 
-    stage_objs = stages_for_unit(num_lessons=num_lessons)
+    if stage_objs is None:
+        stage_objs = stages_for_unit(num_lessons=num_lessons)
     stage_states = {
         st.key: {
             "label": st.label,

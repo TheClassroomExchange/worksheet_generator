@@ -1,0 +1,129 @@
+{
+  "title": "First, Next, Then, Last",
+  "file_title": "First, Next, Then, Last",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Unplugged Sequencing",
+    "title": "First, Next, Then, Last",
+    "subtitle": "Sequence words tell the order",
+    "footer_topic": "2. First, Next, Then, Last",
+    "learning_goal": "I can use sequence words to put steps in order.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Sequence words",
+        "text": "Sequence words tell us the order of an algorithm: First, Next, Then, Last. Use them to put the mixed-up step-cards in the right order."
+      },
+      {
+        "type": "symbols",
+        "title": "The order words",
+        "size": "md",
+        "items": [{ "sym": "First" }, { "sym": "Next" }, { "sym": "Then" }, { "sym": "Last" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Make toast — mixed up",
+        "size": "md",
+        "blocks": [
+          { "cat": "value", "label": "A. push the lever down" },
+          { "cat": "value", "label": "B. get the bread" },
+          { "cat": "value", "label": "C. take out the toast" },
+          { "cat": "value", "label": "D. put it in the toaster" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Label the steps",
+        "prompt": "Write a sequence word — First, Next, Then, or Last — beside each toast card to show its place."
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Write the order",
+        "prompt": "Now write the letters in order, First to Last, in the boxes.",
+        "grid": { "rows": 1, "cols": 4 }
+      },
+      {
+        "type": "blocks",
+        "title": "Get ready for recess — mixed up",
+        "size": "md",
+        "blocks": [
+          { "cat": "value", "label": "A. zip it up" },
+          { "cat": "value", "label": "B. put on your coat" },
+          { "cat": "value", "label": "C. go outside" },
+          { "cat": "value", "label": "D. put on your hat" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — order it",
+        "prompt": "Which card is First? Write the letters in order, First to Last, in the boxes.",
+        "grid": { "rows": 1, "cols": 4 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "First, Next, Then, Last name the order of the steps. Coders use order words like these to plan an algorithm before they build it."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Unplugged Sequencing",
+    "title": "First, Next, Then, Last",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "2. First, Next, Then, Last — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students use the sequence words First, Next, Then, Last to order the steps of two everyday algorithms. Naming the order with sequence language is part of planning and representing a sequential algorithm (C3.1) and prepares students to describe how order affects the result (C3.2)."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: four cards labelled First, Next, Then, Last to place beside the step-cards."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: read the order words. 'First we get the bread — you can't toast with no bread.' Place First on card B.",
+          "2. WE DO: Exercise 1 — label the toast cards First B, Next D, Then A, Last C. Exercise 2 — write B, D, A, C.",
+          "3. YOU DO: Exercise 3 — get ready for recess: coat, zip, hat, outside (B, A, D, C).",
+          "4. Connect: 'Order words help you plan the steps before you do them — that is what coders do.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 / Ex 2 — Make toast: First get the bread (B), Next put it in the toaster (D), Then push the lever down (A), Last take out the toast (C). Order: B, D, A, C.",
+          "Ex 3 — Get ready for recess: First put on your coat (B), Next zip it up (A), Then put on your hat (D), Last go outside (C). Order: B, A, D, C.",
+          "Why the order works: each step needs the one before — you zip AFTER the coat is on, and toast comes out AFTER it goes in. Swap two and the algorithm fails."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: ordering by card letters instead of by the task — the letters are just names.",
+          "Simplify: do the toast task only, acting out each step as you place an order word.",
+          "Extend: ask students to make up a 4-step task and label it with First, Next, Then, Last.",
+          "Success indicator: the child labels each card with the right order word and writes B, D, A, C and B, A, D, C."
+        ]
+      }
+    ]
+  }
+}

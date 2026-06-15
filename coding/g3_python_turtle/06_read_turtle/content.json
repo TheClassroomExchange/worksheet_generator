@@ -1,0 +1,130 @@
+{
+  "title": "Read the Turtle Code",
+  "file_title": "Read the Turtle Code",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Intro Python Turtle",
+    "title": "Read the Turtle Code",
+    "subtitle": "Ontario Math C3.2 — read code and predict",
+    "footer_topic": "6. Read the Turtle Code",
+    "learning_goal": "I can read a turtle loop and predict what Bit draws.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Picture it first",
+        "text": [
+          "Good coders read code and picture what it does BEFORE running it. For a turtle loop, look for two clues: is there a turn (a shape) or no turn (a straight line), and how many sides (the range number).",
+          "Read each loop below and predict Bit's drawing. Then you can run it to check."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_python_turtle/06_read_turtle/read_examples.svg",
+        "caption": "A turn makes a shape; no turn makes a straight line.",
+        "width": "62%"
+      },
+      {
+        "type": "code",
+        "title": "Loop A — read it",
+        "language": "python",
+        "code": "for i in range(4):\n    bit.forward(30)\n    bit.right(90)",
+        "output": null
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Read Loop A",
+        "prompt": "Loop A has a turn (right 90) and range(4). What shape does Bit draw, and how many sides? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Read another loop",
+        "prompt": "Loop B is:  for i in range(3): bit.forward(40); bit.left(120). What shape does Bit draw, and how many sides?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Predict, then run",
+        "prompt": "Loop C is:  for i in range(5): bit.forward(20)  (no turn). PREDICT what Bit draws and how long it is in total. Then run it.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Loop A draws a square with range(4), right 90. After the loop finishes, WHERE is Bit — back at the start, or somewhere else? How do you know?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "You can read a loop and picture the drawing: a turn means a shape, no turn means a line, and the range number tells you how many sides."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Intro Python Turtle",
+    "title": "Read the Turtle Code",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "6. Read Code — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students read turtle for-loops and PREDICT the drawing before running (C3.2): a turn → a shape, no turn → a line, and the range number gives the sides. They also reason about where Bit ends."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "Python Turtle projected (or a web playground); the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Model reading Loop A aloud: 'turn → shape; range(4) → 4 sides → a square.'",
+          "2. Have students predict BEFORE you run each loop; then run to confirm.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: read the clues (turn? how many sides?)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — a square; 4 sides.",
+          "Ex 2 — a triangle; 3 sides.",
+          "Ex 3 — a straight line; 100 long (5 × 20).",
+          "Ex 4 (challenge) — back at the start (a closed square returns to where it began)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: ignoring the turn and predicting a line for a shape loop.",
+          "Support: have students underline the turn line (or note 'no turn') first.",
+          "Extend: ask the shape for range(6) with right(60) (a hexagon)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student predicts the shape/line and side count from a loop (Ex 1–3) and reasons that a closed shape returns Bit to the start (Ex 4)."
+      }
+    ]
+  }
+}

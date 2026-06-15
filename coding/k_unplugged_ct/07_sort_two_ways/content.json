@@ -1,0 +1,113 @@
+{
+  "title": "Sort Two Ways",
+  "file_title": "Sort Two Ways",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Unplugged Thinking",
+    "title": "Sort Two Ways",
+    "subtitle": "The same things, grouped two ways",
+    "footer_topic": "7. Sort Two Ways",
+    "learning_goal": "I can sort the same shapes by more than one rule.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "One pile, two ways to sort",
+        "text": "The same shapes can be grouped in more than one way. It depends on the RULE you choose. Here is Bit's pile."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's pile",
+        "size": "lg",
+        "items": ["●", "▲", "●", "★", "▲"]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Way 1 — sort by shape",
+        "prompt": "Rule: same shape together. Draw the circles in one box, triangles in the next, the star in the last.",
+        "grid": { "rows": 1, "cols": 3 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Way 2 — round or pointy?",
+        "prompt": "New rule: round shapes (●) in one box, pointy shapes (▲ ★) in the other. Sort the SAME pile again.",
+        "grid": { "rows": 1, "cols": 2 }
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — sort this pile two ways",
+        "prompt": "Pile: ★ ● ▲ ●. First sort by shape. Then sort by round or pointy.",
+        "grid": { "rows": 2, "cols": 3 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "The same things can be sorted in different ways — you just change the rule. Computers sort by different rules too: by size, by colour, by name."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Unplugged Thinking",
+    "title": "Sort Two Ways",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "7. Sort Two Ways — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children sort one pile by two different rules — by exact shape, then by round-vs-pointy. Seeing that the same set can be grouped different ways builds flexible classification, a computational-thinking skill (the rule decides the groups)."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children classify the same objects by more than one attribute.",
+          "No reading required of the child: read each prompt aloud; the child draws into the group boxes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil/crayon. Optional: a small pile of shape blocks to sort by hand two ways."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: name the pile — two circles, two triangles, one star.",
+          "2. WAY 1: sort by shape together (Ex 1) — circles, triangles, star.",
+          "3. WAY 2: change the rule to round vs pointy (Ex 2) — circles are round; triangles and star are pointy.",
+          "4. YOU TRY: children sort the Ex 3 pile both ways. Connect: 'Computers sort by different rules too — by size, colour, or name.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Pile ● ▲ ● ★ ▲ — Way 1 (by shape): circle = 2, triangle = 2, star = 1.",
+          "Way 2 (round vs pointy): round = 2 (the circles); pointy = 3 (two triangles + one star).",
+          "Ex 3 pile ★ ● ▲ ● — by shape: star 1, circle 2, triangle 1. Round/pointy: round 2, pointy 2."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: re-sorting Way 2 by shape out of habit — restate the new rule (round vs pointy).",
+          "Simplify: do only Way 1 with hands-on blocks, then introduce the second rule.",
+          "Extend: invent a third rule together (big vs small, or has-a-point vs no-point).",
+          "Movement option: sort the class two ways — by shirt colour, then by shoes on/off."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child sorts the one pile correctly under both rules and can say that changing the rule changes the groups."
+      }
+    ]
+  }
+}

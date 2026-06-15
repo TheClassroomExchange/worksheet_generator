@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diagram: change range() + the given angle to change the shape. Triangle,
+     square, hexagon with their loop settings. Original artwork. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 130" width="340" height="130">
+  <g fill="none" stroke="#39C9A6" stroke-width="3.5">
+    <!-- triangle -->
+    <polygon points="55,30 80,75 30,75"/>
+    <!-- square -->
+    <rect x="140,0" width="0" height="0"/>
+    <polygon points="150,32 192,32 192,74 150,74"/>
+    <!-- hexagon -->
+    <polygon points="280,28 305,42 305,68 280,82 255,68 255,42"/>
+  </g>
+  <g font-family="Arial" font-size="11" fill="#243B53" text-anchor="middle">
+    <text x="55" y="98" font-weight="bold">triangle</text>
+    <text x="55" y="113" fill="#486581">range(3), right 120</text>
+    <text x="171" y="98" font-weight="bold">square</text>
+    <text x="171" y="113" fill="#486581">range(4), right 90</text>
+    <text x="280" y="98" font-weight="bold">hexagon</text>
+    <text x="280" y="113" fill="#486581">range(6), right 60</text>
+  </g>
+  <text x="170" y="14" text-anchor="middle" font-family="Arial" font-size="12" fill="#2BB293" font-weight="bold">more sides = bigger range, smaller turn</text>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "BUGGY -> Bit broadcasts 'go' but Pixel waits for 'stop' -> Pixel stuck at 5 ✗\nFIXED -> Pixel now waits for 'go' -> messages match -> Pixel reaches 3 ✓\n\nALL CHECKS PASSED — the bug was a mismatched message; matching the words lets Pixel run to 3.\n",
+  "stderr": ""
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Buggy: start 1, forward 2, back 1 -> 2 (misses target 4) ✓\nEx 2: the wrong block is 'back 1' (moves Bit away from 4) ✓\nEx 3: fixed code (back 1 -> forward 1) -> 4 (the target) ✓\n\nALL CHECKS PASSED — find the wrong block, fix it, Bit reaches the target.\n",
+  "stderr": ""
+}

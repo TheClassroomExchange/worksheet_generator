@@ -1,0 +1,77 @@
+{
+  "batch_id": "g3_debugging",
+  "grade": "Grade 3",
+  "subject": "Debugging",
+  "rubric": "rubric_coding_G3.md",
+  "curriculum_codes": [
+    "C3.1",
+    "C3.2"
+  ],
+  "locked": true,
+  "arc_note": "C3.2-heavy debugging subject. Every sheet debugs code that INVOLVES A LOOP (repeating events) so C1 reaches G3. Mix of block + Turtle contexts (students have done both). Method on every sheet: say what it SHOULD do → spot the wrong/missing/extra part → fix it. Each buggy case AND its fix are modelled in solution.py and asserted. C1-L4: the fix is writing corrected code (write) + the bug-find is altering/describing (alter).",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "what-is-a-bug",
+      "dir": "01_what_is_a_bug",
+      "title": "What Is a Bug?",
+      "concept": "debugging method + find a wrong repeat count in a loop (block)",
+      "primary_code": "C3.2",
+      "status": "built"
+    },
+    {
+      "nn": "02",
+      "slug": "off-by-one",
+      "dir": "02_off_by_one",
+      "title": "Off by One",
+      "concept": "the repeat/range count is one too many or too few (block + turtle)",
+      "primary_code": "C3.2",
+      "status": "built"
+    },
+    {
+      "nn": "03",
+      "slug": "wrong-block",
+      "dir": "03_wrong_block",
+      "title": "The Wrong Block Inside",
+      "concept": "a wrong action inside the loop (e.g. move vs turn) (block)",
+      "primary_code": "C3.2",
+      "status": "built"
+    },
+    {
+      "nn": "04",
+      "slug": "wrong-turn",
+      "dir": "04_wrong_turn",
+      "title": "The Wrong Turn",
+      "concept": "wrong angle in a turtle shape loop — shape doesn't close (turtle)",
+      "primary_code": "C3.2",
+      "status": "built"
+    },
+    {
+      "nn": "05",
+      "slug": "extra-or-missing",
+      "dir": "05_extra_or_missing",
+      "title": "Extra or Missing Block",
+      "concept": "loop has an extra block or is missing a needed one (block)",
+      "primary_code": "C3.2",
+      "status": "built"
+    },
+    {
+      "nn": "06",
+      "slug": "trace-the-bug",
+      "dir": "06_trace_the_bug",
+      "title": "Trace the Bug",
+      "concept": "predict what the buggy loop does, then say the fix (read/predict)",
+      "primary_code": "C3.2",
+      "status": "built"
+    },
+    {
+      "nn": "07",
+      "slug": "two-fixes",
+      "dir": "07_two_fixes",
+      "title": "More Than One Fix",
+      "concept": "a loop bug with two valid fixes — choose and justify (challenge)",
+      "primary_code": "C3.2",
+      "status": "built"
+    }
+  ]
+}

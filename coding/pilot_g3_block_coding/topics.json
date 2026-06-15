@@ -1,0 +1,53 @@
+{
+  "batch_id": "pilot_g3_block_coding",
+  "grade": "Grade 3",
+  "subject": "Block Coding",
+  "rubric": "rubric_coding_G3.md",
+  "curriculum_codes": ["C3.1", "C3.2"],
+  "locked": true,
+  "arc_note": "REVISED 2026-06-13: every G3 sheet must exercise REPEATING EVENTS (loops). The G3 rubric scores a sequential/concurrent-only sheet at C1-L2 ('under-reaches G3'), so it can never clear the 19/20 bar. The arc is therefore loop-centric: each sheet is a distinct loop skill (count → draw/pattern → event-triggered → concurrent → read/alter → debug), not a separate sequencing/events sheet. Flag for user at the Phase D batch gate.",
+  "topics": [
+    {
+      "nn": "01", "slug": "loops", "dir": "sheet_01_loops",
+      "title": "Loops: Code That Repeats",
+      "concept": "count-controlled repeat loop — how many times the inside runs",
+      "primary_code": "C3.1", "status": "built", "grade_score": "20/20"
+    },
+    {
+      "nn": "02", "slug": "loops-draw", "dir": "02_loops_draw",
+      "title": "Loops That Make Patterns",
+      "concept": "repeat a small action to build a repeating pattern (beads/stamps)",
+      "primary_code": "C3.1", "status": "built", "grade_score": "20/20"
+    },
+    {
+      "nn": "03", "slug": "event-then-loop", "dir": "03_event_then_loop",
+      "title": "Start It, Then Repeat",
+      "concept": "an event (when flag clicked) starts a script that repeats",
+      "primary_code": "C3.1", "status": "built", "grade_score": "20/20"
+    },
+    {
+      "nn": "04", "slug": "two-loops", "dir": "04_two_loops",
+      "title": "Two Scripts, Both Repeating",
+      "concept": "concurrent scripts that each loop at the same time",
+      "primary_code": "C3.1", "status": "built", "grade_score": "20/20"
+    },
+    {
+      "nn": "05", "slug": "read-alter-loop", "dir": "05_read_alter_loop",
+      "title": "Read and Change a Loop",
+      "concept": "read an existing loop, change its count/contents, predict the new outcome (C3.2)",
+      "primary_code": "C3.2", "status": "built", "grade_score": "20/20"
+    },
+    {
+      "nn": "06", "slug": "loop-a-pattern", "dir": "06_loop_a_pattern",
+      "title": "Loop a Longer Pattern",
+      "concept": "repeat a multi-step pattern (e.g. clap-clap-stomp) — every inside block runs each pass",
+      "primary_code": "C3.1", "status": "built", "grade_score": "20/20"
+    },
+    {
+      "nn": "07", "slug": "debug-loop", "dir": "07_debug_loop",
+      "title": "Find the Loop Bug",
+      "concept": "read a broken loop, find the wrong number/block, fix it (C3.2 debugging)",
+      "primary_code": "C3.2", "status": "built", "grade_score": "20/20"
+    }
+  ]
+}

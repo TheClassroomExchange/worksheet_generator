@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diagram: the 3-step debugging method. Original artwork. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 110" width="360" height="110">
+  <defs>
+    <marker id="m1" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 z" fill="#486581"/>
+    </marker>
+  </defs>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="14" y="38" width="96" height="44" rx="10" fill="#E9FBF5" stroke="#39C9A6" stroke-width="2"/>
+    <text x="62" y="58" font-size="13" font-weight="bold" fill="#243B53">1. SHOULD</text>
+    <text x="62" y="73" font-size="10" fill="#486581">what it must do</text>
+
+    <line x1="112" y1="60" x2="130" y2="60" stroke="#486581" stroke-width="2.5" marker-end="url(#m1)"/>
+
+    <rect x="132" y="38" width="96" height="44" rx="10" fill="#FFF6E5" stroke="#F5A623" stroke-width="2"/>
+    <text x="180" y="58" font-size="13" font-weight="bold" fill="#243B53">2. DOES</text>
+    <text x="180" y="73" font-size="10" fill="#486581">run &amp; compare</text>
+
+    <line x1="230" y1="60" x2="248" y2="60" stroke="#486581" stroke-width="2.5" marker-end="url(#m1)"/>
+
+    <rect x="250" y="38" width="96" height="44" rx="10" fill="#EAF7EE" stroke="#3FB66E" stroke-width="2"/>
+    <text x="298" y="58" font-size="13" font-weight="bold" fill="#243B53">3. FIX</text>
+    <text x="298" y="73" font-size="10" fill="#486581">change the wrong part</text>
+  </g>
+  <text x="180" y="22" text-anchor="middle" font-family="Arial" font-size="12" fill="#2BB293" font-weight="bold">How to debug</text>
+</svg>

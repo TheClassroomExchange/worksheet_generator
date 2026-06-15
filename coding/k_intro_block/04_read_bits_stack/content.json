@@ -1,0 +1,206 @@
+{
+  "title": "Read Bit's Stack",
+  "file_title": "Read Bit's Stack",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Intro Block Coding",
+    "title": "Read Bit's Stack",
+    "subtitle": "Run the blocks to find where Bit lands",
+    "footer_topic": "4. Read Bit's Stack",
+    "learning_goal": "I can run a short stack and find where Bit lands.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Run the stack",
+        "text": "Bit starts on box 1. Run the blocks from the TOP down, one at a time. Each ➡ block moves Bit one box to the right. Each ⬅ block moves Bit one box to the left. The star is on box 4."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's stage",
+        "size": "lg",
+        "items": [
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "★"
+          },
+          {
+            "sym": "5"
+          }
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Stack 1",
+        "size": "md",
+        "blocks": [
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Where does Bit land?",
+        "prompt": "Run Stack 1 from box 1, one block at a time. Which box does Bit land on? Write the number.",
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
+      },
+      {
+        "type": "blocks",
+        "title": "Stack 2",
+        "size": "md",
+        "blocks": [
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Land on the star",
+        "prompt": "Run Stack 2 from box 1. Which box does Bit land on? Is it the star? Write the number.",
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
+      },
+      {
+        "type": "blocks",
+        "title": "Stack 3",
+        "size": "md",
+        "blocks": [
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "⬅"
+          }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — watch the last block",
+        "prompt": "Run Stack 3 from box 1. The last block is ⬅, so the last step goes back one box. Which box does Bit land on? Write the number.",
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "To know what a program does, you run it — one block at a time, in order. The same blocks in a different order land Bit on a different box."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Intro Block Coding",
+    "title": "Read Bit's Stack",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "4. Read Bit's Stack — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children trace (run) a short block program on a 1D stage and report the result — Bit's landing box. Running each block in order, one at a time, is executing a program; the number and direction of the blocks decide where Bit ends up."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children carry out a sequence of coded instructions and determine the outcome.",
+          "No reading required of the child: read each prompt aloud; the child writes the landing-box number (1-5)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: floor boxes 1-5 with a star on box 4 so a child can walk each stack."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: put a finger on box 1. Run Stack 1 aloud — '➡ box 2… ➡ box 3.' Bit lands on box 3. One finger-move per block, top to bottom.",
+          "2. GUIDED: Exercise 1 — children run Stack 1 to box 3. Exercise 2 — Stack 2 is one more ➡, landing on box 4, the star.",
+          "3. YOU TRY: Exercise 3 — Stack 3 ends with ⬅, so after ➡ ➡ to box 3 the last block steps back to box 2.",
+          "4. Connect: 'To find out what a program does, you run it — one block at a time.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Stack 1 (➡ ➡) from box 1 → box 3.",
+          "Ex 2 — Stack 2 (➡ ➡ ➡) from box 1 → box 4, yes, the star.",
+          "Ex 3 — Stack 3 (➡ ➡ ⬅) from box 1 → box 3, then back to box 2. Bit lands on box 2."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: counting box 1 as the first move — the first ➡ moves Bit OFF box 1 onto box 2.",
+          "Watch Ex 3: children may forget the last ⬅ steps backward — have them touch each box as they go.",
+          "Simplify: do Stacks 1-2 only (all ➡). Skip the ⬅ in Stack 3 for children who need it.",
+          "Extend: ask which stack lands Bit on the star, and how they could change Stack 1 to reach it (add one ➡).",
+          "Movement option: children physically walk each stack on the floor boxes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child runs each stack one block at a time and writes box 3, box 4 (star), and box 2 — tracking the ⬅ step back in Stack 3."
+      }
+    ]
+  }
+}

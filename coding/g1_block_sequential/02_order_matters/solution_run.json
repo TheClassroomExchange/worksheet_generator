@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Code 1: start 3, forward 3 (stops at 5), back 1 -> 4 ✓\nCode 2: start 3, back 1, forward 3 -> 5 ✓\nSame blocks, different order -> different number (order matters) ✓\nChallenge: back 1 then forward 3 lands on 5 ✓\n\nALL CHECKS PASSED — at the edge, the order of the blocks changes the result.\n",
+  "stderr": ""
+}

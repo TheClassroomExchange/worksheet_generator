@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "unit_id": "g3_debugging_07_two_fixes",
+  "batch": 1,
+  "row_number": null,
+  "runner": "claude_code_max",
+  "prompt_version": "v1.0",
+  "num_lessons": 5,
+  "created_at": "2026-06-14T12:39:15+00:00",
+  "updated_at": "2026-06-14T12:40:53+00:00",
+  "status": "done",
+  "stages": {
+    "solution": {
+      "label": "Runnable solution + code-runs gate",
+      "short": "SO",
+      "output_filename": "solution_run.json",
+      "depends_on": [],
+      "status": "done",
+      "attempts": 1,
+      "started_at": "2026-06-14T12:39:15+00:00",
+      "completed_at": "2026-06-14T12:39:15+00:00",
+      "output_path": "solution_run.json"
+    },
+    "content": {
+      "label": "Worksheet + teacher-guide content (JSON)",
+      "short": "CO",
+      "output_filename": "content.json",
+      "depends_on": [
+        "solution"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "started_at": "2026-06-14T12:39:15+00:00",
+      "completed_at": "2026-06-14T12:39:15+00:00",
+      "output_path": "content.json"
+    },
+    "content_grade": {
+      "label": "Rubric grade (BEFORE render): ≥19/20 + floors",
+      "short": "CG",
+      "output_filename": "content_grade.json",
+      "depends_on": [
+        "content"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "started_at": "2026-06-14T12:39:15+00:00",
+      "completed_at": "2026-06-14T12:39:15+00:00",
+      "output_path": "content_grade.json"
+    },
+    "render": {
+      "label": "Render worksheet + teacher-guide PDFs",
+      "short": "RN",
+      "output_filename": "render.json",
+      "depends_on": [
+        "content_grade"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "started_at": "2026-06-14T12:39:15+00:00",
+      "completed_at": "2026-06-14T12:39:17+00:00",
+      "output_path": "render.json"
+    },
+    "visual_grade": {
+      "label": "Final visual inspection (C4 layout)",
+      "short": "VG",
+      "output_filename": "visual_grade.json",
+      "depends_on": [
+        "render"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "started_at": "2026-06-14T12:39:53+00:00",
+      "completed_at": "2026-06-14T12:39:53+00:00",
+      "output_path": "visual_grade.json"
+    },
+    "publish": {
+      "label": "Publish 2 PDFs to Drive (batch-gated)",
+      "short": "PB",
+      "output_filename": "publish.json",
+      "depends_on": [
+        "visual_grade"
+      ],
+      "status": "done",
+      "attempts": 1,
+      "started_at": "2026-06-14T12:40:53+00:00",
+      "completed_at": "2026-06-14T12:40:53+00:00",
+      "output_path": "publish.json"
+    }
+  },
+  "stage_order": [
+    "solution",
+    "content",
+    "content_grade",
+    "render",
+    "visual_grade",
+    "publish"
+  ],
+  "errors": []
+}

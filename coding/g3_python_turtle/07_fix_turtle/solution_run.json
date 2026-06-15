@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Ex 1 (fix count): want square, code range(3) -> FIX range(4) ✓\nEx 2 (fix angle): want triangle, code right(90) -> FIX right(120) ✓\nEx 3 (fix count): want 100-long line at 20 each, code range(3) -> FIX range(5) ✓\nEx 4 (challenge): bigger square -> change forward (keep range(4)); range(8) just retraces ✓\n\nALL CHECKS PASSED — every fix produces the correct result.\n",
+  "stderr": ""
+}

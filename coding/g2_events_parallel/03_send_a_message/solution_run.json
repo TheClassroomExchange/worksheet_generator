@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Green flag -> Bit runs -> Bit lands on 2, then broadcasts 'go' ✓\nPixel receives 'go' -> Pixel runs -> Pixel lands on 3 ✓\nNo matching message -> Pixel stays home at 5 ✓\n\nALL CHECKS PASSED — Bit broadcasts 'go'; Pixel runs only because it received it. Bit 2, Pixel 3.\n",
+  "stderr": ""
+}

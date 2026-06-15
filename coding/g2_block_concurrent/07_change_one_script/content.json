@@ -1,0 +1,142 @@
+{
+  "title": "Change One Script",
+  "file_title": "Change One Script",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Block Coding",
+    "title": "Change One Script",
+    "subtitle": "Alter one move and describe what changes",
+    "footer_topic": "7. Change One Script",
+    "learning_goal": "I can change one sprite's script and describe how it changes whether they meet.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Change it and see",
+        "text": "Bit (green) and Pixel (purple) both start on the green flag ▶. First run them as they are. Then we will CHANGE one block in Pixel's script and run again. Watch how changing one move changes who is ahead and whether they meet."
+      },
+      {
+        "type": "symbols",
+        "title": "The number path",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 0" },
+          { "cat": "motion", "label": "forward 3" }
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script NOW",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 5" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Before the change",
+        "prompt": "Run both as they are. Bit: ____  Pixel: ____. Do they meet? Circle YES or NO. Who is ahead?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "The change",
+        "text": "Now change Pixel's move from 'back 1' to 'back 2'. Bit's script stays the same. Here is Pixel's NEW script:"
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script AFTER the change",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 5" },
+          { "cat": "motion", "label": "back 2" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "After the change",
+        "prompt": "Run both again with Pixel's NEW script. Bit: ____  Pixel: ____. Do they meet now? Circle YES or NO.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Describe the change",
+        "prompt": "Write one sentence: how did changing Pixel's one move change what happens when both run?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Changing one block in one script can change the whole result. Here making Pixel go back 2 instead of back 1 moved Pixel from 4 to 3 — so now Pixel meets Bit instead of staying ahead."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Block Coding",
+    "title": "Change One Script",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "7. Change One Script — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students ALTER one block in one of two concurrent scripts and DESCRIBE how that change affects the combined outcome — the heart of Grade-2 C3.2 ('describe how changes to the code affect the outcomes'). Changing Pixel's 'back 1' to 'back 2' moves Pixel from 4 to 3, flipping the result from 'do not meet' (Pixel ahead) to 'they meet on 3'."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: two counters on a 0-5 path; run the BEFORE version, then physically change Pixel's move and run the AFTER version so the change is visible."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: run the BEFORE version — 'Bit 0 forward 3 → 3; Pixel 5 back 1 → 4. They do NOT meet; Pixel is ahead.'",
+          "2. WE DO: make the change together — Pixel's 'back 1' becomes 'back 2'. Predict: where will Pixel land now?",
+          "3. YOU DO: students run the AFTER version (Pixel → 3), see they now MEET, and write one sentence describing the effect.",
+          "4. Connect: 'One small change to one script changed the whole result — that's why coders test after every change.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 (before) — Bit: 0 → forward 3 → 3. Pixel: 5 → back 1 → 4. They do NOT meet; Pixel (4) is ahead of Bit (3).",
+          "Ex 2 (after) — Pixel's new script: 5 → back 2 → 3. Bit still 3. Now both are on 3 → YES, they MEET.",
+          "Ex 3 (describe) — sample: 'Changing Pixel to back 2 made Pixel land on 3 instead of 4, so now Pixel meets Bit instead of being ahead.' Accept any answer that links the changed move to the changed outcome.",
+          "Interaction note: only Pixel's script changed; Bit's result stayed the same, but the COMBINED outcome (meet vs not) flipped."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: re-running Bit differently — remind students only Pixel's script changed; Bit is unchanged.",
+          "Common error: stating the new landing without describing the EFFECT — push for 'now they meet' / 'Pixel is no longer ahead'.",
+          "Simplify: just compare Pixel's two landings (4 then 3) and ask what that does to 'do they meet?'",
+          "Extend: ask what change to Bit's script would make them NOT meet again.",
+          "Success indicator: the child reports meet=NO before and meet=YES after, and names the changed move as the cause."
+        ]
+      }
+    ]
+  }
+}

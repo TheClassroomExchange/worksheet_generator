@@ -1,0 +1,139 @@
+{
+  "title": "Two Sprites at Once",
+  "file_title": "Two Sprites at Once",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Block Coding",
+    "title": "Two Sprites at Once",
+    "subtitle": "One green flag starts two scripts",
+    "footer_topic": "1. Two Sprites at Once",
+    "learning_goal": "I can read two scripts that run at the same time.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Two sprites, one green flag",
+        "text": "Bit (green) and Pixel (purple) are two sprites. Each one has its own script. When you click the green flag ▶, BOTH scripts run at the SAME time. That is called concurrent — two things happening at once. Each sprite moves on the number path."
+      },
+      {
+        "type": "symbols",
+        "title": "The number path",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/bit_wave.svg",
+        "caption": "Bit",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 1" },
+          { "cat": "motion", "label": "forward 2" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Where does Bit land?",
+        "prompt": "Run Bit's script from 1. What number does Bit land on?",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/pixel_wave.svg",
+        "caption": "Pixel",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "▶ start at 5" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Where does Pixel land?",
+        "prompt": "Run Pixel's script from 5. What number does Pixel land on?",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Predict — both at once",
+        "prompt": "The green flag starts BOTH scripts together. Write where EACH sprite lands. Bit: ____  Pixel: ____. Do they land on the same number?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Concurrent means two scripts run at the same time. Each sprite follows its own script, so each one lands on its own number when the green flag starts them together."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Block Coding",
+    "title": "Two Sprites at Once",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "1. Two Sprites at Once — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students meet concurrency: two sprites (Bit and Pixel) each run their own script, and one green flag starts BOTH at the same time. They read each script and find where each sprite lands. Reading and running code that involves concurrent events is the new Grade-2 idea in C3.1/C3.2."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: two counters (green for Bit, purple for Pixel) on a floor number path 0-5; say 'green flag!' and move both at once."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: introduce Bit's script ONLY first — 'start 1, forward 2 lands on 3.' Make sure one script is understood.",
+          "2. WE DO: then add Pixel's script — 'start 5, back 1 lands on 4.' Now press the green flag so BOTH run together.",
+          "3. YOU DO: Exercise 3 — students record both landings (Bit 3, Pixel 4) and notice they are different numbers.",
+          "4. Connect: 'Concurrent means at the same time — each sprite still follows its own script.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit: 1 → forward 2 → 3. Bit lands on 3.",
+          "Ex 2 — Pixel: 5 → back 1 → 4. Pixel lands on 4.",
+          "Ex 3 — when the green flag starts both at once, Bit lands on 3 and Pixel lands on 4. They are NOT on the same number, so they do not meet.",
+          "Interaction note: the two scripts run independently and at the same time — Bit's moves do not change Pixel's, and the green flag launches both together."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: running one script, then the other, as if they were sequential — stress that the green flag starts BOTH at the same time (concurrent), even though we read them one at a time.",
+          "Simplify: trace Bit alone, then Pixel alone, before doing both together.",
+          "Extend: ask what number is BETWEEN the two sprites' landings (3 and 4 — they are right next to each other).",
+          "Success indicator: the child finds Bit on 3 and Pixel on 4 and explains that both scripts ran at the same time from the green flag."
+        ]
+      }
+    ]
+  }
+}

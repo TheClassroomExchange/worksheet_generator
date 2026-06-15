@@ -1,0 +1,124 @@
+{
+  "title": "More Than One Fix",
+  "file_title": "More Than One Fix",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Debugging",
+    "title": "More Than One Fix",
+    "subtitle": "Ontario Math C3.2 — find a bug, then choose the best fix",
+    "footer_topic": "7. More Than One Fix",
+    "learning_goal": "I can fix a loop bug more than one way and say which fix I would choose.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Some bugs have two fixes",
+        "text": [
+          "Bit's loop does TOO MUCH. The code repeats two actions, but Bit only needs to do the action half as many times.",
+          "There are two good ways to fix it: change the REPEAT COUNT, or change the BLOCKS INSIDE the loop. Both reach the goal — find both, then pick one to explain. Tip: total actions = repeat × blocks inside."
+        ]
+      },
+      {
+        "type": "code",
+        "title": "Bit should clap 4 times — but this claps 8",
+        "language": "blocks",
+        "code": "repeat 4 {\n    clap\n    clap\n}",
+        "output": "Each repeat = 2 claps. 4 repeats × 2 = 8 claps. Goal is 4."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Find both fixes",
+        "prompt": "Bit should clap 6 times, but  repeat 6 { clap, clap }  claps 12 times. Fix A: change the repeat count to ____. Fix B: keep repeat 6 but put ____ clap(s) inside. Show each fix gives 6.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Hops",
+        "prompt": "repeat 10 { hop, hop } makes 20 hops, but Bit should hop 10 times. Write Fix A (the new repeat count) and Fix B (the blocks inside). Which one changes fewer blocks?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write it",
+        "prompt": "Bit should stomp 8 times. The buggy code is  repeat 8 { stomp, stomp }  = 16 stomps. Write the WHOLE corrected loop two ways — one using Fix A, one using Fix B.",
+        "answer_lines": 3
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge — choose and justify",
+        "prompt": "Bit should clap 12 times. The buggy code is  repeat 6 { clap, clap, clap }  = 18 claps. Find a fix that changes the repeat count (Fix A) and a fix that changes the blocks inside (Fix B). Pick the one you would use and say WHY in one sentence.",
+        "answer_lines": 3
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A bug can have more than one correct fix. A good coder finds them, then chooses the one that is simplest or clearest — and can say why."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Debugging",
+    "title": "More Than One Fix",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "7. More Than One Fix — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students find a loop bug that has TWO valid fixes — change the repeat count or change the blocks inside — show both reach the goal, then choose one and justify it (C3.2, with C3.1 'writing' on Ex 3–4)."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block app or Python Turtle projected; the printed worksheet + a pencil. Write 'total actions = repeat × blocks inside' on the board so students can adjust either number."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Model the worked case: repeat 4 { clap, clap } = 8, but the goal is 4.",
+          "2. Show BOTH fixes — halve the repeat (repeat 2) OR keep one clap inside (repeat 4 × 1). Each = 4.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch: choose + justify), solo or in pairs.",
+          "4. Share: land that a bug can have more than one right fix, and a coder chooses the clearest."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — Fix A: repeat 3 (3 × 2 = 6). Fix B: one clap inside (6 × 1 = 6).",
+          "Ex 2 — Fix A: repeat 5 (5 × 2 = 10). Fix B: one hop inside (10 × 1 = 10). Fix B changes fewer blocks (delete one hop).",
+          "Ex 3 — Fix A: repeat 4 { stomp, stomp } = 8. Fix B: repeat 8 { stomp } = 8.",
+          "Ex 4 (challenge) — Fix A: repeat 4 { clap, clap, clap } = 12. Fix B: repeat 6 { clap, clap } = 12. Any reasoned choice accepted (e.g. 'Fix B changes only one number')."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: stopping at the first fix and missing the second.",
+          "Support: write 'total = repeat × blocks inside' and let students change either number to hit the goal.",
+          "Extend: ask for a goal where only one kind of fix works (an odd number of actions can't be reached by halving a two-block loop)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student finds both a repeat-count fix and a blocks-inside fix that reach the goal, then chooses one and gives a one-sentence reason (Ex 4)."
+      }
+    ]
+  }
+}

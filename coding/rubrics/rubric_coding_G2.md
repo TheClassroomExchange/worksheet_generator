@@ -14,6 +14,11 @@ parallel scripts is wrong. **Loops/variables still out of scope (preview only).*
 top-down, stops at the highest fully-met level. **Pass = total ≥ 15/20 AND
 Criterion 2 ≥ L3 (hard gate).**
 
+> **PUBLISH GATE (this pipeline, all grades — enforced by `pipeline/coding_rubric.py`):
+> total ≥ 19/20 AND C2 ≥ L3 AND C3 = L4 AND C5 = L4.** The only droppable point is
+> C1 or C4 → L3. The ≥15 line above is the documented minimum-viable score; shipping
+> a paid product requires the stricter bar.
+
 ### C1 — Ontario C3 Alignment
 - **L1:** No C3 expectation cited or addressed.
 - **L2:** Addresses only sequential events (G1 level) — under-reaches G2.

@@ -1,0 +1,130 @@
+{
+  "title": "Change the Shape",
+  "file_title": "Change the Shape",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Intro Python Turtle",
+    "title": "Change the Shape",
+    "subtitle": "Ontario Math C3.2 — read & alter code",
+    "footer_topic": "4. Change the Shape",
+    "learning_goal": "I can change a loop to make Bit draw a different shape.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Same loop, new shape",
+        "text": [
+          "Bit's square uses range(4) and right 90. To draw a different shape, you change TWO things: how many sides (the range number) and the turn (given to you).",
+          "Read the chart — each shape just needs a different range and turn."
+        ]
+      },
+      {
+        "type": "code",
+        "title": "Bit's square (start here)",
+        "language": "python",
+        "code": "for i in range(4):\n    bit.forward(50)\n    bit.right(90)",
+        "output": "A square. Change range and the turn to get other shapes."
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_python_turtle/04_change_shape/shapes.svg",
+        "caption": "Change range() and the given turn → triangle, square, or hexagon.",
+        "width": "78%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Read it",
+        "prompt": "A triangle has 3 sides and the turn is 120 (given). What range number do you use? range(______)  and  right(______)",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then run",
+        "prompt": "You change Bit's square to range(6) with right(60). PREDICT: how many sides will the shape have, and what is it called? Then run it.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write your own",
+        "prompt": "Finish the code so Bit draws a TRIANGLE (the turn 120 is given):  for i in range(______):  bit.forward(50)  bit.right(120)",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Bit's loop is range(5) with right(72). How many sides does the shape have, and what is it called? (Hint: count the repeats.)",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "The range number sets how many sides; the turn is given for each shape. Change those two numbers and you change the shape Bit draws."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Intro Python Turtle",
+    "title": "Change the Shape",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "4. Change Shape — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students read and ALTER an existing loop (C3.2): change the range count and the given turn to draw a different regular shape, and describe how the shape changes. Angles are given (not derived)."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "Python Turtle projected (or a web playground); the printed worksheet + a pencil per student. A turn-angle chart (90/120/72/60) helps."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Start from the square; change range to 3 and the turn to 120 — run the triangle.",
+          "2. Show the shape chart; the range = number of sides, turn is given per shape.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: range = sides; the turn is given per shape."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — range(3), right(120).",
+          "Ex 2 — 6 sides; a hexagon.",
+          "Ex 3 — range(3).",
+          "Ex 4 (challenge) — 5 sides; a pentagon."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: changing only the range and forgetting the turn must match the shape.",
+          "Support: give the turn and have students supply just the range number.",
+          "Extend: ask the range + given turn for a hexagon they have not built (range 6, right 60)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student maps a shape to its range count (Ex 1, 3), predicts the shape after altering range+turn (Ex 2), and names a polygon from a loop (Ex 4)."
+      }
+    ]
+  }
+}

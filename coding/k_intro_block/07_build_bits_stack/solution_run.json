@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Build 1: box 1 -> star box 4 = ➡ ➡ ➡ ✓\nBuild 2: box 4 -> star box 2 = ⬅ ⬅ ✓\nBuild 3: box 1 -> star box 3 = ➡ ➡ ✓\nCheck: ➡ ➡ from box 1 misses box 4 (need three ➡) ✓\n\nALL CHECKS PASSED — each built program reaches its star.\n",
+  "stderr": ""
+}

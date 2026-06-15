@@ -1,0 +1,135 @@
+{
+  "title": "Loop a Longer Pattern",
+  "file_title": "Loop a Longer Pattern",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Block Coding",
+    "title": "Loop a Longer Pattern",
+    "subtitle": "Ontario Math C3.1 — repeating events",
+    "footer_topic": "6. Loop a Longer Pattern",
+    "learning_goal": "I can loop a pattern that has more than one action inside.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "A pattern with more parts",
+        "text": [
+          "A drum beat can be clap, clap, stomp — clap, clap, stomp. The whole group repeats.",
+          "A loop runs EVERY block inside it each time around. So a loop with three actions repeats all three together. Count how many of each Bit does."
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Read this loop",
+        "blocks": [
+          {"cat": "events", "label": "when green flag clicked"},
+          {"cat": "control", "label": "repeat 4"},
+          {"cat": "looks", "label": "clap", "indent": 1},
+          {"cat": "looks", "label": "clap", "indent": 1},
+          {"cat": "motion", "label": "stomp", "indent": 1}
+        ],
+        "note": "Three actions inside (clap, clap, stomp) all run each repeat. 4 repeats = 12 actions in all."
+      },
+      {
+        "type": "image",
+        "src": "coding/pilot_g3_block_coding/06_loop_a_pattern/beat_strip.svg",
+        "caption": "The 3-action group is one repeat — the loop does it 4 times.",
+        "width": "72%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Count it",
+        "prompt": "The loop is repeat 4 with clap, clap, stomp inside. How many actions in ONE repeat? ______  How many actions in TOTAL? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then check",
+        "prompt": "Change repeat 4 to repeat 5. PREDICT: how many STOMPS does Bit do? How many CLAPS? Then check.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write your own",
+        "prompt": "Bit's pattern is wave, wave, bow. To do the whole pattern 4 times, fill in: repeat ______. How many WAVES is that in total? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Bit's loop did 6 STOMPS. The pattern inside has 1 stomp each repeat. How many times did the loop repeat? How do you know?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "When a loop has more than one block inside, ALL of them run each repeat. To count one action, multiply how many per repeat by the number of repeats."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Block Coding",
+    "title": "Loop a Longer Pattern",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "6. Longer Pattern — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students see that a loop runs every block inside it each pass, so a multi-action pattern repeats as a unit. They count each action across the repeats by multiplying, and work backwards from a total."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student; optional: do the clap-clap-stomp beat as a class."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Hook: perform a clap-clap-stomp beat as a class; name the group that repeats.",
+          "2. Project the repeat-4 (clap, clap, stomp) loop; count each action together.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: multiply per-repeat actions by the repeat count."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — 3 actions per repeat; 12 actions total.",
+          "Ex 2 — 5 stomps and 10 claps.",
+          "Ex 3 — repeat 4; 8 waves total.",
+          "Ex 4 (challenge) — 6 repeats (6 stomps ÷ 1 stomp per repeat)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: counting the pattern once instead of multiplying by the repeats.",
+          "Support: circle one action type and skip-count it across the repeats.",
+          "Extend: ask how many claps in repeat 5 of (clap, clap, stomp) — 10."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student counts actions per repeat and in total (Ex 1), predicts a single action's count after changing the repeat (Ex 2), writes a pattern loop (Ex 3), and works backwards from a total to the repeat count (Ex 4)."
+      }
+    ]
+  }
+}

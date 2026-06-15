@@ -1,0 +1,82 @@
+{
+  "batch_id": "k_sequencing",
+  "grade": "Kindergarten",
+  "subject": "Sequencing & Algorithms",
+  "rubric": "rubric_coding_K.md",
+  "locked": true,
+  "arc_note": "K-frame (Problem Solving & Innovating) — NO C3 codes, NO text code, NO loops. The lane is ORDER: an algorithm is a list of steps in the right order. Two halves — (a) ordering routine/picture steps first/next/last (sheets 1-4, 8), and (b) giving/following step-by-step DIRECTIONS on a simple 1D path of numbered boxes using arrow symbols ➡ ⬅ (sheets 5-7). Distinct from Unplugged CT (classify/pattern lane) and Intro Block (coloured block-stack lane) — here arrows are unplugged path directions, NOT program blocks; positions stay 1D and ≤4 steps. Each answer (the order, the landing box, the needed arrows) is MODELLED + asserted in solution.py. Picture/symbol-driven via the `symbols` part; adult reads the short prompt, child draws/numbers/circles. Bit is the actor that follows the steps.",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "first-next-last",
+      "dir": "01_first_next_last",
+      "title": "First, Next, Last",
+      "concept": "order the 3 steps of a routine (first / next / last)",
+      "ct_skill": "ordering / sequencing",
+      "status": "built"
+    },
+    {
+      "nn": "02",
+      "slug": "what-comes-first",
+      "dir": "02_what_comes_first",
+      "title": "What Comes First?",
+      "concept": "identify the starting step of a sequence",
+      "ct_skill": "sequencing (start)",
+      "status": "built"
+    },
+    {
+      "nn": "03",
+      "slug": "put-it-in-order",
+      "dir": "03_put_it_in_order",
+      "title": "Put It in Order",
+      "concept": "number 4 picture steps 1-2-3-4 in the right order",
+      "ct_skill": "ordering (4 steps)",
+      "status": "built"
+    },
+    {
+      "nn": "04",
+      "slug": "order-matters",
+      "dir": "04_order_matters",
+      "title": "Order Matters",
+      "concept": "an algorithm is steps in order — swapping two steps changes the result",
+      "ct_skill": "algorithm / order sensitivity",
+      "status": "built"
+    },
+    {
+      "nn": "05",
+      "slug": "follow-the-arrows",
+      "dir": "05_follow_the_arrows",
+      "title": "Follow the Arrows",
+      "concept": "read a 1D arrow program ➡ and find Bit's landing box",
+      "ct_skill": "following directions",
+      "status": "built"
+    },
+    {
+      "nn": "06",
+      "slug": "which-way",
+      "dir": "06_which_way",
+      "title": "Which Way?",
+      "concept": "choose the arrow (➡ or ⬅) that moves Bit toward the star",
+      "ct_skill": "choosing a direction",
+      "status": "built"
+    },
+    {
+      "nn": "07",
+      "slug": "give-bit-the-steps",
+      "dir": "07_give_bit_the_steps",
+      "title": "Give Bit the Steps",
+      "concept": "write the short arrow sequence to reach the goal",
+      "ct_skill": "writing an algorithm",
+      "status": "built"
+    },
+    {
+      "nn": "08",
+      "slug": "fix-the-order",
+      "dir": "08_fix_the_order",
+      "title": "Fix the Order",
+      "concept": "debugging — a step is out of order or a move is wrong; fix it",
+      "ct_skill": "debugging a sequence",
+      "status": "built"
+    }
+  ]
+}

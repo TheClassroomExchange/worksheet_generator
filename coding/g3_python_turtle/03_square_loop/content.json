@@ -1,0 +1,130 @@
+{
+  "title": "Draw a Square with a Loop",
+  "file_title": "Draw a Square with a Loop",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Intro Python Turtle",
+    "title": "Draw a Square with a Loop",
+    "subtitle": "Ontario Math C3.1 — repeating events",
+    "footer_topic": "3. Draw a Square with a Loop",
+    "learning_goal": "I can use a for-loop to make Bit draw a square.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Four sides, one loop",
+        "text": [
+          "A square has 4 equal sides and 4 square corners (right 90). Instead of typing forward and turn four times, a loop does it for you.",
+          "Read the code: range(4) repeats forward 50, right 90 — four times — and Bit draws a square."
+        ]
+      },
+      {
+        "type": "code",
+        "title": "Read this Python code",
+        "language": "python",
+        "code": "for i in range(4):\n    bit.forward(50)\n    bit.right(90)",
+        "output": "Bit draws a square and ends back at the start."
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_python_turtle/03_square_loop/square.svg",
+        "caption": "range(4) of forward 50, right 90 → a square.",
+        "width": "40%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Read it",
+        "prompt": "How many sides does Bit draw? ______  How many right-90 turns? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then run",
+        "prompt": "You change forward(50) to forward(100) (range(4) and right(90) stay). PREDICT: is it still a square? What changes — the shape or the size? Then run it.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write your own",
+        "prompt": "Finish the code so Bit draws a square with sides of 60. Fill in the two numbers:  for i in range(______):  bit.forward(60)  bit.right(______)",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Bit draws a square with forward(50), four times. How long is the whole path Bit draws all the way around? (This is the square's perimeter.)",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A square = repeat 4 of (forward, right 90). The forward number sets the SIZE; range(4) and right 90 keep it a SQUARE."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Intro Python Turtle",
+    "title": "Draw a Square with a Loop",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. Square Loop — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students use a for-loop to draw a square: repeat 4 of forward + right 90. They see the forward number sets size while range(4)/right 90 keep it a square, and link the path length to perimeter."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "Python Turtle projected (or a web playground); the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Recall last sheet: range(3) drew 3 sides — add the 4th, it closes a square.",
+          "2. Run the range(4) square; note it ends back at the start.",
+          "3. Students do Exercises 1–4 (Ex 4 links to perimeter), solo or in pairs.",
+          "4. Share answers; land the big idea: forward = size; range(4)/right 90 = square."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — 4 sides; 4 turns.",
+          "Ex 2 — still a square; the SIZE changes, not the shape (perimeter 400).",
+          "Ex 3 — range(4), bit.right(90).",
+          "Ex 4 (challenge) — 200 (4 × 50) — the perimeter."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: changing range(4) when only the size should change (Ex 2).",
+          "Support: trace one side and skip-count 50 four times for the perimeter.",
+          "Extend: ask the perimeter of a forward(70) square (280)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student reads the square loop (Ex 1), reasons size-vs-shape when altering forward (Ex 2), completes the loop (Ex 3), and finds the perimeter from the code (Ex 4)."
+      }
+    ]
+  }
+}

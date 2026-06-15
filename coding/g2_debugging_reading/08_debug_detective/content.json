@@ -1,0 +1,129 @@
+{
+  "title": "Debug Detective",
+  "file_title": "Debug Detective",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Debugging & Reading Code",
+    "title": "Debug Detective",
+    "subtitle": "Read, find the bug, fix it, explain",
+    "footer_topic": "8. Debug Detective",
+    "learning_goal": "I can read two scripts, name which one is wrong and what kind of bug it is, and fix it.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Be the debug detective",
+        "text": "You are the debug detective! Bit (green) and Pixel (purple) both start on the green flag and should MEET on number 3. Each script has TWO moves. One script is wrong. Read both carefully, run them, then name WHICH script is wrong, WHAT KIND of bug it is, and FIX it."
+      },
+      {
+        "type": "symbols",
+        "title": "The goal: meet on 3",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3", "label": "★ goal" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 1" },
+          { "cat": "motion", "label": "forward 2" }
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "back 1" },
+          { "cat": "motion", "label": "back 3" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run both",
+        "prompt": "Trace each two-move script. Bit (home 0): ____  Pixel (home 5): ____. Which sprite does NOT meet on the goal 3?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Name the bug",
+        "prompt": "The wrong script went PAST the goal. Which move made it overshoot, and what kind of bug is it (a number too big, the wrong direction, or a missing block)?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Fix it and explain",
+        "prompt": "Write the fixed move: back ____. After the fix, where does Pixel land? In one sentence, explain why your fix works.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A debug detective reads carefully, runs the code, and compares it to the goal. The script that misses is the buggy one. Name the bug, change just what is wrong, and run again to check. Here Pixel's 'back 3' was too big — 'back 1' lands it right on 3."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Debugging & Reading Code",
+    "title": "Debug Detective",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "8. Debug Detective — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "The capstone of the subject — and of the whole K–G3 catalogue. Students read two two-move parallel scripts, diagnose WHICH is wrong and WHAT KIND of bug it is, fix it, and explain (C3.2 read/alter/describe + C3.1 write). The goal is 'meet on 3'; Bit is correct, but Pixel's 'back 3' overshoots to 1 — a wrong-number (too big) bug; the fix is 'back 1'. Naming the bug type and justifying the fix is the highest reading-and-debugging skill at Grade 2."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a star on square 3 and two counters; trace each two-move script and see which counter sails past the star."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: state the goal — 'meet on 3.' Trace Bit: 0 forward 1 → 1, forward 2 → 3 (on the star).",
+          "2. WE DO: trace Pixel: 5 back 1 → 4, back 3 → 1 (sails past the star to 1). 'Pixel overshot — its second number is too big.'",
+          "3. YOU DO: students name the bug (back 3 is too big — a wrong-number bug), fix it to back 1, and explain why (4 to 3 is just one back).",
+          "4. Connect: 'A detective names the bug and changes only what is wrong.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit: 0 → forward 1 → 1 → forward 2 → 3 (meets goal). Pixel: 5 → back 1 → 4 → back 3 → 1 (overshoots; Pixel is the buggy one).",
+          "Ex 2 — the second move 'back 3' made Pixel overshoot. It is a wrong-number bug (the number is too big), not a direction or missing-block bug.",
+          "Ex 3 — fixed move: back 1 → Pixel: 5 → back 1 → 4 → back 1 → 3. Explanation: from 4, the goal 3 is only one square back, so back 1 lands exactly on 3.",
+          "Detective note: the direction (back) was right; only the size of the second move was wrong."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: blaming the first move (back 1 was fine) — trace move by move to see exactly where Pixel passes the goal.",
+          "Simplify: stop Pixel after each move and check against the star to spot the overshoot.",
+          "Extend: ask students to invent a different bug (wrong direction or missing block) that would also miss 3, then fix it — a fitting send-off for the whole coding series.",
+          "Success indicator: the child names Pixel's 'back 3' as a too-big number, fixes it to back 1, and explains why it now lands on 3."
+        ]
+      }
+    ]
+  }
+}

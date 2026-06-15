@@ -1,0 +1,126 @@
+{
+  "title": "What Comes Next?",
+  "file_title": "What Comes Next",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Unplugged Thinking",
+    "title": "What Comes Next?",
+    "subtitle": "Reading a pattern that repeats",
+    "footer_topic": "3. What Comes Next?",
+    "learning_goal": "I can read a pattern and draw what comes next.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Patterns repeat",
+        "text": "A pattern is a row that repeats the same way. If you know the pattern, you can tell what comes next."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit — ▲ ■ ▲ ■ …",
+        "size": "lg",
+        "items": ["▲", "■", "▲", "■", "▲"],
+        "note": "It goes triangle, square, triangle, square. After ▲ comes ■. The next one is ■."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Draw what comes next",
+        "prompt": "Read the pattern out loud, then draw the next shape in the dashed box."
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["●", "★", "●", "★", "●", "?"]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Draw what comes next",
+        "prompt": "Read the pattern, then draw the next shape in the dashed box."
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["■", "▲", "■", "▲", "?"]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — a longer pattern",
+        "prompt": "This pattern goes two-then-one. Read it and draw what comes next."
+      },
+      {
+        "type": "symbols",
+        "size": "lg",
+        "items": ["★", "★", "●", "★", "★", "●", "?"]
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Reading a pattern lets you know what comes next. Computers follow patterns too — that is how they repeat a job the same way every time."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Unplugged Thinking",
+    "title": "What Comes Next?",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. What Comes Next? — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children read a repeating pattern and identify the next element. Recognizing and continuing patterns is a foundational computational-thinking skill — it is how computers repeat a process the same way every time."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children identify, reproduce, and extend repeating patterns.",
+          "No reading required of the child: read each prompt aloud; the child draws the next shape."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil/crayon. Optional: pattern blocks or beads to build the pattern by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: point and say the pattern aloud — 'triangle, square, triangle, square…'. The next is a square.",
+          "2. GUIDED: do Exercise 1 together — read ● ★ ● ★ ● aloud, the next is ★.",
+          "3. YOU TRY: children do Exercise 2 (next is ■), then Exercise 3, the two-then-one pattern (next is ★).",
+          "4. Connect: 'Computers follow patterns too — that is how they repeat a job exactly the same way.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — ▲ ■ ▲ ■ ▲ → next is ■.",
+          "Ex 1 — ● ★ ● ★ ● → next is ★.   Ex 2 — ■ ▲ ■ ▲ → next is ■.",
+          "Ex 3 — ★ ★ ● ★ ★ ● → next is ★ (the pattern is star, star, circle, repeating)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: copying the last shape shown — have them say the whole pattern aloud first.",
+          "Simplify: build the pattern with real blocks and add the next one by hand.",
+          "Extend: ask the child to keep the pattern going for two or three more shapes.",
+          "Movement option: clap–stomp–clap–stomp and ask what action comes next."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child says the repeating unit aloud and draws the correct next shape for each pattern."
+      }
+    ]
+  }
+}

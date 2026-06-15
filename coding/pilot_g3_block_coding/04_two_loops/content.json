@@ -1,0 +1,143 @@
+{
+  "title": "Two Scripts, Both Repeating",
+  "file_title": "Two Scripts Both Repeating",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Block Coding",
+    "title": "Two Scripts, Both Repeating",
+    "subtitle": "Ontario Math C3.1 — concurrent + repeating",
+    "footer_topic": "4. Two Scripts, Both Repeating",
+    "learning_goal": "I can make two scripts repeat at the same time.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Two things at once",
+        "text": [
+          "You can clap AND march at the same time. A computer can do that too — it can run two scripts AT THE SAME TIME. That is called concurrent.",
+          "Both scripts start on the green flag and each one has its own repeat loop. They run side by side. Watch Bit's two scripts go together."
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Script A",
+        "blocks": [
+          {"cat": "events", "label": "when green flag clicked"},
+          {"cat": "control", "label": "repeat 4"},
+          {"cat": "motion", "label": "move 10 steps", "indent": 1}
+        ],
+        "note": "Script A moves Bit 4 times."
+      },
+      {
+        "type": "blocks",
+        "title": "Script B (starts at the same time)",
+        "blocks": [
+          {"cat": "events", "label": "when green flag clicked"},
+          {"cat": "control", "label": "repeat 4"},
+          {"cat": "looks", "label": "play sound", "indent": 1}
+        ],
+        "note": "Script B plays a sound 4 times. Both scripts start together on the green flag — they run at the same time."
+      },
+      {
+        "type": "image",
+        "src": "coding/pilot_g3_block_coding/04_two_loops/two_scripts.svg",
+        "caption": "One green flag starts BOTH scripts — they loop at the same time.",
+        "width": "56%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Count it",
+        "prompt": "You click the green flag once. How many times does Bit MOVE (Script A)? ______  How many SOUNDS play (Script B)? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then check",
+        "prompt": "You change Script B to repeat 6 (Script A stays repeat 4). PREDICT: how many moves and how many sounds now? They run on their own — does changing B change A?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write your own",
+        "prompt": "Add a THIRD script so that, at the same time, Bit also spins 3 times. Fill in:  when green flag clicked → repeat ______ → ( turn )",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Both start together: Script A is repeat 5, Script B is repeat 2. Which script finishes MORE repeats, and how many more? Explain.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Two scripts can run at the same time (concurrent). Each has its own loop and its own count — changing one does not change the other."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Block Coding",
+    "title": "Two Scripts, Both Repeating",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "4. Concurrent Loops — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students see that two scripts run at the same time (concurrent), each with its own repeat loop and count. They count both, change one independently, write a third, and compare counts."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block-coding app (Scratch-style) to project — show two green-flag scripts side by side; the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Hook: clap AND march together — two things at once is concurrent.",
+          "2. Project the two green-flag scripts; click the flag, watch both loops run together.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: each script has its own loop and count."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — 4 moves and 4 sounds.",
+          "Ex 2 — 4 moves and 6 sounds; changing B does NOT change A (independent).",
+          "Ex 3 — repeat 3.",
+          "Ex 4 (challenge) — Script A finishes more: 5 vs 2, so 3 more repeats."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: thinking one script must finish before the other starts — they run at the same time.",
+          "Support: trace each script with a different finger at the same time.",
+          "Extend: ask which finishes first if A is repeat 2 and B is repeat 6 (A)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student counts both loops (Ex 1), reasons that changing one script leaves the other unaffected (Ex 2), writes a third concurrent loop (Ex 3), and compares two counts (Ex 4)."
+      }
+    ]
+  }
+}

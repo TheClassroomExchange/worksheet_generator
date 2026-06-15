@@ -1,0 +1,140 @@
+{
+  "title": "Forward and Back",
+  "file_title": "Forward and Back",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Block Coding",
+    "title": "Forward and Back",
+    "subtitle": "Forward adds, back takes away",
+    "footer_topic": "4. Forward and Back",
+    "learning_goal": "I can run a code that mixes forward and back blocks.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Two kinds of moves",
+        "text": "A forward block moves Bit UP the path (it adds steps). A back block moves Bit DOWN the path (it takes steps away). A code can use both. Run the blocks in order, one at a time, to find where Bit lands."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's number path",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Code A",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 1" },
+          { "cat": "motion", "label": "forward 3" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run Code A",
+        "prompt": "Start on 1. Forward 3, then back 1. Run it one block at a time. What number does Bit land on?",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "blocks",
+        "title": "Code B",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 3" },
+          { "cat": "motion", "label": "forward 1" },
+          { "cat": "motion", "label": "back 2" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then run Code B",
+        "prompt": "PREDICT where Bit will land. Then run Code B from 3: forward 1, then back 2. What number does Bit land on?",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "blocks",
+        "title": "Build C — start at 2, reach 4",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 2" },
+          { "blank": true },
+          { "blank": true }
+        ],
+        "note": "Use ONE forward block and ONE back block."
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — mix the moves",
+        "prompt": "Fill the 2 empty blocks with one forward and one back block so Bit goes from 2 to 4. Run it to check. What did you use?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Forward adds steps and back takes steps away — just like adding and subtracting. A code can mix forward and back blocks to reach a number."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Block Coding",
+    "title": "Forward and Back",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "4. Forward and Back — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students run programs that mix forward (add) and back (subtract) blocks and write one of their own, connecting sequential code to adding and subtracting within 10. This is reading/running and writing code for a mathematical situation (C3.1) with a predict-and-check step (C3.2)."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 so students can step forward and back to feel adding and taking away."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: run Code A — 'start at 1… forward 3 to 4… back 1 to 3.' Name it: forward adds, back takes away.",
+          "2. WE DO: Exercise 1 — Code A lands on 3. Exercise 2 — predict Code B, then run: forward 1 to 4, back 2 to 2.",
+          "3. YOU DO: Exercise 3 — from 2, use one forward and one back block to reach 4 (e.g. forward 3, back 1).",
+          "4. Connect: 'Forward is like adding and back is like subtracting — coding the number path is doing math.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Code A: 1 → forward 3 → 4 → back 1 → 3.",
+          "Ex 2 — Code B: 3 → forward 1 → 4 → back 2 → 2.",
+          "Ex 3 — start 2 → 4: e.g. forward 3, back 1 (net forward 2). Other mixes that net +2 also work, e.g. forward 2 then back 0 is not allowed (no back-0 block), so forward 3/back 1 is the clean pair.",
+          "Why it works: each block runs in order; forward adds its number and back subtracts its number, so the landing is start + forwards − backs (kept on the 0-5 path)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: treating a back block as forward — point the back arrow/word and step the wrong way once to contrast.",
+          "Simplify: do Codes A and B only; skip the build task.",
+          "Extend: ask for a program from 2 to 4 that uses a back block first (e.g. back 1 to 1, then forward 3 to 4).",
+          "Success indicator: the child lands Code A on 3 and Code B on 2 and writes a forward+back program that reaches 4."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Which Way?",
+  "file_title": "Which Way",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Sequencing & Algorithms",
+    "title": "Which Way?",
+    "subtitle": "Choose the arrow that goes to the star",
+    "footer_topic": "6. Which Way?",
+    "learning_goal": "I can choose the arrow that moves Bit toward the star.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Pick the right direction",
+        "text": "➡ moves Bit to the right. ⬅ moves Bit to the left. Look at where the star is, then pick the arrow that moves Bit toward it."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit — star is to the right",
+        "size": "lg",
+        "items": [{ "sym": "1" }, { "sym": "2" }, { "sym": "3", "label": "Bit" }, { "sym": "4" }, { "sym": "5", "label": "★" }],
+        "note": "The star (box 5) is to the RIGHT of Bit (box 3). So Bit should go ➡."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Bit on box 2, star on box 5",
+        "prompt": "Which arrow moves Bit toward the star? Circle it.    ➡    ⬅",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Bit on box 4, star on box 2",
+        "prompt": "The star is to the LEFT this time. Which arrow moves Bit toward it? Circle it.    ➡    ⬅",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — Bit on box 5, star on box 1",
+        "prompt": "Which arrow moves Bit toward the star? Circle it.    ➡    ⬅",
+        "answer_lines": 0
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Choosing the right direction is part of making a plan. The first thing a coder asks is: which way do I need to go?"
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Sequencing & Algorithms",
+    "title": "Which Way?",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "6. Which Way? — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children choose the single arrow (➡ or ⬅) that moves Bit toward the star. Selecting the correct direction toward a goal is the first planning decision in building an algorithm."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children use directional language and choose a direction toward a goal.",
+          "No reading required of the child: read each prompt aloud; the child circles ➡ or ⬅."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil. Optional: floor boxes with Bit and a star to point the way by hand."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: 'The star is on box 5, Bit is on box 3. Box 5 is to the right, so Bit goes ➡.'",
+          "2. GUIDED: Exercise 1 — star to the right → ➡.",
+          "3. YOU TRY: children pick ⬅ when the star is to the left (Ex 2 and Ex 3).",
+          "4. Connect: 'A coder first asks: which way do I need to go?'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — Bit 3, star 5 → ➡ (right).",
+          "Ex 1 — Bit 2, star 5 → ➡ (right).",
+          "Ex 2 — Bit 4, star 2 → ⬅ (left).",
+          "Ex 3 — Bit 5, star 1 → ⬅ (left)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: always choosing ➡ — have them point from Bit to the star first to feel the direction.",
+          "Simplify: use only box positions next to each other (Bit on 2, star on 3).",
+          "Extend: ask how many steps in that direction reach the star.",
+          "Movement option: stand a child as Bit and place a star; the class calls 'left' or 'right'."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child circles the arrow pointing toward the star in every case, including when the star is to the left."
+      }
+    ]
+  }
+}

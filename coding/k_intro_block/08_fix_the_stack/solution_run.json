@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Buggy program ➡ ⬅ ➡ from box 1 -> box 2 (misses the star) ✓\nEx 1: Bit lands on box 2 — not the star ✓\nEx 2: the wrong block is the middle ⬅ ✓\nEx 3: fixed program ➡ ➡ ➡ -> box 4 (the star) ✓\n\nALL CHECKS PASSED — find the wrong block, flip it, Bit reaches the star.\n",
+  "stderr": ""
+}

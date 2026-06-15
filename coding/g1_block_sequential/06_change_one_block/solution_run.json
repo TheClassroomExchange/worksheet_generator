@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Base: start 1, forward 2, forward 1 -> 4 ✓\nEx 1: forward 2 -> forward 3 gives 5 (one higher) ✓\nEx 2: last forward 1 -> back 1 gives 2 (lower) ✓\nEx 3: start 1 -> start 0 gives 3 (everything shifts down by 1) ✓\n\nALL CHECKS PASSED — one changed block changes the result in a predictable way.\n",
+  "stderr": ""
+}

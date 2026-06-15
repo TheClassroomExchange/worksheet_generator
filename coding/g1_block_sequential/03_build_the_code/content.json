@@ -1,0 +1,141 @@
+{
+  "title": "Build the Code",
+  "file_title": "Build the Code",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Block Coding",
+    "title": "Build the Code",
+    "subtitle": "Write the blocks to reach the target",
+    "footer_topic": "3. Build the Code",
+    "learning_goal": "I can write a code that lands Bit on a target number.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "You write the code",
+        "text": "Now YOU write the code. The start block is given. Fill each empty block with a move — forward 1, forward 2, back 1, or back 2 — so Bit lands on the target number. Then run your code to check."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's number path",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Build 1 — start at 0, reach 3",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 0" },
+          { "blank": true },
+          { "blank": true }
+        ],
+        "note": "Write a move in each empty block."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Reach 3",
+        "prompt": "Fill the 2 empty blocks so Bit goes from 0 to 3. Then run your code. Which number does it land on? (It should be 3.)",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "blocks",
+        "title": "Build 2 — start at 5, reach 2",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 5" },
+          { "blank": true },
+          { "blank": true }
+        ],
+        "note": "This time Bit needs to go back."
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then reach 2",
+        "prompt": "Fill the 2 empty blocks so Bit goes from 5 to 2. PREDICT the landing number from your blocks, then run to check.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "blocks",
+        "title": "Build 3 — start at 1, reach 5",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 1" },
+          { "blank": true },
+          { "blank": true }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — challenge",
+        "prompt": "Fill the 2 empty blocks so Bit goes from 1 to 5. Run it to check. Can you find a DIFFERENT pair of blocks that also reaches 5? Write it on the line.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "To write code, you pick the blocks and put them in order to reach your goal. Then you run it to test it. Sometimes more than one code reaches the same number."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Block Coding",
+    "title": "Build the Code",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. Build the Code — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students write their own short program — choosing and ordering move blocks — to make Bit reach a target number, then run it to test, and find a second program that reaches the same target. This is writing and executing code for a goal (C3.1), with a check that runs and a 'more than one way' reflection."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 and arrow/number cards so students can lay out and walk their code before writing it."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: for Build 1, count from 0 to 3 — that is 3 steps forward. Show one way to split it: 'forward 2, then forward 1.' Run it to land on 3.",
+          "2. WE DO: Exercise 1 — students fill the 2 blocks to reach 3. Exercise 2 — start at 5, reach 2 (3 steps back), predict, then run.",
+          "3. YOU DO: Exercise 3 — start at 1, reach 5 (4 steps forward); then find a second program that also reaches 5.",
+          "4. Connect: 'You wrote code to reach a goal, then ran it to test — and there can be more than one correct program.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — start 0 → 3: e.g. forward 2, forward 1 (any two forward blocks summing to 3, like forward 1 + forward 2).",
+          "Ex 2 — start 5 → 2: e.g. back 2, back 1 (any two back blocks summing to 3).",
+          "Ex 3 — start 1 → 5: e.g. forward 2, forward 2; a different way: forward 1, forward 3. Both reach 5.",
+          "Why it works: the start sets Bit's number and the moves run in order; the forward/back amounts must add up to the distance from start to target."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: moves that overshoot or fall short — have students count the steps from start to target first, then split that into 2 blocks.",
+          "Simplify: allow one move block (e.g. 'forward 3') instead of two for students who need it.",
+          "Extend: ask for a 3-block program that reaches the target, or a program that uses both a forward and a back block.",
+          "Success indicator: the child writes a program that runs to the target and can offer a second program for Build 3."
+        ]
+      }
+    ]
+  }
+}

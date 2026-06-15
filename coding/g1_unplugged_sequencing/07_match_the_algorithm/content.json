@@ -1,0 +1,130 @@
+{
+  "title": "Match the Algorithm",
+  "file_title": "Match the Algorithm",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Unplugged Sequencing",
+    "title": "Match the Algorithm",
+    "subtitle": "Read the steps and name the job",
+    "footer_topic": "7. Match the Algorithm",
+    "learning_goal": "I can match an algorithm to the job its steps do.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "An algorithm does a job",
+        "text": "Every algorithm does a job. Read the steps and figure out the job. Match each algorithm to its job. One job has no algorithm — you will write it."
+      },
+      {
+        "type": "symbols",
+        "title": "The jobs",
+        "size": "md",
+        "items": [{ "sym": "wash hands" }, { "sym": "feed the dog" }, { "sym": "get a drink" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Algorithm 1",
+        "size": "md",
+        "blocks": [
+          { "cat": "value", "label": "1. wet your hands" },
+          { "cat": "value", "label": "2. add soap" },
+          { "cat": "value", "label": "3. rinse" },
+          { "cat": "value", "label": "4. dry your hands" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "What job is Algorithm 1?",
+        "prompt": "Read the steps. Which job does Algorithm 1 do? Write the job.",
+        "answer_lines": 1
+      },
+      {
+        "type": "blocks",
+        "title": "Algorithm 2",
+        "size": "md",
+        "blocks": [
+          { "cat": "value", "label": "1. get the bowl" },
+          { "cat": "value", "label": "2. scoop the food" },
+          { "cat": "value", "label": "3. put it down" },
+          { "cat": "value", "label": "4. call the dog" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "What job is Algorithm 2?",
+        "prompt": "Which job does Algorithm 2 do? Write the job.",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — write the leftover one",
+        "prompt": "The leftover job is 'get a drink'. Write an algorithm for it — 3 or 4 steps in order, one per line.",
+        "answer_lines": 4
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "The steps of an algorithm tell you what job it does. Reading code to figure out what it does is a big part of being a coder."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Unplugged Sequencing",
+    "title": "Match the Algorithm",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "7. Match the Algorithm — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students read two algorithms, figure out the job each one does, and match it — then write the algorithm for the leftover job. Reading code to determine what it accomplishes is abstraction and a core part of C3.2; writing the missing algorithm is C3.1."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: cover the algorithm titles and have students guess the job from the steps alone."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: read Algorithm 1's steps. 'Wet, soap, rinse, dry — these steps wash your hands.'",
+          "2. WE DO: Exercise 1 — Algorithm 1 = wash hands. Exercise 2 — Algorithm 2 (bowl, scoop, put down, call) = feed the dog.",
+          "3. YOU DO: Exercise 3 — the leftover job is 'get a drink'; students write its steps (e.g. get a cup, turn on the tap, fill the cup, turn off the tap).",
+          "4. Connect: 'Coders read code to figure out what it does — the steps tell the job.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Algorithm 1 = wash hands (wet, add soap, rinse, dry).",
+          "Ex 2 — Algorithm 2 = feed the dog (get the bowl, scoop the food, put it down, call the dog).",
+          "Ex 3 — get a drink: a sample algorithm is get a cup, turn on the tap, fill the cup, turn off the tap. Accept any 3-4 sensible ordered steps."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: matching by one word instead of the whole job — have students check that every step fits the job they chose.",
+          "Simplify: do Exercises 1 and 2 (matching) only.",
+          "Extend: ask students to write a 2-algorithm puzzle of their own for a partner to match.",
+          "Success indicator: the child matches Algorithm 1 to wash hands and Algorithm 2 to feed the dog, and writes a sensible 'get a drink' algorithm."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "inspected_pages": [
+    "worksheet p1",
+    "worksheet p2",
+    "teacher guide p1"
+  ],
+  "c4_layout_ok": true,
+  "status": "pass",
+  "notes": "CHALLENGE debug (C3.2+C3.1). Goal meet on 3 (star marker on path renders). Bit start0 fwd3->3 correct; Pixel start5 back1->4 BUG; fix back1->back2->3 meets. Ex1 run/what-wrong, Ex2 find-the-bug (Pixel), Ex3 fix-it. TG reasons Bit-already-on-target so Pixel is bug; accepts any fix landing 3. Clean 2pp ws + 1pp TG."
+}

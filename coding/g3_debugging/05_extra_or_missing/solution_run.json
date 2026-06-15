@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Ex 1 (extra): (clap, stomp, stomp) -> 6 stomps; REMOVE the extra stomp -> 3 ✓\nEx 2 (missing): forward-only square -> a line; ADD bit.right(90) ✓\nEx 3 (write): add right(90) -> square (4 corners) ✓\nEx 4 (challenge): extra right(90) -> back-and-forth line (2 points), no square; REMOVE the extra turn ✓\n\nALL CHECKS PASSED — every fix produces the correct result.\n",
+  "stderr": ""
+}

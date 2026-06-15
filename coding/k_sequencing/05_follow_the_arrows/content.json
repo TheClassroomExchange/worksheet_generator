@@ -1,0 +1,114 @@
+{
+  "title": "Follow the Arrows",
+  "file_title": "Follow the Arrows",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Sequencing & Algorithms",
+    "title": "Follow the Arrows",
+    "subtitle": "Follow the steps to find Bit's box",
+    "footer_topic": "5. Follow the Arrows",
+    "learning_goal": "I can follow arrow steps in order to find where Bit lands.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Follow the steps in order",
+        "text": "Each ➡ moves Bit one box to the right. Follow the arrows in order, one box at a time, to see where Bit lands. The star is on box 4."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's board",
+        "size": "lg",
+        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "★" }, { "sym": "5" }]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Two steps",
+        "prompt": "Bit starts on box 1 and follows ➡ ➡. Which box does Bit land on? Write the box number.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Four steps",
+        "prompt": "Bit starts on box 1 and follows ➡ ➡ ➡ ➡. Which box does Bit land on? Write the box number.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — land on the star",
+        "prompt": "Bit starts on box 2 and follows ➡ ➡. Which box does Bit land on? Is it the star? Write the box number.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Following steps in order, one at a time, is how you run an algorithm. Computers follow their steps exactly the same way."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Sequencing & Algorithms",
+    "title": "Follow the Arrows",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "5. Follow the Arrows — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children execute a sequence of ➡ moves on a 1D board and report Bit's landing box. Carrying out step-by-step directions in order is executing an algorithm — and the count of steps determines the result."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children follow a sequence of directional instructions.",
+          "No reading required of the child: read each prompt aloud; the child writes the landing box number."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil. Optional: floor boxes 1-5 with a star on box 4 to walk the steps."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: from box 1, walk ➡ ➡ ➡ aloud — box 2, box 3, box 4. Bit lands on the star.",
+          "2. GUIDED: Exercise 1 — two steps from box 1 lands on box 3.",
+          "3. YOU TRY: children do four steps (Ex 2 → box 5), then start from box 2 (Ex 3 → box 4, the star).",
+          "4. Connect: 'Computers follow their steps in order, exactly — just like Bit.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — start 1, ➡ ➡ ➡ → box 4 (the star).",
+          "Ex 1 — start 1, ➡ ➡ → box 3.",
+          "Ex 2 — start 1, ➡ ➡ ➡ ➡ → box 5.",
+          "Ex 3 — start 2, ➡ ➡ → box 4 (yes, the star)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: counting box 1 as the first move — the first ➡ moves Bit OFF box 1 to box 2.",
+          "Simplify: walk each step on the floor and stop to name the box.",
+          "Extend: ask how many steps from box 1 reach box 5 (4), or start from box 3.",
+          "Movement option: call out arrows and have children take one step each, freezing on the landing box."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child counts the ➡ steps from the start box and writes the correct landing box for each program."
+      }
+    ]
+  }
+}

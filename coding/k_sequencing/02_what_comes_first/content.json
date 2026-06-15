@@ -1,0 +1,114 @@
+{
+  "title": "What Comes First?",
+  "file_title": "What Comes First",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Sequencing & Algorithms",
+    "title": "What Comes First?",
+    "subtitle": "Finding the step that starts it all",
+    "footer_topic": "2. What Comes First?",
+    "learning_goal": "I can find the step that must happen first.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Some steps must come first",
+        "text": "You cannot slide down before you climb up! Some steps have to happen FIRST. Help Bit find the step that comes first."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit go down the slide",
+        "size": "lg",
+        "items": [{ "sym": "⬆", "label": "climb up" }, { "sym": "⬇", "label": "slide down" }],
+        "note": "First climb up ⬆, then slide down ⬇. Up comes first."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Climb the ladder",
+        "prompt": "To get to the top, what comes first? Circle it.   ⬆ climb up    ⬇ come down",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Go through the door",
+        "prompt": "Bit wants to go through the door. What comes first? Circle it.   (a) open the door    (b) walk through  ➡",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — get ready",
+        "prompt": "Which comes first when you get dressed? Circle it.   1) put on a sock    2) put on a shoe",
+        "answer_lines": 0
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Finding the first step is how you start a plan. If you do steps out of order, the plan does not work."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Sequencing & Algorithms",
+    "title": "What Comes First?",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "2. What Comes First? — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children identify the step that must happen first in a two-step action. Recognizing the starting step — and that some steps depend on earlier ones — is essential to building a correct sequence or algorithm."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children reason about the order in which steps must occur.",
+          "No reading required of the child: read each prompt aloud; the child circles the first step."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil. Optional: act out each two-step action so children feel the order."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: the slide — 'you must climb up BEFORE you slide down.' First is ⬆.",
+          "2. GUIDED: Exercise 1 — to get to the top, climb up comes first.",
+          "3. YOU TRY: children pick the first step for the door (open) and for getting dressed (sock).",
+          "4. Connect: 'If you do steps out of order, the plan does not work — order matters.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — slide: first ⬆ climb up, then ⬇ slide down.",
+          "Ex 1 — circle ⬆ climb up.   Ex 2 — circle 'open the door'.",
+          "Ex 3 — circle 'put on a sock' (the sock goes on before the shoe)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: picking the more exciting step (the slide!) — ask 'but what has to happen first?'",
+          "Simplify: physically act out the two steps in order, then ask which was first.",
+          "Extend: ask what comes LAST, or add a middle step (climb, sit, slide).",
+          "Movement option: do 'shoes' as a class — everyone mimes sock first, then shoe."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child circles the step that must happen first in each pair and can explain why it cannot be skipped."
+      }
+    ]
+  }
+}

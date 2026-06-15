@@ -1,0 +1,148 @@
+{
+  "title": "Match the Stack",
+  "file_title": "Match the Stack",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Intro Block Coding",
+    "title": "Match the Stack",
+    "subtitle": "A program and its landing box go together",
+    "footer_topic": "6. Match the Stack",
+    "learning_goal": "I can match a program to the box it lands Bit on.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Same program, same landing box",
+        "text": "Every program lands Bit on one box. Run a program to find its box. And if you know the box you want, you can pick the program that gets there. Bit always starts on box 1. The star is on box 4."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's stage",
+        "size": "lg",
+        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "★" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Program A",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "⚑" },
+          { "cat": "motion", "label": "➡" },
+          { "cat": "motion", "label": "➡" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "What box does Program A match?",
+        "prompt": "Run Program A from box 1. Which box does Bit land on? Circle the matching box below."
+      },
+      {
+        "type": "symbols",
+        "title": "Circle Program A's box",
+        "size": "lg",
+        "items": [{ "sym": "2" }, { "sym": "3" }, { "sym": "4" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Program P",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "⚑" },
+          { "cat": "motion", "label": "➡" },
+          { "cat": "motion", "label": "➡" },
+          { "cat": "motion", "label": "➡" }
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Program Q",
+        "size": "md",
+        "blocks": [
+          { "cat": "operators", "label": "⚑" },
+          { "cat": "motion", "label": "➡" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Which program lands on the star?",
+        "prompt": "You want Bit on the star (box 4). Run Program P and Program Q from box 1. Which one lands Bit on the star? Circle P or Q.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — match box 2",
+        "prompt": "Now you want Bit on box 2. Use the same Program P and Program Q above. Which one lands Bit on box 2? Circle P or Q.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A program and the box it lands on go together. To get Bit to a box you want, you pick the program that matches it."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Intro Block Coding",
+    "title": "Match the Stack",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "6. Match the Stack — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children match a block program to the result it produces and, given a wanted result, choose the program that produces it. Running forward (program → box) and reasoning backward (wanted box → program) is an early form of abstraction: a program stands for the outcome it makes."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children relate a set of instructions to its outcome and select instructions to meet a goal.",
+          "No reading required of the child: read each prompt aloud; the child circles a box card or circles P / Q."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: floor boxes 1-5 with a star on box 4 so children can run P and Q and see which lands on the star."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: run Program A (➡ ➡) from box 1 together — box 2, box 3. 'Program A matches box 3.'",
+          "2. GUIDED: Exercise 1 — children circle the box-3 card. Exercise 2 — run P (➡ ➡ ➡ → box 4, the star) and Q (➡ → box 2); P lands on the star.",
+          "3. YOU TRY: Exercise 3 — same two programs, but now we want box 2; Q is the match.",
+          "4. Connect: 'A program stands for where it sends Bit. Pick the program that matches the box you want.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Program A (➡ ➡) from box 1 → box 3. Circle box 3.",
+          "Ex 2 — Program P (➡ ➡ ➡) → box 4, the star. Circle P.",
+          "Ex 3 — Program Q (➡) → box 2. Circle Q."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip in Ex 2-3: children pick by stack height alone — have them actually run each program to the box before circling.",
+          "Simplify: do Exercise 1 and 2 only (forward match, then find the star).",
+          "Extend: ask which program would match box 5 (it would need four ➡ blocks), or have a child invent a program for box 3.",
+          "Movement option: two children each 'become' Program P and Program Q and walk their steps; the class names the box each one matches."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child circles box 3 for Program A, Program P for the star, and Program Q for box 2 — running each program to confirm the match."
+      }
+    ]
+  }
+}

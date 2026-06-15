@@ -1,0 +1,130 @@
+{
+  "title": "The Wrong Turn",
+  "file_title": "The Wrong Turn",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Debugging",
+    "title": "The Wrong Turn",
+    "subtitle": "Ontario Math C3.2 — read, find, and fix code",
+    "footer_topic": "4. The Wrong Turn",
+    "learning_goal": "I can fix a turtle shape loop with the wrong turn angle.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Wrong turn, open shape",
+        "text": [
+          "In a turtle shape, each shape needs the right turn: square 90, triangle 120, pentagon 72, hexagon 60.",
+          "If the turn is wrong, the shape will not close. The range can be right and it still looks wrong — check the turn."
+        ]
+      },
+      {
+        "type": "code",
+        "title": "This should draw a TRIANGLE — but it's buggy",
+        "language": "python",
+        "code": "for i in range(3):\n    bit.forward(50)\n    bit.right(90)",
+        "output": "The corners are wrong — the triangle does not close."
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_debugging/04_wrong_turn/wrongturn.svg",
+        "caption": "right 90 won't make a triangle; right 120 closes it.",
+        "width": "72%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Find the bug",
+        "prompt": "The triangle code uses right(90). A triangle needs right 120. What should right() be? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Fix the hexagon",
+        "prompt": "This should draw a hexagon (6 sides):  for i in range(6): bit.forward(40); bit.right(90). A hexagon needs right 60. What is wrong, and what should the turn be?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write the fix",
+        "prompt": "Bit should draw a pentagon (5 sides). The turn for a pentagon is 72. Write it:  bit.right(______)",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "A SQUARE loop has right(60) instead of right(90). Will the square close? Why not? What should the turn be?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Each shape has its own turn. If the shape does not close, the turn is probably wrong — match the turn to the shape (square 90, triangle 120, …)."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Debugging",
+    "title": "The Wrong Turn",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "4. Wrong Turn — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students debug turtle shape loops where the TURN angle is wrong so the shape will not close (C3.2). Correct angles are given (square 90, triangle 120, pentagon 72, hexagon 60)."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "Python Turtle projected (or a web playground); a turn chart (square 90, triangle 120, pentagon 72, hexagon 60); worksheet + pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Run the triangle with right(90) — the open/odd shape shows the bug.",
+          "2. Change to right(120); it closes. Post the turn chart for the shapes.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: if it won't close, fix the turn."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — right(120).",
+          "Ex 2 — the turn is wrong; change right(90) to right(60).",
+          "Ex 3 — right(72).",
+          "Ex 4 (challenge) — no, it will not close; right(60) is a hexagon turn. Use right(90) for a square."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: changing the range when the TURN is the bug.",
+          "Support: give the turn chart and have students match shape → turn.",
+          "Extend: ask the turn for an octagon if it does not close (45)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student recognises an unclosed shape as a wrong-turn bug and fixes the angle to match the shape (Ex 1–3), explaining why a mismatched turn fails (Ex 4)."
+      }
+    ]
+  }
+}

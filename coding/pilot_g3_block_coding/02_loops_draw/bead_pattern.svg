@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Diagram: the bead pattern Bit stamps with repeat 3 { stamp red, stamp blue }.
+     Original artwork. Six beads R B R B R B on a string; the repeated 2-bead
+     "core" is bracketed to show what the loop repeats. Bit at the left. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" width="360" height="150">
+  <!-- string -->
+  <line x1="70" y1="80" x2="330" y2="80" stroke="#9FB3C8" stroke-width="3"/>
+
+  <!-- 6 beads: R B R B R B -->
+  <g>
+    <circle cx="110" cy="80" r="16" fill="#FF6B6B" stroke="#E04848" stroke-width="2"/>
+    <circle cx="150" cy="80" r="16" fill="#4C8BF5" stroke="#3568C0" stroke-width="2"/>
+    <circle cx="190" cy="80" r="16" fill="#FF6B6B" stroke="#E04848" stroke-width="2"/>
+    <circle cx="230" cy="80" r="16" fill="#4C8BF5" stroke="#3568C0" stroke-width="2"/>
+    <circle cx="270" cy="80" r="16" fill="#FF6B6B" stroke="#E04848" stroke-width="2"/>
+    <circle cx="310" cy="80" r="16" fill="#4C8BF5" stroke="#3568C0" stroke-width="2"/>
+  </g>
+
+  <!-- bracket over the first 2 beads = the loop's "inside" -->
+  <path d="M92 52 L92 44 L168 44 L168 52" fill="none" stroke="#2BB293" stroke-width="2.5"/>
+  <text x="130" y="36" text-anchor="middle" font-family="Arial" font-size="12" fill="#2BB293" font-weight="bold">one repeat</text>
+  <text x="200" y="128" text-anchor="middle" font-family="Arial" font-size="12" fill="#486581">repeat 3 times → 6 beads</text>
+
+  <!-- Bit (small) at the left, "stamping" -->
+  <g transform="translate(40,80)">
+    <rect x="-22" y="-22" width="44" height="44" rx="14" fill="#6FE3C4" stroke="#2BB293" stroke-width="2.5"/>
+    <rect x="-14" y="-12" width="28" height="18" rx="7" fill="#102A43"/>
+    <circle cx="-6" cy="-3" r="3" fill="#7FFBE4"/><circle cx="6" cy="-3" r="3" fill="#7FFBE4"/>
+    <path d="M-6 4 Q0 8 6 4" fill="none" stroke="#7FFBE4" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

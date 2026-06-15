@@ -1,0 +1,133 @@
+{
+  "title": "Read and Change a Loop",
+  "file_title": "Read and Change a Loop",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Block Coding",
+    "title": "Read and Change a Loop",
+    "subtitle": "Ontario Math C3.2 — read & alter code",
+    "footer_topic": "5. Read and Change a Loop",
+    "learning_goal": "I can read a loop, change it, and say what happens.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Read the code first",
+        "text": [
+          "Good coders READ code before they change it — like reading a recipe before you cook.",
+          "Here is one of Bit's loops. Read it, see what it does, then change a number and predict the new result."
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Read this loop",
+        "blocks": [
+          {"cat": "events", "label": "when green flag clicked"},
+          {"cat": "control", "label": "repeat 5"},
+          {"cat": "motion", "label": "move 10 steps", "indent": 1}
+        ],
+        "note": "Bit moves 10 steps, 5 times. That is 5 moves and 50 steps in total."
+      },
+      {
+        "type": "image",
+        "src": "coding/pilot_g3_block_coding/05_read_alter_loop/number_line.svg",
+        "caption": "Read it as 5 jumps of 10 → 50 steps.",
+        "width": "70%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Read it",
+        "prompt": "Look at the loop above. How many times does Bit move? ______  Each move is 10 steps, so how far in TOTAL? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Change the count, predict",
+        "prompt": "Change repeat 5 to repeat 3. PREDICT: how many moves now, and how far in total? Then check.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Change the inside",
+        "prompt": "Now keep repeat 5, but change \"move 10\" to \"move 2\". How far does Bit go in total now? How did changing the inside block change the result?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "You want Bit to move 40 steps in total, moving 10 each time. What repeat number do you need? Show how you worked it out.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Read a loop to see what it does. Changing the repeat number changes how many times; changing the inside block changes what happens each time."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Block Coding",
+    "title": "Read and Change a Loop",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "5. Read & Alter — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students read an existing loop to state what it does, then alter the repeat count or the inside block and describe how the outcome changes (Ontario C3.2). Includes a work-backwards challenge."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Hook: read a recipe before changing an amount — read code before you change it.",
+          "2. Project the repeat-5 move-10 loop; read it together as 5 jumps of 10 = 50.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: count changes how many; inside changes what."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — 5 moves; 50 steps total.",
+          "Ex 2 — 3 moves; 30 steps.",
+          "Ex 3 — 10 steps (5 × 2); changing the inside block changed how far each move goes.",
+          "Ex 4 (challenge) — repeat 4 (40 ÷ 10 = 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: changing the count when the task asks to change the inside block (Ex 3), or vice versa.",
+          "Support: have students underline the part the question changes before solving.",
+          "Extend: ask what repeat gives 60 steps at 10 each (6)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student reads a loop to state its result (Ex 1), changes the count and predicts (Ex 2), changes the inside block and describes the effect (Ex 3), and works backwards to find a needed count (Ex 4)."
+      }
+    ]
+  }
+}

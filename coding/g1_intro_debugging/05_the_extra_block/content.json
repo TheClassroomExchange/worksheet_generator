@@ -1,0 +1,130 @@
+{
+  "title": "The Extra Block",
+  "file_title": "The Extra Block",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Intro Debugging",
+    "title": "The Extra Block",
+    "subtitle": "Take out the block that goes too far",
+    "footer_topic": "5. The Extra Block",
+    "learning_goal": "I can fix a program by removing an extra block.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Too far!",
+        "text": "Sometimes a program has one EXTRA block, so Bit goes too far and overshoots the target. Run the code, find the extra block, and cross it out to fix the program."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's number path",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Program 1 — target is 4",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 1" },
+          { "cat": "motion", "label": "forward 2" },
+          { "cat": "motion", "label": "forward 1" },
+          { "cat": "motion", "label": "forward 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run it — too far",
+        "prompt": "Run Program 1 from 1. What number does Bit land on? It goes past the target 4.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Remove the extra block",
+        "prompt": "Cross out ONE block so Bit lands exactly on 4. Which block did you remove? Run it again — what number now?",
+        "answer_lines": 2
+      },
+      {
+        "type": "blocks",
+        "title": "Program 2 — target is 1",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 0" },
+          { "cat": "motion", "label": "forward 2" },
+          { "cat": "motion", "label": "back 1" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — remove to fix",
+        "prompt": "Run Program 2 from 0. It lands on 0, not 1. Cross out ONE block so Bit lands on 1. Which block did you remove, and where does Bit land?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "If a program goes too far, it may have an extra block. Take out the one extra step so Bit lands right on the target."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Intro Debugging",
+    "title": "The Extra Block",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "5. The Extra Block — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students fix a bug where a program overshoots the target because it has one extra block; they remove the extra step and run again to confirm. Altering existing code by deleting a step and describing how it fixes the outcome is C3.2."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 so students walk past the target and feel the extra step."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: run Program 1 — 'start 1, forward 2 to 3, forward 1 to 4… forward 1 to 5. We passed the target — there's an extra block.'",
+          "2. WE DO: Exercise 1 — Bit lands on 5. Exercise 2 — cross out one 'forward 1'; the program lands on 4.",
+          "3. YOU DO: Exercise 3 — Program 2 lands on 0; remove one 'back 1' so 0 → 2 → 1.",
+          "4. Connect: 'Going too far can mean one extra block — take it out and check.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Program 1: 1 → 3 → 4 → 5. Bit lands on 5, past the target 4.",
+          "Ex 2 — remove one 'forward 1': 1 → 3 → 4. Bit lands on 4.",
+          "Ex 3 — Program 2: 0 → forward 2 → 2 → back 1 → 1 → back 1 → 0. Remove one 'back 1': 0 → 2 → 1. Bit lands on 1."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: removing the wrong kind of block — have students count how far past the target Bit went, then remove a step of that size.",
+          "Simplify: do Program 1 only; cross out the last block and re-run.",
+          "Extend: ask whether removing a different block could also reach the target, and test it.",
+          "Success indicator: the child removes one extra block in each program and lands Bit exactly on the target (4, then 1)."
+        ]
+      }
+    ]
+  }
+}

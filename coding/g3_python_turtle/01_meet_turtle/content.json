@@ -1,0 +1,139 @@
+{
+  "title": "Meet Python Turtle",
+  "file_title": "Meet Python Turtle",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Intro Python Turtle",
+    "title": "Meet Python Turtle",
+    "subtitle": "Ontario Math C3.1 — repeating events, now in typed code",
+    "footer_topic": "1. Meet Python Turtle",
+    "learning_goal": "I can read a typed loop that makes Bit move again and again.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Same loop — now typed",
+        "text": [
+          "You already used a repeat block to make Bit do something many times. Python Turtle does the SAME thing — but you TYPE it instead of dragging blocks.",
+          "Here is the repeat you know, and the same idea written in Python. Bit is the turtle that draws."
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "The block you know",
+        "blocks": [
+          {"cat": "control", "label": "repeat 3"},
+          {"cat": "motion", "label": "move 20", "indent": 1}
+        ],
+        "note": "Move 20, three times."
+      },
+      {
+        "type": "code",
+        "title": "The same thing in Python",
+        "language": "python",
+        "code": "for step in range(3):\n    bit.forward(20)",
+        "output": "Bit moves forward 20, three times → 60 steps."
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_python_turtle/01_meet_turtle/forward_line.svg",
+        "caption": "range(3) means do the inside 3 times — Bit makes 3 hops of 20.",
+        "width": "72%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Read it",
+        "prompt": "Look at the Python code. range(3) repeats the inside 3 times. How many times does Bit move forward? ______  Each hop is 20, so how far in TOTAL? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then run",
+        "prompt": "You change range(3) to range(5). PREDICT: how many hops, and how far in total? Then run it to check.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write your own",
+        "prompt": "Make Bit move forward 10, FOUR times. Fill in the two numbers:  for step in range(______):  bit.forward(______)",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Bit's code is  for step in range(4):  bit.forward(25). How far does Bit travel in total? Show how you worked it out.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "range(n) in a Python loop is just like repeat n in blocks — it does the inside n times. Typed code can repeat, exactly like blocks can."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Intro Python Turtle",
+    "title": "Meet Python Turtle",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "1. Meet Turtle — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students meet typed Python by reading a for-loop that repeats a forward move — bridging the repeat block they know to range(n) in code (the block→text bridge). First typed code; angles/turns come next sheet."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "Python Turtle projected (or a Turtle web playground); the printed worksheet + a pencil per student. Optional: a device per pair to run the code."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Recall the repeat block from Block Coding — show it beside the Python for-loop.",
+          "2. Read range(3) together as \"do it 3 times\"; run forward(20) and count the hops.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: range(n) = repeat n, just typed."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — 3 hops; 60 steps total.",
+          "Ex 2 — 5 hops; 100 steps; predicted = 100.",
+          "Ex 3 — range(4), forward(10).",
+          "Ex 4 (challenge) — 100 steps (4 × 25)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: reading range(3) as 3 + the start (thinking 4 hops) — it is exactly 3.",
+          "Support: point at the for-line and say \"do the indented line this many times\".",
+          "Extend: ask total steps for range(6), forward(10) (60)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student reads range(n) as \"repeat n times\", counts the hops and total distance (Ex 1–2), completes a for-loop line (Ex 3), and works out a total from a typed loop (Ex 4)."
+      }
+    ]
+  }
+}

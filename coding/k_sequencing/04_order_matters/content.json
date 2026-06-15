@@ -1,0 +1,120 @@
+{
+  "title": "Order Matters",
+  "file_title": "Order Matters",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Sequencing & Algorithms",
+    "title": "Order Matters",
+    "subtitle": "An algorithm is steps in order",
+    "footer_topic": "4. Order Matters",
+    "learning_goal": "I can follow steps in order and see where Bit lands.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "A plan made of steps",
+        "text": "A plan made of steps in order is called an ALGORITHM. Bit follows the steps one at a time. The arrow ➡ means 'move one box to the right.'"
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's board — Bit starts on box 1",
+        "size": "lg",
+        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3", "label": "★" }]
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's steps",
+        "size": "lg",
+        "items": ["➡", "➡"],
+        "note": "Do the steps in order: first ➡ (box 1 → box 2), then ➡ (box 2 → box 3)."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "One step",
+        "prompt": "Bit starts on box 1 and does ➡ one time. Which box is Bit on now? Circle it.   box 1    box 2    box 3",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Two steps",
+        "prompt": "Bit starts on box 1 and does ➡ ➡ (two times). Which box is Bit on now? Circle it.   box 1    box 2    box 3",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — reach the star",
+        "prompt": "How many ➡ does Bit need to get from box 1 to the star on box 3? Write the number.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "The number of steps decides where Bit lands. Doing the steps in order — one at a time — is how a computer follows an algorithm."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Sequencing & Algorithms",
+    "title": "Order Matters",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "4. Order Matters — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children meet the 1D board and the move arrow ➡, and see that the number of steps decides where Bit lands. This introduces an algorithm as a list of ordered steps carried out one at a time — the spine of the next three sheets."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children carry out a short ordered sequence of moves.",
+          "No reading required of the child: read each prompt aloud; the child circles the landing box and writes a number."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil. Optional: tape three boxes on the floor and walk Bit's steps."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: point to box 1. 'One ➡ moves Bit to box 2. Another ➡ moves Bit to box 3 — the star.'",
+          "2. GUIDED: Exercise 1 together — one step lands on box 2.",
+          "3. YOU TRY: children do two steps (Ex 2 → box 3), then count the steps to the star (Ex 3 → 2).",
+          "4. Connect: 'Doing steps in order, one at a time, is how a computer follows an algorithm.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — ➡ ➡ from box 1 lands on box 3 (the star).",
+          "Ex 1 — one ➡ → box 2.   Ex 2 — two ➡ → box 3.",
+          "Ex 3 — Bit needs 2 steps (➡ ➡) to reach the star on box 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: counting the starting box as a move — the first ➡ is the first MOVE from box 1 to box 2.",
+          "Simplify: walk the steps on floor boxes before using the page.",
+          "Extend: add a box 4 and ask how many steps to reach it (3).",
+          "Movement option: children take one step per ➡ you call out and freeze on the landing box."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child lands Bit on the correct box for one and two steps and counts that 2 steps reach the star."
+      }
+    ]
+  }
+}

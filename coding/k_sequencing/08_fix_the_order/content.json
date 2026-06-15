@@ -1,0 +1,115 @@
+{
+  "title": "Fix the Order",
+  "file_title": "Fix the Order",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Sequencing & Algorithms",
+    "title": "Fix the Order",
+    "subtitle": "Find the wrong step and fix it",
+    "footer_topic": "8. Fix the Order",
+    "learning_goal": "I can find the step that is wrong and fix it so Bit reaches the star.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Bit's steps did not work",
+        "text": "Bit followed the arrows but did NOT reach the star. One step is wrong, or one is missing or extra. Finding and fixing it is called DEBUGGING. Bit starts on box 1; the star is on box 3."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit — these steps land on box 2, not the star",
+        "size": "lg",
+        "items": ["➡", "⬅", "➡"],
+        "note": "➡ ⬅ ➡ goes right, left, right — Bit ends on box 2. The ⬅ is the wrong step. Fix: ➡ ➡."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "A step is missing",
+        "prompt": "Star is on box 4. Bit's steps ➡ ➡ only reach box 3. What is missing? Draw the fix (the whole correct program).",
+        "grid": { "rows": 1, "cols": 3 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "A step is extra",
+        "prompt": "Star is on box 2. Bit's steps ➡ ➡ go too far to box 3. Cross out the extra arrow and draw the fix.",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — a wrong turn",
+        "prompt": "Star is on box 3. Bit's steps ⬅ ➡ ➡ land on box 2. Circle the wrong arrow and draw the fix.",
+        "grid": { "rows": 1, "cols": 2 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "When a plan does not work, you find the wrong step and fix it — that is debugging. Every coder does it, and so can you!"
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Sequencing & Algorithms",
+    "title": "Fix the Order",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "8. Fix the Order — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children test a buggy arrow program, find the wrong/missing/extra step, and fix it so Bit reaches the star. Testing and correcting a sequence is debugging — the K-appropriate close to the sequencing arc."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children detect and correct an error in a sequence of steps.",
+          "No reading required of the child: read each prompt aloud; the child circles/crosses out and draws the fix."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil. Optional: floor boxes to walk the buggy program and feel where it goes wrong."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: walk ➡ ⬅ ➡ from box 1 — box 2, box 1, box 2. It ends on box 2, not the star. The ⬅ is the bug; fix to ➡ ➡.",
+          "2. GUIDED: Exercise 1 — the program is one step short; add a ➡ so it is ➡ ➡ ➡ to box 4.",
+          "3. YOU TRY: remove the extra arrow (Ex 2 → ➡), then fix the wrong first arrow (Ex 3 → ➡ ➡).",
+          "4. Connect: 'When a plan does not work, find the wrong step and fix it — that is debugging.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — ➡ ⬅ ➡ lands box 2; the ⬅ is wrong; fix to ➡ ➡ (box 3).",
+          "Ex 1 — ➡ ➡ reaches only box 3; a step is missing; fix to ➡ ➡ ➡ (box 4).",
+          "Ex 2 — ➡ ➡ overshoots to box 3; remove one arrow; fix to ➡ (box 2).",
+          "Ex 3 — ⬅ ➡ ➡ lands box 2; the first ⬅ is wrong; fix to ➡ ➡ (box 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: changing a correct step — have them walk the program first to see exactly where it fails.",
+          "Simplify: use only 'missing/extra' bugs before the wrong-direction bug.",
+          "Extend: have a child write a buggy program for a partner to debug.",
+          "Movement option: walk the buggy steps as a class and stop the instant Bit is off track."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child identifies the wrong/missing/extra step and draws a corrected program that lands Bit on the star."
+      }
+    ]
+  }
+}

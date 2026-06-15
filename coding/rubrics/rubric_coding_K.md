@@ -16,6 +16,11 @@ criterion's checklist **top-down and stops at the highest level where *every*
 item is met**. **Pass = total ≥ 15/20 AND Criterion 2 ≥ L3 (hard gate).**
 A worksheet that fails the hard gate cannot ship regardless of total.
 
+> **PUBLISH GATE (this pipeline, all grades — enforced by `pipeline/coding_rubric.py`):
+> total ≥ 19/20 AND C2 ≥ L3 AND C3 = L4 AND C5 = L4.** The only droppable point is
+> C1 or C4 → L3. The ≥15 line above is the documented minimum-viable score; shipping
+> a paid product requires the stricter bar.
+
 ### C1 — Curriculum & Computational-Thinking Alignment
 - **L1:** Names a CT idea (sequence/pattern/direction) but the activity doesn't actually exercise it.
 - **L2:** Activity touches one CT idea; link to the K frame is implied, not stated.

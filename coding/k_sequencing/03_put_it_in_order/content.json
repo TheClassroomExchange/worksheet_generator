@@ -1,0 +1,120 @@
+{
+  "title": "Put It in Order",
+  "file_title": "Put It in Order",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Sequencing & Algorithms",
+    "title": "Put It in Order",
+    "subtitle": "Four steps in the right order",
+    "footer_topic": "3. Put It in Order",
+    "learning_goal": "I can put four steps in order from first to last.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Bit's plant grows step by step",
+        "text": "Bit's plant grows a new leaf each day: 1 leaf, then 2, then 3, then 4. The steps go in order from fewest to most."
+      },
+      {
+        "type": "symbols",
+        "title": "In order — 1, 2, 3, 4 leaves",
+        "size": "lg",
+        "items": [{ "sym": "▲", "label": "day 1" }, { "sym": "▲ ▲", "label": "day 2" }, { "sym": "▲ ▲ ▲", "label": "day 3" }, { "sym": "▲ ▲ ▲ ▲", "label": "day 4" }]
+      },
+      {
+        "type": "symbols",
+        "title": "Now these are mixed up",
+        "size": "md",
+        "items": [{ "sym": "▲ ▲ ▲ ▲", "label": "?" }, { "sym": "▲ ▲", "label": "?" }, { "sym": "▲", "label": "?" }, { "sym": "▲ ▲ ▲", "label": "?" }]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Write the order",
+        "prompt": "Write 1, 2, 3, 4 under the mixed-up steps to put them in order (fewest leaves to most).",
+        "grid": { "rows": 1, "cols": 4 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Which is first? Which is last?",
+        "prompt": "Circle the step that is FIRST (1 leaf). Put an X on the step that is LAST (4 leaves).",
+        "answer_lines": 0
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — draw the next step",
+        "prompt": "After 4 leaves comes day 5. Draw the next step (5 leaves).",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Putting several steps in the right order makes a plan. A plan of ordered steps is an algorithm — and computers follow them step by step."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Sequencing & Algorithms",
+    "title": "Put It in Order",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. Put It in Order — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children sequence four steps into the correct order (fewest to most). Arranging several steps in order is the heart of building an algorithm — a plan a computer can follow step by step."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children order a multi-step process.",
+          "No reading required of the child: read each prompt aloud; the child writes 1-4 and draws."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil. Optional: cards with 1-4 dots to lay out in order by hand."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: count the in-order plant — 'one leaf, two, three, four.' The count grows by one each day.",
+          "2. GUIDED: Exercise 1 — number the mixed cards by counting leaves (fewest = 1).",
+          "3. YOU TRY: children mark first and last (Ex 2), then draw day 5 with five leaves (Ex 3).",
+          "4. Connect: 'A plan of ordered steps is an algorithm — computers follow them in order.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — in order: 1 leaf, 2 leaves, 3 leaves, 4 leaves.",
+          "Ex 1 — under the mixed cards [4, 2, 1, 3 leaves] write [4, 2, 1, 3].",
+          "Ex 2 — circle the 1-leaf card (first); X on the 4-leaf card (last).",
+          "Ex 3 — draw a step with 5 leaves (▲ ▲ ▲ ▲ ▲)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: numbering left-to-right by position — have them count leaves before writing.",
+          "Simplify: order three cards (1-3) before four.",
+          "Extend: shuffle and re-order, or order steps of a real routine (wash, dry, etc.).",
+          "Movement option: hand four children 1-4 objects and have them line up in order."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child numbers the four steps 1-4 by count and draws a correct five-leaf next step."
+      }
+    ]
+  }
+}

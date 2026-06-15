@@ -1,0 +1,134 @@
+{
+  "title": "Loops That Make Patterns",
+  "file_title": "Loops That Make Patterns",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Block Coding",
+    "title": "Loops That Make Patterns",
+    "subtitle": "Ontario Math C3.1 — repeating events",
+    "footer_topic": "2. Loops That Make Patterns",
+    "learning_goal": "I can use a repeat loop to make a pattern that repeats.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Patterns repeat",
+        "text": [
+          "Look at a striped shirt or a bead bracelet — the same part shows up again and again. That is a pattern.",
+          "A repeat loop runs ALL the blocks inside it each time around. So if you put two stamps inside, the loop makes a repeating pattern for you. Watch Bit make a bead pattern."
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Read this loop",
+        "blocks": [
+          {"cat": "events", "label": "when green flag clicked"},
+          {"cat": "control", "label": "repeat 3"},
+          {"cat": "looks", "label": "stamp red bead", "indent": 1},
+          {"cat": "looks", "label": "stamp blue bead", "indent": 1}
+        ],
+        "note": "Both stamps run each time. 3 repeats of (red, blue) makes 6 beads: red, blue, red, blue, red, blue."
+      },
+      {
+        "type": "image",
+        "src": "coding/pilot_g3_block_coding/02_loops_draw/bead_pattern.svg",
+        "caption": "Bit stamps red, blue — and the loop repeats it 3 times.",
+        "width": "62%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Count it",
+        "prompt": "The loop repeats 3 times and stamps 2 beads each time. How many beads each repeat? ______  How many beads in TOTAL? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then check",
+        "prompt": "Change repeat 3 to repeat 4. PREDICT how many beads Bit makes now, then CHECK by counting 2 for each repeat. How many beads?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write your own",
+        "prompt": "Make Bit stamp a heart-then-star pattern 5 times. Write the repeat number:  repeat ______ → ( stamp heart, stamp star )",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Now there are THREE stamps inside:  repeat 3 → ( ●, ▲, ■ ). How many stamps in total? Draw what the pattern looks like.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A loop repeats the WHOLE inside each time. The blocks inside are one piece of the pattern — repeat them to make the pattern grow."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Block Coding",
+    "title": "Loops That Make Patterns",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "2. Patterns — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students see that a repeat loop runs every block inside it each pass, so a loop with two or more actions builds a repeating pattern. They count, change, and write pattern loops."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student; optional coloured pencils for the pattern."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Hook: show a bead bracelet or AB pattern — name the part that repeats.",
+          "2. Project the repeat-3 (red, blue) loop; stamp it out together, counting beads.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: the loop repeats the WHOLE inside each pass."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — 2 beads each repeat; 6 beads total (2 × 3).",
+          "Ex 2 — 8 beads (2 × 4); predicted = 8.",
+          "Ex 3 — repeat 5 (makes 10 stamps).",
+          "Ex 4 (challenge) — 9 stamps (3 × 3); pattern ●▲■ ●▲■ ●▲■."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: counting only one stamp per repeat instead of all the inside blocks.",
+          "Support: tap each inside block as you say the repeat out loud.",
+          "Extend: ask how many beads if repeat 4 had THREE stamps inside (12)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student says how many stamps run per repeat and in total (Ex 1–2), writes a repeat number to make a pattern of a set length (Ex 3), and reasons that all the inside blocks repeat together (Ex 4)."
+      }
+    ]
+  }
+}

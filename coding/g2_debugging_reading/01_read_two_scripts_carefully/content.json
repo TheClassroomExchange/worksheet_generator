@@ -1,0 +1,142 @@
+{
+  "title": "Read Two Scripts Carefully",
+  "file_title": "Read Two Scripts Carefully",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Debugging & Reading Code",
+    "title": "Read Two Scripts Carefully",
+    "subtitle": "Trace both, move by move",
+    "footer_topic": "1. Read Two Scripts Carefully",
+    "learning_goal": "I can read two scripts that run at the same time and find where each one lands.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Good coders read carefully",
+        "text": "Before you can fix code, you must READ it carefully. Bit (green) and Pixel (purple) both start on the green flag, so they run at the same time. Each one has TWO moves. Read each script one move at a time and find where each sprite lands."
+      },
+      {
+        "type": "symbols",
+        "title": "The number path",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/bit_wave.svg",
+        "caption": "Bit",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 2" },
+          { "cat": "motion", "label": "forward 1" }
+        ]
+      },
+      {
+        "type": "image",
+        "src": "assets/mascots/pixel_wave.svg",
+        "caption": "Pixel",
+        "width": "13%"
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "back 1" },
+          { "cat": "motion", "label": "back 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Read Bit's script",
+        "prompt": "Trace Bit from home 0: forward 2, then forward 1. What number does Bit land on?",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Read Pixel's script",
+        "prompt": "Trace Pixel from home 5: back 1, then back 1. What number does Pixel land on?",
+        "grid": { "rows": 1, "cols": 1 }
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Put them together",
+        "prompt": "Both start on the same green flag. Write where each lands. Bit: ____  Pixel: ____. Do they land on the same number?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Reading code means tracing each block in order. With two scripts running at once, read each one carefully on its own, then put the results together. Careful reading is the first step to finding bugs."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Debugging & Reading Code",
+    "title": "Read Two Scripts Carefully",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "1. Read Two Scripts Carefully — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "The first sheet of the debugging subject builds the foundation skill: reading two concurrent scripts accurately. BOTH scripts here are correct (no bug yet) — students trace each one move by move and confirm the combined outcome. Accurate reading of code that involves concurrent events is the Grade-2 C3.2 skill every later debugging sheet depends on."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: two counters (green Bit, purple Pixel) on a 0-5 path; trace each script one move at a time before putting the results together."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: trace Bit out loud — 'home 0, forward 2 → 2, forward 1 → 3.' Point to each block as you read it.",
+          "2. WE DO: trace Pixel together — 'home 5, back 1 → 4, back 1 → 3.'",
+          "3. YOU DO: students record both landings and notice both are on 3 (they meet).",
+          "4. Connect: 'Read each script carefully on its own, then put them together — that is how we will find bugs next.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Bit: 0 → forward 2 → 2 → forward 1 → 3. Bit lands on 3.",
+          "Ex 2 — Pixel: 5 → back 1 → 4 → back 1 → 3. Pixel lands on 3.",
+          "Ex 3 — both start on the one green flag; Bit lands on 3 and Pixel lands on 3 → yes, the same number (they meet).",
+          "Reading note: there is no bug on this sheet — the point is accurate tracing, which the next sheets build on to find bugs."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: dropping the second move — remind students each script has TWO moves to read in order.",
+          "Common error: starting both from the same home — Bit starts at 0, Pixel at 5; read each hat's sprite.",
+          "Simplify: trace one script fully, then the other, before combining.",
+          "Extend: ask students to add one more move to either script that would still land both on the same number.",
+          "Success indicator: the child lands both on 3 by reading each script accurately, move by move."
+        ]
+      }
+    ]
+  }
+}

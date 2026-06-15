@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "BUGGY -> Bit 3, Pixel 4 -> meet on 3? False ✗\nFIXED -> Bit 3, Pixel 3 -> meet on 3? True ✓\n\nALL CHECKS PASSED — Pixel's script was the bug; back 1 -> back 2 makes the pair meet on 3.\n",
+  "stderr": ""
+}

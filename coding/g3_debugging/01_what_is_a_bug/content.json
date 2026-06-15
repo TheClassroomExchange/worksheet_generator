@@ -1,0 +1,133 @@
+{
+  "title": "What Is a Bug?",
+  "file_title": "What Is a Bug",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Debugging",
+    "title": "What Is a Bug?",
+    "subtitle": "Ontario Math C3.2 — read, find, and fix code",
+    "footer_topic": "1. What Is a Bug?",
+    "learning_goal": "I can find a bug in a loop and fix the repeat number.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "A bug is a mistake in code",
+        "text": [
+          "A bug is a mistake that makes code do the wrong thing. Debugging is finding and fixing it.",
+          "Use 3 steps: say what the code SHOULD do, see what it DOES, then FIX the wrong part. Today the bug is the repeat number."
+        ]
+      },
+      {
+        "type": "image",
+        "src": "coding/g3_debugging/01_what_is_a_bug/method.svg",
+        "caption": "Debug in 3 steps: SHOULD → DOES → FIX.",
+        "width": "78%"
+      },
+      {
+        "type": "blocks",
+        "title": "Bit should JUMP 5 times — but this is buggy",
+        "blocks": [
+          {"cat": "events", "label": "when green flag clicked"},
+          {"cat": "control", "label": "repeat 3"},
+          {"cat": "looks", "label": "jump", "indent": 1}
+        ],
+        "note": "It should be 5 jumps, but repeat 3 makes only 3. Fix the repeat number to 5."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Find the bug",
+        "prompt": "Bit should CLAP 6 times. The code says repeat 4. What is wrong, and what should the repeat number be? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Too many this time",
+        "prompt": "Bit should MOVE 4 times, but the code says repeat 7. Is that too many or too few? What should it be?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write the fix",
+        "prompt": "Bit should HOP 8 times. The code says repeat 2. Write the repeat number that fixes it:  repeat ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Bit should clap 6 times. The loop has TWO claps inside and says repeat 6 — so Bit claps 12! What repeat number gives exactly 6 claps? Explain.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "To debug: say what the code SHOULD do, compare it to what it DOES, and change the wrong part. A wrong repeat number is the most common loop bug."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Debugging",
+    "title": "What Is a Bug?",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "1. What Is a Bug — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students learn the debugging method — SHOULD, DOES, FIX — and apply it to find and fix a wrong repeat count in a loop (C3.2). The challenge separates total count from repeat count when two blocks are inside."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block-coding app (Scratch-style) to show a buggy loop and fix it live; the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Define bug + debugging; introduce SHOULD → DOES → FIX with the jump example.",
+          "2. Run repeat 3 (3 jumps) vs the goal (5); fix to repeat 5 together.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: name the goal first, then find the wrong part."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — repeat 6 (repeat 4 is too few).",
+          "Ex 2 — too many; should be repeat 4.",
+          "Ex 3 — repeat 8.",
+          "Ex 4 (challenge) — repeat 3 (2 claps × 3 = 6); repeat 6 gives 12."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: not checking the goal first, so any number 'looks' fine.",
+          "Support: write the GOAL number, then compare to the repeat number.",
+          "Extend: ask the repeat for 10 claps with 2 inside (5)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student states the goal, compares it to what the code does, and fixes the repeat number — including when two blocks inside change the total (Ex 4)."
+      }
+    ]
+  }
+}

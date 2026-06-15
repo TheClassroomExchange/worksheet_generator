@@ -1,0 +1,115 @@
+{
+  "title": "Break It Into Parts",
+  "file_title": "Break It Into Parts",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Kindergarten · Unplugged Thinking",
+    "title": "Break It Into Parts",
+    "subtitle": "Big things are made of small parts",
+    "footer_topic": "6. Break It Into Parts",
+    "learning_goal": "I can break a big picture into the small shapes that make it.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Big things are made of parts",
+        "text": "Look closely and you will see that big things are built from smaller shapes. Breaking a big thing into its parts is called DECOMPOSITION."
+      },
+      {
+        "type": "symbols",
+        "title": "Watch Bit — a rocket is made of 2 parts",
+        "size": "lg",
+        "items": [{ "sym": "▲", "label": "top" }, { "sym": "■", "label": "body" }],
+        "note": "Bit's rocket is a triangle on top of a square. That is 2 parts."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "A house — draw its 2 parts",
+        "prompt": "A house is made of a square ■ (walls) and a triangle ▲ (roof). Draw the two parts, one in each box.",
+        "grid": { "rows": 1, "cols": 2 }
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "A snowman — draw its 3 parts",
+        "prompt": "A snowman is made of three circles ● ● ●. Draw the three parts, one in each box.",
+        "grid": { "rows": 1, "cols": 3 }
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — Bit the robot",
+        "prompt": "Bit is made of 4 parts: a square ■ body, a circle ● head, and two square ■ ■ feet. Draw all four parts, one in each box.",
+        "grid": { "rows": 1, "cols": 4 }
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Breaking a big thing into small parts is called decomposition. Coders do it too — they break a big problem into small, easy steps."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Kindergarten · Unplugged Thinking",
+    "title": "Break It Into Parts",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "6. Break It Into Parts — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Children see that a whole picture is built from smaller shape parts, and name/draw those parts. Breaking a whole into parts is decomposition — the computational-thinking skill of splitting a big problem into smaller, manageable pieces."
+      },
+      {
+        "type": "prose",
+        "title": "Kindergarten frame (Ontario)",
+        "text": [
+          "Problem Solving and Innovating — children analyze how a whole is composed of parts.",
+          "No reading required of the child: read each prompt aloud; the child draws the parts."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet + a pencil/crayon. Optional: pattern blocks to build a house/rocket and then take it apart into its shapes."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 15 min)",
+        "text": [
+          "1. MODEL: show the rocket — 'a triangle on top, a square for the body. That is 2 parts.'",
+          "2. GUIDED: do the house in Exercise 1 together — square walls + triangle roof.",
+          "3. YOU TRY: children draw the snowman's 3 circles (Ex 2), then Bit the robot's 4 parts (Ex 3).",
+          "4. Connect: 'Coders break a big job into small steps — just like we broke the robot into parts.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Model — rocket = 2 parts (1 triangle + 1 square).",
+          "Ex 1 — house = 2 parts (1 square + 1 triangle).",
+          "Ex 2 — snowman = 3 parts (3 circles).",
+          "Ex 3 — Bit the robot = 4 parts (3 squares + 1 circle)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: drawing the whole picture instead of separate parts — point to each empty box as one part.",
+          "Simplify: build the object with blocks, then lift each shape out and name it.",
+          "Extend: ask the child what other things are made of parts (a face, a flower, a car).",
+          "Movement option: build a 'robot' with bodies — children each become one part (head, body, feet)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The child draws the correct number of separate shape parts for each whole (2, 3, then 4)."
+      }
+    ]
+  }
+}

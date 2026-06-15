@@ -1,0 +1,129 @@
+{
+  "title": "The Missing Block",
+  "file_title": "The Missing Block",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 2 · Debugging & Reading Code",
+    "title": "The Missing Block",
+    "subtitle": "A script lands short — add the missing block",
+    "footer_topic": "6. The Missing Block",
+    "learning_goal": "I can find a script that is missing a block and add the block it needs.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Pixel stops too soon",
+        "text": "Bit (green) and Pixel (purple) both start on the green flag. They should MEET on number 3. Bit reaches 3, but Pixel stops too soon — its script is MISSING a block. The dashed box shows where a block is missing. Read both, work out the missing move, and add it."
+      },
+      {
+        "type": "symbols",
+        "title": "The goal: meet on 3",
+        "size": "md",
+        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3", "label": "★ goal" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Bit's script (correct)",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "forward 3" }
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Pixel's script (a block is missing)",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "⚑ when green flag clicked" },
+          { "cat": "motion", "label": "back 1" },
+          { "blank": true }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run it as it is",
+        "prompt": "Run Pixel with just its one move from home 5: back 1. What number does Pixel land on? Does it reach the goal 3?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "What is missing?",
+        "prompt": "Pixel is on 4 but the goal is 3. How many more squares back does Pixel need to go? What ONE block is missing?",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Add the missing block",
+        "prompt": "Write the missing block in the dashed box: ____ ____. After you add it, where does Pixel land? Do both meet on 3 now?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "Sometimes a script is missing a block, so it stops before the goal. Count how far the sprite still needs to go, then ADD the block that finishes the job. Here Pixel needed one more 'back 1' to reach 3."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 2 · Debugging & Reading Code",
+    "title": "The Missing Block",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "6. The Missing Block — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students fix a MISSING-block bug by writing the block a script needs (C3.1 write + C3.2 alter). The goal is 'meet on 3'; Bit is correct, but Pixel has only one 'back 1' (lands on 4) and the dashed slot shows a block is missing. Students work out the remaining distance and add 'back 1'. Adding a block to complete a script is a key debugging-and-writing skill."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a star on square 3; run Pixel's one move, then count the remaining squares to the star to find the missing block."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: state the goal — 'meet on 3.' Run Bit: 0 forward 3 → 3 (correct).",
+          "2. WE DO: run Pixel with its one move: 5 back 1 → 4. 'Pixel stops on 4 — one square short. A block is missing.'",
+          "3. YOU DO: students count 4 → 3 (one more back), write 'back 1' in the dashed box, and confirm Pixel reaches 3.",
+          "4. Connect: 'If a script stops short, add the block that finishes the path.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Pixel with one move: 5 → back 1 → 4. It does NOT reach the goal 3 (one short).",
+          "Ex 2 — Pixel is on 4 and needs 3, so it needs 1 more square back; the missing block is 'back 1'.",
+          "Ex 3 — add 'back 1' in the dashed box → Pixel: 5 → back 1 → 4 → back 1 → 3. Now both meet on 3.",
+          "Fix note: a single 'back 1' completes it; a child who writes 'back 1' (or an equivalent that lands on 3) is correct."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common error: adding a forward block — Pixel is past the goal's side, so it needs to keep going back.",
+          "Common error: over-adding (back 2) so Pixel overshoots to 2 — count the remaining distance carefully (just 1).",
+          "Simplify: put a finger on Pixel's current spot (4) and hop to the star (3) — one hop back.",
+          "Extend: ask what would be missing if Pixel's first move were 'back 2' instead (nothing — it would already be on 3).",
+          "Success indicator: the child adds one 'back 1' and confirms both sprites meet on 3."
+        ]
+      }
+    ]
+  }
+}

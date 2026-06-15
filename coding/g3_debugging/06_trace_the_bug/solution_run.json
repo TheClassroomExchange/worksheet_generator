@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Worked / Ex 1: range(3) f50 r90 -> traces 3 sides, NOT closed -> FIX range(4) ✓\nEx 2: trace (jump, jump) × 4 -> 8 jumps (goal 4) -> too many -> FIX repeat 2 ✓\nEx 3 (predict): range(5) f50 r90 -> traces 5 sides (overshoots) -> FIX range(4) ✓\nEx 4 (challenge): range(4) f50 r60 -> 4 sides but won't close (turn wrong) -> FIX right 90 ✓\n\nALL CHECKS PASSED — every traced result + fix is correct.\n",
+  "stderr": ""
+}

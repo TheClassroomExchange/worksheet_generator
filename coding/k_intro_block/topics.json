@@ -1,0 +1,82 @@
+{
+  "batch_id": "k_intro_block",
+  "grade": "Kindergarten",
+  "subject": "Intro Block Coding",
+  "rubric": "rubric_coding_K.md",
+  "locked": true,
+  "arc_note": "K-frame (Problem Solving & Innovating) — NO C3 codes, NO text code, NO loops. The distinct lane is the BLOCK STACK: a program is a stack of coloured ScratchJr-style blocks that SNAP together and run TOP-TO-BOTTOM, one block at a time. This is what separates it from the other two K subjects — Unplugged CT (classify/pattern/sort lane) and Sequencing & Algorithms (loose directional arrows on a 1D path board). Here the program is a tangible object: a green GO/flag start block (cat 'operators', glyph ⚑) on top, then blue MOVE blocks (cat 'motion', single arrow glyph ➡ ⬅ ⬆ ⬇). Built with the `blocks` part at size 'lg' so a single symbol reads large (NOT emoji — too small). The arc weights block STRUCTURE (what a block is, the start block, run-order, block types, build/fix a stack) over path-tracing; when an outcome IS shown it's a tiny 1D stage rendered with the `symbols` row (Bit + ★), ≤4 move blocks, 1D so only ➡/⬅ trace. Every answer (the start block, the run order, each block's direction, the landing cell, the missing/buggy block) is MODELLED + asserted in solution.py. Picture/symbol-driven; adult reads the short prompt, child circles/draws/writes the arrow. Bit is the actor the stack controls and models each worked example.",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "meet-the-blocks",
+      "dir": "01_meet_the_blocks",
+      "title": "Meet the Blocks",
+      "concept": "a program is a stack of blocks; the green GO/flag block on top starts it — find the start block",
+      "ct_skill": "what a block / a program is",
+      "status": "built"
+    },
+    {
+      "nn": "02",
+      "slug": "run-it-top-to-bottom",
+      "dir": "02_run_it_top_to_bottom",
+      "title": "Run It Top to Bottom",
+      "concept": "a stack runs from the top block down, one block at a time — number the blocks in run order",
+      "ct_skill": "execution order of a stack",
+      "status": "built"
+    },
+    {
+      "nn": "03",
+      "slug": "move-blocks",
+      "dir": "03_move_blocks",
+      "title": "Move Blocks",
+      "concept": "each move block tells Bit one way to go (➡ ⬅ ⬆ ⬇) — match each block to its direction",
+      "ct_skill": "block vocabulary / instruction = one action",
+      "status": "built"
+    },
+    {
+      "nn": "04",
+      "slug": "read-bits-stack",
+      "dir": "04_read_bits_stack",
+      "title": "Read Bit's Stack",
+      "concept": "read a short stack (GO + move blocks) and find where Bit lands on the stage",
+      "ct_skill": "tracing / running a program",
+      "status": "built"
+    },
+    {
+      "nn": "05",
+      "slug": "finish-the-stack",
+      "dir": "05_finish_the_stack",
+      "title": "Finish the Stack",
+      "concept": "a stack is missing one block to reach the star — choose the move block that completes it",
+      "ct_skill": "completing a program",
+      "status": "built"
+    },
+    {
+      "nn": "06",
+      "slug": "match-the-stack",
+      "dir": "06_match_the_stack",
+      "title": "Match the Stack",
+      "concept": "match a block stack to the picture of what Bit does — same stack, same result",
+      "ct_skill": "abstraction (stack ↔ outcome)",
+      "status": "built"
+    },
+    {
+      "nn": "07",
+      "slug": "build-bits-stack",
+      "dir": "07_build_bits_stack",
+      "title": "Build Bit's Stack",
+      "concept": "make a short program — draw the arrows in the blank blocks to get Bit to the star",
+      "ct_skill": "composing a program",
+      "status": "built"
+    },
+    {
+      "nn": "08",
+      "slug": "fix-the-stack",
+      "dir": "08_fix_the_stack",
+      "title": "Fix the Stack",
+      "concept": "debugging — one block points the wrong way so Bit misses the star; find it and fix it",
+      "ct_skill": "debugging a program",
+      "status": "built"
+    }
+  ]
+}

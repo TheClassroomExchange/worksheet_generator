@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "stdout": "Order of events: Bit first (green flag), then Pixel (receives 'start') ✓\nLandings -> Bit 4, Pixel 2 ✓\n\nALL CHECKS PASSED — Bit runs first and sends 'start'; Pixel runs second on the message. Bit 4, Pixel 2.\n",
+  "stderr": ""
+}

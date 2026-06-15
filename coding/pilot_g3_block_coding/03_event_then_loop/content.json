@@ -1,0 +1,134 @@
+{
+  "title": "Start It, Then Repeat",
+  "file_title": "Start It Then Repeat",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Block Coding",
+    "title": "Start It, Then Repeat",
+    "subtitle": "Ontario Math C3.1 — events + repeating",
+    "footer_topic": "3. Start It, Then Repeat",
+    "learning_goal": "I can use an event to start a loop that repeats.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What starts the code?",
+        "text": [
+          "Think of an alarm going off — that is what STARTS your morning. In code, an event block (like \"when the green flag is clicked\") starts a script.",
+          "After the event starts it, a repeat loop can run again and again. The event is the GO signal; the loop does the repeating. Bit will show you."
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Read this script",
+        "blocks": [
+          {"cat": "events", "label": "when this sprite clicked"},
+          {"cat": "control", "label": "repeat 3"},
+          {"cat": "looks", "label": "next costume", "indent": 1},
+          {"cat": "control", "label": "wait 0.5 seconds", "indent": 1}
+        ],
+        "note": "Clicking Bit is the EVENT that starts the script. Then the loop repeats the inside 3 times."
+      },
+      {
+        "type": "image",
+        "src": "coding/pilot_g3_block_coding/03_event_then_loop/event_loop.svg",
+        "caption": "The event is the GO signal; the loop does the repeating.",
+        "width": "70%"
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Count it",
+        "prompt": "In the script above, the event starts the loop. The loop says repeat 3. How many times do the inside blocks run? ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Predict, then check",
+        "prompt": "You change \"when this sprite clicked\" to \"when green flag clicked\". The loop is the same. PREDICT: what is different now — WHAT do you do to start it? Write your answer.",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write your own",
+        "prompt": "Make Bit spin 4 times when the SPACE key is pressed. Fill in the blanks:  when ______ key pressed → repeat ______ → ( turn )",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "Bit has: when flag clicked → repeat 5 → ( move ). If you click the green flag ONCE, how many moves? If you click it TWICE? Explain why.",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "An event block STARTS the code. The loop inside it does the repeating. Fire the event again and the loop runs again."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Block Coding",
+    "title": "Start It, Then Repeat",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. Events + Loops — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students see that an EVENT block starts a script and a repeat loop inside it does the repeating. They count the loop, change the event, write an event+loop, and reason about firing the event twice."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Hook: an alarm (event) starts a routine that repeats — name the GO signal.",
+          "2. Project the when-clicked → repeat-3 script; click Bit, count the repeats aloud.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: the event starts it, the loop repeats it."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — 3 times.",
+          "Ex 2 — Now you START it by clicking the green flag instead of clicking Bit (the loop runs the same).",
+          "Ex 3 — when SPACE key pressed → repeat 4.",
+          "Ex 4 (challenge) — One click = 5 moves; two clicks = 10. The event fires twice, so the loop runs twice."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: thinking the event itself repeats — it is the loop that repeats, not the event.",
+          "Support: point to the event block, say \"GO\", then trace the loop runs on fingers.",
+          "Extend: ask how many moves if you click the flag three times (15)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student names what starts a script (the event), counts the loop runs (Ex 1), changes the event and describes the difference (Ex 2), writes an event+loop (Ex 3), and reasons that firing the event again re-runs the loop (Ex 4)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "inspected_pages": [
+    "worksheet p1",
+    "worksheet p2",
+    "teacher guide p1"
+  ],
+  "c4_layout_ok": true,
+  "status": "pass",
+  "notes": "CHALLENGE Debug Detective (FINAL catalogue sheet). Goal meet-on-3 (star). Two-move scripts: Bit home0 fwd1 fwd2->3 correct; Pixel home5 back1 back3->1 overshoots (wrong-number too-big bug). Diagnose which+kind, fix back3->back1->3, explain. Ex1 run-both, Ex2 name-the-bug-type, Ex3 fix+explain. TG: name bug, change only what is wrong. Clean 2pp ws + 1pp TG."
+}

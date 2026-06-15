@@ -1,0 +1,127 @@
+{
+  "title": "The Wrong Block Inside",
+  "file_title": "The Wrong Block Inside",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 3 · Debugging",
+    "title": "The Wrong Block Inside",
+    "subtitle": "Ontario Math C3.2 — read, find, and fix code",
+    "footer_topic": "3. The Wrong Block Inside",
+    "learning_goal": "I can find and fix a wrong block inside a loop.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Right count, wrong block",
+        "text": [
+          "Sometimes the repeat number is correct, but a BLOCK inside the loop is wrong. The loop runs the right number of times — it just does the wrong action.",
+          "Read what Bit should do, then find the inside block that does not match."
+        ]
+      },
+      {
+        "type": "blocks",
+        "title": "Bit should clap then STOMP — but this is buggy",
+        "blocks": [
+          {"cat": "control", "label": "repeat 3"},
+          {"cat": "looks", "label": "clap", "indent": 1},
+          {"cat": "looks", "label": "clap", "indent": 1}
+        ],
+        "note": "The repeat 3 is right, but the second block should be STOMP, not clap. Fix the second block."
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Find the bug",
+        "prompt": "Bit should do clap, stomp — but the loop has clap, clap. Which block is wrong, and what should it be?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Fix the turtle",
+        "prompt": "This should draw a SQUARE:  for i in range(4): bit.forward(50); bit.forward(50). But Bit draws a straight line! Which inside block is wrong, and what should it be?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "Write the fix",
+        "prompt": "Bit should do jump, spin, but the loop has jump, jump. Write the block that the SECOND one should be: ______",
+        "answer_lines": 1
+      },
+      {
+        "type": "exercise",
+        "number": 4,
+        "title": "Challenge",
+        "prompt": "The square code  for i in range(4): bit.forward(50); bit.forward(50)  makes Bit go forward 8 times in a line. WHY is it a line and not a square? What block is missing?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A loop can repeat the right number of times but still be wrong if a block INSIDE is wrong. Check that every inside block matches what Bit should do."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 3 · Debugging",
+    "title": "The Wrong Block Inside",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "3. Wrong Block — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students find a loop where the repeat count is right but an inside block is wrong (C3.2), in block and turtle contexts, and describe how the wrong block changes the result (a square becomes a line)."
+      },
+      {
+        "type": "prose",
+        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "A block-coding app and/or Python Turtle projected; the printed worksheet + a pencil per student."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 30 min)",
+        "text": [
+          "1. Run the clap, clap loop; ask 'what was it supposed to do?' (clap, stomp).",
+          "2. Run the forward, forward square — it draws a line; the turn block is missing.",
+          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Share answers; land the big idea: check every inside block, not just the count."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (checked by the run-gate)",
+        "text": [
+          "Ex 1 — the second block is wrong; change clap to stomp.",
+          "Ex 2 — the second forward is wrong; change it to bit.right(90).",
+          "Ex 3 — spin.",
+          "Ex 4 (challenge) — with two forwards and no turn, Bit just keeps going straight (8 forwards); the right(90) turn block is missing."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common slip: fixing the repeat count when the count is fine and a block is wrong.",
+          "Support: have students say each inside block aloud and compare to the goal.",
+          "Extend: ask which block is wrong if a triangle loop has forward, forward (the turn)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Success looks like",
+        "text": "The student locates the wrong inside block (not the count) and replaces it so the result matches the goal (Ex 1–3), and explains why a missing turn makes a line (Ex 4)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "title": "What Is a Bug?",
+  "file_title": "What Is a Bug",
+  "worksheet": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Grade 1 · Intro Debugging",
+    "title": "What Is a Bug?",
+    "subtitle": "A bug makes the code do the wrong thing",
+    "footer_topic": "1. What Is a Bug?",
+    "learning_goal": "I can run a program and tell if it has a bug.",
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What is a bug?",
+        "text": "A bug is a mistake in the code that makes the wrong thing happen. To find a bug, you run the program and check: did Bit reach the target? If not, there is a bug. Bit starts on the number in the start block. The target is 4."
+      },
+      {
+        "type": "symbols",
+        "title": "Bit's number path (target is 4)",
+        "size": "md",
+        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "target" }, { "sym": "5" }]
+      },
+      {
+        "type": "blocks",
+        "title": "Program A",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 1" },
+          { "cat": "motion", "label": "forward 3" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 1,
+        "title": "Run Program A",
+        "prompt": "Run Program A from 1. What number does Bit land on? Did it reach the target (4)? Is there a bug?",
+        "answer_lines": 2
+      },
+      {
+        "type": "blocks",
+        "title": "Program B",
+        "size": "md",
+        "blocks": [
+          { "cat": "events", "label": "start at 1" },
+          { "cat": "motion", "label": "forward 1" }
+        ]
+      },
+      {
+        "type": "exercise",
+        "number": 2,
+        "title": "Run Program B",
+        "prompt": "Run Program B from 1. What number does Bit land on? Did it reach the target (4)? Is there a bug?",
+        "answer_lines": 2
+      },
+      {
+        "type": "exercise",
+        "number": 3,
+        "title": "You try — which one?",
+        "prompt": "Which program has a bug, A or B? In your own words, what is a bug?",
+        "answer_lines": 2
+      },
+      {
+        "type": "prose",
+        "title": "Big idea",
+        "text": "A bug is code that does the wrong thing. You find a bug by running the program and checking the result against what you wanted. In the next sheets you will FIX bugs."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "mascot": "assets/mascots/bit_wave.svg",
+    "eyebrow": "Teacher Guide · Grade 1 · Intro Debugging",
+    "title": "What Is a Bug?",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "1. What Is a Bug? — Teacher Guide",
+    "name_date": false,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "Goal",
+        "text": "Students learn that a bug is code that produces the wrong result, and that you find one by running the program and comparing the result to the target. They run a correct program and a buggy one and decide which has the bug. Reading code and judging whether its outcome is right is the first step of C3.2 (and of debugging)."
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Materials",
+        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 with a marker on 4 (the target) so students can walk each program."
+      },
+      {
+        "type": "prose",
+        "title": "Run it (about 20 min)",
+        "text": [
+          "1. I DO: run Program A — 'start 1, forward 3 lands on 4 — that is the target, so no bug.'",
+          "2. WE DO: Exercise 1 — A reaches 4 (no bug). Exercise 2 — run Program B: start 1, forward 1 lands on 2, not 4 — there is a bug.",
+          "3. YOU DO: Exercise 3 — Program B has the bug; a bug is code that does the wrong thing.",
+          "4. Connect: 'Coders run their code and check the result — that is how they spot bugs.'"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (modelled by the run-gate)",
+        "text": [
+          "Ex 1 — Program A: 1 → forward 3 → 4. It reaches the target, so there is NO bug.",
+          "Ex 2 — Program B: 1 → forward 1 → 2. It does NOT reach 4 (it lands on 2), so there IS a bug.",
+          "Ex 3 — Program B has the bug. A bug is a mistake in the code that makes it do the wrong thing (here, Bit lands on 2 instead of 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Watch for & differentiate",
+        "text": [
+          "Common idea: students may say B is 'broken' — affirm and give the word 'bug' for a code mistake.",
+          "Simplify: walk both programs on the floor path so the miss in B is felt.",
+          "Extend: ask how far off Program B is from the target (2 short) — this previews the missing-block fix.",
+          "Success indicator: the child runs both programs, says A reaches 4 with no bug and B lands on 2 with a bug, and explains what a bug is."
+        ]
+      }
+    ]
+  }
+}

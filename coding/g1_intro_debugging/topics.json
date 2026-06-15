@@ -1,0 +1,82 @@
+{
+  "batch_id": "g1_intro_debugging",
+  "grade": "Grade 1",
+  "subject": "Intro Debugging",
+  "rubric": "rubric_coding_G1.md",
+  "locked": true,
+  "arc_note": "Grade 1 · Ontario Math C3 (Coding), DEBUGGING — find and fix a bug in a SEQUENTIAL program so it reaches its target. NO loops, NO concurrency. Reuses the G1 Block-Coding lane (number-path 0–5 block program: orange `events` 'start at N' + blue `motion` 'forward N'/'back N', run top-to-bottom, result = landing number; path ends at 0/5 so a forward past the end stops at 5) so a bug is concrete and assertable: the buggy program lands on the WRONG number. Each sheet teaches ONE bug type and the debug cycle (run → see it miss the target → find the wrong block → fix → run again): identify-a-bug → spot-wrong-value → swap-wrong-direction → RE-ORDER (start-block-not-first + boundary-sensitive move swap — the ceiling's sequence-repair focus) → remove-extra → add-missing → mixed find-and-fix → challenge. solution.py = the clamped sequential interpreter; the buggy run, the located bug, AND the fixed run are all MODELLED + asserted. C3.2-heavy (read & alter existing code, describe how the change fixes the outcome) with C3.1 (write the corrected block). I/we/you-do + predict + answer-key explains the bug AND why the fix works. Distinct from G1 Block subject (which builds/runs correct code; only one debug sheet) and G1 Unplugged (algorithm ordering). Cite C3.1 + C3.2 verbatim from the Grade-1 cache.",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "what-is-a-bug",
+      "dir": "01_what_is_a_bug",
+      "title": "What Is a Bug?",
+      "concept": "run a program and tell whether it has a bug (reaches the target or not)",
+      "ct_skill": "identify that code is wrong (C3.2)",
+      "status": "built"
+    },
+    {
+      "nn": "02",
+      "slug": "spot-the-wrong-block",
+      "dir": "02_spot_the_wrong_block",
+      "title": "Spot the Wrong Block",
+      "concept": "find the block with the wrong number that makes Bit miss the target",
+      "ct_skill": "locate a bug (C3.2)",
+      "status": "built"
+    },
+    {
+      "nn": "03",
+      "slug": "fix-by-swapping",
+      "dir": "03_fix_by_swapping",
+      "title": "Fix by Swapping",
+      "concept": "a block points the wrong way (forward/back) — swap it to reach the target",
+      "ct_skill": "alter a block to fix the outcome (C3.2)",
+      "status": "built"
+    },
+    {
+      "nn": "04",
+      "slug": "put-it-back-in-order",
+      "dir": "04_put_it_back_in_order",
+      "title": "Put It Back in Order",
+      "concept": "re-order the blocks to fix the program (start block first; swap two moves)",
+      "ct_skill": "debug by re-ordering a sequence (C3.2)",
+      "status": "built"
+    },
+    {
+      "nn": "05",
+      "slug": "the-extra-block",
+      "dir": "05_the_extra_block",
+      "title": "The Extra Block",
+      "concept": "the program overshoots — find and remove the one extra block",
+      "ct_skill": "debug by removing a step (C3.2)",
+      "status": "built"
+    },
+    {
+      "nn": "06",
+      "slug": "the-missing-block",
+      "dir": "06_the_missing_block",
+      "title": "The Missing Block",
+      "concept": "the program falls short — add the one missing block to reach the target",
+      "ct_skill": "debug by adding a step (C3.2 + C3.1)",
+      "status": "built"
+    },
+    {
+      "nn": "07",
+      "slug": "find-and-fix",
+      "dir": "07_find_and_fix",
+      "title": "Find and Fix",
+      "concept": "diagnose which kind of bug each program has, then fix it",
+      "ct_skill": "diagnose & repair (C3.2 + C3.1)",
+      "status": "built"
+    },
+    {
+      "nn": "08",
+      "slug": "debug-detective",
+      "dir": "08_debug_detective",
+      "title": "Debug Detective",
+      "concept": "challenge — find the bug in a longer program, fix it, explain it, then make your own",
+      "ct_skill": "debug + explain + create (C3.2 & C3.1)",
+      "status": "built"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Pixel — original kawaii robot mascot (Bit's friend) for TCE coding
+     worksheets. Original artwork (no source/MIT character reuse). Periwinkle-
+     purple rounded-square robot, single-eye-band kawaii face, friendly wave.
+     Visually distinct from Bit (mint-green) so the two read as two separate
+     sprites in concurrent (parallel-script) activities. Reads well inside a
+     circular header crop. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="pBodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A6B6FF"/>
+      <stop offset="1" stop-color="#6C7CF0"/>
+    </linearGradient>
+    <linearGradient id="pFaceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#243B53"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+  </defs>
+
+  <!-- soft ground shadow -->
+  <ellipse cx="120" cy="214" rx="58" ry="12" fill="#102A43" opacity="0.12"/>
+
+  <!-- antenna (two prongs to differ from Bit) -->
+  <line x1="104" y1="48" x2="96" y2="24" stroke="#6C7CF0" stroke-width="6" stroke-linecap="round"/>
+  <line x1="136" y1="48" x2="144" y2="24" stroke="#6C7CF0" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="96" cy="20" r="8" fill="#FFC857"/>
+  <circle cx="144" cy="20" r="8" fill="#FFC857"/>
+
+  <!-- left arm -->
+  <path d="M52 122 Q28 132 30 156" fill="none" stroke="#6C7CF0" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="30" cy="160" r="12" fill="#A6B6FF" stroke="#5566D6" stroke-width="3"/>
+
+  <!-- right arm (raised wave) -->
+  <path d="M188 120 Q214 104 210 78" fill="none" stroke="#6C7CF0" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="210" cy="74" r="12" fill="#A6B6FF" stroke="#5566D6" stroke-width="3"/>
+
+  <!-- body (more square corners than Bit) -->
+  <rect x="50" y="58" width="140" height="130" rx="34" fill="url(#pBodyGrad)" stroke="#5566D6" stroke-width="4"/>
+
+  <!-- face screen -->
+  <rect x="72" y="84" width="96" height="62" rx="22" fill="url(#pFaceGrad)"/>
+
+  <!-- eyes (square-ish to differ from Bit's round eyes) -->
+  <rect x="90" y="104" width="20" height="20" rx="6" fill="#C9D2FF"/>
+  <rect x="130" y="104" width="20" height="20" rx="6" fill="#C9D2FF"/>
+  <circle cx="103" cy="111" r="3.2" fill="#FFFFFF"/>
+  <circle cx="143" cy="111" r="3.2" fill="#FFFFFF"/>
+  <!-- smile -->
+  <path d="M104 132 Q120 142 136 132" fill="none" stroke="#C9D2FF" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <circle cx="84" cy="130" r="6" fill="#FF9AA2" opacity="0.55"/>
+  <circle cx="156" cy="130" r="6" fill="#FF9AA2" opacity="0.55"/>
+
+  <!-- chest button / power dot -->
+  <circle cx="120" cy="166" r="9" fill="#FFC857" stroke="#E0A93B" stroke-width="2.5"/>
+
+  <!-- feet -->
+  <rect x="78" y="184" width="30" height="16" rx="8" fill="#5566D6"/>
+  <rect x="132" y="184" width="30" height="16" rx="8" fill="#5566D6"/>
+</svg>
