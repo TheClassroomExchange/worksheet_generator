@@ -78,5 +78,6 @@ its own `topics.json` + run the per-sheet loop. The runner picks the lowest-`ord
 ## Open items
 - **Branding** (pending): add the chalkboard mascot + "The Classroom Exchange" wordmark to every
   footer — see `BRANDING_PLAN.md`.
-- **Branch → main:** the catalogue is on `coding-worksheet-pilot`; `main` is 66 commits behind. A
-  PR-merge (preserve history) was chosen but is a deliberate, separate step.
+- **Branch → main:** DONE — the full catalogue + pipeline were merged into `main` via PR #2
+  (merge commit `ddc2e94`, history preserved) and the `coding-worksheet-pilot` branch was deleted.
+  Work from `main`; branch from `main` for any follow-up (e.g. the branding change).
