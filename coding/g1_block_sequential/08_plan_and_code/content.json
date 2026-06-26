@@ -18,16 +18,43 @@
         "type": "symbols",
         "title": "Bit's number path",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "★" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "★"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Goal 1 — start at 1, reach 5",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 1" },
-          { "blank": true },
-          { "blank": true }
+          {
+            "cat": "events",
+            "label": "start at 1"
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          }
         ],
         "note": "Fill the two move blocks to reach 5."
       },
@@ -43,9 +70,16 @@
         "title": "Goal 2 — start at 2, reach 3 (challenge)",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 2" },
-          { "blank": true },
-          { "blank": true }
+          {
+            "cat": "events",
+            "label": "start at 2"
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          }
         ],
         "note": "Use ONE forward block and ONE back block."
       },
@@ -80,51 +114,57 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "The unit finale: students plan and write a full program to a goal, meet a harder goal that mixes forward and back, then alter their program for a new goal. This brings together writing/executing code (C3.1) and reading/altering code and describing the effect (C3.2) in one task."
+        "title": "What this worksheet teaches",
+        "text": "The unit finale: students plan and write a full set of instructions to a goal, meet a harder goal that mixes forward and back, then change their instructions for a new goal. Read, write, fix, and change code — all in one page. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "Paper and pencil only. Optional: a floor number line 0 to 5 with a star on 5, plus move cards, so students can lay out and test their plan before writing it."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20–25 minutes)",
         "text": [
-          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "1. Show them first (you do). Model Goal 1 — count from 1 to 5 (4 steps forward) and split it: \"forward 2, forward 2.\" Run it to land on 5.",
+          "2. Do one together (we do). Exercise 1: students plan their own blocks to reach 5, predict, then run. Exercise 2 (challenge): from 2 to 3 using one forward and one back (e.g. forward 2, back 1).",
+          "3. Let them try alone (you do). Exercise 3: change one block of the Goal 1 code so Bit reaches 4 (e.g. last forward 2 → forward 1).",
+          "4. Celebrate: \"You can read, write, fix, and change code — that is what coders do.\""
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 with a star on 5, and move cards, so students can lay out and test their plan before writing it."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20-25 min)",
+        "title": "Answer key (these are the verified correct answers)",
         "text": [
-          "1. I DO: model Goal 1 — count from 1 to 5 (4 steps forward) and split it: 'forward 2, forward 2.' Run it to land on 5.",
-          "2. WE DO: Exercise 1 — students plan their own blocks to reach 5, predict, then run. Exercise 2 (challenge) — from 2 to 3 using one forward and one back (e.g. forward 2, back 1).",
-          "3. YOU DO: Exercise 3 — change one block of the Goal 1 code so Bit reaches 4 (e.g. last forward 2 → forward 1).",
-          "4. Celebrate: 'You can read, write, fix, and change code — that is what coders do.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — start 1 → 5: e.g. forward 2, forward 2 (any two forward blocks that total 4, like forward 1 + forward 3).",
-          "Ex 2 — start 2 → 3 with one forward + one back: e.g. forward 2, back 1 (2 → 4 → 3). Forward 1 then back 0 is not allowed; the pair must net +1.",
-          "Ex 3 — change the last forward 2 to forward 1: 1 → 3 → 4. Bit lands on 4, one less, because the last step is now one smaller.",
+          "Exercise 1 — start 1 → 5: any two forward blocks that total 4, e.g. forward 2, forward 2 (or forward 1, forward 3).",
+          "Exercise 2 — start 2 → 3 with one forward + one back: e.g. forward 2, back 1 (2 → 4 → 3). The pair must net +1.",
+          "Exercise 3 — change the last forward 2 to forward 1: 1 → 3 → 4. Bit lands on 4, one less, because the last step is now one smaller.",
           "Why it works: the start sets the number and the moves run in order; plan the total change (forward adds, back subtracts) to match the distance to the goal."
         ]
       },
       {
         "type": "prose",
-        "title": "Watch for & differentiate",
+        "title": "If students get stuck — and ways to adjust",
         "text": [
-          "Common slip in Ex 2: students use two forward or two back blocks — re-read 'one forward AND one back' and have them net +1 from 2 to 3.",
-          "Simplify: allow a single move block for Goal 1 (forward 4) for students who need it.",
-          "Extend: ask for a second, different program for Goal 1, or a plan that reaches 5 from start 0.",
-          "Success indicator: the child writes a working program for each goal and correctly alters the Goal 1 code to land on 4."
+          "Watch for (Ex 2): using two forward or two back blocks. Re-read \"one forward AND one back\" and have them net +1 from 2 to 3.",
+          "Make it easier: allow a single move block for Goal 1 (forward 4).",
+          "Make it harder: ask for a second, different answer for Goal 1, or a plan that reaches 5 from start 0."
         ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "In plain terms: students follow (or write) step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions someone wrote, change one, and explain what the change did."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "You'll know it worked when",
+        "text": "The student writes working instructions for each goal and correctly changes the Goal 1 code to land on 4."
       }
     ]
   }

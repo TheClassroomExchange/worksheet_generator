@@ -18,16 +18,44 @@
         "type": "symbols",
         "title": "Bit's number path",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Code A",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 0" },
-          { "cat": "motion", "label": "forward 2" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "events",
+            "label": "start at 0"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -42,9 +70,18 @@
         "title": "Code B",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 5" },
-          { "cat": "motion", "label": "back 1" },
-          { "cat": "motion", "label": "back 2" }
+          {
+            "cat": "events",
+            "label": "start at 5"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          },
+          {
+            "cat": "motion",
+            "label": "back 2"
+          }
         ]
       },
       {
@@ -52,7 +89,10 @@
         "number": 2,
         "title": "Predict, then run Code B",
         "prompt": "PREDICT where Bit will land, write it, then run Code B from 5: back 1, then back 2. What number does Bit land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -78,51 +118,57 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read a program, predict the landing number before running, then run to confirm — and alter a block and predict again, describing the effect. Reading and predicting code outcomes, and describing how a change affects the result, is the heart of C3.2."
+        "title": "What this worksheet teaches",
+        "text": "Students read instructions and GUESS where Bit will land before running them, then run to check. They also change one block and guess again, describing the effect. Reading and predicting first is how coders check their work. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "Paper and pencil only. Optional: a floor number line 0 to 5 to check predictions by walking the code."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
         "text": [
-          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "1. Show them first (you do). Read Code A aloud without moving: \"start 0, forward 2 would be 2, forward 2 would be 4 — I predict 4.\" Then run it to confirm.",
+          "2. Do one together (we do). Exercise 1: predict (4), then run Code A. Exercise 2: predict Code B (2), then run.",
+          "3. Let them try alone (you do). Exercise 3: change back 2 to back 1; predict (3), run, and describe that a smaller back means Bit lands one higher.",
+          "4. Big idea: \"Reading and predicting first is how coders check their work before running it.\""
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 to check predictions by walking the code."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
+        "title": "Answer key (these are the verified correct answers)",
         "text": [
-          "1. I DO: read Code A aloud without moving — 'start 0, forward 2 would be 2, forward 2 would be 4 — I predict 4.' Then run it to confirm.",
-          "2. WE DO: Exercise 1 — predict (4) then run Code A. Exercise 2 — predict Code B (2), then run.",
-          "3. YOU DO: Exercise 3 — change back 2 to back 1; predict (3) and run; describe that a smaller back means Bit lands one higher.",
-          "4. Connect: 'Reading and predicting first is how coders check their work before running it.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Code A: 0 → forward 2 → 2 → forward 2 → 4. Predict and land on 4.",
-          "Ex 2 — Code B: 5 → back 1 → 4 → back 2 → 2. Land on 2.",
-          "Ex 3 — change back 2 to back 1: 5 → back 1 → 4 → back 1 → 3. Bit lands on 3 — one higher than before, because the last block now takes away one fewer step.",
+          "Exercise 1 — Code A: 0 → forward 2 → 2 → forward 2 → 4. Predict and land on 4.",
+          "Exercise 2 — Code B: 5 → back 1 → 4 → back 2 → 2. Bit lands on 2.",
+          "Exercise 3 — change back 2 to back 1: 5 → back 1 → 4 → back 1 → 3. Bit lands on 3 — one higher than before, because the last block now takes away one fewer step.",
           "Why predicting works: the blocks run in a fixed order, so you can trace them in your head — start number, then each move — to know the result before running."
         ]
       },
       {
         "type": "prose",
-        "title": "Watch for & differentiate",
+        "title": "If students get stuck — and ways to adjust",
         "text": [
-          "Common slip: predicting the final number by adding all the move numbers and ignoring back blocks — remind students that back takes away.",
-          "Simplify: trace each code together on the floor path, pausing to predict the next number block by block.",
-          "Extend: ask students to predict Code A if the start block were 'start at 1' (lands on 5, the end).",
-          "Success indicator: the child writes a correct prediction before running and confirms it, and explains the effect of the changed block."
+          "Watch for: predicting by adding all the move numbers and ignoring back blocks. Remind students that back takes away.",
+          "Make it easier: trace each code together on the floor line, pausing to predict the next number block by block.",
+          "Make it harder: ask students to predict Code A if the start were \"start at 1\" (lands on 5, the end)."
         ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
+          "In plain terms: students follow (or write) step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions someone wrote, change one, and explain what the change did."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "You'll know it worked when",
+        "text": "The student writes a correct prediction before running, confirms it, and explains the effect of the changed block."
       }
     ]
   }

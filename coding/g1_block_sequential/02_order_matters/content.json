@@ -18,16 +18,44 @@
         "type": "symbols",
         "title": "Bit's number path",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Code 1",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 3" },
-          { "cat": "motion", "label": "forward 3" },
-          { "cat": "motion", "label": "back 1" }
+          {
+            "cat": "events",
+            "label": "start at 3"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 3"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          }
         ]
       },
       {
@@ -35,16 +63,28 @@
         "number": 1,
         "title": "Run Code 1",
         "prompt": "Start on 3. Forward 3 would pass the end, so Bit stops on 5. Then back 1. What number does Bit land on? Write it.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "blocks",
         "title": "Code 2 — same blocks, new order",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 3" },
-          { "cat": "motion", "label": "back 1" },
-          { "cat": "motion", "label": "forward 3" }
+          {
+            "cat": "events",
+            "label": "start at 3"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 3"
+          }
         ]
       },
       {
@@ -52,7 +92,10 @@
         "number": 2,
         "title": "Predict, then run Code 2",
         "prompt": "PREDICT first: where will Bit land? Then run Code 2 from 3: back 1, then forward 3. What number does Bit land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -78,50 +121,56 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students run two programs built from the SAME blocks in a different order and find that Bit lands on different numbers, then describe why and build their own order to a target. This is reading and altering code and describing how the change affects the outcome (C3.2), with a write-your-own step (C3.1)."
+        "title": "What this worksheet teaches",
+        "text": "Bit moves on a number line from 0 to 5. Students run two sets of instructions made of the SAME blocks in a different order — and find Bit lands on different numbers. Then they explain why and build their own order to hit a target. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "Paper and pencil only. Optional: tape a number line 0 to 5 on the floor so students can walk both codes and feel Bit stop at the end (5)."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them first (you do). Walk Code 1 aloud: \"start at 3… forward 3 would reach 6, but the path stops at 5, so Bit stops on 5… back 1 to 4.\" One block at a time.",
+          "2. Do one together (we do). Exercise 1: Code 1 lands on 4. Exercise 2: have students predict Code 2, then run it — back 1 to 2, forward 3 to 5.",
+          "3. Let them try alone (you do). Exercise 3: the same blocks landed on different numbers (4 vs 5); students explain why, then write an order that reaches 5.",
+          "4. Big idea: \"The computer follows instructions in the exact order you give. Change the order and you can change what happens.\""
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Code 1: start 3, forward 3 stops at 5 (end of the path), back 1 → 4. Bit lands on 4.",
+          "Exercise 2 — Code 2: start 3, back 1 → 2, forward 3 → 5. Bit lands on 5.",
+          "Exercise 3 — (a) NO, not the same (4 vs 5). Why: in Code 1 the forward 3 runs into the end of the path, so Bit stops at 5 and loses a step; in Code 2 Bit steps back first, so the forward 3 fits. (b) Any order that reaches 5, e.g. start at 3, back 1, forward 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: expecting 3 + 3 − 1 to always be 5. The edge of the path is what makes the order matter — show it on the floor line.",
+          "Make it easier: walk Code 1 and Code 2 side by side on the floor line so the different landings are felt, not just calculated.",
+          "Make it harder: ask for an order that lands Bit on 4, and whether more than one order can reach the same number."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students follow (or write) step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions someone wrote, change one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 so students can walk both codes and feel Bit stop at the end (5)."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: walk Code 1 — 'start at 3… forward 3 would be 6, but the path ends at 5, so Bit stops on 5… back 1 to 4.'",
-          "2. WE DO: Exercise 1 — Code 1 lands on 4. Exercise 2 — predict Code 2, then run: back 1 to 2, forward 3 to 5.",
-          "3. YOU DO: Exercise 3 — same blocks landed on different numbers (4 vs 5); students explain why and write an order that reaches 5.",
-          "4. Connect: 'Computers run code in the exact order you give it. Change the order and you can change what happens.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Code 1: 3 → forward 3 stops at 5 → back 1 → 4.",
-          "Ex 2 — Code 2: 3 → back 1 → 2 → forward 3 → 5.",
-          "Ex 3 — (a) NO, not the same (4 vs 5). Why it works that way: in Code 1 the forward 3 happens at 3 and runs into the end of the path, so Bit stops at 5 and 'loses' a step; in Code 2 Bit steps back first, so forward 3 fits without hitting the end. (b) Any order that reaches 5, e.g. 'start at 3, back 1, forward 3' (the Code 2 order)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common idea: students expect 3 + 3 − 1 to always be 5; the edge of the path is what makes the order matter — model it on the floor path.",
-          "Simplify: do Code 1 and Code 2 side by side on the floor path so the different landings are felt, not just calculated.",
-          "Extend: ask for an order of the blocks that lands Bit on 4, and whether more than one order can reach the same number.",
-          "Success indicator: the child lands Code 1 on 4 and Code 2 on 5 and explains that the order changed the result."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The student lands Code 1 on 4 and Code 2 on 5 and explains that the order changed the result."
       }
     ]
   }

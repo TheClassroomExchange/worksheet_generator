@@ -25,7 +25,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 
 | # | Grade | Batch dir | Sheets | Gate | Drive | Commit |
 |---|---|---|---|---|---|---|
-| 1 | G1 | g1_block_sequential | 8 (1/8) | ▢ | ▢ | ▢ |
+| 1 | G1 | g1_block_sequential | 8 | ☑ | ⏸ auth | ☑ |
 | 2 | G3 | g3_python_turtle | 7 (1/7) | ▢ | ▢ | ▢ |
 | 3 | K | k_unplugged_ct | 8 | ▢ | ▢ | ▢ |
 | 4 | K | k_sequencing | 8 | ▢ | ▢ | ▢ |
@@ -45,3 +45,12 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 (append `batch/NN — total/20 status` as each sheet passes)
 - g1_block_sequential/01_start_and_go — 20/20 pass
 - g3_python_turtle/03_square_loop — 20/20 pass
+- g1_block_sequential/02_order_matters..08_plan_and_code — all 20/20 pass (7 sheets)
+
+## ⏸ DRIVE PUBLISH BLOCKED — token expired/revoked (2026-06-26)
+Re-auth needed once (interactive Google OAuth — opens a browser; can't be automated).
+User runs in the session:
+  `! cd ~/Desktop/TCE/worksheet_generator && DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib ./venv/bin/python -c "from pipeline import slides; slides.get_credentials()"`
+…complete the browser consent → regenerates `token.json`. Then publish all done batches:
+  `drive_publish.publish_batch(Path("coding/<batch>"))` per ☑ subject.
+Local rewrites + combined PDFs proceed without auth; publishing is deferred + batched.
