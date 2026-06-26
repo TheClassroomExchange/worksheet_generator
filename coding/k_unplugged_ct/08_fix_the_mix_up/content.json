@@ -18,7 +18,14 @@
         "type": "symbols",
         "title": "Watch Bit — this should go ● ▲ ● ▲ …",
         "size": "lg",
-        "items": ["●", "▲", "●", "▲", "■", "▲"],
+        "items": [
+          "●",
+          "▲",
+          "●",
+          "▲",
+          "■",
+          "▲"
+        ],
         "note": "The 5th card is a square ■, but the pattern needs a circle ●. That square is the mix-up."
       },
       {
@@ -30,7 +37,12 @@
       {
         "type": "symbols",
         "size": "lg",
-        "items": ["●", "●", "▲", "●"]
+        "items": [
+          "●",
+          "●",
+          "▲",
+          "●"
+        ]
       },
       {
         "type": "exercise",
@@ -41,7 +53,14 @@
       {
         "type": "symbols",
         "size": "lg",
-        "items": ["★", "■", "★", "■", "★", "★"]
+        "items": [
+          "★",
+          "■",
+          "★",
+          "■",
+          "★",
+          "★"
+        ]
       },
       {
         "type": "exercise",
@@ -53,7 +72,14 @@
       {
         "type": "symbols",
         "size": "lg",
-        "items": ["▲", "●", "▲", "●", "▲", "▲"]
+        "items": [
+          "▲",
+          "●",
+          "▲",
+          "●",
+          "▲",
+          "▲"
+        ]
       },
       {
         "type": "prose",
@@ -72,55 +98,53 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children find the one card that breaks a pattern or group and say what it should be. Spotting and correcting a mistake is debugging — a core computational-thinking skill, and the K-appropriate first taste of fixing code."
+        "title": "What this worksheet teaches",
+        "text": "Children find the one card that breaks a pattern or group and say what it should be. Spotting and fixing a mistake is a first thinking-skill behind coding — the K-friendly first taste of debugging. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud; the child circles the wrong card and names the fix out loud. Optional: build a pattern with blocks, slip in a wrong one, and have children find it."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Read circle, triangle, circle, triangle, square, triangle aloud: \"it should be circle–triangle… but here is a square — that is the mix-up.\" Circle it; it should be a circle.",
+          "2. Do one together. Exercise 1 — the triangle does not belong in the circle group.",
+          "3. Let them try. Children fix Exercise 2 and Exercise 3 on their own."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — circle, circle, triangle, circle → circle the triangle; it should be a circle.",
+          "Exercise 2 — star, square, star, square, star, star → circle the last card; it should be a square. Exercise 3 — triangle, circle, triangle, circle, triangle, triangle → circle the last card; it should be a circle."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: circling more than one. There is exactly one mix-up; have them read to the end first.",
+          "Make it easier: use a short 4-card pattern with the mistake near the start.",
+          "Make it harder: have the child make a pattern with a mix-up for a partner to find and fix.",
+          "Make it active: clap a pattern, slip in a wrong clap, and have children call out the mix-up."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children detect and correct an error in a sequence or group.",
-          "No reading required of the child: read each prompt aloud; the child circles the wrong card and names the fix orally."
+          "In plain terms: finding the one thing that is wrong and saying how to fix it — a first taste of debugging.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by drawing or circling."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil/crayon. Optional: build a pattern with blocks, slip in a wrong one, and have children find it."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: read ● ▲ ● ▲ ■ ▲ aloud. 'It should be circle-triangle… but here is a square. That is the mix-up.' Circle it; it should be a circle.",
-          "2. GUIDED: do Exercise 1 together — the triangle does not belong in the circle group.",
-          "3. YOU TRY: children fix Exercise 2 (last star should be a square) and Exercise 3 (last triangle should be a circle).",
-          "4. Connect: 'Every coder debugs — they find a mix-up and fix it. Mistakes are okay; we just fix them.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — ● ▲ ● ▲ ■ ▲ → circle the 5th card (■); it should be a circle ●.",
-          "Ex 1 — ● ● ▲ ● → circle the ▲; it should be a circle ●.",
-          "Ex 2 — ★ ■ ★ ■ ★ ★ → circle the last ★ (6th card); it should be a square ■.",
-          "Ex 3 — ▲ ● ▲ ● ▲ ▲ → circle the last ▲ (6th card); it should be a circle ●."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: circling more than one — there is exactly one mix-up; have them read to the end first.",
-          "Simplify: use a short 4-card pattern with the mistake near the start.",
-          "Extend: have the child make a pattern with a mix-up for a partner to find and fix.",
-          "Movement option: clap–stomp–clap–stomp–STOMP — children call out where the mix-up was."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
+        "title": "You'll know it worked when",
         "text": "The child circles the single wrong card in each item and names the correct shape it should be."
       }
     ]

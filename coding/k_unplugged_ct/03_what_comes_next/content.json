@@ -18,7 +18,13 @@
         "type": "symbols",
         "title": "Watch Bit — ▲ ■ ▲ ■ …",
         "size": "lg",
-        "items": ["▲", "■", "▲", "■", "▲"],
+        "items": [
+          "▲",
+          "■",
+          "▲",
+          "■",
+          "▲"
+        ],
         "note": "It goes triangle, square, triangle, square. After ▲ comes ■. The next one is ■."
       },
       {
@@ -30,7 +36,14 @@
       {
         "type": "symbols",
         "size": "lg",
-        "items": ["●", "★", "●", "★", "●", "?"]
+        "items": [
+          "●",
+          "★",
+          "●",
+          "★",
+          "●",
+          "?"
+        ]
       },
       {
         "type": "exercise",
@@ -41,7 +54,13 @@
       {
         "type": "symbols",
         "size": "lg",
-        "items": ["■", "▲", "■", "▲", "?"]
+        "items": [
+          "■",
+          "▲",
+          "■",
+          "▲",
+          "?"
+        ]
       },
       {
         "type": "exercise",
@@ -52,7 +71,15 @@
       {
         "type": "symbols",
         "size": "lg",
-        "items": ["★", "★", "●", "★", "★", "●", "?"]
+        "items": [
+          "★",
+          "★",
+          "●",
+          "★",
+          "★",
+          "●",
+          "?"
+        ]
       },
       {
         "type": "prose",
@@ -71,55 +98,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children read a repeating pattern and identify the next element. Recognizing and continuing patterns is a foundational computational-thinking skill — it is how computers repeat a process the same way every time."
+        "title": "What this worksheet teaches",
+        "text": "Children read a repeating shape pattern and draw the next shape. Reading and continuing a pattern is a first thinking-skill behind coding — it is how computers repeat a job the same way every time. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud; the child draws the next shape. Optional: pattern blocks or beads to build the pattern by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Point and say the pattern aloud — \"triangle, square, triangle, square…\" The next is a square.",
+          "2. Do one together. Exercise 1 — say circle, star, circle, star, circle aloud; the next is a star.",
+          "3. Let them try. Children do Exercise 2, then Exercise 3 (the two-then-one pattern) on their own."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — circle, star, circle, star, circle → next is a star. Exercise 2 — square, triangle, square, triangle → next is a square.",
+          "Exercise 3 — star, star, circle, star, star, circle → next is a star (the pattern is star, star, circle, repeating)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: copying the last shape shown. Have them say the whole pattern aloud first.",
+          "Make it easier: build the pattern with real blocks and add the next one by hand.",
+          "Make it harder: ask the child to keep the pattern going for two or three more shapes.",
+          "Make it active: clap–stomp–clap–stomp and ask what movement comes next."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children identify, reproduce, and extend repeating patterns.",
-          "No reading required of the child: read each prompt aloud; the child draws the next shape."
+          "In plain terms: spotting a repeating pattern and saying what comes next.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by drawing or circling."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil/crayon. Optional: pattern blocks or beads to build the pattern by hand first."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: point and say the pattern aloud — 'triangle, square, triangle, square…'. The next is a square.",
-          "2. GUIDED: do Exercise 1 together — read ● ★ ● ★ ● aloud, the next is ★.",
-          "3. YOU TRY: children do Exercise 2 (next is ■), then Exercise 3, the two-then-one pattern (next is ★).",
-          "4. Connect: 'Computers follow patterns too — that is how they repeat a job exactly the same way.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — ▲ ■ ▲ ■ ▲ → next is ■.",
-          "Ex 1 — ● ★ ● ★ ● → next is ★.   Ex 2 — ■ ▲ ■ ▲ → next is ■.",
-          "Ex 3 — ★ ★ ● ★ ★ ● → next is ★ (the pattern is star, star, circle, repeating)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: copying the last shape shown — have them say the whole pattern aloud first.",
-          "Simplify: build the pattern with real blocks and add the next one by hand.",
-          "Extend: ask the child to keep the pattern going for two or three more shapes.",
-          "Movement option: clap–stomp–clap–stomp and ask what action comes next."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child says the repeating unit aloud and draws the correct next shape for each pattern."
+        "title": "You'll know it worked when",
+        "text": "The child says the repeating part aloud and draws the correct next shape for each pattern."
       }
     ]
   }

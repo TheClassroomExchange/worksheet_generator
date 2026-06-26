@@ -18,7 +18,16 @@
         "type": "symbols",
         "title": "Watch Bit — a rocket is made of 2 parts",
         "size": "lg",
-        "items": [{ "sym": "▲", "label": "top" }, { "sym": "■", "label": "body" }],
+        "items": [
+          {
+            "sym": "▲",
+            "label": "top"
+          },
+          {
+            "sym": "■",
+            "label": "body"
+          }
+        ],
         "note": "Bit's rocket is a triangle on top of a square. That is 2 parts."
       },
       {
@@ -26,21 +35,30 @@
         "number": 1,
         "title": "A house — draw its 2 parts",
         "prompt": "A house is made of a square ■ (walls) and a triangle ▲ (roof). Draw the two parts, one in each box.",
-        "grid": { "rows": 1, "cols": 2 }
+        "grid": {
+          "rows": 1,
+          "cols": 2
+        }
       },
       {
         "type": "exercise",
         "number": 2,
         "title": "A snowman — draw its 3 parts",
         "prompt": "A snowman is made of three circles ● ● ●. Draw the three parts, one in each box.",
-        "grid": { "rows": 1, "cols": 3 }
+        "grid": {
+          "rows": 1,
+          "cols": 3
+        }
       },
       {
         "type": "exercise",
         "number": 3,
         "title": "You try — Bit the robot",
         "prompt": "Bit is made of 4 parts: a square ■ body, a circle ● head, and two square ■ ■ feet. Draw all four parts, one in each box.",
-        "grid": { "rows": 1, "cols": 4 }
+        "grid": {
+          "rows": 1,
+          "cols": 4
+        }
       },
       {
         "type": "prose",
@@ -59,56 +77,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children see that a whole picture is built from smaller shape parts, and name/draw those parts. Breaking a whole into parts is decomposition — the computational-thinking skill of splitting a big problem into smaller, manageable pieces."
+        "title": "What this worksheet teaches",
+        "text": "Children see that a whole picture is built from smaller shape parts, and draw those parts. Breaking a whole into parts is a first thinking-skill behind coding — splitting a big job into smaller pieces. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud; the child draws the parts. Optional: pattern blocks to build a house or rocket and then take it apart into its shapes."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Show the rocket — \"a triangle on top, a square for the body. That is 2 parts.\"",
+          "2. Do one together. Exercise 1 — the house is a square (walls) and a triangle (roof).",
+          "3. Let them try. Children draw the snowman's 3 circles (Ex 2), then Bit the robot's 4 parts (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — house = 2 parts (1 square + 1 triangle). Exercise 2 — snowman = 3 parts (3 circles).",
+          "Exercise 3 — Bit the robot = 4 parts (3 squares + 1 circle)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: drawing the whole picture instead of separate parts. Point to each empty box as one part.",
+          "Make it easier: build the object with blocks, then lift each shape out and name it.",
+          "Make it harder: ask what other things are made of parts (a face, a flower, a car).",
+          "Make it active: have children use their bodies to make a shape, then combine into a group picture."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children analyze how a whole is composed of parts.",
-          "No reading required of the child: read each prompt aloud; the child draws the parts."
+          "In plain terms: seeing that a whole picture is built from smaller parts.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by drawing or circling."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil/crayon. Optional: pattern blocks to build a house/rocket and then take it apart into its shapes."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: show the rocket — 'a triangle on top, a square for the body. That is 2 parts.'",
-          "2. GUIDED: do the house in Exercise 1 together — square walls + triangle roof.",
-          "3. YOU TRY: children draw the snowman's 3 circles (Ex 2), then Bit the robot's 4 parts (Ex 3).",
-          "4. Connect: 'Coders break a big job into small steps — just like we broke the robot into parts.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — rocket = 2 parts (1 triangle + 1 square).",
-          "Ex 1 — house = 2 parts (1 square + 1 triangle).",
-          "Ex 2 — snowman = 3 parts (3 circles).",
-          "Ex 3 — Bit the robot = 4 parts (3 squares + 1 circle)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: drawing the whole picture instead of separate parts — point to each empty box as one part.",
-          "Simplify: build the object with blocks, then lift each shape out and name it.",
-          "Extend: ask the child what other things are made of parts (a face, a flower, a car).",
-          "Movement option: build a 'robot' with bodies — children each become one part (head, body, feet)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child draws the correct number of separate shape parts for each whole (2, 3, then 4)."
+        "title": "You'll know it worked when",
+        "text": "The child draws the correct number of separate shape parts for each whole (2, then 3, then 4)."
       }
     ]
   }

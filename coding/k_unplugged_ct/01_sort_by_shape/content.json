@@ -18,14 +18,30 @@
         "type": "symbols",
         "title": "Bit's pile",
         "size": "lg",
-        "items": ["●", "▲", "■", "●", "▲", "■"],
+        "items": [
+          "●",
+          "▲",
+          "■",
+          "●",
+          "▲",
+          "■"
+        ],
         "note": "Look: circles, triangles, and squares are all mixed together."
       },
       {
         "type": "symbols",
         "title": "Watch Bit sort one group",
         "size": "lg",
-        "items": [{ "sym": "●", "label": "circle" }, { "sym": "●", "label": "circle" }],
+        "items": [
+          {
+            "sym": "●",
+            "label": "circle"
+          },
+          {
+            "sym": "●",
+            "label": "circle"
+          }
+        ],
         "note": "Bit put both circles ● in one group. Now you try the rest."
       },
       {
@@ -33,21 +49,30 @@
         "number": 1,
         "title": "Triangle group  ▲",
         "prompt": "Draw all the triangles from the pile in this group.",
-        "grid": { "rows": 1, "cols": 3 }
+        "grid": {
+          "rows": 1,
+          "cols": 3
+        }
       },
       {
         "type": "exercise",
         "number": 2,
         "title": "Square group  ■",
         "prompt": "Draw all the squares from the pile in this group.",
-        "grid": { "rows": 1, "cols": 3 }
+        "grid": {
+          "rows": 1,
+          "cols": 3
+        }
       },
       {
         "type": "exercise",
         "number": 3,
         "title": "You try",
         "prompt": "Here is a new little pile: ■ ● ■. Draw only the squares in the boxes.",
-        "grid": { "rows": 1, "cols": 3 }
+        "grid": {
+          "rows": 1,
+          "cols": 3
+        }
       },
       {
         "type": "prose",
@@ -66,54 +91,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children sort a mixed set of shapes into groups by one attribute (shape). Sorting/classifying is a foundational computational-thinking skill — it is how computers organize information to find it quickly."
+        "title": "What this worksheet teaches",
+        "text": "Children sort a mixed pile of shapes into groups, one kind per group. Sorting into groups is a first thinking-skill behind coding — it is how computers organize information to find it again. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud; the child answers by drawing. Optional: real shape blocks or cut-outs to sort by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Point to Bit's pile: \"these are all mixed up.\" Show the circle group — both circles together.",
+          "2. Do one together. Find each triangle in the pile and draw it in the triangle group box.",
+          "3. Let them try. Children do the square group, then Exercise 3 on their own."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Pile (circle, triangle, square, circle, triangle, square): circle group = 2, triangle group = 2, square group = 2.",
+          "Exercise 1 — 2 triangles. Exercise 2 — 2 squares. Exercise 3 (square, circle, square) — 2 squares (the circle is left out)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: copying the whole pile into one group. Remind them each group holds only one kind.",
+          "Make it easier: sort real objects by hand before drawing.",
+          "Make it harder: sort the same pile a different way (by size), or add a star group.",
+          "Make it active: place shape cards on the floor and have children walk each one to its group."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children use computational-thinking skills (sorting and classifying by attribute) to make sense of their world.",
-          "No reading is required of the child: read each prompt aloud; the child responds by drawing."
+          "In plain terms: putting things into groups by one feature (here, shape) — a first sorting skill.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by drawing or circling."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil/crayon. Optional: real shape blocks or shape cut-outs to sort with hands first."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: point to Bit's pile, say 'these are all mixed up'. Show the circle group — both ● circles together.",
-          "2. GUIDED: do the triangle group together — find each ▲ in the pile, draw it in the group box.",
-          "3. YOU TRY: children do the square group, then Exercise 3 on their own.",
-          "4. Connect: 'Computers sort too — that is how they keep things tidy and quick to find.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Pile ● ▲ ■ ● ▲ ■ → circle group = 2, triangle group = 2, square group = 2.",
-          "Ex 1 — 2 triangles. Ex 2 — 2 squares. Ex 3 (■ ● ■) — 2 squares (the circle is left out)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: copying the whole pile into one group — remind them each group holds only one kind.",
-          "Simplify: sort with real objects by hand before drawing.",
-          "Extend: sort the same pile a different way (by size), or add a star ★ group.",
-          "Movement option: place shape cards on the floor and have children walk each to its group."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child places every shape in the matching group and no group holds a different shape."
+        "title": "You'll know it worked when",
+        "text": "The child puts every shape in the matching group, and no group holds a different shape."
       }
     ]
   }

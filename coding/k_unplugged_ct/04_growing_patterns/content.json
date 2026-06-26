@@ -18,7 +18,14 @@
         "type": "symbols",
         "title": "Watch Bit — ▲ ■ ● ▲ ■ ● …",
         "size": "lg",
-        "items": ["▲", "■", "●", "▲", "■", "●"],
+        "items": [
+          "▲",
+          "■",
+          "●",
+          "▲",
+          "■",
+          "●"
+        ],
         "note": "It goes triangle, square, circle — then starts again. The next one is ▲."
       },
       {
@@ -30,7 +37,15 @@
       {
         "type": "symbols",
         "size": "lg",
-        "items": ["●", "■", "★", "●", "■", "★", "?"]
+        "items": [
+          "●",
+          "■",
+          "★",
+          "●",
+          "■",
+          "★",
+          "?"
+        ]
       },
       {
         "type": "exercise",
@@ -41,14 +56,25 @@
       {
         "type": "symbols",
         "size": "lg",
-        "items": ["▲", "●", "▲", "●", "▲", "?", "?"]
+        "items": [
+          "▲",
+          "●",
+          "▲",
+          "●",
+          "▲",
+          "?",
+          "?"
+        ]
       },
       {
         "type": "exercise",
         "number": 3,
         "title": "You try — make your own",
         "prompt": "Pick two or three shapes (● ▲ ■ ★) and draw your own pattern that repeats.",
-        "grid": { "rows": 1, "cols": 6 }
+        "grid": {
+          "rows": 1,
+          "cols": 6
+        }
       },
       {
         "type": "prose",
@@ -67,56 +93,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children read a three-part (ABC) repeating pattern, extend it by one and by two shapes, and create their own. Extending a pattern by more than one step builds prediction — a computational-thinking skill behind repeating a process."
+        "title": "What this worksheet teaches",
+        "text": "Children read a three-part repeating pattern, continue it by one and by two shapes, and make their own. Predicting more than one step ahead is a first thinking-skill behind coding. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud; the child draws the shapes. Optional: pattern blocks or coloured beads to build patterns by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Say the three-part pattern aloud — \"triangle, square, circle…\" The next is a triangle.",
+          "2. Do one together. Exercise 1 — circle, square, star, repeating; the next is a circle.",
+          "3. Let them try. Children predict the next TWO in Exercise 2, then make their own in Exercise 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — circle, square, star, circle, square, star → next is a circle.",
+          "Exercise 2 — triangle, circle, triangle, circle, triangle → the next two are circle then triangle.",
+          "Exercise 3 — any pattern that truly repeats is correct (e.g. star, circle, star, circle…)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for (Ex 2): drawing only one shape. Point to both dashed boxes.",
+          "Make it easier: do two-part patterns first, then add the third shape.",
+          "Make it harder: ask the child to read their own pattern aloud and continue it two more shapes.",
+          "Make it active: stomp–clap–jump, stomp–clap–jump and continue it together."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children read, extend, and create repeating patterns.",
-          "No reading required of the child: read each prompt aloud; the child draws the shapes."
+          "In plain terms: reading a longer repeating pattern, continuing it, and making one.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by drawing or circling."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil/crayon. Optional: pattern blocks or coloured beads to build ABC patterns by hand."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: say the three-part pattern aloud — 'triangle, square, circle…'. The next is a triangle.",
-          "2. GUIDED: do Exercise 1 together — ● ■ ★ repeating, the next is ●.",
-          "3. YOU TRY: children predict the next TWO in Exercise 2 (● then ▲), then create their own in Exercise 3.",
-          "4. Connect: 'Computers use patterns to repeat steps again and again — just like your pattern keeps going.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — ▲ ■ ● ▲ ■ ● → next is ▲.",
-          "Ex 1 — ● ■ ★ ● ■ ★ → next is ●.",
-          "Ex 2 — ▲ ● ▲ ● ▲ → next two are ● then ▲.",
-          "Ex 3 — any pattern that truly repeats is correct (e.g. ★ ● ★ ● …, or ● ▲ ■ ● ▲ ■)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: in Ex 2, drawing only one shape — point to both dashed boxes.",
-          "Simplify: do two-part patterns first, then add the third shape.",
-          "Extend: ask the child to read their own pattern aloud and continue it for two more shapes.",
-          "Movement option: stomp–clap–jump, stomp–clap–jump — what three actions come next?"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child extends a three-part pattern correctly, draws two correct shapes in Exercise 2, and creates a pattern in Exercise 3 that genuinely repeats."
+        "title": "You'll know it worked when",
+        "text": "The child continues a three-part pattern correctly, draws two correct shapes in Exercise 2, and makes a pattern in Exercise 3 that truly repeats."
       }
     ]
   }
