@@ -26,7 +26,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 | # | Grade | Batch dir | Sheets | Gate | Drive | Commit |
 |---|---|---|---|---|---|---|
 | 1 | G1 | g1_block_sequential | 8 | ☑ | ⏸ auth | ☑ |
-| 2 | G3 | g3_python_turtle | 7 (1/7) | ▢ | ▢ | ▢ |
+| 2 | G3 | g3_python_turtle | 7 | ☑ | ⏸ auth | ☑ |
 | 3 | K | k_unplugged_ct | 8 | ▢ | ▢ | ▢ |
 | 4 | K | k_sequencing | 8 | ▢ | ▢ | ▢ |
 | 5 | K | k_intro_block | 8 | ▢ | ▢ | ▢ |
@@ -46,6 +46,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 - g1_block_sequential/01_start_and_go — 20/20 pass
 - g3_python_turtle/03_square_loop — 20/20 pass
 - g1_block_sequential/02_order_matters..08_plan_and_code — all 20/20 pass (7 sheets)
+- g3_python_turtle/01,02,04,05,06,07 — all 20/20 pass (6 sheets)
 
 ## ⏸ DRIVE PUBLISH BLOCKED — token expired/revoked (2026-06-26)
 Re-auth needed once (interactive Google OAuth — opens a browser; can't be automated).

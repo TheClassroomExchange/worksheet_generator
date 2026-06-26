@@ -21,9 +21,20 @@
         "type": "blocks",
         "title": "The block you know",
         "blocks": [
-          {"cat": "control", "label": "repeat 3"},
-          {"cat": "motion", "label": "move 50", "indent": 1},
-          {"cat": "motion", "label": "turn right 90", "indent": 1}
+          {
+            "cat": "control",
+            "label": "repeat 3"
+          },
+          {
+            "cat": "motion",
+            "label": "move 50",
+            "indent": 1
+          },
+          {
+            "cat": "motion",
+            "label": "turn right 90",
+            "indent": 1
+          }
         ],
         "note": "Move 50, turn right 90 — three times."
       },
@@ -85,55 +96,60 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read a for-loop with a move AND a turn inside, and see that repeating move+turn draws a shape. Turn angles are given (no deriving). Sets up drawing a full square next sheet."
+        "title": "What this worksheet teaches",
+        "text": "Now a turn is added inside the repeat, so Bit moves AND turns each time around. Students see that repeating \"move, then turn\" draws the sides of a shape. The turn amounts are given. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start — showing the drawing (optional)",
+        "text": [
+          "The worksheet shows the typed instructions AND a picture of the sides Bit draws, so you can teach straight from the printout — no computer required.",
+          "To show it live (optional): open a browser, go to a free \"Python turtle\" playground (e.g. search \"trinket python turtle\"), type the few lines from the worksheet, and press Run — a turtle draws it. You only press Run."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Recall last sheet: a repeat that only moved drew a straight line. Now we add a turn.",
+          "2. Show it (you do). Read it aloud: \"repeat 3 times: move forward 50, then turn right.\" Bit draws 3 sides with 3 turns.",
+          "3. Let them work. Students do Exercises 1–4, solo or in pairs.",
+          "4. Wrap up: putting a move AND a turn inside the repeat lets Bit draw shapes; the repeat number sets how many sides."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 3 forwards and 3 turns.",
+          "Exercise 2 — a square (repeating 4 times adds the 4th side and closes it).",
+          "Exercise 3 — the missing numbers are 4 (repeat 4 times) and 90 (turn right 90).",
+          "Exercise 4 (challenge) — 360° in total (4 × 90 = one full turn)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking more repeats means a bigger shape — more repeats means more sides, not a bigger size.",
+          "Make it easier: trace the 3 sides on the picture before counting.",
+          "Make it harder: ask what shape \"repeat 4: move forward 50, turn right 90\" makes (a square)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "Python Turtle projected (or a web playground); the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Recall last sheet's forward-only loop; add a right(90) inside and run it.",
-          "2. Trace the range(3) path together — 3 sides, 3 turns, open.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; predict that range(4) closes the square (next sheet)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 3 forwards; 3 turns.",
-          "Ex 2 — a square (range(4) adds the 4th side and closes it).",
-          "Ex 3 — range(4), bit.right(90).",
-          "Ex 4 (challenge) — 360° in total (4 × 90 = a full turn)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: forgetting the turn also repeats — both lines inside run each time.",
-          "Support: have students trace with a finger, saying 'forward, turn' each repeat.",
-          "Extend: ask the total turning for range(3) at right 90 (270°)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student counts the moves and turns (Ex 1), predicts range(4) closes a square (Ex 2), completes the loop (Ex 3), and adds the total turning (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The student counts the forwards and turns (Ex 1), predicts the square when the repeat changes to 4 (Ex 2), fills in the numbers (Ex 3), and finds the total turn (Ex 4)."
       }
     ]
   }

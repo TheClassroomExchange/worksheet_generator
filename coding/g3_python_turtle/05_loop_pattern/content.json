@@ -75,55 +75,60 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students see a for-loop repeat a multi-move PATTERN (across-then-up) to build a staircase, and count moves and total height by multiplying per-step amounts by the repeat count."
+        "title": "What this worksheet teaches",
+        "text": "A staircase is the same little step over and over: go across, then go up. Students read a repeat that does that whole step several times to build a staircase, and count the moves and total height. A repeat can repeat a whole pattern, not just one move. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start — showing the drawing (optional)",
+        "text": [
+          "The worksheet shows the typed instructions AND a picture of the staircase Bit climbs, so you can teach straight from the printout — no computer required.",
+          "To show it live (optional): open a browser, go to a free \"Python turtle\" playground (e.g. search \"trinket python turtle\"), type the few lines from the worksheet, and press Run — a turtle draws it. You only press Run."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Walk a staircase as a class — across, up, across, up — and name the repeating step.",
+          "2. Show it (you do). Run the 3-step staircase; trace one step, then the repeat. Graph paper helps students sketch it.",
+          "3. Let them work. Students do Exercises 1–4 (Ex 4 multiplies the rise), solo or in pairs.",
+          "4. Wrap up: a repeat can repeat a whole pattern of moves, not just one."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 3 steps; 6 forward moves (2 per step × 3).",
+          "Exercise 2 — 5 steps; 10 forward moves in total.",
+          "Exercise 3 — repeat 4 times.",
+          "Exercise 4 (challenge) — 120 high (4 steps × 30 up)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: counting one forward per step instead of two.",
+          "Make it easier: highlight the two \"move forward\" lines inside the repeat before counting.",
+          "Make it harder: ask the height of a 6-step staircase (180)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "Python Turtle projected (or a web playground); the printed worksheet + a pencil per student. Graph paper helps draw the staircase."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Walk a staircase as a class — across, up, across, up — name the repeating step.",
-          "2. Run the range(3) staircase; trace one step, then the repeat.",
-          "3. Students do Exercises 1–4 (Ex 4 multiplies the rise), solo or in pairs.",
-          "4. Share answers; land the big idea: a loop can repeat a pattern of moves."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 3 steps; 6 forward moves (2 per step × 3).",
-          "Ex 2 — 5 steps; 10 forward moves.",
-          "Ex 3 — range(4).",
-          "Ex 4 (challenge) — 120 high (4 steps × 30 up)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: counting one forward per step instead of two.",
-          "Support: highlight the two forward lines inside the loop before counting.",
-          "Extend: ask the height of a 6-step staircase (180)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student counts steps and total forwards (Ex 1–2), writes the range for a 4-step staircase (Ex 3), and multiplies the rise to find the total height (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The student counts steps and total forwards (Ex 1–2), writes the repeat number for a 4-step staircase (Ex 3), and multiplies to find the total height (Ex 4)."
       }
     ]
   }

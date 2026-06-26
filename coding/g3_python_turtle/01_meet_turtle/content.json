@@ -21,8 +21,15 @@
         "type": "blocks",
         "title": "The block you know",
         "blocks": [
-          {"cat": "control", "label": "repeat 3"},
-          {"cat": "motion", "label": "move 20", "indent": 1}
+          {
+            "cat": "control",
+            "label": "repeat 3"
+          },
+          {
+            "cat": "motion",
+            "label": "move 20",
+            "indent": 1
+          }
         ],
         "note": "Move 20, three times."
       },
@@ -84,55 +91,60 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students meet typed Python by reading a for-loop that repeats a forward move — bridging the repeat block they know to range(n) in code (the block→text bridge). First typed code; angles/turns come next sheet."
+        "title": "What this worksheet teaches",
+        "text": "Students meet typed code for the first time. They read a short instruction that means \"repeat 3 times: move forward 20\" and work out how many hops Bit makes and how far it travels. It is the same repeat idea they used with blocks — now typed. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start — showing the drawing (optional)",
+        "text": [
+          "The worksheet shows the typed instructions AND a picture of how far Bit hops, so you can teach straight from the printout — no computer required.",
+          "To show it live (optional): open a browser, go to a free \"Python turtle\" playground (e.g. search \"trinket python turtle\"), type the few lines from the worksheet, and press Run — a turtle draws it. You only press Run."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Connect to what they know. Remind them of the \"repeat\" block from block coding — the typed instruction does the same job.",
+          "2. Show it (you do). Read the instruction aloud: \"repeat 3 times: move forward 20.\" Count the hops together — 3 hops of 20.",
+          "3. Let them work. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
+          "4. Wrap up: the repeat number tells Bit how many times to do the line below it — typed code can repeat, just like the blocks."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 3 hops; 60 steps in total (3 × 20).",
+          "Exercise 2 — 5 hops; 100 steps in total; the prediction should be 100.",
+          "Exercise 3 — the missing numbers are 4 (repeat 4 times) and 10 (move forward 10).",
+          "Exercise 4 (challenge) — 100 steps in total (4 × 25)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: reading \"repeat 3\" as 4 (counting an extra). It means exactly 3 times.",
+          "Make it easier: point at the indented line and say \"do this line this many times.\"",
+          "Make it harder: ask the total steps for a \"repeat 6, move forward 10\" instruction (60)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "Python Turtle projected (or a Turtle web playground); the printed worksheet + a pencil per student. Optional: a device per pair to run the code."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Recall the repeat block from Block Coding — show it beside the Python for-loop.",
-          "2. Read range(3) together as \"do it 3 times\"; run forward(20) and count the hops.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: range(n) = repeat n, just typed."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 3 hops; 60 steps total.",
-          "Ex 2 — 5 hops; 100 steps; predicted = 100.",
-          "Ex 3 — range(4), forward(10).",
-          "Ex 4 (challenge) — 100 steps (4 × 25)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: reading range(3) as 3 + the start (thinking 4 hops) — it is exactly 3.",
-          "Support: point at the for-line and say \"do the indented line this many times\".",
-          "Extend: ask total steps for range(6), forward(10) (60)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student reads range(n) as \"repeat n times\", counts the hops and total distance (Ex 1–2), completes a for-loop line (Ex 3), and works out a total from a typed loop (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The student reads the repeat instruction as \"repeat n times\", counts the hops and total distance (Ex 1–2), fills in the repeat line (Ex 3), and works out a total from a typed loop (Ex 4)."
       }
     ]
   }
