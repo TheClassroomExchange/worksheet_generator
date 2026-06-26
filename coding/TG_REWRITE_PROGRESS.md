@@ -32,7 +32,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 | 5 | K | k_intro_block | 8 | ☑ | ⏸ auth | ☑ |
 | 6 | G1 | g1_unplugged_sequencing | 8 | ☑ | ⏸ auth | ☑ |
 | 7 | G1 | g1_intro_debugging | 8 | ☑ | ⏸ auth | ☑ |
-| 8 | G2 | g2_block_concurrent | 8 | ▢ | ▢ | ▢ |
+| 8 | G2 | g2_block_concurrent | 8 | ☑ | ⏸ auth | ☑ |
 | 9 | G2 | g2_events_parallel | 8 | ▢ | ▢ | ▢ |
 | 10 | G2 | g2_debugging_reading | 8 | ▢ | ▢ | ▢ |
 | 11 | G3 | pilot_g3_block_coding | 7 | ▢ | ▢ | ▢ |
@@ -52,6 +52,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 - k_intro_block/01..08 — all 20/20 pass (8 sheets, K-frame, block stacks) — K GRADE COMPLETE (24/24)
 - g1_unplugged_sequencing/01..08 — all 20/20 pass (8 sheets, step-card algorithms)
 - g1_intro_debugging/01..08 — all 20/20 pass (8 sheets, find/fix bugs) — G1 GRADE COMPLETE (24/24)
+- g2_block_concurrent/01..08 — all 20/20 pass (8 sheets, two sprites Bit+Pixel at once)
 
 ## ⏸ DRIVE PUBLISH BLOCKED — token expired/revoked (2026-06-26)
 Re-auth needed once (interactive Google OAuth — opens a browser; can't be automated).

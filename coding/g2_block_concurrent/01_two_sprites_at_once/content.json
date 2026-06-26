@@ -18,7 +18,28 @@
         "type": "symbols",
         "title": "The number path",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "Pixel"
+          }
+        ]
       },
       {
         "type": "image",
@@ -31,8 +52,14 @@
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "▶ start at 1" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "operators",
+            "label": "▶ start at 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -40,7 +67,10 @@
         "number": 1,
         "title": "Where does Bit land?",
         "prompt": "Run Bit's script from 1. What number does Bit land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "image",
@@ -53,8 +83,14 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "▶ start at 5" },
-          { "cat": "motion", "label": "back 1" }
+          {
+            "cat": "operators",
+            "label": "▶ start at 5"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          }
         ]
       },
       {
@@ -62,7 +98,10 @@
         "number": 2,
         "title": "Where does Pixel land?",
         "prompt": "Run Pixel's script from 5. What number does Pixel land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -88,51 +127,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students meet concurrency: two sprites (Bit and Pixel) each run their own script, and one green flag starts BOTH at the same time. They read each script and find where each sprite lands. Reading and running code that involves concurrent events is the new Grade-2 idea in C3.1/C3.2."
+        "title": "What this worksheet teaches",
+        "text": "Bit and Pixel are two characters, each with their own set of moves. One green flag starts BOTH at the same time. Students read each set of moves and find where each character lands. Two sets of moves running at once is the new Grade 2 idea. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: put two counters on a number line 0 to 5 — green for Bit, purple for Pixel — and move BOTH at the same time so children see the two sets of moves run side by side."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Run Bit's moves alone, then Pixel's alone. Then say: \"the green flag starts both at the same time.\"",
+          "2. Do one together. Exercise 1 — Bit lands on 3; Exercise 2 — Pixel lands on 4.",
+          "3. Let them try. Students write where each lands when both start, and whether they meet (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit: 1, forward 2 → 3. Exercise 2 — Pixel: 5, back 1 → 4.",
+          "Exercise 3 — the green flag starts both at once: Bit lands on 3, Pixel on 4. Different numbers, so they do not meet.",
+          "Key idea: the two sets of moves run on their own, at the same time — Bit's moves do not change Pixel's, and the green flag starts both together."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking one character's moves affect the other. Each one only moves itself.",
+          "Make it easier: move a green counter for Bit and a purple counter for Pixel, one move each.",
+          "Make it harder: ask how far apart Bit and Pixel are at the end."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions, including two sets that run at the same time.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read two sets of instructions, change one, and explain what happens when both run together."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: two counters (green for Bit, purple for Pixel) on a floor number path 0-5; say 'green flag!' and move both at once."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: introduce Bit's script ONLY first — 'start 1, forward 2 lands on 3.' Make sure one script is understood.",
-          "2. WE DO: then add Pixel's script — 'start 5, back 1 lands on 4.' Now press the green flag so BOTH run together.",
-          "3. YOU DO: Exercise 3 — students record both landings (Bit 3, Pixel 4) and notice they are different numbers.",
-          "4. Connect: 'Concurrent means at the same time — each sprite still follows its own script.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit: 1 → forward 2 → 3. Bit lands on 3.",
-          "Ex 2 — Pixel: 5 → back 1 → 4. Pixel lands on 4.",
-          "Ex 3 — when the green flag starts both at once, Bit lands on 3 and Pixel lands on 4. They are NOT on the same number, so they do not meet.",
-          "Interaction note: the two scripts run independently and at the same time — Bit's moves do not change Pixel's, and the green flag launches both together."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: running one script, then the other, as if they were sequential — stress that the green flag starts BOTH at the same time (concurrent), even though we read them one at a time.",
-          "Simplify: trace Bit alone, then Pixel alone, before doing both together.",
-          "Extend: ask what number is BETWEEN the two sprites' landings (3 and 4 — they are right next to each other).",
-          "Success indicator: the child finds Bit on 3 and Pixel on 4 and explains that both scripts ran at the same time from the green flag."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child finds where Bit and Pixel each land and tells whether they meet."
       }
     ]
   }
