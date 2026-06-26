@@ -18,17 +18,49 @@
         "type": "symbols",
         "title": "Bit's number path (target is 4)",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "target" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "target"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "The mystery program",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 0" },
-          { "cat": "motion", "label": "forward 2" },
-          { "cat": "motion", "label": "back 1" },
-          { "cat": "motion", "label": "forward 1" }
+          {
+            "cat": "events",
+            "label": "start at 0"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          }
         ]
       },
       {
@@ -36,7 +68,10 @@
         "number": 1,
         "title": "Run it",
         "prompt": "Run the program from 0, one block at a time. What number does Bit land on? Did it reach the target (4)?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -69,50 +104,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "The unit finale: students debug a longer program (find the wrong-way block, fix it, explain why the fix works), then create their own buggy program for a partner. Reading and altering code and describing how the change fixes the outcome is C3.2; writing their own program (with a target) is C3.1."
+        "title": "What this worksheet teaches",
+        "text": "The unit finale: students debug a longer program (find the wrong-way block, fix it, explain why the fix works), then make their own buggy program for a partner. Find the bug, fix it, explain it — and make one of your own. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: tape a number line 0 to 5 on the floor and mark the target, so students can walk the buggy program and feel Bit miss."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20–25 minutes)",
+        "text": [
+          "1. Show them (you do). Run the mystery program one block at a time and watch where it goes wrong.",
+          "2. Do one together. Exercise 1 — it lands on 2, not 4; Exercise 2 — the wrong-way block is back 1; swap it.",
+          "3. Let them try. Students explain why the fix works, then make their own one-bug program for a partner (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — mystery program: 0, forward 2 → 2, back 1 → 1, forward 1 → 2. Bit lands on 2, not the target 4.",
+          "Exercise 2 — the wrong-way block is back 1; swap it to forward 1: 0 → 2 → 3 → 4. Bit reaches the target, 4.",
+          "Exercise 3 — explanation: the back 1 block moved Bit away from the target; forward 1 keeps Bit heading to 4. Make-your-own is open; a sample is start 0, forward 1, forward 1 with target 3 (a missing-block bug — add one more forward 1)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: stopping after the fix without explaining why. Have them say what the wrong block did.",
+          "Make it easier: walk the mystery program on the floor line.",
+          "Make it harder: ask the partner to name the kind of bug before fixing it."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students follow (or write) step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a program, change a block to fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 with a marker on 4 so students can run the mystery program and test their own."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20-25 min)",
-        "text": [
-          "1. I DO: run the mystery program — 'start 0, forward 2 to 2, back 1 to 1, forward 1 to 2. Target is 4 — the back 1 sent Bit the wrong way.'",
-          "2. WE DO: Exercise 1 — Bit lands on 2. Exercise 2 — circle 'back 1', swap it to 'forward 1'; the program reaches 4 (0 → 2 → 3 → 4).",
-          "3. YOU DO: Exercise 3 — students explain the fix (a back block was turning Bit around) and write their own one-bug program with a target.",
-          "4. Celebrate: 'You can find and fix every kind of bug — you are a debugger!'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — mystery program: 0 → forward 2 → 2 → back 1 → 1 → forward 1 → 2. Bit lands on 2, not the target 4.",
-          "Ex 2 — the wrong-way block is 'back 1'; swap it to 'forward 1': 0 → 2 → 3 → 4. Bit reaches the target, 4.",
-          "Ex 3 — explanation: the back 1 block moved Bit away from the target; changing it to forward 1 keeps Bit going toward 4. Make-your-own is open; a sample is start 0, forward 1, forward 1 with target 3 (a missing-block bug — add one more forward 1)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: changing more than one block — only one block is wrong; the smallest fix is to swap the back 1.",
-          "Simplify: tell students the bug is a wrong-way block and have them find which one.",
-          "Extend: have partners trade their make-your-own programs and time how fast they each debug.",
-          "Success indicator: the child lands the mystery program on 2, swaps back 1 to forward 1 to reach 4, explains the fix, and writes a solvable one-bug program."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child fixes the mystery program, explains the fix, and writes a solvable one-bug program of their own."
       }
     ]
   }

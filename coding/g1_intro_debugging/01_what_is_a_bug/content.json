@@ -18,15 +18,41 @@
         "type": "symbols",
         "title": "Bit's number path (target is 4)",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "target" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "target"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Program A",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 1" },
-          { "cat": "motion", "label": "forward 3" }
+          {
+            "cat": "events",
+            "label": "start at 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 3"
+          }
         ]
       },
       {
@@ -41,8 +67,14 @@
         "title": "Program B",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 1" },
-          { "cat": "motion", "label": "forward 1" }
+          {
+            "cat": "events",
+            "label": "start at 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          }
         ]
       },
       {
@@ -76,50 +108,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students learn that a bug is code that produces the wrong result, and that you find one by running the program and comparing the result to the target. They run a correct program and a buggy one and decide which has the bug. Reading code and judging whether its outcome is right is the first step of C3.2 (and of debugging)."
+        "title": "What this worksheet teaches",
+        "text": "Students learn that a \"bug\" is an instruction set that gives the wrong result, and that you find one by running the program and comparing where Bit lands to the target. They run a correct program and a buggy one and decide which has the bug. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: tape a number line 0 to 5 on the floor and mark the target, so students can walk the buggy program and feel Bit miss."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Run Program A: it lands on the target — no bug. Then say a bug is when the program lands on the wrong number.",
+          "2. Do one together. Exercise 1 — Program A reaches 4, so there is no bug.",
+          "3. Let them try. Students run Program B (Ex 2), then decide which program has the bug and say what a bug is (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Program A: 1, forward 3 → 4. It reaches the target, so there is NO bug.",
+          "Exercise 2 — Program B: 1, forward 1 → 2. It does not reach 4, so there IS a bug.",
+          "Exercise 3 — Program B has the bug. A bug is a mistake in the program that makes it do the wrong thing (here Bit lands on 2 instead of 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: deciding there is a bug before running the program. Always run it and compare to the target first.",
+          "Make it easier: walk both programs on the floor line.",
+          "Make it harder: ask them to change Program B so it also reaches 4."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students follow (or write) step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a program, change a block to fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 with a marker on 4 (the target) so students can walk each program."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: run Program A — 'start 1, forward 3 lands on 4 — that is the target, so no bug.'",
-          "2. WE DO: Exercise 1 — A reaches 4 (no bug). Exercise 2 — run Program B: start 1, forward 1 lands on 2, not 4 — there is a bug.",
-          "3. YOU DO: Exercise 3 — Program B has the bug; a bug is code that does the wrong thing.",
-          "4. Connect: 'Coders run their code and check the result — that is how they spot bugs.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Program A: 1 → forward 3 → 4. It reaches the target, so there is NO bug.",
-          "Ex 2 — Program B: 1 → forward 1 → 2. It does NOT reach 4 (it lands on 2), so there IS a bug.",
-          "Ex 3 — Program B has the bug. A bug is a mistake in the code that makes it do the wrong thing (here, Bit lands on 2 instead of 4)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common idea: students may say B is 'broken' — affirm and give the word 'bug' for a code mistake.",
-          "Simplify: walk both programs on the floor path so the miss in B is felt.",
-          "Extend: ask how far off Program B is from the target (2 short) — this previews the missing-block fix.",
-          "Success indicator: the child runs both programs, says A reaches 4 with no bug and B lands on 2 with a bug, and explains what a bug is."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child runs both programs, names Program B as the buggy one, and explains what a bug is."
       }
     ]
   }

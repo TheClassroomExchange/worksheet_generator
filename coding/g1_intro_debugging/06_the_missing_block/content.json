@@ -18,16 +18,43 @@
         "type": "symbols",
         "title": "Bit's number path",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Program 1 — target is 4",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 1" },
-          { "cat": "motion", "label": "forward 2" },
-          { "blank": true }
+          {
+            "cat": "events",
+            "label": "start at 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          },
+          {
+            "blank": true
+          }
         ],
         "note": "Write the missing block in the empty space."
       },
@@ -43,16 +70,27 @@
         "number": 2,
         "title": "Add the missing block",
         "prompt": "Write the block that gets Bit from where it stopped to 4. Run the fixed code — what number now?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "blocks",
         "title": "Program 2 — target is 1",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 4" },
-          { "cat": "motion", "label": "back 1" },
-          { "blank": true }
+          {
+            "cat": "events",
+            "label": "start at 4"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          },
+          {
+            "blank": true
+          }
         ],
         "note": "Write the missing block in the empty space."
       },
@@ -80,50 +118,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students fix a bug where a program falls short of the target because a block is missing; they add the missing step and run again to confirm. Altering existing code by adding a step (and writing that step) covers C3.2 and a focused piece of C3.1."
+        "title": "What this worksheet teaches",
+        "text": "Students fix a bug where the program falls SHORT of the target because a block is missing; they add the missing step and run again. Adding a step to fix the result is a kind of debugging. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: tape a number line 0 to 5 on the floor and mark the target, so students can walk the buggy program and feel Bit miss."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Run a program that stops short of the target — it is missing a step.",
+          "2. Do one together. Exercise 1 — Program 1 stops on 3, one short of 4.",
+          "3. Let them try. Students write the missing block to reach the target (Ex 2), then fix Program 2 (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Program 1: 1, forward 2 → 3. Bit is on 3, one short of 4.",
+          "Exercise 2 — add \"forward 1\": 1 → 3 → 4. Bit reaches the target, 4.",
+          "Exercise 3 — Program 2: 4, back 1 → 3. Add \"back 2\": 3 → 1. Bit reaches the target, 1. (Two \"back 1\" blocks also work.)"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing a block instead of adding one. Here the fix is to put a step in.",
+          "Make it easier: count how far Bit still needs to go, then write a block for that distance.",
+          "Make it harder: ask for two different missing blocks that both reach the target."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students follow (or write) step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a program, change a block to fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 so students see Bit stop short and count the steps left to the target."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: run Program 1 — 'start 1, forward 2 to 3. The target is 4 — Bit is one short. We need one more forward.'",
-          "2. WE DO: Exercise 1 — Bit lands on 3, one short. Exercise 2 — add 'forward 1'; the program reaches 4.",
-          "3. YOU DO: Exercise 3 — Program 2 lands on 3, two too high for target 1; add 'back 2' so 3 → 1.",
-          "4. Connect: 'Falling short can mean a missing block — add the step that finishes the job.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Program 1: 1 → forward 2 → 3. Bit is on 3, one short of 4.",
-          "Ex 2 — add 'forward 1': 1 → 3 → 4. Bit reaches the target, 4.",
-          "Ex 3 — Program 2: 4 → back 1 → 3. Add 'back 2': 3 → 1. Bit reaches the target, 1. (Two 'back 1' blocks also work.)"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: adding a block that overshoots — have students count the gap from where Bit stopped to the target, then add a step of that size.",
-          "Simplify: do Program 1 only (one forward short).",
-          "Extend: ask for a different way to fix Program 2 (e.g. two 'back 1' blocks) and test it.",
-          "Success indicator: the child adds 'forward 1' to reach 4 and a back block (back 2, or two back 1s) to reach 1."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child adds the missing block so Bit reaches the target."
       }
     ]
   }

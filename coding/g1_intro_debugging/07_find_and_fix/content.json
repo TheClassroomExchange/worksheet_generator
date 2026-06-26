@@ -18,15 +18,40 @@
         "type": "symbols",
         "title": "Bit's number path",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Program A — target is 4",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 1" },
-          { "cat": "motion", "label": "forward 1" }
+          {
+            "cat": "events",
+            "label": "start at 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          }
         ]
       },
       {
@@ -41,10 +66,22 @@
         "title": "Program B — target is 3",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 0" },
-          { "cat": "motion", "label": "forward 2" },
-          { "cat": "motion", "label": "forward 1" },
-          { "cat": "motion", "label": "forward 1" }
+          {
+            "cat": "events",
+            "label": "start at 0"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          }
         ]
       },
       {
@@ -78,50 +115,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students diagnose and fix two programs with DIFFERENT kinds of bugs (a wrong-value block and an extra block), then name each bug type. Reading code, identifying the kind of error, and altering the code to correct it is the heart of C3.2, and naming the bug type builds debugging vocabulary."
+        "title": "What this worksheet teaches",
+        "text": "Students diagnose and fix two programs with DIFFERENT kinds of bugs — a wrong block and an extra block — then name each bug type. Telling apart the kind of bug is a big step in debugging. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: tape a number line 0 to 5 on the floor and mark the target, so students can walk the buggy program and feel Bit miss."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Remind them of the bug types: a wrong block, an extra block, a missing block, a wrong-way block.",
+          "2. Do one together. Exercise 1 — Program A misses 4; the fix is to change a block's number.",
+          "3. Let them try. Students fix Program B (Ex 2), then name each bug type (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Program A: 1, forward 1 → 2 (misses 4). Bug = wrong block; change forward 1 to forward 3 so 1 → 4.",
+          "Exercise 2 — Program B: 0 → 2 → 3 → 4 (misses 3). Bug = an extra block; remove one forward 1 so 0 → 2 → 3.",
+          "Exercise 3 — Program A had a wrong block (wrong number); Program B had an extra block."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: applying the same fix to both. Each program has a different kind of bug.",
+          "Make it easier: ask first \"did Bit fall short, go too far, or go the wrong way?\"",
+          "Make it harder: ask them to write a third program with a missing-block bug."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students follow (or write) step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a program, change a block to fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-5 to run each program before fixing."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: run Program A — 'start 1, forward 1 to 2. Target is 4 — the forward block's number is too small.'",
-          "2. WE DO: Exercise 1 — A has a wrong-value block; change forward 1 to forward 3 (1 → 4). Exercise 2 — B overshoots to 4; it has an extra block; remove one forward 1 (0 → 2 → 3).",
-          "3. YOU DO: Exercise 3 — name the bugs: A = a wrong block (wrong number); B = an extra block.",
-          "4. Connect: 'Naming the kind of bug helps you pick the right fix.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Program A: 1 → forward 1 → 2 (misses 4). Bug = wrong value; change forward 1 to forward 3 so 1 → 4.",
-          "Ex 2 — Program B: 0 → 2 → 3 → 4 (misses 3). Bug = an extra block; remove one forward 1 so 0 → 2 → 3.",
-          "Ex 3 — Program A had a WRONG block (wrong number); Program B had an EXTRA block."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: trying to fix B by changing a number — the quickest fix is removing the extra step; accept any correct fix that lands on 3.",
-          "Simplify: tell students the bug type for each program and have them apply the matching fix.",
-          "Extend: ask students to make Program A wrong in a different way (an extra or missing block) for a partner to fix.",
-          "Success indicator: the child fixes A to reach 4 and B to reach 3 and names the two bug types correctly."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child fixes both programs and names the wrong-block and extra-block bug types."
       }
     ]
   }

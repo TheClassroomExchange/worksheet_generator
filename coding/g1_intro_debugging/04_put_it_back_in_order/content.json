@@ -18,16 +18,44 @@
         "type": "symbols",
         "title": "Bit's number path",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Program 1 — target is 4",
         "size": "md",
         "blocks": [
-          { "cat": "motion", "label": "forward 2" },
-          { "cat": "events", "label": "start at 1" },
-          { "cat": "motion", "label": "forward 1" }
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          },
+          {
+            "cat": "events",
+            "label": "start at 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          }
         ]
       },
       {
@@ -49,9 +77,18 @@
         "title": "Program 2 — target is 4",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "start at 3" },
-          { "cat": "motion", "label": "forward 3" },
-          { "cat": "motion", "label": "back 2" }
+          {
+            "cat": "events",
+            "label": "start at 3"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 3"
+          },
+          {
+            "cat": "motion",
+            "label": "back 2"
+          }
         ]
       },
       {
@@ -78,50 +115,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students fix bugs by re-ordering blocks: first by moving the start block to the top (a program must begin with start), then by swapping two move blocks whose order changes the result at the end of the path. Debugging by re-ordering a sequence is the heart of this subject and a clear C3.2 task, with a small C3.1 rewrite."
+        "title": "What this worksheet teaches",
+        "text": "Students fix bugs by re-ordering blocks: first by moving the start block to the top (a program must begin with the start block), then by swapping two move blocks whose order changes the result. Fixing a program by changing the order is a kind of debugging. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: tape a number line 0 to 5 on the floor and mark the target, so students can walk the buggy program and feel Bit miss."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). A program must begin with the start block — show one where it is in the middle and cannot run.",
+          "2. Do one together. Exercise 1 — the start block is in the middle, so the order is wrong; Exercise 2 — put it on top and run.",
+          "3. Let them try. Students swap two move blocks in Program 2 to reach the target (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — the start block (\"start at 1\") is in the middle; a program must begin with the start block, so the order is wrong.",
+          "Exercise 2 — right order: start at 1, forward 2, forward 1. Run: 1 → 3 → 4. Bit lands on 4.",
+          "Exercise 3 — buggy order (forward 3, back 2): 3 → 5 (stops at the end) → 3. Swapped (back 2, forward 3): 3 → 1 → 4. Bit lands on 4."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing a block's number instead of its order. Here the blocks are right — the order is wrong.",
+          "Make it easier: cut the blocks into cards and slide them into a new order.",
+          "Make it harder: ask why the swap in Exercise 3 changes the result (the end of the path)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students follow (or write) step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a program, change a block to fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: cut Program 1's blocks apart so students can physically slide the start block to the top."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: point to Program 1. 'The start block is in the middle — Bit doesn't know where to begin. The start block must go first.'",
-          "2. WE DO: Exercise 1 — the start block is not first. Exercise 2 — reorder to start at 1, forward 2, forward 1; Bit lands on 4.",
-          "3. YOU DO: Exercise 3 — Program 2 lands on 3 because forward 3 hits the end first; swap to back 2, forward 3, and Bit lands on 4.",
-          "4. Connect: 'Same blocks, wrong order, wrong result — re-ordering is a kind of fix.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — the start block ('start at 1') is in the middle; a program must begin with the start block, so the order is wrong.",
-          "Ex 2 — right order: start at 1, forward 2, forward 1. Run: 1 → 3 → 4. Bit lands on 4.",
-          "Ex 3 — Program 2 buggy order (forward 3, back 2): 3 → 5 (stops at the end) → 3. Swapped (back 2, forward 3): 3 → 1 → 4. Bit lands on 4."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common idea in Ex 3: 'the blocks didn't change, so the answer can't change' — the end of the path is what makes the order matter; walk both orders to show it.",
-          "Simplify: do Program 1 only (move the start block to the top).",
-          "Extend: ask students to find another order of Program 2's blocks and check where Bit lands.",
-          "Success indicator: the child puts the start block first in Program 1 (lands on 4) and swaps the moves in Program 2 (lands on 4)."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child puts the start block on top and reorders the moves so Bit reaches the target."
       }
     ]
   }
