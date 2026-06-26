@@ -69,55 +69,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students TRACE a loop one repeat at a time to find where it goes wrong (C3.2), then name the fix — covering wrong count, too many, overshoot, and wrong turn."
+        "title": "What this worksheet teaches",
+        "text": "Students TRACE a loop one repeat at a time to find exactly where it goes wrong, then name the fix — covering wrong count, too many, and a wrong turn. Tracing is the careful way to find a bug. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the code and what Bit should do. Optional: a Scratch-style app (for the block loops) or a free Python-turtle playground (for the shapes) to run the code — you only press Run."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). Go through the loop one repeat at a time and watch the running total.",
+          "2. Do one together. Exercise 1 — after 3 repeats Bit has 3 sides; a square needs 4.",
+          "3. Let them work. Students trace a jump count (Ex 2), a square with too many sides (Ex 3), and a square with a wrong turn (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 3 sides; the bug is the repeat number; fix to repeat 4. Exercise 2 — 8 jumps; fix to repeat 2 (2 × 2 = 4).",
+          "Exercise 3 — 5 sides (one too many); fix to repeat 4. Exercise 4 (challenge) — the turn is wrong (right 60); a square needs turn right 90."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: guessing without tracing. Go repeat by repeat and write the running total.",
+          "Make it easier: make a little table — repeat 1, 2, 3… and the total after each.",
+          "Make it harder: ask them to trace a six-sided shape and find its bug."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, find what is wrong, fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "Python Turtle / a block app projected; the printed worksheet + a pencil. A trace table on the board (repeat # → what happened) helps."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Model a trace table: repeat 1 → side 1, repeat 2 → side 2, … for the range(3) square.",
-          "2. The trace ends at 3 sides — a square needs 4. Name bug + fix together.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: trace to the end, then compare to the goal."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 3 sides; the bug is range(3); fix to range(4).",
-          "Ex 2 — 8 jumps; fix to repeat 2 (2 × 2 = 4).",
-          "Ex 3 — 5 sides (one too many / overshoot); fix to range(4).",
-          "Ex 4 (challenge) — the TURN is wrong (right 60); a square needs right 90."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: guessing instead of tracing each repeat.",
-          "Support: fill the trace table together for the first repeat, then students continue.",
-          "Extend: trace range(6) f50 r60 — a hexagon — and confirm it closes."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student traces a loop to the end, compares the result to the goal, and names both the bug and the fix (Ex 1–4)."
+        "title": "You'll know it worked when",
+        "text": "The child traces the loop repeat by repeat, finds where it goes wrong, and names the fix."
       }
     ]
   }

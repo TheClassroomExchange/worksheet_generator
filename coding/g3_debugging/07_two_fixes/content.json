@@ -69,55 +69,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students find a loop bug that has TWO valid fixes — change the repeat count or change the blocks inside — show both reach the goal, then choose one and justify it (C3.2, with C3.1 'writing' on Ex 3–4)."
+        "title": "What this worksheet teaches",
+        "text": "Students find a loop bug that has TWO good fixes — change the repeat number, or change the blocks inside — show both reach the goal, then choose one and say why. Often there is more than one way to fix a bug. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the code and what Bit should do. Optional: a Scratch-style app (for the block loops) or a free Python-turtle playground (for the shapes) to run the code — you only press Run."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). A loop that does double the goal can be fixed by halving the repeat OR by removing one inside block.",
+          "2. Do one together. Exercise 1 — Fix A: repeat 3 with two claps; Fix B: repeat 6 with one clap.",
+          "3. Let them work. Students give both fixes (Ex 2), write a whole corrected loop (Ex 3), and choose a fix with a reason (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Fix A: repeat 3 (3 × 2 = 6). Fix B: one clap inside (6 × 1 = 6).",
+          "Exercise 2 — Fix A: repeat 5 (5 × 2 = 10). Fix B: one hop inside (10 × 1 = 10). Fix B changes fewer blocks.",
+          "Exercise 3 — Fix A: repeat 4 with two stomps = 8; Fix B: repeat 8 with one stomp = 8. Exercise 4 (challenge) — Fix A: repeat 4 with three claps = 12; Fix B: repeat 6 with two claps = 12. Any reasoned choice is accepted."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking there is only one fix. Show that changing the count OR the inside blocks can both work.",
+          "Make it easier: check each fix by multiplying repeats × blocks inside.",
+          "Make it harder: ask which fix changes the fewest blocks and why that can be better."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, find what is wrong, fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block app or Python Turtle projected; the printed worksheet + a pencil. Write 'total actions = repeat × blocks inside' on the board so students can adjust either number."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Model the worked case: repeat 4 { clap, clap } = 8, but the goal is 4.",
-          "2. Show BOTH fixes — halve the repeat (repeat 2) OR keep one clap inside (repeat 4 × 1). Each = 4.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch: choose + justify), solo or in pairs.",
-          "4. Share: land that a bug can have more than one right fix, and a coder chooses the clearest."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — Fix A: repeat 3 (3 × 2 = 6). Fix B: one clap inside (6 × 1 = 6).",
-          "Ex 2 — Fix A: repeat 5 (5 × 2 = 10). Fix B: one hop inside (10 × 1 = 10). Fix B changes fewer blocks (delete one hop).",
-          "Ex 3 — Fix A: repeat 4 { stomp, stomp } = 8. Fix B: repeat 8 { stomp } = 8.",
-          "Ex 4 (challenge) — Fix A: repeat 4 { clap, clap, clap } = 12. Fix B: repeat 6 { clap, clap } = 12. Any reasoned choice accepted (e.g. 'Fix B changes only one number')."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: stopping at the first fix and missing the second.",
-          "Support: write 'total = repeat × blocks inside' and let students change either number to hit the goal.",
-          "Extend: ask for a goal where only one kind of fix works (an odd number of actions can't be reached by halving a two-block loop)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student finds both a repeat-count fix and a blocks-inside fix that reach the goal, then chooses one and gives a one-sentence reason (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child gives two working fixes, shows both reach the goal, and justifies a choice."
       }
     ]
   }

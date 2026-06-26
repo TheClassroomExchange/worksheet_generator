@@ -27,9 +27,19 @@
         "type": "blocks",
         "title": "Bit should JUMP 5 times — but this is buggy",
         "blocks": [
-          {"cat": "events", "label": "when green flag clicked"},
-          {"cat": "control", "label": "repeat 3"},
-          {"cat": "looks", "label": "jump", "indent": 1}
+          {
+            "cat": "events",
+            "label": "when green flag clicked"
+          },
+          {
+            "cat": "control",
+            "label": "repeat 3"
+          },
+          {
+            "cat": "looks",
+            "label": "jump",
+            "indent": 1
+          }
         ],
         "note": "It should be 5 jumps, but repeat 3 makes only 3. Fix the repeat number to 5."
       },
@@ -78,55 +88,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students learn the debugging method — SHOULD, DOES, FIX — and apply it to find and fix a wrong repeat count in a loop (C3.2). The challenge separates total count from repeat count when two blocks are inside."
+        "title": "What this worksheet teaches",
+        "text": "Students learn the debugging method — SHOULD, DOES, FIX — and use it to fix a wrong repeat number in a loop. The method here is SHOULD → DOES → FIX: say what the code SHOULD do, run it to see what it DOES, then FIX the one thing that is wrong. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the code and what Bit should do. Optional: a Scratch-style app (for the block loops) or a free Python-turtle playground (for the shapes) to run the code — you only press Run."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). Say what Bit SHOULD do (clap 6 times), run the loop to see what it DOES (claps 4), then FIX the repeat number.",
+          "2. Do one together. Exercise 1 — change repeat 4 to repeat 6.",
+          "3. Let them work. Students fix too-many and too-few repeats (Ex 2–3), and separate total from repeat count when two blocks are inside (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — repeat 6 (repeat 4 is too few). Exercise 2 — too many; should be repeat 4.",
+          "Exercise 3 — repeat 8. Exercise 4 (challenge) — repeat 3 (2 claps × 3 = 6); repeat 6 would give 12."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: skipping the SHOULD step. Name the goal first, then compare.",
+          "Make it easier: count the goal, count what the loop does, and find the difference.",
+          "Make it harder: ask the repeat number when three blocks are inside and Bit should do 9."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, find what is wrong, fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app (Scratch-style) to show a buggy loop and fix it live; the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Define bug + debugging; introduce SHOULD → DOES → FIX with the jump example.",
-          "2. Run repeat 3 (3 jumps) vs the goal (5); fix to repeat 5 together.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: name the goal first, then find the wrong part."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — repeat 6 (repeat 4 is too few).",
-          "Ex 2 — too many; should be repeat 4.",
-          "Ex 3 — repeat 8.",
-          "Ex 4 (challenge) — repeat 3 (2 claps × 3 = 6); repeat 6 gives 12."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: not checking the goal first, so any number 'looks' fine.",
-          "Support: write the GOAL number, then compare to the repeat number.",
-          "Extend: ask the repeat for 10 claps with 2 inside (5)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student states the goal, compares it to what the code does, and fixes the repeat number — including when two blocks inside change the total (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child uses SHOULD–DOES–FIX to set the repeat number so the loop matches the goal."
       }
     ]
   }

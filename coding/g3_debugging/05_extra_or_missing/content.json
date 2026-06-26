@@ -21,10 +21,25 @@
         "type": "blocks",
         "title": "Bit should do clap, stomp — but this has an EXTRA block",
         "blocks": [
-          {"cat": "control", "label": "repeat 3"},
-          {"cat": "looks", "label": "clap", "indent": 1},
-          {"cat": "looks", "label": "stomp", "indent": 1},
-          {"cat": "looks", "label": "stomp", "indent": 1}
+          {
+            "cat": "control",
+            "label": "repeat 3"
+          },
+          {
+            "cat": "looks",
+            "label": "clap",
+            "indent": 1
+          },
+          {
+            "cat": "looks",
+            "label": "stomp",
+            "indent": 1
+          },
+          {
+            "cat": "looks",
+            "label": "stomp",
+            "indent": 1
+          }
         ],
         "note": "There is an EXTRA stomp. Bit does 6 stomps instead of 3. Remove the extra block."
       },
@@ -73,55 +88,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students debug loops with an extra inside block (does too much) or a missing inside block (job unfinished) — in block and turtle contexts — and describe how adding/removing one block fixes the result (C3.2)."
+        "title": "What this worksheet teaches",
+        "text": "Students debug loops with an EXTRA inside block (does too much) or a MISSING inside block (job unfinished), in block and shape cases, and describe how adding or removing one block fixes the result. The method here is SHOULD → DOES → FIX: say what the code SHOULD do, run it to see what it DOES, then FIX the one thing that is wrong. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the code and what Bit should do. Optional: a Scratch-style app (for the block loops) or a free Python-turtle playground (for the shapes) to run the code — you only press Run."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). An extra block makes Bit do too much; a missing block leaves the job unfinished.",
+          "2. Do one together. Exercise 1 — the second stomp is extra.",
+          "3. Let them work. Students add the missing turn to close a square (Ex 2–3) and remove an extra turn (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — the second stomp is extra; Bit does 6 stomps (remove one to get 3). Exercise 2 — the turn block (turn right 90) is missing.",
+          "Exercise 3 — turn right 90. Exercise 4 (challenge) — two turns of 90 add up to a half-turn each side, so Bit goes back and forth; remove the extra turn right 90."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing a block instead of adding or removing one. Decide first: too much, or unfinished?",
+          "Make it easier: count the blocks the goal needs versus the blocks inside.",
+          "Make it harder: ask what an extra forward (instead of an extra turn) would do to a square."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, find what is wrong, fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app and/or Python Turtle projected; the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Run the clap, stomp, stomp loop; count 6 stomps; remove the extra block.",
-          "2. Run the forward-only square — a line; add the missing right(90).",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: check the inside blocks for extra/missing."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — the second stomp is extra; Bit does 6 stomps (remove one to get 3).",
-          "Ex 2 — the turn block (bit.right(90)) is missing.",
-          "Ex 3 — bit.right(90).",
-          "Ex 4 (challenge) — two turns of 90 = a 180 flip each side, so Bit goes back and forth; remove the extra bit.right(90)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: changing the repeat count when a block is extra/missing.",
-          "Support: list the inside blocks and compare one-to-one with the goal.",
-          "Extend: ask what a missing forward (only turns) would draw (Bit spins in place)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student spots an extra or missing inside block (not the count) and adds/removes one block to match the goal (Ex 1–3), explaining the extra-turn effect (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child adds the missing block or removes the extra one to match the goal."
       }
     ]
   }

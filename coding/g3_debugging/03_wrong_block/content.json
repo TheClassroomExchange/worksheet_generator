@@ -21,9 +21,20 @@
         "type": "blocks",
         "title": "Bit should clap then STOMP — but this is buggy",
         "blocks": [
-          {"cat": "control", "label": "repeat 3"},
-          {"cat": "looks", "label": "clap", "indent": 1},
-          {"cat": "looks", "label": "clap", "indent": 1}
+          {
+            "cat": "control",
+            "label": "repeat 3"
+          },
+          {
+            "cat": "looks",
+            "label": "clap",
+            "indent": 1
+          },
+          {
+            "cat": "looks",
+            "label": "clap",
+            "indent": 1
+          }
         ],
         "note": "The repeat 3 is right, but the second block should be STOMP, not clap. Fix the second block."
       },
@@ -72,55 +83,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students find a loop where the repeat count is right but an inside block is wrong (C3.2), in block and turtle contexts, and describe how the wrong block changes the result (a square becomes a line)."
+        "title": "What this worksheet teaches",
+        "text": "Students find a loop where the repeat number is right but a block INSIDE is wrong — in block and shape cases — and describe how the wrong block changes the result (a square becomes a straight line). The method here is SHOULD → DOES → FIX: say what the code SHOULD do, run it to see what it DOES, then FIX the one thing that is wrong. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the code and what Bit should do. Optional: a Scratch-style app (for the block loops) or a free Python-turtle playground (for the shapes) to run the code — you only press Run."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). The repeat number is right, but an inside block is wrong, so the result is wrong.",
+          "2. Do one together. Exercise 1 — the second block should be stomp, not clap.",
+          "3. Let them work. Students fix a square drawn as a line (Ex 2–3) and explain why two forwards with no turn make a line (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — the second block is wrong; change clap to stomp. Exercise 2 — the second \"move forward\" is wrong; change it to \"turn right 90\".",
+          "Exercise 3 — spin. Exercise 4 (challenge) — with two forwards and no turn, Bit just keeps going straight (8 forwards in a line); the turn block is missing."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing the repeat number. Here the count is right; an inside block is wrong.",
+          "Make it easier: compare the goal pattern to the blocks inside, one at a time.",
+          "Make it harder: ask which inside block makes a square versus a line."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, find what is wrong, fix it, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app and/or Python Turtle projected; the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Run the clap, clap loop; ask 'what was it supposed to do?' (clap, stomp).",
-          "2. Run the forward, forward square — it draws a line; the turn block is missing.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: check every inside block, not just the count."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — the second block is wrong; change clap to stomp.",
-          "Ex 2 — the second forward is wrong; change it to bit.right(90).",
-          "Ex 3 — spin.",
-          "Ex 4 (challenge) — with two forwards and no turn, Bit just keeps going straight (8 forwards); the right(90) turn block is missing."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: fixing the repeat count when the count is fine and a block is wrong.",
-          "Support: have students say each inside block aloud and compare to the goal.",
-          "Extend: ask which block is wrong if a triangle loop has forward, forward (the turn)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student locates the wrong inside block (not the count) and replaces it so the result matches the goal (Ex 1–3), and explains why a missing turn makes a line (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child keeps the repeat number and fixes the wrong inside block."
       }
     ]
   }

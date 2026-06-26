@@ -52,6 +52,8 @@ plain terms:" gloss) · You'll know it worked when. **Keep it tight — one page
 - Publish is outbound to Drive (token.json) — authorized by the approved plan.
 
 ## State as of last update (2026-06-26)
-Infrastructure done + committed. 2 sample sheets done (g1_block_sequential/01,
-g3_python_turtle/03) — combined PDF built + finalized, NOT yet published.
-Next: finish g1_block_sequential (sheets 02–08), then g3_python_turtle (01,02,04–07), then the K/G1/G2/G3 batches.
+LOCAL BUILD COMPLETE — all 93 sheets rewritten + combined into one <Title>.pdf each,
+all 20/20, lint clean, drift pass, committed per subject on coding-tg-rewrite-wordmark.
+ONLY remaining step: Drive re-auth (token expired) then publish all 12 batches:
+  for b in <12 batch dirs>: drive_publish.publish_batch(Path('coding/'+b))
+This deletes the old 2 component PDFs per Drive folder and uploads the 1 combined (hygiene=1).
