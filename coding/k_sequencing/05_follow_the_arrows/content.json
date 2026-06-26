@@ -18,28 +18,55 @@
         "type": "symbols",
         "title": "Bit's board",
         "size": "lg",
-        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "★" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "★"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "exercise",
         "number": 1,
         "title": "Two steps",
         "prompt": "Bit starts on box 1 and follows ➡ ➡. Which box does Bit land on? Write the box number.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
         "number": 2,
         "title": "Four steps",
         "prompt": "Bit starts on box 1 and follows ➡ ➡ ➡ ➡. Which box does Bit land on? Write the box number.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
         "number": 3,
         "title": "You try — land on the star",
         "prompt": "Bit starts on box 2 and follows ➡ ➡. Which box does Bit land on? Is it the star? Write the box number.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "prose",
@@ -58,56 +85,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children execute a sequence of ➡ moves on a 1D board and report Bit's landing box. Carrying out step-by-step directions in order is executing an algorithm — and the count of steps determines the result."
+        "title": "What this worksheet teaches",
+        "text": "Children carry out a list of right arrows on the numbered boxes and report the box Bit lands on. Following step-by-step directions in order is running a plan — the number of steps decides the result. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud. Optional: tape a row of numbered boxes (and a star) on the floor so a child can walk the steps."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Start on box 1, do three right arrows one at a time → box 4 (the star).",
+          "2. Do one together. Exercise 1 — start 1, two arrows → box 3.",
+          "3. Let them try. Children do Exercise 2 (four arrows → box 5) and Exercise 3 (start 2, two arrows → box 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — start 1, two right arrows → box 3. Exercise 2 — start 1, four right arrows → box 5.",
+          "Exercise 3 — start 2, two right arrows → box 4 (yes, the star)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: starting the count from the wrong box. Put a finger on the start box first.",
+          "Make it easier: walk each arrow on the floor boxes, pausing on each number.",
+          "Make it harder: ask which start box lands on the star with three arrows.",
+          "Make it active: call the arrows aloud while a child steps the boxes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children follow a sequence of directional instructions.",
-          "No reading required of the child: read each prompt aloud; the child writes the landing box number."
+          "In plain terms: carrying out a list of steps in order to see where Bit ends up.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by circling, numbering, or drawing arrows."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil. Optional: floor boxes 1-5 with a star on box 4 to walk the steps."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: from box 1, walk ➡ ➡ ➡ aloud — box 2, box 3, box 4. Bit lands on the star.",
-          "2. GUIDED: Exercise 1 — two steps from box 1 lands on box 3.",
-          "3. YOU TRY: children do four steps (Ex 2 → box 5), then start from box 2 (Ex 3 → box 4, the star).",
-          "4. Connect: 'Computers follow their steps in order, exactly — just like Bit.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — start 1, ➡ ➡ ➡ → box 4 (the star).",
-          "Ex 1 — start 1, ➡ ➡ → box 3.",
-          "Ex 2 — start 1, ➡ ➡ ➡ ➡ → box 5.",
-          "Ex 3 — start 2, ➡ ➡ → box 4 (yes, the star)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: counting box 1 as the first move — the first ➡ moves Bit OFF box 1 to box 2.",
-          "Simplify: walk each step on the floor and stop to name the box.",
-          "Extend: ask how many steps from box 1 reach box 5 (4), or start from box 3.",
-          "Movement option: call out arrows and have children take one step each, freezing on the landing box."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child counts the ➡ steps from the start box and writes the correct landing box for each program."
+        "title": "You'll know it worked when",
+        "text": "The child follows the arrows in order and writes the correct landing box each time."
       }
     ]
   }

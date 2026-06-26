@@ -18,7 +18,19 @@
         "type": "symbols",
         "title": "Watch Bit — box 1 to the star on box 3",
         "size": "lg",
-        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3", "label": "★" }],
+        "items": [
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3",
+            "label": "★"
+          }
+        ],
         "note": "Bit must move 2 boxes right. The steps are ➡ ➡."
       },
       {
@@ -26,21 +38,30 @@
         "number": 1,
         "title": "Box 1 to the star on box 4",
         "prompt": "Bit is on box 1. The star is on box 4. Draw the arrows Bit needs (one per box).",
-        "grid": { "rows": 1, "cols": 3 }
+        "grid": {
+          "rows": 1,
+          "cols": 3
+        }
       },
       {
         "type": "exercise",
         "number": 2,
         "title": "Box 2 to the star on box 3",
         "prompt": "Bit is on box 2. The star is on box 3. Draw the arrows Bit needs.",
-        "grid": { "rows": 1, "cols": 2 }
+        "grid": {
+          "rows": 1,
+          "cols": 2
+        }
       },
       {
         "type": "exercise",
         "number": 3,
         "title": "You try — go left",
         "prompt": "Bit is on box 4. The star is on box 2. Draw the arrows Bit needs (this time the star is to the left).",
-        "grid": { "rows": 1, "cols": 2 }
+        "grid": {
+          "rows": 1,
+          "cols": 2
+        }
       },
       {
         "type": "prose",
@@ -59,56 +80,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children compose a short arrow program that moves Bit to the star — choosing the direction and the number of steps. Writing the steps that solve a problem is composing a simple algorithm (the create level of sequencing)."
+        "title": "What this worksheet teaches",
+        "text": "Children draw a short set of arrows that moves Bit to the star — choosing the direction and how many steps. Writing the steps that solve a problem is making a simple plan (an algorithm). No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud. Optional: tape a row of numbered boxes (and a star) on the floor so a child can walk the steps."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Box 1 to the star on box 3: two right arrows.",
+          "2. Do one together. Exercise 1 — box 1 to box 4 needs three right arrows.",
+          "3. Let them try. Children do Exercise 2 (one right) and Exercise 3 (two left — the star is to the left)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — box 1 → box 4: three right arrows. Exercise 2 — box 2 → box 3: one right arrow.",
+          "Exercise 3 — box 4 → box 2: two left arrows."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: right number of steps but wrong direction. Check which way the star is first.",
+          "Make it easier: count the boxes between Bit and the star, then draw that many arrows.",
+          "Make it harder: ask for a plan from box 1 to box 5 (four right arrows).",
+          "Make it active: a child walks their drawn arrows on the floor boxes to test the plan."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children create a sequence of directions to reach a goal.",
-          "No reading required of the child: read each prompt aloud; the child draws ➡/⬅ arrows in the boxes."
+          "In plain terms: writing the steps that solve a problem — making a simple plan.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by circling, numbering, or drawing arrows."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil. Optional: floor boxes so children walk and then record the steps they took."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: box 1 to the star on box 3 — 'two boxes right, so ➡ ➡.' Count the gap, then write that many arrows.",
-          "2. GUIDED: Exercise 1 — box 1 to box 4 is three boxes right → ➡ ➡ ➡.",
-          "3. YOU TRY: one step (Ex 2 → ➡), then a left move (Ex 3 → ⬅ ⬅).",
-          "4. Connect: 'Writing the steps that solve a problem is making an algorithm — that is what coders do.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — box 1 → star box 3: ➡ ➡.",
-          "Ex 1 — box 1 → box 4: ➡ ➡ ➡ (three boxes right).",
-          "Ex 2 — box 2 → box 3: ➡ (one box right).",
-          "Ex 3 — box 4 → box 2: ⬅ ⬅ (two boxes left)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: too many or too few arrows — count the boxes between Bit and the star first.",
-          "Simplify: do only right-moving goals before introducing the left move.",
-          "Extend: place the star farther away (box 5) and write the longer program.",
-          "Movement option: a child walks the route and the class records one arrow per step."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child draws the correct number of arrows in the correct direction so the program reaches the star."
+        "title": "You'll know it worked when",
+        "text": "The child draws arrows in the right direction and the right number to reach the star."
       }
     ]
   }

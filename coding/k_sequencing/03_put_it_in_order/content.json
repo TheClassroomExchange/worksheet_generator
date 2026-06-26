@@ -18,20 +18,57 @@
         "type": "symbols",
         "title": "In order — 1, 2, 3, 4 leaves",
         "size": "lg",
-        "items": [{ "sym": "▲", "label": "day 1" }, { "sym": "▲ ▲", "label": "day 2" }, { "sym": "▲ ▲ ▲", "label": "day 3" }, { "sym": "▲ ▲ ▲ ▲", "label": "day 4" }]
+        "items": [
+          {
+            "sym": "▲",
+            "label": "day 1"
+          },
+          {
+            "sym": "▲ ▲",
+            "label": "day 2"
+          },
+          {
+            "sym": "▲ ▲ ▲",
+            "label": "day 3"
+          },
+          {
+            "sym": "▲ ▲ ▲ ▲",
+            "label": "day 4"
+          }
+        ]
       },
       {
         "type": "symbols",
         "title": "Now these are mixed up",
         "size": "md",
-        "items": [{ "sym": "▲ ▲ ▲ ▲", "label": "?" }, { "sym": "▲ ▲", "label": "?" }, { "sym": "▲", "label": "?" }, { "sym": "▲ ▲ ▲", "label": "?" }]
+        "items": [
+          {
+            "sym": "▲ ▲ ▲ ▲",
+            "label": "?"
+          },
+          {
+            "sym": "▲ ▲",
+            "label": "?"
+          },
+          {
+            "sym": "▲",
+            "label": "?"
+          },
+          {
+            "sym": "▲ ▲ ▲",
+            "label": "?"
+          }
+        ]
       },
       {
         "type": "exercise",
         "number": 1,
         "title": "Write the order",
         "prompt": "Write 1, 2, 3, 4 under the mixed-up steps to put them in order (fewest leaves to most).",
-        "grid": { "rows": 1, "cols": 4 }
+        "grid": {
+          "rows": 1,
+          "cols": 4
+        }
       },
       {
         "type": "exercise",
@@ -45,7 +82,10 @@
         "number": 3,
         "title": "You try — draw the next step",
         "prompt": "After 4 leaves comes day 5. Draw the next step (5 leaves).",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "prose",
@@ -64,56 +104,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children sequence four steps into the correct order (fewest to most). Arranging several steps in order is the heart of building an algorithm — a plan a computer can follow step by step."
+        "title": "What this worksheet teaches",
+        "text": "Children put four steps in order from fewest leaves to most, and add the next step. Arranging several steps in order is the heart of a plan a computer can follow one step at a time. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud; the child answers by circling or numbering. Optional: real objects or cards to put in order by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Line up cards with 1, 2, 3, 4 leaves in order — each day grows one more leaf.",
+          "2. Do one together. Exercise 1 — number the mixed-up cards in order from fewest to most.",
+          "3. Let them try. Children mark first and last (Ex 2), then draw the next step — 5 leaves (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — under the mixed cards (4, 2, 1, 3 leaves) write 4, 2, 1, 3.",
+          "Exercise 2 — circle the 1-leaf card (first); put an X on the 4-leaf card (last). Exercise 3 — draw a step with 5 leaves."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: numbering left-to-right by position. Count the leaves on each card first.",
+          "Make it easier: order just three cards before doing four.",
+          "Make it harder: ask what day 6 would look like (6 leaves).",
+          "Make it active: have four children hold leaf cards and order themselves fewest to most."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children order a multi-step process.",
-          "No reading required of the child: read each prompt aloud; the child writes 1-4 and draws."
+          "In plain terms: arranging several steps into the right order — the start of a plan (an algorithm).",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by circling, numbering, or drawing arrows."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil. Optional: cards with 1-4 dots to lay out in order by hand."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: count the in-order plant — 'one leaf, two, three, four.' The count grows by one each day.",
-          "2. GUIDED: Exercise 1 — number the mixed cards by counting leaves (fewest = 1).",
-          "3. YOU TRY: children mark first and last (Ex 2), then draw day 5 with five leaves (Ex 3).",
-          "4. Connect: 'A plan of ordered steps is an algorithm — computers follow them in order.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — in order: 1 leaf, 2 leaves, 3 leaves, 4 leaves.",
-          "Ex 1 — under the mixed cards [4, 2, 1, 3 leaves] write [4, 2, 1, 3].",
-          "Ex 2 — circle the 1-leaf card (first); X on the 4-leaf card (last).",
-          "Ex 3 — draw a step with 5 leaves (▲ ▲ ▲ ▲ ▲)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: numbering left-to-right by position — have them count leaves before writing.",
-          "Simplify: order three cards (1-3) before four.",
-          "Extend: shuffle and re-order, or order steps of a real routine (wash, dry, etc.).",
-          "Movement option: hand four children 1-4 objects and have them line up in order."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child numbers the four steps 1-4 by count and draws a correct five-leaf next step."
+        "title": "You'll know it worked when",
+        "text": "The child orders the four steps fewest to most and draws a correct fifth step."
       }
     ]
   }

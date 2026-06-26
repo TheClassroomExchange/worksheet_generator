@@ -18,7 +18,16 @@
         "type": "symbols",
         "title": "Watch Bit go down the slide",
         "size": "lg",
-        "items": [{ "sym": "⬆", "label": "climb up" }, { "sym": "⬇", "label": "slide down" }],
+        "items": [
+          {
+            "sym": "⬆",
+            "label": "climb up"
+          },
+          {
+            "sym": "⬇",
+            "label": "slide down"
+          }
+        ],
         "note": "First climb up ⬆, then slide down ⬇. Up comes first."
       },
       {
@@ -59,55 +68,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children identify the step that must happen first in a two-step action. Recognizing the starting step — and that some steps depend on earlier ones — is essential to building a correct sequence or algorithm."
+        "title": "What this worksheet teaches",
+        "text": "Children pick the step that must happen FIRST in a two-step action (like climbing up before sliding down). Knowing which step comes first — and that some steps depend on an earlier one — is key to a correct plan. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud; the child answers by circling or numbering. Optional: real objects or cards to put in order by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). A slide: first you climb up, then you slide down. You cannot slide before you climb.",
+          "2. Do one together. Exercise 1 — climb up comes first.",
+          "3. Let them try. Children do Exercise 2 (open the door first), then Exercise 3 (sock before shoe)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — circle \"climb up\". Exercise 2 — circle \"open the door\".",
+          "Exercise 3 — circle \"put on a sock\" (the sock goes on before the shoe)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: picking the step they like best instead of the one that must come first. Ask \"could you do the other one first?\"",
+          "Make it easier: act the two steps out and try them in the wrong order — it does not work.",
+          "Make it harder: ask for a three-step routine and which step is first (e.g. wet hands, soap, rinse).",
+          "Make it active: have children mime the action in the correct order."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children reason about the order in which steps must occur.",
-          "No reading required of the child: read each prompt aloud; the child circles the first step."
+          "In plain terms: noticing which step has to happen first.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by circling, numbering, or drawing arrows."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil. Optional: act out each two-step action so children feel the order."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: the slide — 'you must climb up BEFORE you slide down.' First is ⬆.",
-          "2. GUIDED: Exercise 1 — to get to the top, climb up comes first.",
-          "3. YOU TRY: children pick the first step for the door (open) and for getting dressed (sock).",
-          "4. Connect: 'If you do steps out of order, the plan does not work — order matters.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — slide: first ⬆ climb up, then ⬇ slide down.",
-          "Ex 1 — circle ⬆ climb up.   Ex 2 — circle 'open the door'.",
-          "Ex 3 — circle 'put on a sock' (the sock goes on before the shoe)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: picking the more exciting step (the slide!) — ask 'but what has to happen first?'",
-          "Simplify: physically act out the two steps in order, then ask which was first.",
-          "Extend: ask what comes LAST, or add a middle step (climb, sit, slide).",
-          "Movement option: do 'shoes' as a class — everyone mimes sock first, then shoe."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child circles the step that must happen first in each pair and can explain why it cannot be skipped."
+        "title": "You'll know it worked when",
+        "text": "The child circles the step that must happen first in each pair and can say why."
       }
     ]
   }

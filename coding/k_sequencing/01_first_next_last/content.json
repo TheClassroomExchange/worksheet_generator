@@ -18,14 +18,40 @@
         "type": "symbols",
         "title": "Watch Bit build — in order",
         "size": "lg",
-        "items": [{ "sym": "■", "label": "first" }, { "sym": "■ ■", "label": "next" }, { "sym": "■ ■ ■", "label": "last" }],
+        "items": [
+          {
+            "sym": "■",
+            "label": "first"
+          },
+          {
+            "sym": "■ ■",
+            "label": "next"
+          },
+          {
+            "sym": "■ ■ ■",
+            "label": "last"
+          }
+        ],
         "note": "First 1 block, next 2 blocks, last 3 blocks. The tower grows in order."
       },
       {
         "type": "symbols",
         "title": "These steps are mixed up",
         "size": "lg",
-        "items": [{ "sym": "● ● ●", "label": "?" }, { "sym": "●", "label": "?" }, { "sym": "● ●", "label": "?" }]
+        "items": [
+          {
+            "sym": "● ● ●",
+            "label": "?"
+          },
+          {
+            "sym": "●",
+            "label": "?"
+          },
+          {
+            "sym": "● ●",
+            "label": "?"
+          }
+        ]
       },
       {
         "type": "exercise",
@@ -46,7 +72,10 @@
         "number": 3,
         "title": "You try — write the order",
         "prompt": "Write 1, 2, 3 under the mixed-up steps to put them in order (fewest to most).",
-        "grid": { "rows": 1, "cols": 3 }
+        "grid": {
+          "rows": 1,
+          "cols": 3
+        }
       },
       {
         "type": "prose",
@@ -65,56 +94,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children put the steps of an action in order — first, next, last. Ordering steps is the foundation of sequencing and algorithms: a plan is a list of steps that must happen in the right order."
+        "title": "What this worksheet teaches",
+        "text": "Children put the steps of an action in order — first, next, last — using cards with fewer or more dots. Putting steps in the right order is the start of a plan (an algorithm). No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud; the child answers by circling or numbering. Optional: real objects or cards to put in order by hand first."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Line up cards with 1, 2, 3 dots: \"fewest comes first, most comes last.\"",
+          "2. Do one together. Exercise 1 — the card with one dot comes first.",
+          "3. Let them try. Children do Exercise 2 (last), then Exercise 3 (number them 1, 2, 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — circle the single-dot card (fewest = first). Exercise 2 — circle the three-dot card (most = last).",
+          "Exercise 3 — order is: one dot = 1, two dots = 2, three dots = 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: ordering by where a card sits on the page, not by the number of dots. Count the dots together.",
+          "Make it easier: line up real objects from fewest to most by hand first.",
+          "Make it harder: add a fourth card (four dots) and order all four.",
+          "Make it active: have three children hold 1, 2, 3 dots and line themselves up."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children order the steps of a familiar process.",
-          "No reading required of the child: read each prompt aloud; the child circles and writes 1-2-3."
+          "In plain terms: putting the steps of an action in order — first, next, last.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by circling, numbering, or drawing arrows."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil. Optional: real blocks to build the 1-2-3 tower in order first."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: build the tower aloud — 'first one block, next two, last three.' The number of blocks grows.",
-          "2. GUIDED: Exercise 1 — the step with one dot comes first (fewest).",
-          "3. YOU TRY: children find the LAST step (Ex 2), then number all three in order (Ex 3).",
-          "4. Connect: 'A plan made of ordered steps is called an algorithm — computers follow algorithms.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — first 1 block, next 2 blocks, last 3 blocks.",
-          "Ex 1 — circle the single dot ● (fewest = first).",
-          "Ex 2 — circle the three dots ● ● ● (most = last).",
-          "Ex 3 — order is: ● = 1, ● ● = 2, ● ● ● = 3."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: ordering by position on the page instead of by count — have them count the dots aloud.",
-          "Simplify: order just two steps (1 then 2) before three.",
-          "Extend: add a fourth step (4 dots) and re-order, or order steps of a real routine.",
-          "Movement option: line up children shortest to tallest — that is putting things in order too."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child identifies the first and last steps by count and numbers the three steps 1-2-3 in order."
+        "title": "You'll know it worked when",
+        "text": "The child orders the cards from fewest to most and labels them 1, 2, 3."
       }
     ]
   }

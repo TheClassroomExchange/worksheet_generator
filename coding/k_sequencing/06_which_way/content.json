@@ -18,7 +18,25 @@
         "type": "symbols",
         "title": "Watch Bit — star is to the right",
         "size": "lg",
-        "items": [{ "sym": "1" }, { "sym": "2" }, { "sym": "3", "label": "Bit" }, { "sym": "4" }, { "sym": "5", "label": "★" }],
+        "items": [
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3",
+            "label": "Bit"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "★"
+          }
+        ],
         "note": "The star (box 5) is to the RIGHT of Bit (box 3). So Bit should go ➡."
       },
       {
@@ -59,56 +77,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children choose the single arrow (➡ or ⬅) that moves Bit toward the star. Selecting the correct direction toward a goal is the first planning decision in building an algorithm."
+        "title": "What this worksheet teaches",
+        "text": "Children choose the one arrow — right (➡) or left (⬅) — that moves Bit toward the star. Picking the correct direction toward a goal is the first planning choice in making a plan. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil or crayon. You read each prompt aloud. Optional: tape a row of numbered boxes (and a star) on the floor so a child can walk the steps."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Bit on box 3, star on box 5: \"the star is to the right, so we go right.\"",
+          "2. Do one together. Exercise 1 — the star is to the right; circle the right arrow.",
+          "3. Let them try. Children do Exercise 2 (star to the left) and Exercise 3 on their own."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — circle the right arrow. Exercise 2 — circle the left arrow.",
+          "Exercise 3 — circle the left arrow (the star is to the left)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: always choosing right. Ask \"is the star on Bit's right or left?\" first.",
+          "Make it easier: stand on the floor boxes and point your body toward the star.",
+          "Make it harder: ask both the direction AND how many steps to reach the star.",
+          "Make it active: face the star and step toward it to check the direction."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children use directional language and choose a direction toward a goal.",
-          "No reading required of the child: read each prompt aloud; the child circles ➡ or ⬅."
+          "In plain terms: choosing the right direction toward a goal.",
+          "No reading is needed from the child — you read each prompt aloud; the child answers by circling, numbering, or drawing arrows."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet + a pencil. Optional: floor boxes with Bit and a star to point the way by hand."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: 'The star is on box 5, Bit is on box 3. Box 5 is to the right, so Bit goes ➡.'",
-          "2. GUIDED: Exercise 1 — star to the right → ➡.",
-          "3. YOU TRY: children pick ⬅ when the star is to the left (Ex 2 and Ex 3).",
-          "4. Connect: 'A coder first asks: which way do I need to go?'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Model — Bit 3, star 5 → ➡ (right).",
-          "Ex 1 — Bit 2, star 5 → ➡ (right).",
-          "Ex 2 — Bit 4, star 2 → ⬅ (left).",
-          "Ex 3 — Bit 5, star 1 → ⬅ (left)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: always choosing ➡ — have them point from Bit to the star first to feel the direction.",
-          "Simplify: use only box positions next to each other (Bit on 2, star on 3).",
-          "Extend: ask how many steps in that direction reach the star.",
-          "Movement option: stand a child as Bit and place a star; the class calls 'left' or 'right'."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child circles the arrow pointing toward the star in every case, including when the star is to the left."
+        "title": "You'll know it worked when",
+        "text": "The child circles the arrow that points toward the star every time."
       }
     ]
   }
