@@ -18,17 +18,39 @@
         "type": "symbols",
         "title": "The jobs",
         "size": "md",
-        "items": [{ "sym": "wash hands" }, { "sym": "feed the dog" }, { "sym": "get a drink" }]
+        "items": [
+          {
+            "sym": "wash hands"
+          },
+          {
+            "sym": "feed the dog"
+          },
+          {
+            "sym": "get a drink"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Algorithm 1",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "1. wet your hands" },
-          { "cat": "value", "label": "2. add soap" },
-          { "cat": "value", "label": "3. rinse" },
-          { "cat": "value", "label": "4. dry your hands" }
+          {
+            "cat": "value",
+            "label": "1. wet your hands"
+          },
+          {
+            "cat": "value",
+            "label": "2. add soap"
+          },
+          {
+            "cat": "value",
+            "label": "3. rinse"
+          },
+          {
+            "cat": "value",
+            "label": "4. dry your hands"
+          }
         ]
       },
       {
@@ -43,10 +65,22 @@
         "title": "Algorithm 2",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "1. get the bowl" },
-          { "cat": "value", "label": "2. scoop the food" },
-          { "cat": "value", "label": "3. put it down" },
-          { "cat": "value", "label": "4. call the dog" }
+          {
+            "cat": "value",
+            "label": "1. get the bowl"
+          },
+          {
+            "cat": "value",
+            "label": "2. scoop the food"
+          },
+          {
+            "cat": "value",
+            "label": "3. put it down"
+          },
+          {
+            "cat": "value",
+            "label": "4. call the dog"
+          }
         ]
       },
       {
@@ -80,50 +114,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read two algorithms, figure out the job each one does, and match it — then write the algorithm for the leftover job. Reading code to determine what it accomplishes is abstraction and a core part of C3.2; writing the missing algorithm is C3.1."
+        "title": "What this worksheet teaches",
+        "text": "Students read two sets of steps, work out which job each one does, then write the steps for a leftover job. Reading a plan to figure out what it accomplishes is a key thinking skill. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: cut the steps into cards so students can physically slide them into order before writing."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Read a set of steps and ask: \"what job is this?\"",
+          "2. Do one together. Algorithm 1 is washing hands; Algorithm 2 is feeding the dog.",
+          "3. Let them try. Students write the steps for the leftover job (getting a drink)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Algorithm 1 = wash hands (wet, soap, rinse, dry). Exercise 2 — Algorithm 2 = feed the dog (get the bowl, scoop the food, put it down, call the dog).",
+          "Exercise 3 — get a drink: a sample is get a cup, turn on the tap, fill the cup, turn off the tap. Accept any 3–4 sensible ordered steps."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: guessing the job from one step. Read all the steps before deciding.",
+          "Make it easier: give two job names to choose between.",
+          "Make it harder: ask them to add a step that would make the job clearer."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students put step-by-step instructions in the right order to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a set of steps, change or reorder one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: cover the algorithm titles and have students guess the job from the steps alone."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: read Algorithm 1's steps. 'Wet, soap, rinse, dry — these steps wash your hands.'",
-          "2. WE DO: Exercise 1 — Algorithm 1 = wash hands. Exercise 2 — Algorithm 2 (bowl, scoop, put down, call) = feed the dog.",
-          "3. YOU DO: Exercise 3 — the leftover job is 'get a drink'; students write its steps (e.g. get a cup, turn on the tap, fill the cup, turn off the tap).",
-          "4. Connect: 'Coders read code to figure out what it does — the steps tell the job.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Algorithm 1 = wash hands (wet, add soap, rinse, dry).",
-          "Ex 2 — Algorithm 2 = feed the dog (get the bowl, scoop the food, put it down, call the dog).",
-          "Ex 3 — get a drink: a sample algorithm is get a cup, turn on the tap, fill the cup, turn off the tap. Accept any 3-4 sensible ordered steps."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: matching by one word instead of the whole job — have students check that every step fits the job they chose.",
-          "Simplify: do Exercises 1 and 2 (matching) only.",
-          "Extend: ask students to write a 2-algorithm puzzle of their own for a partner to match.",
-          "Success indicator: the child matches Algorithm 1 to wash hands and Algorithm 2 to feed the dog, and writes a sensible 'get a drink' algorithm."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child names the job for each set of steps and writes a sensible ordered plan for the leftover one."
       }
     ]
   }

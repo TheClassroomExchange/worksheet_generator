@@ -19,10 +19,22 @@
         "title": "Brush your teeth — step bank (mixed up)",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "A. brush your teeth" },
-          { "cat": "value", "label": "B. wet the brush" },
-          { "cat": "value", "label": "C. rinse your mouth" },
-          { "cat": "value", "label": "D. put on toothpaste" }
+          {
+            "cat": "value",
+            "label": "A. brush your teeth"
+          },
+          {
+            "cat": "value",
+            "label": "B. wet the brush"
+          },
+          {
+            "cat": "value",
+            "label": "C. rinse your mouth"
+          },
+          {
+            "cat": "value",
+            "label": "D. put on toothpaste"
+          }
         ]
       },
       {
@@ -63,50 +75,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students write an algorithm: they order a step bank into the steps for brushing teeth, explain why that order is needed, then write their own bedtime algorithm. Writing the ordered steps of a task is creating a sequential algorithm (C3.1); explaining why the order matters is C3.2."
+        "title": "What this worksheet teaches",
+        "text": "Students write an algorithm: they order the steps for brushing teeth, explain why that order is needed, then write their own bedtime routine. Writing the steps of a task in order is making a plan. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: cut the steps into cards so students can physically slide them into order before writing."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). You cannot brush before the toothpaste is on — so that step comes first.",
+          "2. Do one together. Order the brushing steps (Ex 1) and say why (Ex 2).",
+          "3. Let them try. Students write their own bedtime routine in order (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Brush your teeth: wet the brush (B), put on toothpaste (D), brush your teeth (A), rinse your mouth (C).",
+          "Exercise 2 — \"Wet the brush\" must be first, and toothpaste must go on before brushing; swapping them breaks the routine.",
+          "Exercise 3 — open. A sample: put on pyjamas, brush teeth, read a book, turn off the light. Accept any 3–4 steps in a sensible order."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: a sensible-sounding list that does not actually work in order. Ask them to act it out.",
+          "Make it easier: give a step bank and have them only order it.",
+          "Make it harder: ask them to add a fifth step in the right place."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students put step-by-step instructions in the right order to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a set of steps, change or reorder one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: cut the step bank apart so students can arrange the cards before copying them onto the lines."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: read the step bank. 'I write the FIRST step on line 1 — wet the brush — then keep going.'",
-          "2. WE DO: Exercise 1 — write wet the brush, put on toothpaste, brush your teeth, rinse your mouth (B, D, A, C). Exercise 2 — first is 'wet the brush'; toothpaste must come before brushing.",
-          "3. YOU DO: Exercise 3 — students write their own 3-4 step bedtime algorithm in order.",
-          "4. Connect: 'Writing the steps in order is writing code — coders plan the order so the job works.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Brush your teeth in order: wet the brush (B), put on toothpaste (D), brush your teeth (A), rinse your mouth (C).",
-          "Ex 2 — 'Wet the brush' must be first; you cannot brush before the toothpaste is on, so put on toothpaste comes before brush your teeth. Swapping them breaks the algorithm.",
-          "Ex 3 — open. A sample bedtime algorithm: put on pyjamas, brush your teeth, read a book, turn off the light. Accept any 3-4 steps in a sensible order (an action that depends on another comes after it)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip in Ex 3: steps with no clear order — ask 'which one has to happen before another?' to surface dependencies.",
-          "Simplify: give a starter step bank for the bedtime task instead of a blank write.",
-          "Extend: ask students to trade algorithms with a partner and follow each other's steps to test them.",
-          "Success indicator: the child writes B, D, A, C for brushing and a sensible, correctly-ordered bedtime algorithm."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child writes a working ordered routine and can justify one of the orderings."
       }
     ]
   }

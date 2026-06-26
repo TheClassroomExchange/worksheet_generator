@@ -19,10 +19,22 @@
         "title": "Make a cup of tea — the steps",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "A. add the milk" },
-          { "cat": "value", "label": "B. boil the water" },
-          { "cat": "value", "label": "C. put a tea bag in the cup" },
-          { "cat": "value", "label": "D. pour the water in the cup" }
+          {
+            "cat": "value",
+            "label": "A. add the milk"
+          },
+          {
+            "cat": "value",
+            "label": "B. boil the water"
+          },
+          {
+            "cat": "value",
+            "label": "C. put a tea bag in the cup"
+          },
+          {
+            "cat": "value",
+            "label": "D. pour the water in the cup"
+          }
         ]
       },
       {
@@ -30,7 +42,10 @@
         "number": 1,
         "title": "What must come first?",
         "prompt": "You can only pour the water (D) once it is hot. Which step makes the water hot and must come before D? Write the letter.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -63,50 +78,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students reason about dependencies in an algorithm: which step must come before another, which step cannot go early, and which steps are flexible — then write a working order. Describing how the order of steps affects whether the algorithm works is C3.2; writing a valid order is C3.1."
+        "title": "What this worksheet teaches",
+        "text": "Students reason about which step must come before another, which cannot go early, and which two steps are flexible — then write a working order for making tea. Seeing that some steps depend on others is key to a correct plan. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: cut the steps into cards so students can physically slide them into order before writing."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). You can only pour the water once it is hot — so boiling must come before pouring.",
+          "2. Do one together. Find the step that must come before pouring (Ex 1); decide if milk can go early (Ex 2).",
+          "3. Let them try. Students find the two flexible steps and write the whole tea order (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — boil the water (B) must come before pour the water (D).",
+          "Exercise 2 — NO: you cannot add the milk before pouring the water, because there is no tea in the cup yet; adding milk must come after pouring.",
+          "Exercise 3 — boiling (B) and getting the cup (C) can be done in either order. A working order: B, C, D, A (or C, B, D, A)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking every step has a fixed spot. Some steps really can swap.",
+          "Make it easier: ask just \"what has to happen before you can pour?\"",
+          "Make it harder: ask them to find another pair of steps that could swap."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students put step-by-step instructions in the right order to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a set of steps, change or reorder one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: act out the tea steps so the dependencies are felt (you cannot pour water that is not boiled yet)."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: 'To pour the water it has to be hot — so boiling the water must come before pouring.' That is a dependency.",
-          "2. WE DO: Exercise 1 — boil the water (B) must come before pour (D). Exercise 2 — you cannot add milk (A) before pouring (D); there is nothing in the cup yet.",
-          "3. YOU DO: Exercise 3 — boil the water (B) and put the tea bag in the cup (C) can go in either order; a working order is B, C, D, A.",
-          "4. Connect: 'Coders look for what must come first so the steps don't break each other.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — B (boil the water) must come before D (pour the water).",
-          "Ex 2 — NO: you cannot add the milk before pouring the water, because there is no tea in the cup to add milk to yet. A must come after D.",
-          "Ex 3 — B and C can be done in either order (neither depends on the other). A working order: B, C, D, A (or C, B, D, A)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common idea: students may think there is only one right order — point out the flexible pair (B and C) to show some steps don't depend on each other.",
-          "Simplify: focus on Exercise 1 and 2 only (one dependency at a time).",
-          "Extend: ask which step must always be LAST (add the milk) and why.",
-          "Success indicator: the child names B as must-come-first, explains why milk can't go early, finds the B/C flexible pair, and writes a working order."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child names the must-come-first step, the flexible pair, and writes a working order."
       }
     ]
   }

@@ -19,10 +19,22 @@
         "title": "Plant a seed — mixed up",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "A. drop the seed" },
-          { "cat": "value", "label": "B. water it" },
-          { "cat": "value", "label": "C. dig a hole" },
-          { "cat": "value", "label": "D. cover the seed" }
+          {
+            "cat": "value",
+            "label": "A. drop the seed"
+          },
+          {
+            "cat": "value",
+            "label": "B. water it"
+          },
+          {
+            "cat": "value",
+            "label": "C. dig a hole"
+          },
+          {
+            "cat": "value",
+            "label": "D. cover the seed"
+          }
         ]
       },
       {
@@ -36,17 +48,32 @@
         "number": 2,
         "title": "Write the order",
         "prompt": "Now write the letters in the right order in the boxes.",
-        "grid": { "rows": 1, "cols": 4 }
+        "grid": {
+          "rows": 1,
+          "cols": 4
+        }
       },
       {
         "type": "blocks",
         "title": "Wash your hands — mixed up",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "A. dry hands" },
-          { "cat": "value", "label": "B. wet hands" },
-          { "cat": "value", "label": "C. rub on soap" },
-          { "cat": "value", "label": "D. rinse hands" }
+          {
+            "cat": "value",
+            "label": "A. dry hands"
+          },
+          {
+            "cat": "value",
+            "label": "B. wet hands"
+          },
+          {
+            "cat": "value",
+            "label": "C. rub on soap"
+          },
+          {
+            "cat": "value",
+            "label": "D. rinse hands"
+          }
         ]
       },
       {
@@ -54,7 +81,10 @@
         "number": 3,
         "title": "You try — order it",
         "prompt": "Number these cards 1 to 4 for washing hands, then write the letters in order in the boxes.",
-        "grid": { "rows": 1, "cols": 4 }
+        "grid": {
+          "rows": 1,
+          "cols": 4
+        }
       },
       {
         "type": "prose",
@@ -73,50 +103,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read a set of mixed-up step-cards and put them in the right order to make a working algorithm, then do a second one on their own. Ordering the steps of a task is creating a sequential algorithm — a computational representation of an everyday procedure (C3.1) — and noticing that swapping steps breaks it touches C3.2."
+        "title": "What this worksheet teaches",
+        "text": "Students put a set of mixed-up step-cards in the right order to make a task work (planting a seed, washing hands). Putting the steps of a task in order is making a plan — the everyday name for an algorithm. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: cut the steps into cards so students can physically slide them into order before writing."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Read the planting cards aloud and ask: \"what must Bit do first?\" You cannot drop the seed before you dig the hole.",
+          "2. Do one together. Number the planting cards in order, then write the letters in the boxes.",
+          "3. Let them try. Students order the wash-hands cards on their own."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercises 1 & 2 — Plant a seed: dig a hole (C), drop the seed (A), cover the seed (D), water it (B). Order: C, A, D, B.",
+          "Exercise 3 — Wash hands: wet hands (B), soap (C), rinse (D), dry (A). Order: B, C, D, A.",
+          "Why the order matters: each step needs the one before it. Swap two and the job fails (drying before washing leaves hands dirty)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: ordering cards by where they sit on the page. Ask \"which one has to happen first?\"",
+          "Make it easier: slide real step-cards into order by hand before writing.",
+          "Make it harder: ask them to explain why two of the steps cannot swap."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students put step-by-step instructions in the right order to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a set of steps, change or reorder one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: cut the four cards apart so students can physically slide them into order before writing."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: read the plant-a-seed cards aloud. 'What must happen first? You can't drop a seed with no hole — so dig first.'",
-          "2. WE DO: Exercise 1 — number the cards C-A-D-B. Exercise 2 — write the letters C, A, D, B.",
-          "3. YOU DO: Exercise 3 — wash hands in order: wet, soap, rinse, dry (B, C, D, A).",
-          "4. Connect: 'Steps in the right order make an algorithm — computers need their steps in order too.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 / Ex 2 — Plant a seed: dig a hole (C), drop the seed (A), cover the seed (D), water it (B). Order: C, A, D, B.",
-          "Ex 3 — Wash hands: wet hands (B), rub on soap (C), rinse hands (D), dry hands (A). Order: B, C, D, A.",
-          "Why the order works: each step depends on the one before — you must dig before you drop, wet before you soap. Swap two and the job fails (drying before washing leaves hands dirty)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: ordering by the card letters (A-B-C-D) instead of by the task — remind students the letters are just names, not the order.",
-          "Simplify: do the plant-a-seed task only, acting each step out together first.",
-          "Extend: ask students to name another everyday algorithm (e.g. making toast) and list its steps in order.",
-          "Success indicator: the child writes C, A, D, B and B, C, D, A and can explain why a step must come before another."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child orders both tasks correctly and can say why a step must come before another."
       }
     ]
   }

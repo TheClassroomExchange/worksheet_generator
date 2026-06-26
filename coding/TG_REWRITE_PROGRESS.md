@@ -30,7 +30,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 | 3 | K | k_unplugged_ct | 8 | ☑ | ⏸ auth | ☑ |
 | 4 | K | k_sequencing | 8 | ☑ | ⏸ auth | ☑ |
 | 5 | K | k_intro_block | 8 | ☑ | ⏸ auth | ☑ |
-| 6 | G1 | g1_unplugged_sequencing | 8 | ▢ | ▢ | ▢ |
+| 6 | G1 | g1_unplugged_sequencing | 8 | ☑ | ⏸ auth | ☑ |
 | 7 | G1 | g1_intro_debugging | 8 | ▢ | ▢ | ▢ |
 | 8 | G2 | g2_block_concurrent | 8 | ▢ | ▢ | ▢ |
 | 9 | G2 | g2_events_parallel | 8 | ▢ | ▢ | ▢ |
@@ -50,6 +50,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 - k_unplugged_ct/01..08 — all 20/20 pass (8 sheets, K-frame)
 - k_sequencing/01..08 — all 20/20 pass (8 sheets, K-frame, board+arrows)
 - k_intro_block/01..08 — all 20/20 pass (8 sheets, K-frame, block stacks) — K GRADE COMPLETE (24/24)
+- g1_unplugged_sequencing/01..08 — all 20/20 pass (8 sheets, step-card algorithms)
 
 ## ⏸ DRIVE PUBLISH BLOCKED — token expired/revoked (2026-06-26)
 Re-auth needed once (interactive Google OAuth — opens a browser; can't be automated).

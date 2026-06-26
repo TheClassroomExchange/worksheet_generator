@@ -18,7 +18,26 @@
         "type": "symbols",
         "title": "Pattern boxes 1 to 6",
         "size": "lg",
-        "items": [{ "blank": true }, { "blank": true }, { "blank": true }, { "blank": true }, { "blank": true }, { "blank": true }]
+        "items": [
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          }
+        ]
       },
       {
         "type": "exercise",
@@ -58,50 +77,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "The unit finale: students plan and write a full algorithm for a pattern (a mathematical situation) and for a real task, then improve one by adding a step or fixing the order. Writing algorithms is C3.1; reading their own algorithm and altering it to make it better is C3.2 — both in one task."
+        "title": "What this worksheet teaches",
+        "text": "The unit finale: students plan and write a full set of steps for a pattern and for a real task, then improve one by adding a step or fixing the order. Read, write, and improve a plan — all on one page. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: cut the steps into cards so students can physically slide them into order before writing."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20–25 minutes)",
+        "text": [
+          "1. Show them (you do). Plan a 6-shape pattern by writing what goes in each box, then drawing it.",
+          "2. Do one together. Start a task plan together (e.g. pack your backpack) — steps in order.",
+          "3. Let them try. Students finish their task plan, then improve it by adding a step or fixing the order."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — open; a sample is circle, square, square, circle, square, square. Accept any pattern where the steps match the drawing.",
+          "Exercise 2 — open; a sample (pack your backpack): open the backpack, put in your books, put in your lunch, zip it up, put it on. Accept any 4–6 ordered steps.",
+          "Exercise 3 — open; a sample improvement: add \"check your homework is in\" before \"zip it up\". Accept any added step or reorder with a reason."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: a drawing that does not match the written steps. Check each step against each box.",
+          "Make it easier: let them reuse a task from an earlier sheet.",
+          "Make it harder: ask them to write a plan with one flexible pair of steps."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students put step-by-step instructions in the right order to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a set of steps, change or reorder one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil (red/blue crayons optional for the pattern). Optional: shape cards or counters to plan the pattern before drawing."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20-25 min)",
-        "text": [
-          "1. I DO: model planning a pattern out loud — 'circle, square, square… I'll repeat it: circle, square, square.' Write the 6 steps, then draw.",
-          "2. WE DO: Exercise 1 — students plan their own 6-shape pattern, write the steps, and draw it.",
-          "3. YOU DO: Exercise 2 — write a real job algorithm (4-6 steps in order). Exercise 3 — improve it by adding a step or fixing the order, and explain why.",
-          "4. Celebrate: 'You can read, write, follow, plan, and improve algorithms — you are a coder!'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — open; a sample is an ABB pattern: ● ■ ■ ● ■ ■ (steps: box1 ●, box2 ■, box3 ■, box4 ●, box5 ■, box6 ■). Accept any pattern where the steps match the drawing.",
-          "Ex 2 — open; a sample 'pack your backpack': open the backpack, put in your books, put in your lunch, zip it up, put it on. Accept any 4-6 sensibly ordered steps.",
-          "Ex 3 — open; a sample improvement: add 'check your homework is in' before 'zip it up', because once it's zipped you'd have to undo it. Accept any added step or reorder with a reason."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip in Ex 1: the written steps don't match the drawing — have students read their steps aloud while pointing at each box.",
-          "Simplify: give a 4-shape pattern and a 3-step job for students who need a smaller load.",
-          "Extend: ask students to swap finished algorithms and follow a partner's steps to test that they work.",
-          "Success indicator: the child writes a pattern algorithm that matches their drawing, a correctly-ordered job algorithm, and a sensible improvement with a reason."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child writes a working plan for both the pattern and the task and improves one with a reason."
       }
     ]
   }

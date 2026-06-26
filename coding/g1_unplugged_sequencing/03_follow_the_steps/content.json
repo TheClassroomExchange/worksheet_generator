@@ -19,19 +19,56 @@
         "title": "The algorithm",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "1. box 1 → draw ●" },
-          { "cat": "value", "label": "2. box 2 → draw ■" },
-          { "cat": "value", "label": "3. box 3 → draw ●" },
-          { "cat": "value", "label": "4. box 4 → draw ■" },
-          { "cat": "value", "label": "5. box 5 → draw ●" },
-          { "cat": "value", "label": "6. box 6 → draw ■" }
+          {
+            "cat": "value",
+            "label": "1. box 1 → draw ●"
+          },
+          {
+            "cat": "value",
+            "label": "2. box 2 → draw ■"
+          },
+          {
+            "cat": "value",
+            "label": "3. box 3 → draw ●"
+          },
+          {
+            "cat": "value",
+            "label": "4. box 4 → draw ■"
+          },
+          {
+            "cat": "value",
+            "label": "5. box 5 → draw ●"
+          },
+          {
+            "cat": "value",
+            "label": "6. box 6 → draw ■"
+          }
         ]
       },
       {
         "type": "symbols",
         "title": "Draw here — boxes 1 to 6",
         "size": "lg",
-        "items": [{ "blank": true }, { "blank": true }, { "blank": true }, { "blank": true }, { "blank": true }, { "blank": true }]
+        "items": [
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          }
+        ]
       },
       {
         "type": "exercise",
@@ -70,51 +107,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students execute a 6-step algorithm in order to fill a row of boxes, producing an AB (circle-square) pattern, then read the result and extend the pattern. Carrying out a sequence of steps to create a mathematical representation (a pattern) is C3.1; predicting the next term is reasoning about the outcome (C3.2)."
+        "title": "What this worksheet teaches",
+        "text": "Students follow a 6-step set of instructions in order to fill a row of boxes, making a circle-square pattern, then read and continue it. Following steps in order to build a result is running a plan. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: cut the steps into cards so students can physically slide them into order before writing."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Read box 1, draw its shape; read box 2, draw its shape — one box at a time, in order.",
+          "2. Do one together. Fill the first few boxes together (circle, square, circle…).",
+          "3. Let them try. Students finish the row, then read and continue the pattern."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — boxes 1–6: circle, square, circle, square, circle, square. Exercise 2 — box 6 is a square.",
+          "Exercise 3 — the pattern is circle-square (an AB pattern); box 7 would be a circle, because the pattern repeats and box 6 ended on a square.",
+          "Why it works: each step runs in order and changes only its own box, so the row always comes out the same."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: skipping a box or doing them out of order. Read the boxes strictly 1, 2, 3…",
+          "Make it easier: point to each box as you read its step.",
+          "Make it harder: ask what box 8 would be and how they know."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students put step-by-step instructions in the right order to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a set of steps, change or reorder one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil (red and blue crayons optional, to colour ● and ■). Optional: counters to lay out the pattern before drawing."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: read step 1 and draw ● in box 1. 'I do exactly what the step says, then go to the next step.'",
-          "2. WE DO: Exercise 1 — follow steps 2-6 together, drawing ■, ●, ■, ●, ■. Exercise 2 — box 6 is a square ■.",
-          "3. YOU DO: Exercise 3 — name the pattern (circle-square / AB) and predict box 7 (●).",
-          "4. Connect: 'A computer runs its steps in order, exactly — and the same steps always make the same pattern.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — boxes 1-6: ● ■ ● ■ ● ■ (circle, square, circle, square, circle, square).",
-          "Ex 2 — box 6 is a square (■).",
-          "Ex 3 — the pattern is circle-square, an AB pattern; box 7 would be a circle (●) because the pattern repeats ● then ■, and box 6 ended on ■.",
-          "Why it works: each step is carried out in order and only changes its own box, so the row always comes out the same."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: skipping a box or doing steps out of order — have students touch each step and its box as they go.",
-          "Simplify: pre-draw boxes 1-2 together, then let students finish 3-6.",
-          "Extend: ask students to write a step 7 and step 8 that keep the pattern going (● then ■).",
-          "Success indicator: the child fills the boxes ● ■ ● ■ ● ■ and names the AB pattern, predicting box 7 as ●."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child fills the row in order and continues the pattern correctly."
       }
     ]
   }

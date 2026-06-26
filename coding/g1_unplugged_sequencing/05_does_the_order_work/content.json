@@ -19,9 +19,18 @@
         "title": "Algorithm A — draw a sun",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "1. draw a circle" },
-          { "cat": "value", "label": "2. add rays around it" },
-          { "cat": "value", "label": "3. colour it yellow" }
+          {
+            "cat": "value",
+            "label": "1. draw a circle"
+          },
+          {
+            "cat": "value",
+            "label": "2. add rays around it"
+          },
+          {
+            "cat": "value",
+            "label": "3. colour it yellow"
+          }
         ]
       },
       {
@@ -36,9 +45,18 @@
         "title": "Algorithm B — have cereal",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "1. eat it" },
-          { "cat": "value", "label": "2. pour the milk" },
-          { "cat": "value", "label": "3. pour the cereal in the bowl" }
+          {
+            "cat": "value",
+            "label": "1. eat it"
+          },
+          {
+            "cat": "value",
+            "label": "2. pour the milk"
+          },
+          {
+            "cat": "value",
+            "label": "3. pour the cereal in the bowl"
+          }
         ]
       },
       {
@@ -53,9 +71,18 @@
         "title": "Algorithm C — go down the slide",
         "size": "md",
         "blocks": [
-          { "cat": "value", "label": "1. climb the ladder" },
-          { "cat": "value", "label": "2. slide down" },
-          { "cat": "value", "label": "3. sit at the top" }
+          {
+            "cat": "value",
+            "label": "1. climb the ladder"
+          },
+          {
+            "cat": "value",
+            "label": "2. slide down"
+          },
+          {
+            "cat": "value",
+            "label": "3. sit at the top"
+          }
         ]
       },
       {
@@ -82,50 +109,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read three algorithms and judge whether the order works, explaining why, then rewrite a broken one so it works. Reading existing code and describing how its order affects whether it succeeds is C3.2; rewriting the broken order into a working one is C3.1."
+        "title": "What this worksheet teaches",
+        "text": "Students read three plans and judge whether the order works, explaining why, then rewrite a broken one. Reading a plan and deciding if the order succeeds — and fixing it — is the heart of debugging. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper and a pencil. You read each prompt aloud. Optional: cut the steps into cards so students can physically slide them into order before writing."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Read a plan aloud and ask: \"does each step have what it needs?\"",
+          "2. Do one together. Plan A works; Plan B does not (you cannot eat before you pour).",
+          "3. Let them try. Students judge Plan C and rewrite it so it works."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Plan A WORKS (YES): draw the circle, add rays, colour it — each step has what it needs.",
+          "Exercise 2 — Plan B does NOT work (NO): eating is first, but you must pour the cereal then the milk before you can eat; eating should be last.",
+          "Exercise 3 — Plan C does NOT work (NO). A working order: climb the ladder, sit at the top, slide down (you must sit before you slide)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: saying YES because the steps look familiar. Check each step has what it needs from earlier steps.",
+          "Make it easier: act out the broken plan so the problem is obvious.",
+          "Make it harder: ask them to explain exactly which step is too early and why."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students put step-by-step instructions in the right order to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read a set of steps, change or reorder one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: act out each algorithm so a wrong order is obvious (you can't slide before you sit at the top)."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: read Algorithm A. 'You need the circle before you can add rays — so this order works.'",
-          "2. WE DO: Exercise 1 — A works (YES). Exercise 2 — B does NOT work; you can't eat before pouring the cereal and milk.",
-          "3. YOU DO: Exercise 3 — C does NOT work; rewrite it: climb the ladder, sit at the top, slide down.",
-          "4. Connect: 'All the right steps still fail if they are in the wrong order — order is part of the code.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — A WORKS (YES): you draw the circle first, then add rays and colour it; each step has what it needs.",
-          "Ex 2 — B does NOT work (NO): eating is first, but you must pour the cereal then the milk before you can eat. Eating should be last.",
-          "Ex 3 — C does NOT work (NO). A working order: climb the ladder, sit at the top, slide down (you must sit at the top before you can slide down)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: saying an order works because all the steps are present — point out that the POSITION of a step matters, not just that it is there.",
-          "Simplify: act out Algorithm C; the wrong order becomes obvious when you try to slide before sitting.",
-          "Extend: ask students to break Algorithm A on purpose by moving one step, and explain why it no longer works.",
-          "Success indicator: the child marks A=YES, B=NO, C=NO and rewrites C as climb, sit, slide with a reason."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child judges each plan correctly and rewrites the broken one into a working order."
       }
     ]
   }
