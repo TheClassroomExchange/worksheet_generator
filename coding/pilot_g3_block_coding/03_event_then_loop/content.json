@@ -21,10 +21,24 @@
         "type": "blocks",
         "title": "Read this script",
         "blocks": [
-          {"cat": "events", "label": "when this sprite clicked"},
-          {"cat": "control", "label": "repeat 3"},
-          {"cat": "looks", "label": "next costume", "indent": 1},
-          {"cat": "control", "label": "wait 0.5 seconds", "indent": 1}
+          {
+            "cat": "events",
+            "label": "when this sprite clicked"
+          },
+          {
+            "cat": "control",
+            "label": "repeat 3"
+          },
+          {
+            "cat": "looks",
+            "label": "next costume",
+            "indent": 1
+          },
+          {
+            "cat": "control",
+            "label": "wait 0.5 seconds",
+            "indent": 1
+          }
         ],
         "note": "Clicking Bit is the EVENT that starts the script. Then the loop repeats the inside 3 times."
       },
@@ -79,55 +93,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students see that an EVENT block starts a script and a repeat loop inside it does the repeating. They count the loop, change the event, write an event+loop, and reason about firing the event twice."
+        "title": "What this worksheet teaches",
+        "text": "An event block starts a script, and a repeat loop inside does the repeating. Students count the loop, change the event, write their own event-and-loop, and reason about starting the event twice. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the blocks and what Bit does, so you can teach from the printout. Optional: a Scratch-style app to drag the blocks and watch Bit run — you only press the green flag."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). The event (clicking Bit, or the green flag) starts the script; the repeat loop inside does the repeating.",
+          "2. Do one together. Exercise 1 — the inside blocks run 3 times.",
+          "3. Let them work. Students change the event (Ex 2), write an event-and-loop (Ex 3), and reason about two clicks (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 3 times. Exercise 2 — now you start it by clicking the green flag instead of clicking Bit (the loop runs the same).",
+          "Exercise 3 — when SPACE key pressed → repeat 4. Exercise 4 (challenge) — one click = 5 moves; two clicks = 10 (the event starts the loop each time)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking the event changes how many times the loop runs. The event only starts the script; the repeat number sets the count.",
+          "Make it easier: point to the event on top, then the repeat inside.",
+          "Make it harder: ask how many moves three clicks of a repeat-5 loop give (15)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Hook: an alarm (event) starts a routine that repeats — name the GO signal.",
-          "2. Project the when-clicked → repeat-3 script; click Bit, count the repeats aloud.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: the event starts it, the loop repeats it."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 3 times.",
-          "Ex 2 — Now you START it by clicking the green flag instead of clicking Bit (the loop runs the same).",
-          "Ex 3 — when SPACE key pressed → repeat 4.",
-          "Ex 4 (challenge) — One click = 5 moves; two clicks = 10. The event fires twice, so the loop runs twice."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: thinking the event itself repeats — it is the loop that repeats, not the event.",
-          "Support: point to the event block, say \"GO\", then trace the loop runs on fingers.",
-          "Extend: ask how many moves if you click the flag three times (15)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student names what starts a script (the event), counts the loop runs (Ex 1), changes the event and describes the difference (Ex 2), writes an event+loop (Ex 3), and reasons that firing the event again re-runs the loop (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child sees the event starts the script and the repeat sets the count, and reasons about firing it twice."
       }
     ]
   }

@@ -21,9 +21,19 @@
         "type": "blocks",
         "title": "Script A",
         "blocks": [
-          {"cat": "events", "label": "when green flag clicked"},
-          {"cat": "control", "label": "repeat 4"},
-          {"cat": "motion", "label": "move 10 steps", "indent": 1}
+          {
+            "cat": "events",
+            "label": "when green flag clicked"
+          },
+          {
+            "cat": "control",
+            "label": "repeat 4"
+          },
+          {
+            "cat": "motion",
+            "label": "move 10 steps",
+            "indent": 1
+          }
         ],
         "note": "Script A moves Bit 4 times."
       },
@@ -31,9 +41,19 @@
         "type": "blocks",
         "title": "Script B (starts at the same time)",
         "blocks": [
-          {"cat": "events", "label": "when green flag clicked"},
-          {"cat": "control", "label": "repeat 4"},
-          {"cat": "looks", "label": "play sound", "indent": 1}
+          {
+            "cat": "events",
+            "label": "when green flag clicked"
+          },
+          {
+            "cat": "control",
+            "label": "repeat 4"
+          },
+          {
+            "cat": "looks",
+            "label": "play sound",
+            "indent": 1
+          }
         ],
         "note": "Script B plays a sound 4 times. Both scripts start together on the green flag — they run at the same time."
       },
@@ -88,55 +108,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students see that two scripts run at the same time (concurrent), each with its own repeat loop and count. They count both, change one independently, write a third, and compare counts."
+        "title": "What this worksheet teaches",
+        "text": "Two scripts run at the same time, each with its own repeat loop and count. Students count both, change one (the other stays the same), write a third, and compare the counts. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the blocks and what Bit does, so you can teach from the printout. Optional: a Scratch-style app to drag the blocks and watch Bit run — you only press the green flag."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). One green flag starts both scripts; each has its own repeat number.",
+          "2. Do one together. Exercise 1 — Script A makes 4 moves, Script B makes 4 sounds.",
+          "3. Let them work. Students change one script (Ex 2), add a third (Ex 3), and compare counts (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 4 moves and 4 sounds. Exercise 2 — 4 moves and 6 sounds; changing Script B does not change Script A (they are separate).",
+          "Exercise 3 — repeat 3. Exercise 4 (challenge) — Script A finishes more: 5 versus 2, so 3 more repeats."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking changing one script changes the other. Each script counts on its own.",
+          "Make it easier: count Script A fully, then Script B.",
+          "Make it harder: ask which script finishes first if both start together."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app (Scratch-style) to project — show two green-flag scripts side by side; the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Hook: clap AND march together — two things at once is concurrent.",
-          "2. Project the two green-flag scripts; click the flag, watch both loops run together.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: each script has its own loop and count."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 4 moves and 4 sounds.",
-          "Ex 2 — 4 moves and 6 sounds; changing B does NOT change A (independent).",
-          "Ex 3 — repeat 3.",
-          "Ex 4 (challenge) — Script A finishes more: 5 vs 2, so 3 more repeats."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: thinking one script must finish before the other starts — they run at the same time.",
-          "Support: trace each script with a different finger at the same time.",
-          "Extend: ask which finishes first if A is repeat 2 and B is repeat 6 (A)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student counts both loops (Ex 1), reasons that changing one script leaves the other unaffected (Ex 2), writes a third concurrent loop (Ex 3), and compares two counts (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child counts both scripts, changes one without affecting the other, and compares the counts."
       }
     ]
   }

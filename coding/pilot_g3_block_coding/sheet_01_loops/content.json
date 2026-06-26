@@ -92,55 +92,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students count, change, and write a repeat loop — learning that the loop runs the blocks inside it a set number of times."
+        "title": "What this worksheet teaches",
+        "text": "Students meet a repeat loop — a block that runs the blocks inside it a set number of times. They count how many times Bit does each action, change the repeat number, and write their own. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the blocks and what Bit does, so you can teach from the printout. Optional: a Scratch-style app to drag the blocks and watch Bit run — you only press the green flag."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). Read the loop: \"repeat 4 means do the inside blocks 4 times.\" Tap each repeat and count.",
+          "2. Do one together. Exercise 1 — Bit moves 4 times and turns 4 times.",
+          "3. Let them work. Students predict and check (Ex 2), write a repeat number (Ex 3), and count a two-block loop (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit moves 4 times and turns 4 times. Exercise 2 — Bit moves 6 times (predict 6) — more than before.",
+          "Exercise 3 — repeat 5. Exercise 4 (challenge) — 6 jumps (2 jumps each time × 3 repeats)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: counting \"repeat 4\" as 5. It runs exactly 4 times.",
+          "Make it easier: tap the inside block once per repeat while counting aloud.",
+          "Make it harder: ask how many actions a repeat-10 loop with one block does (10)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Hook: class claps 4 times — say it as a loop, \"repeat 4: clap.\"",
-          "2. Project the repeat-4 square loop; count the runs aloud together.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: the repeat number = how many times."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — Bit moves 4 times and turns 4 times.",
-          "Ex 2 — Bit moves 6 times (predicted = 6). That is MORE than before.",
-          "Ex 3 — repeat 5.",
-          "Ex 4 (challenge) — 6 jumps. 2 jumps each time × 3 repeats = 6."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: counting the blocks once instead of once per repeat (esp. Ex 4).",
-          "Support: read \"repeat 6\" as \"do it 6 times\" and tap each run on fingers.",
-          "Extend: in Ex 4, ask what repeat 4 × 2 jumps would give (8)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student reads a repeat block to say how many times the inside runs (Ex 1–2), writes a repeat number to hit a target count (Ex 3), and reasons that two inside blocks both run each pass (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child counts the loop, writes a repeat number, and counts a two-block loop."
       }
     ]
   },

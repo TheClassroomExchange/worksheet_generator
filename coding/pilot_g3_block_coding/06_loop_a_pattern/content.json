@@ -21,11 +21,29 @@
         "type": "blocks",
         "title": "Read this loop",
         "blocks": [
-          {"cat": "events", "label": "when green flag clicked"},
-          {"cat": "control", "label": "repeat 4"},
-          {"cat": "looks", "label": "clap", "indent": 1},
-          {"cat": "looks", "label": "clap", "indent": 1},
-          {"cat": "motion", "label": "stomp", "indent": 1}
+          {
+            "cat": "events",
+            "label": "when green flag clicked"
+          },
+          {
+            "cat": "control",
+            "label": "repeat 4"
+          },
+          {
+            "cat": "looks",
+            "label": "clap",
+            "indent": 1
+          },
+          {
+            "cat": "looks",
+            "label": "clap",
+            "indent": 1
+          },
+          {
+            "cat": "motion",
+            "label": "stomp",
+            "indent": 1
+          }
         ],
         "note": "Three actions inside (clap, clap, stomp) all run each repeat. 4 repeats = 12 actions in all."
       },
@@ -80,55 +98,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students see that a loop runs every block inside it each pass, so a multi-action pattern repeats as a unit. They count each action across the repeats by multiplying, and work backwards from a total."
+        "title": "What this worksheet teaches",
+        "text": "A loop runs every block inside it each time, so a multi-action pattern repeats as a unit. Students count each action across the repeats by multiplying, and work backwards from a total. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the blocks and what Bit does, so you can teach from the printout. Optional: a Scratch-style app to drag the blocks and watch Bit run — you only press the green flag."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). The pattern clap, clap, stomp is 3 actions; 4 repeats make 12 actions.",
+          "2. Do one together. Exercise 1 — 3 actions per repeat, 12 in total.",
+          "3. Let them work. Students count each action type (Ex 2), write a repeat (Ex 3), and work backwards from a total (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 3 actions per repeat; 12 actions total. Exercise 2 — 5 stomps and 10 claps.",
+          "Exercise 3 — repeat 4; 8 waves total. Exercise 4 (challenge) — 6 repeats (6 stomps ÷ 1 stomp per repeat)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: counting the whole pattern as one action. Count each kind of action separately.",
+          "Make it easier: count how many of one action are in a single repeat, then multiply.",
+          "Make it harder: ask the total claps for the pattern repeated 7 times."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student; optional: do the clap-clap-stomp beat as a class."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Hook: perform a clap-clap-stomp beat as a class; name the group that repeats.",
-          "2. Project the repeat-4 (clap, clap, stomp) loop; count each action together.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: multiply per-repeat actions by the repeat count."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 3 actions per repeat; 12 actions total.",
-          "Ex 2 — 5 stomps and 10 claps.",
-          "Ex 3 — repeat 4; 8 waves total.",
-          "Ex 4 (challenge) — 6 repeats (6 stomps ÷ 1 stomp per repeat)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: counting the pattern once instead of multiplying by the repeats.",
-          "Support: circle one action type and skip-count it across the repeats.",
-          "Extend: ask how many claps in repeat 5 of (clap, clap, stomp) — 10."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student counts actions per repeat and in total (Ex 1), predicts a single action's count after changing the repeat (Ex 2), writes a pattern loop (Ex 3), and works backwards from a total to the repeat count (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child multiplies each action by the repeats and works backwards from a total."
       }
     ]
   }

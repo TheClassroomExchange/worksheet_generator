@@ -21,9 +21,19 @@
         "type": "blocks",
         "title": "Read this loop",
         "blocks": [
-          {"cat": "events", "label": "when green flag clicked"},
-          {"cat": "control", "label": "repeat 5"},
-          {"cat": "motion", "label": "move 10 steps", "indent": 1}
+          {
+            "cat": "events",
+            "label": "when green flag clicked"
+          },
+          {
+            "cat": "control",
+            "label": "repeat 5"
+          },
+          {
+            "cat": "motion",
+            "label": "move 10 steps",
+            "indent": 1
+          }
         ],
         "note": "Bit moves 10 steps, 5 times. That is 5 moves and 50 steps in total."
       },
@@ -78,55 +88,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read an existing loop to state what it does, then alter the repeat count or the inside block and describe how the outcome changes (Ontario C3.2). Includes a work-backwards challenge."
+        "title": "What this worksheet teaches",
+        "text": "Students read a loop to say what it does, then change the repeat number or the inside block and describe how the result changes. There is also a work-backwards challenge. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the blocks and what Bit does, so you can teach from the printout. Optional: a Scratch-style app to drag the blocks and watch Bit run — you only press the green flag."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). Read the loop: 5 moves of 10 steps make 50 steps in total.",
+          "2. Do one together. Exercise 1 — 5 moves, 50 steps.",
+          "3. Let them work. Students change the repeat (Ex 2), change the inside block (Ex 3), and work backwards to a repeat number (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 5 moves; 50 steps total. Exercise 2 — 3 moves; 30 steps.",
+          "Exercise 3 — 10 steps (5 × 2); changing the inside block changed how far each move goes. Exercise 4 (challenge) — repeat 4 (40 ÷ 10 = 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing the repeat when the question changes the inside block (or the other way around). Read which part changed.",
+          "Make it easier: write \"moves × steps each\" and fill in the numbers.",
+          "Make it harder: ask the repeat number for 60 steps at 10 each (6)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Hook: read a recipe before changing an amount — read code before you change it.",
-          "2. Project the repeat-5 move-10 loop; read it together as 5 jumps of 10 = 50.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: count changes how many; inside changes what."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 5 moves; 50 steps total.",
-          "Ex 2 — 3 moves; 30 steps.",
-          "Ex 3 — 10 steps (5 × 2); changing the inside block changed how far each move goes.",
-          "Ex 4 (challenge) — repeat 4 (40 ÷ 10 = 4)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: changing the count when the task asks to change the inside block (Ex 3), or vice versa.",
-          "Support: have students underline the part the question changes before solving.",
-          "Extend: ask what repeat gives 60 steps at 10 each (6)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student reads a loop to state its result (Ex 1), changes the count and predicts (Ex 2), changes the inside block and describes the effect (Ex 3), and works backwards to find a needed count (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child reads the loop, changes one part, and works backwards to a repeat number."
       }
     ]
   }

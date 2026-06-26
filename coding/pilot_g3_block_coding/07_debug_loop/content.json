@@ -21,9 +21,19 @@
         "type": "blocks",
         "title": "Bit should JUMP 5 times — but this loop is buggy",
         "blocks": [
-          {"cat": "events", "label": "when green flag clicked"},
-          {"cat": "control", "label": "repeat 3"},
-          {"cat": "looks", "label": "jump", "indent": 1}
+          {
+            "cat": "events",
+            "label": "when green flag clicked"
+          },
+          {
+            "cat": "control",
+            "label": "repeat 3"
+          },
+          {
+            "cat": "looks",
+            "label": "jump",
+            "indent": 1
+          }
         ],
         "note": "Bit only jumps 3 times. The repeat number is wrong — it should be 5."
       },
@@ -78,55 +88,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read a buggy loop, decide whether the bug is the repeat count or an inside block, and fix it so the code matches the goal (Ontario C3.2)."
+        "title": "What this worksheet teaches",
+        "text": "Students read a buggy loop, decide whether the bug is the repeat number or an inside block, and fix it so the code matches the goal. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the blocks and what Bit does, so you can teach from the printout. Optional: a Scratch-style app to drag the blocks and watch Bit run — you only press the green flag."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). Compare the loop to the goal: is the repeat number wrong, or is an inside block wrong?",
+          "2. Do one together. Exercise 1 — Bit should jump 5 times but the loop says repeat 3; fix the repeat number.",
+          "3. Let them work. Students fix a wrong inside block (Ex 2), a wrong repeat (Ex 3), and decide which part is the bug (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — the repeat number is wrong; it should be repeat 5. Exercise 2 — the second block is wrong; change \"stamp red\" to \"stamp blue\".",
+          "Exercise 3 — repeat 3 (3 × 10 = 30 steps). Exercise 4 (challenge) — the inside is the bug: there are two move blocks; remove one so repeat 4 gives 4 moves."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: always blaming the repeat number. Sometimes an inside block is the bug.",
+          "Make it easier: ask first \"is the count wrong, or is one of the actions wrong?\"",
+          "Make it harder: ask them to name the bug type for each exercise."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app (Scratch-style) to project — show a buggy loop and fix it live; the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Hook: read directions with a wrong step — finding the mistake is debugging.",
-          "2. Project the buggy repeat-3 (should be 5) loop; find and fix it together.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: say what it SHOULD do, then find the wrong part."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — the repeat number is wrong; it should be repeat 5.",
-          "Ex 2 — the second block is wrong; change \"stamp red\" to \"stamp blue\".",
-          "Ex 3 — repeat 3 (3 × 10 = 30).",
-          "Ex 4 (challenge) — the inside is the bug: two move blocks; remove one (repeat 4 × 1 = 4 moves)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: changing the repeat number in Ex 4 when the bug is the extra inside block.",
-          "Support: write the GOAL number first, then compare to what the code does.",
-          "Extend: a different Ex 4 fix — repeat 2 with two moves also gives 4."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student says what the code should do, finds whether the bug is the count or an inside block, and fixes it to match the goal (Ex 1–4)."
+        "title": "You'll know it worked when",
+        "text": "The child decides whether the repeat number or an inside block is wrong and fixes it to match the goal."
       }
     ]
   }

@@ -21,10 +21,24 @@
         "type": "blocks",
         "title": "Read this loop",
         "blocks": [
-          {"cat": "events", "label": "when green flag clicked"},
-          {"cat": "control", "label": "repeat 3"},
-          {"cat": "looks", "label": "stamp red bead", "indent": 1},
-          {"cat": "looks", "label": "stamp blue bead", "indent": 1}
+          {
+            "cat": "events",
+            "label": "when green flag clicked"
+          },
+          {
+            "cat": "control",
+            "label": "repeat 3"
+          },
+          {
+            "cat": "looks",
+            "label": "stamp red bead",
+            "indent": 1
+          },
+          {
+            "cat": "looks",
+            "label": "stamp blue bead",
+            "indent": 1
+          }
         ],
         "note": "Both stamps run each time. 3 repeats of (red, blue) makes 6 beads: red, blue, red, blue, red, blue."
       },
@@ -79,55 +93,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students see that a repeat loop runs every block inside it each pass, so a loop with two or more actions builds a repeating pattern. They count, change, and write pattern loops."
+        "title": "What this worksheet teaches",
+        "text": "A repeat loop runs EVERY block inside it each time, so a loop with two or more actions builds a repeating pattern. Students count, change, and write pattern loops. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start",
+        "text": "No computer needed — the worksheet shows the blocks and what Bit does, so you can teach from the printout. Optional: a Scratch-style app to drag the blocks and watch Bit run — you only press the green flag."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Show it (you do). The loop stamps 2 beads each time; 3 repeats make 6 beads.",
+          "2. Do one together. Exercise 1 — 2 beads each repeat, 6 in total.",
+          "3. Let them work. Students predict the change (Ex 2), write a repeat (Ex 3), and count a three-stamp loop (Ex 4)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 2 beads each repeat; 6 beads total (2 × 3). Exercise 2 — 8 beads (2 × 4); predict 8.",
+          "Exercise 3 — repeat 5 (makes 10 stamps). Exercise 4 (challenge) — 9 stamps (3 × 3); the pattern is heart-star-square, three times."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: counting only one block per repeat. Every block inside runs each time.",
+          "Make it easier: circle the blocks inside the loop, then multiply by the repeat number.",
+          "Make it harder: ask the total for a four-stamp loop repeated 3 times (12)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "A block-coding app (Scratch-style) to project; the printed worksheet + a pencil per student; optional coloured pencils for the pattern."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Hook: show a bead bracelet or AB pattern — name the part that repeats.",
-          "2. Project the repeat-3 (red, blue) loop; stamp it out together, counting beads.",
-          "3. Students do Exercises 1–4 (Ex 4 is the stretch), solo or in pairs.",
-          "4. Share answers; land the big idea: the loop repeats the WHOLE inside each pass."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 2 beads each repeat; 6 beads total (2 × 3).",
-          "Ex 2 — 8 beads (2 × 4); predicted = 8.",
-          "Ex 3 — repeat 5 (makes 10 stamps).",
-          "Ex 4 (challenge) — 9 stamps (3 × 3); pattern ●▲■ ●▲■ ●▲■."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: counting only one stamp per repeat instead of all the inside blocks.",
-          "Support: tap each inside block as you say the repeat out loud.",
-          "Extend: ask how many beads if repeat 4 had THREE stamps inside (12)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student says how many stamps run per repeat and in total (Ex 1–2), writes a repeat number to make a pattern of a set length (Ex 3), and reasons that all the inside blocks repeat together (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The child multiplies the blocks inside by the repeat number to find the total."
       }
     ]
   }

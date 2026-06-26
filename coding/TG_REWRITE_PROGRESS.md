@@ -35,7 +35,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 | 8 | G2 | g2_block_concurrent | 8 | ☑ | ⏸ auth | ☑ |
 | 9 | G2 | g2_events_parallel | 8 | ☑ | ⏸ auth | ☑ |
 | 10 | G2 | g2_debugging_reading | 8 | ☑ | ⏸ auth | ☑ |
-| 11 | G3 | pilot_g3_block_coding | 7 | ▢ | ▢ | ▢ |
+| 11 | G3 | pilot_g3_block_coding | 7 | ☑ | ⏸ auth | ☑ |
 | 12 | G3 | g3_debugging | 7 | ▢ | ▢ | ▢ |
 
 **Done so far:** 2 sample sheets (g1_block_sequential/01, g3_python_turtle/03) rewritten,
@@ -55,6 +55,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 - g2_block_concurrent/01..08 — all 20/20 pass (8 sheets, two sprites Bit+Pixel at once)
 - g2_events_parallel/01..08 — all 20/20 pass (8 sheets, events/broadcast/receive)
 - g2_debugging_reading/01..08 — all 20/20 pass (8 sheets, debug two scripts) — G2 GRADE COMPLETE (24/24)
+- pilot_g3_block_coding/7 sheets — all 20/20 pass (G3 block-coding loops; note dir sheet_01_loops)
 
 ## ⏸ DRIVE PUBLISH BLOCKED — token expired/revoked (2026-06-26)
 Re-auth needed once (interactive Google OAuth — opens a browser; can't be automated).
