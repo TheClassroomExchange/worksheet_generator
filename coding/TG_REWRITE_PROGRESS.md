@@ -34,7 +34,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 | 7 | G1 | g1_intro_debugging | 8 | ☑ | ⏸ auth | ☑ |
 | 8 | G2 | g2_block_concurrent | 8 | ☑ | ⏸ auth | ☑ |
 | 9 | G2 | g2_events_parallel | 8 | ☑ | ⏸ auth | ☑ |
-| 10 | G2 | g2_debugging_reading | 8 | ▢ | ▢ | ▢ |
+| 10 | G2 | g2_debugging_reading | 8 | ☑ | ⏸ auth | ☑ |
 | 11 | G3 | pilot_g3_block_coding | 7 | ▢ | ▢ | ▢ |
 | 12 | G3 | g3_debugging | 7 | ▢ | ▢ | ▢ |
 
@@ -54,6 +54,7 @@ Legend: ☑ all sheets pass gate + combined · ⬆ republished to Drive · ⎘ c
 - g1_intro_debugging/01..08 — all 20/20 pass (8 sheets, find/fix bugs) — G1 GRADE COMPLETE (24/24)
 - g2_block_concurrent/01..08 — all 20/20 pass (8 sheets, two sprites Bit+Pixel at once)
 - g2_events_parallel/01..08 — all 20/20 pass (8 sheets, events/broadcast/receive)
+- g2_debugging_reading/01..08 — all 20/20 pass (8 sheets, debug two scripts) — G2 GRADE COMPLETE (24/24)
 
 ## ⏸ DRIVE PUBLISH BLOCKED — token expired/revoked (2026-06-26)
 Re-auth needed once (interactive Google OAuth — opens a browser; can't be automated).

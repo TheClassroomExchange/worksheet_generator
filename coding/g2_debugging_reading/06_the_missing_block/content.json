@@ -18,15 +18,43 @@
         "type": "symbols",
         "title": "The goal: meet on 3",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3", "label": "★ goal" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3",
+            "label": "★ goal"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "Pixel"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Bit's script (correct)",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 3" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 3"
+          }
         ]
       },
       {
@@ -34,9 +62,17 @@
         "title": "Pixel's script (a block is missing)",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "back 1" },
-          { "blank": true }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          },
+          {
+            "blank": true
+          }
         ]
       },
       {
@@ -77,52 +113,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students fix a MISSING-block bug by writing the block a script needs (C3.1 write + C3.2 alter). The goal is 'meet on 3'; Bit is correct, but Pixel has only one 'back 1' (lands on 4) and the dashed slot shows a block is missing. Students work out the remaining distance and add 'back 1'. Adding a block to complete a script is a key debugging-and-writing skill."
+        "title": "What this worksheet teaches",
+        "text": "Students fix a missing-block bug by writing the move a set needs. The goal is to meet on 3; Bit is right, but Pixel has only one \"back 1\" (lands on 4) with an empty slot showing a block is missing. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel) so children can trace both sets of moves and see which one misses the goal."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Pixel stops short of the goal — it needs one more move.",
+          "2. Do one together. Exercise 1 — Pixel's one move lands on 4 (one short of 3).",
+          "3. Let them try. Students work out the missing move and add it (Ex 2–3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Pixel: 5, back 1 → 4. It does not reach the goal 3 (one short).",
+          "Exercise 2 — Pixel is on 4 and needs 3, so it needs one more square back; the missing block is back 1.",
+          "Exercise 3 — add back 1 → Pixel: 5 → 4 → 3. Both meet on 3. (A move that lands on 3 is correct; back 1 is simplest.)"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing the existing move instead of adding one. The fix is to add a step.",
+          "Make it easier: count how far Pixel still needs to go, then write that move.",
+          "Make it harder: ask for a single block (back 1) versus another way to reach 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions, including two sets that run at the same time.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read two sets of instructions, find and fix the wrong one, and explain the fix."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a star on square 3; run Pixel's one move, then count the remaining squares to the star to find the missing block."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: state the goal — 'meet on 3.' Run Bit: 0 forward 3 → 3 (correct).",
-          "2. WE DO: run Pixel with its one move: 5 back 1 → 4. 'Pixel stops on 4 — one square short. A block is missing.'",
-          "3. YOU DO: students count 4 → 3 (one more back), write 'back 1' in the dashed box, and confirm Pixel reaches 3.",
-          "4. Connect: 'If a script stops short, add the block that finishes the path.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Pixel with one move: 5 → back 1 → 4. It does NOT reach the goal 3 (one short).",
-          "Ex 2 — Pixel is on 4 and needs 3, so it needs 1 more square back; the missing block is 'back 1'.",
-          "Ex 3 — add 'back 1' in the dashed box → Pixel: 5 → back 1 → 4 → back 1 → 3. Now both meet on 3.",
-          "Fix note: a single 'back 1' completes it; a child who writes 'back 1' (or an equivalent that lands on 3) is correct."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: adding a forward block — Pixel is past the goal's side, so it needs to keep going back.",
-          "Common error: over-adding (back 2) so Pixel overshoots to 2 — count the remaining distance carefully (just 1).",
-          "Simplify: put a finger on Pixel's current spot (4) and hop to the star (3) — one hop back.",
-          "Extend: ask what would be missing if Pixel's first move were 'back 2' instead (nothing — it would already be on 3).",
-          "Success indicator: the child adds one 'back 1' and confirms both sprites meet on 3."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child adds the missing move so Pixel reaches the goal."
       }
     ]
   }

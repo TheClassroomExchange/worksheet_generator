@@ -18,15 +18,43 @@
         "type": "symbols",
         "title": "The goal: both reach 4",
         "size": "md",
-        "items": [{ "sym": "0" }, { "sym": "1", "label": "Pixel" }, { "sym": "2", "label": "Bit" }, { "sym": "3" }, { "sym": "4", "label": "★ goal" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0"
+          },
+          {
+            "sym": "1",
+            "label": "Pixel"
+          },
+          {
+            "sym": "2",
+            "label": "Bit"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "★ goal"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -34,8 +62,14 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -76,52 +110,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students combine prediction with debugging: predict the intended outcome (both reach 4), run the code, and use the mismatch to locate the bug (C3.2). Bit matches the prediction; Pixel does not (it lands on 3), so Pixel is the buggy script — fix it to 'forward 3'. Predicting first turns debugging into a quick match/no-match check."
+        "title": "What this worksheet teaches",
+        "text": "Students combine predicting with debugging: predict what both SHOULD land on, run it, and use the mismatch to find the bug. The set whose run does not match the prediction is the buggy one. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel) so children can trace both sets of moves and see which one misses the goal."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). The goal is the yardstick — predict both reach 4, then run and compare.",
+          "2. Do one together. Exercise 1 — both should land on 4; Exercise 2 — Bit matches (4), Pixel does not (3).",
+          "3. Let them try. Students name the bug and the fix (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — both should land on the goal 4.",
+          "Exercise 2 — Bit: 2, forward 2 → 4 (matches). Pixel: 1, forward 2 → 3 (does not match). Pixel is the off one.",
+          "Exercise 3 — Pixel starts at 1 and needs 4, so its move should be forward 3. After the fix, Pixel lands on 4 and matches the goal."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: skipping the prediction. The prediction is what tells you which run is wrong.",
+          "Make it easier: write the predicted number above each character before running.",
+          "Make it harder: ask them to predict both AND name the likely bug before running."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions, including two sets that run at the same time.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read two sets of instructions, find and fix the wrong one, and explain the fix."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: students write the predicted number (4) on a sticky note before running, then compare each sprite's result to it."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: predict — 'the goal is 4, so both SHOULD land on 4.' Write 4 down before running.",
-          "2. WE DO: run Bit (2 forward 2 → 4 — matches) and Pixel (1 forward 2 → 3 — does NOT match). 'Pixel is the bug.'",
-          "3. YOU DO: students find Pixel's fix — from 1 it needs forward 3 to reach 4 — and confirm it now matches.",
-          "4. Connect: 'Predict first; the script that does not match your prediction is where the bug is.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — both SHOULD land on the goal 4 (Bit 4, Pixel 4 if correct).",
-          "Ex 2 — Bit: 2 → forward 2 → 4 (matches). Pixel: 1 → forward 2 → 3 (does NOT match). Pixel is the off script.",
-          "Ex 3 — Pixel starts at 1 and needs 4, so its move should be forward 3. After the fix, Pixel lands on 4 and matches the goal.",
-          "Method note: the prediction (4) is the yardstick; the script whose run differs from it is the buggy one."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: changing the prediction to match the buggy result — commit the prediction first, in pen.",
-          "Common error: suspecting Bit — Bit matched the prediction, so it is correct; the mismatch is in Pixel.",
-          "Simplify: write the goal number above each sprite and compare its run to that number.",
-          "Extend: ask students to make up a different bug for Pixel that would still miss the goal, then fix it.",
-          "Success indicator: the child predicts 4, identifies Pixel as off, and fixes it to forward 3."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child predicts the goal, runs, finds the off set, and fixes it."
       }
     ]
   }

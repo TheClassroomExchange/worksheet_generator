@@ -18,16 +18,47 @@
         "type": "symbols",
         "title": "The goal: meet on 3",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3", "label": "★ goal" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3",
+            "label": "★ goal"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "Pixel"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 1" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -35,9 +66,18 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "back 1" },
-          { "cat": "motion", "label": "back 3" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          },
+          {
+            "cat": "motion",
+            "label": "back 3"
+          }
         ]
       },
       {
@@ -78,51 +118,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "The capstone of the subject — and of the whole K–G3 catalogue. Students read two two-move parallel scripts, diagnose WHICH is wrong and WHAT KIND of bug it is, fix it, and explain (C3.2 read/alter/describe + C3.1 write). The goal is 'meet on 3'; Bit is correct, but Pixel's 'back 3' overshoots to 1 — a wrong-number (too big) bug; the fix is 'back 1'. Naming the bug type and justifying the fix is the highest reading-and-debugging skill at Grade 2."
+        "title": "What this worksheet teaches",
+        "text": "The capstone of the subject and of the whole K–G3 set: students read two two-move sets, find WHICH is wrong and WHAT KIND of bug it is, fix it, and explain. The goal is to meet on 3. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel) so children can trace both sets of moves and see which one misses the goal."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20–25 minutes)",
+        "text": [
+          "1. Show them (you do). Trace both two-move sets; one overshoots the goal.",
+          "2. Do one together. Exercise 1 — Bit meets 3; Pixel overshoots. Exercise 2 — the second move made it overshoot — a wrong-number bug.",
+          "3. Let them try. Students write the fixed move and explain why it works (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit: 0, forward 1 → 1, forward 2 → 3 (meets goal). Pixel: 5, back 1 → 4, back 3 → 1 (overshoots; Pixel is buggy).",
+          "Exercise 2 — the second move \"back 3\" made Pixel overshoot. It is a wrong-number bug (the number is too big), not a direction or missing-block bug.",
+          "Exercise 3 — fixed move back 1 → Pixel: 5 → 4 → 3. From 4, the goal 3 is one square back, so back 1 lands exactly on 3. The direction was right; only the size was wrong."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing the direction. Here the direction (back) is right; only the size is too big.",
+          "Make it easier: trace Pixel's two moves and mark where it passes the goal.",
+          "Make it harder: ask them to name all four bug types they have learned (wrong number, wrong direction, missing block, mismatched message)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions, including two sets that run at the same time.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read two sets of instructions, find and fix the wrong one, and explain the fix."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a star on square 3 and two counters; trace each two-move script and see which counter sails past the star."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: state the goal — 'meet on 3.' Trace Bit: 0 forward 1 → 1, forward 2 → 3 (on the star).",
-          "2. WE DO: trace Pixel: 5 back 1 → 4, back 3 → 1 (sails past the star to 1). 'Pixel overshot — its second number is too big.'",
-          "3. YOU DO: students name the bug (back 3 is too big — a wrong-number bug), fix it to back 1, and explain why (4 to 3 is just one back).",
-          "4. Connect: 'A detective names the bug and changes only what is wrong.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit: 0 → forward 1 → 1 → forward 2 → 3 (meets goal). Pixel: 5 → back 1 → 4 → back 3 → 1 (overshoots; Pixel is the buggy one).",
-          "Ex 2 — the second move 'back 3' made Pixel overshoot. It is a wrong-number bug (the number is too big), not a direction or missing-block bug.",
-          "Ex 3 — fixed move: back 1 → Pixel: 5 → back 1 → 4 → back 1 → 3. Explanation: from 4, the goal 3 is only one square back, so back 1 lands exactly on 3.",
-          "Detective note: the direction (back) was right; only the size of the second move was wrong."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: blaming the first move (back 1 was fine) — trace move by move to see exactly where Pixel passes the goal.",
-          "Simplify: stop Pixel after each move and check against the star to spot the overshoot.",
-          "Extend: ask students to invent a different bug (wrong direction or missing block) that would also miss 3, then fix it — a fitting send-off for the whole coding series.",
-          "Success indicator: the child names Pixel's 'back 3' as a too-big number, fixes it to back 1, and explains why it now lands on 3."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child finds the buggy set, names the bug type, fixes it, and explains why the fix lands on 3."
       }
     ]
   }

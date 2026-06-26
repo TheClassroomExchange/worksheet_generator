@@ -18,15 +18,43 @@
         "type": "symbols",
         "title": "The goal: meet on 3",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3", "label": "★ goal" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3",
+            "label": "★ goal"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "Pixel"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 3" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 3"
+          }
         ]
       },
       {
@@ -34,8 +62,14 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "back 1" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          }
         ]
       },
       {
@@ -76,52 +110,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students learn the core debugging move for two parallel scripts: compare EACH script to the goal to locate the bug. Here the goal is 'meet on 3'; Bit reaches it and Pixel does not, so Pixel's script is the buggy one. Diagnosing which of two concurrent scripts is wrong (before fixing) is the Grade-2 C3.2 reading-and-locating skill the rest of the subject builds on."
+        "title": "What this worksheet teaches",
+        "text": "Students learn the key debugging move: compare EACH set of moves to the goal to find the bug. The goal is to meet on 3; Bit reaches it and Pixel does not, so Pixel's set is the buggy one. Find which is wrong before fixing it. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel) so children can trace both sets of moves and see which one misses the goal."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Check each character against the goal: the one that misses has the bug.",
+          "2. Do one together. Exercise 1 — Bit reaches 3, Pixel lands on 4.",
+          "3. Let them try. Students name the buggy set and find how far off it is (Ex 2–3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit: 0, forward 3 → 3. Pixel: 5, back 1 → 4. Bit reaches the goal 3; Pixel does not.",
+          "Exercise 2 — Pixel's set is wrong; we know because Bit already lands on the goal, so the bug is in the other set.",
+          "Exercise 3 — the goal is 3; Pixel landed on 4, which is 1 number away. (This sheet only LOCATES the bug; fixing comes next.)"
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: assuming both are wrong. Only the one that misses the goal has the bug.",
+          "Make it easier: mark the goal on the line and see which counter does not land there.",
+          "Make it harder: ask how they know it is Pixel and not Bit."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions, including two sets that run at the same time.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read two sets of instructions, find and fix the wrong one, and explain the fix."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a star marker on square 3 (the goal) and two counters; run both and see which counter misses the star."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: state the goal — 'both should meet on 3.' Run Bit: 0 forward 3 → 3 (on the star).",
-          "2. WE DO: run Pixel: 5 back 1 → 4 (misses the star). 'Since Bit is right, the bug is in Pixel.'",
-          "3. YOU DO: students name Pixel as the wrong script and say it is 1 away from the goal.",
-          "4. Connect: 'Compare each script to the goal — the one that misses is the bug.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit: 0 → forward 3 → 3. Pixel: 5 → back 1 → 4. Bit reaches the goal 3; Pixel does NOT (so not both reach it).",
-          "Ex 2 — Pixel's script is wrong. We know because Bit already lands on the goal 3, so the bug must be in the other script.",
-          "Ex 3 — the goal is 3; the wrong sprite (Pixel) landed on 4, which is 1 number away from the goal.",
-          "Diagnosis note: this sheet only LOCATES the bug; fixing specific bug types comes on the next sheets."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: assuming the bug is in Bit because Pixel 'looks fine' — always check each against the goal number.",
-          "Common error: trying to fix before locating — this sheet is about WHICH script is wrong, not the fix yet.",
-          "Simplify: mark the goal square, run each sprite, and circle the one that does not land on it.",
-          "Extend: ask what single move would fix Pixel (back 2 instead of back 1) — a preview of the next sheets.",
-          "Success indicator: the child names Pixel as the buggy script and says it is 1 away from the goal."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child names the buggy set and says how far off the goal it landed."
       }
     ]
   }

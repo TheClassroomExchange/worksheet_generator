@@ -18,7 +18,28 @@
         "type": "symbols",
         "title": "The number path",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "Pixel"
+          }
+        ]
       },
       {
         "type": "image",
@@ -31,9 +52,18 @@
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 2" },
-          { "cat": "motion", "label": "forward 1" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          }
         ]
       },
       {
@@ -47,9 +77,18 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "back 1" },
-          { "cat": "motion", "label": "back 1" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          }
         ]
       },
       {
@@ -57,14 +96,20 @@
         "number": 1,
         "title": "Read Bit's script",
         "prompt": "Trace Bit from home 0: forward 2, then forward 1. What number does Bit land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
         "number": 2,
         "title": "Read Pixel's script",
         "prompt": "Trace Pixel from home 5: back 1, then back 1. What number does Pixel land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -90,52 +135,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "The first sheet of the debugging subject builds the foundation skill: reading two concurrent scripts accurately. BOTH scripts here are correct (no bug yet) — students trace each one move by move and confirm the combined outcome. Accurate reading of code that involves concurrent events is the Grade-2 C3.2 skill every later debugging sheet depends on."
+        "title": "What this worksheet teaches",
+        "text": "The first debugging sheet builds the key skill: reading two sets of moves accurately. Both sets are correct here (no bug yet) — students trace each one move by move and confirm where the two characters land. Careful reading comes before bug-finding. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel) so children can trace both sets of moves and see which one misses the goal."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Trace Bit one move at a time, then Pixel one move at a time.",
+          "2. Do one together. Exercise 1 — Bit lands on 3; Exercise 2 — Pixel lands on 3.",
+          "3. Let them try. Students write both landings and check if they meet (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit: 0, forward 2 → 2, forward 1 → 3. Exercise 2 — Pixel: 5, back 1 → 4, back 1 → 3.",
+          "Exercise 3 — both start on the green flag; Bit lands on 3 and Pixel on 3 → same number, they meet.",
+          "Note: there is no bug on this sheet — the point is accurate tracing, which the next sheets build on to find bugs."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: mixing the two characters' moves. Finish one fully, then the other.",
+          "Make it easier: trace Bit with a green counter, then Pixel with a purple counter.",
+          "Make it harder: ask how they would check a trace is right (re-run it slowly)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions, including two sets that run at the same time.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read two sets of instructions, find and fix the wrong one, and explain the fix."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: two counters (green Bit, purple Pixel) on a 0-5 path; trace each script one move at a time before putting the results together."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: trace Bit out loud — 'home 0, forward 2 → 2, forward 1 → 3.' Point to each block as you read it.",
-          "2. WE DO: trace Pixel together — 'home 5, back 1 → 4, back 1 → 3.'",
-          "3. YOU DO: students record both landings and notice both are on 3 (they meet).",
-          "4. Connect: 'Read each script carefully on its own, then put them together — that is how we will find bugs next.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit: 0 → forward 2 → 2 → forward 1 → 3. Bit lands on 3.",
-          "Ex 2 — Pixel: 5 → back 1 → 4 → back 1 → 3. Pixel lands on 3.",
-          "Ex 3 — both start on the one green flag; Bit lands on 3 and Pixel lands on 3 → yes, the same number (they meet).",
-          "Reading note: there is no bug on this sheet — the point is accurate tracing, which the next sheets build on to find bugs."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: dropping the second move — remind students each script has TWO moves to read in order.",
-          "Common error: starting both from the same home — Bit starts at 0, Pixel at 5; read each hat's sprite.",
-          "Simplify: trace one script fully, then the other, before combining.",
-          "Extend: ask students to add one more move to either script that would still land both on the same number.",
-          "Success indicator: the child lands both on 3 by reading each script accurately, move by move."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child traces both sets accurately and confirms they meet on 3."
       }
     ]
   }

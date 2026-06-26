@@ -18,15 +18,43 @@
         "type": "symbols",
         "title": "The goal: both reach 2",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2", "label": "★ goal" }, { "sym": "3" }, { "sym": "4", "label": "Pixel" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2",
+            "label": "★ goal"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "Pixel"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Bit's script (correct)",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -34,8 +62,14 @@
         "title": "Pixel's script (has a bug)",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -76,52 +110,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students fix a wrong-DIRECTION bug in one of two parallel scripts (C3.2 alter + C3.1 write). The goal is 'both reach 2'; Bit is correct, but Pixel moves forward (away from 2, overshooting to 5) when it should move back. Students reason about where the goal is relative to the sprite's home and change the direction. This builds direction sense alongside debugging."
+        "title": "What this worksheet teaches",
+        "text": "Students fix a wrong-direction bug. The goal is for both to reach 2; Bit is right, but Pixel moves forward (away from 2) when it should move back. Students reason about which way the goal is. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel) so children can trace both sets of moves and see which one misses the goal."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Is the goal in front of Pixel or behind it? That tells you forward or back.",
+          "2. Do one together. Exercise 1 — Bit reaches 2; Pixel goes forward to 5 (overshoots).",
+          "3. Let them try. Students decide the direction and write the fix (Ex 2–3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit: 0, forward 2 → 2 (reaches goal). Pixel: 4, forward 2 → 5 (the path stops at 5; Pixel overshoots and misses 2).",
+          "Exercise 2 — the goal 2 is behind Pixel (Pixel is at 4), so Pixel should move back, not forward.",
+          "Exercise 3 — fixed move back 2 → Pixel lands on 2. Both reach 2. The number (2) was fine; only the direction changes."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing the number instead of the direction. Here only the direction is wrong.",
+          "Make it easier: stand Pixel's counter on 4 and point toward the goal to find the direction.",
+          "Make it harder: ask what would happen if both the number and direction were wrong."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions, including two sets that run at the same time.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read two sets of instructions, find and fix the wrong one, and explain the fix."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a star on square 2; place a counter on Pixel's home (4) and ask 'is the star in front or behind?' before choosing the direction."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: state the goal — 'both reach 2.' Run Bit: 0 forward 2 → 2 (correct).",
-          "2. WE DO: run Pixel: 4 forward 2 → tries 6 but stops at 5 (the path ends at 5). 'Pixel went the wrong way — away from 2.'",
-          "3. YOU DO: students see the goal 2 is BEHIND Pixel (which is at 4), so the move should be back 2; they fix it and confirm Pixel reaches 2.",
-          "4. Connect: 'Check the direction: if the goal is behind the sprite, the move must go back.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit: 0 → forward 2 → 2 (reaches goal). Pixel: 4 → forward 2 → 5 (the path stops at 5; Pixel overshoots and misses 2).",
-          "Ex 2 — the goal 2 is BEHIND Pixel (Pixel is at 4), so Pixel should move BACK, not forward.",
-          "Ex 3 — fixed move: back 2 → Pixel lands on 2. Now BOTH reach the goal 2.",
-          "Fix note: the number (2) was fine; only the direction changes from forward to back."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: changing the number instead of the direction — here the count of 2 is correct; the direction is the bug.",
-          "Common error: forgetting the path stops at 5 — forward from 4 cannot reach 6, so Pixel sits at 5.",
-          "Simplify: ask 'is the star in front of Pixel or behind it?' to choose the direction.",
-          "Extend: ask which direction Bit would need if Bit started at 4 like Pixel (back 2 as well).",
-          "Success indicator: the child changes Pixel's move to back 2 and confirms both reach 2."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child flips Pixel's direction so it reaches the goal."
       }
     ]
   }
