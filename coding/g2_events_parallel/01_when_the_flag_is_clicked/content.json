@@ -18,7 +18,27 @@
         "type": "symbols",
         "title": "The number path",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "image",
@@ -31,8 +51,14 @@
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 3" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 3"
+          }
         ]
       },
       {
@@ -40,7 +66,10 @@
         "number": 1,
         "title": "Click the flag",
         "prompt": "The green flag is clicked, so the event happens and Bit's script runs. From home 0, forward 3. What number does Bit land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -73,52 +102,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students meet EVENTS: a script is started by an event, named by an orange hat block ('when green flag clicked'). The key idea is that code waits for its event — until the flag is clicked, the script has not run. Reading the event that triggers a script is the foundation for this subject (parallel scripts and broadcasts come next), and is part of writing/executing code in Grade-2 C3.1."
+        "title": "What this worksheet teaches",
+        "text": "Students meet events: a set of moves is started by an event. The block on top (an orange \"hat\") names the event — here, \"when green flag clicked\". The key idea: the moves wait for their event — until the flag is clicked, nothing runs. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel), and a card that says \"go\" you can hand over to act out sending a message."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Point to the orange hat: \"this set of moves waits until the green flag is clicked.\" Click it, then run the moves.",
+          "2. Do one together. Exercise 1 — the flag is clicked, so Bit runs and lands on 3.",
+          "3. Let them try. Students decide if Bit runs before the click (Ex 2), and name the event (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — the flag is clicked, the event happens, and Bit runs: 0, forward 3 → 3.",
+          "Exercise 2 — NO, the moves have not run before the event; Bit is still on its home number 0.",
+          "Exercise 3 — the event is \"when green flag clicked\". The hat block itself does not move Bit; it just waits for the event, then the moves under it run."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: running the moves before the flag is clicked. The event has to happen first.",
+          "Make it easier: physically \"click\" a paper flag, then move the counter.",
+          "Make it harder: ask what is on top of every set of moves (an event hat)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions that are started by an event, like clicking the green flag or getting a message.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change what starts them or one move, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a paper 'green flag' card — hold it up to say 'the event happened!' and have a counter (Bit) move on a floor number path 0-5 only when you show the flag."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: point to the orange hat — 'this is the EVENT block; it starts the script when the green flag is clicked.'",
-          "2. WE DO: before clicking, ask 'has Bit moved?' (no — the event has not happened). Then 'click' the flag and run: 0 forward 3 → 3.",
-          "3. YOU DO: students answer where Bit lands (3), whether it runs before the event (no), and name the event.",
-          "4. Connect: 'Every script needs an event to start it — here it is the green flag.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — the flag is clicked, so the event fires and Bit runs: 0 → forward 3 → 3. Bit lands on 3.",
-          "Ex 2 — NO, the script has not run before the event; Bit is still on its home number 0.",
-          "Ex 3 — the event is 'when green flag clicked' (clicking the green flag).",
-          "Event note: the hat block does not move the sprite by itself — it just waits for the event, then the blocks under it run."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: thinking the script runs as soon as it is written — stress that it waits for its event (the flag click).",
-          "Common error: counting the hat block as a move — the orange hat only names the event; the blue blocks under it do the moving.",
-          "Simplify: physically withhold the 'flag' card so students see Bit does not move until the event happens.",
-          "Extend: ask what other events could start a script (a key press, a tap) — preview of the next sheets.",
-          "Success indicator: the child lands Bit on 3 on the flag, says it does not run before the event, and names the green-flag event."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child knows the moves wait for the green-flag event and names that event."
       }
     ]
   }

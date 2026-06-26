@@ -1,10 +1,8 @@
 {
   "inspected_pages": [
-    "worksheet p1",
-    "worksheet p2",
-    "teacher guide p1"
+    1
   ],
   "c4_layout_ok": true,
   "status": "pass",
-  "notes": "CHALLENGE debug = MESSAGE MISMATCH (C3.2+C3.1). Bit broadcasts go; Pixel when-I-receive-jump -> never fires -> Pixel stuck at 5. Fix: match the messages (Pixel hat->go or Bit->jump) -> Pixel runs to 3. Ex1 run/Pixel-moves(NO), Ex2 find-bug (messages differ), Ex3 fix-it. TG: either edit works if both end same word. Clean 2pp ws + 1pp TG."
+  "notes": "Combined PDF; plain-language G2 events TG; footer The Classroom Exchange; 20/20."
 }

@@ -18,7 +18,28 @@
         "type": "symbols",
         "title": "The number path",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "Pixel" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "Pixel"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "image",
@@ -31,9 +52,18 @@
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 1" },
-          { "cat": "events", "label": "broadcast 'jump'" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          },
+          {
+            "cat": "events",
+            "label": "broadcast 'jump'"
+          }
         ]
       },
       {
@@ -47,8 +77,14 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "when I receive 'jump'" },
-          { "cat": "motion", "label": "back 1" }
+          {
+            "cat": "events",
+            "label": "when I receive 'jump'"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          }
         ]
       },
       {
@@ -89,52 +125,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read each script's hat and match it to its starting event — green flag vs a received message — and check that a broadcast MATCHES the receive hat. Matching the trigger to the script (and the message to the receiver) is reading code with events, building toward debugging mismatched messages later. This is Grade-2 C3.2 reading of code that involves concurrent events."
+        "title": "What this worksheet teaches",
+        "text": "Students read each set of moves and name what starts it — the green flag or a message — and check that a sent message MATCHES the one being waited for. The two messages must be the same word for the waiting moves to start. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel), and a card that says \"go\" you can hand over to act out sending a message."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Bit's hat is the green flag; Pixel's hat waits for a word. Check the sent word matches Pixel's word.",
+          "2. Do one together. Exercise 1 — Bit's event is the green flag; Exercise 2 — Pixel waits for \"jump\".",
+          "3. Let them try. Students check the messages match and find both landings (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit's event is \"when green flag clicked\". Exercise 2 — Pixel's event is \"when I receive jump\".",
+          "Exercise 3 — Bit sends \"jump\" and Pixel waits for \"jump\" → they match → Pixel runs. Bit: 0, forward 1 → 1. Pixel: 4, back 1 → 3.",
+          "Key idea: if Bit had sent a different word, Pixel's hat would not start and Pixel would stay home — the messages must be the same."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: assuming Pixel always runs. It runs only if the message matches.",
+          "Make it easier: write both message words side by side and check they are the same.",
+          "Make it harder: ask what to change so the messages do NOT match (and Pixel stays home)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions that are started by an event, like clicking the green flag or getting a message.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change what starts them or one move, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: cards labelled 'green flag' and 'jump'; students place the right card on top of each script."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: point to Bit's hat — 'green flag starts Bit.' Then Pixel's hat — 'a message called jump starts Pixel.'",
-          "2. WE DO: check the messages — Bit broadcasts 'jump', Pixel waits for 'jump'. Same word → they MATCH → Pixel runs.",
-          "3. YOU DO: students write each script's event, answer that the messages match, and find both landings.",
-          "4. Connect: 'A receive hat only fires if the broadcast message is exactly the one it waits for.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit's event is 'when green flag clicked'.",
-          "Ex 2 — Pixel's event is 'when I receive jump' (the message 'jump').",
-          "Ex 3 — Bit broadcasts 'jump' and Pixel waits for 'jump' → YES, they match → Pixel runs. Bit: 0 → forward 1 → 1. Pixel: 4 → back 1 → 3. Bit 1, Pixel 3.",
-          "Match note: if Bit had broadcast a different word, Pixel's hat would not fire and Pixel would stay home — the messages must be the same."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: matching by sprite colour instead of by the hat — the EVENT is named in the orange hat, not by who is green or purple.",
-          "Common error: assuming any broadcast starts any receiver — only a matching message fires the receive hat.",
-          "Simplify: underline the message word in 'broadcast jump' and 'when I receive jump' and check they are the same.",
-          "Extend: change Pixel's hat to 'when I receive spin' and ask whether Bit's 'jump' broadcast still starts it (no).",
-          "Success indicator: the child names both events, confirms the messages match, and lands Bit on 1 and Pixel on 3."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child names each starting event and checks the two messages match before Pixel runs."
       }
     ]
   }

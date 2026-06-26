@@ -18,7 +18,28 @@
         "type": "symbols",
         "title": "The number path",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Pixel" }, { "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Pixel"
+          },
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "image",
@@ -31,9 +52,18 @@
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 3" },
-          { "cat": "events", "label": "broadcast 'start'" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 3"
+          },
+          {
+            "cat": "events",
+            "label": "broadcast 'start'"
+          }
         ]
       },
       {
@@ -47,8 +77,14 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "when I receive 'start'" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "events",
+            "label": "when I receive 'start'"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -89,52 +125,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students trace the ORDER that event-triggered scripts run in. Bit (green flag) broadcasts 'start'; Pixel ('when I receive start') waits, so it runs second. This links the receive event to sequencing — the message decides who goes first and who goes next — which is exactly the 'sequential and concurrent events' language of Grade-2 C3.1/C3.2."
+        "title": "What this worksheet teaches",
+        "text": "Students trace the ORDER that event-started moves run in. Bit runs on the green flag and sends a message; Pixel waits for that message, so it runs second. The message decides who goes first and who goes next. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel), and a card that says \"go\" you can hand over to act out sending a message."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Bit runs first (green flag), sends \"start\"; Pixel waits, so it runs second.",
+          "2. Do one together. Exercise 1 — Bit runs first; Exercise 2 — Pixel runs second when it gets the message.",
+          "3. Let them try. Students find where each lands (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit runs first; its event is \"when green flag clicked\".",
+          "Exercise 2 — Pixel runs second; it starts \"when I receive start\" (the message Bit sent).",
+          "Exercise 3 — Bit: 1, forward 3 → 4. Pixel: 0, forward 2 → 2. Even though there is one green flag, Pixel waits for the message, so the order is Bit then Pixel."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking both start together. Pixel waits for the message, so it is second.",
+          "Make it easier: act it out — Bit moves, hands over the \"start\" card, then Pixel moves.",
+          "Make it harder: ask what would make Pixel run first instead."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions that are started by an event, like clicking the green flag or getting a message.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change what starts them or one move, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: two students; Bit moves and says 'start!', then Pixel may move. Ask the class 'who went first? who went second? why?'"
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: read Bit — 'green flag, 1 forward 3 → 4, then broadcast start.' Bit runs first.",
-          "2. WE DO: read Pixel — 'when I receive start'. 'Pixel waited; it runs second when start arrives: 0 forward 2 → 2.'",
-          "3. YOU DO: students name first (Bit/green flag), second (Pixel/receive start), and both landings.",
-          "4. Connect: 'The message sets the order — sender first, receiver next.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit runs first; its event is 'when green flag clicked'.",
-          "Ex 2 — Pixel runs second; it starts 'when I receive start' (the message Bit broadcast).",
-          "Ex 3 — Bit: 1 → forward 3 → 4. Pixel: 0 → forward 2 → 2. Bit lands on 4, Pixel on 2.",
-          "Order note: even though the green flag is one event, Pixel's start is delayed until the broadcast arrives, so the run order is Bit then Pixel."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: saying both start on the green flag — only Bit has the green-flag hat; Pixel waits for the message.",
-          "Common error: mixing up the homes — Bit starts at 1, Pixel at 0; read each hat's sprite carefully.",
-          "Simplify: number the two scripts 1 and 2 in run order before finding landings.",
-          "Extend: ask what the order would be if Pixel also broadcast a message at its end to a third script (sender → receiver → next receiver).",
-          "Success indicator: the child names Bit first / Pixel second and lands Bit on 4 and Pixel on 2."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child names the run order (Bit then Pixel) and finds both landings."
       }
     ]
   }

@@ -18,7 +18,28 @@
         "type": "symbols",
         "title": "The number path",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "Pixel"
+          }
+        ]
       },
       {
         "type": "image",
@@ -31,8 +52,14 @@
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 2" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          }
         ]
       },
       {
@@ -46,8 +73,14 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "back 1" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "back 1"
+          }
         ]
       },
       {
@@ -55,14 +88,20 @@
         "number": 1,
         "title": "Where does Bit land?",
         "prompt": "The green flag is clicked. Bit's script runs from home 0: forward 2. What number does Bit land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
         "number": 2,
         "title": "Where does Pixel land?",
         "prompt": "The same green flag also starts Pixel's script from home 5: back 1. What number does Pixel land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -88,52 +127,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students see PARALLEL SCRIPTS: two scripts that share the same event hat ('when green flag clicked') both start from one event and run at the same time. The key idea is that one event can trigger more than one script — a single green-flag click launches both Bit and Pixel. Reading and running parallel (concurrent) scripts is the Grade-2 C3.1 idea."
+        "title": "What this worksheet teaches",
+        "text": "Students see that one event can start more than one set of moves: the same \"when green flag clicked\" hat sits on top of both Bit's and Pixel's moves, so one click starts BOTH at the same time. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel), and a card that says \"go\" you can hand over to act out sending a message."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). One green-flag click; both Bit and Pixel start because both have the green-flag hat.",
+          "2. Do one together. Exercise 1 — Bit lands on 2; Exercise 2 — Pixel lands on 4.",
+          "3. Let them try. Students count the clicks needed (one) and write both landings (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit: 0, forward 2 → 2. Exercise 2 — Pixel: 5, back 1 → 4.",
+          "Exercise 3 — ONE green-flag click starts both (the same event sits on top of both). Bit lands on 2, Pixel on 4.",
+          "Key idea: one event can trigger two sets of moves, so they run at the same time from that single click."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking each set needs its own click. One matching event starts both.",
+          "Make it easier: click once, then move the green and purple counters.",
+          "Make it harder: ask what would happen if only one set had the green-flag hat."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions that are started by an event, like clicking the green flag or getting a message.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change what starts them or one move, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: two counters (green Bit, purple Pixel) on a 0-5 floor path; hold up ONE 'green flag' card and move BOTH counters at once to show one event starting two scripts."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: point to the top block of EACH script — both say 'when green flag clicked'. 'Same event on both means one click starts both.'",
-          "2. WE DO: trace Bit (0 forward 2 → 2) and Pixel (5 back 1 → 4) after one flag click.",
-          "3. YOU DO: students answer both landings and that only ONE click was needed to start both.",
-          "4. Connect: 'One event, two scripts — that is parallel.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit: 0 → forward 2 → 2. Bit lands on 2.",
-          "Ex 2 — Pixel: 5 → back 1 → 4. Pixel lands on 4.",
-          "Ex 3 — ONE green-flag click starts both (the same event sits on top of both scripts). Bit lands on 2, Pixel on 4.",
-          "Event note: the single green-flag event triggers both hat blocks, so the two scripts run in parallel from that one event."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: thinking you need to click the flag twice (once per script) — one event triggers every script with that hat.",
-          "Common error: running one script fully, then the other — they start together from the one event (parallel).",
-          "Simplify: cover Pixel, run Bit; then reveal Pixel and show the SAME flag starts it too.",
-          "Extend: ask what happens if only Bit had the green-flag hat and Pixel had none (only Bit would run).",
-          "Success indicator: the child lands Bit on 2 and Pixel on 4 and says one click started both."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child sees one click start both sets of moves and writes both landings."
       }
     ]
   }

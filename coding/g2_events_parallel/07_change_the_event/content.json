@@ -18,16 +18,46 @@
         "type": "symbols",
         "title": "The number path",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Pixel" }, { "sym": "1" }, { "sym": "2", "label": "Bit" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Pixel"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2",
+            "label": "Bit"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 2" },
-          { "cat": "events", "label": "broadcast 'go'" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          },
+          {
+            "cat": "events",
+            "label": "broadcast 'go'"
+          }
         ]
       },
       {
@@ -35,8 +65,14 @@
         "title": "Pixel's script NOW",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "when I receive 'go'" },
-          { "cat": "motion", "label": "forward 1" }
+          {
+            "cat": "events",
+            "label": "when I receive 'go'"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          }
         ]
       },
       {
@@ -56,8 +92,14 @@
         "title": "Pixel's script AFTER the change",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 1" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 1"
+          }
         ]
       },
       {
@@ -91,51 +133,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students ALTER which EVENT triggers a script and DESCRIBE the effect — Grade-2 C3.2 ('describe how changes to the code affect the outcomes'). Changing Pixel's hat from 'when I receive go' to 'when green flag clicked' changes Pixel from running SECOND (waiting for the message) to running at the SAME TIME as Bit (parallel). The landings are unchanged; the timing/order is the outcome that changes."
+        "title": "What this worksheet teaches",
+        "text": "Students change which EVENT starts a set of moves and describe the effect. Swapping Pixel's hat from \"when I receive go\" to \"when green flag clicked\" changes Pixel from running SECOND (waiting for the message) to running at the SAME TIME as Bit. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel), and a card that says \"go\" you can hand over to act out sending a message."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Run it as is: Bit first, Pixel second (it waits for the message).",
+          "2. Do one together. Exercise 1 — record who runs first and second and why.",
+          "3. Let them try. Students run with Pixel's new green-flag hat (Ex 2), then write how the event change changed WHEN Pixel runs (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 (before) — Bit runs first (green flag); Pixel runs second because it waits for the \"go\" message.",
+          "Exercise 2 (after) — with the green-flag hat, Pixel no longer waits; it starts at the same time as Bit.",
+          "Exercise 3 — sample: \"Changing Pixel's hat to the green flag made Pixel start at the same time as Bit instead of waiting for the message.\" The landings stay the same (Bit 4, Pixel 1); only the timing changed."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking the landing numbers change. Only WHEN Pixel starts changes, not where it lands.",
+          "Make it easier: compare \"who starts first\" before and after the change.",
+          "Make it harder: ask what hat would make Pixel run THIRD, after another message."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions that are started by an event, like clicking the green flag or getting a message.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change what starts them or one move, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: two 'hat' cards (green flag / when I receive go); physically swap Pixel's hat and re-run with counters so the timing change is visible."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: run the BEFORE version — 'Bit on the flag → 2 forward 2 → 4, then broadcast go; Pixel waits, hears go, runs second → 0 forward 1 → 1.'",
-          "2. WE DO: swap Pixel's hat to the green flag. Ask: 'does Pixel still wait?' (no — it now starts with Bit).",
-          "3. YOU DO: students describe the timing change and confirm the landings are unchanged (Bit 4, Pixel 1).",
-          "4. Connect: 'The event hat controls WHEN — change it and you change the timing, even if the moves stay the same.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 (before) — Bit runs first (green flag); Pixel runs second because it waits for the 'go' message before starting.",
-          "Ex 2 (after) — STARTS WITH BIT: with the green-flag hat, Pixel no longer waits; it starts at the same time as Bit (parallel).",
-          "Ex 3 (describe) — sample: 'Changing Pixel's hat to the green flag made Pixel start at the same time as Bit instead of waiting for the message.' Accept any answer linking the event change to the timing change.",
-          "Outcome note: landings stay Bit 4, Pixel 1; what changed is the ORDER — sequential (Bit then Pixel) became parallel (both at once)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: thinking the landing number must change — here only the timing changes; pull for a description of WHEN, not where.",
-          "Simplify: just ask 'before, did Pixel wait? after, does Pixel wait?' (yes → no).",
-          "Extend: ask what now happens to Bit's 'broadcast go' block (nothing listens for it anymore — unused messages).",
-          "Success indicator: the child says Pixel waited before and starts with Bit after, and the landings are unchanged."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child changes Pixel's starting event and explains how it changed the timing."
       }
     ]
   }

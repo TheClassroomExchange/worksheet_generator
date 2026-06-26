@@ -18,7 +18,28 @@
         "type": "symbols",
         "title": "The number path",
         "size": "md",
-        "items": [{ "sym": "0", "label": "Bit" }, { "sym": "1" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4" }, { "sym": "5", "label": "Pixel" }]
+        "items": [
+          {
+            "sym": "0",
+            "label": "Bit"
+          },
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5",
+            "label": "Pixel"
+          }
+        ]
       },
       {
         "type": "image",
@@ -31,9 +52,18 @@
         "title": "Bit's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "⚑ when green flag clicked" },
-          { "cat": "motion", "label": "forward 2" },
-          { "cat": "events", "label": "broadcast 'go'" }
+          {
+            "cat": "events",
+            "label": "⚑ when green flag clicked"
+          },
+          {
+            "cat": "motion",
+            "label": "forward 2"
+          },
+          {
+            "cat": "events",
+            "label": "broadcast 'go'"
+          }
         ]
       },
       {
@@ -47,8 +77,14 @@
         "title": "Pixel's script",
         "size": "md",
         "blocks": [
-          { "cat": "events", "label": "when I receive 'go'" },
-          { "cat": "motion", "label": "back 2" }
+          {
+            "cat": "events",
+            "label": "when I receive 'go'"
+          },
+          {
+            "cat": "motion",
+            "label": "back 2"
+          }
         ]
       },
       {
@@ -56,14 +92,20 @@
         "number": 1,
         "title": "Bit goes first",
         "prompt": "The green flag starts Bit from home 0: forward 2. What number does Bit land on? Then Bit sends the message 'go'.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
         "number": 2,
         "title": "Pixel hears the message",
         "prompt": "When Pixel receives 'go', it runs from home 5: back 2. What number does Pixel land on?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -89,52 +131,55 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students meet BROADCAST and RECEIVE: a script can send a message ('broadcast go') that starts another script ('when I receive go'). The message is itself an event — Pixel runs only because Bit broadcast 'go'. This is how separate scripts coordinate, and it is part of writing/executing code with events in Grade-2 C3.1."
+        "title": "What this worksheet teaches",
+        "text": "Students meet sending and getting a message: Bit can send a message (\"go\"), and Pixel starts only when it gets that message (\"when I receive go\"). The message is itself an event. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 2 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer needed — paper and a pencil. You read the prompts aloud. Optional: two counters on a number line 0 to 5 (green Bit, purple Pixel), and a card that says \"go\" you can hand over to act out sending a message."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them (you do). Bit runs, then sends \"go\"; Pixel was waiting for \"go\" and starts only then.",
+          "2. Do one together. Exercise 1 — Bit lands on 2 and sends \"go\"; Exercise 2 — Pixel gets \"go\" and lands on 3.",
+          "3. Let them try. Students name what starts Pixel, and say what happens if \"go\" is never sent (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit: 0, forward 2 → 2, then sends \"go\".",
+          "Exercise 2 — Pixel gets \"go\" and runs: 5, back 2 → 3.",
+          "Exercise 3 — Pixel is started by the message (\"when I receive go\"). If Bit never sent \"go\", Pixel would not move — it stays home at 5."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: thinking the green flag starts Pixel. It is the message that starts Pixel.",
+          "Make it easier: hand a \"go\" card to the child running Pixel to act out the message.",
+          "Make it harder: ask why Pixel runs after Bit, not at the same time (the message is sent at the end of Bit's moves)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential and concurrent events.",
-          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run instructions that are started by an event, like clicking the green flag or getting a message.",
+          "C3.2 — read and alter existing code, including code that involves sequential and concurrent events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change what starts them or one move, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: have one student be Bit and one be Pixel; Bit moves, then says 'go!' out loud — Pixel may only move after hearing 'go'."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: read Bit's script — 'green flag starts it, 0 forward 2 → 2, then it broadcasts go.'",
-          "2. WE DO: point to Pixel's hat — 'when I receive go'. 'Pixel was waiting; now it hears go and runs: 5 back 2 → 3.'",
-          "3. YOU DO: students find both landings and answer what starts Pixel (the message 'go'), and that with no message Pixel would not move.",
-          "4. Connect: 'A broadcast is a message; a receive block waits for it. The message is the event.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit: 0 → forward 2 → 2, then broadcasts 'go'. Bit lands on 2.",
-          "Ex 2 — Pixel receives 'go' and runs: 5 → back 2 → 3. Pixel lands on 3.",
-          "Ex 3 — Pixel is started by the message 'when I receive go'. If Bit never sent 'go', Pixel would NOT move (it stays home at 5).",
-          "Event note: the broadcast happens at the END of Bit's script, so Pixel starts after Bit — but it is the MESSAGE, not the green flag, that triggers Pixel."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common error: thinking Pixel also starts on the green flag — Pixel has no green-flag hat; only the message 'go' starts it.",
-          "Common error: ignoring the broadcast block at the bottom of Bit's script — that block is what sends the message.",
-          "Simplify: act it out — Pixel literally cannot move until it hears 'go'.",
-          "Extend: ask what would happen if Pixel's hat said 'when I receive stop' but Bit broadcasts 'go' (the messages don't match → Pixel never starts — preview of debugging).",
-          "Success indicator: the child lands Bit on 2 and Pixel on 3 and explains the message 'go' is what starts Pixel."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The child sees that Pixel runs only because Bit sent the message, and finds both landings."
       }
     ]
   }

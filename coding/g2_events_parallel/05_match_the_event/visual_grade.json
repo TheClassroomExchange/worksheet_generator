@@ -1,10 +1,8 @@
 {
   "inspected_pages": [
-    "worksheet p1",
-    "worksheet p2",
-    "teacher guide p1"
+    1
   ],
   "c4_layout_ok": true,
   "status": "pass",
-  "notes": "MATCH event->script + message-match. Bit green flag, fwd1->1, broadcast jump; Pixel when-I-receive-jump, back1->3. messages match -> Pixel runs. Ex1 Bit event, Ex2 Pixel event, Ex3 do-messages-match(YES)+landings. TG: receive hat fires only on exact matching message. Clean 2pp ws + 1pp TG."
+  "notes": "Combined PDF; plain-language G2 events TG; footer The Classroom Exchange; 20/20."
 }
