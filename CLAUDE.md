@@ -1,6 +1,6 @@
 # Worksheet Generator — Runbook for Claude sessions
 
-This project generates curriculum-aligned K-3 units for The Canadian Classroom
+This project generates curriculum-aligned K-3 units for The Classroom
 Exchange marketplace. **Claude (you) are the runner.** Python is plumbing only —
 no Anthropic API calls. Use the Write tool to produce stage outputs.
 

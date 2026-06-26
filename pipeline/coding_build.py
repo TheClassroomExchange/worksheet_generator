@@ -95,6 +95,53 @@ def render_sheet(unit_dir: Path) -> dict:
     return render
 
 
+def _fbase(unit_dir: Path) -> str:
+    """The clean filename base for a sheet (matches render_sheet)."""
+    content = json.loads((unit_dir / "content.json").read_text(encoding="utf-8"))
+    title = content.get("title", "Worksheet")
+    return content.get("file_title") or title.replace(": ", " — ").replace(":", "-")
+
+
+def combine_sheet(unit_dir: Path) -> dict:
+    """Append the two component PDFs into ONE ``<fbase>.pdf`` per folder:
+    Worksheet pages first, Teacher Guide (instructions + answer key) last.
+
+    Simple back-to-back append via poppler ``pdfunite`` — each half keeps its
+    own footer + page numbering. Deletes the two component PDFs so the folder
+    holds exactly one PDF (+ json/py metadata). Idempotent: same output name is
+    overwritten on re-run. Returns {"combined_pdf": name, "pages_from": {...}}.
+    """
+    unit_dir = Path(unit_dir)
+    fbase = _fbase(unit_dir)
+    ws_path = unit_dir / f"{fbase} — Worksheet.pdf"
+    tg_path = unit_dir / f"{fbase} — Teacher Guide.pdf"
+    combined = unit_dir / f"{fbase}.pdf"
+    if not ws_path.exists() or not tg_path.exists():
+        raise FileNotFoundError(
+            f"component PDFs missing in {unit_dir} — run render_sheet first")
+
+    # pdfunite refuses to overwrite an input; combined name differs from both,
+    # but guard against a prior combined of the same name lingering.
+    if combined.exists():
+        combined.unlink()
+    proc = subprocess.run(
+        ["pdfunite", str(ws_path), str(tg_path), str(combined)],
+        capture_output=True, text=True,
+    )
+    if proc.returncode != 0 or not combined.exists():
+        raise RuntimeError(f"pdfunite failed for {unit_dir}: {proc.stderr.strip()}")
+
+    # One PDF per folder — drop the components now that they're merged in.
+    ws_path.unlink()
+    tg_path.unlink()
+
+    out = {"combined_pdf": combined.name,
+           "pages_from": {"worksheet": ws_path.name, "teacher_guide": tg_path.name}}
+    (unit_dir / "render.json").write_text(json.dumps(
+        {"combined_pdf": combined.name}, indent=2, ensure_ascii=False))
+    return out
+
+
 def build_to_render(unit_dir: Path, *, unit_id: str, input_row: dict,
                     scores: dict, grade_label: str, rubric_file: str) -> dict:
     """Walk a sheet's manifest from init through `render`, enforcing the gates:

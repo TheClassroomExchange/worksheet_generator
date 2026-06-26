@@ -77,51 +77,57 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students read a short block program and run it on a number path to find where Bit lands, then alter one block and predict the new result. This is the reading-and-running half of coding (C3.1) plus a first taste of altering code and describing the effect (C3.2)."
+        "title": "What this worksheet teaches",
+        "text": "Bit the robot stands on a number line from 0 to 5. The student reads a short list of instructions (called \"blocks\") from top to bottom, one at a time, to work out which number Bit ends up on — then changes one instruction and finds the new answer. No coding experience needed: if you can follow a recipe step by step, you can teach this page."
       },
       {
         "type": "prose",
-        "title": "Ontario curriculum (Grade 1 — C3 Coding)",
+        "title": "Before you start (no computer needed)",
+        "text": "A paper-and-pencil activity — no app, tablet, or computer to set up. Just print the worksheet and hand out pencils. Optional: tape a big number line (0 to 6) on the floor so a child can walk out each instruction."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Show them first (you do). Point to \"Code A\" and read it aloud, acting it out: \"Start at 0 — stand on 0. Forward 2 — hop to 2. Forward 1 — hop to 3. Bit lands on 3.\" One step per instruction, top to bottom.",
+          "2. Do one together (we do). As a class, do Exercise 1 (lands on 3). For Exercise 2, have students GUESS Code B's answer first, then follow the steps to check (lands on 4).",
+          "3. Let them try alone (you do). In Exercise 3 they change \"forward 3\" to \"forward 2\", guess, then check (lands on 3).",
+          "4. Wrap up: \"We read instructions from the top, one at a time. The first one tells Bit where to stand; the rest tell Bit how to move.\""
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Code A: start on 0, forward 2 → 2, forward 1 → 3. Bit lands on 3.",
+          "Exercise 2 — Code B: start on 1, forward 3 → 4. Bit lands on 4.",
+          "Exercise 3 — after changing to forward 2: start on 1 → 3. Bit lands on 3.",
+          "Why order matters: the first instruction sets where Bit starts; a \"forward\" before it would have no number to move from. After that, instructions run one at a time, top to bottom."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: counting the starting number as a move. \"Start at 0\" just means \"stand on 0\" — not a hop. The first hop is the first \"forward\".",
+          "Make it easier: have the child walk each instruction on a floor number line, pausing on each number.",
+          "Make it harder: change the start to \"start at 2\" and ask what Code A lands on now (5)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential events.",
-          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students follow a set of step-by-step instructions, in order, to get a result.",
+          "C3.2 — read and alter existing code, including code that involves sequential events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions someone else wrote, change one, and explain what the change did."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor number path 0-6 (tape and number cards) so a child can walk each program."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 20 min)",
-        "text": [
-          "1. I DO: run Code A aloud — 'start at 0… forward 2 lands on 2… forward 1 lands on 3.' One step per block, top to bottom.",
-          "2. WE DO: Exercise 1 — students run Code A to 3. Exercise 2 — predict Code B's landing (4), then run from 1 to confirm.",
-          "3. YOU DO: Exercise 3 — change forward 3 to forward 2; predict and run to land on 3.",
-          "4. Connect: 'Code runs in order from the top. The start block must go first so Bit knows where to begin.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Code A: 0 → (forward 2) 2 → (forward 1) 3. Bit lands on 3.",
-          "Ex 2 — Code B: 1 → (forward 3) 4. Bit lands on 4.",
-          "Ex 3 — change to forward 2: 1 → 3. Bit lands on 3.",
-          "Why the order works: the start block runs first to set Bit's number; if a move block ran before the start, Bit would have no number to move from and the code would break. The moves then run top to bottom, one at a time."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: counting the start number as the first step — 'start at 0' is a position, not a move; the first forward step leaves 0.",
-          "Simplify: walk each program on a floor number path, pausing on each number.",
-          "Extend: ask students to change the start block to 'start at 2' and predict Code A's new landing (5).",
-          "Success indicator: the child runs the blocks in order and writes the correct landing number for each code."
-        ]
+        "title": "You'll know it worked when",
+        "text": "The student follows the instructions in order and writes the correct landing number for each code."
       }
     ]
   }

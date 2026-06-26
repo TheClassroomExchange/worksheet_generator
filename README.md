@@ -1,6 +1,6 @@
-# Canadian Classroom Exchange — Worksheet Generator
+# The Classroom Exchange — Worksheet Generator
 
-Curriculum-aligned K-Grade 3 unit generator for The Canadian Classroom Exchange marketplace.
+Curriculum-aligned K-Grade 3 unit generator for The Classroom Exchange marketplace.
 Each unit ships as a published Google Slides deck containing 5 lesson plans, 5 worksheets,
 manipulatives, formative + reflection materials, an assessment suite, a marketplace listing,
 and a graded rubric — all aligned to Ontario MOE expectations.

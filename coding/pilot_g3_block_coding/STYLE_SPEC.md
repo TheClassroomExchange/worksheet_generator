@@ -35,7 +35,7 @@ Run it (≈4 steps, ~30 min) · Answer key (run-gate verified) · Watch for & di
 ## Brand & layout (the `worksheet_pdf.py` template)
 - Palette: mint `#39C9A6` / navy `#102A43` / accent yellow `#FFC857` (anchored to Bit).
 - Header band = mascot-in-circle (left) + centered eyebrow/title/subtitle.
-- Footer = `N. Topic · The Canadian Classroom Exchange · page N`.
+- Footer = `N. Topic · The Classroom Exchange · page N`.
 - Exercise/figure/code boxes never split across a page break (`break-inside: avoid`).
 
 ## Mascot rotation

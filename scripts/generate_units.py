@@ -1,5 +1,5 @@
 """
-Canadian Classroom Exchange — Unit Generation Script
+The Classroom Exchange — Unit Generation Script
 =====================================================
 Reads content spec from Excel, generates full 7-lesson units via Claude API,
 writes markdown files, and updates status back to the spreadsheet.

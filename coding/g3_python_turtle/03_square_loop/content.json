@@ -75,55 +75,60 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Students use a for-loop to draw a square: repeat 4 of forward + right 90. They see the forward number sets size while range(4)/right 90 keep it a square, and link the path length to perimeter."
+        "title": "What this worksheet teaches",
+        "text": "A square has 4 equal sides. Instead of typing \"go forward, then turn\" four times, the student uses a shortcut that means \"repeat this 4 times.\" They read the shortcut, change a number to see what happens, fill in a missing piece, and add up the distance all the way around (the perimeter). No coding experience needed — everything you need is on the page and in the answer key."
       },
       {
         "type": "prose",
-        "title": "Curriculum (Ontario Math 2020, Strand C3)",
+        "title": "Before you start — showing the drawing (optional)",
+        "text": [
+          "The worksheet shows the instructions AND a picture of the finished square, so you can teach straight from the printout — no computer required.",
+          "To show it live (optional): open a browser, go to a free \"Python turtle\" playground (e.g. search \"trinket python turtle\"), type the few lines from the worksheet, and press Run — a turtle draws the square. You only press Run."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 30 minutes)",
+        "text": [
+          "1. Remind them: last lesson \"repeat 3 times\" drew 3 sides; one more side closes a square.",
+          "2. Show it (you do). Read the code like a recipe: \"Repeat 4 times: forward 50, then turn right.\" Note Bit ends back where it started.",
+          "3. Let them work (we do, then you do). Students do Exercises 1–4, solo or in pairs. Ex 4 (challenge) adds up all four sides (the perimeter).",
+          "4. Wrap up: the \"forward\" number sets how BIG the square is; \"repeat 4 times\" and the right turn keep it a SQUARE."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — 4 sides and 4 turns.",
+          "Exercise 2 — still a square; only the SIZE gets bigger, not the shape (a side of 100 makes the distance around 400).",
+          "Exercise 3 — the missing numbers are 4 (repeat 4 times) and 90 (turn right 90).",
+          "Exercise 4 (challenge) — the whole path is 4 × 50 = 200, the square's perimeter."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If students get stuck — and ways to adjust",
+        "text": [
+          "Watch for: changing the \"repeat 4 times\" number in Ex 2 when only the side length should change — a square always has 4 sides, so that 4 stays the same.",
+          "Make it easier: trace one side and count 50, 100, 150, 200 around the square for the perimeter.",
+          "Make it harder: ask for the perimeter of a square with sides of 70 (280)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
         "text": [
           "C3.1 — solve problems and create computational representations of mathematical situations by writing and executing code, including code that involves sequential, concurrent, and repeating events.",
-          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes."
+          "In plain terms: students write and run step-by-step instructions — including a \"repeat\" instruction — to make something happen.",
+          "C3.2 — read and alter existing code, including code that involves sequential, concurrent, and repeating events, and describe how changes to the code affect the outcomes.",
+          "In plain terms: students read instructions, change one, and explain what the change did to the result."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "Python Turtle projected (or a web playground); the printed worksheet + a pencil per student."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 30 min)",
-        "text": [
-          "1. Recall last sheet: range(3) drew 3 sides — add the 4th, it closes a square.",
-          "2. Run the range(4) square; note it ends back at the start.",
-          "3. Students do Exercises 1–4 (Ex 4 links to perimeter), solo or in pairs.",
-          "4. Share answers; land the big idea: forward = size; range(4)/right 90 = square."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (checked by the run-gate)",
-        "text": [
-          "Ex 1 — 4 sides; 4 turns.",
-          "Ex 2 — still a square; the SIZE changes, not the shape (perimeter 400).",
-          "Ex 3 — range(4), bit.right(90).",
-          "Ex 4 (challenge) — 200 (4 × 50) — the perimeter."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: changing range(4) when only the size should change (Ex 2).",
-          "Support: trace one side and skip-count 50 four times for the perimeter.",
-          "Extend: ask the perimeter of a forward(70) square (280)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The student reads the square loop (Ex 1), reasons size-vs-shape when altering forward (Ex 2), completes the loop (Ex 3), and finds the perimeter from the code (Ex 4)."
+        "title": "You'll know it worked when",
+        "text": "The student reads the repeat-shortcut (Ex 1), explains size-vs-shape when changing the side length (Ex 2), fills in the missing numbers (Ex 3), and finds the perimeter (Ex 4)."
       }
     ]
   }

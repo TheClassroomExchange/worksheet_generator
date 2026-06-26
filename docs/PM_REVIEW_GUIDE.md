@@ -1,4 +1,4 @@
-# PM Review Guide — Canadian Classroom Exchange
+# PM Review Guide — The Classroom Exchange
 
 ## Your job in two sentences
 You review the markdown file for **curriculum accuracy and classroom usability**.

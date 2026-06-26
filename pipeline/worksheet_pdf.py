@@ -11,7 +11,7 @@ One reusable page template in the source "house style":
         code      — monospace code block (Python / Turtle), optional output
         exercise  — numbered task box with ruled answer lines / grid
         image     — a rendered figure (PNG/SVG path) with a caption
-  • branded footer: "N. Topic   ·   The Canadian Classroom Exchange   ·   page N"
+  • branded footer: "N. Topic   ·   The Classroom Exchange   ·   page N"
 
 This is the single biggest new piece of the pipeline and the thing the pilot
 gates on first. Kept deliberately data-driven (a plain dict `spec`) so it can be
@@ -223,10 +223,10 @@ def _css(spec: dict) -> str:
     # full guide — including the two verbatim C3 citations — reliably fits one
     # page without per-sheet hand-trimming.
     compact = bool(spec.get("compact"))
-    body_pt = "10.3pt" if compact else "11pt"
-    line_h = "1.38" if compact else "1.5"
-    part_mb = "8px" if compact else "14px"
-    prose_mb = "4px" if compact else "6px"
+    body_pt = "10.2pt" if compact else "11pt"
+    line_h = "1.30" if compact else "1.5"
+    part_mb = "5px" if compact else "14px"
+    prose_mb = "3px" if compact else "6px"
     return f"""
 @page {{
     size: Letter;
@@ -237,7 +237,7 @@ def _css(spec: dict) -> str:
         font-size: 8pt; color: {SLATE};
     }}
     @bottom-center {{
-        content: "The Canadian Classroom Exchange";
+        content: "The Classroom Exchange";
         font-family: 'Helvetica Neue', Arial, sans-serif;
         font-size: 8pt; color: {MINT_DARK}; font-weight: 600;
     }}

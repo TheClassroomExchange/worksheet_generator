@@ -1,26 +1,29 @@
 """
 drive_publish.py — push a coding batch's PDFs to Google Drive.
 
-Publishes ONLY the two PDFs per topic (the student Worksheet + the Teacher
-Guide) into a clearly-navigable folder tree:
+Publishes ONE combined PDF per topic (the student Worksheet pages followed by
+the Teacher Guide / answer key, merged by ``coding_build.combine_sheet``) into
+a clearly-navigable folder tree:
 
     Product/Resources/
     └── Generated Coding Worksheets/
         └── Grade 3/
             └── Block Coding/
                 ├── 1. Loops: Code That Repeats/
-                │   ├── Loops — Worksheet.pdf
-                │   └── Loops — Teacher Guide.pdf
+                │   └── Loops.pdf          ← worksheet + teacher guide combined
                 ├── 2. Loops That Make Patterns/
-                │   └── … (2 PDFs)
+                │   └── … (1 PDF)
                 └── …
 
 Rules (per the product owner):
-  • each topic folder contains EXACTLY the 2 PDFs — nothing else (a hygiene
-    check verifies this and reports any stray file);
+  • each topic folder contains EXACTLY ONE PDF — nothing else (a hygiene check
+    verifies this and reports any stray file);
+  • any older component PDFs ("… — Worksheet.pdf" / "… — Teacher Guide.pdf")
+    from a prior two-PDF build are DELETED from Drive on publish, so only the
+    single combined copy remains;
   • topic folders are numbered ("1. …", "2. …") for clear navigation;
-  • idempotent — re-running updates the existing PDFs in place instead of
-    creating duplicates.
+  • idempotent — re-running updates the existing combined PDF in place instead
+    of creating duplicates.
 
 Reuses the Drive auth + folder helpers from pipeline.slides.
 
@@ -79,17 +82,31 @@ def _upload_or_update_pdf(drive, folder_id: str, path: Path) -> tuple[str, str]:
     return created["id"], "created"
 
 
-def _topic_pdfs(unit_dir: Path) -> dict:
-    """Return {'worksheet': Path, 'teacher_guide': Path} for a unit dir.
-    Raises if not exactly the two expected PDFs are present."""
+def _topic_pdf(unit_dir: Path) -> Path:
+    """Return the single combined ``<Title>.pdf`` for a unit dir (worksheet +
+    teacher guide merged by combine_sheet). Component PDFs ("… — Worksheet.pdf"
+    / "… — Teacher Guide.pdf") are excluded; raises unless exactly one combined
+    PDF is present."""
     pdfs = sorted(unit_dir.glob("*.pdf"))
-    ws = [p for p in pdfs if p.stem.endswith("Worksheet")]
-    tg = [p for p in pdfs if p.stem.endswith("Teacher Guide")]
-    if len(ws) != 1 or len(tg) != 1:
+    combined = [p for p in pdfs
+                if not (p.stem.endswith("Worksheet") or p.stem.endswith("Teacher Guide"))]
+    if len(combined) != 1:
         raise RuntimeError(
-            f"{unit_dir.name}: expected 1 Worksheet + 1 Teacher Guide PDF, "
-            f"found {[p.name for p in pdfs]}")
-    return {"worksheet": ws[0], "teacher_guide": tg[0]}
+            f"{unit_dir.name}: expected exactly 1 combined PDF, "
+            f"found {[p.name for p in pdfs]} (run coding_build.combine_sheet first)")
+    return combined[0]
+
+
+def _delete_stale_pdfs(drive, folder_id: str, keep: str) -> list[str]:
+    """Delete every PDF in folder_id whose name != keep — e.g. the old
+    '… — Worksheet.pdf' / '… — Teacher Guide.pdf' from a prior two-PDF build —
+    so the topic folder ends with exactly one combined PDF. Returns names removed."""
+    removed = []
+    for c in _list_children(drive, folder_id):
+        if c["mimeType"] == "application/pdf" and c["name"] != keep:
+            drive.files().delete(fileId=c["id"], supportsAllDrives=True).execute()
+            removed.append(c["name"])
+    return removed
 
 
 def publish_batch(batch_dir: Path, *, parent_folder_id: str = PRODUCT_RESOURCES_FOLDER_ID,
@@ -125,30 +142,31 @@ def publish_batch(batch_dir: Path, *, parent_folder_id: str = PRODUCT_RESOURCES_
             print(f"  · skip {t['nn']} {t['title']} (status={t.get('status')})")
             continue
         unit_dir = batch_dir / t["dir"]
-        pdfs = _topic_pdfs(unit_dir)
+        pdf = _topic_pdf(unit_dir)
         folder_name = f"{int(t['nn'])}. {t['title']}"
         print(f"  · {folder_name}")
         topic_folder = mkfolder(subject_folder, folder_name)
 
         uploaded = []
-        for role, path in pdfs.items():
-            if dry_run:
-                print(f"      [pdf] {path.name}")
-                uploaded.append({"role": role, "name": path.name})
-                continue
-            fid, action = _upload_or_update_pdf(drive, topic_folder, path)
-            print(f"      {action}: {path.name}")
-            uploaded.append({"role": role, "name": path.name, "id": fid})
+        if dry_run:
+            print(f"      [pdf] {pdf.name}")
+            uploaded.append({"role": "combined", "name": pdf.name})
+        else:
+            # Remove any stale component PDFs from the prior 2-PDF build first.
+            for stale in _delete_stale_pdfs(drive, topic_folder, keep=pdf.name):
+                print(f"      removed old: {stale}")
+            fid, action = _upload_or_update_pdf(drive, topic_folder, pdf)
+            print(f"      {action}: {pdf.name}")
+            uploaded.append({"role": "combined", "name": pdf.name, "id": fid})
 
-        # Hygiene: the topic folder must contain EXACTLY the 2 PDFs, nothing else.
+        # Hygiene: the topic folder must contain EXACTLY ONE PDF, nothing else.
         hygiene = {"ok": True, "extras": []}
         if not dry_run:
             children = _list_children(drive, topic_folder)
-            expected = {p.name for p in pdfs.values()}
-            extras = [c["name"] for c in children if c["name"] not in expected]
+            extras = [c["name"] for c in children if c["name"] != pdf.name]
             non_pdf = [c["name"] for c in children
                        if c["mimeType"] != "application/pdf"]
-            hygiene = {"ok": not extras and len(children) == 2,
+            hygiene = {"ok": not extras and len(children) == 1,
                        "count": len(children), "extras": extras, "non_pdf": non_pdf}
             flag = "OK" if hygiene["ok"] else f"⚠ {hygiene}"
             print(f"      hygiene: {len(children)} file(s) — {flag}")
@@ -172,7 +190,7 @@ def publish_batch(batch_dir: Path, *, parent_folder_id: str = PRODUCT_RESOURCES_
                "published": len(results), "results": results}
     all_ok = all(r["hygiene"]["ok"] for r in results) if not dry_run else True
     print(f"\n{'DRY RUN complete' if dry_run else 'PUBLISH complete'}: "
-          f"{len(results)} topic(s), {len(results)*2} PDFs"
+          f"{len(results)} topic(s), {len(results)} combined PDF(s)"
           + ("" if all_ok else "  ⚠ HYGIENE ISSUES — see above"))
     return summary
 
