@@ -150,56 +150,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children trace (run) a short block program on a 1D stage and report the result — Bit's landing box. Running each block in order, one at a time, is executing a program; the number and direction of the blocks decide where Bit ends up."
+        "title": "What this worksheet teaches",
+        "text": "Children run a short stack of blocks on a row of boxes and report where Bit lands. Running each block in order, one at a time, is running a program; the number and direction of blocks decide where Bit ends up. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper, a pencil, and a crayon. You read each prompt aloud. Optional: paper blocks (a green flag block + arrow blocks) to stack by hand, or floor boxes the child can walk."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Start on box 1; run each block top to bottom, moving one box per arrow.",
+          "2. Do one together. Exercise 1 — Stack 1 (right, right) from box 1 lands on box 3.",
+          "3. Let them try. Children run Stack 2 (Ex 2) and Stack 3, where the last block goes back one (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Stack 1 (right, right) from box 1 → box 3. Exercise 2 — Stack 2 (right, right, right) → box 4, yes, the star.",
+          "Exercise 3 — Stack 3 (right, right, left) → box 3, then back to box 2. Bit lands on box 2."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: counting the start box as a step. The first arrow leaves box 1.",
+          "Make it easier: walk each stack on floor boxes, one step per block.",
+          "Make it harder: ask which stack lands Bit on box 5.",
+          "Make it active: a child is Bit and steps one box per block the class reads."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children carry out a sequence of coded instructions and determine the outcome.",
-          "No reading required of the child: read each prompt aloud; the child writes the landing-box number (1-5)."
+          "In plain terms: running a stack of blocks in order to see where Bit lands.",
+          "No reading is needed from the child — you read each prompt aloud; the child circles, numbers, or draws an arrow."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: floor boxes 1-5 with a star on box 4 so a child can walk each stack."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: put a finger on box 1. Run Stack 1 aloud — '➡ box 2… ➡ box 3.' Bit lands on box 3. One finger-move per block, top to bottom.",
-          "2. GUIDED: Exercise 1 — children run Stack 1 to box 3. Exercise 2 — Stack 2 is one more ➡, landing on box 4, the star.",
-          "3. YOU TRY: Exercise 3 — Stack 3 ends with ⬅, so after ➡ ➡ to box 3 the last block steps back to box 2.",
-          "4. Connect: 'To find out what a program does, you run it — one block at a time.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Stack 1 (➡ ➡) from box 1 → box 3.",
-          "Ex 2 — Stack 2 (➡ ➡ ➡) from box 1 → box 4, yes, the star.",
-          "Ex 3 — Stack 3 (➡ ➡ ⬅) from box 1 → box 3, then back to box 2. Bit lands on box 2."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: counting box 1 as the first move — the first ➡ moves Bit OFF box 1 onto box 2.",
-          "Watch Ex 3: children may forget the last ⬅ steps backward — have them touch each box as they go.",
-          "Simplify: do Stacks 1-2 only (all ➡). Skip the ⬅ in Stack 3 for children who need it.",
-          "Extend: ask which stack lands Bit on the star, and how they could change Stack 1 to reach it (add one ➡).",
-          "Movement option: children physically walk each stack on the floor boxes."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child runs each stack one block at a time and writes box 3, box 4 (star), and box 2 — tracking the ⬅ step back in Stack 3."
+        "title": "You'll know it worked when",
+        "text": "The child runs each stack in order and writes the correct landing box."
       }
     ]
   }

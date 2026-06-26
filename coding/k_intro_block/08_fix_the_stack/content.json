@@ -18,17 +18,47 @@
         "type": "symbols",
         "title": "Bit's stage",
         "size": "lg",
-        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "★" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "★"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Bit's program (it has a bug)",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "➡" },
-          { "cat": "motion", "label": "⬅" },
-          { "cat": "motion", "label": "➡" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "⬅"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ],
         "note": "Run it from the top and see — does Bit reach the star?"
       },
@@ -37,7 +67,10 @@
         "number": 1,
         "title": "Run it",
         "prompt": "Run the program from box 1, one block at a time. Which box does Bit land on? Is it the star? Write the box number.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
@@ -50,10 +83,21 @@
         "title": "The fixed program",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "➡" },
-          { "blank": true },
-          { "cat": "motion", "label": "➡" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "blank": true
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ],
         "note": "Draw the right arrow in the empty block."
       },
@@ -62,7 +106,10 @@
         "number": 3,
         "title": "You try — fix it",
         "prompt": "Draw the arrow that fixes the bug so Bit reaches the star. Then run the fixed program — which box does Bit land on now?",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "prose",
@@ -81,56 +128,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children debug a block program: they run it, see that Bit misses the star, find the one block that points the wrong way, and fix it so the program works. Run → find the bug → fix → run again is the debugging cycle, and it closes the Intro Block Coding unit."
+        "title": "What this worksheet teaches",
+        "text": "Children debug a stack: run it, see Bit miss the star, find the one block pointing the wrong way, and fix it. Run it, find the wrong block, fix it, run again — the debugging cycle. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper, a pencil, and a crayon. You read each prompt aloud. Optional: paper blocks (a green flag block + arrow blocks) to stack by hand, or floor boxes the child can walk."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Run the buggy stack: \"Bit missed the star — let's find the block that points the wrong way.\"",
+          "2. Do one together. Exercise 1 — the buggy stack lands Bit on box 2, not the star.",
+          "3. Let them try. Children circle the wrong block (Ex 2), then draw the fix and re-run (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — the buggy stack (right, left, right) from box 1 lands Bit on box 2 — not the star. Exercise 2 — the wrong block is the middle left arrow (it sends Bit back one box).",
+          "Exercise 3 — fix it to a right arrow: the stack becomes right, right, right and Bit lands on box 4, the star."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: blaming the first block. Run the stack step by step and watch exactly where Bit turns the wrong way.",
+          "Make it easier: walk the buggy stack on floor boxes, then swap the wrong block and re-walk.",
+          "Make it harder: have the child make a buggy stack for a partner to find and fix.",
+          "Make it active: step out the buggy stack, then step out the fix."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children test a sequence, identify where it goes wrong, and correct it.",
-          "No reading required of the child: read each prompt aloud; the child writes a box number, circles a block, and draws one arrow."
+          "In plain terms: running a stack, finding the wrong block, and fixing it — a first taste of debugging.",
+          "No reading is needed from the child — you read each prompt aloud; the child circles, numbers, or draws an arrow."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet, a pencil, and a blue crayon. Optional: floor boxes 1-5 with a star on box 4 so children can walk the buggy program and feel Bit go the wrong way."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: run the buggy program together — ➡ to box 2, ⬅ back to box 1, ➡ to box 2. 'Bit is on box 2, not the star. Something is wrong.'",
-          "2. GUIDED: Exercise 1 — Bit lands on box 2 (not the star). Exercise 2 — the middle ⬅ block sent Bit backward; circle it.",
-          "3. YOU TRY: Exercise 3 — the fixed block should be ➡; the program becomes ➡ ➡ ➡ and Bit reaches box 4, the star.",
-          "4. Connect: 'Coders do this all the time — they run a program, find the wrong block, and fix it. That is debugging.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — the buggy program (➡ ⬅ ➡) from box 1 lands Bit on box 2. Not the star.",
-          "Ex 2 — the wrong block is the middle ⬅ (it sends Bit back one box).",
-          "Ex 3 — fix it to ➡: the program becomes ➡ ➡ ➡ and Bit lands on box 4, the star."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: children blame the first or last block — have them run step by step and watch exactly where Bit turns back.",
-          "Anchor: the wrong block is the one that moves Bit AWAY from the star.",
-          "Simplify: walk the buggy program on the floor so the backward step is felt, then fix and re-walk.",
-          "Extend: ask children to invent their own one-block bug for a partner to find and fix.",
-          "Movement option: a child acts as Bit and walks the buggy program, freezing on box 2; the class calls out the fix."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child writes box 2 for the buggy run, circles the middle ⬅ block, draws ➡ to fix it, and runs the fixed program to land Bit on box 4, the star."
+        "title": "You'll know it worked when",
+        "text": "The child finds the wrong block, fixes it to a right arrow, and lands Bit on the star."
       }
     ]
   }

@@ -19,10 +19,22 @@
         "title": "Bit's stack",
         "size": "lg",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "➡" },
-          { "cat": "motion", "label": "⬆" },
-          { "cat": "motion", "label": "⬅" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "⬆"
+          },
+          {
+            "cat": "motion",
+            "label": "⬅"
+          }
         ],
         "note": "Bit runs the top ⚑ block first, then works down: ➡, then ⬆, then ⬅ at the bottom."
       },
@@ -43,9 +55,18 @@
         "title": "Another stack",
         "size": "lg",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "⬅" },
-          { "cat": "motion", "label": "➡" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "⬅"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ]
       },
       {
@@ -71,55 +92,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children learn that a block program runs from the top block down, one block at a time, and that the position of a block decides when it runs. This builds the core idea of sequential execution: the order of the blocks IS the algorithm."
+        "title": "What this worksheet teaches",
+        "text": "Children learn that a block program runs from the top block down, one block at a time, and that where a block sits decides when it runs. The order of the blocks IS the plan. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper, a pencil, and a crayon. You read each prompt aloud. Optional: paper blocks (a green flag block + arrow blocks) to stack by hand, or floor boxes the child can walk."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Point to each block top to bottom and count: \"first, next, next, last.\"",
+          "2. Do one together. Exercise 1 — Bit runs the top GO block first.",
+          "3. Let them try. Children number the run order (Ex 2), then mark the last block and number the order (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Bit runs the top GO block first. Exercise 2 — order down the stack: GO = 1, right = 2, up = 3, left = 4.",
+          "Exercise 3 — the last block is the bottom right arrow; order down the second stack: GO = 1, left = 2, right = 3."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: numbering blocks bottom-up. The top block is always 1.",
+          "Make it easier: point to each block in order while the child writes the number.",
+          "Make it harder: ask which block runs third in a longer stack.",
+          "Make it active: children stand in a stack and sit down one at a time, top first."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children determine and describe the order in which a set of instructions is carried out.",
-          "No reading required of the child: read each prompt aloud; the child circles a block and writes order numbers (1-4)."
+          "In plain terms: the blocks run from the top down, one at a time — the order is the plan.",
+          "No reading is needed from the child — you read each prompt aloud; the child circles, numbers, or draws an arrow."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: the 4 paper blocks from Sheet 1 plus an up ⬆ and left ⬅ block to physically point to in order."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: point to Bit's stack and tap each block in turn — '⚑ runs first… ➡ second… ⬆ third… ⬅ last.' One tap per block, top to bottom.",
-          "2. GUIDED: Exercise 1 — circle the top ⚑ block (runs first). Exercise 2 — children write 1, 2, 3, 4 down the stack.",
-          "3. YOU TRY: Exercise 3 — on the second stack, circle the bottom ➡ (runs last) and number 1, 2, 3.",
-          "4. Connect: 'A computer runs its blocks in order, top to bottom — it never skips around.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Bit runs the top ⚑ GO block first.",
-          "Ex 2 — order down the stack: ⚑ = 1, ➡ = 2, ⬆ = 3, ⬅ = 4.",
-          "Ex 3 — the last block is the bottom ➡; order down the second stack: ⚑ = 1, ⬅ = 2, ➡ = 3."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip: numbering bottom-to-top. Re-anchor: 'We always start at the TOP, like reading starts at the top of the page.'",
-          "Simplify: cover all blocks but the top, reveal one at a time as you count.",
-          "Extend: ask 'if we swapped the ➡ and the ⬅, would Bit do the same thing?' (No — order matters.)",
-          "Movement option: stand 4 children in a line holding blocks; tap shoulders top-to-bottom so each acts in turn."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child numbers the blocks 1, 2, 3, 4 from the top down and names the first and last blocks correctly for both stacks."
+        "title": "You'll know it worked when",
+        "text": "The child numbers the blocks top to bottom and names the first and last block."
       }
     ]
   }

@@ -19,10 +19,22 @@
         "title": "The move blocks",
         "size": "lg",
         "blocks": [
-          { "cat": "motion", "label": "➡" },
-          { "cat": "motion", "label": "⬅" },
-          { "cat": "motion", "label": "⬆" },
-          { "cat": "motion", "label": "⬇" }
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "⬅"
+          },
+          {
+            "cat": "motion",
+            "label": "⬆"
+          },
+          {
+            "cat": "motion",
+            "label": "⬇"
+          }
         ],
         "note": "Four move blocks. Each arrow points the way Bit will travel."
       },
@@ -43,7 +55,9 @@
         "title": "An empty block",
         "size": "lg",
         "blocks": [
-          { "blank": true }
+          {
+            "blank": true
+          }
         ],
         "note": "This block has no arrow yet."
       },
@@ -70,55 +84,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children learn the move-block vocabulary of block coding: each arrow block makes the character travel in exactly one direction (➡ right, ⬅ left, ⬆ up, ⬇ down). Connecting a symbol to one precise action is the foundation for reading and writing programs in the next sheets."
+        "title": "What this worksheet teaches",
+        "text": "Children learn the move blocks: each arrow block makes Bit travel in exactly one direction — right, left, up, or down. Matching a symbol to one exact action is the start of reading code. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper, a pencil, and a crayon. You read each prompt aloud. Optional: paper blocks (a green flag block + arrow blocks) to stack by hand, or floor boxes the child can walk."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Hold up each arrow block and act it out: up arrow → step up, left arrow → step left.",
+          "2. Do one together. Exercise 1 — the up block makes Bit go up.",
+          "3. Let them try. Children find the left block (Ex 2), then draw a down arrow (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — the up block (arrow points up). Exercise 2 — the left block (arrow points left).",
+          "Exercise 3 — the down block: the child draws an arrow pointing straight down in the empty block."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: mixing up left and right. Step it out with the child to check.",
+          "Make it easier: use four arrow cards and walk each direction on the floor.",
+          "Make it harder: call a direction and have the child draw the matching arrow.",
+          "Make it active: play \"arrow says\" — children step the direction of each arrow you hold up."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children use directional language and symbols to describe movement.",
-          "No reading required of the child: read each prompt aloud; the child circles a block or draws one arrow."
+          "In plain terms: each arrow block moves Bit one way (right, left, up, or down).",
+          "No reading is needed from the child — you read each prompt aloud; the child circles, numbers, or draws an arrow."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: a floor space to step the directions, or four arrow cards (➡ ⬅ ⬆ ⬇)."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: hold up each move block and act it out with your whole arm — '➡ right… ⬅ left… ⬆ up… ⬇ down.' One block, one way.",
-          "2. GUIDED: Exercise 1 — circle the ⬆ block (up). Exercise 2 — circle the ⬅ block (left).",
-          "3. YOU TRY: Exercise 3 — children draw a ⬇ arrow in the empty block to make Bit go down.",
-          "4. Connect: 'To tell a computer which way to go, you give it the block with that arrow.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — UP is the ⬆ block (the arrow points up).",
-          "Ex 2 — LEFT is the ⬅ block (the arrow points left).",
-          "Ex 3 — DOWN is the ⬇ block: the child draws an arrow pointing straight down in the empty block."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common mix-up: left ⬅ vs right ➡. Anchor to the child's own hands ('this is your LEFT hand') before they circle.",
-          "Simplify: do the arm movement together first, then point to the matching block.",
-          "Extend: call a direction and have the child point to the matching block as fast as they can.",
-          "Movement option: tape the four arrow cards to walls; call a direction, children walk that way."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child circles the up and left blocks correctly and draws a downward arrow for 'down', showing each block stands for one specific direction."
+        "title": "You'll know it worked when",
+        "text": "The child matches each arrow block to its direction and draws the down arrow correctly."
       }
     ]
   }

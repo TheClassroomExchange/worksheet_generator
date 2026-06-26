@@ -18,16 +18,43 @@
         "type": "symbols",
         "title": "Bit's stage",
         "size": "lg",
-        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "★" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "★"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Program A",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "➡" },
-          { "cat": "motion", "label": "➡" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ]
       },
       {
@@ -40,17 +67,39 @@
         "type": "symbols",
         "title": "Circle Program A's box",
         "size": "lg",
-        "items": [{ "sym": "2" }, { "sym": "3" }, { "sym": "4" }]
+        "items": [
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Program P",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "➡" },
-          { "cat": "motion", "label": "➡" },
-          { "cat": "motion", "label": "➡" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ]
       },
       {
@@ -58,8 +107,14 @@
         "title": "Program Q",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "➡" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ]
       },
       {
@@ -67,14 +122,20 @@
         "number": 2,
         "title": "Which program lands on the star?",
         "prompt": "You want Bit on the star (box 4). Run Program P and Program Q from box 1. Which one lands Bit on the star? Circle P or Q.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "exercise",
         "number": 3,
         "title": "You try — match box 2",
         "prompt": "Now you want Bit on box 2. Use the same Program P and Program Q above. Which one lands Bit on box 2? Circle P or Q.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "prose",
@@ -93,55 +154,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children match a block program to the result it produces and, given a wanted result, choose the program that produces it. Running forward (program → box) and reasoning backward (wanted box → program) is an early form of abstraction: a program stands for the outcome it makes."
+        "title": "What this worksheet teaches",
+        "text": "Children match a stack to the box it lands on, then — given a wanted box — choose the stack that reaches it. Reading forward (stack → box) and choosing backward (box → stack) is early problem solving. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper, a pencil, and a crayon. You read each prompt aloud. Optional: paper blocks (a green flag block + arrow blocks) to stack by hand, or floor boxes the child can walk."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Run one stack and find its landing box.",
+          "2. Do one together. Exercise 1 — Program A (right, right) from box 1 lands on box 3.",
+          "3. Let them try. Children pick which program reaches the star (Ex 2), then which reaches box 2 (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Program A (right, right) from box 1 → box 3; circle box 3.",
+          "Exercise 2 — Program P (right, right, right) → box 4, the star; circle P. Exercise 3 — Program Q (right) → box 2; circle Q."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: guessing without running the stack. Run each one before choosing.",
+          "Make it easier: run P and Q on floor boxes and see which lands on the goal.",
+          "Make it harder: ask which program reaches box 5.",
+          "Make it active: two children walk P and Q; the class picks the one that reaches the star."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children relate a set of instructions to its outcome and select instructions to meet a goal.",
-          "No reading required of the child: read each prompt aloud; the child circles a box card or circles P / Q."
+          "In plain terms: matching a stack to where it lands, and choosing the stack that reaches a goal.",
+          "No reading is needed from the child — you read each prompt aloud; the child circles, numbers, or draws an arrow."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: floor boxes 1-5 with a star on box 4 so children can run P and Q and see which lands on the star."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: run Program A (➡ ➡) from box 1 together — box 2, box 3. 'Program A matches box 3.'",
-          "2. GUIDED: Exercise 1 — children circle the box-3 card. Exercise 2 — run P (➡ ➡ ➡ → box 4, the star) and Q (➡ → box 2); P lands on the star.",
-          "3. YOU TRY: Exercise 3 — same two programs, but now we want box 2; Q is the match.",
-          "4. Connect: 'A program stands for where it sends Bit. Pick the program that matches the box you want.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Program A (➡ ➡) from box 1 → box 3. Circle box 3.",
-          "Ex 2 — Program P (➡ ➡ ➡) → box 4, the star. Circle P.",
-          "Ex 3 — Program Q (➡) → box 2. Circle Q."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common slip in Ex 2-3: children pick by stack height alone — have them actually run each program to the box before circling.",
-          "Simplify: do Exercise 1 and 2 only (forward match, then find the star).",
-          "Extend: ask which program would match box 5 (it would need four ➡ blocks), or have a child invent a program for box 3.",
-          "Movement option: two children each 'become' Program P and Program Q and walk their steps; the class names the box each one matches."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child circles box 3 for Program A, Program P for the star, and Program Q for box 2 — running each program to confirm the match."
+        "title": "You'll know it worked when",
+        "text": "The child matches a stack to its box and picks the stack that reaches each goal."
       }
     ]
   }

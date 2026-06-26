@@ -19,9 +19,18 @@
         "title": "Bit's program",
         "size": "lg",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "➡" },
-          { "cat": "motion", "label": "➡" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ],
         "note": "The green ⚑ block is on top, so it runs first and starts the program. Then Bit runs each blue ➡ block down the stack."
       },
@@ -36,8 +45,14 @@
         "title": "Stack A",
         "size": "lg",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "cat": "motion", "label": "➡" }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ]
       },
       {
@@ -45,8 +60,14 @@
         "title": "Stack B",
         "size": "lg",
         "blocks": [
-          { "cat": "motion", "label": "➡" },
-          { "cat": "operators", "label": "⚑" }
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "operators",
+            "label": "⚑"
+          }
         ]
       },
       {
@@ -54,16 +75,27 @@
         "number": 2,
         "title": "Which one is ready?",
         "prompt": "A program is ready to run only if the green ⚑ GO block is on TOP. One stack is ready and one is not. Circle the stack that is ready — write A or B.",
-        "grid": { "rows": 1, "cols": 1 }
+        "grid": {
+          "rows": 1,
+          "cols": 1
+        }
       },
       {
         "type": "blocks",
         "title": "Make it ready",
         "size": "lg",
         "blocks": [
-          { "blank": true },
-          { "cat": "motion", "label": "➡" },
-          { "cat": "motion", "label": "➡" }
+          {
+            "blank": true
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          },
+          {
+            "cat": "motion",
+            "label": "➡"
+          }
         ],
         "note": "The top block is empty."
       },
@@ -90,55 +122,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children learn that a program is a stack of blocks that snap together and run from the top down, and that the green ⚑ GO block is the start block that always sits on top. This is the first idea of block coding (ScratchJr-style): code is built from blocks, and a program has a clear beginning."
+        "title": "What this worksheet teaches",
+        "text": "Children learn that a program is a stack of blocks that snap together and run from the top down, and that the green GO block (the flag) always sits on top to start it. This is the first idea of block coding. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper, a pencil, and a crayon. You read each prompt aloud. Optional: paper blocks (a green flag block + arrow blocks) to stack by hand, or floor boxes the child can walk."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Point to a stack: \"the blocks snap together and run from the top. The green flag GO block goes on top to start it.\"",
+          "2. Do one together. Exercise 1 — circle the green GO block on top of Bit's program.",
+          "3. Let them try. Children pick the ready stack (Ex 2), then draw a green flag on top to make a stack ready (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — the start block is the green GO block (the flag) on top. Exercise 2 — Stack A is ready (the GO block is on top); Stack B is not (its top block is a move arrow).",
+          "Exercise 3 — draw a green flag in the top block; now the stack is ready to run."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: picking any green block. The start block is the flag GO block, and it must be on TOP.",
+          "Make it easier: stack paper blocks by hand and put the flag on top.",
+          "Make it harder: ask what happens if the GO block is in the middle (the stack is not ready).",
+          "Make it active: have children be blocks and stack themselves with the GO child on top."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children recognize that coded instructions are assembled in order with a designated starting point.",
-          "No reading required of the child: read each prompt aloud; the child circles, marks A/B, or draws."
+          "In plain terms: a program is a stack of blocks that run from the top down; the green GO block starts it.",
+          "No reading is needed from the child — you read each prompt aloud; the child circles, numbers, or draws an arrow."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet, a pencil, and a green crayon. Optional: 3 paper blocks (1 green flag, 2 blue arrows) the child can physically stack."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: point to Bit's program. 'The green flag block is on top, so it runs first — it starts the program. Then Bit runs each arrow block going down.'",
-          "2. GUIDED: Exercise 1 — children circle the green ⚑ block (the start). Exercise 2 — compare Stack A and Stack B; only Stack A has the ⚑ on top, so A is ready.",
-          "3. YOU TRY: Exercise 3 — children draw a ⚑ in the empty top block and colour it green to make the program ready.",
-          "4. Connect: 'Every program needs a GO block on top to start — just like pressing play.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — the start block is the green ⚑ GO block on top of Bit's program.",
-          "Ex 2 — Stack A is ready (the ⚑ GO block is on top); Stack B is not (its top block is a ➡ move block).",
-          "Ex 3 — a green ⚑ drawn in the top block: the stack is now ⚑ ➡ ➡ and ready to run."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Common idea: the start block is about POSITION (on top), not just colour — name both ('green AND on top').",
-          "Simplify: hand the child the 3 paper blocks and let them put the green flag on top before marking the page.",
-          "Extend: ask 'what runs second?' and 'what runs last?' to preview run-order (Sheet 2).",
-          "Movement option: line up children, the front child wears the 'GO' card — the line cannot move until the GO child is at the front."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child points to the green ⚑ block as the start, picks Stack A as the ready one, and adds a GO block on top to make the empty stack ready to run."
+        "title": "You'll know it worked when",
+        "text": "The child finds the green GO block on top and makes a stack ready to run."
       }
     ]
   }

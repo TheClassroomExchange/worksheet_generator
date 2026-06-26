@@ -18,17 +18,44 @@
         "type": "symbols",
         "title": "Build 1 — Bit on box 1, star on box 4",
         "size": "lg",
-        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3" }, { "sym": "4", "label": "★" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "★"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Your program",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "blank": true },
-          { "blank": true },
-          { "blank": true }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          }
         ],
         "note": "Three empty blocks to fill."
       },
@@ -42,16 +69,41 @@
         "type": "symbols",
         "title": "Build 2 — Bit on box 4, star on box 2",
         "size": "lg",
-        "items": [{ "sym": "1" }, { "sym": "2", "label": "★" }, { "sym": "3" }, { "sym": "4", "label": "Bit" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "1"
+          },
+          {
+            "sym": "2",
+            "label": "★"
+          },
+          {
+            "sym": "3"
+          },
+          {
+            "sym": "4",
+            "label": "Bit"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Your program",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "blank": true },
-          { "blank": true }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          }
         ],
         "note": "The star is to the LEFT this time."
       },
@@ -65,16 +117,41 @@
         "type": "symbols",
         "title": "Build 3 — Bit on box 1, star on box 3",
         "size": "lg",
-        "items": [{ "sym": "1", "label": "Bit" }, { "sym": "2" }, { "sym": "3", "label": "★" }, { "sym": "4" }, { "sym": "5" }]
+        "items": [
+          {
+            "sym": "1",
+            "label": "Bit"
+          },
+          {
+            "sym": "2"
+          },
+          {
+            "sym": "3",
+            "label": "★"
+          },
+          {
+            "sym": "4"
+          },
+          {
+            "sym": "5"
+          }
+        ]
       },
       {
         "type": "blocks",
         "title": "Your program",
         "size": "md",
         "blocks": [
-          { "cat": "operators", "label": "⚑" },
-          { "blank": true },
-          { "blank": true }
+          {
+            "cat": "operators",
+            "label": "⚑"
+          },
+          {
+            "blank": true
+          },
+          {
+            "blank": true
+          }
         ]
       },
       {
@@ -100,56 +177,54 @@
     "parts": [
       {
         "type": "prose",
-        "title": "Goal",
-        "text": "Children compose their own short block program — choosing and ordering move blocks — to make Bit reach the star, then run it to check. This is the writing side of coding: turning a goal ('get to box 4') into an ordered set of instructions and testing it."
+        "title": "What this worksheet teaches",
+        "text": "Children build their own stack — choosing and ordering move blocks — to make Bit reach the star, then run it to check. Turning a goal (\"get to box 4\") into an ordered set of blocks is the writing side of coding. No coding experience needed."
       },
       {
         "type": "prose",
-        "title": "Kindergarten frame (Ontario)",
+        "title": "Before you start (no computer needed)",
+        "text": "No computer — paper, a pencil, and a crayon. You read each prompt aloud. Optional: paper blocks (a green flag block + arrow blocks) to stack by hand, or floor boxes the child can walk."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Show them (you do). Count the boxes from Bit to the star, then draw one arrow per box.",
+          "2. Do one together. Exercise 1 — box 1 to box 4 needs three right arrows.",
+          "3. Let them try. Children build a left-arrow stack (Ex 2) and a two-step stack (Ex 3)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key (these are the verified correct answers)",
+        "text": [
+          "Exercise 1 — Build 1: right, right, right (box 1 → 2 → 3 → 4, the star). Exercise 2 — Build 2: left, left (box 4 → 3 → 2, the star).",
+          "Exercise 3 — Build 3: right, right (box 1 → 2 → 3, the star)."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: too many or too few arrows. Count the boxes between Bit and the star first.",
+          "Make it easier: place a finger on each box and draw one arrow per box.",
+          "Make it harder: ask for a stack that starts somewhere else and still reaches the star.",
+          "Make it active: a child walks their built stack on the floor boxes to test it."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario Kindergarten link (official wording)",
         "text": [
           "Problem Solving and Innovating — children plan and create a sequence of steps to reach a goal, then test and refine it.",
-          "No reading required of the child: read each prompt aloud; the child draws an arrow (➡ or ⬅) in each empty block."
+          "In plain terms: writing your own stack of blocks to reach the star.",
+          "No reading is needed from the child — you read each prompt aloud; the child circles, numbers, or draws an arrow."
         ]
       },
       {
         "type": "prose",
-        "title": "Materials",
-        "text": "The printed worksheet and a pencil. Optional: floor boxes 1-5 with a movable star so children can walk and test the program they built."
-      },
-      {
-        "type": "prose",
-        "title": "Run it (about 15 min)",
-        "text": [
-          "1. MODEL: for Build 1, count the boxes from Bit (1) to the star (4): that is 3 steps right, so draw ➡ ➡ ➡. Run it together to confirm box 4.",
-          "2. GUIDED: Exercise 1 — children fill the 3 blocks with ➡. Exercise 2 — the star is to the LEFT, so the blocks are ⬅ ⬅.",
-          "3. YOU TRY: Exercise 3 — box 1 to box 3 is 2 steps right: ➡ ➡.",
-          "4. Connect: 'You wrote the program — then you ran it to check. That is exactly what coders do.'"
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Answer key (modelled by the run-gate)",
-        "text": [
-          "Ex 1 — Build 1: ➡ ➡ ➡ (box 1 → 2 → 3 → 4, the star).",
-          "Ex 2 — Build 2: ⬅ ⬅ (box 4 → 3 → 2, the star).",
-          "Ex 3 — Build 3: ➡ ➡ (box 1 → 2 → 3, the star)."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Watch for & differentiate",
-        "text": [
-          "Most common slip: too few or too many arrows — have the child count boxes from Bit to the star first, then draw that many.",
-          "Direction check: arrows point the way Bit travels; toward the star on the right is ➡, on the left is ⬅.",
-          "Simplify: do Builds 1 and 3 only (both go right). Pre-count the boxes together.",
-          "Extend: ask for a different program that also reaches the star (e.g. ➡ ➡ ⬅ ➡ for Build 3) and run it to test — there can be more than one.",
-          "Movement option: the child calls out their arrows while a partner walks the boxes to test the program."
-        ]
-      },
-      {
-        "type": "prose",
-        "title": "Success looks like",
-        "text": "The child fills every empty block with an arrow, lands Bit on the star for each build, and can run the stack to prove it works."
+        "title": "You'll know it worked when",
+        "text": "The child builds a stack with the right arrows and number of steps to reach the star."
       }
     ]
   }
