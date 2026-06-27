@@ -116,7 +116,8 @@ message (broadcast/receive); SHOULD → DOES → FIX; repeat loops.
 - **Code-runs gate** — `solution.py` runs clean → `solution_run.json.passed == true`. The answer key derives from this.
 - **Worksheet rubric** — `coding_rubric.classify(scores)` → `pass`. Publish gate: total ≥ 19/20 AND C2≥L3 AND C3=L4 AND C5=L4 (`rubric_coding_<grade>.md`).
 - **Teacher-guide rubric** — `teacher_guide_rubric.classify(scores)` → `pass`. Gate: total ≥ 18/20 AND **T1=L4** (plain language) AND **T4=L4** (answer-key correctness). `rubric_teacher_guide.md`.
-- **Lint** — `teacher_guide_rubric.lint_teacher_guide(dir)['clean'] == True` (no jargon tokens in non-citation prose; "In plain terms:" gloss present when a citation is present).
+- **Lint (jargon)** — `teacher_guide_rubric.lint_teacher_guide(dir)['clean'] == True` (no jargon tokens in non-citation prose; "In plain terms:" gloss present when a citation is present).
+- **Lint (prose copy-edit)** — `prose_lint.lint_prose(dir)['clean'] == True` (no duplicate adjacent words, common misspellings, double-punctuation, or space-before-punctuation across BOTH `worksheet` + `teacher_guide`). Advisory: it's also captured under `tg_grade.json::prose_lint` by `record_grade`. Tuned for 0 false positives on the catalogue (ignores `____` blanks, `code`/symbol `label` fields, the standalone "?" placeholder, ellipses). Does NOT do homophones/grammar — that stays with the human/LLM pass.
 - **Drift** — `coding_rubric.pre_grade_drift_check(dir)['passed'] == True` (solution ran; cited C3 codes/text verbatim vs the Ontario cache — K skips curriculum). NOTE: drift reads `input_row.json`, **not** the TG text, so TG wording never breaks it.
 - **Visual** — combined PDF page count = worksheet pages + 1 (TG must be 1 page); footer correct; rendered page Read with `pdftoppm -png`.
 
@@ -140,7 +141,9 @@ B=Path('coding/<batch>')
 dirs=[B/t['dir'] for t in json.loads((B/'topics.json').read_text())['topics']]  # handles non-NN dirs (e.g. sheet_01_loops)
 for p in dirs:
     json.loads((p/'content.json').read_text())                 # JSON valid
-    assert tg.lint_teacher_guide(p)['clean']                   # lint
+    assert tg.lint_teacher_guide(p)['clean']                   # jargon lint
+    from pipeline.prose_lint import lint_prose
+    assert lint_prose(p)['clean'], lint_prose(p)['hits']       # prose copy-edit lint
     rec=tg.record_grade(p,'<G1|G2|G3|K>',{'T1':4,'T2':4,'T3':4,'T4':4,'T5':4})
     assert rec['status']=='pass', rec
     assert coding_rubric.pre_grade_drift_check(p)['passed']     # drift

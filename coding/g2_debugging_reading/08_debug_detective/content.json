@@ -91,7 +91,7 @@
         "type": "exercise",
         "number": 2,
         "title": "Name the bug",
-        "prompt": "The wrong script went PAST the goal. Which move made it overshoot, and what kind of bug is it (a number too big, the wrong direction, or a missing block)?",
+        "prompt": "The wrong script went PAST the goal. Which move made it go PAST the goal, and what kind of bug is it (a number too big, the wrong direction, or a missing block)?",
         "answer_lines": 2
       },
       {
@@ -104,7 +104,7 @@
       {
         "type": "prose",
         "title": "Big idea",
-        "text": "A debug detective reads carefully, runs the code, and compares it to the goal. The script that misses is the buggy one. Name the bug, change just what is wrong, and run again to check. Here Pixel's 'back 3' was too big — 'back 1' lands it right on 3."
+        "text": "A debug detective reads carefully, runs the code, and compares it to the goal. The script that misses is the buggy one. Name the bug, change just what is wrong, and run again to check. Here Pixel's 'back 3' went too far — 'back 1' lands it right on 3."
       }
     ]
   },

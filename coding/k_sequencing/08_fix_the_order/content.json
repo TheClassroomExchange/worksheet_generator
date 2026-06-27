@@ -29,7 +29,7 @@
         "type": "exercise",
         "number": 1,
         "title": "A step is missing",
-        "prompt": "Star is on box 4. Bit's steps ➡ ➡ only reach box 3. What is missing? Draw the fix (the whole correct program).",
+        "prompt": "The star is on box 4. Bit's steps ➡ ➡ only reach box 3. What is missing? Draw the fix (the whole correct program).",
         "grid": {
           "rows": 1,
           "cols": 3
@@ -39,7 +39,7 @@
         "type": "exercise",
         "number": 2,
         "title": "A step is extra",
-        "prompt": "Star is on box 2. Bit's steps ➡ ➡ go too far to box 3. Cross out the extra arrow and draw the fix.",
+        "prompt": "The star is on box 2. Bit's steps ➡ ➡ go too far to box 3. Cross out the extra arrow and draw the fix.",
         "grid": {
           "rows": 1,
           "cols": 1
@@ -49,7 +49,7 @@
         "type": "exercise",
         "number": 3,
         "title": "You try — a wrong turn",
-        "prompt": "Star is on box 3. Bit's steps ⬅ ➡ ➡ land on box 2. Circle the wrong arrow and draw the fix.",
+        "prompt": "The star is on box 3. Bit's steps ⬅ ➡ ➡ land on box 2. Circle the wrong arrow and draw the fix.",
         "grid": {
           "rows": 1,
           "cols": 2

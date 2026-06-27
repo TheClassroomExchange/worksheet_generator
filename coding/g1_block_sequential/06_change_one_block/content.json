@@ -76,13 +76,13 @@
         "type": "exercise",
         "number": 3,
         "title": "You try — change the start block",
-        "prompt": "Go back to the base code. Change start at 1 to start at 0. PREDICT the new landing number first, then run to check. How did changing the start block move every step?",
+        "prompt": "Go back to the base code. Change start at 1 to start at 0. PREDICT the new landing number first, then run to check. How did changing the start block change where Bit lands?",
         "answer_lines": 3
       },
       {
         "type": "prose",
         "title": "Big idea",
-        "text": "Changing even one block changes what the code does. A bigger forward block lands Bit higher; a back block instead of forward lands Bit lower; a different start moves the whole code."
+        "text": "Changing even one block changes what the code does. A bigger forward block lands Bit higher; a back block instead of forward lands Bit lower; a different start number moves where Bit lands the whole way through."
       }
     ]
   },

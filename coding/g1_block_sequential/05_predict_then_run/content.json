@@ -7,12 +7,12 @@
     "title": "Predict, Then Run",
     "subtitle": "Guess where Bit lands, then check",
     "footer_topic": "5. Predict, Then Run",
-    "learning_goal": "I can predict where a code lands Bit, then run it to check.",
+    "learning_goal": "I can predict where the code lands Bit, then run it to check.",
     "parts": [
       {
         "type": "prose",
         "title": "Read it in your head first",
-        "text": "A good coder can read a code and PREDICT what it will do before running it. Read the blocks in order in your head, write your prediction, then run the code one block at a time to check."
+        "text": "A good coder can read code and PREDICT what it will do before running it. Read the blocks in order in your head, write your prediction, then run the code one block at a time to check."
       },
       {
         "type": "symbols",
@@ -98,7 +98,7 @@
         "type": "exercise",
         "number": 3,
         "title": "You try — change and predict",
-        "prompt": "In Code B, change back 2 to back 1. PREDICT the new landing number first, then run to check. What number now, and how did changing the block change the result?",
+        "prompt": "In Code B, change back 2 to back 1. PREDICT the new landing number first, then run to check. What number now? How did changing that block change where Bit lands?",
         "answer_lines": 3
       },
       {
