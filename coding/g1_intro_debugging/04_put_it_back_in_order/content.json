@@ -95,7 +95,7 @@
         "type": "exercise",
         "number": 3,
         "title": "You try — swap to fix",
-        "prompt": "Run Program 2 from 3. Forward 3 passes the end, so Bit stops on 5, then back 2 lands on 3 — not 4. Swap the two move blocks and run again. Where does Bit land now?",
+        "prompt": "Run Program 2 from 3. Forward 3 goes past the end, so Bit stops on 5; back 2 lands on 3 — not 4. Now swap the two move blocks and run it again. Where does Bit land?",
         "answer_lines": 2
       },
       {

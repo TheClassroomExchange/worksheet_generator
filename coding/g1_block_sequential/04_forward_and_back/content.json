@@ -7,12 +7,12 @@
     "title": "Forward and Back",
     "subtitle": "Forward adds, back takes away",
     "footer_topic": "4. Forward and Back",
-    "learning_goal": "I can run a code that mixes forward and back blocks.",
+    "learning_goal": "I can run code that mixes forward and back blocks.",
     "parts": [
       {
         "type": "prose",
         "title": "Two kinds of moves",
-        "text": "A forward block moves Bit UP the path (it adds steps). A back block moves Bit DOWN the path (it takes steps away). A code can use both. Run the blocks in order, one at a time, to find where Bit lands."
+        "text": "A forward block moves Bit UP the path (it adds steps). A back block moves Bit DOWN the path (it takes steps away). Code can use both. Run the blocks in order, one at a time, to find where Bit lands."
       },
       {
         "type": "symbols",
@@ -125,7 +125,7 @@
       {
         "type": "prose",
         "title": "Big idea",
-        "text": "Forward adds steps and back takes steps away — just like adding and subtracting. A code can mix forward and back blocks to reach a number."
+        "text": "Forward adds steps and back takes steps away — just like adding and subtracting. Code can mix forward and back blocks to reach a number."
       }
     ]
   },

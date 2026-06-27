@@ -11,8 +11,8 @@
     "parts": [
       {
         "type": "prose",
-        "title": "The path has ends",
-        "text": "Bit's path ends at 5. Bit cannot go past 5 — if a forward block would go past the end, Bit STOPS on 5. (Bit cannot go below 0 either.) Because of this, the ORDER of the blocks can change where Bit lands."
+        "title": "Where the path stops",
+        "text": "Bit's path stops at 5. If a forward block would go past 5, Bit just stops on 5. (Bit also cannot go below 0.) That is why the ORDER of the blocks can change where Bit lands."
       },
       {
         "type": "symbols",
@@ -101,7 +101,7 @@
         "type": "exercise",
         "number": 3,
         "title": "You try — think and build",
-        "prompt": "(a) Code 1 and Code 2 use the SAME blocks. Did Bit land on the same number? Circle YES or NO, and tell why. (b) Write an order of these three blocks that lands Bit on 5.",
+        "prompt": "(a) Code 1 and Code 2 use the SAME blocks. Did Bit land on the same number? Circle YES or NO, and tell why. (b) Put these three blocks in an order that gets Bit to 5.",
         "answer_lines": 3
       },
       {

@@ -13,7 +13,7 @@
         "type": "prose",
         "title": "Some bugs have two fixes",
         "text": [
-          "Bit's loop does TOO MUCH. The code repeats two actions, but Bit only needs to do the action half as many times.",
+          "Bit's loop does TOO MUCH. The loop does each action twice as often as Bit needs.",
           "There are two good ways to fix it: change the REPEAT COUNT, or change the BLOCKS INSIDE the loop. Both reach the goal — find both, then pick one to explain. Tip: total actions = repeat × blocks inside."
         ]
       },

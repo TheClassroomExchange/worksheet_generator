@@ -146,6 +146,8 @@ def lint_teacher_guide(unit_dir: Path) -> dict:
 
 def record_grade(unit_dir: Path, grade: str, scores: dict[str, int]) -> dict:
     """Write tg_grade.json next to content_grade.json and return the record."""
+    from pipeline.prose_lint import lint_prose  # local import: avoids cycle
+
     total, status, reasons = classify(scores)
     record = {
         "grade": grade,
@@ -156,6 +158,9 @@ def record_grade(unit_dir: Path, grade: str, scores: dict[str, int]) -> dict:
         "status": status,
         "gate_reasons": reasons,
         "lint": lint_teacher_guide(unit_dir),
+        # Mechanical copy-edit lint over BOTH worksheet + teacher_guide prose
+        # (dup words / typos / punctuation). Advisory like the jargon lint above.
+        "prose_lint": lint_prose(unit_dir),
     }
     (unit_dir / "tg_grade.json").write_text(json.dumps(record, indent=2) + "\n")
     return record
