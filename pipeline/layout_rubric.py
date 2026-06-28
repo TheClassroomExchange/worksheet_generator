@@ -126,6 +126,67 @@ def footers_for(unit_dir: Path) -> list[str]:
     return fs
 
 
+# ── page-fill oracle (no near-empty page) ───────────────────────────────────
+import tempfile
+
+HEADER_FRAC = 0.155   # top band occupied by the header on page 1
+FOOTER_FRAC = 0.93    # below this is the page-number / wordmark footer
+FILL_MIN = 0.30       # a worksheet page whose body ink ends above this is "near-empty"
+
+
+def _page_ink_bottom(png) -> float:
+    """Fraction of page height at which BODY ink ends (header/footer excluded).
+    Returns ~HEADER_FRAC when the body band is empty (header/goal-only page)."""
+    from PIL import Image
+    im = Image.open(png).convert("L")
+    w, h = im.size
+    body = im.crop((0, int(h * HEADER_FRAC), w, int(h * FOOTER_FRAC)))
+    bw = body.point(lambda p: 0 if p > 245 else 255)  # 255 = ink
+    bbox = bw.getbbox()
+    if not bbox:
+        return HEADER_FRAC
+    return (int(h * HEADER_FRAC) + bbox[3]) / h
+
+
+def _tg_page_count(pdf: Path, npages: int) -> int:
+    """How many trailing pages are the teacher guide, detected by the
+    '— Teacher Guide' footer. Falls back to 1 (TGs are compact, 1 page by
+    design) if detection finds none — never assumes a fixed count blindly."""
+    n = 0
+    for pg in range(npages, 0, -1):
+        txt = subprocess.run(["pdftotext", "-enc", "UTF-8", "-f", str(pg), "-l", str(pg),
+                              str(pdf), "-"], capture_output=True, text=True).stdout
+        if "— Teacher Guide" in txt or "Teacher Guide" in txt:
+            n += 1
+        else:
+            break
+    return n or 1
+
+
+def page_fill_ok(pdf: Path, *, exclude_tg_last: bool = True):
+    """Return (ok, near_empty_pages). A worksheet page is near-empty if its body
+    ink ends below FILL_MIN of page height (header/goal-only, or a lone line).
+    Trailing teacher-guide pages (detected by footer, not a fixed count) are
+    excluded so a multi-page TG can't be mis-checked as a worksheet page."""
+    pdf = Path(pdf)
+    out = subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout
+    npages = next(int(l.split()[-1]) for l in out.splitlines() if l.startswith("Pages"))
+    ws_last = (npages - _tg_page_count(pdf, npages)) if exclude_tg_last else npages
+    if ws_last < 1:
+        return True, []
+    near_empty = []
+    with tempfile.TemporaryDirectory() as td:
+        stem = Path(td) / "p"
+        subprocess.run(["pdftoppm", "-png", "-r", "72", "-f", "1", "-l", str(ws_last),
+                        str(pdf), str(stem)], check=True)
+        pngs = sorted(Path(td).glob("p-*.png"))
+        for i, png in enumerate(pngs[:ws_last], start=1):
+            frac = _page_ink_bottom(png)
+            if frac < FILL_MIN:
+                near_empty.append({"page": i, "ink_bottom": round(frac, 3)})
+    return (len(near_empty) == 0), near_empty
+
+
 # ── L1–L5 gate ──────────────────────────────────────────────────────────────
 def classify(scores: dict, content_ok: bool) -> dict:
     """scores: {L1..L4 -> 1..4}. content_ok: the L5 hard gate. Returns the

@@ -86,8 +86,12 @@ def _grade_of(unit_dir: Path) -> str | None:
     return None
 
 
-def render_sheet(unit_dir: Path) -> dict:
-    """Render the worksheet + teacher-guide PDFs from content.json."""
+def render_sheet(unit_dir: Path, *, roomy_level: int = 0) -> dict:
+    """Render the worksheet + teacher-guide PDFs from content.json.
+
+    ``roomy_level`` (0–3) controls roomy compaction for K/G1 sheets: 0 = full
+    roomy (default), higher = progressively compacted so a too-tall question
+    group fits its page (used by ``fit_render`` to kill near-empty pages)."""
     from pipeline.worksheet_pdf import render_pdf  # lazy: needs WeasyPrint libs
 
     unit_dir = Path(unit_dir)
@@ -109,6 +113,7 @@ def render_sheet(unit_dir: Path) -> dict:
     ws_spec = _resolve_paths(content["worksheet"])
     if _grade_of(unit_dir) in ROOMY_GRADES:
         ws_spec["roomy"] = True
+        ws_spec["roomy_level"] = int(roomy_level)
     render_pdf(ws_spec, ws_path)
     render_pdf(tg_spec, tg_path)
 
@@ -165,6 +170,49 @@ def combine_sheet(unit_dir: Path) -> dict:
     (unit_dir / "render.json").write_text(json.dumps(
         {"combined_pdf": combined.name}, indent=2, ensure_ascii=False))
     return out
+
+
+def _combined_pdf(unit_dir: Path) -> Path:
+    return next(p for p in Path(unit_dir).glob("*.pdf")
+                if not p.name.endswith("— Worksheet.pdf")
+                and not p.name.endswith("— Teacher Guide.pdf"))
+
+
+def fit_render(unit_dir: Path, baseline_pdf: Path, *, levels=(0, 1, 2, 3)) -> dict:
+    """Render a K/G1 sheet at the roomiest level that yields ZERO near-empty
+    pages, keeping content byte-identical to ``baseline_pdf``.
+
+    Walks the roomy compaction ladder (levels 0->3) and accepts the FIRST level
+    whose combined PDF passes BOTH gates:
+      • content_unchanged vs baseline (text byte-identical), and
+      • page_fill_ok (no near-empty worksheet page).
+    Records {roomy_level, near_empty_before, content_ok} in render.json.
+    Returns that dict (with status='pass'); status='fail' if no level passes."""
+    from pipeline import layout_rubric
+
+    unit_dir = Path(unit_dir)
+    footers = layout_rubric.footers_for(unit_dir)
+    near_before = None
+    for level in levels:
+        render_sheet(unit_dir, roomy_level=level)
+        combine_sheet(unit_dir)
+        pdf = _combined_pdf(unit_dir)
+        content_ok, detail = layout_rubric.content_unchanged(baseline_pdf, pdf, footers)
+        fill_ok, near = layout_rubric.page_fill_ok(pdf)
+        if level == 0:
+            near_before = near
+        if content_ok and fill_ok:
+            rec = {"combined_pdf": pdf.name, "roomy_level": level,
+                   "near_empty_before": near_before, "content_ok": True,
+                   "status": "pass"}
+            (unit_dir / "render.json").write_text(
+                json.dumps(rec, indent=2, ensure_ascii=False))
+            return rec
+    rec = {"roomy_level": None, "near_empty_before": near_before,
+           "last_near_empty": near, "content_ok": content_ok,
+           "content_detail": detail, "status": "fail"}
+    (unit_dir / "render.json").write_text(json.dumps(rec, indent=2, ensure_ascii=False))
+    return rec
 
 
 def build_to_render(unit_dir: Path, *, unit_id: str, input_row: dict,

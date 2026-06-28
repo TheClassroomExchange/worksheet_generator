@@ -48,4 +48,38 @@ Additive log for the K & G1 roomy-layout revision. Newest checkpoint at the bott
 - Revert path remains: `scratchpad/backup_originals/` PDFs + `drive_ids.json` (re-upload
   by exact id).
 
-## DONE — all 48 K/G1 worksheets revised (roomy), gated, committed, and live on Drive.
+## DONE (Round 1) — all 48 K/G1 worksheets revised (roomy), gated, committed, live on Drive.
+
+---
+
+# ROUND 2 — kill near-empty pages (2026-06-28)
+
+## R2 CP0 — Bug + sweep
+- User found near-empty pages (page with only the title), e.g. spot_the_wrong_block p1.
+- Ink-coverage sweep of all 48: **11/48 (23%)** had a near-empty worksheet page (page-1 blank
+  ×6, trailing near-empty ×5); 3/48 mild underfill; reflow flags cosmetic only.
+- Root cause: `.qgroup { break-inside: avoid }` force-pushes an over-tall group to the next page,
+  blanking the page it left.
+- Baseline snapshot of all 48 round-1 PDFs → `scratchpad/backup_round2/`.
+
+## R2 CP1 — Fix + 2-item review gate (user-approved)
+- Adaptive `roomy_level` ladder (L0 full → L3 plain-flow) in `worksheet_pdf.py`; `page_fill_ok()`
+  ink-oracle in `layout_rubric.py`; `coding_build.fit_render()` accepts the roomiest level passing
+  content-lock AND page_fill_ok. L0 == round-1 output (byte-identical CSS).
+- Proved on 2 items (spot_the_wrong_block = page-1 blank; build_the_code = trailing blank) → both
+  fixed at L1; **user approved → autonomous.**
+
+## R2 CP2 — Validator
+- cavecrew-reviewer: 1 finding (page_fill_ok assumed 1-page TG). Verified all 48 TGs are 1 page;
+  hardened `page_fill_ok` to detect TG pages by footer. No other issues.
+
+## R2 CP3 — Batch auto-fit (all 48)
+- `fit_render` all 48: **48/48 pass**, 11 changed (8×L1, 3×L2), 37 stay L0.
+- Authoritative re-sweep: **page_fill_ok 48/48, content_lock 48/48**.
+- Visual: all 11 changed sheets reviewed full-size — full pages, no blanks/clipping, colours/mascot
+  intact, compaction barely perceptible. 11 re-graded (layout_grade.json), all pass.
+- The 37 L0 sheets restored to round-1 bytes (re-render only re-stamps PDF timestamp) → only the
+  11 changed PDFs differ.
+
+## R2 CP4 — Commit (pending)
+## R2 CP5 — Republish 11 changed topics (pending)

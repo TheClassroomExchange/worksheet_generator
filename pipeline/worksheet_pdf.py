@@ -274,6 +274,62 @@ def _roomy_css() -> str:
 """
 
 
+# Per-level main-CSS vars (body/line/spacing). Level 0 == the original roomy
+# output (byte-identical). Higher levels compact progressively so a too-tall
+# question-group fits its page and small trailing spills pull back — killing
+# near-empty pages. Level 3 reuses level-2 sizes but disables question-grouping.
+_ROOMY_LEVELS = {
+    0: {"body": "13pt", "line": "1.55", "part_mb": "16px", "prose_mb": "9px"},
+    1: {"body": "13pt", "line": "1.50", "part_mb": "13px", "prose_mb": "7px"},
+    2: {"body": "12pt", "line": "1.45", "part_mb": "10px", "prose_mb": "6px"},
+    3: {"body": "12pt", "line": "1.45", "part_mb": "10px", "prose_mb": "6px"},
+}
+
+
+def _roomy_overrides(level: int) -> str:
+    """Append-only compaction deltas for roomy_level >= 1. Level 0 appends
+    nothing, so level-0 output stays byte-identical to the original roomy CSS."""
+    if level <= 0:
+        return ""
+    if level == 1:
+        return """
+/* roomy_level 1 — mild compaction so an over-tall first group fits its page */
+.goal { margin: 6px 0 9px 0; }
+.answer-lines .rule { height: 30px; }
+.ex-grid .grid-cell { height: 58px; }
+.ex-grid .grid-cell:only-child { height: 90px; }
+.exercise { padding: 12px 16px; }
+.sym-row { gap: 10px; margin: 6px 0 2px 0; }
+.sym-card { min-height: 66px; padding: 8px 11px; }
+.sb-row { margin: 0 0 5px 0; }
+.sb-md .sb-row, .sb-lg .sb-row { margin: 0 0 6px 0; }
+"""
+    return """
+/* roomy_level 2+ — stronger compaction to pull spilled content back on-page */
+.part-title { font-size: 13.5pt; margin: 0 0 5px 0; }
+.goal { font-size: 12pt; padding: 7px 12px; margin: 5px 0 8px 0; }
+.answer-lines .rule { height: 28px; }
+.ex-grid .grid-cell { height: 54px; }
+.ex-grid .grid-cell:only-child { height: 80px; }
+.exercise { padding: 11px 15px; }
+.ex-title { font-size: 13pt; }
+.sym-row { gap: 9px; margin: 5px 0 2px 0; }
+.sym-card { min-width: 60px; min-height: 60px; padding: 7px 10px; }
+.sym-md { font-size: 27pt; }
+.sym-lg { font-size: 38pt; }
+.sym-xl { font-size: 48pt; }
+.sym-cap { font-size: 10pt; margin-top: 5px; }
+.sb-stack { margin: 4px 0; }
+.sb-row { margin: 0 0 4px 0; }
+.sb-block { font-size: 12pt; padding: 7px 15px; }
+.sb-md .sb-block { font-size: 15pt; padding: 8px 17px; }
+.sb-lg .sb-block { font-size: 19pt; padding: 10px 20px; }
+.sb-md .sb-row, .sb-lg .sb-row { margin: 0 0 5px 0; }
+.mascot-circle { width: 74px; height: 74px; }
+.mascot-circle img { width: 64px; height: 64px; }
+"""
+
+
 def _css(spec: dict) -> str:
     footer_topic = _css_str(spec.get("footer_topic", spec.get("title", "")))
     # Compact mode (used for teacher guides): tightens vertical rhythm so a
@@ -286,11 +342,15 @@ def _css(spec: dict) -> str:
     # untouched — only size/spacing changes. Never combined with compact
     # (compact is teacher-guides only); roomy is worksheet-only.
     roomy = bool(spec.get("roomy"))
-    body_pt = "10.2pt" if compact else ("13pt" if roomy else "11pt")
-    line_h = "1.30" if compact else ("1.55" if roomy else "1.5")
-    part_mb = "5px" if compact else ("16px" if roomy else "14px")
-    prose_mb = "3px" if compact else ("9px" if roomy else "6px")
-    roomy_css = _roomy_css() if roomy else ""
+    level = max(0, min(3, int(spec.get("roomy_level", 0)))) if roomy else 0
+    if compact:
+        body_pt, line_h, part_mb, prose_mb = "10.2pt", "1.30", "5px", "3px"
+    elif roomy:
+        lv = _ROOMY_LEVELS[level]
+        body_pt, line_h, part_mb, prose_mb = lv["body"], lv["line"], lv["part_mb"], lv["prose_mb"]
+    else:
+        body_pt, line_h, part_mb, prose_mb = "11pt", "1.5", "14px", "6px"
+    roomy_css = (_roomy_css() + _roomy_overrides(level)) if roomy else ""
     return f"""
 @page {{
     size: Letter;
@@ -489,7 +549,7 @@ def render_worksheet_html(spec: dict) -> str:
 
     parts = [p for p in spec.get("parts", []) if _PART_RENDERERS.get(p.get("type"))]
 
-    if spec.get("roomy"):
+    if spec.get("roomy") and int(spec.get("roomy_level", 0)) < 3:
         # Keep each question on the same page as its stimulus, WITHOUT forcing a
         # whole long activity onto one page (which would dump it to the next page
         # and leave a near-empty page). Each group is [stimulus parts + the FIRST
