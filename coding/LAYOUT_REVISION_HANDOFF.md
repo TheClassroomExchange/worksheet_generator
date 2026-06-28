@@ -81,5 +81,15 @@ Additive log for the K & G1 roomy-layout revision. Newest checkpoint at the bott
 - The 37 L0 sheets restored to round-1 bytes (re-render only re-stamps PDF timestamp) → only the
   11 changed PDFs differ.
 
-## R2 CP4 — Commit (pending)
-## R2 CP5 — Republish 11 changed topics (pending)
+## R2 CP4 — Commit (2026-06-28)
+- Commit `1b856d9` (pushed): code (worksheet_pdf/coding_build/layout_rubric) + 11 changed PDFs +
+  render.json/layout_grade for the 11 + trackers + round2_results.json. The 37 L0 sheets restored
+  to round-1 bytes → only the 11 changed PDFs in the diff.
+
+## R2 CP5 — Republish 11 changed topics (2026-06-28) — COMPLETE
+- Surgical in-place update by exact Drive ID (from `backup_originals/drive_ids.json`) for the 11
+  changed topics only — 37 unchanged live files untouched.
+- Verified: each updated file md5 live == local. IDs unchanged.
+
+## R2 DONE — 0/48 near-empty pages; 11 sheets auto-fit (L1/L2), committed, live on Drive.
+Revert: round-2 baseline in `scratchpad/backup_round2/`; round-1/original in `backup_originals/`.
