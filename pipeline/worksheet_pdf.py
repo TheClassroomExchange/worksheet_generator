@@ -217,16 +217,80 @@ def _css_str(s: Any) -> str:
     return str(s).replace("\\", "\\\\").replace('"', '\\"')
 
 
+def _roomy_css() -> str:
+    """Size/spacing overrides for Kindergarten & Grade 1 worksheets.
+
+    Appended AFTER the base house style so equal-specificity rules win by
+    source order. Scales write-in slots, symbol/block primitives, the mascot,
+    and the goal/name bars UP — bigger images and more writing room for young
+    hands. Emitted only when ``spec['roomy']`` is set, so G2/G3 are untouched.
+    Braces are single here (plain string, not an f-string).
+    """
+    return """
+/* ── roomy mode (K & G1): bigger images + more writing room ── */
+/* Keep each question on the same page as its stimulus: render_worksheet_html
+   wraps an exercise together with the blocks/images/prose that set it up, and
+   this stops that group splitting across a page break. */
+.qgroup { break-inside: avoid; }
+.part-title { font-size: 14.5pt; margin: 0 0 6px 0; }
+.goal { font-size: 12.5pt; padding: 8px 14px; margin: 7px 0 11px 0; }
+.namebar { font-size: 11pt; gap: 28px; margin-top: 5px; }
+.subtitle { font-size: 11.5pt; }
+/* header: keep a generous mascot but trim padding so the first question-group
+   shares page 1 with the header rather than being pushed whole to page 2. */
+.header { padding: 10px 16px; margin-bottom: 4px; }
+.mascot-circle { width: 80px; height: 80px; }
+.mascot-circle img { width: 70px; height: 70px; }
+/* taller write-in slots */
+.answer-lines { margin-top: 8px; }
+.answer-lines .rule { height: 34px; }
+.ex-grid { gap: 6px; margin-top: 8px; }
+.ex-grid .grid-cell { height: 64px; }
+/* A single-answer box (grid 1x1 — "Run Code A", "You try") becomes a large
+   full-width write area. Multi-cell grids (write-the-order, maps) keep 64px. */
+.ex-grid .grid-cell:only-child { height: 100px; }
+.exercise { padding: 14px 18px; }
+.ex-title { font-size: 14pt; }
+.ex-prompt { margin: 0 0 8px 0; }
+/* bigger symbol cards (the K/G1 picture primitive). min-width stays modest so
+   a full 0-5 number path (6 cards) still fits one row — wrapping it would
+   reorder the cards and read poorly. The glyph point-size is what makes them
+   read large. */
+.sym-row { gap: 12px; margin: 7px 0 2px 0; }
+.sym-card { min-width: 64px; min-height: 72px; padding: 9px 12px; }
+.sym-md { font-size: 30pt; }
+.sym-lg { font-size: 42pt; }
+.sym-xl { font-size: 54pt; }
+.sym-cap { font-size: 11pt; margin-top: 7px; }
+/* bigger block chips */
+.sb-stack { margin: 5px 0; }
+.sb-row { margin: 0 0 6px 0; }
+.sb-block { font-size: 13pt; padding: 9px 18px; }
+.sb-md .sb-block { font-size: 17pt; padding: 10px 20px; }
+.sb-lg .sb-block { font-size: 22pt; padding: 12px 24px; min-width: 38px; }
+.sb-md .sb-row, .sb-lg .sb-row { margin: 0 0 7px 0; }
+.sb-block.sb-blank { min-width: 72px; min-height: 1.4em; }
+.block-note { font-size: 11pt; }
+"""
+
+
 def _css(spec: dict) -> str:
     footer_topic = _css_str(spec.get("footer_topic", spec.get("title", "")))
     # Compact mode (used for teacher guides): tightens vertical rhythm so a
     # full guide — including the two verbatim C3 citations — reliably fits one
     # page without per-sheet hand-trimming.
     compact = bool(spec.get("compact"))
-    body_pt = "10.2pt" if compact else "11pt"
-    line_h = "1.30" if compact else "1.5"
-    part_mb = "5px" if compact else "14px"
-    prose_mb = "3px" if compact else "6px"
+    # Roomy mode (used for Kindergarten & Grade 1 worksheets): scales fonts,
+    # vertical rhythm, write-in slots, and visual primitives UP so young
+    # learners get bigger images and far more room to write. Content is
+    # untouched — only size/spacing changes. Never combined with compact
+    # (compact is teacher-guides only); roomy is worksheet-only.
+    roomy = bool(spec.get("roomy"))
+    body_pt = "10.2pt" if compact else ("13pt" if roomy else "11pt")
+    line_h = "1.30" if compact else ("1.55" if roomy else "1.5")
+    part_mb = "5px" if compact else ("16px" if roomy else "14px")
+    prose_mb = "3px" if compact else ("9px" if roomy else "6px")
+    roomy_css = _roomy_css() if roomy else ""
     return f"""
 @page {{
     size: Letter;
@@ -388,7 +452,7 @@ h1.title {{
 /* figure */
 figure.image {{ text-align: center; margin: 6px 0 14px 0; }}
 figure.image img {{ border-radius: 10px; }}
-figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}
+figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}{roomy_css}
 """
 
 
@@ -423,15 +487,47 @@ def render_worksheet_html(spec: dict) -> str:
         else ""
     )
 
-    parts_html = []
-    for part in spec.get("parts", []):
-        renderer = _PART_RENDERERS.get(part.get("type"))
-        if renderer:
-            parts_html.append(renderer(part))
+    parts = [p for p in spec.get("parts", []) if _PART_RENDERERS.get(p.get("type"))]
+
+    if spec.get("roomy"):
+        # Keep each question on the same page as its stimulus, WITHOUT forcing a
+        # whole long activity onto one page (which would dump it to the next page
+        # and leave a near-empty page). Each group is [stimulus parts + the FIRST
+        # following exercise]; every additional consecutive exercise becomes its
+        # own group. So the primary stimulus↔question pairing can't split, while
+        # extra same-stimulus questions flow and only break when a page is full.
+        # Each group is wrapped in a no-break .qgroup. Text order is unchanged →
+        # the content-lock still passes.
+        groups: list[list[dict]] = []
+        cur: list[dict] = []
+        cur_has_ex = False
+        for part in parts:
+            is_ex = part.get("type") == "exercise"
+            if not is_ex:
+                if cur and cur_has_ex:        # stimulus after a closed group → new group
+                    groups.append(cur)
+                    cur, cur_has_ex = [], False
+                cur.append(part)
+            else:
+                if not cur_has_ex:            # first exercise joins its stimulus
+                    cur.append(part)
+                    cur_has_ex = True
+                else:                          # subsequent exercise → its own group
+                    groups.append(cur)
+                    cur, cur_has_ex = [part], True
+        if cur:
+            groups.append(cur)
+        body_parts = []
+        for g in groups:
+            inner = "".join(_PART_RENDERERS[p["type"]](p) for p in g)
+            body_parts.append(f'<div class="qgroup">{inner}</div>')
+        parts_html = "".join(body_parts)
+    else:
+        parts_html = "".join(_PART_RENDERERS[p["type"]](p) for p in parts)
 
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><style>{_css(spec)}</style></head>
-<body>{header}{namebar}{goal_html}{''.join(parts_html)}</body></html>"""
+<body>{header}{namebar}{goal_html}{parts_html}</body></html>"""
 
 
 def render_pdf(spec: dict, out_path: Path) -> Path:

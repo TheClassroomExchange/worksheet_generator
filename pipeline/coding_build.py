@@ -66,6 +66,26 @@ def run_solution(unit_dir: Path) -> bool:
     return passed
 
 
+# Grades that render in "roomy" mode — bigger images, more writing room for
+# young learners. The worksheet spec is flagged by grade at render time, so no
+# content.json edits are needed and G2/G3 are untouched.
+ROOMY_GRADES = {"Kindergarten", "Grade 1"}
+
+
+def _grade_of(unit_dir: Path) -> str | None:
+    """The grade label for a topic dir: input_row.json first, else the parent
+    batch's topics.json. Returns e.g. 'Kindergarten' / 'Grade 1', or None."""
+    ir = unit_dir / "input_row.json"
+    if ir.exists():
+        g = json.loads(ir.read_text(encoding="utf-8")).get("grade")
+        if g:
+            return g
+    tj = unit_dir.parent / "topics.json"
+    if tj.exists():
+        return json.loads(tj.read_text(encoding="utf-8")).get("grade")
+    return None
+
+
 def render_sheet(unit_dir: Path) -> dict:
     """Render the worksheet + teacher-guide PDFs from content.json."""
     from pipeline.worksheet_pdf import render_pdf  # lazy: needs WeasyPrint libs
@@ -84,7 +104,12 @@ def render_sheet(unit_dir: Path) -> dict:
     # verbatim C3 citations) reliably fits one page — no per-sheet hand-trimming.
     tg_spec = _resolve_paths(content["teacher_guide"])
     tg_spec.setdefault("compact", True)
-    render_pdf(_resolve_paths(content["worksheet"]), ws_path)
+    # K & G1 worksheets render roomy (bigger images, more writing room). The
+    # teacher guide stays compact regardless of grade.
+    ws_spec = _resolve_paths(content["worksheet"])
+    if _grade_of(unit_dir) in ROOMY_GRADES:
+        ws_spec["roomy"] = True
+    render_pdf(ws_spec, ws_path)
     render_pdf(tg_spec, tg_path)
 
     render = {
