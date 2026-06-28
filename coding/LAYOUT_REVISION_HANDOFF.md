@@ -33,5 +33,19 @@ Additive log for the K & G1 roomy-layout revision. Newest checkpoint at the bott
   single-row; multi-glyph "day" cards wrap gracefully with labels; some bottom whitespace
   on block-stack sheets, no orphaned questions.
 
-## CP5 — Commit (pending)
-## CP6 — Drive republish (pending)
+## CP5 — Commit (2026-06-28)
+- Commit `e92056d` on branch `roomy-kg1-layout` (pushed to origin): 106 files — 48 K/G1
+  PDFs + 48 layout_grade.json + renderer/rubric + trackers/tooling. No content.json edits;
+  no non-K/G1 PDFs touched.
+
+## CP6 — Drive republish (2026-06-28) — COMPLETE
+- `drive_publish.publish_batch` for all 6 K/G1 batches (statuses already "built").
+  Hygiene 1 file/topic for all 48.
+- Blast-radius verified: pre vs post Drive listing — 48==48, keys identical, **0 IDs
+  changed** (in-place update, no dupes/orphans); all 48 modifiedTime = 2026-06-28.
+- Byte-check: 2 live PDFs (G1 Start and Go, K First, Next, Last) md5-identical to local
+  roomy versions → roomy layout confirmed LIVE.
+- Revert path remains: `scratchpad/backup_originals/` PDFs + `drive_ids.json` (re-upload
+  by exact id).
+
+## DONE — all 48 K/G1 worksheets revised (roomy), gated, committed, and live on Drive.
