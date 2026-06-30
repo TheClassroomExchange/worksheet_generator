@@ -71,7 +71,9 @@ def _cur_block(grade: str, codes: list[str]) -> list[str]:
 
 def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
     target = topic["target_grapheme"]
-    order = topic["order"]
+    # `order` override lets a fluency sheet draw on a wider cumulative inventory
+    # than the target's own intro order (e.g. early K digraphs use the full K set).
+    order = data.get("order", topic["order"])
     sub = data.get("sub", f"/{target}/")
     sound = data.get("sound", f"Sound /{target}/")
     rows = data["sentences"]
@@ -118,7 +120,7 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
 
 def gen_word_building(topic: dict, data: dict, grade: str) -> dict:
     target = topic["target_grapheme"]
-    order = topic["order"]
+    order = data.get("order", topic["order"])
     sub = data.get("sub", "suffix")
     sound = data.get("sound", "")
     build = data["build"]            # [[base, word], ...]
