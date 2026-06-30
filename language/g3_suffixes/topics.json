@@ -1,0 +1,70 @@
+{
+  "grade": "Grade 3",
+  "subject": "Suffixes",
+  "type": "word_building",
+  "rubric": "rubric_language_G3.md",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "s-cats",
+      "dir": "01_s-cats",
+      "target_grapheme": "s",
+      "graphemes": [
+        "-s",
+        "-es"
+      ],
+      "phoneme": "plural/3rd-person suffix",
+      "order": 107,
+      "keyword": "cats / boxes",
+      "type": "word_building",
+      "status": "pending",
+      "grade_score": null
+    },
+    {
+      "nn": "02",
+      "slug": "ing-jumping",
+      "dir": "02_ing-jumping",
+      "target_grapheme": "ing",
+      "graphemes": [
+        "-ing"
+      ],
+      "phoneme": "suffix -ing",
+      "order": 108,
+      "keyword": "jumping",
+      "type": "word_building",
+      "status": "pending",
+      "grade_score": null
+    },
+    {
+      "nn": "03",
+      "slug": "ed-jumped",
+      "dir": "03_ed-jumped",
+      "target_grapheme": "ed",
+      "graphemes": [
+        "-ed"
+      ],
+      "phoneme": "suffix -ed (/t/,/d/,/ed/)",
+      "order": 109,
+      "keyword": "jumped",
+      "type": "word_building",
+      "status": "pending",
+      "grade_score": null
+    },
+    {
+      "nn": "04",
+      "slug": "er-faster",
+      "dir": "04_er-faster",
+      "target_grapheme": "er",
+      "graphemes": [
+        "-er",
+        "-est"
+      ],
+      "phoneme": "comparative suffix",
+      "order": 110,
+      "keyword": "faster / fastest",
+      "type": "word_building",
+      "status": "pending",
+      "grade_score": null
+    }
+  ]
+}

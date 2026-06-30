@@ -104,3 +104,37 @@ def build_variant(src_dir, out_dir, *, backend: str, grade: str) -> dict:
         raise RuntimeError(f"fit_render did not pass for {src_dir.name}: {fit}")
     pdf = out_dir / fit["combined_pdf"]
     return {"pdf": str(pdf), "decodability": dec, "fit": fit, "backend": backend}
+
+
+def build_unit(unit_dir, grade: str, *, backend: str = "ai", border: bool = True) -> dict:
+    """In-place build for a real queue unit (DESIGN_STANDARD applies). Reads the
+    authored content.json (with `word` refs), runs the decodability gate, resolves
+    images, renders+combines, and stamps the grade border. Returns a summary."""
+    from pipeline import coding_build as cb, add_grade_border as gb
+    import shutil, tempfile
+
+    unit_dir = Path(unit_dir)
+    content = json.loads((unit_dir / "content.json").read_text())
+    dec = dc.check_unit(unit_dir)
+    if not dec["passed"]:
+        raise RuntimeError(f"decodability FAILED {unit_dir.name}: "
+                           f"{[f['word'] for f in dec['failures']]} target={dec.get('target_present')}")
+    resolved, missing = materialize(content, backend)
+    if missing:
+        raise RuntimeError(f"unresolved images ({backend}) {unit_dir.name}: {missing}")
+    (unit_dir / "content.json").write_text(json.dumps(resolved, indent=2, ensure_ascii=False))
+    (unit_dir / "input_row.json").write_text(json.dumps({"grade": grade}, indent=2))
+    fit = cb.fit_render(unit_dir)
+    if fit.get("status") != "pass":
+        raise RuntimeError(f"fit_render fail {unit_dir.name}: {fit}")
+    pdf = unit_dir / fit["combined_pdf"]
+    border_ok = None
+    if border:
+        work = Path(tempfile.mkdtemp())
+        bkp = work / "b.pdf"; shutil.copy2(pdf, bkp)
+        ov = work / "ov.pdf"; gb.build_overlay(gb.GRADE_HEX[grade], ov)
+        gb.stamp(bkp, ov, pdf)
+        border_ok, why = gb.gate(bkp, pdf, work)
+        if not border_ok:
+            raise RuntimeError(f"border gate fail {unit_dir.name}: {why}")
+    return {"pdf": str(pdf), "decodability": dec, "fit": fit, "border_ok": border_ok}

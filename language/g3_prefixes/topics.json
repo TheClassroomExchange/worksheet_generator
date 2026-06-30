@@ -1,0 +1,58 @@
+{
+  "grade": "Grade 3",
+  "subject": "Prefixes",
+  "type": "word_building",
+  "rubric": "rubric_language_G3.md",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "ly-slowly",
+      "dir": "01_ly-slowly",
+      "target_grapheme": "ly",
+      "graphemes": [
+        "-ly",
+        "-y",
+        "-ful"
+      ],
+      "phoneme": "derivational suffix",
+      "order": 111,
+      "keyword": "slowly / sunny / helpful",
+      "type": "word_building",
+      "status": "pending",
+      "grade_score": null
+    },
+    {
+      "nn": "02",
+      "slug": "un-undo",
+      "dir": "02_un-undo",
+      "target_grapheme": "un",
+      "graphemes": [
+        "un-",
+        "re-"
+      ],
+      "phoneme": "prefix",
+      "order": 112,
+      "keyword": "undo / redo",
+      "type": "word_building",
+      "status": "pending",
+      "grade_score": null
+    },
+    {
+      "nn": "03",
+      "slug": "pre-preview",
+      "dir": "03_pre-preview",
+      "target_grapheme": "pre",
+      "graphemes": [
+        "pre-",
+        "dis-",
+        "mis-"
+      ],
+      "phoneme": "prefix",
+      "order": 113,
+      "keyword": "preview / dislike / mistake",
+      "type": "word_building",
+      "status": "pending",
+      "grade_score": null
+    }
+  ]
+}
