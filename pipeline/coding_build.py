@@ -66,8 +66,32 @@ def run_solution(unit_dir: Path) -> bool:
     return passed
 
 
-def render_sheet(unit_dir: Path) -> dict:
-    """Render the worksheet + teacher-guide PDFs from content.json."""
+# Grades that render in "roomy" mode — bigger images, more writing room for
+# young learners. The worksheet spec is flagged by grade at render time, so no
+# content.json edits are needed and G2/G3 are untouched.
+ROOMY_GRADES = {"Kindergarten", "Grade 1"}
+
+
+def _grade_of(unit_dir: Path) -> str | None:
+    """The grade label for a topic dir: input_row.json first, else the parent
+    batch's topics.json. Returns e.g. 'Kindergarten' / 'Grade 1', or None."""
+    ir = unit_dir / "input_row.json"
+    if ir.exists():
+        g = json.loads(ir.read_text(encoding="utf-8")).get("grade")
+        if g:
+            return g
+    tj = unit_dir.parent / "topics.json"
+    if tj.exists():
+        return json.loads(tj.read_text(encoding="utf-8")).get("grade")
+    return None
+
+
+def render_sheet(unit_dir: Path, *, roomy_level: int = 0) -> dict:
+    """Render the worksheet + teacher-guide PDFs from content.json.
+
+    ``roomy_level`` (0–3) controls roomy compaction for K/G1 sheets: 0 = full
+    roomy (default), higher = progressively compacted so a too-tall question
+    group fits its page (used by ``fit_render`` to kill near-empty pages)."""
     from pipeline.worksheet_pdf import render_pdf  # lazy: needs WeasyPrint libs
 
     unit_dir = Path(unit_dir)
@@ -84,7 +108,13 @@ def render_sheet(unit_dir: Path) -> dict:
     # verbatim C3 citations) reliably fits one page — no per-sheet hand-trimming.
     tg_spec = _resolve_paths(content["teacher_guide"])
     tg_spec.setdefault("compact", True)
-    render_pdf(_resolve_paths(content["worksheet"]), ws_path)
+    # K & G1 worksheets render roomy (bigger images, more writing room). The
+    # teacher guide stays compact regardless of grade.
+    ws_spec = _resolve_paths(content["worksheet"])
+    if _grade_of(unit_dir) in ROOMY_GRADES:
+        ws_spec["roomy"] = True
+        ws_spec["roomy_level"] = int(roomy_level)
+    render_pdf(ws_spec, ws_path)
     render_pdf(tg_spec, tg_path)
 
     render = {
@@ -140,6 +170,63 @@ def combine_sheet(unit_dir: Path) -> dict:
     (unit_dir / "render.json").write_text(json.dumps(
         {"combined_pdf": combined.name}, indent=2, ensure_ascii=False))
     return out
+
+
+def _combined_pdf(unit_dir: Path) -> Path:
+    pdf = next((p for p in Path(unit_dir).glob("*.pdf")
+                if not p.name.endswith("— Worksheet.pdf")
+                and not p.name.endswith("— Teacher Guide.pdf")), None)
+    if pdf is None:
+        raise FileNotFoundError(
+            f"no combined PDF in {unit_dir} — run fit_render(dir) (or "
+            f"render_sheet+combine_sheet) before finalize_visual")
+    return pdf
+
+
+def fit_render(unit_dir: Path, baseline_pdf: Path | None = None, *,
+               levels=(0, 1, 2, 3)) -> dict:
+    """Render a sheet at the roomiest level that yields ZERO near-empty pages,
+    combine, and return the result. Use for the render+combine step of the build
+    loop (replaces bare render_sheet+combine_sheet).
+
+    Walks the roomy compaction ladder (levels 0->3) and accepts the FIRST level
+    whose combined PDF passes the gate(s):
+      • page_fill_ok (no near-empty worksheet page) — ALWAYS, and
+      • content_unchanged vs baseline — ONLY when ``baseline_pdf`` is given (a
+        layout REVISION of an existing sheet). For a FRESH build pass None: the
+        content is new, so there is nothing to diff and only the fill gate applies.
+
+    For G2/G3 (non-roomy) the levels collapse to the single level-0 render
+    (roomy_level is ignored unless the spec is roomy), so they settle immediately.
+    Records {roomy_level, near_empty_before, content_ok} in render.json.
+    Returns that dict (status='pass'); status='fail' if no level passes."""
+    from pipeline import layout_rubric
+
+    unit_dir = Path(unit_dir)
+    footers = layout_rubric.footers_for(unit_dir)
+    near_before = None
+    content_ok, detail, near = True, "no baseline (fresh build)", None
+    for level in levels:
+        render_sheet(unit_dir, roomy_level=level)
+        combine_sheet(unit_dir)
+        pdf = _combined_pdf(unit_dir)
+        if baseline_pdf is not None:
+            content_ok, detail = layout_rubric.content_unchanged(baseline_pdf, pdf, footers)
+        fill_ok, near = layout_rubric.page_fill_ok(pdf)
+        if level == 0:
+            near_before = near
+        if content_ok and fill_ok:
+            rec = {"combined_pdf": pdf.name, "roomy_level": level,
+                   "near_empty_before": near_before, "content_ok": content_ok,
+                   "status": "pass"}
+            (unit_dir / "render.json").write_text(
+                json.dumps(rec, indent=2, ensure_ascii=False))
+            return rec
+    rec = {"roomy_level": None, "near_empty_before": near_before,
+           "last_near_empty": near, "content_ok": content_ok,
+           "content_detail": detail, "status": "fail"}
+    (unit_dir / "render.json").write_text(json.dumps(rec, indent=2, ensure_ascii=False))
+    return rec
 
 
 def build_to_render(unit_dir: Path, *, unit_id: str, input_row: dict,
@@ -209,10 +296,27 @@ def finalize_visual(unit_dir: Path, *, status: str, notes: str,
     The sheet is 'done' (publish stays pending until the batch gate)."""
     from pipeline import manifest
 
+    from pipeline import layout_rubric
+
     unit_dir = Path(unit_dir)
-    vg = {"inspected_pages": inspected_pages, "c4_layout_ok": status == "pass",
+    # HARD page-fill gate (all grades): a sheet with a near-empty worksheet page
+    # (header/goal-only, or a lone trailing line) can never finalize -> never
+    # publishes. Catches the round-2 blank-page bug structurally on EVERY future
+    # sheet, regardless of which render path produced it. Fix = re-render via
+    # fit_render(dir) (auto-fit climbs the roomy compaction ladder for K/G1).
+    fill_ok, near_empty = layout_rubric.page_fill_ok(_combined_pdf(unit_dir))
+    vg = {"inspected_pages": inspected_pages,
+          "c4_layout_ok": status == "pass",
+          "page_fill_ok": fill_ok, "near_empty_pages": near_empty,
           "status": status, "notes": notes}
     (unit_dir / "visual_grade.json").write_text(json.dumps(vg, indent=2, ensure_ascii=False))
+    if not fill_ok:
+        vg["status"] = "failed"
+        (unit_dir / "visual_grade.json").write_text(json.dumps(vg, indent=2, ensure_ascii=False))
+        manifest.mark(unit_dir, "visual_grade", "failed",
+                      error=f"near-empty page(s): {near_empty} — re-render via fit_render(dir)")
+        raise RuntimeError(f"visual_grade FAILED — near-empty worksheet page(s) {near_empty}; "
+                           f"re-render via coding_build.fit_render(dir)")
     if status != "pass":
         manifest.mark(unit_dir, "visual_grade", "failed", error=notes)
         raise RuntimeError(f"visual_grade FAILED: {notes}")

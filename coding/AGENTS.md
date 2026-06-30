@@ -60,9 +60,10 @@ coding/
 
 pipeline/
 ├── worksheet_pdf.py     ← WeasyPrint renderer (data-driven spec → PDF). Footer line ~240.
-├── coding_build.py      ← run_solution / render_sheet / combine_sheet / build_to_render / finalize_visual
+├── coding_build.py      ← run_solution / render_sheet(roomy_level=) / combine_sheet / fit_render(auto-fit) / build_to_render / finalize_visual(page-fill gate)
 ├── coding_rubric.py     ← worksheet gate: classify(), pre_grade_drift_check(), select_rubric()
 ├── teacher_guide_rubric.py ← TG gate: classify(), lint_teacher_guide(), record_grade()   ← NEW
+├── layout_rubric.py     ← page_fill_ok() (no near-empty page) + content_unchanged() (layout-only diff)  ← NEW
 └── drive_publish.py     ← publish_batch(batch_dir): one combined PDF/topic, idempotent
 ```
 
@@ -119,7 +120,10 @@ message (broadcast/receive); SHOULD → DOES → FIX; repeat loops.
 - **Lint (jargon)** — `teacher_guide_rubric.lint_teacher_guide(dir)['clean'] == True` (no jargon tokens in non-citation prose; "In plain terms:" gloss present when a citation is present).
 - **Lint (prose copy-edit)** — `prose_lint.lint_prose(dir)['clean'] == True` (no duplicate adjacent words, common misspellings, double-punctuation, or space-before-punctuation across BOTH `worksheet` + `teacher_guide`). Advisory: it's also captured under `tg_grade.json::prose_lint` by `record_grade`. Tuned for 0 false positives on the catalogue (ignores `____` blanks, `code`/symbol `label` fields, the standalone "?" placeholder, ellipses). Does NOT do homophones/grammar — that stays with the human/LLM pass.
 - **Drift** — `coding_rubric.pre_grade_drift_check(dir)['passed'] == True` (solution ran; cited C3 codes/text verbatim vs the Ontario cache — K skips curriculum). NOTE: drift reads `input_row.json`, **not** the TG text, so TG wording never breaks it.
-- **Visual** — combined PDF page count = worksheet pages + 1 (TG must be 1 page); footer correct; rendered page Read with `pdftoppm -png`.
+- **Page-fill (hard, all grades)** — `layout_rubric.page_fill_ok(<combined pdf>)['ok']` — **no near-empty worksheet page** (header/goal-only, or a lone trailing line). Enforced inside `finalize_visual`: a blank-ish page → it raises, so the sheet can't finalize or publish. Fix by re-rendering via `coding_build.fit_render(dir)` (auto-fit). Ink-band oracle; TG pages excluded by footer.
+- **Visual** — combined PDF page count = worksheet pages + 1 (TG must be 1 page); footer correct; rendered page Read with `pdftoppm -png`. For a CHANGED sheet, Read each page **full-size** — a thumbnail montage can hide a blank page (use `page_fill_ok` for that, not eyeballing a contact sheet).
+
+> **K & G1 render "roomy" (bigger images + more writing room).** `render_sheet` sets `roomy=True` by grade (`ROOMY_GRADES = {Kindergarten, Grade 1}`); `roomy_level` (0→3) is a compaction ladder, and `fit_render` auto-picks the roomiest level with no near-empty page. G2/G3 are untouched (level 0, no roomy). See `LAYOUT_REVISION_PLAN.md`.
 
 ---
 
@@ -147,8 +151,8 @@ for p in dirs:
     rec=tg.record_grade(p,'<G1|G2|G3|K>',{'T1':4,'T2':4,'T3':4,'T4':4,'T5':4})
     assert rec['status']=='pass', rec
     assert coding_rubric.pre_grade_drift_check(p)['passed']     # drift
-    coding_build.render_sheet(p); coding_build.combine_sheet(p) # → one <Title>.pdf
-    coding_build.finalize_visual(p, status='pass', notes='...', inspected_pages=[1])
+    coding_build.fit_render(p)                                  # render+combine, AUTO-FIT (K/G1 roomy; no near-empty page) → one <Title>.pdf
+    coding_build.finalize_visual(p, status='pass', notes='...', inspected_pages=[1])  # hard page-fill gate
     print(p.name,'OK')
 PY
 # 4. Spot-Read one TG page: pdftoppm -png -f <ws_pages+1> -l <same> "coding/<batch>/<dir>/<Title>.pdf" /tmp/x ; then Read it.
@@ -188,6 +192,8 @@ renderer primitives in `pipeline/worksheet_pdf.py` (`symbols`, `blocks` with `ca
 - **Non-`NN` topic dir**: `pilot_g3_block_coding` topic 01 is `sheet_01_loops`. **Always iterate `topics.json` dirs**, not a `0*_*` glob.
 - **Drive token expires/revokes** (`invalid_grant`). Re-auth is an interactive Google login an agent can't click through — move the dead `token.json` aside, run `get_credentials()` so it opens the browser for the user, then publish. `token.json` is gitignored — never commit it.
 - **TG overflow to 2 pages**: the compact CSS is already tightened (`worksheet_pdf._css`, compact branch). If a guide still spills, **trim wording** (don't loosen CSS — it would affect every TG).
+- **Near-empty worksheet page (K/G1 roomy)**: a roomy question-group too tall for its page got force-pushed by `break-inside:avoid`, leaving the page it left header-only. **Build/re-render via `coding_build.fit_render(dir)`** — it climbs the `roomy_level` compaction ladder (0→3) until `page_fill_ok` passes. `finalize_visual` hard-fails any near-empty page, so this can't ship. **Don't trust a thumbnail montage to spot a blank page** — montages hid this; rely on `page_fill_ok` + full-size page Reads for changed sheets.
+- **Layout-only revision must keep content byte-identical**: `layout_rubric.content_unchanged(old, new, footers)` (pdftotext; multiset fallback tolerates pdftotext dehyphenation + symbol-card reflow). `fit_render(dir, baseline_pdf=<original>)` enforces it; for a FRESH build pass no baseline (fill gate only).
 - **Lint false-positives**: `lint_teacher_guide` excludes lines starting `C1./C2./C3./k-frame` from the jargon scan (those are the verbatim quotes). Jargon tokens to avoid in prose: `for-loop`, `range(`, `sprite`, `concurrent`, `run-gate`, "computational representation".
 - **`text` field is string OR list[str]** — handle both when editing.
 - **topics.json statuses** were already `built` after the original build — no flip needed before publish (the old "flip to built" note applies only if they were advanced to `done`).
