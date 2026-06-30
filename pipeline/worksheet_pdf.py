@@ -198,6 +198,93 @@ def _render_image(part: dict) -> str:
     )
 
 
+def _img_uri(src: str) -> str:
+    return Path(src).resolve().as_uri()
+
+
+def _bold_target(text: str, target: str) -> str:
+    """Escape ``text`` then bold every case-insensitive occurrence of ``target``."""
+    esc = _esc(text)
+    if not target:
+        return esc
+    t = _esc(target)
+    import re as _re
+    return _re.sub("(" + _re.escape(t) + ")", r"<b>\1</b>", esc, flags=_re.IGNORECASE)
+
+
+def _render_reading_rows(part: dict) -> str:
+    """'I Can Read Sentences' body: each row = a boxed decodable sentence (target
+    pattern bolded) + a small picture on the right."""
+    title = part.get("title")
+    title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
+    target = part.get("bold", part.get("target", ""))
+    rows = []
+    for r in part.get("rows", []):
+        txt = _bold_target(r.get("text", ""), r.get("bold", target))
+        img = (f'<span class="rr-pic"><img src="{_img_uri(r["img"])}"/></span>'
+               if r.get("img") else '<span class="rr-pic rr-empty"></span>')
+        rows.append(f'<div class="rr-row"><span class="rr-text">{txt}</span>{img}</div>')
+    return f'<section class="part reading">{title_html}{"".join(rows)}</section>'
+
+
+def _render_read_tracker(part: dict) -> str:
+    label = part.get("label", "Read the page 3 times. Colour a face each time you read it.")
+    count = int(part.get("count", 3))
+    faces = "".join('<span class="rt-face">☺</span>' for _ in range(count))
+    return (f'<section class="part tracker"><span class="rt-label">{_esc(label)}</span>'
+            f'<span class="rt-faces">{faces}</span></section>')
+
+
+def _render_sound_boxes(part: dict) -> str:
+    """Word-mapping: each row = picture + N empty sound boxes (one per phoneme) +
+    a write-the-word line. say-it -> map-it -> write-it."""
+    title = part.get("title")
+    title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
+    rows = []
+    for r in part.get("rows", []):
+        img = (f'<span class="sbx-pic"><img src="{_img_uri(r["img"])}"/></span>'
+               if r.get("img") else '<span class="sbx-pic"></span>')
+        n = int(r.get("boxes", 3))
+        boxes = "".join('<span class="sbx-box"></span>' for _ in range(n))
+        write = '<span class="sbx-write"></span>'
+        rows.append(f'<div class="sbx-row">{img}<span class="sbx-boxes">{boxes}</span>{write}</div>')
+    return f'<section class="part soundboxes">{title_html}{"".join(rows)}</section>'
+
+
+def _render_formation(part: dict) -> str:
+    """Letter-formation card: big keyword picture + the letter pair, dotted trace
+    copies, then blank handwriting lines (sky/grass/ground guide)."""
+    title = part.get("title")
+    title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
+    letter = _esc(part.get("letter", ""))
+    keyword = _esc(part.get("keyword", ""))
+    img = (f'<img class="fm-pic" src="{_img_uri(part["img"])}"/>' if part.get("img") else "")
+    trace = part.get("trace", (letter + " ") * 4).strip()
+    n_lines = int(part.get("lines", 2))
+    head = (f'<div class="fm-head"><span class="fm-letter">{letter}</span>'
+            f'<span class="fm-key">{img}<span class="fm-keyword">{keyword}</span></span></div>')
+    tracecells = f'<div class="fm-trace">{_esc(trace)}</div>'
+    lines = "".join('<div class="fm-line"><span class="fm-sky"></span>'
+                    '<span class="fm-grass"></span><span class="fm-ground"></span></div>'
+                    for _ in range(n_lines))
+    return f'<section class="part formation">{title_html}{head}{tracecells}{lines}</section>'
+
+
+def _render_picture_row(part: dict) -> str:
+    """K beginning-sound task: a prompt + a row of pictures, each with a circle to
+    mark. Pictures whose word starts with the target sound are the answers (key in TG)."""
+    title = part.get("title")
+    title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
+    prompt = f'<p class="pr-prompt">{_esc(part["prompt"])}</p>' if part.get("prompt") else ""
+    cells = []
+    for it in part.get("items", []):
+        img = f'<img src="{_img_uri(it["img"])}"/>' if it.get("img") else ""
+        cap = f'<span class="pr-cap">{_esc(it.get("label",""))}</span>' if it.get("label") else ""
+        cells.append(f'<span class="pr-cell"><span class="pr-mark"></span>{img}{cap}</span>')
+    return (f'<section class="part picturerow">{title_html}{prompt}'
+            f'<div class="pr-row">{"".join(cells)}</div></section>')
+
+
 _PART_RENDERERS = {
     "prose": _render_prose,
     "blocks": _render_blocks,
@@ -205,6 +292,12 @@ _PART_RENDERERS = {
     "exercise": _render_exercise,
     "symbols": _render_symbols,
     "image": _render_image,
+    # phonics/language part types (unused by coding sheets)
+    "reading_rows": _render_reading_rows,
+    "read_tracker": _render_read_tracker,
+    "sound_boxes": _render_sound_boxes,
+    "formation": _render_formation,
+    "picture_row": _render_picture_row,
 }
 
 
@@ -512,20 +605,75 @@ h1.title {{
 /* figure */
 figure.image {{ text-align: center; margin: 6px 0 14px 0; }}
 figure.image img {{ border-radius: 10px; }}
-figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}{roomy_css}
+figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}
+
+/* ── phonics / language part types ── */
+.part.reading {{ margin-bottom: 10px; }}
+.rr-row {{
+    display: flex; align-items: center; justify-content: space-between;
+    border: 1.5px solid {MINT}; border-radius: 10px;
+    padding: 9px 14px; margin: 0 0 9px 0; background: {PAPER};
+    break-inside: avoid;
+}}
+.rr-text {{ flex: 1 1 auto; font-size: 13.5pt; color: {INK}; }}
+.rr-text b {{ color: {NAVY}; text-decoration: underline; }}
+.rr-pic {{ flex: 0 0 auto; width: 46px; height: 46px; margin-left: 12px;
+    display: flex; align-items: center; justify-content: center; }}
+.rr-pic img {{ max-width: 46px; max-height: 46px; }}
+
+.part.tracker {{ display: flex; align-items: center; gap: 14px; margin: 4px 0 8px 0; }}
+.rt-label {{ font-size: 10pt; color: {SLATE}; font-style: italic; }}
+.rt-faces {{ display: flex; gap: 10px; }}
+.rt-face {{ font-size: 26pt; color: {MINT_DARK}; line-height: 1; }}
+
+.part.soundboxes .sbx-row {{
+    display: flex; align-items: center; gap: 14px; margin: 0 0 12px 0; break-inside: avoid;
+}}
+.sbx-pic {{ flex: 0 0 auto; width: 52px; height: 52px; display: flex;
+    align-items: center; justify-content: center; }}
+.sbx-pic img {{ max-width: 52px; max-height: 52px; }}
+.sbx-boxes {{ display: flex; gap: 8px; }}
+.sbx-box {{ width: 46px; height: 46px; border: 2px solid {SLATE}; border-radius: 8px; }}
+.sbx-write {{ flex: 1 1 auto; min-width: 120px; border-bottom: 2px solid {SLATE};
+    height: 40px; margin-left: 8px; }}
+
+.part.formation .fm-head {{ display: flex; align-items: center; gap: 22px; margin: 4px 0 10px 0; }}
+.fm-letter {{ font-size: 64pt; color: {NAVY}; line-height: 1; font-weight: 700; }}
+.fm-key {{ display: flex; flex-direction: column; align-items: center; gap: 4px; }}
+.fm-pic {{ width: 84px; height: 84px; }}
+.fm-keyword {{ font-size: 14pt; color: {SLATE}; }}
+.fm-trace {{ font-size: 40pt; letter-spacing: 0.35em; color: #B7C6D6;
+    border-bottom: 2px dashed {SLATE}; padding-bottom: 6px; margin: 6px 0 12px 0; }}
+.fm-line {{ position: relative; height: 54px; margin: 0 0 10px 0; }}
+.fm-sky {{ display: block; height: 26px; border-bottom: 1.5px dashed #9FB3C8; }}
+.fm-grass {{ display: block; height: 27px; border-bottom: 2px solid {SLATE}; }}
+.fm-ground {{ display: none; }}
+
+.part.picturerow .pr-prompt {{ font-size: 12.5pt; color: {INK}; margin: 0 0 8px 0; }}
+.pr-row {{ display: flex; flex-wrap: wrap; gap: 16px; }}
+.pr-cell {{ display: flex; flex-direction: column; align-items: center; gap: 5px;
+    width: 84px; position: relative; }}
+.pr-cell img {{ width: 64px; height: 64px; }}
+.pr-mark {{ width: 22px; height: 22px; border: 2px solid {SLATE}; border-radius: 50%; }}
+.pr-cap {{ font-size: 10pt; color: {SLATE}; }}{roomy_css}
 """
 
 
 # ── Document assembly ───────────────────────────────────────────────────────
 def render_worksheet_html(spec: dict) -> str:
-    mascot = Path(spec["mascot"]).resolve().as_uri()
     eyebrow = spec.get("eyebrow", "")
     subtitle = spec.get("subtitle", "")
     goal = spec.get("learning_goal")
 
+    # Mascot is optional: coding sheets pass an SVG; language sheets may omit it.
+    mascot_html = ""
+    if spec.get("mascot"):
+        mascot = Path(spec["mascot"]).resolve().as_uri()
+        mascot_html = f'<div class="mascot-circle"><img src="{mascot}"/></div>'
+
     header = f"""
     <div class="header">
-      <div class="mascot-circle"><img src="{mascot}"/></div>
+      {mascot_html}
       <div class="header-text">
         {f'<p class="eyebrow">{_esc(eyebrow)}</p>' if eyebrow else ''}
         <h1 class="title">{_esc(spec['title'])}</h1>
