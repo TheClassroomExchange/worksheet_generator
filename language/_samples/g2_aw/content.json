@@ -1,0 +1,79 @@
+{
+  "title": "I Can Read Sentences: aw",
+  "file_title": "I Can Read Sentences - aw",
+  "phonics": {
+    "grade": "2",
+    "lesson_order": 89,
+    "target_grapheme": "aw",
+    "decodable_text": [
+      "I saw a hawk.",
+      "The crab has a claw.",
+      "The cat licks its paw.",
+      "I sip with a straw.",
+      "Dad has a saw."
+    ],
+    "image_words": [
+      {"word": "hawk"}, {"word": "claw"}, {"word": "paw"},
+      {"word": "straw"}, {"word": "saw"}
+    ],
+    "curriculum": [
+      {"code": "B2.1", "text": "use phonics knowledge, including phonemic blending to read words and set for variability to correct approximations, and phonemic segmentation to spell phonetically regular monosyllabic and multisyllabic words, in isolation and various text contexts"}
+    ]
+  },
+  "worksheet": {
+    "mascot_word": "owl",
+    "eyebrow": "Grade 2 · Phonics · aw",
+    "title": "I Can Read Sentences",
+    "subtitle": "Sound /aw/ spelled aw",
+    "footer_topic": "aw — I Can Read Sentences",
+    "name_date": true,
+    "parts": [
+      {"type": "prose", "text": "Underline the aw in each sentence. Then read every sentence out loud. Colour a face each time you read the whole page."},
+      {"type": "reading_rows", "bold": "aw", "rows": [
+        {"text": "I saw a hawk.", "word": "hawk"},
+        {"text": "The crab has a claw.", "word": "claw"},
+        {"text": "The cat licks its paw.", "word": "paw"},
+        {"text": "I sip with a straw.", "word": "straw"},
+        {"text": "Dad has a saw.", "word": "saw"}
+      ]},
+      {"type": "read_tracker", "count": 3, "label": "Read the page 3 times. Colour a face each time you read it."},
+      {"type": "exercise", "number": 1, "title": "Your turn", "prompt": "Write two more words that have the aw sound:", "answer_lines": 2}
+    ]
+  },
+  "teacher_guide": {
+    "mascot_word": "owl",
+    "eyebrow": "Teacher Guide · Grade 2 · Phonics · aw",
+    "title": "I Can Read Sentences: aw",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "aw — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {"type": "prose", "title": "What this worksheet teaches", "text": "Children read short, decodable sentences that practise the sound /aw/ spelled aw (as in saw). Every other word uses letter-sounds they already know, so they can read each sentence on their own. Reading the page three times builds reading speed."},
+      {"type": "prose", "title": "How to lead it (about 15 minutes)", "text": [
+        "1. Say /aw/ together. Tell children the letters a and w work together to make one sound, /aw/.",
+        "2. Read the first sentence together, pointing under each word.",
+        "3. Children underline aw in each sentence, then read each sentence on their own.",
+        "4. Children read the whole page three times and colour one face each time."
+      ]},
+      {"type": "prose", "title": "Answer key (the aw words)", "text": [
+        "Sentence 1: saw, hawk.",
+        "Sentence 2: claw.",
+        "Sentence 3: paw.",
+        "Sentence 4: straw.",
+        "Sentence 5: saw.",
+        "Your turn: any real word with aw, e.g. draw, jaw, lawn, yawn, crawl."
+      ]},
+      {"type": "prose", "title": "Ontario curriculum link (official wording)", "text": [
+        "B2.1 — use phonics knowledge, including phonemic blending to read words and set for variability to correct approximations, and phonemic segmentation to spell phonetically regular monosyllabic and multisyllabic words, in isolation and various text contexts.",
+        "In plain terms: children blend sounds to read and break words into sounds to spell — including longer words — here with the aw spelling."
+      ]},
+      {"type": "prose", "title": "If children get stuck — and ways to adjust", "text": [
+        "Watch for: reading a and w as two sounds. Cover the rest of the word and say /aw/ first.",
+        "Make it easier: read only the first three sentences; you read, the child echoes.",
+        "Make it harder: ask the child to write an aw sentence of their own.",
+        "You'll know it worked when: the child reads the page smoothly the third time and reads new aw words on sight."
+      ]}
+    ]
+  }
+}
