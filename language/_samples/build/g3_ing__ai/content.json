@@ -1,0 +1,153 @@
+{
+  "title": "Word Building: Adding -ing",
+  "file_title": "Word Building - Adding -ing",
+  "phonics": {
+    "grade": "3",
+    "lesson_order": 108,
+    "target_grapheme": "ing",
+    "decodable_text": [
+      "The frog is jumping.",
+      "We are reading a book.",
+      "The kids are playing ball.",
+      "She is singing a song.",
+      "He is helping his mom.",
+      "jump jumping",
+      "help helping",
+      "sing singing"
+    ],
+    "image_words": [
+      {
+        "word": "frog"
+      },
+      {
+        "word": "book"
+      },
+      {
+        "word": "ball"
+      }
+    ],
+    "curriculum": [
+      {
+        "code": "B2.3",
+        "text": "use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "-ing",
+      "sub": "suffix"
+    },
+    "eyebrow": "Grade 3 · Word Study · suffix -ing",
+    "title": "Adding -ing to Words",
+    "subtitle": "A suffix that means it is happening now",
+    "footer_topic": "-ing — Word Building",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "A suffix is a word part you add to the end of a base word. Add -ing to each base word to build the new word. Then read the sentences."
+      },
+      {
+        "type": "reading_rows",
+        "size": "md",
+        "title": "Build the word: base + ing",
+        "rows": [
+          {
+            "text": "jump  +  ing  =  ______________"
+          },
+          {
+            "text": "help  +  ing  =  ______________"
+          },
+          {
+            "text": "sing  +  ing  =  ______________"
+          },
+          {
+            "text": "read  +  ing  =  ______________"
+          }
+        ]
+      },
+      {
+        "type": "reading_rows",
+        "bold": "ing",
+        "size": "lg",
+        "title": "Read the sentences",
+        "rows": [
+          {
+            "text": "The frog is jumping.",
+            "word": "frog",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/frog.png"
+          },
+          {
+            "text": "We are reading a book.",
+            "word": "book",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/book.png"
+          },
+          {
+            "text": "The kids are playing ball.",
+            "word": "ball",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ball.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the sentences 3 times. Colour a face each time."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Grade 3 · Word Study · -ing",
+    "title": "Adding -ing to Words",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "-ing — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children learn that -ing is a suffix (a word part added to the end of a base word) that shows an action is happening now. They build words by adding -ing to a base, then read the new words in decodable sentences. All base words use sounds they already know."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 20 minutes)",
+        "text": [
+          "1. Say 'A suffix is added to the end of a word. -ing means it is happening now.'",
+          "2. Model the first one: jump + ing = jumping. Read it together.",
+          "3. Children build the other words, then read each sentence on their own.",
+          "4. Children read the whole page three times and colour one face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Build the word: jumping, helping, singing, reading.",
+          "Note on spelling: these base words just add -ing (no letter change). (Later lessons cover doubling, e.g. run -> running, and dropping silent e, e.g. make -> making.)",
+          "Sentences read: The frog is jumping. We are reading a book. The kids are playing ball. She is singing a song. He is helping his mom."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "B2.3 — use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words.",
+          "In plain terms: children use word parts — here the suffix -ing — to read and spell longer words and understand what they mean."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: reading the whole word as one chunk. Cover -ing, read the base, then add -ing.",
+          "Make it easier: do the build section together out loud before writing.",
+          "Make it harder: ask children to add -ing to run and make (these change spelling) and explain the rule.",
+          "You'll know it worked when: the child reads -ing words smoothly and explains that -ing means it is happening now."
+        ]
+      }
+    ],
+    "mascot": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pencil.png"
+  }
+}

@@ -213,18 +213,25 @@ def _bold_target(text: str, target: str) -> str:
 
 
 def _render_reading_rows(part: dict) -> str:
-    """'I Can Read Sentences' body: each row = a boxed decodable sentence (target
-    pattern bolded) + a small picture on the right."""
+    """'I Can Read Sentences' body: a bordered 2-column table — big decodable
+    sentence (target pattern bolded) on the left, a large picture on the right.
+    Rows are tall so 5 fill the page (the "A Teachable Teacher" design)."""
     title = part.get("title")
     title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
     target = part.get("bold", part.get("target", ""))
+    size_cls = "rr-" + part.get("size", "lg")  # rr-lg (default) | rr-md
+    part_rows = part.get("rows", [])
+    has_pics = any(r.get("img") for r in part_rows)
     rows = []
-    for r in part.get("rows", []):
+    for r in part_rows:
         txt = _bold_target(r.get("text", ""), r.get("bold", target))
-        img = (f'<span class="rr-pic"><img src="{_img_uri(r["img"])}"/></span>'
-               if r.get("img") else '<span class="rr-pic rr-empty"></span>')
-        rows.append(f'<div class="rr-row"><span class="rr-text">{txt}</span>{img}</div>')
-    return f'<section class="part reading">{title_html}{"".join(rows)}</section>'
+        cells = f'<td class="rr-text">{txt}</td>'
+        if has_pics:
+            img = f'<img src="{_img_uri(r["img"])}"/>' if r.get("img") else ""
+            cells += f'<td class="rr-pic">{img}</td>'
+        rows.append(f'<tr>{cells}</tr>')
+    return (f'<section class="part reading {size_cls}">{title_html}'
+            f'<table class="rr-table">{"".join(rows)}</table></section>')
 
 
 def _render_read_tracker(part: dict) -> str:
@@ -607,55 +614,78 @@ figure.image {{ text-align: center; margin: 6px 0 14px 0; }}
 figure.image img {{ border-radius: 10px; }}
 figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}
 
-/* ── phonics / language part types ── */
-.part.reading {{ margin-bottom: 10px; }}
-.rr-row {{
-    display: flex; align-items: center; justify-content: space-between;
-    border: 1.5px solid {MINT}; border-radius: 10px;
-    padding: 9px 14px; margin: 0 0 9px 0; background: {PAPER};
-    break-inside: avoid;
+/* ── phonics / language: BIG kid-friendly design (A Teachable Teacher style) ── */
+/* corner-tab header */
+.ph-header {{ display: flex; align-items: stretch; gap: 16px; margin-bottom: 10px; }}
+.ph-tab {{
+    flex: 0 0 auto; width: 1.05in; min-height: 1.05in;
+    background: {MINT}; color: {PAPER};
+    border-radius: 14px 14px 60px 14px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 6px;
 }}
-.rr-text {{ flex: 1 1 auto; font-size: 13.5pt; color: {INK}; }}
+.ph-tab-main {{ font-size: 30pt; font-weight: 800; line-height: 1; }}
+.ph-tab-sub {{ font-size: 11pt; font-weight: 600; margin-top: 2px; letter-spacing: 1px; }}
+.ph-titlewrap {{ flex: 1 1 auto; }}
+.ph-name {{ font-size: 13pt; color: {SLATE}; margin: 4px 0 2px 0; }}
+.ph-name-rule {{ display: inline-block; width: 62%; border-bottom: 2px dotted {SLATE};
+    height: 1em; vertical-align: middle; }}
+.ph-title {{ font-size: 38pt; font-weight: 800; color: {NAVY}; text-align: center;
+    margin: 2px 0 0 0; line-height: 1.05; }}
+.ph-subtitle {{ font-size: 14pt; color: {SLATE}; text-align: center; margin: 4px 0 0 0; }}
+
+/* big reading table */
+.part.reading {{ margin: 6px 0 10px 0; }}
+.rr-table {{ width: 100%; border-collapse: collapse; }}
+.rr-table td {{ border: 2.5px solid {NAVY}; vertical-align: middle; }}
+.rr-text {{ padding: 10px 18px; color: {INK}; font-weight: 700; }}
 .rr-text b {{ color: {NAVY}; text-decoration: underline; }}
-.rr-pic {{ flex: 0 0 auto; width: 46px; height: 46px; margin-left: 12px;
-    display: flex; align-items: center; justify-content: center; }}
-.rr-pic img {{ max-width: 46px; max-height: 46px; }}
+.rr-pic {{ width: 1.45in; text-align: center; padding: 6px; }}
+.rr-pic img {{ max-width: 1.25in; max-height: 1.05in; }}
+.rr-lg .rr-text {{ font-size: 23pt; }}
+.rr-md .rr-text {{ font-size: 18pt; padding: 9px 16px; }}
 
-.part.tracker {{ display: flex; align-items: center; gap: 14px; margin: 4px 0 8px 0; }}
-.rt-label {{ font-size: 10pt; color: {SLATE}; font-style: italic; }}
-.rt-faces {{ display: flex; gap: 10px; }}
-.rt-face {{ font-size: 26pt; color: {MINT_DARK}; line-height: 1; }}
+/* big read tracker */
+.part.tracker {{ display: flex; align-items: center; gap: 18px; margin: 10px 0 6px 0;
+    justify-content: center; }}
+.rt-label {{ font-size: 12pt; color: {SLATE}; font-style: italic; }}
+.rt-faces {{ display: flex; gap: 18px; }}
+.rt-face {{ font-size: 40pt; color: {MINT_DARK}; line-height: 1; }}
 
+/* sound boxes — big */
 .part.soundboxes .sbx-row {{
-    display: flex; align-items: center; gap: 14px; margin: 0 0 12px 0; break-inside: avoid;
+    display: flex; align-items: center; gap: 18px; margin: 0 0 16px 0; break-inside: avoid;
 }}
-.sbx-pic {{ flex: 0 0 auto; width: 52px; height: 52px; display: flex;
+.sbx-pic {{ flex: 0 0 auto; width: 1.0in; height: 1.0in; display: flex;
     align-items: center; justify-content: center; }}
-.sbx-pic img {{ max-width: 52px; max-height: 52px; }}
-.sbx-boxes {{ display: flex; gap: 8px; }}
-.sbx-box {{ width: 46px; height: 46px; border: 2px solid {SLATE}; border-radius: 8px; }}
-.sbx-write {{ flex: 1 1 auto; min-width: 120px; border-bottom: 2px solid {SLATE};
-    height: 40px; margin-left: 8px; }}
+.sbx-pic img {{ max-width: 1.0in; max-height: 1.0in; }}
+.sbx-boxes {{ display: flex; gap: 12px; }}
+.sbx-box {{ width: 0.85in; height: 0.85in; border: 3px solid {SLATE}; border-radius: 10px; }}
+.sbx-write {{ flex: 1 1 auto; min-width: 1.5in; border-bottom: 3px solid {SLATE};
+    height: 0.7in; margin-left: 10px; }}
 
-.part.formation .fm-head {{ display: flex; align-items: center; gap: 22px; margin: 4px 0 10px 0; }}
-.fm-letter {{ font-size: 64pt; color: {NAVY}; line-height: 1; font-weight: 700; }}
+/* letter formation — big */
+.part.formation .fm-head {{ display: flex; align-items: center; gap: 26px; margin: 2px 0 6px 0; }}
+.fm-letter {{ font-size: 60pt; color: {NAVY}; line-height: 1; font-weight: 800; }}
 .fm-key {{ display: flex; flex-direction: column; align-items: center; gap: 4px; }}
-.fm-pic {{ width: 84px; height: 84px; }}
-.fm-keyword {{ font-size: 14pt; color: {SLATE}; }}
-.fm-trace {{ font-size: 40pt; letter-spacing: 0.35em; color: #B7C6D6;
-    border-bottom: 2px dashed {SLATE}; padding-bottom: 6px; margin: 6px 0 12px 0; }}
-.fm-line {{ position: relative; height: 54px; margin: 0 0 10px 0; }}
-.fm-sky {{ display: block; height: 26px; border-bottom: 1.5px dashed #9FB3C8; }}
-.fm-grass {{ display: block; height: 27px; border-bottom: 2px solid {SLATE}; }}
+.fm-pic {{ width: 1.0in; height: 1.0in; }}
+.fm-keyword {{ font-size: 16pt; color: {SLATE}; }}
+.fm-trace {{ font-size: 38pt; letter-spacing: 0.45em; color: #C2D0DE; white-space: nowrap;
+    border-bottom: 2px dashed {SLATE}; padding-bottom: 5px; margin: 4px 0 10px 0; }}
+.fm-line {{ position: relative; height: 0.55in; margin: 0 0 9px 0; }}
+.fm-sky {{ display: block; height: 0.275in; border-bottom: 1.5px dashed #9FB3C8; }}
+.fm-grass {{ display: block; height: 0.275in; border-bottom: 2.5px solid {SLATE}; }}
 .fm-ground {{ display: none; }}
 
-.part.picturerow .pr-prompt {{ font-size: 12.5pt; color: {INK}; margin: 0 0 8px 0; }}
-.pr-row {{ display: flex; flex-wrap: wrap; gap: 16px; }}
-.pr-cell {{ display: flex; flex-direction: column; align-items: center; gap: 5px;
-    width: 84px; position: relative; }}
-.pr-cell img {{ width: 64px; height: 64px; }}
-.pr-mark {{ width: 22px; height: 22px; border: 2px solid {SLATE}; border-radius: 50%; }}
-.pr-cap {{ font-size: 10pt; color: {SLATE}; }}{roomy_css}
+/* picture sort — big */
+.part.picturerow .pr-prompt {{ font-size: 16pt; color: {INK}; font-weight: 600; margin: 0 0 12px 0; }}
+.pr-row {{ display: block; text-align: center; }}
+.pr-cell {{ display: inline-block; vertical-align: top; text-align: center;
+    width: 1.18in; margin: 0 0.02in 12px 0.02in; }}
+.pr-cell img {{ width: 1.0in; height: 1.0in; display: block; margin: 6px auto 0 auto; }}
+.pr-mark {{ width: 0.32in; height: 0.32in; border: 2.5px solid {SLATE};
+    border-radius: 50%; display: block; margin: 0 auto; }}
+.pr-cap {{ font-size: 13pt; color: {SLATE}; display: block; margin-top: 5px; }}{roomy_css}
 """
 
 
@@ -671,23 +701,43 @@ def render_worksheet_html(spec: dict) -> str:
         mascot = Path(spec["mascot"]).resolve().as_uri()
         mascot_html = f'<div class="mascot-circle"><img src="{mascot}"/></div>'
 
-    header = f"""
-    <div class="header">
-      {mascot_html}
-      <div class="header-text">
-        {f'<p class="eyebrow">{_esc(eyebrow)}</p>' if eyebrow else ''}
-        <h1 class="title">{_esc(spec['title'])}</h1>
-        {f'<p class="subtitle">{_esc(subtitle)}</p>' if subtitle else ''}
-      </div>
-    </div>
-    """
-
+    # Two header styles. The corner-tab style (spec['tab']) follows the big,
+    # kid-friendly "I Can Read Sentences" design — a coloured corner tab carrying
+    # the target sound, a large centred title, a generous Name line, and big
+    # directions. Used by phonics student worksheets. Otherwise the mint band.
+    tab = spec.get("tab")
     namebar = ""
-    if spec.get("name_date", True):
-        namebar = (
-            '<div class="namebar"><div class="field">Name:</div>'
-            '<div class="field">Date:</div></div>'
-        )
+    if tab:
+        tab_main = _esc(tab.get("main", ""))
+        tab_sub = f'<span class="ph-tab-sub">{_esc(tab["sub"])}</span>' if tab.get("sub") else ""
+        name_line = ('<div class="ph-name">Name: '
+                     '<span class="ph-name-rule"></span></div>') if spec.get("name_date", True) else ""
+        header = f"""
+        <div class="ph-header">
+          <div class="ph-tab"><span class="ph-tab-main">{tab_main}</span>{tab_sub}</div>
+          <div class="ph-titlewrap">
+            {name_line}
+            <h1 class="ph-title">{_esc(spec['title'])}</h1>
+            {f'<p class="ph-subtitle">{_esc(subtitle)}</p>' if subtitle else ''}
+          </div>
+        </div>
+        """
+    else:
+        header = f"""
+        <div class="header">
+          {mascot_html}
+          <div class="header-text">
+            {f'<p class="eyebrow">{_esc(eyebrow)}</p>' if eyebrow else ''}
+            <h1 class="title">{_esc(spec['title'])}</h1>
+            {f'<p class="subtitle">{_esc(subtitle)}</p>' if subtitle else ''}
+          </div>
+        </div>
+        """
+        if spec.get("name_date", True):
+            namebar = (
+                '<div class="namebar"><div class="field">Name:</div>'
+                '<div class="field">Date:</div></div>'
+            )
 
     goal_html = (
         f'<div class="goal"><span class="star">★</span>{_esc(goal)}</div>'
@@ -697,7 +747,13 @@ def render_worksheet_html(spec: dict) -> str:
 
     parts = [p for p in spec.get("parts", []) if _PART_RENDERERS.get(p.get("type"))]
 
-    if spec.get("roomy") and int(spec.get("roomy_level", 0)) < 3:
+    # The qgroup (stimulus↔question no-break) pairing is coding-specific. Phonics
+    # sheets have independent activities that should flow and break naturally, so
+    # disable qgroup whenever any phonics part type is present (or a corner tab).
+    _PHONICS_TYPES = {"reading_rows", "read_tracker", "sound_boxes", "formation", "picture_row"}
+    is_phonics = bool(spec.get("tab")) or any(p.get("type") in _PHONICS_TYPES for p in parts)
+
+    if spec.get("roomy") and int(spec.get("roomy_level", 0)) < 3 and not is_phonics:
         # Keep each question on the same page as its stimulus, WITHOUT forcing a
         # whole long activity onto one page (which would dump it to the next page
         # and leave a near-empty page). Each group is [stimulus parts + the FIRST

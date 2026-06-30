@@ -21,23 +21,22 @@
     ]
   },
   "worksheet": {
-    "mascot_word": "owl",
+    "tab": {"main": "sh", "sub": "beg"},
     "eyebrow": "Grade 1 · Phonics · sh",
     "title": "I Can Read Sentences",
     "subtitle": "Sound /sh/",
     "footer_topic": "sh — I Can Read Sentences",
     "name_date": true,
     "parts": [
-      {"type": "prose", "text": "Underline the sh in each sentence. Then read every sentence out loud. Colour a face each time you read the whole page."},
-      {"type": "reading_rows", "bold": "sh", "rows": [
+      {"type": "prose", "text": "Underline the sh in each sentence. Then read each sentence out loud. Colour a face each time you read the whole page."},
+      {"type": "reading_rows", "bold": "sh", "size": "lg", "rows": [
         {"text": "The fish is in the dish.", "word": "fish"},
         {"text": "She has a big shell.", "word": "shell"},
         {"text": "The ship is on the sand.", "word": "ship"},
         {"text": "A shark can swim fast.", "word": "shark"},
         {"text": "I shop at the shop.", "word": "shop"}
       ]},
-      {"type": "read_tracker", "count": 3, "label": "Read the page 3 times. Colour a face each time you read it."},
-      {"type": "exercise", "number": 1, "title": "Your turn", "prompt": "Write two more words that have sh in them:", "answer_lines": 2}
+      {"type": "read_tracker", "count": 3, "label": "Read the page 3 times. Colour a face each time you read it."}
     ]
   },
   "teacher_guide": {

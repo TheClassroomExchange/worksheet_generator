@@ -23,23 +23,26 @@
     ]
   },
   "worksheet": {
-    "mascot_word": "pencil",
+    "tab": {"main": "-ing", "sub": "suffix"},
     "eyebrow": "Grade 3 · Word Study · suffix -ing",
     "title": "Adding -ing to Words",
     "subtitle": "A suffix that means it is happening now",
     "footer_topic": "-ing — Word Building",
     "name_date": true,
     "parts": [
-      {"type": "prose", "text": "A suffix is a word part you add to the end of a base word. Add -ing to each base word to show the action is happening now. Then read the sentences."},
-      {"type": "exercise", "number": 1, "title": "Build the word: base + ing", "prompt": "jump + ing = ___________     help + ing = ___________     sing + ing = ___________     read + ing = ___________", "answer_lines": 0},
-      {"type": "reading_rows", "bold": "ing", "rows": [
+      {"type": "prose", "text": "A suffix is a word part you add to the end of a base word. Add -ing to each base word to build the new word. Then read the sentences."},
+      {"type": "reading_rows", "size": "md", "title": "Build the word: base + ing", "rows": [
+        {"text": "jump  +  ing  =  ______________"},
+        {"text": "help  +  ing  =  ______________"},
+        {"text": "sing  +  ing  =  ______________"},
+        {"text": "read  +  ing  =  ______________"}
+      ]},
+      {"type": "reading_rows", "bold": "ing", "size": "lg", "title": "Read the sentences", "rows": [
         {"text": "The frog is jumping.", "word": "frog"},
         {"text": "We are reading a book.", "word": "book"},
-        {"text": "The kids are playing ball.", "word": "ball"},
-        {"text": "She is singing a song."},
-        {"text": "He is helping his mom."}
+        {"text": "The kids are playing ball.", "word": "ball"}
       ]},
-      {"type": "read_tracker", "count": 3, "label": "Read the page 3 times. Colour a face each time you read it."}
+      {"type": "read_tracker", "count": 3, "label": "Read the sentences 3 times. Colour a face each time."}
     ]
   },
   "teacher_guide": {

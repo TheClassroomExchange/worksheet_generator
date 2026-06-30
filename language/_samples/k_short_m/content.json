@@ -6,11 +6,10 @@
     "lesson_order": 6,
     "target_grapheme": "m",
     "decodable_text": [
-      "I am Sam.",
-      "Sam sat.",
+      "am",
+      "Sam",
       "map",
-      "mat",
-      "am"
+      "mat"
     ],
     "image_words": [],
     "curriculum": [
@@ -26,15 +25,12 @@
     "footer_topic": "Mm — Letter & Sound",
     "name_date": true,
     "parts": [
-      {"type": "formation", "title": "Trace and write Mm", "letter": "Mm", "word": "mouse", "keyword": "mouse", "trace": "M m  M m  M m", "lines": 2},
+      {"type": "formation", "title": "Trace and write Mm", "letter": "Mm", "word": "mouse", "keyword": "mouse", "trace": "M m M m", "lines": 1},
       {"type": "picture_row", "title": "Colour each picture that starts with the /m/ sound.", "items": [
         {"word": "mouse"}, {"word": "moon"}, {"word": "sun"},
         {"word": "milk"}, {"word": "cat"}, {"word": "mug"}
       ]},
-      {"type": "sound_boxes", "title": "Say it. Map it. Write it. Put one sound in each box, then write the word.", "rows": [
-        {"word": "map", "boxes": 3}
-      ]},
-      {"type": "prose", "title": "Read these words", "text": "I am Sam.   Sam sat.   am   map   mat"}
+      {"type": "symbols", "title": "Read these words. Sound them out: /m/ /a/ /p/.", "size": "md", "items": ["am", "Sam", "map", "mat"]}
     ]
   },
   "teacher_guide": {
@@ -51,13 +47,11 @@
         "1. Say /m/ together (lips together, humming). The keyword is mouse: /m/ /m/ mouse.",
         "2. Model writing M and m on the board, saying the strokes. Children trace, then write.",
         "3. Name each picture together. Children colour only the ones that begin with /m/.",
-        "4. Say the word 'map' slowly: /m/ /a/ /p/. Children put one sound in each box, then write 'map'.",
-        "5. Read the bottom words together, sounding each one out."
+        "4. Read the bottom words together, blending each one: /m/ /a/ /p/ = map."
       ]},
       {"type": "prose", "title": "Answer key", "text": [
         "Pictures that start with /m/: mouse, moon, milk, mug. (Not: sun, cat.)",
-        "Sound boxes for map: m | a | p, then write 'map'.",
-        "Reading words: I am Sam. Sam sat. am, map, mat — all read by blending /m/ /a/ ..."
+        "Reading words: am, Sam, map, mat — all read by blending the sounds, e.g. /m/ /a/ /p/ = map."
       ]},
       {"type": "prose", "title": "Ontario curriculum link (official wording)", "text": [
         "A2.4 — identify simple grapheme-phoneme correspondences.",

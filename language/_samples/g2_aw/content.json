@@ -13,7 +13,7 @@
       "Dad has a saw."
     ],
     "image_words": [
-      {"word": "hawk"}, {"word": "claw"}, {"word": "paw"},
+      {"word": "hawk"}, {"word": "crab"}, {"word": "paw"},
       {"word": "straw"}, {"word": "saw"}
     ],
     "curriculum": [
@@ -21,23 +21,22 @@
     ]
   },
   "worksheet": {
-    "mascot_word": "owl",
+    "tab": {"main": "aw", "sub": "/aw/"},
     "eyebrow": "Grade 2 · Phonics · aw",
     "title": "I Can Read Sentences",
     "subtitle": "Sound /aw/ spelled aw",
     "footer_topic": "aw — I Can Read Sentences",
     "name_date": true,
     "parts": [
-      {"type": "prose", "text": "Underline the aw in each sentence. Then read every sentence out loud. Colour a face each time you read the whole page."},
-      {"type": "reading_rows", "bold": "aw", "rows": [
+      {"type": "prose", "text": "Underline the aw in each sentence. Then read each sentence out loud. Colour a face each time you read the whole page."},
+      {"type": "reading_rows", "bold": "aw", "size": "lg", "rows": [
         {"text": "I saw a hawk.", "word": "hawk"},
-        {"text": "The crab has a claw.", "word": "claw"},
+        {"text": "The crab has a claw.", "word": "crab"},
         {"text": "The cat licks its paw.", "word": "paw"},
         {"text": "I sip with a straw.", "word": "straw"},
         {"text": "Dad has a saw.", "word": "saw"}
       ]},
-      {"type": "read_tracker", "count": 3, "label": "Read the page 3 times. Colour a face each time you read it."},
-      {"type": "exercise", "number": 1, "title": "Your turn", "prompt": "Write two more words that have the aw sound:", "answer_lines": 2}
+      {"type": "read_tracker", "count": 3, "label": "Read the page 3 times. Colour a face each time you read it."}
     ]
   },
   "teacher_guide": {
