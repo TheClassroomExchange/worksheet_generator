@@ -1,0 +1,154 @@
+{
+  "title": "I Can Read Sentences: sh",
+  "file_title": "I Can Read Sentences - sh",
+  "phonics": {
+    "grade": "K",
+    "lesson_order": 33,
+    "target_grapheme": "sh",
+    "decodable_text": [
+      "The fish is in the dish.",
+      "She has a big shell.",
+      "The ship is on the sand.",
+      "A shark can swim fast.",
+      "I shop at the shop."
+    ],
+    "image_words": [
+      {
+        "word": "fish"
+      },
+      {
+        "word": "shell"
+      },
+      {
+        "word": "ship"
+      },
+      {
+        "word": "shark"
+      },
+      {
+        "word": "shop"
+      }
+    ],
+    "curriculum": [
+      {
+        "code": "A2.4",
+        "text": "identify simple grapheme-phoneme correspondences"
+      },
+      {
+        "code": "A2.5",
+        "text": "read and spell simple words using phonemic awareness and phonics knowledge"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "sh",
+      "sub": "/sh/"
+    },
+    "eyebrow": "Kindergarten · Phonics · sh",
+    "title": "I Can Read Sentences",
+    "subtitle": "Sound /sh/",
+    "footer_topic": "sh — I Can Read Sentences",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "Underline the sh in each sentence. Then read each sentence out loud. Colour a face each time you read the whole page."
+      },
+      {
+        "type": "reading_rows",
+        "bold": "sh",
+        "size": "lg",
+        "rows": [
+          {
+            "text": "The fish is in the dish.",
+            "word": "fish",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fish.png"
+          },
+          {
+            "text": "She has a big shell.",
+            "word": "shell",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/shell.png"
+          },
+          {
+            "text": "The ship is on the sand.",
+            "word": "ship",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ship.png"
+          },
+          {
+            "text": "A shark can swim fast.",
+            "word": "shark",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/shark.png"
+          },
+          {
+            "text": "I shop at the shop.",
+            "word": "shop",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/shop.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the page 3 times. Colour a face each time you read it."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Kindergarten · sh",
+    "title": "sh",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "sh — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children read short, decodable sentences that practise the sound for sh. Every other word uses letter-sounds they already know, so they can read each sentence on their own. Reading the page three times builds fluency."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Say the sound for sh together.",
+          "2. Read the first sentence together, pointing under each word.",
+          "3. Children underline sh in each sentence, then read each sentence on their own.",
+          "4. Children read the whole page three times and colour one face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Sentence 1: fish, dish.",
+          "Sentence 2: She, shell.",
+          "Sentence 3: ship.",
+          "Sentence 4: shark.",
+          "Sentence 5: shop, shop.",
+          "Your turn / extension: any real word with sh."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "A2.4 — identify simple grapheme-phoneme correspondences.",
+          "In plain terms: children match a letter to the sound it makes.",
+          "A2.5 — read and spell simple words using phonemic awareness and phonics knowledge.",
+          "In plain terms: children read and spell simple words by blending the sounds."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out sh part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}
