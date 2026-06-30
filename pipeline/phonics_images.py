@@ -42,11 +42,33 @@ WORD_EMOJI: dict[str, str] = {
     "corn": "🌽", "plum": "🫐", "fig": "🍇", "pot": "🍲", "mug": "☕", "sock": "🧦",
     # people / body
     "hand": "✋", "foot": "🦶", "lips": "👄", "chin": "🧒", "king": "🤴", "queen": "👸",
+    "mouse": "🐭", "milk": "🥛", "mug": "☕", "moon": "🌙",
+    # mascots / header
+    "owl": "🦉", "book": "📖", "books": "📚", "pencil": "✏", "graduate": "🎓",
 }
 
 
 class ImageBackendUnavailable(RuntimeError):
     pass
+
+
+def _trim_white(path: Path, pad: int = 12) -> None:
+    """Crop surrounding white margin so the subject fills the frame (AI images
+    arrive centered in a large white canvas; OpenMoji icons already fill theirs)."""
+    try:
+        from PIL import Image, ImageChops
+    except Exception:
+        return
+    im = Image.open(path).convert("RGB")
+    bg = Image.new("RGB", im.size, (255, 255, 255))
+    diff = ImageChops.difference(im, bg)
+    bbox = diff.getbbox()
+    if not bbox:
+        return
+    l, t, r, b = bbox
+    l, t = max(0, l - pad), max(0, t - pad)
+    r, b = min(im.width, r + pad), min(im.height, b + pad)
+    im.crop((l, t, r, b)).save(path)
 
 
 def _emoji_hex(emoji: str) -> str:
@@ -120,7 +142,7 @@ def _ai(word: str, *, style: str = "simple black and white line drawing, clip-ar
     orkey = os.environ.get("OPENROUTER_API_KEY")
     if orkey:
         import base64
-        model = os.environ.get("OPENROUTER_IMAGE_MODEL", "google/gemini-2.5-flash-image-preview")
+        model = os.environ.get("OPENROUTER_IMAGE_MODEL", "google/gemini-2.5-flash-image")
         body = json.dumps({"model": model,
                            "messages": [{"role": "user", "content": prompt}],
                            "modalities": ["image", "text"]}).encode()
@@ -137,6 +159,7 @@ def _ai(word: str, *, style: str = "simple black and white line drawing, clip-ar
         data_uri = imgs[0]["image_url"]["url"]
         b64 = data_uri.split(",", 1)[1]
         dst.write_bytes(base64.b64decode(b64))
+        _trim_white(dst)
         return dst
     if okey:
         import base64
@@ -146,6 +169,7 @@ def _ai(word: str, *, style: str = "simple black and white line drawing, clip-ar
                                      {"Authorization": f"Bearer {okey}", "Content-Type": "application/json"})
         out = json.loads(_urlopen_tls(req, timeout=180))
         dst.write_bytes(base64.b64decode(out["data"][0]["b64_json"]))
+        _trim_white(dst)
         return dst
     if skey:
         boundary = "----phonicsboundary7MA4YWxk"
@@ -155,6 +179,7 @@ def _ai(word: str, *, style: str = "simple black and white line drawing, clip-ar
             headers={"Authorization": f"Bearer {skey}", "Accept": "image/*",
                      "Content-Type": f"multipart/form-data; boundary={boundary}"})
         dst.write_bytes(_urlopen_tls(req, timeout=180))
+        _trim_white(dst)
         return dst
     raise ImageBackendUnavailable(
         "No image-gen API key (OPENAI_API_KEY or STABILITY_API_KEY) set for the AI backend.")

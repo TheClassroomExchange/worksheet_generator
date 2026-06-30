@@ -1,0 +1,76 @@
+{
+  "title": "Letter and Sound: Mm",
+  "file_title": "Letter and Sound - Mm",
+  "phonics": {
+    "grade": "K",
+    "lesson_order": 6,
+    "target_grapheme": "m",
+    "decodable_text": [
+      "I am Sam.",
+      "Sam sat.",
+      "map",
+      "mat",
+      "am"
+    ],
+    "image_words": [],
+    "curriculum": [
+      {"code": "A2.4", "text": "identify simple grapheme-phoneme correspondences"},
+      {"code": "A2.2", "text": "use proper formation patterns to write letters"}
+    ]
+  },
+  "worksheet": {
+    "mascot_word": "mouse",
+    "eyebrow": "Kindergarten · Letter & Sound",
+    "title": "The Letter Mm",
+    "subtitle": "Sound /m/ as in mouse",
+    "footer_topic": "Mm — Letter & Sound",
+    "name_date": true,
+    "parts": [
+      {"type": "formation", "title": "Trace and write Mm", "letter": "Mm", "word": "mouse", "keyword": "mouse", "trace": "M m  M m  M m", "lines": 2},
+      {"type": "picture_row", "title": "Colour each picture that starts with the /m/ sound.", "items": [
+        {"word": "mouse"}, {"word": "moon"}, {"word": "sun"},
+        {"word": "milk"}, {"word": "cat"}, {"word": "mug"}
+      ]},
+      {"type": "sound_boxes", "title": "Say it. Map it. Write it. Put one sound in each box, then write the word.", "rows": [
+        {"word": "map", "boxes": 3}
+      ]},
+      {"type": "prose", "title": "Read these words", "text": "I am Sam.   Sam sat.   am   map   mat"}
+    ]
+  },
+  "teacher_guide": {
+    "mascot_word": "mouse",
+    "eyebrow": "Teacher Guide · Kindergarten · Letter & Sound",
+    "title": "The Letter Mm",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "Mm — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {"type": "prose", "title": "What this worksheet teaches", "text": "Children learn that the letter m makes the sound /m/. They practise forming the letter, listening for /m/ at the start of words, and mapping the sounds in a short word. All reading words use only sounds taught so far (a, t, s, i, p, m)."},
+      {"type": "prose", "title": "How to lead it (about 15 minutes)", "text": [
+        "1. Say /m/ together (lips together, humming). The keyword is mouse: /m/ /m/ mouse.",
+        "2. Model writing M and m on the board, saying the strokes. Children trace, then write.",
+        "3. Name each picture together. Children colour only the ones that begin with /m/.",
+        "4. Say the word 'map' slowly: /m/ /a/ /p/. Children put one sound in each box, then write 'map'.",
+        "5. Read the bottom words together, sounding each one out."
+      ]},
+      {"type": "prose", "title": "Answer key", "text": [
+        "Pictures that start with /m/: mouse, moon, milk, mug. (Not: sun, cat.)",
+        "Sound boxes for map: m | a | p, then write 'map'.",
+        "Reading words: I am Sam. Sam sat. am, map, mat — all read by blending /m/ /a/ ..."
+      ]},
+      {"type": "prose", "title": "Ontario curriculum link (official wording)", "text": [
+        "A2.4 — identify simple grapheme-phoneme correspondences.",
+        "In plain terms: children match a letter to the sound it makes — here, m to /m/.",
+        "A2.2 — use proper formation patterns to write letters.",
+        "In plain terms: children form the letter the correct way."
+      ]},
+      {"type": "prose", "title": "If children get stuck — and ways to adjust", "text": [
+        "Watch for: confusing /m/ and /n/. Stretch the sound and point to closed lips for /m/.",
+        "Make it easier: do the picture sort out loud together before colouring.",
+        "Make it harder: ask the child to think of one more /m/ word and draw it.",
+        "You'll know it worked when: the child writes m correctly and hears /m/ at the start of new words."
+      ]}
+    ]
+  }
+}
