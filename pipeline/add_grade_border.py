@@ -91,14 +91,20 @@ def find_pdfs(subj_grade: dict[str, str]) -> list[tuple[Path, str]]:
 
 
 def build_overlay(hex_: str, out: Path) -> None:
+    """Decorative grade-coloured page frame: a rounded solid outer band plus a
+    rounded dashed inner line (a friendly double frame). Both stay within ~8.5mm
+    of the edge so the content gate (40px ≈ 10.2mm inset) sees zero inner change."""
     from weasyprint import HTML
     html = (
         "<html><head><style>"
         "@page { size: Letter; margin: 0; }"
         "html,body { margin:0; padding:0; background: transparent; }"
         f".frame {{ position: fixed; top:0; left:0; right:0; bottom:0;"
-        f" border: {BORDER_MM}mm solid {hex_}; box-sizing: border-box; }}"
-        "</style></head><body><div class='frame'></div></body></html>"
+        f" border: 4.5mm solid {hex_}; border-radius: 15mm; box-sizing: border-box; }}"
+        f".frame-inner {{ position: fixed; top:6.6mm; left:6.6mm; right:6.6mm; bottom:6.6mm;"
+        f" border: 1.1mm dashed {hex_}; border-radius: 9mm; box-sizing: border-box; }}"
+        "</style></head><body><div class='frame'></div>"
+        "<div class='frame-inner'></div></body></html>"
     )
     HTML(string=html).write_pdf(str(out))
 

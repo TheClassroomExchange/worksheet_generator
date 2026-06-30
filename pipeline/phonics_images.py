@@ -130,13 +130,46 @@ def _http_get(url: str) -> bytes | None:
         return None
 
 
-def _ai(word: str, *, style: str = "simple black and white line drawing, clip-art, "
-        "thick outlines, white background, centered, no text") -> Path | None:
+# Animals / people / creatures get a cute kawaii FACE; everything else (objects,
+# food, nature) is drawn cute & rounded but WITHOUT a face.
+_ANIMATE = {
+    "cat", "dog", "pig", "hen", "fox", "ant", "bug", "bee", "rat", "cow", "duck",
+    "frog", "bat", "owl", "crab", "snail", "shark", "fish", "sheep", "mouse",
+    "hawk", "chick", "chimp", "lion", "tiger", "bear", "deer", "goat", "horse",
+    "seal", "whale", "shrimp", "dolphin", "penguin", "koala", "panda", "rabbit",
+    "hamster", "snake", "worm", "fly", "ladybug", "spider", "mole", "hippo",
+    "zebra", "giraffe", "monkey", "kangaroo", "elephant", "turtle", "puppy",
+    "kitten", "pup", "cub", "calf", "lamb", "foal", "joey", "octopus", "squid",
+    "king", "queen", "baby", "boy", "girl", "man", "kid", "chef", "doctor",
+    "dad", "mom", "nan", "pup", "vet", "clown", "dragon", "unicorn", "fairy",
+}
+
+_KAWAII_FACE = (
+    "cute kawaii chibi style, simple black and white line drawing of a {w}, "
+    "rounded friendly character with a happy smiling face and big cute sparkly eyes, "
+    "thick clean bold outlines, minimal, coloring-book style, plain white background, "
+    "centered, no text, no shading")
+_KAWAII_OBJECT = (
+    "cute kawaii style, simple rounded black and white line drawing of a {w}, "
+    "soft rounded friendly shapes, thick clean bold outlines, minimal, coloring-book style, "
+    "plain white background, centered, no text, NO face, no eyes, no shading")
+
+
+def _is_animate(word: str) -> bool:
+    w = word.lower()
+    return w in _ANIMATE or w.rstrip("s") in _ANIMATE
+
+
+def _ai(word: str, *, style: str | None = None) -> Path | None:
     AI_DIR.mkdir(parents=True, exist_ok=True)
     dst = AI_DIR / f"{word.lower()}.png"
     if dst.exists():
         return dst
-    prompt = f"A {style} of a {word}."
+    if style:
+        prompt = f"A {style} of a {word}."
+    else:
+        tmpl = _KAWAII_FACE if _is_animate(word) else _KAWAII_OBJECT
+        prompt = tmpl.format(w=word)
     okey = os.environ.get("OPENAI_API_KEY")
     skey = os.environ.get("STABILITY_API_KEY")
     orkey = os.environ.get("OPENROUTER_API_KEY")
