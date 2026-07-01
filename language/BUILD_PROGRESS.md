@@ -79,3 +79,7 @@ blast-radius protocol; REVERT_ITEM_IDS.json.
 - Give all rows in a reading_rows pictures OR none (empty pic cells look odd).
 - Image gen ~5-10s each; run subjects in background; cache in assets/ai_line_art.
 - Spot-check 1 page/subject (design approved); rely on automated gates for the rest.
+
+## Phase 4a — Drive publish ✅ DONE (2026-07-01)
+112/112 live in Product/Resources/Generated Language Worksheets/<Grade>/<Subject>/<N. Title>/ (1 PDF each, verified live: K33/G1-47/G2-21/G3-11). Root folder 1SsgiXNxds6ZDtEcIUx4Rjjl4kAxJbg9J.
+**Marketplace: NOT published** — held for user validation pipeline + explicit go + blast-radius protocol.
