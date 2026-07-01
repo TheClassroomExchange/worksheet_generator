@@ -1,0 +1,209 @@
+=== SUBJECT g1_rcontrolled ===
+  OK 01_tch-catch (20/20)
+  OK 02_dge-edge (20/20)
+  OK 03_ar-arm (20/20)
+  OK 04_or-fork (20/20)
+  OK 05_er-hammer (20/20)
+  OK 06_ir-bird (20/20)
+  OK 07_ur-surf (20/20)
+  -> built 7, failed 0
+=== SUBJECT g1_diphthongs ===
+  OK 01_ou-house (20/20)
+  OK 02_ow-owl (20/20)
+  OK 03_oo-book (20/20)
+  OK 04_oo-moon (20/20)
+  OK 05_oi-coin (20/20)
+  OK 06_oy-toy (20/20)
+  -> built 6, failed 0
+=== SUBJECT g1_silent_letters ===
+  OK 01_kn-knee (20/20)
+  FAIL 02_wr-write: image API call failed: curl: (56) The requested URL returned error: 403
+
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 101, in _urlopen_tls
+    with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 51, in run_subject
+    r = lb.build_unit(udir, grade)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 122, in build_unit
+    resolved, missing = materialize(content, backend)
+                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 54, in materialize
+    ip = need(r["word"])
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 34, in need
+    path = _resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 23, in _resolve
+    p = pi.resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 235, in resolve
+    return _ai(word)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 186, in _ai
+    out = json.loads(_urlopen_tls(req, timeout=180))
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 111, in _urlopen_tls
+    raise ImageBackendUnavailable(f"image API call failed: {out.stderr.decode()[:300]}")
+pipeline.phonics_images.ImageBackendUnavailable: image API call failed: curl: (56) The requested URL returned error: 403
+
+  FAIL 03_mb-comb: image API call failed: curl: (56) The requested URL returned error: 403
+
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 101, in _urlopen_tls
+    with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 51, in run_subject
+    r = lb.build_unit(udir, grade)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 122, in build_unit
+    resolved, missing = materialize(content, backend)
+                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 54, in materialize
+    ip = need(r["word"])
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 34, in need
+    path = _resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 23, in _resolve
+    p = pi.resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 235, in resolve
+    return _ai(word)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 186, in _ai
+    out = json.loads(_urlopen_tls(req, timeout=180))
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 111, in _urlopen_tls
+    raise ImageBackendUnavailable(f"image API call failed: {out.stderr.decode()[:300]}")
+pipeline.phonics_images.ImageBackendUnavailable: image API call failed: curl: (56) The requested URL returned error: 403
+
+  FAIL 04_ph-photo: image API call failed: curl: (56) The requested URL returned error: 403
+
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 101, in _urlopen_tls
+    with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 51, in run_subject
+    r = lb.build_unit(udir, grade)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 122, in build_unit
+    resolved, missing = materialize(content, backend)
+                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 54, in materialize
+    ip = need(r["word"])
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 34, in need
+    path = _resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 23, in _resolve
+    p = pi.resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 235, in resolve
+    return _ai(word)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 186, in _ai
+    out = json.loads(_urlopen_tls(req, timeout=180))
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 111, in _urlopen_tls
+    raise ImageBackendUnavailable(f"image API call failed: {out.stderr.decode()[:300]}")
+pipeline.phonics_images.ImageBackendUnavailable: image API call failed: curl: (56) The requested URL returned error: 403
+
+  FAIL 05_gh-laugh: image API call failed: curl: (56) The requested URL returned error: 403
+
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 101, in _urlopen_tls
+    with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 51, in run_subject
+    r = lb.build_unit(udir, grade)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 122, in build_unit
+    resolved, missing = materialize(content, backend)
+                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 54, in materialize
+    ip = need(r["word"])
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 34, in need
+    path = _resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 23, in _resolve
+    p = pi.resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 235, in resolve
+    return _ai(word)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 186, in _ai
+    out = json.loads(_urlopen_tls(req, timeout=180))
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 111, in _urlopen_tls
+    raise ImageBackendUnavailable(f"image API call failed: {out.stderr.decode()[:300]}")
+pipeline.phonics_images.ImageBackendUnavailable: image API call failed: curl: (56) The requested URL returned error: 403
+
+  -> built 1, failed 4
+
+SUMMARY:
+  g1_rcontrolled: +7 built, 0 failed
+  g1_diphthongs: +6 built, 0 failed
+  g1_silent_letters: +1 built, 4 failed
