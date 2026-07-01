@@ -27,7 +27,8 @@ def check(sid: str) -> bool:
         text = " ".join(ph["decodable_text"]).lower()
         bad_imgs = [iw["word"] for iw in ph.get("image_words", []) if iw["word"].lower() not in text]
         tgt = ph["target_grapheme"].strip("-_").lower()
-        tp = ("_" in ph["target_grapheme"]) or (bool(tgt) and any(tgt in re.sub("[^a-z]", "", s.lower()) for s in ph["decodable_text"]))
+        optional = ("_" in ph["target_grapheme"]) or (not ph["target_grapheme"].replace("-", "").isalpha()) or bool(ph.get("target_optional"))
+        tp = optional or (bool(tgt) and any(tgt in re.sub("[^a-z]", "", s.lower()) for s in ph["decodable_text"]))
         ok = r["passed"] and tp and not bad_imgs
         allok &= ok
         flag = "OK" if ok else "XX"

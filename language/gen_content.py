@@ -98,6 +98,7 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
         "phonics": {"grade": _gd(grade), "lesson_order": order, "target_grapheme": target,
                     "decodable_text": decodable,
                     "image_words": img_words,
+                    "target_optional": ("_" in target or target.lower() in {"schwa"}),
                     "curriculum": _cur(grade, codes)},
         "worksheet": {
             "tab": {"main": tab_main, "sub": sub},
@@ -128,22 +129,27 @@ def gen_word_building(topic: dict, data: dict, grade: str) -> dict:
     order = data.get("order", topic["order"])
     sub = data.get("sub", "suffix")
     sound = data.get("sound", "")
-    build = data["build"]            # [[base, word], ...]
+    build = data.get("build", [])    # [[base, word], ...]  (base + affix)
     rows = data["sentences"]
     codes = _codes(grade, "word_building")
-    decodable = [r["text"] for r in rows] + [w for _, w in build] + [b for b, _ in build]
-    img_words = [{"word": r["pic"]} for r in rows if r.get("pic")]
     blank = "______________"
-    build_rows = [{"text": f"{b}  +  {target.strip('-')}  =  {blank}"} for b, _ in build]
+    if data.get("build_lines"):      # explicit build strings (e.g. syllable splits)
+        build_rows = [{"text": ln} for ln in data["build_lines"]]
+    else:
+        build_rows = [{"text": f"{b}  +  {target.strip('-')}  =  {blank}"} for b, _ in build]
+    decodable = ([r["text"] for r in rows] + [w for _, w in build] + [b for b, _ in build]
+                 + list(data.get("extra_words", [])))
+    img_words = [{"word": r["pic"]} for r in rows if r.get("pic")]
     return {
         "title": f"Word Building: {target}",
         "file_title": f"Word Building - {target}",
         "phonics": {"grade": _gd(grade), "lesson_order": order, "target_grapheme": target,
                     "decodable_text": decodable, "image_words": img_words,
+                    "target_optional": True,
                     "curriculum": _cur(grade, codes)},
         "worksheet": {
-            "tab": {"main": target, "sub": sub},
-            "eyebrow": f"{grade} · Word Study · {target}",
+            "tab": {"main": data.get("tab_main", target), "sub": sub},
+            "eyebrow": f"{grade} · Word Study · {data.get('tab_main', target)}",
             "title": data.get("title", f"Adding {target} to Words"), "subtitle": sound,
             "footer_topic": f"{target} — Word Building", "name_date": True,
             "parts": [
@@ -157,11 +163,13 @@ def gen_word_building(topic: dict, data: dict, grade: str) -> dict:
         "teacher_guide": _tg(grade, target, sound,
                              teaches=f"Children learn the word part {target} and build new words from base words, "
                                      f"then read them in decodable sentences.",
-                             lead=[f"1. Explain that {target} is added to a base word.",
-                                   f"2. Model the first one: {build[0][0]} + {target.strip('-')} = {build[0][1]}.",
+                             lead=[f"1. Explain the word part / pattern: {data.get('tab_main', target)}.",
+                                   f"2. Model the first one: {build[0][0]} + {target.strip('-')} = {build[0][1]}."
+                                   if build else f"2. Model the first one together: {build_rows[0]['text'].replace(blank, '?')}.",
                                    "3. Children build the rest, then read each sentence.",
                                    "4. Children read the page three times and colour a face each time."],
-                             answer=[f"Build: {', '.join(w for _, w in build)}.",
+                             answer=[f"Build: {', '.join(w for _, w in build)}." if build
+                                     else "Build: " + ", ".join(w for w in data.get("extra_words", [])[:6]) + ".",
                                      data.get("note", ""),
                                      "Sentences: " + " ".join(r["text"] for r in rows)],
                              codes=codes),

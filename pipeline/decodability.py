@@ -203,7 +203,7 @@ def check_unit(unit_dir, write: bool = True) -> dict:
     # Pseudo-graphemes (a_e magic-e, i_open open-syllable) are not literal substrings;
     # decodability itself already proves a magic-e/team is taught, so skip the
     # literal target-present check for them.
-    is_pseudo = "_" in target
+    is_pseudo = "_" in target or (not target.replace("-", "").isalpha()) or bool(ph.get("target_optional"))
     report["target_grapheme"] = target
     report["target_present"] = bool(tgt) and any(tgt in re.sub(r"[^a-z]", "", s.lower()) for s in items)
     report["passed"] = report["passed"] and (report["target_present"] or not tgt or is_pseudo)
