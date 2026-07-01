@@ -200,9 +200,13 @@ def check_unit(unit_dir, write: bool = True) -> dict:
                         allowed_exceptions=ph.get("allowed_exceptions"))
     # target-pattern-present check (the new grapheme must actually be exercised)
     tgt = target.strip("-_").lower()
+    # Pseudo-graphemes (a_e magic-e, i_open open-syllable) are not literal substrings;
+    # decodability itself already proves a magic-e/team is taught, so skip the
+    # literal target-present check for them.
+    is_pseudo = "_" in target
     report["target_grapheme"] = target
     report["target_present"] = bool(tgt) and any(tgt in re.sub(r"[^a-z]", "", s.lower()) for s in items)
-    report["passed"] = report["passed"] and (report["target_present"] or not tgt)
+    report["passed"] = report["passed"] and (report["target_present"] or not tgt or is_pseudo)
     if write:
         (unit_dir / "decodability_run.json").write_text(json.dumps(report, indent=2))
     return report

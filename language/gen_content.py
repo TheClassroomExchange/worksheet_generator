@@ -86,21 +86,26 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
         ww = _words_with(target, r["text"])
         ak.append(f"Sentence {i}: {', '.join(ww) if ww else '—'}.")
     title = "I Can Read Sentences"
+    tab_main = data.get("tab_main", target)     # readable tab label (e.g. "a_e", "o")
+    label = data.get("label", target)           # what to say in directions
+    directions = data.get("directions",
+                          f"Underline the {label} in each sentence. Then read each sentence out loud. "
+                          "Colour a face each time you read the whole page.")
+    bold = data.get("bold", target)             # row-level bold key (per-row `bold` still wins)
     return {
-        "title": f"{title}: {target}",
-        "file_title": f"{title} - {target}",
+        "title": f"{title}: {tab_main}",
+        "file_title": f"{title} - {re.sub('[^A-Za-z0-9]+','-',tab_main).strip('-')}",
         "phonics": {"grade": _gd(grade), "lesson_order": order, "target_grapheme": target,
                     "decodable_text": decodable,
                     "image_words": img_words,
                     "curriculum": _cur(grade, codes)},
         "worksheet": {
-            "tab": {"main": target, "sub": sub},
-            "eyebrow": f"{grade} · Phonics · {target}", "title": title, "subtitle": sound,
-            "footer_topic": f"{target} — I Can Read Sentences", "name_date": True,
+            "tab": {"main": tab_main, "sub": sub},
+            "eyebrow": f"{grade} · Phonics · {tab_main}", "title": title, "subtitle": sound,
+            "footer_topic": f"{tab_main} — I Can Read Sentences", "name_date": True,
             "parts": [
-                {"type": "prose", "text": f"Underline the {target} in each sentence. "
-                 "Then read each sentence out loud. Colour a face each time you read the whole page."},
-                {"type": "reading_rows", "bold": target, "size": "lg",
+                {"type": "prose", "text": directions},
+                {"type": "reading_rows", "bold": bold, "size": "lg",
                  "rows": [{"text": r["text"], **({"word": r["pic"]} if r.get("pic") else {})} for r in rows]},
                 {"type": "read_tracker", "count": 3,
                  "label": "Read the page 3 times. Colour a face each time you read it."},
