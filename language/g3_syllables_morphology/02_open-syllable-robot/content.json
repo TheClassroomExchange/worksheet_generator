@@ -1,0 +1,152 @@
+{
+  "title": "Word Building: open-syllable",
+  "file_title": "Word Building - open-syllable",
+  "phonics": {
+    "grade": "3",
+    "lesson_order": 115,
+    "target_grapheme": "open-syllable",
+    "decodable_text": [
+      "The robot can walk.",
+      "The tiger runs fast.",
+      "I like music.",
+      "robot",
+      "tiger",
+      "music",
+      "paper"
+    ],
+    "image_words": [
+      {
+        "word": "robot"
+      },
+      {
+        "word": "tiger"
+      },
+      {
+        "word": "robot"
+      }
+    ],
+    "target_optional": true,
+    "curriculum": [
+      {
+        "code": "B2.3",
+        "text": "use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "syl",
+      "sub": "long vowel"
+    },
+    "eyebrow": "Grade 3 · Word Study · syl",
+    "title": "Open Syllables",
+    "subtitle": "",
+    "footer_topic": "open-syllable — Word Building",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "When a syllable ends in a vowel, the vowel is long: ro-bot. Join the beats, then read the sentences."
+      },
+      {
+        "type": "reading_rows",
+        "size": "md",
+        "title": "Build the word",
+        "rows": [
+          {
+            "text": "ro + bot = ______________"
+          },
+          {
+            "text": "ti + ger = ______________"
+          },
+          {
+            "text": "mu + sic = ______________"
+          },
+          {
+            "text": "pa + per = ______________"
+          }
+        ]
+      },
+      {
+        "type": "reading_rows",
+        "bold": "open-syllable",
+        "size": "md",
+        "title": "Read the sentences",
+        "rows": [
+          {
+            "text": "The robot can walk.",
+            "word": "robot",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/robot.png"
+          },
+          {
+            "text": "The tiger runs fast.",
+            "word": "tiger",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/tiger.png"
+          },
+          {
+            "text": "I like music.",
+            "word": "robot",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/robot.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the sentences 3 times. Colour a face each time."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Grade 3 · open-syllable",
+    "title": "open-syllable",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "open-syllable — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children learn the word part open-syllable and build new words from base words, then read them in decodable sentences."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Explain the word part / pattern: syl.",
+          "2. Model the first one together: ro + bot = ?.",
+          "3. Children build the rest, then read each sentence.",
+          "4. Children read the page three times and colour a face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Build: robot, tiger, music, paper.",
+          "An open syllable ends in a vowel that says its long name: ro-bot.",
+          "Sentences: The robot can walk. The tiger runs fast. I like music."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "B2.3 — use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words.",
+          "In plain terms: children read and spell the everyday letter-sounds (and word parts) quickly."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out open-syllable part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}

@@ -92,9 +92,10 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
                           f"Underline the {label} in each sentence. Then read each sentence out loud. "
                           "Colour a face each time you read the whole page.")
     bold = data.get("bold", target)             # row-level bold key (per-row `bold` still wins)
+    _ft = re.sub('[^A-Za-z0-9]+', '-', tab_main).strip('-') or re.sub('[^A-Za-z0-9]+', '-', target).strip('-') or "sheet"
     return {
         "title": f"{title}: {tab_main}",
-        "file_title": f"{title} - {re.sub('[^A-Za-z0-9]+','-',tab_main).strip('-')}",
+        "file_title": f"{title} - {_ft}",
         "phonics": {"grade": _gd(grade), "lesson_order": order, "target_grapheme": target,
                     "decodable_text": decodable,
                     "image_words": img_words,
@@ -130,7 +131,7 @@ def gen_word_building(topic: dict, data: dict, grade: str) -> dict:
     sub = data.get("sub", "suffix")
     sound = data.get("sound", "")
     build = data.get("build", [])    # [[base, word], ...]  (base + affix)
-    rows = data["sentences"]
+    rows = data["sentences"][:3]     # cap to 3 so build-table + sentences fit one page
     codes = _codes(grade, "word_building")
     blank = "______________"
     if data.get("build_lines"):      # explicit build strings (e.g. syllable splits)
@@ -156,7 +157,7 @@ def gen_word_building(topic: dict, data: dict, grade: str) -> dict:
                 {"type": "prose", "text": data.get("intro",
                  f"A word part can be added to a base word. Build each word, then read the sentences.")},
                 {"type": "reading_rows", "size": "md", "title": "Build the word", "rows": build_rows},
-                {"type": "reading_rows", "bold": target.strip("-"), "size": "lg", "title": "Read the sentences",
+                {"type": "reading_rows", "bold": target.strip("-"), "size": "md", "title": "Read the sentences",
                  "rows": [{"text": r["text"], **({"word": r["pic"]} if r.get("pic") else {})} for r in rows]},
                 {"type": "read_tracker", "count": 3, "label": "Read the sentences 3 times. Colour a face each time."},
             ]},

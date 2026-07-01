@@ -1,0 +1,152 @@
+{
+  "title": "Word Building: compound",
+  "file_title": "Word Building - compound",
+  "phonics": {
+    "grade": "3",
+    "lesson_order": 116,
+    "target_grapheme": "compound",
+    "decodable_text": [
+      "I see the sunset.",
+      "I eat a cupcake.",
+      "My backpack is red.",
+      "sunset",
+      "cupcake",
+      "backpack",
+      "rainbow"
+    ],
+    "image_words": [
+      {
+        "word": "sunset"
+      },
+      {
+        "word": "cupcake"
+      },
+      {
+        "word": "backpack"
+      }
+    ],
+    "target_optional": true,
+    "curriculum": [
+      {
+        "code": "B2.3",
+        "text": "use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "cmpd",
+      "sub": "two words"
+    },
+    "eyebrow": "Grade 3 · Word Study · cmpd",
+    "title": "Compound Words",
+    "subtitle": "",
+    "footer_topic": "compound — Word Building",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "A compound word is two small words joined into one. Join them, then read the sentences."
+      },
+      {
+        "type": "reading_rows",
+        "size": "md",
+        "title": "Build the word",
+        "rows": [
+          {
+            "text": "sun + set = ______________"
+          },
+          {
+            "text": "cup + cake = ______________"
+          },
+          {
+            "text": "back + pack = ______________"
+          },
+          {
+            "text": "rain + bow = ______________"
+          }
+        ]
+      },
+      {
+        "type": "reading_rows",
+        "bold": "compound",
+        "size": "md",
+        "title": "Read the sentences",
+        "rows": [
+          {
+            "text": "I see the sunset.",
+            "word": "sunset",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sunset.png"
+          },
+          {
+            "text": "I eat a cupcake.",
+            "word": "cupcake",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cupcake.png"
+          },
+          {
+            "text": "My backpack is red.",
+            "word": "backpack",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/backpack.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the sentences 3 times. Colour a face each time."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Grade 3 · compound",
+    "title": "compound",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "compound — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children learn the word part compound and build new words from base words, then read them in decodable sentences."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Explain the word part / pattern: cmpd.",
+          "2. Model the first one together: sun + set = ?.",
+          "3. Children build the rest, then read each sentence.",
+          "4. Children read the page three times and colour a face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Build: sunset, cupcake, backpack, rainbow.",
+          "Two words join to make one: sun + set = sunset.",
+          "Sentences: I see the sunset. I eat a cupcake. My backpack is red."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "B2.3 — use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words.",
+          "In plain terms: children read and spell the everyday letter-sounds (and word parts) quickly."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out compound part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}

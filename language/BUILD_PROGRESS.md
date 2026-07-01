@@ -28,7 +28,14 @@ See `language/DESIGN_STANDARD.md` (gated by rubric C4 + pipeline defaults).
 - Per-subject **data.json** = the authored IP (sentences/words). Build a subject:
   author `language/<sid>/data.json` (keyed by target/dir/nn) → `run_build <sid>`.
 
-## ⛔ BLOCKED (2026-06-30): OpenRouter "Key limit exceeded (total limit)" — 76/112 built
+## ✅ PHASE 3 COMPLETE (2026-07-01): 112/112 BUILT, all 20/20 — autonomous build DONE
+K 33 · G1 47 · G2 21 · G3 11. Every sheet: decodability + verbatim-curriculum + image-align
++ page-fill + border gates PASS; kawaii design (faces on animals only) + decorative border.
+One combined PDF (worksheet + teacher guide) per unit; 112 PDFs on disk; 1 pdf/dir hygiene clean.
+**STOPPED before publish** — awaiting user random-sample review, then Phase 4 (Drive + marketplace).
+(Earlier blocker resolved: user raised the OpenRouter key limit.)
+
+## (history) BLOCKED 2026-06-30: OpenRouter key limit — resolved
 Image gen returns HTTP 403; account has credit ($63 left) but the API KEY has a per-key
 spend cap that's hit (~$41.84 / ~450 images). **RESUME:** raise/remove the key limit at
 openrouter.ai workspace keys (or drop a new key into ~/.claude/.openrouter.env), then:

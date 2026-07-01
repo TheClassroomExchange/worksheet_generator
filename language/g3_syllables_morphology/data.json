@@ -1,50 +1,165 @@
 {
-  "01_closed-closed-rabbit": {"tab_main": "2 syllables", "sub": "closed", "title": "Two-Syllable Words",
+  "01_closed-closed-rabbit": {
+    "tab_main": "syl",
+    "sub": "closed",
+    "title": "Two-Syllable Words",
     "intro": "Long words split into syllables (beats). Join the two beats, then read the sentences.",
-    "build_lines": ["rab + bit = ______________", "nap + kin = ______________", "mit + ten = ______________", "pup + pet = ______________"],
-    "extra_words": ["rabbit", "napkin", "mitten", "puppet"],
+    "build_lines": [
+      "rab + bit = ______________",
+      "nap + kin = ______________",
+      "mit + ten = ______________",
+      "pup + pet = ______________"
+    ],
+    "extra_words": [
+      "rabbit",
+      "napkin",
+      "mitten",
+      "puppet"
+    ],
     "note": "Split a long word into beats to read it: rab-bit.",
     "sentences": [
-      {"text": "The rabbit hops.", "pic": "rabbit"},
-      {"text": "Use a napkin.", "pic": "napkin"},
-      {"text": "I lost a mitten.", "pic": "mitten"},
-      {"text": "The puppet is fun.", "pic": "puppet"},
-      {"text": "The rabbit is soft.", "pic": "rabbit"}
-    ]},
-  "02_open-syllable-robot": {"tab_main": "open syllable", "sub": "long vowel", "title": "Open Syllables",
+      {
+        "text": "The rabbit hops.",
+        "pic": "rabbit"
+      },
+      {
+        "text": "Use a napkin.",
+        "pic": "napkin"
+      },
+      {
+        "text": "I lost a mitten.",
+        "pic": "mitten"
+      },
+      {
+        "text": "The puppet is fun.",
+        "pic": "puppet"
+      },
+      {
+        "text": "The rabbit is soft.",
+        "pic": "rabbit"
+      }
+    ]
+  },
+  "02_open-syllable-robot": {
+    "tab_main": "syl",
+    "sub": "long vowel",
+    "title": "Open Syllables",
     "intro": "When a syllable ends in a vowel, the vowel is long: ro-bot. Join the beats, then read the sentences.",
-    "build_lines": ["ro + bot = ______________", "ti + ger = ______________", "mu + sic = ______________", "pa + per = ______________"],
-    "extra_words": ["robot", "tiger", "music", "paper"],
+    "build_lines": [
+      "ro + bot = ______________",
+      "ti + ger = ______________",
+      "mu + sic = ______________",
+      "pa + per = ______________"
+    ],
+    "extra_words": [
+      "robot",
+      "tiger",
+      "music",
+      "paper"
+    ],
     "note": "An open syllable ends in a vowel that says its long name: ro-bot.",
     "sentences": [
-      {"text": "The robot can walk.", "pic": "robot"},
-      {"text": "The tiger runs fast.", "pic": "tiger"},
-      {"text": "I like music.", "pic": "robot"},
-      {"text": "Draw on the paper.", "pic": "paper"},
-      {"text": "The tiger is big.", "pic": "tiger"}
-    ]},
-  "03_compound-sunset": {"tab_main": "compound", "sub": "two words", "title": "Compound Words",
+      {
+        "text": "The robot can walk.",
+        "pic": "robot"
+      },
+      {
+        "text": "The tiger runs fast.",
+        "pic": "tiger"
+      },
+      {
+        "text": "I like music.",
+        "pic": "robot"
+      },
+      {
+        "text": "Draw on the paper.",
+        "pic": "paper"
+      },
+      {
+        "text": "The tiger is big.",
+        "pic": "tiger"
+      }
+    ]
+  },
+  "03_compound-sunset": {
+    "tab_main": "cmpd",
+    "sub": "two words",
+    "title": "Compound Words",
     "intro": "A compound word is two small words joined into one. Join them, then read the sentences.",
-    "build_lines": ["sun + set = ______________", "cup + cake = ______________", "back + pack = ______________", "rain + bow = ______________"],
-    "extra_words": ["sunset", "cupcake", "backpack", "rainbow"],
+    "build_lines": [
+      "sun + set = ______________",
+      "cup + cake = ______________",
+      "back + pack = ______________",
+      "rain + bow = ______________"
+    ],
+    "extra_words": [
+      "sunset",
+      "cupcake",
+      "backpack",
+      "rainbow"
+    ],
     "note": "Two words join to make one: sun + set = sunset.",
     "sentences": [
-      {"text": "I see the sunset.", "pic": "sunset"},
-      {"text": "I eat a cupcake.", "pic": "cupcake"},
-      {"text": "My backpack is red.", "pic": "backpack"},
-      {"text": "The rainbow is bright.", "pic": "rainbow"},
-      {"text": "A big cupcake.", "pic": "cupcake"}
-    ]},
-  "04_contraction-can-t": {"tab_main": "contraction", "sub": "two words joined", "title": "Contractions",
+      {
+        "text": "I see the sunset.",
+        "pic": "sunset"
+      },
+      {
+        "text": "I eat a cupcake.",
+        "pic": "cupcake"
+      },
+      {
+        "text": "My backpack is red.",
+        "pic": "backpack"
+      },
+      {
+        "text": "The rainbow is bright.",
+        "pic": "rainbow"
+      },
+      {
+        "text": "A big cupcake.",
+        "pic": "cupcake"
+      }
+    ]
+  },
+  "04_contraction-can-t": {
+    "tab_main": "n't",
+    "sub": "two words joined",
+    "title": "Contractions",
     "intro": "A contraction joins two words and uses an apostrophe for the missing letters. Read the sentences.",
-    "build_lines": ["can + not = can't", "do + not = don't", "it + is = it's", "I + am = I'm"],
-    "extra_words": ["cannot", "not", "can"],
+    "build_lines": [
+      "can + not = can't",
+      "do + not = don't",
+      "it + is = it's",
+      "I + am = I'm"
+    ],
+    "extra_words": [
+      "cannot",
+      "not",
+      "can"
+    ],
     "note": "The apostrophe stands for the missing letters: can not -> can't.",
     "sentences": [
-      {"text": "I can't see the cat.", "pic": "cat"},
-      {"text": "Don't drop the cup.", "pic": "cup"},
-      {"text": "It's a big dog.", "pic": "dog"},
-      {"text": "I'm on the bus.", "pic": "bus"},
-      {"text": "The dog can't nap.", "pic": "dog"}
-    ]}
+      {
+        "text": "I can't see the cat.",
+        "pic": "cat"
+      },
+      {
+        "text": "Don't drop the cup.",
+        "pic": "cup"
+      },
+      {
+        "text": "It's a big dog.",
+        "pic": "dog"
+      },
+      {
+        "text": "I'm on the bus.",
+        "pic": "bus"
+      },
+      {
+        "text": "The dog can't nap.",
+        "pic": "dog"
+      }
+    ]
+  }
 }

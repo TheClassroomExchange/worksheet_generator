@@ -1,0 +1,32 @@
+{
+  "grade": "Grade 3",
+  "scores": {
+    "C1": 4,
+    "C2": 4,
+    "C3": 4,
+    "C4": 4,
+    "C5": 4
+  },
+  "total": 20,
+  "max": 20,
+  "status": "pass",
+  "reasons": [],
+  "drift": {
+    "passed": true,
+    "checks": {
+      "decodability": {
+        "passed": true,
+        "detail": "decodability_run.json passed"
+      },
+      "curriculum": {
+        "passed": true,
+        "detail": "1 citation(s) verbatim-matched"
+      },
+      "image_alignment": {
+        "passed": true,
+        "detail": "all image words appear in decodable text"
+      }
+    }
+  },
+  "notes": ""
+}

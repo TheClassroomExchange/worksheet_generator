@@ -1,37 +1,135 @@
 {
-  "01_ly-slowly": {"tab_main": "-ly", "sub": "how", "title": "Adding -ly (how something is done)",
+  "01_ly-slowly": {
+    "tab_main": "-ly",
+    "sub": "how",
+    "title": "Adding -ly (how something is done)",
     "intro": "Add -ly to tell how something is done. Build each word, then read the sentences.",
-    "build": [["slow", "slowly"], ["soft", "softly"], ["quick", "quickly"], ["glad", "gladly"]],
+    "build": [
+      [
+        "slow",
+        "slowly"
+      ],
+      [
+        "soft",
+        "softly"
+      ],
+      [
+        "quick",
+        "quickly"
+      ],
+      [
+        "glad",
+        "gladly"
+      ]
+    ],
     "note": "-ly usually just adds to the end of the word.",
     "sentences": [
-      {"text": "The turtle walks slowly.", "pic": "turtle"},
-      {"text": "The bird sang softly.", "pic": "bird"},
-      {"text": "The dog runs quickly.", "pic": "dog"},
-      {"text": "The snail moves slowly.", "pic": "snail"},
-      {"text": "The cat naps quietly.", "pic": "cat"}
-    ]},
-  "02_un-undo": {"tab_main": "un-", "sub": "not / opposite", "title": "The prefix un- (not / opposite)",
+      {
+        "text": "The turtle walks slowly.",
+        "pic": "turtle"
+      },
+      {
+        "text": "The bird sang softly.",
+        "pic": "bird"
+      },
+      {
+        "text": "The dog runs quickly.",
+        "pic": "dog"
+      },
+      {
+        "text": "The snail moves slowly.",
+        "pic": "snail"
+      },
+      {
+        "text": "The cat naps quietly.",
+        "pic": "cat"
+      }
+    ]
+  },
+  "02_un-undo": {
+    "tab_main": "un-",
+    "sub": "not / opposite",
+    "title": "The prefix un- (not / opposite)",
     "intro": "The prefix un- goes at the START of a word. It means not or the opposite. Build each word, then read the sentences.",
-    "build_lines": ["un + lock = ______________", "un + do = ______________", "un + zip = ______________", "un + happy = ______________"],
-    "extra_words": ["unlock", "undo", "unzip", "unhappy", "lock", "zip", "happy"],
+    "build_lines": [
+      "un + lock = ______________",
+      "un + do = ______________",
+      "un + zip = ______________",
+      "un + happy = ______________"
+    ],
+    "extra_words": [
+      "unlock",
+      "undo",
+      "unzip",
+      "unhappy",
+      "lock",
+      "zip",
+      "happy"
+    ],
     "note": "un- goes at the start and means not or opposite.",
     "sentences": [
-      {"text": "I unlock the box.", "pic": "box"},
-      {"text": "Undo the knot.", "pic": "knot"},
-      {"text": "Unzip the bag.", "pic": "bag"},
-      {"text": "The pup is unhappy.", "pic": "pup"},
-      {"text": "Unlock the gate.", "pic": "gate"}
-    ]},
-  "03_pre-preview": {"tab_main": "pre- / re-", "sub": "before / again", "title": "The prefixes pre- and re-",
+      {
+        "text": "I unlock the box.",
+        "pic": "box"
+      },
+      {
+        "text": "Undo the knot.",
+        "pic": "knot"
+      },
+      {
+        "text": "Unzip the bag.",
+        "pic": "bag"
+      },
+      {
+        "text": "The pup is unhappy.",
+        "pic": "pup"
+      },
+      {
+        "text": "Unlock the gate.",
+        "pic": "gate"
+      }
+    ]
+  },
+  "03_pre-preview": {
+    "tab_main": "pre-",
+    "sub": "before / again",
+    "title": "The prefixes pre- and re-",
     "intro": "pre- means before. re- means again. Build each word, then read the sentences.",
-    "build_lines": ["pre + heat = ______________", "re + heat = ______________", "pre + view = ______________", "re + play = ______________"],
-    "extra_words": ["preheat", "reheat", "preview", "replay", "rewrap"],
+    "build_lines": [
+      "pre + heat = ______________",
+      "re + heat = ______________",
+      "pre + view = ______________",
+      "re + play = ______________"
+    ],
+    "extra_words": [
+      "preheat",
+      "reheat",
+      "preview",
+      "replay",
+      "rewrap"
+    ],
     "note": "pre- means before; re- means again.",
     "sentences": [
-      {"text": "Preheat the pot.", "pic": "pot"},
-      {"text": "Reheat the soup.", "pic": "soup"},
-      {"text": "Preview the book.", "pic": "book"},
-      {"text": "Rewrap the gift.", "pic": "gift"},
-      {"text": "Reheat the meat.", "pic": "meat"}
-    ]}
+      {
+        "text": "Preheat the pot.",
+        "pic": "pot"
+      },
+      {
+        "text": "Reheat the soup.",
+        "pic": "soup"
+      },
+      {
+        "text": "Preview the book.",
+        "pic": "book"
+      },
+      {
+        "text": "Rewrap the gift.",
+        "pic": "gift"
+      },
+      {
+        "text": "Reheat the meat.",
+        "pic": "meat"
+      }
+    ]
+  }
 }

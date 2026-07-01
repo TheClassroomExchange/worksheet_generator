@@ -624,8 +624,10 @@ figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}
     display: flex; flex-direction: column; align-items: center; justify-content: center;
     padding: 6px;
 }}
-.ph-tab-main {{ font-size: 30pt; font-weight: 800; line-height: 1; }}
-.ph-tab-sub {{ font-size: 11pt; font-weight: 600; margin-top: 2px; letter-spacing: 1px; }}
+.ph-tab-main {{ font-size: 27pt; font-weight: 800; line-height: 1.02; overflow-wrap: anywhere;
+    max-width: 1.0in; text-align: center; }}
+.ph-tab-sub {{ font-size: 10.5pt; font-weight: 600; margin-top: 2px; letter-spacing: 0.5px;
+    overflow-wrap: anywhere; max-width: 1.0in; text-align: center; }}
 .ph-titlewrap {{ flex: 1 1 auto; }}
 .ph-name {{ font-size: 13pt; color: {SLATE}; margin: 4px 0 2px 0; }}
 .ph-name-rule {{ display: inline-block; width: 62%; border-bottom: 2px dotted {SLATE};

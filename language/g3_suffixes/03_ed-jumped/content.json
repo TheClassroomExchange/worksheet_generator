@@ -1,0 +1,174 @@
+{
+  "title": "Word Building: ed",
+  "file_title": "Word Building - ed",
+  "phonics": {
+    "grade": "3",
+    "lesson_order": 109,
+    "target_grapheme": "ed",
+    "decodable_text": [
+      "The frog jumped.",
+      "The dog jumped up.",
+      "I picked up the ball.",
+      "She wished for a gift.",
+      "The pup jumped high.",
+      "jumped",
+      "helped",
+      "wished",
+      "picked",
+      "jump",
+      "help",
+      "wish",
+      "pick"
+    ],
+    "image_words": [
+      {
+        "word": "frog"
+      },
+      {
+        "word": "dog"
+      },
+      {
+        "word": "ball"
+      },
+      {
+        "word": "gift"
+      },
+      {
+        "word": "pup"
+      }
+    ],
+    "target_optional": true,
+    "curriculum": [
+      {
+        "code": "B2.3",
+        "text": "use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "-ed",
+      "sub": "in the past"
+    },
+    "eyebrow": "Grade 3 · Word Study · -ed",
+    "title": "Adding -ed (already happened)",
+    "subtitle": "",
+    "footer_topic": "ed — Word Building",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "Add -ed to show something already happened. Build each word, then read the sentences."
+      },
+      {
+        "type": "reading_rows",
+        "size": "md",
+        "title": "Build the word",
+        "rows": [
+          {
+            "text": "jump  +  ed  =  ______________"
+          },
+          {
+            "text": "help  +  ed  =  ______________"
+          },
+          {
+            "text": "wish  +  ed  =  ______________"
+          },
+          {
+            "text": "pick  +  ed  =  ______________"
+          }
+        ]
+      },
+      {
+        "type": "reading_rows",
+        "bold": "ed",
+        "size": "lg",
+        "title": "Read the sentences",
+        "rows": [
+          {
+            "text": "The frog jumped.",
+            "word": "frog",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/frog.png"
+          },
+          {
+            "text": "The dog jumped up.",
+            "word": "dog",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dog.png"
+          },
+          {
+            "text": "I picked up the ball.",
+            "word": "ball",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ball.png"
+          },
+          {
+            "text": "She wished for a gift.",
+            "word": "gift",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/gift.png"
+          },
+          {
+            "text": "The pup jumped high.",
+            "word": "pup",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pup.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the sentences 3 times. Colour a face each time."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Grade 3 · ed",
+    "title": "ed",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "ed — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children learn the word part ed and build new words from base words, then read them in decodable sentences."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Explain the word part / pattern: -ed.",
+          "2. Model the first one: jump + ed = jumped.",
+          "3. Children build the rest, then read each sentence.",
+          "4. Children read the page three times and colour a face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Build: jumped, helped, wished, picked.",
+          "-ed can sound like /t/, /d/, or /id/.",
+          "Sentences: The frog jumped. The dog jumped up. I picked up the ball. She wished for a gift. The pup jumped high."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "B2.3 — use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words.",
+          "In plain terms: children read and spell the everyday letter-sounds (and word parts) quickly."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out ed part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}

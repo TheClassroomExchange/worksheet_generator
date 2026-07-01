@@ -1,0 +1,94 @@
+=== SUBJECT g1_silent_letters ===
+  OK 02_wr-write (20/20)
+  OK 03_mb-comb (20/20)
+  OK 04_ph-photo (20/20)
+  OK 05_gh-laugh (20/20)
+  -> built 4, failed 0
+=== SUBJECT g2_silent_letters ===
+  OK 01_gn-sign (20/20)
+  OK 02_gh-ghost (20/20)
+  -> built 2, failed 0
+=== SUBJECT g2_low_freq_vowels ===
+  OK 01_au-pause (20/20)
+  OK 02_aw-draw (20/20)
+  FAIL 03_al-talk: OpenRouter model google/gemini-2.5-flash-image returned no image for 'chalk'
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 51, in run_subject
+    r = lb.build_unit(udir, grade)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 122, in build_unit
+    resolved, missing = materialize(content, backend)
+                        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 54, in materialize
+    ip = need(r["word"])
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 34, in need
+    path = _resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 23, in _resolve
+    p = pi.resolve(word, backend)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 235, in resolve
+    return _ai(word)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/phonics_images.py", line 191, in _ai
+    raise ImageBackendUnavailable(f"OpenRouter model {model} returned no image for {word!r}")
+pipeline.phonics_images.ImageBackendUnavailable: OpenRouter model google/gemini-2.5-flash-image returned no image for 'chalk'
+  OK 04_augh-taught (20/20)
+  OK 05_ew-new (20/20)
+  OK 06_ui-fruit (20/20)
+  OK 07_ue-blue (20/20)
+  -> built 6, failed 1
+=== SUBJECT g2_rcontrolled_and_more ===
+  OK 01_air-hair (20/20)
+  OK 02_are-square (20/20)
+  OK 03_ear-bear (20/20)
+  OK 04_ei-beige (20/20)
+  OK 05_ey-they (20/20)
+  OK 06_eigh-weigh (20/20)
+  OK 07_aigh-straight (20/20)
+  OK 08_ea-great (20/20)
+  OK 09_ch-school (20/20)
+  OK 10_or-doctor (20/20)
+  OK 11_ar-dollar (20/20)
+  OK 12_schwa-balloon (20/20)
+  -> built 12, failed 0
+=== SUBJECT g3_suffixes ===
+  OK 01_s-cats (20/20)
+  FAIL 02_ing-jumping: fit_render fail 02_ing-jumping: {'roomy_level': None, 'near_empty_before': [{'page': 2, 'ink_bottom': 0.223}], 'last_near_empty': [{'page': 2, 'ink_bottom': 0.223}], 'content_ok': True, 'content_detai
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 51, in run_subject
+    r = lb.build_unit(udir, grade)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 129, in build_unit
+    raise RuntimeError(f"fit_render fail {unit_dir.name}: {fit}")
+RuntimeError: fit_render fail 02_ing-jumping: {'roomy_level': None, 'near_empty_before': [{'page': 2, 'ink_bottom': 0.223}], 'last_near_empty': [{'page': 2, 'ink_bottom': 0.223}], 'content_ok': True, 'content_detail': 'no baseline (fresh build)', 'status': 'fail'}
+  OK 03_ed-jumped (20/20)
+  OK 04_er-faster (20/20)
+  -> built 3, failed 1
+=== SUBJECT g3_prefixes ===
+  OK 01_ly-slowly (20/20)
+  OK 02_un-undo (20/20)
+  OK 03_pre-preview (20/20)
+  -> built 3, failed 0
+=== SUBJECT g3_syllables_morphology ===
+  OK 01_closed-closed-rabbit (20/20)
+  OK 02_open-syllable-robot (20/20)
+  FAIL 03_compound-sunset: fit_render fail 03_compound-sunset: {'roomy_level': None, 'near_empty_before': [{'page': 2, 'ink_bottom': 0.223}], 'last_near_empty': [{'page': 2, 'ink_bottom': 0.223}], 'content_ok': True, 'content_d
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 51, in run_subject
+    r = lb.build_unit(udir, grade)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 129, in build_unit
+    raise RuntimeError(f"fit_render fail {unit_dir.name}: {fit}")
+RuntimeError: fit_render fail 03_compound-sunset: {'roomy_level': None, 'near_empty_before': [{'page': 2, 'ink_bottom': 0.223}], 'last_near_empty': [{'page': 2, 'ink_bottom': 0.223}], 'content_ok': True, 'content_detail': 'no baseline (fresh build)', 'status': 'fail'}
+  FAIL 04_contraction-can-t: fit_render fail 04_contraction-can-t: {'roomy_level': None, 'near_empty_before': [{'page': 2, 'ink_bottom': 0.223}], 'last_near_empty': [{'page': 2, 'ink_bottom': 0.223}], 'content_ok': True, 'content
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 51, in run_subject
+    r = lb.build_unit(udir, grade)
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/pipeline/language_build.py", line 129, in build_unit
+    raise RuntimeError(f"fit_render fail {unit_dir.name}: {fit}")
+RuntimeError: fit_render fail 04_contraction-can-t: {'roomy_level': None, 'near_empty_before': [{'page': 2, 'ink_bottom': 0.223}], 'last_near_empty': [{'page': 2, 'ink_bottom': 0.223}], 'content_ok': True, 'content_detail': 'no baseline (fresh build)', 'status': 'fail'}
+  -> built 2, failed 2
+
+SUMMARY:
+  g1_silent_letters: +4 built, 0 failed
+  g2_silent_letters: +2 built, 0 failed
+  g2_low_freq_vowels: +6 built, 1 failed
+  g2_rcontrolled_and_more: +12 built, 0 failed
+  g3_suffixes: +3 built, 1 failed
+  g3_prefixes: +3 built, 0 failed
+  g3_syllables_morphology: +2 built, 2 failed

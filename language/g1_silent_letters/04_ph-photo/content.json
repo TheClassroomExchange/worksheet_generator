@@ -29,6 +29,7 @@
         "word": "phone"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -62,23 +63,28 @@
         "rows": [
           {
             "text": "I see a photo.",
-            "word": "photo"
+            "word": "photo",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/photo.png"
           },
           {
             "text": "The phone is red.",
-            "word": "phone"
+            "word": "phone",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/phone.png"
           },
           {
             "text": "A dolphin can swim.",
-            "word": "dolphin"
+            "word": "dolphin",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dolphin.png"
           },
           {
             "text": "The elephant is big.",
-            "word": "elephant"
+            "word": "elephant",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/elephant.png"
           },
           {
             "text": "I call on the phone.",
-            "word": "phone"
+            "word": "phone",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/phone.png"
           }
         ]
       },
