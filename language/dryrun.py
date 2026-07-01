@@ -5,7 +5,7 @@ decodability + target-present + image-word-in-text. Run before run_build.
 import json, re, sys
 from pathlib import Path
 from language import gen_content
-from pipeline import decodability as dc
+from language import decodability as dc
 
 LANG = Path(__file__).resolve().parent
 

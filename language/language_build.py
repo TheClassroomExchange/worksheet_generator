@@ -13,8 +13,8 @@ import json
 import shutil
 from pathlib import Path
 
-from pipeline import phonics_images as pi
-from pipeline import decodability as dc
+from language import phonics_images as pi
+from language import decodability as dc
 
 ROOT = Path(__file__).resolve().parent.parent
 

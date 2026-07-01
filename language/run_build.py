@@ -18,8 +18,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LANG = ROOT / "language"
 
-from pipeline import language_build as lb
-from pipeline import language_rubric as lr
+from language import language_build as lb
+from language import language_rubric as lr
 from language import gen_content
 
 
