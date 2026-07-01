@@ -20,29 +20,39 @@ graded **20/20**, K/G1 in **roomy** layout, wrapped in the per-grade colour bord
 - `language/phonics_scope.json` — ordered grapheme-unlock list (orders 1-117) + cumulative heart words.
 - `curriculum/language.json` — verbatim Ontario K (A2.x) + G1-3 (B2.x) expectations.
 - `coding/rubrics/rubric_language_{K,G1,G2,G3}.md` — the 20/20 rubric per grade.
+- `language/subjects.json` + `language/<subject>/topics.json` — the build queue.
+- `language/DESIGN_STANDARD.md` — the LOCKED design (big template · kawaii faces-on-animals · decorative border).
 
-## Per-unit build loop (mirror coding/AGENTS.md §6a)
-Run with the worktree venv: `PYTHONPATH=<worktree> DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib <venv>/bin/python`.
-1. **Author** `content.json` (top-level: `title`, `file_title`, `phonics{...}`, `worksheet{...}`, `teacher_guide{...}`).
-   The `phonics` block drives the gates:
-   `{grade, lesson_order, target_grapheme, decodable_text:[...], image_words:[{word,src}], curriculum:[{code,text}], allowed_exceptions:[]}`.
-2. **Decodability gate**: `decodability.check_unit(dir)` → `decodability_run.json` must have `passed:true`
-   (every word decodable from graphemes ≤ lesson_order + cumulative heart words; target pattern present).
-3. **Teacher-guide lint + grade**: `teacher_guide_rubric` (T1 plain-language = L4, T4 answer-key = L4).
-4. **Rubric grade BEFORE render**: `language_rubric.record_grade(dir, grade, scores)` → must be `status:"pass"`
-   (total ≥19/20, C2≥L3, C3=L4, C5=L4) AND `pre_grade_drift_check` clean (decodability + verbatim curriculum + image-word alignment).
-5. **Render + combine + auto-fit (roomy for K/G1)**: `coding_build.fit_render(dir)` then `coding_build.combine_sheet(dir)`.
-6. **Visual gate**: `coding_build.finalize_visual(dir, status='pass', notes=..., inspected_pages=[1,...])` (hard page-fill gate).
-   READ every rendered page before passing.
-7. Only a passing unit advances. Flip `topics.json` status to `built`.
-8. Per batch: `add_grade_border` then (Phase 4, deferred) `drive_publish` + marketplace.
+## All language code is under `language/` (reuses ../pipeline shared infra)
+`decodability.py` · `language_rubric.py` · `phonics_images.py` · `language_build.py` ·
+`gen_content.py` · `run_build.py` · `dryrun.py` · `publish_drive.py`. Reused from `../pipeline/`:
+`worksheet_pdf` (render + phonics part-types), `coding_build` (render/fit/combine), `layout_rubric`,
+`add_grade_border`, `drive_publish`, `slides` (Drive auth).
+
+## Build loop — DATA-DRIVEN (the real workflow)
+Env: `cd <repo>; set -a; . ~/.claude/.openrouter.env; set +a; export PYTHONPATH=. DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib`;
+`PY=~/Desktop/TCE/worksheet_generator/venv/bin/python`.
+1. **Author** `language/<subject>/data.json` — compact per-target entries (keyed by topic dir/nn/target).
+   Sentences: `{sub, sound, order?, sentences:[{text, pic, bold?}]}` (5 rows; every `pic` word must appear
+   in its sentence; `bold`=target word). VCe/pseudo: add `tab_main`, `label`, `directions`, `order`.
+   letter_sound: `{keyword_pic, sort_yes:[], sort_no:[], cvc:[]}`. word_building: `{title, intro,
+   build:[[base,word]] | build_lines:[...], extra_words:[], note, sentences:[...]}`.
+   `gen_content.py` turns each entry → full content.json (per DESIGN_STANDARD + verbatim curriculum).
+2. **Dry-run (NO key):** `$PY -m language.dryrun <subject>` — decodability + target-present + image-in-text.
+   Fix the DATA until ALL OK before spending image $.
+3. **Build (gated, resumable):** `$PY -m language.run_build <subject|all>` — per unit: gen_content →
+   `language_build.build_unit` (decodability run-gate → resolve kawaii images → fit_render roomy →
+   grade border) → `language_rubric.record_grade` 20/20 + drift → checkpoint `topics.json` (skips built;
+   background caps ~14 → re-run). Spot-check 1 page/subject (Read the PNG).
+4. **Publish Drive:** `$PY -m language.publish_drive [dry]` (idempotent; Grade/Subject/Unit; 1 PDF/folder).
+5. **Marketplace:** SEPARATE, explicit-go only, under the blast-radius protocol (not built yet — P3 in PIPELINE_PLAN).
 
 ## Images
 `phonics_images.resolve(word, backend)`:
-- `openmoji` (default) — OpenMoji *black* B&W line SVGs (CC BY-SA), cached in `assets/openmoji_black/`. Free, deterministic.
-- `ai` — per-word line-art via OpenRouter (`OPENROUTER_API_KEY`, model `google/gemini-2.5-flash-image-preview`),
-  or OpenAI/Stability if their keys are set. Cached in `assets/ai_line_art/`.
-Every image word MUST appear in the decodable text (drift gate enforces this).
+- `ai` (DEFAULT for the catalogue) — kawaii line-art via OpenRouter (`OPENROUTER_API_KEY`,
+  `google/gemini-2.5-flash-image`); animals/people get a face, objects don't; auto-trimmed; cached `assets/ai_line_art/`.
+- `openmoji` — OpenMoji *black* B&W SVGs (CC BY-SA), free fallback, cached `assets/openmoji_black/`.
+Every image word MUST appear in the decodable text (drift gate).
 
 ## Gotchas
 - WeasyPrint needs `DYLD_FALLBACK_LIBRARY_PATH=/usr/local/lib`.
