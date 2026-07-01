@@ -28,24 +28,27 @@ See `language/DESIGN_STANDARD.md` (gated by rubric C4 + pipeline defaults).
 - Per-subject **data.json** = the authored IP (sentences/words). Build a subject:
   author `language/<sid>/data.json` (keyed by target/dir/nn) → `run_build <sid>`.
 
-## Phase 3 — autonomous build → STOP before publish  ⏳ IN PROGRESS
-Per-subject status (author data.json → run_build → spot-check 1 page → mark done):
-- [⏳] k_letter_sounds (24) — data.json authored; BUILDING in background (img-gen slow)
-- [ ] k_digraphs (9)            — needs data.json (qu,z,ng,sh,ch,ck,th,th,wh; use order:33; sh sentences in _samples/g1_sh)
-- [ ] g1_doubles_blends (9)
-- [ ] g1_long_vowels_vce (10)
-- [ ] g1_vowel_teams (15)
-- [ ] g1_rcontrolled (7)
-- [ ] g1_diphthongs (6)
-- [ ] g1_silent_letters (5)
-- [ ] g2_silent_letters (2)
-- [ ] g2_low_freq_vowels (7)
-- [ ] g2_rcontrolled_and_more (12)
-- [ ] g3_suffixes (4)            — -ing sample in _samples/g3_ing
-- [ ] g3_prefixes (3)
-- [ ] g3_syllables_morphology (4)
-Approved reference samples (build once data is in): _samples/{g1_sh,k_short_m,g2_aw,g3_ing}.
+## Phase 3 — autonomous build → STOP before publish  ⏳ IN PROGRESS — 47/112 built
+Catalogue = **112** (open-syllable 5 dropped, see DEFERRED.md).
+Loop per subject: author `data.json` → `python -m language.dryrun <sid>` (decode+target+img)
+→ `python -m language.run_build <sid>` → spot-check 1 page. Env: source openrouter key.
+- [x] k_letter_sounds (24) ✅ 24/24
+- [x] k_digraphs (9) ✅ 9/9   → **Kindergarten COMPLETE (33)**
+- [x] g1_doubles_blends (9) ✅ 9/9
+- [x] g1_long_vowels_vce (5, VCe only) ✅ 5/5   (open-syllable dropped)
+- [ ] g1_vowel_teams (15)   — _le, y=/i/, y=/e/, soft c, soft g, ee,ea,ey,ai,ay,oa,oe,ow,ie,igh
+- [ ] g1_rcontrolled (7)    — tch,dge,ar,or,er,ir,ur
+- [ ] g1_diphthongs (6)     — ou,ow,oo(book),oo(moon),oi,oy
+- [ ] g1_silent_letters (5) — kn,wr,mb,ph,gh
+- [ ] g2_silent_letters (2) — gn,gh
+- [ ] g2_low_freq_vowels (7)— au,aw,al,augh,ew,ui,ue
+- [ ] g2_rcontrolled_and_more (12) — air,are,ear,ei,ey,eigh,aigh,ea,ch=/k/,or,ar,schwa
+- [ ] g3_suffixes (4)       — -s/-es,-ing,-ed,-er/-est  (-ing sample in _samples/g3_ing)
+- [ ] g3_prefixes (3)       — un-/re-, pre-/dis-/mis- ...
+- [ ] g3_syllables_morphology (4) — closed, open, compound, contraction
 **END at full build. Do NOT publish — user spot-checks random samples first.**
+GOTCHAS: pic word MUST appear in its sentence (img-align gate); avoid graphemes past
+the target's order (dryrun catches); VCe/pseudo targets use data tab_main+bold+directions.
 
 ## Phase 4 — publish (Drive + marketplace) — DEFERRED until user approval
 Drive: `Language Worksheets / Grade N / <NN. Title> / Title.pdf` (drive_publish, flip

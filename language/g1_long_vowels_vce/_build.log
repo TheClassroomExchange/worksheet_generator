@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Users/anthonnymonterroso/Desktop/TCE/wg-language/language/run_build.py", line 54, in run_subject
+    raise RuntimeError(f"rubric/drift fail: {rec['reasons']}")
+RuntimeError: rubric/drift fail: ['drift: image_alignment']
+=== SUBJECT g1_long_vowels_vce ===
+  SKIP 01_i-open-idea: no data entry
+  SKIP 02_a-open-apron: no data entry
+  SKIP 03_o-open-oval: no data entry
+  SKIP 04_e-open-equal: no data entry
+  SKIP 05_u-open-unicorn: no data entry
+  OK 06_a-e-cake (20/20)
+  OK 07_i-e-ice (20/20)
+  OK 08_o-e-nose (20/20)
+  FAIL 09_e-e-eve: rubric/drift fail: ['drift: image_alignment']
+  OK 10_u-e-cube (20/20)
+  -> built 4, failed 6
+
+SUMMARY:
+  g1_long_vowels_vce: +4 built, 6 failed
