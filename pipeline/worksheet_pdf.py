@@ -639,6 +639,7 @@ figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}
 /* big reading table */
 .part.reading {{ margin: 6px 0 10px 0; }}
 .rr-table {{ width: 100%; border-collapse: collapse; }}
+.rr-table tr {{ break-inside: avoid; page-break-inside: avoid; }}
 .rr-table td {{ border: 2.5px solid {NAVY}; vertical-align: middle; }}
 .rr-text {{ padding: 10px 18px; color: {INK}; font-weight: 700; }}
 .rr-text b {{ color: {NAVY}; text-decoration: underline; }}

@@ -83,3 +83,13 @@ blast-radius protocol; REVERT_ITEM_IDS.json.
 ## Phase 4a — Drive publish ✅ DONE (2026-07-01)
 112/112 live in Product/Resources/Generated Language Worksheets/<Grade>/<Subject>/<N. Title>/ (1 PDF each, verified live: K33/G1-47/G2-21/G3-11). Root folder 1SsgiXNxds6ZDtEcIUx4Rjjl4kAxJbg9J.
 **Marketplace: NOT published** — held for user validation pipeline + explicit go + blast-radius protocol.
+
+## Phase 4b — post-publish QA remediation ✅ DONE (2026-07-01)
+User spot-checked live PDFs, found a page-break rendering bug + 2 unsafe/unclear words. Full scan → 3-sample gate → 5/5 adversarial validation → full-batch remediation → republish:
+- **Root cause (systemic, 88/112 files at risk):** `pipeline/worksheet_pdf.py`'s `.rr-table` (the reading_rows sentence+picture table) had no `break-inside:avoid`, so WeasyPrint could split a row across a page boundary. Fixed with `.rr-table tr { break-inside: avoid; page-break-inside: avoid; }` (worksheet_pdf.py:642) — CSS-only, zero content touched.
+- **Word swap:** `k_letter_sounds/data.json` letter-F CVC list `"fat"` → `"for"` (K heart word, keeps the target-letter theme, decodes clean at lesson order 7).
+- **Sentence swap:** `g1_silent_letters/01_kn-knee` "I see a knife." → "I know my dog." (kn + long-o "ow" both already unlocked at order 81; dog.png reused from cache, no new image gen).
+- **Image sweep:** all 290 images actually referenced by the catalogue (openmoji_black fallback = 0 references, unused) reviewed via 7 contact sheets — zero offensive content, nothing changed.
+- **Full rebuild:** all 112 units re-run through `language_build.build_unit` + `language_rubric.record_grade` — 112/112 ok, 0 failures, all still 20/20.
+- **Republish:** `language.publish_drive` — all 112 PDFs updated in place (idempotent), hygiene OK on every topic, 0 stray files. Post-publish Drive audit: 112 topic folders / 112 PDFs / 0 non-pdf / 0 duplicates, all with today's modifiedTime.
+- Snapshots of every before/after sample kept in session scratchpad for the record; nothing auto-merged to marketplace — Drive-only, per the standing hold above.

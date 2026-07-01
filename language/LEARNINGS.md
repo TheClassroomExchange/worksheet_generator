@@ -78,3 +78,30 @@ The build auto-caught ~10 real errors; fix the DATA, re-run — never fight the 
   gates carry the rest — exactly the "validate samples then go autonomous" rule.
 - Publish Drive first (idempotent, safe); hold the marketplace (prod DB) for explicit go
   + blast-radius protocol.
+
+## Post-publish QA remediation (2026-07-01)
+Live-catalogue review found what pre-publish gates missed — a second lesson in "the gate
+you didn't write doesn't catch its bug":
+- **Table row-splitting across a page** wasn't caught by any existing gate — `page-fill`
+  only checks for near-empty pages, not a row sheared at a page boundary. `break-inside:avoid`
+  needs to be on the actual `<tr>`, not just the outer `.qgroup`/`.symbols` wrapper classes
+  that happened to cover the coding-sheet parts. New rule: any HTML `<table>` used for a
+  repeating row layout needs its own explicit `tr { break-inside: avoid }` — don't assume a
+  sibling component's page-break CSS covers it.
+- **CVC/word-list content has no built-in "is this word appropriate for a kid" gate** —
+  decodability only checks phonetic legality, not word content. A word can be perfectly
+  decodable and still be a bad pick (kitchen knife, "fat"). No automated fix here; this is
+  a genuine human-in-the-loop check, worth a periodic manual word-list skim per subject.
+- **When swapping a decodable word, the replacement must be independently re-verified**
+  against `phonics_scope.json`'s cumulative unlock order (or the heart-word list) for that
+  lesson's exact `order` — don't assume a "simple" word decodes; a fresh adversarial pass
+  caught that the first swap candidate (`"sat"`) worked but dropped the letter-F theme, and
+  the fix was a K heart word (`"for"`) that was *already sitting in the same order-band*.
+- **Regenerating `content.json` via `gen_content.generate()` can silently reintroduce schema
+  drift** — a field added to the generator after a unit's original build (`target_optional`)
+  gets stamped back in as an explicit `false` even though the original file never had the key.
+  Harmless functionally (`.get(..., False)` downstream) but it fails a strict "diff is scoped
+  to only the intended change" check. Fix: after any `generate()` call on an already-shipped
+  unit, strip falsy default keys the pre-existing file didn't have before writing.
+- **A fresh adversarial validator earns its keep even on "obviously fine" sample fixes** — it
+  caught both of the above on the very first pass, neither of which surfaced during authoring.
