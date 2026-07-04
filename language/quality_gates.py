@@ -246,8 +246,10 @@ def gate_face_object(unit: str, content: dict) -> None:
     """G4 — every image word must be classified animate (face) OR inanimate
     (faceless). An unclassified word would render silently faceless (the old bug),
     so it fails the build until it is added to image_words.json."""
-    iw = _load_json("image_words.json")
-    animate, inanimate = set(iw["animate"]), set(iw["inanimate"])
+    # Use the RENDERER's exact runtime sets (not image_words.json directly) so the
+    # gate can never diverge from what phonics_images actually classifies.
+    from language import phonics_images as pi
+    animate, inanimate = pi._ANIMATE_SET, pi._INANIMATE_SET
 
     def known(w):
         wl = w.lower()
@@ -293,8 +295,12 @@ def scan_unit(unit_dir: Path) -> list[str]:
     """Return a list of gate-failure messages for one built unit ([] = clean)."""
     fails = []
     content = json.loads((unit_dir / "content.json").read_text())
-    grade = json.loads((unit_dir / "input_row.json").read_text()).get("grade", "") \
-        if (unit_dir / "input_row.json").exists() else ""
+    grade = ""
+    if (unit_dir / "input_row.json").exists():
+        grade = json.loads((unit_dir / "input_row.json").read_text()).get("grade", "")
+    if not grade:  # fall back to the phonics grade so G5's derive doesn't false-fail
+        g = str(content.get("phonics", {}).get("grade", ""))
+        grade = "Kindergarten" if g.upper() == "K" else (f"Grade {g}" if g.isdigit() else g)
     pdf = _combined_pdf(unit_dir)
     checks = [
         lambda: gate_kidsafe(unit_dir.name, content),
