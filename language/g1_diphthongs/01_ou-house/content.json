@@ -6,11 +6,11 @@
     "lesson_order": 75,
     "target_grapheme": "ou",
     "decodable_text": [
-      "The mouse is in the house.",
+      "I am in the house.",
       "I see a cloud.",
       "Sit on the couch.",
-      "A loud mouse.",
-      "I found a mouse."
+      "A big mouse.",
+      "Wipe your mouth."
     ],
     "image_words": [
       {
@@ -26,9 +26,10 @@
         "word": "mouse"
       },
       {
-        "word": "mouse"
+        "word": "mouth"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,9 +60,10 @@
         "type": "reading_rows",
         "bold": "ou",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "The mouse is in the house.",
+            "text": "I am in the house.",
             "word": "house",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/house.png"
           },
@@ -76,14 +78,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/couch.png"
           },
           {
-            "text": "A loud mouse.",
+            "text": "A big mouse.",
             "word": "mouse",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/mouse.png"
           },
           {
-            "text": "I found a mouse.",
-            "word": "mouse",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/mouse.png"
+            "text": "Wipe your mouth.",
+            "word": "mouth",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/mouth.png"
           }
         ]
       },
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: mouse, house.",
+          "Sentence 1: house.",
           "Sentence 2: cloud.",
           "Sentence 3: couch.",
-          "Sentence 4: loud, mouse.",
-          "Sentence 5: found, mouse.",
+          "Sentence 4: mouse.",
+          "Sentence 5: your, mouth.",
           "Your turn / extension: any real word with ou."
         ]
       },

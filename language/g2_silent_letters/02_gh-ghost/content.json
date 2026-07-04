@@ -7,26 +7,26 @@
     "target_grapheme": "gh",
     "decodable_text": [
       "The ghost is white.",
-      "I see a ghost.",
-      "The ghost said boo.",
-      "A ghost can float.",
-      "The ghost is my pal."
+      "The knight is bold.",
+      "I see a bright light.",
+      "The dough is soft.",
+      "The plough digs the field."
     ],
     "image_words": [
       {
         "word": "ghost"
       },
       {
-        "word": "ghost"
+        "word": "knight"
       },
       {
-        "word": "ghost"
+        "word": "light"
       },
       {
-        "word": "ghost"
+        "word": "dough"
       },
       {
-        "word": "ghost"
+        "word": "plough"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "gh",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The ghost is white.",
@@ -63,24 +64,24 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ghost.png"
           },
           {
-            "text": "I see a ghost.",
-            "word": "ghost",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ghost.png"
+            "text": "The knight is bold.",
+            "word": "knight",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/knight.png"
           },
           {
-            "text": "The ghost said boo.",
-            "word": "ghost",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ghost.png"
+            "text": "I see a bright light.",
+            "word": "light",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/light.png"
           },
           {
-            "text": "A ghost can float.",
-            "word": "ghost",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ghost.png"
+            "text": "The dough is soft.",
+            "word": "dough",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dough.png"
           },
           {
-            "text": "The ghost is my pal.",
-            "word": "ghost",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ghost.png"
+            "text": "The plough digs the field.",
+            "word": "plough",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/plough.png"
           }
         ]
       },
@@ -119,10 +120,10 @@
         "title": "Answer key",
         "text": [
           "Sentence 1: ghost.",
-          "Sentence 2: ghost.",
-          "Sentence 3: ghost.",
-          "Sentence 4: ghost.",
-          "Sentence 5: ghost.",
+          "Sentence 2: knight.",
+          "Sentence 3: bright, light.",
+          "Sentence 4: dough.",
+          "Sentence 5: plough.",
           "Your turn / extension: any real word with gh."
         ]
       },

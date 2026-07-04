@@ -8,9 +8,9 @@
     "decodable_text": [
       "The cliff is big.",
       "I sniff the ham.",
-      "A cat can huff and puff.",
+      "The cat can huff.",
       "The cuff is on my mitt.",
-      "Puff up the bed."
+      "The fluff is on the bed."
     ],
     "image_words": [
       {
@@ -29,6 +29,7 @@
         "word": "bed"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "ff",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The cliff is big.",
@@ -71,7 +73,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ham.png"
           },
           {
-            "text": "A cat can huff and puff.",
+            "text": "The cat can huff.",
             "word": "cat",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
           },
@@ -81,7 +83,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/mitt.png"
           },
           {
-            "text": "Puff up the bed.",
+            "text": "The fluff is on the bed.",
             "word": "bed",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bed.png"
           }
@@ -123,9 +125,9 @@
         "text": [
           "Sentence 1: cliff.",
           "Sentence 2: sniff.",
-          "Sentence 3: huff, puff.",
+          "Sentence 3: huff.",
           "Sentence 4: cuff.",
-          "Sentence 5: Puff.",
+          "Sentence 5: fluff.",
           "Your turn / extension: any real word with ff."
         ]
       },

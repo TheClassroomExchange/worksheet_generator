@@ -9,8 +9,8 @@
       "I see a square.",
       "The hare can run.",
       "I share my toy.",
-      "The square is big.",
-      "Care for the hare."
+      "The mare is in the barn.",
+      "I have a spare tire."
     ],
     "image_words": [
       {
@@ -23,10 +23,10 @@
         "word": "toy"
       },
       {
-        "word": "square"
+        "word": "mare"
       },
       {
-        "word": "hare"
+        "word": "tire"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "are",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I see a square.",
@@ -73,14 +74,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/toy.png"
           },
           {
-            "text": "The square is big.",
-            "word": "square",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/square.png"
+            "text": "The mare is in the barn.",
+            "word": "mare",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/mare.png"
           },
           {
-            "text": "Care for the hare.",
-            "word": "hare",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hare.png"
+            "text": "I have a spare tire.",
+            "word": "tire",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/tire.png"
           }
         ]
       },
@@ -121,8 +122,8 @@
           "Sentence 1: square.",
           "Sentence 2: hare.",
           "Sentence 3: share.",
-          "Sentence 4: square.",
-          "Sentence 5: Care, hare.",
+          "Sentence 4: mare.",
+          "Sentence 5: spare.",
           "Your turn / extension: any real word with are."
         ]
       },

@@ -9,7 +9,7 @@
       "The turtle can surf.",
       "The nurse has a purse.",
       "The cat has fur.",
-      "The turtle will turn.",
+      "I eat a burger.",
       "The sun can burn."
     ],
     "image_words": [
@@ -23,12 +23,13 @@
         "word": "cat"
       },
       {
-        "word": "turtle"
+        "word": "burger"
       },
       {
         "word": "sun"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "ur",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The turtle can surf.",
@@ -76,9 +78,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
           },
           {
-            "text": "The turtle will turn.",
-            "word": "turtle",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/turtle.png"
+            "text": "I eat a burger.",
+            "word": "burger",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/burger.png"
           },
           {
             "text": "The sun can burn.",
@@ -124,7 +126,7 @@
           "Sentence 1: turtle, surf.",
           "Sentence 2: nurse, purse.",
           "Sentence 3: fur.",
-          "Sentence 4: turtle, turn.",
+          "Sentence 4: burger.",
           "Sentence 5: burn.",
           "Your turn / extension: any real word with ur."
         ]

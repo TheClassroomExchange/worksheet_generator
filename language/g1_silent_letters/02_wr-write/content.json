@@ -10,7 +10,7 @@
       "My wrist is sore.",
       "Wrap the gift.",
       "The wren can fly.",
-      "Wrap the box."
+      "The box is a wreck."
     ],
     "image_words": [
       {
@@ -60,6 +60,7 @@
         "type": "reading_rows",
         "bold": "wr",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "Write with the pen.",
@@ -82,7 +83,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/wren.png"
           },
           {
-            "text": "Wrap the box.",
+            "text": "The box is a wreck.",
             "word": "box",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/box.png"
           }
@@ -126,7 +127,7 @@
           "Sentence 2: wrist.",
           "Sentence 3: Wrap.",
           "Sentence 4: wren.",
-          "Sentence 5: Wrap.",
+          "Sentence 5: wreck.",
           "Your turn / extension: any real word with wr."
         ]
       },

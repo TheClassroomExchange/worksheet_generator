@@ -1,58 +1,203 @@
 {
-  "01_tch-catch": {"tab_main": "tch", "sub": "/ch/", "sound": "/ch/ spelled tch", "label": "tch",
+  "01_tch-catch": {
+    "tab_main": "tch",
+    "sub": "/ch/",
+    "sound": "/ch/ spelled tch",
+    "label": "tch",
     "sentences": [
-      {"text": "I catch the ball.", "pic": "ball", "bold": "catch"},
-      {"text": "The witch has a hat.", "pic": "witch", "bold": "witch"},
-      {"text": "Watch the match.", "pic": "watch", "bold": "watch"},
-      {"text": "A chick can hatch.", "pic": "chick", "bold": "hatch"},
-      {"text": "Watch me catch it.", "pic": "watch", "bold": "catch"}
-    ]},
-  "02_dge-edge": {"tab_main": "dge", "sub": "/j/", "sound": "/j/ spelled dge", "label": "dge",
+      {
+        "text": "I catch the ball.",
+        "pic": "ball"
+      },
+      {
+        "text": "The witch has a hat.",
+        "pic": "witch"
+      },
+      {
+        "text": "Watch the match.",
+        "pic": "watch"
+      },
+      {
+        "text": "A chick can hatch.",
+        "pic": "chick"
+      },
+      {
+        "text": "Fetch the stick.",
+        "pic": "stick"
+      }
+    ]
+  },
+  "02_dge-edge": {
+    "tab_main": "dge",
+    "sub": "/j/",
+    "sound": "/j/ spelled dge",
+    "label": "dge",
     "sentences": [
-      {"text": "Run to the edge of the bridge.", "pic": "bridge", "bold": "bridge"},
-      {"text": "I see a badge.", "pic": "badge", "bold": "badge"},
-      {"text": "The fudge is on the edge.", "pic": "fudge", "bold": "fudge"},
-      {"text": "The dog is on the ledge.", "pic": "dog", "bold": "ledge"},
-      {"text": "The badge is on the bridge.", "pic": "bridge", "bold": "badge"}
-    ]},
-  "03_ar-arm": {"tab_main": "ar", "sub": "/ar/", "sound": "R-controlled /ar/", "label": "ar",
+      {
+        "text": "Run to the bridge.",
+        "pic": "bridge"
+      },
+      {
+        "text": "I see a badge.",
+        "pic": "badge"
+      },
+      {
+        "text": "The fudge is sweet.",
+        "pic": "fudge"
+      },
+      {
+        "text": "The dog is on the ledge.",
+        "pic": "dog"
+      },
+      {
+        "text": "The judge is here.",
+        "pic": "judge"
+      }
+    ]
+  },
+  "03_ar-arm": {
+    "tab_main": "ar",
+    "sub": "/ar/",
+    "sound": "R-controlled /ar/",
+    "label": "ar",
     "sentences": [
-      {"text": "The car is by the barn.", "pic": "car", "bold": "car"},
-      {"text": "I see a star.", "pic": "star", "bold": "star"},
-      {"text": "The jar is in the cart.", "pic": "jar", "bold": "jar"},
-      {"text": "A shark is dark.", "pic": "shark", "bold": "shark"},
-      {"text": "The car is at the barn.", "pic": "barn", "bold": "barn"}
-    ]},
-  "04_or-fork": {"tab_main": "or", "sub": "/or/", "sound": "R-controlled /or/", "label": "or",
+      {
+        "text": "The car is fast.",
+        "pic": "car"
+      },
+      {
+        "text": "I see a star.",
+        "pic": "star"
+      },
+      {
+        "text": "The jar is on the cart.",
+        "pic": "jar"
+      },
+      {
+        "text": "A shark is dark.",
+        "pic": "shark"
+      },
+      {
+        "text": "The barn is big.",
+        "pic": "barn"
+      }
+    ]
+  },
+  "04_or-fork": {
+    "tab_main": "or",
+    "sub": "/or/",
+    "sound": "R-controlled /or/",
+    "label": "or",
     "sentences": [
-      {"text": "I eat corn with a fork.", "pic": "fork", "bold": "fork"},
-      {"text": "The horn is short.", "pic": "horn", "bold": "horn"},
-      {"text": "The corn is by the fork.", "pic": "corn", "bold": "corn"},
-      {"text": "Sort the corn.", "pic": "corn", "bold": "sort"},
-      {"text": "A short horn.", "pic": "horn", "bold": "short"}
-    ]},
-  "05_er-hammer": {"tab_main": "er", "sub": "/er/", "sound": "R-controlled /er/", "label": "er",
+      {
+        "text": "I eat with a fork.",
+        "pic": "fork"
+      },
+      {
+        "text": "The horn is red.",
+        "pic": "horn"
+      },
+      {
+        "text": "The corn is sweet.",
+        "pic": "corn"
+      },
+      {
+        "text": "A storm is here.",
+        "pic": "storm"
+      },
+      {
+        "text": "The cork is small.",
+        "pic": "cork"
+      }
+    ]
+  },
+  "05_er-hammer": {
+    "tab_main": "er",
+    "sub": "/er/",
+    "sound": "R-controlled /er/",
+    "label": "er",
     "sentences": [
-      {"text": "I use a hammer.", "pic": "hammer", "bold": "hammer"},
-      {"text": "The ladder is tall.", "pic": "ladder", "bold": "ladder"},
-      {"text": "I get a letter.", "pic": "letter", "bold": "letter"},
-      {"text": "My finger is big.", "pic": "finger", "bold": "finger"},
-      {"text": "The tiger ran.", "pic": "tiger", "bold": "tiger"}
-    ]},
-  "06_ir-bird": {"tab_main": "ir", "sub": "/er/", "sound": "R-controlled /er/ spelled ir", "label": "ir",
+      {
+        "text": "I use a hammer.",
+        "pic": "hammer",
+        "bold": "hammer"
+      },
+      {
+        "text": "The ladder is tall.",
+        "pic": "ladder",
+        "bold": "ladder"
+      },
+      {
+        "text": "I get a letter.",
+        "pic": "letter",
+        "bold": "letter"
+      },
+      {
+        "text": "My finger is big.",
+        "pic": "finger",
+        "bold": "finger"
+      },
+      {
+        "text": "The tiger ran.",
+        "pic": "tiger",
+        "bold": "tiger"
+      }
+    ]
+  },
+  "06_ir-bird": {
+    "tab_main": "ir",
+    "sub": "/er/",
+    "sound": "R-controlled /er/ spelled ir",
+    "label": "ir",
     "sentences": [
-      {"text": "The bird is in the dirt.", "pic": "bird", "bold": "bird"},
-      {"text": "The girl has a shirt.", "pic": "girl", "bold": "girl"},
-      {"text": "My shirt is first.", "pic": "shirt", "bold": "shirt"},
-      {"text": "Stir the pot.", "pic": "pot", "bold": "stir"},
-      {"text": "The girl has a skirt.", "pic": "skirt", "bold": "skirt"}
-    ]},
-  "07_ur-surf": {"tab_main": "ur", "sub": "/er/", "sound": "R-controlled /er/ spelled ur", "label": "ur",
+      {
+        "text": "The bird is in the dirt.",
+        "pic": "bird"
+      },
+      {
+        "text": "The girl is first.",
+        "pic": "girl"
+      },
+      {
+        "text": "My shirt is red.",
+        "pic": "shirt"
+      },
+      {
+        "text": "Stir the pot.",
+        "pic": "pot"
+      },
+      {
+        "text": "The skirt can twirl.",
+        "pic": "skirt"
+      }
+    ]
+  },
+  "07_ur-surf": {
+    "tab_main": "ur",
+    "sub": "/er/",
+    "sound": "R-controlled /er/ spelled ur",
+    "label": "ur",
     "sentences": [
-      {"text": "The turtle can surf.", "pic": "turtle", "bold": "surf"},
-      {"text": "The nurse has a purse.", "pic": "nurse", "bold": "nurse"},
-      {"text": "The cat has fur.", "pic": "cat", "bold": "fur"},
-      {"text": "The turtle will turn.", "pic": "turtle", "bold": "turn"},
-      {"text": "The sun can burn.", "pic": "sun", "bold": "burn"}
-    ]}
+      {
+        "text": "The turtle can surf.",
+        "pic": "turtle"
+      },
+      {
+        "text": "The nurse has a purse.",
+        "pic": "nurse"
+      },
+      {
+        "text": "The cat has fur.",
+        "pic": "cat"
+      },
+      {
+        "text": "I eat a burger.",
+        "pic": "burger"
+      },
+      {
+        "text": "The sun can burn.",
+        "pic": "sun"
+      }
+    ]
+  }
 }

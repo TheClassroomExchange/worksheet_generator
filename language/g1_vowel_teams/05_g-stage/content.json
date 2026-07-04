@@ -8,9 +8,9 @@
     "decodable_text": [
       "The pig is in a cage.",
       "I see the page.",
-      "A huge gem.",
-      "The cage is huge.",
-      "A gem on the page."
+      "A big gem.",
+      "The bug is huge.",
+      "We use the stage."
     ],
     "image_words": [
       {
@@ -23,12 +23,13 @@
         "word": "gem"
       },
       {
-        "word": "cage"
+        "word": "bug"
       },
       {
-        "word": "gem"
+        "word": "stage"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "g",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The pig is in a cage.",
@@ -71,19 +73,19 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/page.png"
           },
           {
-            "text": "A huge gem.",
+            "text": "A big gem.",
             "word": "gem",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/gem.png"
           },
           {
-            "text": "The cage is huge.",
-            "word": "cage",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cage.png"
+            "text": "The bug is huge.",
+            "word": "bug",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bug.png"
           },
           {
-            "text": "A gem on the page.",
-            "word": "gem",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/gem.png"
+            "text": "We use the stage.",
+            "word": "stage",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/stage.png"
           }
         ]
       },
@@ -123,9 +125,9 @@
         "text": [
           "Sentence 1: pig, cage.",
           "Sentence 2: page.",
-          "Sentence 3: huge, gem.",
-          "Sentence 4: cage, huge.",
-          "Sentence 5: gem, page.",
+          "Sentence 3: big, gem.",
+          "Sentence 4: bug, huge.",
+          "Sentence 5: stage.",
           "Your turn / extension: any real word with g."
         ]
       },

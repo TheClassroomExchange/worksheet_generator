@@ -8,8 +8,8 @@
     "decodable_text": [
       "I sit on the chair.",
       "My hair is long.",
-      "I comb my hair.",
-      "The fairy has hair.",
+      "A pair of socks.",
+      "The fairy can fly.",
       "Up the stair."
     ],
     "image_words": [
@@ -20,7 +20,7 @@
         "word": "hair"
       },
       {
-        "word": "hair"
+        "word": "socks"
       },
       {
         "word": "fairy"
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "air",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I sit on the chair.",
@@ -68,12 +69,12 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hair.png"
           },
           {
-            "text": "I comb my hair.",
-            "word": "hair",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hair.png"
+            "text": "A pair of socks.",
+            "word": "socks",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/socks.png"
           },
           {
-            "text": "The fairy has hair.",
+            "text": "The fairy can fly.",
             "word": "fairy",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fairy.png"
           },
@@ -120,8 +121,8 @@
         "text": [
           "Sentence 1: chair.",
           "Sentence 2: hair.",
-          "Sentence 3: hair.",
-          "Sentence 4: fairy, hair.",
+          "Sentence 3: pair.",
+          "Sentence 4: fairy.",
           "Sentence 5: stair.",
           "Your turn / extension: any real word with air."
         ]

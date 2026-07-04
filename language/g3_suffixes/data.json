@@ -1,46 +1,190 @@
 {
-  "01_s-cats": {"tab_main": "-s", "sub": "more than one", "title": "Adding -s (more than one)",
+  "01_s-cats": {
+    "tab_main": "-s",
+    "sub": "more than one",
+    "title": "Adding -s (more than one)",
     "intro": "Add -s to a word to mean more than one. Build each word, then read the sentences.",
-    "build": [["cat", "cats"], ["dog", "dogs"], ["pig", "pigs"], ["hen", "hens"]],
+    "build": [
+      [
+        "cat",
+        "cats"
+      ],
+      [
+        "dog",
+        "dogs"
+      ],
+      [
+        "pig",
+        "pigs"
+      ],
+      [
+        "hen",
+        "hens"
+      ]
+    ],
     "note": "Add -s to most words to mean more than one.",
     "sentences": [
-      {"text": "I see two cats.", "pic": "cat"},
-      {"text": "The dogs run fast.", "pic": "dog"},
-      {"text": "Six pigs dig.", "pic": "pig"},
-      {"text": "The hens sit on eggs.", "pic": "hen"},
-      {"text": "Ten bugs are here.", "pic": "bug"}
-    ]},
-  "02_ing-jumping": {"tab_main": "-ing", "sub": "happening now", "title": "Adding -ing to Words",
+      {
+        "text": "I see two cats.",
+        "pic": "cat"
+      },
+      {
+        "text": "The dogs run fast.",
+        "pic": "dog"
+      },
+      {
+        "text": "Six pigs dig.",
+        "pic": "pig"
+      },
+      {
+        "text": "The hens sit on eggs.",
+        "pic": "hen"
+      },
+      {
+        "text": "Ten bugs are here.",
+        "pic": "bug"
+      }
+    ]
+  },
+  "02_ing-jumping": {
+    "tab_main": "-ing",
+    "sub": "happening now",
+    "title": "Adding -ing to Words",
     "intro": "Add -ing to a base word to show it is happening now. Build each word, then read the sentences.",
-    "build": [["jump", "jumping"], ["help", "helping"], ["sing", "singing"], ["read", "reading"]],
+    "build": [
+      [
+        "jump",
+        "jumping"
+      ],
+      [
+        "help",
+        "helping"
+      ],
+      [
+        "sing",
+        "singing"
+      ],
+      [
+        "read",
+        "reading"
+      ]
+    ],
     "note": "Most base words just add -ing.",
     "sentences": [
-      {"text": "The frog is jumping.", "pic": "frog"},
-      {"text": "We are reading a book.", "pic": "book"},
-      {"text": "The kids are playing ball.", "pic": "ball"},
-      {"text": "The bird is singing.", "pic": "bird"},
-      {"text": "The dog is helping.", "pic": "dog"}
-    ]},
-  "03_ed-jumped": {"tab_main": "-ed", "sub": "in the past", "title": "Adding -ed (already happened)",
+      {
+        "text": "The frog is jumping.",
+        "pic": "frog"
+      },
+      {
+        "text": "We are reading a book.",
+        "pic": "book"
+      },
+      {
+        "text": "The kids are playing ball.",
+        "pic": "ball"
+      },
+      {
+        "text": "The bird is singing.",
+        "pic": "bird"
+      },
+      {
+        "text": "The dog is helping.",
+        "pic": "dog"
+      }
+    ]
+  },
+  "03_ed-jumped": {
+    "tab_main": "-ed",
+    "sub": "in the past",
+    "title": "Adding -ed (already happened)",
     "intro": "Add -ed to show something already happened. Build each word, then read the sentences.",
-    "build": [["jump", "jumped"], ["help", "helped"], ["wish", "wished"], ["pick", "picked"]],
+    "build": [
+      [
+        "jump",
+        "jumped"
+      ],
+      [
+        "help",
+        "helped"
+      ],
+      [
+        "wish",
+        "wished"
+      ],
+      [
+        "pick",
+        "picked"
+      ]
+    ],
     "note": "-ed can sound like /t/, /d/, or /id/.",
     "sentences": [
-      {"text": "The frog jumped.", "pic": "frog"},
-      {"text": "The dog jumped up.", "pic": "dog"},
-      {"text": "I picked up the ball.", "pic": "ball"},
-      {"text": "She wished for a gift.", "pic": "gift"},
-      {"text": "The pup jumped high.", "pic": "pup"}
-    ]},
-  "04_er-faster": {"tab_main": "-er", "sub": "compare", "title": "Adding -er (compare two)",
+      {
+        "text": "The frog jumped.",
+        "pic": "frog"
+      },
+      {
+        "text": "The dog barked.",
+        "pic": "dog"
+      },
+      {
+        "text": "I kicked the ball.",
+        "pic": "ball"
+      },
+      {
+        "text": "She wished for a gift.",
+        "pic": "gift"
+      },
+      {
+        "text": "The pup rested.",
+        "pic": "pup"
+      }
+    ]
+  },
+  "04_er-faster": {
+    "tab_main": "-er",
+    "sub": "compare",
+    "title": "Adding -er (compare two)",
     "intro": "Add -er to compare two things. Build each word, then read the sentences.",
-    "build": [["fast", "faster"], ["slow", "slower"], ["big", "bigger"], ["small", "smaller"]],
+    "build": [
+      [
+        "fast",
+        "faster"
+      ],
+      [
+        "slow",
+        "slower"
+      ],
+      [
+        "big",
+        "bigger"
+      ],
+      [
+        "small",
+        "smaller"
+      ]
+    ],
     "note": "Some short words double the last letter: big -> bigger.",
     "sentences": [
-      {"text": "The car is faster.", "pic": "car"},
-      {"text": "The turtle is slower.", "pic": "turtle"},
-      {"text": "The dog is bigger.", "pic": "dog"},
-      {"text": "The ant is smaller.", "pic": "ant"},
-      {"text": "A faster car won.", "pic": "car"}
-    ]}
+      {
+        "text": "The car is faster.",
+        "pic": "car"
+      },
+      {
+        "text": "The turtle is slower.",
+        "pic": "turtle"
+      },
+      {
+        "text": "The dog is bigger.",
+        "pic": "dog"
+      },
+      {
+        "text": "The ant is smaller.",
+        "pic": "ant"
+      },
+      {
+        "text": "A faster car won.",
+        "pic": "car"
+      }
+    ]
+  }
 }

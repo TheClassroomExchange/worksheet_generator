@@ -6,10 +6,10 @@
     "lesson_order": 100,
     "target_grapheme": "eigh",
     "decodable_text": [
-      "Eight cats.",
+      "Eight cats nap.",
       "The sleigh is fast.",
       "Weigh the fruit.",
-      "Eight red hens.",
+      "Eighty hens run.",
       "The horse can neigh."
     ],
     "image_words": [
@@ -56,9 +56,10 @@
         "type": "reading_rows",
         "bold": "eigh",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "Eight cats.",
+            "text": "Eight cats nap.",
             "word": "cat",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
           },
@@ -73,7 +74,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fruit.png"
           },
           {
-            "text": "Eight red hens.",
+            "text": "Eighty hens run.",
             "word": "hen",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hen.png"
           },
@@ -121,7 +122,7 @@
           "Sentence 1: Eight.",
           "Sentence 2: sleigh.",
           "Sentence 3: Weigh.",
-          "Sentence 4: Eight.",
+          "Sentence 4: Eighty.",
           "Sentence 5: neigh.",
           "Your turn / extension: any real word with eigh."
         ]

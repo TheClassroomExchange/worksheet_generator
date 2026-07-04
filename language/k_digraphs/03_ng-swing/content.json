@@ -6,11 +6,11 @@
     "lesson_order": 33,
     "target_grapheme": "ng",
     "decodable_text": [
-      "The king has a ring.",
+      "I see a ring.",
       "A bug has a wing.",
       "I see a big swing.",
-      "The king sang a song.",
-      "The king is on the swing."
+      "The king sang.",
+      "A frog can spring."
     ],
     "image_words": [
       {
@@ -26,9 +26,10 @@
         "word": "king"
       },
       {
-        "word": "swing"
+        "word": "frog"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "A2.4",
@@ -59,9 +60,10 @@
         "type": "reading_rows",
         "bold": "ng",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "The king has a ring.",
+            "text": "I see a ring.",
             "word": "ring",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ring.png"
           },
@@ -76,14 +78,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/swing.png"
           },
           {
-            "text": "The king sang a song.",
+            "text": "The king sang.",
             "word": "king",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/king.png"
           },
           {
-            "text": "The king is on the swing.",
-            "word": "swing",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/swing.png"
+            "text": "A frog can spring.",
+            "word": "frog",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/frog.png"
           }
         ]
       },
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: king, ring.",
+          "Sentence 1: ring.",
           "Sentence 2: wing.",
           "Sentence 3: swing.",
-          "Sentence 4: king, sang, song.",
-          "Sentence 5: king, swing.",
+          "Sentence 4: king, sang.",
+          "Sentence 5: spring.",
           "Your turn / extension: any real word with ng."
         ]
       },

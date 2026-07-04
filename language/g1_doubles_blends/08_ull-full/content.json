@@ -10,7 +10,7 @@
       "The cup is full.",
       "Pull the sled.",
       "A gull can fly.",
-      "The bull can pull."
+      "I see a skull."
     ],
     "image_words": [
       {
@@ -26,9 +26,10 @@
         "word": "gull"
       },
       {
-        "word": "bull"
+        "word": "skull"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "ull",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The bull is big.",
@@ -79,11 +81,6 @@
             "text": "A gull can fly.",
             "word": "gull",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/gull.png"
-          },
-          {
-            "text": "The bull can pull.",
-            "word": "bull",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bull.png"
           }
         ]
       },
@@ -125,7 +122,6 @@
           "Sentence 2: full.",
           "Sentence 3: Pull.",
           "Sentence 4: gull.",
-          "Sentence 5: bull, pull.",
           "Your turn / extension: any real word with ull."
         ]
       },

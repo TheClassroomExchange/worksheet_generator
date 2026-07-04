@@ -10,7 +10,7 @@
       "She has a big shell.",
       "The ship is on the sand.",
       "A shark can swim fast.",
-      "I shop at the shop."
+      "I go to the shop."
     ],
     "image_words": [
       {
@@ -29,6 +29,7 @@
         "word": "shop"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "A2.4",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "sh",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The fish is in the dish.",
@@ -81,7 +83,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/shark.png"
           },
           {
-            "text": "I shop at the shop.",
+            "text": "I go to the shop.",
             "word": "shop",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/shop.png"
           }
@@ -125,7 +127,7 @@
           "Sentence 2: She, shell.",
           "Sentence 3: ship.",
           "Sentence 4: shark.",
-          "Sentence 5: shop, shop.",
+          "Sentence 5: shop.",
           "Your turn / extension: any real word with sh."
         ]
       },

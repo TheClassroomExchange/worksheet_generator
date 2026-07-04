@@ -1,99 +1,344 @@
 {
-  "01_air-hair": {"tab_main": "air", "sub": "/air/", "sound": "/air/ spelled air", "label": "air",
+  "01_air-hair": {
+    "tab_main": "air",
+    "sub": "/air/",
+    "sound": "/air/ spelled air",
+    "label": "air",
     "sentences": [
-      {"text": "I sit on the chair.", "pic": "chair", "bold": "chair"},
-      {"text": "My hair is long.", "pic": "hair", "bold": "hair"},
-      {"text": "I comb my hair.", "pic": "hair", "bold": "hair"},
-      {"text": "The fairy has hair.", "pic": "fairy", "bold": "fairy"},
-      {"text": "Up the stair.", "pic": "stair", "bold": "stair"}
-    ]},
-  "02_are-square": {"tab_main": "are", "sub": "/air/", "sound": "/air/ spelled are", "label": "are",
+      {
+        "text": "I sit on the chair.",
+        "pic": "chair"
+      },
+      {
+        "text": "My hair is long.",
+        "pic": "hair"
+      },
+      {
+        "text": "A pair of socks.",
+        "pic": "socks"
+      },
+      {
+        "text": "The fairy can fly.",
+        "pic": "fairy"
+      },
+      {
+        "text": "Up the stair.",
+        "pic": "stair"
+      }
+    ]
+  },
+  "02_are-square": {
+    "tab_main": "are",
+    "sub": "/air/",
+    "sound": "/air/ spelled are",
+    "label": "are",
     "sentences": [
-      {"text": "I see a square.", "pic": "square", "bold": "square"},
-      {"text": "The hare can run.", "pic": "hare", "bold": "hare"},
-      {"text": "I share my toy.", "pic": "toy", "bold": "share"},
-      {"text": "The square is big.", "pic": "square", "bold": "square"},
-      {"text": "Care for the hare.", "pic": "hare", "bold": "care"}
-    ]},
-  "03_ear-bear": {"tab_main": "ear", "sub": "/air/", "sound": "/air/ spelled ear", "label": "ear",
+      {
+        "text": "I see a square.",
+        "pic": "square"
+      },
+      {
+        "text": "The hare can run.",
+        "pic": "hare"
+      },
+      {
+        "text": "I share my toy.",
+        "pic": "toy"
+      },
+      {
+        "text": "The mare is in the barn.",
+        "pic": "mare"
+      },
+      {
+        "text": "I have a spare tire.",
+        "pic": "tire"
+      }
+    ]
+  },
+  "03_ear-bear": {
+    "tab_main": "ear",
+    "sub": "/air/",
+    "sound": "/air/ spelled ear",
+    "label": "ear",
     "sentences": [
-      {"text": "The bear is big.", "pic": "bear", "bold": "bear"},
-      {"text": "I eat a pear.", "pic": "pear", "bold": "pear"},
-      {"text": "The bear likes the pear.", "pic": "bear", "bold": "bear"},
-      {"text": "I wear a coat.", "pic": "coat", "bold": "wear"},
-      {"text": "A big brown bear.", "pic": "bear", "bold": "bear"}
-    ]},
-  "04_ei-beige": {"tab_main": "ei", "sub": "/ae/", "sound": "/ae/ spelled ei", "label": "ei",
+      {
+        "text": "The bear is big.",
+        "pic": "bear"
+      },
+      {
+        "text": "I eat a pear.",
+        "pic": "pear"
+      },
+      {
+        "text": "Do not tear the page.",
+        "pic": "page"
+      },
+      {
+        "text": "I wear a coat.",
+        "pic": "coat"
+      },
+      {
+        "text": "The deer is near.",
+        "pic": "deer"
+      }
+    ]
+  },
+  "04_ei-beige": {
+    "tab_main": "ei",
+    "sub": "/ae/",
+    "sound": "/ae/ spelled ei",
+    "label": "ei",
     "sentences": [
-      {"text": "The reindeer can run.", "pic": "reindeer", "bold": "reindeer"},
-      {"text": "The veil is white.", "pic": "veil", "bold": "veil"},
-      {"text": "A beige coat.", "pic": "coat", "bold": "beige"},
-      {"text": "The reindeer has a rein.", "pic": "reindeer", "bold": "rein"},
-      {"text": "The beige veil.", "pic": "veil", "bold": "beige"}
-    ]},
-  "05_ey-they": {"tab_main": "ey", "sub": "/ae/", "sound": "/ae/ spelled ey", "label": "ey",
+      {
+        "text": "The reindeer can run.",
+        "pic": "reindeer"
+      },
+      {
+        "text": "The veil is white.",
+        "pic": "veil"
+      },
+      {
+        "text": "A beige coat.",
+        "pic": "coat"
+      },
+      {
+        "text": "I lift the weight.",
+        "pic": "weight"
+      },
+      {
+        "text": "Eight legs on a spider.",
+        "pic": "spider"
+      }
+    ]
+  },
+  "05_ey-they": {
+    "tab_main": "ey",
+    "sub": "/ae/",
+    "sound": "/ae/ spelled ey",
+    "label": "ey",
     "sentences": [
-      {"text": "They see a grey cat.", "pic": "cat", "bold": "they"},
-      {"text": "The grey dog ran.", "pic": "dog", "bold": "grey"},
-      {"text": "They pet the cat.", "pic": "cat", "bold": "they"},
-      {"text": "They like the grey hen.", "pic": "hen", "bold": "they"},
-      {"text": "They play with the dog.", "pic": "dog", "bold": "they"}
-    ]},
-  "06_eigh-weigh": {"tab_main": "eigh", "sub": "/ae/", "sound": "/ae/ spelled eigh", "label": "eigh",
+      {
+        "text": "They see a grey cat.",
+        "pic": "cat"
+      },
+      {
+        "text": "The dog will obey.",
+        "pic": "dog"
+      },
+      {
+        "text": "The fox is prey.",
+        "pic": "fox"
+      },
+      {
+        "text": "The grey hen ran.",
+        "pic": "hen"
+      },
+      {
+        "text": "Hey, a toy!",
+        "pic": "toy"
+      }
+    ]
+  },
+  "06_eigh-weigh": {
+    "tab_main": "eigh",
+    "sub": "/ae/",
+    "sound": "/ae/ spelled eigh",
+    "label": "eigh",
     "sentences": [
-      {"text": "Eight cats.", "pic": "cat", "bold": "eight"},
-      {"text": "The sleigh is fast.", "pic": "sleigh", "bold": "sleigh"},
-      {"text": "Weigh the fruit.", "pic": "fruit", "bold": "weigh"},
-      {"text": "Eight red hens.", "pic": "hen", "bold": "eight"},
-      {"text": "The horse can neigh.", "pic": "horse", "bold": "neigh"}
-    ]},
-  "07_aigh-straight": {"tab_main": "aigh", "sub": "/ae/", "sound": "/ae/ spelled aigh", "label": "aigh",
+      {
+        "text": "Eight cats nap.",
+        "pic": "cat"
+      },
+      {
+        "text": "The sleigh is fast.",
+        "pic": "sleigh"
+      },
+      {
+        "text": "Weigh the fruit.",
+        "pic": "fruit"
+      },
+      {
+        "text": "Eighty hens run.",
+        "pic": "hen"
+      },
+      {
+        "text": "The horse can neigh.",
+        "pic": "horse"
+      }
+    ]
+  },
+  "07_aigh-straight": {
+    "tab_main": "aigh",
+    "sub": "/ae/",
+    "sound": "/ae/ spelled aigh",
+    "label": "aigh",
     "sentences": [
-      {"text": "The road is straight.", "pic": "road", "bold": "straight"},
-      {"text": "The path is straight.", "pic": "path", "bold": "straight"},
-      {"text": "The nail is straight.", "pic": "nail", "bold": "straight"},
-      {"text": "Draw a straight line.", "pic": "road", "bold": "straight"},
-      {"text": "The straight road is long.", "pic": "road", "bold": "straight"}
-    ]},
-  "08_ea-great": {"tab_main": "ea", "sub": "/ae/", "sound": "/ae/ spelled ea (great)", "label": "ea",
+      {
+        "text": "The road is straight.",
+        "pic": "road"
+      },
+      {
+        "text": "I straighten my tie.",
+        "pic": "tie"
+      },
+      {
+        "text": "The nail is straight.",
+        "pic": "nail"
+      },
+      {
+        "text": "I straighten my hair.",
+        "pic": "hair"
+      },
+      {
+        "text": "The straightedge is a flat ruler.",
+        "pic": "ruler"
+      }
+    ]
+  },
+  "08_ea-great": {
+    "tab_main": "ea",
+    "sub": "/ae/",
+    "sound": "/ae/ spelled ea (great)",
+    "label": "ea",
     "sentences": [
-      {"text": "I eat a steak.", "pic": "steak", "bold": "steak"},
-      {"text": "The great cat naps.", "pic": "cat", "bold": "great"},
-      {"text": "A great big steak.", "pic": "steak", "bold": "great"},
-      {"text": "Break the egg.", "pic": "egg", "bold": "break"},
-      {"text": "The steak is great.", "pic": "steak", "bold": "great"}
-    ]},
-  "09_ch-school": {"tab_main": "ch", "sub": "/k/", "sound": "ch says /k/", "label": "ch",
+      {
+        "text": "I eat a steak.",
+        "pic": "steak"
+      },
+      {
+        "text": "The great cat naps.",
+        "pic": "cat"
+      },
+      {
+        "text": "We wear a coat in the cold.",
+        "pic": "coat"
+      },
+      {
+        "text": "Break the egg.",
+        "pic": "egg"
+      },
+      {
+        "text": "The bread is fresh.",
+        "pic": "bread"
+      }
+    ]
+  },
+  "09_ch-school": {
+    "tab_main": "ch",
+    "sub": "/k/",
+    "sound": "ch says /k/",
+    "label": "ch",
     "sentences": [
-      {"text": "I go to school.", "pic": "school", "bold": "school"},
-      {"text": "The ship has an anchor.", "pic": "anchor", "bold": "anchor"},
-      {"text": "The school is big.", "pic": "school", "bold": "school"},
-      {"text": "The anchor is heavy.", "pic": "anchor", "bold": "anchor"},
-      {"text": "School is fun.", "pic": "school", "bold": "school"}
-    ]},
-  "10_or-doctor": {"tab_main": "or", "sub": "/er/", "sound": "or says /er/ (doctor)", "label": "or",
+      {
+        "text": "I go to school.",
+        "pic": "school"
+      },
+      {
+        "text": "The ship has an anchor.",
+        "pic": "anchor"
+      },
+      {
+        "text": "The orchid is pretty.",
+        "pic": "orchid"
+      },
+      {
+        "text": "My stomach hurts.",
+        "pic": "stomach"
+      },
+      {
+        "text": "I hear the echo.",
+        "pic": "echo"
+      }
+    ]
+  },
+  "10_or-doctor": {
+    "tab_main": "or",
+    "sub": "/er/",
+    "sound": "or says /er/ (doctor)",
+    "label": "or",
     "sentences": [
-      {"text": "The doctor is here.", "pic": "doctor", "bold": "doctor"},
-      {"text": "I drive a tractor.", "pic": "tractor", "bold": "tractor"},
-      {"text": "Look in the mirror.", "pic": "mirror", "bold": "mirror"},
-      {"text": "The doctor has a mirror.", "pic": "doctor", "bold": "doctor"},
-      {"text": "The tractor is red.", "pic": "tractor", "bold": "tractor"}
-    ]},
-  "11_ar-dollar": {"tab_main": "ar", "sub": "/er/", "sound": "ar says /er/ (dollar)", "label": "ar",
+      {
+        "text": "The doctor is here.",
+        "pic": "doctor"
+      },
+      {
+        "text": "I drive a tractor.",
+        "pic": "tractor"
+      },
+      {
+        "text": "Look in the mirror.",
+        "pic": "mirror"
+      },
+      {
+        "text": "The actor is on stage.",
+        "pic": "actor"
+      },
+      {
+        "text": "The anchor is heavy.",
+        "pic": "anchor"
+      }
+    ]
+  },
+  "11_ar-dollar": {
+    "tab_main": "ar",
+    "sub": "/er/",
+    "sound": "ar says /er/ (dollar)",
+    "label": "ar",
     "sentences": [
-      {"text": "I have a dollar.", "pic": "dollar", "bold": "dollar"},
-      {"text": "The dog has a collar.", "pic": "dog", "bold": "collar"},
-      {"text": "Add the sugar.", "pic": "sugar", "bold": "sugar"},
-      {"text": "A dollar for the sugar.", "pic": "dollar", "bold": "dollar"},
-      {"text": "The collar is red.", "pic": "collar", "bold": "collar"}
-    ]},
-  "12_schwa-balloon": {"tab_main": "ə", "sub": "schwa", "sound": "The schwa sound /ə/", "label": "the schwa sound",
+      {
+        "text": "I have a dollar.",
+        "pic": "dollar"
+      },
+      {
+        "text": "The dog sees a star.",
+        "pic": "dog"
+      },
+      {
+        "text": "Add the sugar.",
+        "pic": "sugar"
+      },
+      {
+        "text": "A pillar is tall.",
+        "pic": "pillar"
+      },
+      {
+        "text": "The collar is red.",
+        "pic": "collar"
+      }
+    ]
+  },
+  "12_schwa-balloon": {
+    "tab_main": "ə",
+    "sub": "schwa",
+    "sound": "The schwa sound /ə/",
+    "label": "the schwa sound",
     "directions": "Read each sentence. The bold word has the quiet schwa sound. Colour a face each time you read the page.",
     "sentences": [
-      {"text": "I hold a balloon.", "pic": "balloon", "bold": "balloon"},
-      {"text": "The panda is soft.", "pic": "panda", "bold": "panda"},
-      {"text": "I see a zebra.", "pic": "zebra", "bold": "zebra"},
-      {"text": "Use a pencil.", "pic": "pencil", "bold": "pencil"},
-      {"text": "The lemon is sour.", "pic": "lemon", "bold": "lemon"}
-    ]}
+      {
+        "text": "I hold a balloon.",
+        "pic": "balloon",
+        "bold": "balloon"
+      },
+      {
+        "text": "The panda is soft.",
+        "pic": "panda",
+        "bold": "panda"
+      },
+      {
+        "text": "I see a zebra.",
+        "pic": "zebra",
+        "bold": "zebra"
+      },
+      {
+        "text": "Use a pencil.",
+        "pic": "pencil",
+        "bold": "pencil"
+      },
+      {
+        "text": "The lemon is sour.",
+        "pic": "lemon",
+        "bold": "lemon"
+      }
+    ]
+  }
 }

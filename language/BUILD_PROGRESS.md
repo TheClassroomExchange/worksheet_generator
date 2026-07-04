@@ -93,3 +93,55 @@ User spot-checked live PDFs, found a page-break rendering bug + 2 unsafe/unclear
 - **Full rebuild:** all 112 units re-run through `language_build.build_unit` + `language_rubric.record_grade` — 112/112 ok, 0 failures, all still 20/20.
 - **Republish:** `language.publish_drive` — all 112 PDFs updated in place (idempotent), hygiene OK on every topic, 0 stray files. Post-publish Drive audit: 112 topic folders / 112 PDFs / 0 non-pdf / 0 duplicates, all with today's modifiedTime.
 - Snapshots of every before/after sample kept in session scratchpad for the record; nothing auto-merged to marketplace — Drive-only, per the standing hold above.
+
+## 2026-07-02 — Give-away underline fix (Drive-only, published + verified)
+
+- 72/112 units fixed to underline the target on the FIRST sentence only (worked example); rows 2..N
+  plain so the child finds the pattern. 12 reading-aid units left untouched. See LEARNINGS.md.
+- Code: `pipeline/worksheet_pdf.py` (reveal:first support) + `language/gen_content.py` (durability).
+  Orchestrator + gates: `language/reveal_fix.py`. Run log: `language/REVEAL_FIX_LOG.md` (72/72 pass).
+  Original PDFs + content.json snapshotted in `language/_reveal_fix_backup/` (revertible).
+- Published Drive-only (marketplace still HELD). Final live audit: **72/72 topic PDFs updated today,
+  exactly 1 PDF per folder, 0 stray, 0 stale.**
+
+## 2026-07-02 — Repeated-example fix (Drive-only, published + verified)
+
+- 50 sentence-type reading worksheets fixed so each shows DISTINCT target words + images (no more
+  sauce×3 / ghost×5). First-occurrence sentences kept verbatim; only duplicate/broken rows swapped.
+- Exceptions: `oy-toy` 4/5 (oy inventory-limited); 2 word-building units excluded. See LEARNINGS.md.
+- Tooling: `language/dedup_fix.py`; log `language/DEDUP_FIX_LOG.md`; backups `_dedup_fix_backup/`.
+- Gates: distinctness + decodability + image-word-in-sentence + preservation (originals verbatim) +
+  page-count + border + mandatory image QA. Fresh adversarial validator 5/5.
+- Published Drive-only. Live audit: **50/50 fixed units fresh, 1 PDF/folder, 0 stray.** Underline
+  (reveal:first) fix confirmed still intact on every sheet.
+
+## 2026-07-02 — Round 3: distinct example word per sentence (Drive-only)
+
+- 43 reading sheets reworded so each sentence demonstrates a DISTINCT grapheme word (z-zebra zip×3 →
+  zebra/zip/zigzag/zap/buzz, etc.). Pictures unchanged → zero new images.
+- Documented single-repeat exceptions (inventory-limited): oy,zz,oll,gh,augh,ey,wh; aigh unavoidable;
+  er-faster (word-building) excluded. Tooling: dedup_fix.py word_sweep/word_report; log WORDFIX_LOG.md.
+- Validator 5/5. reveal:first + distinct-pictures (rounds 1-2) confirmed intact.
+
+## 2026-07-03 — Round 7: Teacher-Guide fix + kids-safe (Drive-only, published + verified)
+Page-2 Teacher Guide had 4 bugs; catalogue sweep → 12 impacted + 1 kids-safe = 13 fixed.
+- Durable fix in `gen_content.py`: `derive_teacher_guide()` projects the guide FROM the worksheet
+  (D1 blank key on split-VCe/schwa · D2 fabricated word-building sentences · D3 hardcoded "underline"
+  verb) + `cap_reading_sentences()` (D4 word-building overflow 3pp→2pp). Inline `_answer_words`/
+  `_lead_step3` fix future builds too.
+- Kids-safe: dropped "I see a skull." (G1 ull→4 sentences); kept witch; hurt/ghost/whip safe-in-context.
+- Tooling: `language/tg_fix.py` (sweep+gated per-unit) · `language/tg_publish.py` (live-snapshot→diff→
+  idempotent replace). Logs: `TG_QA_LOG.md`, `TG_FIX_LOG.md`, `TG_PUBLISH_LOG.md`. Backups: `_tg_fix_backup/`.
+- Verified: 13/13 gates pass · end-artifact adversarial 5/5 · re-sweep 0/112 impacted · live Drive audit
+  13/13 fresh (2026-07-03), 1 PDF/folder, 0 stray. Drive-only, NOT committed, marketplace HELD.
+
+## 2026-07-03 — Round 8: faceless images + augh distinct example (Drive-only, published + verified)
+Live-inspection minor-fix sweep of 112 → 5 impacted (4.5%).
+- Faces: `_ANIMATE` (phonics_images.py) drives face vs faceless prompt; bird+ghost were faceless (missing
+  from set). Added bird/ghost/granddaughter → deleted cached pngs → regenerated with face prompt (verified).
+  bird.png shared → fixes ir-bird/ew-new/ly-slowly; ghost.png → gh-ghost.
+- augh: /aw/ sheet had caught×2 (only 4 kid /aw/ words). s5 "I caught the pup."→"I hug my granddaughter."
+  (5 distinct; granddaughter vetted; laughter rejected=/af/). content+data synced, TG answer key re-derived.
+- Tool `language/face_fix.py` (per-type gates + snapshot/revert `_facefix_backup/`). Publish = live-snapshot→
+  replace-in-place. Verified 5/5 gates + visual; live audit 5/5 fresh, 1 PDF/folder, 0 stray. Log FACE_FIX_LOG.md.
+- Left as-is: oy/zz/oll/gh single repeats + crow/gull/wren (dot-eyes) + moth (decorative) — inventory/design.

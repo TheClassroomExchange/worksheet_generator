@@ -105,3 +105,115 @@ you didn't write doesn't catch its bug":
   unit, strip falsy default keys the pre-existing file didn't have before writing.
 - **A fresh adversarial validator earns its keep even on "obviously fine" sample fixes** — it
   caught both of the above on the very first pass, neither of which surfaced during authoring.
+
+## 2026-07-02 — Give-away underline fix (reveal:first)
+
+- **Bug:** "I Can Read Sentences" pre-underlined the target grapheme in EVERY sentence
+  (`_bold_target` in `pipeline/worksheet_pdf.py` used `re.sub` with no `count`, and
+  `_render_reading_rows` ran it on every row; CSS `.rr-text b {text-decoration:underline}`).
+  The student instruction ("underline/circle the X in each sentence") was already done for them.
+- **Fix (opt-in, no regen):** per-part flag `"reveal":"first"` → underline the FIRST sentence only
+  (worked example); rows 2..N render plain. Default (flag absent) keeps full-underline so
+  reading-AID sheets (schwa "the bold word…", G3 morphemes) are untouched. `gen_content.py` now
+  sets the flag for find-task sheets so a future rebuild stays correct.
+- **Scope:** 72/112 units impacted (64%). 12 reading-aid units deliberately excluded. Set derived
+  deterministically by `language/reveal_fix.py sweep` (find-task prose AND >1 underlined row).
+- **No image spend:** re-rendered via `language_build.build_unit` directly (NOT `run_build`, which
+  re-runs `gen_content` and could re-author). `materialize()` only fetches when a row's `img` is
+  missing — all rows already had `img`, so cached assets were reused. 0 OpenRouter calls.
+- **Gates (per unit, in `reveal_fix.py`):** HTML-structural (row0 has `<b>`, rows>0 none) +
+  text-identity (`layout_rubric.content_unchanged`, all 72 EXACT — no reflow) + page-count +
+  visual-locality (changes only in the left text column, never header/footer/image column) +
+  the build's own decodability + border gates. 72/72 passed.
+- **GOTCHA — buffered stdout hides truncation:** the bulk publish `python -c` (no `-u`) block-buffered
+  its stdout to the background task file; the capture cut off mid-last-unit. The process reported
+  exit 0 but the FINAL unit (`k_digraphs/09_wh-white`) had not been re-uploaded. The **live-Drive
+  modifiedTime audit** (via `pipeline.slides.get_credentials`, not the expired claude.ai MCP token)
+  caught the one stale file — trust the datastore audit, not stdout, for "did it publish."
+  Use `python -u` for long publish runs.
+- Fresh adversarial validator independently re-derived the exact 72-set and scored 5/5.
+
+## 2026-07-02 — Repeated-example fix (distinct word+image per sentence)
+
+- **Problem:** 52 of 88 reading worksheets repeated the same target word/image across
+  sentences (au-pause: sauce×3/astronaut×2; gh-ghost: ghost×5) — child answers the same
+  thing repeatedly. Fixed so each sheet shows distinct examples.
+- **Scope:** 50 sentence-type units fixed to 5 distinct (49 to 5/5 + au-pause). Excluded 2
+  word-building units (`er-faster`, `open-syllable-robot`: build-table primary, distinct;
+  their secondary sentence list rebuilds to `[:3]` — layout risk, no real repeat problem).
+  `oy-toy` left at 4/5 (oy inventory genuinely lacks 5 picturable decodable words — documented).
+- **Method:** edit the AUTHORED source `language/<subject>/data.json`, keep every first-occurrence
+  sentence VERBATIM, replace ONLY duplicate + pre-broken (pic∉sentence) rows with new distinct
+  decodable words; rebuild via gen_content+build_unit (regenerates content.json, decodable_text,
+  answer key, images; preserves the reveal:first underline fix). Orchestrator `language/dedup_fix.py`
+  (sweep / report / vet / assemble / apply). Log `language/DEDUP_FIX_LOG.md`; backups `_dedup_fix_backup/`.
+- **Division of labour that worked:** the MODEL authors the new words (kid-friendly, picturable);
+  `decodability.check_text`/`segment_word` VET them before spend; a dry `assemble()` pre-check caught
+  ~14 count/decodability/pic-in-sentence issues before any image gen.
+- **Two gate lessons (from real failures):**
+  - **Preservation must keep first-occurrences verbatim** — rewriting a non-duplicate sentence for
+    "naturalness" fails the targeted-change gate. Only swap the true duplicate/broken rows.
+  - **must_keep must exclude pre-broken rows** (original pic word not in its own sentence, e.g. ll-doll
+    "Tell Nan to sell it." tagged pic=hill) — those are legitimately replaceable, not preservable.
+- **GOTCHA — network image-gen hangs kill a long build run.** A single OpenRouter call stalling took
+  down the whole 49-unit run at unit 15 (exit 0, silently incomplete). Fix that worked:
+  **pre-generate ALL new images in an isolated, error-tolerant pass first** (42 imgs, 0 fail), then run
+  the builds cache-only (no network) → 49/49 passed. Don't interleave network image-gen with a long build loop.
+- **Image QA caught 4 bad/insensitive generations** (chief→feather-headdress figure = cultural-stereotype;
+  bruise/vein→heart shapes = wrong; design→vague). Replaced words with fries/guitar/weight/gnu + regen.
+  Always Read the new images — a contact-sheet montage of all new PNGs makes this one glance.
+- ~46 new images generated (~$4). New-word images cached in `assets/ai_line_art/`.
+
+## 2026-07-02 — Round 3: distinct example WORD per sentence
+
+- **Problem:** even with distinct pictures (round 2), sheets repeated the same *example word* across
+  sentences (z-zebra "zip"×3, oo-book "look"×3, ey-they "they"×4). Each sentence should demonstrate a
+  DIFFERENT grapheme word.
+- **Sweep:** 44/88 actionable; fixed **43** (reword to distinct grapheme words, KEEPING pictures →
+  zero new images). Exceptions still repeating ONE word (inventory-limited, documented): oy(toy),
+  zz(buzz), oll(roll), gh(rough), augh(caught), ey(grey), wh(what); `aigh-straight` unavoidable
+  ("straight" only word); `er-faster` word-building excluded.
+- **Tooling:** extended `dedup_fix.py` — `_gwords()` (grapheme content-words, function-word stoplist +
+  true-segment check), `word_sweep`/`word_report`, and `apply(..., preserve=False,
+  require_distinct_words=True, expect_pics=..., backup_dir=_wordfix_backup)`. Log `WORDFIX_LOG.md`.
+- **Gate lessons:**
+  - **Reword rounds need `preserve=False`** (we intentionally rewrite sentences) + `expect_pics` as a
+    no-surprise-image guard (assert pic set unchanged) → confirmed 0 image spend.
+  - **check_text (pre-vet) and check_unit (build gate) disagree on a few words** (e.g. `laugh` needs
+    `au`>order; `like` magic-e; `where` `ere`). Pre-vet can pass what the build rejects — always let the
+    build's `check_unit` be the hard gate, fix reactively.
+  - **`gen_content.gen_word_building` caps sentences to `[:3]`** — rebuilding a word_building unit
+    (ly/un/ed suffix/prefix sheets) through gen_content DROPS 2 of its 5 sentences → page-count change.
+    Fix: for those, edit the "Read the sentences" rows in `content.json` DIRECTLY and call `build_unit`
+    (which renders content.json as-is, no cap), keeping all 5 rows + the 3-page layout. Sync data.json too.
+- New backups `_wordfix_backup/`. All prior fixes (reveal:first underline, distinct pictures) verified intact.
+
+## 2026-07-02 — Touch-ups: "Ii" legibility + wrong "photo" image
+
+- **Ii read as "li":** the house sans font draws capital I as a bare stroke = lowercase l, so "Ii"
+  (letter shown both cases) misreads as "li" on letter-sound sheets. Fix: serif the letter displays,
+  SCOPED to letter sheets via a `<body class="lettersheet">` flag (set when a `formation` part exists) →
+  `.lettersheet .title/.ph-title/.ph-tab-main, .fm-letter, .fm-trace { font-family: Georgia,serif }`.
+  Reading-sentence tabs/titles keep the sans. Content unchanged; 24 k_letter_sounds units re-rendered.
+- **Bad AI image:** `photo.png` had been generated as a kawaii ANIMAL (the model read "photo" as a
+  creature). Regenerated with an explicit prompt ("framed photograph = rectangular picture frame with a
+  mountain/sun picture inside, no face") → clear photo. Lesson: abstract nouns (photo/echo/design/bruise)
+  are the ones the image model gets wrong — always eyeball them, and prompt with a concrete depiction.
+- Both shipped Drive-only; 25 touched units re-rendered, page counts + borders preserved, all fresh.
+
+## 2026-07-02 — Wrong-image sweep + aigh word-family
+
+- **Image-QA sweep:** built labeled contact sheets of all 345 used images, eyeballed every one.
+  9 depicted the WRONG object (AI misread the word): wood=mushroom-forest, foil=fencing-sword,
+  shop=mushroom-cottage, stick=stick-figure-person, nail=fingernail, bat=wingless-critter,
+  page=cloud-scene, map=doodle, trunk=elephant-trunk. Regenerated all 9 with explicit concrete
+  prompts (e.g. "a stack of chopped firewood logs", "a metal carpentry nail head+point"), rebuilt
+  the 14 units referencing them (page/nail in 2 units, map in 4 K picture tasks). Lesson: the
+  image model reliably fails on (a) abstract nouns and (b) words with a common homograph (foil sword,
+  nail finger, bat mammal, stick figure) — contact-sheet the whole library and eyeball; don't trust
+  per-word gen.
+- **aigh single-word repeat:** aigh's only common word is "straight" → the sheet read straight×5.
+  aigh word family = straight, straighten, straightaway, straightedge (all decodable, aigh segment).
+  Used straight/straighten/straightedge (kid-appropriate) with distinct pics → straight×2 (was ×5),
+  3 distinct aigh words. `apply(..., require_distinct_words=True, allow_word_repeats=2)`. Truly
+  single-word graphemes can still be varied via the derived word family.

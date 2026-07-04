@@ -6,11 +6,11 @@
     "lesson_order": 69,
     "target_grapheme": "dge",
     "decodable_text": [
-      "Run to the edge of the bridge.",
+      "Run to the bridge.",
       "I see a badge.",
-      "The fudge is on the edge.",
+      "The fudge is sweet.",
       "The dog is on the ledge.",
-      "The badge is on the bridge."
+      "The judge is here."
     ],
     "image_words": [
       {
@@ -26,9 +26,10 @@
         "word": "dog"
       },
       {
-        "word": "bridge"
+        "word": "judge"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,9 +60,10 @@
         "type": "reading_rows",
         "bold": "dge",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "Run to the edge of the bridge.",
+            "text": "Run to the bridge.",
             "word": "bridge",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bridge.png"
           },
@@ -71,7 +73,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/badge.png"
           },
           {
-            "text": "The fudge is on the edge.",
+            "text": "The fudge is sweet.",
             "word": "fudge",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fudge.png"
           },
@@ -81,9 +83,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dog.png"
           },
           {
-            "text": "The badge is on the bridge.",
-            "word": "bridge",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bridge.png"
+            "text": "The judge is here.",
+            "word": "judge",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/judge.png"
           }
         ]
       },
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: edge, bridge.",
+          "Sentence 1: bridge.",
           "Sentence 2: badge.",
-          "Sentence 3: fudge, edge.",
+          "Sentence 3: fudge.",
           "Sentence 4: ledge.",
-          "Sentence 5: badge, bridge.",
+          "Sentence 5: judge.",
           "Your turn / extension: any real word with dge."
         ]
       },

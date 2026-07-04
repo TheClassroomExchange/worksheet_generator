@@ -6,11 +6,11 @@
     "lesson_order": 65,
     "target_grapheme": "ow",
     "decodable_text": [
-      "The snow is on the crow.",
+      "The snow is cold.",
       "The crow is low.",
       "Blow the bow.",
-      "The plant will grow in snow.",
-      "A crow on the snow."
+      "I see a rainbow.",
+      "The pillow is soft."
     ],
     "image_words": [
       {
@@ -23,12 +23,13 @@
         "word": "bow"
       },
       {
-        "word": "snow"
+        "word": "rainbow"
       },
       {
-        "word": "crow"
+        "word": "pillow"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,9 +60,10 @@
         "type": "reading_rows",
         "bold": "ow",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "The snow is on the crow.",
+            "text": "The snow is cold.",
             "word": "snow",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/snow.png"
           },
@@ -76,14 +78,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bow.png"
           },
           {
-            "text": "The plant will grow in snow.",
-            "word": "snow",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/snow.png"
+            "text": "I see a rainbow.",
+            "word": "rainbow",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/rainbow.png"
           },
           {
-            "text": "A crow on the snow.",
-            "word": "crow",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/crow.png"
+            "text": "The pillow is soft.",
+            "word": "pillow",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pillow.png"
           }
         ]
       },
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: snow, crow.",
+          "Sentence 1: snow.",
           "Sentence 2: crow, low.",
           "Sentence 3: Blow, bow.",
-          "Sentence 4: grow, snow.",
-          "Sentence 5: crow, snow.",
+          "Sentence 4: rainbow.",
+          "Sentence 5: pillow.",
           "Your turn / extension: any real word with ow."
         ]
       },

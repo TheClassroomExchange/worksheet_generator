@@ -9,8 +9,8 @@
       "What is in the box?",
       "Whip the egg.",
       "The whisk is in the pan.",
-      "What did the cat do?",
-      "What is on the bed?"
+      "When can the cat nap?",
+      "What is by the bed?"
     ],
     "image_words": [
       {
@@ -29,6 +29,7 @@
         "word": "bed"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "A2.4",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "wh",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "What is in the box?",
@@ -76,12 +78,12 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/whisk.png"
           },
           {
-            "text": "What did the cat do?",
+            "text": "When can the cat nap?",
             "word": "cat",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
           },
           {
-            "text": "What is on the bed?",
+            "text": "What is by the bed?",
             "word": "bed",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bed.png"
           }
@@ -124,7 +126,7 @@
           "Sentence 1: What.",
           "Sentence 2: Whip.",
           "Sentence 3: whisk.",
-          "Sentence 4: What.",
+          "Sentence 4: When.",
           "Sentence 5: What.",
           "Your turn / extension: any real word with wh."
         ]

@@ -10,7 +10,7 @@
       "The phone is red.",
       "A dolphin can swim.",
       "The elephant is big.",
-      "I call on the phone."
+      "I read the graph."
     ],
     "image_words": [
       {
@@ -26,7 +26,7 @@
         "word": "elephant"
       },
       {
-        "word": "phone"
+        "word": "graph"
       }
     ],
     "target_optional": false,
@@ -60,6 +60,7 @@
         "type": "reading_rows",
         "bold": "ph",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I see a photo.",
@@ -82,9 +83,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/elephant.png"
           },
           {
-            "text": "I call on the phone.",
-            "word": "phone",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/phone.png"
+            "text": "I read the graph.",
+            "word": "graph",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/graph.png"
           }
         ]
       },
@@ -126,7 +127,7 @@
           "Sentence 2: phone.",
           "Sentence 3: dolphin.",
           "Sentence 4: elephant.",
-          "Sentence 5: phone.",
+          "Sentence 5: graph.",
           "Your turn / extension: any real word with ph."
         ]
       },

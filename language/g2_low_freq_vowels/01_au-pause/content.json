@@ -8,9 +8,9 @@
     "decodable_text": [
       "I like the sauce.",
       "The astronaut is up.",
-      "The sauce is hot.",
-      "Add the sauce.",
-      "The astronaut ate."
+      "The faucet drips.",
+      "I see the laundry.",
+      "The dinosaur is big."
     ],
     "image_words": [
       {
@@ -20,13 +20,13 @@
         "word": "astronaut"
       },
       {
-        "word": "sauce"
+        "word": "faucet"
       },
       {
-        "word": "sauce"
+        "word": "laundry"
       },
       {
-        "word": "astronaut"
+        "word": "dinosaur"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "au",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I like the sauce.",
@@ -68,19 +69,19 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/astronaut.png"
           },
           {
-            "text": "The sauce is hot.",
-            "word": "sauce",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sauce.png"
+            "text": "The faucet drips.",
+            "word": "faucet",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/faucet.png"
           },
           {
-            "text": "Add the sauce.",
-            "word": "sauce",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sauce.png"
+            "text": "I see the laundry.",
+            "word": "laundry",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/laundry.png"
           },
           {
-            "text": "The astronaut ate.",
-            "word": "astronaut",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/astronaut.png"
+            "text": "The dinosaur is big.",
+            "word": "dinosaur",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dinosaur.png"
           }
         ]
       },
@@ -120,9 +121,9 @@
         "text": [
           "Sentence 1: sauce.",
           "Sentence 2: astronaut.",
-          "Sentence 3: sauce.",
-          "Sentence 4: sauce.",
-          "Sentence 5: astronaut.",
+          "Sentence 3: faucet.",
+          "Sentence 4: laundry.",
+          "Sentence 5: dinosaur.",
           "Your turn / extension: any real word with au."
         ]
       },

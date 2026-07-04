@@ -6,11 +6,11 @@
     "lesson_order": 54,
     "target_grapheme": "y",
     "decodable_text": [
-      "The fly is in the sky.",
+      "The fly is up.",
       "The sky is dry.",
-      "I try to fly.",
-      "The fly can fly by.",
-      "My sky is dry."
+      "I fry an egg.",
+      "The spy is shy.",
+      "A fox is sly."
     ],
     "image_words": [
       {
@@ -20,15 +20,16 @@
         "word": "sky"
       },
       {
-        "word": "fly"
+        "word": "egg"
       },
       {
-        "word": "fly"
+        "word": "spy"
       },
       {
-        "word": "sky"
+        "word": "fox"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,9 +60,10 @@
         "type": "reading_rows",
         "bold": "y",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "The fly is in the sky.",
+            "text": "The fly is up.",
             "word": "fly",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fly.png"
           },
@@ -71,19 +73,19 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sky.png"
           },
           {
-            "text": "I try to fly.",
-            "word": "fly",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fly.png"
+            "text": "I fry an egg.",
+            "word": "egg",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/egg.png"
           },
           {
-            "text": "The fly can fly by.",
-            "word": "fly",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fly.png"
+            "text": "The spy is shy.",
+            "word": "spy",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/spy.png"
           },
           {
-            "text": "My sky is dry.",
-            "word": "sky",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sky.png"
+            "text": "A fox is sly.",
+            "word": "fox",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fox.png"
           }
         ]
       },
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: fly, sky.",
+          "Sentence 1: fly.",
           "Sentence 2: sky, dry.",
-          "Sentence 3: try, fly.",
-          "Sentence 4: fly, fly, by.",
-          "Sentence 5: My, sky, dry.",
+          "Sentence 3: fry.",
+          "Sentence 4: spy, shy.",
+          "Sentence 5: sly.",
           "Your turn / extension: any real word with y."
         ]
       },

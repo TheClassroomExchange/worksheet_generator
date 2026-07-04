@@ -9,8 +9,8 @@
       "This is my cat.",
       "That is a big dog.",
       "Then the fox ran.",
-      "This cat is thin.",
-      "That duck can swim."
+      "They see the hen.",
+      "The duck swims with them."
     ],
     "image_words": [
       {
@@ -23,12 +23,13 @@
         "word": "fox"
       },
       {
-        "word": "cat"
+        "word": "hen"
       },
       {
         "word": "duck"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "A2.4",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "th",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "This is my cat.",
@@ -76,12 +78,12 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fox.png"
           },
           {
-            "text": "This cat is thin.",
-            "word": "cat",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
+            "text": "They see the hen.",
+            "word": "hen",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hen.png"
           },
           {
-            "text": "That duck can swim.",
+            "text": "The duck swims with them.",
             "word": "duck",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/duck.png"
           }
@@ -124,8 +126,8 @@
           "Sentence 1: This.",
           "Sentence 2: That.",
           "Sentence 3: Then, the.",
-          "Sentence 4: This, thin.",
-          "Sentence 5: That.",
+          "Sentence 4: They, the.",
+          "Sentence 5: The, with, them.",
           "Your turn / extension: any real word with th."
         ]
       },

@@ -8,9 +8,9 @@
     "decodable_text": [
       "The sky is blue.",
       "I use the glue.",
-      "The glue is blue.",
-      "The statue is blue.",
-      "A blue statue."
+      "I like the tissue.",
+      "The statue is tall.",
+      "The barbecue is hot."
     ],
     "image_words": [
       {
@@ -20,13 +20,13 @@
         "word": "glue"
       },
       {
-        "word": "glue"
+        "word": "tissue"
       },
       {
         "word": "statue"
       },
       {
-        "word": "statue"
+        "word": "barbecue"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "ue",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The sky is blue.",
@@ -68,19 +69,19 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/glue.png"
           },
           {
-            "text": "The glue is blue.",
-            "word": "glue",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/glue.png"
+            "text": "I like the tissue.",
+            "word": "tissue",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/tissue.png"
           },
           {
-            "text": "The statue is blue.",
+            "text": "The statue is tall.",
             "word": "statue",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/statue.png"
           },
           {
-            "text": "A blue statue.",
-            "word": "statue",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/statue.png"
+            "text": "The barbecue is hot.",
+            "word": "barbecue",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/barbecue.png"
           }
         ]
       },
@@ -120,9 +121,9 @@
         "text": [
           "Sentence 1: blue.",
           "Sentence 2: glue.",
-          "Sentence 3: glue, blue.",
-          "Sentence 4: statue, blue.",
-          "Sentence 5: blue, statue.",
+          "Sentence 3: tissue.",
+          "Sentence 4: statue.",
+          "Sentence 5: barbecue.",
           "Your turn / extension: any real word with ue."
         ]
       },

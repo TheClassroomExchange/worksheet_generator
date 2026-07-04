@@ -8,9 +8,9 @@
     "decodable_text": [
       "I draw with chalk.",
       "Add the salt.",
-      "The chalk is small.",
-      "We walk and talk.",
-      "Use the chalk."
+      "We walk to school.",
+      "The palm tree is tall.",
+      "The calf can run."
     ],
     "image_words": [
       {
@@ -20,13 +20,13 @@
         "word": "salt"
       },
       {
-        "word": "chalk"
+        "word": "walk"
       },
       {
-        "word": "salt"
+        "word": "palm"
       },
       {
-        "word": "chalk"
+        "word": "calf"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "al",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I draw with chalk.",
@@ -68,19 +69,19 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/salt.png"
           },
           {
-            "text": "The chalk is small.",
-            "word": "chalk",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/chalk.png"
+            "text": "We walk to school.",
+            "word": "walk",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/walk.png"
           },
           {
-            "text": "We walk and talk.",
-            "word": "salt",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/salt.png"
+            "text": "The palm tree is tall.",
+            "word": "palm",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/palm.png"
           },
           {
-            "text": "Use the chalk.",
-            "word": "chalk",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/chalk.png"
+            "text": "The calf can run.",
+            "word": "calf",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/calf.png"
           }
         ]
       },
@@ -120,9 +121,9 @@
         "text": [
           "Sentence 1: chalk.",
           "Sentence 2: salt.",
-          "Sentence 3: chalk, small.",
-          "Sentence 4: walk, talk.",
-          "Sentence 5: chalk.",
+          "Sentence 3: walk.",
+          "Sentence 4: palm, tall.",
+          "Sentence 5: calf.",
           "Your turn / extension: any real word with al."
         ]
       },

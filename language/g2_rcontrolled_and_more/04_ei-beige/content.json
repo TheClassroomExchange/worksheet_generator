@@ -9,8 +9,8 @@
       "The reindeer can run.",
       "The veil is white.",
       "A beige coat.",
-      "The reindeer has a rein.",
-      "The beige veil."
+      "I lift the weight.",
+      "Eight legs on a spider."
     ],
     "image_words": [
       {
@@ -23,10 +23,10 @@
         "word": "coat"
       },
       {
-        "word": "reindeer"
+        "word": "weight"
       },
       {
-        "word": "veil"
+        "word": "spider"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "ei",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The reindeer can run.",
@@ -73,14 +74,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/coat.png"
           },
           {
-            "text": "The reindeer has a rein.",
-            "word": "reindeer",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/reindeer.png"
+            "text": "I lift the weight.",
+            "word": "weight",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/weight.png"
           },
           {
-            "text": "The beige veil.",
-            "word": "veil",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/veil.png"
+            "text": "Eight legs on a spider.",
+            "word": "spider",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/spider.png"
           }
         ]
       },
@@ -121,8 +122,8 @@
           "Sentence 1: reindeer.",
           "Sentence 2: veil.",
           "Sentence 3: beige.",
-          "Sentence 4: reindeer, rein.",
-          "Sentence 5: beige, veil.",
+          "Sentence 4: weight.",
+          "Sentence 5: Eight.",
           "Your turn / extension: any real word with ei."
         ]
       },

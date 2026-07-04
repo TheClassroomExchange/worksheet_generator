@@ -9,8 +9,8 @@
       "The doll is on the hill.",
       "I see a shell.",
       "The bell is by the well.",
-      "A doll fell.",
-      "Tell Nan to sell it."
+      "The ball can roll.",
+      "The gull can yell."
     ],
     "image_words": [
       {
@@ -23,12 +23,13 @@
         "word": "bell"
       },
       {
-        "word": "doll"
+        "word": "ball"
       },
       {
-        "word": "hill"
+        "word": "gull"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "ll",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The doll is on the hill.",
@@ -76,14 +78,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bell.png"
           },
           {
-            "text": "A doll fell.",
-            "word": "doll",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/doll.png"
+            "text": "The ball can roll.",
+            "word": "ball",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ball.png"
           },
           {
-            "text": "Tell Nan to sell it.",
-            "word": "hill",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hill.png"
+            "text": "The gull can yell.",
+            "word": "gull",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/gull.png"
           }
         ]
       },
@@ -124,8 +126,8 @@
           "Sentence 1: doll, hill.",
           "Sentence 2: shell.",
           "Sentence 3: bell, well.",
-          "Sentence 4: doll, fell.",
-          "Sentence 5: Tell, sell.",
+          "Sentence 4: ball, roll.",
+          "Sentence 5: gull, yell.",
           "Your turn / extension: any real word with ll."
         ]
       },

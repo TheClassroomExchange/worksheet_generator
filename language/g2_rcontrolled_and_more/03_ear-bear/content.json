@@ -8,9 +8,9 @@
     "decodable_text": [
       "The bear is big.",
       "I eat a pear.",
-      "The bear likes the pear.",
+      "Do not tear the page.",
       "I wear a coat.",
-      "A big brown bear."
+      "The deer is near."
     ],
     "image_words": [
       {
@@ -20,13 +20,13 @@
         "word": "pear"
       },
       {
-        "word": "bear"
+        "word": "page"
       },
       {
         "word": "coat"
       },
       {
-        "word": "bear"
+        "word": "deer"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "ear",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The bear is big.",
@@ -68,9 +69,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pear.png"
           },
           {
-            "text": "The bear likes the pear.",
-            "word": "bear",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bear.png"
+            "text": "Do not tear the page.",
+            "word": "page",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/page.png"
           },
           {
             "text": "I wear a coat.",
@@ -78,9 +79,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/coat.png"
           },
           {
-            "text": "A big brown bear.",
-            "word": "bear",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bear.png"
+            "text": "The deer is near.",
+            "word": "deer",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/deer.png"
           }
         ]
       },
@@ -120,9 +121,9 @@
         "text": [
           "Sentence 1: bear.",
           "Sentence 2: pear.",
-          "Sentence 3: bear, pear.",
+          "Sentence 3: tear.",
           "Sentence 4: wear.",
-          "Sentence 5: bear.",
+          "Sentence 5: near.",
           "Your turn / extension: any real word with ear."
         ]
       },

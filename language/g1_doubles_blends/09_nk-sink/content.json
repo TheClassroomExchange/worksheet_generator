@@ -6,11 +6,11 @@
     "lesson_order": 42,
     "target_grapheme": "nk",
     "decodable_text": [
-      "The sink is pink.",
+      "The sink is full.",
       "A skunk is by the tank.",
       "I drink from the cup.",
-      "The trunk is full of junk.",
-      "Wink and think."
+      "The trunk has junk.",
+      "The sock is pink."
     ],
     "image_words": [
       {
@@ -26,9 +26,10 @@
         "word": "trunk"
       },
       {
-        "word": "sink"
+        "word": "sock"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,9 +60,10 @@
         "type": "reading_rows",
         "bold": "nk",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "The sink is pink.",
+            "text": "The sink is full.",
             "word": "sink",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sink.png"
           },
@@ -76,14 +78,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cup.png"
           },
           {
-            "text": "The trunk is full of junk.",
+            "text": "The trunk has junk.",
             "word": "trunk",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/trunk.png"
           },
           {
-            "text": "Wink and think.",
-            "word": "sink",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sink.png"
+            "text": "The sock is pink.",
+            "word": "sock",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sock.png"
           }
         ]
       },
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: sink, pink.",
+          "Sentence 1: sink.",
           "Sentence 2: skunk, tank.",
           "Sentence 3: drink.",
           "Sentence 4: trunk, junk.",
-          "Sentence 5: Wink, think.",
+          "Sentence 5: pink.",
           "Your turn / extension: any real word with nk."
         ]
       },

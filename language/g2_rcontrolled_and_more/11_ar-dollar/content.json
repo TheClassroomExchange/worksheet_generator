@@ -7,9 +7,9 @@
     "target_grapheme": "ar",
     "decodable_text": [
       "I have a dollar.",
-      "The dog has a collar.",
+      "The dog sees a star.",
       "Add the sugar.",
-      "A dollar for the sugar.",
+      "A pillar is tall.",
       "The collar is red."
     ],
     "image_words": [
@@ -23,7 +23,7 @@
         "word": "sugar"
       },
       {
-        "word": "dollar"
+        "word": "pillar"
       },
       {
         "word": "collar"
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "ar",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I have a dollar.",
@@ -63,7 +64,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dollar.png"
           },
           {
-            "text": "The dog has a collar.",
+            "text": "The dog sees a star.",
             "word": "dog",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dog.png"
           },
@@ -73,9 +74,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sugar.png"
           },
           {
-            "text": "A dollar for the sugar.",
-            "word": "dollar",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dollar.png"
+            "text": "A pillar is tall.",
+            "word": "pillar",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pillar.png"
           },
           {
             "text": "The collar is red.",
@@ -119,9 +120,9 @@
         "title": "Answer key",
         "text": [
           "Sentence 1: dollar.",
-          "Sentence 2: collar.",
+          "Sentence 2: star.",
           "Sentence 3: sugar.",
-          "Sentence 4: dollar, sugar.",
+          "Sentence 4: pillar.",
           "Sentence 5: collar.",
           "Your turn / extension: any real word with ar."
         ]

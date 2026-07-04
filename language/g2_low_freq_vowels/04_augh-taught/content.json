@@ -8,9 +8,9 @@
     "decodable_text": [
       "I caught the ball.",
       "The dog is naughty.",
-      "The cat caught a bug.",
-      "She taught the class.",
-      "The pup caught it."
+      "I taught the cat.",
+      "My daughter is here.",
+      "I caught the pup."
     ],
     "image_words": [
       {
@@ -23,7 +23,7 @@
         "word": "cat"
       },
       {
-        "word": "dog"
+        "word": "daughter"
       },
       {
         "word": "pup"
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "augh",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I caught the ball.",
@@ -68,19 +69,19 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dog.png"
           },
           {
-            "text": "The cat caught a bug.",
+            "text": "I taught the cat.",
             "word": "cat",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
           },
           {
-            "text": "She taught the class.",
-            "word": "dog",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dog.png"
+            "text": "My daughter is here.",
+            "word": "daughter",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/daughter.png"
           },
           {
-            "text": "The pup caught it.",
-            "word": "pup",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pup.png"
+            "text": "I hug my granddaughter.",
+            "word": "granddaughter",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/granddaughter.png"
           }
         ]
       },
@@ -120,9 +121,9 @@
         "text": [
           "Sentence 1: caught.",
           "Sentence 2: naughty.",
-          "Sentence 3: caught.",
-          "Sentence 4: taught.",
-          "Sentence 5: caught.",
+          "Sentence 3: taught.",
+          "Sentence 4: daughter.",
+          "Sentence 5: granddaughter.",
           "Your turn / extension: any real word with augh."
         ]
       },

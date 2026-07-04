@@ -9,8 +9,8 @@
       "The duck can quack.",
       "I see a red quilt.",
       "The quick fox ran.",
-      "A quick cat naps.",
-      "Can a duck quack?"
+      "A quiz for the cat.",
+      "The pig will quit."
     ],
     "image_words": [
       {
@@ -26,9 +26,10 @@
         "word": "cat"
       },
       {
-        "word": "duck"
+        "word": "pig"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "A2.4",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "qu",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The duck can quack.",
@@ -76,14 +78,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fox.png"
           },
           {
-            "text": "A quick cat naps.",
+            "text": "A quiz for the cat.",
             "word": "cat",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
           },
           {
-            "text": "Can a duck quack?",
-            "word": "duck",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/duck.png"
+            "text": "The pig will quit.",
+            "word": "pig",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pig.png"
           }
         ]
       },
@@ -124,8 +126,8 @@
           "Sentence 1: quack.",
           "Sentence 2: quilt.",
           "Sentence 3: quick.",
-          "Sentence 4: quick.",
-          "Sentence 5: quack.",
+          "Sentence 4: quiz.",
+          "Sentence 5: quit.",
           "Your turn / extension: any real word with qu."
         ]
       },

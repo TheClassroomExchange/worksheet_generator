@@ -9,8 +9,8 @@
       "The doctor is here.",
       "I drive a tractor.",
       "Look in the mirror.",
-      "The doctor has a mirror.",
-      "The tractor is red."
+      "The actor is on stage.",
+      "The anchor is heavy."
     ],
     "image_words": [
       {
@@ -23,10 +23,10 @@
         "word": "mirror"
       },
       {
-        "word": "doctor"
+        "word": "actor"
       },
       {
-        "word": "tractor"
+        "word": "anchor"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "or",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The doctor is here.",
@@ -73,14 +74,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/mirror.png"
           },
           {
-            "text": "The doctor has a mirror.",
-            "word": "doctor",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/doctor.png"
+            "text": "The actor is on stage.",
+            "word": "actor",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/actor.png"
           },
           {
-            "text": "The tractor is red.",
-            "word": "tractor",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/tractor.png"
+            "text": "The anchor is heavy.",
+            "word": "anchor",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/anchor.png"
           }
         ]
       },
@@ -121,8 +122,8 @@
           "Sentence 1: doctor.",
           "Sentence 2: tractor.",
           "Sentence 3: mirror.",
-          "Sentence 4: doctor, mirror.",
-          "Sentence 5: tractor.",
+          "Sentence 4: actor.",
+          "Sentence 5: anchor.",
           "Your turn / extension: any real word with or."
         ]
       },

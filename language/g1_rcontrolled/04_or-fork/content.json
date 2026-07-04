@@ -6,11 +6,11 @@
     "lesson_order": 71,
     "target_grapheme": "or",
     "decodable_text": [
-      "I eat corn with a fork.",
-      "The horn is short.",
-      "The corn is by the fork.",
-      "Sort the corn.",
-      "A short horn."
+      "I eat with a fork.",
+      "The horn is red.",
+      "The corn is sweet.",
+      "A storm is here.",
+      "The cork is small."
     ],
     "image_words": [
       {
@@ -23,12 +23,13 @@
         "word": "corn"
       },
       {
-        "word": "corn"
+        "word": "storm"
       },
       {
-        "word": "horn"
+        "word": "cork"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,31 +60,32 @@
         "type": "reading_rows",
         "bold": "or",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "I eat corn with a fork.",
+            "text": "I eat with a fork.",
             "word": "fork",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fork.png"
           },
           {
-            "text": "The horn is short.",
+            "text": "The horn is red.",
             "word": "horn",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/horn.png"
           },
           {
-            "text": "The corn is by the fork.",
+            "text": "The corn is sweet.",
             "word": "corn",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/corn.png"
           },
           {
-            "text": "Sort the corn.",
-            "word": "corn",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/corn.png"
+            "text": "A storm is here.",
+            "word": "storm",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/storm.png"
           },
           {
-            "text": "A short horn.",
-            "word": "horn",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/horn.png"
+            "text": "The cork is small.",
+            "word": "cork",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cork.png"
           }
         ]
       },
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: corn, fork.",
-          "Sentence 2: horn, short.",
-          "Sentence 3: corn, fork.",
-          "Sentence 4: Sort, corn.",
-          "Sentence 5: short, horn.",
+          "Sentence 1: fork.",
+          "Sentence 2: horn.",
+          "Sentence 3: corn.",
+          "Sentence 4: storm.",
+          "Sentence 5: cork.",
           "Your turn / extension: any real word with or."
         ]
       },

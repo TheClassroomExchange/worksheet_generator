@@ -7,26 +7,26 @@
     "target_grapheme": "aigh",
     "decodable_text": [
       "The road is straight.",
-      "The path is straight.",
+      "I straighten my tie.",
       "The nail is straight.",
-      "Draw a straight line.",
-      "The straight road is long."
+      "I straighten my hair.",
+      "The straightedge is a flat ruler."
     ],
     "image_words": [
       {
         "word": "road"
       },
       {
-        "word": "path"
+        "word": "tie"
       },
       {
         "word": "nail"
       },
       {
-        "word": "road"
+        "word": "hair"
       },
       {
-        "word": "road"
+        "word": "ruler"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "aigh",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The road is straight.",
@@ -63,9 +64,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/road.png"
           },
           {
-            "text": "The path is straight.",
-            "word": "path",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/path.png"
+            "text": "I straighten my tie.",
+            "word": "tie",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/tie.png"
           },
           {
             "text": "The nail is straight.",
@@ -73,14 +74,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/nail.png"
           },
           {
-            "text": "Draw a straight line.",
-            "word": "road",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/road.png"
+            "text": "I straighten my hair.",
+            "word": "hair",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hair.png"
           },
           {
-            "text": "The straight road is long.",
-            "word": "road",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/road.png"
+            "text": "The straightedge is a flat ruler.",
+            "word": "ruler",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/ruler.png"
           }
         ]
       },
@@ -119,10 +120,10 @@
         "title": "Answer key",
         "text": [
           "Sentence 1: straight.",
-          "Sentence 2: straight.",
+          "Sentence 2: straighten.",
           "Sentence 3: straight.",
-          "Sentence 4: straight.",
-          "Sentence 5: straight.",
+          "Sentence 4: straighten.",
+          "Sentence 5: straightedge.",
           "Your turn / extension: any real word with aigh."
         ]
       },

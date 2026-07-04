@@ -10,7 +10,7 @@
       "I see a bunny.",
       "The baby has candy.",
       "My teddy is funny.",
-      "The puppy is muddy."
+      "The pony is muddy."
     ],
     "image_words": [
       {
@@ -26,9 +26,10 @@
         "word": "teddy"
       },
       {
-        "word": "puppy"
+        "word": "pony"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "y",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "The puppy is happy.",
@@ -81,9 +83,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/teddy.png"
           },
           {
-            "text": "The puppy is muddy.",
-            "word": "puppy",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/puppy.png"
+            "text": "The pony is muddy.",
+            "word": "pony",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pony.png"
           }
         ]
       },
@@ -125,7 +127,7 @@
           "Sentence 2: bunny.",
           "Sentence 3: baby, candy.",
           "Sentence 4: My, teddy, funny.",
-          "Sentence 5: puppy, muddy.",
+          "Sentence 5: pony, muddy.",
           "Your turn / extension: any real word with y."
         ]
       },

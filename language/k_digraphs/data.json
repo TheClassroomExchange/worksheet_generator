@@ -1,65 +1,245 @@
 {
-  "01_qu-question": {"sub": "/kw/", "sound": "Sound /kw/ spelled qu", "order": 33, "sentences": [
-    {"text": "The duck can quack.", "pic": "duck"},
-    {"text": "I see a red quilt.", "pic": "quilt"},
-    {"text": "The quick fox ran.", "pic": "fox"},
-    {"text": "A quick cat naps.", "pic": "cat"},
-    {"text": "Can a duck quack?", "pic": "duck"}
-  ]},
-  "02_z-zebra": {"sub": "/z/", "sound": "Sound /z/", "order": 33, "sentences": [
-    {"text": "The zebra ran fast.", "pic": "zebra"},
-    {"text": "Zip up the bag.", "pic": "bag"},
-    {"text": "A bug can zigzag.", "pic": "bug"},
-    {"text": "The zebra is big.", "pic": "zebra"},
-    {"text": "I zip my big bag.", "pic": "bag"}
-  ]},
-  "03_ng-swing": {"sub": "/ng/", "sound": "Sound /ng/", "order": 33, "sentences": [
-    {"text": "The king has a ring.", "pic": "ring"},
-    {"text": "A bug has a wing.", "pic": "wing"},
-    {"text": "I see a big swing.", "pic": "swing"},
-    {"text": "The king sang a song.", "pic": "king"},
-    {"text": "The king is on the swing.", "pic": "swing"}
-  ]},
-  "04_sh-sheep": {"sub": "/sh/", "sound": "Sound /sh/", "order": 33, "sentences": [
-    {"text": "The fish is in the dish.", "pic": "fish"},
-    {"text": "She has a big shell.", "pic": "shell"},
-    {"text": "The ship is on the sand.", "pic": "ship"},
-    {"text": "A shark can swim fast.", "pic": "shark"},
-    {"text": "I shop at the shop.", "pic": "shop"}
-  ]},
-  "05_ch-chips": {"sub": "/ch/", "sound": "Sound /ch/", "order": 33, "sentences": [
-    {"text": "I can see a chick.", "pic": "chick"},
-    {"text": "The chips are in a dish.", "pic": "chips"},
-    {"text": "A chimp can chat.", "pic": "chimp"},
-    {"text": "Chop the log.", "pic": "log"},
-    {"text": "She has a chin.", "pic": "chin"}
-  ]},
-  "06_ck-rock": {"sub": "/k/", "sound": "Sound /k/ spelled ck", "order": 33, "sentences": [
-    {"text": "The duck sat on a rock.", "pic": "rock"},
-    {"text": "I pick up a sock.", "pic": "sock"},
-    {"text": "The clock is back.", "pic": "clock"},
-    {"text": "A truck is stuck.", "pic": "truck"},
-    {"text": "Lock the box.", "pic": "box"}
-  ]},
-  "07_th-thumb": {"sub": "unvoiced", "sound": "Sound /th/ (thumb)", "order": 33, "sentences": [
-    {"text": "The moth is on a path.", "pic": "moth"},
-    {"text": "A thin cat naps.", "pic": "cat"},
-    {"text": "The cloth is thick.", "pic": "cloth"},
-    {"text": "I see a big moth.", "pic": "moth"},
-    {"text": "Run on the path.", "pic": "path"}
-  ]},
-  "08_th-feather": {"sub": "voiced", "sound": "Sound /th/ (this)", "order": 33, "sentences": [
-    {"text": "This is my cat.", "pic": "cat"},
-    {"text": "That is a big dog.", "pic": "dog"},
-    {"text": "Then the fox ran.", "pic": "fox"},
-    {"text": "This cat is thin.", "pic": "cat"},
-    {"text": "That duck can swim.", "pic": "duck"}
-  ]},
-  "09_wh-white": {"sub": "/w/", "sound": "Sound /w/ spelled wh", "order": 33, "sentences": [
-    {"text": "What is in the box?", "pic": "box"},
-    {"text": "Whip the egg.", "pic": "egg"},
-    {"text": "The whisk is in the pan.", "pic": "whisk"},
-    {"text": "What did the cat do?", "pic": "cat"},
-    {"text": "What is on the bed?", "pic": "bed"}
-  ]}
+  "01_qu-question": {
+    "sub": "/kw/",
+    "sound": "Sound /kw/ spelled qu",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "The duck can quack.",
+        "pic": "duck"
+      },
+      {
+        "text": "I see a red quilt.",
+        "pic": "quilt"
+      },
+      {
+        "text": "The quick fox ran.",
+        "pic": "fox"
+      },
+      {
+        "text": "A quiz for the cat.",
+        "pic": "cat"
+      },
+      {
+        "text": "The pig will quit.",
+        "pic": "pig"
+      }
+    ]
+  },
+  "02_z-zebra": {
+    "sub": "/z/",
+    "sound": "Sound /z/",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "The zebra ran fast.",
+        "pic": "zebra"
+      },
+      {
+        "text": "Zip up the bag.",
+        "pic": "bag"
+      },
+      {
+        "text": "A bug can zigzag.",
+        "pic": "bug"
+      },
+      {
+        "text": "Zap! said the pig.",
+        "pic": "pig"
+      },
+      {
+        "text": "The jet can buzz.",
+        "pic": "jet"
+      }
+    ]
+  },
+  "03_ng-swing": {
+    "sub": "/ng/",
+    "sound": "Sound /ng/",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "I see a ring.",
+        "pic": "ring"
+      },
+      {
+        "text": "A bug has a wing.",
+        "pic": "wing"
+      },
+      {
+        "text": "I see a big swing.",
+        "pic": "swing"
+      },
+      {
+        "text": "The king sang.",
+        "pic": "king"
+      },
+      {
+        "text": "A frog can spring.",
+        "pic": "frog"
+      }
+    ]
+  },
+  "04_sh-sheep": {
+    "sub": "/sh/",
+    "sound": "Sound /sh/",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "The fish is in the dish.",
+        "pic": "fish"
+      },
+      {
+        "text": "She has a big shell.",
+        "pic": "shell"
+      },
+      {
+        "text": "The ship is on the sand.",
+        "pic": "ship"
+      },
+      {
+        "text": "A shark can swim fast.",
+        "pic": "shark"
+      },
+      {
+        "text": "I go to the shop.",
+        "pic": "shop"
+      }
+    ]
+  },
+  "05_ch-chips": {
+    "sub": "/ch/",
+    "sound": "Sound /ch/",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "I can see a chick.",
+        "pic": "chick"
+      },
+      {
+        "text": "The chips are in a dish.",
+        "pic": "chips"
+      },
+      {
+        "text": "A chimp can chat.",
+        "pic": "chimp"
+      },
+      {
+        "text": "Chop the log.",
+        "pic": "log"
+      },
+      {
+        "text": "She has a chin.",
+        "pic": "chin"
+      }
+    ]
+  },
+  "06_ck-rock": {
+    "sub": "/k/",
+    "sound": "Sound /k/ spelled ck",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "The duck sat on a rock.",
+        "pic": "rock"
+      },
+      {
+        "text": "I pick up a sock.",
+        "pic": "sock"
+      },
+      {
+        "text": "The clock is back.",
+        "pic": "clock"
+      },
+      {
+        "text": "A truck is stuck.",
+        "pic": "truck"
+      },
+      {
+        "text": "Lock the box.",
+        "pic": "box"
+      }
+    ]
+  },
+  "07_th-thumb": {
+    "sub": "unvoiced",
+    "sound": "Sound /th/ (thumb)",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "I see a moth.",
+        "pic": "moth"
+      },
+      {
+        "text": "A thin cat naps.",
+        "pic": "cat"
+      },
+      {
+        "text": "The cloth is thick.",
+        "pic": "cloth"
+      },
+      {
+        "text": "The dog has a bath.",
+        "pic": "dog"
+      },
+      {
+        "text": "Run on the path.",
+        "pic": "path"
+      }
+    ]
+  },
+  "08_th-feather": {
+    "sub": "voiced",
+    "sound": "Sound /th/ (this)",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "This is my cat.",
+        "pic": "cat"
+      },
+      {
+        "text": "That is a big dog.",
+        "pic": "dog"
+      },
+      {
+        "text": "Then the fox ran.",
+        "pic": "fox"
+      },
+      {
+        "text": "They see the hen.",
+        "pic": "hen"
+      },
+      {
+        "text": "The duck swims with them.",
+        "pic": "duck"
+      }
+    ]
+  },
+  "09_wh-white": {
+    "sub": "/w/",
+    "sound": "Sound /w/ spelled wh",
+    "order": 33,
+    "sentences": [
+      {
+        "text": "What is in the box?",
+        "pic": "box"
+      },
+      {
+        "text": "Whip the egg.",
+        "pic": "egg"
+      },
+      {
+        "text": "The whisk is in the pan.",
+        "pic": "whisk"
+      },
+      {
+        "text": "When can the cat nap?",
+        "pic": "cat"
+      },
+      {
+        "text": "What is by the bed?",
+        "pic": "bed"
+      }
+    ]
+  }
 }

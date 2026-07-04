@@ -8,9 +8,9 @@
     "decodable_text": [
       "I eat a steak.",
       "The great cat naps.",
-      "A great big steak.",
+      "We wear a coat in the cold.",
       "Break the egg.",
-      "The steak is great."
+      "The bread is fresh."
     ],
     "image_words": [
       {
@@ -20,13 +20,13 @@
         "word": "cat"
       },
       {
-        "word": "steak"
+        "word": "coat"
       },
       {
         "word": "egg"
       },
       {
-        "word": "steak"
+        "word": "bread"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "ea",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I eat a steak.",
@@ -68,9 +69,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
           },
           {
-            "text": "A great big steak.",
-            "word": "steak",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/steak.png"
+            "text": "We wear a coat in the cold.",
+            "word": "coat",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/coat.png"
           },
           {
             "text": "Break the egg.",
@@ -78,9 +79,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/egg.png"
           },
           {
-            "text": "The steak is great.",
-            "word": "steak",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/steak.png"
+            "text": "The bread is fresh.",
+            "word": "bread",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bread.png"
           }
         ]
       },
@@ -120,9 +121,9 @@
         "text": [
           "Sentence 1: eat, steak.",
           "Sentence 2: great.",
-          "Sentence 3: great, steak.",
+          "Sentence 3: wear.",
           "Sentence 4: Break.",
-          "Sentence 5: steak, great.",
+          "Sentence 5: bread.",
           "Your turn / extension: any real word with ea."
         ]
       },

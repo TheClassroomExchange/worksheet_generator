@@ -6,11 +6,11 @@
     "lesson_order": 76,
     "target_grapheme": "ow",
     "decodable_text": [
-      "The owl is brown.",
+      "The owl can fly.",
       "I see a cow.",
-      "The clown has a crown.",
-      "The owl sits down.",
-      "The cow is in town."
+      "The clown is funny.",
+      "A crown for the king.",
+      "I see a big flower."
     ],
     "image_words": [
       {
@@ -23,12 +23,13 @@
         "word": "clown"
       },
       {
-        "word": "owl"
+        "word": "crown"
       },
       {
-        "word": "cow"
+        "word": "flower"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,9 +60,10 @@
         "type": "reading_rows",
         "bold": "ow",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "The owl is brown.",
+            "text": "The owl can fly.",
             "word": "owl",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/owl.png"
           },
@@ -71,19 +73,19 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cow.png"
           },
           {
-            "text": "The clown has a crown.",
+            "text": "The clown is funny.",
             "word": "clown",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/clown.png"
           },
           {
-            "text": "The owl sits down.",
-            "word": "owl",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/owl.png"
+            "text": "A crown for the king.",
+            "word": "crown",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/crown.png"
           },
           {
-            "text": "The cow is in town.",
-            "word": "cow",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cow.png"
+            "text": "I see a big flower.",
+            "word": "flower",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/flower.png"
           }
         ]
       },
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: owl, brown.",
+          "Sentence 1: owl.",
           "Sentence 2: cow.",
-          "Sentence 3: clown, crown.",
-          "Sentence 4: owl, down.",
-          "Sentence 5: cow, town.",
+          "Sentence 3: clown.",
+          "Sentence 4: crown.",
+          "Sentence 5: flower.",
           "Your turn / extension: any real word with ow."
         ]
       },

@@ -7,10 +7,10 @@
     "target_grapheme": "le",
     "decodable_text": [
       "I see a red apple.",
-      "The candle is little.",
+      "The candle is small.",
       "The bubble is big.",
       "My uncle ran fast.",
-      "A little puddle."
+      "A big puddle."
     ],
     "image_words": [
       {
@@ -29,6 +29,7 @@
         "word": "puddle"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "le",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I see a red apple.",
@@ -66,7 +68,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/apple.png"
           },
           {
-            "text": "The candle is little.",
+            "text": "The candle is small.",
             "word": "candle",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/candle.png"
           },
@@ -81,7 +83,7 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/uncle.png"
           },
           {
-            "text": "A little puddle.",
+            "text": "A big puddle.",
             "word": "puddle",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/puddle.png"
           }
@@ -113,7 +115,7 @@
         "text": [
           "1. Say the sound for le together.",
           "2. Read the first sentence together, pointing under each word.",
-          "3. Children underline le in each sentence, then read each sentence on their own.",
+          "3. Children circle le in each sentence, then read each sentence on their own.",
           "4. Children read the whole page three times and colour one face each time."
         ]
       },
@@ -122,10 +124,10 @@
         "title": "Answer key",
         "text": [
           "Sentence 1: apple.",
-          "Sentence 2: candle, little.",
+          "Sentence 2: candle.",
           "Sentence 3: bubble.",
           "Sentence 4: uncle.",
-          "Sentence 5: little, puddle.",
+          "Sentence 5: puddle.",
           "Your turn / extension: any real word with le."
         ]
       },

@@ -8,9 +8,9 @@
     "decodable_text": [
       "I go to school.",
       "The ship has an anchor.",
-      "The school is big.",
-      "The anchor is heavy.",
-      "School is fun."
+      "The orchid is pretty.",
+      "My stomach hurts.",
+      "I hear the echo."
     ],
     "image_words": [
       {
@@ -20,13 +20,13 @@
         "word": "anchor"
       },
       {
-        "word": "school"
+        "word": "orchid"
       },
       {
-        "word": "anchor"
+        "word": "stomach"
       },
       {
-        "word": "school"
+        "word": "echo"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "ch",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I go to school.",
@@ -68,19 +69,19 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/anchor.png"
           },
           {
-            "text": "The school is big.",
-            "word": "school",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/school.png"
+            "text": "The orchid is pretty.",
+            "word": "orchid",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/orchid.png"
           },
           {
-            "text": "The anchor is heavy.",
-            "word": "anchor",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/anchor.png"
+            "text": "My stomach hurts.",
+            "word": "stomach",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/stomach.png"
           },
           {
-            "text": "School is fun.",
-            "word": "school",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/school.png"
+            "text": "I hear the echo.",
+            "word": "echo",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/echo.png"
           }
         ]
       },
@@ -120,9 +121,9 @@
         "text": [
           "Sentence 1: school.",
           "Sentence 2: anchor.",
-          "Sentence 3: school.",
-          "Sentence 4: anchor.",
-          "Sentence 5: School.",
+          "Sentence 3: orchid.",
+          "Sentence 4: stomach.",
+          "Sentence 5: echo.",
           "Your turn / extension: any real word with ch."
         ]
       },

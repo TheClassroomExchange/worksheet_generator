@@ -9,8 +9,8 @@
       "I see a sign.",
       "The gnome is small.",
       "A gnat is tiny.",
-      "Read the sign.",
-      "The gnome sat by the sign."
+      "The dog will gnaw a bone.",
+      "The gnu is big."
     ],
     "image_words": [
       {
@@ -23,10 +23,10 @@
         "word": "gnat"
       },
       {
-        "word": "sign"
+        "word": "bone"
       },
       {
-        "word": "gnome"
+        "word": "gnu"
       }
     ],
     "target_optional": false,
@@ -56,6 +56,7 @@
         "type": "reading_rows",
         "bold": "gn",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I see a sign.",
@@ -73,14 +74,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/gnat.png"
           },
           {
-            "text": "Read the sign.",
-            "word": "sign",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/sign.png"
+            "text": "The dog will gnaw a bone.",
+            "word": "bone",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/bone.png"
           },
           {
-            "text": "The gnome sat by the sign.",
-            "word": "gnome",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/gnome.png"
+            "text": "The gnu is big.",
+            "word": "gnu",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/gnu.png"
           }
         ]
       },
@@ -121,8 +122,8 @@
           "Sentence 1: sign.",
           "Sentence 2: gnome.",
           "Sentence 3: gnat.",
-          "Sentence 4: sign.",
-          "Sentence 5: gnome, sign.",
+          "Sentence 4: gnaw.",
+          "Sentence 5: gnu.",
           "Your turn / extension: any real word with gn."
         ]
       },

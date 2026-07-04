@@ -1,18 +1,58 @@
 {
-  "01_gn-sign": {"tab_main": "gn", "sub": "/n/", "sound": "Silent g — gn says /n/", "label": "gn",
+  "01_gn-sign": {
+    "tab_main": "gn",
+    "sub": "/n/",
+    "sound": "Silent g — gn says /n/",
+    "label": "gn",
     "sentences": [
-      {"text": "I see a sign.", "pic": "sign", "bold": "sign"},
-      {"text": "The gnome is small.", "pic": "gnome", "bold": "gnome"},
-      {"text": "A gnat is tiny.", "pic": "gnat", "bold": "gnat"},
-      {"text": "Read the sign.", "pic": "sign", "bold": "sign"},
-      {"text": "The gnome sat by the sign.", "pic": "gnome", "bold": "gnome"}
-    ]},
-  "02_gh-ghost": {"tab_main": "gh", "sub": "/g/", "sound": "gh says /g/", "label": "gh",
+      {
+        "text": "I see a sign.",
+        "pic": "sign"
+      },
+      {
+        "text": "The gnome is small.",
+        "pic": "gnome"
+      },
+      {
+        "text": "A gnat is tiny.",
+        "pic": "gnat"
+      },
+      {
+        "text": "The dog will gnaw a bone.",
+        "pic": "bone"
+      },
+      {
+        "text": "The gnu is big.",
+        "pic": "gnu"
+      }
+    ]
+  },
+  "02_gh-ghost": {
+    "tab_main": "gh",
+    "sub": "/g/",
+    "sound": "gh says /g/",
+    "label": "gh",
     "sentences": [
-      {"text": "The ghost is white.", "pic": "ghost", "bold": "ghost"},
-      {"text": "I see a ghost.", "pic": "ghost", "bold": "ghost"},
-      {"text": "The ghost said boo.", "pic": "ghost", "bold": "ghost"},
-      {"text": "A ghost can float.", "pic": "ghost", "bold": "ghost"},
-      {"text": "The ghost is my pal.", "pic": "ghost", "bold": "ghost"}
-    ]}
+      {
+        "text": "The ghost is white.",
+        "pic": "ghost"
+      },
+      {
+        "text": "The knight is bold.",
+        "pic": "knight"
+      },
+      {
+        "text": "I see a bright light.",
+        "pic": "light"
+      },
+      {
+        "text": "The dough is soft.",
+        "pic": "dough"
+      },
+      {
+        "text": "The plough digs the field.",
+        "pic": "plough"
+      }
+    ]
+  }
 }

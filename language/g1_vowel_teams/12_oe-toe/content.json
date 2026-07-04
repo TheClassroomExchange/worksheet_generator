@@ -9,8 +9,8 @@
       "I stub my toe.",
       "The doe ran fast.",
       "Joe has a hoe.",
-      "My toe is red.",
-      "Joe met a doe."
+      "I play the oboe.",
+      "The aloe plant is green."
     ],
     "image_words": [
       {
@@ -23,12 +23,13 @@
         "word": "hoe"
       },
       {
-        "word": "toe"
+        "word": "oboe"
       },
       {
-        "word": "doe"
+        "word": "aloe"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,6 +60,7 @@
         "type": "reading_rows",
         "bold": "oe",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
             "text": "I stub my toe.",
@@ -76,14 +78,14 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hoe.png"
           },
           {
-            "text": "My toe is red.",
-            "word": "toe",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/toe.png"
+            "text": "I play the oboe.",
+            "word": "oboe",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/oboe.png"
           },
           {
-            "text": "Joe met a doe.",
-            "word": "doe",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/doe.png"
+            "text": "The aloe plant is green.",
+            "word": "aloe",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/aloe.png"
           }
         ]
       },
@@ -124,8 +126,8 @@
           "Sentence 1: toe.",
           "Sentence 2: doe.",
           "Sentence 3: Joe, hoe.",
-          "Sentence 4: toe.",
-          "Sentence 5: Joe, doe.",
+          "Sentence 4: oboe.",
+          "Sentence 5: aloe.",
           "Your turn / extension: any real word with oe."
         ]
       },

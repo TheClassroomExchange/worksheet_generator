@@ -6,11 +6,11 @@
     "lesson_order": 80,
     "target_grapheme": "oy",
     "decodable_text": [
-      "The boy has a toy.",
-      "I see a boy.",
       "The toy is red.",
-      "The boy has joy.",
-      "A boy and his toy."
+      "I see a boy.",
+      "The oyster is shut.",
+      "I like soy milk.",
+      "Roy has a toy."
     ],
     "image_words": [
       {
@@ -20,15 +20,16 @@
         "word": "boy"
       },
       {
-        "word": "toy"
+        "word": "oyster"
       },
       {
-        "word": "boy"
+        "word": "soy"
       },
       {
         "word": "toy"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,9 +60,10 @@
         "type": "reading_rows",
         "bold": "oy",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "The boy has a toy.",
+            "text": "The toy is red.",
             "word": "toy",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/toy.png"
           },
@@ -71,17 +73,17 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/boy.png"
           },
           {
-            "text": "The toy is red.",
-            "word": "toy",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/toy.png"
+            "text": "The oyster is shut.",
+            "word": "oyster",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/oyster.png"
           },
           {
-            "text": "The boy has joy.",
-            "word": "boy",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/boy.png"
+            "text": "I like soy milk.",
+            "word": "soy",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/soy.png"
           },
           {
-            "text": "A boy and his toy.",
+            "text": "Roy has a toy.",
             "word": "toy",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/toy.png"
           }
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: boy, toy.",
+          "Sentence 1: toy.",
           "Sentence 2: boy.",
-          "Sentence 3: toy.",
-          "Sentence 4: boy, joy.",
-          "Sentence 5: boy, toy.",
+          "Sentence 3: oyster.",
+          "Sentence 4: soy.",
+          "Sentence 5: Roy, toy.",
           "Your turn / extension: any real word with oy."
         ]
       },

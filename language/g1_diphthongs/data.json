@@ -1,50 +1,175 @@
 {
-  "01_ou-house": {"tab_main": "ou", "sub": "/ou/", "sound": "Diphthong /ou/ spelled ou", "label": "ou",
+  "01_ou-house": {
+    "tab_main": "ou",
+    "sub": "/ou/",
+    "sound": "Diphthong /ou/ spelled ou",
+    "label": "ou",
     "sentences": [
-      {"text": "The mouse is in the house.", "pic": "house", "bold": "house"},
-      {"text": "I see a cloud.", "pic": "cloud", "bold": "cloud"},
-      {"text": "Sit on the couch.", "pic": "couch", "bold": "couch"},
-      {"text": "A loud mouse.", "pic": "mouse", "bold": "loud"},
-      {"text": "I found a mouse.", "pic": "mouse", "bold": "found"}
-    ]},
-  "02_ow-owl": {"tab_main": "ow", "sub": "/ou/", "sound": "Diphthong /ou/ spelled ow", "label": "ow",
+      {
+        "text": "I am in the house.",
+        "pic": "house"
+      },
+      {
+        "text": "I see a cloud.",
+        "pic": "cloud"
+      },
+      {
+        "text": "Sit on the couch.",
+        "pic": "couch"
+      },
+      {
+        "text": "A big mouse.",
+        "pic": "mouse"
+      },
+      {
+        "text": "Wipe your mouth.",
+        "pic": "mouth"
+      }
+    ]
+  },
+  "02_ow-owl": {
+    "tab_main": "ow",
+    "sub": "/ou/",
+    "sound": "Diphthong /ou/ spelled ow",
+    "label": "ow",
     "sentences": [
-      {"text": "The owl is brown.", "pic": "owl", "bold": "owl"},
-      {"text": "I see a cow.", "pic": "cow", "bold": "cow"},
-      {"text": "The clown has a crown.", "pic": "clown", "bold": "clown"},
-      {"text": "The owl sits down.", "pic": "owl", "bold": "down"},
-      {"text": "The cow is in town.", "pic": "cow", "bold": "town"}
-    ]},
-  "03_oo-book": {"tab_main": "oo", "sub": "/oo/ (book)", "sound": "Short oo (book)", "label": "oo",
+      {
+        "text": "The owl can fly.",
+        "pic": "owl"
+      },
+      {
+        "text": "I see a cow.",
+        "pic": "cow"
+      },
+      {
+        "text": "The clown is funny.",
+        "pic": "clown"
+      },
+      {
+        "text": "A crown for the king.",
+        "pic": "crown"
+      },
+      {
+        "text": "I see a big flower.",
+        "pic": "flower"
+      }
+    ]
+  },
+  "03_oo-book": {
+    "tab_main": "oo",
+    "sub": "/oo/ (book)",
+    "sound": "Short oo (book)",
+    "label": "oo",
     "sentences": [
-      {"text": "I look at a book.", "pic": "book", "bold": "book"},
-      {"text": "Look at my foot.", "pic": "foot", "bold": "look"},
-      {"text": "The cook has a hook.", "pic": "hook", "bold": "cook"},
-      {"text": "The book is good.", "pic": "book", "bold": "book"},
-      {"text": "Look at the wood.", "pic": "wood", "bold": "wood"}
-    ]},
-  "04_oo-moon": {"tab_main": "oo", "sub": "/oo/ (moon)", "sound": "Long oo (moon)", "label": "oo",
+      {
+        "text": "I read a book.",
+        "pic": "book"
+      },
+      {
+        "text": "I hurt my foot.",
+        "pic": "foot"
+      },
+      {
+        "text": "The hook is sharp.",
+        "pic": "hook"
+      },
+      {
+        "text": "The wool is soft.",
+        "pic": "wool"
+      },
+      {
+        "text": "The wood is hard.",
+        "pic": "wood"
+      }
+    ]
+  },
+  "04_oo-moon": {
+    "tab_main": "oo",
+    "sub": "/oo/ (moon)",
+    "sound": "Long oo (moon)",
+    "label": "oo",
     "sentences": [
-      {"text": "The moon is up.", "pic": "moon", "bold": "moon"},
-      {"text": "I eat with a spoon.", "pic": "spoon", "bold": "spoon"},
-      {"text": "The moose is at the zoo.", "pic": "moose", "bold": "moose"},
-      {"text": "I use a broom.", "pic": "broom", "bold": "broom"},
-      {"text": "My boot is cool.", "pic": "boot", "bold": "boot"}
-    ]},
-  "05_oi-coin": {"tab_main": "oi", "sub": "/oi/", "sound": "Diphthong /oi/ spelled oi", "label": "oi",
+      {
+        "text": "The moon is up.",
+        "pic": "moon",
+        "bold": "moon"
+      },
+      {
+        "text": "I eat with a spoon.",
+        "pic": "spoon",
+        "bold": "spoon"
+      },
+      {
+        "text": "The moose is at the zoo.",
+        "pic": "moose",
+        "bold": "moose"
+      },
+      {
+        "text": "I use a broom.",
+        "pic": "broom",
+        "bold": "broom"
+      },
+      {
+        "text": "My boot is cool.",
+        "pic": "boot",
+        "bold": "boot"
+      }
+    ]
+  },
+  "05_oi-coin": {
+    "tab_main": "oi",
+    "sub": "/oi/",
+    "sound": "Diphthong /oi/ spelled oi",
+    "label": "oi",
     "sentences": [
-      {"text": "I see a coin.", "pic": "coin", "bold": "coin"},
-      {"text": "The oil is hot.", "pic": "oil", "bold": "oil"},
-      {"text": "Boil it in the pot.", "pic": "pot", "bold": "boil"},
-      {"text": "Point at the coin.", "pic": "coin", "bold": "point"},
-      {"text": "The soil is by the coin.", "pic": "coin", "bold": "soil"}
-    ]},
-  "06_oy-toy": {"tab_main": "oy", "sub": "/oi/", "sound": "Diphthong /oi/ spelled oy", "label": "oy",
+      {
+        "text": "I see a coin.",
+        "pic": "coin"
+      },
+      {
+        "text": "The oil is hot.",
+        "pic": "oil"
+      },
+      {
+        "text": "Boil it in the pot.",
+        "pic": "pot"
+      },
+      {
+        "text": "The soil is wet.",
+        "pic": "soil"
+      },
+      {
+        "text": "Wrap it in foil.",
+        "pic": "foil"
+      }
+    ]
+  },
+  "06_oy-toy": {
+    "tab_main": "oy",
+    "sub": "/oi/",
+    "sound": "Diphthong /oi/ spelled oy",
+    "label": "oy",
     "sentences": [
-      {"text": "The boy has a toy.", "pic": "toy", "bold": "toy"},
-      {"text": "I see a boy.", "pic": "boy", "bold": "boy"},
-      {"text": "The toy is red.", "pic": "toy", "bold": "toy"},
-      {"text": "The boy has joy.", "pic": "boy", "bold": "joy"},
-      {"text": "A boy and his toy.", "pic": "toy", "bold": "toy"}
-    ]}
+      {
+        "text": "The toy is red.",
+        "pic": "toy"
+      },
+      {
+        "text": "I see a boy.",
+        "pic": "boy"
+      },
+      {
+        "text": "The oyster is shut.",
+        "pic": "oyster"
+      },
+      {
+        "text": "I like soy milk.",
+        "pic": "soy"
+      },
+      {
+        "text": "Roy has a toy.",
+        "pic": "toy"
+      }
+    ]
+  }
 }

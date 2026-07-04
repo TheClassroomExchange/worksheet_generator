@@ -6,11 +6,11 @@
     "lesson_order": 77,
     "target_grapheme": "oo",
     "decodable_text": [
-      "I look at a book.",
-      "Look at my foot.",
-      "The cook has a hook.",
-      "The book is good.",
-      "Look at the wood."
+      "I read a book.",
+      "I hurt my foot.",
+      "The hook is sharp.",
+      "The wool is soft.",
+      "The wood is hard."
     ],
     "image_words": [
       {
@@ -23,12 +23,13 @@
         "word": "hook"
       },
       {
-        "word": "book"
+        "word": "wool"
       },
       {
         "word": "wood"
       }
     ],
+    "target_optional": false,
     "curriculum": [
       {
         "code": "B2.3",
@@ -59,29 +60,30 @@
         "type": "reading_rows",
         "bold": "oo",
         "size": "lg",
+        "reveal": "first",
         "rows": [
           {
-            "text": "I look at a book.",
+            "text": "I read a book.",
             "word": "book",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/book.png"
           },
           {
-            "text": "Look at my foot.",
+            "text": "I hurt my foot.",
             "word": "foot",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/foot.png"
           },
           {
-            "text": "The cook has a hook.",
+            "text": "The hook is sharp.",
             "word": "hook",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/hook.png"
           },
           {
-            "text": "The book is good.",
-            "word": "book",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/book.png"
+            "text": "The wool is soft.",
+            "word": "wool",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/wool.png"
           },
           {
-            "text": "Look at the wood.",
+            "text": "The wood is hard.",
             "word": "wood",
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/wood.png"
           }
@@ -121,11 +123,11 @@
         "type": "prose",
         "title": "Answer key",
         "text": [
-          "Sentence 1: look, book.",
-          "Sentence 2: Look, foot.",
-          "Sentence 3: cook, hook.",
-          "Sentence 4: book, good.",
-          "Sentence 5: Look, wood.",
+          "Sentence 1: book.",
+          "Sentence 2: foot.",
+          "Sentence 3: hook.",
+          "Sentence 4: wool.",
+          "Sentence 5: wood.",
           "Your turn / extension: any real word with oo."
         ]
       },
