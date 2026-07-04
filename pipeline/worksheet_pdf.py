@@ -219,12 +219,17 @@ def _render_reading_rows(part: dict) -> str:
     title = part.get("title")
     title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
     target = part.get("bold", part.get("target", ""))
+    # reveal=="first": only the first row shows the underlined target (the worked
+    # example); the rest render plain so the child finds the pattern. Default
+    # (absent) underlines every row — used by reading-aid sheets (schwa/morphemes).
+    reveal_first = part.get("reveal") == "first"
     size_cls = "rr-" + part.get("size", "lg")  # rr-lg (default) | rr-md
     part_rows = part.get("rows", [])
     has_pics = any(r.get("img") for r in part_rows)
     rows = []
-    for r in part_rows:
-        txt = _bold_target(r.get("text", ""), r.get("bold", target))
+    for i, r in enumerate(part_rows):
+        row_target = "" if (reveal_first and i > 0) else r.get("bold", target)
+        txt = _bold_target(r.get("text", ""), row_target)
         cells = f'<td class="rr-text">{txt}</td>'
         if has_pics:
             img = f'<img src="{_img_uri(r["img"])}"/>' if r.get("img") else ""
@@ -668,6 +673,11 @@ figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}
     height: 0.7in; margin-left: 10px; }}
 
 /* letter formation — big */
+/* Serif the letter displays on letter-sound sheets so a capital I is legible
+   (a sans capital I is a bare stroke → "Ii" misreads as "li"). Scoped to
+   .lettersheet so reading-sentence tabs/titles keep the house sans. */
+.lettersheet .ph-tab-main, .lettersheet .ph-title, .lettersheet .title,
+.fm-letter, .fm-trace {{ font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif; }}
 .part.formation .fm-head {{ display: flex; align-items: center; gap: 26px; margin: 2px 0 6px 0; }}
 .fm-letter {{ font-size: 60pt; color: {NAVY}; line-height: 1; font-weight: 800; }}
 .fm-key {{ display: flex; flex-direction: column; align-items: center; gap: 4px; }}
@@ -792,9 +802,13 @@ def render_worksheet_html(spec: dict) -> str:
     else:
         parts_html = "".join(_PART_RENDERERS[p["type"]](p) for p in parts)
 
+    # Letter-sound sheets show the letter pair (e.g. "Ii") in the tab, title and big
+    # glyph. In a sans font a capital I is a bare stroke indistinguishable from
+    # lowercase l ("Ii" reads as "li"), so those sheets render the letter in a serif.
+    body_cls = ' class="lettersheet"' if any(p.get("type") == "formation" for p in parts) else ""
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><style>{_css(spec)}</style></head>
-<body>{header}{namebar}{goal_html}{parts_html}</body></html>"""
+<body{body_cls}>{header}{namebar}{goal_html}{parts_html}</body></html>"""
 
 
 def render_pdf(spec: dict, out_path: Path) -> Path:

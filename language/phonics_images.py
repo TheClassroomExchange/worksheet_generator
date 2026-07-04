@@ -142,6 +142,9 @@ _ANIMATE = {
     "kitten", "pup", "cub", "calf", "lamb", "foal", "joey", "octopus", "squid",
     "king", "queen", "baby", "boy", "girl", "man", "kid", "chef", "doctor",
     "dad", "mom", "nan", "pup", "vet", "clown", "dragon", "unicorn", "fairy",
+    # animals/people that were rendering faceless (missing from the set → OBJECT
+    # prompt); added so they get the kawaii FACE prompt on (re)generation.
+    "bird", "ghost", "granddaughter",
 }
 
 _KAWAII_FACE = (

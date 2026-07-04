@@ -61,6 +61,49 @@ def _words_with(target: str, text: str) -> list[str]:
     return [w for w in re.findall(r"[A-Za-z]+", text) if t in w.lower()]
 
 
+# Vowels that can carry a split-vowel (magic-e) pattern V-consonant(s)-e.
+_VCE_CONS = "bcdfghjklmnpqrstvwxz"
+
+
+def _answer_words(target: str, row: dict) -> list[str]:
+    """The target word(s) demonstrated in one sentence row — robust across the
+    three grapheme shapes that broke the old substring-only extractor:
+      - split VCe (a_e, i_e, o_e, u_e, e_e): match `<vowel><consonant(s)>e`
+        (cake/snake/gate) — the underscore target is never a literal substring.
+      - contiguous grapheme (ai, oo, tch, ed, ing…): substring match.
+      - pseudo / bold target (schwa): no letters to match → fall back to the
+        row's pictured target word (balloon/panda/zebra…).
+    De-duplicated, order-preserving. Empty only if nothing at all resolves."""
+    text = row.get("text", "")
+    words = re.findall(r"[A-Za-z]+", text)
+    tl = target.lower()
+    hits: list[str] = []
+    if "_" in target:  # split vowel-consonant-e
+        v = target.split("_")[0].lower()
+        pat = re.compile(rf"{re.escape(v)}[{_VCE_CONS}]+e", re.I)
+        hits = [w for w in words if pat.search(w)]
+    elif tl != "schwa":
+        t = target.strip("-_").lower()
+        hits = [w for w in words if t and t in w.lower()]
+    if not hits and row.get("word"):
+        hits = [row["word"]]
+    # order-preserving de-dupe
+    return list(dict.fromkeys(hits))
+
+
+def _lead_step3(target: str, directions: str) -> str:
+    """Step-3 facilitation line, matching the worksheet's ACTUAL find-task verb
+    (D3): 'Circle the magic-e words' → circle; underline → underline; a bold
+    reading-aid (schwa, morphemes) has no find-task → point-to-the-bold-word."""
+    instr = (directions or "").lower()
+    if "circle" in instr:
+        return f"3. Children circle {target} in each sentence, then read each sentence on their own."
+    if "underline" in instr:
+        return f"3. Children underline {target} in each sentence, then read each sentence on their own."
+    return ("3. Point to the bold word in each sentence and say its sound together, "
+            "then children read each sentence on their own.")
+
+
 def _cur_block(grade: str, codes: list[str]) -> list[str]:
     out = []
     for c in _cur(grade, codes):
@@ -80,10 +123,10 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
     codes = _codes(grade, "sentences")
     decodable = [r["text"] for r in rows]
     img_words = [{"word": r["pic"]} for r in rows if r.get("pic")]
-    # answer key: target words per sentence
+    # answer key: target words per sentence (robust for split-VCe + pseudo targets)
     ak = []
     for i, r in enumerate(rows, 1):
-        ww = _words_with(target, r["text"])
+        ww = _answer_words(target, {"text": r["text"], "word": r.get("pic")})
         ak.append(f"Sentence {i}: {', '.join(ww) if ww else '—'}.")
     title = "I Can Read Sentences"
     tab_main = data.get("tab_main", target)     # readable tab label (e.g. "a_e", "o")
@@ -92,6 +135,11 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
                           f"Underline the {label} in each sentence. Then read each sentence out loud. "
                           "Colour a face each time you read the whole page.")
     bold = data.get("bold", target)             # row-level bold key (per-row `bold` still wins)
+    # Find-task sheets ("underline/circle the X") must show the target on the FIRST
+    # sentence only (worked example) — else the answer is given away on every row.
+    # Reading-aid sheets (schwa "the bold word", G3 morphemes) keep the full bold.
+    _instr = directions.lower()
+    reveal_first = ("underline" in _instr) or ("circle" in _instr)
     _ft = re.sub('[^A-Za-z0-9]+', '-', tab_main).strip('-') or re.sub('[^A-Za-z0-9]+', '-', target).strip('-') or "sheet"
     return {
         "title": f"{title}: {tab_main}",
@@ -108,6 +156,7 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
             "parts": [
                 {"type": "prose", "text": directions},
                 {"type": "reading_rows", "bold": bold, "size": "lg",
+                 **({"reveal": "first"} if reveal_first else {}),
                  "rows": [{"text": r["text"], **({"word": r["pic"]} if r.get("pic") else {})} for r in rows]},
                 {"type": "read_tracker", "count": 3,
                  "label": "Read the page 3 times. Colour a face each time you read it."},
@@ -118,7 +167,7 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
                                      f"can read each sentence on their own. Reading the page three times builds fluency.",
                              lead=[f"1. Say the sound for {target} together.",
                                    "2. Read the first sentence together, pointing under each word.",
-                                   f"3. Children underline {target} in each sentence, then read each sentence on their own.",
+                                   _lead_step3(target, directions),
                                    "4. Children read the whole page three times and colour one face each time."],
                              answer=ak + [f"Your turn / extension: any real word with {target}."],
                              codes=codes),
@@ -253,3 +302,99 @@ GEN = {"sentences": gen_sentences, "word_building": gen_word_building, "letter_s
 
 def generate(topic: dict, data: dict, grade: str) -> dict:
     return GEN[topic["type"]](topic, data, grade)
+
+
+# ---------------------------------------------------------------------------
+# Repair path: rebuild the teacher_guide FROM an already-built content.json's
+# worksheet block (the live truth), never from data.json. Used by the tg_fix
+# orchestrator so a guide can be corrected without regenerating (and thereby
+# reverting) worksheet rows that were hand-edited by earlier remediation rounds.
+# ---------------------------------------------------------------------------
+
+def _reading_parts(ws: dict) -> list[dict]:
+    return [p for p in ws["parts"] if p.get("type") == "reading_rows"]
+
+
+def _is_word_building(ws: dict) -> bool:
+    return any(str(p.get("title", "")).lower().startswith("build") for p in _reading_parts(ws))
+
+
+def _sentence_part(ws: dict) -> dict | None:
+    """The reading_rows part that holds the readable sentences (not the build table)."""
+    rr = _reading_parts(ws)
+    if not rr:
+        return None
+    if len(rr) == 1:
+        return rr[0]
+    for p in rr:
+        if str(p.get("title", "")).lower().startswith("read"):
+            return p
+    return rr[-1]
+
+
+def cap_reading_sentences(content: dict, n: int = 3) -> bool:
+    """D4: trim a word-building worksheet's 'Read the sentences' rows to `n` so the
+    worksheet stays a single page (build table + sentences + tracker fit). Returns
+    True iff rows were removed. No-op on non-word-building sheets."""
+    ws = content["worksheet"]
+    if not _is_word_building(ws):
+        return False
+    sp = _sentence_part(ws)
+    if sp and len(sp.get("rows", [])) > n:
+        sp["rows"] = sp["rows"][:n]
+        return True
+    return False
+
+
+def derive_teacher_guide(content: dict, grade: str) -> dict:
+    """Return a corrected teacher_guide block projected from content's worksheet.
+    - letter_sound: returned unchanged (its key comes from a picture sort, not the
+      sentence text, and those sheets were untouched by the sentence-remediation
+      rounds).
+    - word_building: keep the (correct) 'Build:' line + note; replace ONLY the
+      fabricated 'Sentences:' line with the worksheet's real read rows (D2).
+    - sentences: full rebuild — real per-sentence answer words (D1) + a step-3
+      verb that matches the worksheet's find-task (D3)."""
+    ph, ws = content["phonics"], content["worksheet"]
+    target = ph["target_grapheme"]
+    ptypes = [p.get("type") for p in ws["parts"]]
+    if "formation" in ptypes or "picture_row" in ptypes:
+        return content["teacher_guide"]
+
+    rows = (_sentence_part(ws) or {}).get("rows", [])
+
+    if _is_word_building(ws):
+        tg = json.loads(json.dumps(content["teacher_guide"]))  # deep copy
+        sents = " ".join(r["text"] for r in rows)
+        for part in tg["parts"]:
+            if not str(part.get("title", "")).startswith("Answer"):
+                continue
+            txt = part.get("text", [])
+            txt = txt if isinstance(txt, list) else [txt]
+            new, seen = [], False
+            for line in txt:
+                if str(line).startswith("Sentences:"):
+                    new.append("Sentences: " + sents); seen = True
+                else:
+                    new.append(line)
+            if not seen:
+                new.append("Sentences: " + sents)
+            part["text"] = new
+        return tg
+
+    directions = next((p.get("text", "") for p in ws["parts"] if p.get("type") == "prose"), "")
+    sound = ws.get("subtitle", "")
+    codes = _codes(grade, "sentences")
+    ak = []
+    for i, r in enumerate(rows, 1):
+        ww = _answer_words(target, r)
+        ak.append(f"Sentence {i}: {', '.join(ww) if ww else '—'}.")
+    ak.append(f"Your turn / extension: any real word with {target}.")
+    teaches = (f"Children read short, decodable sentences that practise the sound for {target}. "
+               "Every other word uses letter-sounds they already know, so they can read each "
+               "sentence on their own. Reading the page three times builds fluency.")
+    lead = [f"1. Say the sound for {target} together.",
+            "2. Read the first sentence together, pointing under each word.",
+            _lead_step3(target, directions),
+            "4. Children read the whole page three times and colour one face each time."]
+    return _tg(grade, target, sound, teaches=teaches, lead=lead, answer=ak, codes=codes)
