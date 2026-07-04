@@ -8,7 +8,7 @@
     "decodable_text": [
       "The robot can walk.",
       "The tiger runs fast.",
-      "I like music.",
+      "Draw on the paper.",
       "robot",
       "tiger",
       "music",
@@ -22,7 +22,7 @@
         "word": "tiger"
       },
       {
-        "word": "robot"
+        "word": "paper"
       }
     ],
     "target_optional": true,
@@ -84,9 +84,9 @@
             "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/tiger.png"
           },
           {
-            "text": "I like music.",
-            "word": "robot",
-            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/robot.png"
+            "text": "Draw on the paper.",
+            "word": "paper",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/paper.png"
           }
         ]
       },
@@ -126,7 +126,7 @@
         "text": [
           "Build: robot, tiger, music, paper.",
           "An open syllable ends in a vowel that says its long name: ro-bot.",
-          "Sentences: The robot can walk. The tiger runs fast. I like music."
+          "Sentences: The robot can walk. The tiger runs fast. Draw on the paper."
         ]
       },
       {
