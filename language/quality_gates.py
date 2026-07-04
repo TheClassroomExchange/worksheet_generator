@@ -92,6 +92,27 @@ def reading_rows(content: dict) -> list[dict]:
     return rows
 
 
+def all_image_words(content: dict) -> list[str]:
+    """Every word that resolves to an image (the way materialize walks the tree):
+    reading/sound rows, picture-row items, formation/image parts, mascots, and the
+    phonics.image_words list."""
+    out = []
+    for sec in ("worksheet", "teacher_guide"):
+        spec = content.get(sec) or {}
+        if spec.get("mascot_word"):
+            out.append(spec["mascot_word"])
+        for part in spec.get("parts", []):
+            t = part.get("type")
+            if t in ("reading_rows", "sound_boxes"):
+                out += [r["word"] for r in part.get("rows", []) if r.get("word")]
+            elif t == "picture_row":
+                out += [it["word"] for it in part.get("items", []) if it.get("word")]
+            elif t in ("formation", "image") and part.get("word"):
+                out.append(part["word"])
+    out += [iw["word"] for iw in content.get("phonics", {}).get("image_words", []) if iw.get("word")]
+    return out
+
+
 # ── gates ────────────────────────────────────────────────────────────────────
 
 def gate_kidsafe(unit: str, content: dict) -> None:
@@ -178,6 +199,24 @@ def gate_distinct(unit: str, content: dict) -> None:
         raise QualityGateError(unit, "G2-distinct", "; ".join(problems))
 
 
+def gate_face_object(unit: str, content: dict) -> None:
+    """G4 — every image word must be classified animate (face) OR inanimate
+    (faceless). An unclassified word would render silently faceless (the old bug),
+    so it fails the build until it is added to image_words.json."""
+    iw = _load_json("image_words.json")
+    animate, inanimate = set(iw["animate"]), set(iw["inanimate"])
+
+    def known(w):
+        wl = w.lower()
+        return (wl in animate or wl.rstrip("s") in animate
+                or wl in inanimate or wl.rstrip("s") in inanimate)
+
+    unknown = sorted({w for w in all_image_words(content) if not known(w)})
+    if unknown:
+        raise QualityGateError(unit, "G4-face-object",
+                               f"unclassified image word(s) {unknown} — add to image_words.json")
+
+
 def gate_page_count(unit: str, pdf: Path, max_pages: int = 2) -> None:
     """G6 — the combined PDF must be <= max_pages (page_fill_ok only catches
     near-EMPTY pages, never a spill to a 3rd page)."""
@@ -195,6 +234,7 @@ def run_quality_gates(unit_dir, content: dict, grade: str, pdf: Path) -> None:
     gate_kidsafe(unit, content)
     gate_image_in_sentence(unit, content)
     gate_distinct(unit, content)
+    gate_face_object(unit, content)
     gate_page_count(unit, Path(pdf))
 
 
@@ -216,6 +256,7 @@ def scan_unit(unit_dir: Path) -> list[str]:
         lambda: gate_kidsafe(unit_dir.name, content),
         lambda: gate_image_in_sentence(unit_dir.name, content),
         lambda: gate_distinct(unit_dir.name, content),
+        lambda: gate_face_object(unit_dir.name, content),
     ]
     if pdf:
         checks.append(lambda: gate_page_count(unit_dir.name, pdf))

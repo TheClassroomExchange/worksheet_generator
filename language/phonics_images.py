@@ -158,9 +158,29 @@ _KAWAII_OBJECT = (
     "plain white background, centered, no text, NO face, no eyes, no shading")
 
 
+# Face/faceless classification + concrete-prompt registry are the source of truth
+# on disk (reviewable); the hardcoded _ANIMATE above seeds the animate set.
+_IMGWORDS = json.loads((Path(__file__).resolve().parent / "image_words.json").read_text())
+_ANIMATE_SET = _ANIMATE | set(_IMGWORDS.get("animate", []))
+_INANIMATE_SET = set(_IMGWORDS.get("inanimate", []))
+_CONCRETE = {k: v for k, v in
+             json.loads((Path(__file__).resolve().parent / "concrete_prompts.json").read_text()).items()
+             if not k.startswith("_")}
+
+
 def _is_animate(word: str) -> bool:
+    """True=face, False=faceless. An unclassified word RAISES so nothing renders
+    silently faceless (the old bug: a missing animal fell through to the object
+    prompt). Classify new words in image_words.json."""
     w = word.lower()
-    return w in _ANIMATE or w.rstrip("s") in _ANIMATE
+    ws = w.rstrip("s")
+    if w in _ANIMATE_SET or ws in _ANIMATE_SET:
+        return True
+    if w in _INANIMATE_SET or ws in _INANIMATE_SET:
+        return False
+    raise ValueError(
+        f"image word '{word}' is unclassified (face vs faceless) — "
+        f"add it to language/image_words.json animate/inanimate")
 
 
 def _ai(word: str, *, style: str | None = None) -> Path | None:
@@ -170,6 +190,9 @@ def _ai(word: str, *, style: str | None = None) -> Path | None:
         return dst
     if style:
         prompt = f"A {style} of a {word}."
+    elif word.lower() in _CONCRETE:
+        # abstract/homograph word — use the explicit depiction (faceless object)
+        prompt = _KAWAII_OBJECT.format(w=_CONCRETE[word.lower()])
     else:
         tmpl = _KAWAII_FACE if _is_animate(word) else _KAWAII_OBJECT
         prompt = tmpl.format(w=word)
