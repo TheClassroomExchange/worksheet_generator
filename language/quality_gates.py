@@ -199,6 +199,47 @@ def gate_distinct(unit: str, content: dict) -> None:
         raise QualityGateError(unit, "G2-distinct", "; ".join(problems))
 
 
+def _answer_lines(tg: dict) -> list[str]:
+    for p in tg.get("parts", []):
+        if isinstance(p.get("title"), str) and "answer key" in p["title"].lower():
+            t = p.get("text")
+            return t if isinstance(t, list) else [t]
+    return []
+
+
+def _step3(tg: dict) -> str:
+    for p in tg.get("parts", []):
+        if isinstance(p.get("title"), str) and "how to lead" in p["title"].lower():
+            for line in (p.get("text") or []):
+                if str(line).strip().startswith("3."):
+                    return str(line)
+    return ""
+
+
+def gate_teacher_guide(unit: str, content: dict, grade: str) -> None:
+    """G5 — the teacher-guide answer key must be populated (no blank '—') and must
+    match the worksheet-projected truth (derive_teacher_guide), incl. the step-3
+    verb (circle/underline/bold). Catches D1 blank key, D2 fabricated word-building
+    key, D3 verb drift — the tg_fix rubric, now standing at build time."""
+    tg = content.get("teacher_guide", {})
+    ak = _answer_lines(tg)
+    problems = []
+    if any(re.search(r":\s*—", str(s)) for s in ak):
+        problems.append("blank answer key ('—')")
+    from language import gen_content as gc
+    try:
+        derived = gc.derive_teacher_guide(content, grade)
+    except Exception:
+        derived = None
+    if derived is not None:
+        if _answer_lines(derived) != ak:
+            problems.append("answer key drifts from the worksheet")
+        if _step3(derived) != _step3(tg):
+            problems.append("step-3 verb does not match the worksheet")
+    if problems:
+        raise QualityGateError(unit, "G5-teacher-guide", "; ".join(problems))
+
+
 def gate_face_object(unit: str, content: dict) -> None:
     """G4 — every image word must be classified animate (face) OR inanimate
     (faceless). An unclassified word would render silently faceless (the old bug),
@@ -235,6 +276,7 @@ def run_quality_gates(unit_dir, content: dict, grade: str, pdf: Path) -> None:
     gate_image_in_sentence(unit, content)
     gate_distinct(unit, content)
     gate_face_object(unit, content)
+    gate_teacher_guide(unit, content, grade)
     gate_page_count(unit, Path(pdf))
 
 
@@ -257,6 +299,7 @@ def scan_unit(unit_dir: Path) -> list[str]:
         lambda: gate_image_in_sentence(unit_dir.name, content),
         lambda: gate_distinct(unit_dir.name, content),
         lambda: gate_face_object(unit_dir.name, content),
+        lambda: gate_teacher_guide(unit_dir.name, content, grade),
     ]
     if pdf:
         checks.append(lambda: gate_page_count(unit_dir.name, pdf))
