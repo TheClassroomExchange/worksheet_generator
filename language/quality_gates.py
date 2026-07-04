@@ -227,15 +227,17 @@ def gate_teacher_guide(unit: str, content: dict, grade: str) -> None:
     if any(re.search(r":\s*—", str(s)) for s in ak):
         problems.append("blank answer key ('—')")
     from language import gen_content as gc
+    # A derive failure is a GATE FAILURE, not a silent skip — otherwise the drift
+    # check quietly disappears on the exact sheet types G5 exists to verify.
     try:
         derived = gc.derive_teacher_guide(content, grade)
-    except Exception:
-        derived = None
-    if derived is not None:
-        if _answer_lines(derived) != ak:
-            problems.append("answer key drifts from the worksheet")
-        if _step3(derived) != _step3(tg):
-            problems.append("step-3 verb does not match the worksheet")
+    except Exception as e:
+        raise QualityGateError(unit, "G5-teacher-guide",
+                               f"teacher-guide derivation failed ({e}) — cannot verify") from e
+    if _answer_lines(derived) != ak:
+        problems.append("answer key drifts from the worksheet")
+    if _step3(derived) != _step3(tg):
+        problems.append("step-3 verb does not match the worksheet")
     if problems:
         raise QualityGateError(unit, "G5-teacher-guide", "; ".join(problems))
 

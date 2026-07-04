@@ -104,6 +104,7 @@ def build_variant(src_dir, out_dir, *, backend: str, grade: str) -> dict:
     if fit.get("status") != "pass":
         raise RuntimeError(f"fit_render did not pass for {src_dir.name}: {fit}")
     pdf = out_dir / fit["combined_pdf"]
+    qg.run_quality_gates(out_dir, resolved, grade, pdf)  # same standing gates as build_unit
     return {"pdf": str(pdf), "decodability": dec, "fit": fit, "backend": backend}
 
 

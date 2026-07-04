@@ -191,11 +191,15 @@ def _clean_reading_rows(rows: list[dict], n: int) -> list[dict]:
             seen.add(pic)
         if len(picked) >= n:
             return picked
-    for r in rows:  # short on clean rows → fill to n
-        if len(picked) >= n:
+    for r in rows:  # short on clean rows → fill only with VALID (pic-in-sentence) rows,
+        if len(picked) >= n:  # never a mismatched/no-pic row (would just fail G3 at build)
             break
-        if r not in picked:
-            picked.append(r)
+        if r in picked:
+            continue
+        pic = (r.get("pic") or "").lower()
+        if pic and _stem(pic) not in _toks(r.get("text", "")):
+            continue
+        picked.append(r)
     return picked[:n]
 
 
