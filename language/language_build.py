@@ -15,6 +15,7 @@ from pathlib import Path
 
 from language import phonics_images as pi
 from language import decodability as dc
+from language import quality_gates as qg
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -128,6 +129,7 @@ def build_unit(unit_dir, grade: str, *, backend: str = "ai", border: bool = True
     if fit.get("status") != "pass":
         raise RuntimeError(f"fit_render fail {unit_dir.name}: {fit}")
     pdf = unit_dir / fit["combined_pdf"]
+    qg.run_quality_gates(unit_dir, resolved, grade, pdf)  # standing gates — raise on defect
     border_ok = None
     if border:
         work = Path(tempfile.mkdtemp())
