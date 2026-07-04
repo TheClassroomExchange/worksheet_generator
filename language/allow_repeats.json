@@ -1,0 +1,10 @@
+{
+  "_doc": "Per-grapheme allowance for repeated example words/pictures on a single reading sheet, for inventory-limited graphemes where 5 fully-distinct decodable words don't exist. Keyed by target_grapheme (lowercased, '_' stripped). Value = max duplicate occurrences tolerated (0 = every word/picture must be distinct). Documented in REVISIONS_HANDOFF.md. Calibrated against the catalogue positive-control scan.",
+  "oy": 1,
+  "zz": 1,
+  "oll": 1,
+  "gh": 1,
+  "ey": 1,
+  "wh": 1,
+  "aigh": 2
+}

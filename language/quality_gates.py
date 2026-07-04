@@ -124,6 +124,60 @@ def gate_image_in_sentence(unit: str, content: dict) -> None:
                                f"picture word not in its sentence: {bad}")
 
 
+# Grammatical function words that don't count as "example words" (promoted from
+# dedup_fix so build + sweep share one source of truth).
+_STOP = {"the", "a", "an", "is", "it", "in", "on", "at", "to", "and", "he", "she",
+         "we", "my", "i", "see", "can", "has", "red", "big", "of", "up", "by", "you",
+         "your", "not", "am", "are", "be", "do", "go", "me", "no", "so", "us", "was", "for"}
+
+
+def _grapheme_words(texts: list[str], grapheme: str, order: int, scope) -> list[str]:
+    """Content words across the sentences that actually EXERCISE the target
+    grapheme (a true segment) — the distinct example words the child should meet."""
+    from language import decodability as dc
+    g = grapheme.replace("_", "").lower()
+    out = []
+    for t in texts:
+        for w in re.findall(r"[A-Za-z]+", t):
+            wl = w.lower()
+            if wl in _STOP:
+                continue
+            seg = dc.segment_word(wl, order, scope)
+            if seg and g in [s.replace("(silent)", "") for s in seg]:
+                out.append(wl)
+    return out
+
+
+def _dups(items: list[str]) -> list[str]:
+    return sorted({w for w in items if items.count(w) > 1})
+
+
+def gate_distinct(unit: str, content: dict) -> None:
+    """G2 — each reading sheet shows DISTINCT example words and DISTINCT pictures
+    (beyond a per-grapheme inventory-limited allowance). Catches robot/robot,
+    sauce×3, 'zip'×3-in-text-with-distinct-pics, etc."""
+    ph = content.get("phonics", {})
+    grapheme = ph.get("target_grapheme", "")
+    order = ph.get("lesson_order", 0)
+    allow = int(_load_json("allow_repeats.json").get(grapheme.replace("_", "").lower(), 0))
+    rows = [r for r in reading_rows(content) if r.get("word") and (r.get("text") or r.get("label"))]
+    problems = []
+    pics = [r["word"].lower() for r in rows]
+    if len(pics) - len(set(pics)) > allow:
+        problems.append(f"duplicate picture(s) {_dups(pics)}")
+    # Example-word distinctness is over the SENTENCE rows only — NOT decodable_text,
+    # which on word-building sheets also lists the 'build the word' answers (jumped
+    # appears both as a built word and in its sentence, by design).
+    texts = [r.get("text") or r.get("label") for r in rows]
+    if grapheme and texts:
+        from language import decodability as dc
+        gw = _grapheme_words(texts, grapheme, order, dc.load_scope())
+        if len(gw) - len(set(gw)) > allow:
+            problems.append(f"repeated example word(s) {_dups(gw)}")
+    if problems:
+        raise QualityGateError(unit, "G2-distinct", "; ".join(problems))
+
+
 def gate_page_count(unit: str, pdf: Path, max_pages: int = 2) -> None:
     """G6 — the combined PDF must be <= max_pages (page_fill_ok only catches
     near-EMPTY pages, never a spill to a 3rd page)."""
@@ -140,6 +194,7 @@ def run_quality_gates(unit_dir, content: dict, grade: str, pdf: Path) -> None:
     unit = Path(unit_dir).name
     gate_kidsafe(unit, content)
     gate_image_in_sentence(unit, content)
+    gate_distinct(unit, content)
     gate_page_count(unit, Path(pdf))
 
 
@@ -160,6 +215,7 @@ def scan_unit(unit_dir: Path) -> list[str]:
     checks = [
         lambda: gate_kidsafe(unit_dir.name, content),
         lambda: gate_image_in_sentence(unit_dir.name, content),
+        lambda: gate_distinct(unit_dir.name, content),
     ]
     if pdf:
         checks.append(lambda: gate_page_count(unit_dir.name, pdf))
@@ -173,7 +229,8 @@ def scan_unit(unit_dir: Path) -> list[str]:
 
 def scan_all(root: Path | None = None) -> int:
     root = root or HERE
-    units = sorted(p.parent for p in root.glob("*/*/content.json"))
+    units = sorted(p.parent for p in root.glob("*/*/content.json")
+                   if "_samples" not in str(p) and "_backup" not in str(p))
     total_fail = 0
     for u in units:
         for msg in scan_unit(u):
