@@ -1,0 +1,164 @@
+{
+  "title": "Word Building: er",
+  "file_title": "Word Building - er",
+  "phonics": {
+    "grade": "3",
+    "lesson_order": 110,
+    "target_grapheme": "er",
+    "decodable_text": [
+      "The car is faster.",
+      "The turtle is slower.",
+      "The dog is bigger.",
+      "The ant is smaller.",
+      "A faster car won.",
+      "faster",
+      "slower",
+      "bigger",
+      "smaller",
+      "fast",
+      "slow",
+      "big",
+      "small"
+    ],
+    "image_words": [
+      {
+        "word": "car"
+      },
+      {
+        "word": "turtle"
+      },
+      {
+        "word": "dog"
+      },
+      {
+        "word": "ant"
+      },
+      {
+        "word": "car"
+      }
+    ],
+    "target_optional": true,
+    "curriculum": [
+      {
+        "code": "B2.3",
+        "text": "use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "-er",
+      "sub": "compare"
+    },
+    "eyebrow": "Grade 3 · Word Study · -er",
+    "title": "Adding -er (compare two)",
+    "subtitle": "",
+    "footer_topic": "er — Word Building",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "Add -er to compare two things. Build each word, then read the sentences."
+      },
+      {
+        "type": "reading_rows",
+        "size": "md",
+        "title": "Build the word",
+        "rows": [
+          {
+            "text": "fast  +  er  =  ______________"
+          },
+          {
+            "text": "slow  +  er  =  ______________"
+          },
+          {
+            "text": "big  +  er  =  ______________"
+          },
+          {
+            "text": "small  +  er  =  ______________"
+          }
+        ]
+      },
+      {
+        "type": "reading_rows",
+        "bold": "er",
+        "size": "lg",
+        "title": "Read the sentences",
+        "rows": [
+          {
+            "text": "The car is faster.",
+            "word": "car",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/car.png"
+          },
+          {
+            "text": "The turtle is slower.",
+            "word": "turtle",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/turtle.png"
+          },
+          {
+            "text": "The dog is bigger.",
+            "word": "dog",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dog.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the sentences 3 times. Colour a face each time."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Grade 3 · er",
+    "title": "er",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "er — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children learn the word part er and build new words from base words, then read them in decodable sentences."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Explain the word part / pattern: -er.",
+          "2. Model the first one: fast + er = faster.",
+          "3. Children build the rest, then read each sentence.",
+          "4. Children read the page three times and colour a face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Build: faster, slower, bigger, smaller.",
+          "Some short words double the last letter: big -> bigger.",
+          "Sentences: The car is faster. The turtle is slower. The dog is bigger."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "B2.3 — use developing knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell words.",
+          "In plain terms: children read and spell the everyday letter-sounds (and word parts) quickly."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out er part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}

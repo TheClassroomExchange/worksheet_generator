@@ -1,0 +1,8 @@
+{
+  "_doc": "Abstract nouns and homographs the image model renders wrong most often (foil->sword, nail->finger, bat->mammal-vs-baseball, page->cloud). There is NO automated wrong-object gate (that needs vision); instead these words MUST be eyeballed on a contact sheet after (re)generation. Words already pinned by an explicit prompt live in concrete_prompts.json. Add a word here the first time the model draws it wrong so future rebuilds get a review flag.",
+  "review": [
+    "photo", "echo", "design", "bruise", "foil", "nail", "bat", "stick",
+    "wood", "map", "trunk", "page", "shop", "graph", "field", "storm",
+    "sign", "veil", "statue", "anchor", "badge", "gem", "cork", "hoe"
+  ]
+}

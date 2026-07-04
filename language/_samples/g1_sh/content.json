@@ -1,0 +1,78 @@
+{
+  "title": "I Can Read Sentences: sh",
+  "file_title": "I Can Read Sentences - sh",
+  "phonics": {
+    "grade": "1",
+    "lesson_order": 28,
+    "target_grapheme": "sh",
+    "decodable_text": [
+      "The fish is in the dish.",
+      "She has a big shell.",
+      "The ship is on the sand.",
+      "A shark can swim fast.",
+      "I shop at the shop."
+    ],
+    "image_words": [
+      {"word": "fish"}, {"word": "shell"}, {"word": "ship"},
+      {"word": "shark"}, {"word": "shop"}
+    ],
+    "curriculum": [
+      {"code": "B2.3", "text": "identify, read, and spell most common grapheme-phoneme correspondences of consonants and vowels, with automaticity"}
+    ]
+  },
+  "worksheet": {
+    "tab": {"main": "sh", "sub": "beg"},
+    "eyebrow": "Grade 1 · Phonics · sh",
+    "title": "I Can Read Sentences",
+    "subtitle": "Sound /sh/",
+    "footer_topic": "sh — I Can Read Sentences",
+    "name_date": true,
+    "parts": [
+      {"type": "prose", "text": "Underline the sh in each sentence. Then read each sentence out loud. Colour a face each time you read the whole page."},
+      {"type": "reading_rows", "bold": "sh", "size": "lg", "rows": [
+        {"text": "The fish is in the dish.", "word": "fish"},
+        {"text": "She has a big shell.", "word": "shell"},
+        {"text": "The ship is on the sand.", "word": "ship"},
+        {"text": "A shark can swim fast.", "word": "shark"},
+        {"text": "I shop at the shop.", "word": "shop"}
+      ]},
+      {"type": "read_tracker", "count": 3, "label": "Read the page 3 times. Colour a face each time you read it."}
+    ]
+  },
+  "teacher_guide": {
+    "mascot_word": "owl",
+    "eyebrow": "Teacher Guide · Grade 1 · Phonics · sh",
+    "title": "I Can Read Sentences: sh",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "sh — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {"type": "prose", "title": "What this worksheet teaches", "text": "Children read short, decodable sentences that practise the sound /sh/ (spelled sh). Every other word uses only letter-sounds they have already learned, so they can sound the whole sentence out. Reading the page three times builds reading speed and confidence."},
+      {"type": "prose", "title": "How to lead it (about 15 minutes)", "text": [
+        "1. Say the sound /sh/ together. Tell children sh is two letters that make one sound — like a quiet 'shhh'.",
+        "2. Read the first sentence together. Point under each word as you read.",
+        "3. Have children underline the sh in each sentence first, then read each sentence on their own.",
+        "4. Children read the whole page three times and colour one face each time."
+      ]},
+      {"type": "prose", "title": "Answer key (the sh words)", "text": [
+        "Sentence 1: fish, dish.",
+        "Sentence 2: She, shell.",
+        "Sentence 3: ship.",
+        "Sentence 4: shark.",
+        "Sentence 5: shop, shop.",
+        "Your turn: any real word with sh, e.g. shed, shut, wish, cash, brush."
+      ]},
+      {"type": "prose", "title": "Ontario curriculum link (official wording)", "text": [
+        "B2.3 — identify, read, and spell most common grapheme-phoneme correspondences of consonants and vowels, with automaticity.",
+        "In plain terms: children quickly read and spell the everyday letter-sounds — here, the digraph sh."
+      ]},
+      {"type": "prose", "title": "If children get stuck — and ways to adjust", "text": [
+        "Watch for: reading s and h as two sounds. Cover the rest of the word and say 'sh' first.",
+        "Make it easier: read only the first three sentences; you read, the child echoes.",
+        "Make it harder: ask the child to write their own sh sentence on the back.",
+        "You'll know it worked when: the child reads the page smoothly the third time and spots sh on sight."
+      ]}
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "grade": "Grade 2",
+  "subject": "Silent Letters",
+  "type": "sentences",
+  "rubric": "rubric_language_G2.md",
+  "topics": [
+    {
+      "nn": "01",
+      "slug": "gn-sign",
+      "dir": "01_gn-sign",
+      "target_grapheme": "gn",
+      "graphemes": [
+        "gn"
+      ],
+      "phoneme": "/n/",
+      "order": 86,
+      "keyword": "sign",
+      "type": "sentences",
+      "status": "built",
+      "grade_score": "20/20",
+      "title": "gn \u2014 I Can Read Sentences"
+    },
+    {
+      "nn": "02",
+      "slug": "gh-ghost",
+      "dir": "02_gh-ghost",
+      "target_grapheme": "gh",
+      "graphemes": [
+        "gh"
+      ],
+      "phoneme": "/g/",
+      "order": 87,
+      "keyword": "ghost",
+      "type": "sentences",
+      "status": "built",
+      "grade_score": "20/20",
+      "title": "gh \u2014 I Can Read Sentences"
+    }
+  ]
+}

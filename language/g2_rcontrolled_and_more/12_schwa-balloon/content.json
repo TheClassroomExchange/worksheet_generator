@@ -1,0 +1,149 @@
+{
+  "title": "I Can Read Sentences: ə",
+  "file_title": "I Can Read Sentences - schwa",
+  "phonics": {
+    "grade": "2",
+    "lesson_order": 106,
+    "target_grapheme": "schwa",
+    "decodable_text": [
+      "I hold a balloon.",
+      "The panda is soft.",
+      "I see a zebra.",
+      "Use a pencil.",
+      "The lemon is sour."
+    ],
+    "image_words": [
+      {
+        "word": "balloon"
+      },
+      {
+        "word": "panda"
+      },
+      {
+        "word": "zebra"
+      },
+      {
+        "word": "pencil"
+      },
+      {
+        "word": "lemon"
+      }
+    ],
+    "target_optional": true,
+    "curriculum": [
+      {
+        "code": "B2.1",
+        "text": "use phonics knowledge, including phonemic blending to read words and set for variability to correct approximations, and phonemic segmentation to spell phonetically regular monosyllabic and multisyllabic words, in isolation and various text contexts"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "ə",
+      "sub": "schwa"
+    },
+    "eyebrow": "Grade 2 · Phonics · ə",
+    "title": "I Can Read Sentences",
+    "subtitle": "The schwa sound /ə/",
+    "footer_topic": "ə — I Can Read Sentences",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "Read each sentence. The bold word has the quiet schwa sound. Colour a face each time you read the page."
+      },
+      {
+        "type": "reading_rows",
+        "bold": "schwa",
+        "size": "lg",
+        "rows": [
+          {
+            "text": "I hold a balloon.",
+            "word": "balloon",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/balloon.png"
+          },
+          {
+            "text": "The panda is soft.",
+            "word": "panda",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/panda.png"
+          },
+          {
+            "text": "I see a zebra.",
+            "word": "zebra",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/zebra.png"
+          },
+          {
+            "text": "Use a pencil.",
+            "word": "pencil",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pencil.png"
+          },
+          {
+            "text": "The lemon is sour.",
+            "word": "lemon",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/lemon.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the page 3 times. Colour a face each time you read it."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Grade 2 · schwa",
+    "title": "schwa",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "schwa — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children read short, decodable sentences that practise the sound for schwa. Every other word uses letter-sounds they already know, so they can read each sentence on their own. Reading the page three times builds fluency."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Say the sound for schwa together.",
+          "2. Read the first sentence together, pointing under each word.",
+          "3. Point to the bold word in each sentence and say its sound together, then children read each sentence on their own.",
+          "4. Children read the whole page three times and colour one face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Sentence 1: balloon.",
+          "Sentence 2: panda.",
+          "Sentence 3: zebra.",
+          "Sentence 4: pencil.",
+          "Sentence 5: lemon.",
+          "Your turn / extension: any real word with schwa."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "B2.1 — use phonics knowledge, including phonemic blending to read words and set for variability to correct approximations, and phonemic segmentation to spell phonetically regular monosyllabic and multisyllabic words, in isolation and various text contexts.",
+          "In plain terms: children blend sounds to read and break words into sounds to spell — including longer words."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out schwa part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}

@@ -198,6 +198,105 @@ def _render_image(part: dict) -> str:
     )
 
 
+def _img_uri(src: str) -> str:
+    return Path(src).resolve().as_uri()
+
+
+def _bold_target(text: str, target: str) -> str:
+    """Escape ``text`` then bold every case-insensitive occurrence of ``target``."""
+    esc = _esc(text)
+    if not target:
+        return esc
+    t = _esc(target)
+    import re as _re
+    return _re.sub("(" + _re.escape(t) + ")", r"<b>\1</b>", esc, flags=_re.IGNORECASE)
+
+
+def _render_reading_rows(part: dict) -> str:
+    """'I Can Read Sentences' body: a bordered 2-column table — big decodable
+    sentence (target pattern bolded) on the left, a large picture on the right.
+    Rows are tall so 5 fill the page (the "A Teachable Teacher" design)."""
+    title = part.get("title")
+    title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
+    target = part.get("bold", part.get("target", ""))
+    # reveal=="first": only the first row shows the underlined target (the worked
+    # example); the rest render plain so the child finds the pattern. Default
+    # (absent) underlines every row — used by reading-aid sheets (schwa/morphemes).
+    reveal_first = part.get("reveal") == "first"
+    size_cls = "rr-" + part.get("size", "lg")  # rr-lg (default) | rr-md
+    part_rows = part.get("rows", [])
+    has_pics = any(r.get("img") for r in part_rows)
+    rows = []
+    for i, r in enumerate(part_rows):
+        row_target = "" if (reveal_first and i > 0) else r.get("bold", target)
+        txt = _bold_target(r.get("text", ""), row_target)
+        cells = f'<td class="rr-text">{txt}</td>'
+        if has_pics:
+            img = f'<img src="{_img_uri(r["img"])}"/>' if r.get("img") else ""
+            cells += f'<td class="rr-pic">{img}</td>'
+        rows.append(f'<tr>{cells}</tr>')
+    return (f'<section class="part reading {size_cls}">{title_html}'
+            f'<table class="rr-table">{"".join(rows)}</table></section>')
+
+
+def _render_read_tracker(part: dict) -> str:
+    label = part.get("label", "Read the page 3 times. Colour a face each time you read it.")
+    count = int(part.get("count", 3))
+    faces = "".join('<span class="rt-face">☺</span>' for _ in range(count))
+    return (f'<section class="part tracker"><span class="rt-label">{_esc(label)}</span>'
+            f'<span class="rt-faces">{faces}</span></section>')
+
+
+def _render_sound_boxes(part: dict) -> str:
+    """Word-mapping: each row = picture + N empty sound boxes (one per phoneme) +
+    a write-the-word line. say-it -> map-it -> write-it."""
+    title = part.get("title")
+    title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
+    rows = []
+    for r in part.get("rows", []):
+        img = (f'<span class="sbx-pic"><img src="{_img_uri(r["img"])}"/></span>'
+               if r.get("img") else '<span class="sbx-pic"></span>')
+        n = int(r.get("boxes", 3))
+        boxes = "".join('<span class="sbx-box"></span>' for _ in range(n))
+        write = '<span class="sbx-write"></span>'
+        rows.append(f'<div class="sbx-row">{img}<span class="sbx-boxes">{boxes}</span>{write}</div>')
+    return f'<section class="part soundboxes">{title_html}{"".join(rows)}</section>'
+
+
+def _render_formation(part: dict) -> str:
+    """Letter-formation card: big keyword picture + the letter pair, dotted trace
+    copies, then blank handwriting lines (sky/grass/ground guide)."""
+    title = part.get("title")
+    title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
+    letter = _esc(part.get("letter", ""))
+    keyword = _esc(part.get("keyword", ""))
+    img = (f'<img class="fm-pic" src="{_img_uri(part["img"])}"/>' if part.get("img") else "")
+    trace = part.get("trace", (letter + " ") * 4).strip()
+    n_lines = int(part.get("lines", 2))
+    head = (f'<div class="fm-head"><span class="fm-letter">{letter}</span>'
+            f'<span class="fm-key">{img}<span class="fm-keyword">{keyword}</span></span></div>')
+    tracecells = f'<div class="fm-trace">{_esc(trace)}</div>'
+    lines = "".join('<div class="fm-line"><span class="fm-sky"></span>'
+                    '<span class="fm-grass"></span><span class="fm-ground"></span></div>'
+                    for _ in range(n_lines))
+    return f'<section class="part formation">{title_html}{head}{tracecells}{lines}</section>'
+
+
+def _render_picture_row(part: dict) -> str:
+    """K beginning-sound task: a prompt + a row of pictures, each with a circle to
+    mark. Pictures whose word starts with the target sound are the answers (key in TG)."""
+    title = part.get("title")
+    title_html = f'<h2 class="part-title">{_esc(title)}</h2>' if title else ""
+    prompt = f'<p class="pr-prompt">{_esc(part["prompt"])}</p>' if part.get("prompt") else ""
+    cells = []
+    for it in part.get("items", []):
+        img = f'<img src="{_img_uri(it["img"])}"/>' if it.get("img") else ""
+        cap = f'<span class="pr-cap">{_esc(it.get("label",""))}</span>' if it.get("label") else ""
+        cells.append(f'<span class="pr-cell"><span class="pr-mark"></span>{img}{cap}</span>')
+    return (f'<section class="part picturerow">{title_html}{prompt}'
+            f'<div class="pr-row">{"".join(cells)}</div></section>')
+
+
 _PART_RENDERERS = {
     "prose": _render_prose,
     "blocks": _render_blocks,
@@ -205,6 +304,12 @@ _PART_RENDERERS = {
     "exercise": _render_exercise,
     "symbols": _render_symbols,
     "image": _render_image,
+    # phonics/language part types (unused by coding sheets)
+    "reading_rows": _render_reading_rows,
+    "read_tracker": _render_read_tracker,
+    "sound_boxes": _render_sound_boxes,
+    "formation": _render_formation,
+    "picture_row": _render_picture_row,
 }
 
 
@@ -217,16 +322,140 @@ def _css_str(s: Any) -> str:
     return str(s).replace("\\", "\\\\").replace('"', '\\"')
 
 
+def _roomy_css() -> str:
+    """Size/spacing overrides for Kindergarten & Grade 1 worksheets.
+
+    Appended AFTER the base house style so equal-specificity rules win by
+    source order. Scales write-in slots, symbol/block primitives, the mascot,
+    and the goal/name bars UP — bigger images and more writing room for young
+    hands. Emitted only when ``spec['roomy']`` is set, so G2/G3 are untouched.
+    Braces are single here (plain string, not an f-string).
+    """
+    return """
+/* ── roomy mode (K & G1): bigger images + more writing room ── */
+/* Keep each question on the same page as its stimulus: render_worksheet_html
+   wraps an exercise together with the blocks/images/prose that set it up, and
+   this stops that group splitting across a page break. */
+.qgroup { break-inside: avoid; }
+.part-title { font-size: 14.5pt; margin: 0 0 6px 0; }
+.goal { font-size: 12.5pt; padding: 8px 14px; margin: 7px 0 11px 0; }
+.namebar { font-size: 11pt; gap: 28px; margin-top: 5px; }
+.subtitle { font-size: 11.5pt; }
+/* header: keep a generous mascot but trim padding so the first question-group
+   shares page 1 with the header rather than being pushed whole to page 2. */
+.header { padding: 10px 16px; margin-bottom: 4px; }
+.mascot-circle { width: 80px; height: 80px; }
+.mascot-circle img { width: 70px; height: 70px; }
+/* taller write-in slots */
+.answer-lines { margin-top: 8px; }
+.answer-lines .rule { height: 34px; }
+.ex-grid { gap: 6px; margin-top: 8px; }
+.ex-grid .grid-cell { height: 64px; }
+/* A single-answer box (grid 1x1 — "Run Code A", "You try") becomes a large
+   full-width write area. Multi-cell grids (write-the-order, maps) keep 64px. */
+.ex-grid .grid-cell:only-child { height: 100px; }
+.exercise { padding: 14px 18px; }
+.ex-title { font-size: 14pt; }
+.ex-prompt { margin: 0 0 8px 0; }
+/* bigger symbol cards (the K/G1 picture primitive). min-width stays modest so
+   a full 0-5 number path (6 cards) still fits one row — wrapping it would
+   reorder the cards and read poorly. The glyph point-size is what makes them
+   read large. */
+.sym-row { gap: 12px; margin: 7px 0 2px 0; }
+.sym-card { min-width: 64px; min-height: 72px; padding: 9px 12px; }
+.sym-md { font-size: 30pt; }
+.sym-lg { font-size: 42pt; }
+.sym-xl { font-size: 54pt; }
+.sym-cap { font-size: 11pt; margin-top: 7px; }
+/* bigger block chips */
+.sb-stack { margin: 5px 0; }
+.sb-row { margin: 0 0 6px 0; }
+.sb-block { font-size: 13pt; padding: 9px 18px; }
+.sb-md .sb-block { font-size: 17pt; padding: 10px 20px; }
+.sb-lg .sb-block { font-size: 22pt; padding: 12px 24px; min-width: 38px; }
+.sb-md .sb-row, .sb-lg .sb-row { margin: 0 0 7px 0; }
+.sb-block.sb-blank { min-width: 72px; min-height: 1.4em; }
+.block-note { font-size: 11pt; }
+"""
+
+
+# Per-level main-CSS vars (body/line/spacing). Level 0 == the original roomy
+# output (byte-identical). Higher levels compact progressively so a too-tall
+# question-group fits its page and small trailing spills pull back — killing
+# near-empty pages. Level 3 reuses level-2 sizes but disables question-grouping.
+_ROOMY_LEVELS = {
+    0: {"body": "13pt", "line": "1.55", "part_mb": "16px", "prose_mb": "9px"},
+    1: {"body": "13pt", "line": "1.50", "part_mb": "13px", "prose_mb": "7px"},
+    2: {"body": "12pt", "line": "1.45", "part_mb": "10px", "prose_mb": "6px"},
+    3: {"body": "12pt", "line": "1.45", "part_mb": "10px", "prose_mb": "6px"},
+}
+
+
+def _roomy_overrides(level: int) -> str:
+    """Append-only compaction deltas for roomy_level >= 1. Level 0 appends
+    nothing, so level-0 output stays byte-identical to the original roomy CSS."""
+    if level <= 0:
+        return ""
+    if level == 1:
+        return """
+/* roomy_level 1 — mild compaction so an over-tall first group fits its page */
+.goal { margin: 6px 0 9px 0; }
+.answer-lines .rule { height: 30px; }
+.ex-grid .grid-cell { height: 58px; }
+.ex-grid .grid-cell:only-child { height: 90px; }
+.exercise { padding: 12px 16px; }
+.sym-row { gap: 10px; margin: 6px 0 2px 0; }
+.sym-card { min-height: 66px; padding: 8px 11px; }
+.sb-row { margin: 0 0 5px 0; }
+.sb-md .sb-row, .sb-lg .sb-row { margin: 0 0 6px 0; }
+"""
+    return """
+/* roomy_level 2+ — stronger compaction to pull spilled content back on-page */
+.part-title { font-size: 13.5pt; margin: 0 0 5px 0; }
+.goal { font-size: 12pt; padding: 7px 12px; margin: 5px 0 8px 0; }
+.answer-lines .rule { height: 28px; }
+.ex-grid .grid-cell { height: 54px; }
+.ex-grid .grid-cell:only-child { height: 80px; }
+.exercise { padding: 11px 15px; }
+.ex-title { font-size: 13pt; }
+.sym-row { gap: 9px; margin: 5px 0 2px 0; }
+.sym-card { min-width: 60px; min-height: 60px; padding: 7px 10px; }
+.sym-md { font-size: 27pt; }
+.sym-lg { font-size: 38pt; }
+.sym-xl { font-size: 48pt; }
+.sym-cap { font-size: 10pt; margin-top: 5px; }
+.sb-stack { margin: 4px 0; }
+.sb-row { margin: 0 0 4px 0; }
+.sb-block { font-size: 12pt; padding: 7px 15px; }
+.sb-md .sb-block { font-size: 15pt; padding: 8px 17px; }
+.sb-lg .sb-block { font-size: 19pt; padding: 10px 20px; }
+.sb-md .sb-row, .sb-lg .sb-row { margin: 0 0 5px 0; }
+.mascot-circle { width: 74px; height: 74px; }
+.mascot-circle img { width: 64px; height: 64px; }
+"""
+
+
 def _css(spec: dict) -> str:
     footer_topic = _css_str(spec.get("footer_topic", spec.get("title", "")))
     # Compact mode (used for teacher guides): tightens vertical rhythm so a
     # full guide — including the two verbatim C3 citations — reliably fits one
     # page without per-sheet hand-trimming.
     compact = bool(spec.get("compact"))
-    body_pt = "10.2pt" if compact else "11pt"
-    line_h = "1.30" if compact else "1.5"
-    part_mb = "5px" if compact else "14px"
-    prose_mb = "3px" if compact else "6px"
+    # Roomy mode (used for Kindergarten & Grade 1 worksheets): scales fonts,
+    # vertical rhythm, write-in slots, and visual primitives UP so young
+    # learners get bigger images and far more room to write. Content is
+    # untouched — only size/spacing changes. Never combined with compact
+    # (compact is teacher-guides only); roomy is worksheet-only.
+    roomy = bool(spec.get("roomy"))
+    level = max(0, min(3, int(spec.get("roomy_level", 0)))) if roomy else 0
+    if compact:
+        body_pt, line_h, part_mb, prose_mb = "10.2pt", "1.30", "5px", "3px"
+    elif roomy:
+        lv = _ROOMY_LEVELS[level]
+        body_pt, line_h, part_mb, prose_mb = lv["body"], lv["line"], lv["part_mb"], lv["prose_mb"]
+    else:
+        body_pt, line_h, part_mb, prose_mb = "11pt", "1.5", "14px", "6px"
+    roomy_css = (_roomy_css() + _roomy_overrides(level)) if roomy else ""
     return f"""
 @page {{
     size: Letter;
@@ -389,33 +618,139 @@ h1.title {{
 figure.image {{ text-align: center; margin: 6px 0 14px 0; }}
 figure.image img {{ border-radius: 10px; }}
 figure.image figcaption {{ font-size: 9pt; color: {SLATE}; margin-top: 4px; }}
+
+/* ── phonics / language: BIG kid-friendly design (A Teachable Teacher style) ── */
+/* corner-tab header */
+.ph-header {{ display: flex; align-items: stretch; gap: 16px; margin-bottom: 10px; }}
+.ph-tab {{
+    flex: 0 0 auto; width: 1.05in; min-height: 1.05in;
+    background: {MINT}; color: {PAPER};
+    border-radius: 14px 14px 60px 14px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    padding: 6px;
+}}
+.ph-tab-main {{ font-size: 27pt; font-weight: 800; line-height: 1.02; overflow-wrap: anywhere;
+    max-width: 1.0in; text-align: center; }}
+.ph-tab-sub {{ font-size: 10.5pt; font-weight: 600; margin-top: 2px; letter-spacing: 0.5px;
+    overflow-wrap: anywhere; max-width: 1.0in; text-align: center; }}
+.ph-titlewrap {{ flex: 1 1 auto; }}
+.ph-name {{ font-size: 13pt; color: {SLATE}; margin: 4px 0 2px 0; }}
+.ph-name-rule {{ display: inline-block; width: 62%; border-bottom: 2px dotted {SLATE};
+    height: 1em; vertical-align: middle; }}
+.ph-title {{ font-size: 38pt; font-weight: 800; color: {NAVY}; text-align: center;
+    margin: 2px 0 0 0; line-height: 1.05; }}
+.ph-subtitle {{ font-size: 14pt; color: {SLATE}; text-align: center; margin: 4px 0 0 0; }}
+
+/* big reading table */
+.part.reading {{ margin: 6px 0 10px 0; }}
+.rr-table {{ width: 100%; border-collapse: collapse; }}
+.rr-table tr {{ break-inside: avoid; page-break-inside: avoid; }}
+.rr-table td {{ border: 2.5px solid {NAVY}; vertical-align: middle; }}
+.rr-text {{ padding: 10px 18px; color: {INK}; font-weight: 700; }}
+.rr-text b {{ color: {NAVY}; text-decoration: underline; }}
+.rr-pic {{ width: 1.45in; text-align: center; padding: 6px; }}
+.rr-pic img {{ max-width: 1.25in; max-height: 1.05in; }}
+.rr-lg .rr-text {{ font-size: 23pt; }}
+.rr-md .rr-text {{ font-size: 18pt; padding: 9px 16px; }}
+
+/* big read tracker */
+.part.tracker {{ display: flex; align-items: center; gap: 18px; margin: 10px 0 6px 0;
+    justify-content: center; }}
+.rt-label {{ font-size: 12pt; color: {SLATE}; font-style: italic; }}
+.rt-faces {{ display: flex; gap: 18px; }}
+.rt-face {{ font-size: 40pt; color: {MINT_DARK}; line-height: 1; }}
+
+/* sound boxes — big */
+.part.soundboxes .sbx-row {{
+    display: flex; align-items: center; gap: 18px; margin: 0 0 16px 0; break-inside: avoid;
+}}
+.sbx-pic {{ flex: 0 0 auto; width: 1.0in; height: 1.0in; display: flex;
+    align-items: center; justify-content: center; }}
+.sbx-pic img {{ max-width: 1.0in; max-height: 1.0in; }}
+.sbx-boxes {{ display: flex; gap: 12px; }}
+.sbx-box {{ width: 0.85in; height: 0.85in; border: 3px solid {SLATE}; border-radius: 10px; }}
+.sbx-write {{ flex: 1 1 auto; min-width: 1.5in; border-bottom: 3px solid {SLATE};
+    height: 0.7in; margin-left: 10px; }}
+
+/* letter formation — big */
+/* Serif the letter displays on letter-sound sheets so a capital I is legible
+   (a sans capital I is a bare stroke → "Ii" misreads as "li"). Scoped to
+   .lettersheet so reading-sentence tabs/titles keep the house sans. */
+.lettersheet .ph-tab-main, .lettersheet .ph-title, .lettersheet .title,
+.fm-letter, .fm-trace {{ font-family: Georgia, 'Times New Roman', 'DejaVu Serif', serif; }}
+.part.formation .fm-head {{ display: flex; align-items: center; gap: 26px; margin: 2px 0 6px 0; }}
+.fm-letter {{ font-size: 60pt; color: {NAVY}; line-height: 1; font-weight: 800; }}
+.fm-key {{ display: flex; flex-direction: column; align-items: center; gap: 4px; }}
+.fm-pic {{ width: 1.0in; height: 1.0in; }}
+.fm-keyword {{ font-size: 16pt; color: {SLATE}; }}
+.fm-trace {{ font-size: 38pt; letter-spacing: 0.45em; color: #C2D0DE; white-space: nowrap;
+    border-bottom: 2px dashed {SLATE}; padding-bottom: 5px; margin: 4px 0 10px 0; }}
+.fm-line {{ position: relative; height: 0.55in; margin: 0 0 9px 0; }}
+.fm-sky {{ display: block; height: 0.275in; border-bottom: 1.5px dashed #9FB3C8; }}
+.fm-grass {{ display: block; height: 0.275in; border-bottom: 2.5px solid {SLATE}; }}
+.fm-ground {{ display: none; }}
+
+/* picture sort — big */
+.part.picturerow .pr-prompt {{ font-size: 16pt; color: {INK}; font-weight: 600; margin: 0 0 12px 0; }}
+.pr-row {{ display: block; text-align: center; }}
+.pr-cell {{ display: inline-block; vertical-align: top; text-align: center;
+    width: 1.18in; margin: 0 0.02in 12px 0.02in; }}
+.pr-cell img {{ width: 1.0in; height: 1.0in; display: block; margin: 6px auto 0 auto; }}
+.pr-mark {{ width: 0.32in; height: 0.32in; border: 2.5px solid {SLATE};
+    border-radius: 50%; display: block; margin: 0 auto; }}
+.pr-cap {{ font-size: 13pt; color: {SLATE}; display: block; margin-top: 5px; }}{roomy_css}
 """
 
 
 # ── Document assembly ───────────────────────────────────────────────────────
 def render_worksheet_html(spec: dict) -> str:
-    mascot = Path(spec["mascot"]).resolve().as_uri()
     eyebrow = spec.get("eyebrow", "")
     subtitle = spec.get("subtitle", "")
     goal = spec.get("learning_goal")
 
-    header = f"""
-    <div class="header">
-      <div class="mascot-circle"><img src="{mascot}"/></div>
-      <div class="header-text">
-        {f'<p class="eyebrow">{_esc(eyebrow)}</p>' if eyebrow else ''}
-        <h1 class="title">{_esc(spec['title'])}</h1>
-        {f'<p class="subtitle">{_esc(subtitle)}</p>' if subtitle else ''}
-      </div>
-    </div>
-    """
+    # Mascot is optional: coding sheets pass an SVG; language sheets may omit it.
+    mascot_html = ""
+    if spec.get("mascot"):
+        mascot = Path(spec["mascot"]).resolve().as_uri()
+        mascot_html = f'<div class="mascot-circle"><img src="{mascot}"/></div>'
 
+    # Two header styles. The corner-tab style (spec['tab']) follows the big,
+    # kid-friendly "I Can Read Sentences" design — a coloured corner tab carrying
+    # the target sound, a large centred title, a generous Name line, and big
+    # directions. Used by phonics student worksheets. Otherwise the mint band.
+    tab = spec.get("tab")
     namebar = ""
-    if spec.get("name_date", True):
-        namebar = (
-            '<div class="namebar"><div class="field">Name:</div>'
-            '<div class="field">Date:</div></div>'
-        )
+    if tab:
+        tab_main = _esc(tab.get("main", ""))
+        tab_sub = f'<span class="ph-tab-sub">{_esc(tab["sub"])}</span>' if tab.get("sub") else ""
+        name_line = ('<div class="ph-name">Name: '
+                     '<span class="ph-name-rule"></span></div>') if spec.get("name_date", True) else ""
+        header = f"""
+        <div class="ph-header">
+          <div class="ph-tab"><span class="ph-tab-main">{tab_main}</span>{tab_sub}</div>
+          <div class="ph-titlewrap">
+            {name_line}
+            <h1 class="ph-title">{_esc(spec['title'])}</h1>
+            {f'<p class="ph-subtitle">{_esc(subtitle)}</p>' if subtitle else ''}
+          </div>
+        </div>
+        """
+    else:
+        header = f"""
+        <div class="header">
+          {mascot_html}
+          <div class="header-text">
+            {f'<p class="eyebrow">{_esc(eyebrow)}</p>' if eyebrow else ''}
+            <h1 class="title">{_esc(spec['title'])}</h1>
+            {f'<p class="subtitle">{_esc(subtitle)}</p>' if subtitle else ''}
+          </div>
+        </div>
+        """
+        if spec.get("name_date", True):
+            namebar = (
+                '<div class="namebar"><div class="field">Name:</div>'
+                '<div class="field">Date:</div></div>'
+            )
 
     goal_html = (
         f'<div class="goal"><span class="star">★</span>{_esc(goal)}</div>'
@@ -423,15 +758,57 @@ def render_worksheet_html(spec: dict) -> str:
         else ""
     )
 
-    parts_html = []
-    for part in spec.get("parts", []):
-        renderer = _PART_RENDERERS.get(part.get("type"))
-        if renderer:
-            parts_html.append(renderer(part))
+    parts = [p for p in spec.get("parts", []) if _PART_RENDERERS.get(p.get("type"))]
 
+    # The qgroup (stimulus↔question no-break) pairing is coding-specific. Phonics
+    # sheets have independent activities that should flow and break naturally, so
+    # disable qgroup whenever any phonics part type is present (or a corner tab).
+    _PHONICS_TYPES = {"reading_rows", "read_tracker", "sound_boxes", "formation", "picture_row"}
+    is_phonics = bool(spec.get("tab")) or any(p.get("type") in _PHONICS_TYPES for p in parts)
+
+    if spec.get("roomy") and int(spec.get("roomy_level", 0)) < 3 and not is_phonics:
+        # Keep each question on the same page as its stimulus, WITHOUT forcing a
+        # whole long activity onto one page (which would dump it to the next page
+        # and leave a near-empty page). Each group is [stimulus parts + the FIRST
+        # following exercise]; every additional consecutive exercise becomes its
+        # own group. So the primary stimulus↔question pairing can't split, while
+        # extra same-stimulus questions flow and only break when a page is full.
+        # Each group is wrapped in a no-break .qgroup. Text order is unchanged →
+        # the content-lock still passes.
+        groups: list[list[dict]] = []
+        cur: list[dict] = []
+        cur_has_ex = False
+        for part in parts:
+            is_ex = part.get("type") == "exercise"
+            if not is_ex:
+                if cur and cur_has_ex:        # stimulus after a closed group → new group
+                    groups.append(cur)
+                    cur, cur_has_ex = [], False
+                cur.append(part)
+            else:
+                if not cur_has_ex:            # first exercise joins its stimulus
+                    cur.append(part)
+                    cur_has_ex = True
+                else:                          # subsequent exercise → its own group
+                    groups.append(cur)
+                    cur, cur_has_ex = [part], True
+        if cur:
+            groups.append(cur)
+        body_parts = []
+        for g in groups:
+            inner = "".join(_PART_RENDERERS[p["type"]](p) for p in g)
+            body_parts.append(f'<div class="qgroup">{inner}</div>')
+        parts_html = "".join(body_parts)
+    else:
+        parts_html = "".join(_PART_RENDERERS[p["type"]](p) for p in parts)
+
+    # Letter-sound sheets show the letter pair (e.g. "Ii") in the tab, title and big
+    # glyph. In a sans font a capital I is a bare stroke indistinguishable from
+    # lowercase l ("Ii" reads as "li"), so those sheets render the letter in a serif.
+    body_cls = ' class="lettersheet"' if any(p.get("type") == "formation" for p in parts) else ""
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><style>{_css(spec)}</style></head>
-<body>{header}{namebar}{goal_html}{''.join(parts_html)}</body></html>"""
+<body{body_cls}>{header}{namebar}{goal_html}{parts_html}</body></html>"""
 
 
 def render_pdf(spec: dict, out_path: Path) -> Path:

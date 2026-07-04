@@ -1,0 +1,16 @@
+{
+  "_doc": "Kid-safe content gate for K-3 phonics worksheets. Whole-word, case-insensitive match against every student-facing token (sentences, instructions, word lists, picture words). A 'blocked' hit FAILS the build. 'allow' lists reviewed exceptions that would otherwise read as edgy but are age-appropriate in context. Decodability only proves phonetic legality — a word can decode cleanly and still be a bad pick (skull, knife). Extend the lists as new picks are reviewed.",
+  "blocked": [
+    "skull", "knife", "knives", "gun", "guns", "blood", "bloody",
+    "dead", "death", "kill", "kills", "killed", "die", "dies", "died", "dying",
+    "weapon", "weapons", "sword", "bomb", "corpse", "grave", "coffin",
+    "drown", "drowned", "stab", "stabbed", "shoot", "gunshot", "bullet",
+    "drunk", "beer", "wine", "cigarette", "cigar", "drug", "drugs",
+    "hell", "damn", "naked"
+  ],
+  "allow": {
+    "witch": "fairy-tale character, reviewed OK",
+    "ghost": "friendly/Halloween, reviewed OK",
+    "hurt": "safe in context (e.g. a scraped knee), reviewed OK"
+  }
+}

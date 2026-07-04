@@ -1,0 +1,13 @@
+{
+  "_doc": "Explicit depiction prompts for abstract nouns / homographs the image model renders wrong by default (foil->sword, nail->finger, map->doodle, trunk->elephant-trunk). Used verbatim by phonics_images._ai (inserted into the faceless OBJECT template) so a rebuild is durable instead of re-inventing the prompt each time. All entries are inanimate objects. Add a word here the first time the model draws it wrong.",
+  "photo": "a framed printed photograph picture",
+  "wood": "a stack of chopped firewood logs",
+  "foil": "a roll of shiny kitchen aluminium foil",
+  "nail": "a metal carpentry nail with a flat head and a pointed tip",
+  "page": "a single sheet of paper page from an open book",
+  "map": "a folded paper world map",
+  "trunk": "a large travel storage trunk chest with a latch",
+  "echo": "sound waves bouncing off a canyon wall",
+  "shop": "a small storefront shop building",
+  "stick": "a single thin wooden tree twig stick"
+}

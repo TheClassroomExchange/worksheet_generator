@@ -1,0 +1,156 @@
+{
+  "title": "I Can Read Sentences: qu",
+  "file_title": "I Can Read Sentences - qu",
+  "phonics": {
+    "grade": "K",
+    "lesson_order": 33,
+    "target_grapheme": "qu",
+    "decodable_text": [
+      "The duck can quack.",
+      "I see a red quilt.",
+      "The quick fox ran.",
+      "A quiz for the cat.",
+      "The pig will quit."
+    ],
+    "image_words": [
+      {
+        "word": "duck"
+      },
+      {
+        "word": "quilt"
+      },
+      {
+        "word": "fox"
+      },
+      {
+        "word": "cat"
+      },
+      {
+        "word": "pig"
+      }
+    ],
+    "target_optional": false,
+    "curriculum": [
+      {
+        "code": "A2.4",
+        "text": "identify simple grapheme-phoneme correspondences"
+      },
+      {
+        "code": "A2.5",
+        "text": "read and spell simple words using phonemic awareness and phonics knowledge"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "qu",
+      "sub": "/kw/"
+    },
+    "eyebrow": "Kindergarten · Phonics · qu",
+    "title": "I Can Read Sentences",
+    "subtitle": "Sound /kw/ spelled qu",
+    "footer_topic": "qu — I Can Read Sentences",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "Underline the qu in each sentence. Then read each sentence out loud. Colour a face each time you read the whole page."
+      },
+      {
+        "type": "reading_rows",
+        "bold": "qu",
+        "size": "lg",
+        "reveal": "first",
+        "rows": [
+          {
+            "text": "The duck can quack.",
+            "word": "duck",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/duck.png"
+          },
+          {
+            "text": "I see a red quilt.",
+            "word": "quilt",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/quilt.png"
+          },
+          {
+            "text": "The quick fox ran.",
+            "word": "fox",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/fox.png"
+          },
+          {
+            "text": "A quiz for the cat.",
+            "word": "cat",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/cat.png"
+          },
+          {
+            "text": "The pig will quit.",
+            "word": "pig",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pig.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the page 3 times. Colour a face each time you read it."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Kindergarten · qu",
+    "title": "qu",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "qu — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children read short, decodable sentences that practise the sound for qu. Every other word uses letter-sounds they already know, so they can read each sentence on their own. Reading the page three times builds fluency."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Say the sound for qu together.",
+          "2. Read the first sentence together, pointing under each word.",
+          "3. Children underline qu in each sentence, then read each sentence on their own.",
+          "4. Children read the whole page three times and colour one face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Sentence 1: quack.",
+          "Sentence 2: quilt.",
+          "Sentence 3: quick.",
+          "Sentence 4: quiz.",
+          "Sentence 5: quit.",
+          "Your turn / extension: any real word with qu."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "A2.4 — identify simple grapheme-phoneme correspondences.",
+          "In plain terms: children match a letter to the sound it makes.",
+          "A2.5 — read and spell simple words using phonemic awareness and phonics knowledge.",
+          "In plain terms: children read and spell simple words by blending the sounds."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out qu part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}

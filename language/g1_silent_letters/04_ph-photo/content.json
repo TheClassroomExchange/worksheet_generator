@@ -1,0 +1,156 @@
+{
+  "title": "I Can Read Sentences: ph",
+  "file_title": "I Can Read Sentences - ph",
+  "phonics": {
+    "grade": "1",
+    "lesson_order": 84,
+    "target_grapheme": "ph",
+    "decodable_text": [
+      "I see a photo.",
+      "The phone is red.",
+      "A dolphin can swim.",
+      "The elephant is big.",
+      "I read the graph."
+    ],
+    "image_words": [
+      {
+        "word": "photo"
+      },
+      {
+        "word": "phone"
+      },
+      {
+        "word": "dolphin"
+      },
+      {
+        "word": "elephant"
+      },
+      {
+        "word": "graph"
+      }
+    ],
+    "target_optional": false,
+    "curriculum": [
+      {
+        "code": "B2.3",
+        "text": "identify, read, and spell most common grapheme-phoneme correspondences of consonants and vowels, with automaticity"
+      },
+      {
+        "code": "B2.4",
+        "text": "use phonics knowledge and phonemic blending to read words, and phonemic segmentation to spell phonetically regular words, in isolation and various text contexts"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "ph",
+      "sub": "/f/"
+    },
+    "eyebrow": "Grade 1 · Phonics · ph",
+    "title": "I Can Read Sentences",
+    "subtitle": "ph says /f/",
+    "footer_topic": "ph — I Can Read Sentences",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "Underline the ph in each sentence. Then read each sentence out loud. Colour a face each time you read the whole page."
+      },
+      {
+        "type": "reading_rows",
+        "bold": "ph",
+        "size": "lg",
+        "reveal": "first",
+        "rows": [
+          {
+            "text": "I see a photo.",
+            "word": "photo",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/photo.png"
+          },
+          {
+            "text": "The phone is red.",
+            "word": "phone",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/phone.png"
+          },
+          {
+            "text": "A dolphin can swim.",
+            "word": "dolphin",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/dolphin.png"
+          },
+          {
+            "text": "The elephant is big.",
+            "word": "elephant",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/elephant.png"
+          },
+          {
+            "text": "I read the graph.",
+            "word": "graph",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/graph.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the page 3 times. Colour a face each time you read it."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Grade 1 · ph",
+    "title": "ph",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "ph — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children read short, decodable sentences that practise the sound for ph. Every other word uses letter-sounds they already know, so they can read each sentence on their own. Reading the page three times builds fluency."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Say the sound for ph together.",
+          "2. Read the first sentence together, pointing under each word.",
+          "3. Children underline ph in each sentence, then read each sentence on their own.",
+          "4. Children read the whole page three times and colour one face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Sentence 1: photo.",
+          "Sentence 2: phone.",
+          "Sentence 3: dolphin.",
+          "Sentence 4: elephant.",
+          "Sentence 5: graph.",
+          "Your turn / extension: any real word with ph."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "B2.3 — identify, read, and spell most common grapheme-phoneme correspondences of consonants and vowels, with automaticity.",
+          "In plain terms: children read and spell the everyday letter-sounds (and word parts) quickly.",
+          "B2.4 — use phonics knowledge and phonemic blending to read words, and phonemic segmentation to spell phonetically regular words, in isolation and various text contexts.",
+          "In plain terms: children blend sounds to read words and break words into sounds to spell."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out ph part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}

@@ -70,6 +70,31 @@ grade's arc into another scores out-of-grade and fails the rubric. **Each subjec
   ("no matches found") — run `pdftoppm` separately or use distinct output prefixes.
 - `input_row.json` may be re-written by a linter after creation — harmless, intentional.
 
+## Roomy young-grade layout + no-blank-page gate (2026-06-28)
+K & G1 need **bigger images and more room to write**. This is grade-driven and content-preserving:
+- **Roomy mode** (`pipeline/worksheet_pdf.py`): `render_sheet` sets `roomy=True` for grade ∈
+  `ROOMY_GRADES = {Kindergarten, Grade 1}` (G2/G3 untouched). `_roomy_css()` scales fonts, spacing,
+  symbol/block cards, mascot, and write-in slots up; a single-answer `grid 1×1` becomes a large
+  full-width write box (`.ex-grid .grid-cell:only-child`). Each exercise is grouped with its
+  preceding stimulus in a no-break `.qgroup` so a question stays on the page with its blocks/images.
+- **`roomy_level` 0→3** is a compaction ladder (`_ROOMY_LEVELS` + append-only `_roomy_overrides`);
+  level 0 == the original roomy output (byte-identical). Higher levels compact just enough to fit an
+  over-tall group on its page (L3 also drops `.qgroup`).
+- **No-blank-page gate** (`pipeline/layout_rubric.py::page_fill_ok`): an ink-coverage oracle — crop
+  the body band (between header and footer), `PIL.getbbox()` of ink, flag any worksheet page whose
+  ink ends below ~0.30 of page height (header-only / lone-line). TG pages excluded by footer.
+  **`finalize_visual` runs it as a HARD gate for every grade** — a near-empty page can't finalize →
+  can't publish. The bug it kills: `break-inside:avoid` force-pushing a too-tall group to the next
+  page, leaving a header-only page.
+- **`fit_render(dir, baseline_pdf=None)`** is the auto-fit tool used for the render+combine step:
+  it climbs the ladder and accepts the roomiest level passing `page_fill_ok` (+ `content_unchanged`
+  vs `baseline_pdf` when revising an existing sheet; omit the baseline for a fresh build).
+- **Content-invariance for layout-only revisions:** `content_unchanged` diffs pdftotext (multiset
+  fallback tolerant of pdftotext dehyphenation + symbol-card reflow) so wording can't drift.
+- **Verification lesson:** a per-subject **thumbnail montage HID a blank page** — stacked thumbnails
+  make a header-only page easy to miss. Use the objective `page_fill_ok` oracle, and Read each
+  CHANGED sheet's pages **full-size**.
+
 ## Extending the catalogue
 Add a subject = new row in `subjects.json` (status != done, grade-specific `concept_ceiling`) +
 its own `topics.json` + run the per-sheet loop. The runner picks the lowest-`order` subject with

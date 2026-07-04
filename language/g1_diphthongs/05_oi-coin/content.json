@@ -1,0 +1,156 @@
+{
+  "title": "I Can Read Sentences: oi",
+  "file_title": "I Can Read Sentences - oi",
+  "phonics": {
+    "grade": "1",
+    "lesson_order": 79,
+    "target_grapheme": "oi",
+    "decodable_text": [
+      "I see a coin.",
+      "The oil is hot.",
+      "Boil it in the pot.",
+      "The soil is wet.",
+      "Wrap it in foil."
+    ],
+    "image_words": [
+      {
+        "word": "coin"
+      },
+      {
+        "word": "oil"
+      },
+      {
+        "word": "pot"
+      },
+      {
+        "word": "soil"
+      },
+      {
+        "word": "foil"
+      }
+    ],
+    "target_optional": false,
+    "curriculum": [
+      {
+        "code": "B2.3",
+        "text": "identify, read, and spell most common grapheme-phoneme correspondences of consonants and vowels, with automaticity"
+      },
+      {
+        "code": "B2.4",
+        "text": "use phonics knowledge and phonemic blending to read words, and phonemic segmentation to spell phonetically regular words, in isolation and various text contexts"
+      }
+    ]
+  },
+  "worksheet": {
+    "tab": {
+      "main": "oi",
+      "sub": "/oi/"
+    },
+    "eyebrow": "Grade 1 · Phonics · oi",
+    "title": "I Can Read Sentences",
+    "subtitle": "Diphthong /oi/ spelled oi",
+    "footer_topic": "oi — I Can Read Sentences",
+    "name_date": true,
+    "parts": [
+      {
+        "type": "prose",
+        "text": "Underline the oi in each sentence. Then read each sentence out loud. Colour a face each time you read the whole page."
+      },
+      {
+        "type": "reading_rows",
+        "bold": "oi",
+        "size": "lg",
+        "reveal": "first",
+        "rows": [
+          {
+            "text": "I see a coin.",
+            "word": "coin",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/coin.png"
+          },
+          {
+            "text": "The oil is hot.",
+            "word": "oil",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/oil.png"
+          },
+          {
+            "text": "Boil it in the pot.",
+            "word": "pot",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/pot.png"
+          },
+          {
+            "text": "The soil is wet.",
+            "word": "soil",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/soil.png"
+          },
+          {
+            "text": "Wrap it in foil.",
+            "word": "foil",
+            "img": "/Users/anthonnymonterroso/Desktop/TCE/wg-language/assets/ai_line_art/foil.png"
+          }
+        ]
+      },
+      {
+        "type": "read_tracker",
+        "count": 3,
+        "label": "Read the page 3 times. Colour a face each time you read it."
+      }
+    ]
+  },
+  "teacher_guide": {
+    "eyebrow": "Teacher Guide · Grade 1 · oi",
+    "title": "oi",
+    "subtitle": "Quick facilitation notes & answer key",
+    "footer_topic": "oi — Teacher Guide",
+    "name_date": false,
+    "compact": true,
+    "parts": [
+      {
+        "type": "prose",
+        "title": "What this worksheet teaches",
+        "text": "Children read short, decodable sentences that practise the sound for oi. Every other word uses letter-sounds they already know, so they can read each sentence on their own. Reading the page three times builds fluency."
+      },
+      {
+        "type": "prose",
+        "title": "How to lead it (about 15 minutes)",
+        "text": [
+          "1. Say the sound for oi together.",
+          "2. Read the first sentence together, pointing under each word.",
+          "3. Children underline oi in each sentence, then read each sentence on their own.",
+          "4. Children read the whole page three times and colour one face each time."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Answer key",
+        "text": [
+          "Sentence 1: coin.",
+          "Sentence 2: oil.",
+          "Sentence 3: Boil.",
+          "Sentence 4: soil.",
+          "Sentence 5: foil.",
+          "Your turn / extension: any real word with oi."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "Ontario curriculum link (official wording)",
+        "text": [
+          "B2.3 — identify, read, and spell most common grapheme-phoneme correspondences of consonants and vowels, with automaticity.",
+          "In plain terms: children read and spell the everyday letter-sounds (and word parts) quickly.",
+          "B2.4 — use phonics knowledge and phonemic blending to read words, and phonemic segmentation to spell phonetically regular words, in isolation and various text contexts.",
+          "In plain terms: children blend sounds to read words and break words into sounds to spell."
+        ]
+      },
+      {
+        "type": "prose",
+        "title": "If children get stuck — and ways to adjust",
+        "text": [
+          "Watch for: sounding out oi part by part. Cover the rest of the word and say the target first.",
+          "Make it easier: do fewer items together first; you read, the child echoes.",
+          "Make it harder: ask the child to think of or write one more word with the target.",
+          "You'll know it worked when: the child reads the page smoothly and spots the target on sight."
+        ]
+      }
+    ]
+  }
+}

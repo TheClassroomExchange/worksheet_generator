@@ -22,3 +22,8 @@ token.json*
 # Failed-attempt artifacts + local composed manifest cache
 *.attempt_*.failed.json
 .composed_manifest.json
+
+# One-off remediation snapshots (local-only revert backups)
+language/_*_backup/
+language/**/_live_before/
+_live_before/
