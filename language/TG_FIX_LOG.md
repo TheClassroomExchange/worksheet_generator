@@ -1,0 +1,17 @@
+# Teacher-Guide fix — run log
+
+- Passed: 13  Failed: 0  Total: 13
+
+✅ `g1_long_vowels_vce/06_a-e-cake` ws_text=[worksheet text identical] ws_raster=[page-1 raster identical] answer=[5 sentences keyed, no blanks] verb=[step-3 verb matches directions] pages=[2 pages]
+✅ `g1_long_vowels_vce/07_i-e-ice` ws_text=[worksheet text identical] ws_raster=[page-1 raster identical] answer=[5 sentences keyed, no blanks] verb=[step-3 verb matches directions] pages=[2 pages]
+✅ `g1_long_vowels_vce/08_o-e-nose` ws_text=[worksheet text identical] ws_raster=[page-1 raster identical] answer=[5 sentences keyed, no blanks] verb=[step-3 verb matches directions] pages=[2 pages]
+✅ `g1_long_vowels_vce/09_e-e-eve` ws_text=[worksheet text identical] ws_raster=[page-1 raster identical] answer=[5 sentences keyed, no blanks] verb=[step-3 verb matches directions] pages=[2 pages]
+✅ `g1_long_vowels_vce/10_u-e-cube` ws_text=[worksheet text identical] ws_raster=[page-1 raster identical] answer=[5 sentences keyed, no blanks] verb=[step-3 verb matches directions] pages=[2 pages]
+✅ `g1_vowel_teams/01_le-uncle` ws_text=[worksheet text identical] ws_raster=[page-1 raster identical] answer=[5 sentences keyed, no blanks] verb=[step-3 verb matches directions] pages=[2 pages]
+✅ `g2_rcontrolled_and_more/12_schwa-balloon` ws_text=[worksheet text identical] ws_raster=[page-1 raster identical] answer=[5 sentences keyed, no blanks] verb=[step-3 verb matches directions] pages=[2 pages]
+✅ `g3_prefixes/01_ly-slowly` (page1 capped) ws_text=[worksheet removals only (17 tokens: ['ly', 'The', '—', 'Word', 'Building', 'Classroom', 'Exchange', 'page'])] ws_raster=[raster identity N/A (D4 reflow) — worksheet-text subset verified] answer=[1 sentences keyed, no blanks] verb=[word-building lead (build steps, no find-verb)] pages=[2 pages]
+✅ `g3_prefixes/02_un-undo` (page1 capped) ws_text=[worksheet removals only (17 tokens: ['The', 'un', '—', 'Word', 'Building', 'Classroom', 'Exchange', 'page'])] ws_raster=[raster identity N/A (D4 reflow) — worksheet-text subset verified] answer=[1 sentences keyed, no blanks] verb=[word-building lead (build steps, no find-verb)] pages=[2 pages]
+✅ `g3_suffixes/01_s-cats` (page1 capped) ws_text=[worksheet removals only (18 tokens: ['s', 'The', '—', 'Word', 'Building', 'Classroom', 'Exchange', 'page'])] ws_raster=[raster identity N/A (D4 reflow) — worksheet-text subset verified] answer=[1 sentences keyed, no blanks] verb=[word-building lead (build steps, no find-verb)] pages=[2 pages]
+✅ `g3_suffixes/03_ed-jumped` (page1 capped) ws_text=[worksheet removals only (17 tokens: ['ed', 'The', '—', 'Word', 'Building', 'Classroom', 'Exchange', 'page'])] ws_raster=[raster identity N/A (D4 reflow) — worksheet-text subset verified] answer=[1 sentences keyed, no blanks] verb=[word-building lead (build steps, no find-verb)] pages=[2 pages]
+✅ `g3_suffixes/04_er-faster` (page1 capped) ws_text=[worksheet removals only (17 tokens: ['er', 'The', 'car', 'is', '—', 'Word', 'Building', 'Classroom'])] ws_raster=[raster identity N/A (D4 reflow) — worksheet-text subset verified] answer=[1 sentences keyed, no blanks] verb=[word-building lead (build steps, no find-verb)] pages=[2 pages]
+✅ `g1_doubles_blends/08_ull-full` (page1 capped) ws_text=[worksheet removals only (4 tokens: ['I', 'a', 'see', 'skull.'])] ws_raster=[raster identity N/A (D4 reflow) — worksheet-text subset verified] answer=[4 sentences keyed, no blanks] verb=[step-3 verb matches directions] pages=[2 pages]
