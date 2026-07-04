@@ -174,13 +174,39 @@ def gen_sentences(topic: dict, data: dict, grade: str) -> dict:
     }
 
 
+def _clean_reading_rows(rows: list[dict], n: int) -> list[dict]:
+    """Pick up to `n` rows preferring a DISTINCT picture whose word appears in the
+    sentence (skips a duplicate/mismatched pic like open-syllable's robot on 'I like
+    music.'), falling back to fill from the remainder. Keeps rebuild == a clean
+    hand-edit and satisfies the G2/G3 gates by construction."""
+    def _stem(w): return re.sub(r"(ing|ed|es|s)$", "", w.lower())
+    def _toks(s): return {_stem(w) for w in re.findall(r"[a-z]+", s.lower())}
+    picked, seen = [], set()
+    for r in rows:
+        pic = (r.get("pic") or "").lower()
+        if pic and (pic in seen or _stem(pic) not in _toks(r.get("text", ""))):
+            continue
+        picked.append(r)
+        if pic:
+            seen.add(pic)
+        if len(picked) >= n:
+            return picked
+    for r in rows:  # short on clean rows → fill to n
+        if len(picked) >= n:
+            break
+        if r not in picked:
+            picked.append(r)
+    return picked[:n]
+
+
 def gen_word_building(topic: dict, data: dict, grade: str) -> dict:
     target = topic["target_grapheme"]
     order = data.get("order", topic["order"])
     sub = data.get("sub", "suffix")
     sound = data.get("sound", "")
     build = data.get("build", [])    # [[base, word], ...]  (base + affix)
-    rows = data["sentences"][:3]     # cap to 3 so build-table + sentences fit one page
+    # cap to 3 (build-table + sentences fit one page), choosing DISTINCT valid rows
+    rows = _clean_reading_rows(data["sentences"], 3)
     codes = _codes(grade, "word_building")
     blank = "______________"
     if data.get("build_lines"):      # explicit build strings (e.g. syllable splits)
